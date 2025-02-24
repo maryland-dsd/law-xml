@@ -1,0 +1,839 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>21</num>
+  <heading>Private Review Agents</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>"Accrediting organization" means an entity that accredits or certifies the utilization management activities of a private review agent.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>"Administration" means the Maryland Insurance Administration.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Adverse Decision.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Adverse decision" means a utilization review determination made by a private review agent that a proposed or delivered health care service that is otherwise covered under the patient's contract:</text>
+          <para>
+            <num>(i)</num>
+            <text>Is or was not medically necessary, appropriate, or efficient; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>May result in noncoverage of the health care service.</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Adverse decision" does not include a decision concerning a subscriber's status as a member.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>"Approved accrediting organization" means an accrediting organization that has been approved by the Commissioner as having accreditation standards that meet or exceed standards in this chapter.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>"Carrier" has the meaning stated in <cite doc="Md. Code" path="gin|15-10">Insurance Article, §15-10</cite>A-01, Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>"Certificate" means a certificate of registration granted by the Commissioner to a private review agent.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>"Commissioner" means the State Insurance Commissioner.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>“Contact information” means an individual’s name, job title and department, address, telephone number, facsimile number, and email address.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>"Emergency case" means a case involving an adverse decision for which an expedited review is required under <cite path="31.10.18.05">COMAR 31.10.18.05</cite>.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>Employee Assistance Program.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Employee assistance program" means a health care service plan that, in accordance with a contract with an employer or labor union:</text>
+          <para>
+            <num>(i)</num>
+            <text>Consults with employees or members of an employee's family or both to identify the employee's or the employee's family member's mental health, alcohol, or substance abuse problems, and refers the employee or the employee's family member to health care providers or other community resources for counseling, therapy, or treatment; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Performs utilization review for the purpose of making claims or payment decisions on behalf of the employer's or labor union's health insurance or health benefit plan.</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Employee assistance program" does not include a health care service plan operated by a hospital solely for employees, or members of an employee's family, of that hospital.</text>
+        </para>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>Grievance.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Grievance" means a protest filed by a patient or health care provider on behalf of a patient with a private review agent through the private review agent's internal grievance process regarding an adverse decision concerning a patient.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Grievance" does not include a verbal request for reconsideration of a utilization review determination.</text>
+        </para>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>"Grievance decision" means a final determination by a private review agent that arises from a grievance filed with the private review agent under its internal grievance process regarding an adverse decision concerning a patient.</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>"Health care facility" means:</text>
+        <para>
+          <num>(a)</num>
+          <text>A hospital as defined in Health-General Article, §19-301, Annotated Code of Maryland;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A related institution as defined in Health-General Article, §19-301, Annotated Code of Maryland;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>An ambulatory surgical facility or center which is any entity or part of an entity that operates primarily for the purpose of providing surgical services to patients not requiring hospitalization and seeks reimbursement from third-party payors as an ambulatory surgical facility or center;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>A facility that is organized primarily to help in the rehabilitation of disabled individuals;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>A home health agency as defined in Health-General Article, §19-401, Annotated Code of Maryland;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>A hospice as defined in Health-General Article, §19-901, Annotated Code of Maryland;</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>A facility that provides radiological or other diagnostic imagery services;</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>A medical laboratory as defined in Health-General Article, §17-201, Annotated Code of Maryland; or</text>
+        </para>
+        <para>
+          <num>(i)</num>
+          <text>An alcohol abuse and drug abuse treatment program as defined in Health-General Article, §8-403, Annotated Code of Maryland.</text>
+        </para>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>"Health care provider" means:</text>
+        <para>
+          <num>(a)</num>
+          <text>An individual who is:</text>
+          <para>
+            <num>(i)</num>
+            <text>Licensed or otherwise authorized to provide health care services in the ordinary course of business or practice of a profession, and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>A treating provider of the patient; or</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A hospital, as defined in Health-General Article, §19-301, Annotated Code of Maryland.</text>
+        </para>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>"Health care service" means a health or medical care procedure or service rendered by a health care provider licensed or authorized to provide health care services that:</text>
+        <para>
+          <num>(a)</num>
+          <text>Provides testing, diagnosis, or treatment of a human disease or dysfunction;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Dispenses drugs, medical devices, medical appliances, or medical goods for the treatment of a human disease or dysfunction; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Provides any other care, service, or treatment of disease or injury, the correction of defects, or the maintenance of the physical and mental well-being of human beings.</text>
+        </para>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>"Private review agent" means:</text>
+        <para>
+          <num>(a)</num>
+          <text>A non-hospital-affiliated person or entity performing utilization review that is either affiliated with, under contract with, or acting on behalf of a Maryland business entity, or a third party that pays for, provides, or administers health care services to citizens of this State; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A person or entity including a hospital-affiliated person performing utilization review for the purpose of making claims or payment decisions for health care services on behalf of the employer's or labor union's health insurance plan under an employee assistance program for employees other than the employees:</text>
+          <para>
+            <num>(i)</num>
+            <text>Employed by the hospital; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Employed by a business wholly owned by the hospital.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>"Reconsideration" means a verbal request or verbal inquiry by a patient, the patient's representative, or a provider regarding an adverse decision.</text>
+      </para>
+      <para>
+        <num>(18)</num>
+        <text>"Significant beneficial interest" means the ownership of any financial interest that is greater than the lesser of:</text>
+        <para>
+          <num>(a)</num>
+          <text>5 percent of the whole; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>$5,000.</text>
+        </para>
+      </para>
+      <para>
+        <num>(19)</num>
+        <text>"Specific criteria and standards" means professionally developed objective measures used during utilization review to make determinations to authorize or certify the appropriate use and efficient allocation of health care resources.</text>
+      </para>
+      <para>
+        <num>(20)</num>
+        <text>"Uniform treatment plan form" means a form specified by the Commissioner to be used for utilization review of services for the treatment of a mental illness, emotional disorder, or a substance abuse disorder.</text>
+      </para>
+      <para>
+        <num>(21)</num>
+        <text>"Utilization review" means a system for reviewing the appropriate and efficient allocation of health care resources and services given or proposed to be given to a patient or group of patients.</text>
+      </para>
+      <para>
+        <num>(22)</num>
+        <text>"Utilization review plan" means a description of the standards governing utilization review activities performed by a private review agent.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Certification.</heading>
+    <para>
+      <num>A.</num>
+      <text>A private review agent shall hold a certificate from the Commissioner to conduct utilization review in this State.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A private review agent shall submit to the Commissioner the contact information of one person who will be available to respond to inquiries from the Maryland Insurance Administration. If the contact information for the designated person changes, the private review agent shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Notify the Commissioner in writing within 30 days; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Provide new contact information.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A private review agent seeking certification shall submit to the Commissioner an application for certification on a form specified by the Commissioner so that the Commissioner can determine whether the private review agent meets the requirements of this regulation. The private review agent shall attach the following additional information to the application:</text>
+      <para>
+        <num>(1)</num>
+        <text>A utilization review plan which includes the following:</text>
+        <para>
+          <num>(a)</num>
+          <text>Types of reviews performed and a written protocol describing each type of review, including:</text>
+          <para>
+            <num>(i)</num>
+            <text>Preauthorization;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Preadmission;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Admission;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Emergency admission;</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>Second surgical opinion;</text>
+          </para>
+          <para>
+            <num>(vi)</num>
+            <text>Discharge planning;</text>
+          </para>
+          <para>
+            <num>(vii)</num>
+            <text>Concurrent; or</text>
+          </para>
+          <para>
+            <num>(viii)</num>
+            <text>Retrospective;</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Copies of specific criteria and standards to be used in conducting utilization reviews of proposed or delivered health care services, including:</text>
+          <para>
+            <num>(i)</num>
+            <text>A list of the interpretive guidelines used by the private review agent that identifies the title, author, publisher, and edition of the guidelines; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Copies of interpretive guidelines for which there are no applicable copyright laws;</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Forms that are completed during the review;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Specified time frames in which the private review agent makes determinations to authorize or certify services;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>A written protocol describing the following:</text>
+          <para>
+            <num>(i)</num>
+            <text>The grievance procedure by which a patient, a patient's representative, or a patient's health care provider may file a grievance with a private review agent;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The grievance procedure for receipt of an emergency case, including the initial acceptance of a verbal grievance by a patient, a patient's representative, or a patient's health care provider; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Any procedures for handling a verbal request for reconsideration of a utilization review determination;</text>
+          </para>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Forms to be completed by a private review agent, a patient, or a patient's representative, including a health care provider, during the grievance procedure;</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>Specified time frames in which a private review agent shall make a final grievance decision in writing;</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>Qualifications of the personnel making the final grievance determinations; and</text>
+        </para>
+        <para>
+          <num>(i)</num>
+          <text>The circumstances, if any, under which utilization review may be delegated to a hospital utilization review program and, if applicable, a list of the carriers for whom the private review agent:</text>
+          <para>
+            <num>(i)</num>
+            <text>Is performing utilization review; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Has been delegated the internal grievance process pursuant to <cite doc="Md. Code" path="gin">Insurance Article, Title 15, Subtitle 10A, Annotated Code of Maryland</cite>;</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Type and qualifications of the personnel either employed or under contract to perform utilization review which includes:</text>
+        <para>
+          <num>(a)</num>
+          <text>Registered nurses;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Medical records technicians or similar personnel supported and supervised by physicians as may be required;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Physicians; or</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Other appropriate health care providers;</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Policies and procedures to ensure that a representative of a private review agent is reasonably accessible to patients and providers 7 days a week, 24 hours a day in this State;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Policies and procedures to ensure that all applicable State and federal laws protecting the confidentiality of individual medical records are followed;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>A copy of materials designed to inform patients and providers of requirements of the utilization review plan;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>A list of third-party payors for which a private review agent is performing utilization review in this State;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Policies and procedures to ensure that a private review agent has a formal program for the effective orientation and training of the personnel either employed or under contract to perform utilization review;</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>An outline of the training program which includes content and schedule of presentation;</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>Qualifications of health care providers involved in establishing the specific criteria and standards to be used in conducting utilization review if nationally recognized criteria are not used;</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>Certification by a private review agent that the criteria and standards to be used in conducting utilization review are:</text>
+        <para>
+          <num>(a)</num>
+          <text>Objective;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Clinically valid;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Compatible with established principles of health care; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Flexible enough to allow deviations from norms when justified on a case-by-case basis; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>A nonrefundable application fee of $1,500.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="31|10|21|.02-1">
+    <prefix>Regulation</prefix>
+    <num>.02-1</num>
+    <heading>Uniform Treatment Plan.</heading>
+    <para>
+      <num>A.</num>
+      <text>Scope. This regulation does not apply to a person that uses a treatment plan form solely for internal purposes, unless the private review agent requires the information to authorize treatment.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Form Required. If a private review agent requires a health care provider to submit a treatment plan or telephonically provide the information requested on the uniform treatment plan, to enable the private review agent to conduct utilization review of services for the treatment of a mental illness, emotional disorder, or a substance abuse disorder, the private review agent shall use the uniform treatment plan form set forth in <cite path="31|10|21|.02-1|H.">§H of this regulation</cite>.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Acceptance of Form by Private Review Agent. A private review agent shall accept the uniform treatment plan form as a properly submitted treatment plan form and may not require a health care provider to:</text>
+      <para>
+        <num>(1)</num>
+        <text>Modify the uniform treatment plan form or its content except as provided in this regulation; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Submit additional treatment plan forms.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Instructions. A private review agent may provide a set of instructions for use by the health care provider regarding the private review agent's specific managed care requirements.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Modification of Form Prohibited. A private review agent may not modify the uniform treatment plan form in any manner.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Use of Form by Health Care Provider. A health care provider shall use and properly complete the uniform treatment plan form as provided in this regulation.</text>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Submission of Form by Electronic Transfer. The uniform treatment plan form may be submitted by electronic transfer.</text>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>The uniform treatment plan form required by this regulation shall read as follows:</text>
+      <text>
+        <strong>
+          <em>Form is located at end of chapter.</em>
+        </strong>
+      </text>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>Telephonic Review. If a private review agent conducts utilization review of services for the treatment of a mental illness, emotional disorder, or a substance abuse disorder telephonically, the private review agent may not require the health care provider to provide any information that is not requested on the uniform treatment plan form.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Specific Criteria and Standards.</heading>
+    <para>
+      <num>A.</num>
+      <text>Required Copies. Upon the written request of a person or health care facility, a private review  agent shall provide one copy of the specific criteria and standards to be used in conducting utilization review of proposed or delivered services and any subsequent revisions or modifications to the specific criteria and standards.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Fee for Copy. A private review agent shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Make available a copy of specific criteria and standards used in conducting utilization review of proposed or delivered services for inspection on the premises during normal business hours;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Provide a copy of the specific criteria and standards to a person or health care facility upon request at a reasonable fee determined by the private review agent; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Provide a copy of the specific criteria and standards upon request to a State agency at no charge to the agency.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Determinations.</heading>
+    <para>
+      <num>A.</num>
+      <text>Nonemergency Treatment. A private review agent shall make all initial determinations on whether to authorize or certify a nonemergency course of treatment for a patient within the time period specified in <cite doc="Md. Code" path="gin|15-10">Insurance Article, §15-10</cite>B-06, Annotated Code of Maryland.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Extended Stays or Additional Health Care Services. A private review agent shall make all determinations on whether to authorize or certify an extended stay in a health care facility or additional health care services within the time period specified in <cite doc="Md. Code" path="gin|15-10">Insurance Article, §15-10</cite>B-06, Annotated Code of Maryland.</text>
+    </para>
+  </section>
+  <section cache:ref-path="31|10|21|.05">
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Patient Referrals by Private Review Agents.</heading>
+    <para>
+      <num>A.</num>
+      <text>Except as provided in <cite path="31|10|21|.05|B.">§B of this regulation</cite>, this regulation does not apply to:</text>
+      <para>
+        <num>(1)</num>
+        <text>A private review agent referring an individual to a health care provider or facility that participates in a health maintenance organization;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A preferred provider organization network of participating health care providers or facilities to which the individual would otherwise be referred as part of the individual's membership or insurance contract; or</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>An employee assistance program referring an individual to a network of participating health care providers or facilities in accordance with a contract with the individual's employer or labor union to provide comprehensive mental health and substance abuse services.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A private review agent or other individual who is affiliated with, under contract with, or acting on behalf of a private review agent, may not approve or fail to approve treatment based on whether the treatment is delivered by a provider who is a participating or nonparticipating provider in the preferred provider organization or an employee assistance program network.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Prohibited Referrals. A private review agent or individual who is affiliated with, under contract with, or acting on behalf of a private review agent may not:</text>
+      <para>
+        <num>(1)</num>
+        <text>Refer a patient who has undergone utilization review by that private review agent to:</text>
+        <para>
+          <num>(a)</num>
+          <text>A health care facility in which the private review agent owns a significant beneficial interest; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A health care practice owned by the private review agent;</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Pay, agree to pay, accept, or agree to accept a sum for bringing or referring a patient to a private review agent; or</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Provide for different insurance coverage or benefits based on the patient receiving service from a health care facility or provider in which a private review agent owns a significant beneficial interest.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Authorized Referrals.</text>
+      <para>
+        <num>(1)</num>
+        <text>A private review agent, or individual who is affiliated with, under contract with, or acting on behalf of a private review agent, may refer a patient to another health care provider if:</text>
+        <para>
+          <num>(a)</num>
+          <text>The patient or health care provider requests the private review agent to provide the patient with the name of a health care provider appropriate to meet the health care needs of the patient; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The patient has no attending physician.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If <cite path="31|10|21|.05|D.|(1)">§D(1) of this regulation</cite> is satisfied the private review agent shall provide the patient with names of at least two health care providers appropriate to meet the health care needs of the patient.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Denial or Revocation of Certification.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Commissioner shall deny a certificate to an applicant if the Administration finds that the initial application does not include all requirements of <cite path="|31|10|21|.02">Regulation .02 of this chapter</cite>.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The Commissioner may revoke the certification of a private review agent:</text>
+      <para>
+        <num>(1)</num>
+        <text>That violates any provision of this chapter;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>That fraudulently or deceptively obtains, attempts to obtain, or uses a certificate;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>That fails to meet the requirements for certification under <cite path="|31|10|21|.02|B.">Regulation .02B of this chapter</cite>;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>That obtains certification based on inaccurate information; or</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>If the Commissioner finds a pattern that the utilization management procedures and policies used by a private review agent are not:</text>
+        <para>
+          <num>(a)</num>
+          <text>Objective,</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Clinically valid,</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Compatible with established principles of health care, or</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Flexible enough to allow deviations from the norms when justified on a case by case basis.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Before denying an initial application for certification or revoking an issued certificate, the Commissioner shall provide the applicant or certificate holder with:</text>
+      <para>
+        <num>(1)</num>
+        <text>Reasonable time to supply additional information which demonstrates compliance with the requirements of this chapter and the opportunity to request a hearing;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Written notice of the reasons for the denial or revocation; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>30 days in which to request a hearing in accordance with <cite doc="Md. Code" path="gsg">State Government Article, Title 10, Subtitle 2, Annotated Code of Maryland</cite>.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Term of Certification and Recertification.</heading>
+    <para>
+      <num>A.</num>
+      <text>A certificate of registration:</text>
+      <para>
+        <num>(1)</num>
+        <text>Is not transferable; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Expires on the second anniversary of its effective date unless certification has been renewed for another 2-year term.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Before certification expires, a private review agent may renew its certification if the certified private review agent:</text>
+      <para>
+        <num>(1)</num>
+        <text>Otherwise is entitled to be certified;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Pays to the Commissioner the nonrefundable renewal fee of $1,500; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Submits to the Commissioner:</text>
+        <para>
+          <num>(a)</num>
+          <text>A renewal application on a form that the Commissioner requires, and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>An update of the information required under <cite path="|31|10|21|.02|B.">Regulation .02B of this chapter</cite>.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The Commissioner shall renew the certification of each certified private review agent if the requirements of this chapter are met.</text>
+    </para>
+  </section>
+  <section cache:ref-path="31|10|21|.08">
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Penalties.</heading>
+    <para>
+      <num>A.</num>
+      <text>Criminal Penalty. A person who violates a provision of this chapter shall be guilty of a misdemeanor, and on conviction is subject to a penalty not exceeding $1,000. Each day a violation is continued after the first conviction is a separate offense.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Administrative Penalty. In addition to, or instead of, the criminal penalty described in <cite path="31|10|21|.08|A.">§A of this regulation</cite>, the Commissioner may impose an administrative penalty not to exceed $5,000 for violation of any regulation of this chapter.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>When considering whether conditions warrant the imposition of an administrative penalty, the Commissioner shall consider the following factors:</text>
+      <para>
+        <num>(1)</num>
+        <text>The nature and seriousness of each condition of noncompliance;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The number of conditions of noncompliance;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The extent to which a condition of noncompliance is part of an ongoing pattern;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The efforts made by, and the ability of the private review agent to correct, the condition of noncompliance in a timely manner; and</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Other factors as justice may require.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The Commissioner may impose an administrative penalty for any one of the factors in <cite path="31|10|21|.08|C.">§C of this regulation</cite>.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Hearings and Appeals.</heading>
+    <text>A private review agent subject to an administrative penalty, or to denial or revocation of certification, has the right to a hearing and the right to appeal from an action of the Commissioner in accordance with Insurance Article, §§<cite doc="Md. Code" path="gin|2-210">2-210</cite>—<cite doc="Md. Code" path="gin|2-215">2-215</cite>, Annotated Code of Maryland.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.10</num>
+    <heading>Exemptions.</heading>
+    <text>The Commissioner may waive the requirements of this chapter for a private review agent that operates solely under contract with the federal government for utilization review of patients eligible for hospital services under Title XVIII of the Social Security Act.</text>
+  </section>
+  <section cache:ref-path="31|10|21|.11">
+    <prefix>Regulation</prefix>
+    <num>.11</num>
+    <heading>Accredited Private Review Agents and Filing Requirement Waivers.</heading>
+    <para>
+      <num>A.</num>
+      <text>Determination of Approved Accrediting Organization.</text>
+      <para>
+        <num>(1)</num>
+        <text>An accrediting organization is not an approved accrediting organization until the Commissioner issues a letter of approval to the accrediting organization.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>For the purpose of determining which entities are approved accrediting organizations, the Commissioner shall consider whether:</text>
+        <para>
+          <num>(a)</num>
+          <text>Some or all of the accreditation standards required to be met for accreditation by the accrediting organization meet or exceed the requirements of Insurance Article, Title 15, Subtitles 10A and 10B, Annotated Code of Maryland;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The accrediting organization measures an applicant's ability to meet each standard; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The accrediting organization agrees to notify the Commissioner at least 30 days in advance if it revises its accreditation standards or changes the method in which it reviews private review agents.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The approved accrediting organization continues to be approved by the Commissioner until notified in writing by the Commissioner that its approval has been withdrawn.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Demonstration by Applicant of Meeting Filing Requirement through Accreditation.</text>
+      <para>
+        <num>(1)</num>
+        <text>An applicant for a private review agent certification may request an exemption from a particular filing requirement of this chapter if the applicant:</text>
+        <para>
+          <num>(a)</num>
+          <text>Is accredited by an approved accrediting organization; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Submits the following information to the Commissioner for approval:</text>
+          <para>
+            <num>(i)</num>
+            <text>A list of the filing items for which the private review agent applicant is requesting exemption;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The letter of accreditation from an approved accrediting organization;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>The standards by which the private review agent applicant was measured by the approved accrediting organization; and</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Evidence that the private review agent applicant met or exceeded each accreditation standard for which the private review agent applicant is requesting a filing exemption.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>In addition to the information specified in <cite path="31|10|21|.11|B.|(1)">§B(1) of this regulation</cite>, the Commissioner may request additional information before granting the filing exemption provided by this regulation.</text>
+      </para>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Insurance Article, §§<cite doc="Md. Code" path="gin|2-109">2-109</cite>(a)(<cite doc="Md. Code" path="gin|1">1</cite>), <cite doc="Md. Code" path="gin|15-10">15-10</cite>B-<cite doc="Md. Code" path="gin|03">03</cite>(h), and <cite doc="Md. Code" path="gin|15-802">15-802</cite>(d)(<cite doc="Md. Code" path="gin|5">5</cite>), Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="1994-06-06">Effective date: June 6, 1994 (21:11 Md. R. 951)</annotation>
+    <annotation type="History" dest="container" effective="1999-03-22">Chapter revised and recodified from <cite path="|10.07.19">COMAR 10.07.19</cite> to <cite path="|31.10.21">COMAR 31.10.21</cite> as an emergency provision effective January 1, 1999 (26:2 Md. R. 104); amended and recodified permanently effective March 22, 1999 (26:6 Md. R. 491)</annotation>
+    <annotation type="History" dest="container" effective="2000-08-21"><cite path="|31|10|21|.02">Regulation .02</cite>-1 adopted effective August 21, 2000 (27:16 Md. R. 1526)</annotation>
+    <annotation type="History" dest="container" effective="2004-04-12" discontinuity="true">Chapter revised effective April 12, 2004 (31:7 Md. R. 587)</annotation>
+    <annotation type="History" dest="container" effective="2018-08-27"><cite path="|31|10|21|.01|B.">Regulation .01B</cite> amended effective August 27, 2018 (45:17 Md. R. 804)</annotation>
+    <annotation type="History" dest="container" effective="2018-08-27"><cite path="|31|10|21|.02">Regulation .02</cite> amended effective August 27, 2018 (45:17 Md. R. 804)</annotation>
+    <annotation type="History" dest="container" effective="2006-01-30"><cite path="|31|10|21|.02">Regulation .02</cite>-1 repealed and new Regulation .02-1 adopted effective January 30, 2006 (33:2 Md. R. 83)</annotation>
+    <annotation type="History" dest="container" effective="2010-05-17"><cite path="|31|10|21|.02">Regulation .02</cite>-1 amended effective May 17, 2010 (37:10 Md. R. 724)</annotation>
+    <annotation type="History" dest="container" effective="2013-04-15"><cite path="|31|10|21|.02">Regulation .02</cite>-1H amended as an emergency provision effective January 1, 2013 (40:6 Md. R. 470); amended permanently effective April 15, 2013 (40:7 Md. R. 613)</annotation>
+    <annotation type="History" dest="container" effective="2020-02-24"><cite path="|31|10|21|.02">Regulation .02</cite>-1H amended effective May 11, 2015 (42:9 Md. R. 648); February 24, 2020 (47:4 Md. R. 264)</annotation>
+    <annotation type="History" dest="container" effective="2016-08-15"><cite path="|31|10|21|.03">Regulation .03</cite> amended effective August 15, 2016 (43:16 Md. R. 902)</annotation>
+  </annotations>
+</container>

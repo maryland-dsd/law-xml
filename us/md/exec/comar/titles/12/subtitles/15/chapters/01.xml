@@ -1,0 +1,2218 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>01</num>
+  <heading>Implementation of the Criminal Justice Information System Statute</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Purpose.</heading>
+    <text>The purpose of these regulations is to implement the provisions of <cite doc="Md. Code" path="gcp">Criminal Procedure Article, Title 10, Subtitle 2, Annotated Code of Maryland</cite>.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Scope.</heading>
+    <text>These regulations apply to:</text>
+    <para>
+      <num>A.</num>
+      <text>The executive branch of State government;</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A local criminal justice agency that is not in the judicial branch of government;</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>An individual, agency, or organization with an agreement with the Secretary, Department of Public Safety and Correctional Services, for access to criminal history record information; and</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>An individual who is the subject of CHRI.</text>
+    </para>
+  </section>
+  <section cache:ref-path="12|15|01|.03">
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>“Advisory Board” has the meaning stated in <cite doc="Md. Code" path="gcp|10-201">Criminal Procedure Article, §10-201, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>"Arrest" means the detention of an individual for the purpose of criminal prosecution, for the filing of delinquency petitions, or pursuant to existing charges or delinquency petitions.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>"Collection" means the receipt, organization, and processing of CHRI by a criminal justice agency, a criminal justice repository, or the Criminal Justice Information System Central Repository (Central Repository).</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Conviction Criminal History Record Information.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Conviction criminal history record information" means reportable events that have resulted in a finding of guilt.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Conviction criminal history record information” includes:</text>
+          <para>
+            <num>(i)</num>
+            <text>A plea of nolo contendere accepted by a court; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Probation before judgment.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>"Criminal history record information (CHRI)" has the meaning stated in <cite doc="Md. Code" path="gcp|10-201">Criminal Procedure Article, §10-201, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Criminal History Records Check.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Criminal history records check” means a record check of CHRI maintained by the Central Repository or the Federal Bureau of Investigation (FBI).</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Criminal history records check” is limited to the existence of a criminal conviction, probation before judgment disposition, not criminally responsible disposition, or pending criminal charge.</text>
+        </para>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Criminal Justice Agency.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Criminal justice agency”, except for the Department of Juvenile Services or a juvenile court, means a government agency or subunit of an agency that:</text>
+          <para>
+            <num>(i)</num>
+            <text>Is authorized by law to exercise the power of arrest, detention, prosecution, adjudication, correctional supervision, custodial treatment, or confinement under Health-General Article, Title 12, Annotated Code of Maryland, rehabilitation, or release of persons suspected, charged, or convicted of a crime or relieved of criminal punishment by verdict of not criminally responsible, or is responsible for criminal identification activities and the collection, storage, and dissemination of criminal history record information; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Allocates a substantial portion of the agency’s annual budget to any of the functions in <cite path="12|15|01|.03|B.|(7)|(a)|(i)">§B(7)(a)(i) of this regulation</cite>.</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Criminal justice agency”, except for Department of Juvenile Services or a juvenile court, includes the following agencies, when exercising jurisdiction over criminal matters or criminal history record information:</text>
+          <para>
+            <num>(i)</num>
+            <text>A State, county, and municipal police department, sheriff's office, correctional facility, parole and probation department, jail, and detention center;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>An agency required to report to the Central Repository under Health-General Article, §12-107 or 12-112, Annotated Code of Maryland;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>The Office of the Attorney General, the State's Attorney Office, and other person authorized by law to prosecute an individual accused of a criminal offense; and</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>The Administrative Office of the Courts, the Court of Appeals, the Court of Special Appeals, the circuit courts (including the Supreme Bench of Baltimore City), the District Court of Maryland, and the offices of the clerks of these courts.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>"Criminal justice information system" means the equipment (including computer hardware and software), facilities, procedures, agreements, and personnel used to collect, process, preserve, and disseminate CHRI.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>"Criminal justice purpose" means use of CHRI by:</text>
+        <para>
+          <num>(a)</num>
+          <text>A criminal justice agency:</text>
+          <para>
+            <num>(i)</num>
+            <text>To conduct criminal justice duties and responsibilities; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Related to activities concerning hiring or retaining a criminal justice agency employee; and</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The Maryland Public Defender or other defense counsel of record for the purpose of the defense of a client in a pending criminal proceeding.</text>
+        </para>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>Disseminate.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Disseminate" means to transmit CHRI in oral, electronic, or written form.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Disseminate” does not include the:</text>
+          <para>
+            <num>(i)</num>
+            <text>Transmittal of CHRI within a criminal justice agency;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Reporting of CHRI as required by <cite doc="Md. Code" path="gcp|10-214">Criminal Procedure Article, §10-214, Annotated Code of Maryland</cite>;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Transmittal of CHRI between criminal justice agencies in order to permit the initiation of subsequent criminal justice proceedings against a person relating to the same offense; or</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Disclosure of CHRI during preparation for or during the conduct of a public judicial proceeding by the State's Attorney, Attorney General, a law enforcement officer, or other person authorized by law to conduct criminal investigations or to prosecute persons accused of criminal offenses.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>Fingerprinting.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Fingerprinting” means a method of identifying an individual using impressions of the minute ridge formations or patterns on an individual’s fingers and thumbs, based on the accepted premise that no two individuals have the same ridge formations or impressions.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Fingerprinting” may be performed:</text>
+          <para>
+            <num>(i)</num>
+            <text>Manually, using ink and paper; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Electronically, using a Livescan device.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>“Fingerprinting service fee” means a cost paid to the agency collecting demographic data and performing fingerprinting for an applicant.</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>"Juvenile" means a child under 18 years old as defined in <cite doc="Md. Code" path="gcj|3-801">Courts and Judicial Proceedings Article, §3-801, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>"Nonconviction criminal history record information" means:</text>
+        <para>
+          <num>(a)</num>
+          <text>Arrest information without disposition;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Information disclosing that a law enforcement agency elected not to refer a matter to a prosecutor;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A prosecutor has elected not to initiate a criminal proceeding;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>A criminal proceeding has been indefinitely postponed;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>An acquittal; or</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>A dismissal.</text>
+        </para>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>“Noncriminal justice agency” means a government or private agency that is not a criminal justice agency defined under <cite doc="Md. Code" path="gcp|10-210">Criminal Procedure Article, §10-210(d), Annotated Code of Maryland</cite>, and receives CHRI for licensing and employment purposes.</text>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>“Noncriminal justice purpose” means the use of CHRI for licensing and employment purposes.</text>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>"Private party petitioner" means a nongovernmental employer, employment agency, membership association, landlord (including a public housing authority), or duly designated agent licensed, chartered, or registered in any state, territory, or possession of the United States, or in the District of Columbia.</text>
+      </para>
+      <para>
+        <num>(18)</num>
+        <text>“Rap Back Program” means the State program that will inform an employer or other designated entity when an individual who has undergone a criminal history records check and whose fingerprints are retained by the Central Repository after the criminal history records check is subsequently arrested or is the subject of another reportable event pursuant to <cite path="12.15.01.19">COMAR 12.15.01.19</cite>.</text>
+      </para>
+      <para>
+        <num>(19)</num>
+        <text>"Reportable event" means an event specified under <cite doc="Md. Code" path="gcp|10-215">Criminal Procedure Article, §10-215, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(20)</num>
+        <text>"Reporting" means the transmittal of CHRI by a criminal justice agency or a repository to the Central Repository.</text>
+      </para>
+      <para>
+        <num>(21)</num>
+        <text>"Secretary" means the Secretary of Public Safety and Correctional Services.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Criminal Justice Information System Central Repository (Central Repository).</heading>
+    <para>
+      <num>A.</num>
+      <text>The Central Repository shall perform functions and other tasks delegated by the Secretary to ensure the accuracy, completeness, and security of CHRI in Maryland.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Central Repository Authority.</text>
+      <para>
+        <num>(1)</num>
+        <text>With the approval of the Secretary, or a designee, the Central Repository has the authority to enter into an agreement:</text>
+        <para>
+          <num>(a)</num>
+          <text>With an agency that by law or regulatory process has the authority to access or contribute to CHRI; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>That complies with <cite doc="Md. Code" path="gcp|10-217">Criminal Procedure Article, §10-217, Annotated Code of Maryland</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>With the approval of the Secretary, or a designee, the Central Repository has the authority to:</text>
+        <para>
+          <num>(a)</num>
+          <text>To perform audits of a criminal or noncriminal justice agency with respect to CHRI to ensure the completeness and accuracy of information reported, maintained, or disseminated;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Inspect and evaluate procedures and facilities relating to the privacy and security of CHRI in an agency bound by these regulations, and to enforce sanctions agreed upon with the Central Repository;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Deny a criminal or noncriminal justice agency access to CHRI unless access is in accordance with an approved agreement; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Refuse acceptance of CHRI from a criminal justice agency unless the information is submitted in accordance with an approved agreement.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="12|15|01|.05">
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Right of an Individual to Inspect the Individual's CHRI.</heading>
+    <para>
+      <num>A.</num>
+      <text>Access to CHRI.</text>
+      <para>
+        <num>(1)</num>
+        <text>An individual may inspect the individual’s CHRI maintained by a criminal justice agency, except if the CHRI or part of the CHRI is relevant to a pending criminal proceeding.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The exception in <cite path="12|15|01|.05|A.|(1)">§A(1) of this regulation</cite> does not affect the right of inspection and discovery permitted by rule of court or by statute.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>CHRI that was recorded before January 1, 1978 is subject to the right of access and challenge in accordance with this subtitle.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>When a request is made to review CHRI, a criminal justice agency shall make a reasonable search for the CHRI maintained under the criminal justice agency’s authority.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>A criminal justice agency requested to provide access to CHRI that cannot be located after a reasonable search has no further obligation to provide CHRI.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A fee, established in <cite path="|12|15|01|.15">Regulation .15 of this chapter</cite>, shall be charged an individual for each request to review that individual's CHRI, except if the individual files a verified certificate of indigence with the agency requested to provide the individual’s CHRI.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Filing Request to Review CHRI. An individual may file a request to obtain and to review the individual’s CHRI with the Central Repository or other locations designated by the Central Repository.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Filing Request to Review CHRI with a Criminal Justice Agency.</text>
+      <para>
+        <num>(1)</num>
+        <text>Until CHRI is filed with the Central Repository, an individual may file a request to review a portion of the individual’s CHRI with the criminal justice agency, other than the Central Repository, collecting and maintaining the CHRI that has not been filed with the Central Repository.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A request to review is subject to the procedures of the criminal justice agency maintaining the CHRI.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A criminal justice agency maintaining CHRI shall adopt procedures for individual review and challenge of CHRI that comply with applicable federal and State law and regulations.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>An individual held in custody at a law enforcement agency, detention center, or correctional facility as the result of a court action may file a request to review the individual’s CHRI with the criminal justice agency detaining the individual.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Before an individual may review the individual’s CHRI, the individual shall be identified by fingerprint comparison with the Central Repository record according to procedures established by the Central Repository.</text>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>An attorney may review a client's CHRI if the attorney:</text>
+      <para>
+        <num>(1)</num>
+        <text>Satisfactorily establishes the client’s identity;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Presents written authorization from the attorney's client; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Pays the fee established in <cite path="|12|15|01|.15">Regulation .15 of this chapter</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>An individual requesting to review CHRI shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Submit the request using an application form or electronic format that:</text>
+        <para>
+          <num>(a)</num>
+          <text>Is authorized by the Central Repository;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Is properly completed; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Includes a complete set of legible fingerprints; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Forward the properly completed form to the Central Repository.</text>
+      </para>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>Upon receipt of a proper request to review CHRI, the Central Repository shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Verify the identity of the applicant by fingerprint comparison and other available identifiers; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If identification is verified and CHRI is found, provide a copy of the CHRI to the applicant.</text>
+      </para>
+    </para>
+    <para>
+      <num>J.</num>
+      <text>Denial of a Request to Review CHRI.</text>
+      <para>
+        <num>(1)</num>
+        <text>The Central Repository or a criminal justice agency may deny a request to review CHRI if the Central Repository or criminal justice agency determines that the individual is not:</text>
+        <para>
+          <num>(a)</num>
+          <text>The subject of the CHRI; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Entitled to review the CHRI under <cite doc="Md. Code" path="gcp|10-226">Criminal Procedure Article, §10-226, Annotated Code of Maryland</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If the Central Repository or a criminal justice agency denies a request to review CHRI, the Central Repository or criminal justice agency denying the request shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Provide written notification of the denial, including the reason for the denial;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Send the written notification of denial to the individual making the request within 30 days; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Provide the individual written notification of the individual's right to appeal the denial of the request to review CHRI.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>K.</num>
+      <text>The Central Repository or a criminal justice agency receiving a request to review CHRI shall retain a copy of the application.</text>
+    </para>
+    <para>
+      <num>L.</num>
+      <text>An individual may only challenge the following concerning CHRI:</text>
+      <para>
+        <num>(1)</num>
+        <text>Completeness;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Content;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Accuracy; or</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Dissemination.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="12|15|01|.06">
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Right of an Individual to Challenge a Denial to Review CHRI.</heading>
+    <para>
+      <num>A.</num>
+      <text>If a request to review CHRI is denied pursuant to the procedures under <cite path="|12|15|01|.05">Regulation .05 of this chapter</cite>, the individual may challenge the denial except if the request to review CHRI was denied by the courts.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Challenge to Denial.</text>
+      <para>
+        <num>(1)</num>
+        <text>An individual challenging a denial of a request to review CHRI shall submit:</text>
+        <para>
+          <num>(a)</num>
+          <text>The challenge to the Central Repository using an application form authorized by the Central Repository; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A complete set of fingerprints taken at a location designated by the Central Repository.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The challenge shall be filed within 10 days of the date of the denial to review CHRI.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The Secretary, or a designee, shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Designate a review officer;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Set a date to conduct the review that is within 30 days of the date the challenge was received by the Central Repository; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Within the 30-day period before the date of the review, compare the full set of fingerprints submitted by the individual submitting the challenge with the fingerprints on the arrest record.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The Secretary, or a designee, shall issue a written decision stating whether the individual filing the challenge is or is not the individual in the record and provide copies of the decision to the:</text>
+      <para>
+        <num>(1)</num>
+        <text>Individual submitting the challenge; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Central Repository.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Upon receipt of a decision under <cite path="12|15|01|.06|D.">§D of this regulation</cite> the Central Repository shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Maintain a copy of the decision; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Send a copy of the decision to a criminal justice agency affected by the denial to review CHRI.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>If the Secretary, or a designee, decides that the the individual submitting the challenge is:</text>
+      <para>
+        <num>(1)</num>
+        <text>The subject of the CHRI, the the individual submitting the challenge:</text>
+        <para>
+          <num>(a)</num>
+          <text>May submit the Secretary’s decision to the agency denying the request to review CHRI; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Upon receipt of the Secretary’s decision by the appropriate agency, shall be permitted to review the applicable CHRI; or</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Not the subject of the CHRI, the individual submitting the challenge of the denial may not review the CHRI.</text>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>The individual submitting the challenge of the denial to review CHRI or the agency maintaining the CHRI may appeal the decision of the Secretary in accordance with the Administrative Procedure Act, <cite doc="Md. Code" path="gsg">State Government Article, Title 10, Subtitle 2, Annotated Code of Maryland</cite>.</text>
+    </para>
+  </section>
+  <section cache:ref-path="12|15|01|.07">
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Right of an Individual to Challenge Completeness, Content, Accuracy, and Dissemination of CHRI.</heading>
+    <para>
+      <num>A.</num>
+      <text>An individual having reviewed CHRI may only challenge the following related to CHRI:</text>
+      <para>
+        <num>(1)</num>
+        <text>Completeness;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Content;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Accuracy; or</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Dissemination.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Challenge to Completeness, Content, Accuracy, or Dissemination of CHRI.</text>
+      <para>
+        <num>(1)</num>
+        <text>An individual challenging CHRI under this regulation shall submit the challenge using a form authorized by the Central Repository to the:</text>
+        <para>
+          <num>(a)</num>
+          <text>Central Repository; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Agency responsible for the location where the individual reviewed the CHRI, if other than the Central Repository.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Upon receipt of the challenge form, the Central Repository shall examine the part of the individual's CHRI that has been challenged under this regulation.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>As part of the examination under <cite path="12|15|01|.07|B.|(2)">§B(2) of this regulation</cite>, the Central Repository may require a criminal justice agency that was the source of challenged CHRI to verify the CHRI.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The Central Repository shall notify the individual submitting the challenge under this regulation:</text>
+        <para>
+          <num>(a)</num>
+          <text>In writing of the results of the examination and decision concerning the basis of the challenge; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Within 90 days after the date the challenge was received by the Central Repository.</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>If the challenge or any part of the challenge is rejected by the Central Repository, the notification under <cite path="12|15|01|.07|B.|(4)">§B(4) of this regulation</cite> shall include information concerning the individual's right to appeal the Central Repository’s rejection of the challenge.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Correction of CHRI.</text>
+      <para>
+        <num>(1)</num>
+        <text>If the Central Repository determines that the individual’s challenge under this regulation is valid, the Central Repository shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Make the appropriate correction on the Central Repository's CHRI; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Notify the criminal justice or other agency responsible for the CHRI requiring correction.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An agency receiving notification under <cite path="12|15|01|.07|C.|(1)|(b)">§C(1)(b) of this regulation</cite> shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Correct the agency’s CHRI; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Provide certification to the Central Repository that the correction was made.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If requested by the individual whose CHRI was corrected, the agency disseminating the individual’s CHRI shall provide the individual with the names of noncriminal justice agencies or persons to whom the CHRI was disseminated during the 12 months immediately preceding the date the individual reviewed the CHRI.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Notice of Correction.</text>
+      <para>
+        <num>(1)</num>
+        <text>A criminal justice agency or other agency required to correct CHRI under <cite path="12|15|01|.07|C.|(2)">§C(2) of this regulation</cite> that had disseminated CHRI before the CHRI was corrected shall give written notice of the correction to the person receiving the uncorrected CHRI.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The person receiving notification under <cite path="12|15|01|.07|D.|(1)">§D(1) of this regulation</cite> shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Make the correction to the CHRI in the person’s possession; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Provide certification that the correction has been made to the agency making notification under <cite path="12|15|01|.07|D.|(1)">§D(1) of this regulation</cite>.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Appeal.</text>
+      <para>
+        <num>(1)</num>
+        <text>If a challenge to the completeness, content, accuracy, or dissemination is denied by the Central Repository, the individual may appeal the decision.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An individual shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Use a form authorized by the Central Repository to appeal a denial of a challenge under this regulation; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>File the appeal within 30 days of the date of the denial of the challenge with the:</text>
+          <para>
+            <num>(i)</num>
+            <text>Secretary;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Criminal justice agency that contributed to or created the CHRI; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Central Repository.</text>
+          </para>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>The Secretary, or a designee, shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Designate a hearing officer;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Set a hearing date within 30 days of the date the appeal was received by the Central Repository; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Ensure that the date set for the hearing is within 60 days of the date the appeal was received by the Central Repository.</text>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>If the individual filing an appeal under this regulation does not appear at the hearing on the date set under <cite path="12|15|01|.07|F.">§F of this regulation</cite>, the appeal shall be denied by the hearing officer.</text>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>At the appeal hearing, the individual filing the appeal and a criminal justice agency affected by the appeal may:</text>
+      <para>
+        <num>(1)</num>
+        <text>Be represented by an attorney;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Introduce additional evidence; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Interrogate persons responsible for recording or maintaining the CHRI under review.</text>
+      </para>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>Appeal of a Hearing Decision.</text>
+      <para>
+        <num>(1)</num>
+        <text>The Secretary, or a designee, shall provide a written decision stating the outcome of the appeal hearing under <cite path="12|15|01|.07|F.">§F of this regulation</cite> to the:</text>
+        <para>
+          <num>(a)</num>
+          <text>Individual filing the appeal; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Central Repository.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Upon receipt of a decision under <cite path="12|15|01|.07|I.|(1)|(b)">§I(1)(b) of this regulation</cite>, the Central Repository shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Retain a copy of the written decision; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Disseminate a copy of the written decision to a person affected by the hearing.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>J.</num>
+      <text>Appeal Decision.</text>
+      <para>
+        <num>(1)</num>
+        <text>If a decision under <cite path="12|15|01|.07|I.">§I of this regulation</cite> concludes that the challenge to the completeness, content, accuracy, or dissemination of the CHRI is valid, the written decision shall direct that the CHRI is to be corrected.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Central Repository and the criminal justice agency contributing to or maintaining the CHRI shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Correct the CHRI maintained by the agency; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Certify to the Secretary, or a designee, that the CHRI was corrected.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>K.</num>
+      <text>A criminal justice agency required to correct CHRI under <cite path="12|15|01|.07|J.">§J of this regulation</cite>, that had disseminated the CHRI before being corrected, shall give written notice to the person receiving the uncorrected CHRI of the correction, and the person shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Make the correction to the person’s CHRI; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Certify to the disseminating agency that the correction was made.</text>
+      </para>
+    </para>
+    <para>
+      <num>L.</num>
+      <text>A party to an appeal of the decision under <cite path="12|15|01|.07|I.">§I of this regulation</cite> may appeal the decision in accordance with <cite doc="Md. Code" path="gsg">State Government Article, Title 10, Subtitle 2, Annotated Code of Maryland</cite>.</text>
+    </para>
+    <para>
+      <num>M.</num>
+      <text>Central Repository records relating to the individual's right to review and challenge shall be:</text>
+      <para>
+        <num>(1)</num>
+        <text>Centrally maintained in the place and manner designated by the Secretary, or a designee; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Retained for a minimum of 4 years, except for the respective fingerprint card that shall be retained for a minimum of 15 years.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Collection.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Central Repository shall collect and store CHRI from criminal justice agencies or CHRI repositories in the State.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The Central Repository shall maintain CHRI to:</text>
+      <para>
+        <num>(1)</num>
+        <text>Reflect processing of an individual through the criminal justice system; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Ensure complete, accurate, confidential, and secure CHRI.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The Central Repository:</text>
+      <para>
+        <num>(1)</num>
+        <text>Shall maintain information related to a juvenile arrest as confidential in accordance with <cite doc="Md. Code" path="gcj|3-828">Courts and Judicial Proceedings Article, §3-828(a), Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Shall maintain information related to a juvenile separately from adult CHRI.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>May only disseminate information related to a juvenile to:</text>
+        <para>
+          <num>(a)</num>
+          <text>The Department of Juvenile Services;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Comply with an order of a court upon good cause shown; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A law enforcement agency for investigation and prosecution of the juvenile.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="12|15|01|.09">
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Reporting.</heading>
+    <para>
+      <num>A.</num>
+      <text>Each criminal justice agency or CHRI repository shall report CHRI to the Central Repository in accordance with <cite doc="Md. Code" path="gcp|10-215">Criminal Procedure Article, §10-215, Annotated Code of Maryland</cite>, and the following:</text>
+      <para>
+        <num>(1)</num>
+        <text>Information concerning an arrest or the issuance of an arrest warrant shall be reported within 72 hours after the arrest is made or the warrant is issued; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Information concerning another reportable event not included under <cite path="12|15|01|.09|A.|(1)">§A(1) of this regulation</cite> shall be reported within 60 days after the date of the reportable event.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A criminal justice agency shall report CHRI to the Central Repository in a manner that ensures the CHRI:</text>
+      <para>
+        <num>(1)</num>
+        <text>Accurately identifies the offender through fingerprint comparison or other compelling information;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Accurately tracks the individual through the criminal justice system;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Conforms to federal and State laws and regulations; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Complies with Central Repository procedures for collection, reporting, maintenance, and dissemination of CHRI.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The Secretary, or a designee, shall specify the content, format, and media for CHRI reported to the Central Repository.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.10</num>
+    <heading>Fingerprint Process.</heading>
+    <para>
+      <num>A.</num>
+      <text>Fingerprints for each juvenile and adult arrested shall be submitted to the Central Repository within 72 hours of the arrest.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>An adult who has been arrested shall be fingerprinted according to procedures approved by the Central Repository.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A juvenile who has been arrested shall be fingerprinted according to procedures approved by the Central Repository.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The arresting law enforcement agency or the agency responsible for processing an arrested individual shall complete and submit available information according to procedures approved by the Central Repository.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>The Central Repository may authorize an agency to electronically submit arrest information and fingerprint images to the Central Repository.</text>
+    </para>
+  </section>
+  <section cache:ref-path="12|15|01|.11">
+    <prefix>Regulation</prefix>
+    <num>.11</num>
+    <heading>Dissemination of CHRI — General.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Central Repository and a criminal justice agency shall collect, report, maintain, and disseminate CHRI in accordance with federal and State laws and regulations pursuant to <cite doc="Md. Code" path="gcp|10-221">Criminal Procedure Article, §10-221, Annotated Code of Maryland</cite>.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Noncriminal Justice Agency.</text>
+      <para>
+        <num>(1)</num>
+        <text>Except under <cite path="12|15|01|.11|A.|(2)">§A(2) of this regulation</cite>, only the Central Repository may disseminate CHRI to a noncriminal justice agency or individual.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Central Repository, through agreement with a criminal justice agency, may:</text>
+        <para>
+          <num>(a)</num>
+          <text>Designate a criminal justice agency as a location where a noncriminal justice agency or individual may initiate a request for the Central Repository to provide CHRI for a noncriminal justice purpose.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Authorize a criminal justice agency to disseminate to a noncriminal justice agency or individual CHRI maintained by the criminal justice agency.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If a criminal justice agency is authorized to disseminate CHRI under <cite path="12|15|01|.11|B.|(1)">§B(1) of this regulation</cite>, the criminal justice agency shall maintain a log of each recording in the log the:</text>
+        <para>
+          <num>(a)</num>
+          <text>Date the request was made;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Purpose of the request;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>CHRI disseminated;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Person receiving the information; and</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Date the CHRI was disseminated.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The Central Repository shall maintain a log recording:</text>
+        <para>
+          <num>(a)</num>
+          <text>A criminal justice agency authorized to disseminate CHRI for noncriminal justice purposes; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The name of the agency or individual receiving the CHRI for noncriminal justice purposes from the authorized criminal justice agency.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The Central Repository or a criminal justice agency or individual authorized to access CHRI may not confirm the existence or nonexistence of CHRI to a person that is not eligible to receive the CHRI.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>A log required to be kept under this chapter shall be maintained for at least 3 years.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>The use of CHRI by an authorized agency or individual:</text>
+      <para>
+        <num>(1)</num>
+        <text>Is limited to the specific purpose stated in this chapter; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>May not be disseminated further without specific authorization by the Central Repository.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>In addition to another remedy or penalty authorized by law, the Secretary, or a designee, may:</text>
+      <para>
+        <num>(1)</num>
+        <text>Determine that an individual or agency is in violation of the provisions of this chapter; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Initiate the necessary action to enforce compliance with this chapter, including:</text>
+        <para>
+          <num>(a)</num>
+          <text>Terminating authorization to access CHRI;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Revoking an agreement between the agency and the Central Repository; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Criminal or civil proceedings.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Dissemination of CHRI.</text>
+      <para>
+        <num>(1)</num>
+        <text>The Secretary, or a designee, shall review agreements to determine if continued dissemination of CHRI based on the agreements is consistent with current law, regulation, and policy.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If the Secretary, or a designee, determines that continued dissemination under an agreement is not consistent with current law, regulation, or policy, the Secretary, or a designee, shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Revoke the agreement;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Terminate access to CHRI; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Send written notice of the revocation to the individual, agency, private employer, or organization stating the reasons for the revocation.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>An individual, agency, private employer, or organization whose access is terminated by the Secretary, or a designee, may appeal the action in accordance with the <cite doc="Md. Code" path="gsg">State Government Article, Title 10, Subtitle 2, Annotated Code of Maryland</cite>.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="12|15|01|.12">
+    <prefix>Regulation</prefix>
+    <num>.12</num>
+    <heading>Dissemination of CHRI — Criminal Justice Agency.</heading>
+    <para>
+      <num>A.</num>
+      <text>In accordance with requirements under <cite path="|12|15|01|.13|B.">Regulation .13B of this chapter</cite>, the Central Repository or a criminal justice agency shall disseminate CHRI to a criminal justice agency.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A criminal justice agency may request CHRI from the Central Repository or a criminal justice agency only if the CHRI is used:</text>
+      <para>
+        <num>(1)</num>
+        <text>In the performance of the agency’s function as a criminal justice agency; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>For the purpose of hiring or retaining the criminal justice agency’s employees.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Dissemination Between Criminal Justice Agencies.</text>
+      <para>
+        <num>(1)</num>
+        <text>Except for provisions under <cite path="12|15|01|.12|C.|(4)">§C(4) of this regulation</cite>, a criminal justice agency may not disseminate CHRI to another criminal justice agency unless the criminal justice agency disseminating the CHRI has requested and received from the Central Repository verification that the CHRI to be disseminated is complete, accurate, and current.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Before a criminal justice agency or the Central Repository disseminates CHRI to a criminal justice agency, the criminal justice agency or the Central Repository shall verify the identity of the criminal justice agency requesting the CHRI.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A criminal justice agency or the Central Repository may verify the identity of a criminal justice agency using information available from the Department.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>If a criminal justice agency requesting CHRI demonstrates to the criminal justice agency maintaining the requested CHRI or the Central Repository that a delay in the receipt of CHRI will unduly impede necessary action by the requesting criminal justice agency or will violate or materially impair a substantive right of the individual who is the subject of the CHRI, the disseminating criminal justice agency or the Central Repository shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Provide the requested CHRI without meeting requirements under §C(2) and (3) of this regulation; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Record the transaction in the respective criminal justice agency’s log including the:</text>
+          <para>
+            <num>(i)</num>
+            <text>Date the request for CHRI was made;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>CHRI disseminated;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Criminal justice agency receiving the CHRI; and</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Date the CHRI was disseminated.</text>
+          </para>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>If a request for CHRI is made by a criminal justice agency from another state, dissemination shall be limited to the purposes for which CHRI is disseminated to a criminal justice agency in Maryland.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>The Central Repository shall maintain a log of requests under <cite path="12|15|01|.12|D.">§D of this regulation</cite> including the:</text>
+      <para>
+        <num>(1)</num>
+        <text>Date the request for CHRI was made;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>CHRI disseminated;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Criminal justice agency receiving the CHRI; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Date the CHRI was disseminated.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="12|15|01|.13">
+    <prefix>Regulation</prefix>
+    <num>.13</num>
+    <heading>Dissemination of CHRI — Noncriminal Justice Agency.</heading>
+    <para>
+      <num>A.</num>
+      <text>Except for provisions under <cite path="12|15|01|.13|B.">§B of this regulation</cite>, the Central Repository may not disseminate to a noncriminal justice federal, State, or local government agency:</text>
+      <para>
+        <num>(1)</num>
+        <text>Conviction CHRI, except:</text>
+        <para>
+          <num>(a)</num>
+          <text>If the recipient of the CHRI is expressly authorized by statute, ordinance, executive order, or court rule, decision, or order to grant, deny, suspend, revoke, or terminate a license, employment, or other right or privilege; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>If the statute, ordinance, order, or rule specifies the existence or nonexistence of a prior conviction or other criminal conduct as a condition to the grant, denial, suspension, revocation, or termination of the license, employment, right, or privilege.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Nonconviction CHRI except:</text>
+        <para>
+          <num>(a)</num>
+          <text>If the recipient of the CHRI is expressly authorized by statute, ordinance, executive order, or court rule, decision, or order to grant, deny, suspend, revoke, or terminate a license, employment, or other right or privilege; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>If the statute, ordinance, executive order, or court rule, decision, or order specifies access to nonconviction CHRI in consideration of the decision to grant, deny, suspend, revoke, or terminate a license, employment, right, or privilege.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The Central Repository may disseminate conviction and nonconviction CHRI to the following for the purpose and under the conditions stated:</text>
+      <para>
+        <num>(1)</num>
+        <text>To determine suitability for employment or eligibility for security clearances:</text>
+        <para>
+          <num>(a)</num>
+          <text>The Department of Personnel; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Other appointing authority of a federal, State, or local unit of government.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>To defend a client in a pending criminal proceeding:</text>
+        <para>
+          <num>(a)</num>
+          <text>The Maryland Public Defender; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Defense counsel of record.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A bail bondsman working with a client who is the subject of the CHRI, if authorized by the Maryland Rules of Practice and Procedure of the Court of Appeals.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The Department of Juvenile Services for the purposes of carrying out statutory duties.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Research, Evaluation, and Statistical Analysis.</text>
+        <para>
+          <num>(a)</num>
+          <text>To conduct research, evaluation, and statistical analysis of criminal activity:</text>
+          <para>
+            <num>(i)</num>
+            <text>The Governor’s Office of Crime Prevention, Youth, and Victim Services;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The Maryland Justice Analysis Center of the Governor’s Office of Crime Prevention, Youth, and Victim Services;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>A person or agency engaged in legitimate research, evaluation, or statistical analysis activities, pursuant to an agreement with the Secretary or the Chief Judge of the Court of Appeals; and</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Other office, board, commission, or task force and the designated agents of these organizations established and granted CHRI access by Executive Order of the Governor or directive of the Secretary.</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Results of research, evaluation, and analyses derived from CHRI may not include the name of any individual or any other unique identifiers relating to the individual.</text>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>A person or agency under contract with a criminal justice agency to provide specific services required by the criminal justice agency to perform criminal justice functions pursuant to an agreement with the Secretary.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>The Attorney Grievance Commission and subunits, the Board of Law Examiners and subunits, the Commission on Judicial Disabilities, and a judicial nominating commission for the purpose of exercising respective functions in connection with lawyer discipline, bar admissions, judicial discipline, and judicial selection.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Under Md. Rule §4-263, a State's attorney or other State prosecutor, for the purpose of defending a client in a pending criminal proceeding, shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Without the necessity of a request, disseminate CHRI to:</text>
+        <para>
+          <num>(a)</num>
+          <text>The public defender; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Defense counsel of record; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Document dissemination of CHRI under <cite path="12|15|01|.13|C.|(1)">§C(1) of this regulation</cite> according to §D(1) and (2)(b)—(e) of this regulation.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>For CHRI disseminated to a noncriminal justice agency, the Central Repository or the criminal justice agency disseminating the CHRI shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Verify the identity of the person requesting to receive the CHRI for noncriminal justice purposes; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Maintain a log of a request including the:</text>
+        <para>
+          <num>(a)</num>
+          <text>Date the request for CHRI was made;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Purpose for which the request was made;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>CHRI disseminated;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Recipient of the CHRI; and</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Date the CHRI was disseminated.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>A fee, as specified in <cite path="|12|15|01|.15">Regulation .15 of this chapter</cite>, shall be charged for each request for CHRI for a noncriminal justice purpose.</text>
+    </para>
+  </section>
+  <section cache:ref-path="12|15|01|.14">
+    <prefix>Regulation</prefix>
+    <num>.14</num>
+    <heading>Dissemination of CHRI — Private Party Petitioner.</heading>
+    <para>
+      <num>A.</num>
+      <text>Except as otherwise authorized under this chapter, the Central Repository may not disseminate to a private party petitioner the following:</text>
+      <para>
+        <num>(1)</num>
+        <text>Conviction CHRI concerning current or prospective employees, occupants of leased real property, volunteers, or members of an association, except if the private party petitioner convincingly demonstrates to the Central Repository that the subject of the requested CHRI could, in the subject's status as an employee, occupant of the leased real property, volunteer, or member of the association, have the capability to:</text>
+        <para>
+          <num>(a)</num>
+          <text>Jeopardize the life or safety of an individual;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Cause significant loss or damage by illegally accessing or misusing the fiscal or nonfiscal assets of the employer, landlord, association or its members, or the public; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Otherwise engage or participate in criminal conduct in violation of State, local, and federal law.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Nonconviction CHRI except if the private party petitioner is expressly authorized by statute, ordinance, executive order, or court rule, order, or decision specifying the right to access nonconviction CHRI and the purpose and conditions for access.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The Central Repository shall establish a procedure for a private party to petition for access to conviction CHRI consistent with <cite path="12|15|01|.14|A.|(1)">§A(1) of this regulation</cite> that includes a requirement for a petitioner to list the instances when access is necessary and the reason for accessing CHRI consistent with this regulation.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The Central Repository shall deny access to CHRI under <cite path="12|15|01|.14|A.">§A of this regulation</cite> if the private party petitioner is otherwise authorized under law, regulation, or agreement to access CHRI.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>A fee, as specified in <cite path="|12|15|01|.15">Regulation .15 of this chapter</cite>, shall be charged for each request for access to CHRI for a noncriminal justice purpose.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.15</num>
+    <heading>Fees — CHRI Checks for Noncriminal Justice Purposes.</heading>
+    <para>
+      <num>A.</num>
+      <text>A person requesting CHRI, for noncriminal justice purposes, of CHRI maintained by the Central Repository shall submit a nonrefundable CHRI access fee of $18 with each request for an individual CHRI.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A nonrefundable fee to cover the costs of providing the requested CHRI shall be submitted with each request to access CHRI for research, evaluation, and statistical analysis for noncriminal justice purposes as defined in <cite path="|12|15|01|.13">Regulation .13 of this chapter</cite>. The fee shall be comprised of costs, when applicable, for computer programming, computer processing, computer output media, handling, shipping, and other associated expenses based upon current rates.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Fingerprinting Service Fee.</text>
+      <para>
+        <num>(1)</num>
+        <text>The Central Repository shall collect a nonrefundable fingerprinting service fee of $20 for each request for an individual CHRI.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Central Repository shall collect the fingerprinting service fee to cover the cost for Central Repository to collect demographic data about an applicant and perform fingerprinting for an applicant.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The Central Repository shall collect the fingerprinting service fee only if the Central Repository collects the demographic data about the applicant and performs fingerprinting for an applicant.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The Central Repository shall display a current list of fees and the specified amount of each fee at a Central Repository location operated for the purpose of applying for a CHRI check.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>The following chart contains the fees collected by Central Repository for a noncriminal justice CHRI check:</text>
+      <text>
+        <table class="layout-table">
+          <tbody>
+            <tr>
+              <td data-vertical-align="middle">CHRI CHECK</td>
+              <td data-vertical-align="middle">FEE COLLECTED FOR</td>
+              <td data-vertical-align="middle">AMOUNT</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">CHRI Check-State only-for:<br/>  Adoption (Add $1 if gold seal)<br/>  Adult dependent care<br/>  Attorney/client-civil action<br/>  Government employment/non-criminal justice<br/>  Government licensing or certification<br/>  Immigration/visa (Add $1 if gold seal)<br/>  Individual review<br/>  MSP licensing or certification<br/>  Private party petition<br/>  Public housing</td>
+              <td>CHRI access fee<br/>Fingerprinting service fee <br/>  (Only if The Central Repository collects<br/>  demographic data and performs<br/>  fingerprinting for the applicant)</td>
+              <td>$18<br/>$20</td>
+            </tr>
+            <tr>
+              <td>Full background-State and FBI <br/>  CHRI check-for:<br/>  Child care (FLA) (minus $8 if volunteer)<br/>  Government employment<br/>  Government licensing or certification</td>
+              <td>CHRI access fee<br/>Fingerprinting service fee <br/>  (Only if The Central Repository collects<br/>  demographic data and performs<br/>  fingerprinting for the applicant)<br/>FBI fee ($14.50 plus $2 processing fee)</td>
+              <td>$18<br/>$20<br/> <br/> <br/><br/>$16.50</td>
+            </tr>
+            <tr>
+              <td>FBI Rap Back Program</td>
+              <td>FBI processing fee</td>
+              <td>$13</td>
+            </tr>
+            <tr>
+              <td>HAZ MAT endorsement on CDL<br/>    (<cite path="|12.15.04">COMAR 12.15.04</cite>)</td>
+              <td>Threat assessment processing fee<br/>CHRI access fee<br/>Fingerprinting service fee <br/>  (Only if The Central Repository collects<br/>  demographic data and performs<br/>  fingerprinting for the applicant)<br/>FBI fee ($14.50 plus $2 processing fee) <br/>Threat assessment fee</td>
+              <td>$2<br/>$18<br/>$20<br/><br/><br/><br/>$16.50<br/>$34</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">Criminal justice (employment or investigation)<br/>Attorney/client-criminal proceeding<br/>  (case number must be provided)<br/>Individual challenge</td>
+              <td>No fee</td>
+              <td proof="needed" data-vertical-align="middle"/>
+            </tr>
+          </tbody>
+        </table>
+      </text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>The Central Repository requires payment to be made as follows:</text>
+      <para>
+        <num>(1)</num>
+        <text>Method:</text>
+        <para>
+          <num>(a)</num>
+          <text>Certified check;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Cashier's check;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Money order;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Personal check; or</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Credit card;</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The applicant shall make a check or money order payable to the Central Repository;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A Maryland government unit may pay fees by interagency fund transfer authorization.</text>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Requests for national CHRI access passing through the Central Repository to the Federal Bureau of Investigation (FBI) require the submission of an additional fee as specified by the FBI to cover the FBI's costs for processing the request.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.16</num>
+    <heading>Security.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Central Repository hereby incorporates by reference the specific federal regulations regarding security of CHRI under 28 CFR §20.20.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A criminal justice agency is responsible for reporting a breach of physical or operational security concerning CHRI to the Central Repository.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>If there is a breach of the physical security of CHRI or a failure to meet physical security standards for CHRI required by federal or State statute or regulation or Central Repository procedures relating to the physical security of CHRI, the Central Repository shall ensure that the breach is corrected.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>If there is a failure to comply with personnel policies relating to CHRI established by federal or State statute or regulation or Central Repository procedures relating to CHRI, the Central Repository shall ensure that the failure is corrected.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>If there is a breach of the operational security of the Criminal Justice Information System as defined in <cite doc="Md. Code" path="gcp|10-201">Criminal Procedure Article, §10-201(e), Annotated Code of Maryland</cite>, or a failure to meet the operating security standards of federal or State statute or regulation or Central Repository procedures relating to the security of CJIS, the Central Repository shall ensure that this breach is corrected.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>If the privacy or confidentiality of CHRI has been intentionally or inadvertently abused or the potential for abuse exists, the Central Repository shall ensure that the abuse or potential for abuse is corrected.</text>
+    </para>
+  </section>
+  <section cache:ref-path="12|15|01|.17">
+    <prefix>Regulation</prefix>
+    <num>.17</num>
+    <heading>Auditing.</heading>
+    <para>
+      <num>A.</num>
+      <text>Audit of CHRI.</text>
+      <para>
+        <num>(1)</num>
+        <text>As required by applicable federal and State statutes and regulations, criminal justice agencies, CHRI repositories, and noncriminal justice agencies shall be audited by the Central Repository for compliance with applicable laws, regulations, and agreements related to the security, dissemination, completeness, and accuracy of CHRI.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Central Repository shall conduct audits of a random sample of State and local criminal justice agencies, CHRI repositories, and noncriminal justice agencies to ensure that CHRI is:</text>
+        <para>
+          <num>(a)</num>
+          <text>Accurate and complete; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Collected, reported, and disseminated in accordance with the provisions of <cite doc="Md. Code" path="gcp">Criminal Procedure Article, Title 10, Subtitle 2, Annotated Code of Maryland</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>At a minimum, the audit shall evaluate compliance with applicable rules, regulations, agreements, and laws pertaining to physical, personal, and operational security, dissemination, completeness, and accuracy of CHRI.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>As required, other methods, procedures, and standards for auditing criminal justice agencies, CHRI repositories, and noncriminal justice agencies may be established by the Central Repository.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Criminal justice agencies, CHRI repositories, and noncriminal justice agencies shall retain and provide access to CHRI source documents, dissemination logs, security manuals, and other CHRI related information as deemed necessary to perform the audit in <cite path="12|15|01|.17|A.">§A of this regulation</cite>.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Except for provisions under <cite path="12|15|01|.17|D.">§D of this regulation</cite>, information required under <cite path="12|15|01|.17|B.">§B of this regulation</cite> shall be retained by an agency subject to a Central Repository CHRI audit according to the agency’s approved records retention schedule.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Information required under <cite path="12|15|01|.17|B.">§B of this regulation</cite> related to employment shall be destroyed as soon as the employee who is the subject of the information is no longer employed by the agency.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.18</num>
+    <heading>Agreements.</heading>
+    <para>
+      <num>A.</num>
+      <text>Agreements between the Central Repository and a criminal justice agency, CHRI repository, noncriminal justice agency, other agencies, private employers, organizations, and individuals shall incorporate the principles and requirements of applicable federal and State laws and regulations pertaining to the privacy, security, completeness, accuracy, and dissemination of CHRI.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>An agreement shall be in writing and signed by the individual, agency, private employer, organization, or repository, and the Secretary, or a designee.</text>
+    </para>
+  </section>
+  <section cache:ref-path="12|15|01|.19">
+    <prefix>Regulation</prefix>
+    <num>.19</num>
+    <heading>Issuance of a Revised Printed Statement (State Rap Back Program).</heading>
+    <para>
+      <num>A.</num>
+      <text>If an employer or regulatory authority is authorized by State statute to receive a revised printed statement, the Central Repository shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Enroll the employer or regulatory authority in the State Rap Back Program;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Maintain a record of each previously processed individual who works for, or is regulated by an authorized employer or regulatory authority;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Issue a revised printed statement for each previously processed individual when new information is added to the individual’s CHRI indicating:</text>
+        <para>
+          <num>(a)</num>
+          <text>An arrest;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The issuance of an arrest warrant;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The filing of a charging document;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>A disposition of conviction;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>A verdict of not criminally responsible; or</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>A disposition of probation before judgment; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Send the revised printed statement to the employer, the regulatory authority, and the covered individual who is the subject of the printed statement.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Annual Review of Previously Processed Individuals.</text>
+      <para>
+        <num>(1)</num>
+        <text>At least annually the Central Repository shall prepare and distribute a list of previously processed individuals to each employer or regulatory authority enrolled in the State Rap Back Program.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>From the list of previously processed individuals required under <cite path="12|15|01|.19|B.|(1)">§B(1) of this regulation</cite>, the:</text>
+        <para>
+          <num>(a)</num>
+          <text>Employer shall delete an individual who no longer works for and may not resume work for the employer; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Regulatory authority shall delete an individual who is no longer licensed by the regulatory authority.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The employer or regulatory authority shall return the adjusted list required under <cite path="12|15|01|.19|B.|(2)">§B(2) of this regulation</cite> to the Central Repository within 15 working days of receipt.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The Central Repository shall cease sending revised printed statements when notified that the previously processed individual has been deleted from the annually prepared list.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.20</num>
+    <heading>Designated Law Enforcement and Other Agencies Approved for Fingerprinting.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Central Repository may designate State and local law enforcement agencies or other agencies to provide fingerprinting services for criminal justice and noncriminal justice purposes.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A designated law enforcement agency shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Provide fingerprinting services according to requirements established in this chapter; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Verify the proof of identity of the individual requesting fingerprint services at the time the individual is fingerprinted.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The following law enforcement agencies are designated by the Central Repository to provide fingerprinting services under this regulation:</text>
+      <para>
+        <num>(1)</num>
+        <text>Allegany County:</text>
+        <para>
+          <num>(a)</num>
+          <text>Allegany County Sheriff's Department;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Cumberland Police Department;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Frostburg State University Police Department; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Frostburg Police Department;</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Anne Arundel County:</text>
+        <para>
+          <num>(a)</num>
+          <text>Anne Arundel County Police Department; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Annapolis Police Department;</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Baltimore City:</text>
+        <para>
+          <num>(a)</num>
+          <text>Baltimore City Police Department;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>University of Maryland at Baltimore Police;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Morgan State University Police Department; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Coppin State University Police Department;</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Baltimore County:</text>
+        <para>
+          <num>(a)</num>
+          <text>Baltimore County Police Department;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Towson University Police Department;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>University of Maryland at Baltimore County Police Department; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Baltimore County Sheriff's Department;</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Calvert County — Calvert County Sheriff's Department;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Caroline County:</text>
+        <para>
+          <num>(a)</num>
+          <text>Denton Police Department;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Federalsburg Police Department;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Greensboro Police Department;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Preston Police Department; and</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Ridgely Police Department;</text>
+        </para>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Carroll County:</text>
+        <para>
+          <num>(a)</num>
+          <text>Carroll County Sheriff's Department;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Hampstead Police Department;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Manchester Police Department;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Sykesville Police Department;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Taneytown Police Department; and</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Westminster Police Department;</text>
+        </para>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Cecil County:</text>
+        <para>
+          <num>(a)</num>
+          <text>Cecil County Sheriff's Department;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Elkton Police Department;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>North East Police Department; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Rising Sun Police Department;</text>
+        </para>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>Charles County:</text>
+        <para>
+          <num>(a)</num>
+          <text>Charles County Sheriff's Office; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>La Plata Police Department;</text>
+        </para>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>Dorchester County:</text>
+        <para>
+          <num>(a)</num>
+          <text>Dorchester County Sheriff's Department;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Cambridge Police Department; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Hurlock Police Department;</text>
+        </para>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>Frederick County:</text>
+        <para>
+          <num>(a)</num>
+          <text>Frederick County Sheriff's Department;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Brunswick Police Department;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Frederick City Police Department; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Thurmont Police Department;</text>
+        </para>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>Garrett County — Garrett County Sheriff's Office;</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>Harford County:</text>
+        <para>
+          <num>(a)</num>
+          <text>Harford County Sheriff's Department;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Aberdeen Police Department;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Bel Air Police Department; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Havre de Grace Police Department;</text>
+        </para>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>Howard County:</text>
+        <para>
+          <num>(a)</num>
+          <text>Howard County Sheriff's Department; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Howard County Police Department;</text>
+        </para>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>Kent County:</text>
+        <para>
+          <num>(a)</num>
+          <text>Kent County Sheriff's Department; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Chestertown Police Department;</text>
+        </para>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>Montgomery County:</text>
+        <para>
+          <num>(a)</num>
+          <text>Montgomery County Sheriff's Department;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Montgomery County Police Department;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Montgomery County Division of the Maryland National-Capital Park Police;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Rockville City Police Department;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Takoma Park Police Department; and</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Chevy Chase Police Department;</text>
+        </para>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>Prince George's County:</text>
+        <para>
+          <num>(a)</num>
+          <text>Prince George's County Sheriff's Department;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Prince George's County Police Department;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Berwyn Heights Police Department;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Bowie State College Police Department;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Bladensburg Police Department;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>District Heights Police Department;</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>Greenbelt Police Department;</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>Hyattsville City Police Department;</text>
+        </para>
+        <para>
+          <num>(i)</num>
+          <text>Landover Hills Police Department;</text>
+        </para>
+        <para>
+          <num>(j)</num>
+          <text>Laurel Police Department;</text>
+        </para>
+        <para>
+          <num>(k)</num>
+          <text>Prince George's County Division of the Maryland National-Capital Park Police;</text>
+        </para>
+        <para>
+          <num>(l)</num>
+          <text>Riverdale Police Department; and</text>
+        </para>
+        <para>
+          <num>(m)</num>
+          <text>Mount Ranier Police Department;</text>
+        </para>
+      </para>
+      <para>
+        <num>(18)</num>
+        <text>Queen Anne's County:</text>
+        <para>
+          <num>(a)</num>
+          <text>Queen Anne's County Sheriff's Department; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Centreville Police Department;</text>
+        </para>
+      </para>
+      <para>
+        <num>(19)</num>
+        <text>St. Mary's County — St. Mary's County Sheriff's Department;</text>
+      </para>
+      <para>
+        <num>(20)</num>
+        <text>Somerset County:</text>
+        <para>
+          <num>(a)</num>
+          <text>Somerset County Sheriff's Department;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Crisfield Police Department; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>University of Maryland Eastern Shore Police Department;</text>
+        </para>
+      </para>
+      <para>
+        <num>(21)</num>
+        <text>Talbot County:</text>
+        <para>
+          <num>(a)</num>
+          <text>Talbot County Sheriff's Department;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Easton Police Department;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Oxford Police Department; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>St. Michael's Police Department;</text>
+        </para>
+      </para>
+      <para>
+        <num>(22)</num>
+        <text>Washington County:</text>
+        <para>
+          <num>(a)</num>
+          <text>Washington County Sheriff's Department;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Hagerstown Police Department;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Fort Ritchie Office of Security and Intelligence; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Hancock Police Department;</text>
+        </para>
+      </para>
+      <para>
+        <num>(23)</num>
+        <text>Wicomico County:</text>
+        <para>
+          <num>(a)</num>
+          <text>Wicomico County Sheriff's Department;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Delmar Police Department;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Fruitland Police Department;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Salisbury Police Department; and</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Salisbury State University Police Department;</text>
+        </para>
+      </para>
+      <para>
+        <num>(24)</num>
+        <text>Worcester County:</text>
+        <para>
+          <num>(a)</num>
+          <text>Worcester County Sheriff's Department;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Berlin Police Department;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Ocean City Police Department; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Pocomoke City Police Department;</text>
+        </para>
+      </para>
+      <para>
+        <num>(25)</num>
+        <text>Except for John F. Kennedy Barrack M, all Department of State Police barracks;</text>
+      </para>
+      <para>
+        <num>(26)</num>
+        <text>All Department of Natural Resources Police Force detachments; and</text>
+      </para>
+      <para>
+        <num>(27)</num>
+        <text>University of Maryland Police at College Park.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The Central Repository may designate additional law enforcement agencies where fingerprint services under this regulation may be provided.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Approved Agency.</text>
+      <para>
+        <num>(1)</num>
+        <text>The Central Repository shall designate an approved agency to provide fingerprinting services for noncriminal justice purposes under this regulation after the agency’s employees have satisfactorily completed approved training.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Central Repository may require an employee of an approved agency receiving approved training to submit a set of fingerprints.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>An employee of an approved agency may not perform fingerprinting services for the purpose of obtaining a printed statement under this chapter until the employee has satisfactorily completed approved training.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>A list of approved agencies may be found on the Department’s website.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Quality Control and Compliance Procedures.</text>
+      <para>
+        <num>(1)</num>
+        <text>The Central Repository shall establish procedures to:</text>
+        <para>
+          <num>(a)</num>
+          <text>Evaluate the quality of fingerprints taken by a designated law enforcement agency or an approved agency; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Monitor compliance with approved training requirements by an approved agency.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Central Repository may require retraining for an employee of an approved agency who takes an unsatisfactory number of fingerprints as determined by the Central Repository.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The Central Repository:</text>
+        <para>
+          <num>(a)</num>
+          <text>For just cause may remove an approved agency from the list of approved agencies.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Shall notify, in writing, an agency that is removed from the list of agencies authorized to provide fingerprint services under this regulation.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container"><cite doc="Md. Code" path="gcj|3-8">Courts and Judicial Proceedings Article, §3-8</cite>A-27; <cite doc="Md. Code" path="gcp|10-221">Criminal Procedure Article, §10-221</cite>; Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="1977-03-02">Effective date: March 2, 1977 (4:5 Md. R. 384)</annotation>
+    <annotation type="History" dest="container" effective="1978-12-01">Chapter revised effective December 1, 1978 (5:24 Md. R. 1798)</annotation>
+    <annotation type="History" dest="container" effective="1988-05-02"><cite path="|12|15|01|.10|E.">Regulation .10E</cite> amended effective May 2, 1988 (15:9 Md. R. 1109)</annotation>
+    <annotation type="History" dest="container" effective="1990-07-09">Regulations <cite path="|12|15|01|.01">.01</cite>—<cite path="|12|15|01|.13">.13</cite> under <cite path="|12.06.08">COMAR 12.06.08</cite> repealed effective July 9, 1990 (17:13 Md. R. 1612)</annotation>
+    <annotation type="History" dest="container" effective="1990-07-09" discontinuity="true">Regulations <cite path="|12|15|01|.01">.01</cite>—<cite path="|12|15|01|.16">.16</cite> adopted effective July 9, 1990 (17:13 Md. R. 1612)</annotation>
+    <annotation type="History" dest="container" effective="1994-09-01"><cite path="|12|15|01|.03|B.">Regulation .03B</cite> amended effective April 15, 1991 (18:7 Md. R. 773); September 1, 1994 (21:11 Md. R. 952)</annotation>
+    <annotation type="History" dest="container" effective="1991-04-15"><cite path="|12|15|01|.05|B.">Regulation .05B</cite> and G amended effective April 15, 1991 (18:7 Md. R. 773)</annotation>
+    <annotation type="History" dest="container" effective="1991-04-15"><cite path="|12|15|01|.06">Regulation .06</cite> amended effective April 15, 1991 (18:7 Md. R. 773)</annotation>
+    <annotation type="History" dest="container" effective="1991-04-15"><cite path="|12|15|01|.07">Regulation .07</cite> amended effective April 15, 1991 (18:7 Md. R. 773)</annotation>
+    <annotation type="History" dest="container" effective="1994-09-01"><cite path="|12|15|01|.08|C.">Regulation .08C</cite> adopted effective September 1, 1994 (21:11 Md. R. 952)</annotation>
+    <annotation type="History" dest="container" effective="1994-09-01"><cite path="|12|15|01|.09">Regulation .09</cite>-1 adopted effective September 1, 1994 (21:11 Md. R. 952)</annotation>
+    <annotation type="History" dest="container" effective="1991-04-15"><cite path="|12|15|01|.11|D.">Regulation .11D</cite> adopted effective April 15, 1991 (18:7 Md. R. 773)</annotation>
+    <annotation type="History" dest="container" effective="2008-10-20"><cite path="|12|15|01|.12">Regulation .12</cite> amended effective October 20, 2008 (35:21 Md. R. 1825)</annotation>
+    <annotation type="History" dest="container" effective="2008-03-24"><cite path="|12|15|01|.12|B.">Regulation .12B</cite> amended effective September 27, 2004 (31:19 Md. R. 1433); March 24, 2008 (35:6 Md. R. 699)</annotation>
+    <annotation type="History" dest="container" effective="1991-04-15"><cite path="|12|15|01|.12|D.">Regulation .12D</cite> amended effective April 15, 1991 (18:7 Md. R. 773)</annotation>
+    <annotation type="History" dest="container" effective="1991-04-15"><cite path="|12|15|01|.13|C.">Regulation .13C</cite> adopted effective April 15, 1991 (18:7 Md. R. 773)</annotation>
+    <annotation type="History" dest="container" effective="1991-04-15"><cite path="|12|15|01|.14">Regulation .14</cite> adopted effective April 15, 1991 (18:7 Md. R. 773)</annotation>
+    <annotation type="History" dest="container" effective="1991-04-15">Regulations <cite path="|12|15|01|.14">.14</cite>—<cite path="|12|15|01|.16">.16</cite> recodified to Regulations <cite path="|12|15|01|.15">.15</cite>—<cite path="|12|15|01|.17">.17</cite> effective April 15, 1991 (18:7 Md. R. 773)</annotation>
+    <annotation type="History" dest="container" effective="2006-04-10"><cite path="|12|15|01|.14">Regulation .14</cite> amended effective April 10, 2006 (33:7 Md. R. 674)</annotation>
+    <annotation type="History" dest="container" effective="2008-03-24"><cite path="|12|15|01|.14|E.">Regulation .14E</cite> amended effective March 24, 2008 (35:6 Md. R. 699)</annotation>
+    <annotation type="History" dest="container" effective="2013-11-25" discontinuity="true">Chapter revised effective November 25, 2013 (40:23 Md. R. 1935)</annotation>
+    <annotation type="History" dest="container" effective="2015-03-30"><cite path="|12|15|01|.15|E.">Regulation .15E</cite> amended effective March 30, 2015 (42:6 Md. R. 512)</annotation>
+    <annotation type="History" dest="container" effective="2015-03-30"><cite path="|12|15|01|.19|C.">Regulation .19C</cite>, D repealed effective March 30, 2015 (42:6 Md. R. 512)</annotation>
+  </annotations>
+</container>

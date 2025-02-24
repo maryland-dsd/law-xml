@@ -1,0 +1,545 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>24</num>
+  <heading>Access to Inmate Records</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>"Confidential material" means any of the following:</text>
+        <para>
+          <num>(a)</num>
+          <text>Addresses and telephone numbers on victim notification or victim impact letters;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Police reports;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Juvenile records;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Presentence investigations;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Medical records, as defined in Health-General Article, §4-302, Annotated Code of Maryland, which include mental health records;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Board of Review hearing reports;</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>Parole progress file;</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>Information obtained under the promise of confidentiality; and</text>
+        </para>
+        <para>
+          <num>(i)</num>
+          <text>Information pertaining to an ongoing or pending investigation.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>"Inmate" means an eligible person, as defined in <cite path="12.12.01.03|B.|(9)">COMAR 12.12.01.03B(9)</cite>, or a Division inmate who has been referred to the Institution for evaluation.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>"Inmate base file" means the personal record of an inmate, which shall include, to the extent not prohibited by federal law, and to the extent they are physically available:</text>
+        <para>
+          <num>(a)</num>
+          <text>Police reports and other relevant information concerning the crime of which the inmate was most recently convicted and the sentence imposed for that conviction;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The inmate's prior criminal and juvenile history, and all relevant records concerning it;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Presentence investigation, parole, probation, and other reports that have been prepared concerning the inmate;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>School records;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Information concerning the inmate's prior medical and mental health history, including relevant medical and hospital records and reports; and</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>All other relevant information, records, and reports concerning the inmate's social, physical, or mental condition and history.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>"Mental health records" means any manual or automated record of mental health assessment or care maintained on an inmate, including psychological reports, psychiatric evaluations, evaluation reports, social histories, and any correspondence relating to therapy.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="12|12|24|.02">
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Procedure.</heading>
+    <para>
+      <num>A.</num>
+      <text>Records.</text>
+      <para>
+        <num>(1)</num>
+        <text>The Institution shall compile and maintain a complete record and history of each inmate referred to the Institution for evaluation or admitted to the Institution for treatment.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Institution shall also record a full and accurate description of each inmate admitted to it for treatment, including photographs. The Institution may adopt the Bertillon or any other accurate method of description, measurement, and registration.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>All State and local officials and agencies shall cooperate with the Institution, and shall, promptly upon request, furnish or cause to be furnished to the Institution the information, records, and reports in their possession in order that the Institution may comply with this section. The provisions of <cite doc="Md. Code" path="gcj|3-828">Courts and Judicial Proceedings Article, §3-828(b), Annotated Code of Maryland</cite>, do not apply with respect to a request made for juvenile records pursuant to this regulation.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>To the extent that any records, reports, and information compiled pursuant to <cite doc="Md. Code" path="gcs|4-209">Correctional Services Article, §4-209(e), Annotated Code of Maryland</cite>, are legally confidential, they shall remain confidential and may not be disclosed to any person or agency except as provided below:</text>
+      <para>
+        <num>(1)</num>
+        <text>The Commissioner or his authorized staff;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Division of Parole and Probation;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The Maryland Parole Commission;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>A State's Attorney, when required in the prosecution or defense of a proceeding in court;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>A federal, State, or local law enforcement officer upon a written request signed by an authorized commanding officer of the law enforcement agency, certifying that the information is needed for a pending investigation;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>An authorized correctional official or probation officer of the United States or a state, district, or territory of the United States, if that jurisdiction has made reciprocal provision by law for the furnishing of similar information to comparable officials of Maryland;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>The Attorney General of Maryland;</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>The Inmate Grievance Commission to the extent relevant to a matter pending before it, and with the written consent of the person to whom the information pertains;</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>The Division of Vocational Rehabilitation of the Maryland Department of Education solely for the purpose of determining if an inmate confined at the Institution qualifies for benefits provided by the Division;</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>Providers of medical care when medical records are required to the extent necessary to assure proper medical treatment;</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>A judge of a circuit court or District Court when required in connection with pretrial release, presentence investigation, or postsentence investigation; and</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>State, local, federal, and private agencies to the extent that the release of the information will benefit the inmate, and with the written consent of the inmate to whom the information pertains.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Confidential information may be disclosed under §§B and F of this regulation only if the Director is reasonably assured and convinced that:</text>
+      <para>
+        <num>(1)</num>
+        <text>It will be used solely for the legitimate purposes of the person or agency receiving it;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>It will not be used for any improper or unauthorized purpose; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>It will not be further disseminated to any person or agency not authorized to receive it, as listed in <cite path="12|12|24|.02|B.">§B of this regulation</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Juvenile records obtained pursuant to <cite path="12|12|24|.02|A.|(3)">§A(3) of this regulation</cite> may not be disclosed to any person or agency except those listed in §B, and then only in accordance with §C.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Attorney Access to Nonconfidential Base File Information.</text>
+      <para>
+        <num>(1)</num>
+        <text>The attorney of an inmate may obtain access to the inmate's base file, with the exception of confidential information, according to the procedures described in this section.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The attorney shall provide the Director with a minimum of 24 hours notice in writing. A specific reason for the request shall be stated. Merely noting "legal" is insufficient.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Before review the attorney shall provide the records department with an authorization for release of records form, signed by the inmate, authorizing the release of the records requested.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The attorney shall be required to show proper identification before access is permitted.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>An attorney may review only those records for which the request has been made in accordance with this directive.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>If the records are to be reviewed by an employee or agent of the attorney, proper identification shall accompany the employee and be produced upon request.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>All records shall be reviewed in the presence of an Institution employee.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>A reasonable charge shall be assessed for all photocopies provided.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>Joint reviews of the inmate's records, by the attorney and the inmate, are not allowed.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Attorney Request for Confidential Information.</text>
+      <para>
+        <num>(1)</num>
+        <text>A request for access to confidential information shall be made in accordance with §E, and the request may be granted only if the provisions of §C are satisfied.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If the request for confidential information includes medical records maintained by a contractual medical provider, the Director shall provide the attorney with the information necessary to request the records from the medical provider.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Joint reviews of confidential information, by the attorney and the inmate, are not allowed.</text>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Inmate Access to Nonconfidential Information.</text>
+      <para>
+        <num>(1)</num>
+        <text>Inmates may obtain access to nonconfidential information in their base file in accordance with the procedures described in this section.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A request for records review shall be submitted in writing to the records supervisor.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A request-received acknowledgment will be sent to the inmate within 5 working days. Reviews will be scheduled within 30 days of this acknowledgment.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The name of the inmate will be placed on a list maintained by the records department.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Records department personnel will schedule records review at least once a month. Reviews will be done in the presence of records department personnel.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>The records department will ensure that all confidential material is removed.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Inmates will be permitted to review their base file no more than twice a year, once every 6 months, unless additional reviews are approved by the Director.</text>
+      </para>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>Inmate Access to Medical or Mental Health Information.</text>
+      <para>
+        <num>(1)</num>
+        <text>Inmate Access to Medical Information.</text>
+        <para>
+          <num>(a)</num>
+          <text>An inmate may obtain access to medical information maintained by a contractual medical provider by submitting a written request to the medical provider.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The Associate Director for Treatment shall provide the inmate with the information necessary to submit this request to the medical provider.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Inmate Access to Mental Health Information. An inmate may obtain access to mental health information in the inmate's base file in accordance with the procedures described in this section.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The inmate shall send a written request for access to the Associate Director for Treatment. This request shall contain a statement from the inmate which describes the purpose of the request.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Within 10 working days of receiving a request for access, the Associate Director for Treatment shall review the request with the inmate's psychologist or psychiatrist and decide if access should be granted.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The inmate shall be notified of the Associate Director's decision, in writing, within 5 working days of the decision. If the decision is to deny access, the written notice shall contain the basis for the denial.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>If access is granted, the inmate's review of the requested records shall be scheduled within 30 calendar days of the Associate Director's decision. The inmate's access to the records shall be supervised by a member of the Institution's treatment staff, and a staff member of the records department shall also be present.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>The inmate may not be provided with a copy of any of the inmate's mental health information under any circumstances.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>A request for access may be denied if the Associate Director for Treatment finds that:</text>
+        <para>
+          <num>(a)</num>
+          <text>The request is not for a legitimate purpose;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>In the opinion of the inmate's psychologist or psychiatrist, access to the information is psychologically contraindicated; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Granting access would present a clear threat to the safety of an individual or the security of the Institution.</text>
+        </para>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>If access is denied, the Associate Director for Treatment shall ensure that a summary of the records that is compatible with the inmate's current level of functioning is prepared. The summary shall be reviewed with the inmate by the inmate's psychologist, psychiatrist, or other mental health care provider in an effort to have the contents of the summary understood by the inmate.</text>
+      </para>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>Record of Request for Access to Inmate Records.</text>
+      <para>
+        <num>(1)</num>
+        <text>Records department personnel shall maintain a written log of requests for access to inmate records.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>At a minimum, this log shall contain the following information:</text>
+        <para>
+          <num>(a)</num>
+          <text>Date of the request for access;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Name and Institution number of the inmate to whom the request pertains;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Name of the person requesting access;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Description of the specific records that the person is requesting access to;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Reason for the request;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Name of the person approving or denying the request for access, the date of approval or denial, and verification of the approval or denial of the request;</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>Name of the records department staff member who has verified the approval or denial of the request for access; and</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>If access to the requested records is approved, a notation of the date that access was granted, and the name of the Institution staff member who supervised the review of the records.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Records department personnel shall place the inmate's written request for access to records, documentation of approval or denial of the request, and documentation of access when a request is approved, in the inmate's base file.</text>
+      </para>
+    </para>
+    <para>
+      <num>J.</num>
+      <text>Access to Inmate Records for Research Purposes.</text>
+      <para>
+        <num>(1)</num>
+        <text>The Director shall establish procedures for the submission of written research proposals to the Institution and for the internal Institution review of research proposals, and shall make copies of these procedures available upon request.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Director may approve a written research proposal submitted by an individual or agency engaged in legitimate research, evaluation, or statistical analysis activities, provided that the research conforms to current standards for the ethical conduct of research and is consistent with the rules, regulations, operational capabilities, and goals of the Institution.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If the Director approves a research proposal, the Director shall ensure that a written research agreement is prepared and signed by the researcher and the Director. The research agreement shall include, but is not limited to, a statement of the purpose of the research, a description of the specific research tasks to be performed by the researcher, the names of all individuals who will be performing the research, the information sources to be used, a description of the steps that the researcher will take to protect the privacy of the research subjects and maintain the confidentiality of the data, and the right of the Institution to review reports, documents, or proposed publications before their dissemination or publication.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>A report, document, record, or other material that is legally confidential concerning an inmate may only be disseminated for research purposes under the following conditions:</text>
+        <para>
+          <num>(a)</num>
+          <text>The Director has approved the research proposal in accordance with internal Institution rules and procedures;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The Director has determined that the release of the information will benefit an inmate;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The researcher has obtained the written consent of the inmate to whom the information pertains;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>The Director is reasonably assured and convinced that the material:</text>
+          <para>
+            <num>(i)</num>
+            <text>Shall be used solely for the legitimate purposes of the researcher,</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>May not be used for any improper or unauthorized purpose, and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>May not be further disseminated to an individual, agency, or organization without the express prior approval of the Director;</text>
+          </para>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>The research agreement specified in <cite path="12|12|24|.02|J.|(3)">§J(3) of this regulation</cite> has been prepared and signed by the researcher and the Director; and</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>The material is recorded by the researcher in such a manner that the inmate to whom the information pertains, the inmate's victim, and the victim's family cannot be identified from the data set or any published reports.</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Reports, documents, records, or any other material concerning an inmate that is not legally confidential may only be disseminated for research purposes under the following conditions:</text>
+        <para>
+          <num>(a)</num>
+          <text>The Director has approved the research proposal in accordance with internal Institution rules and procedures;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The research agreement specified in J(3) of this regulation has been prepared and signed by the researcher and the Director; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Unless the sources of the information are publicly available, the material shall be recorded by the researcher in such a manner that the inmate to whom the information pertains, the inmate's victim, and the victim's family cannot be identified from the data set or any published reports.</text>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>If the Director disapproves a research proposal, the researcher shall be notified in writing. An appeal of the Director's decision to disapprove a research proposal may be made to the Office of the Secretary. The Office of the Secretary shall make a final determination on the research proposal.</text>
+      </para>
+    </para>
+    <para>
+      <num>K.</num>
+      <text>Fees.</text>
+      <para>
+        <num>(1)</num>
+        <text>The custodian of records shall collect a fee for copying and a fee for preparation of the materials from the requesting party, except that the custodian may not levy a preparation fee for the first 2 hours of official employee time that is needed to respond to a request. Copying and preparation fees shall be posted in the records department, on all tiers, in the ID room, and in the captain's office. The custodian may waive the fees if the waiver would be in the public interest.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Photocopying will be done only after normal procedures have been followed for withdrawing money from the inmate's financial account, or in the case of outside parties upon satisfactory arrangements for payment by the requesting party.</text>
+      </para>
+    </para>
+    <para>
+      <num>L.</num>
+      <text>Request for Nonconfidential Information. All requests for nonconfidential information from any other state, federal, local, or private agency not listed in <cite path="12|12|24|.02|B.">§B of this regulation</cite> shall be accompanied by an authorization, signed by the inmate, that states the purpose of the request. If the agency does not have or is unable to obtain an authorization, the request shall be sent to the Director for a decision.</text>
+    </para>
+    <para>
+      <num>M.</num>
+      <text>Appeals.</text>
+      <para>
+        <num>(1)</num>
+        <text>Unless otherwise provided in this chapter, an agency, inmate, or other individual requesting access to information shall be notified of a denial within 15 working days of the receipt of the request. This notification shall be placed in the inmate's base file by records department personnel.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Inmate's Written Appeal.</text>
+        <para>
+          <num>(a)</num>
+          <text>An inmate may submit a written appeal of a decision made by the Associate Director for Treatment to the Director.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The Director shall review the records requested and may consult with an individual considered appropriate to perform a fair review of the Associate Director's decision.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Within 10 working days of the Director's receipt of the appeal, the Director shall provide the inmate with written notice of the Director's decision on the appeal.</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>If the appeal is denied by the Director, the written notice shall contain the reason for the decision.</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>The inmate's written appeal, and the Director's written notification of the decision to the inmate, shall be placed in the inmate's base file by records department personnel.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>An inmate may appeal the Director's decision to the Inmate Grievance Office in accordance with the Inmate Grievance Office's procedures.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>An attorney, agency, or other individual denied access by the Director may appeal the Director's decision to the Office of the Secretary. The Office of the Secretary shall make a final determination on the request.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Request for Inactive Inmate Records from the State Records Center.</heading>
+    <para>
+      <num>A.</num>
+      <text>A records department supervisor or designee shall ensure that a reference request form is prepared when an inmate's records are requested from the State Records Center.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A records department supervisor or designee shall notify the State Records Center of the records which are needed for review, and will obtain the records at the State Records Center, Waterloo, Maryland.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>When the records are no longer needed, a records department supervisor or designee shall return the records to the State Records Center.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The Associate Director, Behavioral Science, shall designate a staff person who shall notify the Director by memorandum that the records have been returned to the State Records Center.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>The form and the memorandum shall then be filed by the Director and destroyed after 2 years under Maryland law.</text>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Correctional Services Article, §§<cite doc="Md. Code" path="gcs|4-208">4-208</cite> and <cite doc="Md. Code" path="gcs|4-209">4-209</cite>, Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="1992-02-03">Effective date: February 3, 1992 (19:2 Md. R. 155)</annotation>
+  </annotations>
+</container>

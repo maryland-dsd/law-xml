@@ -1,0 +1,789 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>03</num>
+  <heading>Procurement</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Policy.</heading>
+    <text>It is the policy of the Maryland Environmental Service to procure supplies, services, and construction in a cost-effective manner consistent with the best interests of the Service, its clients, its vendors, and the general public.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Scope.</heading>
+    <para>
+      <num>A.</num>
+      <text>This chapter does not apply to the following:</text>
+      <para>
+        <num>(1)</num>
+        <text>Reimbursement contracts for which user eligibility and cost are set by law or by rules and regulations;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Collective bargaining agreements with employee organizations (labor contracts);</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Acquisition of real property or a permanent or temporary interest in real property;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Contracts with a State agency or a municipality;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Disposal of real or personal property;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Procurement for purposes of direct resale or remanufacture and subsequent resale;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Agreements creating employee-employer relationships;</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>A procurement on behalf of a municipality or a client of the Service if the:</text>
+        <para>
+          <num>(a)</num>
+          <text>Service estimates that the procurement will exceed $25,000,</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Governing body of the municipality or the client requests the Service to waive its procedures, and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Board formally assents to waive its procedures; or</text>
+        </para>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>A contract with or by a corporation established under <cite doc="Md. Code" path="gnr|3-104">Natural Resources Article, §3-104(y), Annotated Code of Maryland</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Except as provided in <cite path="|14|27|03|.02|A.">Regulation .02A of this chapter</cite>, this chapter applies to each expenditure of the Service for the acquisition of services, supplies, construction, or professional services.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Exemptions.</text>
+      <para>
+        <num>(1)</num>
+        <text>The Service is generally exempt from State Finance and Procurement Article, Division II, Annotated Code of Maryland, and the regulations adopted under Division II.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Service is not exempt from State Finance and Procurement Article, Title 14, Subtitles 3 and 5, and Titles 16 and 17, Annotated Code of Maryland, or the regulations adopted under those statutes.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>"Award" means the decision by the Service to execute a contract.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>"Bid" means a statement of price, terms of sale, and description of supplies, services, or construction offered by a bidder in response to an invitation for bids.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>"Bidder" means a person who submits a bid to the Service.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>"Board" means the Board of Directors of the Service.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>"Construction" means the process of building, altering, repairing, improving, or demolishing any structure, building, or other improvement to real property.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>"Day" means a calendar day.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>"Determination" means a written procurement decision made by an official or employee of the Service which is based upon written findings.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>"Director" means the Executive Director of the Maryland Environmental Service.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>"Emergency" means a sudden and unexpected occurrence or condition which management of the Service could not reasonably foresee and which requires an action to avoid or to mitigate damage to the environment or to health, safety, or welfare.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>"Invitation for bids" means a document used for soliciting bids.</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>"Municipality" has the meaning stated in <cite doc="Md. Code" path="gnr|3-101">Natural Resources Article, §3-101(h), Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>"Person" has the meaning stated in <cite doc="Md. Code" path="gnr|3-101">Natural Resources Article, §3-101(j), Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>"Procurement" includes all functions that pertain to the process of buying, purchasing, or otherwise obtaining supplies, services, or construction, or leasing personal property as lessee.</text>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>"Procurement officer" means a person authorized by the Director to administer contracts, or to make written determinations and findings with respect to contracts.</text>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>"Professional services" means services provided by attorneys, engineers, architects, financial advisors, physicians, consultants, land surveyors, appraisers, and accountants.</text>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>Proposal.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Proposal" means the response by an offeror to a request for proposals to obtain supplies, services, or construction.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Proposal" may include, without limitation, an offeror's price, a description of technical expertise, work experience, and other information requested in the solicitation.</text>
+        </para>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>"Request for proposals" means a document used for soliciting proposals from offerors.</text>
+      </para>
+      <para>
+        <num>(18)</num>
+        <text>"Respondent" means a bidder or an offeror.</text>
+      </para>
+      <para>
+        <num>(19)</num>
+        <text>"Responsible" means a person who has the capability in all respects to dutifully perform fully the contract requirements, and the integrity and reliability that ensures good faith performance.</text>
+      </para>
+      <para>
+        <num>(20)</num>
+        <text>"Responsive" means a bid or offer submitted in response to a solicitation that conforms in all material respects to the requirements contained in the solicitation.</text>
+      </para>
+      <para>
+        <num>(21)</num>
+        <text>"Services" means the rendering of time, effort, or work, rather than the furnishing of a specific physical product other than reports incidental to the required performance.</text>
+      </para>
+      <para>
+        <num>(22)</num>
+        <text>"Sole source procurement" means a procurement for a requirement that is available from only a single vendor.</text>
+      </para>
+      <para>
+        <num>(23)</num>
+        <text>"Solicitation" means an invitation for bids, a request for proposals, or any other method or instrument used to communicate to potential bidders or offerors the Service's procurement needs.</text>
+      </para>
+      <para>
+        <num>(24)</num>
+        <text>"Service" means the Maryland Environmental Service.</text>
+      </para>
+      <para>
+        <num>(25)</num>
+        <text>"Supplies" means items of purchase which may include office goods, printing, building materials, equipment, parts, motor vehicles, tools, and equipment leases.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="14|27|03|.04">
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Contract Authority.</heading>
+    <para>
+      <num>A.</num>
+      <text>Contract Approval.</text>
+      <para>
+        <num>(1)</num>
+        <text>The Director shall approve contracts of the Service.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Director may delegate authority to approve a contract of the Service to a Service employee.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A contract is approved if:</text>
+        <para>
+          <num>(a)</num>
+          <text>The Director signs the contract or otherwise expresses the Director's approval of the contract in writing;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>An employee of the Service described in <cite path="14|27|03|.04|A.|(2)">§A(2) of this regulation</cite> signs the contract or otherwise expresses that employee's approval in writing; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The Board approves the contract as provided in <cite path="14|27|03|.04|C.">§C of this regulation</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>A Service employee who has not been delegated approval authority by the Director may not approve a contract. Except as provided in this regulation, a contract is not enforceable against the Service if the contract has not been approved by the Director or a Service employee who has been delegated approval authority by the Director.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Except as provided in <cite path="|14|27|03|.06|D.|(1)">Regulation .06D(1) of this chapter</cite>:</text>
+        <para>
+          <num>(a)</num>
+          <text>The procurement contracts of the Service shall be in writing; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>An oral contract purporting to bind the Service is not enforceable against the Service.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The Director shall report to the Board any contract awarded by the Service that is in an amount exceeding $25,000.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Procurement Approval.</text>
+      <para>
+        <num>(1)</num>
+        <text>If the Service estimates that a procurement will result in the award of a contract that exceeds $200,000, the Service may obtain the approval of the Board for contract award before distributing a solicitation notice for the procurement.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Service shall obtain the approval of the Board before awarding a contract for more than $200,000 if the:</text>
+        <para>
+          <num>(a)</num>
+          <text>Procurement was not approved as provided in <cite path="14|27|03|.04|C.|(1)">§C(1) of this regulation</cite>; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Amount of the contract award exceeds the Service's estimate of the procurement by an amount specified by the Board.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Determinations.</heading>
+    <text>Determinations required by these regulations shall be in writing, signed by the procurement officer, and retained by the Service for not less than 3 years from the date of the determination.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Source Selection.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Service may use the following procurement methods:</text>
+      <para>
+        <num>(1)</num>
+        <text>Competitive sealed bidding;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Competitive proposals;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Negotiated award after unsatisfactory competitive sealed bidding;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Intergovernmental cooperative purchasing;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Sole source procurement; and</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Emergency source selection.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Prequalification.</text>
+      <para>
+        <num>(1)</num>
+        <text>The Service may require that respondents be prequalified before receipt of bids or proposals.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If the Service determines that respondents shall be prequalified, then the Service shall establish reasonable prequalification criteria. The criteria shall be clearly set forth in a request for qualifications.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The Service may require that architectural or engineering respondents submit U.S. Government Standard Form 330, Architect/Engineer and Related Services Questionnaire (SF-330), in order to be prequalified.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Notice of Solicitation.</text>
+      <para>
+        <num>(1)</num>
+        <text>The Service shall distribute solicitation notices in a reasonable manner sufficient to provide general notice to potential respondents. The Service shall issue solicitation notices in a reasonable time in advance of the date responses are due. The Service may charge reasonable fees for the solicitation documents.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>For a procurement estimated to exceed $25,000, the Service shall publish notice of the solicitation in an appropriate publication at least 10 days before the date bids or proposals are due.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Small Procurement.</text>
+      <para>
+        <num>(1)</num>
+        <text>For a procurement estimated to be equal to or less than $5,000, the Service may solicit any number of bids or offers orally, and the Service may enter into either written or oral contracts.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>For a procurement estimated to exceed $5,000 and be less than or equal to $15,000, the Service shall, when practical, obtain two or more verbal bids or offers.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>For a procurement estimated to exceed $15,000 and be less than or equal to $25,000, the Service shall, when practical, obtain two or more written bids or offers.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>In determining whether it is practical to obtain multiple bids or offers the Service may consider factors such as availability of vendors, dollar value of the procurement, cost of administering the procurement, and time available to make the procurement including delivery time.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Procurement by Competitive Sealed Bidding.</heading>
+    <para>
+      <num>A.</num>
+      <text>Applicability. This regulation applies to any procurement of the Service except as provided in Regulations .06D and .08 — .11 of this chapter.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Invitations for Bids. The Service shall initiate a procurement by competitive sealed bidding by issuing an invitation for bids. The invitation for bids shall include a written bid form based on the specifications, a statement that the bidder agrees to all terms and conditions, provisions and addenda, if any, to the invitation for bids, the time and place of bid opening, and such other information as the Service reasonably considers necessary. The Service may require bidders to submit samples or descriptive literature.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Prebid Conferences. The Service may conduct prebid conferences, and may require that attendance by bidders be mandatory.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Bid Modifications. A bidder may modify or withdraw a bid before bid opening by submitting written notice to the Service. The Service shall return bid security to a bidder if the bidder withdraws its bid in accordance with this regulation.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Late Bids, Late Withdrawals, Late Modifications.</text>
+      <para>
+        <num>(1)</num>
+        <text>The Service may not consider a bid, bid withdrawal, or bid modification received after the bid opening time and date, except that the Service may consider a late bid, late withdrawal, or late modification if the delay was substantially caused by the Service. The bidder is solely responsible for timely receipt of its bid.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A late modification of a successful bid that makes the terms more favorable to the Service may be considered and accepted by the Service at any time before contract award.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Receipt and Opening of Bids.</text>
+      <para>
+        <num>(1)</num>
+        <text>The Service shall store bids in a secure location before bid opening.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Service may not disclose the identity of any bidder before bid opening.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>An employee of the Service shall open bids publicly, read aloud the bids, and record the bids at the date, time, and place set for bid opening in the bid notice. Opened bids shall be available for public inspection to the extent required by <cite doc="Md. Code" path="ggp">General Provisions, Title 4, Subtitle 2, Annotated Code of Maryland</cite>. Proprietary information shall be examined by the procurement officer to determine validity of nondisclosure. The Service may not disclose proprietary information submitted by a bidder, except as required by law. Prices, makes, models, catalog numbers, delivery, and payment terms shall be made available for public inspection.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>After bids have been opened, the Service shall prepare a bid tabulation.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>A bidder shall acknowledge receipt of bid addenda.</text>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Bid Mistakes.</text>
+      <para>
+        <num>(1)</num>
+        <text>The procurement officer may waive technicalities or minor irregularities in a bid.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Before award, a successful bidder may be permitted to withdraw its bid if the bidder presents clear and convincing evidence to the procurement officer that an error has been made, or if an error is obvious from the face of the bid documents.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If an error and the intended correction of a bid are evident on the face of the bid documents, the bid shall be corrected and may not be withdrawn.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>After contract award, a mistake in a bid may only be corrected if the Service determines that it would be unconscionable not to permit correction. The Service may not allow any change in price.</text>
+      </para>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>Bid Evaluation and Award. The contract shall be awarded to the responsible bidder submitting the most favorable responsive bid.</text>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>Tie Bids. If responsive tie bids are received from two or more responsible bidders, the Service shall award the contract in the same manner as provided in <cite path="21.05.02.14">COMAR 21.05.02.14</cite>.</text>
+    </para>
+    <para>
+      <num>J.</num>
+      <text>Conditional Bids. The Service shall reject as nonresponsive any conditional bid.</text>
+    </para>
+    <para>
+      <num>K.</num>
+      <text>Procurement by Negotiated Award After Unsatisfactory Competitive Sealed Bidding.</text>
+      <para>
+        <num>(1)</num>
+        <text>The Service may conduct discussion with bidders if, after bids have been opened:</text>
+        <para>
+          <num>(a)</num>
+          <text>All bids are rejected pursuant to <cite path="|14|27|03|.12">Regulation .12 of this chapter</cite>;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>All bids submitted result in bid prices in excess of funds available; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The procurement officer determines that all prices received are unreasonable as to one or more of the Service's requirements and:</text>
+          <para>
+            <num>(i)</num>
+            <text>There are no funds available to permit an award to the responsible bidder submitting the most favorable bid, or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>A delay resulting from a resolicitation under revised specifications or quantities under competitive sealed bidding would be disadvantageous or not otherwise in the best interest of the Service.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Service may request bidders to submit revised bids. The Service may conduct discussions with bidders after revised bids have been submitted if the procurement officer determines that there is a compelling need for further discussions. If there is more than one bidder, then any discussions concerning revised specifications or quantities shall be conducted with all responsible bidders.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Procurement by Competitive Sealed Proposals.</heading>
+    <para>
+      <num>A.</num>
+      <text>Conditions for Use.</text>
+      <para>
+        <num>(1)</num>
+        <text>Competitive sealed proposals is the preferred method for the procurement of professional services.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>For any other use of competitive sealed proposals as a procurement method, the procurement officer shall make a determination that:</text>
+        <para>
+          <num>(a)</num>
+          <text>Specifications cannot be prepared to support an award on price alone; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Competitive sealed bidding is not practicable, or is not advantageous to the Service.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Request For Proposals.</text>
+      <para>
+        <num>(1)</num>
+        <text>A request for proposals shall include:</text>
+        <para>
+          <num>(a)</num>
+          <text>The date, time, and place for submission of proposals;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The proposal requirements, including price proposals;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The evaluation factors and relative importance of each; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>A statement of work or scope of services required by the Service.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A request for proposals may include other information the Service reasonably determines is necessary.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The Service may conduct preproposal conferences, and may require that attendance by offerors be mandatory.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Receipt of Proposals.</text>
+      <para>
+        <num>(1)</num>
+        <text>A proposal, withdrawal, or modification received after the established due date and time at the place designated for receipt of proposals is late and may only be considered in accordance with <cite path="|14|27|03|.07|E.">Regulation .07E of this chapter</cite>.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Service may not open proposals publicly. The Service may not disclose the contents of a proposal to any person other than a person responsible for evaluating or reviewing the proposal before contract award. Proprietary information shall be examined by the procurement officer to determine validity of nondisclosure. The Service may not disclose proprietary information submitted by an offeror, except as required by law.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>An offeror shall acknowledge receipt of addenda in its proposal.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Proposal Evaluation.</text>
+      <para>
+        <num>(1)</num>
+        <text>The Service shall evaluate proposals using the evaluation factors set forth in the request for proposals.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Technical and price proposals shall be evaluated independently of one another.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The Service may establish a technical evaluation committee to evaluate proposals and make a recommendation of contract award to the Service. The technical evaluation committee may include members who are not employees of the Service.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Discussions.</text>
+      <para>
+        <num>(1)</num>
+        <text>The Service may conduct discussions with qualified offerors. A qualified offeror is an offeror that submits a proposal that is determined by the procurement officer to be reasonably susceptible of being selected for contract award.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Discussions are held to:</text>
+        <para>
+          <num>(a)</num>
+          <text>Ensure full understanding of the Service's requirements and of the offeror's proposal and ability to perform;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Obtain the best price for the Service; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Facilitate arrival at a contract that is most advantageous to the Service, taking into consideration price and other relevant evaluation factors set forth in the request for proposals.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The Service shall treat qualified offerors fairly and equally with respect to any opportunity for discussions, negotiations, and clarification of proposals.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Best and Final Offers. The procurement officer may permit qualified offerors to revise their initial proposals by submitting best and final offers. The Service may require more than one series of submissions of best and final offers and discussions. If more than one submission of best and final offers is requested, an offeror's immediate previous offer shall be construed as its best and final offer unless the offeror submits a timely notice of withdrawal or another best and final offer.</text>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Contract Award. Upon completion of all discussions and negotiations, the procurement officer shall make a determination recommending award of the contract to the responsible offeror whose proposal is determined to be the most advantageous to the Service. The procurement officer shall promptly notify all offerors of the recommended contract award.</text>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>Debriefing of Unsuccessful Offerors.</text>
+      <para>
+        <num>(1)</num>
+        <text>When a contract is to be awarded on some basis other than price alone, an unsuccessful offeror may be debriefed upon the offeror's written request submitted to the procurement officer within 10 days after the offeror has knowledge that the contract is to be awarded to another offeror. Debriefings shall be conducted by a procurement official familiar with the rationale for the selection decision and contract award.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Debriefing shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Be limited to discussion of the unsuccessful offeror's proposal and may not include any discussion of a competing offeror's proposal;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Be factual and consistent with the evaluation of the unsuccessful offeror's proposal; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Provide information on areas in which the unsuccessful offeror's technical proposal was considered weak or deficient.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Debriefing may not include discussion or dissemination of the thoughts, notes, or rankings of individual members of an evaluation committee, but may include a summary of the procurement officer's rationale for the selection decision and recommended contract award.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>A summary of the debriefing shall be made a part of the contract file.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Sole Source Procurement.</heading>
+    <para>
+      <num>A.</num>
+      <text>Conditions for Use.</text>
+      <para>
+        <num>(1)</num>
+        <text>Sole source procurement is not permissible unless a requirement is available from only a single vendor.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The determination as to whether a procurement shall be made as a sole source shall be made by the procurement officer, and approved by the Director. The determination and the basis for it shall be in writing. The Service may not award a contract to a sole source before the Director's approval.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Confidential Services. The Service may enter into a sole source contract to retain the confidential services of a contractor:</text>
+      <para>
+        <num>(1)</num>
+        <text>To advise the Service in connection with threatened or pending litigation; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>For appraisal of real property contemplated for acquisition by the Service.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.10</num>
+    <heading>Emergency Procurement.</heading>
+    <para>
+      <num>A.</num>
+      <text>Application. The procurement officer, with the prior approval of the Director, may award an emergency contract by other than competitive sealed bidding or competitive sealed proposals under Regulation .07 or .08, respectively, of this chapter.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Scope. An emergency procurement is limited to the procurement of those items necessary to avoid or to mitigate damage to the environment or to health, safety, or welfare.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Competition. The Service shall reasonably attempt to obtain such competition as is consistent with meeting the time requirements of the emergency.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.11</num>
+    <heading>Contract Award.</heading>
+    <para>
+      <num>A.</num>
+      <text>The procurement officer shall determine whether a respondent is responsible.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The procurement officer may find that a respondent is not a responsible bidder or offeror for:</text>
+      <para>
+        <num>(1)</num>
+        <text>Unreasonable failure to supply information promptly in connection with a determination of responsibility under this chapter; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Any other reason indicating that the respondent does not have the:</text>
+        <para>
+          <num>(a)</num>
+          <text>Capability in all respects to perform fully the contract requirement, or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Integrity and reliability that will ensure good faith performance.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The procurement officer shall determine whether a bid or offer is responsive. A responsive bid or offer contains a definite unqualified offer to perform in accordance with the terms of the solicitation.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Publication of Award. The Service shall publish notice of award of a procurement in eMaryland Marketplace if the Service has previously published notice of solicitation for the same procurement in eMaryland Marketplace, as set forth in Regulation.06C(2) of this chapter.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.12</num>
+    <heading>Cancellation or Rejection of Solicitations.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Service may cancel a solicitation in whole or in part before opening of bids or proposals when, in the determination of the procurement officer, cancellation is in the best interest of the Service. Bids or proposals shall be returned to the bidders or offerors together with a notice of cancellation.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>After opening of bids or proposals, the Service may reject all proposals or bids in whole or in part when, in the determination of the procurement officer, rejection is in the best interest of the agency. Notice of rejection of all bids or proposals shall be sent to all vendors that submitted bids or proposals.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Determination of the reasons for cancellation or rejection shall be made part of the procurement file.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The Service may reject a bid or proposal in whole or in part when it is in the Service's reasonable best interest to do so. Reasons may include, but are not limited to, the following:</text>
+      <para>
+        <num>(1)</num>
+        <text>The respondent that submitted the bid or proposal is not responsible;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The bid or offer is not responsive or the offer is not reasonably susceptible of being selected for award;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The price is not reasonable; or</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The respondent is debarred or otherwise ineligible for award and the period of debarment or ineligibility has not expired.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Opened bids or proposals shall be retained in the procurement file. Unopened bids or proposals shall be returned to the respondent, or otherwise disposed of by the Service.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.13</num>
+    <heading>Disputes.</heading>
+    <text>Disputes arising in the performance of contracts which are not resolved by agreement of the parties shall be decided in writing by an authorized representative of the Director. The decision of the Director's authorized representative is final and conclusive unless, within 10 calendar days of receipt of its copy of the decision, the contractor delivers a written appeal to the Director. In connection with an appeal, the contractor shall be afforded an opportunity to be heard and to offer binding evidence in support of its position. The decision by the Director is binding upon the contractor, and the contractor shall abide by the decision.</text>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Natural Resources Article, §§<cite doc="Md. Code" path="gnr|3-103">3-103</cite> and <cite doc="Md. Code" path="gnr|3-127">3-127</cite>, Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="1994-12-19">Effective date: December 19, 1994 (21:25 Md. R. 2108)</annotation>
+    <annotation type="History" dest="container" effective="2018-03-12"><cite path="|14|27|03|.02|C.">Regulation .02C</cite> amended effective March 12, 2018 (45:5 Md. R. 288)</annotation>
+    <annotation type="History" dest="container" effective="2021-09-06"><cite path="|14|27|03|.03|B.">Regulation .03B</cite> amended as an emergency provision effective July 1, 2021 (48:15 Md. R. 592); amended permanently effective September 6, 2021 (48:18 Md. R. 693)</annotation>
+    <annotation type="History" dest="container" effective="1995-08-14"><cite path="|14|27|03|.04">Regulation .04</cite> amended effective August 14, 1995 (22:16 Md. R. 1222)</annotation>
+    <annotation type="History" dest="container" effective="1998-06-01"><cite path="|14|27|03|.04|C.">Regulation .04C</cite> amended effective June 1, 1998 (25:11 Md. R. 822)</annotation>
+    <annotation type="History" dest="container" effective="2021-09-06"><cite path="|14|27|03|.04|C.">Regulation .04C</cite> amended as an emergency provision effective July 1, 2021 (48:15 Md. R. 592); amended permanently effective September 6, 2021 (48:18 Md. R. 693)</annotation>
+    <annotation type="History" dest="container" effective="2006-07-17"><cite path="|14|27|03|.06">Regulation .06</cite> amended effective July 17, 2006 (33:14 Md. R. 1162)</annotation>
+    <annotation type="History" dest="container" effective="2018-10-08"><cite path="|14|27|03|.06|B.">Regulation .06B</cite> amended effective October 8, 2018 (45:20 Md. R. 919)</annotation>
+    <annotation type="History" dest="container" effective="2015-08-17"><cite path="|14|27|03|.06|D.">Regulation .06D</cite> amended effective July 5, 2004 (31:13 Md. R. 995); August 17, 2015 (42:16 Md. R. 1056)</annotation>
+    <annotation type="History" dest="container" effective="2018-10-08"><cite path="|14|27|03|.07|F.">Regulation .07F</cite> amended effective October 8, 2018 (45:20 Md. R. 919)</annotation>
+    <annotation type="History" dest="container" effective="2006-07-17"><cite path="|14|27|03|.07|K.">Regulation .07K</cite> amended effective July 17, 2006 (33:14 Md. R. 1162)</annotation>
+    <annotation type="History" dest="container" effective="2011-11-14"><cite path="|14|27|03|.11|D.">Regulation .11D</cite> adopted effective November 14, 2011 (38:23 Md. R. 1422)</annotation>
+  </annotations>
+</container>

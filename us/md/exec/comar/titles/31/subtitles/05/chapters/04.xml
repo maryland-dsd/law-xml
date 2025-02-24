@@ -1,0 +1,2589 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>04</num>
+  <heading>Valuation Standards for Individual Annuity and Pure Endowment Contracts</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Purpose.</heading>
+    <text>The purpose of this chapter is to approve the use of the following mortality tables adopted by the National Association of Insurance Commissioners after 1980 as a basis for determining the minimum standards of valuation for individual annuity and pure endowment contracts:</text>
+    <para>
+      <num>A.</num>
+      <text>The 1983 Table “a”;</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The Annuity 2000 Mortality Table; and</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The 2012 Individual Annuity Reserving Table.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>"Annuity 2000 Mortality Table" means the mortality table:</text>
+        <para>
+          <num>(a)</num>
+          <text>Developed by the Society of Actuaries Committee on Life Insurance Research; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Set out in <cite path="|31|05|04|.04">Regulation .04 of this chapter</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>“Generational mortality table” means a mortality table containing a set of mortality rates that decrease for a given age from one year to the next based on a combination of a period table and a projection scale containing rates of mortality improvement.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>“Period table” means a table of mortality rates applicable to a given calendar year.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>“Projection Scale G2” means a table:</text>
+        <para>
+          <num>(a)</num>
+          <text>Containing annual rates, G2<sub>x</sub>, of mortality improvement by age for projecting future mortality rates beyond calendar year 2012;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Developed by the Society of Actuaries Committee on Life Insurance Research; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Set out in <cite path="|31|05|04|.07">Regulation .07 of this chapter</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>"1983 Table "a" means the mortality table:</text>
+        <para>
+          <num>(a)</num>
+          <text>Developed by the Society of Actuaries Committee to Recommend a New Mortality Basis for Individual Annuity Valuation;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Adopted as a recognized mortality table for annuities in June 1982 by the National Association of Insurance Commissioners; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Set out in <cite path="|31|05|04|.03">Regulation .03 of this chapter</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>“2012 Individual Annuity Mortality Period Life Table” or “2012 IAM Period Table” means the period table containing loaded mortality rates for calendar year 2012. This table:</text>
+        <para>
+          <num>(a)</num>
+          <text>Contains rates, q<sub>x</sub><sup>2012</sup>,  developed by the Society of Actuaries Committee on Life Insurance Research; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Is set out in <cite path="|31|05|04|.06">Regulation .06 of this chapter</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>“2012 Individual Annuity Reserving Table” or “2012 IAR Table” means the generational mortality table:</text>
+        <para>
+          <num>(a)</num>
+          <text>Developed by the Society of Actuaries Committee on Life Insurance Research; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Containing rates, q<sub>x</sub><sup>2012+n</sup>, that are derived from a combination of the 2012 IAM Period Table and Projection Scale G2 using the methodology set out in <cite path="|31|05|04|.08">Regulation .08 of this chapter</cite>.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Table "a".</heading>
+    <text>The 1983 Table "a", as shown below, is the mortality table designated by that name and adopted in June, 1982, by the National Association of Insurance Commissioners.</text>
+    <text>
+      <table>
+        <thead>
+          <tr>
+            <th colspan="3">1983 TABLE "a"—1,000qx</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Age</td>
+            <td>Males</td>
+            <td>Females</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>0.377</td>
+            <td>0.194</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>0.350</td>
+            <td>0.160</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>0.333</td>
+            <td>0.134</td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>0.352</td>
+            <td>0.134</td>
+          </tr>
+          <tr>
+            <td>9</td>
+            <td>0.368</td>
+            <td>0.136</td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td>0.382</td>
+            <td>0.141</td>
+          </tr>
+          <tr>
+            <td>11</td>
+            <td>0.394</td>
+            <td>0.147</td>
+          </tr>
+          <tr>
+            <td>12</td>
+            <td>0.405</td>
+            <td>0.155</td>
+          </tr>
+          <tr>
+            <td>13</td>
+            <td>0.415</td>
+            <td>0.165</td>
+          </tr>
+          <tr>
+            <td>14</td>
+            <td>0.425</td>
+            <td>0.175</td>
+          </tr>
+          <tr>
+            <td>15</td>
+            <td>0.435</td>
+            <td>0.183</td>
+          </tr>
+          <tr>
+            <td>16</td>
+            <td>0.446</td>
+            <td>0.201</td>
+          </tr>
+          <tr>
+            <td>17</td>
+            <td>0.458</td>
+            <td>0.214</td>
+          </tr>
+          <tr>
+            <td>18</td>
+            <td>0.472</td>
+            <td>0.229</td>
+          </tr>
+          <tr>
+            <td>19</td>
+            <td>0.488</td>
+            <td>0.244</td>
+          </tr>
+          <tr>
+            <td>20</td>
+            <td>0.505</td>
+            <td>0.260</td>
+          </tr>
+          <tr>
+            <td>21</td>
+            <td>0.525</td>
+            <td>0.276</td>
+          </tr>
+          <tr>
+            <td>22</td>
+            <td>0.546</td>
+            <td>0.293</td>
+          </tr>
+          <tr>
+            <td>23</td>
+            <td>0.570</td>
+            <td>0.311</td>
+          </tr>
+          <tr>
+            <td>24</td>
+            <td>0.596</td>
+            <td>0.330</td>
+          </tr>
+          <tr>
+            <td>25</td>
+            <td>0.622</td>
+            <td>0.349</td>
+          </tr>
+          <tr>
+            <td>26</td>
+            <td>0.650</td>
+            <td>0.368</td>
+          </tr>
+          <tr>
+            <td>27</td>
+            <td>0.677</td>
+            <td>0.387</td>
+          </tr>
+          <tr>
+            <td>28</td>
+            <td>0.704</td>
+            <td>0.405</td>
+          </tr>
+          <tr>
+            <td>29</td>
+            <td>0.731</td>
+            <td>0.423</td>
+          </tr>
+          <tr>
+            <td>30</td>
+            <td>0.759</td>
+            <td>0.441</td>
+          </tr>
+          <tr>
+            <td>31</td>
+            <td>0.786</td>
+            <td>0.460</td>
+          </tr>
+          <tr>
+            <td>32</td>
+            <td>0.814</td>
+            <td>0.479</td>
+          </tr>
+          <tr>
+            <td>33</td>
+            <td>0.843</td>
+            <td>0.499</td>
+          </tr>
+          <tr>
+            <td>34</td>
+            <td>0.876</td>
+            <td>0.521</td>
+          </tr>
+          <tr>
+            <td>35</td>
+            <td>0.917</td>
+            <td>0.545</td>
+          </tr>
+          <tr>
+            <td>36</td>
+            <td>0.968</td>
+            <td>0.574</td>
+          </tr>
+          <tr>
+            <td>37</td>
+            <td>1.032</td>
+            <td>0.607</td>
+          </tr>
+          <tr>
+            <td>38</td>
+            <td>1.114</td>
+            <td>0.646</td>
+          </tr>
+          <tr>
+            <td>39</td>
+            <td>1.216</td>
+            <td>0.691</td>
+          </tr>
+          <tr>
+            <td>40</td>
+            <td>1.341</td>
+            <td>0.742</td>
+          </tr>
+          <tr>
+            <td>41</td>
+            <td>1.492</td>
+            <td>0.801</td>
+          </tr>
+          <tr>
+            <td>42</td>
+            <td>1.673</td>
+            <td>0.867</td>
+          </tr>
+          <tr>
+            <td>43</td>
+            <td>1.886</td>
+            <td>0.942</td>
+          </tr>
+          <tr>
+            <td>44</td>
+            <td>2.129</td>
+            <td>1.026</td>
+          </tr>
+          <tr>
+            <td>45</td>
+            <td>2.399</td>
+            <td>1.122</td>
+          </tr>
+          <tr>
+            <td>46</td>
+            <td>2.693</td>
+            <td>1.231</td>
+          </tr>
+          <tr>
+            <td>47</td>
+            <td>3.009</td>
+            <td>1.356</td>
+          </tr>
+          <tr>
+            <td>48</td>
+            <td>3.343</td>
+            <td>1.499</td>
+          </tr>
+          <tr>
+            <td>49</td>
+            <td>3.694</td>
+            <td>1.657</td>
+          </tr>
+          <tr>
+            <td>50</td>
+            <td>4.057</td>
+            <td>1.830</td>
+          </tr>
+          <tr>
+            <td>51</td>
+            <td>4.431</td>
+            <td>2.016</td>
+          </tr>
+          <tr>
+            <td>52</td>
+            <td>4.812</td>
+            <td>2.215</td>
+          </tr>
+          <tr>
+            <td>53</td>
+            <td>5.198</td>
+            <td>2.426</td>
+          </tr>
+          <tr>
+            <td>54</td>
+            <td>5.591</td>
+            <td>2.650</td>
+          </tr>
+          <tr>
+            <td>55</td>
+            <td>5.994</td>
+            <td>2.891</td>
+          </tr>
+          <tr>
+            <td>56</td>
+            <td>6.409</td>
+            <td>3.151</td>
+          </tr>
+          <tr>
+            <td>57</td>
+            <td>6.839</td>
+            <td>3.432</td>
+          </tr>
+          <tr>
+            <td>58</td>
+            <td>7.290</td>
+            <td>3.739</td>
+          </tr>
+          <tr>
+            <td>59</td>
+            <td>7.782</td>
+            <td>4.081</td>
+          </tr>
+          <tr>
+            <td>60</td>
+            <td>8.338</td>
+            <td>4.467</td>
+          </tr>
+          <tr>
+            <td>61</td>
+            <td>8.983</td>
+            <td>4.908</td>
+          </tr>
+          <tr>
+            <td>62</td>
+            <td>9.740</td>
+            <td>5.413</td>
+          </tr>
+          <tr>
+            <td>63</td>
+            <td>10.630</td>
+            <td>5.990</td>
+          </tr>
+          <tr>
+            <td>64</td>
+            <td>11.664</td>
+            <td>6.633</td>
+          </tr>
+          <tr>
+            <td>65</td>
+            <td>12.851</td>
+            <td>7.336</td>
+          </tr>
+          <tr>
+            <td>66</td>
+            <td>14.199</td>
+            <td>8.090</td>
+          </tr>
+          <tr>
+            <td>67</td>
+            <td>15.717</td>
+            <td>8.888</td>
+          </tr>
+          <tr>
+            <td>68</td>
+            <td>17.414</td>
+            <td>9.731</td>
+          </tr>
+          <tr>
+            <td>68</td>
+            <td>19.296</td>
+            <td>10.653</td>
+          </tr>
+          <tr>
+            <td>70</td>
+            <td>21.371</td>
+            <td>11.697</td>
+          </tr>
+          <tr>
+            <td>71</td>
+            <td>23.647</td>
+            <td>12.905</td>
+          </tr>
+          <tr>
+            <td>72</td>
+            <td>26.131</td>
+            <td>14.319</td>
+          </tr>
+          <tr>
+            <td>73</td>
+            <td>28.835</td>
+            <td>15.980</td>
+          </tr>
+          <tr>
+            <td>74</td>
+            <td>31.794</td>
+            <td>17.909</td>
+          </tr>
+          <tr>
+            <td>75</td>
+            <td>35.046</td>
+            <td>20.127</td>
+          </tr>
+          <tr>
+            <td>76</td>
+            <td>38.631</td>
+            <td>22.654</td>
+          </tr>
+          <tr>
+            <td>77</td>
+            <td>42.587</td>
+            <td>25.509</td>
+          </tr>
+          <tr>
+            <td>78</td>
+            <td>46.951</td>
+            <td>28.717</td>
+          </tr>
+          <tr>
+            <td>79</td>
+            <td>51.755</td>
+            <td>32.328</td>
+          </tr>
+          <tr>
+            <td>80</td>
+            <td>57.026</td>
+            <td>36.395</td>
+          </tr>
+          <tr>
+            <td>81</td>
+            <td>62.791</td>
+            <td>40.975</td>
+          </tr>
+          <tr>
+            <td>82</td>
+            <td>69.081</td>
+            <td>46.121</td>
+          </tr>
+          <tr>
+            <td>83</td>
+            <td>75.908</td>
+            <td>51.889</td>
+          </tr>
+          <tr>
+            <td>84</td>
+            <td>83.230</td>
+            <td>58.336</td>
+          </tr>
+          <tr>
+            <td>85</td>
+            <td>90.987</td>
+            <td>65.518</td>
+          </tr>
+          <tr>
+            <td>86</td>
+            <td>99.122</td>
+            <td>73.493</td>
+          </tr>
+          <tr>
+            <td>87</td>
+            <td>107.577</td>
+            <td>82.318</td>
+          </tr>
+          <tr>
+            <td>88</td>
+            <td>116.316</td>
+            <td>92.017</td>
+          </tr>
+          <tr>
+            <td>89</td>
+            <td>125.394</td>
+            <td>102.491</td>
+          </tr>
+          <tr>
+            <td>90</td>
+            <td>134.887</td>
+            <td>113.605</td>
+          </tr>
+          <tr>
+            <td>91</td>
+            <td>144.873</td>
+            <td>125.227</td>
+          </tr>
+          <tr>
+            <td>92</td>
+            <td>155.429</td>
+            <td>137.222</td>
+          </tr>
+          <tr>
+            <td>93</td>
+            <td>166.629</td>
+            <td>149.462</td>
+          </tr>
+          <tr>
+            <td>94</td>
+            <td>178.537</td>
+            <td>161.834</td>
+          </tr>
+          <tr>
+            <td>95</td>
+            <td>191.214</td>
+            <td>174.228</td>
+          </tr>
+          <tr>
+            <td>96</td>
+            <td>204.721</td>
+            <td>186.535</td>
+          </tr>
+          <tr>
+            <td>97</td>
+            <td>219.120</td>
+            <td>198.646</td>
+          </tr>
+          <tr>
+            <td>98</td>
+            <td>234.735</td>
+            <td>211.102</td>
+          </tr>
+          <tr>
+            <td>99</td>
+            <td>251.889</td>
+            <td>224.445</td>
+          </tr>
+          <tr>
+            <td>100</td>
+            <td>270.906</td>
+            <td>239.215</td>
+          </tr>
+          <tr>
+            <td>101</td>
+            <td>292.111</td>
+            <td>255.953</td>
+          </tr>
+          <tr>
+            <td>102</td>
+            <td>315.826</td>
+            <td>275.201</td>
+          </tr>
+          <tr>
+            <td>103</td>
+            <td>342.377</td>
+            <td>297.500</td>
+          </tr>
+          <tr>
+            <td>104</td>
+            <td>372.086</td>
+            <td>323.390</td>
+          </tr>
+          <tr>
+            <td>105</td>
+            <td>405.278</td>
+            <td>353.414</td>
+          </tr>
+          <tr>
+            <td>106</td>
+            <td>442.277</td>
+            <td>388.111</td>
+          </tr>
+          <tr>
+            <td>107</td>
+            <td>483.406</td>
+            <td>428.023</td>
+          </tr>
+          <tr>
+            <td>108</td>
+            <td>528.989</td>
+            <td>473.692</td>
+          </tr>
+          <tr>
+            <td>109</td>
+            <td>579.351</td>
+            <td>525.658</td>
+          </tr>
+          <tr>
+            <td>110</td>
+            <td>634.814</td>
+            <td>584.462</td>
+          </tr>
+          <tr>
+            <td>111</td>
+            <td>695.704</td>
+            <td>650.646</td>
+          </tr>
+          <tr>
+            <td>112</td>
+            <td>762.343</td>
+            <td>724.750</td>
+          </tr>
+          <tr>
+            <td>113</td>
+            <td>835.056</td>
+            <td>807.316</td>
+          </tr>
+          <tr>
+            <td>114</td>
+            <td>914.167</td>
+            <td>898.885</td>
+          </tr>
+          <tr>
+            <td>115</td>
+            <td>1000.000</td>
+            <td>1000.000</td>
+          </tr>
+        </tbody>
+      </table>
+    </text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Annuity 2000 Mortality Table.</heading>
+    <text>
+      <table>
+        <tbody>
+          <tr>
+            <td proof="needed"/>
+            <td colspan="2" data-text-align="center" data-vertical-align="middle">1000q</td>
+          </tr>
+          <tr>
+            <td>Age Nearest Birthday (x)</td>
+            <td>Male</td>
+            <td>Female*</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>0.291</td>
+            <td>0.171</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>0.270</td>
+            <td>0.141</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>0.257</td>
+            <td>0.118</td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>0.294</td>
+            <td>0.118</td>
+          </tr>
+          <tr>
+            <td>9</td>
+            <td>0.325</td>
+            <td>0.121</td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td>0.350</td>
+            <td>0.126</td>
+          </tr>
+          <tr>
+            <td>11</td>
+            <td>0.371</td>
+            <td>0.133</td>
+          </tr>
+          <tr>
+            <td>12</td>
+            <td>0.388</td>
+            <td>0.142</td>
+          </tr>
+          <tr>
+            <td>13</td>
+            <td>0.402</td>
+            <td>0.152</td>
+          </tr>
+          <tr>
+            <td>14</td>
+            <td>0.414</td>
+            <td>0.164</td>
+          </tr>
+          <tr>
+            <td>15</td>
+            <td>0.425</td>
+            <td>0.177</td>
+          </tr>
+          <tr>
+            <td>16</td>
+            <td>0.437</td>
+            <td>0.190</td>
+          </tr>
+          <tr>
+            <td>17</td>
+            <td>0.449</td>
+            <td>0.204</td>
+          </tr>
+          <tr>
+            <td>18</td>
+            <td>0.463</td>
+            <td>0.219</td>
+          </tr>
+          <tr>
+            <td>19</td>
+            <td>0.480</td>
+            <td>0.234</td>
+          </tr>
+          <tr>
+            <td>20</td>
+            <td>0.499</td>
+            <td>0.250</td>
+          </tr>
+          <tr>
+            <td>21</td>
+            <td>0.519</td>
+            <td>0.265</td>
+          </tr>
+          <tr>
+            <td>22</td>
+            <td>0.542</td>
+            <td>0.281</td>
+          </tr>
+          <tr>
+            <td>23</td>
+            <td>0.566</td>
+            <td>0.298</td>
+          </tr>
+          <tr>
+            <td>24</td>
+            <td>0.592</td>
+            <td>0.314</td>
+          </tr>
+          <tr>
+            <td>25</td>
+            <td>0.616</td>
+            <td>0.331</td>
+          </tr>
+          <tr>
+            <td>26</td>
+            <td>0.639</td>
+            <td>0.347</td>
+          </tr>
+          <tr>
+            <td>27</td>
+            <td>0.659</td>
+            <td>0.362</td>
+          </tr>
+          <tr>
+            <td>28</td>
+            <td>0.675</td>
+            <td>0.376</td>
+          </tr>
+          <tr>
+            <td>29</td>
+            <td>0.687</td>
+            <td>0.389</td>
+          </tr>
+          <tr>
+            <td>30</td>
+            <td>0.694</td>
+            <td>0.402</td>
+          </tr>
+          <tr>
+            <td>31</td>
+            <td>0.699</td>
+            <td>0.414</td>
+          </tr>
+          <tr>
+            <td>32</td>
+            <td>0.700</td>
+            <td>0.425</td>
+          </tr>
+          <tr>
+            <td>33</td>
+            <td>0.701</td>
+            <td>0.436</td>
+          </tr>
+          <tr>
+            <td>34</td>
+            <td>0.702</td>
+            <td>0.449</td>
+          </tr>
+          <tr>
+            <td>35</td>
+            <td>0.704</td>
+            <td>0.463</td>
+          </tr>
+          <tr>
+            <td>36</td>
+            <td>0.719</td>
+            <td>0.481</td>
+          </tr>
+          <tr>
+            <td>37</td>
+            <td>0.749</td>
+            <td>0.504</td>
+          </tr>
+          <tr>
+            <td>38</td>
+            <td>0.796</td>
+            <td>0.532</td>
+          </tr>
+          <tr>
+            <td>39</td>
+            <td>0.864</td>
+            <td>0.567</td>
+          </tr>
+          <tr>
+            <td>40</td>
+            <td>0.953</td>
+            <td>0.609</td>
+          </tr>
+          <tr>
+            <td>41</td>
+            <td>1.065</td>
+            <td>0.658</td>
+          </tr>
+          <tr>
+            <td>42</td>
+            <td>1.201</td>
+            <td>0.715</td>
+          </tr>
+          <tr>
+            <td>43</td>
+            <td>1.362</td>
+            <td>0.781</td>
+          </tr>
+          <tr>
+            <td>44</td>
+            <td>1.547</td>
+            <td>0.855</td>
+          </tr>
+          <tr>
+            <td>45</td>
+            <td>1.752</td>
+            <td>0.939</td>
+          </tr>
+          <tr>
+            <td>46</td>
+            <td>1.974</td>
+            <td>1.035</td>
+          </tr>
+          <tr>
+            <td>47</td>
+            <td>2.211</td>
+            <td>1.141</td>
+          </tr>
+          <tr>
+            <td>48</td>
+            <td>2.460</td>
+            <td>1.261</td>
+          </tr>
+          <tr>
+            <td>49</td>
+            <td>2.721</td>
+            <td>1.393</td>
+          </tr>
+          <tr>
+            <td>50</td>
+            <td>2.994</td>
+            <td>1.538</td>
+          </tr>
+          <tr>
+            <td>51</td>
+            <td>3.279</td>
+            <td>1.695</td>
+          </tr>
+          <tr>
+            <td>52</td>
+            <td>3.576</td>
+            <td>1.864</td>
+          </tr>
+          <tr>
+            <td>53</td>
+            <td>3.884</td>
+            <td>2.047</td>
+          </tr>
+          <tr>
+            <td>54</td>
+            <td>4.203</td>
+            <td>2.244</td>
+          </tr>
+          <tr>
+            <td>55</td>
+            <td>4.534</td>
+            <td>2.457</td>
+          </tr>
+          <tr>
+            <td>56</td>
+            <td>4.876</td>
+            <td>2.689</td>
+          </tr>
+          <tr>
+            <td>57</td>
+            <td>5.228</td>
+            <td>2.942</td>
+          </tr>
+          <tr>
+            <td>58</td>
+            <td>5.593</td>
+            <td>3.218</td>
+          </tr>
+          <tr>
+            <td>59</td>
+            <td>5.988</td>
+            <td>3.523</td>
+          </tr>
+          <tr>
+            <td>60</td>
+            <td>6.428</td>
+            <td>3.863</td>
+          </tr>
+          <tr>
+            <td>61</td>
+            <td>6.933</td>
+            <td>4.242</td>
+          </tr>
+          <tr>
+            <td>62</td>
+            <td>7.520</td>
+            <td>4.668</td>
+          </tr>
+          <tr>
+            <td>63</td>
+            <td>8.207</td>
+            <td>5.144</td>
+          </tr>
+          <tr>
+            <td>64</td>
+            <td>9.008</td>
+            <td>5.671</td>
+          </tr>
+          <tr>
+            <td>65</td>
+            <td>9.940</td>
+            <td>6.250</td>
+          </tr>
+          <tr>
+            <td>66</td>
+            <td>11.016</td>
+            <td>6.878</td>
+          </tr>
+          <tr>
+            <td>67</td>
+            <td>12.251</td>
+            <td>7.555</td>
+          </tr>
+          <tr>
+            <td>68</td>
+            <td>13.657</td>
+            <td>8.287</td>
+          </tr>
+          <tr>
+            <td>69</td>
+            <td>15.233</td>
+            <td>9.102</td>
+          </tr>
+          <tr>
+            <td>70</td>
+            <td>16.979</td>
+            <td>10.034</td>
+          </tr>
+          <tr>
+            <td>71</td>
+            <td>18.891</td>
+            <td>11.117</td>
+          </tr>
+          <tr>
+            <td>72</td>
+            <td>20.967</td>
+            <td>12.386</td>
+          </tr>
+          <tr>
+            <td>73</td>
+            <td>23.209</td>
+            <td>13.871</td>
+          </tr>
+          <tr>
+            <td>74</td>
+            <td>25.644</td>
+            <td>15.592</td>
+          </tr>
+          <tr>
+            <td>75</td>
+            <td>28.304</td>
+            <td>17.564</td>
+          </tr>
+          <tr>
+            <td>76</td>
+            <td>31.220</td>
+            <td>19.805</td>
+          </tr>
+          <tr>
+            <td>77</td>
+            <td>34.425</td>
+            <td>22.328</td>
+          </tr>
+          <tr>
+            <td>78</td>
+            <td>37.948</td>
+            <td>25.158</td>
+          </tr>
+          <tr>
+            <td>79</td>
+            <td>41.812</td>
+            <td>28.341</td>
+          </tr>
+          <tr>
+            <td>80</td>
+            <td>46.037</td>
+            <td>31.933</td>
+          </tr>
+          <tr>
+            <td>81</td>
+            <td>50.643</td>
+            <td>35.985</td>
+          </tr>
+          <tr>
+            <td>82</td>
+            <td>55.651</td>
+            <td>40.552</td>
+          </tr>
+          <tr>
+            <td>83</td>
+            <td>61.080</td>
+            <td>45.690</td>
+          </tr>
+          <tr>
+            <td>84</td>
+            <td>66.948</td>
+            <td>51.456</td>
+          </tr>
+          <tr>
+            <td>85</td>
+            <td>73.275</td>
+            <td>57.913</td>
+          </tr>
+          <tr>
+            <td>86</td>
+            <td>80.076</td>
+            <td>65.119</td>
+          </tr>
+          <tr>
+            <td>87</td>
+            <td>87.370</td>
+            <td>73.136</td>
+          </tr>
+          <tr>
+            <td>88</td>
+            <td>95.169</td>
+            <td>81.991</td>
+          </tr>
+          <tr>
+            <td>89</td>
+            <td>103.455</td>
+            <td>91.577</td>
+          </tr>
+          <tr>
+            <td>90</td>
+            <td>112.208</td>
+            <td>101.758</td>
+          </tr>
+          <tr>
+            <td>91</td>
+            <td>121.402</td>
+            <td>112.395</td>
+          </tr>
+          <tr>
+            <td>92</td>
+            <td>131.017</td>
+            <td>123.349</td>
+          </tr>
+          <tr>
+            <td>93</td>
+            <td>141.030</td>
+            <td>134.486</td>
+          </tr>
+          <tr>
+            <td>94</td>
+            <td>151.422</td>
+            <td>145.689</td>
+          </tr>
+          <tr>
+            <td>95</td>
+            <td>162.179</td>
+            <td>156.846</td>
+          </tr>
+          <tr>
+            <td>96</td>
+            <td>173.279</td>
+            <td>167.841</td>
+          </tr>
+          <tr>
+            <td>97</td>
+            <td>184.706</td>
+            <td>178.563</td>
+          </tr>
+          <tr>
+            <td>98</td>
+            <td>196.946</td>
+            <td>189.604</td>
+          </tr>
+          <tr>
+            <td>99</td>
+            <td>210.484</td>
+            <td>201.557</td>
+          </tr>
+          <tr>
+            <td>100</td>
+            <td>225.806</td>
+            <td>215.013</td>
+          </tr>
+          <tr>
+            <td>101</td>
+            <td>243.398</td>
+            <td>230.565</td>
+          </tr>
+          <tr>
+            <td>102</td>
+            <td>263.745</td>
+            <td>248.805</td>
+          </tr>
+          <tr>
+            <td>103</td>
+            <td>287.334</td>
+            <td>270.326</td>
+          </tr>
+          <tr>
+            <td>104</td>
+            <td>314.649</td>
+            <td>295.719</td>
+          </tr>
+          <tr>
+            <td>105</td>
+            <td>346.177</td>
+            <td>325.576</td>
+          </tr>
+          <tr>
+            <td>106</td>
+            <td>382.403</td>
+            <td>360.491</td>
+          </tr>
+          <tr>
+            <td>107</td>
+            <td>423.813</td>
+            <td>401.054</td>
+          </tr>
+          <tr>
+            <td>108</td>
+            <td>470.893</td>
+            <td>447.860</td>
+          </tr>
+          <tr>
+            <td>109</td>
+            <td>524.128</td>
+            <td>501.498</td>
+          </tr>
+          <tr>
+            <td>110</td>
+            <td>584.004</td>
+            <td>562.563</td>
+          </tr>
+          <tr>
+            <td>111</td>
+            <td>651.007</td>
+            <td>631.645</td>
+          </tr>
+          <tr>
+            <td>112</td>
+            <td>725.622</td>
+            <td>709.338</td>
+          </tr>
+          <tr>
+            <td>113</td>
+            <td>808.336</td>
+            <td>796.233</td>
+          </tr>
+          <tr>
+            <td>114</td>
+            <td>899.633</td>
+            <td>892.923</td>
+          </tr>
+          <tr>
+            <td>115</td>
+            <td>1000.000</td>
+            <td>1000.000</td>
+          </tr>
+        </tbody>
+      </table>
+    </text>
+    <text>*Based on 50% of Female Improvement Scale G.</text>
+  </section>
+  <section cache:ref-path="31|05|04|.05">
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Valuation Standards.</heading>
+    <para>
+      <num>A.</num>
+      <text>In valuing the reserve liabilities under individual annuity and pure endowment contracts in accordance with the provisions of <cite doc="Md. Code" path="gin|5-305">Insurance Article, §5-305(c) </cite>and (d), Annotated Code of Maryland, insurers may use either the 1971 Individual Annuity Mortality Table or the 1983 Table "a" for contracts issued on or after July 1, 1980, and before January 1, 1987.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Except as provided in §§C, D, and E of this regulation, the 1983 Table “a”, as shown in <cite path="|31|05|04|.03">Regulation .03 of this chapter</cite>, is to be used by insurers in valuing reserve liabilities under individual annuity and pure endowment contracts in accordance with the provisions of <cite doc="Md. Code" path="gin|5-305">Insurance Article, §5-305(c) </cite>and (d), Annotated Code of Maryland, for contracts issued on and after January 1, 1987.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Except as provided in §§D and E of this regulation, either the 1983 Table “a” or the Annuity 2000 Mortality Table shall be used for determining the minimum standard of valuation for any individual annuity or pure endowment contract issued on or after July 1, 2004.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Except as provided in §§E and F of this regulation, the Annuity 2000 Mortality Table shall be used for determining the minimum standard of valuation for any individual annuity or pure endowment contract issued on or after July 1, 2005 and before January 1, 2015.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Except as provided in <cite path="31|05|04|.05|F.">§F of this regulation</cite>, the 2012 IAR Table shall be used for determining the minimum standard of valuation for any individual annuity or pure endowment contract issued on or after January 1, 2015.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>The 1983 Table "a" without projection shall be used for determining the minimum standards of valuation for an individual annuity or pure endowment contract issued on or after July 1, 2005, solely when the contract is based on life contingencies and is issued to fund periodic benefits arising from:</text>
+      <para>
+        <num>(1)</num>
+        <text>Settlements of various forms of claims pertaining to court settlements or out-of-court settlements from tort actions;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Settlements involving similar actions such as Workers' Compensation claims; or</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Settlements of long-term disability claims if a temporary or life annuity has been used instead of continuing disability payments.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>2012 IAM Period Table.</heading>
+    <text>The 2012 Individual Annuity Mortality Period Life Table, as shown below, is the mortality table designated by that name and developed by the Society of Actuaries Committee on Life Insurance Research.</text>
+    <text>
+      <table>
+        <tbody>
+          <tr>
+            <td proof="needed" data-vertical-align="middle"/>
+            <td colspan="2" data-text-align="center" data-vertical-align="middle">1000 q<sub>x</sub><sup>2012</sup></td>
+          </tr>
+          <tr>
+            <td data-text-align="center" data-vertical-align="middle">Age Nearest Birthday</td>
+            <td data-text-align="center" data-vertical-align="middle">Male</td>
+            <td data-text-align="center" data-vertical-align="middle">Female</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">0</td>
+            <td data-vertical-align="middle">1.605</td>
+            <td data-vertical-align="middle">1.621</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">1</td>
+            <td data-vertical-align="middle">0.401</td>
+            <td data-vertical-align="middle">0.405</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">2</td>
+            <td data-vertical-align="middle">0.275</td>
+            <td data-vertical-align="middle">0.259</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">3</td>
+            <td data-vertical-align="middle">0.229</td>
+            <td data-vertical-align="middle">0.179</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">4</td>
+            <td data-vertical-align="middle">0.174</td>
+            <td data-vertical-align="middle">0.137</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">5</td>
+            <td data-vertical-align="middle">0.168</td>
+            <td data-vertical-align="middle">0.125</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">6</td>
+            <td data-vertical-align="middle">0.165</td>
+            <td data-vertical-align="middle">0.117</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">7</td>
+            <td data-vertical-align="middle">0.159</td>
+            <td data-vertical-align="middle">0.110</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">8</td>
+            <td data-vertical-align="middle">0.143</td>
+            <td data-vertical-align="middle">0.095</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">9</td>
+            <td data-vertical-align="middle">0.129</td>
+            <td data-vertical-align="middle">0.088</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">10</td>
+            <td data-vertical-align="middle">0.113</td>
+            <td data-vertical-align="middle">0.085</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">11</td>
+            <td data-vertical-align="middle">0.111</td>
+            <td data-vertical-align="middle">0.086</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">12</td>
+            <td data-vertical-align="middle">0.132</td>
+            <td data-vertical-align="middle">0.094</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">13</td>
+            <td data-vertical-align="middle">0.169</td>
+            <td data-vertical-align="middle">0.108</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">14</td>
+            <td data-vertical-align="middle">0.213</td>
+            <td data-vertical-align="middle">0.131</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">15</td>
+            <td data-vertical-align="middle">0.254</td>
+            <td data-vertical-align="middle">0.156</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">16</td>
+            <td data-vertical-align="middle">0.293</td>
+            <td data-vertical-align="middle">0.179</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">17</td>
+            <td data-vertical-align="middle">0.328</td>
+            <td data-vertical-align="middle">0.198</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">18</td>
+            <td data-vertical-align="middle">0.359</td>
+            <td data-vertical-align="middle">0.211</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">19</td>
+            <td data-vertical-align="middle">0.387</td>
+            <td data-vertical-align="middle">0.221</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">20</td>
+            <td data-vertical-align="middle">0.414</td>
+            <td data-vertical-align="middle">0.228</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">21</td>
+            <td data-vertical-align="middle">0.443</td>
+            <td data-vertical-align="middle">0.234</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">22</td>
+            <td data-vertical-align="middle">0.473</td>
+            <td data-vertical-align="middle">0.240</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">23</td>
+            <td data-vertical-align="middle">0.513</td>
+            <td data-vertical-align="middle">0.245</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">24</td>
+            <td data-vertical-align="middle">0.554</td>
+            <td data-vertical-align="middle">0.247</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">25</td>
+            <td data-vertical-align="middle">0.602</td>
+            <td data-vertical-align="middle">0.250</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">26</td>
+            <td data-vertical-align="middle">0.655</td>
+            <td data-vertical-align="middle">0.256</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">27</td>
+            <td data-vertical-align="middle">0.688</td>
+            <td data-vertical-align="middle">0.261</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">28</td>
+            <td data-vertical-align="middle">0.710</td>
+            <td data-vertical-align="middle">0.270</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">29</td>
+            <td data-vertical-align="middle">0.727</td>
+            <td data-vertical-align="middle">0.281</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">30</td>
+            <td data-vertical-align="middle">0.741</td>
+            <td data-vertical-align="middle">0.300</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">31</td>
+            <td data-vertical-align="middle">0.751</td>
+            <td data-vertical-align="middle">0.321</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">32</td>
+            <td data-vertical-align="middle">0.754</td>
+            <td data-vertical-align="middle">0.338</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">33</td>
+            <td data-vertical-align="middle">0.756</td>
+            <td data-vertical-align="middle">0.351</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">34</td>
+            <td data-vertical-align="middle">0.756</td>
+            <td data-vertical-align="middle">0.365</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">35</td>
+            <td data-vertical-align="middle">0.756</td>
+            <td data-vertical-align="middle">0.381</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">36</td>
+            <td data-vertical-align="middle">0.756</td>
+            <td data-vertical-align="middle">0.402</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">37</td>
+            <td data-vertical-align="middle">0.756</td>
+            <td data-vertical-align="middle">0.429</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">38</td>
+            <td data-vertical-align="middle">0.756</td>
+            <td data-vertical-align="middle">0.463</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">39</td>
+            <td data-vertical-align="middle">0.800</td>
+            <td data-vertical-align="middle">0.504</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">40</td>
+            <td data-vertical-align="middle">0.859</td>
+            <td data-vertical-align="middle">0.552</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">41</td>
+            <td data-vertical-align="middle">0.926</td>
+            <td data-vertical-align="middle">0.600</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">42</td>
+            <td data-vertical-align="middle">0.999</td>
+            <td data-vertical-align="middle">0.650</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">43</td>
+            <td data-vertical-align="middle">1.069</td>
+            <td data-vertical-align="middle">0.697</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">44</td>
+            <td data-vertical-align="middle">1.142</td>
+            <td data-vertical-align="middle">0.740</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">45</td>
+            <td data-vertical-align="middle">1.219</td>
+            <td data-vertical-align="middle">0.780</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">46</td>
+            <td data-vertical-align="middle">1.318</td>
+            <td data-vertical-align="middle">0.825</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">47</td>
+            <td data-vertical-align="middle">1.454</td>
+            <td data-vertical-align="middle">0.885</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">48</td>
+            <td data-vertical-align="middle">1.627</td>
+            <td data-vertical-align="middle">0.964</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">49</td>
+            <td data-vertical-align="middle">1.829</td>
+            <td data-vertical-align="middle">1.051</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">50</td>
+            <td data-vertical-align="middle">2.057</td>
+            <td data-vertical-align="middle">1.161</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">51</td>
+            <td data-vertical-align="middle">2.302</td>
+            <td data-vertical-align="middle">1.308</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">52</td>
+            <td data-vertical-align="middle">2.545</td>
+            <td data-vertical-align="middle">1.460</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">53</td>
+            <td data-vertical-align="middle">2.779</td>
+            <td data-vertical-align="middle">1.613</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">54</td>
+            <td data-vertical-align="middle">3.011</td>
+            <td data-vertical-align="middle">1.774</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">55</td>
+            <td data-vertical-align="middle">3.254</td>
+            <td data-vertical-align="middle">1.950</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">56</td>
+            <td data-vertical-align="middle">3.529</td>
+            <td data-vertical-align="middle">2.154</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">57</td>
+            <td data-vertical-align="middle">3.845</td>
+            <td data-vertical-align="middle">2.399</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">58</td>
+            <td data-vertical-align="middle">4.213</td>
+            <td data-vertical-align="middle">2.700</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">59</td>
+            <td data-vertical-align="middle">4.631</td>
+            <td data-vertical-align="middle">3.054</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">60</td>
+            <td data-vertical-align="middle">5.096</td>
+            <td data-vertical-align="middle">3.460</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">61</td>
+            <td data-vertical-align="middle">5.614</td>
+            <td data-vertical-align="middle">3.916</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">62</td>
+            <td data-vertical-align="middle">6.169</td>
+            <td data-vertical-align="middle">4.409</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">63</td>
+            <td data-vertical-align="middle">6.759</td>
+            <td data-vertical-align="middle">4.933</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">64</td>
+            <td data-vertical-align="middle">7.398</td>
+            <td data-vertical-align="middle">5.507</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">65</td>
+            <td data-vertical-align="middle">8.106</td>
+            <td data-vertical-align="middle">6.146</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">66</td>
+            <td data-vertical-align="middle">8.548</td>
+            <td data-vertical-align="middle">6.551</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">67</td>
+            <td data-vertical-align="middle">9.076</td>
+            <td data-vertical-align="middle">7.039</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">68</td>
+            <td data-vertical-align="middle">9.708</td>
+            <td data-vertical-align="middle">7.628</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">69</td>
+            <td data-vertical-align="middle">10.463</td>
+            <td data-vertical-align="middle">8.311</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">70</td>
+            <td data-vertical-align="middle">11.357</td>
+            <td data-vertical-align="middle">9.074</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">71</td>
+            <td data-vertical-align="middle">12.418</td>
+            <td data-vertical-align="middle">9.910</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">72</td>
+            <td data-vertical-align="middle">13.675</td>
+            <td data-vertical-align="middle">10.827</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">73</td>
+            <td data-vertical-align="middle">15.150</td>
+            <td data-vertical-align="middle">11.839</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">74</td>
+            <td data-vertical-align="middle">16.860</td>
+            <td data-vertical-align="middle">12.974</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">75</td>
+            <td data-vertical-align="middle">18.815</td>
+            <td data-vertical-align="middle">14.282</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">76</td>
+            <td data-vertical-align="middle">21.031</td>
+            <td data-vertical-align="middle">15.799</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">77</td>
+            <td data-vertical-align="middle">23.540</td>
+            <td data-vertical-align="middle">17.550</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">78</td>
+            <td data-vertical-align="middle">26.375</td>
+            <td data-vertical-align="middle">19.582</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">79</td>
+            <td data-vertical-align="middle">29.572</td>
+            <td data-vertical-align="middle">21.970</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">80</td>
+            <td data-vertical-align="middle">33.234</td>
+            <td data-vertical-align="middle">24.821</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">81</td>
+            <td data-vertical-align="middle">37.533</td>
+            <td data-vertical-align="middle">28.351</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">82</td>
+            <td data-vertical-align="middle">42.261</td>
+            <td data-vertical-align="middle">32.509</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">83</td>
+            <td data-vertical-align="middle">47.441</td>
+            <td data-vertical-align="middle">37.329</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">84</td>
+            <td data-vertical-align="middle">53.233</td>
+            <td data-vertical-align="middle">42.830</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">85</td>
+            <td data-vertical-align="middle">59.855</td>
+            <td data-vertical-align="middle">48.997</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">86</td>
+            <td data-vertical-align="middle">67.514</td>
+            <td data-vertical-align="middle">55.774</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">87</td>
+            <td data-vertical-align="middle">76.340</td>
+            <td data-vertical-align="middle">63.140</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">88</td>
+            <td data-vertical-align="middle">86.388</td>
+            <td data-vertical-align="middle">71.066</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">89</td>
+            <td data-vertical-align="middle">97.634</td>
+            <td data-vertical-align="middle">79.502</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">90</td>
+            <td data-vertical-align="middle">109.993</td>
+            <td data-vertical-align="middle">88.377</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">91</td>
+            <td data-vertical-align="middle">123.119</td>
+            <td data-vertical-align="middle">97.491</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">92</td>
+            <td data-vertical-align="middle">137.168</td>
+            <td data-vertical-align="middle">107.269</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">93</td>
+            <td data-vertical-align="middle">152.171</td>
+            <td data-vertical-align="middle">118.201</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">94</td>
+            <td data-vertical-align="middle">168.194</td>
+            <td data-vertical-align="middle">130.969</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">95</td>
+            <td data-vertical-align="middle">185.260</td>
+            <td data-vertical-align="middle">146.449</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">96</td>
+            <td data-vertical-align="middle">197.322</td>
+            <td data-vertical-align="middle">163.908</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">97</td>
+            <td data-vertical-align="middle">214.751</td>
+            <td data-vertical-align="middle">179.695</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">98</td>
+            <td data-vertical-align="middle">232.507</td>
+            <td data-vertical-align="middle">196.151</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">99</td>
+            <td data-vertical-align="middle">250.397</td>
+            <td data-vertical-align="middle">213.150</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">100</td>
+            <td data-vertical-align="middle">268.607</td>
+            <td data-vertical-align="middle">230.722</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">101</td>
+            <td data-vertical-align="middle">290.016</td>
+            <td data-vertical-align="middle">251.505</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">102</td>
+            <td data-vertical-align="middle">311.849</td>
+            <td data-vertical-align="middle">273.007</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">103</td>
+            <td data-vertical-align="middle">333.962</td>
+            <td data-vertical-align="middle">295.086</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">104</td>
+            <td data-vertical-align="middle">356.207</td>
+            <td data-vertical-align="middle">317.591</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">105</td>
+            <td data-vertical-align="middle">380.000</td>
+            <td data-vertical-align="middle">340.362</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">106</td>
+            <td data-vertical-align="middle">400.000</td>
+            <td data-vertical-align="middle">362.371</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">107</td>
+            <td data-vertical-align="middle">400.000</td>
+            <td data-vertical-align="middle">384.113</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">108</td>
+            <td data-vertical-align="middle">400.000</td>
+            <td data-vertical-align="middle">400.000</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">109</td>
+            <td data-vertical-align="middle">400.000</td>
+            <td data-vertical-align="middle">400.000</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">110</td>
+            <td data-vertical-align="middle">400.000</td>
+            <td data-vertical-align="middle">400.000</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">111</td>
+            <td data-vertical-align="middle">400.000</td>
+            <td data-vertical-align="middle">400.000</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">112</td>
+            <td data-vertical-align="middle">400.000</td>
+            <td data-vertical-align="middle">400.000</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">113</td>
+            <td data-vertical-align="middle">400.000</td>
+            <td data-vertical-align="middle">400.000</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">114</td>
+            <td data-vertical-align="middle">400.000</td>
+            <td data-vertical-align="middle">400.000</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">115</td>
+            <td data-vertical-align="middle">400.000</td>
+            <td data-vertical-align="middle">400.000</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">116</td>
+            <td data-vertical-align="middle">400.000</td>
+            <td data-vertical-align="middle">400.000</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">117</td>
+            <td data-vertical-align="middle">400.000</td>
+            <td data-vertical-align="middle">400.000</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">118</td>
+            <td data-vertical-align="middle">400.000</td>
+            <td data-vertical-align="middle">400.000</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">119</td>
+            <td data-vertical-align="middle">400.000</td>
+            <td data-vertical-align="middle">400.000</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">120</td>
+            <td data-vertical-align="middle">1000.000</td>
+            <td data-vertical-align="middle">1000.000</td>
+          </tr>
+        </tbody>
+      </table>
+    </text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Projection Scale G2.</heading>
+    <text>Projection Scale G2, as shown below, is a table containing annual rates, G2<sub>x</sub> , of mortality improvement by age for projecting future mortality rates beyond calendar year 2012 and was developed by the Society of Actuaries Committee on Life Insurance Research.</text>
+    <text>
+      <table>
+        <tbody>
+          <tr>
+            <td proof="needed" data-vertical-align="middle"/>
+            <td colspan="2" data-text-align="center" data-vertical-align="middle">G2<sub>x</sub></td>
+          </tr>
+          <tr>
+            <td data-text-align="center" data-vertical-align="middle">Age Nearest Birthday</td>
+            <td data-text-align="center" data-vertical-align="middle">Male</td>
+            <td data-text-align="center" data-vertical-align="middle">Female</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">0</td>
+            <td data-vertical-align="middle">0.010</td>
+            <td data-vertical-align="middle">0.010</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">1</td>
+            <td data-vertical-align="middle">0.010</td>
+            <td data-vertical-align="middle">0.010</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">2</td>
+            <td data-vertical-align="middle">0.010</td>
+            <td data-vertical-align="middle">0.010</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">3</td>
+            <td data-vertical-align="middle">0.010</td>
+            <td data-vertical-align="middle">0.010</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">4</td>
+            <td data-vertical-align="middle">0.010</td>
+            <td data-vertical-align="middle">0.010</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">5</td>
+            <td data-vertical-align="middle">0.010</td>
+            <td data-vertical-align="middle">0.010</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">6</td>
+            <td data-vertical-align="middle">0.010</td>
+            <td data-vertical-align="middle">0.010</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">7</td>
+            <td data-vertical-align="middle">0.010</td>
+            <td data-vertical-align="middle">0.010</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">8</td>
+            <td data-vertical-align="middle">0.010</td>
+            <td data-vertical-align="middle">0.010</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">9</td>
+            <td data-vertical-align="middle">0.010</td>
+            <td data-vertical-align="middle">0.010</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">10</td>
+            <td data-vertical-align="middle">0.010</td>
+            <td data-vertical-align="middle">0.010</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">11</td>
+            <td data-vertical-align="middle">0.010</td>
+            <td data-vertical-align="middle">0.010</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">12</td>
+            <td data-vertical-align="middle">0.010</td>
+            <td data-vertical-align="middle">0.010</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">13</td>
+            <td data-vertical-align="middle">0.010</td>
+            <td data-vertical-align="middle">0.010</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">14</td>
+            <td data-vertical-align="middle">0.010</td>
+            <td data-vertical-align="middle">0.010</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">15</td>
+            <td data-vertical-align="middle">0.010</td>
+            <td data-vertical-align="middle">0.010</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">16</td>
+            <td data-vertical-align="middle">0.010</td>
+            <td data-vertical-align="middle">0.010</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">17</td>
+            <td data-vertical-align="middle">0.010</td>
+            <td data-vertical-align="middle">0.010</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">18</td>
+            <td data-vertical-align="middle">0.010</td>
+            <td data-vertical-align="middle">0.010</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">19</td>
+            <td data-vertical-align="middle">0.010</td>
+            <td data-vertical-align="middle">0.010</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">20</td>
+            <td data-vertical-align="middle">0.010</td>
+            <td data-vertical-align="middle">0.010</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">21</td>
+            <td data-vertical-align="middle">0.010</td>
+            <td data-vertical-align="middle">0.010</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">22</td>
+            <td data-vertical-align="middle">0.010</td>
+            <td data-vertical-align="middle">0.010</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">23</td>
+            <td data-vertical-align="middle">0.010</td>
+            <td data-vertical-align="middle">0.010</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">24</td>
+            <td data-vertical-align="middle">0.010</td>
+            <td data-vertical-align="middle">0.010</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">25</td>
+            <td data-vertical-align="middle">0.010</td>
+            <td data-vertical-align="middle">0.010</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">26</td>
+            <td data-vertical-align="middle">0.010</td>
+            <td data-vertical-align="middle">0.010</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">27</td>
+            <td data-vertical-align="middle">0.010</td>
+            <td data-vertical-align="middle">0.010</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">28</td>
+            <td data-vertical-align="middle">0.010</td>
+            <td data-vertical-align="middle">0.010</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">29</td>
+            <td data-vertical-align="middle">0.010</td>
+            <td data-vertical-align="middle">0.010</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">30</td>
+            <td data-vertical-align="middle">0.010</td>
+            <td data-vertical-align="middle">0.010</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">31</td>
+            <td data-vertical-align="middle">0.010</td>
+            <td data-vertical-align="middle">0.010</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">32</td>
+            <td data-vertical-align="middle">0.010</td>
+            <td data-vertical-align="middle">0.010</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">33</td>
+            <td data-vertical-align="middle">0.010</td>
+            <td data-vertical-align="middle">0.010</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">34</td>
+            <td data-vertical-align="middle">0.010</td>
+            <td data-vertical-align="middle">0.010</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">35</td>
+            <td data-vertical-align="middle">0.010</td>
+            <td data-vertical-align="middle">0.010</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">36</td>
+            <td data-vertical-align="middle">0.010</td>
+            <td data-vertical-align="middle">0.010</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">37</td>
+            <td data-vertical-align="middle">0.010</td>
+            <td data-vertical-align="middle">0.010</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">38</td>
+            <td data-vertical-align="middle">0.010</td>
+            <td data-vertical-align="middle">0.010</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">39</td>
+            <td data-vertical-align="middle">0.010</td>
+            <td data-vertical-align="middle">0.010</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">40</td>
+            <td data-vertical-align="middle">0.010</td>
+            <td data-vertical-align="middle">0.010</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">41</td>
+            <td data-vertical-align="middle">0.010</td>
+            <td data-vertical-align="middle">0.010</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">42</td>
+            <td data-vertical-align="middle">0.010</td>
+            <td data-vertical-align="middle">0.010</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">43</td>
+            <td data-vertical-align="middle">0.010</td>
+            <td data-vertical-align="middle">0.010</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">44</td>
+            <td data-vertical-align="middle">0.010</td>
+            <td data-vertical-align="middle">0.010</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">45</td>
+            <td data-vertical-align="middle">0.010</td>
+            <td data-vertical-align="middle">0.010</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">46</td>
+            <td data-vertical-align="middle">0.010</td>
+            <td data-vertical-align="middle">0.010</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">47</td>
+            <td data-vertical-align="middle">0.010</td>
+            <td data-vertical-align="middle">0.010</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">48</td>
+            <td data-vertical-align="middle">0.010</td>
+            <td data-vertical-align="middle">0.010</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">49</td>
+            <td data-vertical-align="middle">0.010</td>
+            <td data-vertical-align="middle">0.010</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">50</td>
+            <td data-vertical-align="middle">0.010</td>
+            <td data-vertical-align="middle">0.010</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">51</td>
+            <td data-vertical-align="middle">0.011</td>
+            <td data-vertical-align="middle">0.010</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">52</td>
+            <td data-vertical-align="middle">0.011</td>
+            <td data-vertical-align="middle">0.011</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">53</td>
+            <td data-vertical-align="middle">0.012</td>
+            <td data-vertical-align="middle">0.011</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">54</td>
+            <td data-vertical-align="middle">0.012</td>
+            <td data-vertical-align="middle">0.011</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">55</td>
+            <td data-vertical-align="middle">0.013</td>
+            <td data-vertical-align="middle">0.012</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">56</td>
+            <td data-vertical-align="middle">0.013</td>
+            <td data-vertical-align="middle">0.012</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">57</td>
+            <td data-vertical-align="middle">0.014</td>
+            <td data-vertical-align="middle">0.012</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">58</td>
+            <td data-vertical-align="middle">0.014</td>
+            <td data-vertical-align="middle">0.012</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">59</td>
+            <td data-vertical-align="middle">0.015</td>
+            <td data-vertical-align="middle">0.013</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">60</td>
+            <td data-vertical-align="middle">0.015</td>
+            <td data-vertical-align="middle">0.013</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">61</td>
+            <td data-vertical-align="middle">0.015</td>
+            <td data-vertical-align="middle">0.013</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">62</td>
+            <td data-vertical-align="middle">0.015</td>
+            <td data-vertical-align="middle">0.013</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">63</td>
+            <td data-vertical-align="middle">0.015</td>
+            <td data-vertical-align="middle">0.013</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">64</td>
+            <td data-vertical-align="middle">0.015</td>
+            <td data-vertical-align="middle">0.013</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">65</td>
+            <td data-vertical-align="middle">0.015</td>
+            <td data-vertical-align="middle">0.013</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">66</td>
+            <td data-vertical-align="middle">0.015</td>
+            <td data-vertical-align="middle">0.013</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">67</td>
+            <td data-vertical-align="middle">0.015</td>
+            <td data-vertical-align="middle">0.013</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">68</td>
+            <td data-vertical-align="middle">0.015</td>
+            <td data-vertical-align="middle">0.013</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">69</td>
+            <td data-vertical-align="middle">0.015</td>
+            <td data-vertical-align="middle">0.013</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">70</td>
+            <td data-vertical-align="middle">0.015</td>
+            <td data-vertical-align="middle">0.013</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">71</td>
+            <td data-vertical-align="middle">0.015</td>
+            <td data-vertical-align="middle">0.013</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">72</td>
+            <td data-vertical-align="middle">0.015</td>
+            <td data-vertical-align="middle">0.013</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">73</td>
+            <td data-vertical-align="middle">0.015</td>
+            <td data-vertical-align="middle">0.013</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">74</td>
+            <td data-vertical-align="middle">0.015</td>
+            <td data-vertical-align="middle">0.013</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">75</td>
+            <td data-vertical-align="middle">0.015</td>
+            <td data-vertical-align="middle">0.013</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">76</td>
+            <td data-vertical-align="middle">0.015</td>
+            <td data-vertical-align="middle">0.013</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">77</td>
+            <td data-vertical-align="middle">0.015</td>
+            <td data-vertical-align="middle">0.013</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">78</td>
+            <td data-vertical-align="middle">0.015</td>
+            <td data-vertical-align="middle">0.013</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">79</td>
+            <td data-vertical-align="middle">0.015</td>
+            <td data-vertical-align="middle">0.013</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">80</td>
+            <td data-vertical-align="middle">0.015</td>
+            <td data-vertical-align="middle">0.013</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">81</td>
+            <td data-vertical-align="middle">0.014</td>
+            <td data-vertical-align="middle">0.012</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">82</td>
+            <td data-vertical-align="middle">0.013</td>
+            <td data-vertical-align="middle">0.012</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">83</td>
+            <td data-vertical-align="middle">0.013</td>
+            <td data-vertical-align="middle">0.011</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">84</td>
+            <td data-vertical-align="middle">0.012</td>
+            <td data-vertical-align="middle">0.010</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">85</td>
+            <td data-vertical-align="middle">0.011</td>
+            <td data-vertical-align="middle">0.010</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">86</td>
+            <td data-vertical-align="middle">0.010</td>
+            <td data-vertical-align="middle">0.009</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">87</td>
+            <td data-vertical-align="middle">0.009</td>
+            <td data-vertical-align="middle">0.008</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">88</td>
+            <td data-vertical-align="middle">0.009</td>
+            <td data-vertical-align="middle">0.007</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">89</td>
+            <td data-vertical-align="middle">0.008</td>
+            <td data-vertical-align="middle">0.007</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">90</td>
+            <td data-vertical-align="middle">0.007</td>
+            <td data-vertical-align="middle">0.006</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">91</td>
+            <td data-vertical-align="middle">0.007</td>
+            <td data-vertical-align="middle">0.006</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">92</td>
+            <td data-vertical-align="middle">0.006</td>
+            <td data-vertical-align="middle">0.005</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">93</td>
+            <td data-vertical-align="middle">0.005</td>
+            <td data-vertical-align="middle">0.005</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">94</td>
+            <td data-vertical-align="middle">0.005</td>
+            <td data-vertical-align="middle">0.004</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">95</td>
+            <td data-vertical-align="middle">0.004</td>
+            <td data-vertical-align="middle">0.004</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">96</td>
+            <td data-vertical-align="middle">0.004</td>
+            <td data-vertical-align="middle">0.004</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">97</td>
+            <td data-vertical-align="middle">0.003</td>
+            <td data-vertical-align="middle">0.003</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">98</td>
+            <td data-vertical-align="middle">0.003</td>
+            <td data-vertical-align="middle">0.003</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">99</td>
+            <td data-vertical-align="middle">0.002</td>
+            <td data-vertical-align="middle">0.002</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">100</td>
+            <td data-vertical-align="middle">0.002</td>
+            <td data-vertical-align="middle">0.002</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">101</td>
+            <td data-vertical-align="middle">0.002</td>
+            <td data-vertical-align="middle">0.002</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">102</td>
+            <td data-vertical-align="middle">0.001</td>
+            <td data-vertical-align="middle">0.001</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">103</td>
+            <td data-vertical-align="middle">0.001</td>
+            <td data-vertical-align="middle">0.001</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">104</td>
+            <td data-vertical-align="middle">0.000</td>
+            <td data-vertical-align="middle">0.000</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">105</td>
+            <td data-vertical-align="middle">0.000</td>
+            <td data-vertical-align="middle">0.000</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">106</td>
+            <td data-vertical-align="middle">0.000</td>
+            <td data-vertical-align="middle">0.000</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">107</td>
+            <td data-vertical-align="middle">0.000</td>
+            <td data-vertical-align="middle">0.000</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">108</td>
+            <td data-vertical-align="middle">0.000</td>
+            <td data-vertical-align="middle">0.000</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">109</td>
+            <td data-vertical-align="middle">0.000</td>
+            <td data-vertical-align="middle">0.000</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">110</td>
+            <td data-vertical-align="middle">0.000</td>
+            <td data-vertical-align="middle">0.000</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">111</td>
+            <td data-vertical-align="middle">0.000</td>
+            <td data-vertical-align="middle">0.000</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">112</td>
+            <td data-vertical-align="middle">0.000</td>
+            <td data-vertical-align="middle">0.000</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">113</td>
+            <td data-vertical-align="middle">0.000</td>
+            <td data-vertical-align="middle">0.000</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">114</td>
+            <td data-vertical-align="middle">0.000</td>
+            <td data-vertical-align="middle">0.000</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">115</td>
+            <td data-vertical-align="middle">0.000</td>
+            <td data-vertical-align="middle">0.000</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">116</td>
+            <td data-vertical-align="middle">0.000</td>
+            <td data-vertical-align="middle">0.000</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">117</td>
+            <td data-vertical-align="middle">0.000</td>
+            <td data-vertical-align="middle">0.000</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">118</td>
+            <td data-vertical-align="middle">0.000</td>
+            <td data-vertical-align="middle">0.000</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">119</td>
+            <td data-vertical-align="middle">0.000</td>
+            <td data-vertical-align="middle">0.000</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">120</td>
+            <td data-vertical-align="middle">0.000</td>
+            <td data-vertical-align="middle">0.000</td>
+          </tr>
+        </tbody>
+      </table>
+    </text>
+  </section>
+  <section cache:ref-path="31|05|04|.08">
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Application of the 2012 IAR Table.</heading>
+    <para>
+      <num>A.</num>
+      <text>In using the 2012 IAR Table, the mortality rate for a person age x in year (2012 + n) is calculated as follows:</text>
+      <text>q<sub>x</sub><sup>2012+n</sup> = q<sub>x</sub><sup>2012</sup> (1 - G2<sub>x</sub>) <sup>n</sup>.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The resulting q<sub>x</sub><sup>2012+n</sup>, as calculated in <cite path="31|05|04|.08|A.">§A of this regulation</cite>, shall be rounded to three decimal places per 1,000.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The rounding described in <cite path="31|05|04|.08|B.">§B of this regulation</cite> shall occur according to the formula in <cite path="31|05|04|.08|A.">§A of this regulation</cite>, starting at the 2012 period table rate.</text>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container"><cite doc="Md. Code" path="gin|2-109">Insurance Article, §2-109 </cite>and Title 5, Subtitle 3, Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="1985-12-31">Effective date: December 31, 1985 (12:26 Md. R. 2545)</annotation>
+    <annotation type="History" dest="container" effective="1998-09-07" discontinuity="true">Chapter recodified from <cite path="|09.30.68">COMAR 09.30.68</cite> to <cite path="|31.05.04">COMAR 31.05.04</cite>  effective September 7, 1998 (25:18 Md. R. 1439)</annotation>
+    <annotation type="History" dest="container" effective="2004-05-24" discontinuity="true">Chapter revised effective May 24, 2004 (31:10 Md. R. 796)</annotation>
+    <annotation type="History" dest="container" effective="2014-11-10"><cite path="|31|05|04|.01">Regulation .01</cite> amended effective November 10, 2014 (41:22 Md. R. 1320)</annotation>
+    <annotation type="History" dest="container" effective="2015-01-01"><cite path="|31|05|04|.02|B.">Regulation .02B</cite> amended effective January 1, 2015 (41:22 Md. R. 1320)</annotation>
+    <annotation type="History" dest="container" effective="2015-01-01"><cite path="|31|05|04|.05">Regulation .05</cite> amended effective January 1, 2015 (41:22 Md. R. 1320)</annotation>
+    <annotation type="History" dest="container" effective="2015-01-01"><cite path="|31|05|04|.06">Regulation .06</cite> adopted effective January 1, 2015 (41:22 Md. R. 1320)</annotation>
+    <annotation type="History" dest="container" effective="2015-01-01"><cite path="|31|05|04|.07">Regulation .07</cite> adopted effective January 1, 2015 (41:22 Md. R. 1320)</annotation>
+    <annotation type="History" dest="container" effective="2015-01-01"><cite path="|31|05|04|.08">Regulation .08</cite> adopted effective January 1, 2015 (41:22 Md. R. 1320)</annotation>
+  </annotations>
+</container>

@@ -1,0 +1,743 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>08</num>
+  <heading>Environmental Investigations</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Purpose.</heading>
+    <text>The purpose of this chapter is to establish the:</text>
+    <para>
+      <num>A.</num>
+      <text>Procedures and technical standards for conducting an environmental investigation; and</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Job performance standards for a Department-accredited lead paint risk assessor conducting an environmental investigation.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Scope.</heading>
+    <para>
+      <num>A.</num>
+      <text>This chapter applies to an environmental investigation performed pursuant to <cite doc="Md. Code" path="gen|6-305">Environment Article, §6-305, Annotated Code of Maryland</cite>.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>This chapter does not apply to the performance of a lead paint abatement service other than an environmental investigation required under <cite doc="Md. Code" path="gen|6-305">Environment Article, §6-305, Annotated Code of Maryland</cite>.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings as indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>“Accredited” has the meaning stated in <cite path="26.16.02.02|B.">COMAR 26.16.02.02B</cite>.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>“Affected property” has the meaning stated in <cite doc="Md. Code" path="gen|6-801">Environment Article, §6-801(b), Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>“ASTM" means the American Society for Testing and Materials.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>“Blood lead level (BLL)” means a measurement of the amount of lead in blood, usually measured in micrograms per deciliter.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>“Caregiver” means a parent, a guardian, or another person that is legally responsible for the wellbeing of a pregnant woman younger than 18 years old or a child.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>“Child” means an individual younger than 6 years old.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>“Child care center” has the meaning stated in COMAR 13A.16.01.02B.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>“Defect” means the presence of:</text>
+        <para>
+          <num>(a)</num>
+          <text>Chipping, peeling, or flaking paint on an interior or exterior surface of an affected property; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A structural defect causing chipping, peeling, or flaking paint in an affected property.</text>
+        </para>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>“Deteriorated paint” means chipping, peeling, or flaking paint on:</text>
+        <para>
+          <num>(a)</num>
+          <text>A painted interior or exterior surface of a property; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Any other accessible painted surface.</text>
+        </para>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>“Drip line” means the area of land directly beneath the edge of a roof.</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>“Elevated blood lead (EBL)” has the meaning stated in <cite doc="Md. Code" path="gen|6-801">Environment Article, §6-801(f), Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>Environmental Investigation.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Environmental investigation” means an investigation performed by a Department-accredited lead paint risk assessor to identify one or more lead hazards for a child or pregnant woman diagnosed with EBL.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Environmental investigation” includes the:</text>
+          <para>
+            <num>(i)</num>
+            <text>Administration of an environmental questionnaire, a visual inspection, and the collection of environmental samples during an on-site assessment of a property;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Analysis of the results from an on-site assessment and environmental sampling; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Performance of case management by the Department or a local health department pursuant to <cite doc="Md. Code" path="gen|6-304">Environment Article, §6-304, Annotated Code of Maryland</cite>.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>“Environmental questionnaire” means a questionnaire administered by a Department-accredited lead paint risk assessor during an environmental investigation to identify one or more lead exposure risk factors that may have contributed to a child’s or pregnant woman’s EBL.</text>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>“Environmental sampling” means the collection and analysis of paint chip, dust, or soil samples, or samples from other media as appropriate, to identify the presence of a lead hazard, performed in accordance with the applicable sampling requirements and technical standards described under Regulations .06 and .07 of this chapter.</text>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>Friction Surface.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Friction surface” means an interior or exterior surface subject to abrasion or friction.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Friction surface” may include, but is not limited to, a window sash, a stair tread, or another surface subject to abrasion or friction.</text>
+        </para>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>“HUD Guidelines” means the U.S. Department of Housing and Urban Development (HUD) Guidelines for the Evaluation and Control of Lead-Based Paint Hazards in Housing, Second Edition, July, 2012.</text>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>Impact Surface.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Impact surface” means an interior or exterior surface subject to damage by repeated impact or contact.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Impact surface” may include, but is not limited to, a door frame, a surface that makes contact with a knob or handle, or another surface subject to damage by repeated impact or contact.</text>
+        </para>
+      </para>
+      <para>
+        <num>(18)</num>
+        <text>“International Organization for Standardization/International Electrotechnical Commission (ISO/IEC)” means a technical standard governed by both the ISO and IEC.</text>
+      </para>
+      <para>
+        <num>(19)</num>
+        <text>Lead Hazard.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Lead hazard” means a source of lead on an accessible surface or media in which exposure of a child or pregnant woman to the source would result in adverse human health effects.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Lead hazard” includes, but is not limited to:</text>
+          <para>
+            <num>(i)</num>
+            <text>Lead-based paint as defined under <cite path="26.16.02.02|B.">COMAR 26.16.02.02B</cite>, if the lead-based paint is present on, or within a layer of, a surface with deteriorated paint or a defect, an impact or friction surface, or a chewable surface with evidence of teeth marks;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>A lead-containing substance as defined under <cite path="26.16.01.02|B.">COMAR 26.16.01.02B</cite>, if the lead-containing substance is present on an impact or friction surface, or chewable surface with evidence of teeth marks;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Lead-contaminated dust as defined under <cite path="26.16.02.02|B.">COMAR 26.16.02.02B</cite>; or</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Other sources of lead as identified in the HUD Guidelines, Chapter 16: Investigation and Treatment of Dwellings that House Children with Elevated Blood Lead Levels, or by the Department.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(20)</num>
+        <text>“Notice of Defect” means a written notice provided by a tenant, or another source, to the owner of an affected property notifying the owner of a defect in the affected property, as authorized under <cite doc="Md. Code" path="gen|6-819">Environment Article, §6-819, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(21)</num>
+        <text>“Primary residence” means a residential property where a child or pregnant woman with EBL resides.</text>
+      </para>
+      <para>
+        <num>(22)</num>
+        <text>“Quantitation limit” has the meaning stated in <cite path="26.02.07.02|B.">COMAR 26.02.07.02B</cite>.</text>
+      </para>
+      <para>
+        <num>(23)</num>
+        <text>“Reference level” means:</text>
+        <para>
+          <num>(a)</num>
+          <text>5 micrograms per deciliter; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Beginning 1 year after the date that the Centers for Disease Control and Prevention revises the blood lead reference level until 1 year after a subsequent revision, the revised blood lead reference level as determined by the Centers for Disease Control and Prevention.</text>
+        </para>
+      </para>
+      <para>
+        <num>(24)</num>
+        <text>Secondary Property.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Secondary property” means a property, other than a child’s or pregnant woman’s primary residence, where the child or pregnant woman with EBL spends at least 24 hours per week.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Secondary property” includes a child care center or a family member’s residence.</text>
+        </para>
+      </para>
+      <para>
+        <num>(25)</num>
+        <text>“Secondary source” means a lead exposure risk that is not derived from a painted surface or structural component of a property, including, but not limited to:</text>
+        <para>
+          <num>(a)</num>
+          <text>Tap water;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A toy, jewelry, or ceramic foodware;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>An imported cosmetic, such as, but not limited to, a product identified in Table 16.4 of the HUD Guidelines, Chapter 16: Investigation and Treatment of Dwellings that House Children with Elevated Blood Lead Levels;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>A traditional medicine or remedy; or</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>A food item.</text>
+        </para>
+      </para>
+      <para>
+        <num>(26)</num>
+        <text>“XRF” has the meaning stated in <cite path="26.16.01.02|B.">COMAR 26.16.01.02B</cite>.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="26|16|08|.04">
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Incorporation by Reference.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following documents are incorporated by reference:</text>
+      <para>
+        <num>(1)</num>
+        <text>General requirements for the competence of testing and calibration laboratories (ISO/IEC 17025:2017(E));</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The U.S. Department of Housing and Urban Development Guidelines for the Evaluation and Control of Lead-Based Paint Hazards in Housing (Second Edition, July, 2012), Chapter 16: Investigation and Treatment of Dwellings that House Children with Elevated Blood Lead Levels;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Standard Practice for Collection of Settled Dust Samples Using Wipe Sampling Methods for Subsequent Lead Determination (ASTM Standard E1728/E1728M-20, 2020 Edition);</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Standard Practice for Field Collection of Dried Paint Samples for Subsequent Lead Determination (ASTM E1729-16, 2016 Edition); and</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Standard Practice for Field Collection of Soil Samples for Subsequent Lead Determination (ASTM E1727-16, 2016 Edition).</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The document incorporated by reference in <cite path="26|16|08|.04|A.|(2)">§A(2) of this regulation</cite> will be referred to in this chapter as HUD Guidelines, Chapter 16.</text>
+    </para>
+  </section>
+  <section cache:ref-path="26|16|08|.05">
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Scheduling an Environmental Investigation.</heading>
+    <para>
+      <num>A.</num>
+      <text>Pursuant to <cite doc="Md. Code" path="gen|6-304">Environment Article, §6-304, Annotated Code of Maryland</cite>, after the receipt by the Department of a blood lead level test result that diagnoses a child or pregnant woman with EBL, the Department or local health department shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Not more than 10 business days after the receipt of the blood lead level test result, provide notification of the EBL level to:</text>
+        <para>
+          <num>(a)</num>
+          <text>The caregiver of the child or the pregnant woman; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>If the child or pregnant woman resides at a property not owned by the caregiver or pregnant woman, the owner of the property where the child or pregnant woman resides; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Except as otherwise provided in <cite path="26|16|08|.05|D.">§D of this regulation</cite>, contact the caregiver or pregnant woman to schedule the on-site assessment portion of the environmental investigation.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The lead paint assessor or local health department representative:</text>
+      <para>
+        <num>(1)</num>
+        <text>Shall schedule an on-site assessment for the primary residence of the child or pregnant woman diagnosed with EBL in accordance with the procedures under <cite path="26|16|08|.05|C.">§C of this regulation</cite>; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If determined necessary by the lead paint risk assessor while conducting the environmental investigation, may schedule an on-site assessment for a secondary property through coordination with the caregiver or pregnant woman.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Procedures for Scheduling an On-Site Assessment.</text>
+      <para>
+        <num>(1)</num>
+        <text>The on-site assessment of a primary residence may be scheduled by the lead paint risk assessor or local health department representative in coordination with a local health department representative’s home visit.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The lead paint risk assessor or local health department representative shall make at least two attempts to contact the caregiver or pregnant woman by telephone to schedule an on-site assessment.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If the lead paint risk assessor or local health department representative is unable to establish contact with the caregiver or pregnant woman in accordance with <cite path="26|16|08|.05|C.|(2)">§C(2) of this regulation</cite>, the lead paint risk assessor or local health department representative shall mail a letter through first-class mail to the caregiver or pregnant woman.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The lead paint risk assessor or local health department representative shall include, at a minimum, all of the following information in the letter required under <cite path="26|16|08|.05|C.|(3)">§C(3) of this regulation</cite>:</text>
+        <para>
+          <num>(a)</num>
+          <text>The lead paint risk assessor or local health department representative’s intention to schedule an on-site assessment of the primary residence of the child or pregnant woman with EBL;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Notice that the letter constitutes the final attempt by the lead paint risk assessor or local health department representative to schedule the on-site assessment of the primary residence;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The latest calendar date that the caregiver or pregnant woman may contact the lead paint risk assessor or local health department representative to schedule an on-site assessment of the primary residence;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Notice that failure to contact the lead paint risk assessor or local health department representative to schedule an on-site assessment of the primary residence may result in the child’s or pregnant woman’s case being closed by the Department or local health department without an environmental investigation; and</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>If the child or pregnant woman is known or believed by the Department or local health department to reside at an affected property, information regarding the tenant’s rights under Environment Article, §§<cite doc="Md. Code" path="gen|6-815">6-815</cite> and <cite doc="Md. Code" path="gen|6-819">6-819</cite>, Annotated Code of Maryland.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Failure to Schedule an On-Site Assessment.</text>
+      <para>
+        <num>(1)</num>
+        <text>If the caregiver or pregnant woman does not respond to the attempts to schedule the on-site assessment of a primary residence made in accordance with <cite path="26|16|08|.05|C.">§C of this regulation</cite>, the Department or local health department may:</text>
+        <para>
+          <num>(a)</num>
+          <text>Attempt to make contact with the caregiver or pregnant woman by coordinating with the medical provider or through other means; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>At its discretion, close the case without conducting an environmental investigation.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If a case is closed by the Department or local health department pursuant to <cite path="26|16|08|.05|D.|(1)">§D(1) of this regulation</cite>, the Department or local health department:</text>
+        <para>
+          <num>(a)</num>
+          <text>If the primary residence is not owned by the caregiver or pregnant woman, shall mail a letter through first-class mail to the property owner advising that the:</text>
+          <para>
+            <num>(i)</num>
+            <text>Lead paint risk assessor or local health department representative was unable to contact the caregiver or pregnant woman to schedule an on-site assessment of the property; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Case has been closed by the Department or local health department without conducting an environmental investigation; and</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>May reopen the case and conduct an environmental investigation upon request of the caregiver or pregnant woman.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If the lead paint risk assessor or local health department representative, in accordance with <cite path="26|16|08|.05|B.|(2)">§B(2) of this regulation</cite>, is unable to schedule an on-site assessment for a secondary property, the lead paint risk assessor shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Complete the environmental investigation including only the primary residence; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Note in the environmental investigation report that the secondary property was not assessed.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="26|16|08|.06">
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Environmental Investigation Protocol.</heading>
+    <para>
+      <num>A.</num>
+      <text>Except as otherwise provided in <cite path="|26|16|08|.05|D.">Regulation .05D of this chapter</cite>, a lead paint risk assessor shall perform an environmental investigation in response to a child’s or pregnant woman’s diagnosis of EBL, as required under <cite doc="Md. Code" path="gen|6-305">Environment Article, §6-305, Annotated Code of Maryland</cite>.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The lead paint risk assessor shall determine the year of construction for the property being investigated, which may be accomplished by viewing the property tax records available through the State Department of Assessment and Taxation.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Environmental Questionnaire.</text>
+      <para>
+        <num>(1)</num>
+        <text>The lead paint risk assessor shall complete an environmental questionnaire with the caregiver or pregnant woman during an on-site assessment of a primary residence.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The lead paint risk assessor shall complete the environmental questionnaire on a form provided by the Department that is consistent with or more detailed than Form 16.1 of the HUD Guidelines, Chapter 16.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The lead paint risk assessor shall use the environmental questionnaire to:</text>
+        <para>
+          <num>(a)</num>
+          <text>Identify a potential lead hazard for a child or pregnant woman, including:</text>
+          <para>
+            <num>(i)</num>
+            <text>Behavioral, cultural, hobby, housing, or occupational lead exposure risk factors; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Less common sources of lead exposure as identified in Table 16.4 of the HUD Guidelines, Chapter 16;</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Determine the type of environmental sampling to be conducted during the on-site assessment; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Identify whether there is a secondary property that requires an on-site assessment.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>A lead paint risk assessor shall perform a visual inspection to identify the potential presence of a lead hazard.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Paint Survey Analysis.</text>
+      <para>
+        <num>(1)</num>
+        <text>A lead paint risk assessor shall perform a paint survey analysis to determine if the lead content on a painted surface meets the definition of lead-based paint under <cite path="26.16.02.02|B.">COMAR 26.16.02.02B</cite> through paint chip or XRF sampling in accordance with the requirements under Regulation .07D or E of this chapter.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A lead paint risk assessor shall perform a paint survey analysis:</text>
+        <para>
+          <num>(a)</num>
+          <text>On a painted chewable surface or suspected lead-containing substance with evidence of teeth marks;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>At a property constructed before 1978 if an interior or exterior painted surface has:</text>
+          <para>
+            <num>(i)</num>
+            <text>A defect or deteriorated paint;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Intact paint and the surface is subject to friction or impact; or</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Been disturbed during a recent renovation or in preparation to be repainted; or</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>At a property constructed after 1977 on an interior or exterior painted surface that has:</text>
+          <para>
+            <num>(i)</num>
+            <text>Deteriorated paint;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Intact paint and the surface is subject to friction or impact; or</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Been identified as a potential lead hazard through the environmental questionnaire, painting history of the property, or by the lead paint risk assessor.</text>
+          </para>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>A lead paint risk assessor shall perform dust wipe sampling:</text>
+      <para>
+        <num>(1)</num>
+        <text>To determine if the lead content in dust on a floor, window sill, or window well meets the definition of lead-contaminated dust in <cite path="26.16.02.02|B.">COMAR 26.16.02.02B</cite>;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Pursuant to the protocol in the HUD Guidelines, Chapter 16;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Based on information obtained by the lead paint risk assessor while conducting the environmental questionnaire and visual inspection; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>In accordance with the requirements under <cite path="|26|16|08|.07|C.">Regulation .07C of this chapter</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>A lead paint risk assessor shall perform composite soil sampling:</text>
+      <para>
+        <num>(1)</num>
+        <text>On an area of bare soil at a primary residence or secondary property where a child or pregnant woman frequents, including a drip line, a play area, or another area at a property;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>To identify if the bare soil present at a primary residence or secondary property meets the definition of a soil-lead hazard, as defined under 40 CFR §745.65(c) or a more stringent standard published by the Department; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>In accordance with the requirements under <cite path="|26|16|08|.07|F.">Regulation .07F of this chapter</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>Tap Water Sampling.</text>
+      <para>
+        <num>(1)</num>
+        <text>Tap water sampling may be performed:</text>
+        <para>
+          <num>(a)</num>
+          <text>By a lead paint risk assessor collecting a tap water sample or through coordination with a local health department;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>If tap water is identified as being commonly used as drinking water or in the preparation of infant formula or food; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>To determine if the lead content in tap water exceeds the action level described on page 16-14 in the HUD Guidelines, Chapter 16.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If a tap water sample is collected by a lead paint risk assessor pursuant to <cite path="26|16|08|.06|H.|(1)">§H(1) of this regulation</cite>, the lead paint risk assessor shall perform the tap water sampling in accordance with the requirements under <cite path="|26|16|08|.07|G.">Regulation .07G of this chapter</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>A lead paint risk assessor may perform additional environmental sampling of a secondary source:</text>
+      <para>
+        <num>(1)</num>
+        <text>With the permission of the caregiver or pregnant woman;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If identified as a potential source of lead exposure by the lead paint risk assessor;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>To determine if the lead content in the secondary source meets the definition of a lead hazard under <cite path="|26|16|08|.02|B.">Regulation .02B of this chapter</cite>; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>In accordance with the requirements under <cite path="|26|16|08|.07|H.">Regulation .07H of this chapter</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>J.</num>
+      <text>A lead paint risk assessor shall interpret the results of environmental sampling performed during an environmental investigation.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Technical Standards for Environmental Sampling.</heading>
+    <para>
+      <num>A.</num>
+      <text>A lead paint risk assessor shall perform environmental sampling in accordance with the technical standards and environmental sampling requirements set forth in this regulation.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A lead paint risk assessor shall submit a paint chip, soil, or dust wipe sample for analysis to a laboratory:</text>
+      <para>
+        <num>(1)</num>
+        <text>Recognized by the U.S. Environmental Protection Agency under 15 U.S.C. §2685(b) as accredited under the National Lead Laboratory Accreditation Program; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>That demonstrates it can achieve a quantitation limit equal to or less than:</text>
+        <para>
+          <num>(a)</num>
+          <text>20 percent of the lowest level of lead content in paint that constitutes a lead-containing substance, as stated in <cite path="26.16.01.02|B.">COMAR 26.16.01.02B</cite>;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>20 percent of the lowest action level or regulatory limit for lead content in soil established under 40 CFR §745.65(c) or a more stringent standard published by the Department; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>50 percent of the lowest level of lead content in dust that constitutes lead-contaminated dust, as stated in <cite path="26.16.02.02|B.">COMAR 26.16.02.02B</cite>.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A lead paint risk assessor shall perform dust wipe sampling in accordance with the ASTM E1728/E1728M-20 standard.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>A lead paint risk assessor shall perform XRF sampling on a painted surface using a calibrated instrument in accordance with <cite path="26.16.05.06|B.">COMAR 26.16.05.06B</cite> and the ISO/IEC 17025:2017(E) standard.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>A lead paint risk assessor shall perform paint chip sampling:</text>
+      <para>
+        <num>(1)</num>
+        <text>Only on a surface with deteriorated paint or a defect, or other painted surface as determined necessary by the lead paint risk assessor;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>After a dust wipe sample is collected to prevent cross-contamination of dust present on a surface near the area where the paint chip was sampled; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>In accordance with the ASTM E1729-16 standard and <cite path="26.16.05.06|C.">COMAR 26.16.05.06C</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>A lead paint risk assessor shall perform composite soil sampling in accordance with the ASTM E1727-16 standard.</text>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>If a tap water sample is collected by a lead paint risk assessor, the lead paint risk assessor shall submit the tap water sample to a laboratory certified by the Department to analyze drinking water samples for lead.</text>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>A lead paint risk assessor shall perform the sampling of a secondary source using:</text>
+      <para>
+        <num>(1)</num>
+        <text>An environmental sampling method appropriate to detect lead content in the secondary source; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>XRF sampling, using a calibrated instrument in accordance with <cite path="26.16.05.06|B.">COMAR 26.16.05.06B</cite> and the ISO/IEC 17025:2017(E) standard.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Environmental Investigation Report.</heading>
+    <para>
+      <num>A.</num>
+      <text>Pursuant to the provisions of <cite doc="Md. Code" path="gen|6-819">Environment Article, §6-819, Annotated Code of Maryland</cite>, if the property being investigated is an affected property with a defect observed during an on-site assessment:</text>
+      <para>
+        <num>(1)</num>
+        <text>The lead paint risk assessor shall issue a Notice of Defect to the owner of the affected property; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The property owner shall satisfy the modified risk reduction standard within 30 days of receiving the Notice of Defect from the lead paint risk assessor.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A lead paint risk assessor shall prepare an environmental investigation report that includes the following information:</text>
+      <para>
+        <num>(1)</num>
+        <text>Identification of lead hazards in the property subject to the environmental investigation;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Recommendations of immediate actions the caregiver, pregnant woman, or property owner can take to reduce the child’s or pregnant woman’s further exposure to lead; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Recommendations designed to eliminate a child’s or pregnant woman’s exposure to lead through:</text>
+        <para>
+          <num>(a)</num>
+          <text>One or more lead hazard reduction treatments or an abatement performed by a lead paint abatement services provider accredited by the Department under <cite path="|26.16.01">COMAR 26.16.01</cite>, and in accordance with the abatement of lead-containing substances protocols under <cite path="|26.02.07">COMAR 26.02.07</cite>; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Discontinued use of a secondary source that poses a lead hazard to the child or pregnant woman.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The lead paint risk assessor shall provide a copy of the environmental investigation report to:</text>
+      <para>
+        <num>(1)</num>
+        <text>The caregiver or pregnant woman;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If different than the caregiver or pregnant woman, the owner of the property subject to the environmental investigation; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>At the discretion of the Department or local health department, the health officer in the county where the environmental investigation was performed.</text>
+      </para>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Environment Article, §§<cite doc="Md. Code" path="gen|6-304">6-304</cite>, <cite doc="Md. Code" path="gen|6-305">6-305</cite>, <cite doc="Md. Code" path="gen|6-801">6-801</cite>, <cite doc="Md. Code" path="gen|6-819">6-819</cite>, <cite doc="Md. Code" path="gen|6-846">6-846</cite>, and <cite doc="Md. Code" path="gen|6-1001">6-1001</cite>—<cite doc="Md. Code" path="gen|6-1005">6-1005</cite>, Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="2020-07-01">Effective date: July 1, 2020 (47:13 Md. R. 643)</annotation>
+  </annotations>
+</container>

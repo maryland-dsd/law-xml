@@ -1,0 +1,769 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>10</num>
+  <heading>Financial Guaranty Insurance</heading>
+  <section cache:ref-path="31|05|10|.01">
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Definitions</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>Asset-Backed Security.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Asset-backed security" has the meaning stated in <cite doc="Md. Code" path="gin|5-511">Insurance Article, §5-511(a)(3), Annotated Code of Maryland</cite>.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Asset-backed security" includes a pool of credit default swaps or credit default swaps referencing a pool of obligations if:</text>
+          <para>
+            <num>(i)</num>
+            <text>The swap counterparty whose obligations are insured under the credit default swap is a special purpose corporation, special purpose trust, or other special purpose legal entity;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>No reference obligation in the pool, other than an obligation directly payable by, guaranteed by, or backed by the full faith and credit of the United States government or that otherwise qualifies as collateral under regulations adopted by the Commissioner under this chapter, has a notional amount exceeding 10 percent of the pool's aggregate notional amount; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>The insurer has the benefit of a deductible or other first credit protection against claims under its insurance policy.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Average Annual Debt Service.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Average annual debt service" means the amount of insured unpaid principal and interest on an obligation multiplied by the number of insured obligations, assuming that each obligation represents a $1,000 par value, divided by the amount equal to the aggregate life of all the obligations.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Average annual debt service" expressed as a formula in regard to bonds, is as follows:</text>
+          <text>Average Annual Debt Service = (Total Debt Service × No. of Bonds)/Bond Years</text>
+          <text>where:</text>
+          <text>Total Debt Service = Insured Unpaid Principal + Interest</text>
+          <text>Number of Bonds = Total Insured Principal/1,000</text>
+          <text>Bond Years = Number of Bonds × Term in Years</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>"Collateral" has the meaning stated in <cite path="31|05|10|.01|C.">§C of this regulation</cite>.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>"Contingency reserve" means an additional liability reserve established by a financial guaranty insurer to protect policyholders against the effects of adverse economic cycles or other unforeseen circumstances.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Credit Default Swap.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Credit default swap" means an agreement that references the credit derivative definitions published from time to time by the International Swap and Derivatives Association, Inc. or otherwise acceptable to the Commissioner under which a party agrees to compensate another party in the event of a payment default by insolvency of, or other adverse credit event with respect to, an issuer of a specified security or other obligation.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A "credit default swap" is not an insurance contract and the making of a credit default swap is not doing insurance business.</text>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>"Excess proceeds" means proceeds in excess of the proceeds necessary to pay an insured obligation.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>"Excess spread" means, with respect to any insured issue of asset-backed securities, the excess of:</text>
+        <para>
+          <num>(a)</num>
+          <text>The scheduled cash flow on the underlying assets that is reasonably projected to be available, over the term of the insured securities after payment of the expenses associated with the insured issue, to make debt service payments on the insured securities; over</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The scheduled debt service requirements on the insured securities, if the excess is held in the same manner as collateral is required to be held under <cite path="|31|05|10|.06">Regulation .06 of this chapter</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>"Financial guaranty insurance" has the meaning stated in <cite path="31|05|10|.01|D.">§D of this regulation</cite>.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>"Financial guaranty insurer" means a domestic insurer that holds a certificate of authority for the purpose of transacting financial guaranty insurance in the State.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>"Governmental unit" means:</text>
+        <para>
+          <num>(a)</num>
+          <text>The United States of America,</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Canada;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A member country of the Organization of Economic Cooperation and Development having a sovereign rating in one of the top two generic rating classifications by a securities rating agency acceptable to the Commissioner;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>A state, territory, or possession of the United States of America;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>The District of Columbia;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>A province of Canada;</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>A municipality or a political subdivision of any of the entities listed in §B(9)(a)—(f) of this regulation; or</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>Any public agency or instrumentality of any of the entities listed in paragraphs §B(9)(a)—(g) of this regulation.</text>
+        </para>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>"Guaranty of consumer debt obligation" means an insurance policy indemnifying a regulated financial institution or other purchaser or lender against loss or damage resulting from nonpayment of debts owed to the financial institution or other purchaser or lender for extensions of credit, including installment purchase agreements and leases, to individuals, provided in the normal course of the financial institution's, purchaser's, or lender's business.</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>"Industrial development bond" means any security, or other instrument under which a payment obligation is created, issued by or on behalf of a governmental unit to finance a project serving a private industrial, commercial, or manufacturing purpose and not payable or guaranteed by a governmental unit.</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>"Investment grade" means that either the obligation or parity obligation of the same issuer has been:</text>
+        <para>
+          <num>(a)</num>
+          <text>Determined to be in one of the top four generic lettered rating classifications by a securities rating agency acceptable to the Commissioner;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Identified in writing by the rating agency as an insurable risk, deemed to be of investment grade quality for purposes of insurance; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Determined to be investment grade, as indicated by a rating in category 1 or 2, by the Securities Valuation Office of the National Association of Insurance Commissioners.</text>
+        </para>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>Municipal Obligation Bond.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Municipal obligation bond" means any security or other instrument under which a payment obligation is created or issued by or on behalf of a governmental unit to finance a project serving a substantial public purpose, and that is:</text>
+          <para>
+            <num>(i)</num>
+            <text>Payable from tax revenues, but not tax allocations, within the jurisdiction of the governmental unit;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Payable or guaranteed by the United States of America or any agency, department, or instrumentality of the United States of America, or by a state housing agency;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Payable from rates or charges, excluding tolls, levied or collected in respect of a non-nuclear utility project, public transportation facility, other than an airport facility, or public higher education facility; or</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>With respect to lease obligations, payable from future appropriations.</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Municipal obligation bond" includes a lease payable or guaranteed by a unit of the United States government or a state.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>"Municipal obligation bond" does not include a lease of any governmental unit other than a unit of the United States government or a state.</text>
+        </para>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>"Special revenue bond" means any security or other instrument under which a payment obligation is created that is:</text>
+        <para>
+          <num>(a)</num>
+          <text>Issued by or on behalf of a governmental unit to finance a project serving a substantial public purpose; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Not payable from the sources enumerated in <cite path="31|05|10|.01|B.|(13)">§B(13) of this regulation</cite> in connection with the payment of municipal obligation bonds.</text>
+        </para>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>"Total liability" of a financial guaranty insurer means the aggregate amount of insured unpaid principal, interest, and other monetary payments, if any, of guaranteed obligations insured or assumed, less reinsurance ceded and less collateral.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>"Collateral" means:</text>
+      <para>
+        <num>(1)</num>
+        <text>Cash;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The cash flow from obligations that are not callable and are scheduled to be received, based on expected prepayment speed, on or before the date of scheduled debt service, including scheduled redemptions or prepayments, on the insured obligation, if:</text>
+        <para>
+          <num>(a)</num>
+          <text>The obligations are directly payable by, guaranteed by, or backed by the full faith and credit of the United States government; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>In the case of insured obligations denominated or payable in foreign currency as permitted under <cite path="|31|05|10|.03|B.">Regulation .03B of this chapter</cite>, the obligations are directly payable by, guaranteed by, or backed by the full faith and credit of a foreign government or the central bank of the foreign government;</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The market value of investment grade securities in an amount not to exceed the total debt service on the insured obligation, other than securities evidencing an interest in the project financed with the proceeds of the insured obligations; or</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The face amount of each letter of credit that:</text>
+        <para>
+          <num>(a)</num>
+          <text>Is irrevocable;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Provides for payment under the letter of credit in all instances in which payment under a financial guaranty insurance policy is required;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Is issued, presentable, and payable either:</text>
+          <para>
+            <num>(i)</num>
+            <text>At an office of the letter of credit issuer in the United States; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>At an office of the letter of credit issuer located in the jurisdiction in which the trustee or paying agent for the insured obligation is located;</text>
+          </para>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Contains a statement that either:</text>
+          <para>
+            <num>(i)</num>
+            <text>Identifies the insurer and any successor by operation of law, including any liquidator, rehabilitator, receiver, or conservator, as the beneficiary; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Identifies the trustee or the paying agent for the insured obligation as the beneficiary;</text>
+          </para>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Contains a statement to the effect that the obligation of the letter of credit issuer under the letter of credit is an individual obligation of the issuer and is in no way contingent on reimbursement with respect to the letter of credit;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Contains an issue date and a date of expiration;</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>Either:</text>
+          <para>
+            <num>(i)</num>
+            <text>Has a term at least as long as the shorter of the term of the insured obligation or the term of the financial guaranty policy; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Provides that the letter of credit may not expire without 30 days prior written notice to the beneficiary and allows for drawing under the letter of credit if, before expiration, the letter of credit is not renewed or extended or a substitute letter of credit or alternate collateral meeting the requirements of this <cite path="31|05|10|.01|C.|(4)|(g)">§C(4)(g) of this regulation</cite> is not provided;</text>
+          </para>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>States that it is governed by the laws of a state of the United States or by the 1983 or 1993 Revision of the Uniform Customs and Practice for Documentary Credits of the International Chamber of Commerce, Publication 400 or 500, or any successor Revision if approved by the Commissioner, and contains a provision for an extension of time, of not less than 30 days after resumption of business, to draw against the letter of credit if one or more of the occurrences described in Article 19 of Publication 400 or 500 occurs; and</text>
+        </para>
+        <para>
+          <num>(i)</num>
+          <text>Is issued by a bank, trust company, or savings and loan association that:</text>
+          <para>
+            <num>(i)</num>
+            <text>Is organized and existing under the laws of the United States or any state of the United States or, in the case of a non-domestic banking organization, has a branch or agency office licensed under the laws of the United States or any state of the United States and is domiciled in a member country of the Organization of Economic Cooperation and Development having a sovereign rating in one of the top two generic lettered rating classifications by a securities rating agency acceptable to the Commissioner;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Has a long-term debt rating of at least investment grade, or is the principal operating subsidiary of a bank holding company that has a long-term debt rating of at least investment grade; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Is not a parent, subsidiary, or affiliate of the trustee or paying agent, if any, with respect to the insured obligation if the trustee or paying agent is the named beneficiary of the letter of credit.</text>
+          </para>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Financial Guaranty Insurance.</text>
+      <para>
+        <num>(1)</num>
+        <text>"Financial guaranty insurance" means a surety bond, insurance policy, or, when issued by an insurer, an indemnity contract, and any guaranty similar to a surety bond, insurance policy, or indemnity contract, under which loss is payable on proof of occurrence of financial loss to an insured claimant, obligee, or indemnity as a result of any of the following events:</text>
+        <para>
+          <num>(a)</num>
+          <text>Failure of any obligor on or issuer of any debt instrument or other monetary obligation, including equity securities guaranteed under a surety bond, insurance policy, or indemnity contract, to pay when due to be paid by the obligor or scheduled at the time to be received by the holder of the instrument or obligation principal, interest, premium, dividend, or purchase price of or on, or other amounts due or payable with respect to, such instrument or obligation, when the failure is the result of a financial default or insolvency or, if the payment source is investment grade, any other failure to make payment, regardless of whether the obligation is incurred directly or as guarantor by or on behalf of another obligor that also has defaulted;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Changes in the levels of interest rates, whether short or long term, or the differential in interest rates between various markets or products;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Changes in the rate of exchange of currency;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Inconvertibility of one currency into another for any reason, or inability to withdraw funds held in a foreign country resulting from restrictions imposed by a governmental authority;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Changes in the value of specific assets or commodities, financial or commodity indices, or price levels in general; or</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Other events that the Commissioner determines are substantially similar to any of the events listed in §D(1)(a)—(e) of this regulation.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>"Financial guaranty insurance" does not include:</text>
+        <para>
+          <num>(a)</num>
+          <text>Insurance of any loss resulting from any event described in <cite path="31|05|10|.01|D.|(1)">§D(1) of this regulation</cite>, if the loss is payable only on the occurrence of any of the following, as specified in a surety bond, insurance policy, or indemnity contract:</text>
+          <para>
+            <num>(i)</num>
+            <text>A fortuitous physical event;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>A failure of or deficiency in the operation of equipment; or</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>An inability to extract or recover a natural resource;</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>An individual or schedule public official bond;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A contract bond, including bid, payment, or maintenance bond, or a performance bond where the bond is guaranteeing the performance of services pursuant to a contract other than a contract of indebtedness or other monetary obligation;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>A court bond required in connection with judicial, probate, bankruptcy, or equity proceedings, including waiver, probate, open estate, and life tenant bond;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>A bond running to federal, state, county, or municipal government, or other political subdivision, as a condition precedent to granting of a license to engage in a particular business or a permit to exercise a particular privilege;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>A loss security bond or utility payment indemnity bond, other than a bond guaranteeing a contract of indebtedness or other monetary obligation, running to a governmental unit, railroad, or charitable organization;</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>A lease, purchase and sale, or concessionaire surety bond, other than a bond guaranteeing a contract of indebtedness or other monetary obligation;</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>Guaranteed investment contracts issued by a life insurer that provide that the life insurer will make specified payments in exchange for specific premiums or contributions;</text>
+        </para>
+        <para>
+          <num>(i)</num>
+          <text>Residual value insurance;</text>
+        </para>
+        <para>
+          <num>(j)</num>
+          <text>Mortgage guaranty insurance;</text>
+        </para>
+        <para>
+          <num>(k)</num>
+          <text>Indemnity contracts or similar guaranties, to the extent that they are not otherwise limited or proscribed by this chapter, in which a life insurer:</text>
+          <para>
+            <num>(i)</num>
+            <text>Guarantees its obligations or indebtedness or the obligations or indebtedness of a subsidiary, as defined in <cite doc="Md. Code" path="gin|7-101">Insurance Article, §7-101(f), Annotated Code of Maryland</cite>, other than a financial guaranty insurer, if, to the extent that any of the obligations or indebtedness are backed by specific assets, the assets must at all times be owned by the life insurer or the subsidiary, and, in the case of the guaranty of the obligations or indebtedness of the subsidiary that are not backed by specific assets of the life insurer, the guaranty terminates once the subsidiary ceases to be a subsidiary;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Guarantees obligations or indebtedness, including the obligation to substitute assets where appropriate, with respect to specific assets acquired by a life insurer in the course of normal investment activities and not for the purpose of resale with credit enhancement, or guarantees obligations or indebtedness acquired by its subsidiary, if the assets acquired pursuant to this item have been acquired by a special purpose entity whose sole purpose is to acquire specific assets of the life insurer or the subsidiary and issue securities or participation certificates backed by the assets, or sold to an independent third party; or</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Guarantees obligations or indebtedness of an employee or agent of the life insurer; or</text>
+          </para>
+        </para>
+        <para>
+          <num>(l)</num>
+          <text>Any other form of insurance covering risks that the Commissioner determines are substantially similar to any of the risks listed in §D(2)(a)—(k) of this regulation.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Contingency Reserve Requirements.</heading>
+    <para>
+      <num>A.</num>
+      <text>In General.</text>
+      <para>
+        <num>(1)</num>
+        <text>In addition to the unearned premium reserve and the liability established for unpaid losses and loss adjustment expenses, a financial guaranty insurer shall maintain a contingency reserve.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The purpose of the contingency reserve is to protect policyholders against loss during periods of extreme economic contraction.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Amount of Contingency Reserve. The contingency reserve shall be computed in accordance with <cite path="31.04.01.04">COMAR 31.04.01.04</cite>.</text>
+    </para>
+  </section>
+  <section cache:ref-path="31|05|10|.03">
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Scope of Certificate of Authority.</heading>
+    <para>
+      <num>A.</num>
+      <text>In General.</text>
+      <para>
+        <num>(1)</num>
+        <text>A financial guaranty insurer that holds a certificate of authority for the purpose of transacting financial guaranty insurance may write financial guaranty insurance to insure debt instruments and other monetary obligations only in the following categories:</text>
+        <para>
+          <num>(a)</num>
+          <text>Municipal obligation bonds;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Special revenue bonds;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Industrial development bonds;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Corporate obligations;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Limited partnership obligations;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Asset-backed securities, trust certificates, and trust obligations other than mortgage-backed securities secured by first mortgages on real property that are insurable by a mortgage guaranty insurer, unless:</text>
+          <para>
+            <num>(i)</num>
+            <text>The mortgages with loan-to-value ratios in excess of 80 percent are insured by mortgage guaranty insurers; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Additional mortgages with principal balances, other collateral with a market value, or, if the insured risk is investment grade, excess spread in an amount, in each instance at least equal to the coverage that would otherwise be provided by the mortgage guaranty insurers in accordance with this subsection, are pledged as additional security for the asset-backed securities;</text>
+          </para>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>Installment purchase agreements executed as a condition of sale;</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>Subject to <cite path="31|05|10|.03|A.|(2)">§A(2) of this regulation</cite>, consumer debt obligations;</text>
+        </para>
+        <para>
+          <num>(i)</num>
+          <text>Utility first mortgage obligations; and</text>
+        </para>
+        <para>
+          <num>(j)</num>
+          <text>Any other debt instrument or monetary obligation that the Commissioner determines to be substantially similar to any of the items listed in §A(1)(a)—(i) of this regulation.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Any guaranties of consumer debt obligations shall contain a provision that all liability terminates on the sale or transfer of the underlying consumer debt obligation to any transferee that is not an insured of the financial guaranty insurer under a similar policy.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Foreign Instruments and Obligations. A financial guaranty insurer that holds a certificate of authority for the purpose of transacting financial guaranty insurance may write financial guaranty insurance to insure non-United States dollar debt instruments or other monetary obligations denominated or payable in foreign currency, only for the categories listed in <cite path="31|05|10|.03|A.">§A of this regulation</cite>, if:</text>
+      <para>
+        <num>(1)</num>
+        <text>The currency is that of an Organization of Economic Cooperation and Development country or another country:</text>
+        <para>
+          <num>(a)</num>
+          <text>Whose sovereign rating is investment grade; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Which is not disapproved by the Commissioner, in accordance with the standards of <cite path="31|05|10|.03|C.">§C of this regulation</cite>, within 30 days after receipt of written notification;</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Reserves required pursuant to <cite path="|31|05|10|.02">Regulation .02 of this chapter</cite> in regard to these obligations are established and adjusted quarterly based on the then-current foreign exchange rates;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The obligations do not exceed 25 percent of an insurer's aggregate net liability; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The aggregate and single risk limitations prescribed by Regulation .04B and C of this chapter are determined by applying the then-current foreign exchange rates.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Approval or Disapproval by Commissioner.</text>
+      <para>
+        <num>(1)</num>
+        <text>The Commissioner may not disapprove the currency of a country under <cite path="31|05|10|.03|B.|(1)|(b)">§B(1)(b) of this regulation</cite> if the financial guaranty insurer demonstrates that there is no undue risk associated with insuring the timely payment of the instruments or obligations.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>In making a determination, the Commissioner shall consider the financial guaranty insurer's outstanding liabilities on non-investment grade instruments and obligations in relation to:</text>
+        <para>
+          <num>(a)</num>
+          <text>Its outstanding liabilities on all instruments and obligations; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The amount of its surplus to policyholders.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Disclosure Requirement. A financial guaranty insurer may issue a financial guaranty insurance policy only if any prospectus that makes mention of the insurance policy discloses that the insurance is not covered by the Property and Casualty Insurance Guaranty Corporation pursuant to <cite doc="Md. Code" path="gin">Insurance Article, Title 9, Subtitle 3, Annotated Code of Maryland</cite>.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Credit Risk Exposure Limits.</heading>
+    <para>
+      <num>A.</num>
+      <text>A financial guaranty insurer's outstanding total liability for municipal obligation bonds, special revenue bonds, and industrial development bonds shall be investment grade to the following extent:</text>
+      <para>
+        <num>(1)</num>
+        <text>For financial guaranty insurers rated AAA by a nationally recognized statistical rating organization, at least 95 percent;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>For financial guaranty insurers rated AA by a nationally recognized statistical rating organization, at least 85 percent; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>For financial guaranty insurers rated A by a nationally recognized statistical rating organization, at least 70 percent.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>By written request of a financial guaranty insurer, the Commissioner may approve any other level considered appropriate.</text>
+    </para>
+  </section>
+  <section cache:ref-path="31|05|10|.05">
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Aggregate Risk Limits.</heading>
+    <para>
+      <num>A.</num>
+      <text>A financial guaranty insurer shall at all times maintain capital, surplus, and contingency reserve in the aggregate not less than the sum of:</text>
+      <para>
+        <num>(1)</num>
+        <text>0.3333 percent or 1/300th of the total liability under guaranties of municipal obligation bonds and special revenue bonds, including obligations demonstrated to the satisfaction of the Commissioner to be the functional equivalent of municipal obligation bonds or special revenue bonds, and investment grade utility first mortgage obligations; plus</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>0.6666 percent or 1/150th of the total liability under guaranties of investment grade asset-backed securities; plus</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>1.0 percent or 1/100th of the total liability under guaranties, to the extent secured by collateral or having a term of 7 years or less, of:</text>
+        <para>
+          <num>(a)</num>
+          <text>Investment grade industrial development bonds; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Other investment grade obligations; plus</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>1.5 percent or 1/66.67th of the total liability under guaranties of other investment grade obligations; plus</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>2.0 percent or 1/50th of the total liability under guaranties of:</text>
+        <para>
+          <num>(a)</num>
+          <text>Non-investment grade consumer debt obligations; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Non-investment grade asset-backed securities; plus</text>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>2.5 percent or 1/40th of the total liability under guaranties of non-investment grade obligations to the extent secured by first mortgages on commercial real estate and having loan-to-value ratios of 80 percent or less; plus</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>4.0 percent or 1/25th of the total liability under guaranties of other non-investment grade obligations.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>If the amount of collateral required by <cite path="31|05|10|.05|A.|(1)">§A(1) of this regulation</cite> is no longer maintained, that proportion of the obligation insured that is not collateralized shall be subject to the aggregate limits specified in <cite path="31|05|10|.05|A.|(2)">§A(2) of this regulation</cite>.</text>
+    </para>
+  </section>
+  <section cache:ref-path="31|05|10|.06">
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Single Risk Limits.</heading>
+    <text>A financial guaranty insurer doing business in this State shall limit its exposure to loss, net of collateral and reinsurance, as follows:</text>
+    <para>
+      <num>A.</num>
+      <text>For municipal obligation bonds, special revenue bonds, and obligations demonstrated to the satisfaction of the Commissioner to be the functional equivalent of municipal obligation bonds or special revenue bonds:</text>
+      <para>
+        <num>(1)</num>
+        <text>The insured average annual debt service with respect to any one entity and backed by a single revenue source may not exceed 10 percent of the aggregate of the corporation's capital, surplus, and contingency reserve; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The insured unpaid principal issued by a single entity and backed by a single revenue source may not exceed 75 percent of the aggregate of the corporation's capital, surplus, and contingency reserve;</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>For each issue of asset-backed securities issued by a single entity and for each pool of consumer debt obligations, the lesser of:</text>
+      <para>
+        <num>(1)</num>
+        <text>Insured average annual debt service; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Insured unpaid principal, reduced by the extent to which the unpaid principal of the supporting assets exceeds the insured unpaid principal, divided by nine, provided that:</text>
+        <para>
+          <num>(a)</num>
+          <text>The insured unpaid principal, reduced by the extent to which the unpaid principal of the supporting assets exceeds the insured unpaid principal, divided by nine, does not exceed 10 percent of the aggregate of the corporation's capital, surplus, and contingency reserve;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>No asset in the pool supporting the asset-backed securities exceeds the single risk limits prescribed in <cite path="31|05|10|.06|E.">§E of this regulation</cite>, if directly guaranteed; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>If the issuer of the insured asset-backed securities is a special purpose corporation, trust, or other entity and the issuer has indebtedness outstanding with respect to any other pool of assets, either the other indebtedness shall be entitled to the benefits of a financial guaranty policy of the same insurer, or the other indebtedness:</text>
+          <para>
+            <num>(i)</num>
+            <text>Shall be fully subordinated to the insured obligation, with respect to, or be non-recourse with respect to, the pool of assets that supports the insured obligation;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Shall be non-recourse to the issuer other than with respect to the asset pool securing the other indebtedness and excess proceeds; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>May not constitute a claim against the issuer to the extent that the asset pool securing the other indebtedness or excess proceeds is insufficient to pay the other indebtedness;</text>
+          </para>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>For obligations issued by a single entity and secured by commercial real estate, and not meeting the definition of asset-backed securities, the insured unpaid principal less 50 percent of the appraised value of the underlying real estate may not exceed 10 percent of the aggregate of the insurer's surplus to policyholders and contingency reserve;</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>For utility first mortgage obligations, the insured average annual debt service may not exceed 10 percent of the aggregate of the corporation's capital, surplus, and contingency reserve; and</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>For all other policies providing financial guaranty insurance with respect to obligations issued by a single entity and backed by a single revenue source, the insured unpaid principal may not exceed 10 percent of the aggregate of the financial guaranty insurer's capital, surplus, and contingency reserve.</text>
+    </para>
+  </section>
+  <section cache:ref-path="31|05|10|.07">
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Insurers That Exceed Limitations.</heading>
+    <para>
+      <num>A.</num>
+      <text>Submission of Written Plan. Except as provided in <cite path="31|05|10|.07|C.">§C of this regulation</cite>, if a financial guaranty insurer at any time exceeds any limitation prescribed by Regulation .03 or .04—.06 of this chapter, the financial guaranty insurer shall, within 30 days after the limitation is exceeded, submit a written plan to the Commissioner detailing the steps that the financial guaranty insurer will take or has taken to reduce its exposure to loss to not more than the permitted amounts.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Notice and Hearing; Order. If, after notice and hearing, the Commissioner determines that a financial guaranty insurer has exceeded any limitation prescribed by Regulation .03 or .04—.06 of this chapter, the Commissioner may order the financial guaranty insurer to:</text>
+      <para>
+        <num>(1)</num>
+        <text>Cease transacting any new financial guaranty insurance business until the financial guaranty insurer's exposure to loss no longer exceeds the limitations; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Limit its writing to investment grade obligations until such time as it is in compliance with the limitations.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Financial Guaranty Insurance Outstanding Before Effective Date of Chapter.</text>
+      <para>
+        <num>(1)</num>
+        <text>Except as provided in <cite path="31|05|10|.07|C.|(2)">§C(2) of this regulation</cite>, a financial guaranty insurer shall be in compliance with Regulations .03 and .04—.06 of this chapter by December 31, 2006.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A financial guaranty insurer may not be deemed in violation of any limitation prescribed by <cite path="|31|05|10|.06">Regulation .06 of this chapter</cite> with respect to a financial guaranty insurance policy that was outstanding before the effective date of this chapter, if the financial guaranty insurer was in compliance with the applicable single risk limit in effect in this State at the time that the financial guaranty insurance policy was issued.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Failure to comply with Regulations .03 or .04—.06 of this chapter by the date established in <cite path="31|05|10|.07|C.|(1)">§C(1) of this regulation</cite> shall result in a financial guaranty insurer being subject to the actions prescribed in <cite path="31|05|10|.07|B.">§B of this regulation</cite>.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Collateral.</heading>
+    <text>Collateral shall be:</text>
+    <para>
+      <num>A.</num>
+      <text>Deposited with the financial guaranty insurer;</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Held in trust by a trustee or custodian acceptable to the Commissioner for the benefit of the financial guaranty insurer; or</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Held in trust pursuant to the bond indenture or other trust arrangement for the benefit of security holders in the form of funds for the payment of insured obligations, sinking funds, or other reserves that may be used to pay the insured obligations and trustee and other administrative fees on a first priority basis established and continually maintained pursuant to the bond indenture or other trust arrangement by a trustee acceptable to the Commissioner.</text>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container"><cite doc="Md. Code" path="gin|5-1005">Insurance Article, §5-1005, </cite>Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="2003-09-15">Effective date: September 15, 2003 (30:18 Md. R. 1260)</annotation>
+    <annotation type="History" dest="container" effective="2006-06-05"><cite path="|31|05|10|.01|B.">Regulation .01B</cite> amended as an emergency provision effective March 9, 2006 (33:7 Md. R. 667); amended permanently effective June 5, 2006 (33:11 Md. R. 954)</annotation>
+    <annotation type="History" dest="container" effective="2006-06-05"><cite path="|31|05|10|.04">Regulation .04</cite> repealed and new Regulation .04 adopted as an emergency provision effective March 9, 2006 (33:7 Md. R. 667); adopted permanently effective June 5, 2006 (33:11 Md. R. 954)</annotation>
+    <annotation type="History" dest="container" effective="2006-06-05"><cite path="|31|05|10|.06|B.">Regulation .06B</cite> amended as an emergency provision effective March 9, 2006 (33:7 Md. R. 667); amended permanently effective June 5, 2006 (33:11 Md. R. 954)</annotation>
+    <annotation type="History" dest="container" effective="2006-06-05"><cite path="|31|05|10|.07|C.">Regulation .07C</cite> amended as an emergency provision effective March 9, 2006 (33:7 Md. R. 667); amended permanently effective June 5, 2006 (33:11 Md. R. 954)</annotation>
+  </annotations>
+</container>

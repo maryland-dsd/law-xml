@@ -1,0 +1,709 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>03</num>
+  <heading>Domestic Relations Orders</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Scope.</heading>
+    <text>This chapter establishes procedures for review and administration by the Agency of an eligible domestic relations order which assigns to an alternate payee all or a portion of the plan benefit payable to a participant. This chapter also sets forth the circumstances that will result in rejection of a domestic relations order by the Agency.</text>
+  </section>
+  <section cache:ref-path="22|01|03|.02">
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>"Agency" means the State Retirement Agency established under <cite doc="Md. Code" path="gsp|21-117">State Personnel and Pensions Article, §21-117, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Allowance.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Allowance" has the meaning stated in <cite doc="Md. Code" path="gsp|20-101">State Personnel and Pensions Article, §20-101, Annotated Code of Maryland</cite>.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Allowance" includes, but is not limited to:</text>
+          <para>
+            <num>(i)</num>
+            <text>A service retirement allowance;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>A disability retirement allowance;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>A vested allowance;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Cost of living adjustments provided in accordance with <cite doc="Md. Code" path="gsp">State Personnel and Pensions Article, Title 29, Subtitle 4, Annotated Code of Maryland</cite>; and</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>Except as provided in <cite path="22|01|03|.02|B.|(10)|(c)">§B(10)(c) of this regulation</cite>, a lump sum payment of the amount accrued in the Deferred Retirement Option Program on termination of participation.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>"Alternate payee" means a former spouse who is named in a domestic relations order as entitled to receive all or a portion of the plan benefit of a participant in accordance with <cite doc="Md. Code" path="gsp|21-502">State Personnel and Pensions Article, §21-502, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>"Consent agreement" means a written statement that:</text>
+        <para>
+          <num>(a)</num>
+          <text>Is signed by both parties to an eligible domestic relations order;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Sets forth the agreed upon method for administering the parties' domestic relations order; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Does not contravene the parties' domestic relations order.</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>"Cost-of-living adjustment" has the meaning set forth in <cite doc="Md. Code" path="gsp|29-401">State Personnel and Pensions Article, §29-401, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>"Court" means a court of competent jurisdiction.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Domestic Relations Order.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Domestic relations order" means an assignment of plan benefits in a court decree or order of divorce, or in a court-approved property settlement incident to a court decree or order in accordance with <cite doc="Md. Code" path="gsp|21-502">State Personnel and Pensions Article, §21-502, Annotated Code of Maryland</cite>.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Domestic relations order" does not include a qualified domestic relations order as defined in the Employees' Retirement Income Security Act of 1974 and the Internal Revenue Code of 1986.</text>
+        </para>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>"Eligible domestic relations order" means a domestic relations order that conforms to the requirements of <cite path="|22|01|03|.03">Regulation .03 of this chapter</cite>.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>"Marital share fraction" means a formula in which the numerator represents the participant’s numerically specified or unspecified number of total months of service credit received or accrued during the parties’ marriage or other relevant period, and the denominator represents the participant’s total number of months of service credit.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>"Military service credit" means service credit for military service that a participant receives in accordance with <cite doc="Md. Code" path="gsp">State Personnel and Pensions Article, Title 38, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>"Notice of administration" means the written notice issued by the Agency under <cite path="|22|01|03|.04">Regulation .04 of this chapter</cite>.</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>"Participant" means a member, former member, or retiree, as defined in <cite doc="Md. Code" path="gsp|20-101">State Personnel and Pensions Article, §20-101, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>Plan Benefit.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Plan benefit" means, unless otherwise stated by an eligible domestic relations order, an amount payable by the Board of Trustees to a participant, including:</text>
+          <para>
+            <num>(i)</num>
+            <text>An allowance, as defined in <cite path="22|01|03|.02|B.|(2)">§B(2) of this regulation</cite>;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>A participant's accumulated contributions;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>A refund payable to a participant under <cite doc="Md. Code" path="gsp|22-212">State Personnel and Pensions Article, §22-212 </cite>or 22-213, Annotated Code of Maryland; and</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Except as provided in <cite path="22|01|03|.02|B.|(10)|(c)">§B(10)(c) of this regulation</cite>, a preretirement death benefit.</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Except as provided in <cite path="22|01|03|.02|B.|(10)|(c)">§B(10)(c) of this regulation</cite>, "plan benefit" may include, if specified in an eligible domestic relations order, a postretirement survivor benefit.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>"Plan benefit" does not include:</text>
+          <para>
+            <num>(i)</num>
+            <text>A preretirement death benefit or postretirement survivor benefit for which payment is restricted to a surviving spouse, parent, or minor child under State Personnel and Pensions Article, Division II, Annotated Code of Maryland; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Payment of the amount accrued in the Deferred Retirement Option Program for which payment is restricted to a surviving spouse or minor child in accordance with <cite doc="Md. Code" path="gsp|24-401">State Personnel and Pensions Article, §24-401</cite>.1(i) or 26-401.1(i), Annotated Code of Maryland.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>"Postretirement survivor benefit" means an optional survivor benefit payable to a designated beneficiary or a participant's estate in accordance with <cite doc="Md. Code" path="gsp">State Personnel and Pensions Article, Title 21, Subtitle 4, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>"Preretirement death benefit" means a death benefit payable on behalf of a member or former member to a designated beneficiary or a participant's estate, including a benefit payable under <cite doc="Md. Code" path="gsp|29-202">State Personnel and Pensions Article, §29-202 </cite>or 29-207, Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>"Projected service credit" means service credit that a participant receives in connection with an ordinary disability retirement allowance in accordance with <cite doc="Md. Code" path="gsp|29-106">State Personnel and Pensions Article, §29-106(d) </cite>or 29-108(b), Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>Purchased Service Credit.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Purchased service credit" means service credit that a participant purchases in accordance with provisions of State Personnel and Pensions Article, Division II, Annotated Code of Maryland.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Purchased service credit" includes, but is not limited to, service credit a participant receives by paying or redepositing accumulated member contributions.</text>
+        </para>
+      </para>
+      <para>
+        <num>(18)</num>
+        <text>"Unused sick leave credit" means service credit for unused sick leave that a participant receives in accordance with <cite doc="Md. Code" path="gsp|20-206">State Personnel and Pensions Article, §20-206, Annotated Code of Maryland</cite>.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="22|01|03|.03">
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Eligible Domestic Relations Orders.</heading>
+    <para>
+      <num>A.</num>
+      <text>Domestic relations orders shall be submitted to the Agency and shall be directed to the attention of Eligible Domestic Relations Orders.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A domestic relations order shall constitute an eligible domestic relations order only if it satisfies all of the following requirements:</text>
+      <para>
+        <num>(1)</num>
+        <text>Contains the:</text>
+        <para>
+          <num>(a)</num>
+          <text>Name of the State system or State systems to which the order applies;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Name and last known mailing address of the participant;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Name and last known mailing address of the alternate payee; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Date of the parties' marriage, and the date of the parties' divorce;</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Creates or recognizes the right of the alternate payee to receive all or a portion of the participant's plan benefit if, when, and as paid by the Board of Trustees;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Constitutes a method of division of a participant's plan benefit which conforms to the provisions of State Personnel and Pensions Article, Division II, Annotated Code of Maryland, including <cite doc="Md. Code" path="gsp">State Personnel and Pensions Article, Title 21, Subtitle 4, Annotated Code of Maryland</cite>;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Does not require the payment of any type or form of benefit, or any option, not otherwise provided by State Personnel and Pensions Article, Division II, Annotated Code of Maryland;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Does not affect the rights of a different alternate payee who was named by the participant in an eligible domestic relations order on file at the Agency;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Provides for payment of an amount that does not exceed the participant's plan benefit;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Directs the Board of Trustees to pay all or a portion of the participant's plan benefit to the alternate payee directly at a time and in a form that is available to the participant;</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Describes each type of plan benefit set forth in Regulation .02B(10) that is assigned to the alternate payee, using terms that are sufficient to precisely identify each type of plan benefit;</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>Provides for payment of the alternate payee's share of the plan benefit in one of the following ways:</text>
+        <para>
+          <num>(a)</num>
+          <text>A fixed dollar amount;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A fixed percentage of the participant's plan benefit; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A fixed formula that satisfies the criteria specified in <cite path="|22|01|03|.07">Regulation .07 of this chapter</cite>;</text>
+        </para>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>If the alternate payee has been assigned a portion of an allowance and will receive payment of:</text>
+        <para>
+          <num>(a)</num>
+          <text>A fixed dollar amount, states that the alternate payee shall receive a pro rata share of any cost-of-living adjustments payable after the date of administration of the order by the Agency; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A fixed percentage or fixed formula, states the alternate payee shall receive a pro rata share of all cost-of-living adjustments;</text>
+        </para>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>Subject to <cite path="22|01|03|.03|D.">§D of this regulation</cite>, if a participant is eligible to elect an optional form of allowance that provides a postretirement survivor benefit:</text>
+        <para>
+          <num>(a)</num>
+          <text>States whether the participant is permitted or required to elect the basic allowance or an optional form of allowance;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>If the participant is permitted or required to elect an optional form of allowance, states whether the participant is required to select a specific optional form of allowance under <cite doc="Md. Code" path="gsp|21-403">State Personnel and Pensions Article, §21-403, Annotated Code of Maryland</cite>;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>States whether the participant is required to designate the alternate payee as the beneficiary of a postretirement survivor benefit; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>If the participant is permitted to designate a beneficiary other than the alternate payee, states whether and what share, if any, of the beneficiary's postretirement survivor benefit is payable to the alternate payee;</text>
+        </para>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>Is titled "Eligible Domestic Relations Order";</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>Does not reference Qualified Domestic Relations Orders or the Employee Retirement Income Security Act of 1974;</text>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>States that it is the obligation of the alternate payee to promptly:</text>
+        <para>
+          <num>(a)</num>
+          <text>Provide the Agency a certified or true-test copy of the domestic relations order and any modifications or amendments to the order;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Provide the following information to the Agency in writing contemporaneously with the submission of a domestic relations order:</text>
+          <para>
+            <num>(i)</num>
+            <text>The Social Security numbers and dates of birth of the participant and alternate payee; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The current address and current telephone number of the alternate payee;</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Submit documentation to verify the alternate payee’s date of birth;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>When an alternate payee becomes eligible to receive a monthly allowance, submit the required forms to commence receipt of the allowance by electronic fund transfer;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Notify the Agency in writing of:</text>
+          <para>
+            <num>(i)</num>
+            <text>The death of the participant; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Any change of the alternate payee’s name, address, or telephone number; and</text>
+          </para>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Comply with all reasonable requests from the Agency for information and documentation necessary for administering the domestic relations order;</text>
+        </para>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>States that it is the obligation of the participant to promptly:</text>
+        <para>
+          <num>(a)</num>
+          <text>Submit any applications or forms required by the Agency to effectuate any provision of the domestic relations order;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Notify the Agency in writing of:</text>
+          <para>
+            <num>(i)</num>
+            <text>The death of the alternate payee; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Any change of the participant’s name, address, or telephone number; and</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Comply with all reasonable requests from the Agency for information and documentation necessary for administering the domestic relations order;</text>
+        </para>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>States that if the participant fails to act as required by the domestic relations order, or takes any action in contravention of the domestic relations order, the participant, and not the Agency, shall bear the sole and exclusive liability for the action;</text>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>States that the Agency is not liable to make further payments to the alternate payee if the participant transfers to another retirement or pension system that is not administered by the Agency;</text>
+      </para>
+      <para>
+        <num>(18)</num>
+        <text>States that:</text>
+        <para>
+          <num>(a)</num>
+          <text>All payments to the alternate payee shall be includable in the taxable income of and taxable to the alternate payee in accordance with the applicable provisions of the Internal Revenue Code, Treasury regulations, and other guidance; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>After-tax contributions shall be allocated to the parties in the same proportion as the total amount of the alternate payee’s share bears to the participant’s total plan benefit; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(19)</num>
+        <text>Is:</text>
+        <para>
+          <num>(a)</num>
+          <text>Signed and dated by a judge of a court of competent jurisdiction;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A certified or true-test copy by the clerk of the court; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>In the case of an out-of-State domestic relations order, filed in a Circuit Court in the State in accordance with the Uniform Enforcement of Foreign Judgments Act, <cite doc="Md. Code" path="gcj">Courts and Judicial Proceedings Article, Title 11, Subtitle 8, Annotated Code of Maryland</cite>.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The Social Security numbers and dates of birth of the participant and alternate payee shall be provided to the Agency in written correspondence accompanying a domestic relations order.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>If the participant is required to designate the alternate payee as the beneficiary of a postretirement survivor benefit that provides for payments for life, an eligible domestic relations order may not permit the designation of more than one individual as the beneficiary.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>If the Agency determines that the domestic relations order satisfies the requirements set forth in §§B through D of this regulation, the domestic relations order shall be administered as an eligible domestic relations order in accordance with <cite path="|22|01|03|.04">Regulation .04 of this chapter</cite>.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>If the Agency determines that the domestic relations order or written correspondence accompanying the domestic relations order does not satisfy the requirements set forth in §B, C, or D of this regulation, the domestic relations order shall be rejected according to the procedure in <cite path="|22|01|03|.05">Regulation .05 of this chapter</cite>.</text>
+    </para>
+  </section>
+  <section cache:ref-path="22|01|03|.04">
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Administration of an Eligible Domestic Relations Order.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Agency shall issue a notice of administration to each party to an eligible domestic relations order which specifies how the Agency shall administer the division of the participant's plan benefits under the order.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Subject to <cite path="22|01|03|.04|C.">§C of this regulation</cite>, the Agency shall pay plan benefits to a participant and an alternate payee in accordance with the notice of administration issued under <cite path="22|01|03|.04|A.">§A of this regulation</cite>.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Notice of Disagreement.</text>
+      <para>
+        <num>(1)</num>
+        <text>Within 45 days of the date that a notice of administration is sent to the parties, a party shall advise the Agency and the other party to the order, in writing, if the party disagrees with the Agency’s proposed method of distribution set forth in the notice of administration and the basis for the party’s disagreement.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>On receipt of a notice of disagreement from a party, if the Agency determines that a genuine dispute exists regarding the proper interpretation of the order, the Agency shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Refrain from making payment of plan benefits to the participant and the alternate payee as soon as practical;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Request the parties to the order to:</text>
+          <para>
+            <num>(i)</num>
+            <text>Obtain and submit an amended order in accordance with <cite path="|22|01|03|.06">Regulation .06 of this chapter</cite>; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Promptly file a consent agreement with the Agency; and</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Notify the parties that payment of plan benefits shall begin not earlier than the last day of the month following the month of receipt of the amended order or consent agreement.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The Agency shall begin making payments of plan benefits to the participant and the alternate payee as provided in the consent agreement as soon as is practicable. Unless otherwise provided in the consent agreement, the payments shall be retroactive to the date the Agency ceased making payments to the participant and the alternate payee. Interest is not payable by the Agency with respect to any plan benefits that were not paid when due.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>If the Agency does not receive a consent agreement or an amended eligible domestic relations order within 3 months following receipt of a notice of disagreement from a party, the Agency shall administer the domestic relations order in accordance with the notice of administration.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The System, the Agency, and the Board of Trustees are not liable for any payment made to a party under an eligible domestic relations order in accordance with the Agency's notice of administration or the parties' consent agreement.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Rejection of Domestic Relations Order.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Agency shall reject a domestic relations order that is not an eligible domestic relations order.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>If the Agency rejects a domestic relations order, the Agency shall notify the participant and the alternate payee, in writing, that it has rejected the order and specify the reason or reasons for rejection of the order. The Agency shall provide a copy of this chapter with the rejection notice to the parties to the domestic relations order.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The System, the Agency, and the Board of Trustees are not liable for payment of benefits to a person pursuant to a domestic relations order if the order is not an eligible domestic relations order.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Amendment or Modification of Order.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Agency does not have an obligation to determine if a domestic relations order has been amended or modified. If a court amends a domestic relations order, the participant or alternate payee shall submit the amended or modified order to the Agency.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>On receipt of the amended or modified order, the Agency shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Determine whether the amended or modified order is an eligible domestic relations order; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Issue a notice of administration or reject the amended or modified domestic relations order as provided in Regulations .04 and .05 of this chapter.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Formula for Computation of Plan Benefit.</heading>
+    <para>
+      <num>A.</num>
+      <text>Parties to a domestic relations order may use a formula, including a marital share fraction, to determine the amount or percentage of a participant's plan benefit which is payable to an alternate payee if:</text>
+      <para>
+        <num>(1)</num>
+        <text>The formula is expressed in a format that the Agency understands;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The information necessary to compute the amount or percentage of the plan benefit payable to the alternate payee under the formula is:</text>
+        <para>
+          <num>(a)</num>
+          <text>Expressly provided in the domestic relations order; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Readily ascertainable from data in the Agency's records at the time the plan benefit  becomes payable;</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Where the plan benefit is payable in regular installments, the formula does not require the Agency to recompute the amount or percentage of the plan benefit that is payable to the alternate payee after the first payment is made; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Where the formula refers to an amount of time, the formula is expressed in terms of months, and not years or days.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The Agency shall recalculate a plan benefit payable under an eligible domestic relations order to the extent required each fiscal year under State Personnel and Pensions Article, Division II, Annotated Code of Maryland.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>In computing the number of months for purposes of a formula under this regulation, the Agency may not consider partial months in the total number of months.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Domestic Relations Orders Which Contain Marital Share Fractions.</text>
+      <para>
+        <num>(1)</num>
+        <text>If a domestic relations order contains a marital share fraction with a numerically specified numerator, and does not otherwise state how to divide the participant’s military service credit, projected service credit, purchased service credit, or unused sick leave credit, then the Agency shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Include the participant’s military service credit and purchased service credit only in the marital share fraction’s denominator; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Exclude the participant’s projected service credit and unused sick leave credit from both the numerator and denominator of the marital share fraction.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If a domestic relations order contains a marital share fraction with a numerically unspecified numerator, and does not otherwise state how to divide the participant’s military service credit, projected service credit, purchased service credit, or unused sick leave credit, then the Agency shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Include in the marital share fraction’s numerator only those months of the participant’s military service credit and purchased service credit based on the participant’s military service or employment that took place during the marital or other relevant time period;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Include in the marital share fraction’s denominator the participant’s total months of military service credit and purchased service credit; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Exclude the participant’s projected service credit and unused sick leave credit from both the numerator and denominator of the marital share fraction.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Alternate Payee Responsibilities.</heading>
+    <text>An alternate payee shall promptly:</text>
+    <para>
+      <num>A.</num>
+      <text>Submit a certified or true-test copy of a domestic relations order and any modifications or amendments to the order to the Agency;</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Provide the following information to the Agency in writing contemporaneously with the submission of a domestic relations order:</text>
+      <para>
+        <num>(1)</num>
+        <text>The Social Security numbers and dates of birth of the participant and the alternate payee; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The current address and current telephone number of the alternate payee;</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Submit documentation to verify the alternate payee’s date of birth in accordance with <cite path="|22.01.05">COMAR 22.01.05</cite>;</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>When an alternate payee becomes eligible to receive a monthly allowance, properly complete an electronic fund transfer sign-up form and file it with the Agency in accordance with <cite path="|22.01.06">COMAR 22.01.06</cite>;</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Notify the Agency in writing of:</text>
+      <para>
+        <num>(1)</num>
+        <text>Any change of the alternate payee’s name, address, or telephone number; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The death of the participant; and</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Comply with all reasonable requests from the Agency for information and documentation necessary for processing payment of all or any portion of a participant's plan benefit to the alternate payee.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Participant Responsibilities.</heading>
+    <para>
+      <num>A.</num>
+      <text>A participant shall promptly:</text>
+      <para>
+        <num>(1)</num>
+        <text>Notify the Agency in writing of:</text>
+        <para>
+          <num>(a)</num>
+          <text>Any change of the participant’s name, address, or telephone number; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The death of the alternate payee;</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Comply with all reasonable requests from the Agency for information and documentation necessary for processing payment of all or any portion of a participant's plan benefit to the alternate payee; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Submit any applications or forms required by the Agency to effectuate any provision of the domestic relations order.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>If the participant takes any action in contravention of an eligible domestic relations order, the participant, and not the Agency, shall bear the sole and exclusive liability for the action.</text>
+    </para>
+  </section>
+  <section cache:ref-path="22|01|03|.10">
+    <prefix>Regulation</prefix>
+    <num>.10</num>
+    <heading>Compliance with 26 U.S.C. §414(p) for Eligible Domestic Relations Orders.</heading>
+    <para>
+      <num>A.</num>
+      <text>An eligible domestic relations order does not include a qualified domestic relations order as defined in the Employees' Retirement Income Security Act of 1974, and the Internal Revenue Code of 1986.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Nothing in <cite path="22|01|03|.10|A.">§A of this regulation</cite> modifies the definition of eligible domestic relations order or the requirements of <cite path="|22|01|03|.03|B.">Regulation .03B of this chapter</cite>.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>For the limited purpose of minimum distributions, taxation, and rollovers, benefits payable pursuant to an eligible domestic relations order shall be subject to and shall comply with 26 U.S.C. §414(p).</text>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">State Personnel and Pensions Article, §§<cite doc="Md. Code" path="gsp|21-110">21-110</cite>, <cite doc="Md. Code" path="gsp|21-502">21-502</cite>, and <cite doc="Md. Code" path="gsp|21-603">21-603</cite>, Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="1996-01-01">Effective date: January 1, 1996 (22:26 Md. R. 2031)</annotation>
+    <annotation type="History" dest="container" effective="1996-01-01">Effective January 1, 1996, all of Title 22 was repealed and completely new regulations adopted. Codification and organization of the title were also completely changed. Consequently, the administrative histories of the revised Title 22 do not reflect regulatory activity before January 1, 1996. Refer to the old version of Title 22 or contact the Maryland State Archives for assistance.</annotation>
+    <annotation type="History" dest="container" effective="2004-10-11" discontinuity="true">Chapter revised effective October 11, 2004 (31:20 Md. R. 1486)</annotation>
+    <annotation type="History" dest="container" effective="2019-02-11"><cite path="|22|01|03|.02|B.">Regulation .02B</cite> amended effective August 4, 2014 (41:15 Md. R. 892); February 11, 2019 (46:3 Md. R. 108)</annotation>
+    <annotation type="History" dest="container" effective="2014-08-04"><cite path="|22|01|03|.03">Regulation .03</cite> amended effective August 4, 2014 (41:15 Md. R. 892)</annotation>
+    <annotation type="History" dest="container" effective="2019-02-11"><cite path="|22|01|03|.03|B.">Regulation .03B</cite> amended effective November 23, 2015 (42:23 Md. R. 1434); February 11, 2019 (46:3 Md. R. 108)</annotation>
+    <annotation type="History" dest="container" effective="2019-02-11"><cite path="|22|01|03|.03|E.">Regulation .03E</cite> amended effective February 11, 2019 (46:3 Md. R. 108)</annotation>
+    <annotation type="History" dest="container" effective="2014-08-04"><cite path="|22|01|03|.04|C.">Regulation .04C</cite> amended effective August 4, 2014 (41:15 Md. R. 892)</annotation>
+    <annotation type="History" dest="container" effective="2019-02-11"><cite path="|22|01|03|.05|A.">Regulation .05A</cite> amended effective February 11, 2019 (46:3 Md. R. 108)</annotation>
+    <annotation type="History" dest="container" effective="2014-08-04"><cite path="|22|01|03|.05|C.">Regulation .05C</cite> adopted effective August 4, 2014 (41:15 Md. R. 892)</annotation>
+    <annotation type="History" dest="container" effective="2014-08-04"><cite path="|22|01|03|.06|A.">Regulation .06A</cite> amended effective August 4, 2014 (41:15 Md. R. 892)</annotation>
+    <annotation type="History" dest="container" effective="2019-02-11"><cite path="|22|01|03|.07|A.">Regulation .07A</cite> amended effective February 11, 2019 (46:3 Md. R. 108)</annotation>
+    <annotation type="History" dest="container" effective="2019-02-11"><cite path="|22|01|03|.07|D.">Regulation .07D</cite> adopted effective February 11, 2019 (46:3 Md. R. 108)</annotation>
+    <annotation type="History" dest="container" effective="2014-08-04"><cite path="|22|01|03|.08">Regulation .08</cite> amended effective August 4, 2014 (41:15 Md. R. 892)</annotation>
+    <annotation type="History" dest="container" effective="2014-08-04"><cite path="|22|01|03|.09|A.">Regulation .09A</cite> amended effective August 4, 2014 (41:15 Md. R. 892)</annotation>
+    <annotation type="History" dest="container" effective="2009-03-23"><cite path="|22|01|03|.10">Regulation .10</cite> adopted effective March 23, 2009 (36:6 Md. R. 492)</annotation>
+  </annotations>
+</container>

@@ -1,0 +1,551 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>07</num>
+  <heading>Certification of Electronic Health Networks and Medical Care Electronic Claims Clearinghouses</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Scope.</heading>
+    <text>This chapter provides for the certification of electronic health networks and medical care electronic claims clearinghouses that operate in Maryland. Payors that accept electronic health care transactions originating in Maryland may only accept electronic health care transactions from electronic health networks or medical care electronic claims clearinghouses that obtain certification pursuant to this chapter.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>“Adjudication of claims” means the activities necessary for the adjudication or subrogation of a health benefit claim that has been filed or may be filed by a patient, or with the authorization of a patient on the patient’s behalf, including:</text>
+        <para>
+          <num>(a)</num>
+          <text>Determinations of eligibility or coverage, including coordination of benefits or the determination of cost-sharing amounts;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Reasonable prospective, concurrent, or retrospective utilization review or predetermination of benefit coverage;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Review, audit, and investigation of a specific claim for payment of benefits with respect to medical necessity, coverage under a health plan, appropriateness of care, or justification of charges;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Billing, claims management, collection activities, obtaining payment under a contract for reinsurance, and related health care data processing; and</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Risk adjustments based on enrollee health status and demographic characteristics.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>“Commission” means the Maryland Health Care Commission.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>“Disclose” or “disclosure” means the release, redisclosure, transfer, provision, access, transmission, communication, or divulgence in any other manner of health information, including an acknowledgement that a health record on a particular patient or recipient exists outside the entity holding the information.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>“Electronic health care transactions” means health care transactions that have been approved by a nationally recognized health care standards development organization (SDO) to support health care informatics, information exchange, systems integration, and other health care applications.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>“Electronic Health Network (EHN)” means an entity involved in the exchange of electronic health care transactions between electronic health networks, payors, providers, vendors, or other entities.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>“Entity” means a partnership, firm, association, limited liability company, limited liability partnership, or a public or private corporation.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>“Grievance” means a written complaint or other information received by the Commission indicating that an MHCC-certified EHN may have violated one of the provisions of <cite path="|10|25|07|.09">Regulation .09 of this chapter</cite>.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>“Health information” means any information, whether oral or recorded in any form or medium, including electronic health information, that:</text>
+        <para>
+          <num>(a)</num>
+          <text>Is created or received by a health care provider, health plan, public health authority, employe, life insurer, or health care clearinghouse; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Relates to the past, present, or future physical or mental health or condition of an individual, the provision of health care to an individual, or the past, present, or future payment for the provision of health care to an individual.</text>
+        </para>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>“Legally protected health information” means the health information with a date of service after May 31, 2022, that is subject to restrictions under Health-General Article, §4-302.5, Annotated Code of Maryland, and <cite path="|10.11.08">COMAR 10.11.08</cite>, including:</text>
+        <para>
+          <num>(a)</num>
+          <text>Mifepristone data, as defined by the Secretary; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>As specified by the Secretary, the diagnosis, procedure, medication, and other codes related to:</text>
+          <para>
+            <num>(i)</num>
+            <text>Abortion care; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Sensitive health services, as defined by Health-General, §4-301, Annotated Code of Maryland.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>Medical Care Electronic Claims Clearinghouse.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Medical care electronic claims clearinghouse” is an entity that transmits electronic health care transactions.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Medical care electronic claims clearinghouse” includes an electronic health network.</text>
+        </para>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>“MHCC” means the Maryland Health Care Commission.</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>“MHCC-Certified Electronic Health Network” means an entity that has received certification from the Maryland Health Care Commission.</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>“Payor” means an entity that administers or provides reimbursement for health care benefits on an expense-incurred basis, including:</text>
+        <para>
+          <num>(a)</num>
+          <text>A health maintenance organization issued a certificate of authority in accordance with Health-General Article, Title 19, Subtitle 7, Annotated Code of Maryland;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A health insurer or nonprofit health service plan authorized to offer health insurance policies or contracts in this State in accordance with <cite doc="Md. Code" path="gin">Insurance Article, Title 14, Annotated Code of Maryland</cite>;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A third-party administrator registered under <cite doc="Md. Code" path="gin">Insurance Article, Title 8, Subtitle 3, Annotated Code of Maryland</cite>;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>An entity that subcontracts with a third-party payor to provide specialty health care services including, but not limited to, a dental benefit payor, a vision benefit payor, a mental health benefit payor, and a pharmacy benefit manager; or</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>A managed care organization that contracts with the Maryland Medical Assistance program to provide health services to Maryland Medical Assistance recipients in accordance with Health-General Article, Title 15, Subtitle 1, Annotated Code of Maryland.</text>
+        </para>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>“Qualified accreditation or certification organization” means a nationally recognized entity that has established privacy and security standards for electronic health networks and accredits or certifies networks that meet those standards.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Duration of Certification.</heading>
+    <text>A certification is valid for a 2-year period from the date of certification unless withdrawn by the Commission prior to the end of the 2-year period.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Procedure to Obtain Certification.</heading>
+    <para>
+      <num>A.</num>
+      <text>Application for Certification. An EHN seeking Commission certification shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Complete and submit an application for MHCC Electronic Health Network Certification in the form and manner specified by the Commission;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Provide evidence that it has been granted either candidacy status or full accreditation or certification status by a qualified accreditation or certification organization; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Meet all Commission certification requirements set forth in <cite path="|10|25|07|.05">Regulation .05 of this chapter</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Fees.</text>
+      <para>
+        <num>(1)</num>
+        <text>An application fee shall be paid to the Commission within 30 days of receipt of an invoice from the Commission.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>For an electronic health network with one operational site, an application fee of $400 shall be paid within 30 days of receipt of an invoice from the Commission.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>For an electronic health network with more than one operational site, an application fee of $400, plus a $200 fee for each additional operational site, shall be paid within 30 days of receipt of an invoice from the Commission.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Standards for Certification.</heading>
+    <para>
+      <num>A.</num>
+      <text>In order to obtain certification, an applicant shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Provide evidence that the applicant is accredited or certified by a qualified accreditation or certification organization; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Meet the following standards for certification:</text>
+        <para>
+          <num>(a)</num>
+          <text>Demonstrate compliance with the HIPAA privacy standards set forth in 45 CFR Parts 160 and 164;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Demonstrate compliance with HIPAA security standards set forth in 45 CFR Parts 160, 162, and 164;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Provide an attestation signed by an officer of the applicant that the applicant restricts disclosure of legally protected health information as required by Health-General Article, §4-302.5, Annotated Code of Maryland;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Provide evidence of ability to measure technical performance and manage future capacity demands;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Provide evidence of initial and ongoing employee training in HIPAA privacy and security requirements and customer communication procedures; and</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Provide additional information requested by the Commission as necessary to determine the applicant's compliance with the standards for certification.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The Commission shall issue certification to an applicant that has met all the requirements of §§A and B of this regulation.</text>
+    </para>
+  </section>
+  <section cache:ref-path="10|25|07|.06">
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Candidacy Status.</heading>
+    <para>
+      <num>A.</num>
+      <text>Subject to the provisions of this section, the Commission shall issue candidacy status to an applicant that:</text>
+      <para>
+        <num>(1)</num>
+        <text>Has been granted candidacy status by a qualified accreditation or certification organization;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Has submitted an application for certification to the Commission;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Has paid the application fee; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Has submitted documentation satisfactory to the Commission demonstrating compliance with the requirements set forth in <cite path="|10|25|07|.05|B.">Regulation .05B of this chapter</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The Commission shall issue candidacy status to an applicant that has met all the requirements of <cite path="10|25|07|.06|A.">§A of this regulation</cite>.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>An applicant that has achieved candidacy status may transmit electronic health care transactions while completing the certification requirements of this chapter.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Candidacy status expires on the expiration of the applicant's candidacy status with a qualified accreditation or certification organization, on the approval of certification by the Commission, or 2 years from the date that candidacy status was issued.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Notice Required.</heading>
+    <para>
+      <num>A.</num>
+      <text>Within 30 days after the closure, sale, lease, assignment, or transfer of an MHCC-certified EHN to any person or entity, the MHCC-certified EHN and the other party to the transaction shall notify the Commission of that event. Upon such notice, the Commission may seek further information to determine whether the certification should remain in effect notwithstanding the sale or other event.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>At least 60 days before changing its address, an MHCC-certified EHN shall notify the Commission of its intent and provide the Commission with the new address.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>At least 60 days before changing its name, an MHCC-certified EHN shall notify the Commission of its intent to change its name and provide the Commission with the new name.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Renewal of Certification.</heading>
+    <para>
+      <num>A.</num>
+      <text>Application for renewal of certification shall be made at least 60 days before the expiration of the certification in a form and manner specified by the Commission.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A recertification fee shall be paid to the Commission at the time the MHCC Electronic Health Network recertification application is filed.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>For an electronic health network with one operational site, a recertification fee of $250 shall be paid at the time the application is filed.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>For an electronic health network with more than one operational site, a recertification fee of $250, plus a $125 fee for each additional operational site, shall be paid at the time the application is filed.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>The Commission shall renew the certification of each renewal applicant that continues to meet the standards set forth in <cite path="|10|25|07|.05">Regulation .05 of this chapter</cite>.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>The Commission shall issue a renewal of certification to an applicant that has met all the requirements of this regulation.</text>
+    </para>
+  </section>
+  <section cache:ref-path="10|25|07|.09">
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Withdrawal of Certification and Other Penalties.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Commission may withdraw certification from an MHCC-certified EHN if the Commission finds that:</text>
+      <para>
+        <num>(1)</num>
+        <text>The MHCC-certified EHN fails to meet the certification standards set forth in <cite path="|10|25|07|.05">Regulation .05 of this chapter</cite>;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A principal or owner of the MHCC-certified EHN, or the entity itself, is convicted of, or pleads guilty or nolo contendere to, a crime related to the operation of the EHN or to a crime involving financial improprieties;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A principal or owner of the MHCC-certified EHN, or the entity itself, is notified by a qualified accreditation or certification organization or the Commission of a violation of HIPAA privacy or security standards and fails to take action to remedy the violation within the period of time specified by a qualified accreditation or certification organization or by the Commission;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The MHCC-certified EHN disclosed legally protected health information in violation of Health-General Article, §4-302.5, Annotated Code of Maryland; or</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The MHCC-certified EHN violated a provision of <cite path="|10.25.18">COMAR 10.25.18</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>An MHCC-certified EHN shall report on compliance progress to the Commission, as follows:</text>
+      <para>
+        <num>(1)</num>
+        <text>By January 8, 2024, an MHCC-certified EHN shall submit to the Commission:</text>
+        <para>
+          <num>(a)</num>
+          <text>An affirmation that to the extent required by Health-General Article, §4-302.5, Annotated Code of Maryland, it:</text>
+          <para>
+            <num>(i)</num>
+            <text>Possesses the technological capability to filter and restrict from disclosure legally protected health information;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Is parsing restricted codes and conveying all other information in the health record that is not prohibited by law to exchange; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Possesses the technological capacity to allow a consumer to request and consent to the exchange of legally protected health information to a specific treating provider; or</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>An implementation plan that includes:</text>
+          <para>
+            <num>(i)</num>
+            <text>An affirmation that, despite its best efforts, the MHCC-certified EHN lacks the technological capability to fully comply with Health-General Article, §4-302.5, Annotated Code of Maryland, as of January 8, 2024, including a detailed explanation of the EHN’s limitations;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>A detailed description of the steps the MHCC-certified EHN is taking to ensure compliance with Health-General Article, §4-302.5, Annotated Code of Maryland, by June 1, 2024;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>A timeline to implement Health-General Article, §4-302.5, Annotated Code of Maryland, by June 1, 2024; and</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>A description of the extent legally protected health information and other health information will be restricted by the MHCC-certified EHN during the implementation of its plan.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If a MHCC-certified EHN submits an implementation plan in accordance with <cite path="10|25|07|.09|B.|(1)">§B(1) of this regulation</cite>, the EHN shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Provide a status report to the Commission by April 1, 2024, detailing the progress the MHCC-certified EHN has made under its implementation plan; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Submit validation to the Commission by June 1, 2024, that it possesses the technological capability to filter and restrict from disclosure legally protected health information to the extent required by law.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Beginning June 1, 2024, a person who knowingly violates Health-General Article, §4-302.5, Annotated Code of Maryland, shall be guilty of a misdemeanor and on conviction is subject to a fine not to exceed $10,000 per day based on:</text>
+      <para>
+        <num>(1)</num>
+        <text>The extent of actual or potential public harm caused by the violation;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The cost of investigating the violation; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The person’s prior record of compliance.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.10</num>
+    <heading>Notice Prior to Withdrawal.</heading>
+    <para>
+      <num>A.</num>
+      <text>Before withdrawal of certification on one of the bases provided in <cite path="|10|25|07|.09">Regulation .09 of this chapter</cite>, the Executive Director shall inform the MHCC-certified EHN, setting forth in writing the reasons for withdrawal.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The notice of withdrawal shall set forth the right of the MHCC-certified EHN to an evidentiary hearing, conducted in accordance with <cite path="|10|25|07|.11">Regulation .11 of this chapter</cite>, to show cause why the certification should not be withdrawn.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Within 15 days of receipt of the notice of withdrawal, the MHCC-certified EHN may make a written filing that details the EHN's position and provides supporting documentation, before the Commission takes final action to withdraw the EHN's certification.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.11</num>
+    <heading>Hearing Procedures.</heading>
+    <para>
+      <num>A.</num>
+      <text>Reviewer as Presiding Officer.</text>
+      <para>
+        <num>(1)</num>
+        <text>If an evidentiary hearing is requested, the Executive Director shall appoint a single commissioner to act as reviewer and preside at the hearing.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The reviewer shall hold a prehearing conference, at which the reviewer shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Summarize the rules of procedure governing the evidentiary hearing;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Determine the date, time, and place of the evidentiary hearing;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Determine the form and manner of the presentation of evidence;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Rule on any pending motions; and</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Make other decisions as appropriate.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Hearing. The reviewer is empowered to:</text>
+      <para>
+        <num>(1)</num>
+        <text>Make all rulings as to evidence, testimony, and the conduct of the evidentiary hearing; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Take other actions consistent with the duties of a reviewer.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Proposed Decision. The reviewer shall prepare a proposed decision and order which shall state the reviewer's determination as to whether the allegations that formed the basis for the hearing are substantiated or not, and if substantiated, include a proposed sanction.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Exceptions.</text>
+      <para>
+        <num>(1)</num>
+        <text>If the proposed decision is adverse to the MHCC-certified EHN, the EHN may submit written exceptions to the proposed decision and order by submitting written argument with citation to supporting documentation from the record.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Exceptions shall be filed according to a schedule set by the reviewer, with a party filing exceptions having at least 7 days to file exceptions, and a party filing a response to exceptions having at least 5 days to file a response, unless this period is shortened by agreement of the parties.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Final Decision.</text>
+      <para>
+        <num>(1)</num>
+        <text>The Commission shall issue a final decision based on the record of the proceeding including findings of fact and conclusions of law, that:</text>
+        <para>
+          <num>(a)</num>
+          <text>Finds the allegations to be substantiated and withdraws the MHCC-certified EHN status of the entity;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Finds the allegations to be substantiated, but permits the entity to retain MHCC-certified EHN status, with appropriate conditions; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Finds the allegations to be unsubstantiated and continues the entity's MHCC-certified EHN status.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An MHCC-certified EHN aggrieved by the Commission's final decision may seek judicial review pursuant to <cite doc="Md. Code" path="gsg">State Government Article, Title 10, Annotated Code of Maryland</cite>.</text>
+      </para>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Health-General Article, §§4-302.1, 4-302.5, 19-103(c)(2), (9) and (10), 19-109(a)(1), 19-134, and 19-135(a) and (b), Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="1996-07-15">Effective date: July 15, 1996 (23:14 Md. R. 1008)</annotation>
+    <annotation type="History" dest="container" effective="2001-07-23"><cite path="|10|25|07|.01">Regulation .01</cite> amended effective July 23, 2001 (28:14 Md. R. 1322)</annotation>
+    <annotation type="History" dest="container" effective="2000-04-03"><cite path="|10|25|07|.02">Regulation .02</cite> amended effective April 3, 2000 (27:6 Md. R. 641)</annotation>
+    <annotation type="History" dest="container" effective="2001-07-23"><cite path="|10|25|07|.03">Regulation .03</cite> amended effective July 23, 2001 (28:14 Md. R. 1322)</annotation>
+    <annotation type="History" dest="container" effective="2002-04-15"><cite path="|10|25|07|.05">Regulation .05</cite> amended effective April 15, 2002 (29:7 Md. R. 620)</annotation>
+    <annotation type="History" dest="container" effective="2001-07-23"><cite path="|10|25|07|.10">Regulation .10</cite> amended effective July 23, 2001 (28:14 Md. R. 1322)</annotation>
+    <annotation type="History" dest="container" effective="2002-12-23"><cite path="|10|25|07|.11">Regulation .11</cite> amended effective April 3, 2000 (27:6 Md. R. 641); December 23, 2002 (29:25 Md. R. 1983)</annotation>
+    <annotation type="History" dest="container" effective="2008-03-24" discontinuity="true">Regulations <cite path="|10|25|07|.01">.01</cite>—<cite path="|10|25|07|.11">.11</cite> repealed and new Regulations <cite path="|10|25|07|.01">.01</cite>—<cite path="|10|25|07|.11">.11</cite> adopted effective March 24, 2008 (35:6 Md. R. 698)</annotation>
+    <annotation type="History" dest="container" effective="2008-12-15"><cite path="|10|25|07|.02|B.">Regulation .02B</cite> amended effective December 15, 2008 (35:25 Md. R. 2150)</annotation>
+    <annotation type="History" dest="container" effective="2024-05-13"><cite path="|10|25|07|.02|B.">Regulation .02B</cite> amended as an emergency provision effective January 11, 2024 (51:3 Md. R. 152); amended permanently effective May 13, 2024 (51:9 Md. R. 440)</annotation>
+    <annotation type="History" dest="container" effective="2008-12-15"><cite path="|10|25|07|.04|A.">Regulation .04A</cite> amended effective December 15, 2008 (35:25 Md. R. 2150)</annotation>
+    <annotation type="History" dest="container" effective="2024-05-13"><cite path="|10|25|07|.04|B.">Regulation .04B</cite> amended as an emergency provision effective January 11, 2024 (51:3 Md. R. 152); amended permanently effective May 13, 2024 (51:9 Md. R. 440)</annotation>
+    <annotation type="History" dest="container" effective="2008-12-15"><cite path="|10|25|07|.05|A.">Regulation .05A</cite> amended effective December 15, 2008 (35:25 Md. R. 2150)</annotation>
+    <annotation type="History" dest="container" effective="2024-05-13"><cite path="|10|25|07|.05|A.">Regulation .05A</cite> amended as an emergency provision effective January 11, 2024 (51:3 Md. R. 152); amended permanently effective May 13, 2024 (51:9 Md. R. 440)</annotation>
+    <annotation type="History" dest="container" effective="2008-12-15"><cite path="|10|25|07|.06|A.">Regulation .06A</cite>, D amended effective December 15, 2008 (35:25 Md. R. 2150)</annotation>
+    <annotation type="History" dest="container" effective="2024-05-13"><cite path="|10|25|07|.09">Regulation .09</cite> amended as an emergency provision effective January 11, 2024 (51:3 Md. R. 152); amended permanently effective May 13, 2024 (51:9 Md. R. 440)</annotation>
+    <annotation type="History" dest="container" effective="2008-12-15"><cite path="|10|25|07|.09|C.">Regulation .09C</cite> amended effective December 15, 2008 (35:25 Md. R. 2150)</annotation>
+  </annotations>
+</container>

@@ -1,0 +1,1267 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>11</num>
+  <heading>Uniform Claims Forms</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Applicability and Scope.</heading>
+    <para>
+      <num>A.</num>
+      <text>This chapter is applicable to all:</text>
+      <para>
+        <num>(1)</num>
+        <text>Claims submitted to third-party payors as defined in <cite path="|31|10|11|.02|B.|(22)">Regulation .02B(22) of this chapter</cite>;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Claims submitted by health care practitioners as defined in <cite path="|31|10|11|.02|B.|(12)">Regulation .02B(12) of this chapter</cite>;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Claims submitted by hospitals as defined in Health-General Article, §19-301(g), Annotated Code of Maryland; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Claims submitted by other persons entitled to reimbursement from a third-party payor who submit claims to third-party payors on the HCFA Form 1500 or HCFA Form UB-92.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>This chapter is not applicable to claims submitted by members.</text>
+    </para>
+  </section>
+  <section cache:ref-path="31|10|11|.02">
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>"Applicable standard code set" means the most recent versions, as of the date of service, of the following:</text>
+        <para>
+          <num>(a)</num>
+          <text>For services rendered by health care practitioners, the Current Procedural Terminology (CPT) maintained and distributed by the American Medical Association, including its codes and modifiers, and codes for anesthesia services;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>For dental services, the Current Dental Terminology (CDT) maintained and distributed by the American Dental Association;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>For all professional and hospital services, the International Classification of Diseases, Clinical Modification (ICD-9 CM);</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>For other health-related services, including prescribed drugs covered under a medical benefit of a contract issued by a third-party payor, the Centers for Medicare and Medicaid Services Common Procedure Coding System (HCPCS) levels I and II and modifiers maintained and distributed by the U.S. Department of Health and Human Services;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>For prescribed drugs covered under a pharmacy benefit of a contract issued by a third-party payor, the National Drug Codes (NDC) maintained and distributed by the U.S. Department of Health and Human Services;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>For anesthesia services, the codes maintained and distributed by the American Society of Anesthesiologists;</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>For psychiatric services, the DSM-IV codes distributed by the American Psychiatric Association;</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>For hospital and other applicable health-care services, including home health services, the State UB-92, Uniform Billing Data Elements Specification Manual;</text>
+        </para>
+        <para>
+          <num>(i)</num>
+          <text>For hospital services pursuant to a Maryland contract or insurance policy, a revenue code:</text>
+          <para>
+            <num>(i)</num>
+            <text>Approved by the Health Services Cost Review Commission for a hospital located in the State, or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Of the National or State Uniform Billing Data Elements Specifications for a hospital not located in the State; and</text>
+          </para>
+        </para>
+        <para>
+          <num>(j)</num>
+          <text>For services rendered pursuant to Health-General Article, §15-103(b)(2), Annotated Code of Maryland, a code established by the Medicaid Program.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>"Auto code" means an ICD-9 code designed by a third-party payor as a diagnosis that is an emergency service.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>"CDT-1 Codes" means the current dental terminology, and its successors, required by the American Dental Association.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>"Clean claim" means a claim for reimbursement submitted to a third-party payor by a health care practitioner, pharmacy or pharmacist, hospital, or person entitled to reimbursement, that contains:</text>
+        <para>
+          <num>(a)</num>
+          <text>In the case of a health care practitioner or person entitled to reimbursement:</text>
+          <para>
+            <num>(i)</num>
+            <text>The data elements required by <cite path="|31|10|11|.08">Regulation .08 of this chapter</cite>, and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Any attachments requested by the third-party payor pursuant to <cite path="|31|10|11|.10">Regulation .10 of this chapter</cite>;</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>In the case of a hospital or person entitled to reimbursement;</text>
+          <para>
+            <num>(i)</num>
+            <text>The data elements required by <cite path="|31|10|11|.09">Regulation .09 of this chapter</cite>, and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Any attachments requested by the third-party payor pursuant to <cite path="|31|10|11|.10">Regulation .10 of this chapter</cite>; or</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>In the case of a pharmacy or pharmacist, the data elements set forth on the Universal Prescription Drug Claim Form or its electronic equivalent.</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>"CMS" means the federal Centers for Medicare and Medicaid Services of the U.S. Department of Health and Human Services.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>"CPT-4 Codes" means the Current Procedural Terminology published by the American Medical Association.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>"Emergency services" has the meaning stated in Health-General Article, §19-701(d), Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>"Global contract" means an agreement between a third-party payor, and a health care practitioner, hospital, or person entitled to reimbursement in which:</text>
+        <para>
+          <num>(a)</num>
+          <text>For billing and payment purposes:</text>
+          <para>
+            <num>(i)</num>
+            <text>The services of one or more health care practitioners, hospitals, or persons entitled to reimbursement are bundled together; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The third-party payor agrees to pay, and the health care practitioner, hospital, or person entitled to reimbursement, agrees to accept a single rate for the applicable technical, facility, ancillary, and professional components of the services specified in the agreement; or</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The third-party payor agrees to pay, and the health care practitioner, hospital, or person entitled to reimbursement, agrees to accept a daily or per diem rate for the services related to home infusion therapy.</text>
+        </para>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>HCFA Form 1500.</text>
+        <para>
+          <num>(a)</num>
+          <text>"HCFA Form 1500" means the health insurance claims form and its electronic successor or equivalent published by CMS for use by health care practitioners or persons entitled to reimbursement.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"HCFA Form 1500" includes any successor to HCFA Form 1500 published by CMS.</text>
+        </para>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>HCFA Form UB-92.</text>
+        <para>
+          <num>(a)</num>
+          <text>"HCFA Form UB-92" means the Revenue Code Summary UB-92 health insurance claim form and its electronic successor or equivalent published by CMS for use by hospitals, or person entitled to reimbursement.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"HCFA Form UB-92" includes any successor to HCFA Form UB-92 published by the CMS.</text>
+        </para>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>"HCPCS" means CMS's current Healthcare Common Procedural Coding System.</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>Health Care Practitioner.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Health care practitioner" means a physician or any other person licensed or certified under <cite doc="Md. Code" path="gho">Health Occupations Article, Annotated Code of Maryland</cite>.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Health care practitioner" does not include a physician or other person licensed or certified under <cite doc="Md. Code" path="gho">Health Occupations Article, Annotated Code of Maryland</cite>, who:</text>
+          <para>
+            <num>(i)</num>
+            <text>Is compensated by a health maintenance organization on a salaried or capitated basis; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Is rendering care to a member or subscriber of the health maintenance organization on a salaried or capitated system basis.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>"Hospital" means a hospital as defined in Health-General Article, §19-301(g), Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>ICD 9-CM Codes.</text>
+        <para>
+          <num>(a)</num>
+          <text>"ICD-9-CM Codes" means the current disease and procedure codes in the international classification of diseases published by the U.S. Department of Health and Human Services.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"ICD-9-CM Codes" includes any successor to ICD-9-CM Codes published by the U.S. Department of Health and Human Services.</text>
+        </para>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>"J512 Form" means the uniform dental claim form approved by the American Dental Association for use by dentists and its electronic successor or equivalent.</text>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>Member.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Member" means an individual entitled to health care benefits under a policy, plan, or certificate issued or delivered in the State by a carrier.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Member" includes a subscriber or an insured.</text>
+        </para>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>"Modifier" means a code that is appended to a CPT or HCPCS code to provide more specific information about a medical procedure.</text>
+      </para>
+      <para>
+        <num>(18)</num>
+        <text>"Person entitled to reimbursement" means:</text>
+        <para>
+          <num>(a)</num>
+          <text>A health care practitioner as defined in <cite path="31|10|11|.02|B.|(12)">§B(12) of this regulation</cite>; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Any other person who furnishes health care services or supplies.</text>
+        </para>
+      </para>
+      <para>
+        <num>(19)</num>
+        <text>"Primary care" has the meaning stated in <cite path="31.11.06.02|B.|(49)">COMAR 31.11.06.02B(49)</cite>.</text>
+      </para>
+      <para>
+        <num>(20)</num>
+        <text>"Primary payor" means a third-party payor that, pursuant to the terms of an insurance policy or contract, is required to provide coverage for benefits to the insured or member:</text>
+        <para>
+          <num>(a)</num>
+          <text>Before any other third-party payor provides benefits; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Regardless of whether benefits are available under any other insurance policy or contract.</text>
+        </para>
+      </para>
+      <para>
+        <num>(21)</num>
+        <text>"Secondary payor" means a third-party payor that, pursuant to the terms of an insurance policy or contract, is required to pay all or some portion of the difference between the total amount of a claim and the amount paid by the primary payor, subject to the limitations of the insurance policy or contract.</text>
+      </para>
+      <para>
+        <num>(22)</num>
+        <text>"Third-party payor" means a person that administers or provides reimbursement for health care benefits on an expense-incurred basis including:</text>
+        <para>
+          <num>(a)</num>
+          <text>A health maintenance organization issued a certificate of authority in accordance with Health-General Article, Title 19, Subtitle 7, Annotated Code of Maryland;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A health insurer or nonprofit health service plan authorized to offer health insurance policies or contracts in this State in accordance with the <cite doc="Md. Code" path="gin">Insurance Article, Annotated Code of Maryland</cite>; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A third-party administrator registered under <cite doc="Md. Code" path="gin">Insurance Article, Title 8, Subtitle 3, Annotated Code of Maryland</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(23)</num>
+        <text>"Universal Prescription Drug Claim Form" means the uniform prescription drug claim form developed by the National Council for Prescription Drug Programs, Inc. and its electronic successor or equivalent.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="31|10|11|.03">
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Requirements for Use of HCFA Form 1500.</heading>
+    <para>
+      <num>A.</num>
+      <text>Except as provided in <cite path="|31|10|11|.10">Regulation .10 of this chapter</cite>, third-party payors shall accept the HCFA Form 1500 and instructions provided by CMS for use of the HCFA 1500 as the sole instrument for filing claims with third-party payors for professional services.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The requirement set forth in <cite path="31|10|11|.03|A.">§A of this regulation</cite> does not apply to:</text>
+      <para>
+        <num>(1)</num>
+        <text>Dental services which are billed by dentists using the J512 Form, or its equivalent, and CDT-1 Codes; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Pharmacists or pharmacies which are filing claims for prescription drugs.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Except for parties to a global contract, a third-party payor may not require a health care practitioner or other person entitled to reimbursement to use any code or modifier for the filing of claims for health care services that is different from, or in addition to, what is required under the applicable standard code set for the professional services provided.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Except as provided in <cite path="|31|10|11|.10">Regulation .10 of this chapter</cite>, a third-party payor may not use, and may not require a health care practitioner or other person entitled to reimbursement to use, any other descriptor with a code or to furnish additional information with the initial submission of a HCFA Form 1500 that is different from, or in addition to, the applicable standard code set for the professional services provided.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>A health care practitioner or other person entitled to reimbursement whose billing is based on the amount of time involved shall indicate the start and stop time or number of minutes in field 24G, currently titled Days or Units, of the HCFA Form 1500 if it is not used to specify the number of days of treatment.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Requirements for Use of J512 Form.</heading>
+    <para>
+      <num>A.</num>
+      <text>Third-party payors shall accept the J512 Form, or its equivalent, and most recent version of the instructions provided by the American Dental Association CDT-1 for use of the J512 Form, or its equivalent, as the sole instrument for filing claims with third-party payors for dental services.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A third-party payor may not require a dentist to use any code other than the CDT-1 codes for the initial filing of claims for dental care services.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Requirements for Use of HCFA Form UB-92.</heading>
+    <para>
+      <num>A.</num>
+      <text>Third-party payors shall accept HCFA Form UB-92, and its successors, and the instructions provided by CMS for use of the HCFA Form UB-92, as the sole instrument for filing claims with third-party payors for hospital and other health-care services.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Except for parties to a global contract, a third-party payor may not use, and may not require a hospital, or person entitled to reimbursement, to use any code or modifier for the filing of claims for hospital or other health-care services that is different from or in addition to, what is required under the applicable standard code set for the hospital or other health-care services provided.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Except as provided in <cite path="|31|10|11|.10">Regulation .10 of this chapter</cite>, a third-party payor may not use and may not require a hospital or person entitled to reimbursement to furnish additional information with the initial submission of the UB-92 that is different from, or in addition to, the applicable standard code set or for the hospital or other health-care services provided.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Requirements for Use of Universal Prescription Drug Claim Form.</heading>
+    <text>Third-party payors shall accept the Universal Prescription Drug Claim Form, or its electronic equivalent, as the sole instrument for filing claims with third-party payors for prescription drugs.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>General Provisions.</heading>
+    <para>
+      <num>A.</num>
+      <text>A third-party payor shall accept a clean claim which is submitted in compliance with these regulations for the processing of the third-party payor's claims.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A third-party payor is subject to the provisions of <cite doc="Md. Code" path="gin|15-1005">Insurance Article, §15-1005, Annotated Code of Maryland</cite>.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>If a third party payor delegates its claims processing to another entity, the third-party payor is responsible for a violation by the entity of any regulation under this chapter.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>A third-party payor shall accept current coding changes by the effective date of the changes set forth by the developers of the codes.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>If a referral is required under <cite path="|31|10|11|.10">Regulation .10 of this chapter</cite>, a third party payor may not deny a claim on the basis that a referral was not received unless the third party payor could not identify the member using the member's name and the following information specified on the referral form:</text>
+      <para>
+        <num>(1)</num>
+        <text>Date of birth;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Subscriber's plan identification number; or</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Other personally identifying information.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="31|10|11|.08">
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Essential Data Elements for Clean Claims by Health Care Practitioners or Persons Entitled to Reimbursement.</heading>
+    <para>
+      <num>A.</num>
+      <text>In General. To qualify as a clean claim, a claim submitted to a third-party payor by a health care practitioner as provided in <cite path="|31|10|11|.03">Regulation .03 of this chapter</cite>, or by a person entitled to reimbursement, shall conform to the applicable standard code set and include the following data elements:</text>
+      <para>
+        <num>(1)</num>
+        <text>Subscriber's plan ID number (HCFA Form 1500, field 1a);</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Patient's name (HCFA Form 1500, field 2);</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Patient's date of birth and gender (HCFA Form 1500, field 3);</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Subscriber's name (HCFA Form 1500, field 4);</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Patient's address (street or P.O. box, city, and zip code) (HCFA Form 1500, field 5);</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Patient's relationship to the subscriber (HCFA Form 1500, field 6);</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Subscriber's address (street or P.O. box, city, and zip code) (HCFA Form 1500, field 7);</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Except in the case of a laboratory issued a license pursuant to Health-General Article, §17-205, Annotated Code of Maryland, patient status (HCFA Form 1500, field 8);</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>Whether the patient's condition is related to employment (HCFA Form 1500, field 10(a));</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>Whether the patient's condition is related to an auto accident (HCFA Form 1500, field 10(b));</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>Whether the patient's condition is related to an accident other than an auto accident (HCFA Form 1500, field 10(c));</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>Subscriber's policy number (HCFA Form 1500, field 11);</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>Except in the case of a laboratory issued a license pursuant to Health-General Article, §17-205, Annotated Code of Maryland, subscriber's birth date and gender (HCFA Form 1500, field 11a);</text>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>Except in the case of a laboratory issued a license pursuant to Health-General Article, §17-205, Annotated Code of Maryland, name of the third-party payor (HCFA Form 1500, field 11c);</text>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>Disclosure of any other health benefit plans (HCFA Form 1500, field 11d);</text>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>Patient's or authorized person's signature or notation that the signature is on file with the health care practitioner (HCFA Form 1500, field 12);</text>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>Subscriber's or authorized person's signature or notation that the signature is on file with the health care practitioner or person entitled to reimbursement, if applicable (HCFA Form 1500, field 13);</text>
+      </para>
+      <para>
+        <num>(18)</num>
+        <text>Except in the case of a laboratory issued a license pursuant to Health-General Article, §17-205, Annotated Code of Maryland, date of current illness, injury, or pregnancy (HCFA Form 1500, field 14);</text>
+      </para>
+      <para>
+        <num>(19)</num>
+        <text>Except in the case of a health care practitioner for emergency services, or a laboratory issued a license pursuant to Health-General Article, §17-205, Annotated Code of Maryland, whether the patient has had the same or a similar illness (HCFA Form 1500, field 15);</text>
+      </para>
+      <para>
+        <num>(20)</num>
+        <text>Except in the case of a health care practitioner for emergency services, the name of the referring physician or health maintenance organization (HCFA Form 1500, field 17);</text>
+      </para>
+      <para>
+        <num>(21)</num>
+        <text>Hospitalization dates related to current services, if applicable (HCFA Form 1500, field 18);</text>
+      </para>
+      <para>
+        <num>(22)</num>
+        <text>Diagnosis codes or nature of the illness or injury (HCFA Form 1500, field 21);</text>
+      </para>
+      <para>
+        <num>(23)</num>
+        <text>Date of service (HCFA Form 1500, field 24A);</text>
+      </para>
+      <para>
+        <num>(24)</num>
+        <text>Place of service codes for all claims, as designated by HFCA for Medicare (HCFA Form 1500, field 24B);</text>
+      </para>
+      <para>
+        <num>(25)</num>
+        <text>Procedure code (HCFA Form 1500, field 24D);</text>
+      </para>
+      <para>
+        <num>(26)</num>
+        <text>Diagnosis code by specific service (HCFA Form 1500, field 24E);</text>
+      </para>
+      <para>
+        <num>(27)</num>
+        <text>Charge for each listed service (HCFA Form 1500, field 24F);</text>
+      </para>
+      <para>
+        <num>(28)</num>
+        <text>Number of days, time (minutes), start and stop time, or units (HCFA Form 1500, field 24G);</text>
+      </para>
+      <para>
+        <num>(29)</num>
+        <text>The carrier-assigned rendering provider number until the National Provider Identifier is developed and assigned, if applicable (HCFA Form 1500, field 24K);</text>
+      </para>
+      <para>
+        <num>(30)</num>
+        <text>Health care practitioner's or person entitled to reimbursement's federal tax ID number (HCFA Form 1500, field 25);</text>
+      </para>
+      <para>
+        <num>(31)</num>
+        <text>Patient's account number (HCFA Form 1500, field 26);</text>
+      </para>
+      <para>
+        <num>(32)</num>
+        <text>Total charge (HCFA Form 1500, field 28);</text>
+      </para>
+      <para>
+        <num>(33)</num>
+        <text>For claims:</text>
+        <para>
+          <num>(a)</num>
+          <text>Submitted electronically, a computer-printed name as the signature of the health care practitioner or person entitled to reimbursement (HCFA Form 1500, field 31), or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Not submitted electronically, the signature of the health care practitioner who provided the service, or person entitled to reimbursement who provided the service, or notation that the signature is on file with the HMO or preferred provider carrier (HCFA Form 1500, field 31);</text>
+        </para>
+      </para>
+      <para>
+        <num>(34)</num>
+        <text>Name and address of the facility where services were rendered (if other than home or office) (HCFA Form 1500, field 32);</text>
+      </para>
+      <para>
+        <num>(35)</num>
+        <text>Health care practitioner's or person entitled to reimbursement's billing name, address, zip code, phone number, and, if applicable, carrier-assigned provider number until the National Provider Identifier (NPI) is developed and assigned, including a provider number pursuant to Health-General Article, §19-710.1(b)(3), Annotated Code of Maryland, (HCFA Form 1500, field 33); and</text>
+      </para>
+      <para>
+        <num>(36)</num>
+        <text>Any other field or essential data element necessary to comply with the applicable standard code set.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Specific Circumstances. In addition to the data elements required by <cite path="31|10|11|.08|A.">§A of this regulation</cite>, to qualify as a clean claim, a claim submitted to a third-party payor by a health care practitioner or person entitled to reimbursement shall include the following data elements if circumstances exist that render the data elements applicable to the specific claim being filed:</text>
+      <para>
+        <num>(1)</num>
+        <text>The other insured's or enrollee's name (HCFA Form 1500, field 9) is applicable if the patient is covered by more than one health benefit plan;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The other insured's or enrollee's policy/group number (HCFA Form 1500, field 9a) is applicable if the patient is covered by more than one health benefit plan;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The other insured's or enrollee's date of birth (HCFA Form 1500, field 9b) is applicable if the patient is covered by more than one health benefit plan;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The other insured's or enrollee's plan name (employer, school, etc.) (HCFA Form 1500, field 9c) is applicable if the patient is covered by more than one health benefit plan;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The other insured's or enrollee's HMO or insurer name (HCFA Form 1500, field 9d) is applicable if the patient is covered by more than one health benefit plan;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Except in the case of a laboratory issued a license pursuant to Health-General Article, §17-205, Annotated Code of Maryland, the subscriber's plan name (employer, school, etc.) (HCFA Form 1500, field 11(b)) is applicable if the health benefit plan is a group plan;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>The prior authorization number (HCFA Form 1500, field 23) is applicable when prior authorization is required;</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>A code pursuant to a global contract (HCFA Form 1500, field 24D) is applicable if the claim is between parties to a global contract;</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>A code established by the Medicaid Program (HCFA Form 1500, field 24D) is applicable if the claim is for services rendered pursuant to Health-General Article, §15-103(b)(2), Annotated Code of Maryland;</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>The modifier code (HCFA Form 1500, field 24(D)) is applicable when a modifier code is used to explain unusual circumstances;</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>Whether an assignment was accepted (HCFA Form 1500, field 27) is applicable when an assignment has been accepted;</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>The amount paid (HCFA Form 1500, field 29) is applicable if an amount has been paid to the health care practitioner or person entitled to reimbursement submitting the claim, by the patient or subscriber, or on behalf of the patient or subscriber; and</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>The balance due (HCFA Form 1500, field 30) is applicable if an amount has been paid to the health care practitioner or person entitled to reimbursement submitting the claim, by the patient or subscriber, or on behalf of the patient or subscriber.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A third-party payor may not use or require a health care practitioner or person entitled to reimbursement to use any field for purposes that are inconsistent with these essential data elements or in addition to the applicable standard code set.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>A third-party payor may accept a HCFA Form 1500 that includes data elements in addition to those set forth in §§A and B of this regulation.</text>
+    </para>
+  </section>
+  <section cache:ref-path="31|10|11|.09">
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Essential Data Elements for Clean Claims by Hospitals.</heading>
+    <para>
+      <num>A.</num>
+      <text>In General. To qualify as a clean claim, a claim submitted to a third-party payor by a hospital, or person entitled to reimbursement, shall conform to the applicable standard code set and include the following data elements:</text>
+      <para>
+        <num>(1)</num>
+        <text>Hospital's, or person entitled to reimbursement's, name, address, and telephone number (HCFA Form UB-92, field 1);</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Patient's control number (HCFA Form UB-92, field 3);</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Type of bill code (HCFA Form UB-92, field 4);</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Hospital's, or person entitled to reimbursement's, federal tax ID number (HCFA Form UB-92, field 5);</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Beginning and ending date of claim period (HCFA Form UB-92, field 6);</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Patient's name (HCFA Form UB-92, field 12);</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Patient's address (HCFA Form UB-92, field 13);</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Patient's date of birth (HCFA Form UB-92, field 14);</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>Patient's gender (HCFA Form UB-92, field 15);</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>Patient's marital status (HCFA Form UB-92, field 16);</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>Date of admission (HCFA Form UB-92, field 17);</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>Admission hour (HCFA Form UB-92, field 18);</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>Type of admission (for example, emergency, urgent, elective, newborn) (HCFA Form UB-92, field 19);</text>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>Source of admission code (HCFA Form UB-92, field 20);</text>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>Patient-status-at-discharge code (HCFA Form UB-92, field 22);</text>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>Medical record number (HCFA Form UB-92, field 23);</text>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>Responsible party name and address (HCFA Form UB-92, field 38);</text>
+      </para>
+      <para>
+        <num>(18)</num>
+        <text>Value code and amounts (HCFA Form UB-92, fields 39—41);</text>
+      </para>
+      <para>
+        <num>(19)</num>
+        <text>Applicable revenue code (HCFA Form UB-92, field 42) of:</text>
+        <para>
+          <num>(a)</num>
+          <text>The Health Services Cost Review Commission, for hospitals located in the State, or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The National or State Uniform Billing Data Elements Specifications, for hospitals not located in the State;</text>
+        </para>
+      </para>
+      <para>
+        <num>(20)</num>
+        <text>Revenue description (HCFA Form UB-92, field 43);</text>
+      </para>
+      <para>
+        <num>(21)</num>
+        <text>Service date (HCFA Form UB-92, field 45);</text>
+      </para>
+      <para>
+        <num>(22)</num>
+        <text>Units of service (HCFA Form UB-92, field 46);</text>
+      </para>
+      <para>
+        <num>(23)</num>
+        <text>Total charge (HCFA Form UB-92, field 47);</text>
+      </para>
+      <para>
+        <num>(24)</num>
+        <text>Noncovered charges (HCFA Form UB-92, field 48);</text>
+      </para>
+      <para>
+        <num>(25)</num>
+        <text>Name of the third-party payor (HCFA Form UB-92, field 50);</text>
+      </para>
+      <para>
+        <num>(26)</num>
+        <text>Provider number (HCFA Form UB-92, field 51);</text>
+      </para>
+      <para>
+        <num>(27)</num>
+        <text>Release of information (HCFA Form UB-92, field 52);</text>
+      </para>
+      <para>
+        <num>(28)</num>
+        <text>Assignment of benefits (HCFA Form UB-92, field 53);</text>
+      </para>
+      <para>
+        <num>(29)</num>
+        <text>Estimated amount due (HCFA Form UB-92, field 55);</text>
+      </para>
+      <para>
+        <num>(30)</num>
+        <text>Subscriber's name (HCFA Form UB-92, field 58);</text>
+      </para>
+      <para>
+        <num>(31)</num>
+        <text>Patient's relationship to the subscriber (HCFA Form UB-92, field 59);</text>
+      </para>
+      <para>
+        <num>(32)</num>
+        <text>Patient's/subscriber's certificate number, health claim number, and ID number (HCFA Form UB-92, field 60);</text>
+      </para>
+      <para>
+        <num>(33)</num>
+        <text>Treatment authorization code (HCFA Form UB-92, field 63);</text>
+      </para>
+      <para>
+        <num>(34)</num>
+        <text>Principal diagnosis code (HCFA Form UB-92, field 67);</text>
+      </para>
+      <para>
+        <num>(35)</num>
+        <text>Admitting diagnosis (HCFA Form UB-92, field 76);</text>
+      </para>
+      <para>
+        <num>(36)</num>
+        <text>Attending physician ID (HCFA Form UB-92, field 82);</text>
+      </para>
+      <para>
+        <num>(37)</num>
+        <text>Other physician ID (HCFA Form UB-92, field 83);</text>
+      </para>
+      <para>
+        <num>(38)</num>
+        <text>Signature of the provider representative or notation that the signature is on file with the third-party payor (HCFA Form UB-92, field 85);</text>
+      </para>
+      <para>
+        <num>(39)</num>
+        <text>Date the bill was submitted (HCFA Form UB-92, field 86); and</text>
+      </para>
+      <para>
+        <num>(40)</num>
+        <text>Any other field or essential data element necessary to comply with the applicable standard code set.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Specific Circumstances. In addition to the data elements required by <cite path="31|10|11|.09|A.">§A of this regulation</cite>, to qualify as a clean claim, a claim submitted to a third-party payor by a hospital, or person entitled to reimbursement, shall include the following data elements if circumstances exist that render the data elements applicable to the specific claim being filed:</text>
+      <para>
+        <num>(1)</num>
+        <text>Covered days (HCFA Form UB-92, field 7) is applicable if Medicare is a primary or secondary payor;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Noncovered days (HFCA Form UB-92, field 8) is applicable if Medicare is a primary or secondary payor;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Coinsurance days (HFCA Form UB-92, field 9) is applicable if Medicare is a primary or secondary payor;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Lifetime reserve days (HCFA Form UB-92, field 10) is applicable if Medicare is a primary or secondary payor and the patient was an inpatient;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The discharge hour (HCFA Form UB-92, field 21) is applicable if the patient was an inpatient or was admitted for outpatient observation;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>The condition codes (HCFA Form UB-92, fields 24—30) are applicable if the HCFA Form UB-92 manual contains a condition code appropriate to the patient's condition;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>The occurrence codes and dates (HCFA Form UB-92, fields 32—35) are applicable if the HCFA Form UB-92 manual contains an occurrence code appropriate to the patient's condition;</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>The occurrence span code and from and through dates (HCFA Form UB-92 field 36) are applicable if the HCFA Form UB-92 manual contains an occurrence span code appropriate to the patient's condition;</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>HCPCS/Rates (HCFA Form UB-92, field 44) are applicable if there is a primary or secondary payor;</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>A code pursuant to a global contract (HCFA Form UB-92, field 44) is applicable if the claim is between parties to a global contract;</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>Prior payments (HCFA Form UB-92, field 54) are applicable if payments have been made to the hospital by the patient or another payor;</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>The employment status code (HCFA Form UB-92, field 64) is applicable if there are payors of higher priority than the third-party payor, including workers' compensation;</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>The employer name (HCFA Form UB-92, field 65) is applicable if there are payors of higher priority than the third-party payor, including workers' compensation;</text>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>The employer location (HCFA Form UB-92, field 66) is applicable if there is workers' compensation involvement;</text>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>Diagnoses codes other than the principal diagnosis code (HCFA Form UB-92, field 68—75) are applicable if there are diagnoses other than the principal diagnosis;</text>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>Diagnoses codes describing the patient's signs, or presenting symptoms, or both (HCFA Form UB 92, field 76) are applicable for services provided in a hospital emergency department;</text>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>The procedure coding methods used (HCFA Form UB-92, field 79) are applicable if the HCFA Form UB-92 manual indicates a procedural coding method appropriate to the patient's condition;</text>
+      </para>
+      <para>
+        <num>(18)</num>
+        <text>The principal procedure code (HCFA Form UB-92, field 80) is applicable if the patient has undergone an inpatient or outpatient surgical procedure; and</text>
+      </para>
+      <para>
+        <num>(19)</num>
+        <text>Other procedure codes (HCFA Form UB-92, field 81) are applicable as an extension of <cite path="31|10|11|.09|B.|(17)">§B(17) of this regulation</cite> if additional surgical procedures were performed.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A third-party payor may not use or require a hospital to use any field for purposes that are inconsistent with these data elements or in addition to the applicable standard code set.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>A third-party payor may accept the HCFA Form UB-92 that includes data elements in addition to those set forth in §§A and B of this regulation.</text>
+    </para>
+  </section>
+  <section cache:ref-path="31|10|11|.10">
+    <prefix>Regulation</prefix>
+    <num>.10</num>
+    <heading>Attachments to Uniform Claims Forms.</heading>
+    <para>
+      <num>A.</num>
+      <text>A third-party payor may require a health care practitioner, hospital, or person entitled to reimbursement to include any of the following attachments to a HCFA Form UB-92 or HCFA Form 1500, respectively, for a claim to qualify as a clean claim:</text>
+      <para>
+        <num>(1)</num>
+        <text>A referral or consultant treatment plan submitted by the specialist, if the claim is for specialty services under an HMO plan or in-network point-of-service plan, unless the third-party payor requires the provider of primary care services to submit directly to it the referral or consultant treatment plan for specialty services;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An explanation of benefits statement from the primary payor to the secondary payor, unless an electronic remittance notice has been sent by the primary payor to the secondary payor;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A Medicare remittance notice, if the claim involves Medicare as a primary payor and the third-party payor provides evidence that it does not have a crossover agreement to accept an electronic remittance notice;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>A description of the procedure or service, which may include the medical record, if a procedure or service rendered has no corresponding Current Procedural Terminology (CPT) or HCPCS code, or additional description information relating to a CDT code;;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Operative notes, if the claim is for multiple surgeries, or includes modifier 22, 58, 62, 66, 78, 80, 81, or 82;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Anesthesia records documenting the time spent on the service, if the claim for anesthesia services rendered includes modifiers P4 or P5;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Documents referenced as contractual requirements in the global contract, if there is a global contract between a third-party payor and a health care practitioner, hospital, or person entitled to reimbursement;</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>An ambulance trip report, if the claim is for ambulance services submitted by an ambulance company licensed by the Maryland Institute for Emergency Medical Services Systems;</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>Office visit notes, if the claim includes modifier 21 or 22;</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>Information related to the audit as specified in writing by the third-party payor, if the third-party payor's audit of the health care practitioner, hospital, or person entitled to reimbursement demonstrated a pattern of fraud, improper billing, or improper coding;</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>Admitting notes, except in the case of services rendered in accordance with Health-General Article, §§19-701(d) and 19-712.5, Annotated Code of Maryland, if the claim is for inpatient services provided outside of the time or scope of the authorization;</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>Physician notes, except in the case of services rendered in accordance with Health-General Article, §§19-701(d) and 19-712.5, Annotated Code of Maryland, if the claim for services provided is outside of the time or scope of the authorization, or when there is an authorization in dispute;</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>Itemized bills, except in the case of services rendered in accordance with Health-General Article, §§19-701(d) and 19-712.5, Annotated Code of Maryland, if the claim is for services:</text>
+        <para>
+          <num>(a)</num>
+          <text>Rendered in a hospital and the hospital claim has no prior authorization for admission, or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Inconsistent with a third-party payor's concurrent review determination rendered before the delivery of services, regarding the medical necessity of the service;</text>
+        </para>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>Adjunct claims documentation pursuant to Health-General Article, §19-710.1(b)(3), Annotated Code of Maryland;</text>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>A treatment plan from a child’s health care practitioner that includes one or more specific treatment goals, if the claim is for habilitative services for a child diagnosed with autism or autism spectrum disorder.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>In its manual, or other document that sets forth the claim filing procedures pursuant to <cite doc="Md. Code" path="gin|15-1004">Insurance Article, §15-1004(d), Annotated Code of Maryland</cite>, a third-party payor shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>List the attachments to an HCFA Form UB-92 or HCFA Form 1500 that it may require under <cite path="31|10|11|.10|A.">§A of this regulation</cite> for a claim to qualify as a clean claim; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Describe the circumstances under which each attachment may be required.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A third-party payor may accept any additional attachments with the HCFA Form 1500 or HCFA Form UB-92.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.11</num>
+    <heading>Additional Information.</heading>
+    <para>
+      <num>A.</num>
+      <text>The following are permissible categories of disputed claims for which third-party payors may request additional information pursuant to Insurance Article, §§<cite doc="Md. Code" path="gin|15-1004">15-1004</cite>(c) and <cite doc="Md. Code" path="gin|15-1005">15-1005</cite>(c), Annotated Code of Maryland:</text>
+      <para>
+        <num>(1)</num>
+        <text>Except in cases of services rendered in accordance with Health-General Article, §§19-701(d) and 19-712.5, Annotated Code of Maryland, the legitimacy, medical necessity, or appropriateness of the health care service, if:</text>
+        <para>
+          <num>(a)</num>
+          <text>There is no authorization; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>There was preauthorization and the third-party payor disputes the claim:</text>
+          <para>
+            <num>(i)</num>
+            <text>Consistent with the bases for a carrier's denial as set forth in <cite doc="Md. Code" path="gin|15-1009">Insurance Article, §15-1009(b), Annotated Code of Maryland</cite>, or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Because the claim is for services provided outside of the time or scope of the authorization and the applicable attachment required in <cite path="|31|10|11|.10">Regulation .10 of this chapter</cite> was not submitted with the claim;</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Eligibility for benefits or coverage in accordance with <cite doc="Md. Code" path="gin|15-1004">Insurance Article, §15-1004(e)(1), Annotated Code of Maryland</cite>;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The appropriateness of a service, procedure, or durable medical equipment rendered or provided by a specialist not requested by the primary care provider of an enrollee of a health maintenance organization on a referral form or consultant treatment plan;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>In the case of a claim made pursuant to a global contract, the information necessary to adjudicate the claim consistent with the global contract;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>A reasonable belief of incorrect billing in accordance with <cite doc="Md. Code" path="gin|15-1005">Insurance Article, §15-1005(c)(2)(ii), Annotated Code of Maryland</cite>;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>The insured's or enrollee's liability for the service under the insurance policy or contract, subject to the third-party payor obtaining the additional information from its insured or enrollee within 30 days from receipt of the claim;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Legibility of the claim in a material matter;</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>A reasonable belief of fraudulent or improper coding consistent with the bases for a carrier's retroactive denial as set forth in <cite doc="Md. Code" path="gin|15-1008">Insurance Article, §15-1008(e), Annotated Code of Maryland</cite>;</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>A reasonable belief that a claim for emergency services may not meet the standards for an emergency service pursuant to Health-General Article, §19-701(d), Annotated Code of Maryland;</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>The essential information required for a third-party payor to adjudicate a claim for dental services; and</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>A category approved by the Commissioner by regulation.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A third-party payor may not request additional information if an attachment containing the same type of information was submitted with the claim pursuant to <cite path="|31|10|11|.10">Regulation .10 of this chapter</cite>.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Except as provided for in §A(1) and (2) of this regulation, a third-party payor may not request medical records if:</text>
+      <para>
+        <num>(1)</num>
+        <text>The claim is for services as set forth in <cite path="|31|10|11|.10|A.|(12)">Regulation .10A(12) of this chapter</cite>; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An itemized bill was submitted with the claim.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The following are impermissible categories of disputed claims for which third-party payors may not request additional information pursuant to Insurance Article, §§<cite doc="Md. Code" path="gin|15-1004">15-1004</cite>(c) and <cite doc="Md. Code" path="gin|15-1005">15-1005</cite>(c), Annotated Code of Maryland:</text>
+      <para>
+        <num>(1)</num>
+        <text>Except for global contracts, a description of the procedure or service that is inconsistent with the applicable standard code set;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Reimbursement for hospital services, in accordance with the rates approved by the Health Services Cost Review Commission pursuant to <cite doc="Md. Code" path="gin|15-1214">Insurance Article, §15-1214, Annotated Code of Maryland</cite>; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Except for the bases for a carrier's denial of reimbursement for preauthorized or approved services as set forth in <cite doc="Md. Code" path="gin|15-1009">Insurance Article, §15-1009(b), Annotated Code of Maryland</cite>, services that were preauthorized by the third-party payor or a private review agent.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="31|10|11|.12">
+    <prefix>Regulation</prefix>
+    <num>.12</num>
+    <heading>Receipt of a Claim.</heading>
+    <para>
+      <num>A.</num>
+      <text>Each third-party payor shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Date-stamp the claim with the date received, for a written claim; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Assign to the document a batch number that includes the date received for an electronic claim.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Each third-party payor shall maintain a written or electronic record of the date of receipt of a claim.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Except as provided in <cite path="31|10|11|.12|E.">§E of this regulation</cite>, a claim is presumed to have been received by a third-party payor according to the date of receipt of the claim stated in the written or electronic record required under <cite path="31|10|11|.12|B.">§B of this regulation</cite>.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Pursuant to a request for claim receipt verification by a health care practitioner, hospital, or person entitled to reimbursement, a third-party payor shall provide within 5 working days verification of the date of claim receipt as stated in the written or electronic record, either in:</text>
+      <para>
+        <num>(1)</num>
+        <text>Electronic form, if the request was for electronic verification; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Written form, including microfilm, if the request was for written verification.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>A claim is presumed to have been received by a third-party payor:</text>
+      <para>
+        <num>(1)</num>
+        <text>3 working days from the date the submitting health care practitioner, hospital, or person entitled to reimbursement placed the claim in the U.S. mail, if the health care practitioner, hospital, or person entitled to reimbursement maintains the stamped certificate of mailing for the claim; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>On the date recorded by the courier, if the claim was delivered by courier.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.13</num>
+    <heading>Disclosure.</heading>
+    <para>
+      <num>A.</num>
+      <text>Third-party payors shall follow the disclosure requirements set forth in <cite doc="Md. Code" path="gin|15-1004">Insurance Article, §15-1004(d), Annotated Code of Maryland</cite>.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>If a third-party payor uses auto codes to determine whether health care services provided in a hospital emergency facility are "emergency services" as defined in Health-General Article, §19-701(e), Annotated Code of Maryland, the third-party payor shall provide to all contracting health care practitioners or hospitals rendering emergency services, or to all health care practitioners or hospitals rendering emergency services that request them:</text>
+      <para>
+        <num>(1)</num>
+        <text>Auto codes used by the third-party payor to determine emergency services; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Updated auto codes for emergency services at least 30 days before an update of the auto codes will be used, stating the date on which the updated auto codes for emergency services will be used.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="31|10|11|.14">
+    <prefix>Regulation</prefix>
+    <num>.14</num>
+    <heading>Claims Data Filing.</heading>
+    <para>
+      <num>A.</num>
+      <text>Required.</text>
+      <para>
+        <num>(1)</num>
+        <text>Except as provided in <cite path="31|10|11|.14|B.|(2)">§B(2) of this regulation</cite>, twice each calendar year a third-party payor shall submit to the Commissioner a claims data filing that documents the payment and denial practices for claims from health care practitioners, hospitals, and other persons entitled to reimbursement of:</text>
+        <para>
+          <num>(a)</num>
+          <text>The third-party payor; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Each entity to which the third-party payor has delegated claims processing.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Each claims data filing required pursuant to this regulation shall include, at a minimum, data documenting:</text>
+        <para>
+          <num>(a)</num>
+          <text>The number of claims received;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The number of claims received that were clean claims pursuant to Regulations .08, .09, and .10 of this chapter;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Claims for which additional information was requested by the third-party payor, or the entity to which the third-party payor has delegated claims processing, pursuant to <cite path="|31|10|11|.11">Regulation .11 of this chapter</cite>; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>As to all claims received, compliance or noncompliance with the requirements of <cite doc="Md. Code" path="gin|15-1005">Insurance Article, §15-1005, Annotated Code of Maryland</cite>, including timeliness of processing claims and paying interest.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Filing Deadlines.</text>
+      <para>
+        <num>(1)</num>
+        <text>The claim data filing shall be in the form approved by the Commissioner and shall be submitted to the Commissioner not later than:</text>
+        <para>
+          <num>(a)</num>
+          <text>September 1 of each year, beginning on September 1, 2002, for all claims received for the period of January 1—June 30 of the same calendar year; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>March 1 of each year, beginning on March 1, 2003, for all claims received for the period of July 1—December 31 of the preceding calendar year.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If the Commissioner has evidence that a third-party payor, or an entity to which a third-party payor has delegated claims processing, is not in compliance with <cite doc="Md. Code" path="gin|15-1003">Insurance Article, §15-1003, </cite>15-1004, or 15-1005, Annotated Code of Maryland, the Commissioner may require a third-party payor to submit a claims data filing more frequently than twice a year.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Use of Data by Commissioner. The Commissioner shall use the claims data filings to determine the general business practices of third-party payors and entities to which third-party payors have delegated claims processing pursuant to <cite doc="Md. Code" path="gin|15-1005">Insurance Article, §15-1005, Annotated Code of Maryland</cite>.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Confidentiality of Information.</text>
+      <para>
+        <num>(1)</num>
+        <text>A claims data filing submitted to the Commissioner pursuant to this regulation is confidential commercial information pursuant to <cite doc="Md. Code" path="gsg|10-617">State Government Article, §10-617, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Except as provided in <cite path="31|10|11|.14|D.|(3)">§D(3) of this regulation</cite>, the Commissioner shall deny inspection of a claims data filing.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If information from a claims data filing is used as the basis for imposing interest or penalties on a third-party payor, the information shall be available for public inspection only as to the portions pertinent to the imposition of interest or penalties.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>The Commissioner may impose penalties if a third-party payor submits inaccurate information required by <cite path="31|10|11|.14|A.">§A of this regulation</cite>, in an amount not to exceed the penalty amount set forth in <cite doc="Md. Code" path="gin|4-113">Insurance Article, §4-113(d)(1), Annotated Code of Maryland</cite>.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>The Commissioner may act in accordance with <cite doc="Md. Code" path="gin|4-113">Insurance Article, §4-113(b) </cite>or (d), Annotated Code of Maryland, if a third-party payor willfully submits inaccurate information required by <cite path="31|10|11|.14|A.">§A of this regulation</cite>.</text>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container"><cite doc="Md. Code" path="gho|1-208">Health Occupations Article, §1-208</cite>; Insurance Article, §§<cite doc="Md. Code" path="gin|2-108">2-108</cite>, <cite doc="Md. Code" path="gin|2-109">2-109</cite>, and <cite doc="Md. Code" path="gin|15-1003">15-1003</cite>—<cite doc="Md. Code" path="gin|15-1005">15-1005</cite>; Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="1993-10-25">Regulations <cite path="|31|10|11|.01">.01</cite>—<cite path="|31|10|11|.07">.07</cite> adopted as an emergency provision effective July 22, 1993 (20:16 Md. R. 1274); adopted permanently effective October 25, 1993 (20:21 Md. R. 1653)</annotation>
+    <annotation type="History" dest="container" effective="1998-09-07" discontinuity="true">Chapter recodified from <cite path="|09.30.56">COMAR 09.30.56</cite> to <cite path="|31.10.11">COMAR 31.10.11</cite> effective September 7, 1998 (25:18 Md. R. 1439)</annotation>
+    <annotation type="History" dest="container" effective="2003-12-11" discontinuity="true">Chapter revised effective September 7, 2001 (28:12 Md. R. 1113); December 11, 2003 (30:24 Md. R. 1747)</annotation>
+    <annotation type="History" dest="container" effective="2015-10-01"><cite path="|31|10|11|.02|B.">Regulation .02B</cite> amended effective October 1, 2015 (42:15 Md. R. 1019)</annotation>
+    <annotation type="History" dest="container" effective="2009-01-26"><cite path="|31|10|11|.07|E.">Regulation .07E</cite> adopted effective January 26, 2009 (36:2 Md. R. 102)</annotation>
+    <annotation type="History" dest="container" effective="2014-03-17"><cite path="|31|10|11|.10|A.">Regulation .10A</cite> amended effective  March 17, 2014 (41:5 Md. R. 348)</annotation>
+    <annotation type="History" dest="container" effective="2017-02-27"><cite path="|31|10|11|.14|C.">Regulation .14C</cite> amended effective February 27, 2017 (44:4 Md. R. 256)</annotation>
+  </annotations>
+</container>

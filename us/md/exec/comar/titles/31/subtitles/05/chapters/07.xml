@@ -1,0 +1,668 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>07</num>
+  <heading>Life and Health Reinsurance Agreements</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Regulatory Considerations.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Insurance Commissioner recognizes that licensed insurers routinely enter into reinsurance agreements that yield legitimate relief to the ceding insurer from strain to the ceding insurer's surplus.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>It is improper, however, for a licensed insurer, in the capacity of ceding insurer, to enter into a reinsurance agreement for the principal purpose of producing significant surplus aid for the ceding insurer, typically on a temporary basis, while not transferring all of the significant risks inherent in the business being reinsured.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Under this type of agreement, in substance or effect, the expected potential liability to the ceding insurer remains basically unchanged by the reinsurance transaction, notwithstanding certain risk elements in the reinsurance agreement, such as catastrophic mortality or extraordinary survival.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The terms of an agreement described in §§B and C of this regulation and <cite path="|31|05|07|.05">Regulation .05 of this chapter</cite> violate:</text>
+      <para>
+        <num>(1)</num>
+        <text><cite doc="Md. Code" path="gin|4-116">Insurance Article, §4-116, Annotated Code of Maryland</cite>, relating to financial statements, resulting in statements that do not properly reflect the financial condition of the ceding insurer;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text><cite doc="Md. Code" path="gin|5-904">Insurance Article, §5-904(a), Annotated Code of Maryland</cite>, relating to reinsurance reserve credits, resulting in a ceding insurer improperly reducing liabilities or establishing assets for reinsurance ceded; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text><cite doc="Md. Code" path="gin|4-113">Insurance Article, §4-113(b)(3), Annotated Code of Maryland</cite>, relating to creating a situation that would be contrary to the interests of the policyholders or stockholders of the ceding insurer.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Scope.</heading>
+    <para>
+      <num>A.</num>
+      <text>This chapter applies to:</text>
+      <para>
+        <num>(1)</num>
+        <text>Each domestic life and accident and health insurer, including nonprofit health service plans;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Any other licensed life and accident and health insurer, including a nonprofit health services plan, that is not subject to a substantially similar regulation in its domiciliary state; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Each licensed property and casualty insurer with respect to its accident and health business.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>This chapter does not apply to:</text>
+      <para>
+        <num>(1)</num>
+        <text>Assumption reinsurance;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Yearly renewable term reinsurance; or</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Certain nonproportional reinsurance, such as stop loss or catastrophe reinsurance.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>Credit Quality Risk.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Credit quality risk" means the risk that invested assets supporting the reinsured business will decrease in value creating the hazard that assets will default or that there will be a decrease in earning power.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Credit quality risk" does not include market value declines due to changes in interest rates.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>"Disintermediation risk" means the risk that interest rates will rise and policy loans and surrenders will increase or maturing contracts will not renew at anticipated rates of renewal, with the mismatch increasing if asset durations are greater than liability durations, resulting in the hazards that:</text>
+        <para>
+          <num>(a)</num>
+          <text>Policyholders will move their funds into new products offering higher rates; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The company may have to sell assets at a loss to provide for these withdrawals.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>"Expenses" includes:</text>
+        <para>
+          <num>(a)</num>
+          <text>Commissions;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Premium taxes; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Direct expenses, including billing, valuation, claims, and maintenance expected by the company at the time the business is reinsured.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>"Lapse risk" means the risk that a policy will voluntarily terminate before the recoupment of a statutory surplus strain experienced at issue of the policy.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>"Negative experience" means that the evolving claims under an initial insurance policy or contract or a reinsurance contract exceed those anticipated at the time of entering into the policy or contract.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>"Reinsurer" means an insurer that, in consideration of the payment by a ceding insurer of a risk charge, enters into a reinsurance contract with the ceding insurer, under which the reinsurer bears all or a portion of the risk of the ceding insurer.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>"Reinvestment risk" means the risk that interest rates will fall and funds reinvested, such as coupon payments or money received on asset maturity or call, will earn less than expected, with the mismatch increasing if asset durations are less than liability durations.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Taking Reserve Credit or Establishing Assets for Reinsurance Ceded.</heading>
+    <para>
+      <num>A.</num>
+      <text>Allowed. Notwithstanding the prohibitions contained in <cite path="|31|05|07|.05">Regulation .05 of this chapter</cite>, an insurer may, with the prior approval of the Commissioner, take the reserve credit and establish the assets for reinsurance ceded as the Commissioner considers consistent with the <cite doc="Md. Code" path="gin">Insurance Article of the Annotated Code of Maryland</cite>, the Code of Maryland Regulations, and any actuarial interpretations or standards adopted by the Commissioner.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Limitation on Amount of Credit or Assets. An insurer may not take reserve credit or establish assets for reinsurance ceded in an amount that is greater than the underlying reserve of the ceding insurer supporting the policy obligations transferred under the reinsurance agreement.</text>
+    </para>
+  </section>
+  <section cache:ref-path="31|05|07|.05">
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Circumstances Under Which Reduction of Liability and Establishment of Asset Prohibited.</heading>
+    <para>
+      <num>A.</num>
+      <text>In general. An insurer may not, for reinsurance ceded, reduce any liability or establish any asset in any financial statement filed with the Commissioner if, by the terms of the reinsurance agreement, in substance or effect:</text>
+      <para>
+        <num>(1)</num>
+        <text>Renewal expense allowances provided or to be provided to the ceding insurer by the reinsurer in any accounting period are not sufficient to cover anticipated allocable renewal expenses of the ceding insurer on the portion of the business reinsured, unless a liability is established for the present value of the shortfall using assumptions equal to the applicable statutory reserve basis on the business reinsured;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The ceding insurer can be deprived of surplus or assets:</text>
+        <para>
+          <num>(a)</num>
+          <text>At the reinsurer's option, or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Automatically on the occurrence of some event, such as the insolvency of the ceding insurer;</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The ceding insurer is required to reimburse the reinsurer for negative experience;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The ceding insurer is required, at specific points in time scheduled in the agreement, to terminate or automatically recapture all or part of the reinsurance ceded;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The reinsurance agreement involves the possible payment by the ceding insurer to the reinsurer of amounts other than from income realized from the reinsured policies, such as reinsurance premiums or other fees or charges to a reinsurer that are greater than the direct premiums collected by the ceding company;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>All of the significant risk inherent in the business being reinsured is not transferred;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>The credit quality risk, reinvestment risk, or disintermediation risk is significant for the business reinsured and except as provided in <cite path="|31|05|07|.06|B.">Regulation .06B of this chapter</cite>, the ceding company does not:</text>
+        <para>
+          <num>(a)</num>
+          <text>Transfer the underlying assets to the reinsurer, or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Legally segregate the underlying assets in a trust or escrow account or otherwise establish a mechanism satisfactory to the Commissioner that legally segregates, by contract, the underlying assets;</text>
+        </para>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Settlements are made less frequently than quarterly or payments due from the reinsurer are not made in cash within 90 days after the settlement date;</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>The ceding insurer is required to make representations or warranties:</text>
+        <para>
+          <num>(a)</num>
+          <text>Not reasonably related to the business being reinsured, or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>About future performance of the business being reinsured; or</text>
+        </para>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>The reinsurance agreement is entered into for the principal purpose of producing significant surplus aid for the ceding insurer, typically on a temporary basis, while not transferring all of the significant risks inherent in the business reinsured and, in substance or effect, the expected potential liability to the ceding insurer remains basically unchanged.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Acts Not Prohibited.</text>
+      <para>
+        <num>(1)</num>
+        <text>Section A(2) of this regulation does not prohibit a reinsurer from terminating the reinsurance agreement for nonpayment of:</text>
+        <para>
+          <num>(a)</num>
+          <text>Reinsurance premiums; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Other amounts due, such as modified coinsurance reserve adjustments, interest and adjustments on funds withheld, and tax reimbursements.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Section A(3) of this regulation does not prohibit:</text>
+        <para>
+          <num>(a)</num>
+          <text>Offsetting experience refunds against current and prior years' losses under the agreement; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Payment by the ceding insurer of an amount equal to the current and prior years' losses under the agreement on voluntary termination of in force reinsurance by the ceding insurer.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Voluntary termination under <cite path="31|05|07|.05|B.|(2)|(b)">§B(2)(b) of this regulation</cite> does not include termination because of unreasonable provisions that allow the reinsurer to reduce its risk under the agreement, such as a provision that gives the reinsurer the right to increase reinsurance premiums or risk and expense charges to excessive levels forcing the ceding company to prematurely terminate the reinsurance agreement.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="31|05|07|.06">
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Determining Whether Significant Risk Exists.</heading>
+    <para>
+      <num>A.</num>
+      <text>Risk Table.</text>
+      <para>
+        <num>(1)</num>
+        <text>The table contained in this section identifies for a representative sampling of products or types of business the risks that are considered to be significant.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>For products that are not included in the table, the risks determined to be significant shall be consistent with the table.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Table.</text>
+        <text>
+          <table>
+            <tbody>
+              <tr>
+                <td data-text-align="center" data-vertical-align="middle">Type of Policy</td>
+                <td data-text-align="center" data-vertical-align="middle">Morbidity Risk</td>
+                <td data-text-align="center" data-vertical-align="middle">Mortality Risk</td>
+                <td data-text-align="center" data-vertical-align="middle">Lapse Risk</td>
+                <td data-text-align="center" data-vertical-align="middle">Credit<br/>Quality<br/>Risk (C1)</td>
+                <td data-text-align="center" data-vertical-align="middle">Reinvestment<br/>Risk (C2)</td>
+                <td data-text-align="center" data-vertical-align="middle">Disinter-<br/>mediation<br/>Risk (C3)</td>
+              </tr>
+              <tr>
+                <td data-vertical-align="middle">Health Insurance Other Than Long-<br/>Term Care or Disability</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+                <td data-text-align="center" data-vertical-align="middle">0</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+                <td data-text-align="center" data-vertical-align="middle">0</td>
+                <td data-text-align="center" data-vertical-align="middle">0</td>
+                <td data-text-align="center" data-vertical-align="middle">0</td>
+              </tr>
+              <tr>
+                <td data-vertical-align="middle">Health Insurance—Long-Term<br/>Care or Disability</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+                <td data-text-align="center" data-vertical-align="middle">0</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+                <td data-text-align="center" data-vertical-align="middle">0</td>
+              </tr>
+              <tr>
+                <td data-vertical-align="middle">Immediate Annuities</td>
+                <td data-text-align="center" data-vertical-align="middle">0</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+                <td data-text-align="center" data-vertical-align="middle">0</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+                <td data-text-align="center" data-vertical-align="middle">0</td>
+              </tr>
+              <tr>
+                <td data-vertical-align="middle">Single Premium Deferred<br/>Annuities</td>
+                <td data-text-align="center" data-vertical-align="middle">0</td>
+                <td data-text-align="center" data-vertical-align="middle">0</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+              </tr>
+              <tr>
+                <td data-vertical-align="middle">Flexible Premium Deferred<br/>Annuities</td>
+                <td data-text-align="center" data-vertical-align="middle">0</td>
+                <td data-text-align="center" data-vertical-align="middle">0</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+              </tr>
+              <tr>
+                <td data-vertical-align="middle">Guaranteed Interest Contracts</td>
+                <td data-text-align="center" data-vertical-align="middle">0</td>
+                <td data-text-align="center" data-vertical-align="middle">0</td>
+                <td data-text-align="center" data-vertical-align="middle">0</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+              </tr>
+              <tr>
+                <td data-vertical-align="middle">Other Annuity Deposit Business</td>
+                <td data-text-align="center" data-vertical-align="middle">0</td>
+                <td data-text-align="center" data-vertical-align="middle">0</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+              </tr>
+              <tr>
+                <td data-vertical-align="middle">Single Premium Whole Life</td>
+                <td data-text-align="center" data-vertical-align="middle">0</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+              </tr>
+              <tr>
+                <td data-vertical-align="middle">Traditional Non-Par Permanent</td>
+                <td data-text-align="center" data-vertical-align="middle">0</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+              </tr>
+              <tr>
+                <td data-vertical-align="middle">Traditional Non-Par Term</td>
+                <td data-text-align="center" data-vertical-align="middle">0</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+                <td data-text-align="center" data-vertical-align="middle">0</td>
+                <td data-text-align="center" data-vertical-align="middle">0</td>
+                <td data-text-align="center" data-vertical-align="middle">0</td>
+              </tr>
+              <tr>
+                <td data-vertical-align="middle">Traditional Par Permanent</td>
+                <td data-text-align="center" data-vertical-align="middle">0</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+              </tr>
+              <tr>
+                <td data-vertical-align="middle">Traditional Par Term</td>
+                <td data-text-align="center" data-vertical-align="middle">0</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+                <td data-text-align="center" data-vertical-align="middle">0</td>
+                <td data-text-align="center" data-vertical-align="middle">0</td>
+                <td data-text-align="center" data-vertical-align="middle">0</td>
+              </tr>
+              <tr>
+                <td data-vertical-align="middle">Adjustable Premium Permanent</td>
+                <td data-text-align="center" data-vertical-align="middle">0</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+              </tr>
+              <tr>
+                <td data-vertical-align="middle">Indeterminate Premium Permanent</td>
+                <td data-text-align="center" data-vertical-align="middle">0</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+              </tr>
+              <tr>
+                <td data-vertical-align="middle">Universal Life Flexible Premium</td>
+                <td data-text-align="center" data-vertical-align="middle">0</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+              </tr>
+              <tr>
+                <td data-vertical-align="middle">Universal Life Fixed Premium</td>
+                <td data-text-align="center" data-vertical-align="middle">0</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+              </tr>
+              <tr>
+                <td data-vertical-align="middle">Universal Life Fixed Premium<br/>(dump-in premiums allowed)</td>
+                <td data-text-align="center" data-vertical-align="middle">0</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+                <td data-text-align="center" data-vertical-align="middle">+</td>
+              </tr>
+            </tbody>
+          </table>
+        </text>
+      </para>
+      <aftertext>KEY: + = Significant 	0 = Insignificant</aftertext>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Classes of Business for Which Separation of Assets Not Required. Notwithstanding <cite path="|31|05|07|.05|A.|(7)">Regulation .05A(7) of this chapter</cite>, a ceding insurer may hold assets supporting reserves without segregating the assets for the following classes of business:</text>
+      <para>
+        <num>(1)</num>
+        <text>Health insurance—long-term care or long-term disability;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Traditional non-par permanent;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Traditional par permanent;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Adjustable premium permanent;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Indeterminate premium permanent;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Universal life fixed premium with no dump-in premiums allowed; and</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Any other class of business that does not have a significant credit quality risk, reinvestment risk, or disintermediation risk.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Formula for Determining Reserve Interest Rate Adjustment.</text>
+      <para>
+        <num>(1)</num>
+        <text>The associated formula for determining the reserve interest rate adjustment shall be a formula that:</text>
+        <para>
+          <num>(a)</num>
+          <text>Reflects the ceding insurer's investment earnings; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Incorporates all realized and unrealized gains and losses reflected in the statutory statement.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The following is an acceptable formula:</text>
+        <text>Rate =  [2(I+CG)] divided by [X + Y - I - CG]</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>In the formula under <cite path="31|05|07|.06|C.|(2)">§C(2) of this regulation</cite>:</text>
+        <para>
+          <num>(a)</num>
+          <text>I is the net investment income;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>CG is capital gains less capital losses;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>X is the current year cash and investment assets plus investment income due and accrued less borrowed money; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Y is the same as X, but for the prior year.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="31|05|07|.07">
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Filing Agreements with Commissioner.</heading>
+    <para>
+      <num>A.</num>
+      <text>Filing Required. A ceding insurer shall file with the Commissioner:</text>
+      <para>
+        <num>(1)</num>
+        <text>Each agreement entered into after the effective date of this chapter that involves the reinsurance of business issued before the effective date of the agreement; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Any amendment to an agreement required to be filed under <cite path="31|05|07|.07|A.|(1)">§A(1) of this regulation</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Time for Filing. A ceding insurer shall file an agreement or amendment within 30 days after the execution of the agreement or amendment.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Contents of Filing. Each filing shall include data detailing the financial impact of the transaction.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Duties of Actuary.</text>
+      <para>
+        <num>(1)</num>
+        <text>The ceding insurer's actuary, who signs the financial statement actuarial opinion with respect to valuation of reserves, shall consider this chapter and any applicable actuarial standards of practice when determining the proper credit in financial statements filed with the Commissioner.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The actuary shall maintain adequate documentation and be prepared, on request, to:</text>
+        <para>
+          <num>(a)</num>
+          <text>Describe the actuarial work performed for inclusion in the financial statements; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Demonstrate that the work conforms to this chapter.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Increase in Surplus Net of Federal Income Tax.</text>
+      <para>
+        <num>(1)</num>
+        <text>If there is an increase in surplus net of federal income tax resulting from arrangements described in this regulation, the surplus increase shall be:</text>
+        <para>
+          <num>(a)</num>
+          <text>Identified separately on the insurer's statutory financial statement as a surplus item on the "aggregate write-ins for gains and losses in surplus" line in the capital and surplus account in the annual statement; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Recognized as income by being reflected on a net of tax basis in the "reinsurance ceded" line of the annual statement as earnings emerge from the business reinsured.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The following is an example of how an increase in surplus should be identified on the insurer's statutory financial statement:</text>
+        <para>
+          <num>(a)</num>
+          <text>On the last day of calendar year N, company XYZ pays a $20 million initial commission and expense allowance to company ABC for reinsuring an existing block of business;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Assuming a 34 percent tax rate, the net increase in surplus at inception is $13.2 million ($20 million - $6.8 million) which is reported on the "aggregate write-ins for gains and losses in surplus" line in the capital and surplus account;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>$6.8 million (34 percent of $20 million) is reported as income on the "commissions and expense allowances or reinsurance ceded" line of the summary of operations;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>At the end of N+1 the business has earned $4 million;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Company ABC has paid $0.5 million in profit and risk charges in arrears for the year and has received a $1 million experience refund;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Company ABC's annual statement would report $1.65 million (66 percent of ($4 million - $1 million - $0.5 million) up to a maximum of $13.2 million) on the "commissions and expense allowance on reinsurance ceded" line of the summary of operations, and -$1.65 million on the "aggregate write-ins for gains and losses in surplus" line of the capital and surplus account; and</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>The experience refund would be reported separately as a miscellaneous income item in the summary of operations.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Requirements of Written Agreements.</heading>
+    <para>
+      <num>A.</num>
+      <text>Execution by Both Parties. An insurer may not use a reinsurance agreement or an amendment to a reinsurance agreement to reduce any liability or to establish any asset in a financial statement filed with the Commissioner, unless the agreement, amendment, or a binding letter of intent has been duly executed by both parties not later than the "as of date" of the financial statement.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Letter of Intent—Time of Execution. In the case of a letter of intent, a reinsurance agreement or an amendment to a reinsurance agreement shall be executed within a reasonable period of time, not exceeding 90 days from the execution date of the letter of intent, in order for credit to be granted for the reinsurance ceded.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Contents of Reinsurance Agreement. A reinsurance agreement shall provide that:</text>
+      <para>
+        <num>(1)</num>
+        <text>The agreement constitutes the entire agreement between the parties with respect to the business being reinsured under the agreement;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>There are no understandings between the parties other than as expressed in the agreement; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Any change to the agreement is void unless made by amendment to the agreement and signed by both parties.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="31|05|07|.09">
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Existing Agreements.</heading>
+    <para>
+      <num>A.</num>
+      <text>Subject to <cite path="31|05|07|.09|B.">§B of this regulation</cite>, an insurer shall reduce to zero by December 31, 1998, any reserve credits or assets established with respect to reinsurance agreements entered into before the effective date of this chapter that, under this chapter, would not be entitled to recognition of the reserve credits or assets.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>An insurer is entitled to the grace period for a reinsurance agreement under <cite path="31|05|07|.09|A.">§A of this regulation</cite> only if the reinsurance agreement was in compliance with the law and regulations in existence immediately preceding the effective date of this chapter.</text>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Insurance Article, §§<cite doc="Md. Code" path="gin|1-101">1-101</cite>(jj), <cite doc="Md. Code" path="gin|2-109">2-109</cite>, <cite doc="Md. Code" path="gin|3-124">3-124</cite>, <cite doc="Md. Code" path="gin|3-125">3-125</cite>, <cite doc="Md. Code" path="gin|4-113">4-113</cite>, <cite doc="Md. Code" path="gin|4-114">4-114</cite>, <cite doc="Md. Code" path="gin|4-116">4-116</cite>, <cite doc="Md. Code" path="gin|5-103">5-103</cite>, <cite doc="Md. Code" path="gin|5-201">5-201</cite>(b)(<cite doc="Md. Code" path="gin|2">2</cite>), <cite doc="Md. Code" path="gin|5-203">5-203</cite>, <cite doc="Md. Code" path="gin|5-901">5-901</cite>, <cite doc="Md. Code" path="gin|5-903">5-903</cite>—<cite doc="Md. Code" path="gin|5-905">5-905</cite>, <cite doc="Md. Code" path="gin|14-102">14-102</cite>, <cite doc="Md. Code" path="gin|14-108">14-108</cite>—<cite doc="Md. Code" path="gin|14-111">14-111</cite>, <cite doc="Md. Code" path="gin|14-124">14-124</cite>(b), and <cite doc="Md. Code" path="gin|14-126">14-126</cite>, and Title 5, Subtitle 3, Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="1993-01-02">Effective date: January 2, 1993 (19:26 Md. R. 2287)</annotation>
+    <annotation type="History" dest="container" effective="1998-05-04">Regulations <cite path="|31|05|07|.01">.01</cite>—<cite path="|31|05|07|.05">.05</cite> repealed and new Regulations <cite path="|31|05|07|.01">.01</cite>—<cite path="|31|05|07|.09">.09</cite> adopted as an emergency provision effective December 19, 1997 (25:2 Md. R. 73); adopted permanently effective May 4, 1998 (25:9 Md. R. 678)</annotation>
+    <annotation type="History" dest="container" effective="1998-09-07" discontinuity="true">Chapter recodified from <cite path="|09.30.91">COMAR 09.30.91</cite> to <cite path="|31.05.07">COMAR 31.05.07</cite> effective September 7, 1998 (25:18 Md. R. 1439)</annotation>
+    <annotation type="History" dest="container" effective="2007-12-17"><cite path="|31|05|07|.01|D.">Regulation .01D</cite> amended effective December 17, 2007 (34:25 Md. R. 2216)</annotation>
+  </annotations>
+</container>

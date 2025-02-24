@@ -1,0 +1,534 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>49</num>
+  <heading>Telehealth Services</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Scope.</heading>
+    <para>
+      <num>A.</num>
+      <text>This chapter applies to covered services delivered via synchronous telehealth and eligible for reimbursement by the Maryland Medicaid Program.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The purpose of providing medically necessary services via telehealth is to improve:</text>
+      <para>
+        <num>(1)</num>
+        <text>Access to services, thus reducing preventable hospitalizations and barriers to health care access;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Access to outpatient and inpatient subspecialty services, thus improving diagnostic clarification, treatment recommendations, and planning for the individual;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Health outcomes through timely disease detection and treatment options; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Capacity and choice for ongoing treatment in underserved areas of the State.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="10|09|49|.02">
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>"Administrative services organization (ASO)" means an entity that manages the Public Behavioral Health System on behalf of the Department.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>“Department” means the Maryland Department of Health, which is the single State agency designated to administer the Medical Assistance Program under Title XIX of the Social Security Act, 42 U.S.C. §1396 et seq.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>“Distant site” means a site at which the licensed, certified, or otherwise authorized distant site provider is located at the time the service is provided via technology-assisted communication.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>"Distant site provider" means the licensed, certified, or otherwise authorized provider at the distant site who provides medically necessary services via telehealth to the patient.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>"GT modifier" means the Healthcare Common Procedure Coding System (HCPCS) service code modifier indicating that the provider rendered a healthcare service via an interactive audio and video telecommunications system.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>“Medically necessary" means that the service or benefit is:</text>
+        <para>
+          <num>(a)</num>
+          <text>Directly related to diagnostic, preventive, curative, palliative, rehabilitative, or ameliorative treatment of an illness, injury, disability, or health condition;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Consistent with currently accepted standards of good medical practice;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The most cost-efficient service that can be provided without sacrificing effectiveness or access to care; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Not primarily for the convenience of the participant, family, or provider.</text>
+        </para>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>“Originating site means the location of an eligible Medicaid participant at the time the service being furnished via technology-assisted communication occurs.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>"Participant" means an individual who is certified as eligible for, and is receiving, Medical Assistance benefits.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>"Provider" means:</text>
+        <para>
+          <num>(a)</num>
+          <text>An individual, association, partnership, corporation, unincorporated group, or any other person authorized, licensed, or certified to provide services for Medical Assistance participants and who, through appropriate agreement with the Department, has been identified as a Maryland Medical Assistance Provider by the issuance of an individual account number;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>An agent, employee, or related party of a person identified in <cite path="10|09|49|.02|B.|(12)|(a)">§B(12)(a) of this regulation</cite>;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>An individual or any other person with an ownership interest in a person identified in <cite path="10|09|49|.02|B.|(12)|(a)">§B(12)(a) of this regulation</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>Store and Forward Technology.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Store and forward technology" means the transmission of medical images or other media captured by the originating site provider and sent electronically to a distant site provider, who does not physically interact with the patient located at the originating site.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Store and forward technology" does not mean dermatology, ophthalmology, or radiology services according to <cite path="10.09.02.07">COMAR 10.09.02.07</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>"Technology-assisted communication" means multimedia communication equipment permitting two-way real-time interactive communication between a patient at an originating site and a distant site provider at a distant site.</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>“Telehealth” means the synchronous delivery of medically necessary services to a patient at an originating site by distant site provider, through the use of technology-assisted communication.</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>“Telehealth Program” means the program by which medically necessary services are authorized to be delivered via technology-assisted communication between originating and distant site providers.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Covered Services.</heading>
+    <text>Under the Telehealth Program, the Department shall cover:</text>
+    <para>
+      <num>A.</num>
+      <text>Medically necessary services covered by the Maryland Medical Assistance Program rendered via telehealth that shall be:</text>
+      <para>
+        <num>(1)</num>
+        <text>Distinct from services provided in person;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Able to be delivered using technology-assisted communication; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Clinically appropriate to be delivered via telehealth;</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Services provided via telehealth to the same extent and standard of care as services provided in person;</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>As determined by the provider’s licensure or credentialing board, services performed via telehealth within the scope of a provider’s practice; and</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Services permitted to be provided via telehealth as set forth in the COMAR chapter defining the covered service being rendered..</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Provider Conditions for Participation.</heading>
+    <para>
+      <num>A.</num>
+      <text>To render or bill for services delivered via telehealth, the provider shall meet the requirements as set forth in:</text>
+      <para>
+        <num>(1)</num>
+        <text><cite path="10.09.36.02">COMAR 10.09.36.02</cite>;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text><cite path="10.09.36.03">COMAR 10.09.36.03</cite>; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The COMAR chapter defining the covered service being rendered.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The provider shall obtain the participant’s consent to services via telehealth, unless there is an emergency that prevents obtaining consent, which shall be documented in the participant’s medical record.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Medical Record Documentation. The provider shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Maintain documentation in the same manner as during an in-person visit, using either electronic or paper medical records;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Retain telehealth records according to the provisions of Health-General Article, §4-403, Annotated Code of Maryland; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Include the participant's consent to participate in telehealth or an explanation as to why consent was not available.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>An originating site may be any secure location, approved by the participant and the provider, for the delivery of telehealth services.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Distant Site Providers may render services via telehealth within the provider's scope of practice.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Technical Requirements.</heading>
+    <para>
+      <num>A.</num>
+      <text>A provider of services delivered through telehealth shall adopt and implement technology in a manner that supports the standard of care to deliver the required service.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A service delivered through synchronous audio-visual telehealth shall, at a minimum, meet the following technology requirements:</text>
+      <para>
+        <num>(1)</num>
+        <text>Cameras at both the originating and distant sites that provide clear, synchronous video of the patient and provider, respectively, with the ability to meet the clinical requirements of the service;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Unless engaging in a telehealth with a participant who is deaf or hard of hearing, microphones and speakers at both the originating and distant sites, respectively, that provide clear, synchronous, two-way audio transmission;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Network connectivity and bandwidth at both the originating and distant site sufficient to provide clear, synchronous two-way video and audio for the full duration of the service;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Display monitor size sufficient to support diagnostic needs used in the telehealth services; and</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Utilize technology that meets the standards required by State and federal laws governing the privacy and security of protected health information (HIPAA compliant).</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Confidentiality.</heading>
+    <text>The provider:</text>
+    <para>
+      <num>A.</num>
+      <text>Shall comply with all State and federal laws and regulations concerning the privacy and security of protected health information, including but not limited to:</text>
+      <para>
+        <num>(1)</num>
+        <text>Health-General Article, Title 4, Subtitle 3, Annotated Code of Maryland; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Health Insurance Portability and Accountability Act of 1996 (HIPAA), 42 U.S.C. §§1320d et seq., as amended, the HITECH Act, 42 U.S.C. §§17932, et seq., as amended, and 45 CFR Parts 160 and 164, as amended;</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Shall ensure that all interactive video technology-assisted and audio-only communication comply with HIPAA patient privacy and security regulations throughout the transmission process;</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Shall occupy a space or area that meets the minimum standards for privacy expected for a patient-provider interaction;</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>May not disseminate any participant images or information to other entities without the participant's consent, unless there is an emergency that prevents obtaining consent; and</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>May not store the video images or audio portion of the service delivered via telehealth for future use.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Limitations.</heading>
+    <para>
+      <num>A.</num>
+      <text>A service delivered via telehealth is subject to the same program restrictions, preauthorizations, limitations, and coverage that exist for services delivered in person.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A service delivered via telehealth does not include:</text>
+      <para>
+        <num>(1)</num>
+        <text>An audio-only telephone conversation between a health care provider and a patient unless provided on dates of service between July 1, 2021, and June 30, 2023, inclusive;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An electronic mail message between a health care provider and a patient;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A facsimile transmission between a health care provider and a patient; or</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>A telephone conversation, electronic mail message, or facsimile transmission between providers without direct interaction with the patient.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Store and forward technology does not meet the Maryland Medical Assistance Program's definition of telehealth. The Maryland Medical Assistance Program covers services such as dermatology, ophthalmology, and radiology according to <cite path="10.09.02.07">COMAR 10.09.02.07</cite>.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The provider may not bill the Maryland Medicaid Assistance Program for services delivered via telehealth when technical difficulties preclude the delivery of all or part of the telehealth session.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>The Department may not reimburse for services that:</text>
+      <para>
+        <num>(1)</num>
+        <text>Require in-person evaluation; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Cannot be reasonably delivered via telehealth as specified in provider specific COMAR chapters, and subregulatory guidance issued by the Department.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>A provider eligible to bill a professional fee for a health care service shall bill a professional fee for the health care service instead of a clinic facility fee.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Reimbursements.</heading>
+    <para>
+      <num>A.</num>
+      <text>To receive reimbursement for services delivered via telehealth, a provider shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Be actively enrolled with Maryland Medical Assistance on the date the service is rendered; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Comply with payment procedures as set forth in <cite path="|10.09.36">COMAR 10.09.36</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Distant Site Reimbursement.</text>
+      <para>
+        <num>(1)</num>
+        <text>The distant site provider shall be reimbursed as set forth in the COMAR chapter defining the covered service being rendered.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Services delivered via telehealth shall be billed with the telehealth GT modifier.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Services delivered via telehealth shall be within the provider's scope of practice as determined by its governing licensure or credentialing board.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Limitations.</heading>
+    <para>
+      <num>A.</num>
+      <text>A service provided through telehealth is subject to the same program restrictions, preauthorizations, limitations, and coverage that exist for the service when provided in person.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A telehealth service does not include:</text>
+      <para>
+        <num>(1)</num>
+        <text>An audio-only telephone conversation between a health care provider and a patient;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An electronic mail message between a health care provider and a patient;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A facsimile transmission between a health care provider and a patient; or</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>A telephone conversation, electronic mail message, or facsimile transmission between the originating and distant site providers without interaction between the distant site provider and the patient.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Store and forward technology does not meet the Maryland Medical Assistance Program’s definition of telehealth. The Maryland Medical Assistance Program covers services such as dermatology, ophthalmology, and radiology according to <cite path="10.09.02.07">COMAR 10.09.02.07</cite>.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Telehealth-delivered services may not bill to the Maryland Medical Assistance Program or to the ASO when technical difficulties preclude the delivery of part or all of the telehealth session.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>The Department may not reimburse a provider for the following:</text>
+      <para>
+        <num>(1)</num>
+        <text>Services that occur during an ambulance transport;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Communications between providers where the participant is not physically present at the originating site;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Telehealth services delivered where the originating site is not a permitted originating site provider as set forth in <cite path="|10|09|49|.06">Regulation .06 of this chapter</cite>; or</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Mental health and substance use disorder services that did not receive prior authorization from the Department or its ASO.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>The Department may not reimburse for services that:</text>
+      <para>
+        <num>(1)</num>
+        <text>Require in-person evaluation; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Cannot be reasonably delivered via telehealth.</text>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>The Department may not reimburse distant site providers for a facility fee.</text>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>The Department may not reimburse for home health monitoring services.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.10</num>
+    <heading>Reimbursement.</heading>
+    <para>
+      <num>A.</num>
+      <text>To receive reimbursement for telehealth services, a provider shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Be actively enrolled with Maryland Medical Assistance;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Participate with a telehealth partner that meets provider conditions for participation as set forth in <cite path="|10|09|49|.06">Regulation .06 of this chapter</cite>; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If a provider is a behavioral health service provider, be registered as a provider through the ASO on the date the service is rendered.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Distant Site Reimbursement.</text>
+      <para>
+        <num>(1)</num>
+        <text>The distant site shall be reimbursed:</text>
+        <para>
+          <num>(a)</num>
+          <text>For somatic services provided via telehealth, as set forth in <cite path="10.09.02.07|D.">COMAR 10.09.02.07D</cite>;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>For mental health services provided via telehealth, as set forth in <cite path="10.09.59.09">COMAR 10.09.59.09</cite>; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>For substance use disorder services provided via telehealth, as set forth in <cite path="10.09.80.08">COMAR 10.09.80.08</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Services delivered via telehealth shall be billed with the telehealth GT modifier.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Services delivered via telehealth shall be within the provider’s scope of practice as determined by its governing licensure or credentialing board.</text>
+      </para>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Health-General Article, §§2-104(b), 15-103, 15-105, and 15-105.2(b), Annotated Code of Maryland; Ch. 280, Acts of 2013; Ch. 366, Acts of 2016; <br/>Ch. 367, Acts of 2016</annotation>
+    <annotation type="History" dest="container" effective="2013-09-30">Effective date: September 30, 2013 (40:19 Md. R. 1546)</annotation>
+    <annotation type="History" dest="container" effective="2015-10-26"><cite path="|10|09|49|.01">Regulation .01</cite> amended effective October 26, 2015 (42:21 Md. R. 1300)</annotation>
+    <annotation type="History" dest="container" effective="2014-12-22"><cite path="|10|09|49|.01|A.">Regulation .01A</cite> amended effective December 22, 2014 (41:25 Md. R. 1479)</annotation>
+    <annotation type="History" dest="container" effective="2016-04-11"><cite path="|10|09|49|.02|B.">Regulation .02B</cite> amended effective April 28, 2014 (41:8 Md. R. 471); December 22, 2014 (41:25 Md. R. 1479); October 26, 2015 (42:21 Md. R. 1300); April 11, 2016 (43:7 Md. R. 449)</annotation>
+    <annotation type="History" dest="container" effective="2015-10-26"><cite path="|10|09|49|.03">Regulation .03</cite> amended effective December 22, 2014 (41:25 Md. R. 1479); October 26, 2015 (42:21 Md. R. 1300)</annotation>
+    <annotation type="History" dest="container" effective="2015-10-26"><cite path="|10|09|49|.04">Regulation .04</cite> amended effective October 26, 2015 (42:21 Md. R. 1300)</annotation>
+    <annotation type="History" dest="container" effective="2014-12-22"><cite path="|10|09|49|.04|D.">Regulation .04D</cite> amended effective December 22, 2014 (41:25 Md. R. 1479)</annotation>
+    <annotation type="History" dest="container" effective="2015-10-26"><cite path="|10|09|49|.05">Regulation .05</cite> amended effective December 22, 2014 (41:25 Md. R. 1479); October 26, 2015 (42:21 Md. R. 1300)</annotation>
+    <annotation type="History" dest="container" effective="2016-04-11"><cite path="|10|09|49|.05|B.">Regulation .05B</cite>, D amended effective April 11, 2016 (43:7 Md. R. 449)</annotation>
+    <annotation type="History" dest="container" effective="2015-10-26"><cite path="|10|09|49|.06">Regulation .06</cite> amended effective October 26, 2015 (42:21 Md. R. 1300)</annotation>
+    <annotation type="History" dest="container" effective="2014-12-22"><cite path="|10|09|49|.06|B.">Regulation .06B</cite> amended effective December 22, 2014 (41:25 Md. R. 1479)</annotation>
+    <annotation type="History" dest="container" effective="2015-10-26"><cite path="|10|09|49|.07">Regulation .07</cite> amended effective December 22, 2014 (41:25 Md. R. 1479); October 26, 2015 (42:21 Md. R. 1300)</annotation>
+    <annotation type="History" dest="container" effective="2016-04-11"><cite path="|10|09|49|.07|B.">Regulation .07B</cite> amended effective April 11, 2016 (43:7 Md. R. 449)</annotation>
+    <annotation type="History" dest="container" effective="2015-10-26"><cite path="|10|09|49|.08">Regulation .08</cite> amended effective April 28, 2014 (41:8 Md. R. 471); October 26, 2015 (42:21 Md. R. 1300)</annotation>
+    <annotation type="History" dest="container" effective="2015-10-26"><cite path="|10|09|49|.09">Regulation .09</cite> amended effective October 26, 2015 (42:21 Md. R. 1300)</annotation>
+    <annotation type="History" dest="container" effective="2015-10-26"><cite path="|10|09|49|.10|A.">Regulation .10A</cite>, B amended effective October 26, 2015 (42:21 Md. R. 1300)</annotation>
+    <annotation type="History" dest="container" effective="2015-10-26"><cite path="|10|09|49|.11">Regulation .11</cite> amended effective October 26, 2015 (42:21 Md. R. 1300)</annotation>
+    <annotation type="History" dest="container" effective="2014-12-22"><cite path="|10|09|49|.11|I.">Regulation .11I</cite>, J adopted effective December 22, 2014 (41:25 Md. R. 1479)</annotation>
+    <annotation type="History" dest="container" effective="2014-12-22"><cite path="|10|09|49|.12|A.">Regulation .12A</cite>, B amended effective December 22, 2014 (41:25 Md. R. 1479)</annotation>
+    <annotation type="History" dest="container" effective="2015-10-26"><cite path="|10|09|49|.12">Regulation .12</cite> repealed and new Regulation .12 adopted effective October 26, 2015 (42:21 Md. R. 1300)</annotation>
+    <annotation type="History" dest="container" effective="2016-10-24" discontinuity="true">Chapter revised effective October 24, 2016 (43:21 Md. R. 1166)</annotation>
+    <annotation type="History" dest="container" effective="2017-10-23"><cite path="|10|09|49|.02|B.">Regulation .02B</cite> amended effective October 23, 2017 (44:21 Md. R. 983)</annotation>
+    <annotation type="History" dest="container" effective="2017-10-23"><cite path="|10|09|49|.04|D.">Regulation .04D</cite> amended effective October 23, 2017 (44:21 Md. R. 983)</annotation>
+    <annotation type="History" dest="container" effective="2017-10-23"><cite path="|10|09|49|.05">Regulation .05</cite> amended effective October 23, 2017 (44:21 Md. R. 983)</annotation>
+    <annotation type="History" dest="container" effective="2017-10-23"><cite path="|10|09|49|.06">Regulation .06</cite> amended effective October 23, 2017 (44:21 Md. R. 983)</annotation>
+    <annotation type="History" dest="container" effective="2018-03-26"><cite path="|10|09|49|.07|C.">Regulation .07C</cite>, D amended effective March 26, 2018 (45:6 Md. R. 319)</annotation>
+    <annotation type="History" dest="container" effective="2017-10-23"><cite path="|10|09|49|.07|D.">Regulation .07D</cite> amended effective October 23, 2017 (44:21 Md. R. 983)</annotation>
+    <annotation type="History" dest="container" effective="2017-10-23"><cite path="|10|09|49|.09">Regulation .09</cite> amended effective October 23, 2017 (44:21 Md. R. 983)</annotation>
+    <annotation type="History" dest="container" effective="2017-10-23"><cite path="|10|09|49|.10">Regulation .10</cite> amended effective October 23, 2017 (44:21 Md. R. 983)</annotation>
+    <annotation type="History" dest="container" effective="2017-10-23"><cite path="|10|09|49|.11">Regulation .11</cite> amended effective October 23, 2017 (44:21 Md. R. 983)</annotation>
+    <annotation type="History" dest="container" effective="2017-02-27"><cite path="|10|09|49|.11|C.">Regulation .11C</cite>, D amended effective February 27, 2017 (44:4 Md. R. 252)</annotation>
+    <annotation type="History" dest="container" effective="2019-10-07" discontinuity="true">Chapter revised effective October 7, 2019 (46:20 Md. R. 844)</annotation>
+    <annotation type="History" dest="container" effective="2023-07-24" discontinuity="true">Chapter revised effective July 24, 2023 (50:14 Md. R. 593)</annotation>
+  </annotations>
+</container>

@@ -1,0 +1,384 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>02</num>
+  <heading>Tax Payments — Immediately Available Funds</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>"ACH credit" means a transaction in which a taxpayer, through the taxpayer's bank and an automated clearing house, originates an entry crediting the State of Maryland's bank account and debiting the taxpayer's bank account for the amount of the payment due.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>"ACH debit" means a transaction in which the Treasurer, through a designated depository bank and an automated clearing house, originates an entry debiting the taxpayer's bank account and crediting Maryland's bank account for the amount of the payment due.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>"Automated clearing house (ACH)" means a central clearing facility operated by:</text>
+        <para>
+          <num>(a)</num>
+          <text>A federal reserve bank; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>An organization established by agreement with the National Automated Clearing House Association (NACHA) which:</text>
+          <para>
+            <num>(i)</num>
+            <text>Operates as a clearing house for transmitting or receiving entries between banks and bank accounts, and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Authorizes an electronic transfer of funds between banks or bank accounts.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>"Business day" means the hours between 8 a.m. and 8 p.m. prevailing Eastern time, on a day other than a Saturday, Sunday, or any holiday as defined in <cite doc="Md. Code" path="gtg|1-201">Tax-General Article, §1-201(a), Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>"Comptroller" means the Comptroller of Maryland or the Comptroller's designee.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>"Direct debit" means an electronic transfer of an authorized payment from a taxpayer's checking or savings account into the State's bank account.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>"Immediately available funds" means an ACH credit, an ACH debit, direct debit, or wire transfer.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>"Person" means an individual, receiver, trustee, guardian, personal representative, fiduciary, or representative of any kind, including an agent of a taxpayer, and any partnership, firm, association, corporation, or other entity.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>"Tax" means tax, interest, penalty, and fees.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>"Taxpayer" means any person required to pay a tax or file a return or a report.</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>"TXP" means the tax payment addendum convention for use with the National Automated Clearing House Association's CCD+ application.</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>"Wire transfer" means a transaction in which a taxpayer, through the taxpayer's bank, originates an entry crediting the State of Maryland's bank account and debiting the taxpayer's bank account on the same day the transaction is initiated.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="03|01|02|.02">
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Requirements for Payment by Immediately Available Funds.</heading>
+    <para>
+      <num>A.</num>
+      <text>A taxpayer whose unpaid tax liability is $10,000 or more shall remit payment by immediately available funds pursuant to the following:</text>
+      <para>
+        <num>(1)</num>
+        <text>Except as provided for in <cite path="03|01|02|.02|A.|(2)">§A(2) of this regulation</cite>, payment shall be made by using:</text>
+        <para>
+          <num>(a)</num>
+          <text>ACH credit;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>ACH debit; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Direct debit;</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Payment by wire transfer may be used if the taxpayer:</text>
+        <para>
+          <num>(a)</num>
+          <text>Initiates an ACH credit or authorizes an ACH debit transaction which fails; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Receives prior approval from the Comptroller.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>An agent of a taxpayer or taxpayers shall remit payment by immediately available funds under <cite path="03|01|02|.02|A.">§A of this regulation</cite> if the total amount of the payments to be made by the agent for any period exceeds $10,000 in the aggregate, not including any amounts for which the agent has not received timely payment from the taxpayer.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Payment by immediately available funds applies to the payment of:</text>
+      <para>
+        <num>(1)</num>
+        <text>Income tax withheld by an employer;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Corporation income tax;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Except as provided for in <cite path="03|01|02|.02|H.">§H of this regulation</cite>, sales and use tax;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Motor fuel tax;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Motor carrier tax;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Alcoholic beverage tax; or</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Tobacco tax.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>A person using the ACH debit or credit method shall provide:</text>
+      <para>
+        <num>(1)</num>
+        <text>The taxpayer's Maryland tax account number; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A statement of the type of tax and the tax period for which the payment is being made.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>A person using the direct debit method shall provide:</text>
+      <para>
+        <num>(1)</num>
+        <text>The taxpayer's federal employer identification number;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The taxpayer's Maryland tax account number;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The tax type and tax period for which the payment is being made; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Any additional information required to accurately report the tax due.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>A separate ACH credit, ACH debit, direct debit, or wire transfer as allowed under <cite path="03|01|02|.02|A.|(2)">§A(2) of this regulation</cite> shall be made for each type of tax and for each period for which the tax is due.</text>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>A taxpayer not required to remit payments in immediately available funds may use the ACH credit, ACH debit, or direct debit method for tax payments. The wire transfer method is permitted only if the taxpayer receives prior approval from the Comptroller.</text>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>A taxpayer may not make payment using ACH credit for the payment of sales and use tax on sales of alcoholic beverages.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Registration.</heading>
+    <text>A person making a payment by ACH debit, or as an agent for a taxpayer, may be required to register with the Comptroller before initiation of an ACH tax payment.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Rules for Use of ACH and Direct Debit Payments.</heading>
+    <para>
+      <num>A.</num>
+      <text>General Rule. A taxpayer using the ACH payment method shall make the appropriate arrangements to initiate the payment at least one business day before the due date so that the transfer is executed on the date payment is due.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Specific Rules for ACH Debit.</text>
+      <para>
+        <num>(1)</num>
+        <text>A taxpayer using the ACH debit payment method shall make the appropriate arrangements to initiate the payment by 2 p.m. on the last banking day before the due date.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The taxpayer shall furnish to the Comptroller the banking information necessary to generate ACH debits against the taxpayer's designated account.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If a taxpayer elects the ACH debit payment method and the banking information necessary to generate the ACH debit against the taxpayer's account changes, the taxpayer shall provide the new banking information to the Comptroller 30 days before initiating an ACH transaction.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The taxpayer, to initiate payment of a tax, shall contact the Comptroller and report the tax information in accordance with <cite path="|03|01|02|.02|D.">Regulation .02D of this chapter</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Specific Rules for ACH Credit.</text>
+      <para>
+        <num>(1)</num>
+        <text>A taxpayer electing the ACH credit payment method shall initiate each payment of tax by contacting the taxpayer's own financial institution and requesting the institution to transfer both the appropriate identifying information and payment to the State of Maryland's depository bank by an ACH credit.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The taxpayer shall remit an ACH credit transaction with an addendum record formatted in accordance with the appropriate TXP convention.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Specific Rules for Direct Debit.</text>
+      <para>
+        <num>(1)</num>
+        <text>The direct debit method is only available for:</text>
+        <para>
+          <num>(a)</num>
+          <text>Income tax withheld by an employer; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Sales and use tax.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The taxpayer shall furnish to the Comptroller the banking information necessary to generate the direct debit against the taxpayer's designated account.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The taxpayer, to initiate payment of a tax, shall log on to the bFile (business online filing) program on the Comptroller's website or onto an approved third-party website and provide the tax information in accordance with the prompts and instructions and with <cite path="|03|01|02|.02|E.">Regulation .02E of this chapter</cite>.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="03|01|02|.05">
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Miscellaneous Filing and Reporting Provisions.</heading>
+    <para>
+      <num>A.</num>
+      <text>A person making a tax payment using the ACH credit, ACH debit, direct debit, or wire transfer method shall file the following returns:</text>
+      <para>
+        <num>(1)</num>
+        <text>For Maryland individual income tax withholding:</text>
+        <para>
+          <num>(a)</num>
+          <text>Annual Employer Withholding Reconciliation Return using Form MW508;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Amended Annual Employer Withholding Reconciliation Return on Form MW508A; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Amended Employer’s Return of Income Tax Withheld using Form MW506A or for accelerated filers using Form MW506AM;</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Maryland Corporation Income Tax Return Form 500; or</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>For Maryland motor fuel-related taxes:</text>
+        <para>
+          <num>(a)</num>
+          <text>Dealer Tax Return Form GTD100 and all applicable supporting schedules and worksheets;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Special Fuel User/Seller Tax Return Form GTD-300 and all applicable supporting schedules and worksheets;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Special Return—Jet Fuel and Aviation Gas Return Form GTD-AV and all applicable supporting schedules and worksheets; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Class W Distributor Return Form GTD-100W.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A person making tax payments using the ACH credit, ACH debit, direct debit, or wire transfer method may not file the corresponding returns or reports if the payment was for any of the following:</text>
+      <para>
+        <num>(1)</num>
+        <text>Employer’s Return of Income Tax Withheld Form MW506 or for accelerated filers Form MW506M;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Declaration of Estimated Corporation Income Tax Form 500D;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Maryland Application for Extension of Time to File Corporation Income Tax Return Form 500E; or</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Sales and Use Tax Return Form 202 or Form 202F.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A taxpayer who remits taxes by ACH credit, ACH debit, direct debit, or wire transfer method shall indicate that fact on all returns required to be filed for that period for which payment is being made as listed under <cite path="03|01|02|.05|A.">§A of this regulation</cite>.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Payment of Delinquent Taxes by Immediately Available Funds.</heading>
+    <text>The Comptroller may require a taxpayer having a delinquent unpaid tax liability to remit the unpaid taxes by immediately available funds regardless of the amount of the delinquent unpaid tax for:</text>
+    <para>
+      <num>A.</num>
+      <text>Income tax withheld by an employer;</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Corporation income tax; or</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Sales and use tax.</text>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Tax-General Article, §§<cite doc="Md. Code" path="gtg|2-103">2-103</cite>, <cite doc="Md. Code" path="gtg|13-104">13-104</cite>, and <cite doc="Md. Code" path="gtg|13-105">13-105</cite>, Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="1993-04-26">Effective date: April 26, 1993 (20:8 Md. R. 722)</annotation>
+    <annotation type="History" dest="container" effective="2017-03-27"><cite path="|03|01|02|.01|B.">Regulation .01B</cite> amended effective January 14, 1999 (26:1 Md. R. 19); November 10, 2003 (30:22 Md. R. 1577); March 27, 2017 (44:6 Md. R. 324)</annotation>
+    <annotation type="History" dest="container" effective="1999-01-14"><cite path="|03|01|02|.02">Regulation .02</cite> amended effective January 14, 1999 (26:1 Md. R. 19)</annotation>
+    <annotation type="History" dest="container" effective="2003-11-10"><cite path="|03|01|02|.02">Regulation .02</cite> amended as an emergency provision effective July 1, 2003 (30:15 Md. R. 989); amended permanently effective November 10, 2003 (30:22 Md. R. 1577)</annotation>
+    <annotation type="History" dest="container" effective="2017-03-27"><cite path="|03|01|02|.02">Regulation .02</cite> amended effective March 27, 2017 (44:6 Md. R. 324)</annotation>
+    <annotation type="History" dest="container" effective="2009-02-09"><cite path="|03|01|02|.02|A.">Regulation .02A</cite> amended effective February 9, 2009 (36:3 Md. R. 207)</annotation>
+    <annotation type="History" dest="container" effective="1995-02-27"><cite path="|03|01|02|.02|A.">Regulation .02A</cite>, B amended effective February 27, 1995 (22:4 Md. R. 235)</annotation>
+    <annotation type="History" dest="container" effective="2003-07-01"><cite path="|03|01|02|.02|A.">Regulation .02A</cite>, B amended as an emergency provision effective July 1, 2003 (30:15 Md. R. 989)</annotation>
+    <annotation type="History" dest="container" effective="2012-04-30"><cite path="|03|01|02|.02|C.">Regulation .02C</cite> amended effective May 13, 2002 (29:9 Md. R. 744); April 30, 2012 (39:8 Md. R. 533)</annotation>
+    <annotation type="History" dest="container" effective="2014-03-31"><cite path="|03|01|02|.02|F.">Regulation .02F</cite> amended effective March 31, 2014 (41:6 Md. R. 377)</annotation>
+    <annotation type="History" dest="container" effective="2012-04-30"><cite path="|03|01|02|.02|I.">Regulation .02I</cite> adopted effective April 30, 2012 (39:8 Md. R. 533)</annotation>
+    <annotation type="History" dest="container" effective="2003-07-01"><cite path="|03|01|02|.02|G.">Regulation .02G</cite> amended as an emergency provision effective July 1, 2003 (30:15 Md. R. 989); emergency status expired December 31, 2003</annotation>
+    <annotation type="History" dest="container" effective="1995-02-27"><cite path="|03|01|02|.04|A.">Regulation .04A</cite> amended effective February 27, 1995 (22:4 Md. R. 235)</annotation>
+    <annotation type="History" dest="container" effective="2003-07-01"><cite path="|03|01|02|.04|B.">Regulation .04B</cite> amended as an emergency provision effective July 1, 2003 (30:15 Md. R. 989)</annotation>
+    <annotation type="History" dest="container" effective="2003-11-10"><cite path="|03|01|02|.04|B.">Regulation .04B</cite> amended and D adopted effective November 10, 2003 (30:22 Md. R. 1577)</annotation>
+    <annotation type="History" dest="container" effective="2003-07-01"><cite path="|03|01|02|.05">Regulation .05</cite> amended as an emergency provision effective July 1, 2003 (30:15 Md. R. 989)</annotation>
+    <annotation type="History" dest="container" effective="2003-11-10"><cite path="|03|01|02|.05">Regulation .05</cite> amended effective November 10, 2003 (30:22 Md. R. 1577)</annotation>
+    <annotation type="History" dest="container" effective="1995-02-27"><cite path="|03|01|02|.05|A.">Regulation .05A</cite> amended effective February 27, 1995 (22:4 Md. R. 235)</annotation>
+    <annotation type="History" dest="container" effective="2022-05-02"><cite path="|03|01|02|.05|A.">Regulation .05A</cite>, B amended effective January 14, 1999 (26:1 Md. R. 19); March 21, 2011 (38:6 Md. R. 393); April 30, 2012 (39:8 Md. R. 533); March 31, 2014 (41:6 Md. R. 377); May 2, 2022 (49:9 Md. R.  529)</annotation>
+  </annotations>
+</container>

@@ -1,0 +1,1209 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>01</num>
+  <heading>Statewide DNA Data Base System and Repository</heading>
+  <section cache:ref-path="29|05|01|.01">
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>"Arraignment" means the earlier of the appearance of counsel or the scheduled or actual initial appearance of the defendant before the circuit court pursuant to Maryland Rule 4-213, even if waived by the defendant.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>"Arrestee" means an individual required to provide a DNA sample, pursuant to <cite doc="Md. Code" path="gps|2-501">Public Safety Article, §2-501 </cite>et seq., Annotated Code of Maryland, after being charged with:</text>
+        <para>
+          <num>(a)</num>
+          <text>Burglary or an attempt to commit burglary, or a crime of violence as enumerated in <cite doc="Md. Code" path="gcr|14-101">Criminal Law Article, §14-101(a), Annotated Code of Maryland</cite>, except for mayhem; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Any attempt to commit the crimes referred to in <cite path="29|05|01|.01|B.|(2)|(a)">§B(2)(a) of this regulation</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>"Burglary" includes the crimes enumerated in Criminal Law Article, §§<cite doc="Md. Code" path="gcr|6-202">6-202</cite>—<cite doc="Md. Code" path="gcr|6-204">6-204</cite>, Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Charged.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Charged" means an individual against whom a written accusation has been made alleging that a defendant has committed an offense.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Charged" includes a citation, an indictment, an information, and a statement of charges.</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>"CODIS" means the Federal Bureau of Investigation's Combined DNA Index System that allows the storage and exchange of DNA records submitted by federal, state, and local law enforcement systems.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>"CODIS requirements" means the policies and procedures established by NDIS and the Federal Bureau of Investigation.</text>
+      </para>
+      <para>
+        <num>(6-1)</num>
+        <text>"Collected" means collected and submitted to a crime lab for testing.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>"Crime Laboratory" or "Crime Lab" means the Department of State Police, Forensic Sciences Division.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>"Crime of violence" means:</text>
+        <para>
+          <num>(a)</num>
+          <text>Those crimes enumerated in <cite doc="Md. Code" path="gcr|14-101">Criminal Law Article, §14-101, Annotated Code of Maryland</cite>, except mayhem; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Attempts to commit the crimes referred to in <cite path="29|05|01|.01|B.|(8)|(a)">§B(8)(a) of this regulation</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>"Detention facility" means a State prison, county jail facility, or Department of State Police installation used for the purpose of sample collection.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>"Director" means the Director of the Department of State Police Crime Laboratory, or the Director's designee.</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>"DNA" means deoxyribonucleic acid.</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>"DNA data base collection kit" or "kit" means the kit provided by the Crime Laboratory for the collection of DNA arrestee or convicted offender samples.</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>"DNA record" means DNA information stored in the Statewide DNA Data Base System of the Department of State Police, Crime Laboratory, or CODIS, and includes that information commonly referred to as a DNA profile.</text>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>"DNA sample" means a body fluid or tissue sample provided by an individual convicted of or charged with a qualifying crime pursuant to <cite doc="Md. Code" path="gps|2-501">Public Safety Article, §2-501 </cite>et seq., Annotated Code of Maryland, or a body fluid or tissue sample submitted to the Statewide DNA Data Base System for analysis pursuant to a criminal investigation.</text>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>Expungement.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Expungement" means the removal and destruction of the arrestee or convicted offender DNA sample and the deletion of testing results from CODIS.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Expungement" does not include a record by the Crime Lab of information related to the taking or destruction of a sample.</text>
+        </para>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>"FBI Standards" means the:</text>
+        <para>
+          <num>(a)</num>
+          <text>Quality Assurance Standards for Forensic DNA Testing Laboratories (effective October 1, 1998); and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Quality Assurance Standards for Convicted Offender DNA Databasing Laboratories (effective April 1, 1999).</text>
+        </para>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>"Forensic or evidence sample" means DNA obtained from an item of evidence or a individual, including suspect samples, other than one required to be collected pursuant to <cite doc="Md. Code" path="gps|2-501">Public Safety Article, §2-501 </cite>et seq., Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(18)</num>
+        <text>"Immediately" means as soon as practicable and does not require any actions to be taken during weekends, holidays, or periods other than when normal State business is conducted.</text>
+      </para>
+      <para>
+        <num>(19)</num>
+        <text>"Letter" includes any writing regardless of format and includes electronic notifications and transmittals.</text>
+      </para>
+      <para>
+        <num>(20)</num>
+        <text>"Local law enforcement agency" or "local law enforcement unit" means the agency of a county or municipal corporation in the State that performs police protection functions.</text>
+      </para>
+      <para>
+        <num>(21)</num>
+        <text>"Notice" means any notification, whether verbal or in writing, sent by regular first-class mail, facsimile, or email.</text>
+      </para>
+      <para>
+        <num>(22)</num>
+        <text>"PCR" means polymerase chain reaction.</text>
+      </para>
+      <para>
+        <num>(23)</num>
+        <text>"Personal identification information" means that information pertaining to the sample donor's name, state identification number, or any other traceable number or information that is directly associated with that person.</text>
+      </para>
+      <para>
+        <num>(24)</num>
+        <text>"Placed" means entered.</text>
+      </para>
+      <para>
+        <num>(25)</num>
+        <text>"Population data base" means a collection of DNA profiles, usually grouped by race, used for statistical evaluation, research, quality control, and protocol development of forensic DNA analysis methods. Personal identification information is not associated with this data base.</text>
+      </para>
+      <para>
+        <num>(26)</num>
+        <text>"Qualifying crime" means those offenses that require collection of a DNA sample upon arrest or conviction.</text>
+      </para>
+      <para>
+        <num>(27)</num>
+        <text>"Qualifying crime upon arrest" includes:</text>
+        <para>
+          <num>(a)</num>
+          <text>A burglary or attempt to commit burglary, or a crime of violence as enumerated in <cite doc="Md. Code" path="gcr|14-101">Criminal Law Article, §14-101(a), Annotated Code of Maryland</cite>, except mayhem; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Any attempt to commit the crimes referred to in <cite path="29|05|01|.01|B.|(27)|(a)">§B(27)(a) of this regulation</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(28)</num>
+        <text>"Qualifying crime upon conviction" includes the following:</text>
+        <para>
+          <num>(a)</num>
+          <text>All felonies;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Fourth degree burglary; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Breaking and entering of a motor vehicle.</text>
+        </para>
+      </para>
+      <para>
+        <num>(29)</num>
+        <text>"Secretary" means the Secretary of the State Police.</text>
+      </para>
+      <para>
+        <num>(30)</num>
+        <text>"State Police" means the Department of State Police.</text>
+      </para>
+      <para>
+        <num>(31)</num>
+        <text>"Statewide DNA Data Base System" means the DNA record system administered by the Department of State Police, Crime Laboratory for identification purposes.</text>
+      </para>
+      <para>
+        <num>(32)</num>
+        <text>"Statewide DNA repository" means the Department of State Police, Crime Laboratory repository of DNA samples collected under this chapter.</text>
+      </para>
+      <para>
+        <num>(33)</num>
+        <text>"Target DNA file" means a DNA profile originating from case material to be searched against the Statewide DNA Data Base System.</text>
+      </para>
+      <para>
+        <num>(34)</num>
+        <text>"Testing" means DNA typing tests that generate identification information and are obtained from a DNA sample. The term "testing" and "analysis" are, for the purposes of this chapter, interchangeable.</text>
+      </para>
+      <para>
+        <num>(35)</num>
+        <text>"Typing results" means the information generated during the forensic analysis (Restriction Fragment Length Polymorphisms (RFLP), PCR-based technologies, or current acceptable techniques for forensic analysis) of a DNA sample, sometimes referred to as a DNA profile.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01-1</num>
+    <heading>Incorporation by Reference.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following documents are incorporated by reference.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Documents Incorporated.</text>
+      <para>
+        <num>(1)</num>
+        <text>Quality Assurance Standards for Forensic DNA Testing Laboratories (October 1, 1998).</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Quality Assurance Standards for Convicted Offender DNA Databasing Laboratories (April 1, 1999).</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="29|05|01|.02">
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Introduction.</heading>
+    <para>
+      <num>A.</num>
+      <text>Scope.</text>
+      <para>
+        <num>(1)</num>
+        <text>This chapter governs only the collection, submission, receipt, identification, testing, storage, and disposal of DNA samples from individuals arrested and charged or convicted, or both, for various specified crimes and the entry of the samples into the State DNA Data Base System and CODIS pursuant to <cite doc="Md. Code" path="gps|2-501">Public Safety Article, §2-501 </cite>et seq., Annotated Code of Maryland. This chapter does not govern evidentiary, suspect, and forensic samples otherwise legally obtained, whether by search warrant, court order, consent, or other method except as specifically provided in <cite path="|29|05|01|.16">Regulation .16 of this chapter</cite>.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If an individual is suspected of committing a crime and a law enforcement agency wishes to obtain a DNA sample from the suspect to compare to evidence collected at a crime scene, and obtains court authorization to collect the DNA sample at the time of arrest, this sample is not one collected pursuant to this chapter and is not, therefore, handled in accordance with this chapter.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>As noted in <cite path="29|05|01|.02|A.|(2)">§A(2) of this regulation</cite>, if an individual's DNA sample is collected pursuant to a court authorization, such as a search warrant or court order, at the time of the individual's arrest, another DNA sample shall also be taken upon charging if the arrest is for a qualifying crime as set forth in this chapter. This DNA data base sample shall be handled in accordance with the terms of this chapter, including the time of taking, analyzing, and expungement, if applicable.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>If an individual's DNA sample is taken pursuant to court authorization and not due to the individual's being arrested and charged for a qualifying crime under this chapter, the regulations concerning collection, analysis, use, and expungement are not applicable.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Only DNA data base samples that are required to be taken pursuant to <cite doc="Md. Code" path="gps|2-501">Public Safety Article, §2-501 </cite>et seq., Annotated Code of Maryland, are subject to the terms and requirements of this chapter except as specifically provided in <cite path="|29|05|01|.06">Regulation .06 of this chapter</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The Secretary, after consulting with the Director, shall establish policies and procedures for:</text>
+      <para>
+        <num>(1)</num>
+        <text>The collection, submission, identification, analysis, storage, and disposal of DNA samples provided by an arrestee or an individual convicted of a qualifying crime; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Access to the dissemination of typing results and personal identification information of samples that are submitted under Regulations .11 and .12 of this chapter.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The Director, upon consulting with the Secretary, shall establish policies and procedures for a centrally located Statewide DNA Data Base System and Statewide DNA repository.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The Crime Laboratory shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Receive DNA samples for testing, classification, and storage;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>File the DNA record of identification characteristic profiles of each DNA sample submitted to the Laboratory; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Make information relating to DNA samples and DNA records available to other agencies and individuals as authorized in Regulations .11 and .12 of this chapter.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>System Maintenance.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Director shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Administer and manage the Statewide DNA Data Base System;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Consult with the Secretary to establish system protocols and operations;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Ensure compatibility with Federal Bureau of Investigation and CODIS requirements, including the use of:</text>
+        <para>
+          <num>(a)</num>
+          <text>Comparable test procedures;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Quality assurance, proficiency tests, and audits;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Laboratory equipment;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Computer software and hardware; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Ensure the security and confidentiality of all records in the system.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The Director may contract with a qualified DNA laboratory that meets the guidelines established by the Director to complete DNA typing analysis. The Director may also contract with a separate qualified private contractor to obtain the DNA samples from individuals convicted of a qualifying crime. This does not preclude the use of the Department of Public Safety and Correctional Services' medical staff for the DNA collection or the hiring of additional personnel by the Department of State Police.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Collecting Samples.</heading>
+    <para>
+      <num>A.</num>
+      <text>An individual shall have a DNA sample collected if:</text>
+      <para>
+        <num>(1)</num>
+        <text>Charged with a crime of violence or an attempt to commit a crime of violence;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Charged with burglary or an attempt to commit burglary;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Convicted of a qualifying crime; or</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Ordered by a court.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Samples Collected upon Charge.</text>
+      <para>
+        <num>(1)</num>
+        <text>A DNA sample shall be collected during booking by the sheriff's office, police department, regional jail, or any other entity specified by the Secretary that is responsible for booking upon being charged.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An arrestee sample may not be tested or placed into the Statewide DNA Data Base System before the first scheduled arraignment date.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>DNA Sample Processed Before First Scheduled Arraignment Date.</text>
+        <para>
+          <num>(a)</num>
+          <text>An arrestee may request, by notarized written request to the Director, that the DNA sample be processed before the first scheduled arraignment date for the sole purpose of having the sample checked against a sample that:</text>
+          <para>
+            <num>(i)</num>
+            <text>Has been processed from the crime scene or the hospital; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Is related to the charges against that individual.</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The Crime Lab shall process the sample before arraignment, whenever practicable, if time and resources permit.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>If the collecting agency determines that a convicted offender Statewide DNA Data Base sample already exists for an arrestee, the agency is not required to obtain a new sample.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>A failure to obtain a new sample from an arrestee does not prohibit the obtaining of a sample at a later date if it is determined, for any reason, that a preexisting sample is not in the Statewide DNA Data Base as long as the individual remains eligible for inclusion in the Statewide DNA Data Base System.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>At the time of collection of the DNA sample, an arrestee shall be given written notice, by the collecting agency, in a manner prescribed by the Director, that the DNA record may be subject to expungement as provided by <cite path="|29|05|01|.14">Regulation .14 of this chapter</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Reasonable force may be used in order to obtain a required arrestee or convicted offender DNA sample.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>A second DNA sample shall be taken if ordered by the court for good cause shown.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>The failure of a person, convicted of a qualifying crime and placed on probation, to provide a DNA sample within 90 days of the date of the initial request for a sample shall result in the notification to the Department of Public Safety and Correctional Service's Division of Parole and Probation that a violation of conditions of probation has occurred.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>For an individual convicted but not sentenced to a term of imprisonment, a sample shall be collected at a facility designated by the Director.</text>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>The Department of Public Safety and Correctional Services shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>By the 15th day of each month, provide the Director with a report:</text>
+        <para>
+          <num>(a)</num>
+          <text>Of the number and the names of the prisoners who were convicted of a qualifying crime and began their incarceration the previous month; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Indicating that no prisoners began their incarceration the previous month;</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Include on the monthly report of those prisoners convicted of a qualifying crime of violence, the prisoner's:</text>
+        <para>
+          <num>(a)</num>
+          <text>Name;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Race;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Sex;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Date of birth;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>State identification (SID);</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Specific qualifying crime;</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>Location of prisoner;</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>Anticipated release date; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Identify a Department of Public Safety and Correctional Services employee who, on an ongoing basis, will assist in the DNA sample collection process by coordinating with the appropriate prison official the place, time, and date when the samples will be collected.</text>
+      </para>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>A county jail administration shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>By the 15th day of each month, provide the Director with a report:</text>
+        <para>
+          <num>(a)</num>
+          <text>Of the number and the names of the prisoners who were convicted of a qualifying crime of violence and began their incarceration the previous month; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Indicating that no prisoners began their incarceration the previous month;</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Include on the monthly report of those prisoners convicted of a qualifying crime of violence, the prisoner's:</text>
+        <para>
+          <num>(a)</num>
+          <text>Name;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Race;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Sex;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Date of birth;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>State identification (SID);</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Specific qualifying crime;</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>Location of prisoner;</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>Anticipated release date; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Identify a county jail employee who, on an ongoing basis, will assist in the arrestee or convicted offender DNA sample collection process by coordinating with the appropriate prison official the place, time, and date when the samples will be collected.</text>
+      </para>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>The arrestee or convicted offender DNA samples submitted for analysis shall be collected by an individual who is:</text>
+      <para>
+        <num>(1)</num>
+        <text>Designated by the Director; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Trained in the collection procedures that the Crime Laboratory uses.</text>
+      </para>
+    </para>
+    <para>
+      <num>J.</num>
+      <text>An arrestee or convicted offender DNA sample shall be collected according to the instructions specified by the Director that are included in a DNA data base sample collection kit, approved and provided by the Director.</text>
+    </para>
+    <para>
+      <num>K.</num>
+      <text>The individual collecting a sample shall verify the identity of the individual from whom a sample is taken by name and, if applicable, State identification (SID) number.</text>
+    </para>
+    <para>
+      <num>L.</num>
+      <text>If the DNA arrestee sample is not collected at the time of electronic capture, such as LIVE SCAN or electronic booking facility or if an inked ten print card is used, then using normal fingerprinting procedures, the individual from whom a sample is taken shall place both inked index fingers where indicated on the DNA data base information card contained in the collection kit. These prints shall be used by the laboratory to check the individual's identity. If the subject is missing an index finger, this fact shall be indicated in the space for recording the fingerprint and the next available finger should be used with documentation as to which finger was used.</text>
+    </para>
+    <para>
+      <num>M.</num>
+      <text>Immediately after a sample is obtained it shall be placed in the kit provided, sealed, and within 24 hours, transported or mailed to the Crime Laboratory.</text>
+    </para>
+    <para>
+      <num>N.</num>
+      <text>The chain of custody portion of the DNA data base information card in the sample kit shall include the date and time a sample was collected and the signature of the individual who collected and sealed the kit.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Transporting Samples.</heading>
+    <text>Samples shall be transported from a prison, detention facility, or other authorized location to the Crime Laboratory by:</text>
+    <para>
+      <num>A.</num>
+      <text>Contract courier;</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>First class U.S. mail service; or</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>State Police personnel.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Using Samples.</heading>
+    <para>
+      <num>A.</num>
+      <text>Only DNA records that directly relate to the forensic identification of individuals shall be collected and stored.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The Statewide DNA Data Base System may not be used for the purpose of identification of an offender in connection with a crime for which the offender may be a biological relative of the individual from whom the DNA arrestee or convicted offender sample was acquired.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>To the extent fiscal resources are available, arrestee or convicted offender DNA samples shall be tested, and the records only used:</text>
+      <para>
+        <num>(1)</num>
+        <text>To analyze and type genetic markers contained in or derived from DNA samples;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>To further a criminal offense investigation;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>To assist in the identification of human remains;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>To assist in the identification of missing persons; and</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>For research and administrative purposes, including:</text>
+        <para>
+          <num>(a)</num>
+          <text>Development of a population data base after personal identifying information is removed;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Support of identification research and protocol development of forensic DNA analysis methods; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Quality control purposes.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Storing Records.</heading>
+    <para>
+      <num>A.</num>
+      <text>The records shall be stored in a secured computer system and secured laboratory files according to State Police standard operating procedures and CODIS requirements.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Records and specimen information shall be identified by:</text>
+      <para>
+        <num>(1)</num>
+        <text>A unique laboratory tracking number;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Name of the donor;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>State identification number;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Date of birth;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Name and place of collection;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Collector's name;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Date sample was taken;</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Type of offense;</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>Race; and</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>Sex.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Verification of identity shall be conducted by the Latent Print Unit on the fingerprints found on the DNA data base information/chain of custody card.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Storing Samples.</heading>
+    <para>
+      <num>A.</num>
+      <text>Blood, body fluid, or tissue samples shall be given a unique laboratory tracking number.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Samples shall be stored in a secured area according to State Police standard operating procedures.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Samples shall only be accessible to designated personnel.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The DNA data base information/chain of custody cards shall be maintained in secured laboratory files.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>When preserving a sample for storage, it may be condensed or dried in accordance with accepted standard practices for the type of sample being stored. Excess sample matter and its container may be discarded.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Storing Typing Results.</heading>
+    <para>
+      <num>A.</num>
+      <text>Blood, body fluid, or tissue samples shall be analyzed according to State Police protocol and standard operating procedures by personnel qualified under the FBI Standards and CODIS requirements.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The analytically derived typing results shall be filed according to the unique laboratory tracking number in a secured computer and laboratory files. Secured results shall be entered into the system upon review by a second analyst. These files are accessible to qualified personnel only.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.10</num>
+    <heading>Quality Assurance.</heading>
+    <para>
+      <num>A.</num>
+      <text>Any procedure adopted by the Director shall include quality assurance guidelines to ensure that DNA identification records meet standards and audit requirements for laboratories that submit DNA records for inclusion in the Statewide DNA Data Base System and CODIS.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The Crime Laboratory and each analyst performing DNA analyses at the Crime Laboratory shall undergo, twice yearly, external proficiency testing by a DNA proficiency testing program that meets the standards as follows:</text>
+      <para>
+        <num>(1)</num>
+        <text>Section 1003 of the Federal DNA Identification Act of 1994; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>FBI Standards.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.11</num>
+    <heading>Access to DNA Data.</heading>
+    <para>
+      <num>A.</num>
+      <text>A request by letter for obtaining information from the Statewide DNA Data Base System and CODIS shall be submitted to the Director, from the requesting agency's department head or designee.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The letter from the requesting agency shall contain:</text>
+      <para>
+        <num>(1)</num>
+        <text>The reason for conducting the search;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The type of criminal offense;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The intentions of prosecution;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The authority behind requesting the search;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The details concerning the source of specimens within the "Target DNA" files; and</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>A laboratory point of contact, telephone number, and email address.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>An electronic request for obtaining information from the Statewide DNA Data Base System and CODIS may initiate a search, but information may not be released without a formal request.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The Director, or designee, shall verify the identity of the agency or person submitting a request for DNA information by:</text>
+      <para>
+        <num>(1)</num>
+        <text>A confirmation telephone call or letter between the agencies; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Requiring a person in authority at the requesting laboratory to sign and return the agreement of interlaboratory search form.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Before announcing a match with DNA information received from the Statewide DNA Data Base System, the requesting laboratory shall, if requested:</text>
+      <para>
+        <num>(1)</num>
+        <text>Submit to the Director or designee:</text>
+        <para>
+          <num>(a)</num>
+          <text>Duplicates of the final test results;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The laboratory's quality assurance standards; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The allele designations; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Conduct a telephone conference call or an electronic exchange of information between laboratory personnel.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>After verification by the Director or designee that a match has been made in the Statewide DNA Data Base System and the request complies with the purposes in <cite path="|29|05|01|.06|C.">Regulation .06C of this chapter</cite>, the typing results and personal identification information of the DNA profile of an individual in the Statewide DNA Data Base System may be made available, by letter, to the following agencies or persons:</text>
+      <para>
+        <num>(1)</num>
+        <text>Federal, state, and local law enforcement agencies;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Crime laboratories that serve federal, state, and local law enforcement agencies that have been approved by the Director;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A State's attorney's office or other prosecutorial office; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>A person participating in a judicial proceeding in which the data base information may be offered as evidence.</text>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>The typing results and personal identification information of the DNA profile of an individual in the Statewide DNA Data Base System shall be made available to a defendant or a defendant's counsel on written order of the court in which the case is pending.</text>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>A search of the data base shall be conducted to determine the existence of a match to DNA obtained from crime scene evidence taken in relation to the crime for which a defendant is charged if, upon the request of that defendant, a written court order commands the data base search.</text>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>This chapter does not limit a court from ordering any discovery of a DNA record or other related material in a criminal case.</text>
+    </para>
+    <para>
+      <num>J.</num>
+      <text>The Director shall maintain a permanent file of all requests received for DNA information and the disposition of each request.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.12</num>
+    <heading>Match—Evidence and Data Base.</heading>
+    <text>A match obtained between an evidence sample and a data base entry may only be used as probable cause to obtain a new DNA sample from the subject and is not admissible at trial unless confirmed by additional testing.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.13</num>
+    <heading>Population Data Base.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Director shall create a population data base comprised of DNA samples obtained from the general population.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>All personal identifiers shall be removed before the information is entered into the population data base.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The population data base information may be shared or disseminated with the following:</text>
+      <para>
+        <num>(1)</num>
+        <text>Federal, state, or local law enforcement agencies;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Crime laboratories that serve federal, state, and local law enforcement agencies that have been approved by the Director;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A State's attorney's office; or</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>A third party that the Director deems necessary to assist the Crime Laboratory with statistical analysis of the population data base.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The population data base may be made available to and searched by any agency participating in the CODIS system.</text>
+    </para>
+  </section>
+  <section cache:ref-path="29|05|01|.14">
+    <prefix>Regulation</prefix>
+    <num>.14</num>
+    <heading>Expunging DNA Records.</heading>
+    <para>
+      <num>A.</num>
+      <text>An individual whose DNA record or profile has been included in the Statewide DNA Data Base System and whose DNA sample is stored in the Statewide DNA repository may request that information be expunged on the grounds that the conviction which resulted in its inclusion meets the expungement criteria specified in <cite doc="Md. Code" path="gcp|10-105">Criminal Procedure Article, §10-105, Annotated Code of Maryland</cite>.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Upon receipt of an order of expungement, the Director shall purge a DNA record, DNA sample, or other identifiable information covered by the order from the Statewide DNA Data Base System and the Statewide DNA repository.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A DNA sample collected from an arrestee shall be immediately destroyed if all qualifying criminal charges are determined to be unsupported by probable cause. Notice shall be provided to the defendant and counsel, if any, of the destruction.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>A DNA sample and DNA record collected from an arrestee shall be automatically expunged from any data base into which it has been entered if:</text>
+      <para>
+        <num>(1)</num>
+        <text>The criminal action against the individual does not result in a conviction of the individual and there is no further trial, disposition, appeal, or other proceeding in the criminal action;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The conviction is finally reversed or vacated and no new trial is permitted; or</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The individual is granted an unconditional pardon.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>An expungement pursuant to <cite path="29|05|01|.14|D.">§D of this regulation</cite> shall occur within 60 business days of the act requiring expungement.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Written notice shall be provided to the defendant and counsel, if any, of the expungement.</text>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>An arrestee record or arrestee sample that qualifies for expungement and is matched concurrent with or subsequent to the date that the arrestee sample qualifies for expungement:</text>
+      <para>
+        <num>(1)</num>
+        <text>May not be used for determining probable cause regardless of whether it is expunged in a timely manner; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Is not admissible in any proceeding for any purpose.</text>
+      </para>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>An arrestee DNA sample and DNA record may not be automatically expunged if:</text>
+      <para>
+        <num>(1)</num>
+        <text>The arrestee's qualifying criminal action is put on the stet docket; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The arrestee receives probation before judgment on any charge that qualified the arrestee for collection.</text>
+      </para>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>If an arrestee is charged with multiple qualifying offenses, the DNA arrestee sample and DNA record are not subject to automatic expungement unless all applicable charges qualify for expungement as set forth in <cite path="29|05|01|.14|D.">§D of this regulation</cite>.</text>
+    </para>
+    <para>
+      <num>J.</num>
+      <text>If an individual whose DNA sample is in the Statewide DNA Data Base System for a reason other than as a sample collected from an arrestee, any additional sample shall remain in the data base and is not subject to automatic expungement.</text>
+    </para>
+    <para>
+      <num>K.</num>
+      <text>Records and samples not previously expunged will be expunged 100 years from the date submitted.</text>
+    </para>
+    <para>
+      <num>L.</num>
+      <text>The Director shall maintain a permanent file of all requests to expunge DNA data base records, and the disposition of those requests.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.15</num>
+    <heading>Unauthorized Use.</heading>
+    <para>
+      <num>A.</num>
+      <text>An individual who, by virtue of employment or official position, has possession of or access to individual identifiable DNA information contained in the Statewide DNA Data Base System or Statewide DNA repository and who willfully discloses that information in any manner to a person or agency not entitled to receive that information is guilty of a misdemeanor and on conviction is subject to a fine not exceeding $5,000 or imprisonment not exceeding 5 years, or both.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A person who, without authorization, willfully obtains individually identifiable DNA information from the Statewide DNA Data Base System or repository is guilty of a misdemeanor and on conviction is subject to a fine not exceeding $5,000 or imprisonment not exceeding 5 years, or both.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>An individual who willfully tests an arrestee or convicted offender DNA sample for information that does not relate to the identification of individuals as specified by <cite doc="Md. Code" path="gps|2-501">Public Safety Article, §2-501 </cite>et seq., Annotated Code of Maryland, is guilty of a misdemeanor and on conviction is subject to a fine not exceeding $5,000 or imprisonment not exceeding 5 years, or both.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>An individual who willfully fails to destroy an arrestee or convicted offender DNA sample under the following circumstances is guilty of a misdemeanor and on conviction is subject to a fine not exceeding $1,000 or imprisonment not exceeding 1 year, or both:</text>
+      <para>
+        <num>(1)</num>
+        <text>When notification has been sent stating that the DNA sample obtained pursuant to <cite doc="Md. Code" path="gps|2-501">Public Safety Article, §2-501 </cite>et seq., Annotated Code of Maryland, has been destroyed; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Destruction has been court ordered.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="29|05|01|.16">
+    <prefix>Regulation</prefix>
+    <num>.16</num>
+    <heading>Reporting Requirements.</heading>
+    <para>
+      <num>A.</num>
+      <text>Not later than April 1, 2010, and annually thereafter, the Department of State Police shall compile an annual report to the Governor and to the General Assembly. The annual report or a hyperlink to it shall be posted on the website of the Department of State Police not later than April 1 of each year.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Content of the Annual Report.</text>
+      <para>
+        <num>(1)</num>
+        <text>The annual report shall include, for the preceding calendar year, total expenses that the Crime Laboratory incurred to operate the Statewide DNA Data Base System including:</text>
+        <para>
+          <num>(a)</num>
+          <text>Full-time, part-time, and contractual salary and fringe benefit costs for scientists and support personnel assigned to the State Police Crime Laboratory for DNA data base purposes;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>DNA collection kit costs, including costs required to transport kits from collection sites to the Crime Lab;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>DNA data base operational costs, including new hardware, software, and maintenance; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>DNA testing and analysis costs, including in-house equipment purchased and outsource testing and analysis costs.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Funds Provided by the State. Not later than January 31, 2010, and annually thereafter, the Governor’s Office of Crime Prevention, Youth, and Victim Services shall report to the Department of State Police the total grant amount, by municipality, awarded for the preceding calendar year by the Governor’s Office of Crime Prevention, Youth, and Victim Services to any municipal crime laboratory, not including grants to the Crime Laboratory.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Individual Data and Analysis. The Department of State Police shall include in the annual report, for the preceding calendar year, the racial demographics of all individuals who have been charged with qualifying crimes upon arrest in the following categories:</text>
+        <para>
+          <num>(a)</num>
+          <text>Asian;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>African-American;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>White;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Hispanic; or</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Other.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Case-Specific Data Collection and Analysis. Not later than January 31, 2010, and annually thereafter, the Governor’s Office of Crime Prevention, Youth, and Victim Services shall report to the Department of State Police the following data, for the preceding calendar year, for inclusion in the annual report:</text>
+        <para>
+          <num>(a)</num>
+          <text>The number of convicted offender or arrestee DNA matches in a calendar year;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The number of matches that resulted in the investigation of the individual identified in the match;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The number of matches resulting in formal charges;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>The number of matches resulting in convictions;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>The number of convicted individuals exonerated by DNA matches in a calendar year;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>The number of matches resulting in convictions of individuals who were not already incarcerated; and</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>For convictions where a match occurred, that individual's prior offenses.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Requirements of Local Law Enforcement Agencies. On or before January 31, 2010, and annually thereafter, local law enforcement shall report the information necessary for the Crime Laboratory to comply with the reporting requirements of this regulation.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Additional Reporting by Local Law Enforcement Agencies and the Department of State Police to the Office of Legislative Audits, in Coordination with the Governor’s Office of Crime Prevention, Youth, and Victim Services.</text>
+      <para>
+        <num>(1)</num>
+        <text>For the purposes of this section, crime scene DNA evidence is a forensic or evidence sample as defined in <cite path="29.05.01.01|B.|(17)">COMAR 29.05.01.01B(17)</cite>, including samples submitted for biological screening or serology testing .</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Not later than January 31, 2010, and by April 1 of every even-numbered year thereafter, the following shall be reported for the preceding calendar year to the Office of Legislative Audits, in coordination with the Governor’s Office of Crime Prevention, Youth, and Victim Services, by each local law enforcement agency and the Department of State Police:</text>
+        <para>
+          <num>(a)</num>
+          <text>The categories of crimes for which crime scene DNA evidence is routinely collected;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The number of cases in which crime scene DNA evidence samples were collected during the preceding year for each category of crime reported pursuant to <cite path="29|05|01|.16|D.|(2)|(a)">§D(2)(a) of this regulation</cite>;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The average time between crime scene DNA evidence collection, as defined by <cite path="29.05.01.01|B.|(6-1)">COMAR 29.05.01.01B(6-1)</cite>, and analysis.</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>The number of cases in which crime scene DNA evidence samples were collected, but were still pending analysis by the end of the reporting period; and</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>The number of crime scene DNA evidence samples submitted and qualified for inclusion into the Statewide DNA Data Base during the preceding year.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The schedule for annual reporting shall be as follows:</text>
+        <para>
+          <num>(a)</num>
+          <text>Not later than January 31, 2010, and by January 31 of every even-numbered year thereafter, local law enforcement agencies shall report to the Governor’s Office of Crime Prevention, Youth, and Victim Services; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Not later than February 28, 2010, and by April 1 of every even-numbered year thereafter, the Governor’s Office of Crime Prevention, Youth, and Victim Services shall report to the Office of Legislative Audits.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The data reported by each local law enforcement agency under this regulation shall be transmitted to the Office of Legislative Audits by the Governor’s Office of Crime Prevention, Youth, and Victim Services as part of the reporting process.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Additional Reporting by the Maryland Department of Health to the Office of Legislative Audits. Not later than April 1, 2010, and by April 1 of every even-numbered year thereafter, the Maryland Department of Health shall report to the Office of Legislative Audits, in coordination with the Governor’s Office of Crime Prevention, Youth, and Victim Services, the number of hospital forensic examinations reimbursed by the Department for each county and the City of Baltimore for the preceding calendar year.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>The Office of Legislative Audits shall compile and evaluate the information provided to it in order to submit a summary report to the Governor and to the General Assembly in accordance with <cite doc="Md. Code" path="gsg|2-1246">State Government Article, §2-1246, Annotated Code of Maryland</cite>.</text>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Noncompliance with Request for Information.</text>
+      <para>
+        <num>(1)</num>
+        <text>Local law enforcement agencies, the Office of the Public Defender, and the Departments of Health  and Public Safety and Correctional Services shall cooperate with information requests from the Governor’s Office of Crime Prevention, Youth, and Victim Services in its efforts to seek any information required for the purposes of the reports required by this regulation.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Failure to comply with information requests from the Governor’s Office of Crime Prevention, Youth, and Victim Services may result in ineligiblity for or the withholding of State grant funding.</text>
+      </para>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container"><cite doc="Md. Code" path="gps|2-503">Public Safety Article, §2-503, </cite>Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="1996-09-10">Effective date: September 10, 1996 (23:18 Md. R. 1318)</annotation>
+    <annotation type="History" dest="container" effective="1999-12-27"><cite path="|29|05|01|.01|B.">Regulation .01B</cite> amended effective December 27, 1999 (26:26 Md. R. 1961)</annotation>
+    <annotation type="History" dest="container" effective="1999-12-27"><cite path="|29|05|01|.01">Regulation .01</cite>-1 adopted effective December 27, 1999 (26:26 Md. R. 1961)</annotation>
+    <annotation type="History" dest="container" effective="1999-12-27"><cite path="|29|05|01|.03">Regulation .03</cite> amended effective December 27, 1999 (26:26 Md. R. 1961)</annotation>
+    <annotation type="History" dest="container" effective="1999-12-27"><cite path="|29|05|01|.04">Regulation .04</cite> amended effective December 27, 1999 (26:26 Md. R. 1961)</annotation>
+    <annotation type="History" dest="container" effective="2007-12-17"><cite path="|29|05|01|.04|H.">Regulation .04H</cite> amended as an emergency provision effective June 7, 2007 (34:13 Md. R. 1150); emergency status expired December 4, 2007; amended permanently effective December 17, 2007 (34:25 Md. R. 2216)</annotation>
+    <annotation type="History" dest="container" effective="1999-12-27"><cite path="|29|05|01|.06">Regulation .06</cite> amended effective December 27, 1999 (26:26 Md. R. 1961)</annotation>
+    <annotation type="History" dest="container" effective="1999-12-27">Regulations <cite path="|29|05|01|.08">.08</cite>—<cite path="|29|05|01|.12">.12</cite> amended effective December 27, 1999 (26:26 Md. R. 1961)</annotation>
+    <annotation type="History" dest="container" effective="2008-12-15" discontinuity="true">Chapter revised effective December 15, 2008 (35:25 Md. R. 2151)</annotation>
+    <annotation type="History" dest="container" effective="2011-11-14"><cite path="|29|05|01|.01|B.">Regulation .01B</cite> amended effective October 19, 2009 (36:21 Md. R. 1594); November 14, 2011 (38:23 Md. R. 1423)</annotation>
+    <annotation type="History" dest="container" effective="2009-10-19"><cite path="|29|05|01|.02|A.">Regulation .02A</cite> amended effective October 19, 2009 (36:21 Md. R. 1594)</annotation>
+    <annotation type="History" dest="container" effective="2009-10-19"><cite path="|29|05|01|.16">Regulation .16</cite> amended effective October 19, 2009 (36:21 Md. R. 1594)</annotation>
+    <annotation type="History" dest="container" effective="2011-11-14"><cite path="|29|05|01|.16|C.">Regulation .16C</cite>, D amended effective November 14, 2011 (38:23 Md. R. 1423)</annotation>
+  </annotations>
+</container>

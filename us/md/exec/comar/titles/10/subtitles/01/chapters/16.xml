@@ -1,0 +1,533 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>16</num>
+  <heading>Retention and Disposal of Medical Records and Protected Health Information</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Scope.</heading>
+    <para>
+      <num>A.</num>
+      <text>This chapter applies to medical records and protected health information held by health care providers practicing in Maryland, their agents, and their records management service.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>This chapter does not supersede any federal or State laws or regulations that exceed this chapter's requirements by requiring that a medical record:</text>
+      <para>
+        <num>(1)</num>
+        <text>Be retained for a longer period of time;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Be afforded greater security measures;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Be afforded more privacy measures; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Be more easily accessible to the patient.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>This chapter is not intended to address the disposition of abandoned medical records.</text>
+    </para>
+  </section>
+  <section cache:ref-path="10|01|16|.02">
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>"Divisible" means a medical record that is amenable to separation or division after the expiration of the retention time stated in <cite path="|10|01|16|.04">Regulation .04 of this chapter</cite>.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Health Care Provider.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Health care provider" means an acupuncturist, audiologist, chiropractor, dietician, dentist, electrologist, massage therapist, mortician, nurse, nutritionist, occupational therapist, optometrist, physical therapist, physician, podiatrist, professional counselor, psychologist, social worker, speech-language pathologist, or a health care facility or entity that is a:</text>
+          <para>
+            <num>(i)</num>
+            <text>Freestanding, ambulatory care facility as defined in Health-General Article, §19-3B-01, Annotated Code of Maryland;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Freestanding medical facility as defined in Health-General Article, §19-3A-01, Annotated Code of Maryland;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Health maintenance organization as defined in Health-General Article, §19-701, Annotated Code of Maryland;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Hospital as defined in Health-General Article, §19-301, Annotated Code of Maryland;</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>Limited service hospital as defined in Health-General Article, §19-301, Annotated Code of Maryland;</text>
+          </para>
+          <para>
+            <num>(vi)</num>
+            <text>Related institution as defined in Health-General Article, §19-301, Annotated Code of Maryland;</text>
+          </para>
+          <para>
+            <num>(vii)</num>
+            <text>Residential treatment center as defined in Health-General Article, §19-301, Annotated Code of Maryland; and</text>
+          </para>
+          <para>
+            <num>(viii)</num>
+            <text>Health care facility as defined in Health-General Article, §10-101, Annotated Code of Maryland.</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Health care provider" includes an agent, officer, director, or employee of any entity listed in <cite path="10|01|16|.02|B.|(2)|(a)">§B(2)(a) of this regulation</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Medical Record.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Medical record" means any oral, written, or other transmission in any form or medium of information that:</text>
+          <para>
+            <num>(i)</num>
+            <text>Is entered in the record of a patient;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Identifies or can readily be associated with the identity of a patient; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Relates to the health care of the patient.</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Medical record" includes any:</text>
+          <para>
+            <num>(i)</num>
+            <text>Documentation of disclosures of the medical record to any person who is not an employee, agent, or consultant of the health care provider;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>File or record maintained under <cite doc="Md. Code" path="gho|12-403">Health Occupations Article, §12-403(b)(13), Annotated Code of Maryland</cite>, by a pharmacy of a prescription order for drugs, medicines, or devices that identifies or may be readily associated with the identity of a patient;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Documentation of an examination of a patient regardless of who requested the examination or is making payment for the examination;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>File or record received from another health care provider that relates to the health care of a patient received from that health care provider, and identifies or can readily be associated with the identity of the patient; and</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>To the extent not narrowed by §B(3)(a) and (b)(i)—(iv) of this regulation, "protected health information" as defined by 45 CFR §160.103, as amended.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>"Medical records series" means a set of medical records, as defined in <cite path="10|01|16|.02|B.|(3)">§B(3) of this regulation</cite>, that is maintained on paper, microform, magnetic disk, magnetic tape, or other medium.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>"Patient" has the meaning stated in Health-General Article, §4-301(j), Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>"Person in interest" has the meaning stated in Health-General Article, §4-301(k), Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>"Records management service" means any agent that has been procured by a health care provider to transport, handle, manage, maintain, store, or destroy medical records.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>"Records retention schedule" means a records management plan that includes:</text>
+        <para>
+          <num>(a)</num>
+          <text>A list and description of the medical records series of an office or unit;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The minimum retention period required to keep each medical record series;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The eventual disposition instructions;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>If desired:</text>
+          <para>
+            <num>(i)</num>
+            <text>Maintenance procedures, such as access or copy control, for each medical records series both in office and in storage;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Scanning or microfilming instructions; or</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Disposal methods such as shredding or incineration; and</text>
+          </para>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>A signature of approval by an individual with authority over all the medical records series listed.</text>
+        </para>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>"Sanitizing" means overwriting, degaussing, shredding, or burning electronic or other media.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Incorporation by Reference.</heading>
+    <text>In this chapter, the following documents are incorporated by reference:</text>
+    <para>
+      <num>A.</num>
+      <text>45 CFR Part 160, as amended; and</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>45 CFR Part 164, as amended.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Maintenance of Medical Records.</heading>
+    <para>
+      <num>A.</num>
+      <text>A health care provider shall develop and maintain a records retention schedule compatible with the requirements of Regulations <cite path="|10|01|16|.04">.04</cite>—<cite path="|10|01|16|.07">.07</cite> of this chapter.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Except as provided in Regulations .06 and .07 of this chapter, a health care provider shall maintain medical records for all patients in the health care provider's care for a minimum of 5 years after the medical record is made or until the patient is 21 years old, whichever is longer.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Medical records are the personal property of the entity providing health care and are maintained for:</text>
+      <para>
+        <num>(1)</num>
+        <text>The patient;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The medical or treatment staff; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Other treatment, payment, and health care operations.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>A health care provider shall retain medical records in:</text>
+      <para>
+        <num>(1)</num>
+        <text>An office with access restricted to authorized staff;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A computer or other device with appropriate security such as passwords or data encryption;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A commercial records storage site with appropriate environmental and security controls; or</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Other storage options that ensure protection, security, and access control.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Maintenance of medical records may be contracted to a records management service that agrees to comply with and be subject to this chapter.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Medical records that have been placed in storage remain the responsibility of the health care provider, including:</text>
+      <para>
+        <num>(1)</num>
+        <text>Providing the patient or person in interest access to their medical records and authorized copies upon request in accordance with Health-General Article, §4-304, Annotated Code of Maryland, and 45 CFR §164.524, as amended;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Ensuring the confidentiality of the medical records;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Providing security and restricted access to the medical records; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Protecting the medical records from:</text>
+        <para>
+          <num>(a)</num>
+          <text>Damage;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Loss; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Deterioration.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>If a medical record is kept in electronic form, a health care provider shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Maintain or have access to compatible electronic hardware and software that will enable the health care provider to generate a legible copy of the record in order to comply with patient and governmental access needs; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Prepare and maintain a current back-up copy of electronic medical record files.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Disposal of Medical Records.</heading>
+    <para>
+      <num>A.</num>
+      <text>A health care provider shall maintain a medical record in accordance with the records retention schedule and may dispose of the record when the minimum retention requirements as described in <cite path="|10|01|16|.04|B.">Regulation .04B of this chapter</cite> have been met.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>For purposes of destruction, a medical record is an indivisible entity unless, in the health care provider's professional judgment, the medical record is divisible.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A health care provider shall ensure confidentiality of medical records throughout the disposal process:</text>
+      <para>
+        <num>(1)</num>
+        <text>For paper records, by incineration, shredding, pulping, or other comparable process which renders the records permanently unreadable;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>For electronic or magnetic media, such as computer disks or magnetic tapes, by completely sanitizing the media, and not just by erasure or deletion;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>For other media, such as film, photos, or compact discs, by destroying the media with no possibility of recovery; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>By complying with the HIPAA security provisions at 45 CFR §164.310(d), as amended.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="10|01|16|.06">
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Instructions for Handling Medical Records Upon Discontinuation of Medical Practice.</heading>
+    <para>
+      <num>A.</num>
+      <text>At the time a health care provider discontinues medical practice, the health care provider shall immediately secure the medical records until one of the following options are taken:</text>
+      <para>
+        <num>(1)</num>
+        <text>Medical records may be transferred to a health care provider who will be assuming the medical practice;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Medical records may be given to the patient;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>At the patient's direction, the medical record may be transferred to a new health care provider; or</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Medical records may be destroyed in accordance with <cite path="10|01|16|.06|B.">§B of this regulation</cite>, <cite path="|10|01|16|.07">Regulation .07 of this chapter</cite>, or both.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>On the death, retirement, surrender of license, or discontinuance of the practice or business of a health care provider, the administrator of the estate or a designee, who:</text>
+      <para>
+        <num>(1)</num>
+        <text>Agrees to provide for the maintenance of the medical records of the practice; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>States in writing to the appropriate health occupations board within a reasonable time that the medical records will be maintained in compliance with this chapter, shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Publish a notice in a daily newspaper that is circulated locally for 2 consecutive weeks:</text>
+          <para>
+            <num>(i)</num>
+            <text>Stating that the medical records will be destroyed or transferred; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Designating a location, date, and time when the medical records may be retrieved by the person in interest; or</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Forward the notice required in §B(2)(a), of this regulation, to the patient in the following manner:</text>
+          <para>
+            <num>(i)</num>
+            <text>In the case of an adult, the notification shall be sent by first-class mail to the last known address of the patient; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>In the case of a minor, notification shall be sent by first-class mail to the last known address of the parent or guardian, or if the medical care documented was provided under Health-General Article, §20-102(c) or 20-103(c), Annotated Code of Maryland, notification shall be given to the minor, by certified mail, addressee only.</text>
+          </para>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Prerequisites for Early Destruction of Medical Records.</heading>
+    <text>Medical records that have not met the retention requirements of <cite path="|10|01|16|.04">Regulation .04 of this chapter</cite>, may be destroyed only if:</text>
+    <para>
+      <num>A.</num>
+      <text>In the case of an adult, notification is sent by first-class mail to the last known address of the patient which includes:</text>
+      <para>
+        <num>(1)</num>
+        <text>The proposed date of disposal; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A statement that the record, or a synopsis of the record, may be retrieved at a designated location within 30 days of the proposed destruction; or</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>In the case of a minor, notification is sent by first-class mail to the last known address of the parent or guardian, or if the medical care documented was provided under Health-General Article, §20-102(c) or 20-103(c), Annotated Code of Maryland, notification is given to the minor, by certified mail, addressee only, which includes:</text>
+      <para>
+        <num>(1)</num>
+        <text>The proposed date of disposal; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A statement that the record, or a synopsis of the record, may be retrieved at a designated location within 30 days of the proposed destruction.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Enforcement.</heading>
+    <para>
+      <num>A.</num>
+      <text>For entities and individuals not regulated by the Office of Health Care Quality or the appropriate health occupations board, the Secretary shall have the authority to investigate any complaint concerning medical records that are covered by this chapter. By letter, the Secretary may delegate this authority to any unit of the Department, including a health occupations board, the Office of Health Care Quality, or the Office of the Inspector General.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>To ensure compliance and enforce this chapter:</text>
+      <para>
+        <num>(1)</num>
+        <text>The Office of Health Care Quality shall have authority over a health care facility; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A health occupations board shall have authority over an individual who is a health care provider.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The Office of Health Care Quality, the appropriate health occupations board, or both, shall investigate any complaint concerning medical records that are or were in the possession of a person or entity covered by this chapter.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>After giving a person or entity an opportunity for a hearing to be held in accordance with the disciplinary hearing procedures that would be applicable to a health care provider who owned or possessed the medical records at issue, the Office of Health Care Quality, the appropriate health occupations board, or both, may impose any fines stated in Regulation .09B, of this chapter, as appropriate.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>After giving a person or entity an opportunity for a hearing to be held in accordance with <cite path="|10.01.03">COMAR 10.01.03</cite>, the Secretary may impose any fines stated in <cite path="|10|01|16|.09|B.">Regulation .09B of this chapter</cite> for entities which are not regulated by the Office of Health Care Quality or an appropriate health occupations board.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Penalties.</heading>
+    <para>
+      <num>A.</num>
+      <text>Damages. As provided in Health-General Article, §4-403(g)(1), Annotated Code of Maryland, a health care provider, record management service, or other person who knowingly violates any provision of Health-General Article, Title 4, Subtitle 4, is liable in court for actual damages.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Fines.</text>
+      <para>
+        <num>(1)</num>
+        <text>A health care facility that knowingly violates this chapter is subject to an administrative fine not to exceed $10,000 for all violations cited in a single day.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>In addition to any other penalties provided, an individual who is a health care provider, an agent, employee, officer, or director of a health care provider, or a records management service, who knowingly violates this chapter, is subject to administrative fines as follows:</text>
+        <para>
+          <num>(a)</num>
+          <text>The first fine or set of fines assessed in a single day may not exceed $1,000;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The second fine or second set of fines assessed concurrently for all violations cited in a single day may not exceed $2,500; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The third or subsequent fine assessed, or third or subsequent set of fines assessed concurrently, for all violations cited in a single day may not exceed $5,000.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Factors to be Considered in the Assessment of Penalties. When considering whether to impose an administrative penalty and the amount of the penalty, the Secretary, the Office of Health Care Quality, or the appropriate health occupations board shall consider the following factors:</text>
+      <para>
+        <num>(1)</num>
+        <text>The nature and seriousness of the violations;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The willfulness of the violation or violations;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The history of previous violations;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The extent of the actual harm or potential risk of divulging confidential information;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The efforts made to correct the violation or violations in a timely manner; and</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>The existence of mitigating factors.</text>
+      </para>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Health-General Article, §4-403, Annotated Code of Maryland;</annotation>
+    <annotation type="History" dest="container" effective="2008-03-24">Effective date: March 24, 2008 (35:6 Md. R. 697)</annotation>
+  </annotations>
+</container>

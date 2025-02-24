@@ -1,0 +1,619 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>10</num>
+  <heading>Control of Iron and Steel Production Installations</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>"Cold rolling operation" means an installation that rolls steel that is not preheated.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>"Continuous casting" means a method of pouring liquid steel into semifinished shapes.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>"Good management practices" means operating and maintenance practices for controlling processes within design conditions and minimizing air pollution to the extent practicable with existing equipment.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>"Hot dip coating" means a molten inorganic formulation used for coating on strip steel.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>"Hot rolling operation" means an installation that rolls preheated steel.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Iron and Steel Production Installations.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Iron and steel production installations" means those installations and buildings used in the production of iron and steel.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>As used in this chapter, the term "installation" means an iron and steel production installation.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>"Iron and steel production installations" include the following:</text>
+          <para>
+            <num>(i)</num>
+            <text>Materials-handling systems, including systems for iron ore, ore pellets, coal, limestone, fluxes, sinter, coke, steel-alloying ingredients, slag, and dust handling;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Blast furnace iron making;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Sintering plants;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Basic oxygen furnace, open hearth furnace, and electric furnace steel-making equipment;</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>Coke ovens;</text>
+          </para>
+          <para>
+            <num>(vi)</num>
+            <text>Molten material transfer and process operations, including teeming, tapping, reladling, and casting;</text>
+          </para>
+          <para>
+            <num>(vii)</num>
+            <text>Continuous casting equipment;</text>
+          </para>
+          <para>
+            <num>(viii)</num>
+            <text>Scarfing and other surface defect removal equipment;</text>
+          </para>
+          <para>
+            <num>(ix)</num>
+            <text>Blast furnace pig-casting equipment;</text>
+          </para>
+          <para>
+            <num>(x)</num>
+            <text>Scrap preparation equipment, including scrap melting and burning equipment;</text>
+          </para>
+          <para>
+            <num>(xi)</num>
+            <text>Molten metal desulfurization equipment;</text>
+          </para>
+          <para>
+            <num>(xii)</num>
+            <text>Raw material drying system;</text>
+          </para>
+          <para>
+            <num>(xiii)</num>
+            <text>Steel-cleaning equipment, including pickling; and</text>
+          </para>
+          <para>
+            <num>(xiv)</num>
+            <text>Steel-coating equipment.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>"Opacity record" means the highest average of any 6 consecutive minutes of readings measured and calculated in the manner described in the Department's Technical Memorandum (TM) 91-01 Method 1004I.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>"Tons of sinter produced" means the weight of sinter that is transferred to the blast furnace stockhouse during a calendar day.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>"Venturi scrubber flow rate" means the water flow rate through the venturi scrubber.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>"Venturi scrubber pressure drop" means the arithmetic difference between the static pressures of the gas stream at the inlet and the outlet of the venturi scrubber.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="26|11|10|.02">
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Applicability.</heading>
+    <para>
+      <num>A.</num>
+      <text>Any source which is subject to the provisions of this chapter is also subject to the applicable provisions of any other chapter. Except as provided in <cite path="26|11|10|.02|B.">§B of this regulation</cite>, if there is any inconsistency between the emission standards for specific installations in this chapter and those set forth elsewhere in the subtitle, the emission standards in this chapter are controlling.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The following emission standards set forth elsewhere in this subtitle supersede any less restrictive emission standard in this chapter:</text>
+      <para>
+        <num>(1)</num>
+        <text><cite path="26.11.06.12">COMAR 26.11.06.12</cite> (New Source Performance Standards);</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text><cite path="26.11.15.02">COMAR 26.11.15.02</cite> (National Emission Standards for Hazardous Air Pollutants);</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text><cite path="|26.11.17">COMAR 26.11.17</cite> Requirements for Major New Sources and Modifications; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text><cite path="26.11.06.14">COMAR 26.11.06.14</cite> (Prevention of Significant Deterioration).</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>This chapter is only applicable in Area III.</text>
+    </para>
+  </section>
+  <section cache:ref-path="26|11|10|.03">
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Visible Emissions.</heading>
+    <para>
+      <num>A.</num>
+      <text>General.</text>
+      <para>
+        <num>(1)</num>
+        <text>A person may not cause or permit the discharge of emissions from any installation, other than water in an uncombined form, which is visible to human observers.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Exceptions. Section A(1) of this regulation does not apply to the following:</text>
+        <para>
+          <num>(a)</num>
+          <text>Fugitive emissions from iron and steel production installations in compliance with <cite path="26|11|10|.03|B.">§B of this regulation</cite> and listed in <cite path="|26|11|10|.04|B.|(2)">Regulation .04B(2) of this chapter</cite>;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Fugitive emissions from metallurgical slot-type by-product coke ovens;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Fugitive emissions from skull cracker oxygen lancing to the extent addressed by <cite path="|26|11|10|.04|C.">Regulation .04C of this chapter</cite>;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Fugitive emissions from batch-type hot dip galvanizing installations in compliance with <cite path="|26.11.12">COMAR 26.11.12</cite>;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Confined emissions resulting from start-ups, process modifications or adjustments, or occasional cleaning of control equipment if:</text>
+          <para>
+            <num>(i)</num>
+            <text>The visible emissions are not greater than 40 percent opacity; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The visible emissions do not occur for more than 6 consecutive minutes in any 60 minute period; and</text>
+          </para>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Visible emissions from sintering plant scrubbers that are in compliance with the conditions in <cite path="26|11|10|.03|D.">§D of this regulation</cite>.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Visible Emissions from Certain Installations. After complying with the requirements of <cite path="|26|11|10|.04|B.">Regulation .04B of this chapter</cite>, a person may not cause or permit the discharge of visible fugitive emissions into the outdoor atmosphere, other than water in an uncombined form, which is greater than the following specified visible emission standards:</text>
+      <para>
+        <num>(1)</num>
+        <text>Blast furnaces constructed before January 1, 1977 (casthouse building): 50 percent opacity as averaged over any consecutive 60-minute period;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Blast furnaces constructed on or after January 1, 1977 (casthouse building): 5 percent opacity as averaged over any consecutive 6-minute period, except for 20 percent opacity as averaged over any consecutive 6-minute period during drilling, oxygen lancing, and plugging of the furnace tapholes;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Electric arc furnace shop building: no visible emissions, except for 20 percent opacity during charging and 40 percent opacity during tapping;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Sinter plant building: 10 percent opacity as averaged over any consecutive 6-minute period;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Basic oxygen furnace shop building: 15 percent opacity from the basic oxygen furnace shop roof monitor based on a 3-observation rolling arithmetic average of the opacity records recorded on each of 3 calendar days of observation.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>15 Percent Standard.</text>
+      <para>
+        <num>(1)</num>
+        <text>The provision described in <cite path="26|11|10|.03|B.|(5)">§B(5) of this regulation</cite> is referred to as the 15 percent standard. The first exceedance of the 15 percent standard during each calendar year, from January 1 through December 31, does not constitute a violation of the 15 percent standard. The second exceedance and all subsequent exceedances of the 15 percent standard during the calendar year are prohibited.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Any source subject to <cite path="26|11|10|.03|B.|(5)">§B(5) of this regulation</cite> shall, at a minimum, schedule one observation on each of three different calendar days per calendar week, and perform the observations on the days scheduled, unless weather or other conditions on one or more of those days prevent observations to be made in accordance with Method 9.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If weather or other conditions prevent Method 9 observations from being made, a person shall perform the missing observation or observations during that week or in the following 2 calendar weeks in addition to the minimum three observations required for each calendar week, unless prevented by weather or other conditions.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Sintering Plant.</text>
+      <para>
+        <num>(1)</num>
+        <text>The owner or operator of a sintering plant equipped with a two stack wet scrubber system and subject to the particulate matter requirement in <cite path="|26|11|10|.04|A.">Regulation .04A of this chapter</cite>, shall assure continuous compliance with the particulate matter requirement in <cite path="|26|11|10|.04|A.">Regulation .04A of this chapter</cite> by maintaining the hourly average scrubber pressure drop and water flow rate to each scrubber in accordance with the operating conditions in <cite path="26|11|10|.03|D.|(2)">§D(2) of this regulation</cite>.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Scrubber<sup>1</sup> Operating Conditions and Requirements.</text>
+        <text>
+          <table class="layout-table">
+            <tbody>
+              <tr>
+                <td proof="needed"/>
+                <td colspan="2" data-vertical-align="middle">Scrubber Pressure Drop (inches of water)</td>
+                <td colspan="2" data-vertical-align="middle">Water Flow Rate (gallons per minute)</td>
+              </tr>
+              <tr>
+                <td proof="needed"/>
+                <td proof="needed" data-vertical-align="middle"/>
+                <td proof="needed" data-vertical-align="middle"/>
+                <td proof="needed" data-vertical-align="middle"/>
+                <td proof="needed" data-vertical-align="middle"/>
+              </tr>
+              <tr>
+                <td>Operating Conditions</td>
+                <td>North</td>
+                <td>South</td>
+                <td>North</td>
+                <td>South</td>
+              </tr>
+              <tr>
+                <td proof="needed"/>
+                <td proof="needed" data-vertical-align="middle"/>
+                <td proof="needed" data-vertical-align="middle"/>
+                <td proof="needed" data-vertical-align="middle"/>
+                <td proof="needed" data-vertical-align="middle"/>
+              </tr>
+              <tr>
+                <td>(a) 2 scrubbers each with 2 fans</td>
+                <td>33</td>
+                <td>39</td>
+                <td>3,796</td>
+                <td>3,718</td>
+              </tr>
+              <tr>
+                <td>(b) 2 scrubbers each with a windbox fan</td>
+                <td>23</td>
+                <td>32</td>
+                <td>3,679</td>
+                <td>3,705</td>
+              </tr>
+              <tr>
+                <td>(c) North scrubber with 2 fans and south scrubber with a wind box fan</td>
+                <td>33</td>
+                <td>32</td>
+                <td>3,710</td>
+                <td>3,818</td>
+              </tr>
+              <tr>
+                <td>(d) South scrubber with 2 fans and north scrubber with a wind box fan</td>
+                <td>32</td>
+                <td>33</td>
+                <td>3,818</td>
+                <td>3,710</td>
+              </tr>
+              <tr>
+                <td>(e) North scrubber with 2 fans</td>
+                <td>33</td>
+                <td>—</td>
+                <td>3,488</td>
+                <td>—</td>
+              </tr>
+              <tr>
+                <td>(f) South scrubber with 2 fans</td>
+                <td>—</td>
+                <td>33</td>
+                <td>—</td>
+                <td>3,488</td>
+              </tr>
+              <tr>
+                <td colspan="5" data-vertical-align="middle"><sup>1</sup> The one affected sintering plant is equipped with 2 scrubbers that are identified as north scrubber and south scrubber.</td>
+              </tr>
+            </tbody>
+          </table>
+        </text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>One or more of the scrubbers shall be in operation whenever the sintering plant is in operation.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Compliance with particulate matter requirements is achieved if at any time the hourly block average of the scrubber pressure drop and water flow rate are not less than the values in <cite path="26|11|10|.03|D.|(2)">§D(2) of this regulation</cite>.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The scrubber pressure drop and water flow rate shall be monitored by a continuous monitoring system and the monitoring system data made available to the Department upon request.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Stack Testing Requirements.</text>
+        <para>
+          <num>(a)</num>
+          <text>The affected sintering plant shall be stack tested for particulate matter at a frequency of not less than once each 2.5 years. During a compliance stack test, the scrubber pressure drop and water flow rate shall be recorded as hourly block averages.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>If the scrubber pressure drop and water flow rate determined during a compliance stack test differ from the values in <cite path="26|11|10|.03|D.|(2)">§D(2) of this regulation</cite>, the owner or operator may request the Department to change the values in <cite path="26|11|10|.03|D.|(2)">§D(2) of this regulation</cite> to reflect the revised values.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Upon receiving a request, the Department may propose amending the regulation to include the revised values. Any amendment shall be submitted to the EPA to be included in the approved SIP.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="26|11|10|.04">
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Particulate Matter.</heading>
+    <para>
+      <num>A.</num>
+      <text>Confined Emissions. A person may not cause or permit the discharge of confined emissions of particulate matter in excess of 0.03 gr/scfd (68.7 mg/dscm) from any iron or steel production installation.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Fugitive Emissions.</text>
+      <para>
+        <num>(1)</num>
+        <text>A person may not cause or permit the discharge of fugitive emissions of particulate matter from an iron and steel production installation unless reasonable control methods are employed to minimize emissions. These methods include the use of hoods and control equipment to capture emissions, other control techniques, and process restrictions.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Reasonable Control Methods Required to Satisfy <cite path="26|11|10|.04|B.|(1)">§B(1) of this Regulation</cite>. Reasonable control methods required to satisfy <cite path="26|11|10|.04|B.|(1)">§B(1) of this regulation</cite> are listed below for the installation specified, grouped by major buildings or structures. No other control methods are required for those buildings, structures, or installations. The reasonable control methods are:</text>
+        <para>
+          <num>(a)</num>
+          <text>Blast furnaces constructed before January 1, 1977 (casthouse building): regular maintenance of iron notches, troughs, and slag runners;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Blast furnaces constructed on or after January 1, 1977 (casthouse building): iron notch, trough, and slag runners—hoods and control equipment;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Basic oxygen furnace shop building:</text>
+          <para>
+            <num>(i)</num>
+            <text>Hot metal reladling—hoods and control equipment on the normal hot metal pit and flame suppression on the emergency pit,</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Oxygen lance hole—suppression maintained on all furnace oxygen lance openings;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Furnace charging, refining, and tapping—use of a primary hood and control equipment with good operating practices and regular maintenance of all system components and ductwork;</text>
+          </para>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Top-charged electric arc furnaces: furnace charging, metal melting, refining, and tapping—hoods and control equipment;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Argon-oxygen decarbonization vessels: vessel charging, refining, tapping, and alloy addition—hoods and control equipment;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Sinter plant building: breaker box, windbox, hot and cold screens, entrance and exit from the sinter cooler, and material handling transfer points—hooded and exhausted into control equipment.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>All required reasonable control methods shall be designed to represent good engineering practice and constructed in accordance with the Department's permit to construct approval. The reasonable control methods employed shall be operated and maintained to comply with the visible emission standards set forth in Regulation .03A and B of this chapter and in accordance with any conditions imposed in the Department's permit to operate for that installation.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Emissions from control equipment constructed pursuant to §B(1) and (2) of this regulation, shall meet the requirements of <cite path="26|11|10|.04|A.">§A of this regulation</cite> and <cite path="|26|11|10|.03|A.|(1)">Regulation .03A(1) of this chapter</cite>.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The discharge of emissions from air pollution control equipment constructed to capture coke oven pushing emissions in accordance with <cite path="26|11|10|.04|B.|(2)|(e)">§B(2)(e) of this regulation</cite> may not exceed either 0.03 gr/scfd (68.7 mg/dscm) or 0.1 pound/ton (0.05 gram/kilometer) coke pushed, whichever is more restrictive. The pushing period is defined as commencing with the initial movement of coke and terminating with the hot car entering the quench tower.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Skull Cracker Oxygen Lancing. A person may not cause or permit the oxygen lancing of iron and steel scrap in excess of 400 tons each year. This oxygen lancing is limited to the months of December, January, and February.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Sulfur Content Limitations for Coke Oven Gas.</heading>
+    <text>Coke oven process gas used as fuel may not contain a plant-wide average of greater than 1.0 percent sulfur by weight in any 2-hour period.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05-1</num>
+    <heading>Control of Carbon Monoxide Emissions from Basic Oxygen Furnaces.</heading>
+    <para>
+      <num>A.</num>
+      <text>Emission Standard. A person who owns or operates a basic oxygen furnace may not cause or allow carbon monoxide emissions in the exhaust gases to exceed 1 percent by volume of the total exhaust gases discharged into the air.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Testing Requirements.</text>
+      <para>
+        <num>(1)</num>
+        <text>Stack tests shall be performed using the EPA Test Method 10 or an alternative test method approved by the Department and the EPA.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An initial stack test shall be performed on or before May 1, 2006.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Additional stack tests shall be performed not later than 2-1/2 years after the previous test. Upon request, the specific dates on which each additional test is to be performed may be adjusted by the Department so that the testing is performed consistent with the schedules for other testing at the facility.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Determination of Compliance.</text>
+      <para>
+        <num>(1)</num>
+        <text>In order to determine the total carbon monoxide being discharged from the basic oxygen furnaces, tests shall be performed simultaneously at each stack through which the gases from the basic oxygen furnaces are exhausted.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Each test, with a duration of at least 1 hour, shall be considered a test run.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Compliance with the 1 percent standard shall be determined as the average of three test runs.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="26|11|10|.06">
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Control of Volatile Organic Compounds from Iron and Steel Production Installations.</heading>
+    <para>
+      <num>A.</num>
+      <text>Applicability.</text>
+      <para>
+        <num>(1)</num>
+        <text>This regulation applies to a person who owns or operates an installation that has actual VOC emissions of 20 pounds or more per day located at an iron and steel production facility that has the potential to emit total plant wide VOC emissions of 25 tons or more per year.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Roll coaters at hot dip coating installations located at an iron and steel production facility are subject to <cite path="26.11.19.05">COMAR 26.11.19.05</cite> and federal New Source Performance Standards incorporated by reference at <cite path="26.11.06.12">COMAR 26.11.06.12</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Control of VOC Emissions from Installations That Use Rolling Oils or Rust Preventive Oils. The following installations may not use oils or rust preventive oils that have a vapor pressure greater than 1 millimeter of mercury at 25° Celsius:</text>
+      <para>
+        <num>(1)</num>
+        <text>Hot rolling operations;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Cold rolling operations; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Coating operations including both hot dip coating and electrolytic plating installations.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Control of VOC Emissions from Sintering Plants.</text>
+      <para>
+        <num>(1)</num>
+        <text>A person who owns or operates a sintering plant subject to this regulation shall meet an emissions standard calculated on a daily average basis of 0.25 pound of VOC per ton of sinter produced.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Until May 1, 2002, a person who owns or operates a sintering plant subject to this regulation shall demonstrate compliance with <cite path="26|11|10|.06|C.|(1)">§C(1) of this regulation</cite> by conducting stack tests during the months of June 2001 and December 2001 in accordance with a test protocol approved by the Department.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A person who owns or operates a sintering plant subject to this regulation shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>By August 1, 2001, install a CEM system, including flow meters, approved by the Department to continuously measure VOC emissions and gas flow rates from each of the sintering plant scrubber stacks in order to calculate daily average VOC emissions;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>By December 31, 2001, certify and operate the CEM system in accordance with <cite path="26.11.01.11">COMAR 26.11.01.11</cite>;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Based on the certification results and other data generated by the CEM system, conduct a review of plant operations to enable compliance with the standard in <cite path="26|11|10|.06|C.|(1)">§C(1) of this regulation</cite> to be achieved;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>By March 1, 2002, perform sufficient analyses to determine the non-VOC content of the discharge from the scrubber stacks to establish a VOC correction factor to be used with CEM data to calculate daily VOC emissions from the scrubber stacks;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Beginning May 1, 2002, utilize the CEM system and other necessary data to demonstrate continuous compliance with <cite path="26|11|10|.06|C.|(1)">§C(1) of this regulation</cite>; and</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Beginning January 1, 2002, provide quarterly reports to the Department summarizing:</text>
+          <para>
+            <num>(i)</num>
+            <text>Daily average VOC emissions from the sinter plant stacks; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Daily sinter production.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>After the CEM system has been in operation for at least 24 months, the CEM data, emission standard, compliance rate and other information relative to the operation of the sinter plant shall be reviewed to determine if revisions are necessary.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Control of VOC Emissions for Continuous Casters. A person who owns or operates a continuous caster shall skim oil and grease from the cooling water at the continuous caster waste water treatment facility.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Control of VOC Emissions from Miscellaneous Production Installations. A person who owns or operates a basic oxygen furnace or a blast furnace shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Develop and maintain a good management practices plan for each installation;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>By January 1, 2002, implement the good management practices plan to reduce VOC emissions; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Make the plan available to the Department upon request.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Testing and Observation Procedures.</heading>
+    <text>For the purpose of demonstrating compliance with these regulations, the Department's Technical Memorandum 91-01, "Test Methods and Equipment Specifications for Stationary Sources" (January 1991), which is incorporated by reference in <cite path="26.11.01.04|C.">COMAR 26.11.01.04C</cite>, shall be used. Installations causing intermittent or noncontinuous emissions shall be stack tested by a procedure which provides for sampling only during the discharge of emissions.</text>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Environment Article, §§<cite doc="Md. Code" path="gen|1-101">1-101</cite>, <cite doc="Md. Code" path="gen|1-404">1-404</cite>, <cite doc="Md. Code" path="gen|2-101">2-101</cite>—<cite doc="Md. Code" path="gen|2-103">2-103</cite>, <cite doc="Md. Code" path="gen|2-301">2-301</cite>—<cite doc="Md. Code" path="gen|2-303">2-303</cite>, <cite doc="Md. Code" path="gen|10-102">10-102</cite>, and <cite doc="Md. Code" path="gen|10-103">10-103</cite>, Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="1980-07-18">Effective date: July 18, 1980 (7:12 Md. R. 1148)</annotation>
+    <annotation type="History" dest="container" effective="1981-06-08"><cite path="|26|11|10|.04|B.">Regulation .04B</cite> amended effective June 8, 1981 (8:9 Md. R. 800)</annotation>
+    <annotation type="History" dest="container" effective="1981-10-10" discontinuity="true">Chapter revised effective October 10, 1981 (8:18 Md. R. 1480)</annotation>
+    <annotation type="History" dest="container" effective="1983-02-25"><cite path="|26|11|10|.02|B.">Regulation .02B</cite> amended effective February 25, 1983 (10:1 Md. R. 30)</annotation>
+    <annotation type="History" dest="container" effective="1988-01-05"><cite path="|26|11|10|.03|B.">Regulation .03B</cite> amended effective March 24, 1987 (14:4 Md. R. 419); January 5, 1988 (14:24 Md. R. 2555)</annotation>
+    <annotation type="History" dest="container" effective="1985-07-02"><cite path="|26|11|10|.07">Regulation .07</cite> amended effective February 10, 1984 (10:26 Md. R. 2341); July 2, 1985 (12:11 Md. R. 1049)</annotation>
+    <annotation type="History" dest="container" effective="1980-06-18">For the history of this subtitle before June 18, 1980, see the Administrative History of <cite path="|26.11.01">COMAR 26.11.01</cite>.</annotation>
+    <annotation type="History" dest="container" discontinuity="true">Chapter recodified from <cite path="|10.18.10">COMAR 10.18.10</cite> to <cite path="|26.11.10">COMAR 26.11.10</cite></annotation>
+    <annotation type="History" dest="container" effective="1992-02-17"><cite path="|26|11|10|.07">Regulation .07</cite> amended effective August 19, 1991 (18:16 Md. R. 1813); February 17, 1992 (19:3 Md. R. 306)</annotation>
+    <annotation type="History" dest="container" effective="1998-11-02" discontinuity="true">Chapter revised effective November 2, 1998 (25:22 Md. R. 1653)</annotation>
+    <annotation type="History" dest="container" effective="2000-12-25"><cite path="|26|11|10|.01">Regulation .01</cite> amended effective December 25, 2000 (27:25 Md. R. 2285)</annotation>
+    <annotation type="History" dest="container" effective="2007-01-29"><cite path="|26|11|10|.01|B.">Regulation .01B</cite> amended effective January 29, 2007 (34:2 Md. R. 138)</annotation>
+    <annotation type="History" dest="container" effective="2007-01-29"><cite path="|26|11|10|.03|A.">Regulation .03A</cite> amended effective November 24, 2003 (30:23 Md. R. 1653); January 29, 2007 (34:2 Md. R. 138)</annotation>
+    <annotation type="History" dest="container" effective="2000-10-02"><cite path="|26|11|10|.03|C.">Regulation .03C</cite> amended effective October 2, 2000 (27:19 Md. R. 1731)</annotation>
+    <annotation type="History" dest="container" effective="2007-01-29"><cite path="|26|11|10|.03|D.">Regulation .03D</cite> adopted effective January 29, 2007 (34:2 Md. R. 138)</annotation>
+    <annotation type="History" dest="container" effective="2009-06-29"><cite path="|26|11|10|.03|D.">Regulation .03D</cite> amended effective June 29, 2009 (36:13 Md. R. 901)</annotation>
+    <annotation type="History" dest="container" effective="2005-09-12"><cite path="|26|11|10|.05">Regulation .05</cite>-1 adopted effective September 12, 2005 (32:18 Md. R. 1522)</annotation>
+    <annotation type="History" dest="container" effective="2000-12-25"><cite path="|26|11|10|.06">Regulation .06</cite> amended and recodified to Regulation .07, and new Regulation .06 adopted effective December 25, 2000 (27:25 Md. R. 2285)</annotation>
+    <annotation type="History" dest="container" effective="2016-05-09"><cite path="|26|11|10|.06|C.">Regulation .06C</cite> amended effective May 9, 2016 (43:9 Md. R. 531)</annotation>
+  </annotations>
+</container>

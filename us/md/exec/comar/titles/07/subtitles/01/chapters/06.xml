@@ -1,0 +1,794 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>06</num>
+  <heading>Citizen's Review Board for Children</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Purpose.</heading>
+    <text>The Citizens' Review Board for Children (CRBC), formerly the Foster Care Review Board:</text>
+    <para>
+      <num>A.</num>
+      <text>Reviews cases of children in out-of-home placement to promote their:</text>
+      <para>
+        <num>(1)</num>
+        <text>Safety in out-of-home placement;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Placement in a safe, nurturing, and permanent home; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Healthy development;</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Monitors child welfare programs under the Department; and</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Makes recommendations for system improvement to enhance the management of individual children's cases.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>"Administration" means the Social Services Administration of the Department of Human Services.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>"Adoption" means the legal proceeding:</text>
+        <para>
+          <num>(a)</num>
+          <text>By which an individual becomes the child of an adoptive family; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Which confers on the adopted child all the legal rights and privileges to which a child born to that family would be entitled.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>"Adoption and Safe Families Act (ASFA)" means the 1997 federal law which strengthens the child welfare system's responsibilities in ensuring safety, permanency, and well-being for children.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>"Child" means an individual younger than 18 years old, or between 18 and 21 years old if the court retains jurisdiction over the child and the individual meets the eligibility of <cite path="07.02.11.04|B.">COMAR 07.02.11.04B</cite>.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>"Client Information System/Foster Care and Adoption Child Tracking System (CIS/FACTS)" means a component of the Department's Client Information System.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>"Concurrent permanency planning" means the process of simultaneously taking concrete steps to implement both primary and secondary permanency plans, for example, by providing time-limited family reunification services while also exploring relatives as resources.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>"Court" means:</text>
+        <para>
+          <num>(a)</num>
+          <text>The circuit court for a county sitting as a juvenile court; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>In Montgomery County, the District Court sitting as a juvenile court.</text>
+        </para>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>"Current living arrangement" means where the child lives on the day the case review is conducted by the local board.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>"Department" means the Department of Human Services.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>"Foster care" has the meaning stated in <cite path="07.02.11.03|B.">COMAR 07.02.11.03B</cite>.</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>"Group care" has the meaning stated in <cite path="07.02.11.03|B.">COMAR 07.02.11.03B</cite>.</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>"Guardianship" means an award to an individual by the court, including a court other than a juvenile court, of the:</text>
+        <para>
+          <num>(a)</num>
+          <text>Custody of a child; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Authority to decide on the child's care, welfare, education, physical and mental health, and support.</text>
+        </para>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>"Internal review" means an administrative case review conducted by the local department.</text>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>Kinship Care.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Kinship care" means continuous 24-hour care and supportive services provided for a minor child placed by a child placement agency in the home of a relative related by blood or marriage within the 5th degree of consanguinity or affinity as defined in <cite doc="Md. Code" path="get|1-203">Estates and Trusts Article, §1-203, Annotated Code of Maryland</cite>.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Kinship care" does not involve foster care payments to caregivers.</text>
+        </para>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>"Least restrictive setting" means the most family-like setting consistent with the child's best interests and special needs.</text>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>"Local board" means CRBC's local citizen board for review of cases of children who are in out-of-home placement in a specific jurisdiction of the State. A jurisdiction may have multiple boards, and small counties may share one board.</text>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>"Local department" means the:</text>
+        <para>
+          <num>(a)</num>
+          <text>Department of social services in a county or Baltimore City; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Montgomery County Department of Health and Human Services.</text>
+        </para>
+      </para>
+      <para>
+        <num>(18)</num>
+        <text>"Local plan" means the policy within each jurisdiction between the local board and the local department, and approved by the State Board and the Secretary for:</text>
+        <para>
+          <num>(a)</num>
+          <text>Scheduling citizen reviews for children in out-of-home placements; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Providing information to the local boards.</text>
+        </para>
+      </para>
+      <para>
+        <num>(19)</num>
+        <text>"Out-of-home placement" means placement of a child into foster care, kinship care, group care, or residential treatment care.</text>
+      </para>
+      <para>
+        <num>(20)</num>
+        <text>Parent or Parents.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Parent" means the birth or adoptive mother or father of the child.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Parents" means both the birth or adoptive mother and father of the child.</text>
+        </para>
+      </para>
+      <para>
+        <num>(21)</num>
+        <text>"Permanency plan" means a plan specifying:</text>
+        <para>
+          <num>(a)</num>
+          <text>Where and with whom the child will live; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The proposed legal relationship between the child and the permanent caregiver or caregivers.</text>
+        </para>
+      </para>
+      <para>
+        <num>(22)</num>
+        <text>"Permanent care" means a permanency plan designated by the court in which the court names the foster or kinship care parents who will provide the permanent home for the child.</text>
+      </para>
+      <para>
+        <num>(23)</num>
+        <text>"Residential treatment" means continuous 24-hour care and supportive services for a minor child placed in a facility that provides formal programs of basic care, social work, and health care services as defined in <cite path="|01.04.04">COMAR 01.04.04</cite>.</text>
+      </para>
+      <para>
+        <num>(24)</num>
+        <text>"Review population" means the children who at any given time are eligible for review by the board.</text>
+      </para>
+      <para>
+        <num>(25)</num>
+        <text>"Secretary" means the Secretary of Human Services.</text>
+      </para>
+      <para>
+        <num>(26)</num>
+        <text>"Staff assistant" means an employee of the CRBC responsible for assisting the local boards in the review process.</text>
+      </para>
+      <para>
+        <num>(27)</num>
+        <text>"State Board" means the governing body of CRBC.</text>
+      </para>
+      <para>
+        <num>(28)</num>
+        <text>"Termination of parental rights (TPR)" means the court has:</text>
+        <para>
+          <num>(a)</num>
+          <text>Legally terminated the parent's rights and responsibilities for the child; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Awarded guardianship to:</text>
+          <para>
+            <num>(i)</num>
+            <text>The local department of social services, or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>A child placement agency.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(29)</num>
+        <text>Time-Limited Family Reunification Services.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Time-limited family reunification services" means the services and activities that shall be made available to the parents or legal guardian to facilitate the reunification of the child during the first 15 months of out-of-home placement.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Time-limited family reunification services" include the following services mandated by 42 U.S.C. §629a:</text>
+          <para>
+            <num>(i)</num>
+            <text>Individual, group, and family counseling;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Inpatient, residential, or outpatient substance abuse treatment services;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Mental health services;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Assistance to address domestic violence;</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>Services designed to provide temporary child care including respite care to families in crises; and</text>
+          </para>
+          <para>
+            <num>(vi)</num>
+            <text>Transportation to and from any of the services.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(30)</num>
+        <text>"Waiver of reunification services" means an order by the court waiving the requirements that reasonable efforts be made to reunite the child with the child's parent or guardian as specified in Court and Judicial Proceedings Article, §3-812.1, Annotated Code of Maryland.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>State Board Responsibilities.</heading>
+    <para>
+      <num>A.</num>
+      <text>The State Board shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Promulgate policies and procedures relating to the functions of local boards;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Adopt policies and procedures relating to reports and other information that any public or private agency or institution shall provide to State and local boards;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Consult with the Administration before asking local departments for new types of information;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Provide training to local boards;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Review and coordinate the activities of the local boards;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Write and distribute the annual report;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Make recommendations to the General Assembly, the Department, the Administration, and other relevant body concerning:</text>
+        <para>
+          <num>(a)</num>
+          <text>Out-of-home placement policies and procedures; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The removal of barriers to permanent placement for children in out-of-home placements; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Hire and evaluate the Administrator of CRBC.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The State Board shall meet at least four times each year.</text>
+    </para>
+  </section>
+  <section cache:ref-path="07|01|06|.04">
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Local Board Responsibilities.</heading>
+    <para>
+      <num>A.</num>
+      <text>The local board shall develop and adhere to local plans for citizen reviews which shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Be developed through discussions with the local director and other partners as are mutually agreed upon by the local boards and local department;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Be effective when approved by the:</text>
+        <para>
+          <num>(a)</num>
+          <text>State Board, and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Secretary; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Remain effective until renegotiated and approved by the Secretary and State Board.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Schedule of Citizen Reviews.</text>
+      <para>
+        <num>(1)</num>
+        <text>The local board shall schedule and conduct timely citizen reviews for children in out-of-home placements:</text>
+        <para>
+          <num>(a)</num>
+          <text>At least once:</text>
+          <para>
+            <num>(i)</num>
+            <text>During the first 12 months after a child enters out-of-home placement;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Between the 15th and 24th month in out-of-home placement; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Within the 25th to 30th months in out-of-home placement; and</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Every 6 months after the 30th month, when:</text>
+          <para>
+            <num>(i)</num>
+            <text>A child is in permanent care;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The court has ceased the review; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>The local plan specifies that the review occurs.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>After the 30th month, when a child is not in permanent care, the local board shall have discretion to review the child's case at least every 6 months.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If internal, citizen, or court reviews do not fulfill federal and State mandates, the local board shall schedule additional citizen reviews.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The local board shall review cases from the entire out-of-home population according to the local plan which:</text>
+      <para>
+        <num>(1)</num>
+        <text>Shall include a mechanism for making data available for all children from the entire out-of-home population;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Shall provide citizen reviews for 100 percent of the children in foster care, group care, and residential treatment centers;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>May provide for a citizen review of a sample of at least 10 percent of the unpaid kinship care population; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Shall review siblings together, notwithstanding the:</text>
+        <para>
+          <num>(a)</num>
+          <text>Time frames of <cite path="07|01|06|.04|B.">§B of this regulation</cite>; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Provisions on reviews of kinship care in <cite path="07|01|06|.04|C.|(3)">§C(3) of this regulation</cite>.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The local board shall summarize the findings and recommendations as described in <cite path="|07|01|06|.05|B.">Regulation .05B of this chapter</cite>.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>The local board shall submit a written report of the board's findings and recommendations within 15 days of the review to the:</text>
+      <para>
+        <num>(1)</num>
+        <text>Local department;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Court;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Parents and caregivers; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Other interested individuals.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>The local board shall report to the appropriate juvenile court and local department the status of efforts to:</text>
+      <para>
+        <num>(1)</num>
+        <text>Secure a permanent home for children in out-of-home placement; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Provide for the safety and well-being of children under the court's jurisdiction.</text>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>The local board shall identify the conditions and practices that are barriers to permanent placements, safety, and well-being of children in out-of-home care.</text>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>The local board shall advocate for removal of conditions or practices that are barriers to permanent placements, safety, and well-being of children in out-of-home care.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Procedures for Conducting the Citizen Review of Out-of-Home Placement.</heading>
+    <para>
+      <num>A.</num>
+      <text>The local board shall invite interested individuals to the review in the following manner:</text>
+      <para>
+        <num>(1)</num>
+        <text>At least 42 days before the review, notify the local department to send to the review:</text>
+        <para>
+          <num>(a)</num>
+          <text>Any local department caseworker who is directly responsible for planning for the child's care; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The caseworker responsible for each child when sibling groups are reviewed;</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>At least 10 days before the review, invite:</text>
+        <para>
+          <num>(a)</num>
+          <text>The child's parents, guardians, and custodians;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A representative of any agency or institution charged with the care of the child;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The child being reviewed, if the child is 18 years old or older; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>The caregiver; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Have discretion to invite to the review:</text>
+        <para>
+          <num>(a)</num>
+          <text>The child being reviewed, if the child is 10 years old or older;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The child being reviewed, if the child is younger than 10 years old and requests participation; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Any other individual whom the local board or local department believes may provide information about the child.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The local board shall make findings and recommendations, based on:</text>
+      <para>
+        <num>(1)</num>
+        <text>The child's safety and best interests as paramount factors;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Information received from:</text>
+        <para>
+          <num>(a)</num>
+          <text>The case plan;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The caseworker's presentation; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Interested individuals attending the review; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>All applicable State and federal laws and regulations.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Regarding a waiver of reunification services, the local board shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Find whether a waiver has been granted or is pending decision of the court;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Find whether the requirements of <cite doc="Md. Code" path="gcj|3-812">Courts and Judicial Proceedings Article, §3-812</cite>.1, Annotated Code of Maryland, and exceptions, apply; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Recommend whether a waiver should be granted or filed.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Regarding termination of parental rights for a child younger than 18 years old, the local board shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Find whether a petition for termination has been granted or is pending determination by the court;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Find whether requirements of <cite doc="Md. Code" path="gfl|5-525">Family Law Article, §5-525</cite>.1, Annotated Code of Maryland, and exceptions apply; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Recommend whether a petition for termination should be filed or granted.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Regarding the permanency plan, the local board shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Agree with the plan presented by the local department; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Recommend an alternate permanency plan and explain why the alternate plan is more appropriate.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Regarding progress towards making a permanent placement, the local board shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Find whether progress is adequate; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If progress is not adequate:</text>
+        <para>
+          <num>(a)</num>
+          <text>Cite the agency or agencies responsible, and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Explain why progress is not adequate.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Regarding the safety of current and future living arrangements, the local board shall find whether:</text>
+      <para>
+        <num>(1)</num>
+        <text>The local department has utilized all applicable safety assessment and child protection protocols;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>There are indicators of risk; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The local department has taken appropriate steps to protect the child.</text>
+      </para>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>Regarding the current living arrangement, the local board shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Find whether the arrangement is appropriate; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If not appropriate:</text>
+        <para>
+          <num>(a)</num>
+          <text>Explain why the arrangement is not appropriate; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Recommend steps to achieve an appropriate living arrangement.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>Regarding the local department's placement plan, the local board shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Agree with the plan; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Recommend an alternate placement plan and explain why the alternate plan is more appropriate.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Responsibilities of the Local Department.</heading>
+    <text>The local department shall:</text>
+    <para>
+      <num>A.</num>
+      <text>Promptly and accurately enter all required data into CIS/FACTS;</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Submit the names and addresses of interested individuals to CRBC at least 3 weeks before the review;</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Notify the local board's staff assistant, at least 20 working days before the scheduled review, of any interagency or intercounty involvement;</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Submit the child's case plan at least 1 week before the local review board meeting;</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Arrange for required local department staff to:</text>
+      <para>
+        <num>(1)</num>
+        <text>Attend local review board meetings when requested,</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Present the case verbally at the review meeting,</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Answer all pertinent questions from the local board, and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Provide all documents as requested;</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Secure the information and progress report from the appropriate private agency, therapeutic agency, or institution in regard to the child and family;</text>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Place in the case record:</text>
+      <para>
+        <num>(1)</num>
+        <text>Documentation that the parents and caregivers were invited to attend the review, and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Written recommendation reports from the local board;</text>
+      </para>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>Notify the local board of the local department's intended action on the local board's recommendations within 10 working days of receiving the recommendation;</text>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>Notify the local board's staff assistant if any changes in the child's plan have occurred since the board received the plan;</text>
+    </para>
+    <para>
+      <num>J.</num>
+      <text>Provide space for the review meeting; and</text>
+    </para>
+    <para>
+      <num>K.</num>
+      <text>Provide requested information for the local annual report if feasible.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Responsibilities of the Department.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Secretary shall ensure the timely and accurate flow of information requested by the State and local boards to perform:</text>
+      <para>
+        <num>(1)</num>
+        <text>Timely and meaningful case reviews; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Program monitoring functions.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The Secretary shall take immediate action to enforce compliance when the local department fails to comply with:</text>
+      <para>
+        <num>(1)</num>
+        <text>This chapter; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The local plan.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Confidentiality.</heading>
+    <text>State and local review board members and staff shall maintain confidentiality pursuant to <cite path="|07.01.07">COMAR 07.01.07</cite>.</text>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Family Law Article, §§<cite doc="Md. Code" path="gfl|5-535">5-535</cite>—<cite doc="Md. Code" path="gfl|5-547">5-547</cite>, Annotated Code of Maryland; Social Security Act, Title IV B and E; 42 U.S.C. §§422 and 675</annotation>
+    <annotation type="History" dest="container" effective="1984-11-05">Effective date: November 5, 1984 (11:22 Md. R. 1897)</annotation>
+    <annotation type="History" dest="container" effective="2000-08-07">Regulations .01—07, Foster Care review Board Program, repealed and new Regulations <cite path="|07|01|06|.01">.01</cite>—<cite path="|07|01|06|.08">.08</cite>, Citizens' Review Board for Children, adopted effective August 7, 2000 (27:15 Md. R. 1399)</annotation>
+  </annotations>
+</container>

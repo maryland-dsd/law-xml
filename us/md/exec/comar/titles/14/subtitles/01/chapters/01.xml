@@ -1,0 +1,640 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>01</num>
+  <heading>General Provisions</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this subtitle, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>“Abbreviated new drug application (ANDA)” means a submission to the FDA for the review and potential approval for marketing of a generic drug product, including bioequivalence data, as defined in 21 CFR §314.3 and described under 21 CFR §314.50.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>“Accelerated approval” means the FDA drug approval process defined in 21 U.S.C. §356(c)(1)(A).</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>“Active ingredient” means a component of a drug that is intended to provide pharmacological activity or other direct effect in the diagnosis, cure, mitigation, treatment, or prevention of disease, or to affect the structure or any function of the body, as defined in 21 CFR §314.3.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>“Active moiety” means the molecule or ion responsible for the physiological or pharmacological action of the drug substance, excluding those appended portions of the molecule that cause the drug to be an ester, salt, or other noncovalent derivative of the molecule, as defined in 21 CFR §314.3.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>“Average cost share” means the sum of the cost share of a prescription drug product for each patient, divided by the number of patients.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>“Average payor cost per patient” means the sum of the total dollars paid by all payors over the most recent calendar year, divided by the number of patients.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>“Average sales price (ASP)” has the meaning stated in 42 U.S.C §1395w-3a(c)(1).</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>“Average total out-of-pocket cost” means the sum of all patient total out-of-pocket costs, divided by the number of patients.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>“Average wholesale price (AWP)” means the average suggested price paid by a retailer to buy a drug from a wholesaler, excluding price concessions, discounts, and rebates.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>“Biologic” means a biological product, as defined in 42 U.S.C. §262(i)(1).</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>“Biologics license application (BLA)” means a request to the FDA to introduce, or deliver for introduction, a biological product, as defined in 21 CFR §600.3(h), into interstate commerce, as regulated under 21 CFR §600-680.</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>“Biosimilar” means a biological product, as defined in 42 U.S.C. §262(i)(2), that is produced or distributed in accordance with a biologics license application approved under 42 U.S.C. §262(k)(3).</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>“Board” has the meaning stated in Health-General Article, §21-2C-01, Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>“Board staff” means an employee of the Board or a qualified independent third party that has contracted with the Board and is subject to a nondisclosure or confidentiality agreement.</text>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>“Brand name drug” has the meaning stated in Health-General Article, §21-2C-01, Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>“Carrier” has the meaning stated in Health-General Article, §19-132, Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>“Chair” means the chair of the Board, as provided in Health-General Article, §21-2C-03, Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(18)</num>
+        <text>“Coinsurance” means the percentage of costs paid by the patient after meeting the deductible.</text>
+      </para>
+      <para>
+        <num>(19)</num>
+        <text>“Consumer Price Index for All Urban Consumers (CPI-U)” means the measure of the average change over time in the prices paid by urban consumers for a defined market basket of consumer goods and services.</text>
+      </para>
+      <para>
+        <num>(20)</num>
+        <text>“Copayment” means the set dollar amount that a patient pays for prescriptions or services covered by the patient’s health insurance, separate from the deductible.</text>
+      </para>
+      <para>
+        <num>(21)</num>
+        <text>“Cost share” means the patient total out-of-pocket costs divided by gross spending.</text>
+      </para>
+      <para>
+        <num>(22)</num>
+        <text>“Deductible” means the set amount a patient pays for health and medical services and products each calendar year before a health insurance plan begins to provide coverage, usually expressed in dollars.</text>
+      </para>
+      <para>
+        <num>(23)</num>
+        <text>“Discount” means a monetary adjustment that reduces the price paid or dollar amount received by an entity engaging in a prescription drug transaction that occurs during the prescription drug transaction as reflected on the invoice.</text>
+      </para>
+      <para>
+        <num>(24)</num>
+        <text>“Disease burden” means the impact of a health condition measured by financial cost, mortality, morbidity, severity, and epidemiological indicators.</text>
+      </para>
+      <para>
+        <num>(25)</num>
+        <text>“Drug class” means the grouping of medications based on a common active ingredient, or ingredients, or by pharmacologic or therapeutic class.</text>
+      </para>
+      <para>
+        <num>(26)</num>
+        <text>“Drug-specific patient access program” means a program designed to provide a patient with assistance in affording a prescription drug or paying for a prescription drug, including but not limited to the provision of a drug to a patient, coupons supplied by the manufacturer, donations to a nonprofit or foundation associated with the manufacturer, and donations to an independent nonprofit that are earmarked expressly for the manufacturer’s drugs.</text>
+      </para>
+      <para>
+        <num>(27)</num>
+        <text>“Federal Supply Schedule (FSS)” means the drug pricing program under the collection of multiple award contracts used by federal agencies, U.S. territories, Indian tribes, and other specified entities to purchase supplies and services from outside vendors.</text>
+      </para>
+      <para>
+        <num>(28)</num>
+        <text>“Food and Drug Administration (FDA)” means the federal agency of the U.S. Department of Health and Human Services tasked with protecting and promoting public health through the control and supervision of food safety, tobacco products, dietary supplements, prescription and over-the-counter pharmaceutical drugs, vaccines, biopharmaceuticals, medical devices, and certain other consumer products.</text>
+      </para>
+      <para>
+        <num>(29)</num>
+        <text>“Formulary” has the meaning stated in <cite doc="Md. Code" path="gin|15-1601">Insurance Article, §15-1601, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(30)</num>
+        <text>“Fund” means the Prescription Drug Affordability Fund, as provided for in Health-General Article, §21-2C-11, Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(31)</num>
+        <text>“Generic drug” has the meaning stated in Health-General Article, §21-2C-01, Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(32)</num>
+        <text>“Gross spending” means the sum of all monies paid for a prescription drug product for an individual patient in a calendar year.</text>
+      </para>
+      <para>
+        <num>(33)</num>
+        <text>“Health economics and outcomes research” means the form of economic analysis that compares the relative costs and outcomes of different treatments, such as cost effectiveness analysis, comparative effectiveness research, health economic information analysis, and health technology assessments.</text>
+      </para>
+      <para>
+        <num>(34)</num>
+        <text>“Health maintenance organization (HMO)” has the meaning stated in Health-General Article, §19-701, Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(35)</num>
+        <text>“Indication” means labeling that discusses the disease or condition the drug product is intended to diagnose, treat, prevent, cure, or mitigate, including a description of the patient population.</text>
+      </para>
+      <para>
+        <num>(36)</num>
+        <text>“Insurance benefit design” means the rules that determine the services covered by the plan and any other cost-sharing measures.</text>
+      </para>
+      <para>
+        <num>(37)</num>
+        <text>“Managed care organization (MCO)” has the meaning stated in Health-General Article, §15-102.4, Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(38)</num>
+        <text>“Manufacturer” has the meaning stated in Health-General Article, §21-2C-01, Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(39)</num>
+        <text>“Maryland Medical Care Database (MCDB)” means the database established and maintained by the Maryland Health Care Commission pursuant to Health-General Article, §19-133, Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(40)</num>
+        <text>“Medicaid” means the public health program jointly administered by the federal government and states that primarily serves low-income people (children, parents, and, in certain states, other adults) and some medically needy patients.</text>
+      </para>
+      <para>
+        <num>(41)</num>
+        <text>“Medicare” means the health insurance program administered by the federal government for people 65 years old or older or with certain disabilities.</text>
+      </para>
+      <para>
+        <num>(42)</num>
+        <text>“National average drug acquisition cost (NADAC)” means the pricing benchmark calculated from the Centers for Medicare &amp; Medicaid Services’ (CMS) monthly surveys of retail pharmacies that reflects the average price pharmacies pay to acquire a drug from a wholesaler or manufacturer, excluding subsequent discounts or rebates from manufacturers to wholesalers or pharmacies.</text>
+      </para>
+      <para>
+        <num>(43)</num>
+        <text>“National Drug Code (NDC)” means the unique three-segment number used for identification and reporting as set forth in 21 CFR §207.33.</text>
+      </para>
+      <para>
+        <num>(44)</num>
+        <text>“Net cost” means the per-unit cost paid by payors of a drug after accounting for all price concessions, discounts, and rebates.</text>
+      </para>
+      <para>
+        <num>(45)</num>
+        <text>“Net price” means the per-unit amount received by manufacturers of a drug after accounting for price concessions, discounts, and rebates.</text>
+      </para>
+      <para>
+        <num>(46)</num>
+        <text>“New drug application (NDA)” means a submission to the FDA for the review and potential approval for marketing of a drug product, which includes chemical, pharmacological, medical, biopharmaceutical, and statistical data, as defined in 21 CFR §314.3 and described under 21 CFR §314.50.</text>
+      </para>
+      <para>
+        <num>(47)</num>
+        <text>“Other cost-sharing” means a program, benefit design, or other mechanism that determines a patient’s responsibility for a prescription drug product, such as a copayment, coinsurance, deductible, formulary, or other management tool.</text>
+      </para>
+      <para>
+        <num>(48)</num>
+        <text>“Out-of-pocket costs” means the expenses for medical care, including prescription drug therapy, that are not reimbursed by insurance and are paid by a patient, including copayments, coinsurance, and deductibles for covered services, and the costs for all non-covered services.</text>
+      </para>
+      <para>
+        <num>(49)</num>
+        <text>“Patient total out-of-pocket costs” means the sum of a patient’s out-of-pocket costs, including items such as copayments, coinsurance, and deductibles, in a calendar year.</text>
+      </para>
+      <para>
+        <num>(50)</num>
+        <text>“Payor” means the entity other than the patient that is responsible for paying for health care costs, including health insurance carriers, health plan sponsors, PBMs, Medicare, Medicaid, MCOs, and HMOs.</text>
+      </para>
+      <para>
+        <num>(51)</num>
+        <text>“Person” means an individual, limited liability company, partnership, corporation, association, county, and public or private organization of any character other than an agency.</text>
+      </para>
+      <para>
+        <num>(52)</num>
+        <text>“Pharmacy benefit manager (PBM)” means a third-party administrator of prescription drug programs as stated in <cite doc="Md. Code" path="gin|15-1601">Insurance Article, §15-1601, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(53)</num>
+        <text>“Prescription drug product” has the meaning stated in Health-General Article, §21-2C-01, Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(54)</num>
+        <text>“Price concession” means a mechanism other than a rebate or discount that reduces the price paid by a payor.</text>
+      </para>
+      <para>
+        <num>(55)</num>
+        <text>“Proprietary” means something that is used, produced, or marketed under the exclusive legal right of the inventor, maker, or owner.</text>
+      </para>
+      <para>
+        <num>(56)</num>
+        <text>“Rebate” means a monetary adjustment that reduces the price paid or dollar amount received by an entity engaging in a prescription drug transaction that occurs after the prescription drug transaction.</text>
+      </para>
+      <para>
+        <num>(57)</num>
+        <text>“Regulatory exclusivity” means any exclusive marketing rights or data exclusivity rights conferred by the FDA with respect to a pharmaceutical product other than patents, including but not limited to 180-day exclusivity, orphan drug exclusivity, new chemical entity exclusivity, data exclusivity, and pediatric exclusivity.</text>
+      </para>
+      <para>
+        <num>(58)</num>
+        <text>“Stakeholder Council” means the Prescription Drug Affordability Stakeholder Council, as provided for in Health-General Article, §21-2C-04, Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(59)</num>
+        <text>“Standard medical practice” means the customary treatment by medical professionals:</text>
+        <para>
+          <num>(a)</num>
+          <text>Based on credible scientific evidence published in peer reviewed medical literature generally recognized by the relevant medical community;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Consistent with physician specialty society recommendations; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Consistent with the views of physicians practicing in the relevant clinical areas.</text>
+        </para>
+      </para>
+      <para>
+        <num>(60)</num>
+        <text>“State actual acquisition cost (SAAC)” has the meaning stated in <cite path="10.09.03.01|B.|(42)">COMAR 10.09.03.01B(42)</cite>.</text>
+      </para>
+      <para>
+        <num>(61)</num>
+        <text>“Therapeutic alternative” means a drug product that has the same or similar indications for use as a particular drug but is not a therapeutic equivalent to that drug.</text>
+      </para>
+      <para>
+        <num>(62)</num>
+        <text>“Therapeutic class” means a group of drugs containing active moieties that share scientifically documented properties and are defined on the basis of any combination of three attributes: mechanism of action, physiologic effect, and chemical structure.</text>
+      </para>
+      <para>
+        <num>(63)</num>
+        <text>“Therapeutic equivalent” has the meaning stated in 21 CFR §314.3.</text>
+      </para>
+      <para>
+        <num>(64)</num>
+        <text>“Total gross spending” means the sum of all monies paid for a prescription drug product in a calendar year.</text>
+      </para>
+      <para>
+        <num>(65)</num>
+        <text>“Total patient out-of-pocket cost” means the sum of all patient out-of-pocket costs in a calendar year, including items such as copayments, coinsurance, and deductibles.</text>
+      </para>
+      <para>
+        <num>(66)</num>
+        <text>“Trade secret” has the meaning stated in <cite doc="Md. Code" path="gcl|11-1201">Commercial Law Article, §11-1201, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(67)</num>
+        <text>“Wholesale acquisition cost (WAC)” means the manufacturer’s list price for a prescription drug product to wholesalers or direct purchasers in the United States, not including prompt pay or other discounts, rebates, or reductions in price, as reported in a wholesale price guide or other publication of prescription drug product pricing data.</text>
+      </para>
+      <para>
+        <num>(68)</num>
+        <text>“Wholesale distributor” has the meaning stated in <cite doc="Md. Code" path="gho|12-6">Health Occupations Article, §12-6</cite>C-01, Annotated Code of Maryland.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Rules of Construction.</heading>
+    <para>
+      <num>A.</num>
+      <text>Singular and Plural. In interpreting and applying this subtitle, the singular includes the plural.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Computation of Time.</text>
+      <para>
+        <num>(1)</num>
+        <text>In computing a period of time prescribed by this subtitle or an applicable statute, after a day, act, or event occurs, the following rules apply:</text>
+        <para>
+          <num>(a)</num>
+          <text>The day of the act, event, or default after which the designated period of time begins to run is not included;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>If the period of time allowed is more than 7 days, intermediate Saturdays, Sundays, and legal holidays are counted;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>If the period of time allowed is 7 days or less, intermediate Saturdays, Sundays, and legal holidays are not counted; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>The last day of the computed period is included unless it is a Saturday, Sunday, or legal holiday, in which event the period runs until the end of the next day that is a work day.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>In computing a period of time prescribed by this subtitle or an applicable statute, before a day, act, or event occurs, the following rules apply:</text>
+        <para>
+          <num>(a)</num>
+          <text>In determining the latest day for performing an act that is required to be performed a prescribed number of days before a certain day, act, or event, all days preceding that day, including intervening Saturdays, Sundays, and legal holidays, are counted in the number of days so prescribed; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The latest day is included in the determination unless it is a Saturday, Sunday, or legal holiday, in which event the latest day is the first preceding day that is a work day.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="14|01|01|.03">
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Open Meetings.</heading>
+    <para>
+      <num>A.</num>
+      <text>Public Attendance.</text>
+      <para>
+        <num>(1)</num>
+        <text>The general public is invited to attend and observe an open session of the Board.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A member of the public attending an open session may not participate in the session, except when:</text>
+        <para>
+          <num>(a)</num>
+          <text>The Board expressly invites public testimony, questions, comments, or other forms of public participation; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Public participation is otherwise authorized by law or regulation.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The Chair, or the Chair’s designee, may extend or waive any time requirement in this regulation.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Public Comments. A member of the public may provide oral public comment and written public comment in accordance with <cite path="|14|01|01|.05">Regulation .05 of this chapter</cite>.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Disruptive Conduct.</text>
+      <para>
+        <num>(1)</num>
+        <text>An individual attending an open session of the Board may not engage in any conduct, including visual demonstrations such as waving of placards, signs, or banners, that disrupts the session or that interferes with the right of members of the public to attend and observe the session.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Restoring Order. The presiding officer or Chair may:</text>
+        <para>
+          <num>(a)</num>
+          <text>Order an individual who persists in conduct prohibited by <cite path="14|01|01|.03|C.|(1)">§C(1) of this regulation</cite>, or who has violated any other regulation concerning the conduct of the open session, to be removed or disconnected from the session, and may request police assistance to restore order; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Recess the session while order is restored.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Confidential, Trade-Secret, and Proprietary Information.</heading>
+    <para>
+      <num>A.</num>
+      <text>Collection of Records and Information.</text>
+      <para>
+        <num>(1)</num>
+        <text>Identification.</text>
+        <para>
+          <num>(a)</num>
+          <text>A person submitting information, including data and records, for the Board’s consideration under this subtitle and Health-General Article, Title 21, Subtitle 2C, Annotated Code of Maryland, shall:</text>
+          <para>
+            <num>(i)</num>
+            <text>Clearly designate the specific information the person considers to be confidential, trade-secret, or proprietary; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Submit a form certifying that the information so designated is not otherwise publicly available and has been handled and maintained to preserve its confidential, trade-secret, or proprietary nature.</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The Board may also determine that information it has received is confidential, trade-secret, or proprietary.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The Board may seek additional information regarding whether the information is confidential, trade-secret, proprietary, or not otherwise publicly available from:</text>
+          <para>
+            <num>(i)</num>
+            <text>The person submitting the information; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>To the extent the Board is able to determine who created the document or information, the person who created the document or information.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Designation. The information and data obtained by the Board under this subtitle and Health-General Article, Title 21, Subtitle 2C, Annotated Code of Maryland, that is not otherwise publicly available, is:</text>
+        <para>
+          <num>(a)</num>
+          <text>Considered to be a trade secret and confidential and proprietary information; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Is not subject to inspection or disclosure under the Public Information Act.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Management of Information Received by the Board.</text>
+      <para>
+        <num>(1)</num>
+        <text>Access to Information.</text>
+        <para>
+          <num>(a)</num>
+          <text>Confidential, trade-secret, or proprietary information obtained by the Board under this subtitle and Health-General Article, Title 21, Subtitle 2C, Annotated Code of Maryland, may be accessed only by:</text>
+          <para>
+            <num>(i)</num>
+            <text>Board members; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Board staff including a qualified independent third party that has contracted with the Board and is subject to a nondisclosure agreement prohibiting disclosure of such information.</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A person with access to confidential, trade-secret, or proprietary information shall maintain the confidentiality of the information in accordance with <cite doc="Md. Code" path="gsg|10-617">State Government Article, §10-617, </cite>and Health-General Article, §21-2C-10, Annotated Code of Maryland.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Consideration by Board.</text>
+        <para>
+          <num>(a)</num>
+          <text>The Board may discuss confidential, trade-secret, and proprietary information in a closed session.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The Board may not disclose confidential, trade-secret, or proprietary information in an open meeting, its public meeting materials, or its summary report of a cost review study.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="14|01|01|.05">
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Public Comment Procedures.</heading>
+    <para>
+      <num>A.</num>
+      <text>Public Oral Comments for a Board Meeting.</text>
+      <para>
+        <num>(1)</num>
+        <text>A member of the public may register to provide oral comments at a Board meeting by:</text>
+        <para>
+          <num>(a)</num>
+          <text>Submitting a written notice that:</text>
+          <para>
+            <num>(i)</num>
+            <text>Contains the individual’s name and email address or phone number;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Identifies whether the individual is affiliated with or commenting on behalf of an organization, agency, employer, or other entity; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Identifies the agenda item the individual wishes to address; and</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Submitting the written notice to the Board at least 2 work days before the scheduled meeting.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Oral comments shall be made to the Board in open session.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Public Written Comment Procedures.</text>
+      <para>
+        <num>(1)</num>
+        <text>General Procedures.</text>
+        <para>
+          <num>(a)</num>
+          <text>Unless expressly exempted, these provisions apply to all written public comments.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Except as provided in <cite path="14|01|01|.05|B.|(5)">§B(5) of this regulation</cite>, a member of the public may submit written comments to the Board by email, courier, or postal service.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>An individual submitting comments on behalf of an organization, agency, employer, or other entity shall:</text>
+          <para>
+            <num>(i)</num>
+            <text>Submit the comments on the letterhead of the organization, agency, employer, or other entity; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Disclose in writing the organization, agency, employer, or other entity with which the individual is affiliated;</text>
+          </para>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Written comments received by the date prescribed by regulation or set by the Board will be:</text>
+          <para>
+            <num>(i)</num>
+            <text>Shared with the Board;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Where applicable, made part of the record on the issue or matter before the Board where applicable; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Posted on the Board’s website.</text>
+          </para>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Board staff shall redact sociological information prior to posting the written comments on the Board website.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Public Written Comments for a Board Meeting.</text>
+        <para>
+          <num>(a)</num>
+          <text>A member of the public may submit written comments concerning any agenda item of the Board or any decision pending before the Board in accordance with the procedures in §B(1) and (5) of this regulation.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Written comments received more than 2 work days before the scheduled Board meeting will be shared with the Board prior to the Board meeting.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Written comments received less than 2 work days before the scheduled Board meeting will be shared with the Board and posted on the Board’s website after the scheduled meeting.</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Written comments received less than 2 work days before the scheduled Board meeting may be considered at the next Board meeting if the issue, matter, or decision is still pending.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Public Written Comments Authorized by Regulation.  If a regulation expressly provides for public written comment, a member of the public may submit written comments to the Board within the time period prescribed by regulation in accordance with the procedures in §B(1) and (5) of this regulation.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Public Written Comments Requested by the Board. If the Board requests public comment by posting notice of the request and a due date on its website, a member of the public may submit written comments to the Board within the time period prescribed by the notice in accordance with the procedures in §B(1) and (5) this regulation.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Public Written Comments Containing Confidential, Trade-Secret, and Proprietary Information.</text>
+        <para>
+          <num>(a)</num>
+          <text>A member of the public that wishes to submit written comments or attachments to written comments that contain confidential, trade-secret, and proprietary information shall:</text>
+          <para>
+            <num>(i)</num>
+            <text>Redact the specific information the person considers to be confidential, trade-secret, or proprietary from the written comments and attachments;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Submit a form certifying that the redacted information is not otherwise publicly available and has been handled and maintained to preserve its confidential, trade-secret, or proprietary nature;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Submit the redacted comments and attachments to the Board by email, courier, or postal service; and</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Submit the unredacted comments and attachments to the Board in paper form using a tracked common carrier, courier, or postal service, or electronically using secure file transfer.</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The Board and Board staff shall use, protect, and manage written comments and attachments containing confidential, trade-secret, and proprietary information in compliance with <cite path="|14|01|01|.04">Regulation .04 of this chapter</cite> and Health-General Article, §§21-2C-03 and 21-2C-10, Annotated Code of Maryland.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Health-General Article, §21-2C-03(f), Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="2021-09-06">Effective date: September 6, 2021 (48:18 Md. R. 692)</annotation>
+    <annotation type="History" dest="container" effective="2023-12-25"><cite path="|14|01|01|.01|B.">Regulation .01B</cite> amended effective December 25, 2023 (50:25 Md. R. 1089)</annotation>
+    <annotation type="History" dest="container" effective="2023-12-25"><cite path="|14|01|01|.02">Regulation .02</cite> adopted effective December 25, 2023 (50:25 Md. R. 1089)</annotation>
+    <annotation type="History" dest="container" effective="2023-12-25"><cite path="|14|01|01|.03">Regulation .03</cite> adopted effective December 25, 2023 (50:25 Md. R. 1089)</annotation>
+    <annotation type="History" dest="container" effective="2023-12-25"><cite path="|14|01|01|.04">Regulation .04</cite> adopted effective December 25, 2023 (50:25 Md. R. 1089)</annotation>
+    <annotation type="History" dest="container" effective="2023-12-25"><cite path="|14|01|01|.05">Regulation .05</cite> adopted effective December 25, 2023 (50:25 Md. R. 1089)</annotation>
+  </annotations>
+</container>

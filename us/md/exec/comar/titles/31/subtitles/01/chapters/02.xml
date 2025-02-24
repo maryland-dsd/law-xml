@@ -1,0 +1,810 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>02</num>
+  <heading>Emergency Powers</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Purpose.</heading>
+    <text>The purpose of this chapter is to provide safeguards to consumers with respect to their dealings with entities licensed or registered to transact insurance business in the State in the event of:</text>
+    <para>
+      <num>A.</num>
+      <text>A Governor-declared state of emergency;</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A Presidential declaration of a major disaster or emergency declaration under the Federal Stafford Act; or</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A national or public health emergency that within the Commissioner’s discretion affects the State that:</text>
+      <para>
+        <num>(1)</num>
+        <text>Is issued:</text>
+        <para>
+          <num>(a)</num>
+          <text>By the President of the United States under §201, 202(d) or 301 of the Federal National Emergencies Act; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>By the Secretary of Health and Human Services under the Federal Public Health Service Act; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Is based on a serious threat to health resulting from the existence of a deadly agent as defined in <cite doc="Md. Code" path="gps|14-3">Public Safety Article, §14-3</cite>A-01, Annotated Code of Maryland.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Applicability.</heading>
+    <para>
+      <num>A.</num>
+      <text>This chapter applies to:</text>
+      <para>
+        <num>(1)</num>
+        <text>Each insurer, nonprofit health service plan, health maintenance organization, and dental plan organization licensed to do business in Maryland;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Each premium finance company registered to do business in Maryland; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Each pharmacy benefits manager registered to do business in Maryland.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>This chapter also applies to the Maryland Automobile Insurance Fund (MAIF) and the Joint Insurance Association (JIA).</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>All Other Lines.</text>
+        <para>
+          <num>(a)</num>
+          <text>"All other lines" means any line of business or coverage that is not included in any of the line/coverage definitions under this chapter for which claims attributable to a disaster subject to a data call were reported.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"All other lines" does not include mortgage/financial guaranty, title, fidelity, surety, medical malpractice, or professional liability insurance lines of business.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>"Business interruption insurance" means insurance that covers the loss of income, continuing fixed expenses, or extra expenses a business suffers after a disaster while its facility is either closed because of the disaster or in the process of being rebuilt after the disaster.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Case Incurred Loss.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Case incurred loss" means indemnity case reserves plus payments to date.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Case incurred loss" does not include estimates of incurred but not reported (IBNR) losses.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>"Casualty insurance" has the meaning stated in <cite doc="Md. Code" path="gin|1-101">Insurance Article, §1-101, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Claims Closed with Payment.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Claims closed with payment" means all claims closed where a loss payment was made regardless of the date of loss or when the claim was received.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Claims closed with payment" does not include claims closed where loss adjustment expense was incurred but no payment to the insured was made.</text>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Claims Closed without Payment.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Claims closed without payment" means all claims closed where no loss payment was made regardless of the date of loss or when the claim was received.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Claims closed without payment" includes claims closed where loss adjustment expense was incurred but no payment to the insured was made.</text>
+        </para>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>"Claims reported" means all claims reported regardless of whether a payment was made.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>"Closed claim" means a claim:</text>
+        <para>
+          <num>(a)</num>
+          <text>That has been settled and the claimant has received a payment even if the claimant may receive additional payment or payments from the insurer if the claimant provides additional information to the insurer regarding replacement or other costs as they are incurred;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>For which the claimant has not received a payment because the amount is less than the deductible;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>That has been withdrawn by the insured; or</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>That has been denied.</text>
+        </para>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>"Commercial auto insurance" means liability and physical damage insurance that covers vehicles used for commercial purposes.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>"Commercial property" means all property not categorized as residential property.</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>"Copayment" means a specified charge that a covered person pays each time services of a particular type or in a designated setting are received.</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>"Deductible" means the amount of allowable charges that are incurred by an individual or family per year before a carrier begins payment.</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>"Eligible individual" means an individual who:</text>
+        <para>
+          <num>(a)</num>
+          <text>Enrolled in Medicare Part B while enrolled in the Maryland Medical Assistance Program;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Remained in the Maryland Medical Assistance Program due to a suspension of terminations by the Maryland Medical Assistance Program during a state of emergency, and was not disenrolled until or terminated until at least 6 months following the effective date of enrollment in Part B of Medicare;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Seeks to enroll in a Medicare supplement policy during the 63-day period following the later of notice of termination or disenrollment or the date of termination from the Maryland Medical Assistance Program; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Submits evidence of the date of termination or disenrollment from the Maryland Medical Assistance Program with the application for a Medicare supplement policy.</text>
+        </para>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>"Farm owner's insurance" means insurance that provides liability coverage and coverage for damage to physical structures and other property located on a farm.</text>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>"Health benefits" means a policy or certificate that includes benefits for hospital or medical services issued by a carrier.</text>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>"Health carrier" means:</text>
+        <para>
+          <num>(a)</num>
+          <text>An insurer;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A nonprofit health service plan;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A health maintenance organization; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>A dental plan organization.</text>
+        </para>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>"Health insurance" has the meaning stated in <cite doc="Md. Code" path="gin|1-101">Insurance Article, §1-101, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(18)</num>
+        <text>"Homeowner's insurance" means insurance for residential property provided under:</text>
+        <para>
+          <num>(a)</num>
+          <text>A homeowner's policy;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A condominium owner's policy;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A mobile homeowner's policy;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>A renter's policy; or</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>A noncommercial farm owner's policy.</text>
+        </para>
+      </para>
+      <para>
+        <num>(19)</num>
+        <text>"Life insurance" has the meaning stated in <cite doc="Md. Code" path="gin|1-101">Insurance Article, §1-101, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(20)</num>
+        <text>"Loss payment" means the portion of an incurred loss that is paid by the insurer.</text>
+      </para>
+      <para>
+        <num>(21)</num>
+        <text>"Percentage of claims closed" means a percentage calculated as (claims closed with payment + claims closed without payment)/(claims reported).</text>
+      </para>
+      <para>
+        <num>(22)</num>
+        <text>"Premium finance company" has the meaning stated in <cite doc="Md. Code" path="gin|23-101">Insurance Article, §23-101, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(23)</num>
+        <text>Private Passenger Auto Insurance.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Private passenger auto insurance" means liability and physical damage insurance that covers a vehicle driven for personal use.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Private passenger auto insurance" includes automobiles, motorcycles, and recreational vehicles.</text>
+        </para>
+      </para>
+      <para>
+        <num>(24)</num>
+        <text>"Privately issued flood insurance" means specific insurance coverage against property loss from flooding under any policy or endorsement, issued by any entity other than the National Flood Insurance Program (NFIP).</text>
+      </para>
+      <para>
+        <num>(25)</num>
+        <text>"Property insurance" has the meaning stated in <cite doc="Md. Code" path="gin|1-101">Insurance Article, §1-101, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(26)</num>
+        <text>"Specified illness" means an illness, disease, virus, or infection for which:</text>
+        <para>
+          <num>(a)</num>
+          <text>The Governor has declared or has renewed a declaration of a state of emergency for the State or an area within the State under <cite doc="Md. Code" path="gps|14-107">Public Safety Article, §14-107, Annotated Code of Maryland</cite>;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The President of the United States has issued a major disaster or emergency declaration for the State or an area within the State under the federal Stafford Act; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A national or public health emergency that within the Commissioner’s discretion affects the State and is:</text>
+          <para>
+            <num>(i)</num>
+            <text>Issued by the President of the United States under §201, 202(d), or 301 of the Federal National Emergencies Act or by the Secretary of Health and Human Services under the Federal Public Health Service Act; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Based on a serious threat to health resulting from the existence of a deadly agent as defined in <cite doc="Md. Code" path="gps|14-3">Public Safety Article, §14-3</cite>A-01, Annotated Code of Maryland.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(27)</num>
+        <text>Workers' Compensation Insurance.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Workers' compensation insurance" means insurance providing wage replacement and medical benefits to employees injured in the course of employment in exchange for mandatory relinquishment of the employee's right to sue the employee's employer for the tort of negligence.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Workers" compensation insurance" includes associated employer's liability coverage.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="31|01|02|.04">
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Disaster Contact Personnel.</heading>
+    <para>
+      <num>A.</num>
+      <text>Each insurer, nonprofit health service plan, and dental plan organization authorized to issue insurance contracts that provide health insurance, life insurance, property insurance, or casualty insurance in Maryland shall provide primary and backup contact information for individuals the Commissioner may contact in the event of a disaster or catastrophic event.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The information required under <cite path="31|01|02|.04|A.">§A of this regulation</cite> shall also be provided by:</text>
+      <para>
+        <num>(1)</num>
+        <text>Health maintenance organizations licensed to operate in Maryland;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Maryland Automobile Insurance Fund;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The Joint Insurance Association; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Premium finance companies.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>By April 15 of each year, each entity subject to §A or B of this regulation shall complete a questionnaire as specified by bulletin to provide the information required under §A or B of this regulation and information about the entity's disaster preparedness plans.</text>
+    </para>
+  </section>
+  <section cache:ref-path="31|01|02|.05">
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Activation of Regulations.</heading>
+    <para>
+      <num>A.</num>
+      <text>If an event described in <cite path="|31|01|02|.01">Regulation .01 of this chapter</cite> occurs, the Commissioner may activate one or more of the requirements specified in this chapter adopted under this regulation by issuing a bulletin specifying:</text>
+      <para>
+        <num>(1)</num>
+        <text>That a specific requirement of the chapter is activated;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The line or lines of business to which the activated requirement described in <cite path="31|01|02|.05|A.|(1)">§A(1) of this regulation</cite> applies;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The geographic areas to which the activated requirement described in <cite path="31|01|02|.05|A.|(1)">§A(1) of this regulation</cite> applies; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The period of time for which the activated requirement described in <cite path="31|01|02|.05|A.|(1)">§A(1) of this regulation</cite> applies.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A requirement activated under §A or E of this regulation may not:</text>
+      <para>
+        <num>(1)</num>
+        <text>Apply beyond the geographic area included within the Governor's or President's declaration of a state of emergency or disaster; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Apply, except as otherwise authorized by <cite path="31|01|02|.05|C.">§C of this regulation</cite> or by <cite doc="Md. Code" path="gin|12-210">Insurance Article, §12-210 </cite>or 19-112, Annotated Code of Maryland, beyond the duration of the Governor’s or President’s declaration or renewal of a state of emergency.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A requirement activated under <cite path="|31|01|02|.01|C.">Regulation .01C of this chapter</cite> may not apply beyond the duration of the President’s or Secretary of Health and Human Services’ declaration of a national or public health emergency.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>If a presidential disaster declaration is not accompanied by a declaration of a state of emergency by the Governor, a requirement activated under §A or E of this regulation may not remain in effect for more than 30 days of the presidential disaster declaration.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>The Commissioner:</text>
+      <para>
+        <num>(1)</num>
+        <text>Shall provide a copy of the bulletin to the disaster contact personnel identified pursuant to <cite path="|31|01|02|.04">Regulation .04 of this chapter</cite>; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Shall, to the extent possible, post a copy of the bulletin on the Administration's website.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>In addition to actions specifically set forth in this chapter, in the event of a state of emergency or emergency declaration, the Commissioner may take any other activity he considers necessary to protect the residents of the State.</text>
+    </para>
+  </section>
+  <section cache:ref-path="31|01|02|.06">
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Life and Health.</heading>
+    <para>
+      <num>A.</num>
+      <text>The bulletin issued by the Commissioner under <cite path="|31|01|02|.05">Regulation .05 of this chapter</cite> may require health carriers to:</text>
+      <para>
+        <num>(1)</num>
+        <text>Suspend health benefit cancellations and nonrenewals;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Allow a provider in the geographic area to which the regulation applies to submit a claim for service provided 30 calendar days prior to the effective date of the regulation, up to 240 calendar days after the date the service was rendered;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Waive any time restrictions on prescription medication refills and authorize payment to pharmacies for at least a 30-day supply of any prescription medication, regardless of the date upon which the prescription medication had most recently been filled by a pharmacist;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Waive any restrictions on the time frame for the replacement of durable medical equipment or supplies, eyeglasses, and dentures;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Except as provided in §§J and K of this regulation, waive any cost-sharing, including copayments, coinsurance, and deductibles, for any visit to diagnose or test for a specified illness, regardless of the setting of the testing (for example, an emergency room, urgent care center, or primary physician’s office);</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Except as provided in §§J and K of this regulation, waive any cost-sharing, including copayments, coinsurance, and deductibles, for laboratory fees to diagnose or test for a specified illness;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Except as provided in §§J and K of this regulation, waive any cost-sharing, including copayments, coinsurance, and deductibles, for vaccination for a specified illness; and</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Except as provided in §§J and K of this regulation, waive any cost-sharing, including copayments, coinsurance, and deductibles, for treatment for a specified illness.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A health carrier may cancel or refuse to renew any health benefits if all premiums due are not paid within 60 calendar days following the date the bulletin issued pursuant to <cite path="|31|01|02|.05|D.">Regulation .05D of this chapter</cite> expires.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The effective date of cancellation or refusal to renew pursuant to <cite path="31|01|02|.06|B.">§B of this regulation</cite> is the date the health carrier was originally permitted to take such action after the expiration of any applicable grace period.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The Commissioner may extend any time frames required for processing claims for a health carrier if the health carrier requests an extension in writing and demonstrates the legitimate reason for the business disruption to the Commissioner.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>The Commissioner may suspend the requirement to pay interest on claims as required by <cite doc="Md. Code" path="gin|15-1005">Insurance Article, §15-1005, Annotated Code of Maryland</cite>, if the health carrier requests such suspension in writing and demonstrates to the Commissioner a legitimate reason for the suspension of the requirement to pay interest.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>The Commissioner may require a health carrier to make a claims payment for treatment for a specified illness that the health carrier has denied as experimental or investigational.</text>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>A health carrier shall evaluate a request to use an out-of-network provider to perform diagnostic testing of a specified illness solely on the basis of whether the use of the out-of-network provider is medically necessary or appropriate.</text>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>Subject to <cite path="31|01|02|.06|M.">§M of this regulation</cite>, the only prior authorization requirements a health carrier may utilize relating to testing for a specified illness shall relate to the medical necessity of that testing.</text>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>An adverse decision on a request for coverage of diagnostic services for a specified illness shall be considered an emergency case for which an expedited grievance procedure is required under <cite doc="Md. Code" path="gin|15-10">Insurance Article, §15-10</cite>A-02, Annotated Code of Maryland.</text>
+    </para>
+    <para>
+      <num>J.</num>
+      <text>The requirements of §A(5)—(8) of this regulation do not apply to a Medicare supplement policy as defined by <cite doc="Md. Code" path="gin|15-901">Insurance Article, §15-901(k), Annotated Code of Maryland</cite>.</text>
+    </para>
+    <para>
+      <num>K.</num>
+      <text>A carrier is not required to waive the deductible for an insured covered under a high deductible health plan, as defined in 26 U.S.C. §223, if the waiver of the deductible would disqualify the plan from being considered a high deductible health plan under federal law.</text>
+    </para>
+    <para>
+      <num>L.</num>
+      <text>The Commissioner may require pharmacy benefits managers and health carriers to suspend random audits, including but not limited to in-person or “desk” audits, of pharmacies unless there is a reasonable suspicion of fraud.</text>
+    </para>
+    <para>
+      <num>M.</num>
+      <text>The Commissioner may require health carriers to suspend, waive, or modify requirements related to prior authorizations, concurrent review, retrospective review, and notification of inpatient acute care, post-discharge care, and facility transfers.</text>
+    </para>
+    <para>
+      <num>N.</num>
+      <text>With respect to an eligible individual, a carrier may not:</text>
+      <para>
+        <num>(1)</num>
+        <text>Deny or place a condition on the issuance or effectiveness of a Medicare supplement policy that is offered and is available for issuance to new enrollees by the issuer;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Discriminate in the pricing of a Medicare supplement policy because of health status, claims experience, receipt of health care, or medical condition; or</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Impose an exclusion of benefits based on a preexisting condition under a Medicare supplement policy.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="31|01|02|.07">
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Property and Casualty.</heading>
+    <para>
+      <num>A.</num>
+      <text>The bulletin issued by the Commissioner under <cite path="|31|01|02|.05">Regulation .05 of this chapter</cite> may require insurers authorized in the State who write property and casualty insurance, the Maryland Automobile Insurance Fund, and the Joint Insurance Association to:</text>
+      <para>
+        <num>(1)</num>
+        <text>Suspend policy cancellations and nonrenewals;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Extend the time periods for completion of repairs to an affected property in the event that repairs necessitated by the disaster or catastrophic event cannot be completed within the time period required under the policy;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Provide any or all of the data listed in <cite path="31|01|02|.07|C.">§C of this regulation</cite> in a manner required by the Commissioner in the bulletin;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Implement a grace period of up to 60 days for the receipt of premium payments from customers prior to cancellation of policies;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Suspend the obligation of title insurers to conduct on-site reviews of each of its title insurance producers appointed as principal agents within the calendar year pursuant to <cite path="31.04.22.04">COMAR 31.04.22.04</cite>, provided that the process and procedures for conducting virtual audits are submitted to, and deemed adequate by, the Commissioner;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Suspend the requirements under <cite doc="Md. Code" path="gin|8-210">Insurance Article, §8-210, Annotated Code of Maryland</cite>, for an insurer to conduct an on-site review of the underwriting and claims processing operations of its managing general agent;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Suspend the requirement under <cite doc="Md. Code" path="gin|8-520">Insurance Article, §8-520, Annotated Code of Maryland</cite>, for a reinsurer to conduct on-site review of the underwriting and claims processing operations of the reinsurance manager; and</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>On request of the Commissioner, provide any additional information that the Commissioner determines is necessary because of the nature of the emergency.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>If a company is unable to provide all of the information required by the Commissioner under this regulation, the company shall provide the Commissioner with a detailed explanation of why it is unable to provide the information and state what information the company can provide.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>By a bulletin issued under <cite path="|31|01|02|.05">Regulation .05 of this chapter</cite>, the Commissioner may require authorized insurers, the Maryland Automobile Insurance Fund, and the Joint Insurance Association to provide any or all of the following information:</text>
+      <para>
+        <num>(1)</num>
+        <text>NAIC group number and group name, or in the alternative, NAIC company number and company name (list all companies that are included in the group);</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Name of person to contact with any questions;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Mailing address of contact person;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Email address of contact person;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Phone number of contact person;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>For each line of insurance defined in <cite path="|31|01|02|.03">Regulation .03 of this chapter</cite> and all other lines, the following information by zip code or by county:</text>
+        <para>
+          <num>(a)</num>
+          <text>Number of claims received;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Amount paid on claims to date (indicate whether this amount includes amounts reserved for claims);</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Number of claims closed with payment;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Number of claims closed without payment;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Case incurred loss;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Percentage of claims closed; and</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>Average time it took to close a claim (aging should begin the date the claim is reported);</text>
+        </para>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>For each line of insurance defined in <cite path="|31|01|02|.03">Regulation .03 of this chapter</cite> and all other lines, the following information on a Statewide basis:</text>
+        <para>
+          <num>(a)</num>
+          <text>Total number of Maryland claims received;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Amount paid on Maryland claims to date (indicate whether this amount includes amounts reserved for claims);</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Number of Maryland claims closed with payment;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Number of Maryland claims closed without payment;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Maryland case incurred loss; and</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Percentage of Maryland claims closed; or</text>
+        </para>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Specify what lines the company has included in all other lines.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Reporting Instructions.</text>
+      <para>
+        <num>(1)</num>
+        <text>Losses under business interruption insurance shall be reported under “business interruption insurance” and not under “commercial property insurance”.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Experience for vehicles covered by commercial auto insurance shall be consistent with data reported on lines 19.3, 19.4, and 21.2 of the P&amp;C annual statement.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Experience for flood coverage provided as an additional peril without endorsement under a residential or commercial property policy may be included with the associated property policy.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Experience for vehicles covered by private passenger auto insurance shall be consistent with data reported on lines 19.1, 19.2, and 21.1 of the P&amp;C annual statement.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Experience for workers’ compensation insurance shall be consistent with data reported on line 16 of the P&amp;C annual statement.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>If the Commissioner requires suspension of policy cancellations and nonrenewals, a property and casualty insurer, the Maryland Automobile Insurance Fund, or the Joint Insurance Association may cancel or refuse to renew any policy, after proper notice is issued, if:</text>
+      <para>
+        <num>(1)</num>
+        <text>All premiums due are not paid within 60 calendar days after the date of the expiration of the bulletin enacted pursuant to <cite path="|31|01|02|.05">Regulation .05 of this chapter</cite>; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The policy would have been lawfully cancelled or nonrenewed for reasons other than nonpayment of premium if not for the suspension of all policy cancellations or nonrenewals.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Data supplied to the Commissioner under <cite path="31|01|02|.07|A.|(3)">§A(3) of this regulation</cite> is confidential commercial data protected under <cite doc="Md. Code" path="gsg|10-617">State Government Article, §10-617(d), Annotated Code of Maryland</cite>, except when aggregated with data from all other insurers in a manner that does not permit any individual company information to be identified.</text>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>A property and casualty insurer, the Maryland Automobile Insurance Fund, or the Joint Insurance Association may deduct any premium payments past due from a claim payment made to the insured under the insurance policy from the effective date of the bulletin issued pursuant to <cite path="|31|01|02|.05">Regulation .05 of this chapter</cite> until 60 calendar days after the expiration of the bulletin.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Premium Finance Companies.</heading>
+    <para>
+      <num>A.</num>
+      <text>The bulletin issued by the Commissioner under <cite path="|31|01|02|.05">Regulation .05 of this chapter</cite> may require every premium finance company registered to do business in this State to:</text>
+      <para>
+        <num>(1)</num>
+        <text>Suspend cancellations of insurance policies for nonpayment of funds due under the premium finance agreement;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Grant affected persons an extension of any and all contractual provisions or other requirements that impose a time limit for an insured to perform any act including the payment of funds; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Waive additional interest, penalties, fees, or other charges accrued or assessed as the result of the extension required herein.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A premium finance company may cancel prospectively, after appropriate notice is issued, any policy if all payments due under the premium finance agreement are not paid within 60 calendar days after the date of the expiration of the bulletin issued pursuant to <cite path="|31|01|02|.05">Regulation .05 of this chapter</cite>.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A premium finance company may not cancel any insurance policy for failure of the insured to pay interest, penalties, or other charges until 60 calendar days after the date of the expiration of the bulletin issued pursuant to <cite path="|31|01|02|.05">Regulation .05 of this chapter</cite>.</text>
+    </para>
+  </section>
+  <section cache:ref-path="31|01|02|.09">
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Notification of Actions Taken to Implement Regulations.</heading>
+    <para>
+      <num>A.</num>
+      <text>To the extent that an entity subject to Regulation .04A or B of this chapter establishes procedures specific to a disaster or emergency event for consumers to use, such as specific contact phone numbers, the entity may use alternative forms of communication to notify consumers of these procedures.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Examples of alternative forms of communication referenced in <cite path="31|01|02|.09|A.">§A of this regulation</cite> include, but are not limited to:</text>
+      <para>
+        <num>(1)</num>
+        <text>Press releases;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Public service announcements;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Placing information in local newspapers; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Posting information on the carrier's website.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.10</num>
+    <heading>Deadlines.</heading>
+    <para>
+      <num>A.</num>
+      <text>The bulletin issued by the Commissioner under <cite path="|31|01|02|.05">Regulation .05 of this chapter</cite> may extend the statutorily imposed deadline for submissions to the Administration by up to 30 days. These submissions may include:</text>
+      <para>
+        <num>(1)</num>
+        <text>Requests for hearings;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Premium increase protests;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Other complaints;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Exceptions to Office of Administration Hearing opinions; or</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Responses to <cite doc="Md. Code" path="gin|27-1001">Insurance Article, §27-1001, Annotated Code of Maryland</cite>, complaints.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The Commissioner may extend statutory deadlines imposed on the Administration as deemed necessary by the Commissioner during the state of emergency provided the Governor has agreed to extend such statutory requirements and provided the Commissioner affords notice of the extension consistent with this chapter.</text>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Health-General Article, §19-706; <cite doc="Md. Code" path="gin|2-115">Insurance Article, §2-115</cite>; Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="2009-07-16">Effective date: July 16, 2009 (36:14 Md. R. 985)</annotation>
+    <annotation type="History" dest="container" effective="2022-12-12"><cite path="|31|01|02|.01">Regulation .01</cite> amended effective December 12, 2022 (49:25 Md. R. 1052)</annotation>
+    <annotation type="History" dest="container" effective="2020-04-28"><cite path="|31|01|02|.02|A.">Regulation .02A</cite> amended as an emergency provision effective April 28, 2020 (47:11 Md. R. 557); emergency provision expired August 31, 2020</annotation>
+    <annotation type="History" dest="container" effective="2020-12-28"><cite path="|31|01|02|.02|A.">Regulation .02A</cite> amended as an emergency provision effective September 1, 2020 (47:20 Md. R. 872); adopted permanently effective December 28, 2020 (47:26 Md. R. 1108)</annotation>
+    <annotation type="History" dest="container" effective="2016-07-01"><cite path="|31|01|02|.02|B.">Regulation .02B</cite> amended effective July 1, 2016 (43:5 Md. R. 387)</annotation>
+    <annotation type="History" dest="container" effective="2016-07-01"><cite path="|31|01|02|.03|B.">Regulation .03B</cite> amended effective July 1, 2016 (43:5 Md. R. 387)</annotation>
+    <annotation type="History" dest="container" effective="2020-03-09"><cite path="|31|01|02|.03|B.">Regulation .03B</cite> amended as an emergency provision affective March 9, 2020 (47:7 Md. R. 382); emergency provision expired August 31, 2020</annotation>
+    <annotation type="History" dest="container" effective="2020-12-28"><cite path="|31|01|02|.03|B.">Regulation .03B</cite> amended as an emergency provision affective September 1, 2020 (47:20 Md. R. 872); adopted permanently effective December 28, 2020 (47:26 Md. R. 1108)</annotation>
+    <annotation type="History" dest="container" effective="2022-12-12"><cite path="|31|01|02|.03|B.">Regulation .03B</cite> amended effective December 12, 2022 (49:25 Md. R. 1052)</annotation>
+    <annotation type="History" dest="container" effective="2016-07-01"><cite path="|31|01|02|.04|B.">Regulation .04B</cite> amended effective July 1, 2016 (43:5 Md. R. 387)</annotation>
+    <annotation type="History" dest="container" effective="2022-12-12"><cite path="|31|01|02|.05">Regulation .05</cite> amended effective December 12, 2022 (49:25 Md. R. 1052)</annotation>
+    <annotation type="History" dest="container" effective="2020-03-09"><cite path="|31|01|02|.06">Regulation .06</cite> amended as an emergency provision affective March 9, 2020 (47:7 Md. R. 382); emergency provision expired April 27, 2020</annotation>
+    <annotation type="History" dest="container" effective="2020-04-28"><cite path="|31|01|02|.06">Regulation .06</cite> amended as an emergency provision effective April 28, 2020 (47:11 Md. R. 557); emergency provision expired August 31, 2020</annotation>
+    <annotation type="History" dest="container" effective="2020-12-28"><cite path="|31|01|02|.06">Regulation .06</cite> amended as an emergency provision effective September 1, 2020 (47:20 Md. R. 872); adopted permanently effective December 28, 2020 (47:26 Md. R. 1108)</annotation>
+    <annotation type="History" dest="container" effective="2021-11-29"><cite path="|31|01|02|.06|F.">Regulation .06F</cite> amended effective November 29, 2021 (48:24 Md. R. 1025)</annotation>
+    <annotation type="History" dest="container" effective="2016-07-01"><cite path="|31|01|02|.07">Regulation .07</cite> amended effective July 1, 2016 (43:5 Md. R. 387)</annotation>
+    <annotation type="History" dest="container" effective="2021-11-29"><cite path="|31|01|02|.07|A.">Regulation .07A</cite> amended effective November 29, 2021 (48:24 Md. R. 1025)</annotation>
+    <annotation type="History" dest="container" effective="2021-11-29"><cite path="|31|01|02|.10">Regulation .10</cite> adopted effective November 29, 2021 (48:24 Md. R. 1025)</annotation>
+  </annotations>
+</container>

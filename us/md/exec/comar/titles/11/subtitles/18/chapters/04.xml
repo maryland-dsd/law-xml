@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>04</num>
+  <heading>Reporting Requirements for Lapse or Termination of Required Security</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Scope.</heading>
+    <text>These regulations apply to mandatory electronic reporting of policies of security and the mandatory electronic Online Insurance Verification (OLV) program operated by the Administration for the purpose of verifying insurance policies in real time.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>“Administration” means the Motor Vehicle Administration.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>“Fleet policy” has the meaning as stated in <cite doc="Md. Code" path="gtr|17-101">Transportation Article, §17-101, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>“Insurance companies” or “insurer” means licensed Maryland providers of required security as defined in <cite doc="Md. Code" path="gtr|17-101">Transportation Article, §17-101, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>“Online Insurance Verification (OLV)” means a program operated by the Administration for the purpose of verifying insurance policies in real time.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>“Policy” or “Policies” means a vehicle policy or binder for required security as defined by <cite doc="Md. Code" path="gtr|17-101">Transportation Article, §17-101(d), Annotated Code of Maryland</cite>, issued by an insurer or other provider of required security.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="11|18|04|.03">
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Reporting Guidelines.</heading>
+    <para>
+      <num>A.</num>
+      <text>Required Reporting. Insurance companies shall report on at least a weekly basis and according to the timeline determined by the Administration, all active policies in an electronic format determined by the Administration.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Except for fleet policies as provided in <cite path="11|18|04|.03|C.">§C of this regulation</cite>, notifications of all policies, shall include:</text>
+      <para>
+        <num>(1)</num>
+        <text>The name of the insured;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Maryland driver's license number of the insured or FEIN if the insured is a business;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The make of the vehicle;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The model year of the vehicle;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The vehicle identification number (VIN);</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>The current policy number; and</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>The effective date of the policy.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>For fleet policies, reporting shall include:</text>
+      <para>
+        <num>(1)</num>
+        <text>Company additions and deletions; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Policy number changes.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Rejected Notifications.</text>
+      <para>
+        <num>(1)</num>
+        <text>The Administration shall reject notifications of all active policies which do not include all of the items specified in <cite path="11|18|04|.03|B.">§B of this regulation</cite>.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The insurer shall resubmit notifications rejected under the provisions of <cite path="11|18|04|.03|D.|(1)">§D(1) of this regulation</cite> to the Administration by the date of the next regular file submission.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>The insurer shall provide, at each occurrence when the required security will terminate or be canceled, timely notification to the insured of the penalties that may be imposed by the Administration in accordance with <cite doc="Md. Code" path="gtr|17-106">Transportation Article, §17-106, Annotated Code of Maryland</cite>, for their failure to return evidence of registration when the required security has ended and is not replaced. The notice shall include the following statements:</text>
+      <para>
+        <num>(1)</num>
+        <text>“The registration plates must be returned to the Motor Vehicle Administration on or before the date the insurance policy expires or is canceled”; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>“Failure to return the registration plates may result in an uninsured motorist penalty fine which is assessed at a rate of $200 for the first 30 days and is increased by $7 each day thereafter until the insurance is replaced or the registration plates are returned. The uninsured motorist penalty fine is assessed per vehicle.”</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Insurance companies shall report, maintain, and update contact information, in a format required by the Administration, for the purpose of establishing and maintaining a database containing the proper address for providing notice to an insurer under <cite doc="Md. Code" path="gtr|21">Transportation Article §21</cite>–10A–04, Annotated Code of Maryland.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Online Insurance Verification Participation and Program Requirements.</heading>
+    <para>
+      <num>A.</num>
+      <text>Required Participation. All insurance companies shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Participate in the Administration’s OLV program; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Support a program where the Administration can electronically access the book of business of insured vehicles at any time.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Program Requirements. The OLV Program will consist of the following:</text>
+      <para>
+        <num>(1)</num>
+        <text>The Administration will electronically send an inquiry to an insurance company in real time which will include information required by the Administration.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Insurance companies shall use the data provided by the Administration to determine the policy status on the verification date and return an electronic response, automatically, in real time to the Administration in an electronic format determined by the Administration.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The response from the insurance company shall be used to validate or remove the existing policy in the records of the Administration.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The Administration will determine the status of a reported insurance policy at intervals determined by the Administration.</text>
+      </para>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Transportation Article, §§<cite doc="Md. Code" path="gtr|12-104">12-104</cite>(b), <cite doc="Md. Code" path="gtr|17-101">17-101</cite>, <cite doc="Md. Code" path="gtr|17-103">17-103</cite>, <cite doc="Md. Code" path="gtr|17-104">17-104</cite>, and <cite doc="Md. Code" path="gtr|17-106">17-106</cite>; <cite doc="Md. Code" path="gin|27-611">Insurance Article, §27-611</cite>; Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="1995-10-09">Effective date: October 9, 1995 (22:20 Md. R. 1545)</annotation>
+    <annotation type="History" dest="container" effective="2013-01-07"><cite path="|11|18|04|.01">Regulation .01</cite> amended as an emergency provision effective October 1. 2012 (39:20 Md. R. 1304); amended permanently effective January 7, 2013 (39:26 Md. R. 1665)</annotation>
+    <annotation type="History" dest="container" effective="2025-03-17"><cite path="|11|18|04|.01">Regulation .01</cite> amended effective March 17, 2025 (52:5 Md. R. 237)</annotation>
+    <annotation type="History" dest="container" effective="2013-01-07"><cite path="|11|18|04|.02|B.">Regulation .02B</cite> amended as an emergency provision effective October 1. 2012 (39:20 Md. R. 1304); amended permanently effective January 7, 2013 (39:26 Md. R. 1665)</annotation>
+    <annotation type="History" dest="container" effective="2025-03-17"><cite path="|11|18|04|.02|B.">Regulation .02B</cite> amended effective March 17, 2025 (52:5 Md. R. 237)</annotation>
+    <annotation type="History" dest="container" effective="2025-03-17"><cite path="|11|18|04|.03">Regulation .03</cite> amended effective July 23, 2001 (28:14 Md. R. 1323); March 17, 2025 (52:5 Md. R. 237)</annotation>
+    <annotation type="History" dest="container" effective="2013-01-07"><cite path="|11|18|04|.03">Regulation .03</cite> amended as an emergency provision effective October 1. 2012 (39:20 Md. R. 1304); amended permanently effective January 7, 2013 (39:26 Md. R. 1665)</annotation>
+    <annotation type="History" dest="container" effective="2025-03-17"><cite path="|11|18|04|.04">Regulation .04</cite> adopted effective March 17, 2025 (52:5 Md. R. 237)</annotation>
+  </annotations>
+</container>

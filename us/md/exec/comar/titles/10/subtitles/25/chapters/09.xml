@@ -1,0 +1,301 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>09</num>
+  <heading>Requirements for Payers to Designate Electronic Health Networks</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Scope.</heading>
+    <para>
+      <num>A.</num>
+      <text>This chapter applies to a third-party payer operating in the State of Maryland, as of July 1, 1997, whose premium volume exceeds $1,000,000 as reported in the most recent annual statement in the hands of the Maryland Insurance Administration as of December 1 of each calendar year.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>At the discretion of the Maryland Health Care Commission, this chapter may also apply to third party payers operating in the State of Maryland whose premium volume is $1,000,000 or less.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>"Adjudication" means paid, resolved, or settled.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>"Commission" or "MHCC" means the Maryland Health Care Commission.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>"HIPAA" means the Health Insurance Portability and Accountability Act of 1996, P.L. No. 104 — 191, 42 U.S.C. Title XI, Part C.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>"Deputy Director" means the Deputy Director for Data Systems and Analysis at the Maryland Health Care Commission, or the Deputy Director's designee.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>"Designate" means to select and to enter into a written agreement with.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>"Designated EHNs" means MHCC-certified EHNs that have been selected by a payer to submit electronic health care transactions under a written service agreement with the payer on behalf of health care practitioners.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Electronic health care transactions" means health care transactions that are defined under HIPAA Transaction and Code Set Standards.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>"Electronic health network (EHN)" means an entity that processes or facilitates processing of electronic transactions in standard or nonstandard formats, between two or more trading partners in the health care community.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>"MHCC-certified electronic health network" means an entity that has received certifications from the Maryland Health Care Commission.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>"Health insurance claim" means a submission of a claim to a third-party payer for payment for services rendered by a health care practitioner in Maryland.</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>"Third-party payer" or "payer" means a person that administers or provides reimbursement for health care benefits on an expense-incurred basis, including a:</text>
+        <para>
+          <num>(a)</num>
+          <text>Health maintenance organization issued a certificate of authority in accordance with Health-General Article, Title 19, Subtitle 7, Annotated Code of Maryland;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Health insurer or nonprofit health service plan authorized to offer health insurance policies or contracts in this State in accordance with <cite doc="Md. Code" path="gin">Insurance Article, Title 14, Annotated Code of Maryland</cite>;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Third-party administrator registered under <cite doc="Md. Code" path="gin">Insurance Article, Title 14, Annotated Code of Maryland</cite>;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Specialty payers, such as Pharmacy Benefit Managers (PBMs); or</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Managed Care Organizations (MCOs) which contract with Maryland Medicaid to provide health services to Medicaid enrollees.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>EHN Designation.</heading>
+    <para>
+      <num>A.</num>
+      <text>Payers shall only contract with MHCC-certified EHNs for the exchange of electronic health care transactions that originate in Maryland.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>In the event that a designated EHN loses its MHCC-certified status, the Commission shall provide written notice to the payer of the event.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Within 60 days from the date of the notice, the payer shall notify the Commission that it is no longer using that EHN for the exchange of electronic health care transactions.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Designation Requirements.</heading>
+    <text>The payer and its designated EHNs shall enter into a written agreement that shall address at minimum each of the following:</text>
+    <para>
+      <num>A.</num>
+      <text>Transaction format specifications;</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Transmission methods to be used;</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Schedules of events, such as transmission cutoffs, acknowledgment requirements, reporting requirements, and scheduled outages, etc;</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Editing requirements and schedules for changes or enhancements;</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Charges and terms of payment; and</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>System access security requirements.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>EDI Progress Report.</heading>
+    <para>
+      <num>A.</num>
+      <text>On or before June 30 of each year, each payer shall submit to the Commission an EDI Progress Report Form, describing certain electronic health care transaction activity for the payer's previous calendar year as described in this regulation.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>This report shall include:</text>
+      <para>
+        <num>(1)</num>
+        <text>A certification of compliance with Health-General Article, §4-302.1, Annotated Code of Maryland;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Health care transactions as defined by HIPAA Transaction and Code Set Standards that are submitted or received by Maryland health care providers;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Electronic transaction activity between January 1 and December 31 of the previous year; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The total number of HIPAA electronic transactions submitted or received by Maryland health care providers, as defined in the EDI Progress Report Form.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Waiver or Exception Request.</heading>
+    <para>
+      <num>A.</num>
+      <text>A payer may submit a written request for waiver or exception of the reporting requirements.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The payer shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Submit a written request for a waiver or exception to the Deputy Director not later than 30 days before the due date of meeting the reporting/designation requirements; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Explain the reason for the waiver request.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The Deputy Director shall grant a reasonable request for good cause shown.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>A payer may file a written petition for review of a denial of a waiver.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>The Commission shall review the decision of the Deputy Director.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>The Commission may affirm, reverse, or modify the decision of the Deputy Director after providing the payer with an opportunity to present its position to the Commission.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Extension of Time.</heading>
+    <para>
+      <num>A.</num>
+      <text>A payer may request an extension of time of up to 60 days for submission of the EDI information.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The payer shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Submit the request in writing to the Deputy Director for Data Systems and Analysis not later than 30 days before the reporting deadline;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Explain the reason for the extension request; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Propose a reasonable date for submission.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A payer may file a written petition for review of a denial of an extension of time.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The Commission shall review the decision of the Deputy Director.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>After providing the payer with an opportunity to present its position to the Commission, the Commission may affirm, reverse, or modify the decision of the Deputy Director.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Penalties for Failure to File a Report.</heading>
+    <para>
+      <num>A.</num>
+      <text>Unless the Deputy Director has granted an extension of time, a payer that does not timely file a report is liable for a monetary penalty of $1,000 per day for each day the filing of the report is delayed.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A report that is substantially incomplete or inaccurate is not timely filed.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The filing of a written petition for review of a denial of an extension of time stays the accrual of the monetary penalty under §A of these regulations.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>If the Commission affirms the action of the Deputy Director to deny a payer's request for an extension of time, the Commission may impose all penalties in full or in part which, absent the stay, would have accrued during the pendency of the review.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>For substantial reasons shown, the Commission may suspend, reduce, or waive any penalty imposed under this chapter.</text>
+    </para>
+  </section>
+  <section cache:ref-path="10|25|09|.09">
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Penalties for Failure to Contract with a MHCC-Certified EHN.</heading>
+    <para>
+      <num>A.</num>
+      <text>Unless the Deputy Director has granted an extension of time, a payer that does not contract with an MHCC-Certified EHN within 60 days of notification by MHCC that the EHN is not certified, is liable for a monetary penalty of $1,000 per day.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The filing of a written petition for an extension of time stays the accrual of the monetary penalty under <cite path="10|25|09|.09|A.">§A of this regulation</cite>.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>If the Commission affirms the action of the Deputy Director to deny a payer's request for an extension of time, the Commission may impose all penalties in full or in part which, absent the stay, would have accrued during the pendency of the review.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>For substantial reasons shown, the Commission may suspend, reduce, or waive any penalty imposed under this chapter.</text>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Health-General Article, §§4-302.1, 19-101, 19-103(c)(9) and (10), 19-109(a)(1), and 19-134(a) and (b), Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="1996-07-15">Effective date: July 15, 1996 (23:14 Md. R. 1009)</annotation>
+    <annotation type="History" dest="container" effective="2001-07-23"><cite path="|10|25|09|.02">Regulation .02</cite> amended effective July 23, 2001 (28:14 Md. R. 1322)</annotation>
+    <annotation type="History" dest="container" effective="1997-10-20"><cite path="|10|25|09|.03">Regulation .03</cite> amended as an emergency provision effective May 1, 1997 (24:11 Md. R. 792); emergency status expired October 1, 1997; amended permanently effective October 20, 1997 (24:21 Md. R. 1450)</annotation>
+    <annotation type="History" dest="container" effective="2001-07-23"><cite path="|10|25|09|.03">Regulation .03</cite> amended effective July 23, 2001 (28:14 Md. R. 1322)</annotation>
+    <annotation type="History" dest="container" effective="2001-07-23"><cite path="|10|25|09|.05|A.">Regulation .05A</cite> amended effective July 23, 2001 (28:14 Md. R. 1322)</annotation>
+    <annotation type="History" dest="container" effective="2004-07-05" discontinuity="true">Chapter revised effective July 5, 2004 (31:13 Md. R. 994)</annotation>
+  </annotations>
+</container>

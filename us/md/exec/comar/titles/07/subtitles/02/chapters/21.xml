@@ -1,0 +1,711 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>21</num>
+  <heading>Treatment Foster Care</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Scope.</heading>
+    <text>This chapter applies to the approved treatment foster care programs operated by child placement agencies licensed by the Social Services Administration, Department of Human Services under <cite path="|07.02.13">COMAR 07.02.13</cite>, and treatment foster care programs operated by a local department of social services.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Goal of Treatment Foster Care.</heading>
+    <text>The goal of treatment foster care is to provide intensive services to a child with a serious emotional, behavioral, medical, or psychological condition.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>"Administration" means the Social Services Administration.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>"Case manager" means a provider agent or representative responsible for:</text>
+        <para>
+          <num>(a)</num>
+          <text>Providing supervision, training, and consultation to treatment and biological parents;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Arranging and ensuring necessary services to a child; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Acting as the leader of a child's treatment team.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>"Case plan" means a written description of a child's needs and services to be provided to meet those needs as outlined in <cite path="07.02.13.05|D.">COMAR 07.02.13.05D</cite> and the relevant federal statutes and regulations.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>"Clinical supervisor" means a provider agent or representative responsible for providing supervision, training, consultation, and support to the case manager.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>"Foster family care" means 24-hour substitute care provided for a child in an approved or licensed foster family home.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>"Local department" means the department of social services in a county or Baltimore City.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>"Medical passport" means a confidential, abbreviated health record as outlined in <cite path="07.02.11.08">COMAR 07.02.11.08</cite>.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>"Permanency plan" means a plan specifying:</text>
+        <para>
+          <num>(a)</num>
+          <text>Where and with whom a child shall live; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The proposed legal relationship between a child and the child's permanent caretaker or caretakers.</text>
+        </para>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>"Professional staff" means the case manager and clinical supervisor within the treatment foster care program.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>"Progress report" means a provider agency's written update of a child's treatment plan for a specific time period.</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>"Provider agency" means the unit within the:</text>
+        <para>
+          <num>(a)</num>
+          <text>Local department of social services charged with implementing the treatment foster care program; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Licensed child placement agency responsible for implementing the treatment foster care program.</text>
+        </para>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>"Record keeping" means a systematic recording of information documenting activities of a child's behavior and progress in targeted areas, as defined by the treatment plan.</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>"Respite care" means short-term care for a child to relieve the treatment family or care giver.</text>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>"Serious emotional, behavioral condition" means a limitation of an individual's capacity which adversely affects the individual's ability to perform in the following areas:</text>
+        <para>
+          <num>(a)</num>
+          <text>Daily living skills;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Community living skills;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Interpersonal relationships; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Appropriate educational activities.</text>
+        </para>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>"Treatment" means the coordinated provision of services and use of procedures designed to produce a planned outcome in an individual's behavior, attitude, or general condition based on a thorough assessment of possible contributing factors.</text>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>"Treatment accountability" means:</text>
+        <para>
+          <num>(a)</num>
+          <text>Behaviorably measurable time-limited goals and a set of written procedures for achieving them; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A process for assessing results.</text>
+        </para>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>"Treatment foster care" means a 24-hour substitute care program, operated by a licensed child placement agency or local department of social services, for children with a serious emotional, behavioral, medical, or psychological condition.</text>
+      </para>
+      <para>
+        <num>(18)</num>
+        <text>"Treatment foster parent" means a caretaker who is:</text>
+        <para>
+          <num>(a)</num>
+          <text>Licensed and trained by a child placement agency to perform parenting duties; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Responsible for implementing, monitoring, and assessing the progress of a child's individual treatment within the home setting.</text>
+        </para>
+      </para>
+      <para>
+        <num>(19)</num>
+        <text>"Treatment plan" means a written description of the objectives, goals, and services to address the needs of a child, including the child's projected length of stay in the program.</text>
+      </para>
+      <para>
+        <num>(20)</num>
+        <text>"Universal precautions" means health and safety measures used as a barrier between an individual and another individual's body fluids.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="07|02|21|.04">
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Staffing Requirements.</heading>
+    <para>
+      <num>A.</num>
+      <text>The case load ratio may not be greater than one case manager to ten children.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The provider agency may decrease the case load ratios of the case manager set forth in <cite path="07|02|21|.04|A.">§A of this regulation</cite> if it is determined that one or more of the following circumstances apply:</text>
+      <para>
+        <num>(1)</num>
+        <text>The children's needs require more intensive supervision and training for the treatment parents;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Travel distances between placements of children impede the case manager's ability to maintain frequent and direct contact with clients;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The case manager provides case management services and performs the following additional duties:</text>
+        <para>
+          <num>(a)</num>
+          <text>Recruitment and training of treatment foster parents,</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Casework services to a child's biological family, and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Therapeutic service to a child; or</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Other factors necessitate the reduction of the case load to ensure adequate provision of services.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A provider agency shall provide clinical supervision to casework staff.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Staff Training Requirements.</heading>
+    <text>A provider agency shall meet the following staff training requirements in which professional staff shall:</text>
+    <para>
+      <num>A.</num>
+      <text>Participate in a minimum of 20 hours of preservice training, before assuming casework responsibilities, which includes:</text>
+      <para>
+        <num>(1)</num>
+        <text>An overview of treatment foster care and its history and development, and permanency planning,</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Orientation to the provider agency's treatment philosophy and skill training in its specific treatment methodologies,</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The provider agency's discipline policy, including the use of passive physical restraint,</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The provider agency's policies and procedures, including documentation and evaluation requirements,</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Identification and reporting of child abuse and neglect,</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Foster care regulations as set forth in <cite path="|07.02.11">COMAR 07.02.11</cite>,</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Maryland statutes and regulations governing confidentiality of records</text>
+        <text>as set forth in <cite doc="Md. Code" path="88A|6">Article 88A, §6, Annotated Code of Maryland</cite>, and <cite path="|07.01.07">COMAR 07.01.07</cite>,</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Procedures for access to records as set forth in <cite path="|07.01.02">COMAR 07.01.02</cite>,</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>Crisis intervention, grief and loss issues for foster children, and child development, and</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>Application of universal precautions;</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Participate in a complete sequence of the provider agency's preservice training for treatment parents;</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Receive at least 30 hours of training annually that includes written policies and procedures specific to the needs of the children served; and</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Receive certification of the completion of required training under §§A and B of this regulation for the professional staff's personnel file.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Eligibility Requirements.</heading>
+    <para>
+      <num>A.</num>
+      <text>A child is eligible for treatment foster care if the local department determines that the child:</text>
+      <para>
+        <num>(1)</num>
+        <text>Qualifies for foster care under <cite path="07.02.11.04">COMAR 07.02.11.04</cite>; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Has one or more of the following conditions:</text>
+        <para>
+          <num>(a)</num>
+          <text>A serious medical condition including, but not limited to:</text>
+          <para>
+            <num>(i)</num>
+            <text>HIV positive and symptomatic or has AIDS,</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Multiple handicaps, or</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>A symptomatic drug-exposed newborn; or</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A serious emotional, behavioral, or psychological condition including:</text>
+          <para>
+            <num>(i)</num>
+            <text>Psychiatric diagnosis by appropriate qualified professionals, or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>History of an ongoing substance abuse problem; or</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Developmental disability; or</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Is in need of a high level of treatment in a family setting.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Siblings who do not require treatment foster care may be placed in the same home with a sibling who requires treatment foster care.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Discharge Criteria.</text>
+      <para>
+        <num>(1)</num>
+        <text>The provider agency shall have a written policy for planned discharge of a child from the treatment program.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The aftercare plan shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Become a part of the child's case record; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Include the following:</text>
+          <para>
+            <num>(i)</num>
+            <text>The name, address, telephone number, and relationship of the individual to whom the child is being discharged,</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>A summary of the services provided during care,</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>A summary of the growth and achievements of the child during care, and</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Identified needs of the child which remain unmet and recommendations for services not available from the new placement.</text>
+          </para>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Referral Responsibilities.</heading>
+    <para>
+      <num>A.</num>
+      <text>Local Department Responsibilities. The local department shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Determine that a child is eligible for treatment foster care; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Send to each potential provider agency with which the local department seeks to place a child the following:</text>
+        <para>
+          <num>(a)</num>
+          <text>A referral for purchase of care,</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A current case plan drafted within 180 calendar days before the date of referral,</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Relevant medical records within 1 year before the date of referral to the provider agency, and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>The psychological or psychiatric evaluations performed within 1 year before the date of referral to the provider agency if eligibility is based on a serious emotional, behavioral, or psychological condition.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A provider agency shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Have a written admission policy which includes the acceptance criteria; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Respond in writing to the referring agency within 14 working days, accepting or denying admission of a child and giving the reason for a denied admission.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="07|02|21|.08">
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Post-Acceptance Responsibilities.</heading>
+    <para>
+      <num>A.</num>
+      <text>The provider agency shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Within 30 calendar days of a child's acceptance into the program, develop a treatment plan in conjunction with the local department;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Convene a team, including but not limited to the local department of social services, treatment parents, and therapist to evaluate each child's treatment plan at intervals not to exceed 3 months;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Visit the treatment foster parents at least twice a month;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Provide a child access to medical care;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Have face-to-face contact with a child at a minimum of twice a month;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Provide services to the biological family of a treatment foster care child as required in the permanency and treatment plans;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Attend foster care review board hearings and court hearings;</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Provide advance information to the local department on changes affecting services to a child which could result in revisions to the treatment plan, such as changes in placement, placement location, or visitation plans;</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>Provide the local department every 3 months with a written progress report on the treatment plan;</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>Provide the treatment foster parents all medical and psychological information necessary for the care of a child;</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>Provide treatment foster parents access to both planned and crisis respite care of their treatment foster children; and</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>Maintain a written preservice and in-service training curriculum specific to the population serviced.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The local department shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Within 30 calendar days of the child's acceptance into the provider agency, develop a permanency plan in conjunction with the provider agency;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Inform the foster care review board and the court of a child's placement with the provider agency and the name of the child's case manager;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Review with a child's case manager the progress report required in <cite path="07|02|21|.08|A.|(9)">§A(9) of this regulation</cite>;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Meet with a child and the child's biological family every 6 months in consultation with the child's case manager to update the treatment plan; and</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Attend foster care review board hearings and court hearings.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Treatment Home Capacity Requirements.</heading>
+    <text>The number of children placed in one eligible treatment home may not exceed two without prior justification and approval in writing from the Administration.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.10</num>
+    <heading>The Treatment Foster Parent.</heading>
+    <para>
+      <num>A.</num>
+      <text>Treatment Foster Parent Qualifications. A treatment foster parent shall meet the following criteria:</text>
+      <para>
+        <num>(1)</num>
+        <text>Comply with all foster family approval regulations as specified in <cite path="|07.02.13">COMAR 07.02.13</cite>;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Be available to a child on a 24-hour basis;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Arrange for child care services consistent with <cite path="07.02.13.07|B.|(3)">COMAR 07.02.13.07B(3)</cite> and .17B(7);</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Possess a high school diploma or equivalent including, but not limited to, life experience; and</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Have access to public or private transportation to transport a child to all necessary services identified in the individual treatment plan.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Treatment Foster Parent Training.</text>
+      <para>
+        <num>(1)</num>
+        <text>Prospective treatment foster parents shall receive at least 24 hours</text>
+        <text>of preservice training before their approval and placement of children in the home.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Areas of training include:</text>
+        <para>
+          <num>(a)</num>
+          <text>A history of the importance of foster parents to the child welfare program, from a historical perspective to the present team approach concept;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The definition of foster care and its relationship to permanency planning;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The rationale for teamwork in permanency planning;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>An explanation of the needs and rights of children in foster care;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>An explanation of the needs, rights, and responsibilities of parents of children in care;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>A delineation of the complementary roles of foster parents and caseworkers;</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>A review of the grieving process;</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>Exploration of an applicant's own feelings about separation;</text>
+        </para>
+        <para>
+          <num>(i)</num>
+          <text>Recommendations for helping foster families work with the feelings and resultant behaviors that are typical of children separated from their biological parents;</text>
+        </para>
+        <para>
+          <num>(j)</num>
+          <text>The development of an accepting attitude with regard to the biological parent-child relationship;</text>
+        </para>
+        <para>
+          <num>(k)</num>
+          <text>A review of issues related to substance abuse; and</text>
+        </para>
+        <para>
+          <num>(l)</num>
+          <text>Health and safety practices related to universal precautions.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>In-Service Training Requirements.</text>
+      <para>
+        <num>(1)</num>
+        <text>Treatment foster care parents shall attend 20 hours of in-service training annually.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Certification of training shall be documented in the treatment parent's case record.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Treatment Foster Parent Responsibilities. The foster parent shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Assist the case manager and other team members in the development of treatment plans for a child or youth in their care;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Attend team meetings and training sessions;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Keep a systematic record of a child's behavior and progress in targeted areas on at least a weekly, or preferably, a daily basis;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Ensure a child access to medical and dental care, including accompanying the child to medical and dental appointments and carrying out treatment prescribed by health care providers;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Coordinate recreational and leisure time activity;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Monitor a child's school attendance and progress, and attend parental conferences and activities;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Provide transportation services;</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Maintain a medical passport;</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>Attend and provide information at court hearings as specified in the treatment plan; and</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>Assist a child in maintaining contact and visitation with the child's biological family unless otherwise indicated in the child's treatment plan.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.11</num>
+    <heading>Treatment Plan Requirements.</heading>
+    <text>A written treatment plan includes:</text>
+    <para>
+      <num>A.</num>
+      <text>Role of the treatment foster parent;</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Role of the provider case worker;</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Specific tasks to be carried out by treatment parents during placement;</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Long-term goals of treatment, including criteria for discharge, projected length of stay in the program, projected post-treatment, and aftercare services; and</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Identification of treatment team members who will assist in the provision of planned care.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.12</num>
+    <heading>Length of Stay in Programs.</heading>
+    <text>The length of stay in a treatment foster care program is subject to review pursuant to <cite path="07.02.11.18">COMAR 07.02.11.18</cite>.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.13</num>
+    <heading>Liability Insurance.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Administration shall provide liability insurance for treatment foster parents as outlined in <cite path="07.02.25.21">COMAR 07.02.25.21</cite>.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The child placement agency shall provide liability insurance as outlined in <cite path="07.02.13.04|N.|(1)">COMAR 07.02.13.04N(1)</cite> and (2).</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.14</num>
+    <heading>Appeals.</heading>
+    <text>A treatment foster parent aggrieved by a decision of a provider agency has the right to appeal according to <cite path="|07.02.02">COMAR 07.02.02</cite> and <cite path="07.02.13.04|R.">07.02.13.04R</cite>.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.15</num>
+    <heading>Evaluation.</heading>
+    <text>The agency shall complete and maintain for inspection an annual written evaluation as specified in <cite path="07.02.13.04|H.|(1)">COMAR 07.02.13.04H(1)</cite>—(5).</text>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Family Law Article, §§<cite doc="Md. Code" path="gfl|5-501">5-501</cite>—<cite doc="Md. Code" path="gfl|5-534">5-534</cite>, Annotated Code of Maryland; <br/>Agency Note: Federal Regulatory Reference 45 CFR §§228.13 and 228.42</annotation>
+    <annotation type="History" dest="container" effective="1995-10-09">Effective date: October 9, 1995 (22:20 Md. R. 1541)</annotation>
+  </annotations>
+</container>

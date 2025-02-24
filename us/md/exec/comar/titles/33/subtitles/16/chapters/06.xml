@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>06</num>
+  <heading>Canvass of Ballots — Rejecting Ballots</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Unanimous Vote Required.</heading>
+    <text>A provisional ballot or a vote on a provisional ballot may not be rejected except by unanimous vote of the local board.</text>
+  </section>
+  <section cache:ref-path="33|16|06|.02">
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Voter Intent.</heading>
+    <para>
+      <num>A.</num>
+      <text>This regulation applies whenever a ballot is not marked specifically in accordance with the instructions provided to the voter. For example, where the instructions call for:</text>
+      <para>
+        <num>(1)</num>
+        <text>Marking a choice with an "x" in a box, and the voter uses a checkmark; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Filling in a circle, but the voter marks the choice with an asterisk.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>In the situations described in <cite path="33|16|06|.02|A.">§A of this regulation</cite>, the local board shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Follow the standards established in <cite path="|33.08.02">COMAR 33.08.02</cite>; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Appropriately mark or duplicate the ballot for tabulating acceptability.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Ballot Rejection — Basic Grounds.</heading>
+    <para>
+      <num>A.</num>
+      <text>The local board shall reject a provisional ballot if:</text>
+      <para>
+        <num>(1)</num>
+        <text>The local board determines that the ballot was intentionally marked with an identifying mark that is clearly evident and placed on the ballot for the purpose of identifying the ballot; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The ballot envelope was unsealed and there is some indication that the integrity of the electoral process has been compromised.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The local board may not reject a provisional ballot solely because the voter included personal identification information in the envelope with the ballot.</text>
+    </para>
+  </section>
+  <section cache:ref-path="33|16|06|.04">
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Ballot Rejection — Multiple Ballots from the Same Individual.</heading>
+    <para>
+      <num>A.</num>
+      <text>If a local board receives multiple provisional ballots from the same voter, the local board shall canvass them as follows:</text>
+      <para>
+        <num>(1)</num>
+        <text>If a single provisional ballot application envelope contains more than one voted ballot from the same individual for the same election, all ballots from that individual shall be rejected; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If more than one provisional ballot is received from the same individual in different provisional ballot applications, the local board shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Count the first provisional ballot cast by the voter that is legally sufficient and acceptable in full;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>If no provisional ballots are acceptable in full, count the first provisional ballot cast by the voter that is legally sufficient and accept in part; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Reject all ballots if none of the voter’s provisional ballots are legally sufficient.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>If an absentee ballot and provisional ballot are received from the same individual:</text>
+      <para>
+        <num>(1)</num>
+        <text>Except as provided in <cite path="33|16|06|.04|B.|(2)">§B(2) of this regulation</cite>, the local board shall count the first ballot the voter cast if the ballot is legally sufficient and reject any other ballot.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If the local board receives an absentee ballot after a provisional ballot from the same voter has been counted, the local board shall reject the absentee ballot.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The local board shall reject a provisional ballot that is received from an individual who cast a ballot in a polling place on election day.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Vote or Contest Rejection.</heading>
+    <para>
+      <num>A.</num>
+      <text>Person No Longer a Candidate. If a provisional ballot is voted for an individual who has ceased to be a candidate, the vote for that individual may not be counted but does not invalidate the rest of the ballot.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Damaged or Marked Ballot. If a provisional ballot is damaged or otherwise marked so that the local board cannot determine the voter's intent in a specific contest, the local board shall reject only that contest on the ballot.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Erasures or Alterations. If a provisional ballot has erasures or has been altered or repaired:</text>
+      <para>
+        <num>(1)</num>
+        <text>For all contests where the voter's intent is clear, the local board shall process the ballot or, if necessary, have it duplicated and processed; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>For any contest where the local board cannot determine the voter's intent, the local board shall reject that contest on the ballot.</text>
+      </para>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Election Law Article, §§<cite doc="Md. Code" path="gel|2-102">2-102</cite>(b)(<cite doc="Md. Code" path="gel|4">4</cite>), <cite doc="Md. Code" path="gel|2-202">2-202</cite>(b), <cite doc="Md. Code" path="gel|9-402">9-402</cite>, <cite doc="Md. Code" path="gel|9-403">9-403</cite>, <cite doc="Md. Code" path="gel|9-404">9-404</cite>, <cite doc="Md. Code" path="gel|9-406">9-406</cite>, <cite doc="Md. Code" path="gel|11-303">11-303</cite>(c) and (e), and 11-303.2, Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container">Effective date:</annotation>
+    <annotation type="History" dest="container" effective="2002-10-14">Regulations <cite path="|33|16|06|.01">.01</cite>—<cite path="|33|16|06|.06">.06</cite> adopted as an emergency provision effective July 3, 2002 (29:18 Md. R. 1441); adopted permanently effective October 14, 2002 (29:20 Md. R. 1596)</annotation>
+    <annotation type="History" dest="container" effective="2003-11-24"><cite path="|33|16|06|.01">Regulation .01</cite> amended effective November 24, 2003 (30:23 Md. R. 1655)</annotation>
+    <annotation type="History" dest="container" effective="2006-08-14"><cite path="|33|16|06|.03">Regulation .03</cite> amended as an emergency provision effective June 2, 2006 (33:13 Md. R. 1062); amended permanently effective August 14, 2006 (33:16 Md. R. 1366)</annotation>
+    <annotation type="History" dest="container" effective="2003-11-24"><cite path="|33|16|06|.06">Regulation .06</cite> repealed and new Regulation .06 adopted effective November 24, 2003 (30:23 Md. R. 1655)</annotation>
+    <annotation type="History" dest="container" effective="2003-11-24"><cite path="|33|16|06|.07">Regulation .07</cite> adopted effective November 24, 2003 (30:23 Md. R. 1655)</annotation>
+    <annotation type="History" dest="container" effective="2006-08-25">Regulations <cite path="|33|16|06|.05">.05</cite>—<cite path="|33|16|06|.07">.07</cite> recodified to Regulations <cite path="|33|16|06|.06">.06</cite>—<cite path="|33|16|06|.08">.08</cite> and new Regulation .05 adopted as an emergency provision effective August 25, 2006 (33:19 Md. R. 1556)</annotation>
+    <annotation type="History" dest="container" effective="2006-09-13">Regulations <cite path="|33|16|06|.05">.05</cite>—<cite path="|33|16|06|.07">.07</cite> recodified to Regulations <cite path="|33|16|06|.06">.06</cite>—<cite path="|33|16|06|.08">.08</cite> and new Regulation .05 adopted as an emergency provision effective August 25, 2006 (33:19 Md. R. 1556); superseded effective September 13, 2006 (33:21 Md. R. 1672); emergency status expired January 31, 2007</annotation>
+    <annotation type="History" dest="container" effective="2007-11-19">Regulations <cite path="|33|16|06|.05">.05</cite>—<cite path="|33|16|06|.07">.07</cite> recodified to Regulations <cite path="|33|16|06|.06">.06</cite>—<cite path="|33|16|06|.08">.08</cite> and new Regulation .05 adopted effective November 19, 2007 (34:23 Md. R. 2027)</annotation>
+    <annotation type="History" dest="container" effective="2009-10-19" discontinuity="true">Chapter revised and recodified from <cite path="|33.16.05">COMAR 33.16.05</cite> effective October 19, 2009 (36:21 Md. R. 1595)</annotation>
+    <annotation type="History" dest="container" effective="2024-04-15"><cite path="|33|16|06|.04|A.">Regulation .04A</cite> amended effective April 15, 2024 (51:7 Md. R. 335)</annotation>
+    <annotation type="History" dest="container" effective="2020-10-13"><cite path="|33|16|06|.04|B.">Regulation .04B</cite> amended as an emergency provision effective October 13, 2020 (47:23 Md. R. 976); emergency provision expired December 31, 2020</annotation>
+    <annotation type="History" dest="container" effective="2022-07-18"><cite path="|33|16|06|.04|B.">Regulation .04B</cite> amended as an emergency provision effective July 18, 2022 (49:17 Md. R. 788); emergency provision expired December 1, 2022</annotation>
+    <annotation type="History" dest="container" effective="2024-04-15"><cite path="|33|16|06|.04|B.">Regulation .04B</cite> amended effective December 12, 2022 (49:25 Md. R. 1052); April 15, 2024 (51:7 Md. R. 335)</annotation>
+  </annotations>
+</container>

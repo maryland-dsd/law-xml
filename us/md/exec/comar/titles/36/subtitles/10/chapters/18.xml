@@ -1,0 +1,1033 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>18</num>
+  <heading>Sports Wagering Technical Standards</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>General.</heading>
+    <text>Unless context or the individual regulation dictates otherwise, for purposes of <cite path="|36.10.18">COMAR 36.10.18</cite>, “sports wagering licensee” includes:</text>
+    <para>
+      <num>A.</num>
+      <text>Mobile sports wagering licensee;</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Online sports wagering operator licensee;</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Sports wagering facility licensee; and</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Sports wagering facility operator licensee.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Definition.</heading>
+    <text>In this chapter, “past posting” means a wager that was made after the result of an event is accepted or after the selected participant has gained a material advantage.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Sports Wagering Platform Requirements.</heading>
+    <para>
+      <num>A.</num>
+      <text>All sports wagers shall be initiated, received, and otherwise made within the State unless otherwise licensed by federal law.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A sports wagering licensee or applicant shall submit its sports wagering platform and sports wagering equipment to an independent certified testing laboratory prior to their use for sports wagering.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Sports wagering platform documentation shall include:</text>
+      <para>
+        <num>(1)</num>
+        <text>A complete, comprehensive, technically accurate description and explanation of the sports wagering platform;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A detailed operating procedures of the sports wagering platform; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A description of the risk management framework, including:</text>
+        <para>
+          <num>(a)</num>
+          <text>User access controls for all sports wagering licensee personnel;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Information regarding segregation of duties;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Information regarding automated risk-management procedures;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Information regarding identifying and reporting fraud and suspicious activity;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Information regarding technical safeguards that protect the sports wagering platform from unauthorized access and loss of data;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Controls to ensure compliance with all statutory and other legal requirements;</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>A description of AML compliance standards;</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>A description of all software applications that comprise the sports wagering platform;</text>
+        </para>
+        <para>
+          <num>(i)</num>
+          <text>A description of wagers available to be offered by the sports wagering platform;</text>
+        </para>
+        <para>
+          <num>(j)</num>
+          <text>A description of all third-party systems proposed for utilization;</text>
+        </para>
+        <para>
+          <num>(k)</num>
+          <text>A description of the method proposed by the sports wagering licensee to prevent cheating; and</text>
+        </para>
+        <para>
+          <num>(l)</num>
+          <text>Any other information imposed by the Commission.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Upon request, a sports wagering licensee shall promptly provide the Commission with relevant reports and documentation that shall include, at a minimum:</text>
+      <para>
+        <num>(1)</num>
+        <text>Complete, comprehensive, technically accurate description and explanation of the sports wagering platform;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The ability to query or sort wagering data; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The ability to export wagering data.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>A sports wagering licensee or a supplier providing a licensee’s sports wagering platform shall maintain all transactional wagering data for a period of 5 years.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>The house rules that apply to wagers placed on a sports wagering platform shall be readily available to a bettor.</text>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>For each wager, a sports wagering platform shall be capable of recording the:</text>
+      <para>
+        <num>(1)</num>
+        <text>Description and alphanumeric identifier of the sporting event;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Wager selection;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Type of wager;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Amount of wager;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Date and time of the wager;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Unique wager identifiers;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Bettor identification number;</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Current wager status;</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>Relevant location information;</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>Results of the wager;</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>Amount won; and</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>Date and time the winning wager was paid to the bettor.</text>
+      </para>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>A sports wagering platform that offers wagering shall be capable of:</text>
+      <para>
+        <num>(1)</num>
+        <text>Accurately and timely updating of odds for wagers;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Notifying a bettor of any change in odds that is not beneficial to the bettor while the wager is selected but before it is placed;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Allowing bettors to confirm the wager after notification of the odds change; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Freezing or suspending the offering of wagers when necessary.</text>
+      </para>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>A sports wagering platform shall be capable of:</text>
+      <para>
+        <num>(1)</num>
+        <text>Creating a wager;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Settling a wager;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Voiding a wager;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Cancelling a wager; and</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Preventing the acceptance of a wager on a prohibited sporting event.</text>
+      </para>
+    </para>
+    <para>
+      <num>J.</num>
+      <text>If a wager is voided or cancelled, a sports wagering platform shall indicate that:</text>
+      <para>
+        <num>(1)</num>
+        <text>The transaction was voided or cancelled;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The transaction was rendered nonredeemable;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>An entry in the system was made indicating the wager was voided or cancelled; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Subject to <cite path="36.10.13.07">COMAR 36.10.13.07</cite>, the transaction is clearly noted in a permanent record.</text>
+      </para>
+    </para>
+    <para>
+      <num>K.</num>
+      <text>Unless approved in advance by the Commission, a sports wagering licensee or an online sports wagering operator may not alter the odds or any other material aspect of the transaction after accepting a wager.</text>
+    </para>
+    <para>
+      <num>L.</num>
+      <text>A sports wagering platform shall prevent:</text>
+      <para>
+        <num>(1)</num>
+        <text>The electronic modification of data to facilitate cheating;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The past posting of wagers; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The voiding and cancellation of wagers after the outcome of an event is known.</text>
+      </para>
+    </para>
+    <para>
+      <num>M.</num>
+      <text>If a bettor has a pending wager and the bettor subsequently self-excludes:</text>
+      <para>
+        <num>(1)</num>
+        <text>The wager may settle; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The funds and account balance shall be returned to the bettor in accordance with the sports wagering licensee’s internal control standards.</text>
+      </para>
+    </para>
+    <para>
+      <num>N.</num>
+      <text>Software Validation.</text>
+      <para>
+        <num>(1)</num>
+        <text>At least once every 24 hours and on demand, a sports wagering platform shall perform a software validation on all critical control program components contained on the system to ensure that:</text>
+        <para>
+          <num>(a)</num>
+          <text>There have been no unauthorized modifications; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The software is authentic.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The software validation process shall employ a hash algorithm which produces a message digest of at least 128 bits and includes all critical control program components which may affect wagering operations, including but not limited to:</text>
+        <para>
+          <num>(a)</num>
+          <text>Executables;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Libraries;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Wagering or system configurations;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Operating system files;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Components that control required system reporting; and</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Database elements that affect system operations.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>In the event of a software validation failure, the sports wagering platform shall have the capability to detect if any system component is determined to be invalid.</text>
+      </para>
+    </para>
+    <para>
+      <num>O.</num>
+      <text>The sports wagering licensee shall notify the Commission within 12 hours of a validation failure.</text>
+    </para>
+    <para>
+      <num>P.</num>
+      <text>A sports wagering licensee shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Record all validation attempts by the sports wagering platform; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Maintain the recorded attempts for a period of 180 days.</text>
+      </para>
+    </para>
+    <para>
+      <num>Q.</num>
+      <text>Data Feeds.</text>
+      <para>
+        <num>(1)</num>
+        <text>A sports wagering platform shall have controls in place to review the accuracy and timeliness of any data feeds used to offer or settle wagers.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If an incident or error occurs that results in a loss of communication with the data feeds used to offer or redeem wagers, the sports wagering licensee shall record the error in a log capturing:</text>
+        <para>
+          <num>(a)</num>
+          <text>The date and time of the error;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The nature of the error; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A description of its impact on the system’s performance.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The sports wagering licensee shall maintain the information required by §Q(2) for a minimum period of 2 years.</text>
+      </para>
+    </para>
+    <para>
+      <num>R.</num>
+      <text>A sports wagering licensee that provides a sports wagering platform shall grant the Commission read only access to the platform in the manner required by the Commission.</text>
+    </para>
+    <para>
+      <num>S.</num>
+      <text>In a format required by the Commission, a sports wagering platform shall provide a process for the Commission to query and export all sports wagering platform data.</text>
+    </para>
+    <para>
+      <num>T.</num>
+      <text>The Commission may require additional system specifications.</text>
+    </para>
+  </section>
+  <section cache:ref-path="36|10|18|.04">
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Geolocation Systems.</heading>
+    <para>
+      <num>A.</num>
+      <text>A sports wagering licensee shall keep its geolocation system up to date by integrating current solutions in real time that can detect the use of:</text>
+      <para>
+        <num>(1)</num>
+        <text>Remote desktop software;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Rootkits;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Virtualization; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Any other programs identified by the Commission as having the ability to circumvent geolocation measures.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The sports wagering licensee shall continually review the integrity of the geolocation system to ensure that the system detects and mitigates existing and emerging location fraud risks.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A sports wagering platform shall utilize a geolocation system to:</text>
+      <para>
+        <num>(1)</num>
+        <text>Reasonably detect the physical location of an individual attempting to access the sports wagering platform and place a sports wager; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Monitor and block attempts to place an online sports wager when an individual is not within the State.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The geolocation system required by <cite path="36|10|18|.04|C.">§C of this regulation</cite> shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Ensure that a bettor:</text>
+        <para>
+          <num>(a)</num>
+          <text>Is located within the State when placing a sports wager; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Can dynamically monitor the bettor’s location; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Block unauthorized attempts to place a sports wager when an individual is not within the State.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>The Commission may require additional geolocation requirements.</text>
+    </para>
+  </section>
+  <section cache:ref-path="36|10|18|.05">
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Bettor Accounts.</heading>
+    <para>
+      <num>A.</num>
+      <text>Only a registered bettor may place an online wager.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The sports wagering licensee shall record and maintain the information necessary to initiate a bettor account for a period of 5 years.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The information recorded and maintained under <cite path="36|10|18|.05|B.">§B of this regulation</cite> shall include:</text>
+      <para>
+        <num>(1)</num>
+        <text>Bettor’s legal name;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Bettor’s date of birth;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Bettor’s residential address and mailing address if different;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Bettor’s phone number;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Bettor’s active email address;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Bettor’s social security number or equivalent as approved by the Commission;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Verification that the bettor is permitted to place a wager;</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Sources of identification authentication, which may include:</text>
+        <para>
+          <num>(a)</num>
+          <text>Type and identification number of any government-issued credentials provided; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Other methodology for remote, multi-source authentication including third-party and governmental databases, as approved by the Commission; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>Any other information required by the Commission.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>A sports wagering licensee shall record:</text>
+      <para>
+        <num>(1)</num>
+        <text>A bettor’s acceptance of the sports wagering licensee’s:</text>
+        <para>
+          <num>(a)</num>
+          <text>Sports wagering terms and conditions; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Privacy policy; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The bettor’s acknowledgment that:</text>
+        <para>
+          <num>(a)</num>
+          <text>The bettor has provided the sports wagering licensee accurate information; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The bettor is prohibited from allowing any other person to access or use the bettor’s bettor account.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Verification of Transactions on a Bettor Account.</text>
+      <para>
+        <num>(1)</num>
+        <text>For each deposit or withdrawal on a bettor account, a sports wagering licensee shall determine if the information provided by the bettor:</text>
+        <para>
+          <num>(a)</num>
+          <text>Is inconsistent with the funding information previously provided by the bettor;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Fails to verify the identity of the bettor; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Violates the sports wagering licensee’s terms and conditions.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Within 24 hours after a condition set forth in §E(1) occurs, the sports wagering licensee shall require the submission of additional information from the bettor that:</text>
+        <para>
+          <num>(a)</num>
+          <text>Verifies the bettor’s:</text>
+          <para>
+            <num>(i)</num>
+            <text>Identity; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Fund deposit or withdrawal information; or</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Remedies the violation of the sports wagering licensee’s terms and conditions.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If the information provided by the bettor pursuant to <cite path="36|10|18|.05|E.|(2)">§E(2) of this regulation</cite> does not provide the proper verification or remedy the violation, the sports wagering licensee shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Immediately suspend the bettor account;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Prohibit the bettor from placing any wagers;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Submit any winnings attributable to the bettor to the Commission for distribution to the State’s Problem Gambling Treatment and Support Fund;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Refund the balance of deposits made to the account to the source of such deposit or by issuance of a check; and</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Deactivate the account.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Creation of a Bettor Account.</text>
+      <para>
+        <num>(1)</num>
+        <text>A sports wagering licensee shall notify the bettor of the creation of the bettor account by email, text message, or first-class mail.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>When a bettor account is created, the bettor or sports wagering licensee shall establish a unique username and password for the bettor authorized to use the bettor account that prevents unauthorized access to the bettor account by an individual other than the bettor.</text>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>A bettor may have only one bettor account for each sports wagering licensee.</text>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>A bettor account may be funded using:</text>
+      <para>
+        <num>(1)</num>
+        <text>A debit card;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A credit card subject to <cite path="36.10.13.28">COMAR 36.10.13.28</cite>;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>An electronic bank transfer, including a transfer through third parties;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>An online or mobile payment system that supports online money transfers;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Winnings or payouts;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Bonuses and promotions;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Reloadable prepaid card, which has been verified as being issued to the bettor and is non-transferable; and</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Any other means approved by the Commission.</text>
+      </para>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>Funds may be withdrawn from a bettor account through:</text>
+      <para>
+        <num>(1)</num>
+        <text>Cash;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Wagers;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A cashier’s check, wire transfer, or money order by the sports wagering licensee made payable to the bettor that is:</text>
+        <para>
+          <num>(a)</num>
+          <text>Issued directly to the bettor; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Delivered to the bettor’s address on file with the sports wagering licensee;</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Credits to the bettor’s debit card;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Electronic bank transfers, including transfers through third parties;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Online or mobile payment systems that support online money transfers;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Reloadable prepaid card that:</text>
+        <para>
+          <num>(a)</num>
+          <text>Has been verified as being issued to the bettor; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Is non-transferable; or</text>
+        </para>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Any other means approved by the Commission.</text>
+      </para>
+    </para>
+    <para>
+      <num>J.</num>
+      <text>Within 7 days of a bettor request for withdrawal of funds, the sports wagering licensee shall complete the withdrawal unless there is a pending:</text>
+      <para>
+        <num>(1)</num>
+        <text>Unresolved bettor dispute; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Investigation prompted by a bettor dispute or the Commission.</text>
+      </para>
+    </para>
+    <para>
+      <num>K.</num>
+      <text>Funds for withdrawal may be withheld from withdrawal until:</text>
+      <para>
+        <num>(1)</num>
+        <text>The funding transaction clears; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The chargeback period ends.</text>
+      </para>
+    </para>
+    <para>
+      <num>L.</num>
+      <text>All adjustments to a bettor account for:</text>
+      <para>
+        <num>(1)</num>
+        <text>Individual amounts of $500 or less shall be periodically reviewed by the sports wagering licensee consistent with the sports wagering licensee’s internal control standards; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Individual amounts of more than $500 shall be authorized by the sports wagering licensee’s management before being entered.</text>
+      </para>
+    </para>
+    <para>
+      <num>M.</num>
+      <text>A sports wagering licensee may not allow the transfer of funds or credits from or to another bettor account.</text>
+    </para>
+    <para>
+      <num>N.</num>
+      <text>Except for the placement or settlement of a wager, unless the bettor has opted to not receive such notifications, the sports wagering licensee shall confirm each transaction on a bettor account by:</text>
+      <para>
+        <num>(1)</num>
+        <text>Email;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Text message; or</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Other means:</text>
+        <para>
+          <num>(a)</num>
+          <text>Agreed upon by the bettor and sports wagering licensee; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Approved by the Commission.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>O.</num>
+      <text>Account Statements.</text>
+      <para>
+        <num>(1)</num>
+        <text>A sports wagering licensee shall provide an account statement upon demand by the bettor.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An account statement shall include detailed account activity for at least 6 months preceding the 24-hour period before the request.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A sports wagering licensee shall be capable of providing a summary statement of all bettor activity during the previous 24 months if requested.</text>
+      </para>
+    </para>
+    <para>
+      <num>P.</num>
+      <text>If a sports wagering licensee knows or has reason to know that a bettor’s identification or bettor account has been compromised, a sports wagering licensee shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Suspend wagers from being made; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Immediately re-verify a bettor’s identification.</text>
+      </para>
+    </para>
+    <para>
+      <num>Q.</num>
+      <text>A sports wagering licensee shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Offer an easily accessible method for a bettor to close the bettor’s account; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Refund the balance remaining in a bettor’s account:</text>
+        <para>
+          <num>(a)</num>
+          <text>Pursuant to the sports wagering licensee’s internal control standards; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>No later than 7 days after receiving notice from the bettor of the intent to close the bettor’s account.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>R.</num>
+      <text>A sports wagering platform shall employ a mechanism that can detect and prevent any bettor-initiated activity that would result in a negative balance of a bettor account.</text>
+    </para>
+    <para>
+      <num>S.</num>
+      <text>A sports wagering licensee shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Lock a bettor’s account after 3 failed log-in attempts; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Require multi-factor authentication to recover or reset a password or username after being locked.</text>
+      </para>
+    </para>
+    <para>
+      <num>T.</num>
+      <text>A sports wagering licensee shall suspend a bettor account if:</text>
+      <para>
+        <num>(1)</num>
+        <text>The bettor requests a suspension for a period not less than 24 hours as a self-limiting measure;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Required by the Commission;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The sports wagering licensee knows or has reason to know that the bettor may be a prohibited individual; or</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The sports wagering licensee knows or has reason to know of:</text>
+        <para>
+          <num>(a)</num>
+          <text>Illegal activity related to the account;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A negative account balance; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A violation of the sports wagering licensee’s terms and conditions has taken place on the bettor’s account.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>U.</num>
+      <text>When a sports wagering account is suspended, the bettor shall be prevented from:</text>
+      <para>
+        <num>(1)</num>
+        <text>Wagering;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Depositing funds, unless the reason for the deposit is to clear a negative balance that resulted in the suspension;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Withdrawing funds if there is a pending unresolved bettor dispute or investigation prompted by a bettor dispute or the Commission;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Making changes to the bettor account; or</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Removing the bettor account from the sports wagering platform.</text>
+      </para>
+    </para>
+    <para>
+      <num>V.</num>
+      <text>A bettor account suspended for a reason stated in <cite path="36|10|18|.05|T.">§T of this regulation</cite> may be restored:</text>
+      <para>
+        <num>(1)</num>
+        <text>Upon expiration of the time period established by the bettor;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>When the sports wagering licensee has determined that the Commission has granted permission for the restoration;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>When the licensee has determined that the bettor is not a prohibited or excluded individual; or</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>When the sports wagering licensee has determined that:</text>
+        <para>
+          <num>(a)</num>
+          <text>No illegal activity related to the account occurred;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>There is no longer a negative account balance; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>No violation of the terms and conditions that has taken place on the bettor’s account.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="36|10|18|.06">
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Information Security.</heading>
+    <para>
+      <num>A.</num>
+      <text>A sports wagering licensee shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Implement, maintain, regularly review and revise, and comply with a comprehensive information security system that reasonably protects the confidentiality, integrity, and availability of a bettor’s personally identifiable information; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Ensure that the security system set forth in <cite path="36|10|18|.06|A.|(1)">§A(1) of this regulation</cite> includes administrative, technical, and physical safeguards which:</text>
+        <para>
+          <num>(a)</num>
+          <text>Are appropriate to the size, complexity, nature, and scope of the operations; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Protect the personal information owned, licensed, maintained, handled, or otherwise in the possession of the sports wagering licensee.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A sports wagering licensee shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Within 90 days of commencing operations, and annually thereafter, conduct a vulnerability assessment, penetration testing, and operational security control review against ISO 27001 standard, or other similar standards such as CIS or NIST CSF;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Perform vulnerability assessments and penetration testing of the sports wagering platform at multiple layers, including:</text>
+        <para>
+          <num>(a)</num>
+          <text>Internal and external network;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Mobile and web application;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Database;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Firewall;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>If applicable, wireless; and</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Any additional security testing that the Commission requires;</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Ensure that a Commission approved third party described in <cite path="|36|10|18|.02|B.">Regulation .02B of this chapter</cite> conducts the testing required in §B(1) and (2) of this regulation; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Perform internal quarterly vulnerability scans, and retain documentation of the scan results and the actions taken to resolve identified vulnerabilities.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A sports wagering licensee shall submit to the Commission the assessment report issued by the third party and the licensee’s report.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The combined reports in <cite path="36|10|18|.06|C.">§C of this regulation</cite> shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Provide details for all vulnerabilities identified;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Assess the adequacy and effectiveness of the sports wagering licensee’s information technology security controls and system configurations; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Provide recommendations for eliminating each material weakness or significant deficiency identified.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>A sports wagering licensee shall evaluate all identified vulnerabilities for potential adverse effect on security and integrity and:</text>
+      <para>
+        <num>(1)</num>
+        <text>Remediate the vulnerability no later than 90 days following the earlier of vulnerability’s identification or public disclosure; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Document why remediation action is unnecessary or unsuitable.</text>
+      </para>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">State Government Article, §§<cite doc="Md. Code" path="gsg|9-1">9-1</cite>E-<cite doc="Md. Code" path="gsg|01">01</cite>—9-1E-15, Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container">Effective date:</annotation>
+    <annotation type="History" dest="container" effective="2022-01-13">Regulations <cite path="|36|10|18|.01">.01</cite>—<cite path="|36|10|18|.06">.06</cite> adopted as an emergency provision effective August 5, 2021 (48:18 Md. R. 690); adopted permanently effective January 13, 2022 (49:1 Md. R. 16)</annotation>
+    <annotation type="History" dest="container" effective="2022-07-25"><cite path="|36|10|18|.05|N.">Regulation .05N</cite> amended as an emergency provision effective January 26, 2022 (49:5 Md. R. 364); amended permanently effective July 25, 2022 (49:15 Md. R. 740)</annotation>
+    <annotation type="History" dest="container" effective="2022-07-25"><cite path="|36|10|18|.06">Regulation .06</cite> amended as an emergency provision effective January 26, 2022 (49:5 Md. R. 364); amended permanently effective July 25, 2022 (49:15 Md. R. 740)</annotation>
+  </annotations>
+</container>

@@ -1,0 +1,619 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>02</num>
+  <heading>Information and Communication Technology Nonvisual Access Standards</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Purpose.</heading>
+    <para>
+      <num>A.</num>
+      <text>The purpose of this chapter is to implement State Finance and Procurement Article, §§<cite doc="Md. Code" path="gsf|3A-303">3A-303</cite>(a)(<cite doc="Md. Code" path="gsf|5">5</cite>), <cite doc="Md. Code" path="gsf|3A-311">3A-311</cite>, and <cite doc="Md. Code" path="gsf|3A-312">3A-312</cite>, Annotated Code of Maryland.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>This chapter sets forth uniform nonvisual access standards to be used in the procurement of information and communication technology (ICT) and the provision of ICT services by or on behalf of agencies.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Scope.</heading>
+    <para>
+      <num>A.</num>
+      <text>This chapter applies to the procurement of ICT and the provision of ICT services by or on behalf of agencies, except if:</text>
+      <para>
+        <num>(1)</num>
+        <text>The ICT is not available with nonvisual access because the essential elements of the information technology are visual and a nonvisual equivalent cannot be developed; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The cost of modifying the ICT for compatibility with software and hardware for nonvisual access would increase the price of the procurement by more than 15 percent.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>This chapter does not apply to ICT that is acquired and used by a contractor:</text>
+      <para>
+        <num>(1)</num>
+        <text>Incidental to performing under a contract with the State or any agency; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>To the extent that the ICT is not transferred to the State or any agency as part of the contractor's obligations to perform or incorporated into the deliverables provided to the State or any agency under the contract.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The ICT products or ICT services a contractor develops, procures, maintains, or uses that are not specified as part of a contract with the State or any agency are not required to comply with this chapter.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Except as otherwise required to comply with other law, this chapter may not be construed to require the installation of accessibility-related software or an assistive technology device at a workstation of a State employee who is not an individual with a disability.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Except as otherwise required to comply with the requirements of other law, this chapter may not be construed to require agencies:</text>
+      <para>
+        <num>(1)</num>
+        <text>To provide access to the public to information at a location other than where the ICT is ordinarily provided to the public; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>To purchase products for access and use by individuals with disabilities at a location other than where the ICT is ordinarily provided to the public.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Section E of this regulation may not be construed to relieve any unit of State government of its obligation to provide information or data under any other requirements of the law.</text>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Except as provided by §§A—F of this regulation, ICT and ICT services procured, used, maintained, developed, and provided by or on behalf of agencies shall be nonvisually accessible in accordance with the standards promulgated in this chapter.</text>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>Agencies shall procure ICT and services that comply with the provisions in this chapter when such ICT and ICT services are available in the commercial marketplace or developed in response to a State government solicitation.</text>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>Best Meets. If ICT conforming to one or more provisions in this chapter is not commercially available, the agency shall procure the ICT that best meets the agency's business needs, consistent with this chapter.</text>
+    </para>
+    <para>
+      <num>J.</num>
+      <text>Best Meets Required Documentation. The responsible agency official shall document in writing:</text>
+      <para>
+        <num>(1)</num>
+        <text>The nonavailability of conforming ICT, including a description of market research performed and which provisions cannot be met; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The basis for determining that the ICT to be procured best meets the agency's business needs, consistent with this chapter.</text>
+      </para>
+    </para>
+    <para>
+      <num>K.</num>
+      <text>Best Meets Alternative Means. If ICT that fully conforms to the provisions of this chapter is not commercially available, the agency shall provide individuals with visual disabilities access to and use of information and data by an alternative means that meets identified needs.</text>
+    </para>
+    <para>
+      <num>L.</num>
+      <text>This chapter may not be construed to prohibit the use of designs or technologies as alternatives to those prescribed in this chapter if they result in substantially equivalent or greater access for people with visual disabilities.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Functional Performance Criteria.</heading>
+    <para>
+      <num>A.</num>
+      <text>Functional performance criteria shall apply to Regulations <cite path="|14|33|02|.04">.04</cite>—<cite path="|14|33|02|.06">.06</cite> of this chapter.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>ICT shall be considered nonvisually accessible if the ICT meets the following requirements:</text>
+      <para>
+        <num>(1)</num>
+        <text>Without Vision. If a visual mode of operation is provided, ICT shall provide at least one mode of operation that does not require user vision.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>With Limited Vision. If a visual mode of operation is provided, ICT shall provide at least one mode of operation that enables users to make use of limited vision.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Without Perception of Color. If a visual mode of operation is provided, ICT shall provide at least one nonvisual mode of operation that does not require user perception of color.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="14|33|02|.04">
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Hardware.</heading>
+    <para>
+      <num>A.</num>
+      <text>Scope. The requirements of this regulation shall apply to ICT that is hardware if required by <cite path="|14|33|02|.02">Regulation .02 of this chapter</cite> and if otherwise referenced in this chapter.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Closed Functionality.</text>
+      <para>
+        <num>(1)</num>
+        <text>ICT with closed functionality shall be operable without requiring the user to attach or install assistive technology other than personal headsets or other audio couplers.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Speech-Output Enabled Exceptions. The following are exceptions to <cite path="14|33|02|.04|B.|(3)">§B(3) of this regulation</cite>:</text>
+        <para>
+          <num>(a)</num>
+          <text>Speech output shall not be required if ICT display screens only provide status indicators and those indicators conform to <cite path="14|33|02|.04|H.">§H of this regulation</cite> in lieu of subsection <cite path="14|33|02|.04|B.|(3)">§B(3) of this regulation</cite>.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>If speech cannot be supported due to constraints in available memory or processor capability, ICT shall be permitted to conform to <cite path="14|33|02|.04|H.">§H of this regulation</cite>.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Audible tones shall be permitted instead of speech output if the content of user input is not displayed as entered for security purposes, including, but not limited to, asterisks representing personal identification numbers.</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Speech output shall not be required for the:</text>
+          <para>
+            <num>(i)</num>
+            <text>Machine location;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Date and time of transaction;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Customer account number; and</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Machine identifier or label.</text>
+          </para>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Speech output shall not be required for advertisements and other similar information unless they convey information that can be used for the transaction being conducted.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Speech-Output Enabled.</text>
+        <para>
+          <num>(a)</num>
+          <text>ICT with a display screen shall be speech-output enabled for full and independent use by individuals with vision impairments.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Information Displayed On-Screen. Speech output shall be provided for all information displayed on-screen.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Transactional Outputs. If transactional outputs are provided, the speech output shall audibly provide all information necessary to verify a transaction.</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Speech Delivery Type and Coordination.</text>
+          <para>
+            <num>(i)</num>
+            <text>Speech output shall be delivered through a mechanism that is readily available to all users, including, but not limited to, an industry standard connector or a telephone handset.</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Speech shall be recorded or digitized human or synthesized.</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Speech output shall be coordinated with information displayed on the screen.</text>
+          </para>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>User Control. The requirements for user control are as follows:</text>
+          <para>
+            <num>(i)</num>
+            <text>Speech output for any single function shall be automatically interrupted when a transaction is selected.</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Speech output shall be capable of being repeated and paused.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Braille Instructions Exception. Section B(5) of this regulation does not apply to devices for personal use.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Braille Instructions. The Braille Instructions are as follows:</text>
+        <para>
+          <num>(a)</num>
+          <text>If speech output is required by <cite path="14|33|02|.04|B.|(3)">§B(3) of this regulation</cite>, braille instructions for initiating the speech mode of operation shall be provided.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Braille shall be contracted and shall conform to 36 CFR §1191.D.703.3.1. which is incorporated by reference herein.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Volume.</text>
+      <para>
+        <num>(1)</num>
+        <text>ICT that delivers sound, including speech output required by <cite path="14|33|02|.04|B.|(3)">§B(3) of this regulation</cite> shall provide volume control and output amplification conforming to this section.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Private Listening. The volume requirements for private listening are as follows:</text>
+        <para>
+          <num>(a)</num>
+          <text>If ICT provides private listening, it shall provide a mode of operation for controlling the volume.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>If ICT delivers output by an audio transducer typically held up to the ear, a means for effective magnetic wireless coupling to hearing technologies shall be provided.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Nonprivate Listening. The volume requirements for nonprivate listening are as follows:</text>
+        <para>
+          <num>(a)</num>
+          <text>If ICT provides nonprivate listening, incremental volume control shall be provided with output amplification up to a level of at least 65 dB.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A function shall be provided to automatically reset the volume to the default level after every use.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Characters on Display Screens.</text>
+        <para>
+          <num>(a)</num>
+          <text>At least one mode of characters displayed on the screen shall be in a sans serif font.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>If ICT does not provide a screen enlargement feature, characters shall be 3/16 inch (4.8 mm) high, at a minimum, based on the uppercase letter “I”.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Characters shall contrast with their background with either light characters on a dark background or dark characters on a light background.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Biometrics.</text>
+      <para>
+        <num>(1)</num>
+        <text>Exception. If at least two biometric options that use different biological characteristics are provided, ICT shall be permitted to use biometrics as the only means for user identification or control.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If provided, biometrics shall not be the only means for user identification or control.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Preservation of Information Provided for Accessibility. ICT that transmits or converts information or communication shall not remove nonproprietary information provided for accessibility or shall restore it upon delivery.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Privacy. The privacy requirements are as follows:</text>
+      <para>
+        <num>(1)</num>
+        <text>The same degree of privacy of input and output shall be provided to all individuals.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>When speech output required by <cite path="14|33|02|.04|B.|(3)">§B(3) of this regulation</cite> is enabled, the screen shall not blank automatically.</text>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Standard Connections. If data connections used for input and output are provided, at least one of each type of connection shall conform to industry standard nonproprietary formats.</text>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>Operable Parts. The operable parts requirements are as follows:</text>
+      <para>
+        <num>(1)</num>
+        <text>If provided, operable parts used in the normal operation of ICT shall conform to this section.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Contrast. If provided, keys and controls shall contrast visually from background surfaces. Characters and symbols shall contrast visually from background surfaces with either light characters or symbols on a dark background or dark characters or symbols on a light background.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Input Controls Exceptions. Devices for personal use with input controls that are audibly discernable without activation and operable by touch shall not be required to conform to <cite path="14|33|02|.04|H.|(4)">§H(4) of this regulation</cite>.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Input Controls. At least one input control conforming to this section shall be provided for each function.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Tactilely Discernible. Input controls shall be operable by touch and tactilely discernible without activation.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Alphabetic Keys. If provided, individual alphabetic keys shall be arranged in a QWERTY-based keyboard layout, and the “F” and “J” keys shall be tactilely distinct from the other keys.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Numeric Keys.</text>
+        <para>
+          <num>(a)</num>
+          <text>If provided, numeric keys shall be arranged in a 12-key ascending or descending keypad layout.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The number five key shall be tactilely distinct from the other keys.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>If the ICT provides an alphabetic overlay on numeric keys, the relationships between letters and digits shall conform to 36 CFR §1194.C.407.3.3, which is incorporated by reference.</text>
+        </para>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Key Repeat. If a keyboard with key repeat is provided, the delay before the key repeat feature is activated shall be fixed at, or adjustable to, 2 seconds minimum.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>Timed Response. If a timed response is required, the user shall be alerted visually, as well as by touch or sound, and shall be given the opportunity to indicate that more time is needed.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>Tickets, Fare Cards, and Keycards. If tickets, fare cards, or keycards are provided, they shall have an orientation that is tactilely discernible if orientation is important to further use of the ticket, fare card, or keycard.</text>
+      </para>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>Display Screens.</text>
+      <para>
+        <num>(1)</num>
+        <text>If provided, display screens shall conform to this regulation.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Visibility. If stationary ICT provides one or more display screens, at least one of each type of display screen shall be visible from a point located 40 inches (1015 mm) above the floor space where the display screen is viewed.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Flashing Exception. Flashes that do not exceed the general flash and red flash thresholds as defined in The Web Content Accessibility Guidelines (WCAG) 2.1 Level AAA (June 5,2018), as incorporated by reference under COMAR 13A.06.05.02, are not required to conform to <cite path="14|33|02|.04|I.|(4)">§I(4) of this regulation</cite>.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Flashing. If ICT emits lights in flashes, there shall be no more than three flashes in any 1-second period.</text>
+      </para>
+    </para>
+    <para>
+      <num>J.</num>
+      <text>Status Indicators. If provided, status indicators shall be discernible visually and by touch or sound.</text>
+    </para>
+    <para>
+      <num>K.</num>
+      <text>Color Coding. If provided, color coding shall not be used as the only means of conveying information, indicating an action, prompting a response, or distinguishing a visual element.</text>
+    </para>
+    <para>
+      <num>L.</num>
+      <text>Caller ID. If provided, caller identification and similar telecommunications functions shall be visible and audible.</text>
+    </para>
+    <para>
+      <num>M.</num>
+      <text>Closed Caption Processing Technologies.</text>
+      <para>
+        <num>(1)</num>
+        <text>If ICT displays or processes video with synchronized audio, ICT shall provide closed caption processing technology that conforms to this section.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Decoding and Display of Closed Captions. Players and displays shall decode closed caption data and support display of captions.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Pass-Through of Closed Caption Data. Cabling and ancillary equipment shall pass through caption data.</text>
+      </para>
+    </para>
+    <para>
+      <num>N.</num>
+      <text>Audio Description Processing Technologies.</text>
+      <para>
+        <num>(1)</num>
+        <text>If ICT displays or processes video with synchronized audio, ICT shall provide audio description processing technology conforming to this section.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Digital Television Tuners. Digital television tuners shall be considered nonvisually accessible if the ICT provides audio description processing that conforms to the requirements of 36 CFR §1194.C.414.1.1, which is incorporated by reference.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Other ICT. ICT other than digital television tuners shall provide audio description processing.</text>
+      </para>
+    </para>
+    <para>
+      <num>O.</num>
+      <text>User Controls for Captions and Audio Descriptions.</text>
+      <para>
+        <num>(1)</num>
+        <text>If ICT displays video with synchronized audio, ICT shall provide user controls for closed captions and audio descriptions conforming to this section.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Exception. Devices for personal use shall not be required to conform to this section, provided that captions and audio descriptions can be enabled through systemwide platform settings.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Caption Controls. If ICT provides operable parts for volume control, ICT shall also provide operable parts for caption selection.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Audio Description Controls. If ICT provides operable parts for program selection, ICT shall also provide operable parts for the selection of audio description.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Software.</heading>
+    <text>Software ICT shall be considered nonvisually accessible if the software ICT meets the requirements of 36 CFR §1194.C.5, which is incorporated by reference.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Support Documentation and Services.</heading>
+    <para>
+      <num>A.</num>
+      <text>Scope. The technical requirements of this regulation shall apply to ICT support documentation and services if required by this chapter.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Support Documentation.</text>
+      <para>
+        <num>(1)</num>
+        <text>General documentation that supports the use of ICT shall conform to this section.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Accessibility and Compatibility Features. Documentation shall list and explain how to use the nonvisual accessibility and compatibility features required by Regulations .04 and .05 of this chapter. Documentation shall include accessibility features that are built in and accessibility features that provide compatibility with assistive technology.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Electronic Support Documentation. Documentation in electronic format, including web-based self-service support shall be considered nonvisually accessible if the ICT meets the requirements of 36 CFR §1194.C.602.3, which is incorporated by reference.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Alternate Formats for Nonelectronic Support Documentation. If support documentation is only provided in nonelectronic formats, alternate formats usable by individuals with visual disabilities shall be provided upon request.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Services.</text>
+      <para>
+        <num>(1)</num>
+        <text>Nonvisual ICT support services, including, but not limited to, help desks, call centers, training services, and automated self-service technical support, shall conform to this section.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Information on Accessibility and Compatibility Features. Nonvisual ICT support services shall include information on the accessibility and compatibility features required by this chapter.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Accommodation of Communication Needs. Support services shall be provided directly to the user or through a referral to a point of contact. Such ICT support services shall accommodate the communication needs of individuals with visual disabilities.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Compliance Certification.</heading>
+    <text>Each agency shall certify in the Agency Information Technology Master Plan submission to the Department of Information Technology, in a form prescribed by the Department, that the ICT procured and services provided by or on behalf of the unit comply with the requirements in this chapter.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Self-Contained, Closed Products.</heading>
+    <para>
+      <num>A.</num>
+      <text>Self-contained products shall be usable by people with visual disabilities without requiring an end-user to attach assistive technology to the product.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>If a product utilizes touch screens or contact-sensitive controls, an input method shall be provided that complies with Regulation .06D(1) and (2) of this chapter.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>If an ocular form of user identification or control is used, an alternative form of identification or activation which does not require the user to possess a particular ocular characteristic shall also be provided.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>If a product provides auditory output, the audio signal shall be provided at a standard signal level through an industry standard connector that allows for private listening using a headset or personal speakers. The product shall provide the ability to interrupt, pause, and restart the audio at any time.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>When products deliver voice output in a public area, incremental volume control shall be provided with output amplification up to a level of at least 65 decibels. Where the ambient noise level of the environment is above 45 decibels, a volume gain of at least 20 decibels above the ambient level shall be user selectable. A function shall be provided to automatically reset the volume to the default level after every use.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Color-coding may not be used as the only means of conveying information, indicating an action, prompting a response, or distinguishing a visual element.</text>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>If a product permits a user to adjust color and contrast settings, a range of color selections capable of producing a variety of contrast levels shall be provided.</text>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>Products shall be designed to avoid causing the screen to flicker with a frequency greater than 2 hertz and lower than 55 hertz.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Desktop and Portable Computers.</heading>
+    <para>
+      <num>A.</num>
+      <text>All mechanically operated controls and keys shall comply with Regulation .06D(1) and (2) of this chapter.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>If a product utilizes touch screens or touch-operated controls, an input method shall be provided that complies with Regulation .06D(1) and (2) of this chapter.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>When an ocular form of user identification or control is used, an alternative form of identification or activation, which does not require the user to possess particular ocular characteristics, shall also be provided.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.10</num>
+    <heading>Functional Performance Criteria.</heading>
+    <para>
+      <num>A.</num>
+      <text>At least one mode of operation and information retrieval that does not require user vision shall be provided, or support for assistive technology used by people who are blind or visually impaired shall be provided.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>At least one mode of operation and information retrieval that does not require visual acuity greater than 20/70 shall be provided in audio and enlarged print output working together or independently, or support for assistive technology used by people who are visually impaired shall be provided.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.11</num>
+    <heading>Information, Documentation, and Support.</heading>
+    <para>
+      <num>A.</num>
+      <text>Product support documentation provided to end-users shall be made available in nonvisually accessible alternate formats upon request, at no additional charge.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>End-users shall have access to a description of the accessibility and compatibility features of products in nonvisually accessible alternate formats or alternate methods upon request, at no additional charge.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Support services for products shall accommodate the communication needs of end-users with visual disabilities.</text>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">State Finance and Procurement Article, §§<cite doc="Md. Code" path="gsf|3A-303">3A-303</cite>(a)(<cite doc="Md. Code" path="gsf|5">5</cite>), <cite doc="Md. Code" path="gsf|3A-311">3A-311</cite>, and <cite doc="Md. Code" path="gsf|3A-312">3A-312</cite>, Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="2005-03-01">Effective date: March 1, 2005 (31:25 Md. R. 1791)</annotation>
+    <annotation type="History" dest="container" effective="2008-09-26" discontinuity="true">Recodified from <cite path="|17.06.02">COMAR 17.06.02</cite> to <cite path="|14.33.02">14.33.02</cite>, effective September 26, 2008</annotation>
+    <annotation type="History" dest="container" effective="2022-03-07"><cite path="|14|33|02|.01">Regulation .01</cite> amended effective March 7, 2022 (49:5 Md. R. 366)</annotation>
+    <annotation type="History" dest="container" effective="2010-04-05"><cite path="|14|33|02|.01|A.">Regulation .01A</cite> amended effective April 5, 2010 (37:7 Md. R. 575)</annotation>
+    <annotation type="History" dest="container" effective="2022-03-07"><cite path="|14|33|02|.02">Regulation .02</cite> amended effective March 7, 2022 (49:5 Md. R. 366)</annotation>
+    <annotation type="History" dest="container" effective="2022-03-07">Regulations <cite path="|14|33|02|.03">.03</cite>—<cite path="|14|33|02|.11">.11</cite> repealed effective March 7, 2022 (49:5 Md. R. 366)</annotation>
+    <annotation type="History" dest="container" effective="2022-03-07">Regulations <cite path="|14|33|02|.03">.03</cite>—<cite path="|14|33|02|.06">.06</cite> adopted effective March 7, 2022 (49:5 Md. R. 366)</annotation>
+    <annotation type="History" dest="container" effective="2010-04-05"><cite path="|14|33|02|.12">Regulation .12</cite> amended effective April 5, 2010 (37:7 Md. R. 575)</annotation>
+    <annotation type="History" dest="container" effective="2022-03-07"><cite path="|14|33|02|.12">Regulation .12</cite> amended and recodified to be Regulation .07 effective March 7, 2022 (49:5 Md. R. 366)</annotation>
+  </annotations>
+</container>

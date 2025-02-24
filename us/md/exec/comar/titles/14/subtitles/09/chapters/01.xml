@@ -1,0 +1,600 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>01</num>
+  <heading>General Administrative</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this subtitle, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>“Affidavit” means a written statement the contents of which are affirmed under the penalties of perjury to be true.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>“Automatic award” means the order finding the claim compensable when:</text>
+        <para>
+          <num>(a)</num>
+          <text>The employer or insurer files no response to an employee’s claim form by the consideration date in accordance with <cite doc="Md. Code" path="gle|9-713">Labor and Employment Article, §9-713, Annotated Code of Maryland</cite>;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The employer or insurer files a response that the claim does not involve lost time; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The employer or insurer files a response that the employer or insurer does not contest the claim.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>“Certified mail” means mail deposited with the United States Postal Service, postage prepaid and return receipt requested.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>“Claimant” means a person filing a workers' compensation claim and includes:</text>
+        <para>
+          <num>(a)</num>
+          <text>A covered employee;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A dependent of a deceased covered employee; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>An individual authorized to act on behalf of a dependent of a deceased covered employee.</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>“Commission” means either the Workers' Compensation Commission or its designee.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>“CompHub” means the Commission’s online system designed to facilitate the filing and adjudication of workers’ compensation claims, and to provide other services related to workers’ compensation benefits.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>“Consideration date” means the day by which the employer or its insurer must begin paying temporary total disability benefits, or file with the Commission any issue to contest the claim in accordance with <cite doc="Md. Code" path="gle|9-713">Labor and Employment Article, §9-713, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>“Contact information” means the name of a person submitting a document or of a person on whose behalf a document is being submitted, telephone numbers, personal or business addresses, email addresses, employer identification and address, or similar facts that make it possible for another to contact a person who is named in a document.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>“Disputed workers' compensation claim” means a:</text>
+        <para>
+          <num>(a)</num>
+          <text>Newly filed claim from the date it is filed until the employer or insurer commences paying the claim or until the consideration date has expired;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>New claim in which issues have been filed;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Pending claim in which one or more issues have been filed; or</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Claim that is pending on appeal.</text>
+        </para>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>File.</text>
+        <para>
+          <num>(a)</num>
+          <text>“File” means to submit to the Commission a written claim, motion, request, or other document for action by the Commission.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“File” does not include a submission rejected by the Commission.</text>
+        </para>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>“Final award” means the award of compensation determined by the Commission after exhaustion of all applicable appeals, regardless of whether the award is increased or decreased as a result of any appeal.</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>“Formal set-aside allocation” means a document reflecting a comprehensive analysis and projection of future injury-related medical needs and associated costs.</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>“Healthcare provider delegate” means administrative or support staff designated by a health care provider to have access to basic claim information for the purpose of obtaining settlement, claim and hearing status information.</text>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>“Individual” means a human being.</text>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>“Insurer” means:</text>
+        <para>
+          <num>(a)</num>
+          <text>A stock corporation or mutual association that is authorized under the <cite doc="Md. Code" path="gin">Insurance Article, Annotated Code of Maryland</cite>, to provide workers' compensation insurance in the State;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The Chesapeake Employers' Insurance Company authorized under <cite doc="Md. Code" path="gin">Insurance Article, Title 24, Subtitle 3, Annotated Code of Maryland</cite>;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A governmental self-insurance group that meets the requirements of <cite doc="Md. Code" path="gle|9-404">Labor and Employment Article, §9-404, Annotated Code of Maryland</cite>;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>A self-insurance group of private employers that meets the requirements of Insurance Article, §§<cite doc="Md. Code" path="gin|25-301">25-301</cite>—<cite doc="Md. Code" path="gin|25-308">25-308</cite>, Annotated Code of Maryland; or</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>An individual employer that self-insures in accordance with <cite doc="Md. Code" path="gle|9-405">Labor and Employment Article, §9-405, Annotated Code of Maryland</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>“Insurer delegate” means administrative or support staff, designated by an insurer, to have access to all claim documents in all claims in which the insurer is a party for the purpose of filing documents and managing claims.</text>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>“Non-compromise case” means a case in which the employer/insurer has not contested liability or in which the Commission has found liability and in which the settlement compensates the claimant for anticipated future medical expenses.</text>
+      </para>
+      <para>
+        <num>(18)</num>
+        <text>“Paper” means a document filed with the Commission, whether in physical paper form or electronic form or format.</text>
+      </para>
+      <para>
+        <num>(19)</num>
+        <text>“Person” means:</text>
+        <para>
+          <num>(a)</num>
+          <text>An individual;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A general or limited partnership;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A joint stock company;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>An unincorporated association or society;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>A municipal or other corporation;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>An incorporated association;</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>A limited liability partnership;</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>A limited liability company;</text>
+        </para>
+        <para>
+          <num>(i)</num>
+          <text>The State, its agencies or political subdivisions; or</text>
+        </para>
+        <para>
+          <num>(j)</num>
+          <text>A governmental entity.</text>
+        </para>
+      </para>
+      <para>
+        <num>(20)</num>
+        <text>“Proxy” means administrative or support staff, designated by an attorney, to have access to all claim documents in all claims in which the attorney has entered the attorney's appearance for the purpose of filing documents and managing claims.</text>
+      </para>
+      <para>
+        <num>(21)</num>
+        <text>“Role” means the functionality and type of account for which a user is authorized in CompHub and includes the following and their delegates and proxies:</text>
+        <para>
+          <num>(a)</num>
+          <text>Attorney;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Claimant;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Employer;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Insurer;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Healthcare provider or practitioner; and</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Vocational rehabilitation provider or practitioner.</text>
+        </para>
+      </para>
+      <para>
+        <num>(22)</num>
+        <text>“Signature” includes electronic signature pursuant to <cite doc="Md. Code" path="gcl|21-101">Commercial Law Article, §21-101(i), Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(23)</num>
+        <text>“State average weekly wage” means the State average weekly wage in effect on the date of the accident or date of disablement.</text>
+      </para>
+      <para>
+        <num>(24)</num>
+        <text>“Subpoena” means a written order directed to a person and requiring attendance at a particular time and place to take the action specified.</text>
+      </para>
+      <para>
+        <num>(25)</num>
+        <text>“Subscriber” means an authorized user in CompHub having the access applicable to the role for which the user is authorized.</text>
+      </para>
+      <para>
+        <num>(26)</num>
+        <text>“Subsequent Injury Fund” or “SIF” means the statutorily created entity, funded by assessments on workers' compensation awards and settlements, that may be a party to a claim and which pays benefits attributable to a compensable injury to previously injured body parts.</text>
+      </para>
+      <para>
+        <num>(27)</num>
+        <text>“Undisputed workers' compensation claim” means a claim in which all issues have been:</text>
+        <para>
+          <num>(a)</num>
+          <text>Withdrawn;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Resolved by a decision of the commission that is not appealed; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Resolved on appeal.</text>
+        </para>
+      </para>
+      <para>
+        <num>(28)</num>
+        <text>“Uninsured Employers' Fund” or “UEF” means the statutorily created entity, funded by assessments on workers' compensation awards and settlements, that may be a party to a claim and which pays workers compensation awards made against an uninsured employer.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Commission Forms.</heading>
+    <para>
+      <num>A.</num>
+      <text>Use of Commission forms, available on the Commissionâ€™s website or through CompHub, is mandatory. Use of Commission forms for any purpose for which they are not intended may result in delay or denial of the relief sought.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Where the Commission has not created a form but has directed that the party or attorney prepare its own petition or motion, the party or attorney shall draft and file the required papers.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Power of Attorney.</text>
+      <para>
+        <num>(1)</num>
+        <text>If a party files a form or document under power of attorney, the party shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Use a statutory form power of attorney in accordance with Estates and Trusts Article, §§<cite doc="Md. Code" path="get|17-101">17-101</cite>—<cite doc="Md. Code" path="get|17-204">17-204</cite>, Annotated Code of Maryland; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>File electronically a copy of the power of attorney with the Commission.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Only one copy of the power of attorney need be filed with the Commission.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Service of Papers.</heading>
+    <para>
+      <num>A.</num>
+      <text>Service by Commission.</text>
+      <para>
+        <num>(1)</num>
+        <text>The Commission shall serve all notices, orders, and decisions, by:</text>
+        <para>
+          <num>(a)</num>
+          <text>Electronic means:</text>
+          <para>
+            <num>(i)</num>
+            <text>To each partyâ€™s attorney of record who has registered with CompHub and consents; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>To each unrepresented party who has registered with CompHub and consents; or</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>First-class mail.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Commission notices, awards, orders, and decisions are sent by electronic means or mailed by first-class mail on the date of issue shown on the notice, award, order, or decision.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Service by Parties.</text>
+      <para>
+        <num>(1)</num>
+        <text>Except as otherwise provided in these regulations, a copy of every paper, form, or document filed with the Commission by a party shall be served promptly on all other parties.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If a party is represented by an attorney, service shall be made upon the attorney unless service on the party is directed by the Commission.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Service may be made by:</text>
+        <para>
+          <num>(a)</num>
+          <text>Handing the papers to the party or attorney;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Leaving the papers at that person's office with an individual in charge, or, if there is no one in charge, leaving the papers in a conspicuous place in the office, or, if the office is closed or the person has no office, leaving the papers at the person's usual place of residence with an individual of suitable age and discretion residing there;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Mailing the papers to the address most recently stated in a paper filed by the party or attorney, or if not stated, to the last known address; or</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Electronic means.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Service by mail is complete upon mailing.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Service by electronic means is complete upon sending the electronic filing or service, but service is not effective if the person who filed with the Commission or the person who sent by electronic means learns that the paper did not reach the person to be served. This regulation does not make the Commission responsible for notifying a person who filed the paper with CompHub that an attempted transmission by CompHub failed. But a filer who learns that the transmission failed is responsible for making effective service.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Each paper filed that is required to be served shall be accompanied by a certificate of service, signed by the party or the party's attorney, showing the date and manner of making service on each of the other parties.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Filing Forms and Documents with the Commission.</heading>
+    <text>Forms and documents may be filed with the Commission by one of the following methods:</text>
+    <para>
+      <num>A.</num>
+      <text>Electronically through CompHub;</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>In person at the Commissionâ€™s principal office in Baltimore City; or</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>By mail addressed to the Commission's principal office in Baltimore City.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Hours of Business.</heading>
+    <text>Except for legal holidays, the hours of business of the Commission are Monday through Friday, 8 a.m. to 4:30 p.m.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Waiver of Strict Compliance.</heading>
+    <text>When justice so requires, the Commission may waive strict compliance with these regulations.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Powers and Duties of Commissioners.</heading>
+    <para>
+      <num>A.</num>
+      <text>A Commissioner shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Conduct a full, fair, and impartial hearing;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Take action to avoid unnecessary delay in the disposition of the proceedings; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Maintain order.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A Commissioner has the power to regulate the course of the hearing and the conduct of the parties and authorized representatives, including but not limited to, the power to:</text>
+      <para>
+        <num>(1)</num>
+        <text>Administer oaths and affirmations;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Issue subpoenas for witnesses and the production of evidence;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Rule upon offers of proof and receive relevant and material evidence;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Consider and rule upon motions and requests;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Examine witnesses and call witnesses as necessary to ensure a full and complete record;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Limit repetitious testimony and reasonably limit the time for presentations;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Grant a continuance of a hearing;</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Issue orders as are necessary to secure procedural simplicity and administrative fairness and to eliminate unjustifiable expense and delay;</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>Conduct the hearing in a manner suited to ascertain the facts and safeguard the rights of the parties to the hearing; and</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>Impose appropriate sanctions for the failure to abide by this chapter or any lawful order of the Commissioner.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Referral for Fraud.</heading>
+    <para>
+      <num>A.</num>
+      <text>Pursuant to <cite doc="Md. Code" path="gle|9-310">Labor and Employment Article, §9-310</cite>.2(a), Annotated Code of Maryland, any party may request that the Commission refer the case to the Insurance Fraud Division of the Maryland Insurance Administration for investigation.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A party requesting a referral to the Insurance Fraud Division shall complete a fraud referral form provided by the Commission.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>CompHub Conditions of Use.</heading>
+    <para>
+      <num>A.</num>
+      <text>A subscriber shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Provide the Commission with current contact information and promptly update this information as it changes; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Abide by the terms of the service agreement available on CompHub, applicable to the role for which the user is authorized in CompHub.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Continued use of CompHub constitutes agreement to abide by the terms of the CompHub service agreement.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A subscriber’s CompHub subscription may be suspended or terminated if the subscriber:</text>
+      <para>
+        <num>(1)</num>
+        <text>Fails to provide the Commission with current contact information;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Fails to protect the subscriber’s username and password;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Uses the system in a manner inconsistent with its stated purpose;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Permits unauthorized use of the subscriber's account; or</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Violates the terms of the service agreement available on CompHub, applicable to the role for which the user is authorized in CompHub.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.10</num>
+    <heading>Notices Concerning Claims — Posting by Employer.</heading>
+    <text>The employer shall keep conspicuously posted at places of employment controlled or operated by the employer all written notices provided to the employer by the Commission or the employer's insurance carrier (or prepared by the employer, if self-insured) that give instructions or convey information to persons interested in or entitled to benefits under <cite doc="Md. Code" path="gle">Labor and Employment Article, Title 9, Annotated Code of Maryland</cite>.</text>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Health-General Article, §4-303; Insurance Article, §§<cite doc="Md. Code" path="gin|19-405">19-405</cite> and <cite doc="Md. Code" path="gin|19-406">19-406</cite>;<br/>Labor and Employment Article, §§<cite doc="Md. Code" path="gle|9-307">9-307</cite>, <cite doc="Md. Code" path="gle|9-309">9-309</cite>, <cite doc="Md. Code" path="gle|9-310">9-310</cite>.2, 9-314, 9-404, 9-405, 9-410, 9-602, 9-603, 9-610.1, 9-625, 9-635, 9-689, 9-701, 9-709, 9-710, 9-711, 9-721, 9-731, 9-736, 9-739, and 9-6A-07; State Government Article, §10-1103; Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="1958-06-01">Effective date: June 1, 1958</annotation>
+    <annotation type="History" dest="container" effective="1983-07-01">Chapter revised effective July 1, 1983 (10:12 Md. R. 1073)</annotation>
+    <annotation type="History" dest="container" effective="1991-05-17"><cite path="|14|09|01|.11">Regulation .11</cite> repealed and new Regulation .11 adopted as an emergency provision effective March 26, 1990 (17:10 Md. R. 1217); emergency status extended at 18:4 Md. R. 445 (February 22, 1991) and 18:10 Md. R. 1114 (May 17, 1991)</annotation>
+    <annotation type="History" dest="container" effective="1991-10-01">Regulations <cite path="|14|09|01|.01">.01</cite>—<cite path="|14|09|01|.25">.25</cite> repealed effective October 1, 1991 (18:11 Md. R. 1187)</annotation>
+    <annotation type="History" dest="container" effective="1991-10-01" discontinuity="true">Regulations <cite path="|14|09|01|.01">.01</cite>—<cite path="|14|09|01|.29">.29</cite> adopted effective October 1, 1991 (18:11 Md. R. 1187)</annotation>
+    <annotation type="History" dest="container" effective="2002-09-02"><cite path="|14|09|01|.01">Regulation .01</cite> amended effective May 28, 2001 (28:10 Md. R. 949); September 2, 2002 (29:17 Md. R. 1382)</annotation>
+    <annotation type="History" dest="container" effective="2005-04-11"><cite path="|14|09|01|.01|B.">Regulation .01B</cite> amended effective April 11, 2005 (32:7 Md. R. 683)</annotation>
+    <annotation type="History" dest="container" effective="2010-01-04"><cite path="|14|09|01|.01|B.">Regulation .01B</cite> amended as an emergency provision effective January 4, 2010 (37:3 Md. R. 173); emergency status extended at 37:15 Md. R. 997</annotation>
+    <annotation type="History" dest="container" effective="2011-11-28"><cite path="|14|09|01|.01|B.">Regulation .01B</cite> amended effective November 28, 2011 (38:24 Md. R. 1503)</annotation>
+    <annotation type="History" dest="container" effective="2011-05-16"><cite path="|14|09|01|.05|C.">Regulation .05C</cite> amended effective May 16, 2011 (38:10 Md. R. 616)</annotation>
+    <annotation type="History" dest="container" effective="2008-06-16"><cite path="|14|09|01|.05|E.">Regulation .05E</cite> amended effective June 16, 2008 (35:12 Md. R. 1120)</annotation>
+    <annotation type="History" dest="container" effective="2004-04-12"><cite path="|14|09|01|.06">Regulation .06</cite> repealed effective April 12, 2004 (31:7 Md. R. 586)</annotation>
+    <annotation type="History" dest="container" effective="2007-11-05"><cite path="|14|09|01|.06">Regulation .06</cite> adopted as an emergency provision effective November 5, 2007 (34:24 Md. R. 2155); emergency status extended at 35:9 Md. R. 894; emergency status expired July 31, 2008</annotation>
+    <annotation type="History" dest="container" effective="2008-08-11"><cite path="|14|09|01|.06">Regulation .06</cite> adopted effective August 11, 2008 (35:16 Md. R. 1391)</annotation>
+    <annotation type="History" dest="container" effective="2011-03-21"><cite path="|14|09|01|.06|A.">Regulation .06A</cite> amended effective March 21, 2011 (38:6 Md. R. 397)</annotation>
+    <annotation type="History" dest="container" effective="2012-03-19"><cite path="|14|09|01|.06|C.">Regulation .06C</cite>, D repealed as an emergency provision effective October 5, 2011 (38:23 Md. R. 1417); repealed permanently effective March 19, 2012 (39:5 Md. R. 384)</annotation>
+    <annotation type="History" dest="container" effective="2012-03-19"><cite path="|14|09|01|.06">Regulation .06</cite>-1 adopted as an emergency provision effective October 5, 2011 (38:23 Md. R. 1417); adopted permanently effective March 19, 2012 (39:5 Md. R. 384)</annotation>
+    <annotation type="History" dest="container" effective="2007-07-16"><cite path="|14|09|01|.07|A.">Regulation .07A</cite> amended effective July 16, 2007 (34:14 Md. R. 1246)</annotation>
+    <annotation type="History" dest="container" effective="2012-10-15"><cite path="|14|09|01|.07|B.">Regulation .07B</cite> amended effective September 2, 2002 (29:17 Md. R. 1382); October 15, 2012 (39:20 Md. R. 1307)</annotation>
+    <annotation type="History" dest="container" effective="2012-10-15"><cite path="|14|09|01|.07|C.">Regulation .07C</cite> adopted effective October 15, 2012 (39:20 Md. R. 1307)</annotation>
+    <annotation type="History" dest="container" effective="2007-11-05"><cite path="|14|09|01|.08|B.">Regulation .08B</cite> repealed as an emergency provision effective November 5, 2007 (34:24 Md. R. 2155); emergency status extended at 35:9 Md. R. 894; emergency status expired July 31, 2008</annotation>
+    <annotation type="History" dest="container" effective="2008-08-11"><cite path="|14|09|01|.08|B.">Regulation .08B</cite> repealed effective August 11, 2008 (35:16 Md. R. 1391)</annotation>
+    <annotation type="History" dest="container" effective="1996-02-01"><cite path="|14|09|01|.10|D.">Regulation .10D</cite> amended effective February 1, 1996 (23:2 Md. R. 96)</annotation>
+    <annotation type="History" dest="container" effective="1996-02-01"><cite path="|14|09|01|.12|A.">Regulation .12A</cite> amended effective February 1, 1996 (23:2 Md. R. 96)</annotation>
+    <annotation type="History" dest="container" effective="2005-09-12"><cite path="|14|09|01|.12|B.">Regulation .12B</cite> amended effective February 1, 1996 (23:2 Md. R. 96); September 12, 2005 (32:18 Md. R. 1521)</annotation>
+    <annotation type="History" dest="container" effective="2004-03-15"><cite path="|14|09|01|.13">Regulation .13</cite> amended effective March 15, 2004 (31:5 Md. R. 450)</annotation>
+    <annotation type="History" dest="container" effective="1996-02-01"><cite path="|14|09|01|.14">Regulation .14</cite> amended effective February 1, 1996 (23:2 Md. R. 96)</annotation>
+    <annotation type="History" dest="container" effective="2004-11-08"><cite path="|14|09|01|.14|F.">Regulation .14F</cite> adopted effective November 8, 2004 (31:22 Md. R. 1597)</annotation>
+    <annotation type="History" dest="container" effective="2010-01-04"><cite path="|14|09|01|.19">Regulation .19</cite> amended as an emergency provision effective January 4, 2010 (37:3 Md. R. 173); emergency status extended at 37:15 Md. R. 997</annotation>
+    <annotation type="History" dest="container" effective="2011-11-28"><cite path="|14|09|01|.19">Regulation .19</cite> amended effective November 28, 2011 (38:24 Md. R. 1503)</annotation>
+    <annotation type="History" dest="container" effective="2012-04-16"><cite path="|14|09|01|.19|A.">Regulation .19A</cite> amended effective April 16, 2012 (39:7 Md. R. 495)</annotation>
+    <annotation type="History" dest="container" effective="1999-06-28"><cite path="|14|09|01|.20">Regulation .20</cite> amended effective June 28, 1999 (26:13 Md. R. 1020)</annotation>
+    <annotation type="History" dest="container" effective="2010-04-19"><cite path="|14|09|01|.20">Regulation .20</cite> repealed effective April 19, 2010 (37:8 Md. R. 619)</annotation>
+    <annotation type="History" dest="container" effective="2005-07-04"><cite path="|14|09|01|.23">Regulation .23</cite> amended effective May 28, 2001 (28:10 Md. R. 949); November 26, 2001 (28:23 Md. R. 2055); September 2, 2002 (29:17 Md. R. 1382); July 4, 2005 (32:13 Md. R. 1116)</annotation>
+    <annotation type="History" dest="container" effective="2005-07-04"><cite path="|14|09|01|.23|B.">Regulation .23B</cite> amended effective July 4, 2005 (32:13 Md. R. 1116)</annotation>
+    <annotation type="History" dest="container" effective="2012-08-20"><cite path="|14|09|01|.24|D.">Regulation .24D</cite> adopted effective August 20, 2012 (39:16 Md. R. 1081)</annotation>
+    <annotation type="History" dest="container" effective="2010-07-26"><cite path="|14|09|01|.25">Regulation .25</cite> amended effective January 14, 2010 (37:1 Md. R. 15); July 26, 2010 (37:15 Md. R. 1000)</annotation>
+    <annotation type="History" dest="container" effective="2003-03-17"><cite path="|14|09|01|.25|B.">Regulation .25B</cite> amended effective March 17, 2003 (30:5 Md. R. 367)</annotation>
+    <annotation type="History" dest="container" effective="2003-08-18"><cite path="|14|09|01|.25|B.">Regulation .25B</cite> amended as an emergency provision effective April 8, 2003 (30:9 Md. R. 609); amended permanently effective August 18, 2003 (30:16 Md. R. 1075)</annotation>
+    <annotation type="History" dest="container" effective="2006-07-03"><cite path="|14|09|01|.27">Regulation .27</cite> repealed and new Regulation .27 adopted effective July 3, 2006 (33:13 Md. R. 1064)</annotation>
+    <annotation type="History" dest="container" effective="2005-03-14"><cite path="|14|09|01|.30">Regulation .30</cite> adopted effective March 14, 2005 (32:4 Md. R. 581)</annotation>
+    <annotation type="History" dest="container" effective="2005-12-08"><cite path="|14|09|01|.31">Regulation .31</cite> adopted effective December 8, 2005 (32:24 Md. R. 1905)</annotation>
+    <annotation type="History" dest="container" effective="2014-03-03" discontinuity="true">Chapter revised effective March 3, 2014 (41:4 Md. R. 303)</annotation>
+    <annotation type="History" dest="container" effective="2021-10-18"><cite path="|14|09|01|.01|B.">Regulation .01B</cite> amended effective March 12, 2018 (45:5 Md. R. 287); August 24, 2020 (47:17 Md. R. 797); October 18, 2021 (48:21 Md. R. 890)</annotation>
+    <annotation type="History" dest="container" effective="2021-10-18"><cite path="|14|09|01|.02">Regulation .02</cite> amended effective August 24, 2020 (47:17 Md. R. 797); October 18, 2021 (48:21 Md. R. 890)</annotation>
+    <annotation type="History" dest="container" effective="2021-10-18"><cite path="|14|09|01|.03">Regulation .03</cite> amended effective October 18, 2021 (48:21 Md. R. 890)</annotation>
+    <annotation type="History" dest="container" effective="2018-03-12"><cite path="|14|09|01|.03|B.">Regulation .03B</cite> amended effective March 12, 2018 (45:5 Md. R. 287)</annotation>
+    <annotation type="History" dest="container" effective="2018-03-12"><cite path="|14|09|01|.04">Regulation .04</cite> amended effective March 12, 2018 (45:5 Md. R. 287)</annotation>
+    <annotation type="History" dest="container" effective="2020-08-24"><cite path="|14|09|01|.04|A.">Regulation .04A</cite> amended effective December 10, 2015 (42:24 Md. R. 1505); August 24, 2020 (47:17 Md. R. 797)</annotation>
+    <annotation type="History" dest="container" effective="2021-10-18"><cite path="|14|09|01|.04|B.">Regulation .04B</cite> amended effective October 18, 2021 (48:21 Md. R. 890)</annotation>
+    <annotation type="History" dest="container" effective="2021-10-18"><cite path="|14|09|01|.08|B.">Regulation .08B</cite> amended effective October 18, 2021 (48:21 Md. R. 890)</annotation>
+    <annotation type="History" dest="container" effective="2021-10-18"><cite path="|14|09|01|.09">Regulation .09</cite> amended effective August 24, 2020 (47:17 Md. R. 797); October 18, 2021 (48:21 Md. R. 890)</annotation>
+    <annotation type="History" dest="container" effective="2014-08-04">Regulations <cite path="|14|09|01|.11">.11</cite>—<cite path="|14|09|01|.17">.17</cite>, 26, and 27 repealed effective August 4, 2014 (41:15 Md. R. 892)</annotation>
+  </annotations>
+</container>

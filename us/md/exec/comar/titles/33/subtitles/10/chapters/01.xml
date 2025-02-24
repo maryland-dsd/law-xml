@@ -1,0 +1,1422 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>01</num>
+  <heading>EVS Voting Solution</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>“Audio ballot” means a ballot presented in an audio format, containing the same contest order and selections as the corresponding paper or visual ballot.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>“Audio-tactile keypad” means an assistive device used by a voter to navigate and make selections on the ballot marking device.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Ballot Box.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Ballot box” means a sealable container for receiving and securing voted ballots at a voting location.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Ballot box” is the compartment attached to the precinct tabulator for receiving voted ballots.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>“Ballot” means a pre-printed ballot marked by the voter or a ballot activation card used with the ballot marking device.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>“Ballot activation card” means the card used with the ExpressVote unit and scanned by a precinct tabulator or high speed tabulator.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>“Ballot marking device” means the:</text>
+        <para>
+          <num>(a)</num>
+          <text>Device used to create a voter-verifiable paper record; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Accessible device for voters with disabilities as required by <cite doc="Md. Code" path="gel|9-102">Election Law Article, §9-102(f), Annotated Code of Maryland</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>“Ballot transfer bin” means a sealable container inside the ballot box that is used to capture and transfer voted ballots to the local board or counting center.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>“Counting center” means one or more locations designated by the local board for tabulating votes.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>“DS200 precinct tabulator” means the precinct tabulator in the EVS voting solution.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>“DS850 high speed tabulator” means the high speed tabulator in the EVS voting solution.</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>“Election Management System” means the central database of a voting system.</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>“ElectionWare” means the election management system in the EVS voting solution.</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>“Emergency Ballot Compartment” is a separate compartment of the precinct tabulator into which voted ballots can be inserted if the tabulator is unable to scan and tabulate votes.</text>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>“ExpressVote unit” means the ballot marking device in the EVS voting solution.</text>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>“EVS voting solution” means the voting system manufactured by Election Systems and Software.</text>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>“High speed tabulator” means the high speed scanning and tabulating equipment used by certain local boards to tabulate ballots.</text>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>“Judges’ manual” means the manual developed under <cite path="33.02.03.01">COMAR 33.02.03.01</cite> for election judges.</text>
+      </para>
+      <para>
+        <num>(18)</num>
+        <text>“Memory device” means an external hard drive that plugs into a USB port.</text>
+      </para>
+      <para>
+        <num>(19)</num>
+        <text>“Precinct tabulator” means the scanning and tabulating equipment used by local boards to tabulate ballots.</text>
+      </para>
+      <para>
+        <num>(20)</num>
+        <text>“Privacy sleeve” means a folder provided by the local board to ensure the secrecy of the voter’s ballot while the voter carries the ballot from the voting booth to the precinct tabulator.</text>
+      </para>
+      <para>
+        <num>(21)</num>
+        <text>“Test deck” means a preaudited group of ballots that contains:</text>
+        <para>
+          <num>(a)</num>
+          <text>For the precinct tabulator and high-speed tabulator:</text>
+          <para>
+            <num>(i)</num>
+            <text>Predetermined number of valid votes for each candidate, each write-in position, and each voting option on a question that appears on the ballot; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>One or more ballots that have been improperly voted or that have votes in excess of the number allowed by law, in order to test the ability of the system to reject the votes; and</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>For the ballot marking device, at least one selection in each contest in each ballot style; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>One or more blank ballots.</text>
+        </para>
+      </para>
+      <para>
+        <num>(22)</num>
+        <text>“Test script” means an algorithm to mark ballots to ensure that the voting system produces expected results for all contests.</text>
+      </para>
+      <para>
+        <num>(23)</num>
+        <text>“Totals report” means a printed report that shows the votes tabulated on a specific voting unit.</text>
+      </para>
+      <para>
+        <num>(24)</num>
+        <text>“Voter-verifiable paper record” has the meaning stated in <cite doc="Md. Code" path="gel|9-102">Election Law Article, §9-102, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(25)</num>
+        <text>Voting Booth.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Voting booth” means an enclosed area in which a voter makes selections privately.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Voting booth” is the enclosed area for the ballot marking device and the enclosed area for a voter marking a paper ballot by hand.</text>
+        </para>
+      </para>
+      <para>
+        <num>(26)</num>
+        <text>“Voting location” means a polling place or early voting center.</text>
+      </para>
+      <para>
+        <num>(27)</num>
+        <text>“Voting unit” means the:</text>
+        <para>
+          <num>(a)</num>
+          <text>DS200 precinct tabulator with an attached ballot box; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>DS850 high speed tabulator.</text>
+        </para>
+      </para>
+      <para>
+        <num>(28)</num>
+        <text>“Zero report” means a printed report that shows all contests on a specific voting unit have no votes cast.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>System Description.</heading>
+    <para>
+      <num>A.</num>
+      <text>Precinct Tabulator. The precinct tabulator is digital scanning and tabulating equipment with a:</text>
+      <para>
+        <num>(1)</num>
+        <text>Liquid crystal display and touch panel interface;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Removable memory device to store ballot images and election results;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Thermal printer; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Battery back-up.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Ballot Marking Device.</text>
+      <para>
+        <num>(1)</num>
+        <text>The ballot marking device is an accessible device with a thermal printer and battery back-up.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The ballot marking device includes:</text>
+        <para>
+          <num>(a)</num>
+          <text>An audio-tactile keypad;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Connected headphones; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Plug and play option for certain assistive technologies.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>High Speed Tabulator.</text>
+      <para>
+        <num>(1)</num>
+        <text>The high speed tabulator is digital scanning and tabulating equipment used in a counting center.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The high speed tabulator includes:</text>
+        <para>
+          <num>(a)</num>
+          <text>Liquid crystal display and touch panel interface;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Removable memory device to store ballot images and election results; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Printers.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Election Management System. The Election Management System is the software that:</text>
+      <para>
+        <num>(1)</num>
+        <text>Defines the election;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Creates the ballot layout;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Programs the memory devices; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Creates reports, audit logs, and archives.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Election Reporting Manager. Election reporting manager is software that collects and tabulates votes from the tabulators and produces various result reports and audit logs.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Ballot Box. The ballot box is the plastic case on which the precinct tabulator sits and into which voted ballots are stored.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>System Specifications — In General.</heading>
+    <para>
+      <num>A.</num>
+      <text>Privacy.</text>
+      <para>
+        <num>(1)</num>
+        <text>The tabulators shall store digital ballots images randomly to preserve the secrecy of the digital ballot images.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Each ballot marking device shall include a voting booth.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Auditability. The tabulators shall provide a vote cast record of all ballots cast and audit log of alerts provided to voters and tabulator events and errors.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Memory Device.</text>
+      <para>
+        <num>(1)</num>
+        <text>Each precinct tabulator and high speed tabulator shall have a memory device that stores ballot images and reads selections marked or printed on a ballot.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Each ballot marking device shall have a memory device that identifies the ballot style to display.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Each memory device shall have both a human-readable label and an electronically recognizable identifier.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The label and identifier shall match before the memory device is used in any operation related to vote counting.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Ballot Selections. Ballot selections shall be made directly on a ballot using a marking instrument approved by the system’s manufacturer or by using the ballot marking device.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Public and Protective Counters.</text>
+      <para>
+        <num>(1)</num>
+        <text>Public Counter.</text>
+        <para>
+          <num>(a)</num>
+          <text>Each tabulator shall have a public counter that:</text>
+          <para>
+            <num>(i)</num>
+            <text>Is visible from the outside of the voting unit; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>During any period of voting, shows the total number of voters who used the voting unit during that period.</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The public counter shall:</text>
+          <para>
+            <num>(i)</num>
+            <text>Be set at zero at the beginning of each election; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Register once each time a ballot is scanned and tabulated during that election.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Protective Counter.</text>
+        <para>
+          <num>(a)</num>
+          <text>Each tabulator shall have a protective counter that shows the total number of voters who have operated the voting unit since it was first put in service.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The protective counter shall:</text>
+          <para>
+            <num>(i)</num>
+            <text>Not be reset; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Register once each time a voter marks or casts a ballot during any election.</text>
+          </para>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Changes to Software and Logic. After preelection testing of the system, as prescribed by Regulations .14 and .15 of this chapter, any hardware, software, or firmware changes shall be completely documented in each component’s internal audit log and be capable of being printed.</text>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Actions Taken to Change Conditions.</text>
+      <para>
+        <num>(1)</num>
+        <text>The system shall be capable of printing from its audit trail:</text>
+        <para>
+          <num>(a)</num>
+          <text>Actions taken by operators to change conditions; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The time of occurrence.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>System operators shall record in a logbook all actions to change conditions that cannot be printed from the audit trail. That logbook, as well as all reports produced by the printer, shall be retained by the local board.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>System Specifications — DS200 Precinct Tabulator.</heading>
+    <para>
+      <num>A.</num>
+      <text>Capability. If the DS200 unit is used as a precinct tabulator, the unit shall automatically print a totals report immediately once the election is ended on the tabulator.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Use in Counting Center. The DS200 unit may also be used as a counting center tabulator.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>System Specifications — ExpressVote Unit.</heading>
+    <para>
+      <num>A.</num>
+      <text>Capability. The ExpressVote unit shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Display a voter’s correct ballot;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Allow a voter to make and change selections on a touchscreen interface, and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Print a ballot activation card with the voter’s selections.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The voting booth used with the ExpressVote unit shall be constructed and controlled so that, while voting is in progress, an individual may not:</text>
+      <para>
+        <num>(1)</num>
+        <text>Tamper with the device; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Unless assisting a voter as authorized by law, see or know the voter’s selections.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Audio Ballot.</text>
+      <para>
+        <num>(1)</num>
+        <text>The ExpressVote unit shall be capable of presenting an audio ballot.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The audio ballot shall include instructions for:</text>
+        <para>
+          <num>(a)</num>
+          <text>Adjusting volume of the speech;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Selecting a candidate;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Navigating through the contest list;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Entering the name of a write-in candidate;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Marking the ballot; and</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Printing the ballot.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>System Specifications — DS850 High Speed Tabulator.</heading>
+    <text>The DS850 unit shall be used as a counting center tabulator.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>System Specifications — Ballot Box.</heading>
+    <para>
+      <num>A.</num>
+      <text>A ballot box shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Be designed to ensure the secrecy and security of the ballots placed in it;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Be attached to the precinct tabulator; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Have an emergency ballot compartment.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Each ballot box shall have a slot opening that is:</text>
+      <para>
+        <num>(1)</num>
+        <text>Big enough to allow easy passage of ballots to be scanned and tabulated by the DS200 precinct tabulator; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Capable of being sealed or locked.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Reserved.</heading>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>System Management.</heading>
+    <para>
+      <num>A.</num>
+      <text>Control. The State Administrator shall maintain management control over the voting system and all support personnel provided by the vendor.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Transfer to Vendor for Repairs. If any equipment is transferred to a vendor for repairs, the equipment:</text>
+      <para>
+        <num>(1)</num>
+        <text>May not be used for voting or any other election purposes while it is under the vendor’s control; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Shall be tested by the State Board or local board before it may be used for voting or any other election purposes.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Elections Not Governed by <cite doc="Md. Code" path="gel">Election Law Article, Annotated Code of Maryland</cite>.</text>
+      <para>
+        <num>(1)</num>
+        <text>Upon request of a local board, the State Board shall make the voting system available for a municipal election or other election not governed by <cite doc="Md. Code" path="gel">Election Law Article, Annotated Code of Maryland</cite>, on terms and conditions that are satisfactory to the local board and consistent with the State’s agreement with the vendor.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The State Board is not responsible for any costs associated with conducting a municipal election or other election not governed by <cite doc="Md. Code" path="gel">Election Law Article, Annotated Code of Maryland</cite>.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.10</num>
+    <heading>Voting Options.</heading>
+    <text>In addition to the general requirements of <cite path="|33.09.02">COMAR 33.09.02</cite>, the system shall prevent the voter from voting or alert the voter that the voter has voted:</text>
+    <para>
+      <num>A.</num>
+      <text>For more candidates for any office than the number for which the voter is entitled to vote;</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>For a candidate for the same office more than once; or</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>On any question more than once.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.11</num>
+    <heading>Voting Equipment — Distribution.</heading>
+    <para>
+      <num>A.</num>
+      <text>Early Voting Center. Each early voting center shall have:</text>
+      <para>
+        <num>(1)</num>
+        <text>At least two precinct tabulators with ballot boxes and two ballot transfer bins; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The number of ballot marking devices as determined by the State Administrator under <cite path="33.17.04.03|A.">COMAR 33.17.04.03A</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Election Day. Each precinct shall have:</text>
+      <para>
+        <num>(1)</num>
+        <text>At least one precinct tabulator with a ballot box and one ballot transfer bin;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>At least one ballot marking device unit; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The number of voting booths as determined by the State Administrator under <cite path="33.09.06.03">COMAR 33.09.06.03</cite>.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.12</num>
+    <heading>Recording Votes.</heading>
+    <para>
+      <num>A.</num>
+      <text>Accuracy. The system shall record votes accurately.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>How Recorded. Votes shall be recorded on the memory device as:</text>
+      <para>
+        <num>(1)</num>
+        <text>Summary totals for each candidate and question; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Individual ballot images of each voter’s ballot, randomized so as to protect voter secrecy.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.13</num>
+    <heading>Ballot Totaling and Reporting.</heading>
+    <para>
+      <num>A.</num>
+      <text>In General. The voting system shall be capable of totaling and reporting:</text>
+      <para>
+        <num>(1)</num>
+        <text>The number of ballots voted in an election;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The number of votes cast for a candidate;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The number of votes cast for or against a question;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The number of undervotes and overvotes in a contest; and</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>In a primary election:</text>
+        <para>
+          <num>(a)</num>
+          <text>The number of ballots voted in each party’s primary; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The number of ballots voted in any nonpartisan ballot election.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Precinct Tabulator. When the election is ended, the precinct tabulator shall automatically tabulate and print the total votes cast on the voting unit for each candidate and for or against each question.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Election Reporting Manager. This component shall be capable of tabulating and reporting the total votes cast:</text>
+      <para>
+        <num>(1)</num>
+        <text>For each candidate and for or against each question; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>In each contest.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Report Criteria. The voting system shall be capable of producing these reports by:</text>
+      <para>
+        <num>(1)</num>
+        <text>Precinct;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Groups of precincts, such as districts, wards, and countywide; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Canvass.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.14</num>
+    <heading>Preelection Testing — In General.</heading>
+    <para>
+      <num>A.</num>
+      <text>Test Required.</text>
+      <para>
+        <num>(1)</num>
+        <text>For each election, a local board shall test the voting system components as defined in <cite path="|33|10|01|.02">Regulation .02 of this chapter</cite>.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The test shall be completed:</text>
+        <para>
+          <num>(a)</num>
+          <text>For the voting equipment being used for early voting, at least 14 days before election day; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>For the election management system and the voting equipment being used for election day and for absentee and provisional voting, at least 10 days before election day.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Scope of Testing. Testing is required for all equipment, whether it will be used during early voting, in a polling place, or in the counting center.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Manner of Testing. The test shall be conducted as specified in <cite path="|33|10|01|.15">Regulation .15 of this chapter</cite>.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.15</num>
+    <heading>Preelection Testing — When and How Conducted.</heading>
+    <para>
+      <num>A.</num>
+      <text>Processing Test Deck.</text>
+      <para>
+        <num>(1)</num>
+        <text>The test shall be conducted by processing a separate test deck for each ballot style.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>For a precinct tabulator used as a precinct tabulator, the test deck shall include the ballot style or styles for that precinct.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>For a tabulator used as a counting center tabulator, the test deck shall include all ballot styles for that election.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Scope of Test Script.</text>
+      <para>
+        <num>(1)</num>
+        <text>For each ballot marking device that will be used in a voting location, the test script shall be capable of certifying that:</text>
+        <para>
+          <num>(a)</num>
+          <text>All contests for each ballot style can be selected; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The printer accurately prints all selections for each ballot style for which the ballot shall be used.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>For a precinct tabulator that will be used in a voting location, the test script shall be capable of certifying that all contests for each ballot style can be accurately scanned and tabulated.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Test Results. If the voting system does not accurately count the test deck:</text>
+      <para>
+        <num>(1)</num>
+        <text>The cause for the error shall be ascertained and corrected; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An errorless count shall be made before the voting system may be used in vote counting.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.16</num>
+    <heading>Preelection Testing — Public Demonstration.</heading>
+    <para>
+      <num>A.</num>
+      <text>Demonstration Required. The local board shall conduct a public demonstration of the preelection testing.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Required Elements. At the public demonstration, the local board shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Demonstrate how the preelection testing was conducted; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Allow the public to inspect the printouts of results from the preelection testing.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Notice.</text>
+      <para>
+        <num>(1)</num>
+        <text>The local board shall provide written notice of the public demonstration to:</text>
+        <para>
+          <num>(a)</num>
+          <text>The chairman of the county central committee of each political party;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Each candidate who is not a candidate of a political party; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The State Administrator.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The local board shall transmit this notice at least 10 days before the public demonstration is conducted.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Attendance. One representative of each political party and one representative of each candidate who is not a candidate of a political party is entitled to be present at the public demonstration.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Timing. The public demonstration shall be completed before any voting equipment is delivered to an early voting center.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.17</num>
+    <heading>Ballots — In General.</heading>
+    <para>
+      <num>A.</num>
+      <text>Content and Arrangement. The content and arrangement of all ballots shall comply with <cite doc="Md. Code" path="gel">Election Law Article, Title 9, Subtitle 2, Annotated Code of Maryland</cite>, and this chapter.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Printing.</text>
+      <para>
+        <num>(1)</num>
+        <text>Typesetting, ink color, paper stock, and stock colors shall meet all specifications set by:</text>
+        <para>
+          <num>(a)</num>
+          <text><cite doc="Md. Code" path="gel">Election Law Article, Annotated Code of Maryland</cite>;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>This chapter; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The voting system’s manufacturer.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Ballots shall be available at least 45 days before the election.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Printed Format — Placement of Contests, etc.</text>
+      <para>
+        <num>(1)</num>
+        <text>If all contests cannot be placed on the front, contests shall be placed on both sides of the page.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If all candidates and ballot questions cannot be placed on the front and back, the contests shall be divided into two or more pages.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Whenever possible, the entire listing of a contest shall be printed on one side of the page.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Printed Format — Ballot Notices.</text>
+      <para>
+        <num>(1)</num>
+        <text>If a ballot has contests printed on the front and back, the front shall contain a notice that other contests are printed on the back.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If the ballot is more than one page, the back of the first page shall contain a notice that there is another page to the ballot.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The last page of any ballot shall contain an end of ballot notice.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Write-In Spaces (General Elections). In a general election, write-in spaces shall be provided for each applicable office.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Ballot Packaging.</text>
+      <para>
+        <num>(1)</num>
+        <text>Each local board shall notify the State Administrator no later than 5 months prior to the start of early voting for a primary election and no later than 4 months prior to a general election whether it wishes to receive pre-printed ballots packaged in accordance with §F(2) or (3) of this regulation.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Ballot Stub. Pre-printed ballots packaged in this manner shall have an attached, single-perforated stub. Each ballot stub shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Include the same information that <cite doc="Md. Code" path="gel">Election Law Article, Annotated Code of Maryland</cite>, requires for the ballot heading; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Be serially numbered to facilitate ballot accounting.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Ballot Pack.</text>
+        <para>
+          <num>(a)</num>
+          <text>Pre-printed ballots packaged in this manner may not have an attached, single-perforated stub, but instead will be packaged together as an unbound pack. Each ballot pack shall include:</text>
+          <para>
+            <num>(i)</num>
+            <text>A batch header sheet with the same information that <cite doc="Md. Code" path="gel">Election Law Article, Annotated Code of Maryland</cite>, requires for the ballot heading; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>A range of sequential numbering to facilitate ballot accounting.</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>If a local board opens a ballot pack prior to delivery to an early voting center or polling place, the local board shall repackage the opened ballot pack for delivery to the early voting center or polling place in a manner that preserves the integrity of the contents of the ballot pack.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Coding of Ballot Styles. Both machine-readable and human-readable coding shall be used to identify different ballot styles.</text>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>Countability. Ballots shall be both machine-countable and hand-countable.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.18</num>
+    <heading>Ballots — Chain of Custody.</heading>
+    <para>
+      <num>A.</num>
+      <text>System of Accountability Required.  Subject to approval of the State Administrator, each local board shall establish and maintain a system to account for, and maintain control over, the ballots from the beginning of production through post-election storage and disposition.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Record of Chain of Custody Required. The election judges shall prepare a record sufficient to document control of all ballots issued to a polling place, in accordance with written procedures and on forms provided by the local board and approved by the State Administrator.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.19</num>
+    <heading>Opening the Polls.</heading>
+    <para>
+      <num>A.</num>
+      <text>In General. At least 30 minutes before polls open, a bipartisan pair of election judges shall unseal and turn on the voting equipment in accordance with the judges’ manual.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Judges’ Manual. The judges’ manual shall provide detailed opening procedures, including:</text>
+      <para>
+        <num>(1)</num>
+        <text>How to place and set up the voting equipment and privacy booths;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>How to prepare the voting equipment for voting, including printing, reviewing, and posting the zero reports;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>How to verify that the public counter for the precinct tabulator is zero and the correct precinct information displays;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>How to verify that the ballot box and ballot transfer bin are empty; and</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>What instructions and materials to display.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.20</num>
+    <heading>Voting Assistance — In General.</heading>
+    <para>
+      <num>A.</num>
+      <text>Demonstration Ballot to Be Available.</text>
+      <para>
+        <num>(1)</num>
+        <text>The local board shall provide each voting location with an adequate supply of demonstration ballots and instructions for election judges to demonstrate how to vote.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The demonstration ballot shall be:</text>
+        <para>
+          <num>(a)</num>
+          <text>The ballot used for voter outreach;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A specimen ballot for that voting location; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Sample ballot screens identical to those that will appear on the ballot marking device in that voting location.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Display of Ballot Contents. Each voting location shall display a list of all candidates and questions appearing on the ballot.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Instructions to Voter.</text>
+      <para>
+        <num>(1)</num>
+        <text>At the request of a voter and in accordance with the election judges’ manual, an election judge shall instruct the voter on how to mark or cast a ballot.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The judges’ manual shall include procedures for instructing voters on how to use the ballot marking device.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Providing Supplies. An election judge shall provide each voter marking a ballot manually with an acceptable writing device approved by the voting system’s manufacturer.</text>
+    </para>
+  </section>
+  <section cache:ref-path="33|10|01|.21">
+    <prefix>Regulation</prefix>
+    <num>.21</num>
+    <heading>Voting Assistance — Spoiled Ballots.</heading>
+    <para>
+      <num>A.</num>
+      <text>Obtaining Replacement.</text>
+      <para>
+        <num>(1)</num>
+        <text>Except as provided in <cite path="33|10|01|.21|A.|(2)">§A(2) of this regulation</cite>, a voter who makes an error or otherwise spoils a ballot may return the ballot to an election judge and obtain another ballot.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A voter may not be issued more than two replacement ballots.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Obscuring Prior Votes. Before the election judge accepts a spoiled ballot, the election judge shall instruct the voter to:</text>
+      <para>
+        <num>(1)</num>
+        <text>If the voter manually marked one or more contests on the spoiled ballot, mark all of the voting positions in those contests to obscure the voter’s selections; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If the voter used the ballot marking device to make selections, use a black marker provided by an election judge to obscure the barcodes printed on the ballot.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Spoiled Ballot Envelope. An election judge shall place all spoiled ballots in the spoiled ballot envelope.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.22</num>
+    <heading>Precinct Tabulator — Attendance.</heading>
+    <para>
+      <num>A.</num>
+      <text>Placement of Precinct Tabulator. The precinct tabulator shall be placed so that the process of depositing ballots can be conveniently observed by the:</text>
+      <para>
+        <num>(1)</num>
+        <text>Voter offering a ballot;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Election judges; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Challengers and watchers.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Constant Attendance Required. From the time the polls are opened until the ballots are returned to the counting center, the precinct tabulator shall be attended by at least one election judge.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Election Judges’ Duties. From the time the polls are opened until voting ends, the election judges attending the precinct tabulator shall make certain that:</text>
+      <para>
+        <num>(1)</num>
+        <text>Only valid voted ballots are deposited in the precinct tabulator;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Nothing is removed from the precinct tabulator without authorization by a chief judge; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The secrecy of each voter’s ballot is preserved.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.23</num>
+    <heading>Voting.</heading>
+    <text>The judges’ manual shall provide detailed procedures for issuing, marking, and tabulating ballots, replacing and securing a full ballot transfer bin, and basic troubleshooting of the ballot marking device and the precinct tabulator.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.24</num>
+    <heading>Closing the Polls — In General.</heading>
+    <para>
+      <num>A.</num>
+      <text>In General. Immediately after the polls are closed, a bipartisan pair of election judges shall perform the closing tasks in accordance with the judges’ manual.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Judges’ Manual. The judges’ manual shall provide detailed closing procedures, including:</text>
+      <para>
+        <num>(1)</num>
+        <text>How to tally voted ballots in the emergency ballot compartment;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>How to document the public counter and protective counter totals on the precinct tabulator;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>How to end the election;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>How to print, sign, and post total reports;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>How to remove the memory devices from the voting equipment;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>How to remove and seal the ballot transfer bin;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>How to seal and store the voting equipment; and</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>How to return materials to the local board or counting center.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.25</num>
+    <heading>Return of Materials from Voting Locations.</heading>
+    <para>
+      <num>A.</num>
+      <text>In General. The judges’ manual shall provide detailed procedures for the secure, orderly, and accountable return of all election equipment and other election materials from voting locations.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Return of Priority Items.</text>
+      <para>
+        <num>(1)</num>
+        <text>These procedures shall provide for the priority handling of:</text>
+        <para>
+          <num>(a)</num>
+          <text>Memory devices;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Voted ballots;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Keys to access various voting system compartments;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Reports printed from the precinct tabulators; and</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Supply bags.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>During early voting, the local board shall deliver those priority items that must be transported daily to the local board and shall be responsible for all items while in transit.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>For election day, the local board shall follow procedures established by the State Administrator for delivery of priority items.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>On delivery of these items to the local board or counting center, the local board shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Give the election judges a receipt for the items; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Provide for the security of the items throughout the counting process.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Secure Storage. On their return to the local board or counting center, unused ballots, spoiled ballots, and all materials required for the official canvass shall be placed in secured storage.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.26</num>
+    <heading>Generating Election Results.</heading>
+    <para>
+      <num>A.</num>
+      <text>Procedures. The State Administrator shall develop and issue written procedures for:</text>
+      <para>
+        <num>(1)</num>
+        <text>Assembling memory devices and ballots returned from voting locations;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Tabulating voted ballots that could not be tabulated by the precinct tabulator;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Tabulating and reporting write-in votes;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Manually entering results into the election management system;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Reviewing, inspecting, and tabulating early voting and election day ballots;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Reviewing, inspecting, and tabulating absentee and provisional ballots;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Producing countywide results and other data, including totals from early voting, polling place voting, and absentee and provisional voting;</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Securing the premises where vote tabulation and aggregation are being conducted; and</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>Defining who may be admitted to the premises while vote tabulation and aggregation is taking place.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Tabulating Write-In Votes (General Election.)</text>
+      <para>
+        <num>(1)</num>
+        <text>In a general election, the results report produced by the precinct tabulator shall include the number of write-in votes cast in each contest.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The ballot images shall contain the names of the individuals for whom voters cast write-in votes and shall copy write-in candidates into the election management system.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>After all memory devices from the precinct tabulators have been loaded, the election management system shall produce vote cast records and ballot images that include all write-in votes.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>From the vote cast record and ballot images, the local board shall tally and record the write-in votes cast.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Write-in votes shall be reported as part of the official returns in accordance with State Administrator instructions.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.27</num>
+    <heading>System Security — Permissible Use.</heading>
+    <text>The voting system and its components may be used only for conducting elections and may not be used for any other election office purpose.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.28</num>
+    <heading>System Security — Retention of Election Databases and Artifacts.</heading>
+    <para>
+      <num>A.</num>
+      <text>In General. Each time a local board creates a back-up database, the local board shall secure and retain that back-up database.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Test Deck. The local board shall secure and retain the test script and deck used during preelection testing required under Regulations .14 and .15 of this chapter.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>How and Where.</text>
+      <para>
+        <num>(1)</num>
+        <text>The election databases and test scripts and decks shall be retained in a secure location, designated by the local board, separate from the location of working copies.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The election databases shall be stored on an external, non-rewritable memory device.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Duration. The election databases and test scripts and decks shall be retained for as long after the election as required by:</text>
+      <para>
+        <num>(1)</num>
+        <text>Law or regulation;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Court order; or</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>State Administrator directive.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="33|10|01|.29">
+    <prefix>Regulation</prefix>
+    <num>.29</num>
+    <heading>System Security — Post-Tabulation Security.</heading>
+    <para>
+      <num>A.</num>
+      <text>Board to Develop Retention Plan.</text>
+      <para>
+        <num>(1)</num>
+        <text>The local board shall develop a written plan for retaining and storing the following materials after an election:</text>
+        <para>
+          <num>(a)</num>
+          <text>Memory devices;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Voted and unvoted ballots;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Voting system reports; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Other data processing materials related to the election.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The plan shall be:</text>
+        <para>
+          <num>(a)</num>
+          <text>Consistent with the Election Records Management Program established under <cite path="|33.03.01">COMAR 33.03.01</cite>; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Approved by the State Administrator.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Reassembly and Storage. After the votes have been tabulated, the local board shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Reassemble, package and label all materials described in <cite path="33|10|01|.29|A.">§A of this regulation</cite>; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Place them in a secure location, designated by the local board, until the period for challenging the election expires and for any additional period required by law or regulation.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Release for Recount or Verification. During the storage of election-related materials, the State Administrator or the local board may order the release of these materials for a recount or for election verification, after which the materials shall be returned to secure storage.</text>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Election Law Article, §§<cite doc="Md. Code" path="gel|2-102">2-102</cite>(b)(<cite doc="Md. Code" path="gel|4">4</cite>), <cite doc="Md. Code" path="gel|2-202">2-202</cite>(b), <cite doc="Md. Code" path="gel|9-102">9-102</cite>, <cite doc="Md. Code" path="gel|9-105">9-105</cite>, and <cite doc="Md. Code" path="gel|11-201">11-201</cite>, and Title 9, Subtitle 2, Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container">Effective date:</annotation>
+    <annotation type="History" dest="container" effective="2016-04-11">Regulations <cite path="|33|10|01|.01">.01</cite>—<cite path="|33|10|01|.07">.07</cite> and Regulations <cite path="|33|10|01|.09">.09</cite>—<cite path="|33|10|01|.29">.29</cite> adopted effective April 11, 2016 (43:7 Md. R. 452)</annotation>
+    <annotation type="History" dest="container" effective="2020-02-10"><cite path="|33|10|01|.17|F.">Regulation .17F</cite> amended effective February 10, 2020 (47:3 Md. R. 173)</annotation>
+    <annotation type="History" dest="container" effective="2023-07-10"><cite path="|33|10|01|.18">Regulation .18</cite> amended effective July 10, 2023 (50:13 Md. R. 514)</annotation>
+  </annotations>
+</container>

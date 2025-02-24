@@ -1,0 +1,937 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>45</num>
+  <heading>Mental Health Case Management: Care Coordination for Adults</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Scope.</heading>
+    <para>
+      <num>A.</num>
+      <text>This chapter applies to providers organized to deliver mental health case management services to adults.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The purpose of mental health case management is to assist participants in gaining access to needed medical, mental health, social, educational, and other services.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>"Administrative services organization (ASO)" means the entity with which the Mental Hygiene Administration may contract to provide the services described in <cite path="|10.09.70">COMAR 10.09.70</cite> for the public mental health system.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>”Adult” means an individual 18 years and older.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>"Care plan" means the plan prepared according to the requirements outlined in this chapter that delineate the plan of care for a specific participant.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>"Case manager" means a community support specialist.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>"Community support specialist" means an individual who is employed by a mental health case management provider to deliver case management services to participants.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>"Community support specialist associate" means an individual who is employed by a mental health case management provider to assist community support specialists in the provision of mental health case management services to participants.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>"Community support specialist supervisor" means an individual who is employed or under contract to supervise case management services.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>"Core service agency (CSA)" has the meaning stated in <cite path="|10.21.17">COMAR 10.21.17</cite>.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>"Department" has the meaning stated in <cite path="10.09.36.01">COMAR 10.09.36.01</cite>.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>"Medical Assistance Program" has the meaning stated in <cite path="10.09.36.01">COMAR 10.09.36.01</cite>.</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>“Mental health case management provider” means a provider that:</text>
+        <para>
+          <num>(a)</num>
+          <text>Is approved under this chapter to provide mental health case management services to adults 18 years or older; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Utilizes a collaborative process of assessment, planning, implementation, coordination, monitoring, and evaluation of the options and services required to meet an individual's health needs through communication and available resources to promote quality cost-effective outcomes.</text>
+        </para>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>"Mental health case management services" means services covered under this chapter which assist participants in gaining access to the full range of mental health services, as well as to any additional needed medical, social, financial assistance, counseling, educational, housing, and other support services.</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>"Mental health professional" has the meaning stated in <cite path="|10.21.17">COMAR 10.21.17</cite>.</text>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>"Mental health services" means those services described in <cite path="10.09.70.10|C.">COMAR 10.09.70.10C</cite> rendered to treat an individual for a diagnosis set forth in <cite path="10.09.70.10|A.">COMAR 10.09.70.10A</cite>.</text>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>"Mental Hygiene Administration (MHA)" means the Department's administration that is charged with the responsibility for providing services to mentally ill individuals, as defined in Health-General Article, Title 10, Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>"Nonparticipant" means an individual who does not meet the qualifications for participation in mental health case management that are specified in <cite path="|10|09|45|.03">Regulation .03 of this chapter</cite>.</text>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>"Participant" means an individual who meets the qualifications for participation in mental health case management that are specified in <cite path="|10|09|45|.03">Regulation .03 of this chapter</cite>.</text>
+      </para>
+      <para>
+        <num>(18)</num>
+        <text>"Program" has the meaning stated in <cite path="10.09.36.01">COMAR 10.09.36.01</cite>.</text>
+      </para>
+      <para>
+        <num>(19)</num>
+        <text>"Provider" means the mental health case management services provider.</text>
+      </para>
+      <para>
+        <num>(20)</num>
+        <text>"Recipient" has the meaning stated in <cite path="10.09.36.01">COMAR 10.09.36.01</cite>.</text>
+      </para>
+      <para>
+        <num>(21)</num>
+        <text>"Serious and persistent mental disorder" means a disorder that is:</text>
+        <para>
+          <num>(a)</num>
+          <text>Manifested in an individual 18 years old or older; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Diagnosed, according to a current diagnostic and statistical manual of the American Psychiatric Association that is recognized by the Secretary as:</text>
+          <para>
+            <num>(i)</num>
+            <text>Schizophrenic disorder;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Major affective disorder;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Other psychotic disorder; or</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Borderline or schizotypal personality disorders, with the exclusion of an abnormality that is manifested only by repeated criminal or otherwise antisocial conduct.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(22)</num>
+        <text>"Unit of service" means a per day rate for a minimum of 1 hour per day for contacts, including face-to-face contacts with a participant, and non-face-to-face contacts on behalf of the participant with nonparticipants, that are directly related to identifying the needs and supports for helping the individual to access services.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Participant Eligibility.</heading>
+    <para>
+      <num>A.</num>
+      <text>A recipient is eligible for mental health case management services if the recipient:</text>
+      <para>
+        <num>(1)</num>
+        <text>Is in a federal eligibility category for Maryland Medical Assistance according to <cite path="|10.09.24">COMAR 10.09.24</cite>, which governs the determination of eligibility for the Maryland Medical Assistance Program; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Has a serious and persistent mental health disorder and is:</text>
+        <para>
+          <num>(a)</num>
+          <text>In, at risk of, or needs continued community treatment to prevent, inpatient psychiatric treatment;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>At risk of, or needs continued community treatment to prevent, being homeless; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>At risk of incarceration or who will be released from a detention center or prison.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Waiver of Specific Diagnostic Criteria. The specific diagnostic criteria may be waived if an individual is:</text>
+      <para>
+        <num>(1)</num>
+        <text>Committed as not criminally responsible and is conditionally released from a Mental Hygiene Administration (MHA) facility, according to the provisions of Health-General Article, Title 12, Annotated Code of Maryland; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>In a MHA facility, or is a MHA-funded individual in a psychiatric inpatient hospital who requires community services, excluding individuals who are eligible for Developmental Disabilities Administration's residential services.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Eligible individuals transitioning from institutions as described in either §B(1) or (2) of this regulation to a community-based setting may receive case management services for up to 180 consecutive days of the covered stay in the institution.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Levels of Care.</text>
+      <para>
+        <num>(1)</num>
+        <text>In addition to meeting the eligibility criteria outlined under §§A and B of this regulation, participants shall be classified according to the levels of care listed in §D(2) or (3) of this regulation.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Level I—General. For a maximum of 2 units of service per month and based on the severity of the participant's mental illness, the participant shall meet at least one of the following conditions:</text>
+        <para>
+          <num>(a)</num>
+          <text>The participant is not linked to mental health and medical services;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The participant lacks basic supports for shelter, food, and income;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The participant is transitioning from one level of care to another level of care; or</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>The participant needs case management services to maintain community-based treatment and services.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Level II—Intensive. For a maximum of 5 units of service per month and based on the severity of the participant's mental illness, the participant shall meet two or more of the following conditions:</text>
+        <para>
+          <num>(a)</num>
+          <text>The participant is not linked to mental health and medical services;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The participant lacks basic supports for shelter, food, and income;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The participant is transitioning from one level of care to another level of care; or</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>The participant needs case management services to maintain community-based treatment and services.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>A participant may not be enrolled in Mental Health Case Management for Adults while receiving services under <cite path="|10.09.90">COMAR 10.09.90</cite> or <cite path="|10.09.33">10.09.33</cite>.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Conditions for Mental Health Case Management Provider Participation.</heading>
+    <para>
+      <num>A.</num>
+      <text>The local core service agencies shall select mental health case management providers through a competitive procurement process, at least once every 5 years.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Mental health case management services may be provided by local health departments according to <cite path="|10.04.04">COMAR 10.04.04</cite>, which allows the Director of the MHA to utilize the local health departments as vendors unless the health officer believes the service provided by alternate vendors would be preferable.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Providers of mental health case management shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Be approved or licensed in Maryland as a community mental health provider under <cite path="|10.21.19">COMAR 10.21.19</cite>, <cite path="|10.21.20">10.21.20</cite>, <cite path="|10.21.21">10.21.21</cite>, or <cite path="|10.21.29">10.21.29</cite>, or have 3 years experience as a mental health case management provider; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Have at least 3 years experience providing mental health services, including serving high risk populations, to adults with serious mental illness.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>General Requirements. To be eligible to be approved as a mental health case management service provider, an entity shall meet all of the:</text>
+      <para>
+        <num>(1)</num>
+        <text>Conditions for participation as set forth in <cite path="10.09.36.03">COMAR 10.09.36.03</cite>; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Medical Assistance provisions listed in COMAR designated for their provider type.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Specific Requirements. A mental health case management service provider:</text>
+      <para>
+        <num>(1)</num>
+        <text>May not place restrictions on the qualified recipient's right to elect to or decline to:</text>
+        <para>
+          <num>(a)</num>
+          <text>Receive mental health case management as authorized by the Department or the Department's designee; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Choose a community support specialist or associate, as approved by the Department or the Department's designee, and other medical care providers;</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Shall employ appropriately qualified individuals as community support specialists, community support specialist associates, and community support specialist supervisors with relevant work experience, including experience with the target population, including but not limited to adults with a serious and persistent mental disorder;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Shall assure that:</text>
+        <para>
+          <num>(a)</num>
+          <text>A participant's initial assessment is completed within 20 days after the participant has been authorized by the ASO and determined eligible for, and has elected to receive, mental health case management services; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>An initial care plan is completed within 10 days after completion of the initial assessment;</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Shall maintain a file for each participant which includes all of the following:</text>
+        <para>
+          <num>(a)</num>
+          <text>An initial referral and intake form with identifying information, including, but not limited to, the individual's name and Medicaid identification number;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A written agreement for services signed by the participant or the participant's legally authorized representative and by the participant's community support specialist;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>An assessment as specified in <cite path="|10|09|45|.06">Regulation .06 of this chapter</cite>;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>A care plan, updated at a minimum of every 6 months, which contains at a minimum:</text>
+          <para>
+            <num>(i)</num>
+            <text>A description of the participant's strengths and needs;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The diagnosis established as evidence of the participant's eligibility for services under this chapter;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>The goals of case management services, with expected target dates;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>The proposed intervention;</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>Designation of the community support specialist with primary responsibility for implementation of the care plan; and</text>
+          </para>
+          <para>
+            <num>(vi)</num>
+            <text>Signatures of the community support specialist, participant, or the participant's legally authorized representative, and significant others, if appropriate;</text>
+          </para>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>An ongoing record of contacts made on the participant's behalf, which includes all of the following:</text>
+          <para>
+            <num>(i)</num>
+            <text>Date and subject of contact;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Individual contacted;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Signature of community support specialist or community support specialist associate making the contact;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Nature, content, and unit or units of service provided;</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>Place of service;</text>
+          </para>
+          <para>
+            <num>(vi)</num>
+            <text>Whether goals specified in the care plan have been achieved;</text>
+          </para>
+          <para>
+            <num>(vii)</num>
+            <text>The timeline for obtaining needed services;</text>
+          </para>
+          <para>
+            <num>(viii)</num>
+            <text>The timeline for reevaluation of the plan; and</text>
+          </para>
+          <para>
+            <num>(ix)</num>
+            <text>The need for and occurrences of coordination with other case managers; and</text>
+          </para>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Monthly summary notes, which reflect progress made towards the participant's stated goals;</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Shall have formal written policies and procedures, approved by the Department, or the Department's designee, which specifically address the provision of mental health case management services to participants in accordance with the requirements of this chapter;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Shall be available to participants and, as appropriate, their families for 24 hours a day, 7 days a week in order to refer:</text>
+        <para>
+          <num>(a)</num>
+          <text>Participants to needed services and supports; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>In a psychiatric emergency, participants to mental health treatment and evaluation services in order to prevent the participant from accessing a higher level of care;</text>
+        </para>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Shall document in the participant's case management records if the participant declines case management services;</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>May not provide other services to participants which would be viewed by the Department as a conflict of interest;</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>Shall be knowledgeable of the eligibility requirements and application procedures of federal, State, and local government assistance programs which are applicable to participants;</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>Shall maintain information on current resources for mental health, medical, social, financial assistance, vocational, educational, housing, and other support services;</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>Shall safeguard the confidentiality of the participant's records in accordance with State and federal laws and regulations governing confidentiality;</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>Shall comply with the Department's fiscal reporting requirements and submit reports in the manner specified by the Department;</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>Shall provide services in a manner consistent with the best interest of recipients and may not restrict an individual's access to other services; and</text>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>Shall assure the amount, duration, and scope of the case management activities are documented in a participant's care plan, which includes mental health case management activities before discharge and after discharge when transitioning from an institution, to facilitate a successful transition into the community.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Mental Health Case Management Provider Staff.</heading>
+    <text>Required Staff. The mental health case management provider shall have staff that is sufficient in numbers and qualifications to provide appropriate services to the participants served and shall include, at a minimum:</text>
+    <para>
+      <num>A.</num>
+      <text>A community support specialist supervisor who:</text>
+      <para>
+        <num>(1)</num>
+        <text>Is a mental health professional who is licensed and legally authorized to practice under the <cite doc="Md. Code" path="gho">Health Occupations Article, Annotated Code of Maryland</cite>, and who is licensed under Maryland Practice Boards in the profession of:</text>
+        <para>
+          <num>(a)</num>
+          <text>Social work;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Professional Counseling;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Psychology;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Nursing;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Occupational Therapy; or</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Medicine;</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Has 1 year of experience in mental health working as a supervisor;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Provides clinical consultation and training to community support specialists or associates regarding mental illness; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Is employed or contracted to supervise case management services at a ratio of one supervisor to every eight community support specialists or associates;</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A community support specialist who:</text>
+      <para>
+        <num>(1)</num>
+        <text>Has at least a:</text>
+        <para>
+          <num>(a)</num>
+          <text>Bachelor's degree in a mental health field and 1 year of mental health experience, including mental health peer support; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Bachelor's degree in a field other than mental health and 2 years of mental health experience, including mental health peer support;</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Is chosen as the case manager by the participant or the participant's legally authorized representative; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Is employed by the mental health case management provider to provide case management services to participants; and</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A community support specialist associate who:</text>
+      <para>
+        <num>(1)</num>
+        <text>Has at least a high school degree or the equivalent, and 2 years of experience with individuals with mental illness, including mental health peer support;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Is employed by the mental health case management provider to assist community support specialists in the provision of mental health case management services to participants; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Works under the supervision of a community support specialist who delegates specific tasks to the associate.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="10|09|45|.06">
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Covered Services.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Department shall reimburse for the services in §§C—I of this regulation under mental health case management when these services have been documented, pursuant to the requirements in this chapter, as necessary.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Case management services shall be coordinated with, and may not duplicate activities provided as part of, institutional services and discharge planning activities.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Comprehensive Assessment and Periodic Reassessment.</text>
+      <para>
+        <num>(1)</num>
+        <text>Assessment or reassessment involves the participant's stated needs and review of information concerning the participant's mental health, social, familial, cultural, medical, developmental, legal, vocational, and economic status to assist in the formulation of a care plan.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The assessment or reassessment of the participant’s stated needs and service needs is conducted by the community support specialist and incorporates input from the participant, family members, and friends of the participant, as appropriate, and community service providers, such as mental health providers, medical providers, social workers, and educators, if necessary.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A home visit, or visit at another location suitable to the participant's needs, by the community support specialist or community support specialist associate is required every 90 days.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>After an initial assessment, each participant shall be reassessed every 6 months.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Development and Periodic Revision of a Specific Care Plan.</text>
+      <para>
+        <num>(1)</num>
+        <text>After the initial assessment is completed, a care plan shall be developed.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>After the care plan is developed, it shall be updated every 6 months in conjunction with the participant's schedule for reassessments, to ensure that all services being provided remain sufficient.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The participant, a legal guardian, the participant’s family or any significant others with the participant’s consent, shall participate with the community support specialist, to the extent practicable, in the development and regular updating of the participant’s care plan.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The specific care plan shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Be developed with the participant and based on the assessment;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Specify the goals and actions to address the mental health, medical, social, educational, and other services needed by the participant;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Include the active participation and agreement of the participant, the participant’s authorized health care decision maker, if applicable, and others designated by the participant; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Identify strategies to meet the goals and needs of the participant.</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The care planning process may include, as necessary and appropriate:</text>
+        <para>
+          <num>(a)</num>
+          <text>The care planning meeting, which includes the participant, and with the participant's consent, providers, family members, other interested persons, as appropriate, for the purpose of establishing, revising, and reviewing the care plan;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The development and periodic updating of the written, individualized care plan based on the participant's needs, progress, and stated goals;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Transitional care planning that involves contact with the participant or the staff of a referring agency, or a service provider who is responsible to plan for continuity of care from inpatient level of care or an out-of-home placement to another type of community service; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Discharge planning from mental health case management services, when appropriate and when goals for mental health case management have been achieved.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Referral and Related Activities.</text>
+      <para>
+        <num>(1)</num>
+        <text>The community support specialist or associate, under the direction of a community support specialist, shall assure that the participant has applied for, has access to, and is receiving the necessary services available to meet the participant’s needs, such as mental health services, resource procurement, transportation, or crisis intervention.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The community support specialist shall take the necessary action when the services identified under <cite path="10|09|45|.06|D.">§D of this regulation</cite> have not occurred.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The linkage process shall include:</text>
+        <para>
+          <num>(a)</num>
+          <text>Community support development by contacting, with the participant’s consent, members of the participant’s support network, for example, family, friends, and neighbors, as appropriate, to mobilize assistance for the participant;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Crisis intervention by referral of the participant, to services on an emergency basis when immediate intervention is necessary;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Arranging for the participant's transportation to and from services;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Outreach in an attempt to locate service providers which can meet the participant’s needs; and</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Reviewing the care plan with the participant and with the participant’s family and friends, as appropriate, so as to enable and facilitate their participation in the plan’s implementation.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Monitoring and Follow-Up Activities.</text>
+      <para>
+        <num>(1)</num>
+        <text>A mental health case management provider shall monitor, as frequently as necessary, the activities and contacts that are considered necessary to ensure the care plan is implemented and adequately addresses the participant’s needs, and include:</text>
+        <para>
+          <num>(a)</num>
+          <text>The participant; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>With proper consent:</text>
+          <para>
+            <num>(i)</num>
+            <text>Family members and friends, if appropriate; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Other service providers, if any.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>In addition to the requirements outlined in <cite path="10|09|45|.06|E.">§E of this regulation</cite>, the case management provider shall conduct, every 6 months, a reassessment to determine whether:</text>
+        <para>
+          <num>(a)</num>
+          <text>Services are being furnished in accordance with the participant's care plan;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Services in the care plan are adequate; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>If the needs of the participant change, and if applicable, necessary adjustments are made to the care plan, including referrals for services.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The mental health case management provider shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Follow up any service referral to determine whether the participant made contact with the service provider that the participant was referred to; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Monitor service provision on an ongoing basis, to ensure that the agreed-upon services are provided, are adequate in quantity and quality, and meet the participant’s needs and stated goals.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The mental health case management provider may revise the care plan to reflect changing needs identified from the service monitoring.</text>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Mental health case management may include contacts with non-participants that are directly related to identifying the needs and supports for helping the participant to access services.</text>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>The mental health case management provider shall engage in participant advocacy, including:</text>
+      <para>
+        <num>(1)</num>
+        <text>Empowering the participant to secure needed services;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Taking any necessary actions to secure services on the participant's behalf; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Encouraging and facilitating the participant’s decision making and choices leading to accomplishment of the participant’s goals.</text>
+      </para>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>Service Provision. Mental health case management services shall be provided in accordance with the following:</text>
+      <para>
+        <num>(1)</num>
+        <text>For participants in Level I—General, a mental health case management provider shall provide a minimum of 1 and a maximum of 2 days of service each month;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>For participants in Level II—Intensive, a mental health case management provider shall provide a minimum of 2 and a maximum of 5 days of service each month; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>One additional unit of service above the monthly maximum may be billed during the first month of service to a participant in order to complete the comprehensive assessment.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="10|09|45|.07">
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Limitations.</heading>
+    <para>
+      <num>A.</num>
+      <text>Mental health case management services are advisory in nature.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A restriction may not be placed on a qualified recipient's option to receive mental health case management services.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Mental health case management services do not restrict or otherwise affect:</text>
+      <para>
+        <num>(1)</num>
+        <text>Eligibility for Title XIX benefits or other available benefits or programs, except as limited by <cite path="10|09|45|.07|E.">§E of this regulation</cite>;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The freedom of a participant to select from all available services for which the participant is found to be eligible; or</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A participant’s free choice among qualified providers.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Mental health case management providers may not bill the Program for:</text>
+      <para>
+        <num>(1)</num>
+        <text>The direct delivery of an underlying medical, educational, social, or other service to which a participant has been referred;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Activities integral to the administration of foster care programs;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Activities not consistent with the definition of case management services under Section 6052 of the federal Deficit Reduction Act of 2005 (P.L. 109-171);</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Activities for which third parties are liable to pay; or</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Activities delivered as part of institutional discharge planning.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Reimbursement may not be made for mental health case management services if the participant is receiving a comparable case management service under another Program authority.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>A participant's case manager may not be the participant's family member or a direct service provider for the participant.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Preauthorization.</heading>
+    <text>All covered services under this chapter shall be preauthorized and comply with the requirements of <cite path="10.09.70.07">COMAR 10.09.70.07</cite>.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Payment Procedures.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Program shall reimburse the provider according to the requirements in this chapter and the fees established under <cite path="|10.21.25">COMAR 10.21.25</cite>.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Request for Payment.</text>
+      <para>
+        <num>(1)</num>
+        <text>Requests for payment of mental health case management services shall be submitted by an approved provider according to procedures established by the Department. The Department reserves the right to return to the provider, before payment, all invoices not properly signed and completed.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A provider shall submit a request for payment on the invoice form designated by the Department. A separate invoice shall be submitted for each participant. The completed form shall indicate the:</text>
+        <para>
+          <num>(a)</num>
+          <text>Date or dates of service;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Participant's name and Medical Assistance number;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Provider's name, location, and provider number; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Nature, unit or units, and procedure code or codes of covered services provided.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A provider shall bill the Program for the appropriate fee or fees specified in <cite path="|10.21.25">COMAR 10.21.25</cite>.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The Program may not make direct payment to recipients.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Billing time limitations for services covered under this chapter are the same as those set forth in <cite path="10.09.36.06">COMAR 10.09.36.06</cite>.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Payment shall be made:</text>
+      <para>
+        <num>(1)</num>
+        <text>Only to a qualified provider for covered services rendered to a participant, as specified in these regulations; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>According to the requirements of this chapter and the fees established in <cite path="|10.21.25">COMAR 10.21.25</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>The Department may reimburse providers for service delivery beyond the maximum units stated in <cite path="|10.21.25">COMAR 10.21.25</cite> only if pre-authorized by the ASO based on a review of medical necessity.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.10</num>
+    <heading>Recovery and Reimbursement.</heading>
+    <text>Recovery and reimbursement are as set forth in <cite path="10.09.36.07">COMAR 10.09.36.07</cite>.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.11</num>
+    <heading>Cause for Suspension or Removal and Imposition of Sanctions.</heading>
+    <text>Cause for suspension or removal and imposition of sanctions is as set forth in <cite path="10.09.36.08">COMAR 10.09.36.08</cite>.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.12</num>
+    <heading>Appeal Procedures.</heading>
+    <text>Appeal procedures are those set forth in <cite path="10.09.36.09">COMAR 10.09.36.09</cite>.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.13</num>
+    <heading>Interpretive Regulation.</heading>
+    <text>State regulations are interpreted as those set forth in <cite path="10.09.36.10">COMAR 10.09.36.10</cite>.</text>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Health-General Article, §§2-104(b), 15-103, and 15-105, Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="1992-01-20">Effective date: January 20, 1992 (19:1 Md. R. 32)</annotation>
+    <annotation type="History" dest="container" effective="1992-10-26">Regulations <cite path="|10|09|45|.01">.01</cite>—<cite path="|10|09|45|.06">.06</cite> amended as an emergency provision effective July 1, 1992 (19:15 Md. R. 1383); amended permanently effective October 26, 1992 (19:21 Md. R. 1891)</annotation>
+    <annotation type="History" dest="container" effective="1993-09-01">Regulations .01B and .02B amended as an emergency provision effective June 1, 1993 (20:12 Md. R. 995); adopted permanently effective September 1, 1993 (20:17 Md. R. 1346)</annotation>
+    <annotation type="History" dest="container" effective="1995-06-05">Regulations .01 and .02 amended as an emergency provision effective February 8, 1995 (22:5 Md. R. 365); emergency status expired May 31, 1995; amended permanently effective June 5, 1995 (22:11 Md. R. 821)</annotation>
+    <annotation type="History" dest="container" effective="1997-12-29">Regulations <cite path="|10|09|45|.01">.01</cite>—<cite path="|10|09|45|.06">.06</cite> amended as an emergency provision effective July 1, 1997 (24:18 Md. R. 1288); amended permanently effective December 29, 1997 (24:26 Md. R. 1758)</annotation>
+    <annotation type="History" dest="container" effective="2007-08-27"><cite path="|10|09|45|.01|B.">Regulation .01B</cite> amended effective August 27, 2007 (34:17 Md. R. 1507)</annotation>
+    <annotation type="History" dest="container" effective="2007-08-27"><cite path="|10|09|45|.04|A.">Regulation .04A</cite>, C amended effective August 27, 2007 (34:17 Md. R. 1507)</annotation>
+    <annotation type="History" dest="container" effective="1997-12-29"><cite path="|10|09|45|.05">Regulation .05</cite>-1 adopted as an emergency provision effective July 1, 1997 (24:18 Md. R. 1288); amended permanently effective December 29, 1997 (24:26 Md. R. 1758)</annotation>
+    <annotation type="History" dest="container" effective="2009-12-14" discontinuity="true">Regulations <cite path="|10|09|45|.01">.01</cite>—<cite path="|10|09|45|.10">.10</cite> repealed and new Regulations <cite path="|10|09|45|.01">.01</cite>—<cite path="|10|09|45|.13">.13</cite> adopted as an emergency provision effective August 21, 2009 (36:19 Md. R. 1433); adopted permanently effective December 14, 2009 (36:25 Md. R. 1954)</annotation>
+    <annotation type="History" dest="container" effective="2014-10-01"><cite path="|10|09|45|.01|A.">Regulation .01A</cite> amended effective October 1, 2014 (41:19 Md. R. 1077)</annotation>
+    <annotation type="History" dest="container" effective="2014-10-01"><cite path="|10|09|45|.02|B.">Regulation .02B</cite> amended effective October 1, 2014 (41:19 Md. R. 1077)</annotation>
+    <annotation type="History" dest="container" effective="2014-10-01"><cite path="|10|09|45|.03|A.">Regulation .03A</cite> amended effective October 1, 2014 (41:19 Md. R. 1077)</annotation>
+    <annotation type="History" dest="container" effective="2014-10-01"><cite path="|10|09|45|.03|E.">Regulation .03E</cite> adopted effective October 1, 2014 (41:19 Md. R. 1077)</annotation>
+    <annotation type="History" dest="container" effective="2014-10-01"><cite path="|10|09|45|.04|C.">Regulation .04C</cite>, E amended effective October 1, 2014 (41:19 Md. R. 1077)</annotation>
+    <annotation type="History" dest="container" effective="2014-10-01"><cite path="|10|09|45|.06">Regulation .06</cite> amended effective October 1, 2014 (41:19 Md. R. 1077)</annotation>
+    <annotation type="History" dest="container" effective="2014-10-01"><cite path="|10|09|45|.07|C.">Regulation .07C</cite> amended effective October 1, 2014 (41:19 Md. R. 1077)</annotation>
+    <annotation type="History" dest="container" effective="2014-10-01"><cite path="|10|09|45|.09|E.">Regulation .09E</cite> adopted effective October 1, 2014 (41:19 Md. R. 1077)</annotation>
+  </annotations>
+</container>

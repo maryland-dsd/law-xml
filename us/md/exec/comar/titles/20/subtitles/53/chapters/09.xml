@@ -1,0 +1,245 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>09</num>
+  <heading>Issuance, Format, and Content of Bills for Supplier-Consolidated Billing</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Scope.</heading>
+    <text>This chapter applies to suppliers licensed to issue supplier-consolidated bills.</text>
+  </section>
+  <section cache:ref-path="20|53|09|.02">
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Bill Content.</heading>
+    <para>
+      <num>A.</num>
+      <text>Bills shall include accurate and understandable information.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The supplier shall at a minimum include the following information on the bill:</text>
+      <para>
+        <num>(1)</num>
+        <text>The supplier’s name, address, website address, and license number;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The supplier’s toll-free telephone number and the hours the customer may make billing inquiries;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The Commission’s toll-free telephone number and website address;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The customer’s name, billing address, and service address;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The customer’s utility account number;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>The customer’s retail choice identification number, if applicable;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>The supplier account number, if applicable;</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>The service period for which the bill is rendered;</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>The date on which the bill was issued;</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>The meter number;</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>The next meter reading date;</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>The identification of regulated and nonregulated charges;</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>The identification and itemization of noncommodity charges if sold separately from the commodity;</text>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>Current electric charges pursuant to the supplier’s contract with the customer, labeled “current charges” and which include:</text>
+        <para>
+          <num>(a)</num>
+          <text>If the supplier provides both gas and electric service to the customer, the supplier’s current electric charges, which shall be separated from gas charges if these charges appear on the same bill;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>To the extent applicable, an itemization of each charge, including the unit price for supply service, charges other than for electric service, applicable taxes and fees, and any other charges pursuant to the supplier’s contract with the customer;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Applicable billing determinants, such as beginning meter read, ending meter read, demand meter read, consumption, demand, meter reading date, and any conversion from meter reading units to billing units; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>A distinct marking to identify an estimated bill;</text>
+        </para>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>Identification of transmission charges or a statement that the transmission charges are included within the supply charges;</text>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>If the customer is on a budget billing plan with the supplier, the payment due under the plan, which shall be clearly shown in addition to the current charges;</text>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>An itemization and amount of any nonrecurring charge, including late payment charges, returned check fees, or other fees pursuant to the supplier’s contract with the customer;</text>
+      </para>
+      <para>
+        <num>(18)</num>
+        <text>If there is a late payment charge:</text>
+        <para>
+          <num>(a)</num>
+          <text>An explanation of the calculation; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The date of applicability of the late payment charge;</text>
+        </para>
+      </para>
+      <para>
+        <num>(19)</num>
+        <text>Information received from the utility regarding the customer’s regulated electric utility charges, including:</text>
+        <para>
+          <num>(a)</num>
+          <text>Those prescribed in <cite path="20.50.04.03">COMAR 20.50.04.03</cite> with the exception of <cite path="20.50.04.03|A.|(6)">COMAR 20.50.04.03A(6)</cite>—(8);</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Universal service program charges;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Customer charges;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Taxes and fees;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Information regarding the customer’s net-metered usage, if applicable, including any credits issued by the utility;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Information regarding the customer’s participation in a community solar energy generating system project pursuant to <cite path="|20.62">COMAR 20.62</cite>, if applicable;</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>The utility’s phone numbers necessary for the customer to make other inquiries, as necessary, unrelated to the utility’s bill or outage and safety concerns;</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>The utility’s toll-free telephone number that the customer may call 24 hours a day, 7 days a week, to report power outages and concerns about the safety of the electric power system, which shall be prominently displayed on the first page of the bill;</text>
+        </para>
+        <para>
+          <num>(i)</num>
+          <text>The utility’s correspondence address;</text>
+        </para>
+        <para>
+          <num>(j)</num>
+          <text>The utility’s website; and</text>
+        </para>
+        <para>
+          <num>(k)</num>
+          <text>Other information as the Commission may require;</text>
+        </para>
+      </para>
+      <para>
+        <num>(20)</num>
+        <text>All surcharges and fees required by the Comptroller, Commission, and utilities;</text>
+      </para>
+      <para>
+        <num>(21)</num>
+        <text>The total due, broken down by total utility and supply charges, including any prior unpaid amount but excluding the current late payment charge;</text>
+      </para>
+      <para>
+        <num>(22)</num>
+        <text>The previous amount due to the supplier;</text>
+      </para>
+      <para>
+        <num>(23)</num>
+        <text>The date by which payment from the customer must be received by the supplier to avoid a late payment charge;</text>
+      </para>
+      <para>
+        <num>(24)</num>
+        <text>Information on how, and to whom, the customer may make payments;</text>
+      </para>
+      <para>
+        <num>(25)</num>
+        <text>For a variable price product, information on how the customer may access the customer’s price for the next billing cycle in accordance with <cite path="20.53.07.13">COMAR 20.53.07.13</cite>;</text>
+      </para>
+      <para>
+        <num>(26)</num>
+        <text>Bill inserts as directed by the Commission;</text>
+      </para>
+      <para>
+        <num>(27)</num>
+        <text>Information regarding:</text>
+        <para>
+          <num>(a)</num>
+          <text>The utility’s supply price comparison information, if applicable; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The contract expiration date; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(28)</num>
+        <text>Any other information required by a governmental entity.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A supplier may not be required to print a utility’s billing addresses as prescribed under <cite path="20.50.04.03|A.|(11)">COMAR 20.50.04.03A(11)</cite>.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Online Bills. A supplier issuing supplier-consolidated bills online shall comply with the following requirements:</text>
+      <para>
+        <num>(1)</num>
+        <text>A supplier shall obtain from the customer consent to use online billing;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The online billing statement shall include the requirements in <cite path="20|53|09|.02|B.">§B of this regulation</cite>;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The supplier shall maintain a secure and encrypted site for accessing the customer’s account;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Any fees to accept online payments shall be clearly disclosed in a payment window; and</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Any payment made online shall be credited to the customer’s account as of the day it is received by the supplier, and the time needed to post the payment shall be clearly stated.</text>
+      </para>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Public Utilities Article, §§<cite doc="Md. Code" path="gpu|2-113">2-113</cite>, <cite doc="Md. Code" path="gpu|2-121">2-121</cite>, <cite doc="Md. Code" path="gpu|5-101">5-101</cite>, <cite doc="Md. Code" path="gpu|7-505">7-505</cite>, <cite doc="Md. Code" path="gpu|7-507">7-507</cite>, <cite doc="Md. Code" path="gpu|7-511">7-511</cite>, and <cite doc="Md. Code" path="gpu|7-603">7-603</cite>, Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="2022-03-07">Effective date: March 7, 2022 (49:5 Md. R. 367)</annotation>
+  </annotations>
+</container>

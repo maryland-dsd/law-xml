@@ -1,0 +1,582 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>38</num>
+  <heading>Control of NO<sub>x</sub> Emissions from Coal-Fired Electric Generating Units</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>“Affected electric generating unit” means any one of the following coal-fired electric generating units:</text>
+        <para>
+          <num>(a)</num>
+          <text>Brandon Shores Units 1 and 2;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>C.P. Crane Units 1 and 2;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Chalk Point Units 1 and 2;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Dickerson Units 1, 2, and 3;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>H.A. Wagner Units 2 and 3;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Morgantown Units 1 and 2; and</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>Warrior Run.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>“Emergency operations” means an event called when PJM Interconnection, LLC or a successor independent system operator, acts to invoke one or more of the Warning or Action procedures in accordance with PJM Manual 13, Revision 57, as amended, to avoid potential interruption in electric service and maintain electric system reliability.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>“Operating day” means a 24-hour period beginning midnight of one day and ending the following midnight, or an alternative 24-hour period approved by the Department, during which time an installation is operating, consuming fuel, or causing emissions.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>“Ozone season” means the period beginning May 1 of any given year and ending September 30 of the same year.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>System.</text>
+        <para>
+          <num>(a)</num>
+          <text>“System” means all affected electric generating units within the State of Maryland subject to this chapter that are owned, operated, or controlled by the same person and are located:</text>
+          <para>
+            <num>(i)</num>
+            <text>In the same ozone nonattainment area as specified in 40 CFR Part 81; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Outside any designated ozone nonattainment area as specified in 40 CFR Part 81.</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“System” includes at least two affected electric generating units.</text>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>“System operating day” means any day in which an electric generating unit in a system operates.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>“30-day rolling average emission rate” means a value in lbs/MMBtu calculated by:</text>
+        <para>
+          <num>(a)</num>
+          <text>Summing the total pounds of pollutant emitted from the unit during the current operating day and the previous 29 operating days;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Summing the total heat input to the unit in MMBtu during the current operating day and the previous 29 operating days; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Dividing the total number of pounds of pollutant emitted during the 30 operating days by the total heat input during the 30 operating days.</text>
+        </para>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>“30-day systemwide rolling average emission rate” means a value in lbs/MMBtu calculated by:</text>
+        <para>
+          <num>(a)</num>
+          <text>Summing the total pounds of pollutant emitted from the system during the current system operating day and the previous 29 system operating days;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Summing the total heat input to the system in MMBtu during the current system operating day and the previous 29 system operating days; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Dividing the total number of pounds of pollutant emitted during the 30 system operating days by the total heat input during the 30 system operating days.</text>
+        </para>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>“24-hour block average emission rate” means a value in lbs/MMBtu calculated by:</text>
+        <para>
+          <num>(a)</num>
+          <text>Summing the total pounds of pollutant emitted from the unit during 24 hours between midnight of one day and ending the following midnight;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Summing the total heat input to the unit in MMBtu during 24 hours between midnight of one day and ending the following midnight; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Dividing the total number of pounds of pollutant emitted during 24 hours between midnight of one day and ending the following midnight by the total heat input during 24 hours between midnight of one day and ending the following midnight.</text>
+        </para>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>“24-hour systemwide block average emission rate” means a value in lbs/MMBtu calculated by:</text>
+        <para>
+          <num>(a)</num>
+          <text>Summing the total pounds of pollutant emitted from the system during 24 hours between midnight of one day and ending the following midnight;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Summing the total heat input to the system in MMBtu during 24 hours between midnight of one day and ending the following midnight; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Dividing the total number of pounds of pollutant emitted during 24 system hours between midnight of one day and ending the following midnight by the total heat input during 24 system hours between midnight of one day and ending the following midnight.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Applicability.</heading>
+    <text>The provisions of this chapter apply to an affected electric generating unit as that term is defined in <cite path="|26|11|38|.01|B.">Regulation .01B of this chapter</cite>.</text>
+  </section>
+  <section cache:ref-path="26|11|38|.03">
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>2015 NO<sub>x</sub> Emission Control Requirements.</heading>
+    <para>
+      <num>A.</num>
+      <text>Daily NO<sub>x</sub> Reduction Requirements During the Ozone Season.</text>
+      <para>
+        <num>(1)</num>
+        <text>Not later than 45 days after the effective date of this regulation, the owner or operator of an affected electric generating unit (the unit) shall submit a plan to the Department and EPA for approval that demonstrates how each affected electric generating unit will operate installed pollution control technology and combustion controls to meet the requirements of <cite path="26|11|38|.03|A.|(2)">§A(2) of this regulation</cite>. The plan shall summarize the data that will be collected to demonstrate compliance with <cite path="26|11|38|.03|A.|(2)">§A(2) of this regulation</cite>. The plan shall cover all modes of operation, including but not limited to normal operations, start-up, shut-down, and low load operations.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Beginning on May 1, 2015, for each operating day during the ozone season, the owner or operator of an affected electric generating unit shall minimize NO<sub>x</sub> emissions by operating and optimizing the use of all installed pollution control technology and combustion controls consistent with the technological limitations, manufacturers’ specifications, good engineering and maintenance practices, and good air pollution control practices for minimizing emissions (as defined in 40 CFR §60.11(d)) for such equipment and the unit at all times the unit is in operation while burning any coal.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Ozone Season NO<sub>x</sub> Reduction Requirements.</text>
+      <para>
+        <num>(1)</num>
+        <text>Except as provided in <cite path="26|11|38|.03|B.|(3)">§B(3) of this regulation</cite>, the owner or operator of an affected electric generating unit shall not exceed a NO<sub>x</sub> 30-day systemwide rolling average emission rate of 0.15 lbs/MMBtu during the ozone season.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The owner or operator of an affected electric generating unit subject to the provisions of this regulation shall continue to meet the ozone season NO<sub>x</sub> reduction requirements in <cite path="|26.11.27">COMAR 26.11.27</cite>.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Ownership of Single Electric Generating Facility.</text>
+        <para>
+          <num>(a)</num>
+          <text>An affected electric generating unit is not subject to <cite path="26|11|38|.03|B.|(1)">§B(1) of this regulation</cite> if the unit is located at an electric generating facility that is the only facility in Maryland directly or indirectly owned, operated, or controlled by the owner, operator, or controller of the facility.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>For the purposes of this subsection, the owner includes parent companies, affiliates, and subsidiaries of the owner.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Annual NO<sub>x</sub> Reduction Requirements. The owner or operator of an affected electric generating unit subject to the provisions of this regulation shall continue to meet the annual NO<sub>x</sub> reduction requirements in <cite path="|26.11.27">COMAR 26.11.27</cite>.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>NO<sub>x</sub> Emission Requirements for Affected Electric Generating Units Equipped with Fluidized Bed Combustors.</text>
+      <para>
+        <num>(1)</num>
+        <text>The owner or operator of an affected electric generating unit equipped with a fluidized bed combustor is not subject to the requirements of §§A, B(1) and (2), and C of this regulation.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The owner or operator of an affected electric generating unit equipped with a fluidized bed combustor shall not exceed a NO<sub>x</sub> 24-hour block average emission rate of 0.10 lbs/MMBtu.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="26|11|38|.04">
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Additional NO<sub>x</sub> Emission Control Requirements.</heading>
+    <para>
+      <num>A.</num>
+      <text>This regulation applies to C.P. Crane units 1 and 2, Chalk Point unit 2, Dickerson units 1, 2, and 3, and H.A. Wagner unit 2.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>General Requirements. The owner or operator of the affected electric generating units subject to this regulation shall choose from the following:</text>
+      <para>
+        <num>(1)</num>
+        <text>Not later than June 1, 2020:</text>
+        <para>
+          <num>(a)</num>
+          <text>Install and operate a selective catalytic reduction (SCR) control system; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Meet a NO<sub>x</sub> emission rate of 0.09 lbs/MMBtu, as determined on a 30-day rolling average during the ozone season;</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Not later than June 1, 2020, permanently retire the unit;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Not later than June 1, 2020, permanently switch fuel from coal to natural gas for the unit;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Not later than June 1, 2020, meet either a NO<sub>x</sub> emission rate of 0.13 lbs/MMBtu as determined on a 24-hour systemwide block average or a systemwide NO<sub>x</sub> tonnage cap of 21 tons per day during the ozone season.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>When option §B(4)of this regulation is selected:</text>
+      <para>
+        <num>(1)</num>
+        <text>Not later than May 1, 2016, the owner or operator of an affected electric generating unit shall not exceed a NO<sub>x</sub> 30-day systemwide rolling average emission rate of 0.13 lbs/MMBtu during the ozone season.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Not later than May 1, 2018, the owner or operator of an affected electric generating unit shall not exceed a NO<sub>x</sub> 30-day systemwide rolling average emission rate of 0.11 lbs/MMBtu during the ozone season.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Not later than May 1, 2020, the owner or operator of an affected electric generating unit shall not exceed a NO<sub>x</sub> 30-day systemwide rolling average emission rate of 0.09 lbs/MMBtu during the ozone season.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>In order to calculate the 24-hour systemwide block average emission rate and systemwide NO<sub>x</sub> tonnage cap under <cite path="26|11|38|.04|B.|(4)">§B(4) of this regulation</cite> and the systemwide rolling average emission rates under <cite path="26|11|38|.04|C.">§C of this regulation</cite>:</text>
+      <para>
+        <num>(1)</num>
+        <text>The owner or operator shall use all affected electric generating units within their system as those terms are defined in <cite path="|26|11|38|.01|B.">Regulation .01B of this chapter</cite>; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The unit or units NO<sub>x</sub> emissions from all operations during the entire operating day shall be used where the unit or units burn coal at any time during that operating day.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Beginning June 1, 2020, if the unit or units included in a system, as that system existed on May 1, 2015, is no longer directly or indirectly owned, operated, or controlled by the owner, operator, or controller of the system:</text>
+      <para>
+        <num>(1)</num>
+        <text>The remaining units within the system shall meet either:</text>
+        <para>
+          <num>(a)</num>
+          <text>The requirements of §B(1)—(3) of this regulation; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A NO<sub>x</sub> emission rate of 0.13 lbs/MMBtu as determined on a 24-hour systemwide block average and the requirements of <cite path="26|11|38|.04|C.|(3)">§C(3) of this regulation</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The unit or units no longer included in the system shall meet the requirements of §B(1)—(3) of this regulation.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>For the purposes of this regulation, the owner includes parent companies, affiliates, and subsidiaries of the owner.</text>
+    </para>
+  </section>
+  <section cache:ref-path="26|11|38|.05">
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Compliance Demonstration Requirements.</heading>
+    <para>
+      <num>A.</num>
+      <text>Procedures for Demonstrating Compliance with <cite path="|26|11|38|.03|A.">Regulation .03A of this Chapter</cite>.</text>
+      <para>
+        <num>(1)</num>
+        <text>An affected electric generating unit shall demonstrate, to the Department’s satisfaction, compliance with <cite path="|26|11|38|.03|A.|(2)">Regulation .03A(2) of this chapter</cite>, using the information collected and maintained in accordance with <cite path="|26|11|38|.03|A.|(1)">Regulation .03A(1) of this chapter</cite> and any additional documentation available to and maintained by the affected electric generating unit.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An affected electric generating unit shall not be required to submit a unit-specific report consistent with <cite path="26|11|38|.05|A.|(3)">§A(3) of this regulation</cite> when the unit emits at levels that are at or below the following rates:</text>
+        <text>
+          <table>
+            <tbody>
+              <tr>
+                <td data-text-align="center" data-vertical-align="middle">Affected Unit</td>
+                <td data-text-align="center" data-vertical-align="middle">24-Hour Block Average<br/>NO<sub>x</sub> Emissions<br/>in lbs/MMBtu</td>
+              </tr>
+              <tr>
+                <td data-vertical-align="middle">Brandon Shores</td>
+                <td proof="needed" data-vertical-align="middle"/>
+              </tr>
+              <tr>
+                <td data-vertical-align="middle">Unit 1</td>
+                <td data-text-align="center" data-vertical-align="middle">0.08</td>
+              </tr>
+              <tr>
+                <td data-vertical-align="middle">Unit 2 <br/>         ≥650 MWg</td>
+                <td data-text-align="center" data-vertical-align="middle">0.07<br/>0.15</td>
+              </tr>
+              <tr>
+                <td data-vertical-align="middle">C.P. Crane</td>
+                <td proof="needed" data-text-align="center" data-vertical-align="middle"/>
+              </tr>
+              <tr>
+                <td data-vertical-align="middle">Unit 1</td>
+                <td data-text-align="center" data-vertical-align="middle">0.30</td>
+              </tr>
+              <tr>
+                <td data-vertical-align="middle">Unit 2</td>
+                <td data-text-align="center" data-vertical-align="middle">0.28</td>
+              </tr>
+              <tr>
+                <td data-vertical-align="middle">Chalk Point</td>
+                <td proof="needed" data-text-align="center" data-vertical-align="middle"/>
+              </tr>
+              <tr>
+                <td data-vertical-align="middle">Unit 1 only</td>
+                <td data-text-align="center" data-vertical-align="middle">0.07</td>
+              </tr>
+              <tr>
+                <td data-vertical-align="middle">Unit 2 only</td>
+                <td data-text-align="center" data-vertical-align="middle">0.33</td>
+              </tr>
+              <tr>
+                <td data-vertical-align="middle">Units 1 and 2 combined</td>
+                <td data-text-align="center" data-vertical-align="middle">0.20</td>
+              </tr>
+              <tr>
+                <td data-vertical-align="middle">Dickerson</td>
+                <td proof="needed" data-text-align="center" data-vertical-align="middle"/>
+              </tr>
+              <tr>
+                <td data-vertical-align="middle">Unit 1 only</td>
+                <td data-text-align="center" data-vertical-align="middle">0.24</td>
+              </tr>
+              <tr>
+                <td data-vertical-align="middle">Unit 2 only</td>
+                <td data-text-align="center" data-vertical-align="middle">0.24</td>
+              </tr>
+              <tr>
+                <td data-vertical-align="middle">Unit 3 only</td>
+                <td data-text-align="center" data-vertical-align="middle">0.24</td>
+              </tr>
+              <tr>
+                <td data-vertical-align="middle">Two or more units combined</td>
+                <td data-text-align="center" data-vertical-align="middle">0.24</td>
+              </tr>
+              <tr>
+                <td data-vertical-align="middle">H.A. Wagner</td>
+                <td proof="needed" data-text-align="center" data-vertical-align="middle"/>
+              </tr>
+              <tr>
+                <td data-vertical-align="middle">Unit 2</td>
+                <td data-text-align="center" data-vertical-align="middle">0.34</td>
+              </tr>
+              <tr>
+                <td data-vertical-align="middle">Unit 3</td>
+                <td data-text-align="center" data-vertical-align="middle">0.07</td>
+              </tr>
+              <tr>
+                <td data-vertical-align="middle">Morgantown</td>
+                <td proof="needed" data-text-align="center" data-vertical-align="middle"/>
+              </tr>
+              <tr>
+                <td data-vertical-align="middle">Unit 1</td>
+                <td data-text-align="center" data-vertical-align="middle">0.07</td>
+              </tr>
+              <tr>
+                <td data-vertical-align="middle">Unit 2</td>
+                <td data-text-align="center" data-vertical-align="middle">0.07</td>
+              </tr>
+            </tbody>
+          </table>
+        </text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The owner or operator of an affected electric generating unit subject to <cite path="|26|11|38|.03|A.|(2)">Regulation .03A(2) of this chapter</cite> shall submit a unit-specific report for each day the unit exceeds its NO<sub>x</sub> emission rate under <cite path="26|11|38|.05|A.|(2)">§A(2) of this regulation</cite>, which shall include the following information for the entire operating day:</text>
+        <para>
+          <num>(a)</num>
+          <text>Hours of operation for the unit;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Hourly averages of operating temperature of installed pollution control technology;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Hourly averages of heat input (MMBtu/hr);</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Hourly averages of output (MWh);</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Hourly averages of ammonia or urea flow rates;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Hourly averages of NO<sub>x</sub> emissions data (lbs/MMBtu and tons);</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>Malfunction data;</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>The technical and operational reason the rate was exceeded, such as:</text>
+          <para>
+            <num>(i)</num>
+            <text>Operator error;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Technical events beyond the control of the owner or operator (e.g. acts of God, malfunctions); or</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Dispatch requirements that mandate unplanned operation (e.g. start-ups and shut-downs, idling, and operation at low voltage or low load);</text>
+          </para>
+        </para>
+        <para>
+          <num>(i)</num>
+          <text>A written narrative describing any actions taken to reduce emission rates; and</text>
+        </para>
+        <para>
+          <num>(j)</num>
+          <text>Other information that the Department determines is necessary to evaluate the data or to ensure that compliance is achieved.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>An exceedance of the emissions rate under <cite path="26|11|38|.05|A.|(2)">§A(2) of this regulation</cite> as a result of factors including but not limited to start-up, shut-down, days when the unit was directed by the electric grid operator to operate at low load or to operate pursuant to any emergency generation operations required by the electric grid operator, including necessary testing for such emergency operations, or which otherwise occurred during operations which are deemed consistent with the unit’s technological limitations, manufacturers’ specifications, good engineering and maintenance practices, and good air pollution control practices for minimizing emissions, shall not be considered a violation of <cite path="|26|11|38|.03|A.|(2)">Regulation .03A(2) of this chapter</cite> provided that the provisions of the approved plan as required in <cite path="|26|11|38|.03|A.|(1)">Regulation .03A(1) of this chapter</cite> are met.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Procedures for Demonstrating Compliance with NO<sub>x</sub> Emission Rates under this Chapter.</text>
+      <para>
+        <num>(1)</num>
+        <text>Compliance with the NO<sub>x</sub> emission rate limitations in Regulations .03B(1) and D(2); .04B(1)(b) and B(4), C(1)—(3), and E(1)(b); and .05A(2) of this chapter shall be demonstrated with a continuous emission monitoring system that is installed, operated, and certified in accordance with 40 CFR Part 75.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>For Regulations .03B(1) and .04C(1)—(3) of this chapter, in order to calculate the 30-day systemwide rolling average emission rates, if 29 system operating days are not available from the current ozone season, system operating days from the previous ozone season shall be used.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>For <cite path="|26|11|38|.04|B.|(1)|(b)">Regulation .04B(1)(b) of this chapter</cite>, in order to calculate the 30-day rolling average emission rates, if 29 operating days are not available from the current ozone season, operating days from the previous ozone season shall be used.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Reporting Requirements.</heading>
+    <para>
+      <num>A.</num>
+      <text>Reporting Schedule.</text>
+      <para>
+        <num>(1)</num>
+        <text>Beginning 30 days after the first month of the ozone season following the effective date of this chapter, each affected electric generating unit subject to the requirements of this chapter shall submit a monthly report to the Department detailing the status of compliance with this chapter during the ozone season.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Each subsequent monthly report shall be submitted to the Department not later than 30 days following the end of the calendar month during the ozone season.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Monthly Reports During Ozone Season. Monthly reports during the ozone season shall include:</text>
+      <para>
+        <num>(1)</num>
+        <text>Daily pass or fail of the NO<sub>x</sub> emission rates under <cite path="|26|11|38|.05|A.|(2)">Regulation .05A(2) of this chapter</cite>;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The reporting information as required under <cite path="|26|11|38|.05|A.|(3)">Regulation .05A(3) of this chapter</cite>;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The 30-day systemwide rolling average emission rate for each affected electric generating unit to demonstrate compliance with Regulation .03B(1), .04C(1)—(3) of this chapter, as applicable;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>For an affected electric generating unit which has selected the compliance option of <cite path="|26|11|38|.04|B.|(1)">Regulation .04B(1) of this chapter</cite>, beginning June 1, 2020, the 30-day rolling average emission rate calculated in lbs/MMBtu;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>For an affected electric generating unit which has selected the compliance option of <cite path="|26|11|38|.04|B.|(4)">Regulation .04B(4) of this chapter</cite>, beginning June 1, 2016, the 30-day rolling average emission rate and 30-day systemwide rolling average emission rate calculated in lbs/MMBtu;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>For an affected electric generating unit which has selected the compliance option of <cite path="|26|11|38|.04|B.|(4)">Regulation .04B(4) of this chapter</cite>, beginning June 1, 2020, data, information, and calculations which demonstrate the systemwide NO<sub>x</sub> emission rate as determined on a 24-hour block average or the actual systemwide daily NO<sub>x</sub> emissions in tons for each day during the month; and</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>For an affected electric generating unit which has selected the compliance option of <cite path="|26|11|38|.04|E.|(1)|(b)">Regulation .04E(1)(b) of this chapter</cite>, beginning June 1, 2020, data, information, and calculations which demonstrate the systemwide NO<sub>x</sub> emission rate as determined on a 24-hour block average for each day during the month.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="26|11|38|.07">
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Electric System Reliability During Ozone Seasons.</heading>
+    <para>
+      <num>A.</num>
+      <text>In the event of emergency operations, a maximum of 12 hours of operations per system per ozone season may be removed from the calculation of the NO<sub>x</sub> limitations in <cite path="|26|11|38|.04|B.|(4)">Regulation .04B(4) of this chapter</cite> from the unit or units responding to the emergency operations provided that:</text>
+      <para>
+        <num>(1)</num>
+        <text>Within one business day following the emergency operation, the owner or operator of the affected electric generating unit or units notifies the Manager of the Air Quality Compliance Program of the emergency operations taken by PJM Interconnection; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Within five business days following the emergency operation, the owner or operator of the affected electric generating unit or units provides the Department with the following information:</text>
+        <para>
+          <num>(a)</num>
+          <text>PJM documentation of the emergency event called and the unit or units requested to operate;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Unit or units dispatched for the emergency operation;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Number of hours that the unit or units responded to the emergency operation and the consecutive hours that will be used towards the calculation of the NO<sub>x</sub> limitations in <cite path="|26|11|38|.04|B.|(4)">Regulation .04B(4) of this chapter</cite>; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Other information regarding efforts the owner or operator took to minimize NO<sub>x</sub> emissions in accordance with <cite path="|26|11|38|.03|A.|(1)">Regulation .03A(1) of this chapter</cite> on the day that the emergency operation was called.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Any partial hour in which a unit operated in response to emergency operations under <cite path="26|11|38|.07|A.">§A of this regulation</cite> shall constitute a full hour of operations.</text>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Environment Article, §§<cite doc="Md. Code" path="gen|1-404">1-404</cite>, <cite doc="Md. Code" path="gen|2-103">2-103</cite>, and <cite doc="Md. Code" path="gen|2-301">2-301</cite>—<cite doc="Md. Code" path="gen|2-303">2-303</cite>, Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container">Effective date:</annotation>
+    <annotation type="History" dest="container" effective="2015-08-31">Regulations <cite path="|26|11|38|.01">.01</cite>—<cite path="|26|11|38|.05">.05</cite> adopted as an emergency provision effective May 1, 2015 (42:11 Md. R. 722); adopted permanently effective August 31, 2015 (42:17 Md. R. 1111)</annotation>
+    <annotation type="History" dest="container" effective="2015-12-10" discontinuity="true">Chapter revised effective December 10, 2015 (42:24 Md. R. 1506)</annotation>
+  </annotations>
+</container>

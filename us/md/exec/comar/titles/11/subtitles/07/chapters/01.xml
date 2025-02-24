@@ -1,0 +1,629 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>01</num>
+  <heading>Transportation of Hazardous Materials</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>The following classes of hazardous materials are defined in the United States Department of Transportation Regulations, 49 CFR 173, which is incorporated by reference:</text>
+      <text>
+        <table class="layout-table">
+          <tbody>
+            <tr>
+              <td data-text-align="center" data-vertical-align="bottom">Name of Class or Division</td>
+              <td data-text-align="center" data-vertical-align="bottom">Class<br/>Number</td>
+              <td data-text-align="center" data-vertical-align="bottom">Division<br/>Number<br/>(if any)</td>
+              <td data-text-align="center" data-vertical-align="middle">49 CFR<br/>Reference<br/>for<br/>Definitions</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">(1) Forbidden materials</td>
+              <td data-text-align="center" data-vertical-align="middle">None</td>
+              <td proof="needed" data-text-align="center" data-vertical-align="middle"/>
+              <td proof="needed" data-text-align="center" data-vertical-align="middle"/>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">(2) Forbidden explosives</td>
+              <td data-text-align="center" data-vertical-align="middle">None</td>
+              <td proof="needed" data-text-align="center" data-vertical-align="middle"/>
+              <td proof="needed" data-text-align="center" data-vertical-align="middle"/>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">(3) Explosives (with a mass explosion hazard)<br/>(old class A)</td>
+              <td data-text-align="center" data-vertical-align="middle">1</td>
+              <td data-text-align="center" data-vertical-align="middle">1.1</td>
+              <td data-text-align="center" data-vertical-align="middle">173.50</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">(4) Explosives (with a projection hazard)<br/>(old class B)</td>
+              <td data-text-align="center" data-vertical-align="middle">1</td>
+              <td data-text-align="center" data-vertical-align="middle">1.2</td>
+              <td data-text-align="center" data-vertical-align="middle">173.50</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">(5) Explosives (with predominately a fire hazard)<br/>(old class B)</td>
+              <td data-text-align="center" data-vertical-align="middle">1</td>
+              <td data-text-align="center" data-vertical-align="middle">1.3</td>
+              <td data-text-align="center" data-vertical-align="middle">173.50</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">(6) Explosives (with no significant blast hazard)<br/>(old class C)</td>
+              <td data-text-align="center" data-vertical-align="middle">1</td>
+              <td data-text-align="center" data-vertical-align="middle">1.4</td>
+              <td data-text-align="center" data-vertical-align="middle">173.50</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">(7) Very insensitive explosives; blasting agents</td>
+              <td data-text-align="center" data-vertical-align="middle">1</td>
+              <td data-text-align="center" data-vertical-align="middle">1.5</td>
+              <td data-text-align="center" data-vertical-align="middle">173.50</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">(8) Extremely insensitive detonating substances</td>
+              <td data-text-align="center" data-vertical-align="middle">1</td>
+              <td data-text-align="center" data-vertical-align="middle">1.6</td>
+              <td data-text-align="center" data-vertical-align="middle">173.50</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">(9) Flammable gas</td>
+              <td data-text-align="center" data-vertical-align="middle">2</td>
+              <td data-text-align="center" data-vertical-align="middle">2.1</td>
+              <td data-text-align="center" data-vertical-align="middle">173.115</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">(10) Nonflammable compressed gas</td>
+              <td data-text-align="center" data-vertical-align="middle">2</td>
+              <td data-text-align="center" data-vertical-align="middle">2.2</td>
+              <td data-text-align="center" data-vertical-align="middle">173.115</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">(11) Poisonous gas</td>
+              <td data-text-align="center" data-vertical-align="middle">2</td>
+              <td data-text-align="center" data-vertical-align="middle">2.3</td>
+              <td data-text-align="center" data-vertical-align="middle">173.115</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">(12) Flammable and combustible liquid</td>
+              <td data-text-align="center" data-vertical-align="middle">3</td>
+              <td proof="needed" data-text-align="center" data-vertical-align="middle"/>
+              <td data-text-align="center" data-vertical-align="middle">173.120</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">(13) Flammable solid</td>
+              <td data-text-align="center" data-vertical-align="middle">4</td>
+              <td data-text-align="center" data-vertical-align="middle">4.1</td>
+              <td data-text-align="center" data-vertical-align="middle">173.124</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">(14) Spontaneously combustible material</td>
+              <td data-text-align="center" data-vertical-align="middle">4</td>
+              <td data-text-align="center" data-vertical-align="middle">4.2</td>
+              <td data-text-align="center" data-vertical-align="middle">173.124</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">(15) Dangerous when wet material</td>
+              <td data-text-align="center" data-vertical-align="middle">4</td>
+              <td data-text-align="center" data-vertical-align="middle">4.3</td>
+              <td data-text-align="center" data-vertical-align="middle">173.124</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">(16) Oxidizer</td>
+              <td data-text-align="center" data-vertical-align="middle">5</td>
+              <td data-text-align="center" data-vertical-align="middle">5.1</td>
+              <td data-text-align="center" data-vertical-align="middle">173.128</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">(17) Organic peroxide</td>
+              <td data-text-align="center" data-vertical-align="middle">5</td>
+              <td data-text-align="center" data-vertical-align="middle">5.2</td>
+              <td data-text-align="center" data-vertical-align="middle">173.128</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">(18) Poisonous materials</td>
+              <td data-text-align="center" data-vertical-align="middle">6</td>
+              <td data-text-align="center" data-vertical-align="middle">6.1</td>
+              <td data-text-align="center" data-vertical-align="middle">173.132</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">(19) Infectious substance (Etiologic agent)</td>
+              <td data-text-align="center" data-vertical-align="middle">6</td>
+              <td data-text-align="center" data-vertical-align="middle">6.2</td>
+              <td data-text-align="center" data-vertical-align="middle">173.134</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">(20) Radioactive material</td>
+              <td data-text-align="center" data-vertical-align="middle">7</td>
+              <td proof="needed" data-text-align="center" data-vertical-align="middle"/>
+              <td data-text-align="center" data-vertical-align="middle">173.403</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">(21) Corrosive material</td>
+              <td data-text-align="center" data-vertical-align="middle">8</td>
+              <td proof="needed" data-text-align="center" data-vertical-align="middle"/>
+              <td data-text-align="center" data-vertical-align="middle">173.136</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">(22) Miscellaneous hazardous material</td>
+              <td data-text-align="center" data-vertical-align="middle">9</td>
+              <td proof="needed" data-text-align="center" data-vertical-align="middle"/>
+              <td data-text-align="center" data-vertical-align="middle">173.140</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">(23) Other regulated material: ORM-D</td>
+              <td data-text-align="center" data-vertical-align="middle">None</td>
+              <td proof="needed" data-text-align="center" data-vertical-align="middle"/>
+              <td data-text-align="center" data-vertical-align="middle">173.144</td>
+            </tr>
+          </tbody>
+        </table>
+      </text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>“Authority property” means the following facilities and their approaches:</text>
+        <para>
+          <num>(a)</num>
+          <text>Baltimore Harbor Tunnel (I-895);</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>William Preston Lane, Jr. Memorial Bridge (U.S. 50/301);</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Harry W. Nice Memorial Bridge (U.S. Route 301);</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Thomas J. Hatem Memorial Bridge (U.S. Route 40);</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Francis Scott Key Bridge (MD 695);</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>John F. Kennedy Memorial Highway (I-95);</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>The I-95 Fort McHenry Tunnel (I-95); and</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>The InterCounty Connector (MD 200).</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>"Container" means a package or receptacle used to contain hazardous materials for transportation, including a box, bottle, can, drum, barrel, cylinder, carboy, or other shipping package, other than a tank vehicle or bulk packaging, used for the transportation of hazardous materials.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>"Flash point" means the minimum temperature at which a substance gives off flammable vapors which in contact with spark or flame will ignite.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>"Gross weight" means the total weight of a container and its contents.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>"Hazardous material" means a substance or material, including a hazardous substance, which has been determined by the Secretary of Transportation for the United States Department of Transportation (U.S.D.O.T.) to be capable of posing an unreasonable risk to health, safety, and property when transported in commerce and which has been so designated.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>"Hazardous substance" means a material, including its mixtures and solutions, that is listed in the Appendix to 49 CFR §172.101, which is incorporated by reference. This definition does not apply to petroleum products that are lubricants or fuels.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>"N.O.S." means not otherwise specified.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>"Net weight" means the weight of the contents of a container only.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>"Shipping paper" means a manifest, memorandum receipt, bill of lading, shipping order, or other document describing material to be transported.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>"Tank vehicle" means any vehicle with a cargo tank, portable tank, bulk pyramided cylinders, or tube trailer used for the transportation of liquids or gases.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="11|07|01|.02">
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>General.</heading>
+    <para>
+      <num>A.</num>
+      <text>The U.S. Department of Transportation Regulations, 49 CFR §§171—177, 397, and any revisions, U.S. Nuclear Regulatory Commission Regulations, 10 CFR 73, and any additional federal regulations affecting the transportation of hazardous materials by motor carriers on highways are incorporated by reference into these regulations.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A vehicle loaded with any hazardous material or a tank vehicle which last contained a hazardous material may not be allowed on or in any Authority property unless it conforms to these regulations and other regulations regarding the use of Authority property.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Maryland Transportation Authority employees shall have the right to inspect the cargo or shipping papers of any vehicle to ascertain if it complies with all State and federal regulations relating to the transportation of hazardous materials.</text>
+      <para>
+        <num>(1)</num>
+        <text>The inspection may take place at any point where or after the vehicle enters on Authority property or its approaches.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If hazardous materials cannot be identified by class, or if listed only as N.O.S., or if shipping papers are not available to determine the type of cargo, the vehicle may be prohibited from entering or may be diverted off any Authority property.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>For purposes of initiating an inspection under <cite path="11|07|01|.02|C.">§C of this regulation</cite>, a vehicle displaying the hazardous material identification number 1203 on a "Flammable" placard is presumed to be transporting the hazardous material with the lowest flashpoint which legally can be transported under that identification number.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>All standards and requirements imposed by <cite path="|26.13.04">COMAR 26.13.04</cite>, which is incorporated by reference, shall be enforced.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Alternative-Fuel Vehicles.</heading>
+    <para>
+      <num>A.</num>
+      <text>Alternative-fuel vehicles powered by liquefied petroleum gas (LPG), liquefied natural gas (LNG), or compressed natural gas (CNG) shall be permitted to use the Baltimore Harbor Tunnel and the Fort McHenry Tunnel, if the:</text>
+      <para>
+        <num>(1)</num>
+        <text>Vehicle has a:</text>
+        <para>
+          <num>(a)</num>
+          <text>Dedicated alternative-fuel system installed by the manufacturer of the vehicle, or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Fuel system which has been properly converted to an alternative fuel system;</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Vehicle alternative-fuel system conforms to applicable industry standards, including:</text>
+        <para>
+          <num>(a)</num>
+          <text>NFPA 52—Standard for Compressed Natural Gas (CNG) Vehicular Fuel Systems (1992 Edition)(c), which is incorporated by reference;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>NFPA 58—Standard for the Storage and Handling of Liquefied Petroleum Gases (1989 Edition)(c), which is incorporated by reference; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>NFPA 59A—Standard for the Production, Storage and Handling of Liquefied Natural Gas (LNG) (1985 Edition)(c), which is incorporated by reference;</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Vehicle alternative-fuel system conforms to applicable federal regulations, including 40 CFR 85, 86, and 600, when adopted by the Environmental Protection Agency pursuant to Notice of Proposed Rule Making, 52 Federal Register 52911 et seq. (November 5, 1992), which is incorporated by reference; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Fuel capacity of the vehicle does not exceed 150 pounds, net weight of fuel.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Alternative-fuel vehicles shall display all markings and symbols required by law or regulation to identify the alternative-fuel system.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Tunnel Restrictions.</heading>
+    <para>
+      <num>A.</num>
+      <text>This regulation does not apply to fuel contained in the fuel system of the transporting vehicle, or in the fuel systems of vehicles and equipment being towed or carried.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Flames used for heating vehicles or loads shall be extinguished before the vehicle enters any tunnel or its approaches.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The following classes of hazardous materials are prohibited from being transported through any tunnel or its approaches, as indicated:</text>
+      <para>
+        <num>(1)</num>
+        <text>Forbidden materials and forbidden explosives are prohibited;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Class 1 explosives are prohibited;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Class 2, division 2.1 flammable gas is prohibited, with exceptions for propane, LPG, CNG, LNG, and other flammable compressed gas in U.S.D.O.T. approved containers, in quantities not to exceed 10 pounds gross weight per container, and 100 pounds gross weight per vehicle;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Class 2, Division 2.2 nonflammable compressed gas is prohibited, with the following exceptions:</text>
+        <para>
+          <num>(a)</num>
+          <text>Argon, compressed,</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Argon, refrigerated liquid,</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Carbon dioxide, refrigerated liquid,</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Compressed air in containers only, although this is prohibited if in tank vehicles,</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Helium, compressed,</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Nitrogen, refrigerated liquid,</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>Nitrogen, compressed, or</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>Oxygen in containers only, although this is prohibited if in tank vehicles;</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Class 2, division 2.3 poisonous gas is prohibited;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Class 3, flammable liquid is prohibited, with exceptions for motor fuel and petroleum-based products in U.S.D.O.T. or Underwriter's Laboratory approved containers in total quantities not to exceed 5 gallons per container and 20 gallons per vehicle;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Class 3, combustible liquid is permitted, with the exception of formaldehyde solutions which are prohibited;</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Class 4, division 4.1 flammable solid is prohibited, with the exception of fusees in quantities not to exceed 100 pounds per vehicle;</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>Class 4, division 4.2 spontaneously combustible materials are prohibited;</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>Class 4, division 4.3 dangerous-when-wet materials are prohibited;</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>Class 5, division 5.1 oxidizers are prohibited;</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>Class 5, division 5.2 organic peroxides are prohibited;</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>Class 6, division 6.1 poisonous materials are prohibited, with the following exceptions:</text>
+        <para>
+          <num>(a)</num>
+          <text>Arsenic in any form or compound,</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Tree-killing or weed-killing liquid compounds,</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Cyanide of potassium,</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Cyanide of sodium,</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Drugs, chemicals, medicines, or cosmetics, not otherwise specified, liquid or solid,</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Insecticides, dry, or</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>Motor fuel antiknock compound;</text>
+        </para>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>Class 6, division 6.2 infectious substances are prohibited;</text>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>Class 7, radioactive materials are prohibited, with the exception of manufactured articles such as instrument or clock dials, electronic tubes of which radioactive materials are a component part, watches, X-ray machines, smoke detectors, etc;</text>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>Class 8, corrosive materials are prohibited, except batteries;</text>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>Class 9, miscellaneous hazardous material is prohibited, with the exception of oils, N.O.S., with a flashpoint not less than 93°C (200°F); and</text>
+      </para>
+      <para>
+        <num>(18)</num>
+        <text>Other regulated material: ORM-D is permitted.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Tank vehicles which are empty, or which have a residue of not more than 50 gallons, or vehicles transporting empty containers are prohibited from entering any tunnel if they previously transported a prohibited hazardous material, with the following exceptions:</text>
+      <para>
+        <num>(1)</num>
+        <text>Tank vehicles or containers that have been sufficiently cleaned of residue and purged of vapor to remove any potential hazard;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Tank vehicles or containers that have been reloaded with a material not classified as a hazardous material;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Tank vehicles or containers whose previous cargo was:</text>
+        <para>
+          <num>(a)</num>
+          <text>A Class 3 combustible liquid,</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A Class 8 corrosive material,</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A Class 5 oxidizer, or</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>A Class 5 organic peroxide; or</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Completely empty containers whose previous cargo was a Class 3 flammable liquid.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Tank vehicles used to transport Class 3 flammable liquids, even if empty, are prohibited from entering any tunnel.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Notwithstanding the restrictions in §§A—E of this regulation, vehicles transporting hazardous materials prohibited from entering any tunnel may use:</text>
+      <para>
+        <num>(1)</num>
+        <text>The Baltimore Harbor Tunnel Thruway from the Child Street entrance ramp in a southbound direction only;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>I-95 northbound to the Key Highway exit ramp south of the Fort McHenry Tunnel, and from the Keith Avenue entrance ramp north of the Fort McHenry Tunnel; or</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>I-95 southbound to the Keith Avenue exit ramp north of the Fort McHenry Tunnel and from the Key Highway entrance ramp south of the Fort McHenry tunnel.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="11|07|01|.05">
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Bridge and Highway Restrictions.</heading>
+    <para>
+      <num>A.</num>
+      <text>Vehicles transporting the following radioactive materials are exempt from the requirements in <cite path="11|07|01|.05|B.">§B of this regulation</cite>:</text>
+      <para>
+        <num>(1)</num>
+        <text>Radionuclides for medical, industrial, agricultural, or research purposes;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Natural uranium metal;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Depleted uranium;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Magnesium-thorium alloys in formed shapes (not powdered, and which shall contain not more than 4 percent nominal thorium 232);</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Radium or radon sealed in needles, capsules, or similar platinum-iridium or gold containers used for medical purposes; or</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Manufactured articles, other than liquids, containing radioactive material as component parts, such as clock and instrument dials, electronic tubes, test instruments, watches, X-ray machines, etc.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A vehicle may not enter upon any Authority property if its load includes any Class 1 explosives or any radioactive materials except under the following conditions:</text>
+      <para>
+        <num>(1)</num>
+        <text>Prior permission shall be granted by the Administrator of the facility or the Administrator’s authorized representative at least 1 hour before intended travel over the facility;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Operators of the transporting vehicles shall comply with all lawful orders, instructions, and directions of authorized Maryland Transportation Authority police personnel;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Vehicles shall remain at least 300 feet behind any vehicle travelling in the same direction on the facility;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Vehicles transporting Class 1 explosives shall travel at least 2,000 feet from any other vehicle transporting explosives and travelling in the same direction on the facility.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Exemptions.</heading>
+    <para>
+      <num>A.</num>
+      <text>A person who desires to transport through an Authority property tunnel a material prohibited by these regulations may apply for an exemption permit. Permits may be granted in the discretion of the Maryland Transportation Authority subject to the following conditions:</text>
+      <para>
+        <num>(1)</num>
+        <text>The entity requesting the exemption permit submits written evidence that the proposed cargo poses a minimal risk to the travelling public, Maryland Transportation Authority employees, and the Authority property;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The permit shall be for a specific duration as established by the Maryland Transportation Authority;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The permit is revocable whenever the Maryland Transportation Authority believes it is necessary to safeguard its employees, the travelling public, or the Authority property; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The person receiving the permit shall abide by these regulations.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The Maryland Transportation Authority's decision issuing or denying a permit is final.</text>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Transportation Article, §§<cite doc="Md. Code" path="gtr|4-205">4-205</cite>, <cite doc="Md. Code" path="gtr|21-1403">21-1403</cite>, and <cite doc="Md. Code" path="gtr|21-1411">21-1411</cite>, Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="1980-01-25">Effective date: January 25, 1980 (7:2 Md. R. 116)</annotation>
+    <annotation type="History" dest="container" effective="1981-09-28"><cite path="|11|07|01|.20|B.">Regulation .20B</cite> amended effective September 28, 1981 (8:19 Md. R. 1566)</annotation>
+    <annotation type="History" dest="container" effective="1986-03-24" discontinuity="true">Regulations <cite path="|11|07|01|.01">.01</cite>—<cite path="|11|07|01|.20">.20</cite> repealed and new Regulations <cite path="|11|07|01|.01">.01</cite>—<cite path="|11|07|01|.06">.06</cite> adopted effective March 24, 1986 (13:6 Md. R. 683)</annotation>
+    <annotation type="History" dest="container" effective="1993-06-07"><cite path="|11|07|01|.01">Regulation .01</cite> amended effective February 18, 1991 (18:3 Md. R. 306); June 7, 1993 (20:11 Md. R. 913)</annotation>
+    <annotation type="History" dest="container" effective="2014-08-04"><cite path="|11|07|01|.01|B.">Regulation .01B</cite> amended effective August 4, 2014 (41:15 Md. R. 891)</annotation>
+    <annotation type="History" dest="container" effective="1993-06-07">Regulation 02 amended effective June 7, 1993 (20:11 Md. R. 913)</annotation>
+    <annotation type="History" dest="container" effective="2014-08-04"><cite path="|11|07|01|.02|B.">Regulation .02B</cite>, C amended effective August 4, 2014 (41:15 Md. R. 891)</annotation>
+    <annotation type="History" dest="container" effective="1991-02-18"><cite path="|11|07|01|.02|C.">Regulation .02C</cite> amended effective February 18, 1991 (18:3 Md. R. 306)</annotation>
+    <annotation type="History" dest="container" effective="1993-06-07"><cite path="|11|07|01|.03">Regulation .03</cite> repealed and new Regulation .03 adopted effective June 7, 1993 (20:11 Md. R. 913)</annotation>
+    <annotation type="History" dest="container" effective="1993-06-07">Regulation 04 amended effective June 7, 1993 (20:11 Md. R. 913)</annotation>
+    <annotation type="History" dest="container" effective="1991-02-18"><cite path="|11|07|01|.04|D.">Regulation .04D</cite>, G amended effective February 18, 1991 (18:3 Md. R. 306)</annotation>
+    <annotation type="History" dest="container" effective="1991-02-18"><cite path="|11|07|01|.04|H.">Regulation .04H</cite>, I adopted effective February 18, 1991 (18:3 Md. R. 306)</annotation>
+    <annotation type="History" dest="container" effective="1993-06-07">Regulation 05 amended effective June 7, 1993 (20:11 Md. R. 913)</annotation>
+    <annotation type="History" dest="container" effective="1991-02-18"><cite path="|11|07|01|.05|A.">Regulation .05A</cite> amended effective February 18, 1991 (18:3 Md. R. 306)</annotation>
+    <annotation type="History" dest="container" effective="2014-08-04"><cite path="|11|07|01|.05|B.">Regulation .05B</cite> amended effective August 4, 2014 (41:15 Md. R. 891)</annotation>
+    <annotation type="History" dest="container" effective="2014-08-04"><cite path="|11|07|01|.06|A.">Regulation .06A</cite> amended effective February 18, 1991 (18:3 Md. R. 306); August 4, 2014 (41:15 Md. R. 891)</annotation>
+  </annotations>
+</container>

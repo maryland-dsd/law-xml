@@ -1,0 +1,548 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>01</num>
+  <heading>General</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Authority and Purpose.</heading>
+    <text>This chapter is promulgated as an aid to carry out the statutory provisions set forth in the <cite doc="Md. Code" path="gin">Insurance Article, Annotated Code of Maryland</cite>. Its purpose is to establish standards for the construction and application of all regulations heretofore and hereafter made in order to permit brevity, avoid needless repetition of language, and facilitate reference to related Code sections.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Applicability.</heading>
+    <text>This chapter applies to all persons subject to any laws enforced by the Maryland Insurance Administration.</text>
+  </section>
+  <section cache:ref-path="31|01|01|.03">
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Procedure.</heading>
+    <para>
+      <num>A.</num>
+      <text>Each regulation made, amended, altered, or modified shall be deemed to contain or be subject to the provisions of this regulation, whether or not it is incorporated by reference or by express language.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>References. Any reference to articles not otherwise designated means articles of the Annotated Code of Maryland, as amended, as of the date of effectiveness of the subject regulation. Any reference to the Article or the Insurance Article or to an individual article not otherwise designated means <cite doc="Md. Code" path="gin">Insurance Article, Annotated Code of Maryland</cite>. Any Code section reference not otherwise designated means the section of the Insurance Article so numbered. Any section, subsection, paragraph, or subparagraph reference not designated as a Code section and not otherwise designated means the section, subsection, paragraph, or subparagraph so numbered of the regulation in which the reference appears.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Definitions.</text>
+      <para>
+        <num>(1)</num>
+        <text>Unless a word is expressly defined in this title and the definition is applicable to a regulation or part of a regulation, any word used in any regulation shall have the meaning provided in the Insurance Article if applicable and as limited in the Insurance Article, including the list of definitions contained in <cite path="|31|01|01|.04">Regulation .04 of this chapter</cite>.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Notwithstanding <cite path="31|01|01|.03|C.|(1)">§C(1) of this regulation</cite>, in the case of a conflict between a definition in the Insurance Article and a definition in this title, the definition in the Insurance Article is controlling.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Interpretation. If there is an ambiguity in a regulation which permits an interpretation or application to a person or circumstance in conflict with the Insurance Article, the ambiguity shall be resolved so as to be in conformity with the Insurance Article.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Penalties. In addition to any other penalty provided, willful violation of any regulation issued under the provisions of <cite doc="Md. Code" path="gin|2-109">Insurance Article, §2-109, Annotated Code of Maryland</cite>, shall subject the violator to such penalties as may be applicable under the Insurance Article for violation of the provision to which the regulation relates. A penalties section reference list is attached as <cite path="|31|01|01|.05">Regulation .05 of this chapter</cite> but it should not be construed to represent necessarily a complete listing of all penalties provided in the Insurance Article.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Severability. If any provision of any regulation or the application of the regulation to any person or circumstance is held invalid, the invalidity does not affect other provisions or applications of the regulation which can be given effect without the invalid provision or application, and for this purpose the provisions of every regulation are declared to be separable.</text>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Gender and Number. The use of a masculine form in any regulation is deemed to include the feminine form unless the contrary is explicitly stated or clearly implied. The use of the singular of any word in any regulation is deemed to include the plural unless the contrary is explicitly stated or clearly implied.</text>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>"Includes" or "including" means, unless the context requires otherwise, includes or including by way of illustration and not by way of limitation.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Definitions Section Reference List.</heading>
+    <text>
+      <table class="layout-table">
+        <tbody>
+          <tr>
+            <td>Definitions</td>
+            <td>Section</td>
+          </tr>
+          <tr>
+            <td>Admitted Assets</td>
+            <td>5-101</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">Adviser</td>
+            <td data-vertical-align="middle">10-201(b)</td>
+          </tr>
+          <tr>
+            <td>Affiliate</td>
+            <td>7-101(b)</td>
+          </tr>
+          <tr>
+            <td>Alien Insurer</td>
+            <td>1-101(c)</td>
+          </tr>
+          <tr>
+            <td>Ancillary State</td>
+            <td>9-201(b)</td>
+          </tr>
+          <tr>
+            <td>Annuity</td>
+            <td>1-101(d)</td>
+          </tr>
+          <tr>
+            <td>Annuity Contract</td>
+            <td>1-101(e)</td>
+          </tr>
+          <tr>
+            <td>Association</td>
+            <td>25-401(b)</td>
+          </tr>
+          <tr>
+            <td>Attorney in fact</td>
+            <td>3-212(a)</td>
+          </tr>
+          <tr>
+            <td>Authorized Insurer</td>
+            <td>1-101(g)</td>
+          </tr>
+          <tr>
+            <td>Blanket Health Insurance</td>
+            <td>15-305</td>
+          </tr>
+          <tr>
+            <td>Burial Insurance</td>
+            <td>1-101(h)</td>
+          </tr>
+          <tr>
+            <td>Casualty Insurance</td>
+            <td>1-101(i)</td>
+          </tr>
+          <tr>
+            <td>Commissioner</td>
+            <td>1-101(k)</td>
+          </tr>
+          <tr>
+            <td>Control</td>
+            <td>7-101(c)</td>
+          </tr>
+          <tr>
+            <td>Controlled by</td>
+            <td>7-101(c)</td>
+          </tr>
+          <tr>
+            <td>Controlling</td>
+            <td>7-101(c)</td>
+          </tr>
+          <tr>
+            <td>Covered Claim</td>
+            <td>9-301(d)</td>
+          </tr>
+          <tr>
+            <td>Delinquency Proceedings</td>
+            <td>9-201(d)</td>
+          </tr>
+          <tr>
+            <td>Domestic Insurer</td>
+            <td>1-101(m)</td>
+          </tr>
+          <tr>
+            <td>Domiciliary State</td>
+            <td>9-201(e)</td>
+          </tr>
+          <tr>
+            <td>Doing an Insurance Business in This State</td>
+            <td>4-205(c)</td>
+          </tr>
+          <tr>
+            <td>Essential Property Insurance</td>
+            <td>25-401(d)</td>
+          </tr>
+          <tr>
+            <td>Foreign Country</td>
+            <td>9-201(f)</td>
+          </tr>
+          <tr>
+            <td>Foreign Insurer</td>
+            <td>1-101(n)</td>
+          </tr>
+          <tr>
+            <td>Franchise Health Insurance, Employees</td>
+            <td>15-1102(a)</td>
+          </tr>
+          <tr>
+            <td>Fraternal Benefit Societies, Society</td>
+            <td>8-402</td>
+          </tr>
+          <tr>
+            <td>General Assets</td>
+            <td>9-201(g)</td>
+          </tr>
+          <tr>
+            <td>Group Health Insurance</td>
+            <td>15-302</td>
+          </tr>
+          <tr>
+            <td>Group Health Insurance, Employees</td>
+            <td>15-302</td>
+          </tr>
+          <tr>
+            <td>Health Insurance</td>
+            <td>1-101(p)</td>
+          </tr>
+          <tr>
+            <td>Impaired Insurer</td>
+            <td>9-201(h)</td>
+          </tr>
+          <tr>
+            <td>Independent Insurance Producer</td>
+            <td>1-101(q)</td>
+          </tr>
+          <tr>
+            <td>Industrial Life Insurance</td>
+            <td>1-101(r)</td>
+          </tr>
+          <tr>
+            <td>Insurable Interest</td>
+            <td>12-301</td>
+          </tr>
+          <tr>
+            <td>Insurance</td>
+            <td>1-101(s)</td>
+          </tr>
+          <tr>
+            <td>Insurance Business</td>
+            <td>1-101(t)</td>
+          </tr>
+          <tr>
+            <td>Insurance Holding Company</td>
+            <td>7-101(d)</td>
+          </tr>
+          <tr>
+            <td>Insurance Holding Company System</td>
+            <td>7-101(e)</td>
+          </tr>
+          <tr>
+            <td>Insurance Producer</td>
+            <td>1-101(u)</td>
+          </tr>
+          <tr>
+            <td>Insurer</td>
+            <td>1-101(v)</td>
+          </tr>
+          <tr>
+            <td>Life Insurance</td>
+            <td>1-101(x)</td>
+          </tr>
+          <tr>
+            <td>Life Insurer</td>
+            <td>1-101(y)</td>
+          </tr>
+          <tr>
+            <td>Lodge System</td>
+            <td>8-402(b)</td>
+          </tr>
+          <tr>
+            <td>Marine Insurance</td>
+            <td>1-101(z)</td>
+          </tr>
+          <tr>
+            <td>Mutual Insurer</td>
+            <td>1-101(bb)</td>
+          </tr>
+          <tr>
+            <td>Net Direct Written Premiums</td>
+            <td>9-301(g)</td>
+          </tr>
+          <tr>
+            <td>Person</td>
+            <td>1-101(dd)</td>
+          </tr>
+          <tr>
+            <td>Policy</td>
+            <td>1-101(ee)</td>
+          </tr>
+          <tr>
+            <td>Preferred Claims</td>
+            <td>9-227(a)</td>
+          </tr>
+          <tr>
+            <td>Premium</td>
+            <td>1-101(ff)</td>
+          </tr>
+          <tr>
+            <td>Premium Finance Agreement</td>
+            <td>23-101(b)</td>
+          </tr>
+          <tr>
+            <td>Premium Finance Company</td>
+            <td>23-101(c)</td>
+          </tr>
+          <tr>
+            <td>Premiums Written</td>
+            <td>25-401(f)</td>
+          </tr>
+          <tr>
+            <td>Property Insurance</td>
+            <td>1-101(gg)</td>
+          </tr>
+          <tr>
+            <td>Public Adjuster</td>
+            <td>10-401(d)</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">Qualified Jurisdiction</td>
+            <td data-vertical-align="middle">5-901(d)</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">Qualified United States Financial Institution</td>
+            <td data-vertical-align="middle">5-901(e)</td>
+          </tr>
+          <tr>
+            <td>Receiver</td>
+            <td>9-201(j)</td>
+          </tr>
+          <tr>
+            <td>Reciprocal Insurance</td>
+            <td>1-101(hh)</td>
+          </tr>
+          <tr>
+            <td>Reciprocal Insurer</td>
+            <td>1-101(ii)</td>
+          </tr>
+          <tr>
+            <td>Reciprocal State</td>
+            <td>9-201(k)</td>
+          </tr>
+          <tr>
+            <td>Reinsurance</td>
+            <td>1-101(jj)</td>
+          </tr>
+          <tr>
+            <td>Residents</td>
+            <td>27-701</td>
+          </tr>
+          <tr>
+            <td>Representative Form of Government</td>
+            <td>8-402(c)</td>
+          </tr>
+          <tr>
+            <td>Secured Claim</td>
+            <td>9-201(l)</td>
+          </tr>
+          <tr>
+            <td>Special Deposit Claim</td>
+            <td>9-201(m)</td>
+          </tr>
+          <tr>
+            <td>State</td>
+            <td>1-101(mm)</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">State, Impaired Entities</td>
+            <td data-vertical-align="middle">9-201(n)</td>
+          </tr>
+          <tr>
+            <td>Stock Insurer</td>
+            <td>1-101(nn)</td>
+          </tr>
+          <tr>
+            <td>Subsidiary</td>
+            <td>7-101(f)</td>
+          </tr>
+          <tr>
+            <td>Surety Insurance</td>
+            <td>1-101(oo)</td>
+          </tr>
+          <tr>
+            <td>Title Insurance</td>
+            <td>1-101(qq)</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">Ultimate Controlling Person</td>
+            <td data-vertical-align="middle">7-101(h)</td>
+          </tr>
+          <tr>
+            <td>Unauthorized Insurer</td>
+            <td>1-101(rr)</td>
+          </tr>
+          <tr>
+            <td>Under Common Control With</td>
+            <td>7-101(c)</td>
+          </tr>
+          <tr>
+            <td>Unfair &amp; Deceptive Acts or Practices in the Business of Insurance</td>
+            <td>27-201</td>
+          </tr>
+          <tr>
+            <td>Unfair Methods of Competition</td>
+            <td>27-201</td>
+          </tr>
+          <tr>
+            <td>Wet Marine and Transportation Insurance</td>
+            <td>1-101(ss)</td>
+          </tr>
+          <tr>
+            <td>Wholesale Life Insurance</td>
+            <td>1-101(tt)</td>
+          </tr>
+        </tbody>
+      </table>
+    </text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Penalties Section Reference List.</heading>
+    <text>
+      <table class="layout-table">
+        <tbody>
+          <tr>
+            <td proof="needed"/>
+            <td>Section</td>
+          </tr>
+          <tr>
+            <td>Annual Statement Filing—Penalty</td>
+            <td>4-116</td>
+          </tr>
+          <tr>
+            <td>Insurance Producer—Fine in Lieu of Revocation, etc.</td>
+            <td>10-126(c)</td>
+          </tr>
+          <tr>
+            <td>Insurance Producer—Licenses</td>
+            <td>10-131</td>
+          </tr>
+          <tr>
+            <td>Insurance Producer—License Revocation, etc.</td>
+            <td>10-126</td>
+          </tr>
+          <tr>
+            <td>Insurance Producer—Restitution May Be Required</td>
+            <td>10-126(d)</td>
+          </tr>
+          <tr>
+            <td>Enforcement in Courts</td>
+            <td>2-201</td>
+          </tr>
+          <tr>
+            <td>False Applications, etc.</td>
+            <td>27-406</td>
+          </tr>
+          <tr>
+            <td>Fraternal Benefit Society, Domestic—Injunction, etc.</td>
+            <td>8-464</td>
+          </tr>
+          <tr>
+            <td>Fraternal Benefit Society—License Revocation, etc.</td>
+            <td>8-424(e)</td>
+          </tr>
+          <tr>
+            <td>Fraternal Benefit Society—Misrepresentation</td>
+            <td>8-468</td>
+          </tr>
+          <tr>
+            <td>General Crimnial Penalty, Willful Violation</td>
+            <td>1-301</td>
+          </tr>
+          <tr>
+            <td>Insurance Adviser—License Revocation, etc.</td>
+            <td>10-212</td>
+          </tr>
+          <tr>
+            <td>Insurer—Certificate of Authority Revocation, etc.</td>
+            <td>4-113, 8-424(e), 9-308(b)</td>
+          </tr>
+          <tr>
+            <td>Insurer—Penalties in Lieu of Revocation, etc.</td>
+            <td>4-113(d)</td>
+          </tr>
+          <tr>
+            <td>Nonprofit Health Service Plans—License Revocation</td>
+            <td>14-112</td>
+          </tr>
+          <tr>
+            <td>Nonprofit Health Service Plans—Criminal Penalties</td>
+            <td>14-140</td>
+          </tr>
+          <tr>
+            <td>Premium Finance Registrations—Revocation &amp; Fines</td>
+            <td>23-208, 23-209</td>
+          </tr>
+          <tr>
+            <td>Rating Violation—Casualty &amp; Surety Insurance</td>
+            <td>11-232</td>
+          </tr>
+          <tr>
+            <td>Rating Violation—Property &amp; Marine Insurance</td>
+            <td>11-232</td>
+          </tr>
+          <tr>
+            <td>Rating Violation—Title Insurance</td>
+            <td>11-409</td>
+          </tr>
+          <tr>
+            <td>Reciprocal Insurer—Certificate of Authority Revocation</td>
+            <td>3-208</td>
+          </tr>
+          <tr>
+            <td>Rules and Regulations</td>
+            <td>2-109(f)</td>
+          </tr>
+          <tr>
+            <td>Surplus Lines—Broker's Licenses</td>
+            <td>3-317</td>
+          </tr>
+          <tr>
+            <td>Surplus Lines—Evidence of Insurance—Misdemeanor</td>
+            <td>3-326</td>
+          </tr>
+          <tr>
+            <td>Unauthorized Insurers Premium Penalty For Late Payment</td>
+            <td>4-211</td>
+          </tr>
+          <tr>
+            <td>Unauthorized Insurers Act Violation</td>
+            <td>4-212</td>
+          </tr>
+          <tr>
+            <td>Unauthorized Insurers Premium Penalty</td>
+            <td>4-209</td>
+          </tr>
+          <tr>
+            <td>Undefined Unfair Trade Practices</td>
+            <td>27-104</td>
+          </tr>
+          <tr>
+            <td>Unfair Claim Settlement Practices</td>
+            <td>27-301—27-305</td>
+          </tr>
+          <tr>
+            <td>Unfair Trade Practices, Cease and Desist</td>
+            <td>27-103</td>
+          </tr>
+          <tr>
+            <td>Witnesses and Evidence, Failure to Comply With Subpoena, Inquiry</td>
+            <td>2-203</td>
+          </tr>
+        </tbody>
+      </table>
+    </text>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container"><cite doc="Md. Code" path="gin|2-109">Insurance Article, §2-109, </cite>Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="1970-06-20">Effective date: June 20, 1970</annotation>
+    <annotation type="History" dest="container" effective="1989-03-06">Appendix "B" amended effective March 6, 1989 (16:4 Md. R. 496)</annotation>
+    <annotation type="History" dest="container" effective="1998-09-07" discontinuity="true">Chapter recodified from <cite path="|09.30.01">COMAR 09.30.01</cite> to <cite path="|31.01.01">COMAR 31.01.01</cite> effective September 7, 1998 (25:18 Md. R. 1439)</annotation>
+    <annotation type="History" dest="container" effective="2015-11-09"><cite path="|31|01|01|.01">Regulation .01</cite> amended effective November 9, 2015 (42:22 Md. R. 1379)</annotation>
+    <annotation type="History" dest="container" effective="2005-05-23"><cite path="|31|01|01|.03|C.">Regulation .03C</cite> amended effective May 23, 2005 (32:10 Md. R. 926)</annotation>
+    <annotation type="History" dest="container" effective="2003-01-01"><cite path="|31|01|01|.03|H.">Regulation .03H</cite> adopted effective January 1, 2003 (29:20 Md. R. 1591)</annotation>
+    <annotation type="History" dest="container" effective="2015-11-09"><cite path="|31|01|01|.04">Regulation .04</cite> amended effective May 23, 2005 (32:10 Md. R. 926); November 9, 2015 (42:22 Md. R. 1379)</annotation>
+    <annotation type="History" dest="container" effective="2015-11-09"><cite path="|31|01|01|.05">Regulation .05</cite> amended effective May 23, 2005 (32:10 Md. R. 926); November 9, 2015 (42:22 Md. R. 1379)</annotation>
+  </annotations>
+</container>

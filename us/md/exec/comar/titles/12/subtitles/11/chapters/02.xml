@@ -1,0 +1,493 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>02</num>
+  <heading>Public Information Requests</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Purpose.</heading>
+    <text>A person shall use the following procedures to inspect or copy public records maintained by the Department of Public Safety and Correctional Services.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this subtitle, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>"Agency" means a unit of State government within the Department of Public Safety and Correctional Services under <cite doc="Md. Code" path="gcs|2-201">Correctional Services Article, §2-201, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>"Agency head" means the highest authority in an agency of the Department.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>"Applicant" has the meaning stated in <cite doc="Md. Code" path="gsg|10-611">State Government Article, §10-611(b), Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>"Custodian" has the meaning stated in <cite doc="Md. Code" path="gsg|10-611">State Government Article, §10-611(c), Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>"Department" means the Department of Public Safety and Correctional Services.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Official Custodian.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Official custodian" has the meaning stated in <cite doc="Md. Code" path="gsg|10-611">State Government Article, §10-611(d), Annotated Code of Maryland</cite>.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Official custodian", unless otherwise provided by law, is the agency head.</text>
+        </para>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>"Person" means an individual, corporation, partnership, firm, association, or governmental agency.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>"Person in interest" has the meaning stated in <cite doc="Md. Code" path="gsg|10-611">State Government Article, §10-611(c), Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>"Personal information" has the meaning stated in <cite doc="Md. Code" path="gsg|10-611">State Government Article, §10-611(f), Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>"Public record" has the meaning stated in <cite doc="Md. Code" path="gsg|10-611">State Government Article, §10-611(g), Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>"Secretary" means the Secretary of the Department of Public Safety and Correctional Services.</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>"Reasonable fee" has the meaning stated in <cite doc="Md. Code" path="gsg|10-621">State Government Article, §10-621(a), Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>"Sociological data" means:</text>
+        <para>
+          <num>(a)</num>
+          <text>Any of the following information concerning any person about whom a record is maintained by the Maryland State Police, the Police Training Commission, or the Correctional Training Commission:</text>
+          <para>
+            <num>(i)</num>
+            <text>Social security number;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Personal address;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Personal phone number;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Any information obtained by a personal history investigation;</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>Any information obtained through a doctor's examination;</text>
+          </para>
+          <para>
+            <num>(vi)</num>
+            <text>Any score from a GED certificate;</text>
+          </para>
+          <para>
+            <num>(vii)</num>
+            <text>Any transcript or information obtained from a high school, college or other approved educational institution; and</text>
+          </para>
+          <para>
+            <num>(viii)</num>
+            <text>Any information regarding marital status or dependents.</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Any of the following information concerning any person about whom a record is maintained by the Division of Parole and Probation or the Maryland Parole Commission:</text>
+          <para>
+            <num>(i)</num>
+            <text>Personal relationships, beliefs, values, etc.;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Identity of dependents and relatives;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Description and adequacy of housing facilities;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Finances including income, assets, liabilities, debt payments;</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>Address, occupation, and school status of family members;</text>
+          </para>
+          <para>
+            <num>(vi)</num>
+            <text>Information concerning the support and custody of children;</text>
+          </para>
+          <para>
+            <num>(vii)</num>
+            <text>Religious preference and attendance;</text>
+          </para>
+          <para>
+            <num>(viii)</num>
+            <text>Names of close associates;</text>
+          </para>
+          <para>
+            <num>(ix)</num>
+            <text>Evaluation by the agent of adjustment problems and attitudes (including risk and needs assessment information).</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Any of the following information concerning any person about which a record is maintained by the Patuxent Institution:</text>
+          <para>
+            <num>(i)</num>
+            <text>An inmate's family or family history;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Developmental history;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Work history;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Sexual development;</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>Medical or psychiatric history;</text>
+          </para>
+          <para>
+            <num>(vi)</num>
+            <text>Military service;</text>
+          </para>
+          <para>
+            <num>(vii)</num>
+            <text>Work release;</text>
+          </para>
+          <para>
+            <num>(viii)</num>
+            <text>School release;</text>
+          </para>
+          <para>
+            <num>(ix)</num>
+            <text>Parole progress.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>"Working day" means a day other than Saturday, Sunday, or a State holiday.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Who May Inspect or Copy a Public Record.</heading>
+    <text>A person may inspect or copy a public record unless that inspection is:</text>
+    <para>
+      <num>A.</num>
+      <text>An unwarranted invasion of the person in interest's privacy; or</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Prohibited by law or regulation.</text>
+    </para>
+  </section>
+  <section cache:ref-path="12|11|02|.04">
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Requesting to Inspect or Copy a Public Record.</heading>
+    <para>
+      <num>A.</num>
+      <text>Written Application. Unless exempt under <cite doc="Md. Code" path="gsg|10-614">State Government Article, §10-614(a)(2), Annotated Code of Maryland</cite>, a person requesting to inspect or copy a public record shall submit a written application to the custodian of the record to be inspected or copied.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Contents of Application to Inspect or Copy a Public Record. A person requesting to inspect or copy a public record shall submit a written application that:</text>
+      <para>
+        <num>(1)</num>
+        <text>Provides the person's name and address; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Identifies the record to be inspected or copied.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The applicant shall direct the application to the custodian of the record to be inspected or copied. If the custodian is unknown, the applicant may direct the request to the:</text>
+      <para>
+        <num>(1)</num>
+        <text>Secretary; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Department's Principal Counsel.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>If an application to inspect or copy a public record is received and the record requested is not under the charge of the receiving custodian, within 10 working days of receipt of the application, the receiving custodian shall notify the applicant:</text>
+      <para>
+        <num>(1)</num>
+        <text>That the application has been misdirected; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>One of the following:</text>
+        <para>
+          <num>(a)</num>
+          <text>If the proper custodian can be identified:</text>
+          <para>
+            <num>(i)</num>
+            <text>The name and address of that custodian; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>That the application was forwarded to the proper custodian; or</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>If the proper custodian cannot be identified, that the application was forwarded to the Office of the Secretary, where a designee shall:</text>
+          <para>
+            <num>(i)</num>
+            <text>Identify the proper custodian; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Notify the applicant as required under <cite path="12|11|02|.04|D.|(2)">§D(2) of this regulation</cite>.</text>
+          </para>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Processing an Application to Inspect or Copy a Public Record.</heading>
+    <text>A custodian receiving an application to inspect or copy a public record under that custodian's control:</text>
+    <para>
+      <num>A.</num>
+      <text>Shall grant or deny the request within 30 days of receipt of the application;</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Unless prohibited by law, may:</text>
+      <para>
+        <num>(1)</num>
+        <text>Notify a person in interest adversely affected by disclosure of a public record that an application to inspect or copy a public record related to the person in interest has been made; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Consider the views of the person in interest before granting a request to inspect or copy that public record; and</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>With the consent of the applicant, may extend time limits imposed by this regulation up to 30 days.</text>
+    </para>
+  </section>
+  <section cache:ref-path="12|11|02|.06">
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Inspecting or Copying a Public Record.</heading>
+    <para>
+      <num>A.</num>
+      <text>If the custodian grants a request, the custodian shall make the record available:</text>
+      <para>
+        <num>(1)</num>
+        <text>Immediately; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Within 30 days from the date of the request based on time required to retrieve the public record.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Time of Inspection. A custodian shall make a public record available for inspection or copying during the agency's normal working day.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Place of Inspection. A custodian shall require that the public record be inspected or copied at the location where the public record is maintained, unless the custodian determines that another location would better serve the needs of the individual inspecting or copying the public record or of the Department.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Availability of Records.</text>
+      <para>
+        <num>(1)</num>
+        <text>If a requested public record is not immediately available, the custodian shall, within 10 working days of receipt of the request:</text>
+        <para>
+          <num>(a)</num>
+          <text>Notify the applicant; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Establish a date and time that the public record will be available for inspection or copying.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If a requested public record cannot be made available, the custodian shall, within 10 working days of the request:</text>
+        <para>
+          <num>(a)</num>
+          <text>Notify the applicant; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Provide the reason the public record cannot be produced.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Reasonable Fees.</text>
+      <para>
+        <num>(1)</num>
+        <text>Before preparing for inspection, copying, or photographing of a public record, a custodian shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Based on <cite path="12|11|02|.06|E.|(3)">§E(3) of this regulation</cite>, estimate the cost of providing the record in the form requested;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Obtain agreement from the applicant to pay the fee based on the cost under <cite path="12|11|02|.06|E.|(1)|(a)">§E(1)(a) of this regulation</cite>; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Arrange for payment by the applicant.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Under <cite doc="Md. Code" path="gsg|10-621">State Government Article, §10-621, Annotated Code of Maryland</cite>, the official custodian may charge a reasonable fee to recover costs associated with the search for, preparation of, copying of, and photographing of a public record.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Unless otherwise established, the official custodian shall base the fee charged on costs for document searches, copies, printouts, photographs, or certified copies of a public record. The official custodian shall charge:</text>
+        <para>
+          <num>(a)</num>
+          <text>If a Department photocopy machine is used, 50 cents for each page copied;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The actual cost of obtaining each photograph;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>50 cents for each page or photograph certified as a true test copy, which is in addition to charges under §E(3)(a) and (b) of this regulation;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Except for the first 2 hours, for work time used searching, preparing, copying, or photographing a public record;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>If a copy or photograph of a public record is mailed or delivered to the applicant, for the actual cost of postage or delivery; and</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>If copying or photographing cannot be performed within the Department, for the actual cost, established by the public or private business providing the service.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The official custodian may not charge a fee if the total cost for providing the public record would be $1 or less.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The official custodian may waive or reduce a fee charged under this regulation if the official custodian:</text>
+        <para>
+          <num>(a)</num>
+          <text>Receives a request for a waiver or reduction of the fee from the applicant; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>After considering the applicant's ability to pay the fee and any other factors, determines that a waiver is in the best interest of the public.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Denial of a Request to Inspect or Copy a Public Record.</heading>
+    <para>
+      <num>A.</num>
+      <text>A custodian may deny a request to inspect or copy a public record under State Government Article, §§<cite doc="Md. Code" path="gsg|10-615">10-615</cite> —10-619, Annotated Code of Maryland.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>If a custodian denies a request to inspect or copy a public record, the custodian shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Immediately notify the applicant; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Within 10 working days, provide the applicant with a written statement that provides the:</text>
+        <para>
+          <num>(a)</num>
+          <text>Reason for the decision;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Legal basis for the decision; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Notice of remedies for review of the denial.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>If a portion of the public record can be inspected or copied and that portion can be separated from the portion that cannot be inspected or copied, the custodian shall provide the person inspecting or copying the public record the portion that can be inspected or copied.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Review of the Denial.</heading>
+    <para>
+      <num>A.</num>
+      <text>If a custodian denies a request to inspect or copy a public record for a reason other than the record is temporarily unavailable, the applicant may, within 30 days after receipt of the notice of the denial, request an administrative review of that denial.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>If the applicant requests an administrative review of the denial, the agency head shall require that the administrative review is conducted according to <cite doc="Md. Code" path="gsg">State Government Article, Title 10, Subtitle 2, Annotated Code of Maryland</cite> and <cite path="|12.11.04">COMAR 12.11.04</cite>. Under <cite doc="Md. Code" path="gsg|10-623">State Government Article, §10-623, Annotated Code of Maryland</cite>, a person adversely impacted by a decision under §A of this regulation may file a complaint with the circuit court.</text>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">State Government Article, Title 10, Subtitle 6; <cite doc="Md. Code" path="gcs|2-109">Correctional Services Article, §2-109</cite>; Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="1979-07-13">Effective date: July 13, 1979 (6:14 Md. R. 1208)</annotation>
+    <annotation type="History" dest="container" effective="1984-08-13">Chapter revised effective August 13, 1984 (11:16 Md. R. 1393)</annotation>
+    <annotation type="History" dest="container" effective="1991-02-04"><cite path="|12|11|02|.13|A.">Regulation .13A</cite> amended effective February 4, 1991 (18:2 Md. R. 151)</annotation>
+    <annotation type="History" dest="container" effective="2005-01-06" discontinuity="true">Chapter revised effective January 6, 2005 (31:26 Md. R. 1863)</annotation>
+    <annotation type="History" dest="container" discontinuity="true">Annotation: This chapter of regulations pertaining to the entire Department replaced individual chapters adopted by agencies within the department. These chapters, which were repealed, appeared at <cite path="|12.04.02">COMAR 12.04.02</cite>, <cite path="|12.06.11">12.06.11</cite>, <cite path="|12.07.02">12.07.02</cite>, <cite path="|12.09.02">12.09.02</cite>, <cite path="|12.10.02">12.10.02</cite>, <cite path="|12.12.01">12.12.01</cite>, <cite path="|12.13.01">12.13.01</cite>, <cite path="|12.14.02">12.14.02</cite>, and <cite path="|12.15.01">12.15.01</cite>.</annotation>
+  </annotations>
+</container>

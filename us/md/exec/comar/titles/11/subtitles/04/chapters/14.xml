@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>14</num>
+  <heading>Traffic Control Signal Monitoring Systems — Duration of Yellow Signal Indications</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Scope.</heading>
+    <text>This chapter, consistent with guidelines established by the Federal Highway Administration, establishes minimum yellow change intervals at each intersection where a traffic control signal monitoring system is in use.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>"Agency" means:</text>
+        <para>
+          <num>(a)</num>
+          <text>For a traffic control signal operated and maintained at an intersection under the control of the State, the law enforcement agency primarily responsible for traffic control at that intersection; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>For a traffic control signal operated and maintained at an intersection under the control of a political subdivision, a law enforcement agency of the political subdivision that is authorized to issue citations for a violation of the Maryland Vehicle Law or local traffic laws or regulations.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>"Approach grade" means the percent grade of the roadway approaching the signal, expressed as:</text>
+        <para>
+          <num>(a)</num>
+          <text>A positive number for an uphill grade; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A negative number for a downhill grade.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>"Approach speed" means the higher of the 85<sup>th</sup> percentile speed or the posted speed limit, in miles per hour (mph).</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>"Average day" means a day representing traffic volumes normally and repeatedly found at a location, typically a weekday when volumes are influenced by employment.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>"Deceleration rate" means the rate, expressed in feet per second per second (ft/sec<sup>2</sup>), required to stop a motor vehicle. Where, on an average day, heavy truck traffic comprises 15 percent or less of the vehicle traffic on the approach, a value of 10.0 ft/sec<sup>2</sup> shall be used. Where, on an average day, heavy truck traffic comprises more than 15 percent of the vehicle traffic on the approach, a value of 8.0 ft/sec<sup>2</sup> shall be used.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>"Eighty fifth percentile speed" means the speed, in miles per hour (mph), at or below which 85 percent of motor vehicles travel when not slowed by a yellow or red signal indication, traffic, weather, or other conditions.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>"Heavy truck" means a single unit truck with three or more axles, a tractor-trailer, or a tractor-semitrailer combination.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>"Traffic control signal monitoring system" means a device with one or more motor vehicle sensors working in conjunction with a traffic control signal to produce recorded images of motor vehicles entering an intersection against a red signal.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>"Yellow change interval" means the length of time (in seconds) that a traffic control signal displays a yellow indication before changing to red.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="11|04|14|.03">
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Minimum Yellow Change Intervals.</heading>
+    <para>
+      <num>A.</num>
+      <text>On any approach to a traffic signal where a traffic control monitoring system is in use, the agency shall ensure that the yellow change interval on that approach is not shorter in duration than that determined by the formula set forth in <cite path="11|04|14|.03|B.">§B of this regulation</cite>, following any adjustments required by <cite path="11|04|14|.03|C.">§C of this regulation</cite>.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Formula. The formula for calculating the yellow change interval (in seconds) is:</text>
+      <text>Y = 1.0 + ((0.733 X S)/(D + (0.32 X G)))</text>
+      <text>Where:</text>
+      <text>Y = yellow change interval (in seconds);</text>
+      <text>S = approach speed (in miles per hour);</text>
+      <text>D = deceleration rate (in ft/sec<sup>2</sup>);</text>
+      <text>G = approach grade (in percent).</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Adjustments to Calculated Yellow Change Interval.</text>
+      <para>
+        <num>(1)</num>
+        <text>The calculated yellow change interval shall be rounded up to the nearest half second.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If the calculated yellow change interval is less than 3.0 seconds, then the yellow change interval shall be 3.0 seconds.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If the calculated yellow change interval is greater than 6.0 seconds, then the yellow change interval shall be 6.0 seconds.</text>
+      </para>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container"><cite doc="Md. Code" path="gtr|21-202">Transportation Article, §21-202</cite>.1(b), Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container">Effective date:</annotation>
+    <annotation type="History" dest="container" effective="2004-09-27">Regulations <cite path="|11|04|14|.01">.01</cite>—<cite path="|11|04|14|.03">.03</cite> adopted as an emergency provision effective April 1, 2004 (31:11 Md. R. 855); adopted permanently effective September 27, 2004 (31:19 Md. R. 1433)</annotation>
+  </annotations>
+</container>

@@ -1,0 +1,310 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>01</num>
+  <heading>Civil Penalties</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Scope.</heading>
+    <text>This chapter applies to the violations set forth in <cite doc="Md. Code" path="gel|13-604">Election Law Article, §13-604</cite>.1, Annotated Code of Maryland.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Civil Penalties.</heading>
+    <text>
+      <table>
+        <tbody>
+          <tr>
+            <td proof="needed" data-vertical-align="middle"/>
+            <td data-text-align="center" data-vertical-align="middle">1<sup>st</sup> <br/>Offense</td>
+            <td data-text-align="center" data-vertical-align="middle">2<sup>nd</sup> <br/>Offense</td>
+            <td data-text-align="center" data-vertical-align="middle">3<sup>rd</sup> and <br/>Subsequent <br/>Offenses</td>
+          </tr>
+          <tr>
+            <td colspan="4" data-vertical-align="middle">A. Disbursement made by unauthorized individual</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">(1) If made by a person other than the responsible officers or candidate</td>
+            <td data-vertical-align="middle">$500</td>
+            <td data-vertical-align="middle">$1,000</td>
+            <td data-vertical-align="middle">$1,000</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">(2)  If made by a candidate</td>
+            <td data-vertical-align="middle">$1,000</td>
+            <td data-vertical-align="middle">$1,000</td>
+            <td data-vertical-align="middle">$1,000</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">(3) If made by the chairman and not in accordance with <cite doc="Md. Code" path="gel|13-218">Election Law Article, §13-218(d), Annotated Code of Maryland</cite></td>
+            <td data-vertical-align="middle">$500</td>
+            <td data-vertical-align="middle">$1,000</td>
+            <td data-vertical-align="middle">$1,000</td>
+          </tr>
+          <tr>
+            <td colspan="4" data-vertical-align="middle">B. Failure to maintain a campaign bank account</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">(1) No bank account</td>
+            <td data-vertical-align="middle">$100</td>
+            <td data-vertical-align="middle">$500</td>
+            <td data-vertical-align="middle">$1,000</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">(2)  Used personal or other account controlled by the responsible officers or candidate</td>
+            <td data-vertical-align="middle">$1,000</td>
+            <td data-vertical-align="middle">$1,000</td>
+            <td data-vertical-align="middle">$1,000</td>
+          </tr>
+          <tr>
+            <td colspan="4" data-vertical-align="middle">C. Disbursement by unauthorized methods</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">(1) Credit card disbursement</td>
+            <td data-vertical-align="middle">$200</td>
+            <td>$1,000</td>
+            <td>$1,000</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">(2) Cash disbursement greater than $25</td>
+            <td data-vertical-align="middle">$200</td>
+            <td>$1,000</td>
+            <td>$1,000</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">(3) Non-check disbursement for walk-around services</td>
+            <td data-vertical-align="middle">$200</td>
+            <td data-vertical-align="middle">$500</td>
+            <td>$1,000</td>
+          </tr>
+          <tr>
+            <td colspan="4" data-vertical-align="middle">D. Failure to maintain account books and records</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">(1) Loan documents</td>
+            <td data-vertical-align="middle">$500</td>
+            <td>$1,000</td>
+            <td>$1,000</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">(2) Bank records</td>
+            <td data-vertical-align="middle">$1,000</td>
+            <td>$1,000</td>
+            <td>$1,000</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">(3) Expenditure records</td>
+            <td data-vertical-align="middle">$200</td>
+            <td data-vertical-align="middle">$500</td>
+            <td>$1,000</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">(4) Campaign contribution records or receipts</td>
+            <td data-vertical-align="middle">$200</td>
+            <td data-vertical-align="middle">$500</td>
+            <td>$1,000</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">(5) Records for lump sum entries</td>
+            <td data-vertical-align="middle">$200</td>
+            <td data-vertical-align="middle">$500</td>
+            <td>$1,000</td>
+          </tr>
+          <tr>
+            <td colspan="4" data-vertical-align="middle">E. Failure to report contribution(s) on a campaign finance report</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">(1) Less than 10 contributions</td>
+            <td data-vertical-align="middle">$50</td>
+            <td data-vertical-align="middle">$350</td>
+            <td>$1,000</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">(2) Between 10 and 20 contributions</td>
+            <td data-vertical-align="middle">$150</td>
+            <td data-vertical-align="middle">$600</td>
+            <td>$1,000</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">(3) More than 20 contributions</td>
+            <td data-vertical-align="middle">$600</td>
+            <td data-vertical-align="middle">$1,000</td>
+            <td>$1,000</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">(4) Knowingly and willfully failed to disclose a contribution</td>
+            <td data-vertical-align="middle">$1,000</td>
+            <td data-vertical-align="middle">$1,000</td>
+            <td>$1,000</td>
+          </tr>
+          <tr>
+            <td colspan="4" data-vertical-align="middle">F. Failure to report expenditure(s) on a campaign finance report</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">(1) Less than 10 expenditures</td>
+            <td data-vertical-align="middle">$50</td>
+            <td data-vertical-align="middle">$350</td>
+            <td>$1,000</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">(2) Between 10 and 20 expenditures</td>
+            <td data-vertical-align="middle">$150</td>
+            <td data-vertical-align="middle">$600</td>
+            <td>$1,000</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">(3) More than 20 expenditures</td>
+            <td data-vertical-align="middle">$600</td>
+            <td data-vertical-align="middle">$1,000</td>
+            <td>$1,000</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">(4) Knowingly and willfully failed to disclose a expenditure</td>
+            <td data-vertical-align="middle">$1,000</td>
+            <td data-vertical-align="middle">$1,000</td>
+            <td>$1,000</td>
+          </tr>
+          <tr>
+            <td colspan="4" data-vertical-align="middle">G.  Failure to include authority line or authority line is insufficient</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">(1) No Authority Line</td>
+            <td data-vertical-align="middle">$250</td>
+            <td data-vertical-align="middle">$1,000</td>
+            <td data-vertical-align="middle">$1,000</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">(2) Present but missing one or more requirements</td>
+            <td data-vertical-align="middle">$50</td>
+            <td data-vertical-align="middle">$300</td>
+            <td data-vertical-align="middle">$750</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">H. Failure to retain a copy of campaign material</td>
+            <td data-vertical-align="middle">$500</td>
+            <td data-vertical-align="middle">$1,000</td>
+            <td data-vertical-align="middle">$1,000</td>
+          </tr>
+          <tr>
+            <td data-vertical-align="middle">I. Failure to receive affirmative consent by the contributor or donor for a recurring contribution or donation</td>
+            <td data-vertical-align="middle">$500</td>
+            <td data-vertical-align="middle">$1,000</td>
+            <td data-vertical-align="middle">$1,000</td>
+          </tr>
+          <tr>
+            <td colspan="4" data-vertical-align="middle">J. Failure to report contribution(s) on a statement required under <cite doc="Md. Code" path="gel|14-1014">Election Law Article, §14-1014, </cite>or <cite doc="Md. Code" path="ggp|5-716">General Provisions Article, §5-716, Annotated Code of Maryland</cite></td>
+          </tr>
+          <tr>
+            <td class="text-indent-1">(1) Less than 10 contributions</td>
+            <td>$50</td>
+            <td>$350</td>
+            <td>$1000</td>
+          </tr>
+          <tr>
+            <td class="text-indent-1">(2) Between 10 and 20 contributions</td>
+            <td>$150</td>
+            <td>$600</td>
+            <td>$1000</td>
+          </tr>
+          <tr>
+            <td class="text-indent-1">(3) More than 20 contributions</td>
+            <td>$600</td>
+            <td>$1000</td>
+            <td>$1000</td>
+          </tr>
+          <tr>
+            <td class="text-indent-1">(4) Knowingly and willfully failed to disclose a contribution</td>
+            <td>$1000</td>
+            <td>$1000</td>
+            <td>$1000</td>
+          </tr>
+          <tr>
+            <td>K. Failure to make a monetary contribution or donation in United States currency in violation of <cite doc="Md. Code" path="gel|13-238">Election Law Article, §13-238, Annotated Code of Maryland</cite></td>
+            <td>$750</td>
+            <td>$1000</td>
+            <td>$1000</td>
+          </tr>
+          <tr>
+            <td>L. Failure to make a monetary disbursement or expenditure in United States currency in violation of <cite doc="Md. Code" path="gel|13-250">Election Law Article, §13-250, Annotated Code of Maryland</cite></td>
+            <td>$750</td>
+            <td>$1000</td>
+            <td>$1000</td>
+          </tr>
+        </tbody>
+      </table>
+    </text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Additional Violation.</heading>
+    <para>
+      <num>A.</num>
+      <text>A campaign finance entity may not receive a contribution from an anonymous source.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The State Board of Elections shall deem a contribution as from an anonymous source if the campaign finance entity fails to maintain contribution records under Regulation .02D(4) or (5) of this chapter.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Pursuant to <cite doc="Md. Code" path="gel|13-239">Election Law Article, §13-239, Annotated Code of Maryland</cite>, the campaign finance entity may not use the contribution from an anonymous source for any purpose and shall remit the contribution to the Fair Campaign Financing Fund.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Civil Citation.</heading>
+    <para>
+      <num>A.</num>
+      <text>The assessed civil penalty shall be included in the civil citation issued by the State Board in accordance with <cite doc="Md. Code" path="gel|13-604">Election Law Article, §13-604</cite>.1(i), Annotated Code of Maryland.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The civil penalty issued under Regulation .02D(4) or (5) of this chapter shall include:</text>
+      <para>
+        <num>(1)</num>
+        <text>The civil citation; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Remittance of the contribution to the Fair Campaign Financing Fund.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The civil citation issued in accordance with <cite doc="Md. Code" path="gel|13-604">Election Law Article, §13-604</cite>.1(i), Annotated Code of Maryland may not include a civil penalty greater than $500 for each violation.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The State Board shall issue a civil citation seeking a civil penalty for violations pursuant to <cite doc="Md. Code" path="gel|13-235">Election Law Article, §13-235, Annotated Code of Maryland</cite>.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>The State Board shall permit a reduction in the assessment of a civil penalty without the issuance of a civil citation if the candidate or political committee voluntarily reports or agrees to the violation.</text>
+    </para>
+  </section>
+  <section cache:ref-path="33|18|01|.05">
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Payment.</heading>
+    <para>
+      <num>A.</num>
+      <text>Except as provided in <cite path="33|18|01|.05|B.">§B of this regulation</cite>, a civil penalty imposed under <cite path="|33|18|01|.02">Regulation .02 of this chapter</cite> shall be paid by the campaign finance entity that received the civil citation.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>If the campaign finance entity has insufficient funds to pay the full amount of the civil penalty, the remaining balance is the joint and several liability of the responsible officers.</text>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Election Law Article, §§<cite doc="Md. Code" path="gel|2-102">2-102</cite>(b)(<cite doc="Md. Code" path="gel|4">4</cite>), <cite doc="Md. Code" path="gel|13-235">13-235</cite>, <cite doc="Md. Code" path="gel|13-238">13-238</cite>, <cite doc="Md. Code" path="gel|13-239">13-239</cite>, <cite doc="Md. Code" path="gel|13-250">13-250</cite>, and <cite doc="Md. Code" path="gel|13-604">13-604</cite>.1, Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="2014-08-04">Effective date: August 4, 2014 (41:15 Md. R. 893)</annotation>
+    <annotation type="History" dest="container" effective="2023-05-29"><cite path="|33|18|01|.02">Regulation .02</cite> amended effective May 29, 2023 (50:10 Md. R. 407)</annotation>
+    <annotation type="History" dest="container" effective="2023-12-25"><cite path="|33|18|01|.02|K.">Regulation .02K</cite>, L adopted effective December 25, 2023 (50:25 Md. R. 1090)</annotation>
+    <annotation type="History" dest="container" effective="2016-02-29"><cite path="|33|18|01|.03|C.">Regulation .03C</cite> amended effective February 29, 2016 (43:4 Md. R. 338)</annotation>
+    <annotation type="History" dest="container" effective="2016-02-29"><cite path="|33|18|01|.04">Regulation .04</cite> amended effective February 29, 2016 (43:4 Md. R. 338)</annotation>
+  </annotations>
+</container>

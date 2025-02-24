@@ -1,0 +1,544 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>03</num>
+  <heading>Airport Noise Control Program</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>Acoustic Terminology.</text>
+      <para>
+        <num>(1)</num>
+        <text>"Annual day-night (average) sound level (L<sub>dn</sub>)" means for locations in the neighborhood of an airport, the day-night (average) sound level, in decibels, resulting from the effective annual average daily traffic and the utilization of runways and flight paths that affect the noise exposure at the location in question.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>"Average sound (noise) level (L<sub>eq</sub>)" means the constant sound level, in decibels, which, in a given situation and time period, would convey the same sound energy as does the actual time-varying sound during the same period. A-weighting is understood. Unless otherwise qualified, the average is reckoned over a 24-hour day, from midnight to midnight. The mathematical formulation of average sound level is as follows: If LA<sub>(t)</sub> represents the value of instantaneous A-weighted sound pressure level fluctuating with time, (See Formula Table below) where t<sub>1</sub> and t<sub>2</sub> are, respectively, the times marking the beginning and end of the observation period over which the average is reckoned.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>"Contours of equal noise exposure" means the locus of points on the ground with a given noise exposure.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>"Data range" means for a set of 24-hour measurements of L<sub>dn</sub>, the difference between the highest value and the lowest value of L<sub>dn</sub> in decibels.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>"Day-night (average) sound level (L<sub>dn</sub>)" means the average sound level, in decibels, reckoned over a 24-hour day with a 10 decibel weighting applied to the noise occurring during the nighttime period; that is, noise levels occurring at night are treated as though they were 10 dB higher than they actually are. The mathematical formulation of day-night sound level is as follows:</text>
+      </para>
+      <aftertext>See Formula Table below.</aftertext>
+      <para>
+        <num>(6)</num>
+        <text>"Daytime (average sound level (L<sub>d</sub>)" means the average sound level, in decibels, for the 15 hour time period between 0700 and 2200 (7a.m. to 10p.m.). The mathematical formulation for daytime sound level is as follows:</text>
+      </para>
+      <aftertext>See Formula Table below.</aftertext>
+      <para>
+        <num>(7)</num>
+        <text>"Decibel (dB)" means a division of the logarithmic scale customarily used to express the ratio of two like quantities proportional to power or energy.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>"Decibel scale" means a logarithmic scale used to express the ratio of two like quantities proportional to power or energy. The ratio is expressed on the decibel scale by multiplying its common logarithm by ten.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>"Hourly (average) sound level, (L<sub>h</sub>)" means the average sound level, in decibels, for a 1-hour period, usually reckoned between integral hours. There would be 24 such values per day. The mathematical formulation of hourly sound level is, for example:</text>
+      </para>
+      <aftertext>See Formula Table below.</aftertext>
+      <para>
+        <num>(10)</num>
+        <text>"Level (L)" means the ratio, expressed on the decibel scale, of two like quantities, the second of which is a standard reference quantity.</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>"Nighttime (average) sound level (L<sub>p</sub>)" means the average sound level, in decibels for the 9 hour period from 2200 to 0700 the next morning (10 p.m. to 7 a.m.). The mathematical formulation for nighttime sound level is as follows:</text>
+      </para>
+      <aftertext>See Formula Table below.</aftertext>
+      <para>
+        <num>(12)</num>
+        <text>"Sound level (noise level) (L<sub>A</sub>)" means the quantity in decibels measured by an instrument satisfying the requirements of American National Standard Specifications for Sound Level Meters, S1.4-1971, or its latest revision; that is, the frequency-weighted sound pressure level obtained with the standardized "fast" dynamic characteristic and the "A" frequency weighting of the sound level meter.</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>"Sound pressure (p)" expressed in micropascals, means a fluctuating pressure superimposed on the static atmospheric pressure in the presence of sound. Unless qualified, the term means root-mean-square sound pressure.</text>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>"Sound pressure level (L<sub>p</sub>)" means the squared ratio, expressed  the decibel scale, of the sound pressure under consideration to the standard reference pressure of 20 micropascals (= 20 micronewtons/square meter or 0.0002 dynes/square centimeter).</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Airport Terminology. The following terms refer to physical and operational characteristics of airports:</text>
+      <para>
+        <num>(1)</num>
+        <text>"Airport" means any airport licensed by the Administration.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>"Airport operator" means the licensee, or any person who is designated by the licensee as airport operator and who is made responsible to the licensee for the supervision and operation of the airport.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>"Effective annual average daily traffic "EAADT" means the standard daily volume of air traffic typifying airport operations, which is determined as follows:</text>
+        <para>
+          <num>(a)</num>
+          <text>Calculate the average number of airport operations for the 10 busiest days of the year:</text>
+        </para>
+      </para>
+      <aftertext>See Formula Table below.</aftertext>
+      <aftertext>N<sub>1</sub> through N<sub>10</sub> being the number of operations on the 10 busiest days;</aftertext>
+      <para>
+        <num>(b)</num>
+        <text>Eliminate from further consideration the number of days and the number of operations at the airport which are less than N/2;</text>
+      </para>
+      <para>
+        <num>(c)</num>
+        <text>The effective annual average daily traffic is the average number of daily operations for all the remaining days of the year.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>"Flight operation" means a single take-off, landing or flyby. (A "touch-and-go" counts as two operations.)</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>"Licensee" means the person, firm, agency, or political subdivision to whom the airport license is issued by the Executive Director.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>"Start of takeoff roll" means the position on a runway where an aircraft starts to accelerate in taking off.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>"Threshold" means that position on a runway, seen from the approach end, designated as the first point where a landing is permitted. The first point does not necessarily coincide with the start of paving.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>"Utilization" means the percentage of the total number of a specific category of operations, on an annual basis, that uses a particular runway or flight track.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Other Terminology. Other terms concerning airport noise regulation, but not specifically related to airports or acoustics, are as follows:</text>
+      <para>
+        <num>(1)</num>
+        <text>"Certified noise abatement plan" means a noise abatement plan accepted by the Executive Director for implementation by an airport operator.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>"Daytime" means 0700 to 2200 hours (7 a.m. to 10 p.m.).</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>"Nighttime" means 2200 to 0700 hours (10 p.m. to 7 a.m.).</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>"Noise abatement plan" means a detailed program of changes in airport operation which has as its goal the reduction or elimination of impacted land use areas.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="11|03|03|.02">
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Methods for Calculation and Measurement of Levels of Cumulative Noise Exposure.</heading>
+    <para>
+      <num>A.</num>
+      <text>Authority. <cite doc="Md. Code" path="gtr|5-805">Transportation Article, §5-805(a), Annotated Code of Maryland</cite>, authorizes the Executive Director, by regulation, to establish methods for the calculation or measurement of cumulative noise exposure values.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Noise Rating. The noise rating for description of exposure to aircraft noise shall be the day-night average sound level (L<sub>dn</sub>).</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Development of noise contours of equal noise exposure are to be determined using a prediction method in accordance with the procedures of §D, below. Measurements, undertaken in accordance with the procedure of <cite path="11|03|03|.02|E.">§E of this regulation</cite>, may be used to confirm the locations of contours of equal noise exposure.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Prediction Method.</text>
+      <para>
+        <num>(1)</num>
+        <text>Contours of equal noise exposure in terms of the day-night average sound level are to be prepared using a procedure designed to develop L<sub>dn</sub> contours based on data as described in this section. The use of a particular procedure is subject to the approval of the Executive Director.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Data Base. The following information is required to develop contours of equal noise exposure:</text>
+        <para>
+          <num>(a)</num>
+          <text>Map location and dimensions of all runways and the airport property line at a scale specified by the Executive Director.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Map location of landing threshold and start of takeoff roll for each direction on each runway. If there are several thresholds or start-of-roll points corresponding to different types of aircraft, these shall be noted with a clear description of the relevant aircraft types.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Map locations of engine runup and maintenance areas within the airport property.</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Map locations of flight tracks or descriptions of departure procedures for all arriving and departing aircraft and for traffic patterns, if any. If there are different flight tracks or procedures associated with different types of aircraft, these shall all be included. The scales of any maps shall be as specified by the Administration.</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Special flight procedures or restrictions, including, but not limited to, airspace management, curfews, and noise abatement procedures.</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Effective annual average daily numbers of flight operations by type of operation (landing, takeoff, touch-and-go), by aircraft type, by gross weight for takeoffs, by runway, by flight track, and by time of day.</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>Annual average daily number of engine maintenance runups by type, by duration, and by time of day (daytime or nighttime).</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>Flight profiles for arriving and departing aircraft.</text>
+        </para>
+        <para>
+          <num>(i)</num>
+          <text>The relationship of aircraft sound level to the distance between the aircraft and the ground location, by aircraft time and operation.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Measurement Method.</text>
+      <para>
+        <num>(1)</num>
+        <text>Noise Measurement System Requirements.</text>
+        <para>
+          <num>(a)</num>
+          <text>The system for the measurement of noise exposure shall provide the hourly sound level for each hour of the day, together with identification of the hour, and the measurement location.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The overall accuracy of a noise measurement system shall be +=/-1.5 dB.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The system shall be of a type approved by the Executive Director.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Measurement Requirements.</text>
+        <para>
+          <num>(a)</num>
+          <text>Measurement Conditions. Measurements shall be made when aircraft operations occur that affect the location being studied.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The number of 24-hour measurements of L<sub>dn</sub> shall be equal to the value given in the table below, depending on the data range in decibels for the set of measurements. For this purpose, the data range shall be determined from the field measured noise data. Noise measurements shall be continued at each location until the requirement of this article is satisfied.</text>
+          <text>
+            <table>
+              <tbody>
+                <tr>
+                  <td data-vertical-align="middle">
+                    <em>Data Range (dB)</em>
+                  </td>
+                  <td data-text-align="center" data-vertical-align="middle">
+                    <em>Required Number of<br/>Measurements</em>
+                  </td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">2</td>
+                  <td data-text-align="center" data-vertical-align="middle">3</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">3</td>
+                  <td data-text-align="center" data-vertical-align="middle">4</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">4</td>
+                  <td data-text-align="center" data-vertical-align="middle">5</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">5-6</td>
+                  <td data-text-align="center" data-vertical-align="middle">6</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">7</td>
+                  <td data-text-align="center" data-vertical-align="middle">7</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">8</td>
+                  <td data-text-align="center" data-vertical-align="middle">8</td>
+                </tr>
+              </tbody>
+            </table>
+          </text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Limits for Cumulative Noise Exposure.</heading>
+    <para>
+      <num>A.</num>
+      <text>Authority. <cite doc="Md. Code" path="gtr|5-804">Transportation Article, §5-804(a) </cite>mandates the Executive Director, by regulation, to adopt limits for cumulative noise exposure for residential land use and other categories of land use, on the basis of their noise sensitivity, with the endorsement of the Secretary of Transportation and the Secretary of the Environment and after a public hearing following 60 days notice.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Limits. Limits for cumulative noise exposure are hereby established</text>
+      <text>as follows:</text>
+      <text class="center">Limits for Cumulative Noise  Exposure (Annual Day-Night Average Sound Level, dB RE 20 micropascals)</text>
+      <text>Land Use ...................................................................................................................Effective 1 July 1975</text>
+      <para>
+        <num>(1)</num>
+        <text>Residential, single and two family; mobile homes ----------- 65</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Residential, multifamily, dormitories ---------------------- 65</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Schools, hospitals, rest homes, homes for the aged, nursing homes -- 65</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Libraries, churches ---------------------------------------- 65</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Transient lodging, hotels, motels -------------------------- 70</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Auditoriums, concert halls --------------------------------- 65</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Sports arenas, outdoor spectator sports -------------------- 70</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Playgrounds, neighborhood parks ---------------------------- 70</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>Golf courses, riding stables, water recreation, cemeteries - 75</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>Office buildings, personal, business, professional -------- 75</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>Commercial (retail), movie theaters, restaurants ---------- 75</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>Commercial (wholesale, some retail), industry, manufacturing utilities ------- 75</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>Manufacturing, communications, (noise sensitive) ---------- 70</text>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>Livestock farming, animal breeding ------------------------ 75</text>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>Agriculture (except livestock), mining, fishing ----- no limit</text>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>Aviation-related (hangars, runways, maintenance facilities) ------ no limit</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="11|03|03|.04">
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Duties of an Airport Operator.</heading>
+    <para>
+      <num>A.</num>
+      <text>Authority. Transportation Article, §§<cite doc="Md. Code" path="gtr|5-805">5-805</cite> and <cite doc="Md. Code" path="gtr|5-806">5-806</cite>, Annotated Code of Maryland, mandates the Executive Director to establish procedures which airport operators or the intended operators of new airports shall follow in accomplishing certain required actions which need to be approved by the Executive Director. These actions include:</text>
+      <para>
+        <num>(1)</num>
+        <text>Assessment of the noise environment created by the operation of their airports, including current conditions and projections of future usage;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Delineation of the noise zone, if any, base year and future year contours of equal noise exposure, and the identification of any impacted land-use areas;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Development of a plan to reduce or eliminate the impacted land-use area.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Development of Contours of Equal Noise Exposure.</text>
+      <para>
+        <num>(1)</num>
+        <text>An airport operator, or the intended operator of a proposed airport, shall prepare the airport data base described by <cite path="|11|03|03|.02|D.|(2)">Regulation .02D(2) of this chapter</cite>. The data are to be presented as maps and supplemental information in the manner required by the Executive Director, as described in §B(2)—(4) of this regulation.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Base Year Noise Contour. Contours of equal noise exposure shall be developed representing cumulative noise levels for a full 12-month period that typifies current airport operations. The base year for a proposed airport is the initial year of operation.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Future Year Noise Contours. Contours of equal noise exposure shall be developed representing projected cumulative noise levels for a full 12-month period expected 5 years beyond the year of certification for all airports, and 10 years beyond the year of certification for air carrier airports.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Airport Noise Zone. When base year or future year contours of equal noise exposure include land uses within which the cumulative noise exposure is equal to or greater than the lowest limit for cumulative noise exposure established in <cite path="|11|03|03|.03|B.">Regulation .03B of this chapter</cite>, a composite of the base and future years' noise contours shall be developed as an airport noise zone that provides the greatest protection to public health and welfare.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Data supporting the contours of equal noise exposure developed under <cite path="11|03|03|.04|B.">§B of this regulation</cite> shall be submitted to the Executive Director according to the following schedule:</text>
+      <para>
+        <num>(1)</num>
+        <text>Airports shall submit data when required as part of an environmental impact study or by the Administration;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Airports shall submit data by July 1 of each 5th year pursuant to <cite doc="Md. Code" path="gtr|5-805">Transportation Article, §5-805(c), Annotated Code of Maryland</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The Executive Director may prepare contours of equal noise exposure at the request of the airport operator. The Executive Director shall maintain the aircraft data base described under Regulation .02D(2)(a)—(i) of this chapter.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Determination of Impacted Land Use Areas.</text>
+      <para>
+        <num>(1)</num>
+        <text>An airport operator shall obtain or prepare a map at a scale specified by the Administration showing land use within the noise zone of the airport as described under <cite path="11|03|03|.04|B.|(3)">§B(3) of this regulation</cite>. All land uses shall be defined in terms consistent with the land use descriptions in <cite path="|11|03|03|.03">Regulation .03 of this chapter</cite> and pursuant to <cite doc="Md. Code" path="gtr|5-805">Transportation Article, §5-805, Annotated Code of Maryland</cite>. For proposed airports, the land uses are those anticipated at the time of initial airport operation.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The operator shall identify impacted land-use areas, if any, and prepare a map clearly indicating the impacted land-use areas for any of the periods investigated in compliance with <cite doc="Md. Code" path="gtr|5-805">Transportation Article, §5-805(a)(1), </cite>(2), and (3), Annotated Code of Maryland. The Executive Director, at the request of the operator, may assist in the identification of impacted land-use areas.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If no impacted land-use areas exist, or will exist for any of the periods investigated, the operator shall submit a proposal to the Executive Director for certification of a noise zone for the airport. The noise zone shall be the one that provides, by its extent, the greatest protection to the public health and welfare.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>If impacted land-use areas exist, or will exist for any of the periods investigated, the operator shall develop and implement a noise abatement plan in accordance with the procedures of <cite path="11|03|03|.04|F.">§F of this regulation</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Noise Abatement Plans.</text>
+      <para>
+        <num>(1)</num>
+        <text>The goal of a noise abatement plan is the reduction or elimination of impacted land-use area.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An airport operator shall develop proposals for noise abatement plans which can meet this goal through the use of available methods in accordance with the <cite doc="Md. Code" path="gtr|5-805">Transportation Article, §5-805(a) </cite>and (b), Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Noise abatement plans shall be submitted to the Executive Director for approval and certification of the noise zone in accordance with <cite doc="Md. Code" path="gtr|5-805">Transportation Article, §5-805, Annotated Code of Maryland</cite>. The noise zone shall be the one that provides, by its extent, the greatest protection to the public health and welfare in accordance with <cite doc="Md. Code" path="gtr|5-804">Transportation Article, §5-804, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Airport operators shall implement approved plans consistent with provisions of <cite doc="Md. Code" path="gtr|5-806">Transportation Article, §5-806, Annotated Code of Maryland</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Airport operators required to develop noise abatement plans shall periodically submit reports detailing progress in implementation of the approved noise abatement plans as may be deemed necessary by the Administration.</text>
+    </para>
+  </section>
+  <section cache:ref-path="11|03|03|.05">
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Permits for Construction Within the Noise Zone Surrounding a State-Owned Airport.</heading>
+    <para>
+      <num>A.</num>
+      <text>Authority. <cite doc="Md. Code" path="gtr|5-821">Transportation Article, §5-821, Annotated Code of Maryland</cite>, authorizes the Executive Director, by regulation, to issue permits for new construction within the noise zone surrounding State-owned airports.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Permits.</text>
+      <para>
+        <num>(1)</num>
+        <text>Except as provided in <cite path="11|03|03|.05|B.|(3)">§B(3) of this regulation</cite>, a person wishing to establish or construct a new structure, or to make new uses of land or structures, or to replace existing structures, or to make substantial changes in a structure or use of land, or to make substantial repairs to a structure within the noise zone surrounding a State-owned airport, shall obtain a permit from the Executive Director before the undertaking may begin.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Application for the permits shall be in a form required by the Executive Director, and shall include:</text>
+        <para>
+          <num>(a)</num>
+          <text>A full description of the project use;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A description of the project location, including Maryland grid coordinates.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Notwithstanding <cite path="11|03|03|.05|B.|(1)">§B(1) of this regulation</cite>, the Administration may not require a person to obtain a permit to construct an addition to a residential structure in a noise zone if the:</text>
+        <para>
+          <num>(a)</num>
+          <text>Resultant improved structure retains the same number of family dwelling units; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Addition is not made eligible for participation in those State-funded noise assistance programs established by <cite doc="Md. Code" path="gtr">Transportation Article, Title 5, Subtitle 12, Annotated Code of Maryland</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>In accordance with <cite doc="Md. Code" path="gtr|5-821">Transportation Article, §5-821, Annotated Code of Maryland</cite>, the Executive Director may not grant a permit if the proposed action will enlarge the size of or create an impacted land-use area or violate local land-use and zoning laws.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Variances are available only in accordance with the provisions of <cite doc="Md. Code" path="gtr|5-822">Transportation Article, §5-822(a) </cite>and (b), Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>For purposes of administration of this regulation the following terms are defined:</text>
+        <para>
+          <num>(a)</num>
+          <text>"Substantial change in a structure" means any change in a residential structure when the value of the work is greater than $5,000 or when change results in additional independent living units or increased habitable floor area, or a change in a nonresidential structure when the value of the work is greater than $5,000.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Substantial repairs" means repairs other than those needed to keep existing structures in sound condition.</text>
+        </para>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Unless a person has an appropriate permit issued by the Administration or a variance granted by the Board of Airport Zoning Appeals, a political subdivision may not approve a final subdivision plan or issue any permit that is prerequisite to the construction of improvements in a noise zone established pursuant to <cite doc="Md. Code" path="gtr|5-821">Transportation Article, §5-821, Annotated Code of Maryland</cite>.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Severability.</heading>
+    <text>The provisions of these regulations are intended to be severable, and the finding by any court that any provision is invalid may not affect the validity of the remaining portions, except to the extent that the court finds the remaining portions alone are incomplete and incapable of being enforced.</text>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Transportation Article, §§<cite doc="Md. Code" path="gtr|5-204">5-204</cite>(d)(<cite doc="Md. Code" path="gtr|4">4</cite>), <cite doc="Md. Code" path="gtr|5-208">5-208</cite>(a) and (b), and 5-801 et seq., Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="1975-08-06">Effective date: August 6, 1975 (2:17 Md. R. 1192)</annotation>
+    <annotation type="History" dest="container" effective="1977-02-02">Regulations .03 and .05 amended effective February 2, 1977 (4:3 Md. R. 146)</annotation>
+    <annotation type="History" dest="container">Chapter recodified from <cite path="|11.03.14">COMAR 11.03.14</cite> to <cite path="|11.03.03">11.03.03</cite></annotation>
+    <annotation type="History" dest="container" effective="2000-10-16"><cite path="|11|03|03|.01|B.">Regulation .01B</cite> amended effective October 29, 1990 (17:21 Md. R. 2530); October 16, 2000 (27:20 Md. R. 1840)</annotation>
+    <annotation type="History" dest="container" effective="2000-10-16"><cite path="|11|03|03|.01|C.">Regulation .01C</cite> amended effective October 16, 2000 (27:20 Md. R. 1840)</annotation>
+    <annotation type="History" dest="container" effective="2000-10-16"><cite path="|11|03|03|.02">Regulation .02</cite> amended effective October 16, 2000 (27:20 Md. R. 1840)</annotation>
+    <annotation type="History" dest="container" effective="2000-10-16"><cite path="|11|03|03|.03|A.">Regulation .03A</cite> amended effective October 29, 1990 (17:21 Md. R. 2530); October 16, 2000 (27:20 Md. R. 1840)</annotation>
+    <annotation type="History" dest="container" effective="2000-10-16"><cite path="|11|03|03|.04">Regulation .04</cite> amended effective October 29, 1990 (17:21 Md. R. 2530); August 30, 1993 (20:17 Md. R. 1347); October 16, 2000 (27:20 Md. R. 1840)</annotation>
+    <annotation type="History" dest="container" effective="2000-10-16"><cite path="|11|03|03|.05">Regulation .05</cite> amended effective October 29, 1990 (17:21 Md. R. 2530); October 16, 2000 (27:20 Md. R. 1840)</annotation>
+  </annotations>
+</container>

@@ -1,0 +1,1300 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>01</num>
+  <heading>Small Employer Health Benefit Plan Premium Subsidy Program</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Scope.</heading>
+    <para>
+      <num>A.</num>
+      <text>This chapter only applies to the Small Employer Health Benefit Plan Premium Subsidy Program as authorized by Insurance Article, §§<cite doc="Md. Code" path="gin|15-12">15-12</cite>A-<cite doc="Md. Code" path="gin|01">01</cite> — 15-12A-05, Annotated Code of Maryland.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Premium subsidies authorized under this chapter shall only be provided for health benefit plans that also comply with the provisions of <cite path="|31.11.06">COMAR 31.11.06</cite>.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>"Affiliated companies" means companies that are eligible to file a consolidated federal income tax return.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>"Average wage of business" means the average of the annual wage of all eligible employees; for each eligible owner, the wage used to calculate the average for the business shall be the lesser of:</text>
+        <para>
+          <num>(a)</num>
+          <text>The eligible owner's countable wage; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The eligible owner's adjusted gross income.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>"Carrier" has the meaning stated in <cite doc="Md. Code" path="gin|15-1201">Insurance Article, §15-1201(c), Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>"COMAR" means the Code of Maryland Regulations.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>"Commission" means the Maryland Health Care Commission.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>"Commission registry" means a web-based utility by which employers and employees are enrolled in the Premium Subsidy Program.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>"Commission's official website" means http://mhcc.maryland.gov/.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>"Designated financial institution" means one or more financial institutions with whom the participating carrier has made arrangements for administration of HSAs in conjunction with the participating carrier's HSA compatible health benefit plan.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>"Eligible employee" means an individual who:</text>
+        <para>
+          <num>(a)</num>
+          <text>Works on a full-time basis and has a normal workweek of at least 30 hours; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Is either:</text>
+          <para>
+            <num>(i)</num>
+            <text>An employee;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>A partner of a partnership;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>An eligible owner; or</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>An independent contractor who is included as an employee under a health benefit plan.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>Eligible Owner.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Eligible owner" means:</text>
+          <para>
+            <num>(i)</num>
+            <text>A person with a 20 percent or greater financial interest in a small employer who works at least 30 hours per week for that small employer; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>An Executive Director of a nonprofit corporation that has been determined by the Internal Revenue Service to be exempt from taxation under §501(c)(3), (4), or (6) of the Internal Revenue Code who works at least 30 hours per week for that small employer.</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Eligible owner" includes an eligible owner's spouse who works at least 30 hours per week for the small employer.</text>
+        </para>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>"Eligible owner's adjusted gross income" means an amount equal to the adjusted gross income reported on the eligible owner's individual federal tax return or 50 percent of the adjusted gross income reported on the eligible owner's joint federal tax return for the most recent year.</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>"Eligible owner's countable wage" means an amount published by the Commission used to calculate the average wage of a small employer.</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>"Employee premium" means the amount of the premium that is paid by the employee for that employee's selected type of coverage.</text>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>"Employee premium subsidy" means, for a given employee's selected type of coverage, the amount of the premium subsidy that shall be passed through to the enrolled employee by the employer in the form of reduced payroll deductions for the health benefit plan.</text>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>"Employee's eligible HSA contribution" means the lesser of:</text>
+        <para>
+          <num>(a)</num>
+          <text>An amount published by the Commission; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>An employee's contribution to an HSA, made through regular payroll deductions deposited by the employer on behalf of the employee in the employee's HSA established at the carrier's designated financial institution.</text>
+        </para>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>Employee Wage.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Employee wage" means, for a given eligible employee, the employee's estimated annual earnings at the time of initial or renewal application for the Premium Subsidy Program, including any salary, wages, commissions, bonuses, profit sharing, and reportable tips.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Employee wage" includes, for purposes of this program, income received from an employee's ownership interest in the business.</text>
+        </para>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>"Employer's eligible HSA contribution" means an annual contribution to an employee's HSA:</text>
+        <para>
+          <num>(a)</num>
+          <text>Established at the carrier's designated financial institution;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Made by an employer according to a commitment made at enrollment or renewal;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Equal for all employees choosing a given HSA-compatible health benefit plan; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Contributed either in a single payment at the beginning of the policy year or in equal installments throughout the policy year.</text>
+        </para>
+      </para>
+      <para>
+        <num>(18)</num>
+        <text>"Enrolled employee" means an eligible employee approved by the Commission to receive the premium subsidy.</text>
+      </para>
+      <para>
+        <num>(19)</num>
+        <text>"Enrolled employer" means a small employer approved by the Commission to receive the premium subsidy.</text>
+      </para>
+      <para>
+        <num>(20)</num>
+        <text>"Family" has the meaning stated in <cite path="31.11.06.02|B.|(19)">COMAR 31.11.06.02B(19)</cite>.</text>
+      </para>
+      <para>
+        <num>(21)</num>
+        <text>Family Adjusted Gross Income.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Family adjusted gross income" means, for an unmarried employee and for a married employee filing jointly, the adjusted gross income reported on the employee's most recent federal tax return.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Family adjusted gross income", for a married employee filing separately, means the sum of the adjusted gross income reported on the employee's most recent federal tax return and the adjusted gross income reported on the most recent federal tax return of the employee's spouse.</text>
+        </para>
+      </para>
+      <para>
+        <num>(22)</num>
+        <text>"Health benefit plan" has the meaning stated in <cite doc="Md. Code" path="gin|15-1201">Insurance Article, §15-1201(f), Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(23)</num>
+        <text>"Health insurance" has the meaning stated in <cite doc="Md. Code" path="gin|1-101">Insurance Article, §1-101(p), Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(24)</num>
+        <text>"Health savings account (HSA)" means a health savings account as defined in the Medicare Prescription Drug, Improvement and Modernization Act of 2003, Title 12, §1201(a), as codified at Part VII, Subchapter B, Chapter 1, §223(d) of the Internal Revenue Code.</text>
+      </para>
+      <para>
+        <num>(25)</num>
+        <text>"Individual coverage" means a health benefit plan that insures an individual employee only.</text>
+      </para>
+      <para>
+        <num>(26)</num>
+        <text>"Initial application" means a subsidy applicant's first application to receive the premium subsidy.</text>
+      </para>
+      <para>
+        <num>(27)</num>
+        <text>"Licensed insurance producer" has the meaning stated in <cite doc="Md. Code" path="gin|1-101">Insurance Article, §1-101(w), Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(28)</num>
+        <text>"Maximum average wage for new applications" means an amount published by the Commission that represents the maximum average annual wage at which an employer not currently participating in the Premium Subsidy Program is eligible to apply for participation.</text>
+      </para>
+      <para>
+        <num>(29)</num>
+        <text>"Maximum average wage for participants" means an amount published by the Commission that represents the maximum average annual wage, calculated at time of renewal, at which an enrolled employer may continue to participate in the Premium Subsidy Program.</text>
+      </para>
+      <para>
+        <num>(30)</num>
+        <text>"Maximum eligible firm size" means a number published by the Commission that represents the largest number of eligible employees a small business may have at the time of policy renewal and still be eligible for participation in the Premium Subsidy Program.</text>
+      </para>
+      <para>
+        <num>(31)</num>
+        <text>"Maximum income for other than individual coverage" means an amount published by the Commission that represents the maximum family adjusted gross income at which an eligible employee may receive a premium subsidy for other than individual coverage.</text>
+      </para>
+      <para>
+        <num>(32)</num>
+        <text>"Maximum subsidy table" means a table published by the Commission that describes, for each type of coverage and average wage of business, the maximum premium subsidy that may be provided for each employee electing that type of coverage.</text>
+      </para>
+      <para>
+        <num>(32-1)</num>
+        <text>"Minimum countable wage" means an amount published by the Commission that represents the minimum annual wage for an eligible employee that can be used to calculate the average wage of a small employer.</text>
+      </para>
+      <para>
+        <num>(33)</num>
+        <text>"Other than individual coverage" means the following types of coverage:</text>
+        <para>
+          <num>(a)</num>
+          <text>Individual plus children;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Individual plus spouse; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Individual plus children and spouse.</text>
+        </para>
+      </para>
+      <para>
+        <num>(34)</num>
+        <text>"Participating carrier" means a carrier who:</text>
+        <para>
+          <num>(a)</num>
+          <text>Participates in the Maryland small group market as defined under <cite path="|31.11.06">COMAR 31.11.06</cite>;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Agrees to offer a qualifying health plan; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Enters into a written participation agreement with the Commission.</text>
+        </para>
+      </para>
+      <para>
+        <num>(35)</num>
+        <text>"Policy" has the meaning stated in <cite doc="Md. Code" path="gin|1-101">Insurance Article, §1-101(ee), Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(36)</num>
+        <text>"Policy year" means a 365-day period that begins on the policy's effective date or a period of 1 full calendar-year, under a health benefit plan providing coverage to employers and their employees, as defined in the policy.</text>
+      </para>
+      <para>
+        <num>(37)</num>
+        <text>"Premium" has the meaning stated in <cite doc="Md. Code" path="gin|1-101">Insurance Article, §1-101(ff), Annotated Code of Maryland</cite>, applied to a given employee's selected type of coverage.</text>
+      </para>
+      <para>
+        <num>(38)</num>
+        <text>"Premium subsidy" means the amount paid to the participating carrier by the State in order to reduce the premium paid by the enrolled employer for a given eligible employee's selected type of coverage.</text>
+      </para>
+      <para>
+        <num>(39)</num>
+        <text>"Premium Subsidy Program" means the Small Employer Health Benefit Plan Premium Subsidy Program, as defined in <cite doc="Md. Code" path="gin|15-12">Insurance Article, §15-12</cite>A-02, Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(40)</num>
+        <text>"Prominent carrier" means a carrier that insures at least 10 percent of the total lives insured in the small group market.</text>
+      </para>
+      <para>
+        <num>(41)</num>
+        <text>"Qualifying health plan" means a Comprehensive Standard Health Benefit Plan, as defined under <cite path="|31.11.06">COMAR 31.11.06</cite>, together with riders, that includes a wellness benefit defined in <cite doc="Md. Code" path="gin|15-1201">Insurance Article, §15-1201(s), Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(42)</num>
+        <text>"Quarterly wage reports" means the reporting of wages on quarterly employment reports as described in <cite path="09.32.01.14">COMAR 09.32.01.14</cite>.</text>
+      </para>
+      <para>
+        <num>(43)</num>
+        <text>"Renewal application" means an application designated by the Commission for applying for renewal of the premium subsidy.</text>
+      </para>
+      <para>
+        <num>(44)</num>
+        <text>"Section 125 Payroll Deduction Plan" means a payroll deduction plan pursuant to §125 of the Internal Revenue Code.</text>
+      </para>
+      <para>
+        <num>(45)</num>
+        <text>"Size factor" means a factor published by the Commission, based on the number of eligible employees of a small employer at the time of policy renewal, and used to calculate the premium subsidy.</text>
+      </para>
+      <para>
+        <num>(46)</num>
+        <text>"Small employer" has the meaning stated in <cite doc="Md. Code" path="gin|15-1201">Insurance Article, §15-1201, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(47)</num>
+        <text>"Subsidy administrator" means one or more entities:</text>
+        <para>
+          <num>(a)</num>
+          <text>Designated by the participating carrier to administer enrollment, registration, billing, accounting, or reconciliation on behalf of the participating carrier; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>That is either a component of the carrier organization, or a separate entity under contract with the participating carrier that is bonded and subject to audit by the participating carrier and the Commission.</text>
+        </para>
+      </para>
+      <para>
+        <num>(48)</num>
+        <text>"Subsidy applicant" means either an employer or employee applying to receive the premium subsidy.</text>
+      </para>
+      <para>
+        <num>(49)</num>
+        <text>"Subsidy application" means an application designated by the Commission to be completed, signed, and submitted in order for the Commission to determine eligibility for the Premium Subsidy Program.</text>
+      </para>
+      <para>
+        <num>(50)</num>
+        <text>"Subsidy program cap" means a dollar amount published by the Commission that represents the Commission's estimate of the total annualized subsidy payment that is sustainable.</text>
+      </para>
+      <para>
+        <num>(51)</num>
+        <text>"Total premium" means the sum of all premiums for coverage under the employer's health benefit plan.</text>
+      </para>
+      <para>
+        <num>(52)</num>
+        <text>"Total premium subsidy" means the sum of all premium subsidies for coverage under the employer's health benefit plan.</text>
+      </para>
+      <para>
+        <num>(53)</num>
+        <text>"Type of coverage" means the choice of coverage for each eligible employee's health benefit plan, specifically:</text>
+        <para>
+          <num>(a)</num>
+          <text>Individual only;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Individual plus children;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Individual plus spouse; or</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Individual plus children and spouse.</text>
+        </para>
+      </para>
+      <para>
+        <num>(54)</num>
+        <text>"Wellness benefit" has the meaning stated in <cite doc="Md. Code" path="gin|15-201">Insurance Article, §15-201, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(55)</num>
+        <text>"Written participation agreement" means a contract between a participating carrier and the Commission that defines:</text>
+        <para>
+          <num>(a)</num>
+          <text>The terms and conditions of the participating carrier's involvement in the Premium Subsidy Program; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The roles and responsibilities of the subsidy administrator in administering the Premium Subsidy Program.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Purpose.</heading>
+    <text>The Premium Subsidy Program is designed to:</text>
+    <para>
+      <num>A.</num>
+      <text>Provide an incentive for small employers to offer and maintain a small employer health benefit plan for their employees;</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Help low and moderate wage employees of small employers afford health benefit plan premiums;</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Promote access to health care services, particularly preventive health care services that might reduce the need for emergency room care and other acute care services; and</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Reduce uncompensated care in hospitals and other health care settings.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Employer Eligibility.</heading>
+    <para>
+      <num>A.</num>
+      <text>A small employer is eligible to receive a premium subsidy if, at the time of initial application for the premium subsidy, the employer:</text>
+      <para>
+        <num>(1)</num>
+        <text>Meets the requirements under <cite doc="Md. Code" path="gin|15-1203">Insurance Article, §15-1203(b)(i), Annotated Code of Maryland</cite>;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Has been in operation for at least 12 months and, if required to file quarterly wage reports, has filed quarterly wage reports with the Maryland Department of Labor for, at a minimum, the three calendar quarters immediately preceding initial application for the premium subsidy;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Has not offered a health benefit plan to its employees for at least 12 consecutive months immediately before initial application for the premium subsidy;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Employed at least two but not more than nine eligible employees:</text>
+        <para>
+          <num>(a)</num>
+          <text>At the time the employer's subsidy application is entered into the Commission registry; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>On at least 50 percent of its working days during the preceding calendar quarter;</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Has an average wage of business that does not exceed the maximum average wage for new applications;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Agrees to offer a health benefit plan to its eligible employees that contains a wellness benefit;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Commits to establish a Section 125 payroll deduction plan within 60 days of enrollment in the Premium Subsidy Program;</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Completes and signs the subsidy application; and</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>Complies with the other regulations of this chapter.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Affiliated companies are considered one employer for purposes of this chapter.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>An enrolled employer is eligible to continue receiving a premium subsidy if, at the time of the renewal application, the employer:</text>
+      <para>
+        <num>(1)</num>
+        <text>Has filed quarterly wage reports with the Maryland Department of Labor for, at a minimum, the three calendar quarters immediately preceding the renewal application for the premium subsidy;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Has at least two eligible employees and the number of eligible employees is not more than the maximum eligible firm size;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Has an average wage of business that does not exceed the maximum average wage for participants;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Continues to offer a health benefit plan to its eligible employees that contains a wellness benefit;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Has an established Section 125 payroll deduction plan in place for at least 10 months;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Completes and signs the subsidy application; and</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Complies with the other regulations of this chapter.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>An enrolled employer whose coverage is terminated before the end of the policy year for any cause, including nonpayment of premium, is required to reapply and to meet all of the requirements for an initial application.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>If the carrier terminates the coverage but then reinstates the employer's coverage with the same premium and policy expiration date, the employer shall be reinstated in the Premium Subsidy Program without reapplication.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Retroactive payments made by a small employer who is terminated and then reinstated by a carrier during a policy year are eligible for a premium subsidy.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Employee Eligibility.</heading>
+    <para>
+      <num>A.</num>
+      <text>An eligible employee of a small employer is eligible to receive the premium subsidy if, at the time of initial application and at the time of each renewal application:</text>
+      <para>
+        <num>(1)</num>
+        <text>The small employer meets the requirements of <cite path="|10|25|01|.04">Regulation .04 of this chapter</cite>;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The eligible employee enrolls in a health benefit plan offered by the small employer;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The eligible employee completes and signs the subsidy application; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The eligible employee complies with the regulations of this chapter.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>An eligible employee applying for a premium subsidy for other than individual coverage shall satisfy the conditions described in <cite path="|10|25|01|.06">Regulation .06 of this chapter</cite>.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>At the time of initial application for the premium subsidy and at the time of each renewal application, each employee subsidy applicant shall complete, sign, and submit to a licensed insurance producer a form designated by the Commission which includes the following information:</text>
+      <para>
+        <num>(1)</num>
+        <text>The type of coverage selected by the employee subsidy applicant;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Information requested by the Commission about any insurance coverage carried by the employee subsidy applicant or the applicant's family members during the 3 months immediately before the employee subsidy applicant's initial application for the premium subsidy;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Acknowledgement that the employee subsidy applicant's share of the premium will be deducted through a Section 125 payroll deduction plan;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>If other than individual coverage is sought, an affidavit regarding the family's adjusted gross income and an agreement to provide documentation of the family's adjusted gross income to the Commission on request; and</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Other information considered appropriate by the Commission.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Unless allowed under <cite path="|10|25|01|.08">Regulation .08 of this chapter</cite>, the following individuals are ineligible to receive a premium subsidy:</text>
+      <para>
+        <num>(1)</num>
+        <text>A former employee eligible for Continuation of Coverage under <cite path="|31.11.04">COMAR 31.11.04</cite>;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Divorced spouses eligible for Continuation of Coverage under <cite path="|31.11.02">COMAR 31.11.02</cite>; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Surviving spouses eligible for Continuation of Coverage under <cite path="|31.11.03">COMAR 31.11.03</cite>.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Employee Selection of Other Than Individual Coverage.</heading>
+    <para>
+      <num>A.</num>
+      <text>An eligible employee may apply for a premium subsidy for other than individual coverage if the eligible employee's family adjusted gross income does not exceed the maximum income for other than individual coverage.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>An eligible employee applying for a premium subsidy for other than individual coverage shall comply with requirements considered necessary by the Commission to verify the reported family adjusted gross income.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>An eligible employee with a family adjusted gross income greater than the maximum income for other than individual coverage is eligible for the premium subsidy for individual coverage if the eligible employee satisfies the conditions of <cite path="|10|25|01|.05">Regulation .05 of this chapter</cite>.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>If a carrier offers coverage for domestic partners and the employer selects that coverage, a domestic partner is a spouse for the purposes of this chapter.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Initial Application and Enrollment.</heading>
+    <para>
+      <num>A.</num>
+      <text>Initial application for the Premium Subsidy Program shall be made according to the procedures designated by the Commission and published on the Commission's official website.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The small employer shall complete an initial application published on the Commission's official website that includes the following:</text>
+      <para>
+        <num>(1)</num>
+        <text>Information necessary to establish the eligibility of the small employer and the amount of the available subsidy;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An agreement by the small employer that the employer will establish a Section 125 payroll deduction plan within 60 days of enrollment;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>An acknowledgement that:</text>
+        <para>
+          <num>(a)</num>
+          <text>The Commission may employ an auditor to examine an enrolled employer's records to determine the accuracy of statements made on the application;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Incorrect statements may be cause for exclusion from the Premium Subsidy Program; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Fraudulent applications may be referred for prosecution;</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>An agreement to cooperate fully with the Commission and the Commission's auditor; and</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>An affidavit signed by the small employer that the information in the initial application is correct and that the small employer meets the eligibility criteria for receipt of a premium subsidy.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The initial application shall include an affirmation signed by the licensed insurance producer that:</text>
+      <para>
+        <num>(1)</num>
+        <text>The health benefit plan or plans selected by the small employer include a wellness benefit;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The licensed insurance producer has examined the small employer's most recent Quarterly Wage Report, and the information in the initial application is consistent with that report; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>To the best of the licensed insurance producer's knowledge, the information in the initial application is correct.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The initial application for each employee shall include the following:</text>
+      <para>
+        <num>(1)</num>
+        <text>Information about any private or public health insurance program that provided coverage at any time during the preceding 3 months for the employee or any of the employee's dependents who will be insured under the health benefit plan; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>For other than individual coverage:</text>
+        <para>
+          <num>(a)</num>
+          <text>An affidavit that the employee's family adjusted gross income is less than or equal to the maximum income for other than individual coverage; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>An agreement to provide copies of relevant tax return forms, if requested by the Commission.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>The participating carrier's procedures and written participation agreement determines whether the licensed insurance producer, the subsidy administrator, or the participating carrier shall enter the information from the initial application in the Commission registry to register the small employer to receive a premium subsidy.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>The Commission registry will generate:</text>
+      <para>
+        <num>(1)</num>
+        <text>A registration number;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The total premium subsidy that the participating carrier shall provide to the small employer in the form of a reduced total premium;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The amount of premium subsidy for each employee that the small employer shall pass through in the form of reduced payroll deductions for health benefits; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Other information that the Commission may consider useful for administration of the Premium Subsidy Program.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Application and Enrollment of Additional Employees During the Policy Year.</heading>
+    <para>
+      <num>A.</num>
+      <text>A newly hired eligible employee of an enrolled employer, an employee who becomes an eligible employee during the policy year, or an eligible employee who qualifies for a special enrollment period under 29 U.S.C. §1181(f) is eligible to be enrolled in the Premium Subsidy Program during the policy year under the terms established at the beginning of the policy year, unless either:</text>
+      <para>
+        <num>(1)</num>
+        <text>The participating carrier recalculates premiums charged to the enrolled employer; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Premium Subsidy Program is closed to registration of additional employees of enrolled employers under <cite path="|10|25|01|.19">Regulation .19 of this chapter</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The additional employee shall complete and sign the employee subsidy application required under <cite path="|10|25|01|.07">Regulation .07 of this chapter</cite>.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The participating carrier's procedures and the written participation agreement determines whether the licensed insurance producer, the subsidy administrator, or the participating carrier shall enter the information from the additional employee's subsidy application in the Commission registry to register the additional employee to receive the premium subsidy.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>If the participating carrier recalculates the premium rates charged to the enrolled employer, the employer shall complete the renewal application required under <cite path="|10|25|01|.09">Regulation .09 of this chapter</cite>, including information about all current eligible employees. In this case, the total premium subsidy shall be recalculated for the small employer and eligible employees.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Renewal Application.</heading>
+    <para>
+      <num>A.</num>
+      <text>The enrolled employer shall complete a renewal application published on the Commission's official website. The renewal application shall include:</text>
+      <para>
+        <num>(1)</num>
+        <text>Information necessary to establish the eligibility of the employer and the amount of the available premium subsidy;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An acknowledgement that the Commission may request that certain records be produced and made available;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>An affidavit signed by the enrolled employer that the information in the renewal application is correct and that the enrolled employer meets the eligibility criteria for receipt of a premium subsidy; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>An affidavit signed by the enrolled employer that the enrolled employer has had a Section 125 payroll deduction plan in place over the 10-month period immediately preceding the planned date of premium subsidy renewal.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The renewal application shall include an affirmation signed by the licensed insurance producer that:</text>
+      <para>
+        <num>(1)</num>
+        <text>The health benefit plan or plans selected by the enrolled employer include a wellness benefit;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The licensed insurance producer has examined the enrolled employer's most recent Quarterly Wage Report, and the information in the renewal application is consistent with that report; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>To the best of the licensed insurance producer's knowledge, the information in the renewal application is correct.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The renewal application shall include a signed form from each employee applying for the Premium Subsidy Program who was either not insured under the employer's health benefit plan during the previous policy year or who is changing coverage from individual coverage to other than individual coverage. The form shall include:</text>
+      <para>
+        <num>(1)</num>
+        <text>Information about any private or public health insurance program that provided coverage at any time during the preceding 3 months for the employee or any of the employee's dependents who will be covered under the enrolled employer's health benefit plan; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If the type of coverage is for other than individual coverage:</text>
+        <para>
+          <num>(a)</num>
+          <text>An affidavit that the employee's family adjusted gross income is less than the maximum income for other than individual coverage; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>An agreement to provide copies of relevant tax return forms, if requested by the Commission.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The Commission's registry will generate:</text>
+      <para>
+        <num>(1)</num>
+        <text>A registration number;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The total premium subsidy that the participating carrier shall provide to the small employer in the form of reduced total premium;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Total premium subsidy for each enrolled employee that the small employer shall pass through in the form of reduced payroll deductions for health benefits; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Other information that the Commission may consider useful for administration of the Premium Subsidy Program.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>The participating carrier's procedures and written participation agreement determines whether the licensed insurance producer, the subsidy administrator, or the participating carrier shall enter the information from the renewal application in the Commission registry to register the enrolled employer to receive a premium subsidy.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.10</num>
+    <heading>Calculation of the Average Wage of Business.</heading>
+    <para>
+      <num>A.</num>
+      <text>The average wage of business is the average of the wage for each of the eligible employees of the business.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>For employees who are eligible owners, the wage used in calculating the average wage of business shall be the greater of the following:</text>
+      <para>
+        <num>(1)</num>
+        <text>The lesser of:</text>
+        <para>
+          <num>(a)</num>
+          <text>The eligible owner's countable wage; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The eligible owner's adjusted gross income; or</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The minimum countable wage.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>For all other eligible employees, the wage used in calculating the average wage of business is the greater of:</text>
+      <para>
+        <num>(1)</num>
+        <text>The employee wage; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The minimum countable wage.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.11</num>
+    <heading>Calculation of the Premium Subsidy.</heading>
+    <para>
+      <num>A.</num>
+      <text>At the time of initial application for the Premium Subsidy Program, the premium subsidy is the lower of:</text>
+      <para>
+        <num>(1)</num>
+        <text>The amount from the maximum subsidy table applicable for the average wage of business and the type of coverage chosen by the employee; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>50 percent of the sum of:</text>
+        <para>
+          <num>(a)</num>
+          <text>The premium for the type of coverage chosen by the eligible employee;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The employer's eligible HSA contribution, if any; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The employee's eligible HSA contribution, if any.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>At the time of renewal application for the Premium Subsidy Program, the premium subsidy is the lower of:</text>
+      <para>
+        <num>(1)</num>
+        <text>The amount from the maximum subsidy table applicable for the average wage of business and the type of coverage chosen by the employee, multiplied by the size factor for the number of eligible employers; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>50 percent of the sum of:</text>
+        <para>
+          <num>(a)</num>
+          <text>The premium for the type of coverage chosen by the eligible employee;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The employer's eligible HSA contribution, if any; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The employee's eligible HSA contribution, if any.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>For each health benefit plan offered by an enrolled employer, the premium subsidy remains constant throughout the policy year unless the premium changes during the policy year.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.12</num>
+    <heading>Change in Employer's Federal Employer Identification Number.</heading>
+    <text>If the federal employer identification number of the employer changes, because the company changes its form of ownership or for any other reason, the company may petition the Commission for continued eligibility for the Premium Subsidy Program under the new federal employer identification number. The Executive Director shall rule on the petition within 14 days of the receipt of all information necessary to make the determination of continued eligibility.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.13</num>
+    <heading>Change of Participating Carrier by the Enrolled Employer.</heading>
+    <para>
+      <num>A.</num>
+      <text>If the enrolled employer elects to change coverage from one participating carrier to a different participating carrier at the time of policy renewal and premium subsidy renewal, the enrolled employer shall identify the new carrier in the renewal application.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>If the enrolled employer elects to change coverage from one participating carrier to a different participating carrier at any time other than the time of policy renewal and premium subsidy renewal, the enrolled employer shall notify the Commission at least 30 days in advance of the change and shall complete the renewal application specified under Regulation .09 of the chapter for the new health benefit plan.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.14</num>
+    <heading>Payment of the Premium Subsidy.</heading>
+    <para>
+      <num>A.</num>
+      <text>Payment of the total premium subsidy is subject to the following:</text>
+      <para>
+        <num>(1)</num>
+        <text>The total premium subsidy for each enrolled employer shall be paid to the subsidy administrator and shall reduce the total premium owed by the enrolled employer;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The enrolled employer shall pass the employee premium subsidy to the enrolled employee in the form of reduced payroll deductions for the health benefit plan;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The employee premium subsidy is calculated as the premium subsidy for that employee's coverage multiplied by the ratio of the sum of the employee premium plus the employee's eligible HSA contribution, if any, to the sum of the premium, the employer's eligible HSA contribution, if any, and the employee's eligible HSA contribution, if any;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Each month, the subsidy administrator or participating carrier shall invoice the enrolled employer for the total premium due for the subsequent month, minus the subsidy amount for enrolled employees registered in the Commission registry;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>At the time the enrolled employer is invoiced for the premium by the subsidy administrator or participating carrier, the subsidy administrator or participating carrier shall submit an invoice to the Commission, in a format set forth in the written participation agreement between the Commission and the participating carrier, that lists, for each enrolled employer, the invoiced premium and the premium subsidy due for each enrolled employee;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>The Commission shall promptly forward the invoice to the Comptroller for payment of the premium subsidy to the subsidy administrator or participating carrier;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>The subsidy payment is accounted for separately from other funds and is not considered to be earned by the participating carrier until the participating carrier has received the corresponding premium payment from the enrolled employer; and</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Each month, the subsidy administrator or participating carrier shall provide to the Commission, in a format set forth in the written participation agreement between the Commission and the participating carrier, the following:</text>
+        <para>
+          <num>(a)</num>
+          <text>A list of all premium payments received from enrolled employers during the previous month, including the coverage period for which each premium payment was made; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A list of the enrolled employees covered by each premium payment.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Each premium subsidy paid in advance to a participating carrier that does not correspond to an enrolled employer's premium payment shall be deducted from a subsequent premium subsidy paid to the participating carrier, and a reconciliation statement shall be provided by the Commission to the participating carrier.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.15</num>
+    <heading>Carrier Requirements.</heading>
+    <para>
+      <num>A.</num>
+      <text>To participate in the Premium Subsidy Program, a carrier shall meet the definition of a participating carrier under <cite path="|10|25|01|.02|B.|(34)">Regulation .02B(34) of this chapter</cite>.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The written participation agreement shall include:</text>
+      <para>
+        <num>(1)</num>
+        <text>The carrier's designation of its subsidy administrator or administrators;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Commission's requirement for monthly data submissions regarding premium subsidy recipients covered by the participating carrier; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The participating carrier's agreement to cooperate with any audits of the Premium Subsidy Program.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A participating carrier may not condition the sale of a wellness benefit to a small employer based on participation of the eligible employees of that small employer in wellness programs or activities.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>A prominent carrier shall offer at least one health benefit plan to a small employer who meets the requirements described in <cite path="|10|25|01|.04">Regulation .04 of this chapter</cite> and shall enter into a written participation agreement with the Commission.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.16</num>
+    <heading>Licensed Insurance Producer Requirements.</heading>
+    <text>A licensed insurance producer in connection with the sale, solicitation, or negotiation of a health benefit plan to a small employer who meets the requirements described in <cite path="|10|25|01|.04">Regulation .04 of this chapter</cite> shall:</text>
+    <para>
+      <num>A.</num>
+      <text>Provide information to the small employer about wellness benefits;</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>At the time of initial application or at the time of policy renewal, advise the small employer to consult a tax advisor about the tax advantages of a Section 125 payroll deduction plan;</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>For small employers providing an HSA compatible health benefit plan to their employees, advise the small employers of the designated financial institution required to be utilized for administration of the employee's HSA account, if the HSA contributions are to be included in the calculation of the total premium subsidy; and</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Ensure completion of the required employer and employee applications including any required affidavits, and forward the original copies of the applications to the carrier's subsidy administrator.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.17</num>
+    <heading>Premium Subsidy Program Design Factors.</heading>
+    <para>
+      <num>A.</num>
+      <text>At least once each year, the Commission shall publish on the Commission's official website for informal public comment a list of the proposed Premium Subsidy Program design factors, including:</text>
+      <para>
+        <num>(1)</num>
+        <text>Eligible owner's countable wage;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Employee's eligible HSA contribution;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Maximum average wage for new applications;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Maximum average wage for participants;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Maximum eligible firm size;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Maximum income for other than individual coverage;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Maximum subsidy table;</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Minimum countable wage;</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>Size factor; and</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>Subsidy program cap.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Proposed components of the Premium Subsidy Program may be based on a number of factors including, but not limited to:</text>
+      <para>
+        <num>(1)</num>
+        <text>Current and projected enrollment in the Premium Subsidy Program;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Current and projected demographics of enrolled employers and enrolled employees in the Premium Subsidy Program;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Enrollment rate by small employers and eligible employees;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Inflation;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Changes in premiums;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Appropriations for the Premium Subsidy Program by the Maryland General Assembly;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Any surplus amounts in the Premium Subsidy Program; and</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Any projected shortages in the Premium Subsidy Program.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Following the informal public comment period, the Commission shall consider the public comments received, adopt revisions that the Commission considers appropriate, and publish the revisions on the Commission's official website and in the Maryland Register.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.18</num>
+    <heading>Closing the Premium Subsidy Program to the Entry of New Businesses.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Executive Director may close the program to the entry of new businesses by closing the Commission registry to new registration, notifying the participating carriers, and posting notice on the Commission's official website.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>This action shall be taken when the subsidies for the coming year are projected to reach or exceed the subsidy program cap, and may be taken at other times for reasons that the Executive Director considers sufficient.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Advance notice of this action is desirable, but not required.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>This action shall be reviewed by the Commission at its next meeting.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.19</num>
+    <heading>Closing the Premium Subsidy Program to the Entry of Additional Employees of Enrolled Employers.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Executive Director may close the Premium Subsidy Program to the entry of new employees by closing the Commission registry to registration of additional employees, notifying the participating carriers and enrolled employers, and posting notice on the Commission's official website.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>This action shall be reviewed by the Commission at its next meeting.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.20</num>
+    <heading>Reopening the Premium Subsidy Program.</heading>
+    <para>
+      <num>A.</num>
+      <text>Following closure of the Premium Subsidy Program under Regulation .18 or .19 of this chapter, the Commission may reopen the Premium Subsidy Program through a formal action specifying both the application process and the criteria that will be used to select new participants from among those applying. Selection criteria may include the average wage of the business, the geographic distribution of enrolled employers, or any other factor formally designated by the Commission.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The Commission shall notify the participating carriers and shall post notice on the Commission's official website of the reopening of the Premium Subsidy Program. If the Premium Subsidy Program was closed under <cite path="|10|25|01|.19">Regulation .19 of this chapter</cite>, the Commission shall also notify enrolled employers.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.21</num>
+    <heading>Penalties.</heading>
+    <para>
+      <num>A.</num>
+      <text>In any conduct relating to the Premium Subsidy Program, employers, employees, participating carriers, subsidy administrators, and licensed insurance producers are subject to criminal and civil penalties under applicable law for any knowing and willful making of a materially false or fraudulent statement and the knowing and willful use of a false or fraudulent document.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Employers, employees, participating carriers, subsidy administrators, and licensed insurance producers deemed by the Commission to be in violation of this chapter may be temporarily or permanently excluded from participation in the Premium Subsidy Program by the Commission.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>If temporarily excluded from the Premium Subsidy Program by the Commission, an enrolled employer and its enrolled employees are not eligible for the Premium Subsidy Program for 12 months and must requalify for the Premium Subsidy Program at the time of reapplication.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.22</num>
+    <heading>Decisions of the Commission — Delegation of Program Administration to the Executive Director.</heading>
+    <para>
+      <num>A.</num>
+      <text>Decisions of the Commission relating to policies, regulations, and program design under Regulations <cite path="|10|25|01|.17">.17</cite> — <cite path="|10|25|01|.20">.20</cite> of this chapter may not be delegated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>All other decisions of the Commission regarding program administration, including determinations of eligibility under Regulations .04, .05, .06, .12, and 13 of this chapter, subsidy calculations under <cite path="|10|25|01|.11">Regulation .11 of this chapter</cite>, and penalties under <cite path="|10|25|01|.21">Regulation .21 of this chapter</cite> are delegated to the Executive Director.</text>
+    </para>
+  </section>
+  <section cache:ref-path="10|25|01|.23">
+    <prefix>Regulation</prefix>
+    <num>.23</num>
+    <heading>Appeals of Decisions of the Executive Director.</heading>
+    <para>
+      <num>A.</num>
+      <text>Decisions of the Executive Director may be appealed to the Commission.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The appeal shall be in writing and filed with the Commission within 30 days of the date of the decision of the Executive Director.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The appeal shall state specifically the facts of the situation and the justification for the Commission to change the decision of the Executive Director. The appeal may:</text>
+      <para>
+        <num>(1)</num>
+        <text>Present significant, relevant information that was not previously presented to the Commission and that, with reasonable diligence, could not have been presented before the Executive Director made a decision;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Demonstrate that there have been significant changes in factors or circumstances relied upon by the Executive Director in reaching the decision; or</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Demonstrate that the Executive Director has materially failed to follow the Commission's adopted procedures in reaching the decision.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Within 15 days of the filing of the appeal, the Executive Director shall submit a written response to the appeal and send it to the appellant. The appellant shall have 10 days to submit a written response for consideration by the Commission.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>The Commission may act on the appeal in one of the following ways:</text>
+      <para>
+        <num>(1)</num>
+        <text>By a majority vote of the full Commission;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>By a majority vote of an appeals committee, whose members shall be appointed by the Chair of the Commission; or</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>By a decision of an appeals commissioner, appointed by the Chair of the Commission.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>The Chair of the Commission shall determine which of the methods under <cite path="10|25|01|.23|E.">§E of this regulation</cite> the Commission will use to act on the appeal.</text>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>The Commission may act on the appeal based on the written appeal record alone, or may hold a hearing before acting on the appeal.</text>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>The Commission may affirm, reverse, or modify the decision of the Executive Director and shall make written findings of fact and conclusions of law stating the basis for its decision within 30 days of its decision on the appeal.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.24</num>
+    <heading>Appeals of Decisions of a Participating Carrier.</heading>
+    <text>Actions taken by a participating carrier, including actions taken by a participating carrier that affect a small employer's eligibility for participation in the Premium Subsidy Program or the amount of the premium subsidy, shall be handled through the customary appeals processes for carrier decisions and may not be appealed to the Commission.</text>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Insurance Article, §§<cite doc="Md. Code" path="gin|15-12">15-12</cite>A-<cite doc="Md. Code" path="gin|01">01</cite> — 15-12A-05, Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container">Effective date:</annotation>
+    <annotation type="History" dest="container" effective="2008-08-25">Regulations <cite path="|10|25|01|.01">.01</cite> — <cite path="|10|25|01|.24">.24</cite> adopted as an emergency provision effective June 12, 2008 (35:14 Md. R. 1243); adopted permanently effective August 25, 2008 (35:17 Md. R. 1486)</annotation>
+    <annotation type="History" dest="container" effective="2009-10-19"><cite path="|10|25|01|.02|B.">Regulation .02B</cite> amended as an emergency provision effective July 16, 2009 (36:17 Md. R. 1310); amended permanently effective October 19, 2009 (36:21 Md. R. 1591)</annotation>
+    <annotation type="History" dest="container" effective="2009-10-19"><cite path="|10|25|01|.06|D.">Regulation .06D</cite> adopted as an emergency provision effective July 16, 2009 (36:17 Md. R. 1310); amended permanently effective October 19, 2009 (36:21 Md. R. 1591)</annotation>
+    <annotation type="History" dest="container" effective="2009-10-19"><cite path="|10|25|01|.10|B.">Regulation .10B</cite> amended as an emergency provision effective July 16, 2009 (36:17 Md. R. 1310); amended permanently effective October 19, 2009 (36:21 Md. R. 1591)</annotation>
+    <annotation type="History" dest="container" effective="2009-10-19"><cite path="|10|25|01|.10|C.">Regulation .10C</cite> adopted as an emergency provision effective July 16, 2009 (36:17 Md. R. 1310); adopted permanently effective October 19, 2009 (36:21 Md. R. 1591)</annotation>
+    <annotation type="History" dest="container" effective="2009-10-19"><cite path="|10|25|01|.17|A.">Regulation .17A</cite> amended as an emergency provision effective July 16, 2009 (36:17 Md. R. 1310); amended permanently effective October 19, 2009 (36:21 Md. R. 1591)</annotation>
+  </annotations>
+</container>

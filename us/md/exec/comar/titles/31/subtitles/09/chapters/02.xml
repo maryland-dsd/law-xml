@@ -1,0 +1,1817 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>02</num>
+  <heading>Variable Life Insurance</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Authority and Purpose.</heading>
+    <text>This chapter, applicable to variable life insurance policies, is promulgated under authority of Insurance Article, §§<cite doc="Md. Code" path="gin|2-109">2-109</cite> and <cite doc="Md. Code" path="gin|16-601">16-601</cite>—<cite doc="Md. Code" path="gin|16-603">16-603</cite>, Annotated Code of Maryland. The issuance or delivery of life insurance policies on a variable basis in Maryland in any manner not in compliance with this chapter shall be deemed contrary to the requirements of Insurance Article, §§<cite doc="Md. Code" path="gin|16-601">16-601</cite>—<cite doc="Md. Code" path="gin|16-603">16-603</cite>, Annotated Code of Maryland, and, further, shall be deemed to constitute the transaction of insurance business hazardous to policyholders and the public and contrary to the public interest.</text>
+  </section>
+  <section cache:ref-path="31|09|02|.02">
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following words have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>“Affiliate" of an insurer means:</text>
+        <para>
+          <num>(a)</num>
+          <text>A person, directly or indirectly, controlling, controlled by, or under common control with the insurer;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A person who regularly furnishes investment advice to the insurer with respect to its variable life insurance separate accounts for which a specific fee or commission is charged; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A director, officer, partner, or employee of the insurer, controlling or controlled person, or person providing investment advice or any member of the immediate family of this person.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>"Agent" means a person licensed in this State as an agent or broker with respect to the sale of life insurance.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>"Assumed investment rate" means the rate of investment return which would be required to be credited to a variable life insurance policy, after deduction of charges for taxes, investment expenses, and mortality and expense guarantees to maintain the variable death benefit equal at all times to the amount of death benefit, other than incidental insurance benefits, which would be payable under the plan of insurance if the death benefit did not vary according to the investment experience of the separate account.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>“Benefit base” means the amount not less than the amount specified under <cite path="|31|09|02|.06|B.|(2)">Regulation .06B(2) of this chapter</cite>.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>“Commissioner” means the Insurance Commissioner of Maryland.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Control.</text>
+        <para>
+          <num>(a)</num>
+          <text>”Control”, “controlling”, “controlled by”, and “under common control with” means the possession, direct or indirect, of the power to direct or cause the direction of the management and policies of a person, whether through the ownership of voting securities, by contract other than a commercial contract for goods or nonmanagement services, or otherwise, unless the power is the result of an official position with or corporate office held by the person.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Control” shall be presumed to exist if any person, directly or indirectly, owns, controls, holds with the power to vote, or holds proxies representing more than 10 percent of the voting securities of any other person. This presumption may be rebutted by a showing made to the satisfaction of the Commissioner that control does not exist in fact. The Commissioner may determine, after furnishing all persons in interest notice of an opportunity to be heard, and making specific findings of fact to support the determination that control exists in fact, notwithstanding the absence of a presumption to that effect.</text>
+        </para>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>“Flexible premium policy” means any variable life insurance policy other than a scheduled premium policy as specified under <cite path="31|09|02|.02|B.|(15)">§B(15) of this regulation</cite>.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>“General account” means all assets of the insurer other than assets in separate accounts established pursuant to Insurance Article, §§<cite doc="Md. Code" path="gin|5-512">5-512</cite> and <cite doc="Md. Code" path="gin|16-601">16-601</cite>—<cite doc="Md. Code" path="gin|16-603">16-603</cite>, Annotated Code of Maryland, or pursuant to the corresponding section of the insurance laws of the state of domicile of a foreign insurer or the state of entry of an alien insurer, whether or not the separate account is established for variable life insurance.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>"Incidental insurance benefit" means all insurance benefits in a variable life insurance policy, other than the variable death benefit and the minimum death benefit, including but not limited to accidental death and dismemberment benefits, disability income benefits, guaranteed insurability options, family income, or fixed benefit term riders.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>"May" is permissive.</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>"Minimum death benefit" means the amount of the guaranteed death benefit, other than incidental insurance benefits, payable under a variable life insurance policy regardless of the investment performance of the separate account.</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>"Net investment return" means the rate of investment return in a separate account to be applied to the benefit base after deduction of charges for taxes, investment expenses, and mortality and expense guarantees in accordance with the terms of the policy.</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>"Person" means an individual, corporation, partnership, association, trust, or fund.</text>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>“Policy processing day” means the day on which charges authorized in the policy are deducted from the cash value of the policy.</text>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>“Scheduled premium policy” means a variable life insurance policy under which both the amount and timing of premium payments are fixed by the insurer.</text>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>"Separate account" means a separate account established for variable life insurance pursuant to Insurance Article, §§<cite doc="Md. Code" path="gin|16-601">16-601</cite>—<cite doc="Md. Code" path="gin|16-603">16-603</cite>, Annotated Code of Maryland, or pursuant to the corresponding section of the insurance laws of the state of domicile of a foreign insurer or the state of entry of an alien insurer.</text>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>"Shall" is mandatory.</text>
+      </para>
+      <para>
+        <num>(18)</num>
+        <text>"Variable death benefit" means the amount of the death benefit, other than incidental insurance benefits, payable under a variable life insurance policy dependent on the investment performance of the separate account which the insurer would have to pay in the absence of the minimum death benefit.</text>
+      </para>
+      <para>
+        <num>(19)</num>
+        <text>"Variable life insurance policy" means an individual policy which provides for life insurance which varies according to the investment experience of a separate account or accounts established and maintained by the insurer as to this policy, pursuant to Insurance Article, §§<cite doc="Md. Code" path="gin|16-601">16-601</cite>—<cite doc="Md. Code" path="gin|16-603">16-603</cite>, Annotated Code of Maryland, or pursuant to a corresponding section of the insurance laws of the state of domicile of a foreign insurer or the state of entry of an alien insurer.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="31|09|02|.03">
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Qualification of Insurer to Issue Variable Life Insurance.</heading>
+    <para>
+      <num>A.</num>
+      <text>The requirements of this regulation are applicable to all insurers either seeking authority to issue variable life insurance in this State or which have authority to issue variable life insurance in this State.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Licensing and Approval to Do Business in This State. An insurer may not deliver or issue for delivery in this State any variable life insurance policy, unless the insurer is authorized to engage in the life insurance business in this State, and either:</text>
+      <para>
+        <num>(1)</num>
+        <text>The state of domicile of the insurer requires that permissible investments be substantially the same as provided in <cite path="|31|09|02|.06|C.">Regulation .06C of this chapter</cite> and that changes in the investment policy of the variable life insurance separate account be regulated in a manner substantially similar to that required under <cite path="|31|09|02|.06">Regulation .06 of this chapter</cite> for separate accounts operated by insurers domiciled in this State; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The insurer's investment policy, as described in the statement required to be filed under <cite path="31|09|02|.03|C.|(3)">§C(3) of this regulation</cite>, conforms to <cite path="|31|09|02|.06|C.">Regulation .06C of this chapter</cite> and the Commissioner is satisfied that the procedures for changing the investment policy of a variable life insurance separate account as described in the statement required to be filed under <cite path="31|09|02|.03|C.|(3)">§C(3) of this regulation</cite> provide safeguards consistent with those provided under <cite path="|31|09|02|.06|F.">Regulation .06F of this chapter</cite>, and the insurer has obtained the written approval of the Commissioner for the issuance of variable life insurance policies in this State. The Commissioner shall grant the written approval only after he has found that:</text>
+        <para>
+          <num>(a)</num>
+          <text>The plan of operation for the issuance of variable life insurance policies is not unsound;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The general character, reputation, and experience of the management and those persons or firms proposed to supply consulting, investment, administrative, or custodial services to the insurer are such as to reasonably assure competent operation of the variable life insurance business of the insurer in this State;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The insurer has surplus in addition to that required under <cite doc="Md. Code" path="gin|4-105">Insurance Article, §4-105, Annotated Code of Maryland</cite>, as of the end of the preceding calendar year of at least 5 million dollars; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>The present and foreseeable future financial condition of the insurer and its method of operation in connection with the issuance of the policies is not likely to render its operation hazardous to the public or its policyholders in this State. The Commissioner shall consider, among other things:</text>
+          <para>
+            <num>(i)</num>
+            <text>The history of operation and financial condition of the insurer; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The qualifications, fitness, character, responsibility, reputation, and experience of the officers and directors and other management of the insurer and those persons or firms proposed to supply consulting, investment, administrative, or custodial services to the insurer;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>The applicable law and regulations under which the insurer is authorized in its state of domicile to issue variable life insurance policies. The state of entry of an alien insurer shall be deemed its state of domicile for this purpose; and</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>If the insurer is a subsidiary of, or is affiliated by common management or ownership with another company, its relationship to the other company and the degree to which the requesting insurer, as well as the other company, meet these standards.</text>
+          </para>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Filing for Approval to Do Business in This State. Before an insurer shall deliver or issue for delivery a variable life insurance policy in this State, it shall file with the Commissioner the following information for the consideration of the Commissioner in making the determination required by <cite path="31|09|02|.03|B.">§B of this regulation</cite>:</text>
+      <para>
+        <num>(1)</num>
+        <text>Copies of and a general description of the variable life insurance policies it intends to issue.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A general description of the methods of operation of the variable life insurance business of the insurer, including the names of those persons or firms proposed to supply consulting, investment, administrative, or custodial services to the insurer.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>With respect to a separate account maintained by an insurer for a variable life insurance policy, a statement of the investment policy the insurer intends to follow for the investment of the assets held in the separate account, and a statement of the procedures for changing the investment policy. The statement of investment policy shall include a description of the investment objective and orientation intended for the separate account.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>A description of any investment advisory services contemplated as required by <cite path="|31|09|02|.06|J.">Regulation .06J of this chapter</cite>.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>If requested by the Commissioner, a copy of the statutes and regulations of the state of domicile of the insurer under which it is authorized to issue variable life insurance policies.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Biographical data with respect to officers and directors of the insurer on the National Association of Insurance Commissioners Uniform Biographical Data Form.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>A statement of an actuary appointed by the insurer describing the mortality and expense risks which the insurer will bear under the policy.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Standards of Suitability. An insurer seeking approval to enter into the variable life insurance business in this State shall adopt by formal action of its board of directors and file with the Commissioner a written statement specifying the standards of suitability to be used by the insurer and applicable to its officers, directors, employees, affiliates, and agents with respect to the suitability of variable life insurance for the applicant. These standards of suitability shall be binding on the insurer and those to whom it refers, and shall specify that no recommendations shall be made to an applicant to purchase a variable life insurance policy and that no variable life insurance policy may be issued in the absence of reasonable grounds to believe that the purchase of the policy is suitable for the applicant on the basis of information furnished after reasonable inquiry of the applicant concerning the applicant's insurance and investment objectives, financial situation and needs, and any other information known to the insurer or to the agent making the recommendation. Lapse rates for variable life insurance within the first 2 policy years which are significantly higher than both those encountered by the insurer, or an affiliate of the insurer, for corresponding fixed benefit life insurance policies and lapse rates of other insurers issuing variable life insurance policies shall be considered by the Commissioner in determining whether the guidelines adopted by the insurer are reasonable and also whether the insurer and its agents are engaging, as a general business practice, in the sale of variable life insurance to persons for whom it is unsuitable. For purposes of this section, conversions from variable life insurance to fixed benefit life insurance policies pursuant to this chapter will not be considered lapses.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Use of Sales Materials.</text>
+      <para>
+        <num>(1)</num>
+        <text>An insurer authorized to transact variable life insurance business in this State may not use sales material, advertising material, or descriptive literature or other materials of any kind in connection with its variable life insurance business in this State which is false, misleading, deceptive, or inaccurate.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Commissioner shall require an insurer to cease the use of sales materials, advertising materials, descriptive literature, or other materials of any kind upon finding that the materials are false, deceptive, inaccurate, misleading, or have a tendency to mislead or be ambiguous.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Variable life insurance sales material, advertising material, and descriptive literature shall include but is not limited to:</text>
+        <para>
+          <num>(a)</num>
+          <text>Printed and published material, audiovisual material, and descriptive literature of an insurer used in direct mail, newspapers, magazines, radio scripts, TV and film scripts, billboards, and similar displays for variable life insurance;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Descriptive literature and sales aids of all kinds used to sell variable life insurance by or on behalf of an insurer or any person authorized to sell variable life insurance for presentation to members of the insurance-buying public, including but not limited to circulars, leaflets, booklets, depictions, illustrations, and form letters; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Prepared sales talks, presentations, and materials for use in the sale of variable life insurance by a person authorized to sell variable life insurance.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Requirements Applicable to Contractual Services.</text>
+      <para>
+        <num>(1)</num>
+        <text>A contract between an insurer and suppliers of consulting, investment, administrative, sales, marketing, custodial, or other services which are material with respect to variable life insurance operations shall be in writing and provide that the supplier of these services shall furnish the Commissioner with any information or reports in connection with the services which the Commissioner may request in order to ascertain whether the variable life insurance operations of the insurer are being conducted in a manner consistent with these regulations and any other applicable law or regulations.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The contract shall be fair and equitable to all parties and not endanger policyholders of the insurer in this State.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The contract may not relieve the insurer from any responsibilities or obligations imposed upon the operations of its variable life insurance business by this chapter or any other law or regulation.</text>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Reports to the Commissioner.</text>
+      <para>
+        <num>(1)</num>
+        <text>An insurer authorized to transact the business of variable life insurance in this State shall submit to the Commissioner, in addition to any other materials which may be required by this chapter or any other applicable laws or regulations:</text>
+        <para>
+          <num>(a)</num>
+          <text>An annual statement of the business of its variable life insurance separate account or accounts in such form as may be prescribed by the National Association of Insurance Commissioners;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Before the use in this State, any information furnished to applicants as provided for in <cite path="|31|09|02|.07">Regulation .07 of this chapter</cite>;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Before the use in this State, the form of any of the reports to policyholders as provided for in <cite path="|31|09|02|.09">Regulation .09 of this chapter</cite>; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Such additional information concerning its variable life insurance operations or its variable life insurance separate accounts as the Commissioner deems necessary.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Material submitted to the Commissioner under this section shall be disapproved if it is found to be false, deceptive, inaccurate, misleading, or have a tendency to mislead, or ambiguous in any respect and, if previously distributed, the Commissioner shall require the distribution of an amended report.</text>
+      </para>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>Authority of Commissioner to Disapprove. Material required to be filed with the Commissioner, or approved by him, shall be subject to disapproval if at any time it is found by him not to comply with the standards established by this chapter.</text>
+    </para>
+  </section>
+  <section cache:ref-path="31|09|02|.04">
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Insurance Policy Requirements—Policy Qualification.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Commissioner may not approve a variable life insurance form filed pursuant to this chapter unless it conforms to the requirements of this regulation.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Filing of Variable Life Insurance Policies.</text>
+      <para>
+        <num>(1)</num>
+        <text>All variable life insurance policies, and all riders, endorsements, applications, and other documents which are to be attached to and made a part of the policy and which relate to the variable nature of the policy, shall be filed with the Commissioner and approved by him in writing before delivery or issuance for delivery in this State.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The procedures and requirements for the filing and approval shall be, to the extent appropriate and not inconsistent with this chapter, the same as those otherwise applicable to other life insurance policies (for example, see particularly Insurance Article, §§<cite doc="Md. Code" path="gin|12-102">12-102</cite>, <cite doc="Md. Code" path="gin|12-103">12-103</cite>, <cite doc="Md. Code" path="gin|12-203">12-203</cite>—<cite doc="Md. Code" path="gin|12-205">12-205</cite>, and <cite doc="Md. Code" path="gin|12-209">12-209</cite>, Annotated Code of Maryland, and <cite path="|31.04.17">COMAR 31.04.17</cite>).</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The Commissioner may approve variable life insurance policies and related forms with provisions the Commissioner deems to be not less favorable to the policyholder and the beneficiary than those required by this chapter.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The requirements of §§C(1), C(4), D(5)(a), and D(16) of this regulation do not apply to variable life insurance policies and related forms issued in connection with pension, profit-sharing, and retirement plans if separate accounts for the policies are exempt pursuant to the federal Investment Company Act of 1940, §3(c)(11).</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Mandatory Policy Benefit and Design Requirements. Variable life insurance policies delivered or issued for delivery in this State shall comply with the following minimum requirements:</text>
+      <para>
+        <num>(1)</num>
+        <text>Coverage shall be provided for the lifetime of the insured with the mortality and expense risk borne by the insurer. The mortality and expense charges shall be subject to the maximums stated in the policy.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Gross premiums for death benefits shall be a level amount for the duration of the premium payment period, but this subsection may not be construed to prohibit temporary or permanent additional premiums for incidental insurance benefits or substandard risks. This subsection may not be deemed to prohibit the use of fixed benefit preliminary term insurance for a period not to exceed 120 days from the date of the application for a variable life insurance policy. The premium rate for the preliminary term insurance shall be stated separately in the application or receipt.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A minimum death benefit for scheduled premium policies shall be provided in an amount at least equal to the initial face amount of the policy as long as premiums are duly paid, subject to the provisions of <cite path="31|09|02|.04|E.|(2)|(d)">§E(2)(d) of this regulation</cite>.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The amount payable upon the death of the insured as long as premiums are duly paid, subject to the provisions of <cite path="31|09|02|.04|E.|(2)">§E(2) of this regulation</cite>, shall be not less than a minimum multiple of the gross premium payable in that year, exclusive of that portion allocable to any incidental insurance benefit, by a person who meets standard underwriting requirements, as shown in the following table:</text>
+        <text>
+          <table>
+            <tbody>
+              <tr>
+                <td data-text-align="center">
+                  <em>Issue Ages</em>
+                </td>
+                <td data-text-align="center">
+                  <em>Multiples</em>
+                </td>
+              </tr>
+              <tr>
+                <td data-text-align="center" data-vertical-align="middle">0—5</td>
+                <td data-text-align="center" data-vertical-align="middle">80</td>
+              </tr>
+              <tr>
+                <td data-text-align="center" data-vertical-align="middle">6—10</td>
+                <td data-text-align="center" data-vertical-align="middle">71</td>
+              </tr>
+              <tr>
+                <td data-text-align="center" data-vertical-align="middle">11—15</td>
+                <td data-text-align="center" data-vertical-align="middle">63</td>
+              </tr>
+              <tr>
+                <td data-text-align="center" data-vertical-align="middle">16—20</td>
+                <td data-text-align="center" data-vertical-align="middle">55</td>
+              </tr>
+              <tr>
+                <td data-text-align="center" data-vertical-align="middle">21—25</td>
+                <td data-text-align="center" data-vertical-align="middle">47</td>
+              </tr>
+              <tr>
+                <td data-text-align="center" data-vertical-align="middle">26—30</td>
+                <td data-text-align="center" data-vertical-align="middle">40</td>
+              </tr>
+              <tr>
+                <td data-text-align="center" data-vertical-align="middle">31—35</td>
+                <td data-text-align="center" data-vertical-align="middle">33</td>
+              </tr>
+              <tr>
+                <td data-text-align="center" data-vertical-align="middle">36—40</td>
+                <td data-text-align="center" data-vertical-align="middle">27</td>
+              </tr>
+              <tr>
+                <td data-text-align="center" data-vertical-align="middle">41—45</td>
+                <td data-text-align="center" data-vertical-align="middle">21</td>
+              </tr>
+              <tr>
+                <td data-text-align="center" data-vertical-align="middle">46—50</td>
+                <td data-text-align="center" data-vertical-align="middle">15</td>
+              </tr>
+              <tr>
+                <td data-text-align="center" data-vertical-align="middle">51—55</td>
+                <td data-text-align="center" data-vertical-align="middle">13</td>
+              </tr>
+              <tr>
+                <td data-text-align="center" data-vertical-align="middle">56—60</td>
+                <td data-text-align="center" data-vertical-align="middle">11</td>
+              </tr>
+              <tr>
+                <td data-text-align="center" data-vertical-align="middle">61—65</td>
+                <td data-text-align="center" data-vertical-align="middle">9</td>
+              </tr>
+              <tr>
+                <td data-text-align="center" data-vertical-align="middle">66—70</td>
+                <td data-text-align="center" data-vertical-align="middle">8</td>
+              </tr>
+              <tr>
+                <td data-text-align="center" data-vertical-align="middle">71 and over</td>
+                <td data-text-align="center" data-vertical-align="middle">7</td>
+              </tr>
+            </tbody>
+          </table>
+        </text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The policy shall provide that the variable death benefit shall reflect the investment experience of the variable life insurance separate account established and maintained by the insurer and that the excess, positive or negative, of the net investment return over the assumed investment rate, as applied to the benefit base of each variable life insurance policy, shall be used to provide either:</text>
+        <para>
+          <num>(a)</num>
+          <text>Fully paid-up variable life insurance providing coverage for the same period as the basic insurance under the policy or fully paid-up term insurance amounts for a term of annual periods of not less than 1 year or more than 5 years, positive or negative, as the case may be, or a combination thereof; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Variable life insurance amounts, positive or negative, as the case may be, so that the reserve maintains the same percentage relationship to the variable death benefit as it would have on a corresponding fixed benefit policy.</text>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Each variable life insurance policy shall be credited with the full amount of the net investment return applied to the benefit base.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Changes in variable death benefits of each variable life insurance policy shall be determined at least annually.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>The cash value of each variable life insurance policy shall be determined at least monthly. The method of computation of cash values and other nonforfeiture benefits, as described either in the policy or in a statement filed with the Commissioner of the state in which the policy is delivered, or issued for delivery, shall be in accordance with actuarial procedures that recognize the variable nature of the policy. The method of computation shall be such that, if the net investment return credited to the policy at all times from the date of issue should be equal to the assumed investment rate with premiums and benefits determined accordingly under the terms of the policy, then the resulting cash values and other nonforfeiture benefits shall be at least equal to the minimum values required by <cite doc="Md. Code" path="gin">Insurance Article, Title 16, Subtitle 3, Annotated Code of Maryland</cite>, for a fixed benefit policy with the premiums and benefits. The assumed investment rate may not exceed the maximum interest rate permitted under the Standard Nonforfeiture Law of this State. The method of computation may disregard incidental minimum guarantees as to the dollar amounts payable. Incidental minimum guarantees include, for example, but are not to be limited to, a guarantee that the amount payable at death or maturity shall be at least equal to the amount that otherwise would have been payable if the net investment return credited to the policy at all times from the date of issue had been equal to the assumed investment rate.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>The computation of values required for each variable life insurance policy may be based upon such reasonable and necessary approximations as are acceptable to the Commissioner.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>Adjusted Premiums.</text>
+        <para>
+          <num>(a)</num>
+          <text>If the gross premiums for any variable life insurance policy delivered or issued for delivery in this State produce an excess of(a) over (B) as defined in <cite path="31|09|02|.04|C.|(10)|(b)">§C(10)(b) of this regulation</cite> the present value as of the date of issue of the adjusted premiums used in determining the minimum cash values required by <cite path="31|09|02|.04|C.|(8)">§C(8) of this regulation</cite> shall be decreased by this excess by decreasing each adjusted premium by a uniform percentage.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The excess of(a) over (B) referred to in <cite path="31|09|02|.04|C.|(10)|(a)">§C(10)(a) of this regulation</cite> shall be determined as of the date of issue on the basis of the mortality table and maximum rate of interest permitted by <cite doc="Md. Code" path="gin">Insurance Article, Title 16, Subtitle 3, Annotated Code of Maryland</cite>; and(a) is the present value of the gross premiums for the policy, decreased by one dollar per thousand of equivalent uniform amount for policies with an equivalent uniform amount of less than ten thousand, payable on an annual basis (exclusive of those portions of the gross premiums allocable to any incidental insurance benefits) by a person who meets standard underwriting requirements; and (B) is the product of(1) times (2) where(1) is the present value of the maximum premium rates per thousand of insurance shown below payable at the beginning of each policy year to attained age 65 of the insured for issue ages below age 51, for 15 years for issue ages 51 to 70 and for life for issue ages above age 70 and (2) is the ratio of(i) the present value of the benefits under the policy to (ii) the present value of an insurance of one thousand for the whole of life.</text>
+          <text>
+            <table>
+              <tbody>
+                <tr>
+                  <td colspan="2" data-text-align="center" data-vertical-align="middle">Tables of Rates</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">
+                    <em>Age at <br/>Issue</em>
+                  </td>
+                  <td data-text-align="center" data-vertical-align="middle">
+                    <em>Premium<br/>Rate</em>
+                  </td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">0</td>
+                  <td data-text-align="center" data-vertical-align="middle">11.50</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">1</td>
+                  <td data-text-align="center" data-vertical-align="middle">11.60</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">2</td>
+                  <td data-text-align="center" data-vertical-align="middle">11.76</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">3</td>
+                  <td data-text-align="center" data-vertical-align="middle">11.97</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">4</td>
+                  <td data-text-align="center" data-vertical-align="middle">12.22</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">5</td>
+                  <td data-text-align="center" data-vertical-align="middle">12.50</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">6</td>
+                  <td data-text-align="center" data-vertical-align="middle">12.80</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">7</td>
+                  <td data-text-align="center" data-vertical-align="middle">13.11</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">8</td>
+                  <td data-text-align="center" data-vertical-align="middle">13.43</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">9</td>
+                  <td data-text-align="center" data-vertical-align="middle">13.75</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">10</td>
+                  <td data-text-align="center" data-vertical-align="middle">14.08</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">11</td>
+                  <td data-text-align="center" data-vertical-align="middle">14.42</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">12</td>
+                  <td data-text-align="center" data-vertical-align="middle">14.77</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">13</td>
+                  <td data-text-align="center" data-vertical-align="middle">15.13</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">14</td>
+                  <td data-text-align="center" data-vertical-align="middle">15.49</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">15</td>
+                  <td data-text-align="center" data-vertical-align="middle">15.87</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">16</td>
+                  <td data-text-align="center" data-vertical-align="middle">16.27</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">17</td>
+                  <td data-text-align="center" data-vertical-align="middle">16.70</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">18</td>
+                  <td data-text-align="center" data-vertical-align="middle">17.16</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">19</td>
+                  <td data-text-align="center" data-vertical-align="middle">17.65</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">20</td>
+                  <td data-text-align="center" data-vertical-align="middle">18.18</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">21</td>
+                  <td data-text-align="center" data-vertical-align="middle">18.74</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">22</td>
+                  <td data-text-align="center" data-vertical-align="middle">19.34</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">23</td>
+                  <td data-text-align="center" data-vertical-align="middle">19.97</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">24</td>
+                  <td data-text-align="center" data-vertical-align="middle">20.62</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">25</td>
+                  <td data-text-align="center" data-vertical-align="middle">21.28</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">26</td>
+                  <td data-text-align="center" data-vertical-align="middle">21.95</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">27</td>
+                  <td data-text-align="center" data-vertical-align="middle">22.64</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">28</td>
+                  <td data-text-align="center" data-vertical-align="middle">23.37</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">29</td>
+                  <td data-text-align="center" data-vertical-align="middle">24.15</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">30</td>
+                  <td data-text-align="center" data-vertical-align="middle">25.00</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">31</td>
+                  <td data-text-align="center" data-vertical-align="middle">25.92</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">32</td>
+                  <td data-text-align="center" data-vertical-align="middle">26.91</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">33</td>
+                  <td data-text-align="center" data-vertical-align="middle">27.97</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">34</td>
+                  <td data-text-align="center" data-vertical-align="middle">29.10</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">35</td>
+                  <td data-text-align="center" data-vertical-align="middle">30.30</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">36</td>
+                  <td data-text-align="center" data-vertical-align="middle">31.55</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">37</td>
+                  <td data-text-align="center" data-vertical-align="middle">32.84</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">38</td>
+                  <td data-text-align="center" data-vertical-align="middle">34.17</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">39</td>
+                  <td data-text-align="center" data-vertical-align="middle">35.56</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">40</td>
+                  <td data-text-align="center" data-vertical-align="middle">37.04</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">41</td>
+                  <td data-text-align="center" data-vertical-align="middle">38.65</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">42</td>
+                  <td data-text-align="center" data-vertical-align="middle">40.45</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">43</td>
+                  <td data-text-align="center" data-vertical-align="middle">42.51</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">44</td>
+                  <td data-text-align="center" data-vertical-align="middle">44.89</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">45</td>
+                  <td data-text-align="center" data-vertical-align="middle">47.62</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">46</td>
+                  <td data-text-align="center" data-vertical-align="middle">50.71</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">47</td>
+                  <td data-text-align="center" data-vertical-align="middle">54.17</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">48</td>
+                  <td data-text-align="center" data-vertical-align="middle">58.00</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">49</td>
+                  <td data-text-align="center" data-vertical-align="middle">62.18</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">50</td>
+                  <td data-text-align="center" data-vertical-align="middle">66.67</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">51</td>
+                  <td data-text-align="center" data-vertical-align="middle">68.58</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">52</td>
+                  <td data-text-align="center" data-vertical-align="middle">70.54</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">53</td>
+                  <td data-text-align="center" data-vertical-align="middle">72.57</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">54</td>
+                  <td data-text-align="center" data-vertical-align="middle">74.69</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">55</td>
+                  <td data-text-align="center" data-vertical-align="middle">76.92</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">56</td>
+                  <td data-text-align="center" data-vertical-align="middle">79.29</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">57</td>
+                  <td data-text-align="center" data-vertical-align="middle">81.84</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">58</td>
+                  <td data-text-align="center" data-vertical-align="middle">84.61</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">59</td>
+                  <td data-text-align="center" data-vertical-align="middle">87.63</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">60</td>
+                  <td data-text-align="center" data-vertical-align="middle">90.91</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">61</td>
+                  <td data-text-align="center" data-vertical-align="middle">94.45</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">62</td>
+                  <td data-text-align="center" data-vertical-align="middle">98.25</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">63</td>
+                  <td data-text-align="center" data-vertical-align="middle">102.31</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">64</td>
+                  <td data-text-align="center" data-vertical-align="middle">106.31</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">65</td>
+                  <td data-text-align="center" data-vertical-align="middle">111.11</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">66</td>
+                  <td data-text-align="center" data-vertical-align="middle">115.48</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">67</td>
+                  <td data-text-align="center" data-vertical-align="middle">122.51</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">68</td>
+                  <td data-text-align="center" data-vertical-align="middle">122.51</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">69</td>
+                  <td data-text-align="center" data-vertical-align="middle">124.50</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">70</td>
+                  <td data-text-align="center" data-vertical-align="middle">125.00</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">71</td>
+                  <td data-text-align="center" data-vertical-align="middle">118.86</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">72</td>
+                  <td data-text-align="center" data-vertical-align="middle">123.96</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">73</td>
+                  <td data-text-align="center" data-vertical-align="middle">129.66</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">74</td>
+                  <td data-text-align="center" data-vertical-align="middle">135.96</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">75</td>
+                  <td data-text-align="center" data-vertical-align="middle">142.86</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">76</td>
+                  <td data-text-align="center" data-vertical-align="middle">150.36</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">77</td>
+                  <td data-text-align="center" data-vertical-align="middle">158.46</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">78</td>
+                  <td data-text-align="center" data-vertical-align="middle">167.16</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">79</td>
+                  <td data-text-align="center" data-vertical-align="middle">176.46</td>
+                </tr>
+                <tr>
+                  <td data-text-align="center" data-vertical-align="middle">80</td>
+                  <td data-text-align="center" data-vertical-align="middle">186.36</td>
+                </tr>
+              </tbody>
+            </table>
+          </text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>For purposes of this subsection, the portion of the premium set aside to support a guarantee that the surrender value will not be less than a specified amount or for any other benefit that the Commissioner deems excludable, will not be included.</text>
+        </para>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>In determining the net investment return to be applied to the benefit base, the insurer may deduct only the charges described in Regulation .06G(1), (2), (4), and (5) of this chapter.</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>While the provisions of §C(2), (4), and (10) of this regulation are intended to apply to a variable life insurance policy on which level premiums are payable for life, a variable life insurance policy issued on a single premium or other premium payment plan may be delivered or issued for delivery in this State if, in the opinion of the Commissioner, the policy is in no respect less favorable to the policyholder than a policy on which level premiums are payable for life and which meets the requirements of this regulation, and if the policy issued on a single premium or other premium payment plan is otherwise issued and administered in conformity with and as prescribed by this chapter.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Mandatory Policy Provisions.</text>
+      <para>
+        <num>(1)</num>
+        <text>Every variable life insurance policy filed for approval in this State shall be plainly printed in a type size not less than 10 point with a lower case unspaced alphabet length not less than 120 point, and shall contain at least the following:</text>
+        <para>
+          <num>(a)</num>
+          <text>The cover page or pages corresponding to the cover page of each policy that shall contain:</text>
+          <para>
+            <num>(i)</num>
+            <text>A prominent statement in either contrasting color or in boldface type at least four points larger than the type size of the largest type used in the text of any provision on that page, that the death benefit may be variable or fixed under specified conditions;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>A prominent statement in either contrasting color or in boldface type at least four points larger than the type size of the largest type size used in the text of any provision on that page that cash values may increase or decrease in accordance with the experience of the separate account subject to any specified minimum guarantees;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>A statement that the minimum death benefit will be at least equal to the initial face amount at the date of issue if premiums are duly paid and if there are no outstanding policy loans, partial withdrawals, or partial surrenders;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>The rule, or a reference to the policy provision, which describes the method for determining the variable amount of insurance payable at death;</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>A captioned provision which provides that the policyholder may return the variable life insurance policy within 45 days of the date of the execution of the application or within 10 days of receipt of the policy by the policyholder, whichever is later, and receive a refund of all premium payments for the policy; and</text>
+          </para>
+          <para>
+            <num>(vi)</num>
+            <text>Other items that are currently required for fixed benefit life insurance policies and which are not inconsistent with this chapter;</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A provision regarding the policy grace period as follows:</text>
+          <para>
+            <num>(i)</num>
+            <text>For scheduled premium policies, the grace period shall be not less than 31 days from the premium due date and when the premium is paid within the grace period, policy values will be the same, except for the deduction of any overdue premium, as if the premium were paid on or before the due date;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>For flexible premium policies, the grace period shall begin on the policy processing day when the total charges authorized by the policy that are necessary to keep the policy in force until the next policy processing day exceed the amounts available under the policy to pay such charges in accordance with the terms of the policy and end on a date not less than 61 days after the mailing date of the report to policyholders required by <cite path="|31|09|02|.09|C.">Regulation .09C of this chapter</cite>;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>For all policies, the death benefit payable during the grace period shall equal the death benefit in effect immediately prior to such period less any overdue charges; and</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>For all policies, if the policy processing day occurs monthly, the insurer may require the payment of not more than three times the charges that were due on the policy processing day on which the amounts available under the policy were insufficient to pay all charges authorized by the policy that are necessary to keep the policy in force until the next policy processing day;</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A provision that the policy will be reinstated at any time within 2 years from the date of default upon the written application of the insured and evidence of insurability, including good health, satisfactory to the insurer, unless the cash surrender value has been paid or the period of extended insurance has expired, upon the payment of any outstanding indebtedness arising after the end of the grace period following the date of default together with accrued interest thereon to the date of reinstatement and payment of an amount not exceeding the greater of:</text>
+          <para>
+            <num>(i)</num>
+            <text>All overdue premiums with interest at a specified rate not exceeding the rate of interest set forth in <cite doc="Md. Code" path="gin|16-210">Insurance Article, §16-210, Annotated Code of Maryland</cite>, and any indebtedness in effect at the end of the grace period following the date of default with interest at a specified rate not exceeding the rate set forth in <cite doc="Md. Code" path="gin|16-210">Insurance Article, §16-210, Annotated Code of Maryland</cite>; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>One hundred and ten percent of the increase in cash surrender value resulting from reinstatement plus all overdue premiums for incidental insurance benefits with interest at a specified rate not exceeding the rate set forth in <cite doc="Md. Code" path="gin|16-210">Insurance Article, §16-210, Annotated Code of Maryland</cite>;</text>
+          </para>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>A full description of the benefit base and of the method of calculation and application of any factors used to adjust variable benefits under the policy;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>A provision designating the separate account to be used and stating that:</text>
+          <para>
+            <num>(i)</num>
+            <text>The separate account shall be used to fund only variable life insurance benefits, except to the extent permitted by <cite path="31|09|02|.04|F.|(3)|(f)">§F(3)(f) of this regulation</cite>;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The assets of the separate account shall be available to cover the liabilities of the general account of the insurer only to the extent that the assets of the separate account exceed the liabilities of the separate account arising under the variable life insurance policies supported by the separate account; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>The assets of the separate account shall be valued at least as often as any policy benefits vary, but at least monthly;</text>
+          </para>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>A provision that at any time during the first 18 months of the variable life insurance policy, as long as premiums are duly paid, the owner may exchange the policy for a policy of permanent fixed benefit life insurance on the life of the insured for the same initial amount of insurance as the variable life insurance policy, and on a plan of insurance specified in the policy, provided that the new policy:</text>
+          <para>
+            <num>(i)</num>
+            <text>Bears the same date of issue and age at issue as the original variable life insurance policy;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Is issued on a substantially comparable plan of permanent insurance offered in this state by the insurer or an affiliate on the date of issue of the variable life insurance policy and at the premium rates in effect on that date for the same class of insurance;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Includes riders and incidental insurance benefits which were included in the original policy if the riders and incidental insurance benefits are issued with the fixed benefit policy;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Is issued subject to an equitable premium or cash value adjustment that takes appropriate account of the premiums and cash values under the original and new policies. A detailed statement of the method of computing the adjustment shall be filed with the Commissioner;</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>Does not require evidence of insurability for this exchange;</text>
+          </para>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>A provision that the policy and any papers attached by the insurer, including the application if attached, constitute the entire insurance contract;</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>A designation of the officers of the insurer who are empowered to make an agreement or representation on behalf of the insurer and an indication that statements by the insured, or on his behalf, shall be considered as representations and not warranties;</text>
+        </para>
+        <para>
+          <num>(i)</num>
+          <text>An identification of the owner of the insurance contract;</text>
+        </para>
+        <para>
+          <num>(j)</num>
+          <text>A provision setting forth conditions or requirements as to the designation, or change of designation, of a beneficiary and a provision for disbursement of benefits in the absence of a beneficiary designation;</text>
+        </para>
+        <para>
+          <num>(k)</num>
+          <text>A statement of conditions or requirements concerning the assignment of the policy;</text>
+        </para>
+        <para>
+          <num>(l)</num>
+          <text>A description of any adjustments in policy values to be made in the event of misstatement of age or sex of the insured;</text>
+        </para>
+        <para>
+          <num>(m)</num>
+          <text>A provision that the policy shall be incontestable by the insurer after it has been in force for 2 years during the lifetime of the insured, notwithstanding that any increase in the amount of the policy’s death benefits subsequent to the policy issue date, which occurred upon a new application or request of the owner and was subject to satisfactory proof of the insured’s insurability, shall be incontestable after the increase has been in force, during the lifetime of the insured, for 2 years from the date of issue of increase;</text>
+        </para>
+        <para>
+          <num>(n)</num>
+          <text>A provision stating that the investment policy of the separate account may not be changed without the approval of the Insurance Commissioner of the state of domicile of the insurer, and that the approval process is on file with the Commissioner of this State;</text>
+        </para>
+        <para>
+          <num>(o)</num>
+          <text>A provision that payment of variable death benefits in excess of the minimum death benefits, cash values, policy loans, or partial withdrawals, except when used to pay premiums, or partial surrenders may be deferred:</text>
+          <para>
+            <num>(i)</num>
+            <text>For up to 6 months from the date of request, if these payments are based on policy values which do not depend on the investment performance of the separate account; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Otherwise, for any period during which the New York Stock Exchange is closed for trading, except for normal holiday closing, or when the Securities and Exchange Commission has determined that a state of emergency exists which may make payment impractical;</text>
+          </para>
+        </para>
+        <para>
+          <num>(p)</num>
+          <text>Settlement options which shall be provided on a fixed basis only;</text>
+        </para>
+        <para>
+          <num>(q)</num>
+          <text>A description of the basis for computing the cash surrender value under the policy shall be included, with the surrender value expressed as either:</text>
+          <para>
+            <num>(i)</num>
+            <text>A schedule of cash value amounts per $1,000 of variable face amount at each attained age or policy year for at least 20 years from issue, or for the premium paying period, if less than 20 years; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>One cash value schedule as described in <cite path="31|09|02|.04|D.|(17)|(a)">§D(17)(a) of this regulation</cite> for the death benefit, or for each $1,000 of death benefit, which would be in effect if the net investment return is always equal to the assumed investment rate and a second schedule applicable to any adjustments to the death benefit, disregarding the minimum death benefit guarantee and term insurance amounts, if the net investment return does not equal the assumed investment rate at each age for at least 20 years from issue, or for the premium paying period if it is less than 20 years;</text>
+          </para>
+        </para>
+        <para>
+          <num>(r)</num>
+          <text>Premiums for incidental insurance benefits shall be stated separately;</text>
+        </para>
+        <para>
+          <num>(s)</num>
+          <text>Any other policy provisions required by this chapter;</text>
+        </para>
+        <para>
+          <num>(t)</num>
+          <text>Such other items as are currently required for fixed benefit life insurance policies and are not inconsistent with this chapter.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Nonforfeiture, Partial Withdrawal, Policy Loan, and Partial Surrender Provisions. A variable life insurance policy delivered or issued for delivery in this State shall contain provisions which are not less favorable to the policyholder than the following:</text>
+      <para>
+        <num>(1)</num>
+        <text>Nonforfeiture Benefits:</text>
+        <para>
+          <num>(a)</num>
+          <text>A provision for nonforfeiture insurance benefits so that at least one benefit is offered on a fixed basis from the due date of the premium in default;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Variable extended term insurance may not be offered;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A given nonforfeiture option need not be offered on both a fixed and variable basis;</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A provision for policy loans after 3 full years' premiums have been paid (which may at the option of the insurer be entitled and referred to as a partial withdrawal provision) not less favorable to the policyholder than the following:</text>
+        <para>
+          <num>(a)</num>
+          <text>Up to 75 percent but if the loan is made from the general account not more than 90 percent of the policy's cash value may be borrowed;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The amount borrowed, or any repayment thereof, does not affect the amount of the premium payable under the policy;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The amount borrowed shall bear interest at a rate not to exceed the rate stated in <cite doc="Md. Code" path="gin|16-207">Insurance Article, §16-207, Annotated Code of Maryland</cite>;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Any indebtedness shall be deducted from the proceeds payable on death;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Any indebtedness shall be deducted from the cash value upon surrender or in determining any nonforfeiture benefit;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>If the indebtedness exceeds the cash value for scheduled premium policies, the insurer shall give notice of intent to cancel the policy if the excess indebtedness is not repaid within 31 days after the date of mailing of the notice;</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>The policy may provide that if, at any time, as long as premiums are duly paid, the variable death benefit is less than it would have been if no loan or withdrawal had ever been made, the policyholder may increase the variable death benefit up to what it would have been if there had been no loan or withdrawal by paying an amount not exceeding 110 percent of the corresponding increase in cash value and by furnishing such evidence of insurability as the insurer may request;</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>The policy may specify a reasonable minimum amount which may be borrowed at any time, but this minimum does not apply to any automatic premium loan provision;</text>
+        </para>
+        <para>
+          <num>(i)</num>
+          <text>A policy loan provision is not required if the policy is under the extended insurance nonforfeiture option;</text>
+        </para>
+        <para>
+          <num>(j)</num>
+          <text>In addition to the foregoing, the policy may contain a partial surrender provision. However, this provision shall provide that the policyholder may request part of the cash value, and both the variable and minimum death benefits will be reduced in proportion to the percentage of the cash value received by the policyholder, and the premium for the remaining amount of insurance will also be reduced to the appropriate rates for the reduced amount of insurance. The policy may provide that a partial surrender provision may not require the insurer to reduce the amount of the minimum death benefit to less than the lowest amount of minimum death benefit which would have been issued to the insured under the insurance plans of the insurer at the time the policy was issued. The policy shall clearly provide that the policyholder has the option of electing to exercise the cash value privileges of the policy loan or partial withdrawal provision rather than the partial surrender provision;</text>
+        </para>
+        <para>
+          <num>(k)</num>
+          <text>All policy loan, partial withdrawal, or partial surrender provisions shall be constructed so that variable life insurance policyholders who have not exercised these provisions are not disadvantaged by their exercise;</text>
+        </para>
+        <para>
+          <num>(l)</num>
+          <text>Monies paid to the policyholders upon the exercise of a policy loan, partial withdrawal, or partial surrender provision shall be withdrawn from the separate account and shall be returned to the separate account upon repayment, except that a stock insurer may provide the monies for policy loans from the general account.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Other Policy Provisions. The following provisions may in substance be included in a variable life insurance policy or related form delivered or issued for delivery in this State:</text>
+      <para>
+        <num>(1)</num>
+        <text>An exclusion for suicide within 2 years of the policy issue date, and an exclusion, to the extent of the increased death benefits only, for suicide within 2 years of any increase in death benefits which result from an application of the owner subsequent to the policy issue date;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Incidental insurance benefits may be offered on a fixed basis only;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Policies issued on a participating basis shall offer to pay dividend amounts in cash and may offer options so that the amount of the dividend may be:</text>
+        <para>
+          <num>(a)</num>
+          <text>Credited against premium payments;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Applied to provide paid-up amounts of additional fixed benefit whole life insurance;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Applied to provide paid-up amounts of additional variable life insurance;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Deposited in the general account at a specified minimum rate of interest;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Applied to provide paid-up amounts of fixed benefit 1-year term insurance;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Deposited as a variable deposit in the separate account if the separate account is exempt pursuant to the federal Investment Company Act of 1940, §3(c) (11);</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>A provision allowing the policyholder to elect in writing in the application for the policy or thereafter an automatic premium loan on a basis not less favorable than that required of policy loans or partial withdrawals under <cite path="31|09|02|.04|E.">§E of this regulation</cite>, except that a restriction that no more than two consecutive premiums can be paid under this provision may be imposed.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="31|09|02|.05">
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Reserve Liabilities for Variable Life Insurance.</heading>
+    <para>
+      <num>A.</num>
+      <text>Reserve liabilities for variable life insurance policies shall be established under <cite doc="Md. Code" path="gin">Insurance Article, Title 5, Subtitle 3, Annotated Code of Maryland</cite>, in accordance with actuarial procedures that recognize the variable nature of the benefits provided and any mortality guarantees.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Reserve liabilities for the guaranteed minimum death benefit shall be the reserve needed to provide for the contingency of death occurring when the guaranteed minimum death benefit exceeds the death benefit that would be paid in the absence of the guarantee, and shall be maintained in the general account of the insurer, and shall be not less than the greater of the following minimum reserves:</text>
+      <para>
+        <num>(1)</num>
+        <text>The aggregate total of the term costs, if any, covering a period of 1 full year from the valuation date of the guarantee on each variable life insurance contract, assuming an immediate one-third depreciation in the current value of the assets of the separate account followed by a net investment return equal to the assumed investment rate.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The aggregate total of the attained age level reserves on each variable life insurance contract. The attained age level reserve on each variable life insurance contract may not be less than zero and shall equal the residue, as described in <cite path="31|09|02|.05|B.|(2)|(a)">§B(2)(a) of this regulation</cite> of the prior year's attained age level reserve on the contract, with any such residue increased or decreased by a payment computed on an attained age basis as described in <cite path="31|09|02|.05|B.|(2)|(b)">§B(2)(b) of this regulation</cite>.</text>
+        <para>
+          <num>(a)</num>
+          <text>The residue of the prior year's attained age level reserve on each variable life insurance contract may not be less than zero and shall be determined by adding interest at the valuation interest rate to the prior year's reserve, deducting the tabular claims based on the excess, if any, of the guaranteed minimum death benefit over the death benefit that would be payable in the absence of the guarantee, and dividing the net result by the tabular probability of survival. The excess referred to in the preceding sentence shall be based on the actual level of death benefits that would have been in effect during the preceding year in the absence of the guarantee, taking appropriate account of the reserve assumptions regarding the distribution of death claim payments over the year.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The payment referred to in <cite path="31|09|02|.05|B.|(2)">§B(2) of this regulation</cite> shall be computed so that the present value of a level payment of that amount each year over the future premium paying period of the contract is equal to(a) minus (B) minus (C), when(a) is the present value of the future guaranteed minimum death benefit, (B) is the present value of the future death benefits that would be payable in the absence of the guarantee, and (C) is any residue, as described in <cite path="31|09|02|.05|B.|(2)|(a)">§B(2)(a) of this regulation</cite> of the prior year's attained age level reserve on the variable life insurance contract. If the contract is paid up, the payment shall equal(a) minus (B) minus (C). The amounts of future death benefits referred to in (B) shall be computed assuming a net investment return of the separate account which may differ from the assumed investment rate or the valuation interest rate, or both, but may not exceed the maximum interest rate permitted for the valuation of life insurance contracts.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The valuation interest rate and mortality table used in computing the two minimum reserves described in §B(1) and (2) of this regulation shall conform to permissible standards for the valuation of life insurance contracts. In determining the minimum reserve, the company may employ suitable approximations and estimates, including but not limited to groupings and averages.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Reserve liabilities for all fixed incidental insurance benefits shall be maintained in the general account in amounts determined in accordance with the actuarial procedures appropriate to these benefits.</text>
+    </para>
+  </section>
+  <section cache:ref-path="31|09|02|.06">
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Separate Accounts.</heading>
+    <text>The following requirements apply to establishment and administration of variable life insurance separate accounts:</text>
+    <para>
+      <num>A.</num>
+      <text>Establishment and Administration of Separate Accounts.</text>
+      <para>
+        <num>(1)</num>
+        <text>An insurer issuing variable life insurance in this State shall establish one or more separate accounts pursuant to Insurance Article, §§<cite doc="Md. Code" path="gin|16-601">16-601</cite>—<cite doc="Md. Code" path="gin|16-603">16-603</cite>, Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Assets in the separate account shall be owned by the insurer and the insurer may not be, or hold itself out to be, a trustee with respect to these assets. If and to the extent so provided under the applicable contracts, that portion of the assets of the separate account equal to the reserves and other contract liabilities with respect to the account may not be chargeable with liabilities arising out of any other business the insurer may conduct.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If no law or other regulation provides for the custody of separate account assets and if the insurer itself is not the custodian of these assets, all contracts for custody shall be in writing and the Commissioner of the insurer's state of domicile shall approve of both the terms of the contract and the proposed custodian before the transfer of custody.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Without the prior written approval of the Commissioner, an insurer may not employ in any material connection with the handling of separate account assets any person who:</text>
+        <para>
+          <num>(a)</num>
+          <text>Within the last 10 years has been convicted of any felony, or of a misdemeanor arising out of this person's conduct involving embezzlement, fraudulent conversion, or misappropriation of funds or securities or involving violation of 18 U.S.C. §1341, 1342, or 1343;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Within the last 10 years has been found by any state regulatory authority to have violated or has acknowledged violation of any provision of any state insurance law involving fraud, deceit, or knowing misrepresentation;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Within the last 10 years has been found by federal or state regulatory authorities to have violated, or has acknowledged violation of, any provision of federal or state securities laws involving fraud, deceit, or knowing misrepresentation; or</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Within the past 10 years has signed a consent order with any federal or state regulatory authority that it will not in the future engage in any of the aforementioned violations.</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>A person with access to the cash, securities, or other assets of the separate account shall be under bond in an amount of not less than the greater of $500,000 or 25 percent of the assets to which the person has access, but the bond need not exceed 5 million dollars.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>If an insurer establishes more than one separate account for variable life insurance, justification for the establishment of each additional separate account shall also be filed with the Commissioner and shall be subject to the Commissioner's approval. The creation of additional separate accounts to avoid lower maximum charges against the separate account is prohibited.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>The assets of the separate accounts established for variable life insurance policies shall be valued at least as often as variable benefits are determined but in any event at least monthly.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>A separate account exempt pursuant to the federal Investment Company Act of 1940, §3(c)(11), because of the tax qualified status of the policies funded thereby, may not be used to fund other variable life insurance policies.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>Except for separate accounts exempt pursuant to the federal Investment Company Act of 1940, §3(c)(11), variable life insurance separate accounts may not be used for variable annuities or for the investment of funds corresponding to dividend accumulations or other policyholder liabilities not involving life contingencies.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Amounts in the Separate Account.</text>
+      <para>
+        <num>(1)</num>
+        <text>The insurer shall maintain in each variable life insurance separate account assets with a fair market value at least equal to the greater of the valuation reserves for the variable portion of the variable life insurance policies or the benefit base for the policies.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The benefit base of any variable life insurance policy as of the beginning of any valuation period may not be less than the sum of the following factors after deducting amounts of any indebtedness pursuant to <cite path="|31|09|02|.04|E.|(2)">Regulation .04E(2) of this chapter</cite>:</text>
+        <para>
+          <num>(a)</num>
+          <text>The valuation net premium for this period, for the variable portion of the policy, minus the discounted cost of term insurance for this period, based on the tabular mortality and interest rates used in determining valuation reserves; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The valuation terminal reserve, for the variable portion of the policy, at the end of the immediately preceding valuation period adjusted for the net investment return of the preceding period.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>In lieu of the minimum benefit base requirement specified in §B(1) and (2) of this regulation, an insurer may otherwise qualify under this section if it can be demonstrated, to the satisfaction of the Commissioner, that the policy benefits obtained over a 20-year period from the date of issue by the use of the insurer's benefit base are at least substantially equivalent in value to the benefits obtained by the use of the minimum benefit base specified above. The Commissioner may specify the range of net investment return to be used in this demonstration.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Notwithstanding the actual reserve basis used for policies that do not meet standard underwriting requirements, the benefit base for these policies may be the same as for corresponding policies which do meet standard underwriting requirements.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Investments by the Separate Account.</text>
+      <para>
+        <num>(1)</num>
+        <text>A sale, exchange, or other transfer of assets may not be made by an insurer or any of its affiliates between any of its separate accounts or between any other investment account and one or more of its separate accounts, unless:</text>
+        <para>
+          <num>(a)</num>
+          <text>In case of a transfer into a separate account, the transfer is made solely to establish the account or to support the operation of the policies with respect to the separate account to which the transfer is made; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The transfer, whether into or from a separate account, is made by a transfer of cash, but other assets may be transferred if approved by the Commissioner in advance.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Assets allocated to a variable life insurance separate account shall be held in cash or investments having a reasonably ascertainable market price. For purposes of this subsection, only the following shall be considered investments having a reasonably ascertainable market price:</text>
+        <para>
+          <num>(a)</num>
+          <text>Liens in favor of the insurer against separate account policy reserves resulting from use by policyholders of cash values.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Securities listed and traded on the New York Stock Exchange, the American Stock Exchange, or regional stock exchanges or successors to these exchanges having the same or similar qualifications.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Securities listed on the NASDAQ System.</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Shares of an investment company registered pursuant to the federal Investment Company Act of 1940. When the investment company issues book shares in lieu of share certificates, the book shares shall be deemed to be adequate evidence of ownership.</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Obligations of or guaranteed by the United States Government, the Canadian government, any state, or municipality or governmental subdivision of a state.</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Commercial paper issued by business corporations when the total of the paper issued by the corporation does not exceed in value a guaranteed short line of credit by a bank.</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>Certificates of deposit issued by financial institutions the deposits of which are insured by the FDIC or FSLIC.</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>New bond or debt issues which may reasonably be expected to be listed on an exchange regulated by the Securities Exchange Act of 1934.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Not more than 25 percent of the assets allocated to a variable life insurance separate account may be invested in non-dividend paying stock, and then only if the issuer of this stock has not had a net operating loss in more than two of its twelve fiscal quarters immediately preceding the date of purchase of the stock, or has not had a net operating loss in more than two of its fiscal quarters from the date of its incorporation if it has not been incorporated for at least 3 years before the date of purchase of the stock.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Notwithstanding any other provision of law or the provisions of §C(2)of this regulation, assets allocated to a variable life insurance separate account may not be invested in:</text>
+        <para>
+          <num>(a)</num>
+          <text>Commodities or commodity contracts;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Put and call options or combinations of these options;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Short sales;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Purchases on margins;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Letter or restricted stock;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Units or other evidences of ownership of a separate account of another insurer, except those registered under the federal Investment Company Act of 1940; or</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>Real estate or shares of a real estate investment trust except that up to 5 percent of the assets allocated to a variable life insurance separate account may be invested in the shares of real estate investment trusts listed as described in <cite path="31|09|02|.06|C.|(2)|(b)">§C(2)(b) of this regulation</cite>.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Limitations on Ownership.</text>
+      <para>
+        <num>(1)</num>
+        <text>A variable life insurance separate account may not purchase or otherwise acquire the securities of any issuer, other than securities issued or guaranteed as to principal and interest by the United States, if, immediately after this purchase or acquisition, the value of the investment, together with prior investments of the separate account in the security valued as required by these regulations, would exceed the greater of 5 percent of the value of the assets of the separate account or $10,000. The Commissioner may waive this limitation in writing if he believes the waiver will not render the operation of the separate account hazardous to the public or the policyholders in this State.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A separate account may not purchase or otherwise acquire the voting securities of any issuer if as a result of the acquisition the insurer and its separate accounts, in the aggregate, will own more than 5 percent of the total issued and outstanding voting securities of the issuer. The Commissioner may waive this limitation in writing if he believes the waiver will not render the operation of the separate account hazardous to the public or the policyholders in this State or jeopardize the independent operation of the issuer of these securities.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The percentage limitation specified in <cite path="31|09|02|.06|D.|(1)">§D(1) of this regulation</cite> may not be construed to preclude the investment of the assets of separate accounts in shares of investment companies registered pursuant to the federal Investment Company Act of 1940, if the investments and investment policies of these investment companies comply substantially with the provisions of <cite path="31|09|02|.06|C.">§C of this regulation</cite>, and other applicable portions of this regulation.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Valuation of Assets of a Variable Life Insurance Separate Account.</text>
+      <para>
+        <num>(1)</num>
+        <text>Market Value.</text>
+        <para>
+          <num>(a)</num>
+          <text>Investments of the separate account shall be valued at their market value on the date of valuation.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Market value for investments traded on the recognized exchanges means the last reported sale price on the date of valuation. If there has been no sale on that date, the market value means the last reported bid quotation on the date of valuation.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Market value for investments listed on the NASDAQ System means the last representative bid quotation on the valuation date. If an investment ceases to be listed but continues to be traded over the counter, it shall be valued at the lowest bid quotation as it appears on the National Quotation Bureau sheets.</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>If the valuation date referred to in §E(1)(b) and (c) of this regulation is a day when the exchange or the NASDAQ System is not open for business, the valuation date shall be the last date when the exchange or the NASDAQ System was open for business.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If an investment ceases to be traded, it shall be valued at fair value as determined in good faith by or at the direction of the Board of Directors of the insurer but not in excess of the last reported bid quotation. Within 30 days, notification of cessation of trading of any investment shall be reported by the insurer to the insurance commissioner of the state of domicile of the insurer. That commissioner shall within a reasonable period of time determine the method of valuation or disposition of this investment.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Separate Account Investment Policy.</text>
+      <para>
+        <num>(1)</num>
+        <text>The investment policy of a separate account operated by a domestic insurer filed under <cite path="|31|09|02|.03|B.|(3)">Regulation .03B(3) of this chapter</cite> may not be changed without the approval of the Insurance Commissioner.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>With respect to changes of investment policy for which the Commissioner must give his approval, the following regulations shall apply:</text>
+        <para>
+          <num>(a)</num>
+          <text>Approval shall be deemed to be given 60 days after the date the request for approval was filed with the Commissioner, unless he notified the insurer before the end of the 60-day period of his determination that the proposed change is a material change in the investment policy.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>If the change is deemed material by the Commissioner, he shall approve the change only if he determines, after a public hearing, that the change does not appear detrimental to the interest of the policyholders of the insurer.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>At least 30 days before any public hearing under <cite path="31|09|02|.06|F.|(2)|(b)">§F(2)(b) of this regulation</cite>, the insurer shall mail a notice to each policyholder and to the insurance commissioner of each state in which the affected variable life insurance policies are being sold. This notice shall describe the proposed change in investment policy, list the reasons, designate the date and place of the public hearing, inform the policyholder of the procedures to be followed in commenting on the change, and describe the conduct of the meeting. This notice shall be in a form approved by the Commissioner.</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Within 60 days after the public hearing, the Commissioner shall approve or deny the proposed change in investment policy.</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>If a policyholder objects to the proposed change and the change is allowed by the Commissioner, the objecting policyholder shall be given the option within 60 days of notification to the policyholder of the approval by the Commissioner of the change, of converting, without evidence of insurability, under one of the following options, to a fixed benefit life insurance policy issued by the insurer or an affiliate:</text>
+          <para>
+            <num>(i)</num>
+            <text>If the policy is in force on a premium paying basis, either:</text>
+            <para>
+              <num>(aa)</num>
+              <text>Conversion as of the original issue age to a substantially comparable permanent form of fixed benefit life insurance, based on the insurer's premium rates for fixed benefit life insurance at the original issue age, for an amount of insurance not exceeding the death benefit of the variable life insurance policy on the date of conversion; or</text>
+            </para>
+            <para>
+              <num>(bb)</num>
+              <text>Conversion as of the attained age to a substantially comparable permanent form of fixed benefit life insurance for an amount of insurance not exceeding the excess of the death benefit of the variable life insurance policy on the date of conversion over its cash value on the date of conversion if the policyholder elects to surrender the variable life policy for its cash value, or the death benefit payable under any paid-up insurance option if the policyholder elects the nonforfeiture option under the variable life policy.</text>
+            </para>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>If the policy is in force as paid-up variable life insurance, then conversion will be to a substantially comparable paid-up fixed benefit life insurance policy for an amount of insurance not exceeding the death benefit of the variable life insurance policy on the date of conversion. If conversion is made pursuant to §F(2)(e)(i)(aa) or F(2)(e)(ii) of this regulation then:</text>
+            <para>
+              <num>(aa)</num>
+              <text>If the cash value of the variable life insurance policy exceeds the cash value of the fixed benefit life insurance policy, the difference shall be paid to the policyholder;</text>
+            </para>
+            <para>
+              <num>(bb)</num>
+              <text>If the cash value of the fixed benefit life insurance policy exceeds the cash value of the variable life insurance policy, the difference shall be paid by the policyholder; and</text>
+            </para>
+            <para>
+              <num>(cc)</num>
+              <text>Any indebtedness under the variable life insurance policy shall become indebtedness under the fixed benefit policy, provided that any excess of this indebtedness over the cash value of the fixed benefit policy on the date of conversion shall be deducted from any amount otherwise payable to the policyholder.</text>
+            </para>
+          </para>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Charges Against a Variable Life Insurance Separate Account. The insurer shall disclose in writing, before or contemporaneously with delivery of the policy, each charge that may be made against the separate account, including:</text>
+      <para>
+        <num>(1)</num>
+        <text>Taxes or reserves for taxes attributable to investment gains and income of the separate account;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Actual cost of reasonable brokerage fees and similar direct acquisition and sales costs incurred in the purchase or sale of separate account assets;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Actuarially determined costs of insurance (tabular costs) and the release of reserves and benefit base consistent with the release of separate account liabilities;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Charges for administrative expenses and investment management expenses, including internal costs attributable to the investment management of assets of the separate account;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>A charge, at a rate specified in the policy for mortality and expense guarantees;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Any amounts in excess of those required to be held in the separate account; and</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Charges for incidental insurance benefits.</text>
+      </para>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>Standards of Conduct. An insurer seeking approval to enter into the variable life insurance business in this State shall adopt by formal action of its Board of Directors and file with the Commissioner a written statement specifying the standards of conduct of the insurer, its officers, directors, employees, and affiliates with respect to investments of variable life insurance separate accounts and variable life insurance operations. These standards of conduct shall be binding on the insurer and those to whom it refers and shall contain at a minimum the items contained in <cite path="31|09|02|.06|I.|(2)">§I(2) of this regulation</cite>.</text>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>Conflicts of Interest.</text>
+      <para>
+        <num>(1)</num>
+        <text>Rules under any provision of the insurance laws of this State or any regulation applicable to the officers and directors of insurance companies with respect to conflicts of interest shall apply also to members of any separate account's committee or other similar body. An officer or director of the company or any member of any managing committee or body of a separate account may not receive directly or indirectly a commission or other compensation with respect to the purchase or sale of assets of the separate account. The board of directors of the insurer shall be responsible for all acts concerning the separate account.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Unless otherwise approved in writing by the Commissioner in advance of the transaction, with respect to variable life insurance separate accounts, an insurer or affiliate of an insurer may not:</text>
+        <para>
+          <num>(a)</num>
+          <text>Sell to or purchase from any separate account established by the insurer any securities or other property, other than variable life insurance policies;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Purchase or allow to be purchased for any separate account securities of which the insurer or an affiliate is the insurer, or securities of a corporation in which an officer or director of the insurer or an affiliate or any member of the managing committee or body owns 3 percent or more of the common stock or shares;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Accept compensation, other than a regular salary or wages from the insurer or affiliate, for the sale or purchase of securities to or from any separate account other than as provided in <cite path="31|09|02|.06|I.|(3)|(c)">§I(3)(c) of this regulation</cite>;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Engage in a joint transaction, participation, or common undertaking by which the insurer of an affiliate participates with any separate account in a transaction in which an insurer or any of its affiliates obtains an advantage in the price of quality of the item purchased, in the service received, or in the cost of the service, and the insurer or any of its other affiliates is disadvantaged in any of these respects by the same transaction;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Borrow money or securities from any separate account other than under a policy loan provision.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>No provision of this chapter may be construed to prohibit:</text>
+        <para>
+          <num>(a)</num>
+          <text>The investment of separate account assets in securities issued by one or more investment companies registered pursuant to the federal Investment Company Act of 1940 which is sponsored or managed by the insurer or an affiliate, and the payment of investment management or advisory fees on the assets.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The combination of orders for the purchase or sale of securities for the insurer, an affiliate, any separate accounts, or any one or more of them, which is for their mutual benefit or convenience as long as any securities so purchased or the proceeds of any sale of securities are allocated among the participants on some predetermined basis expressed in writing which is designed to assure the equitable treatment of all participants.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>An insurer or an affiliate to act as a broker or dealer in connection with the sale of securities to or by the separate account. However, a commission, fee, or remuneration charged may not exceed the minimum broker's commission established for any transaction by any national securities exchange through which the transaction could be effected, or when the charges are subject to negotiation, or when no minimum charge is applicable, then the charge shall be consistent with the charges prevailing in the ordinary course of business in the community where the transaction is effected.</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>The rendering of investment management or investment advisory services by an insurer or affiliate, for a fee, subject to the provisions of this chapter.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Upon the written request of an insurer or an affiliate, the Commissioner may approve a particular transaction or series of proposed transactions which would otherwise be prohibited under <cite path="31|09|02|.06|I.|(2)">§I(2) of this regulation</cite>, if the Commissioner determines that this transaction is not unfair or inequitable to persons affected under the circumstances of the transactions.</text>
+      </para>
+    </para>
+    <para>
+      <num>J.</num>
+      <text>Investment Advisory Services to a Separate Account.</text>
+      <para>
+        <num>(1)</num>
+        <text>An insurer may not enter into a contract under which any person undertakes, for a fee, to regularly furnish investment advice to the insurer with respect to its separate accounts maintained for variable life insurance policies, unless:</text>
+        <para>
+          <num>(a)</num>
+          <text>The person providing the advice is registered as an investment adviser under the federal Investment Advisers Act of 1940; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The insurer has filed with the Commissioner and continues to file annually the following information and statements concerning the proposed adviser:</text>
+          <para>
+            <num>(i)</num>
+            <text>The name and form of organization, state of organization, and its principal place of business;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The names and addresses of its partners, officers, directors, and persons performing similar functions, or, if this investment adviser is an individual, of the individual;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>A written standard of conduct complying in substance with the requirements of <cite path="31|09|02|.06|H.">§H of this regulation</cite>, which has been adopted by the investment adviser and is applicable to the investment adviser, its officers, directors, and affiliates;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>A statement provided by the proposed adviser as to whether the adviser or a person associated with the adviser:</text>
+            <para>
+              <num>(aa)</num>
+              <text>Has been convicted within 10 years of any felony, or of a misdemeanor arising out of this person's conduct as an employee, salesman, officer or director of an insurance company, a bank, an insurance agent, a securities broker, or an investment adviser, involving embezzlement, fraudulent conversion, or misappropriation of funds or securities, or involving the violation of 18 U.S.C. §1341, 1342, or 1343;</text>
+            </para>
+            <para>
+              <num>(bb)</num>
+              <text>Has been permanently or temporarily enjoined by order, judgement, or decree of any court of competent jurisdiction from acting as an investment adviser, underwriter, broker, or dealer, or as an affiliated person or as an employee of an investment company, bank, or insurance company, or from engaging in or continuing conduct or practice in connection with any of these activities;</text>
+            </para>
+            <para>
+              <num>(cc)</num>
+              <text>Has been found by federal or state regulatory authorities to have willfully violated, or has acknowledged willful violation of, any provision of federal or state securities laws or state insurance laws or of any rule or regulation under these laws;</text>
+            </para>
+            <para>
+              <num>(dd)</num>
+              <text>The adviser or a person associated with the adviser has within the last 10 years signed a consent order with a federal or state regulatory authority that the adviser or associated person may not in the future engage in any of the aforementioned violations; or</text>
+            </para>
+            <para>
+              <num>(ee)</num>
+              <text>Has been censured, denied an investment adviser registration, had a registration as an investment adviser revoked or suspended, or been barred or suspended from being associated with an investment adviser by order of federal or state regulatory authorities; and</text>
+            </para>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The investment advisory contract shall be in writing and provide that it may be terminated by the insurer without penalty to the insurer or the separate account upon no more than 60 days' written notice to the investment adviser.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>After notice and opportunity for hearing, the Commissioner may require, by order, the investment advisory contract to be terminated if he deems continued operation to be hazardous to the public or the insurer's policyholders.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Information Furnished to Applicants.</heading>
+    <para>
+      <num>A.</num>
+      <text>An insurer delivering or issuing for delivery in this State a variable life insurance policy shall deliver to the applicant for the policy, and obtain a written acknowledgement of receipt from the applicant coincident with or before the execution of the application, the following information:</text>
+      <para>
+        <num>(1)</num>
+        <text>A summary explanation, in nontechnical terms, of the principal features of the policy, including a description of the manner in which the variable benefits will reflect the investment experience of the separate account and the factors which affect the variation. This explanation shall include notices of the provisions required by Regulation .04D(1)(e) and D(6) of this chapter.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A statement of the investment policy of the separate account, including:</text>
+        <para>
+          <num>(a)</num>
+          <text>A description of the investment objective and orientation intended for the separate account and the principal types of investments intended to be made; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Any restriction or limitations on the manner in which the operations of the separate account are intended to be conducted.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A statement of the net investment return of the separate account for each of the last 10 years for which the separate account was in existence.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>A statement describing, as an approximate percentage of an annual gross premium for each year and for the life of the policy, all commission or equivalent payments to be paid to all agents or other persons as a result of the proposed sale for each year of the policy for which payments are to be made. As used in this subsection, commissions means all monies and other valuable consideration, including but not limited to prizes, bonuses paid directly or indirectly to, for, or on behalf of the selling agent as compensation for services in the sale of variable life insurance.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>A statement of the annual taxes, brokerage fees, and similar costs, and the charges, expressed as an annual percentage, levied against the separate account during the previous year.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>A summary of the method to be used in valuing assets held by the separate account.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>A summary of the federal income tax liabilities of the policy applicable to the insured, the policy owner, and the beneficiary.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>If the applicant is furnished illustrations of benefits payable under a variable life insurance contract, these illustrations shall be prepared by the insurer and may not include projections of past investment experience into the future or attempted predictions of future investment experience, provided that nothing in this subsection prohibits the use of hypothetical assumed rates of return to illustrate possible levels of benefits if it is made clear that the assumed rates are hypothetical only.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>A prominent statement either in contrasting color or in boldface type at least four points larger than the type size of the largest type used in the text of any provision on the page, providing in substance the following information:</text>
+        <para>
+          <num>(a)</num>
+          <text>The purpose of this variable life insurance policy is to provide insurance protection for the beneficiary named in the policy;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A claim is not made that this variable life insurance policy is in any way similar or comparable to a systematic investment plan of mutual fund.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The requirements of this regulation shall be deemed to have been satisfied to the extent that a disclosure containing information required by this regulation is delivered, either in the form of:</text>
+      <para>
+        <num>(1)</num>
+        <text>A prospectus included in a registration statement relating to the policies which satisfies the requirements of the federal Securities Act of 1933 and which was declared effective by the Securities and Exchange Commission; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>All information and reports required by the federal Employee Retirement Income Security Act of 1974 if the policies are exempted from the registration requirements of the federal Securities Act of 1933 pursuant to §3(a)(2).</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Applications.</heading>
+    <text>The application for a variable life insurance policy shall contain:</text>
+    <para>
+      <num>A.</num>
+      <text>A prominent statement that the death benefit may be variable or fixed under specified conditions;</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A prominent statement that cash values may increase or decrease in accordance with the experience of the separate account (subject to any specified minimum guarantees);</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Questions designed to elicit information which enables the insurer to determine the suitability of variable life insurance for the applicant.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Reports to Policyholders.</heading>
+    <text>An insurer delivering or issuing for delivery in this State a variable life insurance policy shall mail to each variable life insurance policyholder at his or her last known address the following reports:</text>
+    <para>
+      <num>A.</num>
+      <text>Within 30 days after each anniversary of the policy, a statement or statements of the cash surrender value, death benefit, any partial withdrawal or policy loan, any interest charge, and any optional payments allowed pursuant to <cite path="|31|09|02|.04|E.">Regulation .04E of this chapter</cite> under the policy computed as of the policy anniversary date. This statement may be furnished within 30 days after a specified date in each policy year as long as the information contained in it is computed as of a date not more than 45 days before the mailing of the notice. This statement shall state in contrasting color or distinctive type that, in accordance with the investment experience of the separate account, the cash values and the variable death benefit may increase or decrease, and shall prominently identify any value described which may be recomputed before the next statement required by this section. If the policy guarantees that the variable death benefit on the next policy anniversary date will not be less than the variable death benefit specified in the statement, the statement shall be modified to indicate this. For flexible premium policies, the report required by this paragraph shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Contain a reconciliation of the change since the previous report in cash value and cash surrender value, if different, because of payments made (less deductions for expense charges), withdrawals, investment experience, insurance charges, and any other changes made against the cash value; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Show the projected cash value and cash surrender value, if different, as of 1 year from the end of the period covered by the report assuming that:</text>
+        <para>
+          <num>(a)</num>
+          <text>Planned periodic premiums, if any, are paid as scheduled;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Guaranteed costs of insurance are deducted; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The net return is equal to the guaranteed rate or, in the absence of a guaranteed rate, is not greater than zero. If the projected value is less than zero, a warning message shall be included that states that the policy may be in danger of terminating without value in the next 12 months unless additional premium is paid.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Annually, a statement or statements including:</text>
+      <para>
+        <num>(1)</num>
+        <text>A summary of the financial statement of the separate account based on the annual statement last filed with the Commissioner;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The net investment return of the separate account for the last year and, for each year after the first, a comparison of the investment rate of the separate account during the last year with the investment rate during prior years, up to a total of 5 years when available;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A list of investments held by the separate account as of a date not earlier than the end of the last year for which an annual statement was filed with the Commissioner;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Charges, taxes, and brokerage fees determined on an accrual basis payable by the separate account during the previous year, each expressed as a dollar amount and a percentage and the total expressed as a dollar amount and as a percentage of the assets of the separate account;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>A statement of any change, since the last report, in the investment objective and orientation of the separate account, in any investment restriction or material quantitative or qualitative investment requirement applicable to the separate account, or in the investment adviser of the separate account;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>The name of each broker or dealer handling portfolio transactions on behalf of the separate account in which the insurer or an affiliate has a controlling interest and the nature of these transactions and the amount of compensation received by the broker or dealer from business originating with the separate account;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>The names and principal occupations of each principal executive officer and each director of the insurer; and</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>The names of all parents of the insurer and the basis of control of the insurer, and the name of any person who is known to own, of record or beneficially, 10 percent or more of the outstanding voting securities of the company.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>For flexible premium policies, if the amounts available under the policy on any processing day to pay the charges authorized by the policy are less than the amount necessary to keep the policy in force, until the next processing day, a report indicating the minimum payment required under the terms of the policy to keep it in force and the length of the grace period for payment of the amount.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.10</num>
+    <heading>Foreign Companies.</heading>
+    <text>If the law or regulation in the place of domicile of a foreign company provides a degree of protection to the policyholders and the public which is substantially similar to that provided by these regulations, the Commissioner may consider compliance with the law or regulation as compliance with these regulations.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.11</num>
+    <heading>Qualification of Producers for the Sale of Variable Life Insurance.</heading>
+    <para>
+      <num>A.</num>
+      <text>Qualification to Sell Variable Life Insurance.</text>
+      <para>
+        <num>(1)</num>
+        <text>A person may not sell or offer for sale in this State any variable life insurance policy unless the person is a producer and has filed with the Commissioner, in a form satisfactory to the Commissioner, evidence that the person holds a license and other authorizations which may be required by any federal or State securities law for the solicitation, sale, or negotiation of variable life insurance.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A person may not solicit, sell, or act or aid in any manner in the negotiation of a variable life insurance policy unless such person has been so qualified in accordance with the provisions of Insurance Article, §§<cite doc="Md. Code" path="gin|10-105">10-105</cite> and <cite doc="Md. Code" path="gin|10-109">10-109</cite>, Annotated Code of Maryland, and is licensed by the Commissioner to act as a producer with life and variable lines of authority.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Reports of Disciplinary Actions and Criminal Prosecution. A person qualified in this State under this regulation to act as a producer of variable life insurance policies shall report to the Commissioner in accordance with Insurance Article, §§<cite doc="Md. Code" path="gin|10-126">10-126</cite>(f) and (g), Annotated Code of Maryland:</text>
+      <para>
+        <num>(1)</num>
+        <text>Suspension or revocation of a producer license in any other state or territory of the United States;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Imposition of disciplinary sanction, including suspension or expulsion from membership, suspension or revocation or denial of registration imposed upon the producer by any national securities exchange or national securities association or any federal, state, or territorial agency with jurisdiction over securities or variable life insurance;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Judgment or injunction entered against the producer on the basis of conduct deemed to have involved fraud, deceit, misrepresentation, or violation of any insurance or securities law or regulation; or</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Criminal prosecution as described under <cite doc="Md. Code" path="gin|10-126">Insurance Article, §10-126(g), Annotated Code of Maryland</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Refusal to Qualify Producer to Sell Variable Life Insurance — Suspension, Revocation, or Nonrenewal of Qualification. The Commissioner may reject an application or suspend, revoke, or refuse to renew a producer’s qualification under this regulation to solicit, sell, or negotiate variable life insurance policies upon any ground that would bar the applicant or producer from being licensed to solicit, sell, or negotiate life insurance policies in this State. The rules governing proceedings relating to the rejection of a producer’s application, suspension or revocation of a producer’s license or refusal to renew a producer’s license shall also govern proceedings under this regulation.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.12</num>
+    <heading>Voting Rights.</heading>
+    <text>To the extent an insurer deems it necessary to comply with any applicable state or federal laws, with respect to any separate account, including, without limitation, a separate account which is a management investment company or unit investment trust, the insurer may provide for persons having an interest therein appropriate voting and other rights and special procedures for the conduct of the business of the account, including without limitation special rights and procedures relating to investment policy, investment advisory services, selection of independent public accountants, and the selection of a committee, the members of which need not be otherwise affiliated with the company, to manage the business of the account.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.13</num>
+    <heading>Separability and Applicability of Other Regulations.</heading>
+    <para>
+      <num>A.</num>
+      <text>If any provision of this chapter or its application to any person or circumstance is held to be invalid, the remainder of the chapter and the application of the provision to other persons or circumstances is not affected.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The provisions of <cite path="|31.09.04">COMAR 31.09.04</cite> and any other regulations promulgated by the Commissioner with reference to contracts on a variable basis or with reference to life insurance or the conduct of the business of life insurance shall apply to variable life insurance to the extent that the provisions of the other regulations are not in conflict with the requirements of this chapter.</text>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Insurance Article, §§<cite doc="Md. Code" path="gin|2-109">2-109</cite> and <cite doc="Md. Code" path="gin|16-601">16-601</cite>—<cite doc="Md. Code" path="gin|16-603">16-603</cite>, Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="1979-07-01">Effective date: July 1, 1979 (6:10 Md. R. 841)</annotation>
+    <annotation type="History" dest="container" effective="1983-12-27"><cite path="|31|09|02|.04|C.">Regulation .04C</cite> amended effective December 27, 1983 (10:24 Md. R. 2189)</annotation>
+    <annotation type="History" dest="container" effective="1988-08-22"><cite path="|31|09|02|.11|A.">Regulation .11A</cite> amended effective August 22, 1988 (15:17 Md. R. 2048)</annotation>
+    <annotation type="History" dest="container" effective="1998-09-07" discontinuity="true">Chapter recodified from <cite path="|09.30.43">COMAR 09.30.43</cite> to <cite path="|31.09.02">COMAR 31.09.02</cite> effective September 7, 1998 (25:18 Md. R. 1439)</annotation>
+    <annotation type="History" dest="container" effective="2018-05-21"><cite path="|31|09|02|.02|B.">Regulation .02B</cite> amended effective May 21, 2018 (45:10 Md. R. 504)</annotation>
+    <annotation type="History" dest="container" effective="2018-05-21"><cite path="|31|09|02|.03|C.">Regulation .03C</cite> amended effective May 21, 2018 (45:10 Md. R. 504)</annotation>
+    <annotation type="History" dest="container" effective="2004-04-12"><cite path="|31|09|02|.03|E.">Regulation .03E</cite> amended effective April 12, 2004 (31:7 Md. R. 587)</annotation>
+    <annotation type="History" dest="container" effective="2018-05-21"><cite path="|31|09|02|.04">Regulation .04</cite> amended effective May 21, 2018 (45:10 Md. R. 504)</annotation>
+    <annotation type="History" dest="container" effective="2012-08-06"><cite path="|31|09|02|.04|C.">Regulation .04C</cite> amended effective August 6, 2012 (39:15 Md. R. 965)</annotation>
+    <annotation type="History" dest="container" effective="2004-10-11"><cite path="|31|09|02|.06|G.">Regulation .06G</cite> amended effective October 11, 2004 (31:20 Md. R. 1487)</annotation>
+    <annotation type="History" dest="container" effective="2018-05-21"><cite path="|31|09|02|.09|A.">Regulation .09A</cite> amended effective May 21, 2018 (45:10 Md. R. 504)</annotation>
+    <annotation type="History" dest="container" effective="2018-05-21"><cite path="|31|09|02|.09|C.">Regulation .09C</cite> adopted effective May 21, 2018 (45:10 Md. R. 504)</annotation>
+    <annotation type="History" dest="container" effective="2019-04-22"><cite path="|31|09|02|.11">Regulation .11</cite> amended effective April 22, 2019 (46:8 Md. R. 402)</annotation>
+    <annotation type="History" dest="container" effective="2020-07-27"><cite path="|31|09|02|.11|A.">Regulation .11A</cite> amended effective July 27, 2020 (47:15 Md. R. 713)</annotation>
+  </annotations>
+</container>

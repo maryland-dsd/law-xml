@@ -1,0 +1,304 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>02</num>
+  <heading>Examination of Principal Management or Controllers of Insurers</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Purpose and Scope.</heading>
+    <text>The purpose of this chapter is to ensure protection of the public interest by providing for the evaluation of the suitability of certain individuals who exercise control of any substantial portion of certain entities that do insurance business in the State, including an insurer, health maintenance organization, managed care organization, fraternal benefit society, nonprofit health service plan, and dental plan organization. This chapter does not apply to workers’ compensation self-insurance groups organized pursuant to <cite doc="Md. Code" path="gin">Insurance Article, Title 25, Subtitle 3, Annotated Code of Maryland</cite>.</text>
+  </section>
+  <section cache:ref-path="31|04|02|.02">
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>“Affiant” means an individual who certifies to the accuracy of statements made in a biographical affidavit.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>“Applicant” means a person who submits a biographical affidavit pursuant to <cite path="|31|04|02|.03|A.">Regulation .03A of this chapter</cite>.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>“Approved independent third party” means an independent third party as defined in <cite path="31|04|02|.02|B.|(12)">§B(12) of this regulation</cite> that is on the currently approved independent third party list published by the NAIC on the Uniform Certificate of Authority website.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>“Background report” means documentation provided by an approved independent third party that complies with NAIC’s “Best Practices for NAIC Background Investigations” and details information verified or discovered in the course of the background investigation, or both.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>“Biographical affidavit” means the current NAIC Form 11, “Biographical Affidavit”, of the NAIC Uniform Certificate of Authority Application and must include a completed, state-specific “Disclosure and Authorization Concerning Background” form.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>“Certificate of authority” has the meaning stated in <cite doc="Md. Code" path="gin|1-101">Insurance Article, §1-101, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>“Control” has the meaning stated in <cite doc="Md. Code" path="gin|7-101">Insurance Article, §7-101, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>“Dental plan organization” has the meaning stated in <cite doc="Md. Code" path="gin|14-401">Insurance Article, §14-401(c), Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>“Entity” includes an insurer, health maintenance organization, managed care organization, fraternal benefit society, nonprofit health service plan, and dental plan organization.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>“Fraternal benefit society” has the meaning stated in <cite doc="Md. Code" path="gin|8-402">Insurance Article, §8-402(a), Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>“Health maintenance organization” has the meaning stated in Health-General Article, §19-701(g), Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>“Independent third party” means a consumer reporting agency regulated by the Federal Trade Commission and, therefore, subject to the Fair Credit Reporting Act:</text>
+        <para>
+          <num>(a)</num>
+          <text>That is able to verify information contained in the biographical affidavit through the use of domestic and international resources;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Whose officers, directors, or both, have stock ownership amounting to 1 percent or less of the applicant’s outstanding stock, unless the Commissioner grants written approval of an entity in which the officers, directors, or both, have more than 1 percent stock ownership; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>That is at all times compliant with the “NAIC Background Investigation Guidelines” and Regulations .06 and .07 of this chapter relevant to the preparation of the background report and its submission to the Commissioner.</text>
+        </para>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>“Insurer” has the meaning stated in <cite doc="Md. Code" path="gin|1-101">Insurance Article, §1-101, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>“Managed care organization” has the meaning stated in Health-General Article, §15-101(e), Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>“NAIC” means the National Association of Insurance Commissioners.</text>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>“Nonprofit health service plan” has the meaning stated in <cite doc="Md. Code" path="gin|14-102">Insurance Article, §14-102, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>"Person" has the meaning stated in <cite doc="Md. Code" path="gin|1-101">Insurance Article, §1-101, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(18)</num>
+        <text>“Principal management” means any person, regardless of title, who exercises control of any substantial portion of the general business of the insurer and may include the:</text>
+        <para>
+          <num>(a)</num>
+          <text>Chairman of the board;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>President;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Vice president;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Secretary;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Treasurer;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Controller or comptroller;</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>Actuary;</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>Directors; and</text>
+        </para>
+        <para>
+          <num>(i)</num>
+          <text>Members of the executive committee.</text>
+        </para>
+      </para>
+      <para>
+        <num>(19)</num>
+        <text>“Provider sponsored organization” has the meaning stated in Health-General Article, §19-7A-01(f), Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(20)</num>
+        <text>“Uniform Certificate of Authority Expansion Application” means the NAIC’s uniform process, adopted by the Commissioner, for use by an entity that wishes to expand its operations into one or more states.</text>
+      </para>
+      <para>
+        <num>(21)</num>
+        <text>“Uniform Certificate of Authority Primary Application” means the NAIC’s uniform process, adopted by the Commissioner, for use in the formation of a new insurer to be domiciled in Maryland in order to obtain a certificate of authority, or for a foreign entity to use in making application to redomesticate to Maryland from another state.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Biographical Affidavit.</heading>
+    <para>
+      <num>A.</num>
+      <text>Biographical affidavits shall be submitted on the individuals required by the applicable filing when:</text>
+      <para>
+        <num>(1)</num>
+        <text>An entity files an application for a certificate of authority using the NAIC Uniform Certificate of Authority Primary Application;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A foreign entity files an application for a certificate of authority using the Uniform Certificate of Authority Expansion Application;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A foreign entity files an application to redomesticate to Maryland using the Uniform Certificate of Authority Primary Application;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>A person files a registration statement pursuant to <cite doc="Md. Code" path="gin|7-603">Insurance Article, §7-603, Annotated Code of Maryland</cite>; and</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Any person seeking to acquire control of an insurer or other entity files a statement pursuant to <cite doc="Md. Code" path="gin|7-304">Insurance Article, §7-304, Annotated Code of Maryland</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Upon written request of the Commissioner and within 30 days of such a request, a foreign entity holding a current certificate of authority in this State that had a change in principal management shall provide a biographical affidavit for the affiant listed in the request.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>For any change in principal management of a domestic entity, a person shall submit a biographical affidavit for the affiant within 30 days of the date of change.</text>
+    </para>
+  </section>
+  <section cache:ref-path="31|04|02|.04">
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Biographical Affidavit and Disclosure Authorization Format.</heading>
+    <para>
+      <num>A.</num>
+      <text>Form. Each biographical affidavit required by this chapter shall be submitted to the Commissioner and the approved independent third party in a legible format, in the most recent form made available by the NAIC.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Contents. The biographical affidavit requires an affiant to provide information, including the affiant’s employment history, education, personal information, and character.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Date. Biographical affidavits must be certified by the affiant, notarized, and dated no earlier than 1 year prior to the date of submission of the application or statement, or management change.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>NAIC Disclosure and Authorization Concerning Background Form.</text>
+      <para>
+        <num>(1)</num>
+        <text>Consent to Release Information. By completing the NAIC “Disclosure and Authorization Concerning Background” form, the affiant consents to:</text>
+        <para>
+          <num>(a)</num>
+          <text>The release of the information in the biographical affidavit to the approved independent third party;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The background investigation conducted by the approved independent third party; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The approved independent third party’s release of the results of its background report to the Commissioner.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An affiant may revoke the authorization at any time by delivering a written revocation to the applicant.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The applicant shall, upon an affiant’s action pursuant to <cite path="31|04|02|.04|D.|(2)">§D(2) of this regulation</cite>, forward such revocation promptly to any approved independent third party that either prepared or is preparing a background report under the “NAIC Disclosure and Authorization Concerning Background” form.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Considerations Regarding Independent Third Parties.</heading>
+    <para>
+      <num>A.</num>
+      <text>The applicant is responsible for selecting an independent third party to perform the verification of the information contained in all submitted biographical affidavits.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>When selecting the independent third party, the applicant:</text>
+      <para>
+        <num>(1)</num>
+        <text>Must select an approved independent third party; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Is responsible for ensuring that the independent third party it selects is able to perform a complete investigation in the applicable jurisdictions.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The applicant is responsible for the payment of the services provided by the approved independent third party for the preparation and submission of the background report to the Commissioner.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Background Report.</heading>
+    <para>
+      <num>A.</num>
+      <text>Contents. A background report shall conform to the NAIC Background Investigation Guidelines and the Best Practices for NAIC Background Investigations for the preparation and content of the response from an approved independent third party.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Submission Requirements.</text>
+      <para>
+        <num>(1)</num>
+        <text>The background report shall be prepared by an approved independent third party.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Background reports must be submitted directly to the Commissioner by the approved independent third party.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The applicant is responsible for ensuring that the background report has been provided to the Commissioner.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Review of Submitted Information.</heading>
+    <text>The information contained in the biographical affidavit, the background report, and any other information deemed relevant by the Commissioner will be reviewed by the Commissioner to evaluate the suitability, competency, character, and integrity of the affiant. The review will also evaluate whether discrepancies or inconsistencies exist between information disclosed in the biographical affidavit and the background report and whether follow-up action should be taken.</text>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Health-General Article, §§15-102.6, 19-705, 19-708, 19-7A-03, and 19-7A-04;<br/>Insurance Article, §§<cite doc="Md. Code" path="gin|2-109">2-109</cite>, <cite doc="Md. Code" path="gin|2-205">2-205</cite>(c), <cite doc="Md. Code" path="gin|4-108">4-108</cite>, <cite doc="Md. Code" path="gin|4-113">4-113</cite>(a)(<cite doc="Md. Code" path="gin|7">7</cite>)—(9), 7-304, 7-603, 8-412, 8-417, 14-109(3), and 14-405; Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="1969-06-12">Effective date: June 12, 1969</annotation>
+    <annotation type="History" dest="container" effective="1995-10-23"><cite path="|31|04|02|.03">Regulation .03</cite> amended effective October 23, 1995 (22:21 Md. R. 1615)</annotation>
+    <annotation type="History" dest="container" effective="1995-10-23"><cite path="|31|04|02|.07">Regulation .07</cite> adopted and Appendix A repealed effective October 23, 1995 (22:21 Md. R. 1615)</annotation>
+    <annotation type="History" dest="container" effective="1998-09-07" discontinuity="true">Chapter recodified from <cite path="|09.30.03">COMAR 09.30.03</cite> to <cite path="|31.04.02">COMAR 31.04.02</cite> effective September 7, 1998 (25:18 Md. R. 1439)</annotation>
+    <annotation type="History" dest="container" effective="2007-11-05" discontinuity="true">Chapter revised effective November 5, 2007 (34:22 Md. R. 1979)</annotation>
+    <annotation type="History" dest="container" effective="2016-10-01" discontinuity="true">Chapter revised effective October 1, 2016 (43:18 Md. R. 1018)</annotation>
+  </annotations>
+</container>

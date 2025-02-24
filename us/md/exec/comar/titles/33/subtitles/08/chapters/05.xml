@@ -1,0 +1,832 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>05</num>
+  <heading>Post-Election Verification and Audit</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Definition.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>“Automated software audit” is a software audit performed by an entity other than the vendor of the certified voting system.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>“Discrepancy” means the difference between the voting system results and the results of an automated or manual audit.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>“Manual audit” has the meaning stated in <cite doc="Md. Code" path="gel|11-309">Election Law Article, §11-309, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>“Precinct” includes an early voting center in Regulations <cite path="|33|08|05|.02">.02</cite>—<cite path="|33|08|05|.06">.06</cite> of this chapter.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>“Previous comparable general election” has the meaning stated in <cite doc="Md. Code" path="gel|11-309">Election Law Article, §11-309, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>“Voter-verifiable paper record” has the meaning stated in <cite doc="Md. Code" path="gel|9-102">Election Law Article, §9-102, Annotated Code of Maryland</cite>.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Purpose.</heading>
+    <para>
+      <num>A.</num>
+      <text>The purpose of the verification is to demonstrate and confirm the accuracy of the voting system’s tabulation logic.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The purpose of the precinct audit is to confirm that the number of ballots cast equals the number of voters who checked-in to vote at a polling place.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The purpose of the absentee and provisional ballot audit is to ensure that each accepted ballot met the application and acceptance criteria and conversely that rejected ballots did not meet the criteria.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Verification and Audit Required.</heading>
+    <para>
+      <num>A.</num>
+      <text>A local board of canvassers may not certify the results of an election until the verification and audit procedures required in this chapter have been completed for that election.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The State Administrator shall establish procedures and reporting formats to guide the verification and audit process.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Selection of Precincts.</heading>
+    <para>
+      <num>A.</num>
+      <text>After 8 p.m. on election day, each local board shall randomly select for post-election verification and auditing, the greater of:</text>
+      <para>
+        <num>(1)</num>
+        <text>Three precincts with at least 300 registered voters; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>5 percent of all precincts used in the election.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Each local board shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Select the precincts at an open session of the local board; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Provide notice of the open session as required under <cite doc="Md. Code" path="gsg|10-506">State Government Article, §10-506, Annotated Code of Maryland</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Within 3 days of selecting the precincts, the election director shall forward to the State Administrator a list of the selected precincts.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The State Administrator may require the local board to conduct the audit and verification procedures on additional precincts.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Post-Election Verification.</heading>
+    <para>
+      <num>A.</num>
+      <text>Touchscreen Voting Unit. For each precinct selected under Regulation .04 using a touchscreen voting unit, the election director shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Obtain the totals tapes from each touchscreen voting unit deployed to the precinct;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Aggregate for each precinct the results reported on the totals tapes; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Compare those aggregated precinct results against the results for that precinct as reported by the Election Management System.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Optical Scan Voting Unit. For each precinct selected under Regulation .04, the election director shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Obtain the totals tapes from each optical scan voting unit deployed to that precinct;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>In a manner and format specified by the State Administrator, aggregate the results reported on the totals tapes; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Compare those aggregated precinct results against the results for that precinct as reported by the Election Management System.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Notification.</text>
+      <para>
+        <num>(1)</num>
+        <text>If the verification results and the Election Management System results agree, the election director shall report to the local board of canvassers and the State Administrator accordingly.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If the verification results and the Election Management System results do not agree:</text>
+        <para>
+          <num>(a)</num>
+          <text>The election director shall notify the State Administrator immediately; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The local board of canvassers may not certify the election until the cause of the discrepancy is discovered, resolved, and the State Administrator has approved the resolution.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="33|08|05|.06">
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Post-Election Audit — Precincts.</heading>
+    <para>
+      <num>A.</num>
+      <text>Automated.</text>
+      <para>
+        <num>(1)</num>
+        <text>For every precinct in an election, the State Administrator shall produce a report with the following information:</text>
+        <para>
+          <num>(a)</num>
+          <text>The number of voters who were checked-in to vote as reported by the electronic pollbooks;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The number of ballots cast as reported in the Election Management System; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The difference, if any, between the number of voters checked-in to vote and ballots cast.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The election director shall conduct the audit procedures under <cite path="33|08|05|.06|B.">§B of this regulation</cite> if the State Administrator’s report indicates that the difference between the number of voters checked-in to vote and the number of ballots cast is five or more.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Manual.</text>
+      <para>
+        <num>(1)</num>
+        <text>The election director shall conduct the audit procedures under this section for each precinct:</text>
+        <para>
+          <num>(a)</num>
+          <text>Selected under <cite path="|33|08|05|.04">Regulation .04 of this chapter</cite>; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Identified under <cite path="33|08|05|.06|A.">§A of this regulation</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>For each precinct being audited, the election director shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Hand count the signed voter authority cards associated with each voting unit in the precinct; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Compare the number of signed voter authority cards against the number of ballots cast as reported in the Election Management System.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If the number of signed voter authority cards does not match the number of ballots cast, the election director shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Review other election materials from the precinct to determine the cause of the difference; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Report to the State Administrator the explanation for the difference.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Notification. The election director shall report to the local board and the State Administrator the results of the audit.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Certifying the Election. If the audit demonstrates an unexplained discrepancy between the number of signed voter authority cards and the number of ballots cast and that discrepancy is:</text>
+      <para>
+        <num>(1)</num>
+        <text>Less than the vote margin of any contest on the ballot in that precinct, the local board of canvassers shall accept the audit results and certify the election; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Greater than the vote margin of any contest on the ballot in that precinct, the local board of canvassers may not certify the election until any corrective actions required by the State Administrator are completed.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="33|08|05|.07">
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Post-Election Audit — Absentee and Provisional Voting.</heading>
+    <para>
+      <num>A.</num>
+      <text>The State Administrator shall establish the number of absentee and provisional ballots to be audited.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The election director shall randomly select and review:</text>
+      <para>
+        <num>(1)</num>
+        <text>Accepted absentee ballots to determine whether each ballot was properly accepted by confirming that:</text>
+        <para>
+          <num>(a)</num>
+          <text>A timely absentee ballot request was received from the voter; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The absentee ballot was timely received as provided under <cite path="33.11.03.08">COMAR 33.11.03.08</cite>;</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Rejected absentee ballots to determine whether each ballot was properly rejected by confirming that:</text>
+        <para>
+          <num>(a)</num>
+          <text>The absentee ballot was not timely received as provided under <cite path="33.11.03.08">COMAR 33.11.03.08</cite>; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The absentee ballot was rejected for another valid reason;</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Accepted provisional ballots to determine whether each ballot was properly accepted by confirming that:</text>
+        <para>
+          <num>(a)</num>
+          <text>On or before election day, the voter was registered to vote and voted the ballot for the precinct in which the voter resides; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>All other applicable acceptance criteria were met;</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Partially accepted provisional ballots to determine whether each ballot was properly partially accepted by confirming that:</text>
+        <para>
+          <num>(a)</num>
+          <text>On or before election day, the voter was registered to vote but did not vote the ballot for the precinct in which the voter resides; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>All other applicable acceptance criteria were met; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Rejected provisional ballots to determine whether each ballot was properly rejected by confirming that:</text>
+        <para>
+          <num>(a)</num>
+          <text>On or before election day, the voter was not registered to vote; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The voter’s ballot was rejected for another valid reason.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Notification. The election director shall provide a copy of the materials reviewed under <cite path="33|08|05|.07|B.">§B of this regulation</cite> to:</text>
+      <para>
+        <num>(1)</num>
+        <text>The local board of canvassers at the time of certification; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The State Administrator after certification.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Certifying the election.</text>
+      <para>
+        <num>(1)</num>
+        <text>If the audit demonstrates that an absentee or provisional ballot was improperly rejected, the local board of canvassers shall accept and count the absentee or provisional ballot prior to the certification of the election.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If the audit demonstrates that absentee and provisional ballots were improperly accepted and that discrepancy is:</text>
+        <para>
+          <num>(a)</num>
+          <text>Less than the vote margin of any contest on the ballot in that county, the local board of canvassers shall accept the audit results and certify the election; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Greater than the vote margin of any contest on the ballot, the local board of canvassers may not certify until any corrective actions required by the State Administrator are completed.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Post-Election Audit — Ballot Tabulation Audit — In General.</heading>
+    <para>
+      <num>A.</num>
+      <text>Audits Conducted by the State Administrator. The State Administrator shall conduct an automated software audit of the electronic images of all ballots cast:</text>
+      <para>
+        <num>(1)</num>
+        <text>After each Statewide primary election; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>After each Statewide general election.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Audit Conducted by the Local Boards. Each local board shall conduct a manual audit of voter-verifiable paper records:</text>
+      <para>
+        <num>(1)</num>
+        <text>After each Statewide general election; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>After a Statewide primary election at the direction of the State Administrator.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Reporting of Audit Results.</text>
+      <para>
+        <num>(1)</num>
+        <text>Within 14 days after the conclusion of the manual audit, the State Administrator shall post on the website a report that describes:</text>
+        <para>
+          <num>(a)</num>
+          <text>The precincts and number of votes selected for the manual audit in each county and the manner in which the precincts and votes were selected;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The results of the manual audit; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Any discrepancy shown by the manual audit and how the discrepancy was resolved.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Before the State Board of Canvassers certifies the results of an election, the State Administrator shall post on the website information about the automated audit, including:</text>
+        <para>
+          <num>(a)</num>
+          <text>An overview of the automated audit process;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The audit reports generated for each county; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>An explanation of any discrepancy greater than 0.5 percent of total votes cast in any given contest; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Any additional steps taken to resolve any discrepancy.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="33|08|05|.09">
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Post-Election Audit — Ballot Tabulation Audit — Manual Audit.</heading>
+    <para>
+      <num>A.</num>
+      <text>In General.</text>
+      <para>
+        <num>(1)</num>
+        <text>A local board shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>At least 10 days before the manual audit starts, provide notice of the manual audit by:</text>
+          <para>
+            <num>(i)</num>
+            <text>Sending the notice via mail to the chairman of the county central committee for each political party, each candidate for the contest to be audited who is not a candidate of a political party, and the State Administrator;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Posting the notice on its website; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Posting the notice in a prominent and publicly accessible location at its office; and</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Allow, to the extent practicable, for public observation of each part of the manual audit process.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If there is a discrepancy greater than 0.5 percent, the State Administrator:</text>
+        <para>
+          <num>(a)</num>
+          <text>Shall require the local board to resolve or explain the discrepancy;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Shall compare the manual audit results to the automated audit results;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>May expand the manual audit; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>May take any other actions it considers necessary to resolve the discrepancy.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Primary Election Audit.</text>
+      <para>
+        <num>(1)</num>
+        <text>The State Administrator shall require a local board to conduct a manual audit of voter-verifiable paper records if the automated audit shows a discrepancy in any precinct of greater than 0.5 percent of total votes cast in any contest and the discrepancy cannot be resolved or explained.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The local board shall conduct the manual audit of the precinct in accordance with instructions issued by the State Administrator.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If a local board is directed to conduct a manual audit, the local board of canvassers may not certify the results of the primary election until:</text>
+        <para>
+          <num>(a)</num>
+          <text>The manual audit of the precinct with the unresolved or unexplained discrepancy is complete;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The local board provides the State Administrator with a written report and findings of the manual audit; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The State Administrator concurs with the report and findings.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>General Election Audit.</text>
+      <para>
+        <num>(1)</num>
+        <text>At least 60 days before the election, the State Administrator shall instruct each local board as to the minimum number of voter-verifiable paper records from early voting and the absentee and provisional canvasses to audit manually.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The State Board shall select the contest to be manually audited and randomly select the early voting center and precincts to be manually audited, as follows:</text>
+        <para>
+          <num>(a)</num>
+          <text>Within 3 days before the start of early voting, the Chair of the State Board or designee shall randomly select 1 early voting center in each county from which a scanner with voted ballots will be manually audited;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>After 7 pm on the first day of early voting or at the end of the day when the minimum number of ballots to audit is met, a representative of the local board and the chief judges shall select the scanner with the ballots that will be audited;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The State Board shall select the precincts and contest to be manually audited within 15 days after the election; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>The State Board may exclude certain precincts based on the number of registered voters in that precinct in each county before randomly selecting precincts.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The local boards shall conduct a manual audit of voter-verifiable paper records cast during the election, as follows:</text>
+        <para>
+          <num>(a)</num>
+          <text>For voter-verifiable paper records cast during early voting, each local board shall manually audit a number equal to at least 1 percent of the total of early votes cast in the previous comparable election;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>For voter-verifiable paper records cast on election day, each local board shall manually audit at least one randomly chosen precinct in the county and any other precinct selected by the State Board;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>For voter-verifiable paper records canvassed during the absentee canvasses, each local board shall audit a number equal to at least 1 percent of the total of absentee ballots cast in the local board’s jurisdiction from the previous comparable general election; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>For voter-verifiable paper records canvassed during the provisional canvasses, each local board shall audit a number equal to at least 1 percent of the total of provisional ballots cast in the local board’s jurisdiction from the previous comparable general election.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>A local board shall keep the ballots to be audited in secure but separate containers than all other ballots.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>A local board shall complete the manual audit within 120 days after a general election.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Conducting the Manual Audit — In General.</text>
+      <para>
+        <num>(1)</num>
+        <text>The election director shall determine the appropriate audit method, as follows:</text>
+        <para>
+          <num>(a)</num>
+          <text>If the contest to be audited is a “Vote for One” contest, the election director shall use the sort method as specified in <cite path="33|08|05|.09|E.">§E of this regulation</cite>; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>For all other contests, the election director shall use the tally method as specified in <cite path="33|08|05|.09|F.">§F of this regulation</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>To prepare for the manual audit, the election director shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Assemble all materials to conduct the audit;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Create batches of a controllable number of ballots, for example, 25; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Appoint the teams to conduct the audit, assigning a team identifier to each team, for example, “Team A”, “Team B”.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>To conduct the manual audit, the election director shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Issue the teams batches of ballots; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Record in the audit log:</text>
+          <para>
+            <num>(i)</num>
+            <text>The team identifier;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The ballots issued to the team; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Later, the ballots returned by the team.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>If ballots from more than one precinct are being audited, each team may be issued the ballots of only one precinct at a time.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>If team members do not agree on how a vote should be counted:</text>
+        <para>
+          <num>(a)</num>
+          <text>The team shall refer the ballot to the election director; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The election director shall determine how the vote shall be counted.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Conducting the Manual Audit — Sort Method.</text>
+      <para>
+        <num>(1)</num>
+        <text>One team member shall sort and the other team member shall watch to ensure accuracy.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The ballots shall be sorted as follows:</text>
+        <para>
+          <num>(a)</num>
+          <text>A batch for each candidate or ballot question response selected by the voter;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A batch for ballots without a vote for a contest being tabulated;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A batch for ballots for each officially filed write-in candidates; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>A batch for all other write-in votes.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Once all of the ballots have been sorted, each team member shall independently count the ballots in each batch.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>If the team members’ results are not identical, they shall retabulate the ballots until they obtain identical results.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>When the team members’ results are identical, they shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Record the vote totals on the batch tally sheet;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Sign the batch tally sheet; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Give the batch tally sheet and the ballots to the election director.</text>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>The election director shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Enter the vote totals on the consolidated tally sheets;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Compare the results of the manual audit against the voting system results for that precinct; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>If there are any unexplainable discrepancies, retabulate the ballots where the discrepancy exists.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Conducting the Manual Audit — Tally Method.</text>
+      <para>
+        <num>(1)</num>
+        <text>Each team shall include one caller, two tally clerks, and one watcher.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>When practicable, the caller and watcher shall be of different party affiliations.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>For each ballot:</text>
+        <para>
+          <num>(a)</num>
+          <text>The caller shall call the votes cast in the contest being recounted;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The watcher shall ensure the accuracy of the calling; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The two tally clerks shall each independently record the votes as they are called.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Periodically, the tally clerks shall compare their results to make sure they are identical.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>If the results are not identical, the team shall retabulate the ballots, beginning with the point of the last successful comparison check, until the two tally clerks obtain identical results.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>When all votes in the precinct have been tallied, the tally clerks shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Record the vote totals on the batch tally sheet;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Sign the batch tally sheet; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Give the batch tally sheet and the ballots to the election director.</text>
+        </para>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>The election director shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Enter the vote totals on the consolidated tally sheets;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Compare the results of the manual audit against the voting system results for that precinct; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>If there are any unexplainable discrepancies, retabulate the ballots where the discrepancy exists.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Post-Manual Audit Activities. After all ballots have been manually audited, the election director shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Complete and sign the contest tally sheet;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>With 2 days of completing the audit, submit to the State Administrator the results of the manual audit and any suggestions to improve the voting system and voting process; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Present at the next meeting of the local board of elections the results of the manual audit.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.10</num>
+    <heading>Post-Election Audit — Ballot Tabulation Audit — Automated Audit.</heading>
+    <para>
+      <num>A.</num>
+      <text>The State Administrator shall complete the automated audit of:</text>
+      <para>
+        <num>(1)</num>
+        <text>Early voting and election day results before the local boards of canvassers certify the election results; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Absentee and provisional results before the State Board of Canvassers certifies the election results.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The State Administrator shall not provide the entity performing the automated audit software with detailed results from the voting system until the entity provides the State Administrator with the results generated by the audit.</text>
+      <text>47:22 20-161-P/E (REG .01, .04) EMERGENCY ACTION IN EFFECT 10/02/2020—09/30/2021</text>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Election Law Article, §§<cite doc="Md. Code" path="gel|2-102">2-102</cite>(b)(<cite doc="Md. Code" path="gel|4">4</cite>), <cite doc="Md. Code" path="gel|2-202">2-202</cite>(b), <cite doc="Md. Code" path="gel|9-403">9-403</cite>, <cite doc="Md. Code" path="gel|11-201">11-201</cite>, and <cite doc="Md. Code" path="gel|11-309">11-309</cite>(f), Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container">Effective date:</annotation>
+    <annotation type="History" dest="container" effective="2000-07-10">Regulations <cite path="|33|08|05|.01">.01</cite>—<cite path="|33|08|05|.04">.04</cite> adopted as an emergency provision effective March 1, 2000 (27:6 Md. R. 636); adopted permanently effective July 10, 2000 (27:13 Md. R. 1213)</annotation>
+    <annotation type="History" dest="container" effective="2002-10-14"><cite path="|33|08|05|.04|B.">Regulation .04B</cite>, F—H amended as an emergency provision effective July 3, 2002 (29:18 Md. R. 1440); amended permanently effective October 14, 2002 (29:20 Md. R. 1595)</annotation>
+    <annotation type="History" dest="container" effective="2005-01-06" discontinuity="true">Chapter recodified from <cite path="|33.08.04">COMAR 33.08.04</cite> to <cite path="|33.08.05">COMAR 33.08.05</cite> as an emergency provision effective October 4, 2004 (31:20 Md. R. 1483); recodified permanently effective January 6, 2005 (31:26 Md. R. 1868)</annotation>
+    <annotation type="History" dest="container" effective="2012-10-29" discontinuity="true">Regulations <cite path="|33|08|05|.01">.01</cite>—<cite path="|33|08|05|.04">.04</cite> repealed and new Regulations <cite path="|33|08|05|.01">.01</cite>—<cite path="|33|08|05|.06">.06</cite> adopted effective October 29, 2012 (39:21 Md. R. 1381)</annotation>
+    <annotation type="History" dest="container" effective="2013-08-19" discontinuity="true">Chapter revised effective August 19, 2013 (40:16 Md. R. 1346)</annotation>
+    <annotation type="History" dest="container" effective="2019-07-29"><cite path="|33|08|05|.01">Regulation .01</cite> amended effective July 29, 2019 (46:15 Md. R. 656)</annotation>
+    <annotation type="History" dest="container" effective="2020-01-13">effective January 13, 2020 (47:1 Md. R. 19)</annotation>
+    <annotation type="History" dest="container" effective="2020-10-02"><cite path="|33|08|05|.01|B.">Regulation .01B</cite> amended as an emergency provision effective October 2, 2020 (47:22 Md. R. 934)</annotation>
+    <annotation type="History" dest="container" effective="2013-12-23"><cite path="|33|08|05|.04">Regulation .04</cite> amended effective December 23, 2013 (40:25 Md. R. 2073)</annotation>
+    <annotation type="History" dest="container" effective="2016-02-29"><cite path="|33|08|05|.04|A.">Regulation .04A</cite> amended effective February 29, 2016 (43:4 Md. R. 335)</annotation>
+    <annotation type="History" dest="container" effective="2020-10-02"><cite path="|33|08|05|.04|A.">Regulation .04A</cite> amended as an emergency provision effective October 2, 2020 (47:22 Md. R. 934)</annotation>
+    <annotation type="History" dest="container" effective="2016-02-29"><cite path="|33|08|05|.05|A.">Regulation .05A</cite>, B amended effective February 29, 2016 (43:4 Md. R. 335)</annotation>
+    <annotation type="History" dest="container" effective="2016-02-29"><cite path="|33|08|05|.06|B.">Regulation .06B</cite> amended effective February 29, 2016 (43:4 Md. R. 335)</annotation>
+    <annotation type="History" dest="container" effective="2016-02-29"><cite path="|33|08|05|.07|B.">Regulation .07B</cite> amended effective February 29, 2016 (43:4 Md. R. 335)</annotation>
+    <annotation type="History" dest="container" effective="2019-07-29"><cite path="|33|08|05|.08">Regulation .08</cite> adopted effective July 29, 2019 (46:15 Md. R. 656)</annotation>
+    <annotation type="History" dest="container" effective="2019-07-29"><cite path="|33|08|05|.09">Regulation .09</cite> adopted effective July 29, 2019 (46:15 Md. R. 656)</annotation>
+    <annotation type="History" dest="container" effective="2020-01-13"><cite path="|33|08|05|.09">Regulation .09</cite> amended effective January 13, 2020 (47:1 Md. R. 19)</annotation>
+    <annotation type="History" dest="container" effective="2019-07-29"><cite path="|33|08|05|.10">Regulation .10</cite> adopted effective July 29, 2019 (46:15 Md. R. 656)</annotation>
+    <annotation type="History" dest="container" effective="2020-01-13"><cite path="|33|08|05|.10">Regulation .10</cite> amended effective January 13, 2020 (47:1 Md. R. 19)</annotation>
+  </annotations>
+</container>

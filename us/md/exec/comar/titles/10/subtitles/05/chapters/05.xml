@@ -1,0 +1,655 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>05</num>
+  <heading>Freestanding Ambulatory Surgical Facilities</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>"Allied health professional" means an individual who is licensed, certified, or otherwise authorized under <cite doc="Md. Code" path="gho">Health Occupations Article, Annotated Code of Maryland</cite>, to provide health care services, except those individuals who are licensed to practice medicine, dentistry, or podiatry under the <cite doc="Md. Code" path="gho">Health Occupations Article, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Freestanding Ambulatory Surgical Facility.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Freestanding ambulatory surgical facility” means a facility, service, office facility, or other entity that:</text>
+          <para>
+            <num>(i)</num>
+            <text>Operates exclusively for the purpose of providing surgical services to patients requiring a period of postoperative observation but not requiring hospitalization and in which the expected duration of services would not exceed 24 hours following admission; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Seeks reimbursement from payors as a freestanding ambulatory surgical facility.</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Freestanding ambulatory surgical facility" does not include:</text>
+          <para>
+            <num>(i)</num>
+            <text>The office of one or more health care practitioners seeking only professional reimbursement for the provision of medical services unless the office operates under contract or other agreement with a payor as a freestanding ambulatory surgical facility, regardless of whether it is paid a technical or facility fee, or the office is designated to receive ambulatory surgical referrals in accordance with utilization review or other policies adopted by a payor;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>A facility or service owned or operated by a hospital and regulated under Health-General Article, Title 19, Subtitle 2, Annotated Code of Maryland;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>The office of a health care practitioner with not more than one operating room if the office does not receive a technical or facility fee, and the operating room is used exclusively by the health care practitioner for patients of the health care practitioner;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>The office of a group of health care practitioners with not more than one operating room if the office does not receive a technical or facility fee, and the operating room is used exclusively by members of the group practice for patients of the group practice; or</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>An office owned or operated by one or more dentists licensed under the <cite doc="Md. Code" path="gho">Health Occupations Article, Annotated Code of Maryland</cite>, for the sole purpose of practicing dentistry.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Freestanding Endoscopy Facility.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Freestanding endoscopy facility" means a facility:</text>
+          <para>
+            <num>(i)</num>
+            <text>For the testing, diagnosis, or treatment of a medical disorder in conjunction with the use of microscopic, endoscopic, or laparoscopic equipment that is inserted in a naturally occurring orifice of the body; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>That seeks reimbursement as a freestanding endoscopy facility from third-party payors.</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Freestanding endoscopy facility" does not include:</text>
+          <para>
+            <num>(i)</num>
+            <text>The office of one or more health care practitioners unless the office operates under a contract or other agreement with a payor as a freestanding endoscopy facility, regardless of whether it is paid a technical or facility fee, or the office is designated to receive endoscopic referrals in accordance with utilization review or other policies adopted by a payor; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>A facility or service operated by a hospital and regulated under Health-General Article, Title 19, Subtitle 2, Annotated Code of Maryland.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>"Payor" means:</text>
+        <para>
+          <num>(a)</num>
+          <text>A health insurer, nonprofit health service plan, or health maintenance organization that holds a certificate of authority to offer health insurance policies or contracts in this State in accordance with Health-General Article, Title 19, Subtitle 7, and the <cite doc="Md. Code" path="gin">Insurance Article, Annotated Code of Maryland</cite>;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A third-party administrator or any other entity, under contract with a Maryland business to administer health benefits; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A self-insured group.</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Surgery.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Surgery” means a procedure conducted for the purpose of structurally altering the human body by the incision or destruction of tissues and is part of the practice of medicine.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Surgery” includes:</text>
+          <para>
+            <num>(i)</num>
+            <text>The diagnostic or therapeutic treatment of conditions or disease processes by any instruments causing localized alteration or transposition of live human tissue which include, lasers, ultrasound, ionizing radiation, scalpels, probes, and needles;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Cut, burned, vaporized, frozen, sutured, probed, or manipulated tissue by closed reductions for major dislocations or fractures, or otherwise altered by mechanical, thermal, light-based, electromagnetic, or chemical means; or</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Injection of diagnostic or therapeutic substances into body cavities, internal organs, joints, sensory organs, and the central nervous system.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>“Surgical services” means surgical procedures performed in a safe manner by qualified physicians who have been granted clinical privileges by the governing body of the ambulatory surgical center in accordance with approved policies and procedures of the ambulatory surgical center.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>License Requirements.</heading>
+    <para>
+      <num>A.</num>
+      <text>A freestanding ambulatory surgical facility shall meet all general licensing requirements for a facility as provided in <cite path="|10.05.01">COMAR 10.05.01</cite> and all requirements of this chapter.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>An applicant shall obtain Medicare certification as a condition of licensure for a freestanding ambulatory surgical facility.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Licensing Procedure.</heading>
+    <text>In addition to meeting all of the requirements of <cite path="10.05.01.03|A.">COMAR 10.05.01.03A</cite>—C, the applicant shall submit a nonrefundable fee of $1,000 for a 3 year period, with an application for initial licensure, or submit a nonrefundable fee of $1,000 with an application for license renewal for a 3 year period.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Administration.</heading>
+    <text>The medical director shall develop protocols for the management of surgical patients and emergency situations. These protocols shall be available on site at all times for reference. The medical director shall review these protocols annually and make revisions as necessary.</text>
+  </section>
+  <section cache:ref-path="10|05|05|.05">
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Personnel.</heading>
+    <para>
+      <num>A.</num>
+      <text>Credentialing of Physicians, Dentists, Podiatrists.</text>
+      <para>
+        <num>(1)</num>
+        <text>As part of the formal written appointment process, the administrator, in consultation with the medical director, shall collect, review, and document the following information concerning a physician, dentist, or podiatrist licensed under the <cite doc="Md. Code" path="gho">Health Occupations Article, Annotated Code of Maryland</cite>:</text>
+        <para>
+          <num>(a)</num>
+          <text>The physician's, dentist's, or podiatrist's education;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The professional experience of the physician, dentist, or podiatrist, including:</text>
+          <para>
+            <num>(i)</num>
+            <text>Any board certification or specialty training of the physician, dentist, or podiatrist, and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Any post-graduate training;</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Any license or registration to practice a health occupation ever held by the physician, dentist, or podiatrist, including DEA registration;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Whether any license or registration to practice a health occupation ever held by the physician, dentist, or podiatrist has been:</text>
+          <para>
+            <num>(i)</num>
+            <text>Suspended, or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Revoked;</text>
+          </para>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Any hospital where the physician, dentist, or podiatrist was appointed or employed during the last 10 years, including:</text>
+          <para>
+            <num>(i)</num>
+            <text>The name of the hospital,</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The term of appointment or employment, and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Privileges held and any disciplinary action taken, including suspension, revocation, limitation, or voluntary surrender;</text>
+          </para>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>The physician's, dentist's, or podiatrist's professional liability insurance for the last 5 years, including:</text>
+          <para>
+            <num>(i)</num>
+            <text>The physician's, dentist's, or podiatrist's present carrier,</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The physician's, dentist's, or podiatrist's current limits of coverage,</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>The physician's, dentist's, or podiatrist's current types of coverage, and</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Restrictions on the physician's, dentist's, or podiatrist's coverage;</text>
+          </para>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>Any claim that has been made against the physician, dentist, or podiatrist in the practice of a health occupation in the last 5 years, and the status of the claim;</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>Any physical or mental condition that currently impairs the physician's, dentist's, or podiatrist's ability to exercise privileges;</text>
+        </para>
+        <para>
+          <num>(i)</num>
+          <text>Any complaint or report, permitted to be disclosed by law, which has been filed with any state licensing or disciplinary body, or comparable body of the armed forces; and</text>
+        </para>
+        <para>
+          <num>(j)</num>
+          <text>Data provided by the National Practitioner Data Bank.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The administrator shall consider the delineation of services requested by each physician, dentist, or podiatrist and approve, deny, or modify the request as the administrator deems appropriate.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>For a physician, dentist, or podiatrist who has privileges in a licensed Maryland hospital, the administrator may verify, through the hospital, the credentials described in <cite path="10|05|05|.05|A.|(1)">§A(1) of this regulation</cite>.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The administrator shall establish a procedure for the biennial reappointment of each physician, dentist, or podiatrist. The procedures shall include an evaluation of the following for all physicians, dentists, or podiatrists:</text>
+      <para>
+        <num>(1)</num>
+        <text>An update of the information required in <cite path="10|05|05|.05|A.|(1)">§A(1) of this regulation</cite>; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An assessment of the physician's, dentist's, or podiatrist's performance pattern based on an analysis of:</text>
+        <para>
+          <num>(a)</num>
+          <text>Complaints filed with the freestanding ambulatory surgical facility,</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Malpractice claims filed,</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Utilization, quality, and risk data,</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Adherence to policies, bylaws, and procedures, and</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Physician, dentist, or podiatrist practice patterns as reviewed through the freestanding ambulatory surgical facility's quality assurance program.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Credentialing of Allied Health Professionals.</text>
+      <para>
+        <num>(1)</num>
+        <text>Direct Hires.</text>
+        <para>
+          <num>(a)</num>
+          <text>The Administrator, in consultation with the medical director, shall collect, review, and verify evidence of the following information for all licensed or certified allied health professionals that are employed by the freestanding ambulatory surgical facility:</text>
+          <para>
+            <num>(i)</num>
+            <text>A current license or certificate to practice in this State; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Malpractice insurance, if required by the facility.</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The administrator shall approve the delineation of services to be provided by each allied health professional.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Nondirect Hires. When a licensed physician, dentist, or podiatrist uses an allied health practitioner to provide services at the freestanding ambulatory surgical facility, and that person is not employed by the facility, the licensed physician, dentist, or podiatrist who employs the allied health practitioner is responsible for verifying the information required in <cite path="10|05|05|.05|D.|(1)">§D(1) of this regulation</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Medical Director.</text>
+      <para>
+        <num>(1)</num>
+        <text>The freestanding ambulatory surgical facility shall have a medical director who:</text>
+        <para>
+          <num>(a)</num>
+          <text>Is responsible for the overall medical care that is provided by the facility; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Advises and consults with the staff of the facility on all medical issues relating to services provided by the facility.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The medical director shall be a physician, dentist, or podiatrist licensed to practice in the general areas for which the freestanding ambulatory surgical facility provides services.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Surgical Services.</heading>
+    <para>
+      <num>A.</num>
+      <text>Surgical procedures shall be performed in a safe manner by qualified physicians, dentists, or podiatrists who have been granted clinical privileges by the administrator.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The administrator, in consultation with the medical director, shall develop and implement policies, procedures, and protocols for the provision of surgical services including but not limited to:</text>
+      <para>
+        <num>(1)</num>
+        <text>Personnel;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Pre-operative testing and examinations;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Surgical procedures;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Post-anesthesia care and observation;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Discharge planning;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Emergency services;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Informed consent; and</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Safety.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Before conducting a surgical procedure, a physician or other qualified health care practitioner shall conduct a history and physical examination.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>If anything other than an unsupplemented local anesthetic is needed to accomplish a surgical procedure, a qualified anesthetist shall conduct a pre-anesthesia evaluation and document the anesthetic risk to the patient.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>If the assessments required by §§C and D of this regulation are performed before the day of surgery, a qualified health care practitioner shall on the day of surgery reassess and document any change in the patient's clinical status that could have an effect on the surgical procedure to be performed and the anesthesia to be used.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Discharge.</text>
+      <para>
+        <num>(1)</num>
+        <text>Before discharge from the facility, the anesthetist or, if local anesthesia is administered, the physician, dentist, or podiatrist who performed the surgery shall evaluate each patient for proper anesthesia recovery and document that evaluation.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The physician, dentist, podiatrist, or anesthesiologist shall discharge each patient from the facility to a responsible adult, except those patients for whom no supervision is required as determined by the health care practitioner.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Anesthesia Services.</heading>
+    <para>
+      <num>A.</num>
+      <text>Anesthetics shall be administered by health practitioners who are licensed, certified, or otherwise authorized to do so under the <cite doc="Md. Code" path="gho">Health Occupations Article, Annotated Code of Maryland</cite>.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Anesthetics shall be administered only by a:</text>
+      <para>
+        <num>(1)</num>
+        <text>Qualified anesthesiologist;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Physician or dentist qualified to administer anesthesia;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Certified registered nurse anesthetist in accordance with <cite doc="Md. Code" path="gho|8-205">Health Occupations Article, §8-205, Annotated Code of Maryland</cite>, and <cite path="|10.27.06">COMAR 10.27.06</cite>; or</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Podiatrist in accordance with <cite doc="Md. Code" path="gho|16-101">Health Occupations Article, §16-101, Annotated Code of Maryland</cite>.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Emergency Services.</heading>
+    <para>
+      <num>A.</num>
+      <text>Basic Life Support. Licensed personnel employed by the freestanding ambulatory surgical facility shall have certification in basic life support. A licensed staff individual trained in basic life support shall be on duty whenever there is a patient in the facility.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The licensee shall have:</text>
+      <para>
+        <num>(1)</num>
+        <text>A registered nurse available on site for emergency treatment whenever there is a patient in the freestanding ambulatory surgical facility;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>At least one physician available by phone 24 hours a day to respond to emergency situations; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Formal arrangements to obtain radiology and laboratory services at all times in case of emergencies.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The freestanding ambulatory surgical facility shall have at least the following emergency equipment available to the operating rooms:</text>
+      <para>
+        <num>(1)</num>
+        <text>Emergency call system;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Oxygen;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Mechanical ventilatory assistance including airways, manual breathing bag, and ventilator;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Cardiac defibrillator;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Cardiac monitoring equipment;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Tracheostomy set;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Laryngoscopes and endotracheal tubes;</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Suction equipment; and</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>Emergency medical equipment and supplies specified by the medical staff.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Hospitalization.</heading>
+    <para>
+      <num>A.</num>
+      <text>The freestanding ambulatory surgical facility shall have an effective procedure for the transfer of patients to a hospital when care beyond the capabilities of the facility is required.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Procedures for emergency transfer to a hospital shall include, at a minimum:</text>
+      <para>
+        <num>(1)</num>
+        <text>Having a written transfer agreement with a local Medicare participating hospital or requiring all physicians, dentists, or podiatrists performing surgery in the freestanding ambulatory surgical facility to have admitting privileges at such a hospital;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Having a mechanism for notifying the hospital of a pending emergency case;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Having a mechanism for arranging appropriate transportation to the hospital; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The manner in which a facility sends a copy of the patient's medical record to the hospital.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.10</num>
+    <heading>Pharmaceutical Services.</heading>
+    <para>
+      <num>A.</num>
+      <text>The freestanding ambulatory surgical facility shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Provide drugs and biologicals under the direction of an authorized prescriber; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Develop and implement policies and procedures for pharmacy services in accordance with accepted professional practice.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Administration of Drugs.</text>
+      <para>
+        <num>(1)</num>
+        <text>Staff shall prepare and administer drugs according to established policies and acceptable standards of practice.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Staff shall report adverse reactions to the patient's health care practitioner and document these reactions in the patient's medical record.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Only physicians or registered nurses shall administer blood and blood products.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Orders given orally for drugs and biologicals shall be followed by a written order which is signed by the authorized prescriber.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.11</num>
+    <heading>Laboratory and Radiologic Services.</heading>
+    <para>
+      <num>A.</num>
+      <text>The administrator shall develop and implement policies and procedures for obtaining routine and emergency laboratory and radiologic services to meet the needs of patients. Policies and procedures shall include:</text>
+      <para>
+        <num>(1)</num>
+        <text>Turn-around time;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Review of laboratory reports; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Documentation of laboratory results.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Laboratory facilities shall be approved under the Clinical Laboratory Improvement Act (CLIA) and be licensed by this State.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The freestanding ambulatory surgical facility shall include laboratory and radiologic reports in the patient's medical records.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.12</num>
+    <heading>Medical Records.</heading>
+    <para>
+      <num>A.</num>
+      <text>The facility shall comply with <cite path="10.05.01.09">COMAR 10.05.01.09</cite> and the requirements of this regulation.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Each medical record shall include, at a minimum:</text>
+      <para>
+        <num>(1)</num>
+        <text>Preoperative diagnostic studies, entered before surgery, if performed;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Findings and techniques of the operation, including a pathologist's report on all tissues removed during surgery, except those tissues exempted by the medical director;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Any allergies and abnormal drug reactions; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Entries related to anesthesia administration.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.13</num>
+    <heading>Physical Environment.</heading>
+    <para>
+      <num>A.</num>
+      <text>The administrator shall ensure that the facility has a safe, functional, and sanitary environment for the provision of surgical services.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Each operating room shall be designed and equipped to ensure that surgical procedures conducted can be performed in a manner that ensures the safety of all individuals in the area.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The facility shall have a separate recovery room and waiting area.</text>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Health-General Article, §19-3B-01 et seq., Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="1999-08-23">Effective date: August 23, 1999 (26:17 Md. R. 1322)</annotation>
+    <annotation type="History" dest="container" effective="2016-03-14"><cite path="|10|05|05|.01|B.">Regulation .01B</cite> amended effective March 14, 2016 (43:5 Md. R. 385)</annotation>
+    <annotation type="History" dest="container" effective="2015-12-21"><cite path="|10|05|05|.03">Regulation .03</cite> amended effective August 19, 2013 (40:16 Md. R. 1343); December 21, 2015 (42:25 Md. R. 1542)</annotation>
+  </annotations>
+</container>

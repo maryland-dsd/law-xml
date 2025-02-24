@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <library xmlns="https://open.law/schemas/library" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <heading>Law Library</heading>
+  <heading>Library of Maryland Regulations</heading>
   <meta>
-    <description></description>
+    <description/>
     <contact>
       <email>help@openlawlib.org</email>
     </contact>
@@ -10,7 +10,8 @@
       <xml-bulk>https://github.com/maryland-dsd/law-xml</xml-bulk>
       <html-bulk>https://github.com/maryland-dsd/law-html</html-bulk>
       <static-assets>https://github.com/maryland-dsd/law-static-assets</static-assets>
-      <html></html>
+      <html/>
     </canonical-urls>
   </meta>
+  <xi:include href="./us/md/exec/comar/index.xml"/>
 </library>

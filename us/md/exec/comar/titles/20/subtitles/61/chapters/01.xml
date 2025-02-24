@@ -1,0 +1,807 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>01</num>
+  <heading>General</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Purpose.</heading>
+    <text>The purpose of this subtitle is to establish regulations governing the Renewable Energy Portfolio Standard Program in Maryland.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Scope.</heading>
+    <text>Except as exempted in Public Utilities Companies Article, §7-703, Annotated Code of Maryland, this subtitle applies to:</text>
+    <para>
+      <num>A.</num>
+      <text>All suppliers that sell electricity at retail in Maryland; and</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Any renewable energy facility participating in the Renewable Energy Portfolio Standard Program.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this subtitle, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>“Administration" has the meaning stated in <cite doc="Md. Code" path="gpu|7-701">Public Utilities Article, §7-701(b), Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(1-1)</num>
+        <text>“Administratively complete” means that the Commission has determined an application to contain the information described in §§D through N of <cite path="20.61.06.02">COMAR 20.61.06.02</cite>.</text>
+      </para>
+      <para>
+        <num>(1-2)</num>
+        <text>“Administrator” means the qualified financial institution appointed by a qualified offshore wind project to be the administrator of the escrow account, reserve account and administrator GATS account designated for that qualified offshore wind project as well as any account in substitution of these accounts, and shall include any replacement administrator appointed under §K or L of <cite path="20.61.06.09">COMAR 20.61.06.09</cite>.</text>
+      </para>
+      <para>
+        <num>(1-3)</num>
+        <text>“Administrator GATS account” means, with respect to a qualified offshore wind project, the account established by its administrator at GATS, into which a qualified offshore wind project shall transfer all of the ORECs invoiced by that project or into which PJM EIS shall transfer all ORECs created for that project pursuant to standing instructions given to PJM EIS pursuant to §G of <cite path="20.61.06.10">COMAR 20.61.06.10</cite>.</text>
+      </para>
+      <para>
+        <num>(1-4)</num>
+        <text>“Applicant” means the owner, an authorized officer of the owner, an authorized agent of the owner, or a retail seller contracting with the owner of a renewable energy facility.</text>
+      </para>
+      <para>
+        <num>(1-5)</num>
+        <text>“Application” means the information and materials describing a proposed offshore wind project submitted to the Commission as contemplated by <cite doc="Md. Code" path="gpu|7-704">Public Utilities Article, §7-704</cite>.1(a)(2), Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(1-6)</num>
+        <text>“Application period” means the period of time, beginning and ending in accordance with §§(B)(3) and (B)(4) of <cite path="20.61.06.01">COMAR 20.61.06.01</cite>, during which one or more OSW applicants may submit an application for approval of a proposed offshore wind project.</text>
+      </para>
+      <para>
+        <num>(1-7)</num>
+        <text>“Approved OREC amount” means, with respect to a qualified offshore wind project, a fixed number of ORECs that the project may sell in any calendar year during the term of the OREC price schedule as approved by the Commission in its OREC order.</text>
+      </para>
+      <para>
+        <num>(1-8)</num>
+        <text>“BOEM” means the Bureau of Ocean Energy Management.</text>
+      </para>
+      <para>
+        <num>(1-9)</num>
+        <text>“Business day” means any day other than a Saturday, Sunday or any day on which the Commission or banks in the State are authorized by federal or state law to be closed.</text>
+      </para>
+      <para>
+        <num>(1-10)</num>
+        <text>“Commission” has the meaning stated in <cite doc="Md. Code" path="gpu|1-101">Public Utilities Article, §1-101, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(1-11)</num>
+        <text>“Community benefit agreement” means a contract between an OSW applicant of a qualified offshore wind project and a local community whereby the OSW applicant provides certain benefits to the local community and agrees to labor practices, as set forth in <cite doc="Md. Code" path="gpu|7-704">Public Utilities Article, §7-704</cite>.1(e)(1)(i), Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>“Customer” has the meaning stated in <cite doc="Md. Code" path="gpu|7-704">Public Utilities Article, §7-704, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>“Electric company” has the meaning stated in <cite doc="Md. Code" path="gpu|1-101">Public Utilities Article, §1-101, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(3-1)</num>
+        <text>“Electricity service attributes” means, for a qualified offshore wind project, all energy, capacity, and ancillary services associated with its creation of ORECs.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>“Electricity supplier” has the meaning stated in <cite doc="Md. Code" path="gpu|1-101">Public Utilities Article, §1-101, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(4-1)</num>
+        <text>“Escrow account” means, with respect to each qualified offshore wind project, a financial account established at and by that project’s administrator for, among other purposes, receiving payments of OREC purchase payments from OREC purchasers and proceeds of sale of electricity service attributes, and from which transfers will be made to a qualified offshore wind project to pay for ORECs invoiced by that project under <cite path="20.61.06.10">COMAR 20.61.06.10</cite>.</text>
+      </para>
+      <para>
+        <num>(4-2)</num>
+        <text>“Estimated project COD” means, with respect to a qualified offshore wind project, the date on which project COD is projected to occur, as specified in the project’s application.</text>
+      </para>
+      <para>
+        <num>(4-3)</num>
+        <text>“Executive team” means the officers identified in an OSW applicant’s by-laws or operating agreement and any other person authorized to speak for or act on behalf of the OSW applicant.</text>
+      </para>
+      <para>
+        <num>(4-4)</num>
+        <text>“Expiration date” means the earlier of the date on which the Commission notifies the OSW applicant that its application has not been accepted and 181 days after the close of the application period, which expiration date may be extended by mutual consent of the Commission and the OSW applicant.</text>
+      </para>
+      <para>
+        <num>(4-5)</num>
+        <text>“Fund” has the meaning stated in <cite doc="Md. Code" path="gpu|7-701">Public Utilities Article, §7-701(c), Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>“GATS” means the Generation Attribute Tracking System of PJM Environmental Information Services, Inc.</text>
+      </para>
+      <para>
+        <num>(5-1)</num>
+        <text>“GATS Account” means, with respect to a qualified offshore wind project, an account established pursuant to GATS into which renewable energy generation from that qualified offshore wind project will be reported, and based upon which PJM EIS will create ORECs for that qualified offshore wind project, including any replacement account from time to time that may be required by any change in the operating rules of PJM EIS.</text>
+      </para>
+      <para>
+        <num>(5-2)</num>
+        <text>“Generally accepted accounting principles” means accounting principles set forth in the opinions and pronouncements of the Accounting Principles Board of the American Institute of Certified Public Accountants and statements and pronouncements of the Financial Accounting Standards Board or in such other statements by such other entity as have been approved by a significant segment of the accounting profession, which are in effect in the United States as of the relevant date of determination.</text>
+      </para>
+      <para>
+        <num>(5-3)</num>
+        <text>“Generation capacity resource” has the meaning stated in the Reliability Assurance Agreement among load serving entities in the region operated by PJM.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Industrial Process Load.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Industrial process load” means the total consumption of electricity by a facility of a company classified in the manufacturing sector under the North American Industry Classification System, Codes 31 through 33.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Industrial process load” does not include consumption of electricity in separately metered areas exclusively devoted to nonmanufacturing related functions, including administrative, managerial, or research and development functions.</text>
+        </para>
+      </para>
+      <para>
+        <num>(6-1)</num>
+        <text>“Interconnection service agreement” means the agreement for interconnection for the project as a generation capacity resource providing for capacity interconnection rights between the project, PJM, and the applicable transmission owner, as may be amended from time to time.</text>
+      </para>
+      <para>
+        <num>(6-2)</num>
+        <text>“International electrotechnical commission” means the international standards organization that prepares and publishes standards for electrical, electronic and related technologies.</text>
+      </para>
+      <para>
+        <num>(6-3)</num>
+        <text>“International financial reporting standards” means the financial accounting standards developed by the International Accounting Standards Board that are in effect as of the relevant date of determination.</text>
+      </para>
+      <para>
+        <num>(6-4)</num>
+        <text>“Level 1 solar” means a solar photovoltaic renewable energy facility that is less than or equal to 10kW in rated capacity at the point of interconnection with the utility.</text>
+      </para>
+      <para>
+        <num>(6-5)</num>
+        <text>“Level 2 solar” means a solar photovoltaic renewable energy facility that is greater than 10kW in rated capacity at the point of interconnection with the utility.</text>
+      </para>
+      <para>
+        <num>(6-6)</num>
+        <text>“Local community” means a “local government” as defined in <cite doc="Md. Code" path="gsg|11-101">State Government Article, §11-101(g), Annotated Code of Maryland</cite>:</text>
+        <para>
+          <num>(a)</num>
+          <text>Where:</text>
+          <para>
+            <num>(i)</num>
+            <text>Shore-side infrastructure associated with a qualified offshore wind project will be located;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Offshore wind supply chain developed will be located; or</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Other economic development will be located; and</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Which enters into a community benefit agreement with an OSW applicant.</text>
+        </para>
+      </para>
+      <para>
+        <num>(6-7)</num>
+        <text>“Major cost category” means the major capital expenditures of a proposed offshore wind project incurred during development and construction phases, including but not limited to permitting, legal and consulting costs, site and meteorological assessment, ship or barge leases, wharfage fees, construction labor, foundations, support structures, wind turbines, capitalized interest, and owners costs.</text>
+      </para>
+      <para>
+        <num>(6-8)</num>
+        <text>“Maryland Offshore Wind Business Development Fund” means the fund of the same name established under <cite doc="Md. Code" path="gsg|9-20">State Government Article, §9-20</cite>C-03, Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(6-9)</num>
+        <text>“Minimum threshold criteria” means the criteria listed in §A of <cite path="20.61.06.03">COMAR 20.61.06.03</cite>.</text>
+      </para>
+      <para>
+        <num>(6-10)</num>
+        <text>“Minority” means an individual who is a member of any of the groups listed in <cite doc="Md. Code" path="gsf|14-301">State Finance and Procurement Article, §14-301(j)(1)(i), Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(6-11)</num>
+        <text>“Minority Business Enterprise Program” means the program established under <cite doc="Md. Code" path="gsf">State Finance and Procurement Article, Title 14, Subtitle 3, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(6-12)</num>
+        <text>“Net metering” has the meaning stated in <cite doc="Md. Code" path="gpu|7-306">Public Utilities Article, §7-306, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Nonretail Commercial Customer.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Nonretail commercial customer” means a business operating under any North American Industry Classification System Code.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Nonretail commercial customer” does not include a business operating under any North American Industry Classification System Code numbers 31 through 33 or 44 through 45.</text>
+        </para>
+      </para>
+      <para>
+        <num>(7-1)</num>
+        <text>“North American Industry Classification System” or “NAICS” means the standard developed by the Office of Management and Budget and used by federal statistical agencies to classify businesses for the purposes of collecting, analyzing and publishing statistical data.</text>
+      </para>
+      <para>
+        <num>(7-2)</num>
+        <text>“Offshore wind energy RPS” means the offshore wind energy component of the RPS established pursuant to §A of <cite path="20.61.06.07">COMAR 20.61.06.07</cite>.</text>
+      </para>
+      <para>
+        <num>(7-3)</num>
+        <text>“OREC” has the meaning stated in <cite doc="Md. Code" path="gpu|7-701">Public Utilities Article, §7-701, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(7-4)</num>
+        <text>“OREC invoice” means a monthly invoice delivered by a qualified offshore wind project under <cite path="20.61.06.10">COMAR 20.61.06.10</cite> to its administrator setting forth:</text>
+        <para>
+          <num>(a)</num>
+          <text>The number of ORECs created for that project by PJM EIS in the project’s GATS account for the second generation month immediately preceding the invoice date and in respect of which a PJM EIS statement setting forth the number of ORECs created as at the last day of the month immediately preceding the invoice date is available; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The dollar amount due for the ORECs under that invoice; provided that, an OREC invoice shall not include ORECs in respect of which the project shall have previously invoiced the administrator.</text>
+        </para>
+      </para>
+      <para>
+        <num>(7-5)</num>
+        <text>“OREC order” means an order issued by the Commission pursuant to this chapter and <cite doc="Md. Code" path="gpu|7-704">Public Utilities Article §7-704</cite>.1(f) that, among other things, approves a proposed offshore wind energy project, its related OREC price schedule, the duration of the OREC price schedule and the approved OREC amount.</text>
+      </para>
+      <para>
+        <num>(7-6)</num>
+        <text>“OREC price” means, with respect to a qualified offshore wind project and each calendar year during the term of its OREC price schedule, the price for an OREC for each relevant calendar year set forth in its OREC price schedule approved by the Commission under the project’s OREC order and, following any adjustment as contemplated by §C of <cite path="20.61.06.08">COMAR 20.61.06.08</cite>, the final adjusted OREC price for each relevant calendar year referenced in a replacement OREC price schedule submitted to the Commission under that regulation.</text>
+      </para>
+      <para>
+        <num>(7-7)</num>
+        <text>“OREC price schedule” means, with respect to a qualified offshore wind project, the price schedule for ORECs for:</text>
+        <para>
+          <num>(a)</num>
+          <text>An initial term of up to 20 years commencing from estimated project COD; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>An additional schedule of prices for ORECs for each of 5 years immediately following the end of the initial term to accommodate potential delays in project COD, as approved by the Commission under the project’s OREC order and includes any replacement OREC price schedule submitted to the Commission pursuant to §C of <cite path="20.61.06.08">COMAR 20.61.06.08</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(7-8)</num>
+        <text>“OREC projected revenue” means, with respect to a qualified offshore wind project, that amount of annual OREC revenues in any given calendar year during the term of an OREC price schedule equal to the product of the OREC price for that year and the approved OREC amount for the same period.</text>
+      </para>
+      <para>
+        <num>(7-9)</num>
+        <text>“OREC purchase obligation” means, the obligation of the OREC purchasers to purchase ORECs from one or more escrow accounts to satisfy the offshore wind energy component of the renewable energy portfolio standard established by the Commission under <cite doc="Md. Code" path="gpu|7-703">Public Utilities Article, §7-703(b), Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(7-10)</num>
+        <text>“OREC purchase payment” means, with respect to an OREC purchaser, the aggregate dollar amount paid by it in each calendar quarter (commencing with the calendar quarter beginning on April 1 of the initial year in which the offshore wind energy RPS takes effect), for deposit in one or more escrow accounts for the purchase of ORECs pursuant to the Commission’s OREC order, OWEA, and this chapter.</text>
+      </para>
+      <para>
+        <num>(7-11)</num>
+        <text>“OREC purchaser” means an electricity supplier that is obligated to purchase ORECs by <cite doc="Md. Code" path="gpu|7-703">Public Utilities Article, §7-703(d), Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(7-12)</num>
+        <text>“OSW applicant” means a person submitting an application for a proposed offshore wind project.</text>
+      </para>
+      <para>
+        <num>(7-13)</num>
+        <text>“OWEA” means the Maryland Offshore Wind Energy Act of 2013, as amended from time to time.</text>
+      </para>
+      <para>
+        <num>(7-14)</num>
+        <text>“Permitted investments” means one or more investment funds operating under an exemption under Rule 2a-7 of the Investment Company Act of 1940, as amended, the investments in which consist exclusively of direct, non-callable obligations (including “strips”) of the United States of America, guaranteed by its full faith and credit, and interests in such other investment funds.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>“Person” has the meaning stated in <cite doc="Md. Code" path="gpu|1-101">Public Utilities Article, §1-101, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(8-1)</num>
+        <text>“PJM” means PJM Interconnection, L.L.C. or its successor.</text>
+      </para>
+      <para>
+        <num>(8-2)</num>
+        <text>“PJM EIS” means PJM Environmental Information Services, Inc. or its successor.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>“PJM Region” has the meaning stated in <cite doc="Md. Code" path="gpu|7-701">Public Utilities Article, §7-701, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(9-1)</num>
+        <text>“PJM revenues” means amounts payable to a qualified offshore wind project for its sale of electricity service attributes to markets administered by PJM.</text>
+      </para>
+      <para>
+        <num>(9-2)</num>
+        <text>“Project” means a qualified offshore wind project.</text>
+      </para>
+      <para>
+        <num>(9-3)</num>
+        <text>“Project commercial operation date” or “project COD” means, with respect to a qualified offshore wind project, the date on which the project satisfies the requirements for demonstrating commercial operation required by its Interconnection Service Agreement, as may be amended, modified or supplemented from time to time.</text>
+      </para>
+      <para>
+        <num>(9-4)</num>
+        <text>“Project team” means the key individuals whom an OSW applicant hires or contracts with to lead the development, financing, permitting, engineering, procurement, construction, operations, maintenance, decommissioning and other significant functions for a proposed offshore wind project.</text>
+      </para>
+      <para>
+        <num>(9-5)</num>
+        <text>“Proposed offshore wind project” or “proposed project” means an offshore wind project described in an application that is submitted for Commission approval as a qualified offshore wind project.</text>
+      </para>
+      <para>
+        <num>(9-6)</num>
+        <text>“Proposed OREC amount” means, with respect to a proposed offshore wind project, a fixed annual number of renewable energy certificates that the proposed project proposes to sell as ORECs during the term of the proposed OREC price schedule.</text>
+      </para>
+      <para>
+        <num>(9-7)</num>
+        <text>“Proposed OREC price schedule” means, with respect to a proposed offshore wind project, the price schedule described in §M of <cite path="20.61.06.02">COMAR 20.61.06.02</cite> setting a price or a series of calendar year prices for the electricity service attributes and the environmental attributes associated with the creation of ORECs.</text>
+      </para>
+      <para>
+        <num>(9-8)</num>
+        <text>“Proposed qualified submerged renewable energy line” means a proposed transmission line, as described by <cite doc="Md. Code" path="gpu|7-208">Public Utilities Article, §7-208, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(9-9)</num>
+        <text>“Public Information Act exemption request” or “PIA exemption request” means, with regard to a portion or portions of an application, a request by an OSW applicant to exempt certain information from a third-party request under <cite doc="Md. Code" path="gsg">State Government Article, Title 10, Subtitle 6, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(9-10)</num>
+        <text>“Qualified financial institution” means a financial institution formed under the laws of the United States of America with an office in the State of Maryland, that satisfies all of the following criteria:</text>
+        <para>
+          <num>(a)</num>
+          <text>It has, at the time of selection, a tangible net worth of no less than $150,000,000;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>It has a reputable and established division that demonstrates significant experience in carrying out custodial, escrow or account administration services for customers;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>It is not an employee of any qualified offshore wind project, an affiliate of that project or an employee of any entity affiliated with any qualified offshore wind project;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>It is not an entity that holds any ownership share in any qualified offshore wind project; and</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>It is not an entity that is providing financing (whether in the form of debt, equity or any combination or derivation thereof) to any qualified offshore wind project; provided that, if the Commission shall have, as contemplated by §D of <cite path="20.61.06.09">COMAR 20.61.06.09</cite>, determined that factors other than those specified above are relevant in determining whether a proposed administrator qualifies as a qualified financial institution, these other factors and any of the above factors that the Commission considers applicable, shall be deemed to constitute the criteria for determining whether an administrator has ceased to be a qualified financial institution for the purposes of §§K and L of <cite path="20.61.06.09">COMAR 20.61.06.09</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(9-11)</num>
+        <text>“Qualified offshore wind project” has the meaning stated in <cite doc="Md. Code" path="gpu|7-701">Public Utilities Article, §7-701, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(9-12)</num>
+        <text>“Reliability Assurance Agreement” means the PJM Interconnection, L.L.C. agreement approved by the Federal Energy Regulatory Commission.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>“Renewable energy credit (REC)” has the meaning stated in <cite doc="Md. Code" path="gpu|7-701">Public Utilities Article, §7-701, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>“Renewable energy facility” means any person, including a renewable on-site generator that produces electricity using a Tier 1 renewable source or Tier 2 renewable source.</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>“Renewable energy portfolio standard (RPS)” has the meaning stated in <cite doc="Md. Code" path="gpu|7-701">Public Utilities Article, §7-701, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>“Renewable on-site generator” has the meaning stated in <cite doc="Md. Code" path="gpu|7-701">Public Utilities Article, §7-701, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(13-1)</num>
+        <text>“Reserve account” means, with respect to a qualified offshore wind project, the account established by an administrator into which funds from the escrow account of a project up to an aggregate amount equal to the six-month average of OREC projected revenue for that project for the relevant calendar year during the term of its OREC price schedule shall be deposited as contemplated by §G of <cite path="20.61.06.11">COMAR 20.61.06.11</cite>.</text>
+      </para>
+      <para>
+        <num>(13-2)</num>
+        <text>“Retail electric customer” has the meaning stated in <cite path="20.51.01.02">COMAR 20.51.01.02</cite>.</text>
+      </para>
+      <para>
+        <num>(13-3)</num>
+        <text>“Round 1 offshore wind project” has the meaning stated in <cite doc="Md. Code" path="gpu|7-701">Public Utilities Article, §7-701, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(13-4)</num>
+        <text>“Round 2 offshore wind project” has the meaning stated in <cite doc="Md. Code" path="gpu|7-701">Public Utilities Article, §7-701, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(13-5)</num>
+        <text>“Small business” has the meaning stated in <cite doc="Md. Code" path="gsf|14-501">State Finance and Procurement Article, §14-501, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(13-6)</num>
+        <text>“Term” means, with respect to a qualified offshore wind project, the period covered by its OREC price schedule, not exceeding 20 years commencing from project COD, as approved by the Commission in the relevant OREC order; provided that, if project COD occurs later than five years immediately following the estimated project COD, the term of an OREC price schedule shall commence in year six of the schedule described in clause (a) of the definition of OREC price schedule and extend for the term approved by the Commission in the same OREC order.</text>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>“State adjacent to the PJM control area” means a state that shares a border with the PJM Region or which the PJM Region partially overlaps.</text>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>“Supplier” means:</text>
+        <para>
+          <num>(a)</num>
+          <text>An electric company as defined under <cite doc="Md. Code" path="gpu|1-101">Public Utilities Article, §1-101, Annotated Code of Maryland</cite>; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>An electricity supplier that sells electricity at retail in Maryland.</text>
+        </para>
+      </para>
+      <para>
+        <num>(15-1)</num>
+        <text>“Thermal biomass system” has the meaning stated in <cite doc="Md. Code" path="gpu|7-701">Public Utilities Article, §7-701, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>“Tier 1 renewable source” has the meaning stated in <cite doc="Md. Code" path="gpu|7-701">Public Utilities Article, §7-701, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>“Tier 2 renewable source” has the meaning stated in <cite doc="Md. Code" path="gpu|7-701">Public Utilities Article, §7-701, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(18)</num>
+        <text>“Veteran-owned small business enterprise (VSBE)” has the meaning stated in <cite doc="Md. Code" path="gsf|14-601">State Finance and Procurement Article, §14-601(c), Annotated Code of Maryland</cite>.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="20|61|01|.04">
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Applicable Renewable Portfolio Standard.</heading>
+    <para>
+      <num>A.</num>
+      <text>The renewable energy portfolio standard applicable to a supplier for a given calendar year is provided under <cite doc="Md. Code" path="gpu|7-703">Public Utilities Article, §7-703, Annotated Code of Maryland</cite>.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>On or before April 1 of each year, a supplier shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Accumulate renewable energy credits from electricity generated before December 31 of the preceding calendar year equal to the percentage of credits from Tier 1 renewable sources and Tier 2 renewable sources required by <cite path="20|61|01|.04|A.">§A of this regulation</cite> for that preceding year; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Pay a compliance fee as specified under <cite doc="Md. Code" path="gpu|7-705">Public Utilities Article, §7-705, Annotated Code of Maryland</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>If appropriate, on or before April 1 of each year, a supplier shall pay the compliance fee required under <cite path="20|61|01|.04|B.|(2)">§B(2) of this regulation</cite> to the Comptroller of the Treasury.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Tier 1 Solar Compliance Schedule—Delay Request.</text>
+      <para>
+        <num>(1)</num>
+        <text>If a supplier's actual or projected dollar-for-dollar cost incurred or to be incurred solely for the purchase of Tier 1 solar RECs in any one year is either estimated to or actually does equal 1 percent of the supplier's total annual electricity sales revenue in Maryland, a supplier may request that the Commission:</text>
+        <para>
+          <num>(a)</num>
+          <text>Delay for 1 year each of the scheduled percentages for solar energy under <cite doc="Md. Code" path="gpu|7-703">Public Utilities Article, §7-703, Annotated Code of Maryland</cite>; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Authorize the renewable energy portfolio standard for solar energy for that year to continue to apply to the electricity supplier for the following year.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A supplier shall file a request under <cite path="20|61|01|.04|D.|(1)">§D(1) of this regulation</cite> on or before February 1 of the year following the compliance year.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A supplier request under <cite path="20|61|01|.04|D.|(1)">§D(1) of this regulation</cite> shall contain the following information:</text>
+        <para>
+          <num>(a)</num>
+          <text>The actual or projected dollar-for-dollar cost for the purchase of a Tier 1 REC solar and the formula for calculating these figures;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The actual or projected total annual retail electricity sales revenue for the electricity supplier seeking the compliance fee schedule deferral and the formula used to calculate these figures; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The supplier's total Maryland retail electricity sales.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="20|61|01|.05">
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Solar REC Purchases and Offshore Wind Energy REC Purchases.</heading>
+    <para>
+      <num>A.</num>
+      <text>Prior to January 1, 2012, if insufficient Maryland Tier 1 solar RECs are offered to meet the RPS requirement under <cite doc="Md. Code" path="gpu|7-703">Public Utilities Article, §7-703, Annotated Code of Maryland</cite>, and only to the extent Maryland Tier 1 solar RECs are insufficient, a supplier may satisfy the statutory requirement with RECs from a solar renewable energy facility not connected with the electric distribution grid serving Maryland.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>On or after January 1, 2012, a supplier's Tier 1 solar REC obligation under <cite doc="Md. Code" path="gpu|7-703">Public Utilities Article, §7-703, Annotated Code of Maryland</cite>, shall be satisfied only with RECs from a solar renewable energy facility connected with the electric distribution grid serving Maryland.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>When a supplier purchases Tier 1 solar RECs directly from a Level 1 or Level 2 solar renewable energy facility, the supplier shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>For a Level 1 solar renewable energy facility:</text>
+        <para>
+          <num>(a)</num>
+          <text>Execute a contract with a duration of not less than 15 years and pay the net present value of the contract amount in a single initial payment;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Calculate the net present value using:</text>
+          <para>
+            <num>(i)</num>
+            <text>The number of solar RECs purchased and recorded in a GATS account multiplied by 80 percent of the compliance fee specified in <cite doc="Md. Code" path="gpu|7-705">Public Utilities Article, §7-705, Annotated Code of Maryland</cite>; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The federal secondary credit interest rate in effect as of January 1 in the contract year for the discount rate; and</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>If the supplier executes a contract directly with a Level 1 solar facility owner or designee, receive annually Tier 1 Solar RECs equal to the calculated annual output of the contracted facility used to determine the single initial payment under <cite path="20|61|01|.05|C.|(1)|(a)">§C(1)(a) of this regulation</cite>; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>For a Level 2 renewable energy solar facility, execute a contract with duration of not less than 15 years.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>An electricity supplier must purchase ORECs in accordance with <cite path="|20.61.06">COMAR 20.61.06</cite>.</text>
+    </para>
+  </section>
+  <section cache:ref-path="20|61|01|.06">
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Satisfaction of Renewable Energy Portfolio Standard.</heading>
+    <para>
+      <num>A.</num>
+      <text>A supplier shall have a calendar year renewable energy portfolio consisting of renewable energy credits associated with Tier 1 renewable sources, including the required solar renewable energy credits and the required offshore wind renewable energy credits, and Tier 2 renewable sources.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A supplier shall satisfy Tier 1 REC requirements by submitting to the Commission the following:</text>
+      <para>
+        <num>(1)</num>
+        <text>A summary of RECs associated with generation from any Tier 1 renewable source, excluding RECs associated with electricity derived from solar energy and RECs associated with electricity derived from offshore wind energy;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A summary of RECs associated with electricity derived from solar energy;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A summary of RECs associated with electricity derived from offshore wind energy;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>For each REC submitted under this regulation, a copy of the REC registration with GATS or documentation of a REC authorized under <cite path="20.61.03.03">COMAR 20.61.03.03</cite>; and</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Certification that each REC used to meet the requirements of this regulation has not expired or been retired, transferred, or redeemed.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A supplier shall satisfy Tier 2 REC requirements by submitting to the Commission the following:</text>
+      <para>
+        <num>(1)</num>
+        <text>A summary of RECs associated with generation from any Tier 1 renewable source, including solar RECs, or Tier 2 renewable source;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A copy of a REC registration with GATS documenting a REC authorized under <cite path="20.61.03.03">COMAR 20.61.03.03</cite>; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Certification that each REC used to meet the requirements of this regulation has not expired or been retired, transferred, or redeemed.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Calculation of Sales for Determination of the RPS.</text>
+      <para>
+        <num>(1)</num>
+        <text>In calculating sales against which renewable energy portfolio obligations for a year are to be measured, a supplier shall include all retail electric sales made between January 1 and December 31 of the year, less sales specifically excluded under <cite doc="Md. Code" path="gpu|7-703">Public Utilities Article, §7-703, Annotated Code of Maryland</cite>, and sales described in <cite path="20|61|01|.06|D.|(2)">§D(2) of this regulation</cite>.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Applicability and Exclusions.</text>
+        <para>
+          <num>(a)</num>
+          <text>The provisions of this subsection apply only to a sale of electricity that is marketed or otherwise represented to customers by a supplier as renewable or having characteristics of a Tier 1 renewable source or Tier 2 renewable source.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Exclusions Requirements.</text>
+          <para>
+            <num>(i)</num>
+            <text>Except as provided under <cite path="20|61|01|.06|D.|(2)|(b)|(ii)">§D(2)(b)(ii) of this regulation</cite>, a supplier shall exclude any sale of electricity that is marketed or otherwise represented to customers as renewable or having characteristics of a Tier 1 renewable source or Tier 2 renewable source from total sales against which the renewable energy portfolio obligation for the year are measured under <cite path="20|61|01|.06|D.|(1)">§D(1) of this regulation</cite>.</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>On or after January 1, 2019, a supplier may not exclude a sale of electricity that is marketed or otherwise represented to customers as a Tier 2 renewable source.</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Excludable Sales. A supplier's excludable sales under <cite path="20|61|01|.06|D.|(2)|(a)">§D(2)(a) of this regulation</cite> are:</text>
+          <para>
+            <num>(i)</num>
+            <text>Electricity sales for which the supplier has renewable energy credits from a Tier 1 renewable source or Tier 2 renewable source equal to or greater than the renewable portfolio standard applicable in the year of reporting; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Electricity sales for which the supplier has renewable energy credits from a Tier 1 renewable source, including solar energy, or a Tier 2 renewable source less than the renewable portfolio standard applicable in the year of reporting in proportion to the percentage Tier 1, including solar renewable energy credits, or Tier 2 characteristics as compared with the RPS for the sale.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A supplier shall account for all sales of electricity under <cite path="20|61|01|.06|D.|(2)">§D(2) of this regulation</cite> in accordance with the provisions of <cite path="20.61.04.01">COMAR 20.61.04.01</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Supplier Sales to Industrial Process Load and Agricultural Land Owners.</text>
+      <para>
+        <num>(1)</num>
+        <text>Supplier Sales to Industrial Process Load.</text>
+        <para>
+          <num>(a)</num>
+          <text>In calculating the renewable energy portfolio standard that contains industrial process load, the North American Industrial Classification System identification code shall govern the metered load to which the compliance fee or offshore wind energy RPS, as applicable, may apply.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>To certify for designation of a sale as industrial process load, a supplier shall submit to the Commission the following documents:</text>
+          <para>
+            <num>(i)</num>
+            <text>A completed industrial process load application form available from the Commission; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>A certification from the supplier that it has confirmed the information described in <cite path="20|61|01|.06|E.|(1)|(c)|(ii)">§E(1)(c)(ii) of this regulation</cite> with its relevant electric company and that such information is accurate and complete.</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>An industrial process load application form shall include:</text>
+          <para>
+            <num>(i)</num>
+            <text>The name, location, and North American Industrial Classification System identification code of each customer or facility for which industrial process load status is requested;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Each account and meter number associated with each customer or facility for which industrial process load status is requested; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>A Contact name, address, and telephone number for each account for which industrial process load status is requested.</text>
+          </para>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>The designation of a sale as industrial process load shall be effective when filed.</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Unless a waiver is granted under <cite path="20|61|01|.06|F.">§F of this regulation</cite>, a supplier sale from industrial process load for which a Tier 1 renewable source REC, including RECs associated with electricity derived from solar energy but excluding RECs associated with electricity derived from offshore wind energy, has not been delivered shall be assessed a compliance fee under <cite doc="Md. Code" path="gpu|7-705">Public Utilities Article, §7-705, Annotated Code of Maryland</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Supplier Sales to Agricultural Land Owners.</text>
+        <para>
+          <num>(a)</num>
+          <text>Suppliers serving a customer who is an owner of agricultural land and who files an Internal Revenue Service Form 1040, Schedule F, shall be exempted from the renewable energy portfolio standard that represents offshore wind energy for that customer’s sales exceeding 3,000 kilowatt-hours of electricity in a month.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>To certify for designation of a sale as an exempted sale to an owner of agricultural land, a supplier shall submit to the Commission the following documents:</text>
+          <para>
+            <num>(i)</num>
+            <text>A completed agricultural land owner application form available from the Commission that is accompanied by a statement from each customer listed on the application form certifying that that it files Internal Revenue Form 1040, Schedule F, to report farm income and expenses; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>A certification from the supplier that it has confirmed the information described in <cite path="20|61|01|.06|E.|(2)|(c)|(ii)">§E(2)(c)(ii) of this regulation</cite> with its relevant electric company and that such information is accurate and complete.</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>An agricultural land owner application form shall include a list of:</text>
+          <para>
+            <num>(i)</num>
+            <text>The name and location of each customer for which exempted agricultural land owner status is requested;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Each account and meter number associated with each customer for which exempted agricultural land owner status is requested; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Contact name, address, and telephone number for each account for which exempted agricultural land owner status is requested.</text>
+          </para>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>The designation of a sale to an exempted owner of agricultural land shall be effective when filed.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Suppliers shall maintain records of sales to exempted industrial process load and owners of agricultural land adequate for electric companies to calculate refunds under <cite path="20.61.06.14">COMAR 20.61.06.14</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Waiver of Compliance Fee.</text>
+      <para>
+        <num>(1)</num>
+        <text>The compliance fee assessed on a supplier sale to an industrial or nonretail commercial customer, may be waived under <cite doc="Md. Code" path="gpu|7-706">Public Utilities Article, §7-706, Annotated Code of Maryland</cite>, upon a Commission finding of extreme economic hardship.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Commission may find extreme economic hardship based on the following:</text>
+        <para>
+          <num>(a)</num>
+          <text>Initiation or involvement in bankruptcy proceedings under 11 U.S.C. §101 et seq.;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A credit rating of C or equivalent rating, or lower by a nationally recognized credit rating agency;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Designation of extreme financial hardship by a federal or other state program; or</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Any other documentation the applicant may present for the purpose of assisting the Commission in making a determination on this issue.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>In the absence of an effective waiver, the supplier remains responsible for the renewable energy portfolio standard for the industrial or nonretail customer.</text>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>A supplier that is required to file a report under <cite doc="Md. Code" path="gpu|7-705">Public Utilities Article, §7-705, Annotated Code of Maryland</cite>, shall open and maintain an account in good standing with GATS.</text>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Public Utilities Article, §§<cite doc="Md. Code" path="gpu|2-121">2-121</cite>, <cite doc="Md. Code" path="gpu|5-101">5-101</cite>, and <cite doc="Md. Code" path="gpu|7-701">7-701</cite>—<cite doc="Md. Code" path="gpu|7-713">7-713</cite>, Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container">Effective date:</annotation>
+    <annotation type="History" dest="container" effective="2005-11-24">Regulations <cite path="|20|61|01|.01">.01</cite>—<cite path="|20|61|01|.05">.05</cite> adopted as an emergency provision effective July 1, 2005 (32:18 Md. R. 1517); adopted permanently effective November 24, 2005 (32:23 Md. R. 1829)</annotation>
+    <annotation type="History" dest="container" effective="2007-01-01"><cite path="|20|61|01|.03|B.">Regulation .03B</cite> amended effective January 1, 2007 (33:26 Md. R. 1998)</annotation>
+    <annotation type="History" dest="container" effective="2008-05-05"><cite path="|20|61|01|.03|B.">Regulation .03B</cite> amended as an emergency provision effective April 1, 2008 (35:9 Md. R. 895); amended permanently effective May 5, 2008 (35:9 Md. R. 899)</annotation>
+    <annotation type="History" dest="container" effective="2023-07-10"><cite path="|20|61|01|.03|B.">Regulation .03B</cite> amended effective December 1, 2008 (35:24 Md. R. 2079); September 20, 2010 (37:19 Md. R. 1285); July 8, 2013 (40:13 Md. R. 1076); September 15, 2014 (41:18 Md. R. 1010); July 10, 2023 (50:13 Md. R. 514)</annotation>
+    <annotation type="History" dest="container" effective="2007-01-01"><cite path="|20|61|01|.04|B.">Regulation .04B</cite> amended effective January 1, 2007 (33:26 Md. R. 1998)</annotation>
+    <annotation type="History" dest="container" effective="2007-01-01"><cite path="|20|61|01|.04|C.">Regulation .04C</cite> adopted effective January 1, 2007 (33:26 Md. R. 1998)</annotation>
+    <annotation type="History" dest="container" effective="2008-05-05"><cite path="|20|61|01|.04|D.">Regulation .04D</cite> adopted as an emergency provision effective April 1, 2008 (35:9 Md. R. 895); adopted permanently effective May 5, 2008 (35:9 Md. R. 899)</annotation>
+    <annotation type="History" dest="container" effective="2010-09-20"><cite path="|20|61|01|.04|D.">Regulation .04D</cite> amended effective September 20, 2010 (37:19 Md. R. 1285)</annotation>
+    <annotation type="History" dest="container" effective="2008-05-05"><cite path="|20|61|01|.05">Regulation .05</cite> amended and recodified to be Regulation .06 and new Regulation .05 adopted as an emergency provision effective April 1, 2008 (35:9 Md. R. 895); amended permanently effective May 5, 2008 (35:9 Md. R. 899)</annotation>
+    <annotation type="History" dest="container" effective="2008-12-01"><cite path="|20|61|01|.05">Regulation .05</cite> amended effective December 1, 2008 (35:24 Md. R. 2079)</annotation>
+    <annotation type="History" dest="container" effective="2010-09-20"><cite path="|20|61|01|.05|C.">Regulation .05C</cite> amended effective August 10, 2009 (36:16 Md. R. 1251); September 20, 2010 (37:19 Md. R. 1285)</annotation>
+    <annotation type="History" dest="container" effective="2014-09-15"><cite path="|20|61|01|.05|D.">Regulation .05D</cite> adopted effective September 15, 2014 (41:18 Md. R. 1010)</annotation>
+    <annotation type="History" dest="container" effective="2014-09-15"><cite path="|20|61|01|.06">Regulation .06</cite> amended effective September 20, 2010 (37:19 Md. R. 1285); September 15, 2014 (41:18 Md. R. 1010)</annotation>
+  </annotations>
+</container>

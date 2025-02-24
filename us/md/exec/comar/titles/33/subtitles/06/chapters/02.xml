@@ -1,0 +1,363 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>02</num>
+  <heading>Information Page</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>In General.</heading>
+    <text>The information page of every petition shall contain the information required by:</text>
+    <para>
+      <num>A.</num>
+      <text><cite doc="Md. Code" path="gel">Election Law Article, Title 6, Annotated Code of Maryland</cite>; and</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>This chapter.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Subject and Purpose.</heading>
+    <para>
+      <num>A.</num>
+      <text>Description Required. The information page shall include a description of the subject and purpose of the petition, as required by:</text>
+      <para>
+        <num>(1)</num>
+        <text><cite doc="Md. Code" path="gel|6-201">Election Law Article, §6-201(b)(1), Annotated Code of Maryland</cite>; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>This regulation.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Presidential Primary Candidate. For a petition under <cite doc="Md. Code" path="gel|8-502">Election Law Article, §8-502, Annotated Code of Maryland</cite>, to place a presidential candidate on a primary election ballot, the description shall include the candidate's:</text>
+      <para>
+        <num>(1)</num>
+        <text>Name as it is to appear on the ballot;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>City and state where the candidate resides; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Party affiliation.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>General Election Candidate. For a petition under <cite doc="Md. Code" path="gel|5-703">Election Law Article, §5-703, Annotated Code of Maryland</cite>, to place a candidate on a general election ballot, the description shall include the:</text>
+      <para>
+        <num>(1)</num>
+        <text>Candidate's name as it is to appear on the ballot;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Candidate's city and state where the candidate resides;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Candidate's party affiliation; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Office being sought, including the applicable district.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Formation of Political Party. For a petition under <cite doc="Md. Code" path="gel|4-102">Election Law Article, §4-102, Annotated Code of Maryland</cite>, to form a new political party, the description shall include:</text>
+      <para>
+        <num>(1)</num>
+        <text>A statement of intent to organize a State political party;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The name of the proposed political party;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The name of the proposed political party's State chair and the city and state where proposed party's State chair resides; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The names and addresses of the individuals who, under <cite doc="Md. Code" path="gel|4-101">Election Law Article, §4-101, Annotated Code of Maryland</cite>, will constitute the proposed political party's initial governing body.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Referral of Act of General Assembly. For a petition under Article XVI of the State Constitution to refer an Act or part of an Act of the General Assembly, whether a public general law or a public local law, the description shall include:</text>
+      <para>
+        <num>(1)</num>
+        <text>The Act's bill number;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Act's "Short Title"; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If applicable, a copy of the summary approved by the Attorney General of the Act or part of the Act being petitioned.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Local Petition—Creation of Charter Board. For a petition under Article XI-A of the State Constitution to create a charter board for a county, the description shall include:</text>
+      <para>
+        <num>(1)</num>
+        <text>The name of the county; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A statement of whether the petition is being brought under §1 or §1A of Article XI-A of the State Constitution.</text>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Local Petitions—Nominations to Charter Board. For a petition under Article XI-A of the State Constitution to nominate members for a county charter board, the description shall include:</text>
+      <para>
+        <num>(1)</num>
+        <text>The name of the county;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A statement of whether the petition is being brought under §1 or §1A of Article XI-A of the State Constitution; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The name and address of each person sought to be nominated by that petition.</text>
+      </para>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>Local Petitions—Charter Amendment Initiative. For a petition under Article XI-A of the State Constitution to amend a county charter, the description shall include:</text>
+      <para>
+        <num>(1)</num>
+        <text>The name of the county;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A citation to the specific charter provision sought to be modified, repealed, or added by the amendment; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A fair and accurate summary of the substantive provisions of the amendment.</text>
+      </para>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>Local Petitions—Referral of Local Act. For a local petition to refer an act of a county's governing body, the description shall include:</text>
+      <para>
+        <num>(1)</num>
+        <text>The name of the county;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The act's bill or other identification number;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The act's short title or other short-form identification;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>A fair and accurate summary of:</text>
+        <para>
+          <num>(a)</num>
+          <text>The substantive provisions of the act, or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>If only a part of the act is to be referred, the substantive provisions of that part; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Any other information required by local law.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="33|06|02|.03">
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Sponsor Identification.</heading>
+    <para>
+      <num>A.</num>
+      <text>Identification Required. The information page shall include an identification of the sponsor, as required by:</text>
+      <para>
+        <num>(1)</num>
+        <text><cite doc="Md. Code" path="gel|6-201">Election Law Article, §6-201(b)(2), Annotated Code of Maryland</cite>; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>This regulation.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Information To Be Provided. The identification shall include, for each of the persons described in <cite path="33|06|02|.03|C.">§C of this regulation</cite>, that person's:</text>
+      <para>
+        <num>(1)</num>
+        <text>Name;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Mailing address;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Telephone number;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Electronic facsimile (fax) number, if any; and</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>E-mail address, if any.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Persons to Whom Applicable. The information specified in <cite path="33|06|02|.03|B.">§B of this regulation</cite> shall be given for:</text>
+      <para>
+        <num>(1)</num>
+        <text>The sponsor; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If the sponsor is an organization:</text>
+        <para>
+          <num>(a)</num>
+          <text>An individual who has been designated by the organization to receive notices in connection with the petition, or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>For a petition to form a new political party, the State Chair.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Signatures Summary.</heading>
+    <para>
+      <num>A.</num>
+      <text>Summary Required. The information page shall include a summary of signature pages, as required by:</text>
+      <para>
+        <num>(1)</num>
+        <text><cite doc="Md. Code" path="gel|6-201">Election Law Article, §6-201(b)(3), Annotated Code of Maryland</cite>; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>This regulation.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Information To Be Provided. The summary shall include:</text>
+      <para>
+        <num>(1)</num>
+        <text>For each county, the:</text>
+        <para>
+          <num>(a)</num>
+          <text>Number of signature pages; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Total number of signatures on those pages;</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The total number of signature pages for all counties;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The total number of all signatures;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The total number of signatures for each congressional district, if the petition is for placing a presidential candidate on a primary election ballot;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The date on which the first signature was obtained; and</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>The date on which the last signature was obtained.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Advance Determination.</heading>
+    <para>
+      <num>A.</num>
+      <text>Statement Required. The information page shall include a statement of whether the petition format had been submitted under <cite doc="Md. Code" path="gel|6-202">Election Law Article, §6-202, Annotated Code of Maryland</cite>, for an advance determination of its sufficiency.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Copy of Determination. If an advance determination was sought, a copy of that determination shall be attached to the information page.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Sponsor's Affidavit.</heading>
+    <para>
+      <num>A.</num>
+      <text>Affidavit Required. The information page shall include an affidavit, as required by:</text>
+      <para>
+        <num>(1)</num>
+        <text><cite doc="Md. Code" path="gel|6-201">Election Law Article, §6-201(b)(4), Annotated Code of Maryland</cite>; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>This regulation.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Scope and Tenor. The affidavit shall state that, to best of the affiant's knowledge and belief, all of the information given on the information page is true and correct.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>By Whom Made. The affidavit shall be signed and dated by:</text>
+      <para>
+        <num>(1)</num>
+        <text>The sponsor; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If the sponsor is an organization:</text>
+        <para>
+          <num>(a)</num>
+          <text>An individual responsible to the organization who has been designated by the organization to receive notices in connection with the petition, or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>For a petition to form a new political party, the State Chair.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Election Law Article, §§<cite doc="Md. Code" path="gel|2-102">2-102</cite>(b)(<cite doc="Md. Code" path="gel|4">4</cite>), <cite doc="Md. Code" path="gel|6-103">6-103</cite>, and <cite doc="Md. Code" path="gel|6-201">6-201</cite>, Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container">Effective date:</annotation>
+    <annotation type="History" dest="container" effective="2000-07-10">Regulations <cite path="|33|06|02|.01">.01</cite>—<cite path="|33|06|02|.06">.06</cite> adopted as an emergency provision effective March 1, 2000 (27:6 Md. R. 636); adopted permanently effective July 10, 2000 (27:13 Md. R. 1212)</annotation>
+    <annotation type="History" dest="container" effective="2006-01-16"><cite path="|33|06|02|.02|B.">Regulation .02B</cite>, C amended effective January 16, 2006 (33:1 Md. R. 41)</annotation>
+    <annotation type="History" dest="container" effective="2006-09-25"><cite path="|33|06|02|.02|B.">Regulation .02B</cite>, C amended as an emergency provision effective June 21, 2006 (33:15 Md. R. 1277); amended permanently effective September 25, 2006 (33:19 Md. R. 1562)</annotation>
+    <annotation type="History" dest="container" effective="2010-04-19"><cite path="|33|06|02|.02|B.">Regulation .02B</cite>, C, D, E amended effective April 19, 2010 (37:8 Md. R. 623)</annotation>
+    <annotation type="History" dest="container" effective="2010-04-19"><cite path="|33|06|02|.03|C.">Regulation .03C</cite> amended effective April 19, 2010 (37:8 Md. R. 623)</annotation>
+    <annotation type="History" dest="container" effective="2006-09-25"><cite path="|33|06|02|.04|B.">Regulation .04B</cite> amended as an emergency provision effective June 21, 2006 (33:15 Md. R. 1277); amended permanently effective September 25, 2006 (33:19 Md. R. 1562)</annotation>
+  </annotations>
+</container>

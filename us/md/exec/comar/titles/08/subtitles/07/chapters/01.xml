@@ -1,0 +1,830 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>01</num>
+  <heading>State Forests</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>“Commissioned officer” means a forest or park warden, or a forest or park ranger, having the authority stated in <cite doc="Md. Code" path="gnr|5-206">Natural Resources Article, §5-206, Annotated Code of Maryland</cite>, or a Natural Resources police officer having the authority stated in <cite doc="Md. Code" path="gnr|1-204">Natural Resources Article, §1-204, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>"Department" means the Department of Natural Resources.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>"Developed areas" means those areas within a State forest having permanent facilities and the areas surrounding those facilities.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>“Director” means the Director of the Department of Natural Resources — Forest Service, or the Director’s authorized representative.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>“Fireworks” means combustible, implosive, or explosive compositions, substances, combinations of substances, or articles that are prepared to produce a visible or audible effect by combustion, explosion, implosion, deflagration, or denotation.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Forest Officer.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Forest officer" means a commissioned officer.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Forest officer" includes:</text>
+          <para>
+            <num>(i)</num>
+            <text>Forest manager;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Rangers; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Other personnel employed by the State to manage and regulate the use of the State forest.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Off-Road Vehicle.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Off-road vehicle" means a motorized vehicle designed for or capable of cross-country travel on land, water, snow, ice, marsh, swampland, or other natural terrain.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Off-road vehicle" includes:</text>
+          <para>
+            <num>(i)</num>
+            <text>A four-wheel drive or low pressure tire vehicle;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Automobiles;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Trucks;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Motorcycles and related two-wheel vehicles;</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>Amphibious machines;</text>
+          </para>
+          <para>
+            <num>(vi)</num>
+            <text>Ground effect or air cushion vehicles; and</text>
+          </para>
+          <para>
+            <num>(vii)</num>
+            <text>Snowmobiles.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>“Service” means the Department of Natural Resources — Forest Service.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>"State forest road" means a road on or adjacent to the State forest maintained or constructed and maintained by the Service.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>"Undeveloped areas" means those areas within a State forest not having permanent facilities.</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>Vehicle.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Vehicle" means a mode of transportation by which an individual or property may be transported on a waterway or highway.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Vehicle" includes:</text>
+          <para>
+            <num>(i)</num>
+            <text>Vessels;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Trailers;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Automobiles;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Trucks;</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>Buses;</text>
+          </para>
+          <para>
+            <num>(vi)</num>
+            <text>Mopeds;</text>
+          </para>
+          <para>
+            <num>(vii)</num>
+            <text>Animals;</text>
+          </para>
+          <para>
+            <num>(viii)</num>
+            <text>Animal-drawn vehicles; and</text>
+          </para>
+          <para>
+            <num>(ix)</num>
+            <text>Bicycles.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>Vessel.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Vessel" means any type of watercraft, other than a seaplane, used or capable of being used as a means of transportation on water or ice.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Vessel" includes:</text>
+          <para>
+            <num>(i)</num>
+            <text>The vessel's motor, spars, sails, and accessories; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Ice boats.</text>
+          </para>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="08|07|01|.02">
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>State Forests.</heading>
+    <para>
+      <num>A.</num>
+      <text>The State forest system consists of the following areas in <cite path="08|07|01|.02|B.">§B of this regulation</cite>, as delineated on maps filed in the Office of the Secretary of Natural Resources.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Names and Locations of State Forests. The general locations of State-owned forests are listed below by county:</text>
+      <para>
+        <num>(1)</num>
+        <text>Allegany — Green Ridge;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Cecil — Elk Neck;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Caroline — Eastern Shore Tree Nursery;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Charles — Doncaster Demonstration;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Charles and Prince George's — Cedarville;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Garrett — Potomac; Garrett;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Garrett and Allegany — Savage River;</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Harford — Stoney Demonstration;</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>St. Mary's — Salem; St. Inigoes;</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>Worcester — Pocomoke River.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Hunting and Trapping.</heading>
+    <para>
+      <num>A.</num>
+      <text>Unless otherwise posted, hunting and trapping:</text>
+      <para>
+        <num>(1)</num>
+        <text>Are permitted during the regular open hunting and trapping season; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Shall be conducted in conformity with State law.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The Director may regulate specific areas, seasons, methods of harvest, and species hunted in accordance with State and federal law.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Except by written permit, an individual may not trap or attempt to trap on lands owned or controlled by the Department. The permit shall be issued by the Director.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Baiting Prohibited.</text>
+      <para>
+        <num>(1)</num>
+        <text>Except by written permit issued by the Service, on any State-owned or State-controlled properties open to public hunting, an individual may not place or cause to be placed or scatter or distribute:</text>
+        <para>
+          <num>(a)</num>
+          <text>Shucked or unshucked corn, wheat, or other grain;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Salt; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Other feed.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An individual may not hunt, shoot, or kill, or attempt to hunt, shoot, or kill, game birds or mammals by the aid of bait, on or over a baited area.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Permanent Blinds and Tree Stands.</text>
+      <para>
+        <num>(1)</num>
+        <text>The blinds or tree stands that an individual is permitted to erect on land owned or controlled by the Service are those brought in and taken with the individual each day. This does not prevent hunting at natural stands of vegetation present and uncut at the hunting site.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Except by written permission from the Service, an individual may not use or construct permanent blinds or tree stands on lands owned or controlled by the Service.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Reed grass (Phragmites australis) may not be used for the construction of blinds on lands owned or controlled by the Service.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Weapons.</heading>
+    <para>
+      <num>A.</num>
+      <text>Definition. In this regulation, "weapon" means:</text>
+      <para>
+        <num>(1)</num>
+        <text>A device capable of propelling a projectile at high velocity by mechanical means, by explosion, or by expanding gas, including but not limited to a firearm, crossbow, or longbow;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A dirk knife, bowie knife, switchblade (except penknives without switchblades), sand club, metal knuckles, razor, or nunchaku; or</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A device capable of:</text>
+        <para>
+          <num>(a)</num>
+          <text>Inflicting death or bodily harm to an individual,</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Maiming or destroying wildlife, or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Destroying property.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Except as provided in §§C and D of this regulation, possession or use of weapons or firearms by an individual other than a law enforcement officer is prohibited in all State forests.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Target shooting is permitted only at designated shooting ranges. The regulations governing the use of these ranges shall be posted and strictly observed.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Except when legally hunting or legally target shooting, an individual may not discharge a firearm on land or waters owned or controlled by the Service.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Firearms shall be unloaded, and arrows kept in a quiver or case, when in a State forest campsite.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Fishing.</heading>
+    <para>
+      <num>A.</num>
+      <text>Except in a posted area, an individual may fish in the waters of a State forest for finfish, if the individual complies with the State fishing laws.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Permit.</text>
+      <para>
+        <num>(1)</num>
+        <text>Fishing for other than finfish is by permit only.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A permit may be issued by the Director.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Closing Against Entry.</heading>
+    <para>
+      <num>A.</num>
+      <text>This regulation does not apply to employees of the Department on official business.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The Director may, by notice, close certain areas of State forests to public entry and travel.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>An individual or vehicle may not enter or remain on lands or waters owned or managed by the Service after posted hours of closing to public use.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>A vehicle remaining on lands or waters after the posted hours for closing to public use, or on areas closed to public entry, may be removed and placed in storage at the owner's expense.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Swimming.</heading>
+    <text>Unless posted as prohibited, an individual may wade or swim in State forest waters.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Camping.</heading>
+    <text>Camping in State forests is by permit issued by a forest officer. The permit shall specify the place and time period for camping.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Commercial Enterprise.</heading>
+    <para>
+      <num>A.</num>
+      <text>An individual may not use the property or resources of a State forest for commercial gain without obtaining a permit from the Service. Permits may be issued by the Director.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Unless a permit is obtained from the Service, an individual may not sell, hire, or lease an object of merchandise, or a vessel or vehicle designed or used for the transportation of passengers or property.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.10</num>
+    <heading>Fires.</heading>
+    <para>
+      <num>A.</num>
+      <text>An individual shall obtain a permit from the Service before kindling, building, maintaining, or using an open fire within a State forest.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A fire permit may be revoked at any time by a forest officer.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A fire shall be continuously under the surveillance of a competent individual 16 years old or older. A fire shall be extinguished before the responsibility of the permittee ends.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>An individual may not discard a burning object within a State forest.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.11</num>
+    <heading>Advertising.</heading>
+    <text>Unless a permit is obtained from the Service, an individual may not erect or post a sign, notice, or literature in a State forest.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.12</num>
+    <heading>Refuse and Rubbish.</heading>
+    <para>
+      <num>A.</num>
+      <text>Except in containers provided by the Service, an individual may not deposit garbage, sewage, waste, foodstuffs, paper, or other litter in a State forest.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>An individual may not deposit in Service-provided containers garbage, sewage, foodstuffs, paper, or other litter originating from a private residence, commercial business, or other source outside of State forest boundaries.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.13</num>
+    <heading>Plants, Rocks, Minerals, and Animals.</heading>
+    <para>
+      <num>A.</num>
+      <text>This regulation does not apply to forest personnel in the performance of their duties.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Except as authorized in <cite path="|08|07|01|.03">Regulation .03 of this chapter</cite> and §§C and D of this regulation, an individual may not remove, disturb, damage, or destroy any plant, rock, mineral, or animal in a State forest.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Timber, firewood, or other forest products may be taken from a State forest after a permit has been obtained from the Service.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Samples of flora or surface rocks may be taken for educational or research purposes after a permit has been obtained from the Service.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>The collection or possession of animals shall be in accordance with <cite doc="Md. Code" path="gnr|10-902">Natural Resources Article, §10-902, Annotated Code of Maryland</cite>, and <cite path="|08.03.08">COMAR 08.03.08</cite>.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.14</num>
+    <heading>Traffic and Parking.</heading>
+    <para>
+      <num>A.</num>
+      <text>The use of State forest roads is subject to the provisions of the laws of Maryland and the regulations of the Service. Roads may be closed to traffic when this action is considered necessary by a forest officer.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Instructions from a forest officer to reduce the speed of a vehicle, to bring it to a stop, or to alter its direction, shall be obeyed immediately by the driver when traveling a State forest road.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Traffic on State forest roads is subject to State motor vehicle laws.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The following acts are prohibited on State forest roads not under the jurisdiction of the State Highway Administration or a county:</text>
+      <para>
+        <num>(1)</num>
+        <text>Driving or parking a vehicle within or on a safety zone, walk, or other area not designated and customarily used for vehicular traffic;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Except for the time required to receive or discharge passengers, permitting a vehicle to stand outside a designated parking space;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Permitting a vehicle to obstruct traffic by unnecessary stopping;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Driving a vehicle over a State forest road at a speed greater than the posted limit;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Riding an animal, or driving or parking an animal-drawn vehicle, in a developed area without permission of the Service;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Driving a vehicle over a State forest road in violation of traffic control devices placed by the Service;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Permitting a vehicle to stand, park, or remain in a State forest area after posted closing hours; and</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Permitting a vehicle to be parked or remain in a parking space exceeding the posted time limit without paying the parking fees.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Parking Violations.</text>
+      <para>
+        <num>(1)</num>
+        <text>Fines or penalties for parking violations shall be paid directly to the Service.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An individual issued a citation for a parking violation may elect to stand trial by notifying the Service.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>An illegally parked vehicle may be removed and placed in storage at the owner's expense.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.15</num>
+    <heading>Fees and Charges.</heading>
+    <text>An individual may not make use of, or gain admittance to, a facility or activity in a State forest for which there is a fee, unless the fee is paid.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.16</num>
+    <heading>Grazing.</heading>
+    <text>Except under special permit or lease from the Service, grazing of cattle, horses, sheep, goats, or other domestic animals is not allowed in a State forest.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.17</num>
+    <heading>Pets.</heading>
+    <text>Pets shall be kept under reasonable control consistent with the safety of forest users and forest wildlife. An individual with a pet shall prevent the pet from biting individuals.  Pets may not be permitted to disturb forest wildlife outside of hunting activities.</text>
+  </section>
+  <section cache:ref-path="08|07|01|.18">
+    <prefix>Regulation</prefix>
+    <num>.18</num>
+    <heading>Relics, Treasures, and Metal Detectors.</heading>
+    <para>
+      <num>A.</num>
+      <text>The policy of the Service is to safeguard the archeological resources under its care. The guidelines in §§B and C of this regulation shall be followed.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Without permits from the Office of Archeology, Maryland Historical Trust, Department of Housing and Community Development, and the Department, an individual may not dig in search of buried relics or treasures, remove prehistoric or historic artifacts, or use metal detectors, except as provided in <cite path="08|07|01|.18|D.">§D of this regulation</cite>, within the boundaries of lands, beaches, or under waters controlled by the Service.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Permits are issued to archeologists and other qualified individuals who present a plan for scientific investigation to be carried out under provisions of the Maryland Archeological Historic Properties Act, Article 83B, §§5-623—5-628, Annotated Code of Maryland. Copies of the law and application for permit can be obtained from the Chief, Office of Archeology, Maryland Historical Trust, 100 Community Place, Crownsville, MD 21032.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>An exception to the permit requirements of this regulation is for the use of metal detectors in the search for modern coins, jewelry, and other similar items on designated swimming beaches operated by the Service.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.19</num>
+    <heading>Intoxicants.</heading>
+    <para>
+      <num>A.</num>
+      <text>An individual younger than 21 years old may not consume, transport, or possess intoxicating beverages within a State forest.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>An individual may not consume or possess an open container of an intoxicating beverage on a parking lot, roadway, trail, or other designated area within a State forest.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The Director may prohibit intoxicating beverages in an area of a State forest.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.20</num>
+    <heading>Disorderly Conduct.</heading>
+    <text>An individual may not act in a disorderly manner in a State forest by:</text>
+    <para>
+      <num>A.</num>
+      <text>Making loud and unseemly noises or profanely cursing, swearing, or using obscene language;</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Indecently exposing their person or performing any indecent act;</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Throwing missiles, to the annoyance of the public;</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Interfering with, encumbering, obstructing, or rendering dangerous any public place;</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Engaging in, instigating, or encouraging a confrontation or fight;</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Operating a generator or electronic equipment, or playing a musical instrument at a sound level annoying to other forest users, with the use of these prohibited after posted hours of permissible operation; or</text>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Causing a disturbance of the public peace.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.21</num>
+    <heading>Lawful Order of a Forest Officer.</heading>
+    <text>An individual shall obey a reasonable or lawful order of a forest officer or other commissioned officer in connection with the enforcement of Natural Resources laws, regulations, or other State laws.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.22</num>
+    <heading>Fireworks.</heading>
+    <text>Without a permit, an individual may not possess or use fireworks or other explosive or combustible devices intended for the creation of a display of noise, light, or smoke in a State forest.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.23</num>
+    <heading>Shooting Ranges.</heading>
+    <para>
+      <num>A.</num>
+      <text>Bow and Arrow Range.</text>
+      <para>
+        <num>(1)</num>
+        <text>The following restrictions apply on field archery courses established by or with the permission of the Service:</text>
+        <para>
+          <num>(a)</num>
+          <text>Only field tip or blunt arrows shall be used;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>An individual may shoot only at established targets; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>An individual may not use the range outside the posted hours of operation.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Director may establish regulations for the use of the range.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Firearms Range.</text>
+      <para>
+        <num>(1)</num>
+        <text>The following restrictions apply on firearms ranges established by or with the permission of the Service:</text>
+        <para>
+          <num>(a)</num>
+          <text>The number of shooters using a range may not exceed the posted range capacity;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Shooting is permitted at paper targets only;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A target may not be placed on a portion of the baffle and shall be located 3 to 4 feet from ground level;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Fully automatic weapons are prohibited; and</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>An individual may not use the range outside the posted hours of range operation.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An individual younger than 18 years old shall be accompanied by an adult when shooting.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.24</num>
+    <heading>Encroachment.</heading>
+    <para>
+      <num>A.</num>
+      <text>Private encroachments are prohibited on State forest land. Encroachments include, but are not limited to:</text>
+      <para>
+        <num>(1)</num>
+        <text>Fences;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Walls;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Dog runs;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Dog houses;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Storage structures;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Driveways;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Compost piles;</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Swimming pools;</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>Tree houses;</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>Play houses;</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>Woodpiles;</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>Gardens;</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>Play equipment;</text>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>Television or radio reception devices; and</text>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>Other devices, structures, refuse, or material.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Private mowing, clearing, application of chemicals, and other maintenance activities are prohibited on State forest lands.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Exceptions to this regulation may be issued by the Director to lessees of the State and to private concerns when an activity is in the best interest of the State.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.25</num>
+    <heading>Use of Trails.</heading>
+    <text>The Service may restrict the use of bicycles, mountain bikes, and animals on certain trails in a State forest.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.26</num>
+    <heading>Equipment Use.</heading>
+    <text>After obtaining a permit from a forest officer, special equipment such as chain saws or other motorized equipment may be used. Machinery powered by gasoline, diesel, or other combustible substances shall be equipped with a satisfactory spark arrestor to prevent a fire hazard.</text>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container"><cite doc="Md. Code" path="gnr|5-209">Natural Resources Article, §5-209, </cite>Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="1974-07-03">Effective date: July 3, 1974 (1:1 Md. R. 68)</annotation>
+    <annotation type="History" dest="container" effective="1982-04-26">Regulations .01, .02A and B, .04, .06, .15C, .16, .17A and D, .19, and .20 amended effective April 26, 1982 (9:8 Md. R. 821)</annotation>
+    <annotation type="History" dest="container" effective="1984-07-16"><cite path="|08|07|01|.01|B.">Regulation .01B</cite> amended effective July 16, 1984 (11:14 Md. R. 1249)</annotation>
+    <annotation type="History" dest="container" effective="1990-02-19"><cite path="|08|07|01|.04|B.">Regulation .04B</cite> amended effective February 19, 1990 (17:3 Md. R. 296)</annotation>
+    <annotation type="History" dest="container" effective="1990-02-19"><cite path="|08|07|01|.04|E.">Regulation .04E</cite> adopted effective February 19, 1990 (17:3 Md. R. 296)</annotation>
+    <annotation type="History" dest="container" effective="1990-02-19"><cite path="|08|07|01|.04">Regulation .04</cite>-1 adopted effective February 19, 1990 (17:3 Md. R. 296)</annotation>
+    <annotation type="History" dest="container" effective="1990-02-19"><cite path="|08|07|01|.04">Regulation .04</cite>-2 adopted effective February 19, 1990 (17:3 Md. R. 296)</annotation>
+    <annotation type="History" dest="container" effective="1985-02-25"><cite path="|08|07|01|.16|B.">Regulation .16B</cite> amended effective February 25, 1985 (12:4 Md. R. 359)</annotation>
+    <annotation type="History" dest="container" effective="1983-09-12"><cite path="|08|07|01|.20">Regulation .20</cite> amended effective September 12, 1983 (10:18 Md. R. 1607)</annotation>
+    <annotation type="History" dest="container" effective="1982-04-26"><cite path="|08|07|01|.21">Regulation .21</cite> repealed effective April 26, 1982 (9:8 Md. R. 821)</annotation>
+    <annotation type="History" dest="container" effective="1982-04-26">Regulations <cite path="|08|07|01|.21">.21</cite>—<cite path="|08|07|01|.26">.26</cite> adopted effective April 26, 1982 (9:8 Md. R. 821)</annotation>
+    <annotation type="History" dest="container" effective="1993-10-11" discontinuity="true">Regulations <cite path="|08|07|01|.01">.01</cite>—<cite path="|08|07|01|.26">.26</cite> repealed and new Regulations <cite path="|08|07|01|.01">.01</cite>—<cite path="|08|07|01|.26">.26</cite> adopted effective October 11, 1993 (20:20 Md. R. 1567)</annotation>
+    <annotation type="History" dest="container" effective="2016-02-15"><cite path="|08|07|01|.01|B.">Regulation .01B</cite> amended effective March 23, 2009 (36:6 Md. R. 489); February 15, 2016 (43:3 Md. R. 271)</annotation>
+    <annotation type="History" dest="container" effective="2016-02-15"><cite path="|08|07|01|.02|B.">Regulation .02B</cite> amended effective March 23, 2009 (36:6 Md. R. 489); February 15, 2016 (43:3 Md. R. 271)</annotation>
+    <annotation type="History" dest="container" effective="2009-03-23"><cite path="|08|07|01|.03|B.">Regulation .03B</cite>, C amended effective March 23, 2009 (36:6 Md. R. 489)</annotation>
+    <annotation type="History" dest="container" effective="2019-03-11"><cite path="|08|07|01|.03|D.">Regulation .03D</cite> amended effective March 11, 2019 (46:5 Md. R. 305)</annotation>
+    <annotation type="History" dest="container" effective="1994-08-01"><cite path="|08|07|01|.04|E.">Regulation .04E</cite> adopted effective August 1, 1994 (21:15 Md. R. 1303)</annotation>
+    <annotation type="History" dest="container" effective="2009-03-23"><cite path="|08|07|01|.05|B.">Regulation .05B</cite> amended effective March 23, 2009 (36:6 Md. R. 489)</annotation>
+    <annotation type="History" dest="container" effective="2009-03-23"><cite path="|08|07|01|.06|B.">Regulation .06B</cite> amended effective March 23, 2009 (36:6 Md. R. 489)</annotation>
+    <annotation type="History" dest="container" effective="2009-03-23"><cite path="|08|07|01|.09|A.">Regulation .09A</cite> amended effective March 23, 2009 (36:6 Md. R. 489)</annotation>
+    <annotation type="History" dest="container" effective="2019-03-11"><cite path="|08|07|01|.17">Regulation .17</cite> amended effective March 11, 2019 (46:5 Md. R. 305)</annotation>
+    <annotation type="History" dest="container" effective="2009-03-23"><cite path="|08|07|01|.19|C.">Regulation .19C</cite> amended effective March 23, 2009 (36:6 Md. R. 489)</annotation>
+    <annotation type="History" dest="container" effective="2009-03-23"><cite path="|08|07|01|.23|A.">Regulation .23A</cite> amended effective March 23, 2009 (36:6 Md. R. 489)</annotation>
+    <annotation type="History" dest="container" effective="2009-03-23"><cite path="|08|07|01|.24|C.">Regulation .24C</cite> amended effective March 23, 2009 (36:6 Md. R. 489)</annotation>
+  </annotations>
+</container>

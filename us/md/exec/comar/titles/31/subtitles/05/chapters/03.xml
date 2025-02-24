@@ -1,0 +1,1326 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>03</num>
+  <heading>Valuation of Life Insurance Policies</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Purpose.</heading>
+    <para>
+      <num>A.</num>
+      <text>The purpose of this chapter is to provide:</text>
+      <para>
+        <num>(1)</num>
+        <text>Tables of select mortality factors and rules for their use;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Rules concerning a minimum standard for the valuation of plans with nonlevel premiums or benefits;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Rules concerning a minimum standard for the valuation of plans with secondary guarantees;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Mortality tables to determine minimum valuation standards and minimum nonforfeiture standards for life insurance policies; and</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>A requirement that all life insurers perform an asset adequacy analysis except in certain cases.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The method for calculating basic reserves defined in this chapter constitutes the Commissioner's Reserve Valuation Method for policies to which this chapter is applicable.</text>
+    </para>
+  </section>
+  <section cache:ref-path="31|05|03|.02">
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Applicability.</heading>
+    <para>
+      <num>A.</num>
+      <text>In General. Except as provided in <cite path="31|05|03|.02|B.">§B of this regulation</cite>, this chapter applies to all life insurance policies, with or without nonforfeiture values, issued on or after the effective date of this chapter, subject to the conditions of <cite path="31|05|03|.02|C.">§C of this regulation</cite>.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Exceptions. Regulations <cite path="|31|05|03|.07">.07</cite>—<cite path="|31|05|03|.13">.13</cite> of this chapter do not apply to:</text>
+      <para>
+        <num>(1)</num>
+        <text>An individual life insurance policy:</text>
+        <para>
+          <num>(a)</num>
+          <text>Issued on or after the effective date of this chapter; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Issued in accordance with and as a result of a reentry provision contained in the original life insurance policy of the same or greater face amount which:</text>
+          <para>
+            <num>(i)</num>
+            <text>Was issued before the effective date of this chapter, and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Guarantees the premium rates of the new policy;</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Subsequent policies issued as a result of the exercise of the provision described in <cite path="31|05|03|.02|B.|(1)|(b)">§B(1)(b) of this regulation</cite>, or a derivation of the provision in the new policy;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A variable life insurance policy that provides for life insurance, the amount or duration of which varies according to the investment experience of any separate account or accounts;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>A variable universal life insurance policy that provides for life insurance, the amount or duration of which varies according to the investment experience of any separate account or accounts;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Group life insurance certificates unless the certificates provide for a stated or implied schedule of maximum gross premiums required in order to continue coverage in force for a period in excess of 1 year; or</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>A universal life insurance policy if the:</text>
+        <para>
+          <num>(a)</num>
+          <text>Secondary guarantee period, if any, is 5 years or less;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Specified premium for the secondary guarantee period is not less than the net level reserve premium for the secondary guarantee period based on:</text>
+          <para>
+            <num>(i)</num>
+            <text>For policies issued before January 1, 2009, the 1980 CSO valuation table or the ultimate mortality rates in the 2001 CSO Mortality Table, and the applicable valuation interest rate; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>For policies issued on or after January 1, 2009, the ultimate mortality rates in the 2001 CSO Mortality Table and the applicable valuation interest rate; and</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Initial surrender charge is not less than 100 percent of the first year annualized specified premium for the second guarantee period.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Conditions.</text>
+      <para>
+        <num>(1)</num>
+        <text>Calculation of the minimum valuation standard for policies, other than universal life policies, with guaranteed nonlevel gross premiums or guaranteed nonlevel benefits, or both, shall be in accordance with the provisions of <cite path="|31|05|03|.11">Regulation .11 of this chapter</cite>.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Calculation of the minimum valuation standard for flexible premium and fixed premium universal life insurance policies, that contain provisions resulting in the ability of a policyholder to keep a policy in force over a secondary guarantee period, shall be in accordance with the provisions of <cite path="|31|05|03|.12">Regulation .12 of this chapter</cite>.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>"Basic reserves" means reserves calculated in accordance with the principles of <cite doc="Md. Code" path="gin|5-307">Insurance Article, §5-307, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>"Commissioner" means the Maryland Insurance Commissioner.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>"Composite mortality tables" means mortality tables with rates of mortality that do not distinguish between smokers and nonsmokers.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>"Contract segmentation method" means the method of dividing the period from issue to mandatory expiration of a policy into successive segments, with the length of each segment being defined as the period from the end of the prior segment (from policy inception, for the first segment) to the end of the latest policy year as determined under <cite path="|31|05|03|.07">Regulation .07 of this chapter</cite>.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>"Deficiency reserves" means the excess, if greater than zero, of:</text>
+        <para>
+          <num>(a)</num>
+          <text>Minimum reserves calculated in accordance with the principles of <cite doc="Md. Code" path="gin|5-311">Insurance Article, §5-311, Annotated Code of Maryland</cite>; over</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Basic reserves.</text>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>"Guaranteed gross premiums" means the premiums under a policy of life insurance that are guaranteed and determined at issue.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>"Maximum valuation interest rates" means the interest rates defined in <cite doc="Md. Code" path="gin|5-306">Insurance Article, §5-306(d)(2), Annotated Code of Maryland</cite>, that are to be used in determining the minimum standard for the valuation of life insurance policies.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>"NAIC" means the National Association of Insurance Commissioners.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>"1980 CSO valuation tables" means the Commissioner's 1980 Standard Ordinary Mortality Table (1980 CSO Table) without 10-year selection factors, incorporated into the 1980 amendments to the NAIC Standard Valuation Law, and variations of the 1980 CSO Table approved by the NAIC, such as the smoker and nonsmoker versions approved in December 1983.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>"Preneed insurance contract" means any life insurance policy or certificate, annuity contract, or other insurance contract which, by assignment or otherwise, has for a purpose the funding of an agreement relating to the purchase or provision of specific funeral or cemetery merchandise or services to be provided at the time of the individual's death.</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>"Scheduled gross premium" means:</text>
+        <para>
+          <num>(a)</num>
+          <text>The smallest illustrated gross premium at issue for other than universal life insurance policies; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The smallest specified premium described in <cite path="|31|05|03|.12|A.|(3)">Regulation .12A(3) of this chapter</cite>, if any, for universal life insurance policies, or else the minimum premium described in <cite path="|31|05|03|.12|A.|(4)">Regulation .12A(4) of this chapter</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>"Segmented reserves" means reserves, calculated using segments produced by the contract segmentation method, equal to the present value of all future guaranteed benefits less the present value of all future net premiums to the mandatory expiration of a policy as described in <cite path="|31|05|03|.08">Regulation .08 of this chapter</cite>.</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>"Smoker and nonsmoker mortality tables" means mortality tables with separate rates of mortality for smokers and nonsmokers.</text>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>"Statistical agent" means an entity with:</text>
+        <para>
+          <num>(a)</num>
+          <text>Proven systems for protecting the confidentiality of individual insurance and insurer information;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Demonstrated resources for, and history of, ongoing electronic communications and data transfer ensuring data integrity with insurers, which are its members or subscribers; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A history of, and means for, aggregation of data and accurate promulgation of the experience modifications in a timely manner.</text>
+        </para>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>"Tabular cost of insurance" means the net single premium at the beginning of a policy year for 1-year term insurance in the amount of the guaranteed death benefit in that policy year.</text>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>"10-year select factors" means the select factors adopted with the 1980 amendments to the NAIC Standard Valuation Law.</text>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>2001 CSO Mortality Table.</text>
+        <para>
+          <num>(a)</num>
+          <text>"2001 CSO Mortality Table" means that mortality table:</text>
+          <para>
+            <num>(i)</num>
+            <text>Consisting of separate rates of mortality for male and female lives;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Developed by the American Academy of Actuaries CSO Task Force from the Valuation Basic Mortality Table developed by the Society of Actuaries Individual Life Insurance Valuation Mortality Task Force;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Adopted by the NAIC in December 2002 and included in the Proceedings of the NAIC (2nd Quarter 2002); and</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Supplemented by the 2001 CSO Preferred Class Structure Mortality Table.</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Unless the context indicates otherwise, "2001 CSO Mortality Table" includes:</text>
+          <para>
+            <num>(i)</num>
+            <text>The ultimate form of that table;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The select and ultimate form of that table;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Both the smoker and nonsmoker mortality tables;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>The composite mortality tables; and</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>Both the age-nearest-birthday and age-last-birthday bases of the mortality tables.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(18)</num>
+        <text>"2001 CSO Mortality Table (F)" means that mortality table consisting of the rates of mortality for female lives from the 2001 CSO Mortality Table.</text>
+      </para>
+      <para>
+        <num>(19)</num>
+        <text>"2001 CSO Mortality Table (M)" means that mortality table consisting of the rates of mortality for male lives from the 2001 CSO Mortality Table.</text>
+      </para>
+      <para>
+        <num>(20)</num>
+        <text>2001 CSO Preferred Class Structure Mortality Table.</text>
+        <para>
+          <num>(a)</num>
+          <text>"2001 CSO Preferred Class Structure Mortality Table" means those mortality tables adopted by the NAIC in September 2006, and included in the Proceedings of the NAIC (3rd Quarter 2006) which have separate rates of mortality for:</text>
+          <para>
+            <num>(i)</num>
+            <text>Super preferred nonsmokers;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Preferred nonsmokers;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Residual standard nonsmokers:</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Preferred smokers; and</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>Residual standard smokers.</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Unless the context indicates otherwise, "2001 CSO Preferred Class Structure Mortality Table" includes:</text>
+          <para>
+            <num>(i)</num>
+            <text>The ultimate form of that table;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The select and ultimate form of that table;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Both the smoker and nonsmoker mortality tables;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Both the male and female mortality tables;</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>The gender composite mortality tables; and</text>
+          </para>
+          <para>
+            <num>(vi)</num>
+            <text>Both the age-nearest-birthday and age-last-birthday bases of the mortality table.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(21)</num>
+        <text>"Unitary reserves" means the present value of all future guaranteed benefits less the present value of all future modified net premiums as described in <cite path="|31|05|03|.09">Regulation .09 of this chapter</cite>.</text>
+      </para>
+      <para>
+        <num>(22)</num>
+        <text>"Universal life insurance policy" means an individual life insurance policy under the provisions of which separately identified interest credits (other than in connection with dividend accumulations, premium deposit funds, or other supplementary accounts) and mortality or expense charges are made to the policy.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Incorporation by Reference.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Select Mortality Factors Tables from pages 830-17—830-36 of the NAIC Valuation of Life Insurance Policies Model Regulation, as adopted in March 1999, are incorporated by reference.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The 2001 CSO Mortality Table, as adopted by the NAIC in December 2002 and included in the Proceedings of the NAIC (2nd Quarter 2002), is incorporated by reference.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The 2001 CSO Preferred Class Structure Mortality Table, as adopted by the NAIC in September 2006 and included in the Proceedings of the NAIC (3rd Quarter 2006), is incorporated by reference.</text>
+    </para>
+  </section>
+  <section cache:ref-path="31|05|03|.05">
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Application of Mortality Tables.</heading>
+    <para>
+      <num>A.</num>
+      <text>Policies Issued Before January 1, 2009.</text>
+      <para>
+        <num>(1)</num>
+        <text>At the election of an insurer for any one or more specified plans of insurance, an insurer may use the 1980 CSO valuation table or the 2001 CSO Mortality Table as the minimum standard for a policy issued before January 1, 2009.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If an insurer elects to use the 2001 CSO Mortality Table as the minimum standard, the insurer shall do so for both valuation and nonforfeiture purposes.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Policies Issued on or After January 1, 2009. Except as set forth in <cite path="31|05|03|.05|C.">§C of this regulation</cite>, for a policy issued on or after January 1, 2009, an insurer shall use the 2001 CSO Mortality Table as the minimum standard.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Preneed Insurance Contracts.</text>
+      <para>
+        <num>(1)</num>
+        <text>For a preneed insurance contract issued on or after January 1, 2009, and before January 1, 2012, an insurer may elect to use either the ultimate form of the 1980 CSO valuation tables or the 2001 CSO Mortality Table as the minimum standard for valuation and nonforfeiture purposes.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If an insurer elects to use the 2001 CSO Mortality Table as the minimum standard for a preneed insurance contract issued on or after January 1, 2009, the insurer shall provide, as a part of the actuarial opinion memorandum submitted in support of the company's asset adequacy testing, an annual written notification to the domiciliary commissioner.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The notification required by <cite path="31|05|03|.05|C.|(2)">§C(2) of this regulation</cite> shall include:</text>
+        <para>
+          <num>(a)</num>
+          <text>A complete list of all preneed insurance contract forms that use the 2001 CSO Mortality Table as the minimum standard;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A certification signed by the appointed actuary stating that the reserve methodology employed by the company in determining reserves for the preneed insurance contracts issued after January 1, 2009, and using the 2001 CSO Mortality Table as the minimum standard develops adequate reserves; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Supporting information regarding the adequacy of reserves for preneed insurance contracts issued after January 1, 2009, and using the 2001 CSO Mortality Table as the minimum standard.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>For the purposes of the certification required in <cite path="31|05|03|.05|C.|(3)|(b)">§C(3)(b) of this regulation</cite>, the preneed insurance contracts using the 2001 CSO Mortality Table as the minimum standard may not be aggregated with any other policies.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>For a preneed insurance contract issued on or after January 1, 2012, an insurer shall use the ultimate form of the 1980 CSO valuation tables as the minimum standard for valuation and nonforfeiture purposes.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>The status of a policy or contract as a preneed insurance contract is determined at the time of issue in accordance with the policy form filing.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="31|05|03|.06">
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Conditions for Use of Mortality Tables.</heading>
+    <para>
+      <num>A.</num>
+      <text>Plans of Insurance With Separate Rates for Smokers and Nonsmokers. For each plan of insurance with separate rates for smokers and nonsmokers, an insurer may use:</text>
+      <para>
+        <num>(1)</num>
+        <text>Composite mortality tables to determine minimum reserve liabilities and minimum cash surrender values and amounts of paid-up nonforfeiture benefits;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Smoker and nonsmoker mortality tables to determine the valuation net premiums and additional minimum reserves, if any, required by <cite doc="Md. Code" path="gin|5-311">Insurance Article, §5-311, Annotated Code of Maryland</cite>, and composite mortality tables to determine the basic minimum reserves, minimum cash surrender values, and amounts of paid-up nonforfeiture benefits; or</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Smoker and nonsmoker mortality tables to determine minimum reserve liabilities and minimum cash surrender values and amounts of paid-up nonforfeiture benefits.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Plans of Insurance Without Separate Rates for Smokers and Nonsmokers. For each plan of insurance without separate rates for smokers and nonsmokers, an insurer shall use the composite mortality tables.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Plans of Insurance With Separate Rates for Preferred and Standard Nonsmokers.</text>
+      <para>
+        <num>(1)</num>
+        <text>For each plan of insurance with separate rates for preferred and standard nonsmokers, an insurer may use super preferred nonsmoker, preferred nonsmoker, and residual standard nonsmoker tables to substitute for the nonsmoker mortality table found in the 2001 CSO Mortality Table to determine minimum reserves.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>At the time of election and annually thereafter, except for business valued under the residual standard nonsmoker table, the appointed actuary shall certify that:</text>
+        <para>
+          <num>(a)</num>
+          <text>The present value of death benefits over the next 10 years after the valuation date, using the anticipated mortality experience without recognition of mortality improvement beyond the valuation date for each class, is less than the present value of death benefits using the valuation basic table corresponding to the valuation table being used for that class; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The present value of death benefits over the future life of the contracts, using anticipated mortality experience without recognition of mortality improvement beyond the valuation date for each class, is less than the present value of death benefits using the valuation basic table corresponding to the valuation table being used for that class.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Plans of Insurance With Separate Rates for Preferred and Standard Smokers.</text>
+      <para>
+        <num>(1)</num>
+        <text>For each plan of insurance with separate rates for preferred and standard smoker lives, an insurer may use the preferred smoker and residual standard smoker tables to substitute for the smoker mortality table found in the 2001 CSO Mortality Table to determine minimum reserves.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>At the time of election and annually thereafter, for business valued under the preferred smoker table, the appointed actuary shall certify that:</text>
+        <para>
+          <num>(a)</num>
+          <text>The present value of death benefits over the next 10 years after the valuation date, using the anticipated mortality experience without recognition of mortality improvement beyond the valuation date for each class, is less than the present value of death benefits using the preferred smoker valuation basic table corresponding to the valuation table being used for that class; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The present value of death benefits over the future life of the contracts, using anticipated mortality experience without recognition of mortality improvement beyond the valuation date for each class, is less than the present value of death benefits using the preferred smoker valuation basic table corresponding to the valuation table being used for that class.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Unless exempted by the Commissioner, every authorized insurer using the 2001 CSO Preferred Class Structure Mortality Table shall annually file with the Commissioner, with the NAIC, or with a statistical agent designated by the NAIC and acceptable to the Commissioner, statistical reports showing mortality and such other information as the Commissioner may consider necessary or expedient for the administration of the provisions of this regulation.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>The form of the reports required pursuant to <cite path="31|05|03|.06|E.">§E of this regulation</cite>, shall be established by the Commissioner, or the Commissioner may require the use of a form established by the NAIC or by a statistical agent designated by the NAIC, and acceptable to the Commissioner.</text>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>The use of the 2001 CSO Preferred Class Structure Mortality Table for the valuation of policies issued prior to January 1, 2007 may not be permitted in any statutory financial statement in which a company reports, with respect to any policy or portion of a policy coinsured, for either of the following:</text>
+      <para>
+        <num>(1)</num>
+        <text>In cases where the mode of payment of the reinsurance premium is less frequent than the mode of payment of the policy premium, a reserve credit that exceeds, by more than the amount specified in this subsection as Y, the gross reserve calculated before reinsurance. Y is the amount of the gross reinsurance premium that:</text>
+        <para>
+          <num>(a)</num>
+          <text>Provides coverage for the period from the next policy premium due date to the earlier of the end of the policy year and the next reinsurance premium due date; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Would be refunded to the ceding entity upon the termination of the policy.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>In cases where the mode of payment of the reinsurance premium is more frequent than the mode of payment of the policy premium, a reserve credit that is less than the gross reserve, calculated before reinsurance, by an amount that is less than the amount specified in this subsection as Z. Z is the amount of the gross reinsurance premium that the ceding entity would need to pay the assuming company to provide reinsurance coverage from the period of the next reinsurance premium due date to the next policy premium due date minus any liability established for the proportionate amount not remitted to the reinsurer.</text>
+      </para>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>For purposes of <cite path="31|05|03|.06|G.">§G of this regulation</cite>, both the reserve credit and the gross reserve before reinsurance(i) for the mean reserve method shall be defined as the mean reserve minus the deferred premium asset, and (ii) for the mid-terminal reserve method shall include the unearned premium reserve. A company may estimate and adjust its accounting on an aggregate basis in order to meet the conditions to use the 2001 CSO Preferred Class Mortality Structure Table.</text>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>Reserve Liabilities, Cash Surrender Values, and Paid-Up Nonforfeiture Benefits. Subject to the restrictions of Regulations .02 and .10—.12 of this chapter and <cite doc="Md. Code" path="gin">Insurance Article, Title 5, Subtitle 3, Annotated Code of Maryland</cite>, relative to use of the select and ultimate form of the 2001 CSO Mortality Table, an insurer may use the ultimate form or the ultimate and select form of the 2001 CSO Mortality Table to determine:</text>
+      <para>
+        <num>(1)</num>
+        <text>Minimum reserve liabilities;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Minimum cash surrender values; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Amounts of paid-up nonforfeiture benefits.</text>
+      </para>
+    </para>
+    <para>
+      <num>J.</num>
+      <text>Asset Adequacy Analysis.</text>
+      <para>
+        <num>(1)</num>
+        <text>When the 2001 CSO Mortality Table is the minimum reserve standard for any plan for a company, the actuarial opinion in the annual statement filed with the Commissioner shall be based on an asset adequacy analysis as specified in <cite path="31.05.01.08">COMAR 31.05.01.08</cite>.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Commissioner may waive the requirement of <cite path="31|05|03|.06|D.|(1)">§D(1) of this regulation</cite> for an insurer doing business in this State and in no other state.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>General Calculation Requirements for Contract Segmentation Method.</heading>
+    <para>
+      <num>A.</num>
+      <text>All calculations are made using:</text>
+      <para>
+        <num>(1)</num>
+        <text>For policies issued before January 1, 2009, the 1980 CSO valuation table or the 2001 CSO Mortality Table;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>For policies issued on or after January 1, 2009, the 2001 CSO Mortality Table; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If elected, the optional minimum mortality standard for deficiency reserves stipulated in Regulation .10B—D of this chapter.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The length of a particular contract segment shall be set equal to the minimum of the value t, for which G<sub>t</sub> is greater than R<sub>t</sub> (if G<sub>t</sub> never exceeds R<sub>t</sub> the segment length is deemed to be the number of years from the beginning of the segment to the mandatory expiration date of the policy), where G<sub>t</sub> and R<sub>t</sub> are defined as follows:</text>
+      <para>
+        <num>(1)</num>
+        <text>G<sub>t</sub> = (GP<sub>x+k+t</sub>/GP<sub>x+k+t-l</sub>)</text>
+        <text>where</text>
+        <text>x = original issue age;</text>
+        <text>k = The number of years from the date of issue to the beginning of the segment;</text>
+        <text>t = 1, 2, . . .; t is reset to 1 at the beginning of each segment;</text>
+        <text>GP<sub>x+k+t-l</sub> = Guaranteed gross premium per thousand of face amount, ignoring policy fees only if level for the premium paying period of the policy, for year t of the segment.</text>
+        <text>R<sub>t</sub> = q<sub>x+k+t</sub>/q<sub>x+k+t-1</sub>   However, R<sub>t</sub> may be increased or decreased by 1 percent in any policy  year, at the company's option, but R<sub>t</sub> may not be less than one;</text>
+        <text>where:</text>
+        <text>x, k, and t are as defined above, and</text>
+        <text>q<sub>x+k+t</sub> = valuation mortality rate for deficiency reserves in policy year k+t but using the mortality of Regulation.10C(2) of this chapter if Regulation.10C(3) of this chapter is elected for deficiency reserves. If GP<sub>x+k+t</sub> is greater than 0 and GP<sub>x+k+t-l</sub> is equal to 0, G<sub>t</sub> shall be deemed to be 1,000. If GP<sub>x+k+t</sub> and GP<sub>x+k+t-1</sub> are both equal to 0, G<sub>t</sub> shall be deemed to be 0.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>When the 2001 CSO Mortality Table is elected or required to be used, the value of "q<sub>x+k+1</sub>" is the valuation mortality rate for deficiency reserves in policy year k+t, but using the unmodified select mortality rates if modified select mortality rates are used in the computation of deficiency reserves.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="31|05|03|.08">
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>General Calculation Requirements for Segmented Reserves.</heading>
+    <para>
+      <num>A.</num>
+      <text>The net premiums within each segment are a uniform percentage of the respective guaranteed gross premiums within the segment. The uniform percentage for each segment is such that, at the beginning of the segment, the present value of the net premiums within the segment equals:</text>
+      <para>
+        <num>(1)</num>
+        <text>The present value of the death benefits within the segment; plus</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The present value of any unusual guaranteed cash value, as specified in <cite path="|31|05|03|.11|D.">Regulation .11D of this chapter</cite>, occurring at the end of the segment; less</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Any unusual guaranteed cash value occurring at the start of the segment; plus</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>For the first segment only, the excess of §A(4)(a) over <cite path="31|05|03|.08|A.|(4)|(b)">§A(4)(b) of this regulation</cite> as follows:</text>
+        <para>
+          <num>(a)</num>
+          <text>A net level annual premium equal to the present value, at the date of issue, of the benefits provided for in the first segment after the first policy year, divided by the present value, at the date of issue, of an annuity of one per year payable on the first and each subsequent anniversary within the first segment on which a premium falls due. The net level annual premium may not exceed the net level annual premium on the 19-year premium whole life plan of insurance of the same renewal year equivalent level amount at an age 1 year higher than the age at issue of the policy.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A net 1-year premium for the benefits provided for in the first year policy.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The length of each segment is determined by the contract segmentation method, as defined in Regulation.07B of this chapter.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The interest rates used in the present value calculations for any policy may not exceed the maximum valuation interest rate, determined with a guarantee duration equal to the sum of the lengths of all segments of the policy.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>For both basic reserves and deficiency reserves computed by the segmented method, present values shall include future benefits and net premiums in the current segment and in all subsequent segments.</text>
+    </para>
+  </section>
+  <section cache:ref-path="31|05|03|.09">
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>General Calculation Requirements for Unitary Reserves.</heading>
+    <para>
+      <num>A.</num>
+      <text>Guaranteed benefits and modified net premiums are considered to the mandatory expiration of the policy.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Modified net premiums are a uniform percentage of the respective guaranteed gross premiums, where the uniform percentage is such that, at issue, the present value of the net premiums equals the present value of all death benefits and pure endowments, plus the excess of §B(1) over <cite path="31|05|03|.09|B.|(2)">§B(2) of this regulation</cite> as follows:</text>
+      <para>
+        <num>(1)</num>
+        <text>A net level annual premium equal to the present value, at the date of issue, of the benefits provided for after the first policy year, divided by the present value, at the date of issue, of an annuity of one per year payable on the first and each subsequent anniversary of the policy on which a premium falls due. The net level annual premium may not exceed the net level annual premium on the 19-year premium whole life plan of insurance of the same renewal year equivalent level amount at an age 1 year higher than the age at issue of the policy;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A net 1-year term premium for the benefits provided for in the first policy year.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The interest rates used in the present value calculations for any policy may not exceed the maximum valuation interest rate, determined with a guarantee duration equal to the length from issue to the mandatory expiration of the policy.</text>
+    </para>
+  </section>
+  <section cache:ref-path="31|05|03|.10">
+    <prefix>Regulation</prefix>
+    <num>.10</num>
+    <heading>General Calculation Requirements for Basic Reserves and Premium Deficiency Reserves.</heading>
+    <para>
+      <num>A.</num>
+      <text>Basic Reserves.</text>
+      <para>
+        <num>(1)</num>
+        <text>At the election of the company for any one or more specified plans of life insurance, the minimum mortality standard for basic reserves may be calculated using:</text>
+        <para>
+          <num>(a)</num>
+          <text>For policies issued before January 1, 2009, the 1980 CSO valuation table with select mortality factors or the 2001 CSO Mortality Table; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>For policies issued on or after January 1, 2009, the 2001 CSO Mortality Table.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If select mortality factors are elected, they may be:</text>
+        <para>
+          <num>(a)</num>
+          <text>The 10-year select mortality factors incorporated into the 1980 amendments to the NAIC Standard Valuation Law;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The select mortality factors incorporated by reference under <cite path="|31|05|03|.04">Regulation .04 of this chapter</cite>; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Any other table of select mortality factors adopted by the NAIC after the effective date of this chapter and promulgated by regulation by the Commissioner for the purpose of calculating basic reserves.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Deficiency Reserves.</text>
+      <para>
+        <num>(1)</num>
+        <text>Deficiency reserves, if any, are calculated for each policy as the excess, if greater than zero, of the quantity A over the basic reserve.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The quantity A is obtained by recalculating the basic reserve for the policy using guaranteed gross premiums instead of net premiums when the guaranteed gross premiums are less than the corresponding net premiums.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>At the election of the company for any one or more specified plans of insurance, the quantity A and the corresponding net premiums used in the determination of quantity A may be based upon:</text>
+        <para>
+          <num>(a)</num>
+          <text>For policies issued before January 1, 2009, the 1980 CSO valuation table with select mortality factors or the 2001 CSO Mortality Table; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>For policies issued on or after January 1, 2009, the 2001 CSO Mortality Table.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Deficiency Reserves — Select Mortality Factors. If select mortality factors are elected, they may be:</text>
+      <para>
+        <num>(1)</num>
+        <text>The 10-year select mortality factors incorporated into the 1980 amendments to the NAIC Standard Valuation Law;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The select mortality factors incorporated by reference under <cite path="|31|05|03|.04">Regulation .04 of this chapter</cite>;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>For durations in the first segment, X percent of the select mortality factors incorporated by reference under <cite path="|31|05|03|.04">Regulation .04 of this chapter</cite>, subject to the following:</text>
+        <para>
+          <num>(a)</num>
+          <text>X may vary by policy year, policy form, underwriting classification, issue age, or any other policy factor expected to affect mortality experience;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>X is such that, when using the valuation interest rate used for basic reserves, subparagraph(i) is greater than or equal to subparagraph (ii) as follows:</text>
+          <para>
+            <num>(i)</num>
+            <text>The actuarial present value of future death benefits, calculated using the mortality rates resulting from the application of X;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The actuarial present value of future death benefits calculated using anticipated mortality experience without recognition of mortality improvement beyond the valuation date;</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>X is such that the mortality rates resulting from the application of X are at least as great as the anticipated mortality experience, without recognition of mortality improvement beyond the valuation date, in each of the first 5 years after the valuation date;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>The appointed actuary shall increase X at any valuation date where it is necessary to continue to meet all the requirements of this subsection;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>The appointed actuary may decrease X at any valuation date as long as X continues to meet all the requirements of this subsection;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>The appointed actuary shall specifically take into account the adverse effect on expected mortality and lapsation of any anticipated or actual increase in gross premiums; and</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>If X is less than 100 percent at any duration for any policy, the following requirements shall be met:</text>
+          <para>
+            <num>(i)</num>
+            <text>Each year, the appointed actuary shall prepare an actuarial opinion and memorandum for the company in conformance with the requirements of <cite path="|31.05.01">COMAR 31.05.01</cite>;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The appointed actuary shall disclose, in the Regulatory Asset Adequacy Issues Summary, the impact of the insufficiency of assets to support the payment of benefits and expenses and the establishment of statutory reserves during one or more interim periods; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Each year, the appointed actuary shall issue an opinion for all policies subject to this chapter stating whether the mortality rates resulting from the application of X meet the requirements of this subsection, with the opinion supported by an actuarial report, subject to appropriate Actuarial Standards of Practice promulgated by the Actuarial Standards Board of the American Academy of Actuaries, and using X factors that reflect anticipated future mortality, without recognition of mortality improvement beyond the valuation date, taking into account relevant emerging experience; or</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Any other table of select mortality factors adopted by the NAIC after the effective date of this chapter and promulgated by regulation by the Commissioner for the purpose of calculating deficiency reserves.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>In demonstrating compliance with the conditions of <cite path="31|05|03|.10|C.|(3)">§C(3) of this regulation</cite>, the demonstrations may not combine the results of tests that utilize the 1980 CSO Mortality Table with those tests that utilize the 2001 CSO Mortality Table, unless the combination is:</text>
+      <para>
+        <num>(1)</num>
+        <text>Explicitly required by regulation; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Necessary to be in compliance with relevant Actuarial Standards of Practice.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>This section applies to both basic reserves and deficiency reserves that are determined by using the 1980 CSO valuation tables. Any set of select mortality factors may be used only for the first segment. If the first segment is less than 10 years, the appropriate 10-year select mortality factors incorporated into the 1980 amendments to NAIC Standard Valuation Law may be used thereafter through the tenth policy year from the date of issue.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>In determining basic reserves or deficiency reserves, guaranteed gross premiums without policy fees may be used when the calculation involves the guaranteed gross premium but only if the policy fee is a level dollar amount after the first policy year. In determining deficiency reserves, policy fees may be included in guaranteed gross premiums even if not included in the actual calculation of basic reserves.</text>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Reserves for Policies With Certain Changes Made After Issue. Reserves for policies that have changes to guaranteed gross premiums, guaranteed benefits, guaranteed charges, or guaranteed credits that are unilaterally made by the insurer after issue and that are effective for more than 1 year after the date of the change shall be the greatest of the following:</text>
+      <para>
+        <num>(1)</num>
+        <text>Reserves calculated ignoring the guarantee;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Reserves assuming the guarantee was made at issue; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Reserves assuming that the policy was issued on the date of the guarantee.</text>
+      </para>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>Documentation of Adequacy of Reserves.</text>
+      <para>
+        <num>(1)</num>
+        <text>The Commissioner may require that the company document the extent of the adequacy of reserves for specified blocks, including policies issued before the effective date of this chapter.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The documentation may include a demonstration of the extent to which aggregation with other nonspecified blocks of business is relied on in the formation of the appointed actuary opinion pursuant to and consistent with the requirements of <cite path="|31.05.01">COMAR 31.05.01</cite>.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="31|05|03|.11">
+    <prefix>Regulation</prefix>
+    <num>.11</num>
+    <heading>Calculation of Minimum Valuation Standard for Policies with Guaranteed Nonlevel Gross Premiums or Guaranteed Nonlevel Benefits (Other than Universal Life Policies).</heading>
+    <para>
+      <num>A.</num>
+      <text>Basic Reserves. Basic reserves shall be calculated as the greater of the segmented reserves and the unitary reserves. Both the segmented reserves and the unitary reserves for any policy shall use the same valuation mortality table and selection factors. At the option of the insurer, in calculating segmented reserves and net premiums, either of the following adjustments may be made:</text>
+      <para>
+        <num>(1)</num>
+        <text>Treat the unitary reserve, if greater than zero, applicable at the end of each segment as a pure endowment, and subtract the unitary reserve, if greater than zero, applicable at the beginning of each segment from the present value of guaranteed life insurance and endowment benefits for each segment; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Treat the guaranteed cash surrender value, if greater than zero, applicable at the end of each segment as a pure endowment, and subtract the guaranteed cash surrender value, if greater than zero, applicable at the beginning of each segment from the present value of guaranteed life insurance and endowment benefits for each segment.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Deficiency Reserves.</text>
+      <para>
+        <num>(1)</num>
+        <text>The deficiency reserve at any duration shall be calculated:</text>
+        <para>
+          <num>(a)</num>
+          <text>On a unitary basis if the corresponding basic reserve determined by <cite path="31|05|03|.11|A.">§A of this regulation</cite> is unitary;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>On a segmented basis if the corresponding basic reserve determined by <cite path="31|05|03|.11|A.">§A of this regulation</cite> is segmented; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>On the segmented basis if the corresponding basic reserve determined by <cite path="31|05|03|.11|A.">§A of this regulation</cite> is equal to both the segmented reserve and the unitary reserve.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>This section applies to a policy for which the guaranteed gross premium at any duration is less than the corresponding modified net premium calculated by the method used in determining the basic reserves, but using the minimum valuation standards of mortality as specified in Regulation .10B—D of this chapter, and rate of interest.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Deficiency reserves, if any, shall be calculated for each policy as the excess if greater than zero, for the current and all remaining periods, of the quantity A over the basic reserve, where A is obtained as indicated in Regulation.10B—D of this chapter.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>For deficiency reserves determined on a segmented basis, the quantity A is determined using segment lengths equal to those determined for segmented basic reserves.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Minimum Value.</text>
+      <para>
+        <num>(1)</num>
+        <text>Basic reserves may not be less than the tabular cost of insurance for the balance of the policy year, if mean reserves are used.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Basic reserves may not be less than the tabular cost of insurance for the balance of the current modal period or to the paid-to-date, if later, but not beyond the next policy anniversary, if mid-terminal reserves are used.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Subject to <cite path="31|05|03|.11|C.|(4)">§C(4) of this regulation</cite>, the valuation mortality table used in determining the tabular cost of insurance shall be:</text>
+        <para>
+          <num>(a)</num>
+          <text>For policies issued before January 1, 2009, the 1980 CSO valuation table or the 2001 CSO Mortality Table; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>For policies issued on or after January 1, 2009, the 2001 CSO Mortality Table.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The tabular cost of insurance shall use the same valuation mortality table and interest rates as that used for the calculation of the segmented reserves.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>If select mortality factors are used, they shall be the 10-year select factors incorporated into the 1980 amendments of the NAIC Standard Valuation Law.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Total reserves, including basic reserves, deficiency reserves, and any reserves held for supplemental benefits that would expire upon contract termination may not be less than the amount that the policyowner would receive, including the cash surrender value of the supplemental benefits, if any, referred to above, exclusive of any deduction for policy loans, upon termination of the policy.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Unusual Pattern of Guaranteed Cash Surrender Values.</text>
+      <para>
+        <num>(1)</num>
+        <text>For a policy with an unusual pattern of guaranteed cash surrender values, the reserves actually held before the first unusual guaranteed cash surrender value may not be less than the reserves calculated by treating the first unusual guaranteed cash surrender value as a pure endowment and treating the policy as an n year policy providing term insurance plus a pure endowment equal to the unusual cash surrender value, where n is the number of years from the date of issue to the date the unusual cash surrender value is scheduled.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The reserves actually held subsequent to any unusual guaranteed cash surrender value may not be less than the reserves calculated by treating the policy as an n year policy providing term insurance plus a pure endowment equal to the next unusual guaranteed cash surrender value, and treating any unusual guaranteed cash surrender value at the end of the prior segment as a net single premium, where:</text>
+        <para>
+          <num>(a)</num>
+          <text>n is the number of years from the date of the last unusual guaranteed cash surrender value before the valuation date to the earlier of:</text>
+          <para>
+            <num>(i)</num>
+            <text>The date of the next unusual guaranteed cash surrender value, if any, that is scheduled after the valuation date, or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The mandatory expiration date of the policy;</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The net premium for a given year during the n year period is equal to the product of the net to gross ratio and the respective gross premium; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The net to gross ratio is equal to §D(2)(c)(i) divided by <cite path="31|05|03|.11|D.|(2)|(c)|(ii)">§D(2)(c)(ii) of this regulation</cite> as follows:</text>
+          <para>
+            <num>(i)</num>
+            <text>The present value, at the beginning of the n year period, of death benefits payable during the n year period plus the present value, at the beginning of the n year period, of the next unusual guaranteed cash surrender value, if any, minus the amount of the last unusual guaranteed cash surrender value, if any, scheduled at the beginning of the n year period,</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The present value, at the beginning of the n year period, of the scheduled gross premiums payable during the n year period.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>For purposes of this section, a policy is considered to have an unusual pattern of guaranteed cash surrender values if any future guaranteed cash surrender value exceeds the prior year's guaranteed cash surrender value by more than the sum of:</text>
+        <para>
+          <num>(a)</num>
+          <text>110 percent of the scheduled gross premium for that year;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>110 percent of one year's accrued interest on the sum of the prior year's guaranteed cash surrender value and the scheduled gross premium using the nonforfeiture interest rate used for calculating policy guaranteed cash surrender values; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>5 percent of the first policy year surrender charge, if any.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Optional Exemption for Yearly Renewable Term Reinsurance. At the option of the company, the following approach for reserves on YRT reinsurance may be used:</text>
+      <para>
+        <num>(1)</num>
+        <text>Calculate the valuation net premium for each future policy year as the tabular cost of insurance for that future year;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Basic reserves may not be less than the tabular cost of insurance for the appropriate period, as defined in <cite path="31|05|03|.11|C.">§C of this regulation</cite>;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Deficiency reserves:</text>
+        <para>
+          <num>(a)</num>
+          <text>For each policy year, the excess, if greater than zero, of the valuation net premium over the respective maximum guaranteed gross premium is calculated,</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>May not be less than the sum of the present values, at the date of valuation, of the excesses determined in accordance with <cite path="31|05|03|.11|E.|(3)|(a)">§E(3)(a) of this regulation</cite>;</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>For purposes of this section, the calculations use the maximum valuation interest rate and:</text>
+        <para>
+          <num>(a)</num>
+          <text>For policies issued before January 1, 2009, the 1980 CSO mortality tables with or without 10-year select mortality factors or the ultimate mortality rates in the 2001 CSO Mortality Table; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>For policies issued on or after January 1, 2009, the ultimate mortality rates in the 2001 CSO Mortality Table;</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>A reinsurance agreement shall be considered YRT reinsurance for purposes of this section if only the mortality risk is reinsured;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>If the assuming company chooses this optional exemption, the ceding company's reinsurance reserve credit is limited to the amount of reserve held by the assuming company for the affected policies.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Optional Exemption for Attained-Age-Based Yearly Renewable Term Life Insurance Policies. At the option of the company, the following approach for reserves for attained-age-based YRT life insurance policies may be used:</text>
+      <para>
+        <num>(1)</num>
+        <text>Calculate the valuation net premium for each future policy year as the tabular cost of insurance for that future year;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Basic reserves may not be less than the tabular cost of insurance for the appropriate period, as defined in <cite path="31|05|03|.11|C.">§C of this regulation</cite>;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Deficiency reserves:</text>
+        <para>
+          <num>(a)</num>
+          <text>For each policy year, calculate the excess, if greater than zero, of the valuation net premium over the respective maximum guaranteed gross premium,</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>May not be less than the sum of the present values, at the date of valuation, of the excesses determined in accordance with <cite path="31|05|03|.11|F.|(3)|(a)">§F(3)(a) of this regulation</cite>;</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>For purposes of this section, the calculations use the maximum valuation interest rate and:</text>
+        <para>
+          <num>(a)</num>
+          <text>For policies issued before January 1, 2009, the 1980 CSO valuation tables with or without 10-year select mortality factors or the ultimate mortality rates in the 2001 CSO Mortality Table; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>For policies issued on or after January 1, 2009, the ultimate mortality rates in the 2001 CSO Mortality Table;</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>A policy shall be considered an attained-age-based YRT life insurance policy for purposes of this section if the premium rates on both the initial current premium scale and the guaranteed maximum premium scale are:</text>
+        <para>
+          <num>(a)</num>
+          <text>Based upon the attained age of the insured such that the rate for any given policy at a given attained age of the insured is independent of the year the policy was issued, and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The same as the premium rates for policies covering all insureds of the same sex, risk class, plan of insurance, and attained age;</text>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>For policies that become attained-age-based YRT policies after an initial period of coverage, the approach of this section may be used after the initial period if:</text>
+        <para>
+          <num>(a)</num>
+          <text>The initial period is constant for all insureds of the same sex, risk class, and plan of insurance or the initial period runs to a common attained age for all insureds of the same sex, risk class, and plan of insurance, and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>After the initial period of coverage, the policy meets the conditions of <cite path="31|05|03|.11|F.|(6)">§F(6) of this regulation</cite>;</text>
+        </para>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>If this election is made, this approach shall be applied in determining reserves for all attained-age-based YRT life insurance policies issued on or after the effective date of this chapter.</text>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Exemption from Unitary Reserves for Certain n Year Renewable Term Life Insurance Policies. Unitary basic reserves and unitary deficiency reserves need not be calculated for a policy if the following conditions are met:</text>
+      <para>
+        <num>(1)</num>
+        <text>The policy consists of a series of n year periods, including the first period and all renewal periods, where n is the same for each period except that for the first renewal period, n may be shortened or extended to reach the expiration age, if this final renewal period is less than 10 years and less than twice the size of the earlier n year periods, and for each period, the premium rates on both the initial current premium scale and the guaranteed maximum premium scale are level;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The guaranteed gross premiums in all n year periods are not less than the corresponding net premiums based upon:</text>
+        <para>
+          <num>(a)</num>
+          <text>For policies issued before January 1, 2009, the 1980 CSO Tables with or without the 10-year select mortality factors or the ultimate mortality rates in the 2001 CSO Mortality Tables; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>For policies issued on or after January 1, 2009, the ultimate mortality rates in the 2001 CSO Mortality Tables; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>There are no cash surrender values in any policy year.</text>
+      </para>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>Exemption from Unitary Reserves for Certain Juvenile Policies. Unitary basic reserves and unitary deficiency reserves need not be calculated for a policy if the following conditions are met, based upon the initial current premium scale at issue:</text>
+      <para>
+        <num>(1)</num>
+        <text>The insured is 24 years old or younger;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Until the insured reaches the end of the juvenile period, which shall occur at or before age 25, the gross premiums and death benefits are level, and there are no cash surrender values; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>After the end of the juvenile period, gross premiums are level for the remainder of the premium paying period, and death benefits are level for the remainder of the life of the policy.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.12</num>
+    <heading>Calculation of Minimum Valuation Standard for Flexible Premium and Fixed Premium Universal Life Insurance Policies that Contain Provisions Resulting in the Ability of a Policyowner to Keep a Policy in Force over a Secondary Guarantee Period.</heading>
+    <para>
+      <num>A.</num>
+      <text>General.</text>
+      <para>
+        <num>(1)</num>
+        <text>Policies with a secondary guarantee include a policy:</text>
+        <para>
+          <num>(a)</num>
+          <text>With a guarantee that the policy remains in force at the original schedule of benefits, subject only to the payment of specified premiums;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>In which the minimum premium at any duration is less than the corresponding 1-year valuation premium, calculated using the maximum valuation interest rate and:</text>
+          <para>
+            <num>(i)</num>
+            <text>For policies issued before January 1, 2009, the 1980 CSO valuation tables with or without 10-year select mortality factors or the ultimate mortality rates in the 2001 CSO Mortality Table; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>For policies issued on or after January 1, 2009, the ultimate mortality rates in the 2001 CSO Mortality Table; or</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>With any combination of §A(1)(a) and (b) of this regulation.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A secondary guarantee period is the period for which the policy is guaranteed to remain in force subject only to a secondary guarantee. When a policy contains more than one secondary guarantee, the minimum reserve shall be the greatest of the respective minimum reserves at that valuation date of each unexpired secondary guarantee, ignoring all other secondary guarantees. Secondary guarantees that are unilaterally changed by the insurer after issue shall be considered to have been made at issue. Reserves described in §§B and C of this regulation shall be recalculated from issue to reflect the changes.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Specified premiums mean the premiums specified in the policy, the payment of which guarantees that the policy will remain in force at the original schedule of benefits, but which otherwise would be insufficient to keep the policy in force in the absence of the guarantee if maximum mortality and expense charges and minimum interest credits were made and any applicable surrender charges were assessed.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>For purposes of this regulation, the minimum premium for any policy year is the premium that, when paid into a policy with a zero account value at the beginning of the policy year, produces a zero account value at the end of the policy year. The minimum premium calculation shall use the policy cost factors, including mortality charges, loads, and expense charges, and the interest crediting rate, which are all guaranteed at issue.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The 1-year valuation premium means the net 1-year premium based upon the original schedule of benefits for a given policy year. The 1-year valuation premiums for all policy years are calculated at issue. The select mortality factors defined in Regulation .10C(2), (3), and (4) of this chapter may not be used to calculate the 1-year valuation premiums.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>The 1-year valuation premium should reflect the frequency of fund processing, as well as the distribution of deaths assumption employed in the calculation of the monthly mortality charges to the fund.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Basic Reserves for the Secondary Guarantees. Basic reserves for the secondary guarantees shall be the segmented reserves for the secondary guarantee period. In calculating the segments and the segmented reserves, the gross premiums shall be set equal to the specified premiums, if any, or otherwise to the minimum premiums, that keep the policy in force and the segments are determined according to the contract segmentation method as defined in <cite path="|31|05|03|.07|B.">Regulation .07B of this chapter</cite>.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Deficiency Reserves for the Secondary Guarantees. Deficiency reserves, if any, for the secondary guarantees shall be calculated for the secondary guarantee period in the same manner as described in <cite path="|31|05|03|.11|B.">Regulation .11B of this chapter</cite> with gross premiums set equal to the specified premiums, if any, or otherwise to the minimum premiums that keep the policy in force.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Minimum Reserves. The minimum reserves during the secondary guarantee period are the greater of:</text>
+      <para>
+        <num>(1)</num>
+        <text>The basic reserves for the secondary guarantee plus the deficiency reserve, if any, for the secondary guarantees; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The minimum reserves required by other rules or regulations governing universal life plans.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.13</num>
+    <heading>Select Mortality Factors.</heading>
+    <para>
+      <num>A.</num>
+      <text>The tables of the Select Mortality Factors, which are incorporated by reference under <cite path="|31|05|03|.04">Regulation .04 of this chapter</cite>, are the bases to which the respective percentage of Regulation .10C(2) and (3) of this chapter are applied.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The six tables of base select mortality factors, which are incorporated by reference, include:</text>
+      <para>
+        <num>(1)</num>
+        <text>Male aggregate;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Male nonsmoker;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Male smoker;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Female aggregate;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Female nonsmoker; and</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Female smoker.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>These tables apply to both age last birthday and age nearest birthday mortality tables. For sex-blended mortality tables, select mortality factors are computed in the same proportion as the underlying mortality. For example, for the 1980 CSO-B Table, the calculated base select mortality factors are 80 percent of the appropriate male table, plus 20 percent of the appropriate female table.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.14</num>
+    <heading>Gender-Blended Tables.</heading>
+    <text>An insurer that issues an ordinary life insurance policy for delivery in this State on or after January 1, 2004, that utilizes the same premium rates charged for male and female lives may:</text>
+    <para>
+      <num>A.</num>
+      <text>Substitute a mortality table that is a blend of the 2001 CSO Mortality Table (F) and the 2001 CSO Mortality Table (M) instead of the 2001 CSO Mortality Table for use in determining:</text>
+      <para>
+        <num>(1)</num>
+        <text>Minimum cash surrender values; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Amounts of paid-up nonforfeiture benefits;</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Choose from among the blended tables developed by the American Academy of Actuaries CSO Task Force and adopted by the NAIC in December 2002; and</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Issue the same kind of life insurance policy on both a sex-distinct and a sex-neutral basis.</text>
+    </para>
+  </section>
+  <section cache:ref-path="31|05|03|.15">
+    <prefix>Regulation</prefix>
+    <num>.15</num>
+    <heading>2001 CSO Preferred Class Structure Mortality Tables.</heading>
+    <para>
+      <num>A.</num>
+      <text>This regulation applies to policies issued on or after January 1, 2004.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Election of Minimum Valuation Standard.</text>
+      <para>
+        <num>(1)</num>
+        <text>At the election of the insurer for any one or more specified plans of insurance and subject to satisfying the conditions stated in this chapter, the 2001 CSO Preferred Class Structure Mortality Table may be substituted in place of the 2001 CSO smoker or nonsmoker Mortality Table as the minimum valuation standard for policies issued on or after January 1, 2007.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>For policies issued on or after January 1, 2004, and prior to January 1 2007, the 2001 CSO Preferred Class Structure Mortality Table may be substituted in place of the 2001 CSO smoker or nonsmoker Mortality Table with the consent of the Commissioner and subject to the conditions in Regulation .06C—H of this chapter. In determining such consent, the Commissioner may rely on the consent of the Commissioner of the company's state of domicile.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The election shall be made for each calendar year of issue.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>No election in §B(1) and (2) of this regulation shall be made until the insurer demonstrates that at least 20 percent of the business to be valued on the basis of the 2001 CSO Preferred Class Structure Mortality Table is in one or more of the preferred classes.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>A table from the 2001 CSO Preferred Class Structure Mortality Table used in place of a 2001 CSO Mortality Table, pursuant to the requirements of this chapter, is treated as part of the 2001 CSO Mortality Table only for purposes of reserve valuation pursuant to the requirements of the NAIC model regulation "Recognition of the 2001 CSO Mortality Table For Use in Determining Minimum Reserve Liabilities and Nonforfeiture Benefits Model Regulation," referenced in <cite path="31|05|03|.15|C.">§C of this regulation</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>National Association of Insurance Commissioners', "Recognition of the 2001 CSO Mortality Table For Use in Determining Minimum Reserve Liabilities and Nonforfeiture Benefits Model Regulation".</text>
+      <text>(See Appendix at the end of the chapter.)</text>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container"><cite doc="Md. Code" path="gin|2-109">Insurance Article, §2-109, </cite>Title 5, Subtitle 3, and §16-309, Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="1997-05-05">Effective date: May 5, 1997 (24:9 Md. R. 656)</annotation>
+    <annotation type="History" dest="container">Annotation: Implementation of this chapter is described in Regulation .02D. Notice that this chapter is being implemented will be published in the Maryland Register.</annotation>
+    <annotation type="History" dest="container" effective="1998-09-07" discontinuity="true">Chapter recodified from <cite path="|09.31.16">COMAR 09.31.16</cite> to <cite path="|31.05.03">COMAR 31.05.03</cite> effective September 7, 1998 (25:18 Md. R. 1439)</annotation>
+    <annotation type="History" dest="container" effective="2000-05-15" discontinuity="true">Chapter revised as an emergency provision effective January 1, 2000 (27:3 Md. R. 326); revised permanently effective May 15, 2000 (27:8 Md. R. 860)</annotation>
+    <annotation type="History" dest="container" effective="2004-01-01" discontinuity="true">Chapter revised effective January 1, 2004 (30:24 Md. R. 1746)</annotation>
+    <annotation type="History" dest="container" effective="2008-12-15"><cite path="|31|05|03|.03|B.">Regulation .03B</cite> amended effective March 26, 2007 (34:6 Md. R. 630); December 15, 2008 (35:25 Md. R. 2151)</annotation>
+    <annotation type="History" dest="container" effective="2007-03-26"><cite path="|31|05|03|.04|C.">Regulation .04C</cite> adopted effective March 26, 2007 (34:6 Md. R. 630)</annotation>
+    <annotation type="History" dest="container" effective="2008-12-15"><cite path="|31|05|03|.05|B.">Regulation .05B</cite> amended effective December 15, 2008 (35:25 Md. R. 2151)</annotation>
+    <annotation type="History" dest="container" effective="2008-12-15"><cite path="|31|05|03|.05|C.">Regulation .05C</cite> adopted effective December 15, 2008 (35:25 Md. R. 2151)</annotation>
+    <annotation type="History" dest="container" effective="2009-12-28"><cite path="|31|05|03|.05|C.">Regulation .05C</cite> amended effective December 28, 2009 (36:26 Md. R. 1999)</annotation>
+    <annotation type="History" dest="container" effective="2007-03-26"><cite path="|31|05|03|.06">Regulation .06</cite> amended effective March 26, 2007 (34:6 Md. R. 630)</annotation>
+    <annotation type="History" dest="container" effective="2010-05-03"><cite path="|31|05|03|.06">Regulation .06</cite> amended as an emergency provision effective January 25, 2010 (37:4 Md. R. 336); amended permanently effective May 3, 2010 (37:9 Md. R. 674)</annotation>
+    <annotation type="History" dest="container" effective="2010-05-03"><cite path="|31|05|03|.10|C.">Regulation .10C</cite>, H amended as an emergency provision effective January 25, 2010 (37:4 Md. R. 336); amended permanently effective May 3, 2010 (37:9 Md. R. 674)</annotation>
+    <annotation type="History" dest="container" effective="2007-03-26"><cite path="|31|05|03|.15">Regulation .15</cite> adopted effective March 26, 2007 (34:6 Md. R. 630)</annotation>
+    <annotation type="History" dest="container" effective="2010-05-03"><cite path="|31|05|03|.15">Regulation .15</cite> amended as an emergency provision effective January 25, 2010 (37:4 Md. R. 336); amended permanently effective May 3, 2010 (37:9 Md. R. 674)</annotation>
+  </annotations>
+</container>

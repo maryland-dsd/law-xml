@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>08</num>
+  <heading>Payments to Nonparticipating Providers</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Applicability.</heading>
+    <text>This chapter applies to covered services paid by health maintenance organizations to nonparticipating providers for services provided on or after January 1, 2010.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>"Berenson-Eggers Type of Service Code" has the meaning stated in Health-General Article, §19-710.1, Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>"CPT code" means the Current Procedural Terminology Code maintained and distributed by the American Medical Association, including its codes and modifiers, and codes for anesthesia services.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>"Enrollee" has the meaning stated in Health-General Article, §19-710.1, Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>"Evaluation and management services" has the meaning stated in Health-General Article, §19-710.1, Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>"Geographic area" means each geographic area as published by the Centers for Medicare and Medicaid Services.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>"HCPCS" means the Healthcare Common Procedure Coding System, a set of health care procedure codes based on the American Medical Association's Current Procedural Terminology and other services such as ambulance services, prosthetic devices, other supplies, and non-physician services that are not covered by CPT codes but are recognized and maintained by the Centers for Medicare and Medicaid Services.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>"Health maintenance organization" has the meaning stated in Health-General Article, §19-701, Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>"Medicare Economic Index" has the meaning stated in Health-General Article, §19-710.1, Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>"Nonparticipating provider" means a provider other than a hospital or trauma physician who is not included on the provider panel of a health maintenance organization.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>"Participating provider" means a provider other than a hospital or trauma physician who is included on the provider panel of a health maintenance organization.</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>"Provider" means a health care practitioner licensed, certified, or otherwise authorized by law to provide health care services.</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>"Provider panel" has the meaning stated in <cite doc="Md. Code" path="gin|15-112">Insurance Article, §15-112, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>"Reference year" means, for services provided in a particular calendar year, the period beginning with July 1 of the second previous calendar year through June 30 of the previous calendar year.</text>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>"Similarly licensed provider" has the meaning stated in Health-General Article, §19-710.1, Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>"Trauma physician" has the meaning stated in Health-General Article, §19-710.1, Annotated Code of Maryland.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Payment to Nonparticipating Providers.</heading>
+    <para>
+      <num>A.</num>
+      <text>A health maintenance organization shall calculate the amount owed to a nonparticipating provider for covered evaluation and management services provided to an enrollee in accordance with <cite path="|31|12|08|.05">Regulation .05 of this chapter</cite>.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A health maintenance organization shall calculate the amount owed to a nonparticipating provider for covered services other than evaluation and management services provided to an enrollee in accordance with <cite path="|31|12|08|.06">Regulation .06 of this chapter</cite>.</text>
+    </para>
+  </section>
+  <section cache:ref-path="31|12|08|.04">
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Annual Rate Schedule.</heading>
+    <para>
+      <num>A.</num>
+      <text>Each year, beginning with January 1, 2010, each health maintenance organization shall develop an annual rate schedule for each geographic area.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The annual rate schedule required by <cite path="31|12|08|.04|A.">§A of this regulation</cite> shall include a rate for each occurrence of a CPT code or HCPCS code that describes covered services for each type of similarly licensed provider in the same geographic area derived in accordance with the formula specified in <cite path="31|12|08|.04|C.">§C of this regulation</cite>.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The rate in the annual rate schedule for each CPT code or HCPCS code shall be developed as follows:</text>
+      <para>
+        <num>(1)</num>
+        <text>For each type of similarly licensed provider, the rate paid for the CPT code or HCPCS code shall be equal to the total amount allowed for the occurrences of the CPT code or HCPCS code to participating providers who are similarly licensed providers in the same geographic area during the reference year divided by the total number of occurrences paid for the same CPT code or HCPCS code to participating providers who are similarly licensed providers in the same geographic area during the reference year.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>For any new CPT code or HCPCS code, the rate paid for the CPT code or HCPCS code shall be equal to 125 percent of the rate paid to a similarly licensed provider in the same geographic area.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>By not later than December 31 of each year, each health maintenance organization shall provide written certification to the Insurance Commissioner, signed by an individual with the authority to bind the health maintenance organization that the:</text>
+      <para>
+        <num>(1)</num>
+        <text>Annual rating schedule applicable to the year in which the certification is made is, to the best of that individual's knowledge, information, and belief, compliant with this regulation; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Individual making the certification has undertaken an adequate inquiry to make the required certification.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Evaluation and Management Services.</heading>
+    <para>
+      <num>A.</num>
+      <text>If a nonparticipating provider submits a claim to a health maintenance organization for a covered evaluation and management service, the health maintenance organization shall pay the nonparticipating provider, less any applicable copayment, coinsurance or deductible amount, an amount not less than the greater of:</text>
+      <para>
+        <num>(1)</num>
+        <text>125 percent of the fee for the covered evaluation and management service in the annual fee schedule applicable to similarly licensed providers in the same geographic area; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>140 percent of the fee for the covered evaluation and management service paid by Medicare as published by the Centers for Medicare and Medicaid Services as of August 1, 2008, inflated by the four quarter moving average percent change in the Medicare Economic Index from 2008 to the current year.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The Maryland Health Care Commission may publish on its website each year by October 15:</text>
+      <para>
+        <num>(1)</num>
+        <text>A list of covered services that qualify as Berenson-Eggers Type of Service Code evaluation and management services; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The inflation factor applicable for inflating 2008 fees to the current year using four quarter moving average percent change for the previous calendar year second quarter.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Other Covered Services.</heading>
+    <text>If a nonparticipating provider submits a claim to a health maintenance organization for a covered service other than a covered evaluation and management service, the health maintenance organization shall pay the nonparticipating provider, less any applicable copayment, coinsurance or deductible amount, an amount not less than 125 percent of the rate for the covered service in the annual rate schedule applicable to similarly licensed providers in the same geographic area.</text>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Health General Article, §19-710.1, Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container">Effective date:</annotation>
+    <annotation type="History" dest="container" effective="2010-03-08">Regulations <cite path="|31|12|08|.01">.01</cite>—<cite path="|31|12|08|.06">.06</cite> adopted as an emergency provision effective January 1, 2010 (37:4 Md. R. 337); adopted permanently effective March 8, 2010 (37:5 Md. R. 433)</annotation>
+  </annotations>
+</container>

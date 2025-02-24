@@ -1,0 +1,624 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>09</num>
+  <heading>Custody Agreements and the Use of Clearing Corporations</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>Agent.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Agent" means:</text>
+          <para>
+            <num>(i)</num>
+            <text>A qualified bank or qualified broker/dealer that maintains an account in its name in a clearing corporation or that is a member of the Federal Reserve System and through which a custodian participates in a clearing corporation; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>With respect to securities issued by institutions organized or existing under the laws of a foreign country or securities used to meet the deposit requirements pursuant to the laws of a foreign country as a condition of doing business in the foreign country, a corporation that is organized or existing under the laws of a foreign country and that is legally qualified under those laws to accept custody of securities.</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Agent" includes a subcustodian.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>"Carrier" means:</text>
+        <para>
+          <num>(a)</num>
+          <text>A domestic insurer;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A nonprofit health service plan;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A dental plan organization;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>A health maintenance organization; or</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>A managed care organization.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Clearing Corporation.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Clearing corporation" means:</text>
+          <para>
+            <num>(i)</num>
+            <text>A corporation, as defined in <cite doc="Md. Code" path="gcl|8-102">Commercial Law Article, §8-102(a)(5), Annotated Code of Maryland</cite>, that is organized for the purpose of effecting transactions in securities by computerized book-entry; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>With respect to securities issued by institutions organized or existing under the laws of a foreign country or securities used to meet the deposit requirements pursuant to the laws of a foreign country as a condition of doing business in the foreign country, a corporation that is organized or existing under the laws of a foreign country and that is legally qualified under those laws to effect transactions in securities by computerized book-entry.</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Clearing corporation" includes:</text>
+          <para>
+            <num>(i)</num>
+            <text>Treasury Direct; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The Treasury/Reserve Automated Debt Entry System.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>"Custodian" means a qualified bank, qualified broker/dealer, or clearing corporation that:</text>
+        <para>
+          <num>(a)</num>
+          <text>Accepts deposits of securities from carriers; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Safeguards, holds, and reports on the securities under a written custodial agreement with the carrier.</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>"Custodied securities" means securities held:</text>
+        <para>
+          <num>(a)</num>
+          <text>By a custodian or its agent; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>In a clearing corporation.</text>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>"Qualified bank" means:</text>
+        <para>
+          <num>(a)</num>
+          <text>A bank, trust company, or federal home loan bank that:</text>
+          <para>
+            <num>(i)</num>
+            <text>At all times during which it acts as a custodian under this chapter is not less than adequately capitalized as determined by the standards adopted by United States banking regulators;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Is regulated by either state banking laws or is a member of the Federal Reserve System; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Is legally qualified to accept custody of securities in accordance with this chapter; or</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>With respect to securities issued by institutions organized or existing under the laws of a foreign country or securities used to meet the deposit requirements pursuant to the laws of a foreign country as a condition of doing business in the foreign country, a bank or trust company incorporated or organized under the laws of a country other than the United States that:</text>
+          <para>
+            <num>(i)</num>
+            <text>Is regulated as a bank or trust company by that country's government or an agency of that country's government;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>At all times during which it acts as a custodian under this chapter is not less than adequately capitalized as determined by the standards adopted by international banking authorities; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Is legally qualified to accept custody of securities.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>"Qualified broker/dealer" means a securities firm that:</text>
+        <para>
+          <num>(a)</num>
+          <text>Has a tangible net worth of at least $250,000,000 as evidenced by its most recent audited financial statement;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Is registered with and subject to the jurisdiction of the Securities and Exchange Commission; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Maintains at all times Securities Investor Protection Corporation excess insurance coverage equal to or greater than the market value of the carriers' securities maintained with the broker/dealer.</text>
+        </para>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>"Registered form" has the meaning stated in <cite doc="Md. Code" path="gcl|8-102">Commercial Law Article, §8-102(a)(13), Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>Security.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Security" has the meaning stated in <cite doc="Md. Code" path="gcl|8-102">Commercial Law Article, §8-102(a)(15), Annotated Code of Maryland</cite>.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Security" includes:</text>
+          <para>
+            <num>(i)</num>
+            <text>A certificated security as defined by <cite doc="Md. Code" path="gcl|8-102">Commercial Law Article, §8-102(a)(4), Annotated Code of Maryland</cite>; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>An uncertificated security as defined by <cite doc="Md. Code" path="gcl|8-102">Commercial Law Article, §8-102(a)(18), Annotated Code of Maryland</cite>.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>"Treasury Direct" means the book-entry securities system:</text>
+        <para>
+          <num>(a)</num>
+          <text>Established pursuant to 5 U.S.C. §301, 12 U.S.C. §391, and 31 U.S.C. Subtitle III, Chapter 31; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Governed by 31 CFR Part 357, Subpart C.</text>
+        </para>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>"Treasury/Reserve Automated Debt Entry System (TRADES)" means the book-entry securities system:</text>
+        <para>
+          <num>(a)</num>
+          <text>Established pursuant to 5 U.S.C. §301, 12 U.S.C. §391, and 31 U.S.C. Subtitle III, Chapter 31; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Governed by 31 CFR Part 357, Subpart B.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="31|04|09|.02">
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Custody Agreement; Filing with Commissioner.</heading>
+    <para>
+      <num>A.</num>
+      <text>Custody Agreement.</text>
+      <para>
+        <num>(1)</num>
+        <text>A carrier may not register securities in the name of a nominee or deposit securities with a custodian unless the carrier provides for the custody of the securities by entering into a written agreement with the custodian that:</text>
+        <para>
+          <num>(a)</num>
+          <text>Is filed with the Commissioner pursuant to <cite path="31|04|09|.02|B.">§B of this regulation</cite>; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Complies with <cite path="|31|04|09|.03">Regulation .03 of this chapter</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The agreement shall be:</text>
+        <para>
+          <num>(a)</num>
+          <text>In writing; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Authorized by a resolution of the board of directors of the carrier or of an authorized committee of the board.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The securities may be held:</text>
+        <para>
+          <num>(a)</num>
+          <text>By the custodian or its agent; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>In a clearing corporation.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Filing Agreement with the Commissioner.</text>
+      <para>
+        <num>(1)</num>
+        <text>A carrier that enters into a written agreement with a custodian shall file the agreement with the Commissioner within 30 days after the execution of the agreement.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If the Commissioner determines that a written agreement filed after execution does not comply with the requirements in <cite path="|31|04|09|.03">Regulation .03 of this chapter</cite>, the carrier shall cure the noncompliance within:</text>
+        <para>
+          <num>(a)</num>
+          <text>60 days after notification by the Commissioner; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>An extended cure period authorized by the Commissioner.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If the written agreement is not cured within the time allowed by the Commissioner, the Commissioner may:</text>
+        <para>
+          <num>(a)</num>
+          <text>Take any action authorized by <cite doc="Md. Code" path="gin|4-113">Insurance Article, §4-113, Annotated Code of Maryland</cite>; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Require the carrier to report the securities held by the custodian in accordance with the terms of the noncompliant custody agreement as "Assets—Not Admitted".</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="31|04|09|.03">
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Terms of Custody Agreement.</heading>
+    <para>
+      <num>A.</num>
+      <text>The terms of a custody agreement shall comply with the requirements of this regulation.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Certificated securities held by the custodian shall be held separate from the securities of the custodian and of all of its other customers.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Identification of Securities on Custodian's Records.</text>
+      <para>
+        <num>(1)</num>
+        <text>Securities held indirectly by the custodian and securities in a clearing corporation shall be separately identified on the custodian's official records as being owned by the carrier.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The records shall identify which custodied securities are held by the custodian or its agent and which securities are in a clearing corporation or in the Federal Reserve book-entry system.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If the securities are in a clearing corporation, the records also shall identify:</text>
+        <para>
+          <num>(a)</num>
+          <text>Where the securities are;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>If in a clearing corporation, the name of the clearing corporation; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>If through an agent, the name of the agent.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>All custodied securities that are in registered form shall be registered:</text>
+      <para>
+        <num>(1)</num>
+        <text>In the name of the carrier or in the name of a nominee of the carrier;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>In the name of the custodian or a nominee of the custodian; or</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If in a clearing corporation, in the name of the clearing corporation or a nominee of the clearing corporation.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Withdrawal of Securities.</text>
+      <para>
+        <num>(1)</num>
+        <text>Except as provided in <cite path="31|04|09|.03|E.|(2)">§E(2) of this regulation</cite>, custodied securities shall be:</text>
+        <para>
+          <num>(a)</num>
+          <text>Held subject to the instructions of the carrier; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Withdrawable on demand of the carrier.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Custodied securities used to meet the deposit requirements set forth in <cite doc="Md. Code" path="gin|4-106">Insurance Article, §4-106, Annotated Code of Maryland</cite>, shall be under the control of the Commissioner and may not be withdrawn by the carrier without the approval of the Commissioner.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>The custodian shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Send or cause to be sent to the carrier a confirmation of all transfers of custodied securities to or from the account of the carrier; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Furnish, not less than monthly, the carrier with reports of holdings of custodied securities at times and containing information reasonably requested by the carrier.</text>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Provision of Information to the Commissioner.</text>
+      <para>
+        <num>(1)</num>
+        <text>The custodian shall be authorized and instructed by the carrier to honor any requests made by the Commissioner for information concerning the carrier's custodied securities.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Commissioner may, from time to time, request, and the custodian shall furnish, a detailed listing of the carrier's custodied securities.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The custodian also shall provide an affidavit certifying the custodian's safekeeping responsibilities relative to the custodied securities.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The custodian's response to a request for information from the Commissioner shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Be made directly to the Commissioner; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Encompass all of the carrier's custodied securities.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>The custodian and its agents shall send to the carrier:</text>
+      <para>
+        <num>(1)</num>
+        <text>All reports that they receive from a clearing corporation on their respective systems of internal accounting control; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Reports prepared by outside auditors on the custodian's or its agent's internal accounting control of custodied securities that the carrier reasonably may request.</text>
+      </para>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>The custodian shall maintain:</text>
+      <para>
+        <num>(1)</num>
+        <text>Records sufficient to demonstrate and verify information relating to custodied securities that may be reported in the carrier's annual statement; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Supporting schedules and information required in an audit of the financial statements of the carrier.</text>
+      </para>
+    </para>
+    <para>
+      <num>J.</num>
+      <text>On written request from an appropriate officer of the carrier, the custodian shall provide the appropriate affidavits, substantially in a form designated by the Commissioner, with respect to custodied securities.</text>
+    </para>
+    <para>
+      <num>K.</num>
+      <text>The custodian shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Secure and maintain insurance protection at levels considered reasonable and customary for the custodian industry covering the custodian's duties and activities as custodian for the carrier's assets;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Describe the nature and extent of the insurance protection; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Promptly disclose to the carrier any change in the insurance protection during the term of the custodial agreement.</text>
+      </para>
+    </para>
+    <para>
+      <num>L.</num>
+      <text>The custodian shall indemnify the carrier for any loss of custodied securities caused by the negligence or dishonesty of the custodian.</text>
+    </para>
+    <para>
+      <num>M.</num>
+      <text>If there is a loss of custodied securities for which the custodian is obligated to indemnify the carrier under <cite path="31|04|09|.03|L.">§L of this regulation</cite>, the custodian promptly shall replace:</text>
+      <para>
+        <num>(1)</num>
+        <text>The securities or the value of the securities; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The value of any loss of rights or privileges resulting from the loss of securities.</text>
+      </para>
+    </para>
+    <para>
+      <num>N.</num>
+      <text>The agreement may provide that the custodian is not liable for failure to take an action required under the agreement in the event and to the extent that the taking of the action is prevented or delayed by:</text>
+      <para>
+        <num>(1)</num>
+        <text>War (whether declared or not and including existing wars), revolution, insurrection, riot, or civil commotion;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Act of God, accident, fire, or explosion;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Stoppage of labor, strikes, or other differences with employees;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Laws, regulations, orders, or other acts of any governmental authority; or</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Any other cause beyond the custodian's reasonable control.</text>
+      </para>
+    </para>
+    <para>
+      <num>O.</num>
+      <text>Agreement between Custodian and Agent.</text>
+      <para>
+        <num>(1)</num>
+        <text>Except as provided in <cite path="31|04|09|.03|O.|(2)">§O(2) of this regulation</cite>, if the custodian gains entry in a clearing corporation through an agent, there shall be an agreement between the custodian and the agent under which the agent is subject to the same liability for loss of custodied securities as the custodian.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If the agent is subject to regulation under the laws of a different jurisdiction than the custodian, the Commissioner may accept a standard of liability applicable to the agent that is different from the standard of liability applicable to the custodian.</text>
+      </para>
+    </para>
+    <para>
+      <num>P.</num>
+      <text>Notice of Termination or Withdrawal.</text>
+      <para>
+        <num>(1)</num>
+        <text>The custodian shall provide written notification to the Commissioner if:</text>
+        <para>
+          <num>(a)</num>
+          <text>The custodial agreement with the carrier has been terminated; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>100 percent of the account assets in any one custody account have been withdrawn.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The notification shall be given to the Commissioner within 3 business days after:</text>
+        <para>
+          <num>(a)</num>
+          <text>The receipt by the custodian of the carrier's written notice of termination; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The withdrawal of 100 percent of the account assets.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>Q.</num>
+      <text>The agreement shall provide that the use of an agent by a custodian does not alter the custodian's obligations under the agreement and that the terms of the agreement may not be modified by the terms of any agreement between the custodian and the agent.</text>
+    </para>
+  </section>
+  <section cache:ref-path="31|04|09|.04">
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Existing Agreements.</heading>
+    <para>
+      <num>A.</num>
+      <text>Compliance and Certification Required. For an existing custody agreement entered into before the effective date of this chapter, a carrier shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Bring the existing custody agreement into compliance with the requirements of <cite path="|31|04|09|.03">Regulation .03 of this chapter</cite> by the earlier of:</text>
+        <para>
+          <num>(a)</num>
+          <text>The renewal date of the custody agreement; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>12 months after the effective date of this chapter; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Certify to the Commissioner that the existing custody agreement has been brought into compliance with the requirements of <cite path="|31|04|09|.03">Regulation .03 of this chapter</cite> by the earlier of:</text>
+        <para>
+          <num>(a)</num>
+          <text>30 days after the renewal date of the custody agreement; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>12 months after the effective date of this chapter.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Form of Certification. The certification required by <cite path="31|04|09|.04|A.">§A of this regulation</cite> shall be:</text>
+      <para>
+        <num>(1)</num>
+        <text>Signed by an officer of the carrier; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>In the following form:</text>
+        <text>"I hereby certify that the custody agreement between     <u>(name of carrier)</u>     and    <u>(name of custodian</u>)     has been brought into compliance with the requirements of <cite path="|31.04.09">COMAR 31.04.09</cite>. I understand that the Maryland Insurance Administration may verify the accuracy of this certification during a future financial examination.</text>
+      </para>
+      <aftertext>Name _________________________</aftertext>
+      <aftertext>Title   _________________________</aftertext>
+      <aftertext>" Date _________________________</aftertext>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Failure to Comply.</text>
+      <para>
+        <num>(1)</num>
+        <text>If the Commissioner determines that an existing custody agreement has not been brought into compliance with the requirements of <cite path="|31|04|09|.03">Regulation .03 of this chapter</cite> within 12 months after the effective date of this chapter, the carrier shall cure the noncompliance within:</text>
+        <para>
+          <num>(a)</num>
+          <text>60 days after notification by the Commissioner; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>An extended cure period authorized by the Commissioner.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If the custody agreement is not cured within the time allowed by the Commissioner, the Commissioner may:</text>
+        <para>
+          <num>(a)</num>
+          <text>Take any action authorized by <cite doc="Md. Code" path="gin|4-113">Insurance Article, §4-113, Annotated Code of Maryland</cite>; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Require the carrier to report the securities held by the custodian in accordance with the terms of the noncompliant custody agreement as "Assets—Not Admitted".</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Insurance Article, §§<cite doc="Md. Code" path="gin|2-109">2-109</cite> and <cite doc="Md. Code" path="gin|4-115">4-115</cite>; Health-General Article, §§15-102.3 and 19-728; Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="1968-05-01">Effective date: May 1, 1968</annotation>
+    <annotation type="History" dest="container" effective="1978-05-15">Amended effective May 15, 1978</annotation>
+    <annotation type="History" dest="container" effective="1995-11-06"><cite path="|31|04|09|.01">Regulation .01</cite> amended effective November 6, 1995 (22:22 Md. R. 1657)</annotation>
+    <annotation type="History" dest="container" effective="1997-09-22" discontinuity="true">Regulations .01 and .02 repealed and new Regulations <cite path="|31|04|09|.01">.01</cite>—<cite path="|31|04|09|.03">.03</cite> adopted effective September 22, 1997 (24:19 Md. R. 1339)</annotation>
+    <annotation type="History" dest="container" effective="1998-09-07" discontinuity="true">Chapter recodified from <cite path="|09.30.16">COMAR 09.30.16</cite> to <cite path="|31.04.09">COMAR 31.04.09</cite> effective September 7, 1998 (25:18 Md. R. 1439)</annotation>
+    <annotation type="History" dest="container" effective="2004-04-26" discontinuity="true">Regulations <cite path="|31|04|09|.01">.01</cite>—<cite path="|31|04|09|.03">.03</cite>, Registration of Securities in the Names of Nominees and the Deposit of Securities in Depository Trust Company, repealed and Regulations <cite path="|31|04|09|.01">.01</cite>—<cite path="|31|04|09|.04">.04</cite>, Custody Agreements and the Use of Clearing Corporations and Federal Reserve Book-Entry System, adopted effective April 26, 2004 (31:8 Md. R. 648)</annotation>
+    <annotation type="History" dest="container" effective="2004-11-08"><cite path="|31|04|09|.02|A.">Regulation .02A</cite> amended as an emergency provision effective August 11, 2004 (31:18 Md. R. 1349); amended permanently effective November 8, 2004 (31:22 Md. R. 1598)</annotation>
+  </annotations>
+</container>

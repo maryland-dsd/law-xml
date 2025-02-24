@@ -1,0 +1,896 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>02</num>
+  <heading>Open Parole Release Hearings</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Scope.</heading>
+    <para>
+      <num>A.</num>
+      <text>These regulations only apply to parole release hearings for parole-eligible inmates when the:</text>
+      <para>
+        <num>(1)</num>
+        <text>Inmate is incarcerated for a violent crime as defined by <cite doc="Md. Code" path="gcs|7-101">Correctional Services Article, §7-101, Annotated Code of Maryland</cite>;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Victim of the violent crime makes a written request to the Parole Commission for notification of parole hearings, in accordance with <cite doc="Md. Code" path="gcs|7-801">Correctional Services Article, §7-801, Annotated Code of Maryland</cite>; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Victim makes a written request that the parole hearing be open to the public.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Predetermined parole release under <cite path="12.08.01.20">COMAR 12.08.01.20</cite>, including Mutual Agreement Program parole releases from the Herman L. Toulson Correctional Boot Camp, are not subject to the public hearing process established by this chapter.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>All other regulations pertaining to the conduct of parole release hearings under this subtitle apply to open parole release hearings.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>"Chairman" means the Chairman of the Maryland Parole Commission or a designee.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>"Commission" means the Maryland Parole Commission.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>"Commissioner" means the Commissioner of Correction or a designee.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>"Designated family member" means a relative of a deceased victim who has been designated by the other relatives of the victim to act on their behalf with regard to notification of parole release hearings and requests for an open parole release hearing.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>"General public" means a party 18 years old or older interested in an open parole release hearing who is not the victim or the victim's companion.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>"Hearing official" means a panel of two or more Parole Commission members, an individual Parole Commission member, or a Parole Commission hearing examiner.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>"Open parole release hearing date" means the date on which a parole-eligible inmate who is incarcerated for a violent crime will receive a parole release hearing that is open to the general public.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>"Regional open hearing center" means a Division of Correction institution, designated by the Commissioner of Correction, where open parole release hearings will be conducted.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>"Tentative parole release hearing date" means the date on which a parole-eligible inmate who is incarcerated for a violent crime is likely to receive either an initial parole release hearing, or a parole release rehearing under Correctional Services Article, §§<cite doc="Md. Code" path="gcs|7-301">7-301</cite> and <cite doc="Md. Code" path="gcs|7-302">7-302</cite>, Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>"Victim" means:</text>
+        <para>
+          <num>(a)</num>
+          <text>An individual who suffers personal harm or death as a direct result of a crime;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>If the victim is deceased, a designated family member of the victim; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>If the victim is less than 18 years old, the parent or legal guardian of the individual who suffers personal harm or death as a direct result of a crime.</text>
+        </para>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>"Victim's companion" means a person 18 years old or older who has been selected by the victim to accompany the victim to an open parole release hearing.</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>Violent Crime.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Violent crime" means, for offenses committed before October 1, 1994, the commission of, or attempt to commit, any of the following offenses:</text>
+          <para>
+            <num>(i)</num>
+            <text>Abduction;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Arson in the first degree;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Burglary, including any common law or statutory form;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Carjacking or armed carjacking;</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>Child abuse;</text>
+          </para>
+          <para>
+            <num>(vi)</num>
+            <text>Escape;</text>
+          </para>
+          <para>
+            <num>(vii)</num>
+            <text>Housebreaking;</text>
+          </para>
+          <para>
+            <num>(viii)</num>
+            <text>Kidnapping;</text>
+          </para>
+          <para>
+            <num>(ix)</num>
+            <text>Manslaughter other than involuntary manslaughter;</text>
+          </para>
+          <para>
+            <num>(x)</num>
+            <text>Mayhem;</text>
+          </para>
+          <para>
+            <num>(xi)</num>
+            <text>Murder;</text>
+          </para>
+          <para>
+            <num>(xii)</num>
+            <text>Rape;</text>
+          </para>
+          <para>
+            <num>(xiii)</num>
+            <text>Robbery, including robbery with a deadly weapon;</text>
+          </para>
+          <para>
+            <num>(xiv)</num>
+            <text>Assault with intent to commit any of these crimes; or</text>
+          </para>
+          <para>
+            <num>(xv)</num>
+            <text>Use of a handgun or other deadly weapon in the commission of, or attempt to commit, any crime.</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Violent crime" means, for offenses committed on or after October 1, 1994, the commission of any of the following offenses:</text>
+          <para>
+            <num>(i)</num>
+            <text>Abduction;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Arson in the first degree;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Assault with intent to murder;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Assault with intent to rape;</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>Assault with intent to rob;</text>
+          </para>
+          <para>
+            <num>(vi)</num>
+            <text>Assault with intent to commit a sexual offense in the first degree;</text>
+          </para>
+          <para>
+            <num>(vii)</num>
+            <text>Assault with intent to commit a sexual offense in the second degree;</text>
+          </para>
+          <para>
+            <num>(viii)</num>
+            <text>Burglary in the first, second, or third degree;</text>
+          </para>
+          <para>
+            <num>(ix)</num>
+            <text>Carjacking or armed carjacking;</text>
+          </para>
+          <para>
+            <num>(x)</num>
+            <text>Child abuse;</text>
+          </para>
+          <para>
+            <num>(xi)</num>
+            <text>Kidnapping;</text>
+          </para>
+          <para>
+            <num>(xii)</num>
+            <text>Manslaughter, except involuntary manslaughter;</text>
+          </para>
+          <para>
+            <num>(xiii)</num>
+            <text>Mayhem and maiming under Article 27, §§384, 385, and 386, Annotated Code of Maryland;</text>
+          </para>
+          <para>
+            <num>(xiv)</num>
+            <text>Murder;</text>
+          </para>
+          <para>
+            <num>(xv)</num>
+            <text>Rape;</text>
+          </para>
+          <para>
+            <num>(xvi)</num>
+            <text>Robbery;</text>
+          </para>
+          <para>
+            <num>(xvii)</num>
+            <text>Robbery with a deadly weapon;</text>
+          </para>
+          <para>
+            <num>(xviii)</num>
+            <text>Sexual offense in the first degree;</text>
+          </para>
+          <para>
+            <num>(xix)</num>
+            <text>Sexual offense in the second degree;</text>
+          </para>
+          <para>
+            <num>(xx)</num>
+            <text>Use of a handgun in the commission of a felony or other crime of violence; or</text>
+          </para>
+          <para>
+            <num>(xxi)</num>
+            <text>An attempt to commit any of the aforesaid offenses.</text>
+          </para>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Requesting an Open Parole Release Hearing.</heading>
+    <para>
+      <num>A.</num>
+      <text>Inmates under the Jurisdiction of the Division of Correction.</text>
+      <para>
+        <num>(1)</num>
+        <text>An inmate serving a term of confinement that includes a parole-eligible violent offense or offenses shall be scheduled for a tentative parole release hearing date.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A victim who requests notification of the scheduling of a parole release hearing under <cite doc="Md. Code" path="gcs|7-801">Correctional Services Article, §7-801, Annotated Code of Maryland</cite>, or a victim of child abuse who otherwise requests notification of the scheduling of a parole release hearing, shall be given written notification of the tentative parole release hearing date by the Commission.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The notification shall be sent at least 120 days before the tentative parole release hearing date to the victim's most current address filed with the Commission.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The notification shall state the date of the tentative parole release hearing for an inmate convicted of the commission of a violent crime.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>A victim, after the Commission's written notification of the scheduling of a tentative parole release hearing date, may submit to the Commission, in writing, at least 90 days before the tentative parole release hearing date, a request that the parole release hearing be open to the general public under <cite doc="Md. Code" path="gcs|7-304">Correctional Services Article, §7-304, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>A victim may submit to the Commission the written request for the open parole release hearing at the same time as the written request for notification, if both written requests are submitted to the Commission at least 90 days before the tentative parole release hearing date.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Unless a written request for an open parole release hearing is submitted to the Commission 90 days before the tentative parole release hearing date, the hearing shall be closed to the general public.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>It shall be within the discretion of the Chairman to grant or deny a request for an open hearing that is submitted to the Commission less than 90 days before the tentative parole release hearing date.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>Once an open hearing is held, a new request for an open parole release hearing is required for any subsequent hearing.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>Upon receipt of a victim's written request for an open parole release hearing within the time limits required by this regulation, the Commission shall designate the parole release hearing as a public hearing under <cite doc="Md. Code" path="gcs|7-304">Correctional Services Article, §7-304, Annotated Code of Maryland</cite>, unless:</text>
+        <para>
+          <num>(a)</num>
+          <text>A chief law enforcement officer responsible for an ongoing criminal investigation related to the inmate submits:</text>
+          <para>
+            <num>(i)</num>
+            <text>A written request to the Chairman for a closed parole release hearing,</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>An explanation regarding how the ongoing investigation could be compromised if the hearing were open to the general public, and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>The request at least 30 days before the tentative parole release hearing date; and</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The Chairman grants the request for a closed hearing.</text>
+        </para>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>If the chief law enforcement official's request for a closed hearing is granted, the victim and any other preapproved attendee shall be notified in writing as soon as practicable that the hearing will be closed to the general public.</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>If written notification is not practicable, notification by telephone or other means may be used.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Inmates under the Jurisdiction of a Local Jail or Detention Center.</text>
+      <para>
+        <num>(1)</num>
+        <text>A victim shall apply under <cite doc="Md. Code" path="gcs|7-801">Correctional Services Article, §7-801, Annotated Code of Maryland</cite>, for notification that a tentative parole release hearing has been scheduled for the inmate convicted of the commission of the violent crime.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A victim shall request, as set forth in <cite path="|12|08|02|.03|A.">Regulation .03A of this chapter</cite>, that the parole release hearing be open to the general public.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="12|08|02|.04">
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Scheduling an Open Parole Release Hearing.</heading>
+    <para>
+      <num>A.</num>
+      <text>Inmates under the Jurisdiction of the Division of Correction.</text>
+      <para>
+        <num>(1)</num>
+        <text>Hearing Sites.</text>
+        <para>
+          <num>(a)</num>
+          <text>An open parole release hearing shall be held at a regional open hearing center designated by the Commissioner.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The regional open hearing centers will serve the Division of Correction facilities and institutional complexes located in the various geographical regions of the State.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>There may be more than one regional open hearing center in a geographical region if institutional security requires the establishment of separate open hearing centers within a geographical region.</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>The following geographical regions will be sites of a regional open hearing center or centers:</text>
+          <para>
+            <num>(i)</num>
+            <text>Baltimore, Maryland;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Cresaptown, Maryland;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Hagerstown, Maryland;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Jessup, Maryland; and</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>Westover, Maryland.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Notification.</text>
+        <para>
+          <num>(a)</num>
+          <text>After the Commission designates a parole release hearing as open to the general public, the tentative parole release hearing date shall be replaced by the open parole release hearing date.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The open parole release hearing date may be up to 90 days later than the tentative parole release hearing date in order to hold the open parole release hearing at a regional open hearing center.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>At least 90 days before the open parole release hearing date, the Commission shall inform the victim in writing of the date, time, and place of the open parole release hearing.</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>At least 60 days before the open parole release hearing date, the Commission shall inform the Commissioner in writing of the date, time, and place of the open parole release hearing.</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Once notified of the date, time, and place of the open parole release hearing, the Division of Correction may not transfer the inmate from the jurisdiction of the regional center serving the facility where the inmate is housed until after the hearing is held, unless the transfer is necessary for institutional security or rehabilitative programming.</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>If, because of institutional security or rehabilitative programming, it is necessary to transfer an inmate to a facility served by a different regional open hearing center, the inmate shall be returned to the original regional open hearing center for the open parole release hearing.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Location. An open parole release hearing shall be held only at a regional open hearing center designated in <cite path="12|08|02|.04|A.|(1)">§A(1) of this regulation</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Inmates under the Jurisdiction of a Local Jail or Detention Center.</text>
+      <para>
+        <num>(1)</num>
+        <text>Hearing Sites. An open parole release hearing shall be held at the local jail or detention center where the inmate convicted of the violent crime is committed.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Notification.</text>
+        <para>
+          <num>(a)</num>
+          <text>After the Commission designates a parole release hearing as open to the general public, the tentative parole release hearing date shall be replaced by the open parole release hearing date.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The open parole release hearing date may be up to 90 days later than the tentative parole release hearing date in order to accommodate the scheduling of an open parole release hearing at a local jail or detention center.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>At least 90 days before the open parole release hearing date, the Chairman shall inform the victim in writing of the date, time, and place of the open parole release hearing.</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>At least 60 days before the open parole release hearing date, the Chairman shall inform the warden or superintendent of the local jail or detention center in writing of the date, time, and place of the open parole release hearing.</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Once notified of the date, time, and place of the open parole release hearing, the local jail or detention center may not transfer the inmate to a different facility until after the hearing is held, unless the transfer is necessary for institutional security or rehabilitative programming.</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>If, because of institutional security or rehabilitative programming, it is necessary to transfer an inmate to a different facility, the inmate shall be returned to the original local jail or detention center for the open parole release hearing.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Location. An open parole release hearing shall be held only at the local jail or detention center where the violent offender is committed.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Attendance at an Open Parole Release Hearing.</heading>
+    <para>
+      <num>A.</num>
+      <text>Victim Attendance.</text>
+      <para>
+        <num>(1)</num>
+        <text>The victim and the victim's companion have the right to attend an open parole release hearing and shall be admitted before a member of the general public.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A victim shall provide the name, date of birth, address, and telephone number of the victim's companion when the written request for the open parole release hearing is made to the Commission.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A victim under 18 years old has the right to attend an open parole release hearing, but shall be accompanied by a parent, legal guardian, or other person 18 years old or older who is considered to be the victim's companion under this regulation.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The Commissioner, or the warden or superintendent of a local jail or detention center, shall be informed in writing of the name of the victim and the victim's companion at least 15 days before the open parole release hearing date.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Attendance by the General Public.</text>
+      <para>
+        <num>(1)</num>
+        <text>A member of the general public shall make written application to the Commission in accordance with <cite path="|12|08|02|.06">Regulation .06 of this chapter</cite> to attend an open parole release hearing.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Applications shall be considered in the order that they are received, subject to available seating at the designated regional open hearing center, local jail, or detention center.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The Chairman may consider the applications in some other order if the interest of the victim or the general public requires discretion.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>A member of the general public shall be at least 18 years old in order to attend an open parole release hearing.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Limitations on Attendance at Open Parole Release Hearings.</text>
+      <para>
+        <num>(1)</num>
+        <text>The Chairman, after consultation with the Commissioner, shall establish the number of individuals who may attend an open parole release hearing at each regional open hearing center, in accordance with the physical limitations and security requirements of the center.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Chairman, after consultation with the warden or superintendent of a local jail or detention center, shall establish the number of individuals who may attend an open parole release hearing at each local jail or detention center, in accordance with the physical limitations and security requirements of the facility.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Application by the General Public to Attend an Open Parole Release Hearing.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Commission shall have published in the Maryland Register a notice of the date, time, and location of open parole release hearings.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A member of the general public interested in attending an open parole release hearing shall apply to the Commission in writing at least 60 days before the open parole release hearing date. The written application to attend shall include:</text>
+      <para>
+        <num>(1)</num>
+        <text>The inmate's full name, place of confinement, and institutional identification number; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The interested person's full name, date of birth, address, telephone number, relationship to the victim, if any, or relationship to the inmate, if any.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A member of the general public approved to attend an open parole release hearing shall be informed by the Chairman in writing at least 30 days before the open parole release hearing date.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The Chairman may disapprove an application to attend an open parole release hearing for any of the following reasons:</text>
+      <para>
+        <num>(1)</num>
+        <text>Insufficient space at the designated regional open hearing center, local jail, or detention center;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The applicant's attendance may threaten or present a danger to the security of the institution;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The applicant's attendance may threaten or present a danger to other attendees or participants; or</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The applicant's attendance may disrupt the hearing.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>A member of the general public who is not approved to attend an open parole release hearing shall be notified by the Chairman in writing. If written notification is not practicable, notification by telephone or other means may be used.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>The Commissioner, or the warden or superintendent of a local jail or detention center, shall be informed in writing of the name and date of birth of all approved attendees at least 15 days before the open parole release hearing date.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Admission to an Open Parole Release Hearing.</heading>
+    <para>
+      <num>A.</num>
+      <text>On the date of the open parole release hearing, the victim, the victim's companion, and preapproved members of the general public shall arrive at the designated regional open hearing center, or local jail or detention center, sufficiently in advance of the time set for the open parole release hearing to complete the required security procedures.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The victim, the victim's companion, and preapproved members of the general public shall conduct themselves in an orderly and responsible manner while entering the open parole release hearing area, observing the hearing, and leaving the hearing area.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>An attendee shall comply with the normal procedures of the institution with respect to the admission of visitors, including, but not limited to:</text>
+      <para>
+        <num>(1)</num>
+        <text>Submitting proper identification;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Wearing proper attire;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Consenting to be searched; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Complying with restrictions on the possession of contraband or other inappropriate items.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Failure to comply with all established procedures for visitors shall result in the denial of admission to the institution and the open parole release hearing by a representative of either the Commission, the Division of Correction, or the local jail or detention center.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>After admission to the institution, all attendees shall remain in the waiting area designated by the institution until the inmate's case is called by the hearing official.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>While in the institution proper or on any adjoining property, walkway, street, or parking lot an attendee shall act in an orderly and responsible manner that does not threaten the security of the institution.</text>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Failure to act in an orderly and responsible manner, or failure to follow the reasonable instructions of institutional staff shall result in the denial of admission to the open parole release hearing by a representative of either the Commission, the Division of Correction, or the local jail or detention center.</text>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>Only the victim, the victim's companion, and preapproved members of the general public shall be admitted to the open parole release hearing.</text>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>A victim, victim's companion, or preapproved member of the general public may not send a substitute to the open parole release hearing unless the substitution is approved by the Chairman.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Notification to Inmate.</heading>
+    <para>
+      <num>A.</num>
+      <text>A parole-eligible inmate who is incarcerated for a violent crime may be subject to an open parole release hearing if the victim of the crime for which the inmate is being heard for parole complies with <cite path="|12|08|02|.03">Regulation .03 of this chapter</cite>.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Upon the Commission's determination that the inmate's parole release hearing will be open to the general public, the inmate shall be notified of the open parole release hearing in writing at least 60 days before the open parole release hearing date.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>An inmate's request for the postponement of the open parole release hearing shall be for good cause and be submitted in writing to the Commission at least 30 days before the open parole release hearing date unless the need for the postponement could not be anticipated in a timely manner.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>An inmate may not request a postponement of the open parole release hearing for the sole reason that the parole release hearing is open to the general public.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>If the inmate's request for a postponement is granted, it shall be for an indefinite period of time and a new date for the open parole release hearing shall be set only when the inmate submits a written request for a parole release hearing to the Commission.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>When a postponement of the open parole release hearing is granted in advance of the hearing, the Chairman shall notify the Division of Correction, the local jail or detention center, the victim, the victim's companion, and preapproved members of the general public that the open parole release hearing has been postponed. When possible, the notification of the postponement shall be made in writing and at least 15 days before the open parole release hearing date.</text>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>When a new parole release hearing date is set, the hearing shall be open to the victim, the victim's companion, and members of the general public who were previously approved to attend the parole release hearing.</text>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>Once the postponed open parole release hearing is rescheduled by the Commission, written notification shall be provided to the Division of Correction, local jail or detention center, the victim, the victim's companion, preapproved members of the general public, and the inmate in accordance with Regulations .04, .06, and .08 of this chapter.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Postponement of an Open Parole Release Hearing by the Commission.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Commission may postpone, suspend, or cancel an open parole release hearing because of unforeseen or emergency circumstances, including, but not limited to:</text>
+      <para>
+        <num>(1)</num>
+        <text>Sudden illness of the hearing official;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Impassable roads;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Mechanical failure of vehicles; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Riot or other disturbance within the institution.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The victim, the victim's companion, preapproved members of the general public, the Division of Correction, the local jail or detention center, and the inmate shall be informed as soon as practicable that the open parole release hearing has been postponed, suspended, or cancelled.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>An open hearing that is postponed, suspended, or cancelled under this regulation shall be rescheduled as soon as practicable as an open parole release hearing.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>If possible, written notification of the rescheduled hearing date, time, and place shall be provided to the victim, the victim's companion, preapproved members of the general public, the Division of Correction, the local jail or detention center, and the inmate. If the written notification is not possible, notification by telephone or other means may be used.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.10</num>
+    <heading>Conduct of the Open Parole Release Hearing.</heading>
+    <para>
+      <num>A.</num>
+      <text>An open parole release hearing session shall commence promptly at 9:30 a.m. unless another time has been set.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Conduct When Cases Are Called.</text>
+      <para>
+        <num>(1)</num>
+        <text>Cases shall be called in the order docketed by the Commission, subject to the availability of the inmate and the security requirements of the institution, but the order may be changed at any time by the Commission.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>When the case is called, the victim, the victim's companion, and preapproved members of the general public shall be ready and shall immediately present themselves to institutional staff for an escort to the hearing area.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A victim, victim's companion, or preapproved member of the general public who fails to respond when the inmate's case is called may not be admitted to the hearing.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Observing an Open Parole Release Hearing.</text>
+      <para>
+        <num>(1)</num>
+        <text>The victim and other attendees may observe the open parole release hearing, but may not provide oral or written testimony at the open parole release hearing.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Under <cite doc="Md. Code" path="gcs|7-801">Correctional Services Article, §7-801, Annotated Code of Maryland</cite>, the victim, at least 30 days before the open parole release hearing, may:</text>
+        <para>
+          <num>(a)</num>
+          <text>Make a written recommendation to the Commission on the advisability of releasing the inmate on parole; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Request that an inmate be prohibited from having any contact with the victim as a condition of parole.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A written recommendation on the advisability of parole, a request for a special condition of parole prohibiting contact by the inmate, or an updated victim impact statement prepared in conformity with <cite doc="Md. Code" path="gcs|7-801">Correctional Services Article, §7-801, Annotated Code of Maryland</cite>, shall be considered at the parole release hearing by a hearing official.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The victim may request a meeting with a Commission member at the Commission's Executive Offices.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>An attendee of an open parole release hearing may not:</text>
+      <para>
+        <num>(1)</num>
+        <text>Film or videotape the hearing;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Record the oral testimony by electronic recording devices or stenographic means; or</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Take still photographs.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>The victim and other attendees may observe the entire open parole release hearing unless a hearing official, by formal action, closes the hearing for any of the following reasons:</text>
+      <para>
+        <num>(1)</num>
+        <text>To receive oral testimony that, if disclosed to the general public, would violate the doctor/patient privilege; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>To deliberate upon oral testimony and other relevant information received at the parole release hearing.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>A hearing official may deny admission or continued attendance at an open parole release hearing to a victim or any other attendee who by word, action, or gesture:</text>
+      <para>
+        <num>(1)</num>
+        <text>Threatens or presents a danger to the security of the institution where the parole release hearing is being held;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Threatens or presents a danger to other attendees or participants; or</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Disrupts the parole release hearing.</text>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Conclusion of Oral Testimony.</text>
+      <para>
+        <num>(1)</num>
+        <text>At the conclusion of oral testimony and deliberation, the hearing official conducting the hearing shall announce to the inmate, the victim, and other attendees the outcome of the hearing.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If the open parole release hearing is conducted by a panel of Commission members, the vote of each member shall be announced.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If the parole release hearing is conducted by a hearing examiner or a Commission member acting as a hearing examiner, the hearing examiner's recommendation to the Commission shall be announced.</text>
+      </para>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>A decision by a panel of Commission members, or recommendation by a hearing examiner to defer a final formal action in the inmate's case pending the receipt of additional information considered necessary by a hearing official, shall be announced.</text>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>A decision by a panel of Commission members to defer a final formal action in the inmate's case to permit consideration by the Commission en banc shall be announced.</text>
+    </para>
+  </section>
+  <section cache:ref-path="12|08|02|.11">
+    <prefix>Regulation</prefix>
+    <num>.11</num>
+    <heading>Notification of an Open Parole Release Hearing Decision.</heading>
+    <para>
+      <num>A.</num>
+      <text>The vote of each member of the Commission on a formal action pertaining to an open parole release hearing, including an action to close or restrict access to the hearing, shall be made available to the general public if:</text>
+      <para>
+        <num>(1)</num>
+        <text>An interested person submits to the Commission the request in writing; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The written request contains the inmate's name, place of confinement, institutional identification number, and the date of the open parole release hearing.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A request for a decision that meets the requirements of <cite path="12|08|02|.11|A.">§A of this regulation</cite> shall be answered by the Commission, when possible, in writing within 15 days from receipt of the request.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>When a final formal action is deferred pending the receipt of additional information, or is deferred by a hearing official to permit consideration of the case by the Commission meeting en banc, the request for the parole decision shall be answered by the Commission, when possible, in writing within 15 days of the date that the final formal action is taken.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Decision of Hearing Examiner.</text>
+      <para>
+        <num>(1)</num>
+        <text>The decision of a hearing examiner or a Commission member acting as a hearing examiner on a formal action pertaining to an open parole release hearing, including an action to close or restrict access to the hearing, shall be made available to the general public.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A hearing examiner's decision to close or restrict access to the parole release hearing may be made without the approval of a Commission member.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>All other decisions by a hearing examiner constitute a recommendation to the Commission for a final formal action and are subject to approval or disapproval by the Commission.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The recommendation of a hearing examiner is subject to an appeal under <cite path="12.08.01.19">COMAR 12.08.01.19</cite>.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>If an appeal is filed, the decision of the appellate panel of the Commission shall constitute the final formal action.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>A request by the general public for the hearing examiner's recommendation or the final formal action resulting from the hearing examiner's recommendation shall be made as provided in this regulation.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.12</num>
+    <heading>Video Conferencing.</heading>
+    <text>Nothing in this chapter shall prevent the Commission from adopting procedures for the conduct of open parole release hearings over closed-circuit television or other suitable electronic media.</text>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container"><cite doc="Md. Code" path="gcs|7-207">Correctional Services Article, §7-207, </cite>Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container">Effective date:</annotation>
+    <annotation type="History" dest="container" effective="1995-04-24">Regulations <cite path="|12|08|02|.01">.01</cite>—<cite path="|12|08|02|.12">.12</cite> adopted as an emergency provision effective November 18, 1994 (21:25 Md. R. 2094); adopted permanently effective April 24, 1995 (22:8 Md. R. 596)</annotation>
+  </annotations>
+</container>

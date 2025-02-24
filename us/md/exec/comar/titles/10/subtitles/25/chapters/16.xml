@@ -1,0 +1,607 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>16</num>
+  <heading>Electronic Health Record Incentives</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Scope.</heading>
+    <para>
+      <num>A.</num>
+      <text>This chapter applies to each payor that is required to provide an incentive payment to each primary care practice, including a practice owned by a hospital, that adopts and reaches an approved level of use of electronic health records.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Only a primary care practice that meets the requirements established in this chapter may receive an adoption incentive for electronic health record adoption under this program.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Adoption incentives under this chapter are available through December 31, 2018.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>“Achieved NCQA level two recognition” means a primary care practice has received recognition from NCQA for meeting NCQA’s 2011 or later standards for a level two patient-centered medical home.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>“Attested to meaningful use” means a physician or nurse practitioner within a primary care practice has achieved the meaningful use requirements under either the Medicaid or Medicare EHR Incentive Program and has received confirmation of the attestation from:</text>
+        <para>
+          <num>(a)</num>
+          <text>The Centers for Medicare and Medicaid Services; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The Maryland Medical Assistance Program (Medicaid).</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>“EHR adoption incentive” means a payment that an eligible primary care practice can receive from a payor to assist the primary care practice in adopting an electronic health record and attaining a required use level that:</text>
+        <para>
+          <num>(a)</num>
+          <text>Consists of a one-time cash payment not to exceed $15,000 or an incentive of equivalent value agreed upon by the primary care practice and payor; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Is based on a $25 per-patient payment applied to the total number of patients on the practice panel who are Maryland residents.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>“Electronic health record” or “EHR” means a complete electronic record system that is certified by an authorized testing and certification body designated by the Office of the National Coordinator for Health Information Technology and that contains health-related information on an individual.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Fully Insured Health Benefit Plan.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Fully insured health benefit plan” means a medical policy, contract, or certificate for which an:</text>
+          <para>
+            <num>(i)</num>
+            <text>Employer pays a per-employee premium to a payor and the payor assumes the risk of providing health coverage for insured events and incurred administrative costs; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Individual pays a premium to a payor.</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Fully insured health benefit plan” does not include a self-insured health plan or a health plan for which a payor is acting only as a third-party administrator.</text>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Health Care Provider.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Health care provider” means a person who is licensed, certified, or otherwise authorized under <cite doc="Md. Code" path="gho">Health Occupations Article, Annotated Code of Maryland</cite>, to provide health care services in the ordinary course of business or practice of a profession or in an approved education or training program.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Health care provider” includes a facility where health care is provided to patients or recipients, including:</text>
+          <para>
+            <num>(i)</num>
+            <text>A facility, as defined in Health-General Article, §10-101(e), Annotated Code of Maryland;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>A hospital, as defined in Health-General Article, §19-301, Annotated Code of Maryland;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>A related institution, as defined in Health-General Article, §19-301, Annotated Code of Maryland;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>An outpatient clinic;</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>A freestanding medical facility, as defined in Health-General Article, §19-3A-01, Annotated Code of Maryland;</text>
+          </para>
+          <para>
+            <num>(vi)</num>
+            <text>An ambulatory surgical facility, as defined in Health-General Article, §19-3B-01, Annotated Code of Maryland; and</text>
+          </para>
+          <para>
+            <num>(vii)</num>
+            <text>A nursing home, as defined in Health-General Article, §19-1401, Annotated Code of Maryland.</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>For purposes of this chapter, “health care provider” does not include a health maintenance organization as defined in Health-General Article, §19-701, Annotated Code of Maryland.</text>
+        </para>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>“Implementation period” means the first 120 days after the effective date of this chapter.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>“Incentive of equivalent value” means:</text>
+        <para>
+          <num>(a)</num>
+          <text>Specific services;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A gain-sharing arrangement;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Rewards for quality and efficiency;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>In-kind payment; or</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Other items or services that can be assigned a specific monetary value.</text>
+        </para>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>“Meaningful use” means the criteria and requirements established by the Centers for Medicare and Medicaid Services as detailed under 42 CFR 142, 143, 422, et al. (2010) and subsequent regulations.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>“Medicare and Medicaid EHR Incentive Programs” means the programs described at 42 CFR 412, 413, 422, and 495 (2010) and 42 CFR 412, 413, and 495 (2012), adopted by the Centers for Medicare and Medicaid Services (CMS) to implement provisions of the American Recovery and Reinvestment Act of 2009, the Medicare EHR Incentive Program as administered by CMS, and the Medicaid EHR Incentive Program as administered by Medicaid.</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>“MHCC” or “Commission” means the Maryland Health Care Commission.</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>“NCQA” means the National Committee for Quality Assurance, a health care quality accreditation, certification, and recognition body.</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>“NPI” or “national provider identifier” means the unique individual identification number issued by the National Provider System to a health care provider typically used in administrative and financial transactions.</text>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>Payor.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Payor” means a State-regulated carrier that issues or delivers health benefit plans in the State and includes:</text>
+          <para>
+            <num>(i)</num>
+            <text>Aetna, Inc;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>CareFirst BlueCross BlueShield;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>CIGNA HealthCare Mid-Atlantic;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Coventry Health Care;</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>Kaiser Permanente; and</text>
+          </para>
+          <para>
+            <num>(vi)</num>
+            <text>United Healthcare, Mid-Atlantic Region.</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Payor” does not include a managed care organization as defined in Health-General Article, Title 15, Subtitle 1, Annotated Code of Maryland.</text>
+        </para>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>“Practice panel” means:</text>
+        <para>
+          <num>(a)</num>
+          <text>The patients who are Maryland residents and enrolled in a fully insured health benefit plan assigned by a payor to a provider within a primary care practice at the time the primary care practice requests an EHR incentive payment; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>When a payor does not assign patients enrolled in a fully insured health benefit plan to a provider within a primary care practice, the patients who are Maryland residents and enrolled with that payor in a fully insured health benefit plan who have been treated by the primary care practice within the 24 months preceding a primary care practice’s request for an EHR adoption incentive payment.</text>
+        </para>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>“Primary care practice” means a medical practice located in the State that is composed of:</text>
+        <para>
+          <num>(a)</num>
+          <text>One or more physicians who provide health care in family practice, general practice, geriatric medicine, internal medicine, pediatric medicine, or gynecologic practice and that uses one of the following CMS specialty codes in claims submissions:</text>
+          <para>
+            <num>(i)</num>
+            <text>Family practice (08);</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>General practice (01);</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Geriatric medicine (38);</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Internal medicine (11);</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>Pediatric medicine (37); or</text>
+          </para>
+          <para>
+            <num>(vi)</num>
+            <text>Obstetrics &amp; Gynecology (16); or</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>One or more nurse practitioners who provide health care in family practice, general practice, geriatric medicine, internal medicine, pediatric medicine, or gynecologic practice and that uses CMS taxonomy code in claims submissions:</text>
+          <para>
+            <num>(i)</num>
+            <text>Adult Health (363LA2100X);</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Family (363LF0000X);</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Gerontology (363LG0600X );</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Obstetrics &amp; Gynecology (363LX0001X);</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>Pediatric (363LP0200X );</text>
+          </para>
+          <para>
+            <num>(vi)</num>
+            <text>Primary Care (363LP2300X); or</text>
+          </para>
+          <para>
+            <num>(vii)</num>
+            <text>Women’s Health (363LW0102X).</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>“State” means the State of Maryland.</text>
+      </para>
+      <para>
+        <num>(18)</num>
+        <text>“Third-party administrator” means a person that is registered as an administrator under <cite doc="Md. Code" path="gin">Insurance Article, Title 8, Subtitle 3, Annotated Code of Maryland</cite>.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Program Description.</heading>
+    <para>
+      <num>A.</num>
+      <text>An EHR adoption incentive shall be available to a primary care practice that meets the requirements set forth in <cite path="|10|25|16|.04">Regulation .04 of this chapter</cite>.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A payor may exclude from a primary care practice’s EHR adoption incentive calculation the payor’s patient members who were previously included in another primary care practice’s EHR adoption incentive calculation.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A payor may, upon notification to a primary care practice:</text>
+      <para>
+        <num>(1)</num>
+        <text>Request additional information from a primary care practice to validate the primary care practice’s EHR adoption incentive request; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Reduce a remaining EHR adoption incentive to a primary care practice if the payor determines that a duplicate payment or an overpayment has been made under this chapter.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The MHCC may conduct audits to determine compliance with this chapter as follows:</text>
+      <para>
+        <num>(1)</num>
+        <text>A payor shall cooperate with the MHCC’s audit process and file information required by the MHCC in a timely manner;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A primary care practice shall cooperate with the MHCC’s audit process and report requested information in a timely manner; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If an audit reveals noncompliance with this chapter, the MHCC may require corrective action.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>This chapter shall also apply to an entity that self-insures its health benefit plans, if federal law is amended to allow state regulation of such EHR payments.</text>
+    </para>
+  </section>
+  <section cache:ref-path="10|25|16|.04">
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Participation Requirements.</heading>
+    <para>
+      <num>A.</num>
+      <text>To be eligible for an EHR adoption incentive under this chapter, a primary care practice shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Adopt a certified EHR;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Complete and submit an EHR adoption incentive request to each appropriate payor from which the practice desires an incentive award; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Demonstrate that the primary care practice has either:</text>
+        <para>
+          <num>(a)</num>
+          <text>Attested to the current meaningful use requirements under the Medicare or Medicaid EHR Incentive Program; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Participates in any MHCC approved patient-centered medical home program and has achieved NCQA level two recognition.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>An EHR adoption incentive request shall include the following:</text>
+      <para>
+        <num>(1)</num>
+        <text>Practice specific information:</text>
+        <para>
+          <num>(a)</num>
+          <text>Name;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Address;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Specialty;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Organizational national provider identifier number; and</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Tax identification number;</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The individual NPIs of each provider within the primary care practice;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The estimated total number of patients on the practice panel, if available;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The name and version of the certified EHR system implemented by the primary care practice;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Documentation that the primary care practice meets the criteria for the EHR adoption incentive including:</text>
+        <para>
+          <num>(a)</num>
+          <text>A copy of the confirmation received from CMS or Medicaid of acceptance of attestation to meaningful use by at least one physician or nurse practitioner within the practice; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A copy of the NCQA level two recognition letter; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>An attestation signed by an authorized member of the primary care practice that:</text>
+        <para>
+          <num>(a)</num>
+          <text>The information contained in the request is accurate;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>If the practice is led by a physician, all the physicians within the primary care practice are using the certified EHR system; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>If the practice is led by a nurse practitioner, all the nurse practitioners within the primary care practice are using the certified EHR system</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A payor shall issue an EHR adoption incentive request acknowledgement letter as soon as is reasonably possible and no later than 45 days after receipt of an EHR adoption incentive request.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The meaningful use attestation of a physician or nurse practitioner may only be included in a single EHR adoption incentive request to a payor.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>A payor may request additional information as necessary to determine the validity of an EHR adoption incentive request.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>A payor shall process and pay in full the adoption incentive within 75 days of receiving a complete EHR adoption incentive request.</text>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>A payor shall provide each primary care practice requesting an EHR adoption incentive with a written notification regarding:</text>
+      <para>
+        <num>(1)</num>
+        <text>The amount of the EHR adoption incentive awarded to the primary care practice;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The method of distribution of the EHR adoption incentive; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The time period over which the incentive will be distributed.</text>
+      </para>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>A primary care practice that provided an attestation to meaningful use must give written notice within 90 days to each payor that awarded an EHR adoption incentive to the practice under the following circumstances in the event that the CMS, Medicaid, or its designated entity:</text>
+      <para>
+        <num>(1)</num>
+        <text>Conducted a prepayment or post-payment audit of compliance with the participation requirements of the Medicare or Medicaid EHR Incentive Program regarding the physician or nurse practitioner identified by the primary care practice as part of its EHR adoption incentive request; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Determined that the physician or nurse practitioner had not met the requirements under the Medicare or Medicaid EHR Incentive Program.</text>
+      </para>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>Payors may request reimbursement of the incentive payments made under this chapter to the primary care practice in the event of notice provided by the primary care practice under <cite path="10|25|16|.04|H.">§H of this regulation</cite>.</text>
+    </para>
+    <para>
+      <num>J.</num>
+      <text>Nothing in this chapter shall require a group model health maintenance organization to provide an incentive to a health care provider who is employed by a multispecialty group of physicians or nurse practitioners under contract with the group model health maintenance organization.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Incentive Payment Calculation by Payor.</heading>
+    <para>
+      <num>A.</num>
+      <text>An EHR adoption incentive is calculated at $25 per member, up to a maximum of $15,000, and limited to the payor’s patient members on the practice panel.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Upon request by a primary care practice, a payor shall provide the practice, in a timely manner, with an accounting of its EHR adoption incentive including the names of each patient included in the EHR adoption incentive calculation.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Reporting.</heading>
+    <para>
+      <num>A.</num>
+      <text>A payor shall submit:</text>
+      <para>
+        <num>(1)</num>
+        <text>An annual report to the MHCC for calendar years 2011 — 2018 no later than 90 days after the end of each calendar year; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>At the request of the MHCC, a payor shall submit an interim report within 30 days of the Commission’s request.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The annual and interim reports shall include:</text>
+      <para>
+        <num>(1)</num>
+        <text>The number of EHR adoption incentive requests received by the payor for the requested calendar year or time period;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The number of EHR adoption incentive payment requests processed by the payor for the requested calendar year or time period;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The total value of incentives distributed for the calendar year or time period; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Other information available to the payor and requested by the MHCC to determine the effectiveness of EHR adoption incentives programs.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A payor shall submit a final report to the MHCC no later than May 31, 2017, that includes all information required in an annual report under this regulation.</text>
+    </para>
+  </section>
+  <section cache:ref-path="10|25|16|.07">
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Incentive Program Transition.</heading>
+    <para>
+      <num>A.</num>
+      <text>A payor has until the end of the implementation period to implement this chapter’s requirements.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Except as provided in <cite path="10|25|16|.07|E.">§E of this regulation</cite>, a primary care practice that received an incentive under earlier incentive program requirements is not eligible to receive an incentive under the requirements of this replacement chapter.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A primary care practice may be eligible to receive an incentive provided under the requirements of an earlier EHR adoption incentive regulation if the practice, under an earlier EHR adoption incentive regulation:</text>
+      <para>
+        <num>(1)</num>
+        <text>Did not receive an incentive payment; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Prior to the effective date of this chapter:</text>
+        <para>
+          <num>(a)</num>
+          <text>Submitted an incentive application and payment request; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Submitted an incentive application but not an incentive payment request.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>A primary care practice in §C(1) and (2)(b) of this regulation shall have 60 days after the effective date of this replacement chapter to submit a payment request to the payor for a base and additional incentive, as provided in earlier regulations.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Within 90 days after the effective date of this replacement chapter, a primary care practice that received an additional incentive that was less than or equal to the base incentive under earlier incentive program requirements may request that the payor award the difference between the previously received incentive payment and the incentive payment calculated under this replacement chapter based on the practice’s eligible patient enrollment with the payor at the time of the original payment.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>A payor shall process a payment request within 75 days of receiving a complete EHR incentive request from a primary care practice submitted under §§C — E of this regulation.</text>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Health-General Article, §§19-103(c)(2)(i) and (ii), 19-109(a)(1), and 19-143(d)(1), (2), (3), and (4) and(i), Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="2011-05-16">Effective date: May 16, 2011 (38:10 Md. R. 615)</annotation>
+    <annotation type="History" dest="container" effective="2012-01-09"><cite path="|10|25|16|.01">Regulation .01</cite> amended as an emergency provision effective October 21, 2011 (38:24 Md. R. 1495); amended permanently effective January 9, 2012 (38:27 Md. R. 1764)</annotation>
+    <annotation type="History" dest="container" effective="2012-01-09"><cite path="|10|25|16|.02|B.">Regulation .02B</cite> amended as an emergency provision effective October 21, 2011 (38:24 Md. R. 1495); amended permanently effective January 9, 2012 (38:27 Md. R. 1764)</annotation>
+    <annotation type="History" dest="container" effective="2012-01-09"><cite path="|10|25|16|.03">Regulation .03</cite> amended as an emergency provision effective October 21, 2011 (38:24 Md. R. 1495); amended permanently effective January 9, 2012 (38:27 Md. R. 1764)</annotation>
+    <annotation type="History" dest="container" effective="2012-01-09"><cite path="|10|25|16|.04">Regulation .04</cite> amended as an emergency provision effective October 21, 2011 (38:24 Md. R. 1495); amended permanently effective January 9, 2012 (38:27 Md. R. 1764)</annotation>
+    <annotation type="History" dest="container" effective="2012-01-09"><cite path="|10|25|16|.05">Regulation .05</cite> amended as an emergency provision effective October 21, 2011 (38:24 Md. R. 1495); amended permanently effective January 9, 2012 (38:27 Md. R. 1764)</annotation>
+    <annotation type="History" dest="container" effective="2012-01-09"><cite path="|10|25|16|.06">Regulation .06</cite> amended as an emergency provision effective October 21, 2011 (38:24 Md. R. 1495); amended permanently effective January 9, 2012 (38:27 Md. R. 1764)</annotation>
+    <annotation type="History" dest="container" effective="2012-01-09"><cite path="|10|25|16|.07">Regulation .07</cite> amended as an emergency provision effective October 21, 2011 (38:24 Md. R. 1495); amended permanently effective January 9, 2012 (38:27 Md. R. 1764)</annotation>
+    <annotation type="History" dest="container" effective="2014-06-09" discontinuity="true">Regulations <cite path="|10|25|16|.01">.01</cite> — <cite path="|10|25|16|.07">.07</cite> repealed and new Regulations <cite path="|10|25|16|.01">.01</cite> — <cite path="|10|25|16|.07">.07</cite> adopted effective June 9, 2014 (41:11 Md. R. 605)</annotation>
+    <annotation type="History" dest="container" effective="2016-11-24"><cite path="|10|25|16|.01|C.">Regulation .01C</cite> amended effective November 24, 2016 (43:23 Md. R. 1279)</annotation>
+    <annotation type="History" dest="container" effective="2016-11-24"><cite path="|10|25|16|.06|A.">Regulation .06A</cite> amended effective November 24, 2016 (43:23 Md. R. 1279)</annotation>
+  </annotations>
+</container>

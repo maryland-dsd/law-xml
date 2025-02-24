@@ -1,0 +1,455 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>11</num>
+  <heading>Directives for Updating Critical Area Maps</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>“Department” means the Department of Natural Resources.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>“Final approved map” means the locally approved map that has been approved by the Commission.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>“Initial map update” means the first time after 2008 that a local jurisdiction, working cooperatively with the Department, the Department of the Environment, and the Commission in accordance with the provisions of this chapter, develops a map of the local jurisdiction’s Critical Area that is based on the aerial photography obtained in 2007—2008 during the development of the Statewide Base Map.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>“Locally approved map” means the summary draft map that has been approved by the local jurisdiction.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>“Summary draft map” means the map that is transferred from the Commission to the local jurisdiction for formal review and approval.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Unclassified Wetland.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Unclassified wetland” means an area of wetlands that at the time of original mapping was not classified as an intensely developed area, a limited development area, or a resource conservation area.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Unclassified wetland” includes a transitional area of mud flats, marsh hummocks, and eroding wetlands that was not originally classified at the time of original mapping and may have moved or been reconfigured due to natural tidal conditions.</text>
+        </para>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>“Working draft map” means a map of a local jurisdiction’s Critical Area that is based on the aerial photography obtained in 2007—2008 during the development of the Statewide Base Map, as modified during the course of review by the Department, the Commission, or the local jurisdiction.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Construction of this Chapter.</heading>
+    <text>The mapped shoreline and landward boundary of tidal wetlands shown on a working draft map, a summary draft map, a locally approved map, or a final approved map of the Critical Area may not be construed to represent an official wetland delineation or change a statutory provision under <cite doc="Md. Code" path="gen">Environment Article, Title 16, Annotated Code of Maryland</cite>, a regulatory provision under COMAR Title 26, Subtitle 24, or any other provision related to a project-specific wetland delineation that may be necessary and appropriate.</text>
+  </section>
+  <section cache:ref-path="27|01|11|.03">
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Source Data Authorized for the Update of a Critical Area Map.</heading>
+    <para>
+      <num>A.</num>
+      <text>In order to update maps of the Critical Area, the Department and the Commission shall use the best available source information, including:</text>
+      <para>
+        <num>(1)</num>
+        <text>2007 or 2008 true color imagery or any other imagery determined appropriate by the Department and the Commission;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Rectified 1972 State Tidal Wetlands maps;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>2007 or 2008 color infrared imagery or any other imagery determined appropriate by the Department and the Commission;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Local topographic data;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Light Detection and Ranging data;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Mapping resources of a local jurisdiction;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Soils data; or</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Topographic maps of the United States Geological Survey Standard Series.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>In addition to the source information specified under <cite path="27|01|11|.03|A.">§A of this regulation</cite>, the Department and the Commission may, at their discretion, use additional sources that they regard as relevant, including an on-site evaluation, a map, a photograph, or permit information.</text>
+    </para>
+  </section>
+  <section cache:ref-path="27|01|11|.04">
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Mapping Methodology for the Assessment of Physical Features.</heading>
+    <para>
+      <num>A.</num>
+      <text>Using the source information under <cite path="|27|01|11|.03">Regulation .03 of this chapter</cite>, the Department and the Commission shall digitize the shoreline and the  landward boundary of a tidal wetland.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The Department and the Commission shall determine the location of the shoreline by remote sensing and an evaluation of:</text>
+      <para>
+        <num>(1)</num>
+        <text>The location of vertical shoreline structures;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The location of water at the time of image capture;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>An estimate of the high tide limit, based on photo interpretation and collateral data; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>On sandy beaches, the location of a debris line or the wettest land.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Except for a structural shoreline stabilization measure that is located offshore, the Department and the Commission shall map the shoreline:</text>
+      <para>
+        <num>(1)</num>
+        <text>At the landward edge of a bulkhead;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>At the midpoint between the waterline and the upland edge of a revetment;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Around the landward edge of a man-made groin or jetty that is at least 30 feet in width; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Along the shoreline when a man-made groin or jetty is less than 30 feet in width.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Except for a living shoreline or a mudflat, the Department and the Commission shall map the following land features as upland:</text>
+      <para>
+        <num>(1)</num>
+        <text>An upland island surrounded by open water;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An upland area surrounded by a tidal wetland if the upland area:</text>
+        <para>
+          <num>(a)</num>
+          <text>Was mapped as upland on the 1972 tidal wetlands maps and is at least one acre in size; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Except for a duckblind or a water-dependent facility or activity under <cite path="|27.01.03">COMAR 27.01.03</cite>, is developed with a legally authorized improvement; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A dredged material containment facility surrounded by open water that is part of a State-sponsored restoration project with conservation and habitat protection as essential elements of its operation.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>A local jurisdiction may not construe the mapping of an area as a wetland or an upland to affect the allowable density or the number of development rights of that newly mapped area as part of a map update, except in accordance with written requirements and procedures in a local jurisdiction’s Critical Area program.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>A local jurisdiction may include within the Critical Area land located more than 1,000 feet from tidal waters or tidal wetlands if the newly included area is:</text>
+      <para>
+        <num>(1)</num>
+        <text>Completely surrounded by Critical Area land and is:</text>
+        <para>
+          <num>(a)</num>
+          <text>Up to one acre in size and adjoins an intensely developed area or a limited development area, by which the designation of the newly included area becomes an intensely developed area or a limited development area;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Up to two acres in size and adjoins a resource conservation area, by which the designation of the newly included area becomes a resource conservation area; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Greater than the acreage limits in §F(1)(a) and (b) of this regulation if:</text>
+          <para>
+            <num>(i)</num>
+            <text>A local jurisdiction proposes alternative mapping standards; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The alternative standards are approved by the Commission; or</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An environmentally sensitive area contiguous to the Critical Area that is approved by the Commission.</text>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>The Department and the Commission, in collaboration with a local jurisdiction, shall maintain the Critical Area layer of the Statewide Base Map.</text>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>Each map of the Critical Area layer of the Statewide Base Map shall include:</text>
+      <para>
+        <num>(1)</num>
+        <text>A State-determined shoreline;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A State-determined landward boundary of tidal wetlands;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A digitally generated, georeferenced 1,000-foot Critical Area boundary; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Land newly included within the Critical Area under <cite path="27|01|11|.04|F.">§F of this regulation</cite>.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="27|01|11|.05">
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Mapping Methodology for Critical Area Classifications.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Department, the Commission, and the local jurisdiction shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>In accordance with the standards under <cite path="|27|01|11|.04">Regulation .04 of this chapter</cite> and in cooperation with the Department of the Environment, review the digitized shoreline and the landward boundaries of tidal wetlands that are indicated on the working draft map;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Where applicable, use the existing Critical Area classification for an area shown on the working draft map that was previously included within the Critical Area;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>In accordance with the standards under <cite path="27|01|11|.05|B.">§B of this regulation</cite>, assign a Critical Area classification to an area that is newly included in the Critical Area on the working draft map; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Work cooperatively to apply the provisions of this chapter to the working draft map and resolve any conflict that may arise.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>In order to determine the Critical Area classification for an area newly included in the Critical Area on the working draft map, the Commission and a local jurisdiction shall use the mapping standards in <cite path="27.01.02.03">COMAR 27.01.02.03</cite>.05.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Except as required under <cite path="27|01|11|.05|D.">§D of this regulation</cite>, a local jurisdiction shall classify an area newly included in the Critical Area in accordance with at least one of the following factors:</text>
+      <para>
+        <num>(1)</num>
+        <text>Current land use based on present conditions;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Adjacent land use based on present conditions;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Future land use based on an approved, platted subdivision even if the lots newly included in the Critical Area are nonconforming under local Critical Area requirements in effect at the time of delivery of the summary draft map to the local jurisdiction; or</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Proposed land use based on future conditions if the local jurisdiction:</text>
+        <para>
+          <num>(a)</num>
+          <text>Accepted for processing an application for a subdivision, final site plan, or other final approval at least 90 days before the date of delivery of the summary draft map to the local jurisdiction; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Issues a written final approval for the application within 2 years of the date of delivery of the summary draft map to the local jurisdiction.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>A local jurisdiction shall classify a dredged material containment facility as a resource conservation area if the facility is:</text>
+      <para>
+        <num>(1)</num>
+        <text>Surrounded by open water; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A State-sponsored island restoration project with conservation and habitat protection as essential elements of its operation.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>A local jurisdiction may not use a dredged material containment facility that meets the requirements of <cite path="27|01|11|.05|D.">§D of this regulation</cite> to generate growth allocation.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>At the time of a development application, a local jurisdiction shall classify an unclassified wetland as a resource conservation area if it is determined to be an upland area or a private wetland.</text>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>A local jurisdiction shall provide to the Commission a list of all parcels and lots that meet the requirements under §C(3) and (4) of this regulation, including the tax map and parcel number of each lot and parcel, as documentation that growth allocation will not be necessary.</text>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>As part of the mapping process, a local jurisdiction shall provide to the Commission documentation for those instances where the Critical Area boundary was moved and the resulting Critical Area classification is different from the adjacent Critical Area classification.</text>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>A local jurisdiction may propose alternative criteria for development to address an instance in which an area newly included in the Critical Area, as a result of changes in the Critical Area boundary during a map update, would be rendered nonconforming or unbuildable without a variance.</text>
+    </para>
+    <para>
+      <num>J.</num>
+      <text>Federal lands not given a Critical Area classification are managed in accordance with the Coastal Zone Management Act, 16 U.S.C. §§1451—1464.</text>
+    </para>
+  </section>
+  <section cache:ref-path="27|01|11|.06">
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Process for Approval of an Updated Critical Area Map.</heading>
+    <para>
+      <num>A.</num>
+      <text>Upon completion of a local jurisdiction’s review of a working draft map, including its proposed Critical Area classifications for all areas newly included in the Critical Area, the Department and the Commission shall incorporate all necessary revisions and prepare a summary draft map for the local jurisdiction.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The Department and the Commission shall deliver to the local jurisdiction a summary draft map of that jurisdiction’s Critical Area that:</text>
+      <para>
+        <num>(1)</num>
+        <text>Identifies the shoreline and landward boundaries of tidal wetlands by use of the most recent aerial imagery or the best available aerial imagery of comparable scale; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Ensures that the 1,000-foot Critical Area boundary is accurate to a scale of 1inch equals 100 feet.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Except as authorized under <cite path="27|01|11|.06|D.">§D of this regulation</cite>, within 24 months of the date of delivery of the summary draft map under <cite path="27|01|11|.06|A.">§A of this regulation</cite>, a local jurisdiction shall complete the process of local approval.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The initial map update of a local jurisdiction’s Critical Area map may occur in coordination with the local jurisdiction’s 6-year comprehensive review process, as required under <cite doc="Md. Code" path="gnr|8-1809">Natural Resources Article, §8-1809(g), Annotated Code of Maryland</cite>, if the local jurisdiction provides evidence satisfactory to the Commission that reasonable progress has been made toward approval of its summary draft map.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Upon receipt of a summary draft map under <cite path="27|01|11|.06|B.">§B of this regulation</cite>, a local jurisdiction shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Provide public notice of its review of the final draft for approval;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Hold at least one public hearing;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Provide a reasonable public comment period; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Review and approve the summary draft map in accordance with local procedures for map amendments.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Upon the completion of all public hearings and the comment period, the local jurisdiction shall amend its local Critical Area program by approving all elements of the summary draft map, including;</text>
+      <para>
+        <num>(1)</num>
+        <text>The shoreline and landward boundaries of tidal wetlands;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The digitally generated and georeferenced Critical Area 1,000-foot boundary line which may be adjusted in accordance with Regulation .04 F of this chapter; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>In accordance with <cite path="|27|01|11|.05">Regulation .05 of this chapter</cite>, Critical Area classifications of all areas newly included in the Critical Area.</text>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Upon completion of the approval process under this regulation, the local jurisdiction shall forward its locally approved map to the Commission for final approval.</text>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>In accordance with Natural Resources Article, §§<cite doc="Md. Code" path="gnr|8-1807">8-1807</cite> and <cite doc="Md. Code" path="gnr|8-1809">8-1809</cite>, Annotated Code of Maryland, when the Commission approves the locally approved map:</text>
+      <para>
+        <num>(1)</num>
+        <text>It becomes the final approved map; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The final approved map shall be the officially designated map of the Critical Area for that local jurisdiction.</text>
+      </para>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>The local jurisdiction shall adopt the final approved map by incorporating it into its Critical Area program in accordance with its process for adoption of local law.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Periodic Review of a Local Critical Area Map.</heading>
+    <para>
+      <num>A.</num>
+      <text>Beginning with the date on which the Department and the Commission delivered a summary draft map to a local jurisdiction under <cite path="|27|01|11|.06|B.">Regulation .06B of this chapter</cite>, at least once every 12 years thereafter:</text>
+      <para>
+        <num>(1)</num>
+        <text>The Department, the Commission, and the local jurisdiction shall conduct a review of the local Critical Area map; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The local jurisdiction shall submit any proposed map updates to the Commission for approval.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The Commission shall determine the appropriate process for consideration and approval of the local jurisdiction’s proposed map updates.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>An update of a local jurisdiction’s Critical Area map that is after the initial map update may occur in coordination with the local jurisdiction’s 6-year comprehensive review process, as required under <cite doc="Md. Code" path="gnr|8-1809">Natural Resources Article, §8-1809(g), Annotated Code of Maryland</cite>, if the local jurisdiction provides evidence satisfactory to the Commission that reasonable progress has been made on its comprehensive review and on the review of its maps.</text>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Ch. 119, Acts of 2008, §§1—4</annotation>
+    <annotation type="History" dest="container" effective="1986-05-13">Effective date: May 13, 1986 (12:24 Md. R. 2352)</annotation>
+    <annotation type="History" dest="container"><cite path="|14.15">COMAR 14.15</cite> became effective upon the enactment of Resolution No. 37 (SJ 9), Acts of 1986.</annotation>
+    <annotation type="History" dest="container" discontinuity="true"><cite path="|14.15.11">COMAR 14.15.11</cite> recodified to <cite path="|27.01.11">COMAR 27.01.11</cite> in August, 1992</annotation>
+    <annotation type="History" dest="container" effective="2012-07-09" discontinuity="true"><cite path="|27|01|11|.01">Regulation .01</cite> under Chapter, Variances repealed effective July 9, 2012 (39:13 Md. R. 786)</annotation>
+    <annotation type="History" dest="container" effective="2012-07-09" discontinuity="true">Regulations <cite path="|27|01|11|.01">.01</cite>—<cite path="|27|01|11|.07">.07</cite> under Chapter, Directives for Updating Critical Area Maps adopted effective July 9, 2012 (39:13 Md. R. 786)</annotation>
+    <annotation type="History" dest="container" effective="2025-01-20"><cite path="|27|01|11|.04|A.">Regulation .04A</cite>, G, H amended effective January 20, 2025 (52:1 Md. R. 19)</annotation>
+    <annotation type="History" dest="container" effective="2022-02-07"><cite path="|27|01|11|.04|D.">Regulation .04D</cite> amended effective February 7, 2022 (49:3 Md. R. 139)</annotation>
+    <annotation type="History" dest="container" effective="2018-03-12"><cite path="|27|01|11|.04|E.">Regulation .04E</cite> amended effective March 12, 2018 (45:5 Md. R. 289)</annotation>
+    <annotation type="History" dest="container" effective="2025-01-20"><cite path="|27|01|11|.05|A.">Regulation .05A</cite> amended effective January 20, 2025 (52:1 Md. R. 19)</annotation>
+    <annotation type="History" dest="container" effective="2025-01-20">Regulation.06 amended effective January 20, 2025 (52:1 Md. R. 19)</annotation>
+  </annotations>
+</container>

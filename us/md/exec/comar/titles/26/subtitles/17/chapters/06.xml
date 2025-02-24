@@ -1,0 +1,772 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>06</num>
+  <heading>Water Appropriation or Use</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>"Agricultural purposes" means appropriation or use of water for the production, harvesting, or processing of crops, vegetation, or animals for human or animal consumption or use, including horticultural operations and land-based aquaculture.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>"Appropriation" means an intentional withdrawal, movement, or diversion of water for use from its source of natural occurrence which is caused by human activity.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>"Aquaculture" means the regulation and cultivation of water plants and animals for human use or consumption.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>"Aquifer" means a water-bearing geologic formation which is capable of causing water to flow into a well.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>"Beneficial appropriation or use" means a direct use of water which is:</text>
+        <para>
+          <num>(a)</num>
+          <text>Necessary to a permit applicant;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Nonwasteful;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Reasonably nondamaging to the resource and other users; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>In the best interest of the public.</text>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>"Confined aquifer" means an aquifer under pressure from a relatively impervious layer of material lying above the aquifer.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>"Consumptive water use" means that part of water withdrawn from a source which, due to evaporation, interbasin diversions, or other causes, is not returned to the source to be available for subsequent use.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>"Department" means the Department of the Environment.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>"Domestic use" means the noncommercial appropriation or use of water by individuals for residential sanitation and drinking purposes.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>"Emergency condition" means a situation when lack of water poses an immediate danger to the health and welfare of people or animals.</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>"Fall line" means the imaginary line separating the coastal plain sediments on the east from the older hardened rock on the west.</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>"Ground water" means water that naturally lies, percolates, or flows through aquifers under the surface of the earth.</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>"Lake" means a reasonably permanent body of water substantially at rest which is part of a watercourse or the result of a structure placed in a watercourse.</text>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>"Low flow augmentation" means provision of water through development of new water storage facilities or the purchase of storage space in existing water storage facilities equal to the amount of consumptive use from a water source.</text>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>"Permit" means either a:</text>
+        <para>
+          <num>(a)</num>
+          <text>Ground water appropriation or use permit; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Surface water appropriation or use permit.</text>
+        </para>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>Person.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Person" means an individual, partnership, copartnership, firm, company, corporation, association, joint stock company, trust estate, governmental entity, or any other legal entity, or their legal representatives, agents, or assigns.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Person" includes all federal, State, and local governmental entities.</text>
+        </para>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>"Potentiometric surface" means a level to which water will rise in a tightly cased well drilled into a confined aquifer.</text>
+      </para>
+      <para>
+        <num>(18)</num>
+        <text>Public Water System.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Public water system” means a system that provides to the public water for human consumption through pipes or other constructed conveyances and:</text>
+          <para>
+            <num>(i)</num>
+            <text>Has at least 15 service connections; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Regularly serves at least 25 individuals daily at least 60 days out of the year.</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Public water system" includes:</text>
+          <para>
+            <num>(i)</num>
+            <text>Any collection, treatment, storage, or distribution facility that is under the control of the operator of the system and is used primarily in connection with the system; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Any collection or pretreatment storage facility that is not under the control of the operator of the system and is used primarily in connection with the system.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(19)</num>
+        <text>"Riparian land" means land bordering on a watercourse or lake.</text>
+      </para>
+      <para>
+        <num>(20)</num>
+        <text>"Surface water" means water from rain, melting snow, springs, or seepage that lies or flows on the surface of the earth, including a watercourse, lake, or tidewater.</text>
+      </para>
+      <para>
+        <num>(21)</num>
+        <text>"Sustained yield" means the availability of water from an aquifer managed so that total withdrawals do not exceed natural recharge, thus enabling the aquifer to function as an aquifer in perpetuity.</text>
+      </para>
+      <para>
+        <num>(22)</num>
+        <text>"Underground water" means ground water.</text>
+      </para>
+      <para>
+        <num>(23)</num>
+        <text>"Use of water" means a direct use of ground or surface water by withdrawal, diversion, or impoundment.</text>
+      </para>
+      <para>
+        <num>(24)</num>
+        <text>“Water audit” means an examination of water use that traces the flow of water from the site of water withdrawal through the distribution system and final use of the water, and details the variety of consumption and losses that exist from withdrawal through final use.</text>
+      </para>
+      <para>
+        <num>(25)</num>
+        <text>“Water conservation” means the use of practices, techniques, and technologies that:</text>
+        <para>
+          <num>(a)</num>
+          <text>Reduce the consumption, loss, or waste of water;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Improve efficiency in the use of water; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Make more efficient use of water treatment infrastructure.</text>
+        </para>
+      </para>
+      <para>
+        <num>(26)</num>
+        <text>“Water supply capacity management plan” means a plan that analyzes available water supply capacity and establishes a system to track water allocation commitments.</text>
+      </para>
+      <para>
+        <num>(27)</num>
+        <text>"Watercourse" means a stream of water of natural origin, flowing constantly or intermittently on the surface of the earth in a relatively definite natural channel, including springs, lakes, or marshes in which a stream originates or through which it flows.</text>
+      </para>
+      <para>
+        <num>(28)</num>
+        <text>"Water management strategy area" means an area designated by the Department in which a specific water resource problem has been identified and for which the Department has adopted specific water use restrictions or criteria for permit approval in order to protect the water resource or existing water users.</text>
+      </para>
+      <para>
+        <num>(29)</num>
+        <text>"Water table" means the water-saturated zone which is:</text>
+        <para>
+          <num>(a)</num>
+          <text>First encountered when drilling into the earth's surface; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Not a confined aquifer.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Statement of Policy.</heading>
+    <para>
+      <num>A.</num>
+      <text>The General Assembly recognizes that the availability of adequate water supplies is essential to health, safety, and economic welfare. To conserve and protect water resources of the State in the best interest of the people, the Department is authorized to control appropriation or use of surface and ground waters. This control provides for the greatest possible use of waters in the State, while protecting the State's valuable water supply resources from mismanagement, abuse, or overuse. The State's water supply resources include watercourses, lakes, aquifers, tidal areas, and other bodies of water in the State. Private property owners have the right to make reasonable use of the waters of the State which cross or are adjacent to their land. For the benefit of the public, the Department acts as the State's trustee of its water resources.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Maryland follows the reasonable use doctrine to determine a person's right to appropriate or use surface or ground water. A ground water appropriation or use permit or a surface water appropriation or use permit issued by the Department authorizes the permittee to make reasonable use of the waters of the State without unreasonable interference with other persons also attempting to make reasonable use of water. The permittee may not unreasonably harm the water resources of the State.</text>
+    </para>
+  </section>
+  <section cache:ref-path="26|17|06|.03">
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Scope and Applicability.</heading>
+    <para>
+      <num>A.</num>
+      <text>With the exception of those persons listed in <cite path="26|17|06|.03|B.">§B of this regulation</cite>, a person shall obtain a permit from the Department before appropriating or using waters of the State. A person who shall obtain a permit from the Department includes:</text>
+      <para>
+        <num>(1)</num>
+        <text>A person appropriating or using water for any agricultural, commercial, institutional, industrial, or municipal purpose;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A person subdividing land if the subdivision may require an appropriation or use of waters of the State whether from a central source or a source located on each subsequently created lot;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A person planning to build any structure or impoundment which will horizontally or vertically move water from its source of natural occurrence;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>A person appropriating or using surface water or ground water for domestic heating or cooling.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A person is not required to obtain a permit from the Department if that person is appropriating or using water for:</text>
+      <para>
+        <num>(1)</num>
+        <text>Agricultural purposes if the average annual use is less than 10,000 gallons per day;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Residential subdivisions of ten or fewer lots if:</text>
+        <para>
+          <num>(a)</num>
+          <text>The water is obtained from individual wells located on each lot,</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>For properties located west of the fall line only, the average lot size is not less than 1 acre, and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The subdivision is not located within a water management strategy area;</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Temporary dewatering during construction if:</text>
+        <para>
+          <num>(a)</num>
+          <text>The duration of the dewatering including any intermittent periods of nonpumping is expected to last for less than 30 calendar days, and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The appropriation does not exceed an average of 10,000 gallons per day (gpd);</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Domestic uses other than for heating or cooling; or</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Extinguishing a fire.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Compliance with the regulations in this chapter does not exempt any person making an appropriation or use of waters of the State within the Susquehanna River Basin from the requirements of the Susquehanna River Basin Commission.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Incorporation by Reference.</heading>
+    <text>Application for Water Allocation: Guidance Document for Public Water Systems Providing Groundwater to Municipal Corporations or Priority Funding Areas in Carroll, Frederick, and Washington Counties (June 2014) is incorporated by reference.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Water Appropriation or Use Permit Application Procedures.</heading>
+    <para>
+      <num>A.</num>
+      <text>Application Procedures for Applicant.</text>
+      <para>
+        <num>(1)</num>
+        <text>An applicant may not build or operate a structure requiring a permit until the Department has issued the permit.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The applicant shall apply for a permit on forms provided by the Department.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The applicant shall state the specific water use or uses intended under the permit.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Except for applicants proposing to appropriate or use water for agricultural purposes, the applicant shall include the following information with the application:</text>
+        <para>
+          <num>(a)</num>
+          <text>A map (U.S. Geological Survey 7 1/2 minute Quadrangle Series, 1:24000 scale) showing the location of the proposed appropriation or use and the area or structure in which the water use will occur;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The anticipated average daily appropriation calculated on an annual basis for the year projected to have the highest average daily use during the permit period;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>For a requested appropriation or use of ground water, the anticipated average daily appropriation during the month of highest use;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>For a requested appropriation or use of surface water, the anticipated maximum daily appropriation or use during the permit period; and</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Complete plans and specifications for any facility or structure requiring a permit.</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>For persons proposing to appropriate or use water for agricultural purposes, the Department shall work with the applicant to determine:</text>
+        <para>
+          <num>(a)</num>
+          <text>The anticipated average daily appropriation calculated on an annual basis for the year projected to have the highest average daily use during the permit period; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>For a requested appropriation or use of:</text>
+          <para>
+            <num>(i)</num>
+            <text>Ground water, the anticipated average daily appropriation during the month of highest use, or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Surface water, the anticipated maximum daily appropriation or use during the permit period.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>For each housing subdivision or other construction project which may be completed in phases, the applicant shall state the total ultimate water requirements for total development of the site during the permit period.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>If a requested appropriation or use is for more than an annual average of 10,000 gallons per day, the applicant shall comply with the notification requirements in <cite path="26.01.07.03">COMAR 26.01.07.03</cite>.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>If a requested appropriation or use is for more than an annual average of 10,000 gallons per day, the applicant shall certify on a form provided by the Department that water-conserving fixtures associated with the appropriation or use shall conform to the requirements of <cite doc="Md. Code" path="gbo|12-205">Business Occupations and Professions Article, §12-205, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>The Department may require the applicant to conduct special evaluations, including:</text>
+        <para>
+          <num>(a)</num>
+          <text>Water quality analyses, well-pumping tests, or geophysical well logging for proposed ground water appropriations;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Water quality analyses, watercourse flow measurements, or aquatic habitat evaluations for proposed surface water withdrawals;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Water audits, water supply capacity management plans, water conservation plans, or estimates of distribution system leakage; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>For public water systems requesting special consideration under <cite doc="Md. Code" path="gen|5-501">Environment Article, §5-501(b), Annotated Code of Maryland</cite>, evaluations as described in Applications for Water Allocation: Guidance Document for Public Water Systems Providing Water to Municipal Corporations or Priority Funding Areas in Carroll, Frederick, and Washington Counties (June 2014).</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Application Processing Procedures for the Department.</text>
+      <para>
+        <num>(1)</num>
+        <text>Except for applications that propose to appropriate or use water for agricultural purposes:</text>
+        <para>
+          <num>(a)</num>
+          <text>The Department shall review an application for completeness and consistency with State water resources plans and may consider, when appropriate, the consistency of an application with local land use and zoning requirements;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>If the application is incomplete or prepared improperly, the Department shall notify the applicant as to what steps are necessary to complete the application; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>An application is incomplete until the applicant provides all information requested by the Department and the Department completes its technical evaluation of that information.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If the applicant does not respond within 6 months to the Department's request for additional information, the Department may notify the applicant that the application process has been terminated. To reactivate the closed file, the applicant shall reapply and may be required to submit new or updated evaluations.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The Department shall provide notice and opportunity to submit comments and to request a public informational hearing in accordance with <cite path="26.01.07.03">COMAR 26.01.07.03</cite> and .04.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The Department shall conduct public informational hearings in accordance with <cite path="26.01.07.06">COMAR 26.01.07.06</cite>.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="26|17|06|.06">
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Criteria for Approval of Water Appropriation or Use Permits.</heading>
+    <para>
+      <num>A.</num>
+      <text>General. The Department shall issue a permit only for a beneficial appropriation or use under the following criteria:</text>
+      <para>
+        <num>(1)</num>
+        <text>The amount of water to be appropriated is reasonable in relation to the anticipated level of use during the permit period;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The requested appropriation or use does not have an unreasonable impact on:</text>
+        <para>
+          <num>(a)</num>
+          <text>The waters of the State, and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Other users of the waters of the State.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Criteria for Determining Reasonableness.</text>
+      <para>
+        <num>(1)</num>
+        <text>Except for applications proposing to appropriate or use water for agricultural purposes, the Department, in determining the reasonableness of a proposed appropriation or use, may consider, when appropriate, the following factors:</text>
+        <para>
+          <num>(a)</num>
+          <text>The protection of existing water uses, land values, investments, and enterprises; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The financial hardship of requiring a new user to bear the loss of potential harm as provided in <cite path="26|17|06|.06|D.|(1)">§D(1) of this regulation</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>In determining the reasonableness of a proposed appropriation or use, the Department shall consider, when appropriate, the following factors:</text>
+        <para>
+          <num>(a)</num>
+          <text>The purpose of the use;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The suitability of the use to the watercourse, lake, or aquifer;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The extent and the amount of the harm it may cause;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>The practicality of avoiding the harm by adjusting the proposed use or method of use of the applicant or another permittee;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>The practicality of adjusting the quantity of water used by each permittee;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Aggregate changes and cumulative impact that this and future appropriations in an area may have on the waters of the State;</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>The contribution that the proposed appropriation may make to future degradation of the waters of the State;</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>Whether the proposed appropriation or use is located within a water management strategy area;</text>
+        </para>
+        <para>
+          <num>(i)</num>
+          <text>The ability of a well or spring to sustainably yield the requested amount of the appropriation; and</text>
+        </para>
+        <para>
+          <num>(j)</num>
+          <text>Whether the proposed appropriation in Carroll, Frederick, or Washington County will provide groundwater:</text>
+          <para>
+            <num>(i)</num>
+            <text>To a municipal corporation, not including those areas annexed after January 1, 2000; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>To a priority funding area established on or before January 1, 2000, under <cite doc="Md. Code" path="gsf|5-7">State Finance and Procurement Article, §5-7</cite>b-02(7), Annotated Code of Maryland.</text>
+          </para>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Special Criteria for Issuance of Surface Water Appropriation or Use Permits.</text>
+      <para>
+        <num>(1)</num>
+        <text>Except for permits issued for the appropriation and use of water for agricultural purposes, the Department may condition approval of a surface water appropriation or use permit on the permittee's provision of low flow augmentation to offset consumptive use during low flow periods to protect other users of the water and to protect the resource.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A surface water appropriation or use may be conditioned on the maintenance, by the permittee, of a required minimum flow past the point of appropriation to protect other users of the water and to protect flora and fauna within the watercourse.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Surface water appropriated or used for non-industrial heating or cooling shall be returned to the watercourse or lake from which it was appropriated.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>If the Department determines that a proposed appropriation from a surface water source would unreasonably harm the resource or other users of the resource, the Department may deny the permit and advise the applicant to file a new application for an appropriation from a different source.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Special Criteria for Issuance of Ground Water Appropriation or Use Permit.</text>
+      <para>
+        <num>(1)</num>
+        <text>Except for applicants proposing to appropriate or use water for agricultural purposes, if an applicant intends to appropriate ground water in unprecedented quantities for purposes not common to a locality, and the appropriation would cause harm to other users by lowering the water table or potentiometric surface below a level which would render the users' wells unusable, the Department may condition the issuance of the ground water appropriation or use permit on payment by the permittee of the cost of improving neighboring facilities or on mitigation of the impact on nearby users.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Department may not issue a ground water appropriation or use permit if the proposed withdrawal of ground water will directly and substantially affect a watercourse or lake and thereby cause unreasonable harm to a person entitled to the use of water from the affected watercourse or lake.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The Department may not issue a ground water appropriation or use permit for an appropriation from a confined aquifer if the appropriation, either by itself or in combination with existing appropriations, will exceed the sustained yield of the aquifer.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The regional sustained yield potentiometric surface of a confined aquifer may not be lowered below 80 percent of the drawdown available between the top of the aquifer and the historical prepumping level of the potentiometric surface. In this regulation, "regional" means an area in which water is appropriated or used from multiple wells located in a common source, or that location which, as a result of the appropriation, is 50 percent of the distance from a single well to a point where the potentiometric surface is lowered 1 foot, and has stabilized.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The permittee may not place a submersible well pump or water intake part of a well pump lower than the top of the confined aquifer from which the water is being withdrawn.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Appropriation from an Unconfined Aquifer.</text>
+        <para>
+          <num>(a)</num>
+          <text>The Department may not issue a water appropriation or use permit in excess of 5,000 gallons per day as an average annual use from an unconfined aquifer, unless the Department finds that the appropriation is sustainable by recharge to the aquifer.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Priority may be given to public water systems requesting special consideration under <cite doc="Md. Code" path="gen|5-501">Environment Article, §5-501(b), Annotated Code of Maryland</cite>, as outlined in Application for Water Allocation: Guidance Document for Public Water Systems Providing Water to Municipal Corporations or Priority Funding Areas in Carroll, Frederick, and Washington Counties (June 2014).</text>
+        </para>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>The Department may not issue a ground water appropriation or use permit to an applicant proposing to appropriate ground water for a housing subdivision located west of the fall line, if the water is to be obtained from individual wells on each residential lot where the average lot size is less than 1 acre.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>The Department may not issue a ground water appropriation or use permit if the proposed appropriation will cause or contribute to the intrusion of saltwater into a freshwater aquifer.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>The Department may not issue a ground water appropriation or use permit for non-industrial heating or cooling unless the ground water is returned to the aquifer from which it is withdrawn.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>The Department may not issue a permit for a new appropriation or an increase to an existing appropriation of water from a well which draws water from more than one confined aquifer.</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>If the Department determines that a proposed appropriation from an aquifer would unreasonably harm the aquifer or other users of the aquifer, the Department may deny the permit and advise the applicant to file a new application for an appropriation from a different aquifer.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Water Appropriation or Use Permit Conditions.</heading>
+    <para>
+      <num>A.</num>
+      <text>General.</text>
+      <para>
+        <num>(1)</num>
+        <text>The permit period shall be 12 years unless the Department determines that a shorter period is appropriate.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A permit shall contain an effective date, an expiration date, and a date the permittee first appropriated water at the site.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A permit shall contain conditions limiting the average daily appropriation or use to a quantity specified by the Department. In addition, a ground water appropriation or use permit shall limit the average daily appropriation during the month of highest use, and a surface water appropriation or use permit shall limit the maximum daily appropriation to quantities specified by the Department.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>A permit shall specify the purpose of the appropriation or use and the source and location of the appropriation or use.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>A permit shall contain a condition allowing authorized representatives of the Department to have access to the permittee's facilities to conduct reasonable inspections and evaluations necessary to assure compliance with the permit. The permittee shall provide such assistance as may be necessary to effectively and safely conduct the inspections and evaluations.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>To renew a permit, the permittee shall file a renewal application with the Department not later than 2 weeks before the expiration date on the permit.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>The Department may suspend or revoke a permit for violating the conditions of the permit, the regulations in this chapter, or the provisions of <cite doc="Md. Code" path="gen">Environment Article, Title 5, Subtitle 5, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>A permittee shall obtain a new permit before making a change in appropriation or use which would result in a new use, quantity, source, or place of use.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>A permit may not be transferred without the prior written approval of the Department. If approved, the Department shall issue a new permit, which may contain new conditions at the discretion of the Department. A permittee who wants to convey a water appropriation or use permit, and the person who wants to obtain the permit shall each state their intentions in writing to the Department.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>The Department may inactivate a permit after written notice to the permittee, if it finds that water is no longer being appropriated or used under that permit.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Non-Agricultural Water Appropriation and Use Permits.</text>
+      <para>
+        <num>(1)</num>
+        <text>This section does not apply to permits issued for the appropriation and use of water for agricultural purposes.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Department shall review an active permit at least once every 3 years, or more frequently at the discretion of the Department. During a permit review, the Department may modify the permit to adjust the quantity of the water a permittee may appropriate or use or add a condition to the permit for resource management purposes, including avoidance or mitigation of unreasonable adverse impacts on public health or the environment.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Except as otherwise provided in <cite path="|26.17.07">COMAR 26.17.07</cite>, a permit may contain a condition requiring the permittee to stop or reduce water use when directed to do so by the Department during a drought period or emergency.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Except for subdivisions served by individual domestic wells, a permit issued for an average of 10,000 or more gallons a day shall contain a condition requiring the permittee to report semiannually to the Department the quantity of water appropriated under the permit for each of the preceding 6 months. The Department may require a permittee to report daily use and may require the permittee to install flow-measuring devices.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>A ground water appropriation or use permit for an appropriation from a well 4 inches in diameter or larger shall contain a condition requiring that the pumping equipment be installed so that water levels can be measured during pumping and nonpumping periods without dismantling any equipment. Any opening for tape measurements of water levels shall have a minimum inside diameter of 0.5 inch and be sealed by a removable cap or plug. The permittee shall provide a tap for taking raw water samples before water enters a treatment facility, pressure tank, or storage tank.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Agricultural Water Appropriation or Use Permits.</text>
+      <para>
+        <num>(1)</num>
+        <text>The Department shall review an active permit at least once every 3 years, or more frequently at the discretion of the Department. During a permit review, the Department may modify the permit or add a condition to the permit for resource management purposes, including avoidance or mitigation of unreasonable adverse impacts on public health or the environment.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Public notice and opportunity for hearing requirements of <cite doc="Md. Code" path="gen|5-506">Environment Article, §5-506, Annotated Code of Maryland</cite>, do not apply to the renewal of a water appropriation or use permit for agricultural purposes if no change is intended in the use, quantity, source, and place of use.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Water Use Reporting.</text>
+        <para>
+          <num>(a)</num>
+          <text>A water appropriation or use permit for agricultural purposes may contain a condition requiring the permittee to report an estimate of total water use for each month of the preceding calendar year to the Department.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The Department shall provide the necessary water use report form to the permittee each year.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The permittee may measure water use by any method the permittee considers appropriate under the circumstances to reasonably reflect actual water use. Methods of measurement may include in-line water meters, sonic/vibration meters, induction meters, pump operation time meters, or acreage irrigated.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Temporary Permit for Emergency Appropriation.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Department may issue a temporary permit for emergency appropriation or use of water, if the time required to obtain a permit would constitute a danger to the health of people or animals, or would subject products requiring processing to spoilage.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A temporary permit is effective when issued for a period of not more than 3 months.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>If the emergency condition is anticipated to last more than 3 months, immediately after receiving a temporary permit for emergency appropriation, the temporary permittee shall apply for a permit.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Hearings.</heading>
+    <para>
+      <num>A.</num>
+      <text>If a public informational hearing is conducted, the Department shall, in accordance with <cite path="26.01.07.08">COMAR 26.01.07.08</cite>:</text>
+      <para>
+        <num>(1)</num>
+        <text>Render a decision to issue, modify, or deny the permit; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Notify the applicant and persons on the interested persons list of the decision.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>If a public informational hearing is not conducted, the Department shall, in accordance with <cite path="26.01.07.08">COMAR 26.01.07.08</cite>:</text>
+      <para>
+        <num>(1)</num>
+        <text>Render a decision to issue, modify, or deny the permit within 60 days of the Department's determination that the application is complete, unless extenuating circumstances justify an extension of time; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Notify the applicant and persons on the interested persons list of the decision.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>An aggrieved person may request a contested case hearing in accordance with <cite path="26.01.07.09">COMAR 26.01.07.09</cite>.</text>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Environment Article, §§<cite doc="Md. Code" path="gen|5-501">5-501</cite>—<cite doc="Md. Code" path="gen|5-514">5-514</cite>, Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container">Effective date:</annotation>
+    <annotation type="History" dest="container" effective="1972-05-01">Regulations <cite path="|26|17|06|.01">.01</cite>—<cite path="|26|17|06|.06">.06</cite> effective May 1, 1972</annotation>
+    <annotation type="History" dest="container" effective="1970-04-01"><cite path="|26|17|06|.07">Regulation .07</cite> effective April 1, 1970 (Regulation .07 was formerly codified as <cite path="08.05.03.03">COMAR 08.05.03.03</cite> under the chapter entitled "Surface Water".</annotation>
+    <annotation type="History" dest="container"><cite path="|26|17|06|.07">Regulation .07</cite> was placed in this chapter when the remainder of the "Surface Water" regulations were repealed.)</annotation>
+    <annotation type="History" dest="container" effective="1988-03-07">Regulations <cite path="|26|17|06|.01">.01</cite>—<cite path="|26|17|06|.07">.07</cite>, Groundwater Regulations, repealed effective March 7, 1988 (15:5 Md. R. 617)</annotation>
+    <annotation type="History" dest="container" effective="1988-03-07" discontinuity="true">Regulations <cite path="|26|17|06|.01">.01</cite>—<cite path="|26|17|06|.09">.09</cite>, Water Appropriation or Use, adopted effective March 7, 1988 (15:5 Md. R. 617)</annotation>
+    <annotation type="History" dest="container" effective="1989-01-09"><cite path="|26|17|06|.05|B.">Regulation .05B</cite> amended effective January 9, 1989 (15:27 Md. R. 3128)</annotation>
+    <annotation type="History" dest="container" discontinuity="true">Chapter recodified from <cite path="|08.05.02">COMAR 08.05.02</cite> to <cite path="|26.17.06">COMAR 26.17.06</cite>, June 1996</annotation>
+    <annotation type="History" dest="container" effective="1997-04-21"><cite path="|26|17|06|.01|B.">Regulation .01B</cite> amended effective April 21, 1997 (24:8 Md. R. 618)</annotation>
+    <annotation type="History" dest="container" effective="1997-04-21"><cite path="|26|17|06|.02|A.">Regulation .02A</cite> amended effective April 21, 1997 (24:8 Md. R. 618)</annotation>
+    <annotation type="History" dest="container" effective="1997-04-21"><cite path="|26|17|06|.03|A.">Regulation .03A</cite>, B amended effective April 21, 1997 (24:8 Md. R. 618)</annotation>
+    <annotation type="History" dest="container" effective="1997-04-21"><cite path="|26|17|06|.04">Regulation .04</cite> amended effective April 21, 1997 (24:8 Md. R. 618)</annotation>
+    <annotation type="History" dest="container" effective="1997-04-21"><cite path="|26|17|06|.05">Regulation .05</cite> amended effective April 21, 1997 (24:8 Md. R. 618)</annotation>
+    <annotation type="History" dest="container" effective="1997-04-21"><cite path="|26|17|06|.06">Regulation .06</cite> amended effective April 21, 1997 (24:8 Md. R. 618)</annotation>
+    <annotation type="History" dest="container" effective="1997-04-21"><cite path="|26|17|06|.08">Regulation .08</cite> repealed and new Regulation .08 adopted effective April 21, 1997 (24:8 Md. R. 618)</annotation>
+    <annotation type="History" dest="container" effective="1997-04-21"><cite path="|26|17|06|.09">Regulation .09</cite> repealed effective April 21, 1997 (24:8 Md. R. 618)</annotation>
+    <annotation type="History" dest="container" effective="2014-12-22" discontinuity="true">Chapter revised effective December 22, 2014 (41:25 Md. R. 1486)</annotation>
+  </annotations>
+</container>

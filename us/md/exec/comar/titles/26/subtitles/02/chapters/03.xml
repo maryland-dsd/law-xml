@@ -1,0 +1,379 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>03</num>
+  <heading>Control of Noise Pollution</heading>
+  <text class="center">Preface</text>
+  <text>The Environmental Noise Act of 1974 of the State of Maryland declares as policy the limitation of noise to that level which will protect the health, general welfare, and property of the people of the State. It requires that the Department assume responsibility to prepare regulations for the control of noise, including the establishment of standards for ambient noise levels and equipment performance with respect to noise, for adoption by the Secretary of the Environment. It allows political subdivisions to adopt environmental noise standards. Enforcement of the regulations and standards is the responsibility of political subdivisions in all areas.</text>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>"ANSI" means American National Standards Institute or its successor bodies.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>"Construction" means any site preparation, assembly, erection, repair, alteration, or similar activity.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>"Curtilage" means the enclosed land surrounding a house or dwelling and includes all areas maintained in lawn or horticultural plantings and may be bounded by a fence or wall, but would not typically include areas more distant than 300 feet from the dwelling unless those areas were horticulturally maintained and routinely used as areas of personal refuge, or supported accessory structures that were routinely utilized.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>"Daytime hours" means 7 a.m. to 10 p.m., local time.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>"dBA" means abbreviation for the sound level in decibels determined by the A-weighting network of a sound level meter or by calculation from octave band or one-third octave band data.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>"Decibel (dB)" means a unit of measure equal to ten times the logarithm to the base ten of the ratio of the square of the sound pressure to the square of a standard reference pressure. For the purpose of this subtitle, 20 micropascals shall be the standard reference pressure.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>"Demolition" means any dismantling, destruction, or removal activities.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>"Department" means the Department of the Environment.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>"Emergency" means any occurrence or set of circumstances involving actual or imminent physical trauma or property damage which demands immediate action.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>"Environmental noise" means the noise that exists at any location from all sources.</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>"Environmental noise standards" means the goals for environmental noise, the attainment and maintenance of which, in defined areas and under specific conditions, are necessary to protect the public health and general welfare.</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>"Equivalent sound level" (also "average sound level") means the level of a constant sound which, in a given situation and time period, would convey the same sound energy as does the actual time-varying sound during the same period. Equivalent sound level is the level of the time weighted, mean-square, A-weighted sound pressure. A numerical subscript may be used to indicate the time period under consideration; i.e., L<sub>eq</sub>24 or L<sub>eq</sub>8 for 24-hour and 8-hour periods, respectively. No subscript indicates a 24-hour period. The mathematical expression for the L<sub>eq</sub> is as follows:</text>
+        <text>
+          <img alt="Embedded Image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA7QAAACKAQAAAACyJDtDAAAAAmJLR0QAAKqNIzIAAAAMY21QUEpDbXAwNzEyAAAAB09tt6UAAAQKSURBVHja7dpLbts4GABgGhxEmwLcFphiOEdoV80iU/Umg94gs/MiiBRo0U3RHCFHGRkG6l19hGFGA3g5NLIoAxD8y4cskX4nRaGHxUUSUSQ/hfpJipYRNJI4GtzBHdzBHdzB7ZEbn5arTswV5LTcU7u/J+e+7bUbbbhnuMduvuHC1V89duWmK/vsbsYVQNEzV6LRXne+T4m76HpFQ9ee+KM8eLwzP/8JCuSIdtDd1c/ctCpXZ02fPn6byQ+SdNv1J/7Ata3K+apcAvCwWIicz+sirE/uhPutGrdAD0IsF611/ZAJejA+xq0PvoGk1p0uH5xbtuDcdGzH4l3z7sa8RwDFT3czYNi6s2Xh3PIWlO45QsS03bS7MW+nRBF9WhzjquqAYciYvE6g+LJcOFfQonZ5nAJ25Vvm5kTS6W5XBS5Z/SUwRHz8e0yLvJizy7mpFU999wYmoHAbXHGGgrZEPAmvx3cZ8k9ULmSK8Et0TZf3C2AXxhJxFrq5W0Gad9G5KYaQbbJyWQyj6RY32eXqW6N/wO2q4EvbnnXFpe1n0Q73l7E9RHaJ1lUTZnoJjUQ5icpdGy/flcaVsyoj1S5duSnS7g3wvBXuf6afH6u44tZ9FzFxgfe7Yt0VdUnMKa7iCqEk1TMyY0kb3LVxxBPdHeJCj4tr8kSXZ1VGJGg1jhRh2sVwb0Zn4+7fIBI/rnhsXcpfX9MnuvfL6vJ9V+r/JYVUPxa1waXAE3/e4GbeMO75eeUqtJ7ommvnjYkJnPJ2+S7lyQ2YvqatcP1UzpPGvSrnxGPdJGyGZv+HbmyfdZp25bprF2w7jsosE1cyKCSTjbhSEfddO45mXlxNtEvMU0PTLt9w6Ued/44wfl+7QSducTFgFrSj58nsFqp5w6z7eljihl1VRkidcpSYu59HaMRRlOnVf4sr1l2GaB7uePQ6kFKo1oVXGuIERg27UM4Wvmv3KDlhkUDRtKDOzQOXr7u6MRFeP3+B7V6nXPd1ihgWemQ26+5LHLJidufccL9aHh3zyso916nyotgx+/2mXAYfa/dPm0WV/ZX+6i6MHmriWZ9vNOVyRCvXRZJZLE3flnHl3KQvrkRQuW5Bl1vcA+/pOuTqlP5Lfbeq67kHBlPHXAF+XG1zZdwj1ybbz+Og7lXt/pS4atzloTv23P3vnbvqfvAf2/gbzz2b99HFnxKvLs4rF34jPXQV/RzXOYqK2l19UtYrF+Br7Oc512XNe+mGO5VHz73tpfsQ5PXfzWI/z8ZV+fAT7avcQdd9upsGrttjWlft+x4Ue99Bd/vLWpWww3XTH/heQctcQSaH6/7I9yiacnckHmXPqtZZ125JT8dV/ivKE3CfmQZ3cAd3cAd3cAd3cH+6+x2PnJDOx7i72gAAAABJRU5ErkJggg=="/>
+        </text>
+        <text>where t<sub>1</sub> and t<sub>2</sub> are the beginning and ending times, respectively, of the period over which the average is determined, and L<sub>A</sub> (t) is the instantaneous A-weighted sound pressure level fluctuating with time.</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>"IEC" means International Electrotechnical Commission.</text>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>"Nighttime hours" means 10 p.m. to 7 a.m., local time.</text>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>"Noise" means the intensity, frequency, duration, and character of sound, including sound and vibration of sub-audible frequencies.</text>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>"Noise pollution" means the presence of noise of sufficient loudness, character, and duration, which whether from a single source or multiple sources, is, or may be predicted with reasonable certainty to be, injurious to health or which unreasonably interferes with the proper enjoyment of property or with any lawful business or activity.</text>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>"Periodic noise" means noise possessing a repetitive on-and-off characteristic with a rapid rise to maximum and a short decay not exceeding 2 seconds.</text>
+      </para>
+      <para>
+        <num>(18)</num>
+        <text>"Person" means any individual, group of individuals, firm, partnership, voluntary association, or private, public, or municipal corporation, or political subdivision of the State, or department, bureau, agency, or instrument of federal, State, or local government, responsible for the use of property.</text>
+      </para>
+      <para>
+        <num>(19)</num>
+        <text>"Prominent discrete tone" means any sound which can be distinctly heard as a single pitch or a set of single pitches. For the purposes of this regulation, a prominent discrete tone shall exist if the one-third octave band sound pressure level in the band with the tone exceeds the arithmetic average of the sound pressure levels of the 2 contiguous one-third octave bands by 5 dB for center frequencies of 500 Hz and above and by 8 dB for center frequencies between 160 and 400 Hz and by 15 dB for center frequencies less than or equal to 125 Hz.</text>
+      </para>
+      <para>
+        <num>(20)</num>
+        <text>"Sound level" means, in decibels, the weighted sound pressure level measured by the use of a sound level meter. Sound level and noise level are synonymous. The weighting employed shall always be specified.</text>
+      </para>
+      <para>
+        <num>(21)</num>
+        <text>"Sound level meter" means an instrument, meeting International Electrotechnical Commission and American National Standards Institute standards comprising a microphone, an amplifier, an output meter, and frequency weighting network(s) that is used for the measurement of sound pressure levels in a specified manner.</text>
+      </para>
+      <para>
+        <num>(22)</num>
+        <text>Sound Pressure.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Sound pressure" means the minute fluctuations in atmospheric pressure which accompany the passage of a sound wave.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Sound pressure is usually measured in dynes per square centimeter (dyne/cm<sup>2</sup>), or in newtons per square meter (N/m<sup>2</sup>), or in micropascals.</text>
+        </para>
+      </para>
+      <para>
+        <num>(23)</num>
+        <text>"Sound pressure level" means, in decibels, 20 times the logarithm to the base ten of the ratio of a sound pressure to the reference sound pressure of 20 micropascals (20 micronewtons per square meter). In the absence of any modifier, the pressure is understood to be that of a root mean-square pressure.</text>
+      </para>
+      <para>
+        <num>(24)</num>
+        <text>"Source" means any person or property, real or personal, contributing to noise pollution.</text>
+      </para>
+      <para>
+        <num>(25)</num>
+        <text>"Vibration" means any oscillatory motion of solid bodies.</text>
+      </para>
+      <para>
+        <num>(26)</num>
+        <text>"Zoning district" means a general land use category, defined according to local subdivision, the activities and uses for which are generally uniform throughout the subdivision. For the purposes of this regulation, property which is not zoned "industrial", "commercial", or "residential" shall be classified according to use as follows:</text>
+        <para>
+          <num>(a)</num>
+          <text>"Industrial" means property used for manufacturing and storing goods;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Commercial" means property used for buying and selling goods and services;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>"Residential" means property used for dwellings.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="26|02|03|.02">
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Environmental Noise Standards.</heading>
+    <para>
+      <num>A.</num>
+      <text>Precepts.</text>
+      <para>
+        <num>(1)</num>
+        <text>It is known that noise above certain levels is harmful to the health of humans. Although precise levels at which all adverse health effects occur have not definitely been ascertained, it is known that one's well-being can be affected by noise through loss of sleep, speech interference, hearing impairment, and a variety of other psychological and physiological factors. The establishment of ambient noise standards, or goals, must provide margins of safety in reaching conclusions based on available data which relate noise exposure to health and welfare effects, with due consideration to technical and economic factors.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The environmental noise standards set forth here represent goals expressed in terms of equivalent A-weighted sound levels which are protective of the public health and welfare. The ambient noise levels shall be achieved through application, under provisions of laws or regulations or otherwise, of means for reducing noise levels including, but not limited to, isolation of noise producing equipment, dampening of sound waves by insulation, equipment modification and redesign, and land use management.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Standards for Environmental Noise — General.</text>
+      <para>
+        <num>(1)</num>
+        <text>A person may not cause or permit noise levels which exceed those specified in this table except as provided in §B(2) or (3), or §C, of this regulation.</text>
+        <text>
+          <table class="no-border-heading">
+            <thead>
+              <tr>
+                <th colspan="4">Table 1 <br/>Maximum Allowable Noise Levels (dBA)<br/>for Receiving Land Use Categories</th>
+              </tr>
+              <tr>
+                <th>Day/Night</th>
+                <th>Industrial</th>
+                <th>Commercial</th>
+                <th>Residential</th>
+              </tr>
+              <tr>
+                <th>Day</th>
+                <th>75</th>
+                <th>67</th>
+                <th>65</th>
+              </tr>
+              <tr>
+                <th>Night</th>
+                <th>75</th>
+                <th>62</th>
+                <th>55</th>
+              </tr>
+            </thead>
+          </table>
+        </text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A person may not cause or permit noise levels emanating from construction or demolition site activities which exceed:</text>
+        <para>
+          <num>(a)</num>
+          <text>90 dBA during daytime hours;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The levels specified in Table 1 during nighttime hours.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A person may not cause or permit the emission of prominent discrete tones and periodic noises which exceed a level which is 5 dBA lower than the applicable level listed in Table 1.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>A person may not cause or permit, beyond the property line of a source, vibration of sufficient intensity to cause another person to be aware of the vibration by such direct means as sensation of touch or visual observation of moving objects. The observer shall be located at or within the property line of the receiving property when vibration determinations are made.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>A person may not operate or permit to be operated an off-road internal combustion engine powered recreational vehicle, including, but not limited to, a dirt bike, an all terrain vehicle, a go cart, a snowmobile, or a similar vehicle, on private property closer than 300 feet to a neighboring residence or the associated curtilage, without the written permission of the affected resident, unless it can be demonstrated to the Department that the vehicle can be operated within the noise limits specified in Table 1 under <cite path="26|02|03|.02|B.|(1)">§B(1) of this regulation</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Exemptions.</text>
+      <para>
+        <num>(1)</num>
+        <text>The provisions of this regulation may not apply to devices used solely for the purpose of warning, protecting, or alerting the public, or some segment thereof, of the existence of an emergency or hazardous situation.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The provisions of this regulation do not apply to the following:</text>
+        <para>
+          <num>(a)</num>
+          <text>Household tools and portable appliances in normal usage during daytime hours;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Lawn care and snow removal equipment (daytime only) when used and maintained in accordance with the manufacturer's specifications;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Agricultural field machinery when used and maintained in accordance with manufacturer's specifications;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Blasting operations for demolition, construction, and mining or quarrying (daytime only);</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Motor vehicles on public roads;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Aircraft and related airport operations at airports licensed by the Maryland Aviation Administration;</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>Boats on State waters or motor vehicles on State lands under the jurisdiction of the Department of Natural Resources;</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>Emergency operations;</text>
+        </para>
+        <para>
+          <num>(i)</num>
+          <text>Pile driving equipment during the daytime hours of 8 a.m. to 5 p.m.;</text>
+        </para>
+        <para>
+          <num>(j)</num>
+          <text>Sound except those sounds that are electronically amplified, between 7 a.m. and midnight, created by:</text>
+          <para>
+            <num>(i)</num>
+            <text>Sporting events (except trap shooting, skeet shooting, or other target shooting);</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Entertainment events; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Other public gatherings operating under permit or permission of the appropriate local jurisdiction;</text>
+          </para>
+        </para>
+        <para>
+          <num>(k)</num>
+          <text>Rapid rail transit vehicles and railroads;</text>
+        </para>
+        <para>
+          <num>(l)</num>
+          <text>Construction and repair work on public property;</text>
+        </para>
+        <para>
+          <num>(m)</num>
+          <text>Air conditioning or heat pump equipment used to cool or heat housing on residential property; for this equipment, a person may not cause or permit noise levels which exceed 70 dBA for air conditioning equipment at receiving residential property and 75 dBA for heat pump equipment at receiving residential property;</text>
+        </para>
+        <para>
+          <num>(n)</num>
+          <text>Household pets on residential property that are maintained in accordance with local zoning requirements;</text>
+        </para>
+        <para>
+          <num>(o)</num>
+          <text>Except in Allegany, Anne Arundel, Baltimore City, Calvert, Charles, Garrett, Howard, Montgomery, St. Mary's, and Washington Counties, trap shooting, skeet shooting, or other target shooting between the hours of 9 a.m. and 10 p.m. on any range or other property of a shooting sports club that is chartered and in operation as of January 1, 2001;</text>
+        </para>
+        <para>
+          <num>(p)</num>
+          <text>Trash collection operations between the hours of 7 a.m. and 10 p.m.</text>
+        </para>
+        <para>
+          <num>(q)</num>
+          <text>Marina equipment used to move boats during the period from 7 am to 7 pm provided that the noise level does not exceed 80 dBA at 20 meters from the equipment.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The events and gatherings under <cite path="26|02|03|.02|B.|(2)|(j)">§B(2)(j) of this regulation</cite> include, but are not limited to, athletic contests, amusement parks, carnivals, fairs at fairgrounds, sanctioned auto racing facilities, parades, and public celebrations.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>In Frederick County or Frederick City, a fair listed in the Maryland agricultural fairs and shows schedule that is maintained by the Maryland Agricultural Fair Board, or any other event held on the same grounds and listed by the Agricultural Fair Board, is exempt from this chapter.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Measurement.</text>
+      <para>
+        <num>(1)</num>
+        <text>The equipment and techniques employed in the measurement of noise levels may be those recommended by the Department, which may, but need not, refer to currently accepted standards or recognized organizations, including, but not limited to, the American National Standards Institute (ANSI), American Society for Testing and Materials (ASTM), Society of Automotive Engineers (SAE), International Electrotechnical Commission (IEC) and the United States Environmental Protection Agency (EPA).</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The measurement of noise levels shall be conducted at points on or within the property line of the receiving property or the boundary of a zoning district, and may be conducted at any point for the determination of identity in multiple source situations.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Sound level meters used to determine compliance with Regulation .02 shall meet or exceed the specifications for Type II sound level meters.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Repealed</heading>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Repealed.</heading>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Penalties.</heading>
+    <para>
+      <num>A.</num>
+      <text>Civil Penalty. Any person who willfully violates these regulations shall be liable to a civil penalty of not more than $10,000. Each day during which a violation continues there shall be liability for a separate penalty.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Plan for Compliance. A violator who has submitted a plan for compliance with these regulations and has that plan or amendments to it approved by the Secretary, upon recommendation of the Department, may not be considered to be in violation of these regulations as long as he acts in accordance with the original or amended plan.</text>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container"><cite doc="Md. Code" path="gen|3-401">Environment Article, §3-401, </cite>Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="1975-08-06">Effective date: August 6, 1975 (2:17 Md. R. 1189)</annotation>
+    <annotation type="History" dest="container" effective="1983-03-28"><cite path="|26|02|03|.01|A.">Regulation .01A</cite>-1, W-1 adopted effective February 15, 1982 (9:3 Md. R. 222); repealed effective March 28, 1983 (10:6 Md. R. 558)</annotation>
+    <annotation type="History" dest="container" effective="1977-09-14">Regulations .01 and .03A, B, D amended effective September 14, 1977 (4:19 Md. R. 1468)</annotation>
+    <annotation type="History" dest="container" effective="1983-03-28"><cite path="|26|02|03|.01|C.">Regulation .01C</cite> amended effective March 28, 1983 (10:6 Md. R. 558)</annotation>
+    <annotation type="History" dest="container" effective="1982-02-15">Regulations .01C, Q; .02B; .03B, D amended effective February 15, 1982 (9:3 Md. R. 222)</annotation>
+    <annotation type="History" dest="container" effective="1979-11-13"><cite path="|26|02|03|.03|A.">Regulation .03A</cite> amended as an emergency provision effective November 13, 1979 (6:24 Md. R. 1917); emergency status expired March 29, 1980</annotation>
+    <annotation type="History" dest="container" effective="1983-03-28"><cite path="|26|02|03|.03|A.">Regulation .03A</cite> and B amended effective March 28, 1983 (10:6 Md. R. 558)</annotation>
+    <annotation type="History" dest="container" effective="1977-09-14"><cite path="|26|02|03|.04">Regulation .04</cite> repealed effective September 14, 1977 (4:19 Md. R. 1468)</annotation>
+    <annotation type="History" dest="container" discontinuity="true">Chapter recodified from <cite path="|10.20.01">COMAR 10.20.01</cite> to <cite path="|26.02.03">COMAR 26.02.03</cite></annotation>
+    <annotation type="History" dest="container" effective="2004-06-21"><cite path="|26|02|03|.01">Regulation .01</cite> amended effective June 21, 2004 (31:12 Md. R. 913)</annotation>
+    <annotation type="History" dest="container" effective="2004-06-21"><cite path="|26|02|03|.03">Regulation .03</cite> amended effective June 21, 2004 (31:12 Md. R. 913)</annotation>
+    <annotation type="History" dest="container" effective="2013-02-04" discontinuity="true">Chapter revised effective February 4, 2013 (40:2 Md. R 73)</annotation>
+  </annotations>
+</container>

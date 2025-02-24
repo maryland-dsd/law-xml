@@ -1,0 +1,2683 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>09</num>
+  <heading>Small Generator Facility Interconnection Standards</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Scope.</heading>
+    <para>
+      <num>A.</num>
+      <text>This chapter applies to a small generator facility seeking to interconnect and operate in parallel with the electric distribution system. All small generator facilities shall interconnect under requirements in this chapter or under the physical interconnection requirements of the PJM Interconnection, LLC under the authority of FERC.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A small generator facility seeking to interconnect and operate in parallel with the electric distribution system under this chapter shall meet one of the following criteria:</text>
+      <para>
+        <num>(1)</num>
+        <text>The small generator facility is a qualifying facility pursuant to the Public Utility Regulatory Policies Act that intends to make sales at a rate approved by the Maryland Commission;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The small generator facility is not a qualifying facility pursuant to the Public Utility Regulatory Policies Act and does not intend to make sales of wholesale electric energy through the PJM Interconnection, LLC;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The small generator facility intends to make sales of wholesale electric energy through the PJM Interconnection, LLC at an electric distribution interconnection facility where there has been no prior FERC jurisdictional service;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The small generator facility intends to make sales of wholesale electric energy through the PJM Interconnection, LLC only at an electric distribution interconnection facility through participation in a distributed energy resource aggregation; or</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The small generator facility will be interconnected to an electric distribution circuit and its energy will not be transmitted across state lines for a wholesale customer other than the electric distribution owner.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Market processes under FERC jurisdiction that are administered by the PJM Interconnection, LLC may not impede the interconnection timeline requirements in this chapter unless the utility has good cause to believe that equipment upgrades exceeding minor equipment modifications and related modifications to the interconnection agreement will be needed to facilitate these market processes. In these cases, the utility shall notify the interconnection customer in writing of their rationale to delay approval of the interconnection request until the conclusion of the PJM Interconnection, LLC's market process study.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>In situations where an interconnected small generator facility project intends to change their energy sales strategy from market processes under FERC jurisdiction to retail processes under this chapter, the small generator facility shall submit an interconnection request.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>“Adverse system impact” means a negative effect, due to technical or operational limits on conductors or equipment being exceeded, that may compromise the safety or reliability of the electric distribution system.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>“Affected system” means a utility electric system that is affected by the interconnection of a small generator facility to another utility’s electric distribution system.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>“Aggregate generation” means the aggregated net system capacities of all small generator facilities across multiple points of common coupling.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>“Applicant” means a person who has submitted an interconnection request to interconnect a small generator facility to a utility's electric distribution system.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>“Area network” means a type of electric distribution system served by multiple transformers interconnected in an electrical network circuit, often used in large, densely populated metropolitan areas.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>“Certificate of completion” means a certificate provided by a utility to an applicant containing information about the interconnection equipment used, its installation, and local inspections.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>“Closed circuit” means an electric distribution system circuit with no available hosting capacity.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>“Commissioning test” means one of several tests applied to a small generator facility by the applicant after construction is completed to verify that the small generator facility does not create adverse system impacts, including the test specified in Section 5.4 of IEEE Standard 1547.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>“Default utility required inverter settings profile” means a utility set of default smart inverter settings optimized for use across a utility’s service territory.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>“Distributed energy resource” means any geographically dispersed energy resource located on an electric distribution system that produces electricity or offsets electrical demand including small generator facilities, energy storage devices, energy efficiency devices, and demand response devices.</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>“Distribution upgrade” means a required addition or modification to the utility electric distribution system, excluding the interconnection facilities, necessary to accommodate the interconnection of a small generator facility.</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>“Draw-out type circuit breaker” means a molded case switching device that:</text>
+        <para>
+          <num>(a)</num>
+          <text>Can be inserted into or removed from its enclosure during no-load conditions; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Is capable of making, carrying, and breaking currents under normal and abnormal circuit conditions.</text>
+        </para>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>Electric Distribution System.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Electric distribution system” means the facilities and equipment used to transmit electricity generally at less than 69 kV to ultimate usage points such as homes and industries from interchanges with higher voltage transmission networks that transport bulk power over longer distances.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Electric distribution system” has the same meaning as the term Area EPS as defined in Section 3.1.6.1 of IEEE Standard 1547.</text>
+        </para>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>“Energy Storage Device” means a piece of equipment that captures energy produced at one time, stores that energy for a period of time, and delivers that energy as electricity at a future time.</text>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>“Fault current” means the electrical current that flows through a circuit during an electrical fault condition, such as when one or more electrical conductors contact ground or each other.</text>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>“Grid support services” means compensated or uncompensated services unrelated to wholesale markets provided by a small generator facility that support the safety, stability, reliability, or economics of the electric grid.</text>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>“Hosting capacity” means the amount of aggregate generation that can be accommodated on an electric distribution system or area, or a system component, without requiring infrastructure upgrades.</text>
+      </para>
+      <para>
+        <num>(18)</num>
+        <text>“Hosting capacity reporting system” means the information available on a utility website providing reports, tabular data, or maps of hosting capacity available on the electric distribution system.</text>
+      </para>
+      <para>
+        <num>(19)</num>
+        <text>“Hosting capacity upgrade plan” means a utility plan to promote clean energy interconnection for a particular area or a proposal to open multiple restricted and closed circuits or areas on an electric system in the aggregate through proactive distribution system investments that includes a cost allocation and recovery proposal, under conditions that are approved by the Commission.</text>
+      </para>
+      <para>
+        <num>(20)</num>
+        <text>“IEEE Standard 1547” means the standard incorporated by reference in <cite path="20.50.02.02">COMAR 20.50.02.02</cite>.</text>
+      </para>
+      <para>
+        <num>(21)</num>
+        <text>“IEEE Standard 1547.1” means the standard incorporated by reference in <cite path="20.50.02.02">COMAR 20.50.02.02</cite>.</text>
+      </para>
+      <para>
+        <num>(22)</num>
+        <text>“Inadvertent export” means the unscheduled export of power from a small generator facility, beyond a specified magnitude and for a limited duration, generally due to fluctuations in load-following behavior.</text>
+      </para>
+      <para>
+        <num>(23)</num>
+        <text>“Interconnection agreement” means an agreement that contains details regarding the proposed interconnection equipment and its operation to ensure the reliability and safety of the grid, including schedules, rights, obligations, and terms and conditions that become effective on the date the agreement is executed by the utility and the interconnection customer.</text>
+      </para>
+      <para>
+        <num>(24)</num>
+        <text>“Interconnection customer” means an entity that proposes to interconnect or has interconnected a small generator facility to an electric distribution system.</text>
+      </para>
+      <para>
+        <num>(25)</num>
+        <text>Interconnection Equipment.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Interconnection equipment” means a group of components or an integrated system connecting an electric generator with a local electric power system, or an electric distribution system.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Interconnection equipment” means all interface equipment including switchgear, protective devices, inverters, or other interface devices.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>“Interconnection equipment” includes equipment installed as part of an integrated equipment package that includes a generator or other electric source.</text>
+        </para>
+      </para>
+      <para>
+        <num>(26)</num>
+        <text>Interconnection Facilities.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Interconnection facilities” means facilities and equipment required by the utility to accommodate the interconnection of a small generator facility.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Interconnection facilities” includes all facilities and equipment between the small generator facility and the point of interconnection, and modifications, additions, or upgrades that are necessary to physically and electrically interconnect the small generator facility to the electric distribution system.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>“Interconnection facilities” includes any distribution upgrade.</text>
+        </para>
+      </para>
+      <para>
+        <num>(27)</num>
+        <text>“Interconnection facility cost sharing” means the allocation of distribution interconnection facility upgrade costs among multiple small generator facility projects that utilize the hosting capacity created by an interconnection facility upgrade.</text>
+      </para>
+      <para>
+        <num>(28)</num>
+        <text>“Interconnection request” means an applicant's request for the interconnection of a small generator facility, or to increase the capacity or operating characteristics of a small generator facility that is already interconnected with the utility's electric distribution system.</text>
+      </para>
+      <para>
+        <num>(29)</num>
+        <text>“Interconnection study” means an interconnection feasibility study, interconnection system impact study, or interconnection facilities study as described in <cite path="|20|50|09|.12">Regulation .12 of this chapter</cite>.</text>
+      </para>
+      <para>
+        <num>(30)</num>
+        <text>“Limited export agreement” means an agreement for energy supplied to the grid by an interconnection customer that may be managed to specified ramp rates and generation levels for operating conditions, as specified in the interconnection agreement or in a separate limited export agreement.</text>
+      </para>
+      <para>
+        <num>(31)</num>
+        <text>“Line section” means that portion of a utility electric distribution system connected to an interconnection customer, bounded by automatic sectionalizing devices, or the end of the distribution line.</text>
+      </para>
+      <para>
+        <num>(32)</num>
+        <text>Local Electric Power System.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Local electric power system” means those facilities that deliver electric power to a load that are contained entirely within a single premises or group of premises.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Local electric power system” has the same meaning as the term local electric power system as defined in Section 3.1.6.2 of IEEE Standard 1547.</text>
+        </para>
+      </para>
+      <para>
+        <num>(33)</num>
+        <text>“Meter collar adapter” means an electronic device that is installed between a residential electric meter and the meter socket, for the purpose of facilitating the deployment of customer-owned or customer-leased technology.</text>
+      </para>
+      <para>
+        <num>(34)</num>
+        <text>“Minor equipment modification” means a change to the proposed small generator facility that does not have a significant impact on safety or reliability of the electric distribution system.</text>
+      </para>
+      <para>
+        <num>(35)</num>
+        <text>“Minor system modification” means a change to the distribution system:</text>
+        <para>
+          <num>(a)</num>
+          <text>Located between the service tap on the distribution circuit and the meter serving the applicant; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>That the utility estimates will entail less than 4 hours of work and less than $1,500 in materials.</text>
+        </para>
+      </para>
+      <para>
+        <num>(36)</num>
+        <text>“Nameplate capacity” means the maximum rated output of a generator at a point of common coupling of all electric power production equipment or energy storage devices under specific conditions designated by the manufacturer that is usually listed on a nameplate physically attached to the equipment.</text>
+      </para>
+      <para>
+        <num>(37)</num>
+        <text>“Nationally recognized testing laboratory (NRTL)” means a qualified private organization recognized by the Occupational Safety and Health Administration to perform independent safety testing and product certification.</text>
+      </para>
+      <para>
+        <num>(38)</num>
+        <text>“Net system capacity” means the total export capacity at a point of common coupling of a small generator facility as measured by the nameplate capacities of all power production units and energy storage devices minus their consumption of electrical power, if applicable, as limited through the use of a control system, power relays, or other similar device settings or adjustments.</text>
+      </para>
+      <para>
+        <num>(39)</num>
+        <text>“Parallel operation” means the sustained state of operation over 100 milliseconds which occurs when a small generator facility is connected electrically to the electric distribution system, and thus has the ability for electricity to flow from the small generator facility to the electric distribution system.</text>
+      </para>
+      <para>
+        <num>(40)</num>
+        <text>“Permission to operate notice” means the written permission provided by a utility in the form of an email or letter authorizing an interconnection customer to interconnect and operate its small generator interconnection facility.</text>
+      </para>
+      <para>
+        <num>(41)</num>
+        <text>“Point of common coupling” means the point of interconnection where the small generator facility is electrically connected to the electric distribution system.</text>
+      </para>
+      <para>
+        <num>(42)</num>
+        <text>“Point of interconnection” has the same meaning as the term “point of common coupling”.</text>
+      </para>
+      <para>
+        <num>(43)</num>
+        <text>“Primary line” means a distribution line rated at greater than 600 volts.</text>
+      </para>
+      <para>
+        <num>(44)</num>
+        <text>“Primary voltage hosting capacity upgrade cost” means the equipment upgrade costs of all interconnection equipment, interconnection facilities, protective devices and associated communications systems, and other upgrades that directly increase hosting capacity for multiple primary voltage and secondary voltage interconnection customers while excluding equipment upgrade costs that solely benefit a single interconnection customer, to the extent practicable and material.</text>
+      </para>
+      <para>
+        <num>(45)</num>
+        <text>“Primary voltage interconnection customer” means an interconnection customer with a point of interconnection at greater than 600 nominal volts.</text>
+      </para>
+      <para>
+        <num>(46)</num>
+        <text>Proposed Use.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Proposed use” means the operational control modes of a small generator facility upon which the applicant’s technical review is based and under which the small generator facility is bound to operate upon the execution of the interconnection agreement.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Proposed use” for a small generator facility includes a combination of electric generators and energy storage devices operating in specified operational control modes during specified time periods.</text>
+        </para>
+      </para>
+      <para>
+        <num>(47)</num>
+        <text>“Queue position” means the order of a completed interconnection request, relative to all other pending completed interconnection requests, that is established based upon the date and time of receipt of the completed interconnection request by the utility.</text>
+      </para>
+      <para>
+        <num>(48)</num>
+        <text>“Radial distribution circuit” means a circuit configuration in which independent feeders branch out radially from a common source of supply.</text>
+      </para>
+      <para>
+        <num>(49)</num>
+        <text>“Reserve hosting capacity” means the amount of hosting capacity reserved for small generator facilities on an electric distribution system circuit.</text>
+      </para>
+      <para>
+        <num>(50)</num>
+        <text>“Restricted circuit” means an electric system distribution circuit with reserve hosting capacity.</text>
+      </para>
+      <para>
+        <num>(51)</num>
+        <text>“Rightsizing” means to increase the size, scope, and cost of an electric utility hosting capacity upgrade project, following a distributed energy resource interconnection request, to account for both the immediate interconnection customer’s needs and future hosting capacity needs that are identified by the electric utility through a distributed energy resource forecast.</text>
+      </para>
+      <para>
+        <num>(52)</num>
+        <text>“Scoping meeting” means a meeting between the applicant and utility conducted for the purpose of discussing alternative interconnection options, exchanging information, including any electric distribution system data and earlier study evaluations that would be reasonably expected to impact interconnection options, analyzing information, and determining the potential feasible points of interconnection.</text>
+      </para>
+      <para>
+        <num>(53)</num>
+        <text>“Secondary line” means a service line subsequent to the primary line that is rated for 600 volts or less, also referred to as the customer's service line.</text>
+      </para>
+      <para>
+        <num>(54)</num>
+        <text>“Secondary voltage hosting capacity upgrade cost” means the costs of all primary voltage and secondary voltage interconnection equipment upgrades that directly increase secondary voltage hosting capacity available to multiple secondary voltage interconnection customers while excluding all primary voltage and secondary voltage interconnection equipment upgrade costs that solely benefit a single interconnection customer, to the extent practicable and material.</text>
+      </para>
+      <para>
+        <num>(55)</num>
+        <text>“Secondary voltage interconnection customer” means an interconnection customer with a point of interconnection at less than or equal to 600 nominal volts.</text>
+      </para>
+      <para>
+        <num>(56)</num>
+        <text>“Shared transformer" means a transformer that supplies secondary source voltage to more than one customer.</text>
+      </para>
+      <para>
+        <num>(57)</num>
+        <text>“Site-specific utility required inverter settings profile” means a set of smart inverter settings optimized for use at a specific site on a utility’s electric system.</text>
+      </para>
+      <para>
+        <num>(58)</num>
+        <text>Small Generator Facility.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Small generator facility” means the equipment used to generate or store electricity that operates in parallel with the electric distribution system.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Small generator facility” includes an electric generator, a prime mover, energy storage device, and the interconnection equipment required to safely interconnect with the electric distribution system or local electric power system.</text>
+        </para>
+      </para>
+      <para>
+        <num>(59)</num>
+        <text>“Smart Inverter” means any inverter hardware system certified to be compliant with IEEE 1547-2018 or subsequent revisions to these standards.</text>
+      </para>
+      <para>
+        <num>(60)</num>
+        <text>Spot Network.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Spot network” means a type of electric distribution system that uses two or more inter-tied transformers to supply an electrical network circuit.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Spot network” is generally used to supply power to a single customer or a small group of customers.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>“Spot network” has the same meaning as the term is defined in 4.1.4 of IEEE Standard 1547.</text>
+        </para>
+      </para>
+      <para>
+        <num>(61)</num>
+        <text>“Statewide utility required inverter settings profile” or “grid code” means a set of smart inverter settings optimized for use Statewide that can be used by utilities and manufacturers in establishing defaults.</text>
+      </para>
+      <para>
+        <num>(62)</num>
+        <text>“Utility monitoring and control plan” means a plan to monitor and control, in the aggregate, a set of small generator facilities in multiple locations that includes a cost recovery method, under conditions that are approved by the Commission.</text>
+      </para>
+      <para>
+        <num>(63)</num>
+        <text>“Utility required inverter settings profile” means smart inverter settings for a small generator facility that are established by a utility.</text>
+      </para>
+      <para>
+        <num>(64)</num>
+        <text>“Witness test” means, for lab-certified or field-approved equipment, verification either by an on-site observation or review of documents by the utility that the interconnection installation evaluation required by Section 5.3 of IEEE Standard 1547 and the commissioning test required by Section 5.4 of IEEE Standard 1547 have been adequately performed.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Acceptable Standards.</heading>
+    <text>The technical standard to be used in evaluating all interconnection requests under Level 1, Level 2, Level 3, and Level 4 reviews, unless otherwise provided for in this chapter, is IEEE Standard 1547.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Interconnection Requests.</heading>
+    <para>
+      <num>A.</num>
+      <text>Applicants seeking to interconnect a small generator facility shall submit an interconnection request to the utility that owns the electric distribution system to which interconnection is sought.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>An interconnection request shall be in the form and format specified by the utility that owns the electric distribution system to which interconnection is sought and shall include the following information and any additional information that may be reasonably requested by the utility:</text>
+      <para>
+        <num>(1)</num>
+        <text>Contact information for the interconnection customer;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Existing utility account information;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Location information for the small generator facility;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Contact information for the interconnection customer’s equipment and electrical contractors;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Information on the manner in which the interconnection customer intends to use the small generator facility;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Requested review level for interconnection request;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Technical information regarding the generator and prime mover;</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Technical information regarding the interconnection components and system or systems;</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>Location and other information regarding disconnect switch for small generator facility;</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>Details regarding any plans to export power to the electric distribution system; and</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>Any other item specified by the Commission.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Each utility shall make reasonable efforts to align the content of its interconnection request form with those forms provided by other utilities in Maryland.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Each utility shall establish a process that allows an applicant and an applicant’s authorized designee to:</text>
+      <para>
+        <num>(1)</num>
+        <text>Sign and submit an interconnection request electronically on the utility’s website;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Track the status of the interconnection request electronically; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Conduct electronically any other process that can reasonably occur in that manner.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Interconnection Request Processing Fees.</heading>
+    <para>
+      <num>A.</num>
+      <text>A utility may only charge a small generator interconnection request fee for a Level 2, Level 3, or Level 4 interconnection request.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A utility may not charge interconnection request fees for interconnection requests determined to be under PJM Interconnection, LLC jurisdiction pursuant to <cite path="|20|50|09|.01">Regulation .01 of this chapter</cite>.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The utility shall specify the interconnection [processing] request fees charged under this regulation in its tariff.</text>
+    </para>
+  </section>
+  <section cache:ref-path="20|50|09|.06">
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>General Requirements.</heading>
+    <para>
+      <num>A.</num>
+      <text>For small generator facilities at a site for which the applicant seeks a single point of interconnection, the interconnection request shall be evaluated for total exports on the basis of the net system capacity.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>An interconnection request is required for the interconnection of a new small generator facility, or to increase the total exports, change the energy sales strategy pursuant to <cite path="|20|50|09|.01|C.">Regulation .01C of this chapter</cite>, or change the proposed use of an existing small generator facility. Any time a new interconnection request is processed for an existing small generator facility, the utility will apply any standards in effect at the time of the interconnection request and, if approved, a new interconnection agreement will be required. The interconnection request shall be evaluated on the basis of the total net system capacity of the small generator facility.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Utility Provided Information.</text>
+      <para>
+        <num>(1)</num>
+        <text>A utility shall designate a contact person, and provide contact information on its website and for the Commission's website for submission of all interconnection requests, and from whom information on the interconnection request process and the utility's electric distribution system can be obtained.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The information provided by the utility on its website shall include studies and other materials useful to an understanding of the feasibility of interconnecting a small generator facility on the utility electric distribution system, except to the extent providing the materials would violate security requirements or confidentiality agreements, or be contrary to law.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>For projects with a nameplate capacity over 20kW, the utility shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Provide the applicant an opportunity to request a pre-application report, which may require payment of a fee listed in the utility’s tariff;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Publicly post the fee amount on the utility’s website; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Provide the pre-application report within 20 business days, once the fee is paid.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The pre-application report shall rely largely on pre-existing utility data and shall, at a minimum, include the following items:</text>
+        <para>
+          <num>(a)</num>
+          <text>Initial proposed point of interconnection of the small generator facility, including address or GIS coordinates;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Closest electrical facilities to the initial proposed point of interconnection of the small generator facility, including voltage level, feeder identification, substation, and including distance to that substation;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Amount of generation hosting capacity available on the closest feeder, if this information is in possession of or easily obtainable by the utility; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Any other items specified by the Commission.</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>In appropriate circumstances, the utility may require an applicant to execute an appropriate confidentiality agreement prior to release or access to confidential or restricted information.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>If an interconnection request is determined to be complete, any material modification, other than a minor equipment modification, that is not agreed to in writing by the utility, shall require submission of a new interconnection request.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>If an applicant is not currently a customer of the utility at the location for the proposed small generator facility, upon request from the utility, the applicant shall provide proof of site control evidenced by a property tax bill, deed, lease agreement, contract, or other acceptable document.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Connection of Multiple Small Generator Facilities by Single Interconnection.</text>
+      <para>
+        <num>(1)</num>
+        <text>To minimize the cost of interconnecting multiple small generator facilities, the utility or the applicant may propose a single point of interconnection for multiple small generator facilities located at a single site.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If an applicant rejects a utility proposal for a single point of interconnection, the applicant shall pay any additional cost of providing separate points of interconnection for each small generator facility.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If a utility unreasonably rejects a customer proposal for a single point of interconnection without providing a written technical explanation, the utility shall pay any additional cost of providing separate points of interconnection for each small generator facility.</text>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Electrical Isolation of a Small Generator Facility.</text>
+      <para>
+        <num>(1)</num>
+        <text>A small generator facility shall be capable of being isolated from the utility electric distribution system.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>For a small generator facility interconnecting to a primary or secondary line, the isolation shall be by means of a lockable, visible-break isolation device accessible by the utility.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The isolation device shall be installed, owned, and maintained by the interconnection customer for the small generator facility, and located electrically between the small generator facility and the point of interconnection.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>A draw-out type circuit breaker with a provision for padlocking at the draw-out position satisfies the requirement for an isolation device.</text>
+      </para>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>Use of Lockbox for Access to Isolation Device.</text>
+      <para>
+        <num>(1)</num>
+        <text>An interconnection customer may elect to provide the utility access to an isolation device that is contained in a building or area that may be unoccupied and locked or not otherwise readily accessible to the utility, by installing a lockbox provided by the utility that shall allow ready access to the isolation device.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The lockbox shall be in a location that is readily accessible by the utility, and the interconnection customer shall permit the utility to affix a placard in a location of its choosing that provides clear instructions to utility operating personnel on access to the isolation device.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>In the event the interconnection customer fails to comply with the terms of this section and the utility needs to gain access to the isolation device, the utility may not be held liable for any damages resulting from any necessary utility action to isolate the small generator facility.</text>
+      </para>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>Metering.</text>
+      <para>
+        <num>(1)</num>
+        <text>Any metering necessitated by a small generator facility interconnection shall be installed, operated, and maintained in accordance with the applicable utility tariff.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Any small generator facility metering requirements shall be clearly identified as part of the interconnection agreement executed by the interconnection customer and the utility.</text>
+      </para>
+    </para>
+    <para>
+      <num>J.</num>
+      <text>Utility Monitoring and Control of Small Generator Facility.</text>
+      <para>
+        <num>(1)</num>
+        <text>Utility monitoring or control of a small generator facility shall be permitted subject to the conditions in <cite path="20|50|09|.06|J.">§J of this regulation</cite>.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Any utility monitoring or control requirements shall be:</text>
+        <para>
+          <num>(a)</num>
+          <text>Consistent with the utility published requirements, as available on the utility’s website; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Clearly identified in an interconnection agreement executed by the interconnection customer and the utility.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>For a small generator facility under a nameplate capacity of 2 MW, utility monitoring or control is not permitted unless:</text>
+        <para>
+          <num>(a)</num>
+          <text>The Commission approves a utility monitoring and control plan addressing such facilities in the aggregate; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The interconnection customer consents to utility monitoring or control.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Equipment certified under the latest published editions of IEEE 1547, IEEE 1547.1, and UL 1741 shall be permitted to be used for monitoring or control upon mutual agreement of the utility and the interconnection customer.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>A utility monitoring and control plan submitted to the Commission pursuant to <cite path="20|50|09|.06|J.|(3)|(a)">§J(3)(a) of this regulation</cite> shall include:</text>
+        <para>
+          <num>(a)</num>
+          <text>Technical requirements;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Cost;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Benefits;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Comparison to IEEE 1547-2018 compliant monitoring and control alternatives, if applicable;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Customer permissions plan; and</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Project management plan.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>K.</num>
+      <text>Good Small Generator Facility Cybersecurity Practice. A small generator facility’s cybersecurity shall be:</text>
+      <para>
+        <num>(1)</num>
+        <text>Designed;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Installed;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Maintained; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Operated to the extent reasonable and practical, in accordance with accepted industry standards and meet utility cybersecurity requirements</text>
+      </para>
+    </para>
+    <para>
+      <num>L.</num>
+      <text>Witness Test of Small Generator Facility.</text>
+      <para>
+        <num>(1)</num>
+        <text>The utility shall have the option of performing a witness test after construction of the small generator facility is completed.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The applicant shall provide the utility at least 5 business days notice of the planned commissioning test for the small generator facility.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If the utility elects to perform a witness test, the utility shall contact the applicant to schedule the witness test at a mutually agreeable time within 10 business days of the scheduled commissioning test.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>If the utility does not perform the witness test within 10 business days of the commissioning test, the witness test is considered waived unless the utility and applicant agree to extend the time for conducting the witness test.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>If the results of the witness test are not acceptable to the utility, the applicant shall address and resolve any deficiencies within 30 calendar days, which may be extended upon the request of the applicant prior to the expiration of the 30-calendar-day period. A request for extension may not be unreasonably denied by the utility.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>If the applicant fails to address and resolve the deficiencies to the satisfaction of the utility, the interconnection request shall be considered withdrawn.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>If a witness test is not performed by the utility or an entity approved by the utility, the applicant shall satisfy the interconnection test specifications and requirements specified in Section 8 of IEEE Standard 1547.1-2020.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>For interconnection equipment that has not been certified or approved under <cite path="|20|50|09|.07">Regulation .07 of this chapter</cite>, the witness test may also include the verification by the utility specified in Section 8 of IEEE Standard 1547.1-2020.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>All tests verified by the utility shall be performed in accordance with the test procedures specified in Section 8 of IEEE Standard 1547.1-2020.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>The applicant shall, if requested by the utility, provide a copy of all documentation in its possession regarding testing conducted under  Section 8 of IEEE Standard 1547.1-2020.</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>The applicant shall demonstrate that it meets the smart inverter requirements of <cite path="20|50|09|.06|O.">§O of this regulation</cite>, if applicable.</text>
+      </para>
+    </para>
+    <para>
+      <num>M.</num>
+      <text>Interconnection Studies and Applicant Information.</text>
+      <para>
+        <num>(1)</num>
+        <text>If requested by the applicant, the utility shall provide the applicant copies of any interconnection studies performed in analyzing an interconnection request.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An applicant may provide any other prospective applicant copies of interconnection studies to aid in streamlining a future utility review.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Queue position for all small generator facilities shall be prioritized based on the date the interconnection request is submitted.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Each utility shall publicly and electronically provide an interconnection queue, updated monthly, that includes the following information about each interconnection request for any small generator facility with a nameplate capacity greater than 500 kW:</text>
+        <para>
+          <num>(a)</num>
+          <text>Size (MW or kW);</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Proposed circuit number and substation;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>County and zip code;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Interconnection request received date;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Queue position on the system’s proposed circuit number and substation;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Review status;</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>Interconnection request approved date; and</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>Any other information requested by the Commission.</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>A small generator facility shall remain on the list for at least 3 years after the interconnection request was approved by the utility, unless subsequently cancelled or removed from the interconnection queue pursuant to <cite path="20|50|09|.06|N.">§N of this regulation</cite>.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>A utility may provide any additional information to a prospective applicant if the utility determines that doing so would streamline the utility’s review of an interconnection request.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>A utility has no obligation to provide any prospective applicant any information regarding prior interconnection requests, including a prior applicant's name, copies of prior interconnection studies performed by the utility, or any other information regarding a prior applicant or request.</text>
+      </para>
+    </para>
+    <para>
+      <num>N.</num>
+      <text>Validity of Conditional Approval.</text>
+      <para>
+        <num>(1)</num>
+        <text>The notice of conditional approval shall clearly identify the applicable deadline and the consequences of failing to either deliver the certification of completion or request an extension by the deadline.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Once the utility delivers notice of conditional approval to the applicant, the applicant shall deliver the certification of completion within the following time frames:</text>
+        <para>
+          <num>(a)</num>
+          <text>For an application for a small generator facility with a nameplate capacity smaller than or equal to 100 kW, the applicant:</text>
+          <para>
+            <num>(i)</num>
+            <text>Shall deliver the certification of completion within 6 months;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Shall receive a 6-month extension of the specified deadline, upon request; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>May receive one or more additional extensions of at least 6 months upon good cause shown after an initial 6-month extension; and</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>For an application for a small generator facility with a nameplate capacity larger than 100 kW, the applicant:</text>
+          <para>
+            <num>(i)</num>
+            <text>Shall deliver the certification of completion within 12 months;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Shall receive a 6-month extension of the specified deadline, upon request; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>May receive one or more additional extensions of at least 6 months upon good cause shown after an initial 6-month extension.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A project participating in the Community Solar pilot program under <cite path="|20.62">COMAR 20.62</cite> is not subject to this section.</text>
+      </para>
+    </para>
+    <para>
+      <num>O.</num>
+      <text>Smart Inverters.</text>
+      <para>
+        <num>(1)</num>
+        <text>After January 1, 2024, any small generator facility requiring an inverter that submits an interconnection request shall use a smart inverter with either a default or a site-specific utility required inverter settings profile, as determined by a utility.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Any small generator facility may replace an existing inverter with a similar spare inverter that was purchased prior to January 1, 2024, for use at the small generator facility. This requirement does not apply to inverter replacements conducted under manufacturer warranty.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Prior to January 1, 2024, all utilities will establish default utility required inverter settings profiles for smart inverters pursuant to <cite path="20|50|09|.06|O.|(5)">§O(5) of this regulation</cite>. A utility with a total number of less than 150,000 customers served in Maryland may use a Statewide utility required inverter settings profile as their default utility required inverter settings profile.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>To the extent reasonable, pursuant to any modifications required by <cite path="20|50|09|.06|O.|(5)">§O(5) of this regulation</cite>, all utility required inverter setting profiles shall be consistent with applicable smart inverter recommendations from PJM Interconnection, LLC that are applicable.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>A default utility required inverter settings profile shall be established by a utility to optimize the safe and reliable operation of the electric distribution system, and shall serve the following objectives:</text>
+        <para>
+          <num>(a)</num>
+          <text>The primary objective is to incur no involuntary real power inverter curtailments incurred during normal operating conditions and minimal real power involuntary curtailments during abnormal operating conditions.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The secondary objective is to enhance electric distribution system hosting capacity and to optimize the provision of grid support services.</text>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>A site-specific utility required inverter settings profile may be established by a utility as necessary to optimally meet the objectives established in <cite path="20|50|09|.06|O.|(5)">§O(5) of this regulation</cite>.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>All default and site-specific utility required inverter settings profiles shall be documented in interconnection agreements.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>A default utility required inverter settings profile shall be published on the utility’s website.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>A utility with a total number of 150,000 or more customers served in Maryland shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>File an initial default utility required inverter settings profile with the Commission for approval by October 1, 2023 to be effective by January 1, 2024.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>File any changes to its established default utility required inverter settings profile with the Commission for approval.</text>
+        </para>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>Commission Staff shall file any changes to the established statewide utility required inverter settings profile with the Commission for approval.</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>A utility required inverter settings profile or statewide utility required inverter settings profile shall be deemed approved within 90 days upon filing, unless directed otherwise by the Commission.</text>
+      </para>
+    </para>
+    <para>
+      <num>P.</num>
+      <text>Flexible Interconnection Options.</text>
+      <para>
+        <num>(1)</num>
+        <text>Utilities shall approve interconnection requests while considering flexible interconnection options under a limited export agreement or, for inadvertent export, net system capacity and a proposed use subject to the requirements of this section.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Inadvertent Export for Energy Storage Devices.</text>
+        <para>
+          <num>(a)</num>
+          <text>Small generator facilities using Level 3 interconnection requests are non-exporting systems and are not allowed to utilize inadvertent exports.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A utility may not approve an inadvertent export option if the interconnection customer lacks the appropriate standardized controls to ensure that the small generator facility operates as agreed upon in interconnection agreements.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Small generator facilities may inadvertently export power of a magnitude and duration as evaluated and allowed by the utility and as specified in their interconnection agreement. Thirty seconds shall be used as a default inadvertent export duration unless the utility determines that this level duration violates utility evaluation criteria.</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>There are no limits on the number of times inadvertent exports occur in any given customer billing cycle.</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Small generator facilities may not have total inadvertent exports greater than the generating facility nameplate capacity multiplied by 1 hour per customer in each billing cycle.</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>In the event that a small generator facility exceeds approved inadvertent export magnitude or duration limits, the small generator facility shall immediately cease to export power to the grid until acceptable output control has been reestablished.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Net System Capacity and Proposed Use.</text>
+        <para>
+          <num>(a)</num>
+          <text>An interconnection customer may request that its interconnection request be based on the proposed use of the small generator facility and the impact of its proposed use on net system capacity.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A utility may not approve a proposed use if the interconnection customer lacks the appropriate standardized controls to ensure that the small generator facility operates as agreed upon in interconnection agreements.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>In the event that a small generator facility exceeds the approved net system capacity for the proposed use, the small generator facility shall immediately cease to export power to the grid until acceptable output control has been reestablished.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Limited Export Agreements.</text>
+        <para>
+          <num>(a)</num>
+          <text>By January 1, 2025, a utility shall publish on its interconnection website a description of their limited export agreement policies and provide a process for interconnection customers to request these agreements to avoid the need for a hosting capacity upgrade project to accommodate an interconnection request, including the following:</text>
+          <para>
+            <num>(i)</num>
+            <text>Limited export agreements shall be made available upon request only to Level 2 and Level 4 interconnection customers;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Limited export agreement terms shall be mutually agreed upon between a utility and an interconnection customer for operating conditions as specified in the interconnection agreement or in a separate limited export interconnection customer agreement; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>The method of implementation and control of the limited export agreement terms shall be mutually agreed upon between a utility and the interconnection customer and specified in the interconnection agreement or in a separate limited export interconnection customer agreement.</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A utility may not approve a limited export agreement if the interconnection customer lacks the appropriate standardized controls to ensure that the small generator facility operates as agreed upon in interconnection agreements.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>In the event that a small generator facility does not curtail and exceeds the approved limited export parameters stated in the interconnection agreement or a separate limited export interconnection customer agreement, the small generator facility shall immediately cease to export real power to the grid until acceptable output control has been reestablished.</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>If required by the utility, the small generator facility shall be subject to a verification reporting plan to monitor the small generator facility’s compliance with any flexible interconnection option limits involving net system capacity, inadvertent export, proposed use, and limited export agreement requirements as documented in the interconnection agreement. A verification reporting plan may include periodic reports, online monitoring, or other verification methods, or it may be waived as agreed upon by the utility and interconnection customer.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Utilities may include a recurring administrative fee in utility tariffs as a term in flexible interconnection option agreements to reimburse the utility for estimated additional costs to administer these agreements and the stated limiting conditions.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Failure of a small generator facility to demonstrate compliance with the facility’s verification reporting plan may result in the suspension of utility approvals in this section until the small generator facility agrees and implements an acceptable corrective action plan with the utility within 30 calendar days of notification by the utility.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>A small generator facility shall cease to export power if it fails to provide an acceptable corrective action plan to the utility, pursuant to <cite path="20|50|09|.06|P.|(7)">§P(7) of this regulation</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>Q.</num>
+      <text>Hosting Capacity.</text>
+      <para>
+        <num>(1)</num>
+        <text>Utilities shall establish hosting capacity policies subject to the following requirements:</text>
+        <para>
+          <num>(a)</num>
+          <text>A utility shall designate a circuit a closed circuit if there is no remaining hosting capacity.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A utility shall designate a circuit a restricted circuit if only reserve hosting capacity is available.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A utility shall determine the amount of reserve hosting capacity on a restricted circuit based on a circuit-specific assessment of distributed energy resource forecasts or other factors, including customer density, type of area served, and customer demographics of the circuit.</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>A utility may determine the aggregate generation of a small generator facility permitted to use an electric distribution circuit’s reserve hosting capacity and publish this information on their website.</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>A utility shall report their closed circuits, restricted circuits, and reserve hosting capacity in their hosting capacity reporting system.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A utility may submit for the Commission’s review and approval a hosting capacity upgrade plan or multiple plans to address or otherwise increase the utility’s existing distribution aggregate circuit hosting capacity limits across the system, or in a specific area of an electric utility’s system, that are forecasted to be congested in the future if the utility’s forecast of distributed energy resource growth exceeds existing hosting capacity. These plans may be considered by the Commission if primary voltage hosting capacity upgrade fees, pursuant to <cite path="20|50|09|.06|R.">§R of this regulation</cite>, exceed a threshold of the utility’s average cost per kilowatt for their aggregate customer funded hosting capacity upgrade projects completed in the previous year, unless good cause exists for a utility to request a waiver of this requirement.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Hosting capacity upgrade plans that are submitted by a utility shall include:</text>
+        <para>
+          <num>(a)</num>
+          <text>A description of the electric system areas to be included in the hosting capacity upgrade plan at the feeder and substation level;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A description of the assumptions used for establishing and prioritizing the area covered by the hosting capacity upgrade plan and associated forecasts and timeline for hosting capacity utilization;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A description of the assumptions used for modeling and establishing the cost of the hosting capacity upgrade plan;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>If the plan proposes that ratepayers bear any costs that would not be paid by future interconnection customers, a justification for the percentage cost allocation proposed between interconnection customers and ratepayers, including descriptions of:</text>
+          <para>
+            <num>(i)</num>
+            <text>How the proposed cost allocation was developed and what alternatives were considered, explaining and quantifying the benefits ratepayers are expected to receive from the upgrade; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>How the utility engaged with stakeholders, particularly the ratepayer advocate’s office, the Maryland Office of People’s Counsel, in the development of the utility’s cost allocation proposal;</text>
+          </para>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>A description of the proposed cost allocation method in terms of dollars per kilowatt for a primary voltage hosting capacity fee for an interconnection customer;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>A description of the proposed cost allocation to ratepayers and the risks to ratepayers of unallocated hosting capacity upgrade costs if the hosting capacity upgrade does not become fully utilized; and</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>A proposal for utility cost recovery that describes how hosting capacity upgrade costs shall be offset by future utility revenues from interconnection customers.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>A utility shall have a procedure for calculating hosting capacity accounting for either gross peak or gross minimum loading based on good engineering practice.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The utility shall perform a representative sample of hosting capacity calculation validation checks at least annually, or more frequently in areas experiencing significant growth or distributed energy resource penetration. The hosting capacity calculation validation check frequency shall account for the utility's experience, good engineering practices, and judgment.</text>
+      </para>
+    </para>
+    <para>
+      <num>R.</num>
+      <text>Maryland Cost Allocation Method.</text>
+      <para>
+        <num>(1)</num>
+        <text>Within 1 year of the effective date of this regulation, electric utilities shall submit an electric utility service tariff for Commission approval for a primary voltage hosting capacity cost sharing and allocation methodology for interconnection customers, as follows:</text>
+        <para>
+          <num>(a)</num>
+          <text>The default hosting capacity cost sharing and allocation methodology for primary voltage interconnection customers shall be based on locational pricing to incentivize interconnection in areas with higher available hosting capacity and disincentivize interconnection in areas with lower available hosting capacity.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A utility may petition the Commission to implement a hosting capacity cost sharing and allocation methodology for primary voltage interconnection customers that is not locationally based for “good cause” in their tariff filing.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>An interconnection request shall be eligible for hosting capacity cost sharing and allocation under this section unless they are exempted for the following reasons:</text>
+          <para>
+            <num>(i)</num>
+            <text>The interconnection request is subject to the PJM Interconnection, LLC Tariff;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The interconnection request is in an area with its cost allocation governed by a hosting capacity upgrade plan approved by the Commission;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>The interconnection is on a dedicated primary voltage feeder that may not benefit any other interconnection customer;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>The interconnection is on a dedicated secondary voltage facility that may not benefit any other interconnection customer;</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>The interconnection request is on an AC distribution grid or spot network; or</text>
+          </para>
+          <para>
+            <num>(vi)</num>
+            <text>Other good cause as documented by the utility and reported, pursuant to <cite path="|20|50|09|.14">Regulation .14 of this chapter</cite>.</text>
+          </para>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>If an interconnection request is exempted, pursuant to <cite path="20|50|09|.06|R.|(1)|(c)">§R(1)(c) of this regulation</cite>, the interconnection customer shall pay all interconnection costs as determined by the utility, unless the interconnection request is subject to the PJM Tariff or the interconnection request is in an area with its cost allocation governed by a hosting capacity upgrade plan approved by the Commission.</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>If sufficient hosting capacity is not available at a point of interconnection for a primary voltage interconnection customer, an electric utility may propose a hosting capacity upgrade project to the interconnection customer or customers, as follows:</text>
+          <para>
+            <num>(i)</num>
+            <text>The utility shall charge the primary voltage interconnection customer a hosting capacity fee for its share of the primary voltage hosting capacity upgrade cost proportional to the interconnection customer’s utilization of hosting capacity.</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>If more than one interconnection request exists in the interconnection queue that shall benefit from the electric utility proposed hosting capacity upgrade project, these interconnection customers shall be clustered together for the purpose of calculating hosting capacity fees.</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Hosting capacity fees for clustered interconnection customers shall be calculated proportional to each interconnection customer’s utilization of the hosting capacity created by the hosting capacity upgrade project.</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>All hosting capacity upgrade costs in excess of hosting capacity fees collected shall be accumulated in a separate unallocated primary voltage hosting capacity upgrade cost account for future allocation to primary voltage interconnection customers.</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>Unallocated hosting capacity upgrade costs for primary voltage interconnection customers shall be shared and allocated to other primary voltage interconnection customers using a primary voltage hosting capacity cost sharing and allocation methodology in an electric utility service tariff approved by the Commission.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Within 1 year of the effective date of this regulation, electric utilities shall submit an electric utility service tariff for Commission approval for a secondary voltage cost sharing and fee for both residential and commercial interconnection customers, as follows:</text>
+        <para>
+          <num>(a)</num>
+          <text>If sufficient hosting capacity is not available at a point of interconnection for a secondary voltage interconnection customer, an electric utility may construct a hosting capacity upgrade project for the interconnection customer or customers.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>All secondary voltage hosting capacity upgrade costs shall be accumulated in separate unallocated accounts for both residential and commercial secondary voltage interconnection customers for future allocation in hosting capacity fees.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Unallocated hosting capacity upgrade costs for both residential and commercial secondary voltage interconnection customers shall be shared and allocated to other secondary voltage interconnection customers using a hosting capacity cost sharing and allocation fee in an electric utility service tariff approved by the Commission.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Hosting capacity fees for primary voltage interconnection customers shall be reset using a cost sharing and allocation methodology approved by the Commission in an electric utility service tariff filing whenever a change in methodology is proposed, unless the fee is zero or the fee change is less than $1 per kilowatt.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Hosting capacity fees for secondary voltage interconnection customers shall be reset annually using a cost sharing and allocation methodology approved by the Commission unless the fee is zero or the fee change is less than $1 per kilowatt from the current fee in the electric utility’s service tariff.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>A utility may submit for Commission approval an administrative charge in its service tariff to recover its administrative costs for managing the cost sharing and allocation methodology for primary and secondary voltage interconnection customers.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>A utility shall describe all hosting capacity upgrade project rightsizing projects describing their forecasts, inputs, and assumptions in their next rate case to assist stakeholders in a prudency review.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Certified and Approved Equipment.</heading>
+    <para>
+      <num>A.</num>
+      <text>After January 1, 2024, any small generator facility inverter for which an interconnection request is submitted shall be deemed certified and approved if it meets the requirements of IEEE Standard 1547-2018 and UL Standard 1741-SB, except for inverters purchased pursuant to <cite path="|20|50|09|.06|N.|(2)">Regulation .06N(2) of this chapter</cite>.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>After January 1, 2024, any small generator facility shall be deemed approved if the interconnection equipment including interface components such as switchgear, multifunction relays, or other interface devices are compatible with the interconnection equipment, pursuant to witness test requirements pursuant to <cite path="|20|50|09|.06|L.">Regulation .06L of this chapter</cite>.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>An electric utility shall approve a meter collar adapter model for installation in its Maryland service area for specific compatible meter configurations and customer applications, provided that the meter collar adapter model meets the following criteria:</text>
+      <para>
+        <num>(1)</num>
+        <text>The meter collar adapter model is approved or listed by a nationally recognized testing laboratory;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The meter collar adapter model is approved for use in utility service areas, unless sufficient rational for disapproval is provided by an electric utility;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>All meter collar model installations, access, testing, inspections, servicing, and removals shall only be performed by a qualified person as agreed between the utility and the meter collar manufacturer;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The meter collar adapter model design does not impede access to the sealed meter socket compartment, or to the meter itself by a qualified person;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The meter collar adapter model is compatible with the National Electric Code; and</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>The meter collar adapter model is compatible to the specific meter configurations and customer applications to ensure that the meter collar adapter is capable of being safely and reliably inserted into a meter socket to maintain a secure connection with both the meter socket and the utility meter.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>An electric utility shall approve or disapprove a meter collar adapter model for installation in its service area no later than 90 days after a meter collar manufacturer submits a request for approval of the meter collar adapter, and a utility’s procedures shall be updated within 90 days of utility approval.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>An electric utility shall provide an explanation to the requesting meter collar manufacturer explaining the reasons any meter collar adapter model application was denied.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>A requesting meter collar adapter manufacturer may appeal the utility decision to the Commission using the dispute resolution process in <cite path="|20|50|09|.13">Regulation .13 of this chapter</cite>.</text>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>An electric utility shall provide public notice of all decisions approving a meter collar adapter model by posting the information on the utility’s website.</text>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>An electric utility shall authorize the installation and operation of a utility-approved meter collar adapter for a customer installation, provided the meter collar adapter meets the following criteria:</text>
+      <para>
+        <num>(1)</num>
+        <text>The meter collar adapter is qualified to be connected to the supply side of the service disconnect, pursuant to the applicable provisions of the National Electric Code;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The meter collar adapter is rated for the meter socket into which it is intended to be installed;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The meter collar adapter does not exceed the weight bearing limits of a meter socket;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Multiple meter collar adapters are not stacked in a meter socket; and</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The meter collar adapter does not disable this excessive heating detection capability of AMI meters.</text>
+      </para>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>A utility shall uninstall an approved meter collar adapter in the aggregate if any deficiencies are found after installation that result in safety or operational concerns, if these concerns cannot be remediated by a customer for a specific installation or by a meter collar adapter manufacturer, in the aggregate.</text>
+    </para>
+    <para>
+      <num>J.</num>
+      <text>The determination of violations in this regulation and the assessment of related civil penalties and corrective action plans shall be delegated to the Engineering Division.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Determination of Interconnection Jurisdiction and Level of Utility Review of Interconnection Request.</heading>
+    <para>
+      <num>A.</num>
+      <text>A utility shall determine within 10 business days the interconnection jurisdiction pursuant to <cite path="|20|50|09|.01">Regulation .01 of this chapter</cite> and the level of utility review required for an interconnection request based on nameplate capacity.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A utility shall use a Level 1 procedure to evaluate an interconnection request to connect an inverter-based small generator facility when the small generator facility, or multiple small generator facilities interconnecting at a point of common coupling, has a nameplate capacity of 20kW or less.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A utility shall use a Level 2 procedure to evaluate an interconnection request when:</text>
+      <para>
+        <num>(1)</num>
+        <text>The following criteria are met:</text>
+        <para>
+          <num>(a)</num>
+          <text>The small generation facility, or multiple small generator facilities interconnecting at a point of common coupling, has a nameplate capacity of 2 MW or less;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The interconnection equipment is lab-certified or field-approved; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The proposed interconnection is to a radial distribution circuit, or a spot network limited to serving one customer; or</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Alternatively, the small generator facility was reviewed under Level 1 review procedures but not approved, and the applicant has submitted a new interconnection request for consideration.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>A utility shall use a Level 3 procedure to evaluate an interconnection request to area networks and radial distribution circuits when electric power is not exported to the electric distribution system based on the following criteria:</text>
+      <para>
+        <num>(1)</num>
+        <text>For interconnection requests to the load side of an area network:</text>
+        <para>
+          <num>(a)</num>
+          <text>The nameplate capacity of the small generator facility, or multiple small generator facilities interconnecting at a point of common coupling, is less than or equal to 50 kW;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The proposed small generator facility utilizes a lab-certified inverter-based equipment package;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The small generator facility utilizes reverse power relays, other protection functions, or both, that prevent the export of power into the area network;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>The aggregate generation on the area network does not exceed the smaller of 5 percent of an area network's maximum load or 50 kW; and</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Construction of facilities by the electric distribution company is not required to accommodate the small generator facility; or</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>For interconnection requests to a radial distribution circuit:</text>
+        <para>
+          <num>(a)</num>
+          <text>The small generator facility has a nameplate capacity of 10 MW or less;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The aggregate generation on the circuit, including the proposed small generator facility, is 10 MW or less;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The small generator facility will use reverse power relays or other protection functions that prevent power flow onto the electric distribution system;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>The small generator facility is not served by a shared transformer; and</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Construction of facilities by the utility on its own electric distribution system is not required to accommodate the small generator facility.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>A utility shall use the Level 4 procedures for evaluating interconnection requests if:</text>
+      <para>
+        <num>(1)</num>
+        <text>The interconnection request cannot be approved under a Level 1, Level 2, or Level 3 review, and the applicant has submitted an interconnection request for consideration under a Level 4 study review; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The interconnection request does not meet the criteria for qualifying for a review under Level 1, Level 2, or Level 3 review procedures.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="20|50|09|.09">
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Level 1 Review.</heading>
+    <para>
+      <num>A.</num>
+      <text>The utility shall evaluate a Level 1 small generator facility for the potential for adverse system impacts using net system capacity, pursuant to Regulation .06A and B of this chapter, unless nameplate capacity is specifically required using the following:</text>
+      <para>
+        <num>(1)</num>
+        <text>For interconnection of a proposed small generator facility:</text>
+        <para>
+          <num>(a)</num>
+          <text>To a radial distribution circuit, the aggregate generation on the circuit, including the proposed small generator facility, may not exceed 15 percent of the line section annual peak load as most recently measured at the substation or calculated for the line section; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>To a spot network:</text>
+          <para>
+            <num>(i)</num>
+            <text>On the load side of spot network protectors, the proposed small generator facility shall utilize an inverter-based equipment package;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The interconnection equipment proposed for the small generator facility is lab-certified; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>The aggregate generation of all interconnected small generator facilities may not exceed 5 percent of the spot network's maximum load if the spot network serves more than one customer;</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>When a proposed small generator facility is to be interconnected on a single-phase shared secondary line, the aggregate generation on the shared secondary line, including the proposed small generator facility, may not exceed 20 kW;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>When a proposed small generator facility is single-phase and is to be interconnected on a center tap neutral of a 240 volt service, its addition may not create an imbalance between the two sides of the 240 volt service of more than 20 percent of the nameplate rating of the service transformer;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>As an alternative non-mandatory method to evaluate the adverse system impacts of a proposed Level 1 small generator facility on the distribution system, as described in §A(1)—(3) of this regulation, or as a mandatory next step prior to rejecting an interconnection request, pursuant to <cite path="20|50|09|.09|E.">§E of this regulation</cite>, for Level 1 Review Failure, a utility may use a power-flow based analysis system with modeling of IEEE 1547-2018 inverter capabilities as follows, if its use may change the analysis result as determined by the utility:</text>
+        <para>
+          <num>(a)</num>
+          <text>For primary voltage systems, within 6 months of the effective date of this regulation; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>For secondary voltage systems, within 2 years of the effective date of this regulation;</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Modification or construction of additional interconnection facilities by the utility on its distribution system, except for metering or a minor system modification, is not required to accommodate the small generator facility; and</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>If the proposed interconnection requires a minor system modification, the utility shall notify the applicant of that requirement when it provides the Level 1 evaluation result, as follows:</text>
+        <para>
+          <num>(a)</num>
+          <text>The applicant shall inform the utility within 10 business days if the applicant elects to continue the application;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>If the applicant makes such an election, the utility shall provide an interconnection agreement, along with a non-binding good faith cost estimate and construction schedule for those upgrades, to the applicant within 30 calendar days after the utility receives such an election; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The applicant shall have 30 calendar days, or other mutually agreeable time frame after receipt of the interconnection agreement, to sign and return such agreement.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The utility in conducting a Level 1 interconnection review shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Within 5 business days after receipt of the interconnection request, inform the applicant that the interconnection request is:</text>
+        <para>
+          <num>(a)</num>
+          <text>Complete; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Incomplete and what materials are missing; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Within 15 business days after the utility notifies the applicant that the application is complete under <cite path="20|50|09|.09|B.|(1)">§B(1) of this regulation</cite>, verify that the small generator facility can be interconnected safely and reliably under <cite path="20|50|09|.09|A.">§A of this regulation</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Unless the utility determines and demonstrates that a small generator facility cannot be interconnected safely or reliably to its electric distribution system, the utility shall approve the interconnection request and provide a permission to operate notice within 20 business days of receipt of acceptable documents, subject to the following conditions:</text>
+      <para>
+        <num>(1)</num>
+        <text>The small generator facility has been approved by local or municipal electric code officials with jurisdiction over the interconnection;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A certificate of completion has been returned to the utility;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The witness test has been successfully completed or waived by the utility; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The applicant has signed an interconnection agreement.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>If an applicant does not sign the interconnection agreement within 30 calendar days after receipt from the utility, the interconnection request is considered withdrawn unless the applicant requests to have the deadline extended. A request for extension may not be unreasonably denied by the utility.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Level 1 Review Failure.</text>
+      <para>
+        <num>(1)</num>
+        <text>If the small generator facility is not approved under a Level 1 review, the utility shall provide the applicant a letter explaining its reasons for denying the interconnection request.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If a small generator facility fails a Level 1 review, the utility may approve the interconnection request if the small generator facility can be interconnected safely and reliably to the utility’s electric distribution system.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>When a small generator facility is not approved under a Level 1 review, the applicant may submit a new interconnection request for consideration under Level 2, Level 3, or Level 4 procedures.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="20|50|09|.10">
+    <prefix>Regulation</prefix>
+    <num>.10</num>
+    <heading>Level 2 Review.</heading>
+    <para>
+      <num>A.</num>
+      <text>The utility shall evaluate a Level 2 small generator facility for the potential for adverse system impacts using net system capacity, pursuant to Regulation .06A and B of this chapter, unless nameplate capacity is specifically required using the following:</text>
+      <para>
+        <num>(1)</num>
+        <text>For interconnection of a proposed small generator facility:</text>
+        <para>
+          <num>(a)</num>
+          <text>To a radial distribution circuit, the aggregate generation on the circuit, including the proposed small generator facility, may not exceed 15 percent of the line section annual peak load most recently measured at the substation or calculated for the line section; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>To a spot network:</text>
+          <para>
+            <num>(i)</num>
+            <text>When the interconnection of a proposed small generator facility is to the load side of spot network protectors, the proposed small generator facility shall utilize an inverter-based equipment package;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The applicant's interconnection equipment proposed for the small generator facility shall be lab-certified or field-approved; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>A small generator facility, when aggregated with other generation, the aggregate generation on the spot network, may not exceed 5 percent of a spot network's maximum load if the spot network serves more than one customer;</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>For fault current limitations:</text>
+        <para>
+          <num>(a)</num>
+          <text>The nameplate capacity of the proposed small generator facility, in aggregation with other generation and energy storage devices on the distribution circuit, may not contribute more than 10 percent to the electric distribution circuit's maximum fault current at the point on the primary line nearest the point of interconnection;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The nameplate capacity of the proposed small generator facility, in aggregation with other generation and energy storage devices on the distribution circuit, may not cause any distribution protective devices and equipment including substation breakers, fuse cutouts, and line reclosers, or other customer equipment on the electric distribution system to be exposed to fault currents exceeding 90 percent of the short circuit interrupting capability; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The interconnection request may not request interconnection on a circuit that already exceeds 90 percent of the short circuit interrupting capability;</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The proposed small generator facility's point of interconnection may not be on a transmission line;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>When a small generator facility is to be connected to 3-phase, 3-wire primary utility distribution lines, a 3-phase or single-phase generator shall be connected phase-to-phase;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>When a small generator facility is to be connected to 3-phase, 4-wire primary utility distribution lines, a 3-phase or single-phase generator will be connected line-to-neutral and will be effectively grounded;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>When the proposed small generator facility is to be interconnected on single-phase shared secondary line, the aggregate generation on the shared secondary line, including the proposed small generator facility, may not exceed 20 kW;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>When a proposed small generator facility is single-phase and is to be interconnected on a center tap neutral of a 240 volt service, its addition may not create an imbalance between the two sides of the 240 volt service of more than 20 percent of the nameplate rating of the service transformer;</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>A small generator facility, in aggregate with other generation and energy storage devices interconnected to the distribution side of a substation transformer feeding the circuit where the small generator facility proposes to interconnect, the aggregate generation may not exceed 10 MW in an area where there are known or posted transient stability limitations to generating units located in the general electrical vicinity;</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>As an alternative non-mandatory method to evaluate the adverse system impacts of a proposed Level 2 small generator facility on the distribution system, as described in §A(1)—(8) of this regulation, or as a mandatory next step prior to rejecting an interconnection request, pursuant to <cite path="20|50|09|.10|F.">§F of this regulation</cite>, for Level 2 Review Failure, a utility may use a power-flow based analysis system with modeling of IEEE 1547-2018 inverter capabilities as follows, if its use may change the analysis result as determined by the utility:</text>
+        <para>
+          <num>(a)</num>
+          <text>For primary voltage systems, within 6 months of the effective date of this regulation; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>For secondary voltage systems, within 2 years of the effective date of this regulation;</text>
+        </para>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>Except as permitted by an additional review in <cite path="20|50|09|.10|G.">§G of this regulation</cite>, no modification or construction of additional facilities by a utility of its distribution system, with the exception of metering or a minor system modification, shall be required to accommodate the small generator facility; and</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>If the proposed interconnection facility requires a site-specific utility required inverter settings profile review or a minor system modification without further study review needed, the utility shall notify the applicant of that requirement when it provides the Level 2 evaluation result, as follows:</text>
+        <para>
+          <num>(a)</num>
+          <text>The applicant must inform the utility within 10 business days if the applicant elects to continue the application;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>If the applicant makes such an election, the utility shall provide an interconnection agreement, along with a non-binding good faith cost estimate and construction schedule for any minor system modifications to the applicant within 30 calendar days after the utility receives such an election; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The applicant shall have 30 calendar days, or other mutually agreeable time frame after receipt of the interconnection agreement, to sign and return such agreement.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A utility shall, within 5 business days after receipt of the interconnection request, inform the applicant that the interconnection request is:</text>
+      <para>
+        <num>(1)</num>
+        <text>Complete; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Incomplete and what materials are missing;</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Queue Position.</text>
+      <para>
+        <num>(1)</num>
+        <text>When an interconnection request is complete, the utility shall assign a queue position.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The queue position of the interconnection request shall be used to determine the potential adverse system impact of the small generator facility based on the relevant screening criteria.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The utility shall notify the applicant of any other higher queue position applicants on the same line section or spot network for which interconnection is sought.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Queue position may not be forfeited or otherwise impacted by the submission of a dispute under the provisions of <cite path="|20|50|09|.13">Regulation .13 of this chapter</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>When a utility determines additional information is required to complete an evaluation:</text>
+      <para>
+        <num>(1)</num>
+        <text>The utility shall request the information;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The time necessary to complete the evaluation may be extended, but only to the extent of the delay required for receipt of the additional information; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>When additional information is required, the utility may not revert to the start of the review process or alter the applicant's queue position.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Within 20 business days after the utility notifies the applicant it has received a completed interconnection request, the utility shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Evaluate the interconnection request using the Level 2 screening criteria;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Review the applicant's analysis, if provided by applicant, using the same criteria;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Provide the applicant with the utility's evaluation, including a comparison of the results of its own analyses with those of applicant, if applicable; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>When a utility does not have a record of receipt of the interconnection request and the applicant can demonstrate that the original interconnection request was delivered, expedite its review to complete the evaluation of the interconnection request within 20 business days.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Failure to Meet Level 2 Criteria.</text>
+      <para>
+        <num>(1)</num>
+        <text>Additional review may be appropriate when a small generator facility has failed to meet one or more of the Level 2 criteria of <cite path="20|50|09|.10|A.">§A of this regulation</cite>.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A utility shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Within 30 calendar days, offer to perform additional review to determine whether minor system modifications or a site-specific utility required inverter settings profile would enable the interconnection to be made consistent with safety, reliability, and power quality criteria;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Provide the applicant with a nonbinding, good faith estimate of the costs of the additional review and minor system modifications; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Advise the applicant if a limited export customer agreement could be used to facilitate reliable and safe interconnection to the electric distribution system.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The utility shall undertake the additional review only if the applicant agrees within 10 business days to pay for the cost of the review, which may be extended at the request of the applicant. A request for extension may not be unreasonably denied by the utility.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>If the review identifies the need for modifications to the distribution system, the utility shall make the necessary modifications only if the interconnection customer agrees to pay for the cost of the modifications.</text>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Interconnection Agreement.</text>
+      <para>
+        <num>(1)</num>
+        <text>When a utility determines that the interconnection request passes the Level 2 screening criteria, or fails one or more of the Level 2 screening criteria but determines that the small generator facility can be interconnected safely and reliably, the utility shall provide the applicant an interconnection agreement within 5 business days after the determination.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The applicant shall have either 30 calendar days, or another mutually agreeable time frame after receipt of the interconnection agreement, to sign and return the interconnection agreement.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If the applicant does not sign the interconnection agreement within 30 calendar days, the request shall be considered withdrawn unless the applicant and utility mutually agree to extend the time period for executing the interconnection agreement prior to the expiration of the 30-calendar-day calendar period. A request for extension may not be unreasonably denied by the utility.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>After the interconnection agreement is signed by the applicant and utility, interconnection of the small generator facility shall proceed according to any milestones agreed to by the applicant and utility in the interconnection agreement.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The utility shall approve the interconnection request and provide a permission to operate notice within 20 business days of receipt of acceptable documents, subject to the following conditions:</text>
+        <para>
+          <num>(a)</num>
+          <text>All milestones agreed to in the interconnection agreement are satisfied;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The small generator facility is approved by electric code officials with jurisdiction over the interconnection;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The applicant provides a certificate of completion to the utility;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Upon request of the utility, the applicant provides one or more photographs of the small generator facility site location, components, metering equipment, and other related facilities and equipment; and</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>There is a successful completion of the witness test, if conducted by the utility.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>Level 2 Review Failure.</text>
+      <para>
+        <num>(1)</num>
+        <text>If the small generator facility is not approved under a Level 2 review, the utility shall provide the applicant written notification explaining its reasons for denying the interconnection request.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The applicant may submit a new interconnection request for consideration under a Level 3 or Level 4 interconnection review; however, the queue position assigned to the Level 2 interconnection request shall be retained provided the request is made within 15 business days of notification that the current Level 2 interconnection request is denied.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.11</num>
+    <heading>Level 3 Review.</heading>
+    <para>
+      <num>A.</num>
+      <text>The utility shall use the Level 3 review procedure for an interconnection request that meets the Level 3 criteria in <cite path="|20|50|09|.08">Regulation .08 of this chapter</cite>.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Queue Position.</text>
+      <para>
+        <num>(1)</num>
+        <text>Once the interconnection request is considered complete by the utility, the utility shall assign a queue position based upon the date and time the interconnection request is determined to be complete.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The queue position of each interconnection request shall be used to determine the potential adverse system impact of the small generator facility based on the relevant screening criteria.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The utility shall notify the applicant of any other higher queue position applicants on the same radial line or area network that the applicant is seeking to interconnect to.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Queue position may not be forfeited or otherwise impacted by any pending dispute submitted under the provisions of <cite path="|20|50|09|.13">Regulation .13 of this chapter</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Interconnection requests meeting the requirements set forth in <cite path="|20|50|09|.08">Regulation .08 of this chapter</cite> for nonexporting small generator facilities interconnecting to an area network shall be presumed by the utility to be appropriate for interconnection. The utility shall process the interconnection request to area networks using the following procedures:</text>
+      <para>
+        <num>(1)</num>
+        <text>The utility shall evaluate the interconnection request under Level 2 interconnection review procedures as set forth in <cite path="|20|50|09|.10">Regulation .10 of this chapter</cite>, except that the utility shall have 25 business days to conduct an area network impact study to determine any potential adverse system impact of interconnecting to the utility's area network;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If the area network impact study identifies potential adverse system impacts, the utility may determine at its sole discretion that it is inappropriate for the small generator facility to interconnect to the area network, in which case the interconnection request shall be denied; however, the applicant may elect to submit a new interconnection request for consideration under Level 4 procedures, in which case the queue position assigned to the Level 3 interconnection request will be retained provided the request is made within 15 business days of notification that the current application is denied;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The utility shall conduct the area network impact study at its own expense; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>In the event the utility denies the interconnection request, the utility shall provide the applicant with a copy of its area network impact study and written justification for denying the interconnection request.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>When an interconnection request meets the requirements of <cite path="|20|50|09|.08">Regulation .08 of this chapter</cite> for nonexporting small generator facilities interconnecting to a radial distribution circuit, the utility shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Evaluate the interconnection request using the Level 2 review in <cite path="|20|50|09|.10">Regulation .10 of this chapter</cite>; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Approve the interconnection request if all of the applicable Level 2 screens are satisfied, except that the peak line section value indicated in Regulation .10A(1)(a) shall be 25 percent instead of 15 percent.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Interconnection Agreement.</text>
+      <para>
+        <num>(1)</num>
+        <text>If a small generator facility satisfies the criteria in §C or D of this regulation, the utility shall approve the interconnection request and provide an interconnection agreement for the applicant to sign.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The applicant shall have 30 calendar days, or other mutually agreeable time frame after receipt of the interconnection agreement, to sign and return the interconnection agreement.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If the applicant does not sign the interconnection agreement within 30 calendar days, the interconnection request shall be considered withdrawn unless the applicant and utility mutually agree to extend the time period for executing the interconnection agreement prior to the expiration of the 30-calendar-day period. A request for extension may not be unreasonably denied by the utility.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>After the interconnection agreement is signed by the applicant and utility, interconnection of the small generator facility shall proceed according to any milestones agreed to by the applicant and utility in the interconnection agreement.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The utility shall approve the interconnection request and provide a permission to operate notice within 20 business days of receipt of acceptable documents, subject to the following conditions:</text>
+        <para>
+          <num>(a)</num>
+          <text>All milestones agreed to in the interconnection agreement are satisfied;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The small generator facility is approved by electric code officials with jurisdiction over the interconnection;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The applicant provides a certificate of completion to the utility;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Upon request of the utility, the applicant provides one or more photographs of the small generator facility site location, components, metering equipment, and other related facilities and equipment; and</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>There is a successful completion of the witness test, if conducted by the utility.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Level 3 Review Failure.</text>
+      <para>
+        <num>(1)</num>
+        <text>If the small generator facility is not approved under a Level 3 review, the utility shall provide the applicant written notification explaining its reasons for denying the interconnection request.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If the small generator facility is not approved under a Level 3 review, the applicant may submit a new interconnection request for consideration under the Level 4 procedures; however, the queue position assigned to the Level 3 interconnection request shall be retained provided the request is submitted within 15 business days of the notice that the current Level 3 request was not approved.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.12</num>
+    <heading>Level 4 Study Review.</heading>
+    <para>
+      <num>A.</num>
+      <text>A utility shall use the Level 4 study review procedure for an interconnection request that meets the Level 4 criteria in <cite path="|20|50|09|.08">Regulation .08 of this chapter</cite>.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Interconnection Request.</text>
+      <para>
+        <num>(1)</num>
+        <text>Within 5 business days from receipt of an interconnection request, the utility shall notify the applicant whether the request is</text>
+        <para>
+          <num>(a)</num>
+          <text>Complete; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Incomplete.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If the interconnection request is not complete:</text>
+        <para>
+          <num>(a)</num>
+          <text>The utility shall provide the applicant a written list detailing information that shall be provided to complete the interconnection request;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The applicant shall have 10 business days, which may be extended at the request of the applicant and not unreasonably denied by the utility, to provide appropriate data in order to complete the interconnection request, or the interconnection request shall be considered withdrawn; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The interconnection request shall be considered complete:</text>
+          <para>
+            <num>(i)</num>
+            <text>If the required information has been provided by the applicant; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The utility and applicant have agreed that the applicant may provide additional information at a later time.</text>
+          </para>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Queue Position.</text>
+      <para>
+        <num>(1)</num>
+        <text>When an interconnection request is complete, the utility shall assign a queue position.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The utility shall use the queue position of an interconnection request to determine the cost responsibility necessary for the facilities to accommodate the interconnection.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The utility shall notify the applicant of other higher-queued applicants on the same line section of the new interconnection request.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Any required interconnection studies may not begin until the utility has completed its review of all other interconnection requests that have a higher queue position.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Queue position is not forfeited or otherwise impacted by any pending dispute submitted under the provisions of <cite path="|20|50|09|.13">Regulation .13 of this chapter</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Scoping Meeting.</text>
+      <para>
+        <num>(1)</num>
+        <text>By mutual agreement of the utility and applicant, the scoping meeting may be waived and the interconnection feasibility study, interconnection impact study, or interconnection facilities studies provided for in a Level 4 review and discussed in this section may be waived or combined.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If agreed to by the utility and applicant, a scoping meeting shall be held within 10 business days, or other mutually agreed to time, after the utility has notified the applicant that the interconnection request is considered complete, or the applicant has requested that its interconnection request proceed after failing the requirements of a Level 2 review or Level 3 review.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The purpose of the meeting is to review the interconnection request, existing studies relevant to the interconnection request, and the results of the Level 1, Level 2, or Level 3 screening criteria.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>If the utility and applicant agree at a scoping meeting that an interconnection feasibility study shall be performed, the utility shall provide to the applicant, not later than 5 business days after the scoping meeting:</text>
+        <para>
+          <num>(a)</num>
+          <text>An interconnection feasibility study agreement;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>An outline of the scope of the study; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A nonbinding, good faith estimate of the cost to perform the study.</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>If the applicant and utility agree at a scoping meeting that an interconnection feasibility study is not required, the utility shall provide to the applicant, not later than 5 business days after the scoping meeting:</text>
+        <para>
+          <num>(a)</num>
+          <text>An interconnection system impact study agreement;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>An outline of the scope of the study; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A nonbinding, good faith estimate of the cost to perform the study.</text>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>If the utility and applicant agree at the scoping meeting that an interconnection feasibility study and system impact study are not required, the utility shall provide to the applicant, not later than 5 business days after the scoping meeting:</text>
+        <para>
+          <num>(a)</num>
+          <text>An interconnection facilities study agreement;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>An outline of the scope of the study; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A nonbinding, good faith estimate of the cost to perform the study.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Interconnection Feasibility, Interconnection System Impact, and Interconnection Facilities Studies.</text>
+      <para>
+        <num>(1)</num>
+        <text>Interconnection Feasibility Study.</text>
+        <para>
+          <num>(a)</num>
+          <text>An interconnection feasibility study shall include any necessary analyses for the purpose of identifying a potential adverse system impact to the utility's electric distribution system that would result from the interconnection from among the following:</text>
+          <para>
+            <num>(i)</num>
+            <text>Initial identification of any circuit breaker short circuit capability limits exceeded as a result of the interconnection;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Initial identification of any thermal overload or voltage limit violations resulting from the interconnection;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Initial review of grounding requirements and system protection; and</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Description and nonbinding estimated cost of facilities required to interconnect the small generator facility to the utility's electric distribution system in a safe and reliable manner.</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>If an applicant requests that the interconnection feasibility study evaluate multiple potential points of interconnection, additional evaluations may be required. Additional evaluations shall be conducted at the expense of the applicant.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>An interconnection system impact study is not required if the interconnection feasibility study concludes there is no adverse system impact, or if the study identifies an adverse system impact and the utility is able to identify a remedy without the need for an interconnection system impact study.</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>The utility and applicant shall use an interconnection feasibility study agreement form.</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>The utility shall avoid duplicating previously conducted interconnection studies to the extent possible.</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>The utility may require a study deposit of the lesser of 100 percent of estimated nonbinding good faith study costs or $1,000.</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>The interconnection feasibility study shall be completed and the results shall be transmitted to the interconnection customer within 30 calendar days after the interconnection feasibility study agreement is signed by the parties.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Interconnection System Impact Study.</text>
+        <para>
+          <num>(a)</num>
+          <text>A distribution interconnection system impact study shall be performed when a potential distribution system adverse system impact is identified in the interconnection feasibility study.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Scope of Interconnection System Impact Study.</text>
+          <para>
+            <num>(i)</num>
+            <text>An interconnection system impact study shall evaluate the impact of the proposed interconnection on both the safety and reliability of the utility's electric distribution system.</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The interconnection system impact study shall identify and detail the system impacts that result when a small generator facility is interconnected without project or system modifications, focusing on the adverse system impacts identified in the interconnection feasibility study, or potential impacts including those identified in the scoping meeting.</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>The interconnection system impact study shall consider all small generator facilities that, on the date the interconnection system impact study is commenced, are directly interconnected with the utility's electric distribution system, have a pending higher queue position to interconnect to the system, or have signed an interconnection agreement.</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>As part of its impact study, the utility shall agree to evaluate and consider any separate studies prepared by the applicant that evaluate alternatives for interconnecting the small generator facility, including the applicant's assessment of potential impacts of the small generator facility on the electric distribution system.</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>The utility shall provide the applicant with the utility's final impact study evaluation, including a comparison of the results of its own analyses with those provided by the applicant.</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Within 5 business days of transmittal of the interconnection feasibility study report, the utility shall send the applicant:</text>
+          <para>
+            <num>(i)</num>
+            <text>An interconnection system impact study agreement using a form;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>An outline of the scope of the interconnection system impact study; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>A good faith estimate of the cost to perform the study.</text>
+          </para>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>The interconnection system impact study shall include any necessary elements from among the following:</text>
+          <para>
+            <num>(i)</num>
+            <text>A load flow study;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Identification of affected systems;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>An analysis of equipment interrupting ratings;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>A protection coordination study;</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>Voltage drop and flicker studies;</text>
+          </para>
+          <para>
+            <num>(vi)</num>
+            <text>Protection and set point coordination studies;</text>
+          </para>
+          <para>
+            <num>(vii)</num>
+            <text>Grounding reviews; and</text>
+          </para>
+          <para>
+            <num>(viii)</num>
+            <text>Impact on system operation.</text>
+          </para>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>An interconnection system impact study shall consider any necessary criteria from among the following:</text>
+          <para>
+            <num>(i)</num>
+            <text>A short circuit analysis;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>A stability analysis;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Alternatives for mitigating adverse system impacts on affected systems;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Voltage drop and flicker studies;</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>Protection and set point coordination studies; and</text>
+          </para>
+          <para>
+            <num>(vi)</num>
+            <text>Grounding reviews.</text>
+          </para>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>The final interconnection system impact study shall provide the following:</text>
+          <para>
+            <num>(i)</num>
+            <text>The underlying assumptions of the study;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The results of the analyses;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>A list of any potential impediments to providing the requested interconnection service;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Required distribution upgrades; and</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>A nonbinding good faith estimate of cost and time to construct any required distribution upgrades.</text>
+          </para>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>The utility may require a study deposit of the lesser of 50 percent of estimated nonbinding good faith study costs or $3,000.</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>The interconnection system impact study, if required, shall be completed and the results transmitted to the interconnection customer within 45 calendar days after the interconnection system impact study agreement is signed by the parties.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Interconnection Facilities Study.</text>
+        <para>
+          <num>(a)</num>
+          <text>Within 5 business days of completion of the interconnection system impact study, the utility shall provide to the applicant:</text>
+          <para>
+            <num>(i)</num>
+            <text>A report of the interconnection system impact study;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>An interconnection facilities study agreement;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>An outline of the scope of the interconnection facilities study; and</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>A nonbinding good faith estimate of the cost to perform the facilities study.</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The interconnection facilities study shall identify:</text>
+          <para>
+            <num>(i)</num>
+            <text>The electrical switching configuration of the equipment, including transformer, switchgear, meters, and other station equipment;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The nature and estimated cost of the utility's interconnection facilities and distribution upgrades necessary to accomplish the interconnection, including engineering, procurement, construction, and overhead; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>An estimate of the time required to complete the construction and installation of the facilities.</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Third-Party Design or Construction of Interconnection Facilities.</text>
+          <para>
+            <num>(i)</num>
+            <text>The applicant and utility may agree to permit an applicant to separately arrange for a third party to design and construct the required interconnection facilities.</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The utility may review and approve the design of the facilities under the interconnection facilities study agreement.</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>If the applicant and utility agree to separately arrange for design and construction, the utility, consistent with security and confidentiality requirements, shall make all relevant information and required specifications available to the applicant to permit the applicant to obtain an independent design and cost estimate for the interconnection facilities.</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>The interconnection facilities shall be built in accordance with the specifications in the interconnection facilities study.</text>
+          </para>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Upon completion of the interconnection facilities study, and with the agreement of the applicant to pay for the interconnection facilities and distribution upgrades identified in the interconnection facilities study, the utility shall provide the applicant with an interconnection agreement within 5 business days.</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>The utility may require a study deposit of the lesser of 50 percent of estimated nonbinding good faith study costs or $10,000.</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>In cases where no interconnection upgrades are required, the interconnection facilities study shall be completed and the results shall be transmitted to the interconnection customer within 30 calendar days after the agreement is signed by the parties.</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>In cases where interconnection upgrades are required, the interconnection facilities study shall be completed and the results shall be transmitted to the interconnection customer within 45 calendar days after the agreement is signed by the parties.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Interconnection Agreement.</text>
+      <para>
+        <num>(1)</num>
+        <text>When a utility determines, as a result of the interconnection studies conducted under a Level 4 review, that it is appropriate to interconnect the small generator facility, the utility shall provide the applicant with an interconnection agreement.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The applicant shall have either 30 calendar days, or another mutually agreeable time frame after receipt of the interconnection agreement, to sign and return the interconnection agreement.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If the applicant does not sign the interconnection agreement within 30 calendar days, the request shall be considered withdrawn unless the applicant and utility mutually agree to extend the time period for executing the interconnection agreement prior to the expiration of the 30-calendar-day period. A request for extension may not be unreasonably denied by the utility.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>After the interconnection agreement is signed by the applicant and utility, interconnection of the small generator facility shall proceed according to any milestones agreed to by the applicant and utility in the interconnection agreement.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The utility shall approve the interconnection request and provide a permission to operate notice within 20 business days of receipt of acceptable documents, subject to the following conditions:</text>
+        <para>
+          <num>(a)</num>
+          <text>All milestones agreed to in the interconnection agreement are satisfied;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The small generator facility is approved by electric code officials with jurisdiction over the interconnection;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The applicant provides a certificate of completion to the utility;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Upon request of the utility, the applicant provides one or more photographs of the small generator facility site location, components, metering equipment, and other related facilities and equipment; and</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>There is a successful completion of the witness test, if conducted by the utility.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Level 4 Review Failure. If the interconnection request is denied, the utility shall provide the applicant a letter explaining the reasons for denying the interconnection request.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.13</num>
+    <heading>Dispute Resolution.</heading>
+    <para>
+      <num>A.</num>
+      <text>The applicant and utility shall attempt to resolve all disputes regarding interconnection as provided in this regulation promptly, equitably, and in a good faith manner.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Dispute Resolution Before the Commission.</text>
+      <para>
+        <num>(1)</num>
+        <text>If a dispute arises, the applicant or utility may seek immediate resolution through the procedures of <cite path="|20.32.01">COMAR 20.32.01</cite>.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Dispute resolution shall be conducted in an informal, expeditious manner to reach resolution with minimal costs and delay.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If a dispute arises involving technical matters regarding the interconnection process, dispute resolution shall be delegated to the Commission’s Engineering Division.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Pursuit of dispute resolution may not affect an applicant with regard to consideration of an interconnection request or an applicant's queue position.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Any deadline imposed by the regulations in this chapter, which is directly affected by any issue in dispute, shall be suspended until resolution of the dispute.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>If a satisfactory resolution is not achieved between the applicant and utility, the applicant or utility may request a hearing, pursuant to <cite doc="Md. Code" path="gpu|3-102">Public Utilities Article, §3-102, Annotated Code of Maryland</cite>.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.14</num>
+    <heading>Record Retention and Reporting Requirements.</heading>
+    <para>
+      <num>A.</num>
+      <text>A utility shall retain records of the following for a minimum of 7 years:</text>
+      <para>
+        <num>(1)</num>
+        <text>The total number nameplate capacity and total fees charged for the interconnection requests received, approved, and denied under Level 1, Level 2, Level 3, and Level 4 reviews;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The number of evaluations of interconnections requests approved and denied using any alternate process under Level 1, Level 2, Level 3, and Level 4 reviews;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The fuel type, if appropriate, total number, and nameplate capacity of small generator facilities approved in each of the following categories:</text>
+        <para>
+          <num>(a)</num>
+          <text>Net metering;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Emergency standby capable of operating in parallel;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Behind the meter load offset;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Combined heat and power;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Energy storage devices; and</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Other;</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The number of interconnection requests that were not processed within the deadlines established for Level 1, Level 2, Level 3, and Level 4 reviews in this chapter;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The number of scoping meetings held, the number of feasibility studies, impact studies, and facility studies performed, and the fees charged for these studies;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>The justifications for the actions taken to deny interconnection requests;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>The number of interconnection requests that were not processed within the deadlines established for Level 1, Level 2, Level 3, and Level 4 reviews in this chapter due to a PJM Interconnection, LLC market process study; and</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Any special operating requirements required in interconnection agreements, which are permitted only for generating facilities with a nameplate capacity greater than 2 MW, that are not part of the utility's standard operating procedures applicable to small generator facilities.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A utility shall retain records of interconnection studies it performs to determine the feasibility, system impacts, and facilities required by the interconnection of any small generator facility for a minimum of 7 years.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A utility shall file not later than April 1 of each year a report entitled “Annual Small Generator Interconnection Report” to the Commission containing the following information for the preceding calendar year:</text>
+      <para>
+        <num>(1)</num>
+        <text>The total number of interconnection requests received, approved, and denied under Level 1, Level 2, Level 3, and Level 4 reviews;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The fuel type, or energy storage type, total number, and total nameplate capacity of small generator facilities approved in each of the following categories:</text>
+        <para>
+          <num>(a)</num>
+          <text>Net metering;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Emergency standby capable of operating in parallel;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Behind the meter load offset;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Combined heat and power;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Energy storage devices; and</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Other;</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The number of interconnection requests that were not processed within the deadlines established for Level 1, Level 2, Level 3, and Level 4 reviews and permission to operate notices in this chapter;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The total number of interconnection requests denied and the reason for each denial;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Each interconnection request for a proposed small generator facility that received a cost estimate or incurred an actual cost of at least $10,000 for interconnection facilities or distribution upgrades and was completed during the reporting year, which shall include:</text>
+        <para>
+          <num>(a)</num>
+          <text>A list of the nameplate capacity of the proposed small generator facility;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Cost variance;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Variance percentage; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>If required, a summary explanation on why the actual cost of facilities or upgrades was at least 10 percent greater than the cost estimate provided;</text>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>The number of scoping meetings held, the number of feasibility studies, impact studies, facility studies, and combined studies performed and the total fees charged for these studies;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>For each interconnection request for a proposed small generator facility that failed to meet Level 2 criteria according to <cite path="|20|50|09|.10|F.">Regulation .10F of this chapter</cite>, a list of the queue number, reason for failure to meet Level 2 criteria, if the applicant requested additional review, whether the additional review was completed within 30 calendar days, or if the applicant decided to request interconnection under Level 4 criteria;</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>The current utility status and future plans and schedule for implementation of hosting capacity reporting systems or improvements to existing hosting capacity reporting systems;</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>Beginning April 1, 2021, a utility shall also report annually for the previous year:</text>
+        <para>
+          <num>(a)</num>
+          <text>The total number of restricted circuits and the total number of closed circuits;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The number of interconnection requests totaled for Level 1, Level 2, Level 3, and Level 4 that were denied due to restricted circuits and the total number that were denied due to closed circuits;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The number of interconnection requests for inadvertent export totaled for Level 1, Level 2, Level 3, and Level 4 that were approved, denied, or suspended due to non-compliance;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>The number of interconnection requests for flexible interconnection options totaled for Level 1, Level 2, Level 3, and Level 4 that were approved, denied, or suspended due to non-compliance;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>The number of cancelled small generator facility projects that result in interconnection costs to subsequent small generator facility projects in the same interconnection queue; and</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>The number of small generator facility projects that delay payment for a distribution system upgrade until the time a first higher small generator facility project in an interconnection queue is ready to interconnect;</text>
+        </para>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>Beginning April 1, 2024, if Volt-Watt control is implemented in a utility’s default utility required inverter settings profile, a utility shall also report for the electric distribution system annually for the previous year:</text>
+        <para>
+          <num>(a)</num>
+          <text>Number of total interconnection customer complaints about smart inverter related curtailments;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Number of smart inverter related curtailment interconnection customer complaints resolved by utility;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Number of smart inverter related curtailment interconnection customer complaints resolved by customer; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Number of smart inverter related interconnection customer curtailment complaints unresolved; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>Beginning April 1, 2025, an electric utility shall report exemptions to <cite path="|20|50|09|.06|R.">Regulation .06R of this chapter</cite> annually for the previous year, including:</text>
+        <para>
+          <num>(a)</num>
+          <text>The number of interconnection requests subject to the PJM Interconnection, LLC Tariff;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The number of interconnection requests in an area governed by a hosting capacity upgrade plan approved by the Commission;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The number of interconnection requests on a dedicated primary voltage feeder that may not benefit any other interconnection customer;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>The number of interconnection requests on a dedicated secondary voltage facility that may not benefit any other interconnection customer;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>The number of interconnection requests on an AC distribution grid or spot network;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>The number of interconnection requests exempted for other good cause; and</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>The reason for good cause for each interconnection request exempted from <cite path="|20|50|09|.06|R.">Regulation .06R of this chapter</cite>.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The utility shall file a notice with the Commission describing any interconnection equipment the utility has considered field-approved for its distribution system within 90 days after granting approval for the interconnection of a small generator facility using the field-approved interconnection equipment.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>For any small generator facility receiving an interconnection impact study, the utility shall list and explain any study for which the cost of the actual upgrade exceeded the impact study’s estimate by at least 25 percent.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>For any small generator facility receiving an interconnection facilities study, the utility shall list and explain any study for which the cost of the actual upgrade exceeded the impact study’s estimate by at least 10 percent.</text>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Public Utilities Article, §§<cite doc="Md. Code" path="gpu|2-113">2-113</cite>, <cite doc="Md. Code" path="gpu|2-121">2-121</cite>, <cite doc="Md. Code" path="gpu|5-101">5-101</cite>, <cite doc="Md. Code" path="gpu|5-303">5-303</cite>, and <cite doc="Md. Code" path="gpu|7-306">7-306</cite>, Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="2008-06-09">Effective date: June 9, 2008 (35:8 Md. R. 808)</annotation>
+    <annotation type="History" dest="container" effective="2020-04-20"><cite path="|20|50|09|.01">Regulation .01</cite> amended effective October 8, 2018 (45:20 Md. R. 920); April 20, 2020 (47:8 Md. R. 436)</annotation>
+    <annotation type="History" dest="container" effective="2023-03-20"><cite path="|20|50|09|.01|B.">Regulation .01B</cite> amended effective March 20, 2023 (50:5 Md. R. 183)</annotation>
+    <annotation type="History" dest="container" effective="2020-04-20"><cite path="|20|50|09|.02|B.">Regulation .02B</cite> amended effective October 8, 2018 (45:20 Md. R. 920); April 20, 2020 (47:8 Md. R. 436)</annotation>
+    <annotation type="History" dest="container" effective="2018-10-08"><cite path="|20|50|09|.03">Regulation .03</cite> amended effective October 8, 2018 (45:20 Md. R. 920)</annotation>
+    <annotation type="History" dest="container" effective="2018-10-08"><cite path="|20|50|09|.04">Regulation .04</cite> amended effective October 8, 2018 (45:20 Md. R. 920)</annotation>
+    <annotation type="History" dest="container" effective="2020-04-20"><cite path="|20|50|09|.04|E.">Regulation .04E</cite> repealed effective April 20, 2020 (47:8 Md. R. 436)</annotation>
+    <annotation type="History" dest="container" effective="2020-04-20"><cite path="|20|50|09|.05">Regulation .05</cite> amended effective April 20, 2020 (47:8 Md. R. 436)</annotation>
+    <annotation type="History" dest="container" effective="2023-03-20"><cite path="|20|50|09|.06">Regulation .06</cite> amended effective October 8, 2018 (45:20 Md. R. 920); April 20, 2020 (47:8 Md. R. 436); March 20, 2023 (50:5 Md. R. 183)</annotation>
+    <annotation type="History" dest="container" effective="2020-04-20"><cite path="|20|50|09|.07|B.">Regulation .07B</cite> amended effective April 20, 2020 (47:8 Md. R. 436)</annotation>
+    <annotation type="History" dest="container" effective="2020-04-20"><cite path="|20|50|09|.08">Regulation .08</cite> amended effective October 8, 2018 (45:20 Md. R. 920); April 20, 2020 (47:8 Md. R. 436)</annotation>
+    <annotation type="History" dest="container" effective="2020-04-20"><cite path="|20|50|09|.09">Regulation .09</cite> amended effective April 20, 2020 (47:8 Md. R. 436)</annotation>
+    <annotation type="History" dest="container" effective="2018-10-08"><cite path="|20|50|09|.09|A.">Regulation .09A</cite>, E amended effective October 8, 2018 (45:20 Md. R. 920)</annotation>
+    <annotation type="History" dest="container" effective="2018-10-08"><cite path="|20|50|09|.10">Regulation .10</cite> amended effective October 8, 2018 (45:20 Md. R. 920)</annotation>
+    <annotation type="History" dest="container" effective="2020-04-20"><cite path="|20|50|09|.10|A.">Regulation .10A</cite>, G amended effective April 20, 2020 (47:8 Md. R. 436)</annotation>
+    <annotation type="History" dest="container" effective="2018-10-08"><cite path="|20|50|09|.11">Regulation .11</cite> amended effective October 8, 2018 (45:20 Md. R. 920)</annotation>
+    <annotation type="History" dest="container" effective="2020-04-20"><cite path="|20|50|09|.11|E.">Regulation .11E</cite> amended effective April 20, 2020 (47:8 Md. R. 436)</annotation>
+    <annotation type="History" dest="container" effective="2018-10-08"><cite path="|20|50|09|.12">Regulation .12</cite> amended effective October 8, 2018 (45:20 Md. R. 920)</annotation>
+    <annotation type="History" dest="container" effective="2020-04-20"><cite path="|20|50|09|.12|E.">Regulation .12E</cite>, F amended effective April 20, 2020 (47:8 Md. R. 436)</annotation>
+    <annotation type="History" dest="container" effective="2018-10-08"><cite path="|20|50|09|.13|C.">Regulation .13C</cite> amended effective October 8, 2018 (45:20 Md. R. 920)</annotation>
+    <annotation type="History" dest="container" effective="2020-04-20"><cite path="|20|50|09|.14">Regulation .14</cite> amended effective October 8, 2018 (45:20 Md. R. 920); April 20, 2020 (47:8 Md. R. 436)</annotation>
+    <annotation type="History" dest="container" effective="2023-03-20"><cite path="|20|50|09|.14|C.">Regulation .14C</cite> amended effective March 20, 2023 (50:5 Md. R. 183)</annotation>
+    <annotation type="History" dest="container" effective="2024-12-12" discontinuity="true">Chapter revised effective December 12, 2024 (Md. R. 51:24 1082)</annotation>
+  </annotations>
+</container>

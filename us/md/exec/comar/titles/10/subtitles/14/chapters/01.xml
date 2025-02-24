@@ -1,0 +1,547 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>01</num>
+  <heading>Cancer Registry</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Scope.</heading>
+    <text>This chapter establishes a cancer registry within the Department, defines key terms, details the information to be contained in a cancer report, and specifies requirements of reporting facilities, nursing facilities, assisted living programs, and general hospice care programs. In addition, this chapter identifies requestors authorized to receive confidential data, allows a fee to be charged for data reports, and incorporates by reference the Maryland Cancer Registry Data Use Manual and Procedures (July 2016).</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>"Assisted living program" has the meaning stated in <cite path="10.07.14.02|B.">COMAR 10.07.14.02B</cite>.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>"Cancer registry" means a computerized system to register all cases of reportable human cancer or reportable human central nervous system (CNS) tumors of Maryland residents and nonresidents diagnosed or treated in Maryland.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>"Cancer report" means a one-time abstract from one or more of the following documents maintained by a reporting facility, nursing facility, assisted living program, or general hospice care program of each new case of reportable human cancer or CNS tumor diagnosed or treated, and any other case of reportable human cancer or CNS tumor initially diagnosed or treated for time periods as designated by the Secretary:</text>
+        <para>
+          <num>(a)</num>
+          <text>Medical record;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Pathology report; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Radiological report.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Case of a Reportable Human CNS Tumor.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Case of a reportable human CNS tumor" means an identified human tumor, irrespective of histologic type or behavior, occurring as a primary tumor in any of the following sites or subsites with International Classification of Diseases for Oncology, Third Edition (ICD-O-3) topography codes C70.0 — C72.9 and C75.1 — C75.3:</text>
+          <para>
+            <num>(i)</num>
+            <text>The brain;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The meninges;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>The spinal cord;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>The cauda equina;</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>A cranial nerve;</text>
+          </para>
+          <para>
+            <num>(vi)</num>
+            <text>The pituitary gland;</text>
+          </para>
+          <para>
+            <num>(vii)</num>
+            <text>The pineal gland; or</text>
+          </para>
+          <para>
+            <num>(viii)</num>
+            <text>The craniopharyngeal duct.</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Case of a reportable human CNS tumor” includes all benign and uncertain behavior tumors of the CNS (ICD-10-CM Codes D18.02, D32.0 — D33.9, D35.2 — D35.4, D42.0 — D43.9, D44.3 — D44.5, Q85.00 — Q85.09 and D49.6, and all tumors of the CNS of benign and uncertain behavior with ICD-O-3 codes of “0” or “1”), which includes codes from:</text>
+          <para>
+            <num>(i)</num>
+            <text>The International Classification of Diseases, Tenth Revision, Clinical Modification (ICD-10-CM); and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The International Classification of Diseases for Oncology, Third Edition (ICD-O-3).</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>“Case of reportable human cancer” means the identification of a human cancer from the following list, which includes codes from the International Classification of Diseases, Tenth Revision, Clinical Modification (ICD-10-CM) and the International Classification of Diseases for Oncology, Third Edition (ICD-O-3):</text>
+        <para>
+          <num>(a)</num>
+          <text>All malignant neoplasms with ICD-10-CM Codes C00 — C43.9, C44.00, C44.09, C44.10_, C44.19_, C44.20_, C44.29_, C44.30_, C44.39_, C44.40, C44.49, C44.50_, C44.59_, C44.60_, C44.69_, C44.70_, C44.79_, C44.80, C44.89, C44.90, C44.99, C45._ — C96._, or with ICD-O-3 behavior code of “3”, including genital skin cancer of the vagina, clitoris, vulva, prepuce, penis, and scrotum and excluding other sites of skin cancer with ICD-O-3 topography codes C44.0 — C44.9 with one of the following ICD-O-3 histologies:</text>
+          <para>
+            <num>(i)</num>
+            <text>M-8000 — 8005 Neoplasms, malignant, not otherwise specified of skin;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>M-8010 — 8046 Epithelial carcinomas of skin;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>M-8050 — 8084 Papillary and squamous cell carcinomas of skin (C44.02, C44.12_, C44.22_, C44.32_, C44.42, C44.52_, C44.62_, C44.72_, C44.82, C44.92); or</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>M-8090 — 8110 Basal cell carcinomas (C44.01, C44.11_, C44.21_, C44.31_, C44.41, C44.51_, C44.61_, C44.71_, C44.81, C44.91);</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>All malignant neoplasms with the following ICD-10-CM codes where ICD-O-3 behavior is “3” and ICD-O-3 histologies are reported except as follows:</text>
+          <para>
+            <num>(i)</num>
+            <text>If there is evidence of multiple foci, lymph node involvement, or metastasis, C37 — Thymoma (M-8580);</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>C7A.020 — Malignant carcinoid tumor of the appendix (M-8240);</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>C54.1 — Endometrial stroma, low grade (M-8931);</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>If there is evidence of multiple foci, lymph node involvement, or metastasis, D48.1 — Stromal Tumor of the digestive system (GIST 8639);</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>D48.60 — Phylloides tumor (M-9020);</text>
+          </para>
+          <para>
+            <num>(vi)</num>
+            <text>D45 — Polycythema (M-9950);</text>
+          </para>
+          <para>
+            <num>(vii)</num>
+            <text>D47.Z9 — Plasmacytoma (M-9731, M-9734);</text>
+          </para>
+          <para>
+            <num>(viii)</num>
+            <text>D47.3 — Essential thrombocythemia (M-9962), D46.0, D46.1, D46.20, D46.21, D46A, D46B — Low grade myelodysplastic syndrome lesions (M-9980), D46.22 — High grade myelodysplastic syndrome lesions (M-9983), D46.C — Myelodysplastic syndrome with 5q deletion (M-9986), D469 — Myelodysplastic syndrome, unspecified (M-9975), D47.1 — Myelofibrosis with myeloid metaplasia (primary myelofibrosis) (M-9961), D47.Z1 — post-transplant lymphoproliferative disorder (M-9989), C94.40, C94.41, C94.42, D47.9, D47.Z9 — lympho and myeloproliferative disease (M-9960, M-9970);</text>
+          </para>
+          <para>
+            <num>(ix)</num>
+            <text>C88.2 — Alpha and gamma heavy chain disease (M-9762) or Franklin disease (M-9763);</text>
+          </para>
+          <para>
+            <num>(x)</num>
+            <text>C88.0 — Waldenstrom macroglobulinemia (M-9761);</text>
+          </para>
+          <para>
+            <num>(xi)</num>
+            <text>D46.4 — Refractory anemia (M-9980); or</text>
+          </para>
+          <para>
+            <num>(xii)</num>
+            <text>D46.1 — Refractory anemia with ringed sideroblasts (M-9982), refractory anemia with excess blasts (M-9983), or refractory anemia with excess blasts in transformation (M-9984);</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>All cases of carcinoma in situ with ICD-10-CM Codes D00._ — D09.9, D47.Z2, D49.511 — D49.519, D49.59, D78.31 — D78.34, and D89.40 — D89.49, or with ICD-O-3 behavior code of “2”, including genital skin cancers of the vagina, clitoris, vulva, prepuce, penis, and scrotum and excluding other skin cancers with ICD-O-3 topography codes C44.0_ — C44.9_ with one of the following ICD-O-3 histologies:</text>
+          <para>
+            <num>(i)</num>
+            <text>M-8000 — 8005 Neoplasms, malignant, not otherwise specified of skin;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>M-8010 — 8046 Epithelial carcinomas of skin;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>M-8050 — 8084 Papillary and squamous cell carcinomas of skin; and</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>M-8090 — 8110 Basal cell carcinomas; or</text>
+          </para>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>All cases of intraepithelial neoplasia with ICD-O-3 histology code of M-8077/2:</text>
+          <para>
+            <num>(i)</num>
+            <text>Including squamous intraepithelial neoplasia of the larynx (LIN), vagina (VAIN), vulva (VIN), and anus (AIN) (ICD-10-CM codes D02.0, D07.2, D07.1, and D01.3; and ICD-O-3 topography codes C52, C51, and C21._); and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Excluding squamous intraepithelial neoplasia of the cervix (CIN III) and glandular intraepithelial neoplasia of the prostate (PIN) (ICD-10-CM codes D06._ and D07.5; and ICD-O-3 topography codes C53 and C61.9).</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>"Computerized file" means an electronic data file using software approved for use by the Secretary, containing complete cancer report information transferable to a master electronic database system maintained by the Department.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>"Department" means the Maryland Department of Health or a designee.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>"Freestanding ambulatory care facility" has the meaning stated in Health-General Article, §19-3B-01, Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>"Freestanding laboratory" means a facility, place, establishment, or institution which performs a laboratory examination for a person, authorized by law to request the examination, in connection with the diagnosis of a reportable human cancer or CNS tumor, and is licensed by the State pursuant to <cite path="|10.10.03">COMAR 10.10.03</cite>, and:</text>
+        <para>
+          <num>(a)</num>
+          <text>Not under the administrative control of a hospital; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Under the administrative control of a hospital for a diagnosis of reportable human cancer or CNS tumor of a nonhospitalized patient.</text>
+        </para>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>“General hospice care program” has the meaning stated in <cite path="10.07.21.02">COMAR 10.07.21.02</cite>.</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>"Hospital" means a facility which is licensed by the State pursuant to <cite path="|10.07.01">COMAR 10.07.01</cite>.</text>
+      </para>
+      <para>
+        <num>(11-1)</num>
+        <text>“Maryland Cancer Registry Data Use Manual and Procedures” means the document that describes the Maryland cancer registry procedures for release of cancer data and that outlines the procedures to obtain both non-confidential aggregate data and confidential individual-level data.</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>"Nursing facility" has the meaning stated in <cite path="10.07.02.01|B.">COMAR 10.07.02.01B</cite>.</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>"Physician" means an individual who:</text>
+        <para>
+          <num>(a)</num>
+          <text>Practices medicine, as defined in <cite doc="Md. Code" path="gho|14-101">Health Occupations Article, §14-101, Annotated Code of Maryland</cite>; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Diagnoses or treats a case of reportable human cancer or a reportable human CNS tumor at a practice located in Maryland.</text>
+        </para>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>"Reporting facility" means any of the following:</text>
+        <para>
+          <num>(a)</num>
+          <text>A hospital, freestanding laboratory, freestanding ambulatory care facility, or therapeutic radiological center; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A physician who has care of or has diagnosed a case of reportable human cancer or reportable human CNS tumor for a nonhospitalized patient not otherwise reported.</text>
+        </para>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>"Secretary" means the Secretary of Health or a designee of the Secretary.</text>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>"Therapeutic radiological center" means a facility or institution:</text>
+        <para>
+          <num>(a)</num>
+          <text>Performing radiological treatment for a person authorized by law to request the treatment in connection with a reportable human cancer or a reportable human CNS tumor; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Licensed or registered by the State pursuant to <cite path="|10.05.03">COMAR 10.05.03</cite> and not under the administrative control of a hospital.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02-1</num>
+    <heading>Incorporation by Reference.</heading>
+    <text>The Maryland Cancer Registry Data Use Manual and Procedures (Maryland Department of Health, July 2016) is incorporated by reference.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Establishment of a Cancer Registry.</heading>
+    <text>There is a cancer registry established within the Department, whose purpose is to collect reportable human cancer data and reportable human CNS tumor data to further the cancer control goals of the State.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Cancer Control Goals of the State.</heading>
+    <para>
+      <num>A.</num>
+      <text>The cancer control goals of the State are to reduce the incidence and mortality of reportable human cancer and reportable human CNS tumors and racial, ethnic, gender, age, and geographic disparities in reportable human cancer and CNS tumor incidence and mortality in Maryland, by:</text>
+      <para>
+        <num>(1)</num>
+        <text>Advancing the understanding of reportable human cancer and reportable human CNS tumor demographics;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Describing reportable human cancer and reportable human CNS tumor sources, causes, risk factors, preventive measures, diagnostic tests, screening tests, treatment, and survival; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Evaluating the cost, quality, efficacy, and appropriateness of diagnostic, therapeutic, rehabilitative, and preventive services and programs related to reportable human cancer and reportable human CNS tumors.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Research that will further the cancer control goals of the State is research whose protocols have been reviewed by Department staff who have found that the research will:</text>
+      <para>
+        <num>(1)</num>
+        <text>Advance scientific knowledge or advance knowledge of clinical practice related to cancer;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Have approaches, aims, and methods that will allow the researcher to perform descriptive analyses or test hypotheses;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Have one or more investigators who have training and experience with the approaches and methods; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Be conducted in a scientific environment likely to contribute to the success of the research.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Content of a Cancer Report.</heading>
+    <text>A cancer report shall contain the following information, using the standard nomenclature contained in the North American Association of Central Cancer Registries' Standards for Cancer Registries, Volume II, Data Standards and Data Dictionary:</text>
+    <para>
+      <num>A.</num>
+      <text>Reasonably obtained patient demographic information, including risk factors;</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Information on the industrial or occupational history of an individual with cancer, to the extent such information is available;</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Relevant information on the:</text>
+      <para>
+        <num>(1)</num>
+        <text>Initial diagnosis, including the date of the diagnosis;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Initial treatment;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Extent of the disease by the end of the first hospitalization; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Extent of the disease within 2 months of diagnosis, if the information is available to the reporting facility, nursing facility, assisted living program, or general hospice care program;</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Facility and other provider identification information; and</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Other requirements as considered necessary by the Secretary.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Reporting Requirements.</heading>
+    <para>
+      <num>A.</num>
+      <text>A reporting facility shall submit a:</text>
+      <para>
+        <num>(1)</num>
+        <text>Cancer report to the Secretary in a computerized file containing standard information required by the Secretary;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Computerized file not less than quarterly; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Completed report of any new individual case of a reportable human cancer or reportable human CNS tumor not later than 6 months after diagnosis or treatment.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A nursing facility, an assisted living program, or a general hospice care program shall submit a cancer report containing information that is under the control of the facility to the Secretary if the Secretary requests a cancer report on a patient who has been a resident of the nursing facility, assisted living program, or general hospice care program.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Confidentiality of Cancer Reports.</heading>
+    <para>
+      <num>A.</num>
+      <text>Information obtained under this chapter is not a medical record under Health-General Article, §4-301, Annotated Code of Maryland, but is subject to the confidentiality requirements of Health-General Article, §§4-101 — 4-103, Annotated Code of Maryland.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The Secretary may release confidential data to:</text>
+      <para>
+        <num>(1)</num>
+        <text>An institution or individual researcher for medical, epidemiological, health care, or other cancer-related or CNS tumor-related research approved by the Secretary and the Department's Institutional Review Board (IRB) in order to further the cancer control goals of the State set forth in <cite path="|10|14|01|.04">Regulation .04 of this chapter</cite>;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A reporting facility which:</text>
+        <para>
+          <num>(a)</num>
+          <text>Routinely submits information on cases of reportable human cancer or reportable human CNS tumors to the cancer registry;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Has been formally accepted as a participant in the cancer registry system; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Requests data relating to patients reported by the facility;</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>An out-of-State cancer registry or cancer control agency which requests routine data if the:</text>
+        <para>
+          <num>(a)</num>
+          <text>Patient is a resident of the other state; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Other state has authority to provide equivalent information on Maryland residents to this State;</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Each county health officer and the Baltimore City Commissioner of Health; and</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Another governmental agency performing its lawful duties pursuant to State or federal law.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The Secretary may release confidential information, subject to:</text>
+      <para>
+        <num>(1)</num>
+        <text>A determination by the Secretary that a recipient of the information disclosed will maintain the confidentiality of the disclosed information; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An agreement signed by the Secretary and by the recipient of the confidential information that the recipient of the information will maintain the confidentiality of the disclosed information.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The Secretary shall release confidential data to a requestor in response to a written request only, in accordance with Health-General Article, §§4-101 and 4-102, Annotated Code of Maryland.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>A reporting facility that in good faith submits a cancer report to the Secretary is not liable in any cause of action arising from the submission of the cancer report to the Secretary.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>The use or publication of any statistics, information, or other material that summarizes or refers to confidential records in the aggregate, without disclosing the identity of any person who is the subject of the confidential record is not subject to the provisions of Health-General Article, §4-102, Annotated Code of Maryland.</text>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>The Secretary shall release cancer data in accordance with the procedures outlined in the Maryland Cancer Registry Data Use Manual and Procedures.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Authority and Requirements of the Secretary.</heading>
+    <para>
+      <num>A.</num>
+      <text>To assure compliance by a reporting facility, nursing facility, assisted living program, or general hospice care program with <cite path="|10|14|01|.05">Regulation .05 of this chapter</cite>, the Secretary may, upon advance notice, inspect a representative sample of medical records, pathology reports, or radiological reports maintained by the facility of cases of reportable human cancer and reportable human CNS tumors.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The Secretary may charge a reasonable fee to cover the cost of providing data reports to appropriate requestors, as allowed by <cite path="10.01.08.04">COMAR 10.01.08.04</cite>. All applicable fees shall be paid in full in advance of filling the request.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>After receiving all necessary information to support a request to release cancer registry data, the Secretary shall act in a timely manner and decide on the request with one of the following outcomes:</text>
+      <para>
+        <num>(1)</num>
+        <text>Final approval;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Interim approval, if the request has been accepted with one or more conditions which shall be met before final approval is granted; or</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Disapproval.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The Secretary, in accordance with <cite doc="Md. Code" path="gsg|2-1246">State Government Article, §2-1246, Annotated Code of Maryland</cite>, shall submit an annual report to the Governor and General Assembly on the activities of the cancer registry, including use of cancer registry data.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Nothing in this chapter is intended to limit or otherwise restrict the Secretary from obtaining cancer report information on Maryland residents from sources located either inside or outside the State.</text>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Health-General Article, §§2-104, 18-104, 18-203 and 18-204, Annotated Code of Maryland; 42 U.S.C. §280(e)</annotation>
+    <annotation type="History" dest="container" effective="1992-09-28">Effective date: September 28, 1992 (19:19 Md. R. 1707)</annotation>
+    <annotation type="History" dest="container" effective="1997-04-21"><cite path="|10|14|01|.01">Regulation .01</cite> amended effective April 21, 1997 (24:8 Md. R. 616)</annotation>
+    <annotation type="History" dest="container" effective="2003-06-23"><cite path="|10|14|01|.02|B.">Regulation .02B</cite> amended effective April 26, 1993 (20:8 Md. R. 723); April 21, 1997 (24:8 Md. R. 616); June 23, 2003 (30:12 Md. R. 788)</annotation>
+    <annotation type="History" dest="container" effective="1997-04-21"><cite path="|10|14|01|.04">Regulation .04</cite> amended effective April 21, 1997 (24:8 Md. R. 616)</annotation>
+    <annotation type="History" dest="container" effective="2003-06-23"><cite path="|10|14|01|.04|C.">Regulation .04C</cite> amended effective June 23, 2003 (30:12 Md. R. 788)</annotation>
+    <annotation type="History" dest="container" effective="2003-06-23"><cite path="|10|14|01|.05|B.">Regulation .05B</cite> amended effective June 23, 2003 (30:12 Md. R. 788)</annotation>
+    <annotation type="History" dest="container" effective="2003-06-23"><cite path="|10|14|01|.06|B.">Regulation .06B</cite>, D amended effective June 23, 2003 (30:12 Md. R. 788)</annotation>
+    <annotation type="History" dest="container" effective="2010-03-22" discontinuity="true">Chapter revised effective March 22, 2010 (37:6 Md. R. 478)</annotation>
+    <annotation type="History" dest="container" effective="2017-02-27"><cite path="|10|14|01|.01">Regulation .01</cite> amended effective January 13, 2011 (38:1 Md. R. 11); April 15, 2013 (40:7 Md. R. 611); February 27, 2017 (44:4 Md. R. 253)</annotation>
+    <annotation type="History" dest="container" effective="2017-02-27"><cite path="|10|14|01|.02|B.">Regulation .02B</cite> amended effective January 13, 2011 (38:1 Md. R. 11); April 15, 2013 (40:7 Md. R. 611); February 27, 2017 (44:4 Md. R. 253)</annotation>
+    <annotation type="History" dest="container" effective="2013-04-15"><cite path="|10|14|01|.02">Regulation .02</cite>-1 adopted effective April 15, 2013 (40:7 Md. R. 611)</annotation>
+    <annotation type="History" dest="container" effective="2017-02-27"><cite path="|10|14|01|.02">Regulation .02</cite>-1 amended effective February 27, 2017 (44:4 Md. R. 253)</annotation>
+    <annotation type="History" dest="container" effective="2011-01-13"><cite path="|10|14|01|.05|C.">Regulation .05C</cite> amended effective January 13, 2011 (38:1 Md. R. 11)</annotation>
+    <annotation type="History" dest="container" effective="2011-01-13"><cite path="|10|14|01|.06|B.">Regulation .06B</cite> amended effective January 13, 2011 (38:1 Md. R. 11)</annotation>
+    <annotation type="History" dest="container" effective="2013-04-15"><cite path="|10|14|01|.07|G.">Regulation .07G</cite> adopted effective April 15, 2013 (40:7 Md. R. 611)</annotation>
+    <annotation type="History" dest="container" effective="2017-02-27"><cite path="|10|14|01|.07|G.">Regulation .07G</cite> amended effective February 27, 2017 (44:4 Md. R. 253)</annotation>
+    <annotation type="History" dest="container" effective="2011-01-13"><cite path="|10|14|01|.08|A.">Regulation .08A</cite> amended effective January 13, 2011 (38:1 Md. R. 11)</annotation>
+  </annotations>
+</container>

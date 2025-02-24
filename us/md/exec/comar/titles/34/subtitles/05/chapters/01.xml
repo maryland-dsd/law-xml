@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>01</num>
+  <heading>Redistricting Prison Populations</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Purpose.</heading>
+    <text>The purpose of this subtitle is to carry out the provisions of Ch. 67, Acts of 2010, which mandates that for a person incarcerated in either a State or a federal correctional facility the population figures used for the congressional and legislative districting plans that follow each decennial census count the person at the location of the person’s last known residence before incarceration.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Scope.</heading>
+    <text>This subtitle applies to the congressional redistricting plan, the legislative redistricting plan for the General Assembly, and legislative districts that are used to elect the governing body of a county or municipal corporation,</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this subtitle, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>“Bureau” means the Federal Bureau of Prisons.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>“Correctional Services” means the Department of Public Safety and Correctional Services.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>“Department” means the Maryland Department of Planning.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>“Federal correctional facility” means a correctional facility that is located within Maryland and operated by the Bureau.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>“Geocode” means the process of establishing geographical coordinates from a postal address.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Incarcerated Individual.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Incarcerated individual” means an individual who is actually or constructively detained in a State correctional facility or a federal correctional facility on the date of the decennial census.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Incarcerated individual” does not include an individual:</text>
+          <para>
+            <num>(i)</num>
+            <text>Who is detained in a local correctional facility; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Whose last known residence is not within the State of Maryland.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>"Last known residence" means the domicile of an incarcerated individual immediately prior to the incarceration.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>State Correctional Facility.</text>
+        <para>
+          <num>(a)</num>
+          <text>“State correctional facility” means a correctional facility that is operated by the State.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“State correctional facility” includes the:</text>
+          <para>
+            <num>(i)</num>
+            <text>Baltimore City Detention Center; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Patuxent Institution.</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>“State correctional facility” does not include:</text>
+          <para>
+            <num>(i)</num>
+            <text>The centralized booking facility in Baltimore City that is operated by the Division of Pretrial Detention and Services in Correctional Services; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>A local correctional facility as defined in <cite doc="Md. Code" path="gcs|1-101">Correctional Services Article, §1-101, Annotated Code of Maryland</cite>.</text>
+          </para>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="34|05|01|.04">
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Geocoding Last Known Residence of Incarcerated Individuals.</heading>
+    <para>
+      <num>A.</num>
+      <text>Following completion of each decennial census, the Department shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Request and receive from Correctional Services and the Bureau the address of the last known residence for each incarcerated individual; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Subject to §§B and C of this regulation, geocode for each incarcerated individual the address of the last known residence received from Correctional Services or the Bureau.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The Department shall make reasonable efforts to correct any address received from Correctional Services or the Bureau that the Department is unable to geocode by, among other things:</text>
+      <para>
+        <num>(1)</num>
+        <text>Verifying and correcting the address zip code against the United States Postal Service zip code locator;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Correcting any misspellings in the address;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Correcting or adding a street suffix or prefix;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Correcting or adding a street direction; and</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Removing from the address any extraneous, superfluous, or inaccurate information.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>When Unable to Geocode Last Known Residence. The last known residence of an incarcerated individual shall be the State or federal correctional facility where the individual is incarcerated if:</text>
+      <para>
+        <num>(1)</num>
+        <text>The address provided to the Department for the individual by Correctional Services or the Bureau cannot be geocoded for reasons included in <cite path="34|05|01|.04|D.">§D of this regulation</cite>; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Department is unable to geocode the address provided to the Department for the individual by Correctional Services or the Bureau after making reasonable efforts in accordance with <cite path="34|05|01|.04|B.">§B of this regulation</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Addresses that cannot be geocoded include:</text>
+      <para>
+        <num>(1)</num>
+        <text>An address defined as “homeless”;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An address listed as no address for an individual;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>An address identified as a State or federal correctional facility;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>A rural route address;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>A post office box address;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>An address that includes no house number;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>An address with other errors or omissions that cannot be corrected in accordance with <cite path="34|05|01|.04|B.">§B of this regulation</cite>; and</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>An address that cannot be located through use of the geocoder mapping applications utilized by the Bureau.</text>
+      </para>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container"><cite doc="Md. Code" path="glg|1-1307">Local Government Article, §1-1307</cite>; State Finance and Procurement Article, §§<cite doc="Md. Code" path="gsf|5-203">5-203</cite>, <cite doc="Md. Code" path="gsf|5-301">5-301</cite>, and <cite doc="Md. Code" path="gsf|5-306">5-306</cite>; <cite doc="Md. Code" path="gsg|2-2">State Government Article, §2-2</cite>A-01; Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container">Effective date:</annotation>
+    <annotation type="History" dest="container" effective="2011-09-05">Regulations <cite path="|34|05|01|.01">.01</cite>—<cite path="|34|05|01|.04">.04</cite> adopted as an emergency provision effective February 25, 2011 (38:7 Md. R. 428); adopted permanently effective September 5, 2011 (38:18 Md. R. 1078)</annotation>
+    <annotation type="History" dest="container" effective="2020-07-16"><cite path="|34|05|01|.01">Regulation .01</cite> amended effective July 16, 2020 (47:14 Md. R. 676)</annotation>
+    <annotation type="History" dest="container" effective="2020-07-16"><cite path="|34|05|01|.03|B.">Regulation .03B</cite> amended effective July 16, 2020 (47:14 Md. R. 676)</annotation>
+    <annotation type="History" dest="container" effective="2020-07-16"><cite path="|34|05|01|.04">Regulation .04</cite> amended effective July 16, 2020 (47:14 Md. R. 676)</annotation>
+  </annotations>
+</container>

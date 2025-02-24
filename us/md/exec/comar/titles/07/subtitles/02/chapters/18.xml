@@ -1,0 +1,762 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>18</num>
+  <heading>Respite Care Services</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Purpose.</heading>
+    <text>The purpose of the Respite Care Program is to provide short-term, periodic and temporary care for individuals with developmental or functional disabilities in or out of their homes by qualified care workers in order to relieve the family or informal caregiver. This temporary care of the adult or child with a developmental or functional disability provides a period of rest and renewal for the family while contributing to maintaining the individual in the community, enabling the individual to live in a family or family-like environment, or assisting the individual in achieving a greater level of independence. Respite care is provided at planned intervals, in a time of crisis, or on an as-needed basis. This is not an entitlement program.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meaning indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>"Administration" means the Social Services Administration of the Department of Human Services.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>"Applicant" means an individual with a developmental or functional disability, a family member, a caregiver, or an authorized representative of the individual with the disability, who is applying for respite services.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>"Consumer" means an individual with a developmental or functional disability, who receives respite care services.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>"Developmental disability" means a severe, chronic disability which:</text>
+        <para>
+          <num>(a)</num>
+          <text>Is attributable to a mental or physical impairment or a combination of physical and mental impairments, including a head injury;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Is manifested before an individual is 22 years old;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Is likely to continue indefinitely;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Results in a substantial functional limitation in three or more of the following areas of major life activity:</text>
+          <para>
+            <num>(i)</num>
+            <text>Self-care;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Receptive and expressive language;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Learning;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Mobility;</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>Self-direction;</text>
+          </para>
+          <para>
+            <num>(vi)</num>
+            <text>Capacity of independent living; and</text>
+          </para>
+          <para>
+            <num>(vii)</num>
+            <text>Economic self-sufficiency; and</text>
+          </para>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Reflects an individual's need for a combination and sequence of special interdisciplinary or generic care, treatment, or other services which are lifelong or of extended duration and are individually planned and coordinated.</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>"Family" means one or more adults, with or without children, related by blood, marriage, adoption, or legal guardianship, and domestic partners residing in the same household with an individual with a developmental or functional disability.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>“Foster Home” means a certified Department of Human Services foster home.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>"Functional disability" means a severe, chronic disability which:</text>
+        <para>
+          <num>(a)</num>
+          <text>Is attributable to a mental or physical impairment or combination of mental and physical impairments;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Is likely to continue indefinitely;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Results in substantial functional limitations in three or more of the following areas of major life activity:</text>
+          <para>
+            <num>(i)</num>
+            <text>Self-care;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Receptive and expressive language;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Learning;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Mobility;</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>Self-direction;</text>
+          </para>
+          <para>
+            <num>(vi)</num>
+            <text>Capacity for independent living; and</text>
+          </para>
+          <para>
+            <num>(vii)</num>
+            <text>Economic self-sufficiency; and</text>
+          </para>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Reflects an individual's need for a combination and sequence of special interdisciplinary or generic care, treatment, or other services which are lifelong or of extended duration and are individually planned and coordinated.</text>
+        </para>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>“Informal caregiver" means the individual who routinely cares for the individual with a developmental or functional disability and is not compensated for the care. The informal caregiver may live in a residence other than that of the individual with the disability.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>"Level I care" means supervisory and personal care, and may include any or all of the following:</text>
+        <para>
+          <num>(a)</num>
+          <text>Household and personal assistance services, which include light housekeeping services, chore services, assistance with meals and special diets, food preparation, dressing, shopping, escort service, writing letters, and reading to consumers; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Personal care services in accordance with the service plan.</text>
+        </para>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>"Level II care" means skilled care delivered by a licensed health care provider or a certified skilled professional.</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>“Licensed Health Care Provider” means is an individual or an institution that provides preventive, curative, promotional or rehabilitative health care services in a systematic way to individuals, families or communities.</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>"Local department" means the department of social services in a county or Baltimore City or the Montgomery County Department of Health and Human Services.</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>"Provider" means a public or private nonprofit agency or local department, which provides respite care services under a contractual agreement with, or direct grant from, the Administration or a local department.</text>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>"Qualified care worker" means a person who, by training, experience, or authorization is qualified to deliver the care needed and who has been designated as such by a respite services provider or the family caregiver.</text>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>"Respite care" means short-term periodic and temporary care of individuals with developmental or functional disabilities in order to temporarily relieve the family or informal caregiver.</text>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>"Respite care facility" means a designated program, location, private home or center, outside of the consumer's residence, where respite care is provided.</text>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>"Service statement" means a written document which records pertinent information the provider considers essential for providing respite care services, including:</text>
+        <para>
+          <num>(a)</num>
+          <text>Eligibility;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Amount and level of respite care services;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Any fee required;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Records referring the applicant to other sources for services identified as needed, but not available from the provider; and</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Assessment of the family's respite care needs.</text>
+        </para>
+      </para>
+      <para>
+        <num>(18)</num>
+        <text>"Subsidy" means funds available from the Administration to assist in the payment of respite care service fees, if the total income of a consumer, or the family of a consumer who is younger than 18 years old is less than 150 percent of the State's median income adjusted to family size.</text>
+      </para>
+      <para>
+        <num>(19)</num>
+        <text>"Total income" means the sum of income received by the consumer, or the family of a consumer, if the consumer is under 18, and is eligible for respite care services minus medical expenses.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="07|02|18|.03">
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Eligibility.</heading>
+    <para>
+      <num>A.</num>
+      <text>Eligibility for Respite Care Services. Except as provided in <cite path="07|02|18|.03|B.">§B of this regulation</cite>, the following individuals are eligible for respite care services:</text>
+      <para>
+        <num>(1)</num>
+        <text>A family residing in Maryland with an individual with a developmental or functional disability;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An individual in Maryland with a developmental or functional disability, who does not reside with a family or;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>An individual in Maryland with a developmental or functional disability living in a foster home.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Exception. Except for an individual with a developmental or functional disability living in a foster home, families or informal caregivers who receive no respite support from other public or private agencies or programs shall have priority in receiving DHS respite care services funding.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Eligibility for Subsidy.</text>
+      <para>
+        <num>(1)</num>
+        <text>A family or an individual with a developmental or functional disability eligible for respite care services may be eligible for a subsidy if the family's or the individual with the disability's total income is less than or equal to 150 percent of the State's median income adjusted to family size.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If the family's or the individual with the developmental or functional disability's annual income equals or exceeds 150 percent of the State's median income, the family or individual with a disability pays the full fee for care.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="07|02|18|.04">
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Application Process.</heading>
+    <para>
+      <num>A.</num>
+      <text>An applicant seeking respite care services shall apply to the provider of the services. If the local department does not provide the services, it shall refer the applicant to the DHS respite care provider in their area or to another appropriate provider. The provider shall inform the applicant about the eligibility requirements, rights, and obligations under the program. The applicant shall complete the application on a form approved by the Administration. The completed application shall include:</text>
+      <para>
+        <num>(1)</num>
+        <text>The date of application;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The name of the individual with the developmental or functional disability;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The address of the applicant, and phone number, if any, of the nearest phone for emergencies;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The name and address of the informal caregiver;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The school or day program in current use by the individual with the developmental or functional disability;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>The living arrangement of the applicant, including information about the household composition;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Other current state or county services used by the consumer;</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>The amount and source of total income;</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>Medical or psychological information by a licensed health care provider which enables the respite care provider agency to determine that the applicant is an individual with a developmental or functional disability and the type and level of care needed;</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>The name, address, telephone number, and relationship of the applicant to the individual with the developmental or functional disability; and</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>Authorization for the release of medical and psychological information.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Notice to Applicant.</text>
+      <para>
+        <num>(1)</num>
+        <text>Within 30 days after receipt of the application the provider shall notify the applicant in writing that the application is incomplete, has been accepted, or has been denied.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If the application is incomplete, the notice shall state:</text>
+        <para>
+          <num>(a)</num>
+          <text>The parts of the application which have not been completed; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>That if the application is not completed within 30 days, the provider is required to deny the application.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If the application is accepted, the notice shall state:</text>
+        <para>
+          <num>(a)</num>
+          <text>The amount of services to be delivered;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The type and level of service to be delivered;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The schedule for use of the service;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>The amount of any fee to be paid;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>That eligibility and financial status are redetermined if a change occurs that might affect the eligibility or financial status, and at least every 12 months;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>That the service statement is reviewed and amended if a change occurs, and at least every 12 months; and</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>The right to, and method for, obtaining a fair hearing.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>If the applicant is denied, the notice shall state the:</text>
+        <para>
+          <num>(a)</num>
+          <text>Reason for denial;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Specific regulation supporting the decision; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The right to, and method for, obtaining a fair hearing.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The provider shall deny the application if:</text>
+      <para>
+        <num>(1)</num>
+        <text>The medical or psychological information does not indicate that the applicant is an individual with a developmental or functional disability, or is a family member or informal caregiver of a person with a developmental or functional disability;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The application remains incomplete 30 days after notice to the applicant under <cite path="07|02|18|.04|B.|(2)">§B(2) of this regulation</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Respite care services may be provided for an individual with a developmental or functional disability in a crisis situation before completing the application, at the discretion of the provider.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Application for Subsidy.</heading>
+    <para>
+      <num>A.</num>
+      <text>If the total income is less than or equal to 150 percent of the State's median income adjusted to family size, the applicant may be eligible for a subsidy.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Income amounts are included in the total income only if they are regular and ongoing. One-time payments such as gifts or income tax refunds are not included. The total income includes items deducted from salaries and wages such as withholding taxes or social security.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Medical Expenses. Medical expenses are deducted from total income if the medical expenses are:</text>
+      <para>
+        <num>(1)</num>
+        <text>Related exclusively to the expenses of the individual with the developmental or functional disability, such as prosthetic devices, but not expenses which would apply to other members of the applicant's household, such as cold remedies;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Documented as paid by a valid receipt;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Not covered by any insurance or other payment coverage; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Calculated for the preceding 12 months.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Payment Rate for Subsidized Services.</heading>
+    <para>
+      <num>A.</num>
+      <text>For paid care workers, the hourly pay rate is set and published by the Administration.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The pay rate for a day of respite care is 10 times the hourly rate paid.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>When more than one individual with a developmental or functional disability requires care in the same household, payments and fees are 1/2 the set rate for each additional individual with a disability in the household, in addition to the full rate for the initial individual.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The income of the consumer determines the amount of the subsidy the consumer may receive. A sliding fee scale based on family income is established and published by the Administration.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Delivery of Respite Care Service.</heading>
+    <para>
+      <num>A.</num>
+      <text>Care Record. If an application is accepted, the provider shall develop and maintain a care record for each recipient of the service. The care record includes the:</text>
+      <para>
+        <num>(1)</num>
+        <text>Completed application;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Service plan;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Records of each redetermination and reconsideration;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Records of termination and disposition of the case; and</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Records of service delivery.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Level of Care. The levels of care are:</text>
+      <para>
+        <num>(1)</num>
+        <text>Level I care; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Level II care.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Method of Delivery. Respite care services may be delivered either in the residence of the individual with the developmental or functional disability or in a respite care facility.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Limitations.</heading>
+    <para>
+      <num>A.</num>
+      <text>Respite care services, within one State fiscal year, are available as follows:</text>
+      <para>
+        <num>(1)</num>
+        <text>On an hourly basis, up to a total of 24 hours of care provided in periods of less than 10 hours in any 24-hour period; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>On a daily basis, up to 14 days of care with 1 day being not fewer than 10, or more than 24 hours in any 24-hour period.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>An unused day of care may be converted into hours, with 1 day equal to 10 hours.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Respite care services may not be used to substitute for routine paid attendant care.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Qualified care workers may care for individuals in the household other than the individual with a developmental or functional disability, only if the provider determines that such an arrangement will not compromise the quality of care received by the individual with the disability. The number of individuals cared for may not exceed a total of five and any financial arrangements for household members without a developmental or functional disability may not include respite care subsidy funds.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Respite care services may not be provided if:</text>
+      <para>
+        <num>(1)</num>
+        <text>A subsidy is required and all provider funds have been expended or obligated;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>All care worker time has been committed; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>All the consumer’s eligible hours have been exhausted.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Respite care services may not be provided by anyone living in the same household as the consumer.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Redetermination and Reconsideration.</heading>
+    <para>
+      <num>A.</num>
+      <text>A redetermination of eligibility for respite care service and subsidy, and reconsideration of the service statement is required:</text>
+      <para>
+        <num>(1)</num>
+        <text>If a change occurs which affects eligibility or the need for service; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>At least every 12 months.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The provider shall document in the care record the determination and reconsideration and include:</text>
+      <para>
+        <num>(1)</num>
+        <text>The current living arrangements;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A written statement of subsidy status, and the amount and type of services for which the family is eligible; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Any necessary revisions to the service statement.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.10</num>
+    <heading>Termination.</heading>
+    <para>
+      <num>A.</num>
+      <text>The provider shall terminate services if:</text>
+      <para>
+        <num>(1)</num>
+        <text>The provider and consumer agree that the respite care service does not meet the needs identified in the service statement;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Requested by the consumer;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The applicant, consumer or informal caregiver has provided fraudulent information, inappropriate information or withheld information impacting the eligibility for service or misused the subsidy;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The consumer has moved from the area served by the provider;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The consumer cannot be located by the provider at the time of redetermination; or</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>The individual with a developmental or functional disability moves into a supervised or protected living situation under the administration of a public or private agency other than a foster home.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>If the provider terminates services, the provider shall send a notice to the consumer that includes the:</text>
+      <para>
+        <num>(1)</num>
+        <text>Reason for the termination;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Specific regulation supporting the decision; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Right to, and the method for obtaining, a fair hearing.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.11</num>
+    <heading>Appeal Rights.</heading>
+    <text>Each applicant for or a consumer of services, or an individual acting on behalf of an applicant or consumer, may appeal the denial, reduction, or termination of a service, or failure to act upon a request for service with reasonable promptness to the Hearings Unit of the Social Services Administration. The requirements and procedures in <cite path="|07.01.04">COMAR 07.01.04</cite> apply.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.12</num>
+    <heading>Qualification of Care Workers.</heading>
+    <para>
+      <num>A.</num>
+      <text>Qualification of care workers is done by the providers using a form approved by the Administration. The minimum requirements for a qualified care worker are:</text>
+      <para>
+        <num>(1)</num>
+        <text>18 years old or older;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Education sufficient to enable the worker to deliver the care needed;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Personal characteristics that are needed to deliver care to an individual with a developmental or functional disability;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Training or experience necessary to enable the person to deliver the care needed as evidenced by a training certificate or designation by the provider or consumer based on experience; and</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Good physical and mental health, as documented by a licensed health care provider.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The provider shall report to the Administration the methods used to ensure that the care workers are qualified to deliver the care required.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.13</num>
+    <heading>Approval of a Respite Care Home.</heading>
+    <para>
+      <num>A.</num>
+      <text>Approval of a respite care home is made by the provider, including the determination of the number of individuals with developmental or functional disabilities who may be cared for at one time in the home.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The minimum requirements for a location to be approved as a respite care home are:</text>
+      <para>
+        <num>(1)</num>
+        <text>Physical accessibility for the individual with the developmental or functional disability;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Hot and cold running water;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Functioning smoke detectors;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Operable telephones;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Inside bathroom facilities that are in good working condition;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Sewage disposal and drinking water that meets local codes;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Operable and safe heating and cooling systems;</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Operable refrigerator and stove;</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>Food storage space protected against invasion of rodents, insects, dust, water leakage, and other sources of contamination;</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>Furniture, including a separate bed and any special equipment adequate for the comfort and safety of the individual with the developmental or functional disability; and</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>Satisfactory performance on a health and fire safety checklist established by the Administration.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Respite care facilities other than a home shall maintain licensure as appropriate.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.14</num>
+    <heading>Reporting Requirements.</heading>
+    <para>
+      <num>A.</num>
+      <text>The providers shall submit reports and accounts as required by the Administration.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The provider shall use generally accepted methods of accounting.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The provider shall make the accounts and records available to representatives of the Administration and other State or federal staff authorized to inspect the records of the provider at reasonable times, upon written request from the Administration.</text>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Human Services Article, Title 7, Subtitle 2, Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="1985-05-06">Effective date: May 6, 1985 (12:9 Md. R. 809)</annotation>
+    <annotation type="History" dest="container" effective="1989-11-13"><cite path="|07|02|18|.01">Regulation .01</cite> amended effective November 13, 1989 (16:22 Md. R. 2363)</annotation>
+    <annotation type="History" dest="container" effective="1989-11-13"><cite path="|07|02|18|.02">Regulation .02</cite> amended effective November 13, 1989 (16:22 Md. R. 2363)</annotation>
+    <annotation type="History" dest="container" effective="1989-11-13"><cite path="|07|02|18|.03">Regulation .03</cite> amended effective November 13, 1989 (16:22 Md. R. 2363)</annotation>
+    <annotation type="History" dest="container" effective="1989-11-13"><cite path="|07|02|18|.04">Regulation .04</cite> amended effective November 13, 1989 (16:22 Md. R. 2363)</annotation>
+    <annotation type="History" dest="container" effective="1989-11-13"><cite path="|07|02|18|.05|C.">Regulation .05C</cite> amended effective November 13, 1989 (16:22 Md. R. 2363)</annotation>
+    <annotation type="History" dest="container" effective="1989-11-13"><cite path="|07|02|18|.06|A.">Regulation .06A</cite>, C amended effective November 13, 1989 (16:22 Md. R. 2363)</annotation>
+    <annotation type="History" dest="container" effective="1989-11-13"><cite path="|07|02|18|.07|D.">Regulation .07D</cite> amended effective November 13, 1989 (16:22 Md. R. 2363)</annotation>
+    <annotation type="History" dest="container" effective="1989-11-13"><cite path="|07|02|18|.09|A.">Regulation .09A</cite> amended effective November 13, 1989 (16:22 Md. R. 2363)</annotation>
+    <annotation type="History" dest="container" effective="1989-11-13"><cite path="|07|02|18|.11|A.">Regulation .11A</cite> amended effective November 13, 1989 (16:22 Md. R. 2363)</annotation>
+    <annotation type="History" dest="container" effective="1989-11-13"><cite path="|07|02|18|.12">Regulation .12</cite> amended effective November 13, 1989 (16:22 Md. R. 2363)</annotation>
+    <annotation type="History" dest="container" effective="1989-11-13"><cite path="|07|02|18|.14|C.">Regulation .14C</cite> amended effective November 13, 1989 (16:22 Md. R. 2363)</annotation>
+    <annotation type="History" dest="container" effective="1988-03-07"><cite path="|07|02|18|.15">Regulation .15</cite> amended effective March 7, 1988 (15:5 Md. R. 616)</annotation>
+    <annotation type="History" dest="container" discontinuity="true">Recodified from <cite path="|07.02.06">COMAR 07.02.06</cite> to <cite path="|07.06.11">COMAR 07.06.11</cite>, December, 1992</annotation>
+    <annotation type="History" dest="container" effective="2001-12-24" discontinuity="true">Regulations <cite path="|07|02|18|.01">.01</cite>—<cite path="|07|02|18|.15">.15</cite> repealed and new Regulations <cite path="|07|02|18|.01">.01</cite>—<cite path="|07|02|18|.14">.14</cite> adopted effective December 24, 2001 (28:25 Md. R. 2189)</annotation>
+    <annotation type="History" dest="container" discontinuity="true">Chapter recodified from <cite path="|07.06.11">COMAR 07.06.11</cite> to <cite path="|07.02.18">COMAR 07.02.18</cite>, effective June, 2009</annotation>
+    <annotation type="History" dest="container" effective="2017-04-10" discontinuity="true">Chapter revised effective April 10, 2017 (44:7 Md. R. 353)</annotation>
+  </annotations>
+</container>

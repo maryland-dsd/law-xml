@@ -1,0 +1,506 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>04</num>
+  <heading>Processing VRAs and Other Requests</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Applicability.</heading>
+    <text>Except for the requirements in Regulations .03, .04, and .06 of this chapter, this chapter does not apply to the registration and address change process authorized under <cite doc="Md. Code" path="gel|3-305">Election Law Article, §3-305, Annotated Code of Maryland</cite>.</text>
+  </section>
+  <section cache:ref-path="33|05|04|.02">
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Receipt of Completed VRAs.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this regulation, "registration deadline" means the time prescribed by law when registration closes for a particular election.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Date Stamp. When a completed VRA is received by the State Board office or a local board office, the board staff shall stamp the VRA with the date received.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>When VRA Is Timely.</text>
+      <para>
+        <num>(1)</num>
+        <text>A VRA received by a voter registration agency or the MVA is timely for purposes of the next election if it is received by the voter registration agency or MVA on or before the registration deadline.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Any other VRA is timely for purposes of the next election if:</text>
+        <para>
+          <num>(a)</num>
+          <text>It is received by the State Board office, local board office, or authorized ballot drop box on or before the registration deadline; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The State Administrator or election director, as the case may be, finds acceptable evidence, as specified in <cite path="33|05|04|.02|D.">§D of this regulation</cite>, that the VRA was mailed to the board office:</text>
+          <para>
+            <num>(i)</num>
+            <text>On or before the registration deadline; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>If the registration deadline is a legal holiday as set forth in 5 U.S.C. §6103(a), on or before the day after the registration deadline.</text>
+          </para>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Evidence of Mailing Date.</text>
+      <para>
+        <num>(1)</num>
+        <text>For purposes of <cite path="33|05|04|.02|C.|(2)">§C(2) of this regulation</cite>, the only acceptable evidence of when a VRA was mailed is:</text>
+        <para>
+          <num>(a)</num>
+          <text>A legible postmark by the United States Postal Service or the postal service of any other country:</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Evidence from a private mail service showing when the VRA was mailed; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The date the applicant signed the VRA if:</text>
+          <para>
+            <num>(i)</num>
+            <text>The VRA was mailed from outside the United States (as defined in <cite path="33|05|04|.02|D.|(2)">§D(2) of this regulation</cite>); and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The postal service of the place from which the VRA was mailed does not provide a postmark.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>For purposes of <cite path="33|05|04|.02|D.|(1)|(c)">§D(1)(c) of this regulation</cite>, "United States":</text>
+        <para>
+          <num>(a)</num>
+          <text>Means the several states, the District of Columbia, the Commonwealth of Puerto Rico, and the Virgin Islands; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Does not include American Samoa, the Canal Zone, Guam, the Trust Territory of the Pacific Islands, any other territory or possession of the United States, an Army Post Office address, or a Fleet Post Office address.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Untimely VRAs.  A VRA that is not timely received as provided in <cite path="33|05|04|.02|C.">§C of this regulation</cite> will be accepted, but the registration will not be processed until registration reopens.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Initial Processing and Acceptance of VRAs.</heading>
+    <para>
+      <num>A.</num>
+      <text>When Received by State Board Office. The State Administrator shall promptly forward all VRAs received at the State Board office to the local board office in the county where the current address is located.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>When Received by Wrong Local Board Office.</text>
+      <para>
+        <num>(1)</num>
+        <text>If a local board office receives a VRA for someone whose current or previous residence is not in the county served by that board, the election director shall immediately:</text>
+        <para>
+          <num>(a)</num>
+          <text>Ascertain the correct county of the current residence; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Forward the VRA to the local board office in that county.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If the VRA was not timely received by the office of the local board first receiving it, the election director shall append a statement to that effect.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>When Received by Appropriate Local Board Office.</text>
+      <para>
+        <num>(1)</num>
+        <text>The appropriate local board office shall promptly process all VRAs that were timely received.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Relocation of Individual; Duties of Local Board.</text>
+        <para>
+          <num>(a)</num>
+          <text>If a local board receives a VRA from an individual who is currently registered in another Maryland county but has moved to the county served by that board, the local board shall process the change of address under <cite path="33.05.06.02">COMAR 33.05.06.02</cite>.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>If a local board receives a VRA from an individual who is currently registered in the county served by that board but has moved to a new Maryland county, the local board shall forward the original VRA to the local board in the county where the individual currently resides.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A VRA that was not timely received may not be processed until after the voter registry is reopened, and the election director shall so notify the applicant.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Acceptance.</text>
+      <para>
+        <num>(1)</num>
+        <text>A VRA may be accepted only if the information required by <cite path="|33|05|04|.03">Regulation .03 of this chapter</cite> has been correctly furnished by the applicant.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An applicant supplying the required information shall be registered in accordance with this chapter.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="33|05|04|.04">
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Required Information.</heading>
+    <para>
+      <num>A.</num>
+      <text>Minimum Requirements.</text>
+      <para>
+        <num>(1)</num>
+        <text>To be accepted, every new VRA shall contain the applicant's:</text>
+        <para>
+          <num>(a)</num>
+          <text>Legal name;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Residence address, including any applicable apartment number;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Mailing address, if different from the residence address;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Date of birth;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Acknowledgment of United States citizenship;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Subject to <cite path="33|05|04|.04|B.">§B of this regulation</cite>, signature; and</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>Personal identification number as provided in <cite path="33|05|04|.04|A.|(2)">§A(2) of this regulation</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Personal Identification Number.</text>
+        <para>
+          <num>(a)</num>
+          <text>If the applicant has a current and valid Maryland driver's license or Motor Vehicle Administration (MVA) identification card, the personal identification number is the applicant's MVA identification number.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>If an applicant does not have a current and valid Maryland driver's license or MVA identification card, the personal identification number is at least the last four digits of the applicant's Social Security number.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The local board shall use a unique identifier as the applicant's personal identification number if:</text>
+          <para>
+            <num>(i)</num>
+            <text>The applicant does not have a current and valid Maryland driver's license, an MVA identification card, or a Social Security number; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The personal identification number provided by the applicant could not be verified but the identity of the applicant was established in accordance with <cite path="|33|05|04|.04">Regulation .04 of this chapter</cite>.</text>
+          </para>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Signatures.</text>
+      <para>
+        <num>(1)</num>
+        <text>Subject to the requirements of <cite path="33|05|04|.04|B.|(2)">§B(2) of this regulation</cite>, if the applicant is unable to:</text>
+        <para>
+          <num>(a)</num>
+          <text>Sign his or her name, an "X" or similar mark will be accepted as that individual's signature; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Make a mark, the requirement for a signature is met by the execution of the assistance form described in <cite path="33|05|04|.04|B.|(2)">§B(2) of this regulation</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>In either of the situations described in <cite path="33|05|04|.04|B.|(1)">§B(1) of this regulation</cite>, the individual who assisted the applicant in filling out the VRA shall sign a statement, on a separate document, that the applicant states that:</text>
+        <para>
+          <num>(a)</num>
+          <text>The applicant is unable to sign his or her name;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The applicant meets all of the qualifications to become a registered voter in Maryland; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The information supplied about the applicant is true.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Digitized signatures from the MVA shall be accepted.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>For the online submission of the Statewide VRA, a signature for an absent uniformed services voter or an overseas voter is the individual’s last four digits of the individual’s Social Security number.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>For the electronic submission of the Federal Post Card Application, a signature may be applied using a Common Access Card.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Optional Information.</text>
+      <para>
+        <num>(1)</num>
+        <text>The following items on a VRA are optional information:</text>
+        <para>
+          <num>(a)</num>
+          <text>Sex;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Telephone number;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Date;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Full Social Security number;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Prior registration information; and</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Email address.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The prior registration portion of the VRA shall provide the applicant with space to provide the applicant's last registration information.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Party Affiliation. An applicant who fails to designate party affiliation on a VRA shall be registered as "unaffiliated", and the election director shall so notify the applicant by sending the applicant a VNC.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Verification Inquiries.</heading>
+    <para>
+      <num>A.</num>
+      <text>When Required. An appropriate verification inquiry shall be made if:</text>
+      <para>
+        <num>(1)</num>
+        <text>Information required to be given on the VRA is missing or incomplete;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Information given on the VRA appears unclear or inconsistent;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The applicant provides a Motor Vehicle Administration (MVA) identification number or at least the last four digits of a Social Security number as the personal identification number; or</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>For any reason, the election director is uncertain what action should be taken on the application.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>How to Make.</text>
+      <para>
+        <num>(1)</num>
+        <text>Verification inquiries should be made so as to:</text>
+        <para>
+          <num>(a)</num>
+          <text>Permit timely and appropriate action on applications; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Avoid needless rejections.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The verification of a personal identification number shall be made in accordance with procedures established by the State Board.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If an applicant's personal identification number cannot be verified, the local board shall request that the applicant provide personal identification information to establish the applicant's identity.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Upon receipt or presentation of personal identification information, the verification inquiry shall be complete.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The election director is not responsible for any failure to complete an inquiry in time for the applicant to vote in, or effect a change before, an election but the election director shall follow the procedures and timeframes for verification established by the State Administrator.</text>
+    </para>
+  </section>
+  <section cache:ref-path="33|05|04|.06">
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Deadlines for and Periods of Registration or Changes.</heading>
+    <para>
+      <num>A.</num>
+      <text>In General. Except as otherwise provided by the State Board, the effective date of registration or of a requested change that is timely received is the date the VRA or other appropriate form or notice was received by the State Board office or a local board office.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>When Timely.</text>
+      <para>
+        <num>(1)</num>
+        <text>In applying the provisions of law that prohibit registration or changes of name, address, or party affiliation during certain periods, the VRA or other appropriate form or notice is considered to have been timely received, and processing shall be completed during the otherwise closed period, if the application, notice, or form:</text>
+        <para>
+          <num>(a)</num>
+          <text>Is complete, as required by law or this title; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Was received by or mailed to the local board office on or before the appropriate deadline, in the same manner and under the same conditions as provided in Regulation .01C and D of this chapter for VRAs.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>For purposes of applying Regulation .01C and D of this chapter to a change of party affiliation, "registration deadline" includes the deadline prescribed by law after which changes of party affiliation no longer may be made for a particular election.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Processing.</text>
+      <para>
+        <num>(1)</num>
+        <text>If a verification inquiry is not needed and if the VRA or other appropriate form or notice was timely received, the election director shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Promptly complete the processing; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Notify the applicant before the next election.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If a verification inquiry reveals that the information given was complete and accurate and if the VRA or other appropriate form or notice was timely received, the registration or change shall be promptly completed, effective as of the date the VRA, form, or notice was received.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Except as specified in <cite path="33|05|04|.06|C.|(5)">§C(5) of this regulation</cite>, if a verification inquiry reveals that the information given was either incomplete or inaccurate, processing may not be completed and the applicant need not be notified of any action until after the expiration of the period during which registration or changes are prohibited.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Except as specified in <cite path="33|05|04|.06|C.|(5)">§C(5) of this regulation</cite>, in the case set forth in <cite path="33|05|04|.06|C.|(3)">§C(3) of this regulation</cite>, and in cases when a verification inquiry is not completed until after the expiration of the period during which registration or changes are prohibited, the:</text>
+        <para>
+          <num>(a)</num>
+          <text>Registration or change requested shall be processed beginning with the first day after the expiration of that period; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Effective date of the registration or the change is the first day after the expiration of that period rather than the date of receipt of the VRA, form, or notice.</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Verification Inquiry.</text>
+        <para>
+          <num>(a)</num>
+          <text>A verification inquiry of a personal identification number or personal identification information may be completed during the period during which registration or changes are prohibited.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The registration shall be processed upon completion of a verification inquiry.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The effective date of registration is the date the VRA was received.</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Presentation of personal identification information to an election official or election judge shall complete the verification inquiry.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Deadline for Change of Party Affiliation if Voter Moves to Another County. After the party change deadline set by <cite doc="Md. Code" path="gel|3-303">Election Law Article, §3-303(a), Annotated Code of Maryland</cite>, a registered voter who has moved from one Maryland county to another since the last general election may change party affiliation, or change to or from the "unaffiliated" status, by submitting a signed request to the local board where the voter currently resides at any time that registration is open. A voter may take advantage of this provision only once following a move.</text>
+    </para>
+  </section>
+  <section cache:ref-path="33|05|04|.07">
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Request for Personal Identification Information.</heading>
+    <para>
+      <num>A.</num>
+      <text>Scope. This regulation applies to a registrant who:</text>
+      <para>
+        <num>(1)</num>
+        <text>Is required by <cite path="|33.07.06">COMAR 33.07.06</cite> or <cite path="33.11.02.07">33.11.02.07</cite> to provide personal identification information before voting in Maryland for the first time; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Did not provide the required personal identification information with the VRA.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Request for Missing Information. Except as provided in <cite path="33|05|04|.07|C.">§C of this regulation</cite>, the local board shall correspond with a registrant covered by this regulation in an attempt to obtain the required personal identification information before the date of any upcoming election.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Verification of Personal Identification Number. The local board need not request personal identification information if the State Board has matched the registrant's name, date of birth, and personal identification number with an existing State identification record.</text>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Election Law Article, §§<cite doc="Md. Code" path="gel|2-102">2-102</cite>(b)(<cite doc="Md. Code" path="gel|4">4</cite>), <cite doc="Md. Code" path="gel|2-202">2-202</cite>(b), <cite doc="Md. Code" path="gel|3-101">3-101</cite>, <cite doc="Md. Code" path="gel|3-202">3-202</cite>.1, 3-204.1, and 3-301—3-305, Annotated Code of Maryland; 42 U.S.C. 15483(b)(2)</annotation>
+    <annotation type="History" dest="container">Effective date:</annotation>
+    <annotation type="History" dest="container" effective="2000-04-17">Regulations <cite path="|33|05|04|.01">.01</cite>—<cite path="|33|05|04|.05">.05</cite> adopted as an emergency provision effective February 1, 2000 (27:6 Md. R. 635); adopted permanently effective April 17, 2000 (27:7 Md. R. 708)</annotation>
+    <annotation type="History" dest="container" effective="2010-05-31"><cite path="|33|05|04|.01">Regulation .01</cite> amended effective May 31, 2010 (37:11 Md. R. 767)</annotation>
+    <annotation type="History" dest="container" effective="2002-10-14"><cite path="|33|05|04|.01|B.">Regulation .01B</cite>, C amended as an emergency provision effective July 3, 2002 (29:18 Md. R. 1440); amended permanently effective October 14, 2002 (29:20 Md. R. 1595)</annotation>
+    <annotation type="History" dest="container" effective="2003-11-24"><cite path="|33|05|04|.01|B.">Regulation .01B</cite> amended effective November 24, 2003 (30:23 Md. R. 1654)</annotation>
+    <annotation type="History" dest="container" effective="2002-10-14"><cite path="|33|05|04|.02">Regulation .02</cite> amended as an emergency provision effective July 3, 2002 (29:18 Md. R. 1440); amended permanently effective October 14, 2002 (29:20 Md. R. 1595)</annotation>
+    <annotation type="History" dest="container" effective="2010-05-31"><cite path="|33|05|04|.02|C.">Regulation .02C</cite> amended effective November 24, 2003 (30:23 Md. R. 1654); May 31, 2010 (37:11 Md. R. 767)</annotation>
+    <annotation type="History" dest="container" effective="2002-10-14"><cite path="|33|05|04|.03">Regulation .03</cite> amended as an emergency provision effective July 3, 2002 (29:18 Md. R. 1440); amended permanently effective October 14, 2002 (29:20 Md. R. 1595)</annotation>
+    <annotation type="History" dest="container" effective="2010-05-31"><cite path="|33|05|04|.03">Regulation .03</cite> amended effective May 31, 2010 (37:11 Md. R. 767)</annotation>
+    <annotation type="History" dest="container" effective="2003-11-24"><cite path="|33|05|04|.03|A.">Regulation .03A</cite>, C amended effective November 24, 2003 (30:23 Md. R. 1654)</annotation>
+    <annotation type="History" dest="container" effective="2006-04-24"><cite path="|33|05|04|.03|A.">Regulation .03A</cite>, C amended as an emergency provision effective January 1, 2006 (33:1 Md. R. 34); amended permanently effective April 24, 2006 (33:8 Md. R. 735)</annotation>
+    <annotation type="History" dest="container" effective="2013-09-16"><cite path="|33|05|04|.03|B.">Regulation .03B</cite> amended effective September 16, 2013 (40:18 Md. R. 1480)</annotation>
+    <annotation type="History" dest="container" effective="2006-04-24"><cite path="|33|05|04|.04">Regulation .04</cite> amended as an emergency provision effective January 1, 2006 (33:1 Md. R. 34); amended permanently effective April 24, 2006 (33:8 Md. R. 735)</annotation>
+    <annotation type="History" dest="container" effective="2010-05-31"><cite path="|33|05|04|.04|C.">Regulation .04C</cite> amended effective May 31, 2010 (37:11 Md. R. 767)</annotation>
+    <annotation type="History" dest="container" effective="2002-10-14"><cite path="|33|05|04|.05">Regulation .05</cite> amended as an emergency provision effective July 3, 2002 (29:18 Md. R. 1440); amended permanently effective October 14, 2002 (29:20 Md. R. 1595)</annotation>
+    <annotation type="History" dest="container" effective="2010-05-31"><cite path="|33|05|04|.05|B.">Regulation .05B</cite> amended effective May 31, 2010 (37:11 Md. R. 767)</annotation>
+    <annotation type="History" dest="container" effective="2006-08-14"><cite path="|33|05|04|.05|C.">Regulation .05C</cite> amended as an emergency provision effective June 2, 2006 (33:13 Md. R. 1062); amended permanently effective August 14, 2006 (33:16 Md. R. 1366)</annotation>
+    <annotation type="History" dest="container" effective="2003-11-24"><cite path="|33|05|04|.06">Regulation .06</cite> adopted effective November 24, 2003 (30:23 Md. R. 1654)</annotation>
+    <annotation type="History" dest="container" effective="2016-02-29" discontinuity="true">Chapter revised effective February 29, 2016 (43:4 Md. R. 334)</annotation>
+    <annotation type="History" dest="container" effective="2022-01-13"><cite path="|33|05|04|.02|C.">Regulation .02C</cite> amended effective January 13, 2022 (49:1 Md. R. 16)</annotation>
+    <annotation type="History" dest="container" effective="2022-03-07"><cite path="|33|05|04|.04|B.">Regulation .04B</cite> amended effective March 7, 2022 (49:5 Md. R. 368)</annotation>
+  </annotations>
+</container>

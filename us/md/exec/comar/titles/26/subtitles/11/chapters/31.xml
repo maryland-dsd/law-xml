@@ -1,0 +1,608 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>31</num>
+  <heading>Quality Assurance Requirements for Continuous Opacity Monitors (COMs)</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Scope.</heading>
+    <text>This chapter codifies the quality assurance (QA) and quality control (QC) procedures previously established by the Department’s Technical Memorandum 90-01 for continuous opacity monitors (COMs). The procedures are transferred into this chapter in regulatory format. In addition, the general provisions and quality control requirements found in <cite path="26.11.01.10">COMAR 26.11.01.10</cite> are also applicable to COMs.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Applicability.</heading>
+    <para>
+      <num>A.</num>
+      <text>The procedures specified by this chapter shall be used to evaluate the effectiveness of a facility’s quality assurance (QA) and quality control (QC) procedures for COMs. The procedures specify the minimum quality assurance requirements for the assessment and control of COM data.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Source owners and operators using COMs shall meet these minimum requirements and are encouraged to develop and implement a more extensive QA and QC program or to continue the programs where they already exist.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Data collected as a result of QA and QC measures required in this chapter shall be submitted to the Department. The data shall be used by both the Department and the owner or operator in assessing the effectiveness of the procedures in maintaining acceptable operation and valid emission data.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>All sources using COMs shall develop and implement the required QC plan upon successful completion of the initial performance specification test and shall conduct the required QA procedures beginning with the first calendar quarter following the successful performance specification test.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>These procedures explicitly specify the quality assessment methods to be used for calibration drift and quality audits but do not address the evaluation of monitor installation location or the design specification verification procedures which are addressed in Appendix B of 40 CFR Part 60.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Incorporation by Reference.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following documents are incorporated by reference.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Documents Incorporated.</text>
+      <para>
+        <num>(1)</num>
+        <text>Performance Specification 1 (PS1) under 40 CFR Part 60, Appendix B.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Performance Audit Procedures for Opacity Monitors, EPA 450/4-92-010 March 1992, Atmospheric Research and Exposure Assessment Laboratory, Research Triangle Park, North Carolina 27711.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>“Calibration drift (CD)”means the difference in the COM output reading from a reference value after a period of operation during which no unscheduled maintenance, repair, or adjustment took place. The reference value may be the simulated zero (or low-level) check or the upscale calibration value.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>“Calibration error” means the difference between the opacity values indicated by the COM and the known values of a series of calibration attenuators (neutral density filters).</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>“Simulated zero check” means the use of a method or device to provide a simulated zero-opacity (or low-level value between zero and 20 percent of span value) and that provides a system check of the analyzer internal optical surfaces and all electronic circuitry including the lamp and photodetector assembly.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>“Span value” means the opacity value at which the COM is set to produce the maximum data display output.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>“Upscale calibration value” means the opacity value at which a calibration check of the COM is performed by simulating an upscale opacity condition using a neutral density filter or other related technique to produce a known obscuration of the light beam as viewed by the receiver.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Principle.</heading>
+    <para>
+      <num>A.</num>
+      <text>The QA procedures are a control loop composed of two functions:</text>
+      <para>
+        <num>(1)</num>
+        <text>Assessment of data quality by measurement of COM performance; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Control and improvement of data quality by implementing QC policies and corrective actions.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>When the assessment function indicates that data quality is inadequate, the control effort shall be increased until data quality is acceptable.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>COM Accuracy Determination.</text>
+      <para>
+        <num>(1)</num>
+        <text>Quarterly performance audits involving a series of checks of monitoring system components and operation shall be performed to assess the accuracy of the COM data. Calibrated audit materials shall be required for certain checks as specified by this chapter.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The opacity monitoring data shall be considered accurate if the required audits do not identify problems that detract from the accuracy of the COM data.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Quality control and corrective actions encompass a variety of policies, specifications, standards, and corrective measures. To accommodate these site-specific variables, this chapter treats QC requirements in general terms to allow each source owner or operator to develop a QC system that is more effective and efficient for the circumstances. However, the final data output device used to report emissions to the Department in the quarterly excess emissions report shall be used for all required QA and QC measurements.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Quality Control Requirements.</heading>
+    <para>
+      <num>A.</num>
+      <text>Development and Implementation.</text>
+      <para>
+        <num>(1)</num>
+        <text>Each source owner or operator using a COM shall develop a written quality control (QC) program and submit that program to the Department for approval.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A source owner or operator may periodically revise its QC program to make it more effective and efficient. Each revised QC program shall be resubmitted to the Department for approval, along with the prior approved program.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A source owner or operator shall implement an approved QC program as expeditiously as possible.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The owner or operator shall maintain a current copy of the approved QC program on site for inspection.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Contents. At a minimum, each QC program shall include written procedures which describe in detail complete, step-by-step procedures and operations for each of the following activities:</text>
+      <para>
+        <num>(1)</num>
+        <text>Opacity calibration;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Calibration drift determination and adjustment;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Daily, monthly, and quarterly checks of component or system performance;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Preventive maintenance, including spare parts inventory;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Data recording, calculations, and reporting;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Performance audits and zero alignment procedures;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Corrective actions for malfunctioning COMs; and</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Notification to the Department for the discovery of any out-of-control monitor.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="26|11|31|.07">
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Opacity Calibration Drift Assessment.</heading>
+    <para>
+      <num>A.</num>
+      <text>Calibration Drift (CD) Requirement.</text>
+      <para>
+        <num>(1)</num>
+        <text>Source owners and operators using COMs shall check, record, and quantify the CD at two opacity values at least once daily in accordance with the method prescribed by the manufacturer.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The COM calibration shall, at a minimum, be adjusted whenever the daily zero (or low-level) CD or the daily high-level CD exceeds the limits specified in Performance Specification 1 (PS1) in Appendix B of 40 CFR Part 60.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Recording Requirements for Automatic CD Adjusting Monitors.</text>
+      <para>
+        <num>(1)</num>
+        <text>Monitors that adjust the data to the corrected calibration values automatically (for example, microprocessor control) shall be programmed to record the unadjusted opacity before resetting the calibration, or record the amount of adjustment that is applied to the effluent opacity measurements.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The data recorded in accordance with <cite path="26|11|31|.07|B.|(1)">§B(1) of this regulation</cite> is to be maintained on site for review by the Department for a period of 2 years.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Criteria for Excessive Calibration Drift.</text>
+      <para>
+        <num>(1)</num>
+        <text>If either the zero (or low-level) or high-level CD result exceeds the applicable drift specification in Performance Specification 1 for five consecutive daily periods, the COM shall be considered out of control.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If either the zero (or low-level) or high-level CD result exceeds two times the applicable drift specification in Performance Specification 1 during any CD check, the COM shall be considered out of control.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If the COM is out of control, the source owner or operator shall take necessary corrective action to correct the deviation.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The owner or operator shall repeat the CD checks no later than 24 hours following corrective action to repair an out-of-control COM.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Out-of-Control Period.</text>
+      <para>
+        <num>(1)</num>
+        <text>The beginning of the out-of-control period is the time corresponding to the completion of the fifth consecutive daily CD check with a CD in excess of the allowable limit or the time corresponding to the completion of the daily CD check preceding the daily CD check that results in a CD in excess of two times the allowable limit.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The end of the out-of-control period is the time corresponding to the completion of the CD check following corrective action that result in the CD at both the zero (or low-level) and the high-level measurement points being within the corresponding allowable CD limit.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Audit Frequency.</heading>
+    <para>
+      <num>A.</num>
+      <text>Each COM shall undergo a performance audit at least once each calendar quarter. Successive quarterly performance audits shall not occur within 2 months.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A zero alignment audit shall be conducted at least annually, with each coming before a corresponding quarterly performance audit. Successive zero alignment audits shall not occur within consecutive quarters.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>When conducting a performance or zero alignment audit, the owner or operator shall use the same output device as used to report emissions to the Department in the quarterly excess emissions report.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Performance Audit.</heading>
+    <para>
+      <num>A.</num>
+      <text>Each performance audit shall include a series of checks of individual monitoring system components and factors affecting the accuracy of the monitoring data.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Calculations for COM data shall be in accordance with monitor specific calculations in the EPA document Performance Audit Procedures for Opacity Monitors, which is incorporated by reference in <cite path="|26|11|31|.03|B.|(2)">Regulation .03B(2) of this chapter</cite>. Examples of detailed audit procedures are also found in that referenced document.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A performance audit shall include checks for each procedure in an approved QC program, including, at a minimum, the following checks:</text>
+      <para>
+        <num>(1)</num>
+        <text>Stack Exit Correlation Error.</text>
+        <para>
+          <num>(a)</num>
+          <text>The value of the pathlength correction factor used by the monitor is measured according to procedures specified by the manufacturer.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The correct value of the pathlength correction factor is computed from the monitor pathlength and stack exit diameter.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The stack exit correlation error is determined as the ratio of the measured value to the correct value and is expressed as a percent.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Fault Indicators. Fault lamp indicators, data acquisition system error messages, and other system self-diagnostic indicators are examined to determine if the COM is operating within preset limits.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Zero and Upscale Responses.</text>
+        <para>
+          <num>(a)</num>
+          <text>The COM responses to the simulated zero condition (or low-level) and upscale calibration value are determined from the permanent data recording device according to the routine CD check procedure.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The zero and upscale response errors are determined from the permanent data recording device to the routine CD check procedure.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The zero and upscale response errors are determined as the difference between the corrected values and the observed response for the zero and upscale calibration check.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Zero Compensation. The value of the zero compensation applied at the time of the audit is determined as equivalent percent opacity. The value is corrected to stack exit conditions, according to the procedures specified by the manufacturer, where the applicable monitor includes an automatic correction to compensate for drift in the monitor’s response to the simulated zero opacity condition or dust accumulation on the optical surfaces of the transceiver.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Optical Alignment. The status of the optical alignment of the transmissometer components shall be determined using an alignment sight that indicates that the monitor is misaligned when a measurement error of 2 percent opacity or greater is caused by misalignment, in accordance with Performance Specification 1 incorporated by reference under <cite path="|26|11|31|.03|B.|(1)">Regulation .03B(1) of this chapter</cite>.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Optical Surface Dust Accumulation.</text>
+        <para>
+          <num>(a)</num>
+          <text>An estimate of the amount of dust (or other particulate matter) deposited on the exposed optical surfaces of the transmissometer is obtained by recording the apparent effluent opacity before and after cleaning of each of the exposed optical surfaces.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The total optical surface dust accumulation is the sum of the apparent reduction in opacity for all of the optical surfaces that are cleaned.</text>
+        </para>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Calibration Error. The COM responses are compared using one of the following methods to the known values of three reference neutral density filters corrected to stack exit conditions:</text>
+        <para>
+          <num>(a)</num>
+          <text>The preferred method requires the installation of an audit device, adjusted to provide the same zero response as the monitor’s simulated zero check, that simulates the clear path condition and allows insertion of the filters into the light path; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>In those cases where an audit device is not available, an alternate method may be used by conducting an incremental calibration (that is, superimposing the audit filters and effluent opacity) and comparing the monitor response to the expected value calculated from the filter and effluent opacity values. This method is sensitive to fluctuations in the effluent opacity during the test.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="26|11|31|.10">
+    <prefix>Regulation</prefix>
+    <num>.10</num>
+    <heading>Calibration Error Methods.</heading>
+    <para>
+      <num>A.</num>
+      <text>Test Methods.</text>
+      <para>
+        <num>(1)</num>
+        <text>For both calibration error methods in <cite path="|26|11|31|.09|C.|(7)">Regulation .09C(7) of this chapter</cite>, three filters shall each be placed in the light path five times and the monitor responses shall be determined from the permanent data recorder.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The low-, mid-, and high-range calibration error results are computed as the main difference and the 95 percent confidence interval for the difference between the expected and actual responses of the monitor difference as corrected to the stack exit conditions.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>An owner or operator shall use neutral density filters with values that have been determined according to 7.1.3 Attenuator Calibration of Performance Specification 1, which is incorporated by reference under <cite path="|26|11|31|.03|B.|(1)">Regulation .03B(1) of this chapter</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Attenuator Values.</text>
+      <para>
+        <num>(1)</num>
+        <text>The stability of the attenuator values shall be checked at least once per year according to the procedure specified in Performance Specification 1, which is incorporated by reference under <cite path="|26|11|31|.03|B.|(1)">Regulation .03B(1) of this chapter</cite>.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The attenuator shall be recalibrated if the stability checks indicate a change of 2 percent opacity or greater.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Calibration attenuators that produce simulated opacities (as corrected to stack exit conditions) in the ranges listed in <cite path="26|11|31|.10|C.">§C of this regulation</cite> shall be used.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Where the use of the specified audit filter values is not practical, alternate filter ranges may be used subject to the approval of the Department.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Filter Ranges for Opacity Performance Audits.</text>
+      <para>
+        <num>(1)</num>
+        <text>The filter ranges for opacity performance audits are as provided in <cite path="26|11|31|.10|C.|(2)">§C(2) of this regulation</cite> or, as applicable, as provided in Performance Specification 1 (PS1) in Appendix B of 40 CFR Part 60.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Audit Points and Filter Range are as follows:</text>
+        <para>
+          <num>(a)</num>
+          <text>8—15% Opacity (low)</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>20—30% Opacity (mid)</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>40—50% Opacity (high)</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.11</num>
+    <heading>Zero Alignment Audit.</heading>
+    <para>
+      <num>A.</num>
+      <text>General Requirements.</text>
+      <para>
+        <num>(1)</num>
+        <text>A zero alignment audit conducted in accordance with <cite path="|26|11|31|.08|B.">Regulation .08B of this chapter</cite> shall compare the monitor responses to the simulated zero check and the actual clear path condition. Primary and alternate methods for performing the zero alignment audit are described in §A(2) and (3) of this regulation.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Primary Zero Alignment Method.</text>
+        <para>
+          <num>(a)</num>
+          <text>The primary zero alignment method shall be performed under clear path conditions. This is accomplished for the installed transmissometer where the process is not operating and the monitor pathlength is free of particulate matter or the monitor may be removed from its installation and set up under clear path conditions.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>No adjustment to the monitor should be made other than the establishment of the proper monitor pathlength and correct optical alignment of the transmissometer components. For some monitors it may also be necessary to disable the zero compensation mechanism or to record the amount of correction applied to the simulated zero condition.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The monitor response to the clear path condition and to the simulated zero condition shall be recorded as percent opacity.</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>The response difference in percent opacity to the clear path and simulated zero conditions shall be recorded as the zero alignment error. The simulated zero device shall then be adjusted to provide the same response as a clear path condition.</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>The monitor shall then be restored to its operating mode at the facility.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Alternate Zero Alignment Method.</text>
+        <para>
+          <num>(a)</num>
+          <text>An external, removable zero-jig may be used to facilitate periodic checks of the simulated zero condition as an alternate zero alignment audit method if:</text>
+          <para>
+            <num>(i)</num>
+            <text>The zero-jig setting is established for the specific monitor by comparison of the monitor responses to the zero-jig and to clear path condition; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The zero-jig is capable of producing a consistent zero response when it is repeatedly installed on the monitor.</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The zero-jig shall be protected when not in use to ensure that the setting equivalent to zero opacity does not change.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Source owners who use a zero-jig shall perform a primary zero alignment audit and check of the zero-jig setting at least once every 3 years.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Criteria for a Successful Audit.</text>
+      <para>
+        <num>(1)</num>
+        <text>Performance Audit. Performance of the COM shall be considered acceptable if it meets the following criteria:</text>
+        <para>
+          <num>(a)</num>
+          <text>Stack Exit Correlation Error: &lt; 2 percent opacity;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Fault Indicators: Inactive/no error messages present;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Zero and Upscale Responses: &lt; 2 percent opacity;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Zero compensation: &lt; 4 percent opacity;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Optical Alignment: misalignment error &lt; 2 percent opacity;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Optical Surface Dust Accumulation: &lt; 4 percent opacity; and</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>Calibration Error: &lt; 3 percent opacity.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Zero Alignment.</text>
+        <para>
+          <num>(a)</num>
+          <text>Calculations for a zero alignment audit shall be in accordance with the EPA document incorporated by reference in <cite path="|26|11|31|.03|B.|(2)">Regulation .03B(2) of this chapter</cite>.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The zero alignment is acceptable if the error of the simulated zero check is less than 2 percent opacity before adjustment.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The simulated zero check should be adjusted to provide the correct response each time the zero alignment audit is performed.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Out-of-Control Periods. The beginning of the out-of-control period is the time corresponding to the completion of the performance audit indicating unacceptable performance. The end of the out-of-control period is the time corresponding to the completion of the subsequent successful audit.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="26|11|31|.12">
+    <prefix>Regulation</prefix>
+    <num>.12</num>
+    <heading>Corrective Actions.</heading>
+    <para>
+      <num>A.</num>
+      <text>Unacceptable Audit Results — Single Performance Audit.</text>
+      <para>
+        <num>(1)</num>
+        <text>If the COM is out-of-control, the owner or operator shall take necessary corrective action to eliminate the problem.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Following corrective action, the owner or operator, at a minimum, shall conduct a COM performance audit on the portion of the criteria that failed to indicate the COM is operating properly.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The COM operator shall include both the audit results showing the COM to be out of control and the results following corrective action showing the COM to be operating within specification in the quarterly report.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Unacceptable Audit Results — Multiple Performance Audits.</text>
+      <para>
+        <num>(1)</num>
+        <text>If an audit conducted in accordance with <cite path="|26|11|31|.09">Regulation .09 of this chapter</cite> identifies unacceptable performance (that is, out-of-control conditions) for two consecutive quarters, the source owner or operator shall revise the current written QC procedures or modify or replace the COM to correct the deficiency causing the unacceptable performance.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If the owner or operator chooses to revise the written QC procedures in accordance with <cite path="26|11|31|.12|B.|(1)">§B(1) of this regulation</cite> and <cite path="|26|11|31|.06">Regulation .06 of this chapter</cite>, the revised procedures shall be submitted to the Department for approval, along with a copy of the current approved procedures.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Unacceptable Zero Alignment.</text>
+      <para>
+        <num>(1)</num>
+        <text>The performance of the monitoring system is unacceptable if the error of the simulated zero check before adjustment:</text>
+        <para>
+          <num>(a)</num>
+          <text>Exceeds 5 percent opacity for any zero alignment audit; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Exceeds the 2 percent opacity acceptance criterion for three consecutive zero alignment audits.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If the performance of the monitoring system is unacceptable, the owner or operator shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Take corrective action to resolve the problem and improve the stability of the simulated zero check method or device; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Replace the COM.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If corrective action is taken under <cite path="26|11|31|.12|C.|(2)|(a)">§C(2)(a) of this regulation</cite>, the owner or operator shall conduct zero alignment audits at least twice each year during nonconsecutive calendar quarters.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>If the results of the semi-annual zero alignment audits exceed the limits of <cite path="26|11|31|.12|C.|(1)">§C(1) of this regulation</cite>, the owner or operator shall replace the COM.</text>
+      </para>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Environment Article, §§<cite doc="Md. Code" path="gen|1-101">1-101</cite>, <cite doc="Md. Code" path="gen|1-404">1-404</cite>, <cite doc="Md. Code" path="gen|2-101">2-101</cite>—<cite doc="Md. Code" path="gen|2-103">2-103</cite>, <cite doc="Md. Code" path="gen|2-301">2-301</cite>—<cite doc="Md. Code" path="gen|2-303">2-303</cite>, <cite doc="Md. Code" path="gen|10-102">10-102</cite>, and <cite doc="Md. Code" path="gen|10-103">10-103</cite>, Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="1999-12-27">Effective date: December 27, 1999 (26:26 Md. R. 1961)</annotation>
+    <annotation type="History" dest="container" effective="2011-06-13" discontinuity="true">Regulations <cite path="|26|11|31|.01">.01</cite>—<cite path="|26|11|31|.15">.15</cite> under Small Business Pollution Compliance Loan Program repealed, and new Regulations <cite path="|26|11|31|.01">.01</cite>—<cite path="|26|11|31|.12">.12</cite> under new chapter, Quality Assurance Requirements for Continuous Opacity Monitors (COMs) adopted effective June 13, 2011 (38:12 Md. R. 708)</annotation>
+  </annotations>
+</container>

@@ -1,0 +1,576 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>37</num>
+  <heading>Family Planning Program Eligibility</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Purpose and Scope.</heading>
+    <text>This chapter governs the determination of eligibility for the Family Planning Program.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>Applicant.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Applicant” means an individual whose written, signed application for the Family Planning Program has been submitted to the Department but has not received final action.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Applicant” includes a non-pregnant individual whose application is submitted through an authorized representative.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>“Application” means the filing of a written and signed application form for the Family Planning Program at the Department or its designee.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>“Application date” means the date on which a written, signed application is received by the Department.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>“Application form” means the form designated by the Department to be completed, signed, and submitted to the Department, or its designee, as an official application for the Family Planning Program.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>“Authorized representative” means a spouse, legal guardian, parent, individual with power of attorney, relative or other individual designated in writing to the Department, authorized concerning the applicant’s or participant’s eligibility under this chapter to:</text>
+        <para>
+          <num>(a)</num>
+          <text>Act on an applicant’s or participant’s behalf; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Assist with the application or redetermination process and in other communication with the Department.</text>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>“Continuing eligibility” means a participant’s eligibility for a subsequent certification period after the current certification period, based on the Department’s redetermination of eligibility with respect to an individual who is enrolled in Family Planning on the application date.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>“Department” means the Maryland Department of Health, which is the single State agency designated to administer the Maryland Medical Assistance Program pursuant to Title XIX of the Social Security Act, 42 U.S.C. §1396 et seq.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>“Determination” means a decision regarding an applicant's eligibility for the Family Planning Program.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>“Family Planning Program” means the program established in Health–General Article, §15-103 et seq., Annotated Code of Maryland to provide services related to contraceptive care to individuals who meet the eligibility requirements specified in <cite path="|10|09|37|.03">Regulation .03 of this chapter</cite>.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>“Federal poverty level” means the poverty guidelines updated periodically in the Federal Register by the U.S. Department of Health and Human Services under the authority of 42 U.S.C. §9902(2).</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>“Household” means a MAGI household unit as set forth in <cite path="10.09.24.06">COMAR 10.09.24.06</cite>-1.</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>“Income” has the meaning stated in <cite path="10.09.24.02|B.">COMAR 10.09.24.02B</cite>.</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>“Inmate in a public institution” has the meaning stated in <cite path="10.09.24.05">COMAR 10.09.24.05</cite>-5.</text>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>“MAGI” means modified adjusted gross income, as calculated for purposes of determining eligibility under the Affordable Care Act.</text>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>“MAGI coverage groups” has the meaning stated in <cite path="10.09.24.03|A.">COMAR 10.09.24.03A</cite>.</text>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>“Medicare” means the medical insurance program administered by the federal government under Title XVIII of the Social Security Act, 42, §U.S.C. 1395 et seq.</text>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>“Participant” means an individual who is determined eligible for the Family Planning Program.</text>
+      </para>
+      <para>
+        <num>(18)</num>
+        <text>Public Institution.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Public institution” means an institution that is the responsibility of a governmental unit or over which a governmental unit exercises administrative control.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Public institution” does not mean a medical institution, a skilled nursing facility, or a publicly operated community residence that serves no more than 16 residents.</text>
+        </para>
+      </para>
+      <para>
+        <num>(19)</num>
+        <text>“Redetermination” means a determination regarding the eligibility of a participant.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="10|09|37|.03">
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Eligibility for Family Planning Program Coverage.</heading>
+    <para>
+      <num>A.</num>
+      <text>In order to be determined eligible for benefits under the Family Planning Program, an applicant:</text>
+      <para>
+        <num>(1)</num>
+        <text>Shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Have a household income that does not exceed 250 percent of the federal poverty level; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Meet the following requirements:</text>
+          <para>
+            <num>(i)</num>
+            <text>Citizenship requirements in <cite path="10.09.24.05">COMAR 10.09.24.05</cite>;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Identity requirements in <cite path="10.09.24.05">COMAR 10.09.24.05</cite>-1A—F and H; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Residency requirements in <cite path="10.09.24.05">COMAR 10.09.24.05</cite>-3.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>May not:</text>
+        <para>
+          <num>(a)</num>
+          <text>Be pregnant;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Be determined eligible for another Medical Assistance Program;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Be enrolled in Medicare; or</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Be an incarcerated inmate in a public institution as defined in <cite path="10.09.24.05">COMAR 10.09.24.05</cite>-5A.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>An applicant whose income does not exceed 250 percent of the federal poverty level and is determined eligible for pregnancy or postpartum coverage under <cite path="|10.09.24">COMAR 10.09.24</cite> shall be:</text>
+      <para>
+        <num>(1)</num>
+        <text>Enrolled for 1 year without filing a separate application after pregnancy related period of eligibility ends; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Redetermined for eligibility based on the criteria in <cite path="10|09|37|.03|A.">§A of this regulation</cite>.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="10|09|37|.03-1">
+    <prefix>Regulation</prefix>
+    <num>.03-1</num>
+    <heading>Family Planning Program Presumptive Eligibility.</heading>
+    <para>
+      <num>A.</num>
+      <text>Definitions.</text>
+      <para>
+        <num>(1)</num>
+        <text>In this regulation, the following terms have the meanings indicated.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Terms Defined.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Applicant” means an individual who has applied for presumptive eligibility at a participating family planning clinic.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Application” means the presumptive eligibility application.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>“Authorized representative” has the meaning stated in <cite path="10.01.04.01">COMAR 10.01.04.01</cite>.</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>“Determination” means a decision regarding an applicant’s presumptive eligibility.</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>“Family planning clinic” means an entity that:</text>
+          <para>
+            <num>(i)</num>
+            <text>Provides family planning services under a written agreement with the Maryland Department of Health, Prevention and Health Promotion Administration; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Is approved to perform family planning presumptive eligibility determinations.</text>
+          </para>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>“Former foster care” means an individual who:</text>
+          <para>
+            <num>(i)</num>
+            <text>Is younger than 26 years old;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Is not eligible and enrolled for coverage under a mandatory Medical Assistance group other than childless adult; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Was formerly in a Maryland out-of-home placement, including categorical Medical Assistance, upon attaining age 18 and leaving out-of-home placement or upon attaining age 19—21 during extended out-of-home placement under <cite path="07.02.11.04|B.">COMAR 07.02.11.04B</cite>.</text>
+          </para>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>“Income” means property or a service received by an individual in cash or in-kind, which can be applied directly, or by sale or conversion, to meet basic needs for food, shelter, and medical expenses.</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>“Maryland Family Planning Program Delegate Service Site” means an entity that provides family planning services under a written agreement with the Department.</text>
+        </para>
+        <para>
+          <num>(i)</num>
+          <text>“Medical Assistance” means the program administered by the State under Title XIX of the Social Security Act, which provides comprehensive medical and other health-related care for eligible individuals.</text>
+        </para>
+        <para>
+          <num>(j)</num>
+          <text>“Presumptive eligibility” means temporary eligibility for Family Planning Program services as determined by family planning clinics in accordance with this regulation.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Requirements.</text>
+      <para>
+        <num>(1)</num>
+        <text>A family planning clinic qualified to make presumptive eligibility decisions shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Participate as a Medical Assistance Program provider in good standing; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Sign an agreement prepared by the Department.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The agreement under <cite path="10|09|37|.03-1|B.|(1)|(b)">§B(1)(b) of this regulation</cite> shall require that the family planning clinic:</text>
+        <para>
+          <num>(a)</num>
+          <text>Comply with Departmental policies and procedures supplied by the Department at the time of application and training;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Meet accuracy and timeliness standards established by the Department;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Submit a list to the Department of family planning clinic employees who will attend presumptive eligibility training developed by the Department;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Prohibit employees who have not attended required trainings from making presumptive eligibility decisions; and</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Report all requested information on a form designated by the Department.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Before assisting an applicant in filing a presumptive eligibility application, the family planning clinic employee shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Check the Department’s eligibility verification system to make sure the individual is not actively enrolled in the Medical Assistance Program;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Provide information concerning the full Medical Assistance application process to the individual applying for presumptive eligibility and assist or refer the applicant to an individual who can assist the applicant in completing a full Medical Assistance application; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Determine that the applicant:</text>
+          <para>
+            <num>(i)</num>
+            <text>Has not had a prior family planning presumptive eligibility period within the last 12 months;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Is not pregnant; or</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Is not actively enrolled in the Medical Assistance Program.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The family planning clinic employee shall fill out the presumptive eligibility application based on information supplied by the applicant.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The family planning clinic employee shall make a presumptive eligibility decision and submit the presumptive eligibility application by applying <cite path="10|09|37|.03-1|D.">§D of this regulation</cite> and the following information obtained pursuant to <cite path="10|09|37|.03-1|C.">§C of this regulation</cite>:</text>
+        <para>
+          <num>(a)</num>
+          <text>Residency;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Citizenship;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Family size and composition; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Gross family income.</text>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>The family planning clinic employee shall inform the individual in writing of the family planning clinic’s presumptive eligibility decision, which shall include an explanation of the presumptive eligibility period.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>The family planning clinic shall submit the presumptive eligibility application to the Department on the date of application completion to allow the individual to have temporary Medical Assistance coverage.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>The family planning clinic shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Keep all written and signed presumptive eligibility applications on file for 6 years; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Make the file available to the Department upon request.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Presumptive Eligibility Criteria.</text>
+      <para>
+        <num>(1)</num>
+        <text>An individual shall apply for presumptive eligibility through a participating family planning clinic.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An individual who applies for presumptive eligibility shall attest to:</text>
+        <para>
+          <num>(a)</num>
+          <text>The citizenship requirements in <cite path="10.09.24.05">COMAR 10.09.24.05</cite>;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The residency requirements in <cite path="10.09.24.05">COMAR 10.09.24.05</cite>-3;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The individual’s pregnancy status;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>The individual’s family size; and</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>The gross monthly income of the individual’s household.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Presumptive eligibility may be established for individuals who meet the Family Planning Program eligibility requirements in <cite path="|10|09|37|.03">Regulation .03 of this chapter</cite>.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Limitations. Presumptive eligibility may not be granted to an individual who:</text>
+      <para>
+        <num>(1)</num>
+        <text>Is pregnant;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Is currently enrolled in the Medical Assistance Program;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Had a prior presumptive eligibility period during the last 12 months;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Does not meet the income requirements stated in <cite path="|10|09|37|.03">Regulation .03 of this chapter</cite> ;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Does not meet the residency requirements stated in <cite path="10.09.24.05">COMAR 10.09.24.05</cite>-3; or</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Does not meet the citizenship requirements stated in <cite path="10.09.24.05">COMAR 10.09.24.05</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Coverage Span.</text>
+      <para>
+        <num>(1)</num>
+        <text>Presumptive eligibility begins on the day the presumptive eligibility worker determines the individual is presumptively eligible.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Presumptive eligibility ends on the earlier of:</text>
+        <para>
+          <num>(a)</num>
+          <text>The day the individual is determined eligible for Medical Assistance; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The last day of the month following the month in which the family planning clinic determined presumptive eligibility, if an individual:</text>
+          <para>
+            <num>(i)</num>
+            <text>Is found ineligible for Medical Assistance; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Failed to apply for Medical Assistance.</text>
+          </para>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Presumptive Eligibility Appeal Rights. An individual or an organization does not have appeal rights for presumptive eligibility determinations.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Application.</heading>
+    <text>For individuals not described in .03B of this chapter, application for Family Planning Program services will be conducted pursuant to the provisions of <cite path="10.09.24.04">COMAR 10.09.24.04</cite>.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Consideration of Income.</heading>
+    <text>Determination of an applicant’s income for purposes of the Family Planning Program shall be determined under the household provisions of <cite path="10.09.24.06">COMAR 10.09.24.06</cite>-1 and the income provisions applicable to MAGI household units of <cite path="10.09.24.07">COMAR 10.09.24.07</cite>.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Determining Financial Eligibility.</heading>
+    <text>An applicant is financially eligible for the Family Planning Program if the applicant's MAGI household income as determined under <cite path="10.09.24.06">COMAR 10.09.24.06</cite>-1 and .07 does not exceed 250 percent of the federal poverty level.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Certification Periods.</heading>
+    <para>
+      <num>A.</num>
+      <text>For a participant, certification for initial eligibility begins not sooner than the first day of the month of application.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A participant’s eligibility under <cite path="|10|09|37|.03">Regulation .03 of this chapter</cite> will end as of the:</text>
+      <para>
+        <num>(1)</num>
+        <text>End of a 12 month certification period;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Date eligibility is determined in another Medicaid coverage group;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Date the participant ceases to qualify under the requirements of <cite path="|10|09|37|.03|A.">Regulation .03A of this chapter</cite>;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Beginning of the month in which the participant is enrolled in Medicare; or</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Date a participant becomes an inmate in a public institution.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Covered Services.</heading>
+    <text>A Family Planning Program recipient shall be entitled to services as stated in <cite path="|10.09.58">COMAR 10.09.58</cite>.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Post–Eligibility Requirements.</heading>
+    <text>Post-eligibility requirements for the Family Planning Program are set forth at <cite path="10.09.24.12">COMAR 10.09.24.12</cite>.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.10</num>
+    <heading>Hearings.</heading>
+    <text>The procedures for the Program granting a hearing to an applicant or a recipient and the status of benefits pending a hearing are set forth in <cite path="|10.01.04">COMAR 10.01.04</cite>.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.11</num>
+    <heading>Fraud and Abuse.</heading>
+    <text>The requirements relating to fraud and abuse under <cite path="10.09.24.14">COMAR 10.09.24.14</cite> and <cite path="10.09.24.14">COMAR 10.09.24.14</cite>-1 shall apply to this chapter.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.12</num>
+    <heading>Adjustments and Recoveries.</heading>
+    <text>The requirements relating to adjustments and recoveries under <cite path="10.09.24.15">COMAR 10.09.24.15</cite>, excluding <cite path="10.09.24.15|A.|(2)">COMAR 10.09.24.15A(2)</cite>—(3) and <cite path="10.09.24.15|A.|(3)">COMAR 10.09.24.15A(3)</cite>, shall apply to this chapter.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.13</num>
+    <heading>Interpretive Regulation.</heading>
+    <text>State regulations shall be interpreted in conformity with applicable federal statutes and regulations.</text>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Health-General Article, §§2-104(b), 15-103(a), and 15-140, Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container">Effective date:</annotation>
+    <annotation type="History" dest="container" effective="2012-06-11">Regulations <cite path="|10|09|37|.01">.01</cite>—<cite path="|10|09|37|.15">.15</cite> adopted as an emergency provision effective January 1, 2012 (39:2 Md. R. 139); adopted permanently effective June 11, 2012 (39:11 Md. R. 686)</annotation>
+    <annotation type="History" dest="container" effective="2014-01-06" discontinuity="true">Chapter revised effective January 6, 2014 (40:26 Md. R. 2163)</annotation>
+    <annotation type="History" dest="container" effective="2018-12-31"><cite path="|10|09|37|.02|B.">Regulation .02B</cite> amended effective December 31, 2018 (45:26 Md. R. 1243)</annotation>
+    <annotation type="History" dest="container" effective="2018-12-31"><cite path="|10|09|37|.03">Regulation .03</cite> amended effective December 31, 2018 (45:26 Md. R. 1243)</annotation>
+    <annotation type="History" dest="container" effective="2018-12-31"><cite path="|10|09|37|.04">Regulation .04</cite> amended effective December 31, 2018 (45:26 Md. R. 1243)</annotation>
+    <annotation type="History" dest="container" effective="2018-12-31">December 31, 2018 (45:26 Md. R. 1243)</annotation>
+    <annotation type="History" dest="container" effective="2018-12-31"><cite path="|10|09|37|.09">Regulation .09</cite> amended effective December 31, 2018 (45:26 Md. R. 1243)</annotation>
+    <annotation type="History" dest="container" effective="2018-12-31"><cite path="|10|09|37|.11">Regulation .11</cite> amended effective December 31, 2018 (45:26 Md. R. 1243)</annotation>
+    <annotation type="History" dest="container" effective="2020-01-13" discontinuity="true">Chapter revised effective January 13, 2020 (47:1 Md. R. 12)</annotation>
+    <annotation type="History" dest="container" effective="2021-02-22"><cite path="|10|09|37|.03">Regulation .03</cite>-1 adopted effective February 22, 2021 (48:4 Md. R. 176)</annotation>
+  </annotations>
+</container>

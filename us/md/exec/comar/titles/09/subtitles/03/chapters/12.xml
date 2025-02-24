@@ -1,0 +1,827 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>12</num>
+  <heading>Foreclosure Procedures for Residential Property</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>"Addressed envelope" means:</text>
+        <para>
+          <num>(a)</num>
+          <text>An envelope that is preprinted with the address where it should be delivered;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>An envelope that contains a label with a preprinted address where it should be delivered; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>An envelope with a window that will accommodate a visible preprinted cover page that contains an address where the envelope should be delivered with instructions on how to use the cover page to display the address.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>"Administrative law judge" has the meaning stated in <cite path="28.02.01.02">COMAR 28.02.01.02(B)(1)</cite>.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>"Borrower" means:</text>
+        <para>
+          <num>(a)</num>
+          <text>A mortgagor; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A grantor of a deed of trust.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>"Commissioner" means the Commissioner of Financial Regulation in the Maryland Department of Labor.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>"Date of default" means the first calendar day after the borrower has failed to meet the borrower's obligations under the terms of the debt instrument where the debt instrument characterizes that failure as a default.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>"Debt instrument" means an agreement, promissory note, or other evidence of a mortgage loan.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>"Federally related mortgage loan" has the meaning stated at 12 C.F.R. 1024.2.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>"Final loss mitigation affidavit" has the meaning stated in <cite doc="Md. Code" path="grp|7-105">Real Property Article, §7-105</cite>.1(a), Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>"Foreclosure mediation" has the meaning stated in <cite doc="Md. Code" path="grp|7-105">Real Property Article, §7-105</cite>.1(a), Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>"Housing counseling services" has the meaning stated in <cite doc="Md. Code" path="grp|7-105">Real Property Article, §7-105</cite>.1(a), Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>Inspection.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Inspection" means a limited nonintrusive examination to determine occupancy status of a property.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Inspection" may include, but is not limited to:</text>
+          <para>
+            <num>(i)</num>
+            <text>Physical survey of the property; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Review of loan documents, recorded instruments, court orders, public records, photos taken upon physical survey of the property, or other documents identifying loan type or ownership.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>"Loss mitigation analysis" has the meaning stated in <cite doc="Md. Code" path="grp|7-105">Real Property Article, §7-105</cite>.1(a), Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>"Loss mitigation program" has the meaning stated in <cite doc="Md. Code" path="grp|7-105">Real Property Article, §7-105</cite>.1(a), Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>"Mediator" means the administrative law judge within the Office of Administrative Hearings who will serve as the neutral third party in a foreclosure mediation.</text>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>"Mortgage lender licensee" means a person licensed under Financial Institutions Article, §§<cite doc="Md. Code" path="gfi|11-501">11-501</cite>—<cite doc="Md. Code" path="gfi|11-524">11-524</cite>, Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>"Mortgage loan" means any loan or extension of credit secured by residential property.</text>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>"Mortgage loan originator licensee" means an individual licensed under Financial Institutions Article, §§<cite doc="Md. Code" path="gfi|11-601">11-601</cite>—<cite doc="Md. Code" path="gfi|11-618">11-618</cite>, Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(18)</num>
+        <text>“Nationwide Mortgage Licensing System and Registry (NMLS)” has the meaning stated in <cite doc="Md. Code" path="gfi|1-101">Financial Institutions Article, §1-101, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(19)</num>
+        <text>Owner-Occupied Residential Property.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Owner-occupied residential property" has the meaning stated in <cite doc="Md. Code" path="grp|7-105">Real Property Article, §7-105</cite>.1(a), Annotated Code of Maryland.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Owner-occupied residential property" does not include property secured by mortgage loans or other debt instruments if the borrower is:</text>
+          <para>
+            <num>(i)</num>
+            <text>One or more persons who have made a written statement in connection with the original loan application that the loan is for business or investment purposes;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>A corporation;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>A limited liability company;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>A joint venture; or</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>A partnership or a limited partnership.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(20)</num>
+        <text>"Person" has the meaning stated in <cite doc="Md. Code" path="gfi|11-501">Financial Institutions Article, §11-501(p), Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(21)</num>
+        <text>"Postfile mediation" has the meaning stated in <cite doc="Md. Code" path="grp|7-105">Real Property Article, §7-105</cite>.1(a), Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(22)</num>
+        <text>"Prefile mediation" has the meaning stated in <cite doc="Md. Code" path="grp|7-105">Real Property Article, §7-105</cite>.1(a), Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(23)</num>
+        <text>"Preliminary loss mitigation affidavit has the meaning stated in <cite doc="Md. Code" path="grp|7-105">Real Property Article, §7-105</cite>.1(a), Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(24)</num>
+        <text>"Record owner" has the meaning stated in Maryland Rule 14-202(n).</text>
+      </para>
+      <para>
+        <num>(25)</num>
+        <text>Representative of the Secured Party.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Representative of the secured party" means a person who has representative authority to perform the duties and responsibilities of the secured party.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Representative of the secured party" does not include an attorney acting solely as legal counsel on behalf of the secured party or on behalf of the representative of the secured party, unless specifically authorized to perform the duties and responsibilities of the secured party.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>"Representative of the secured party" includes an attorney acting as trustee under a deed of trust.</text>
+        </para>
+      </para>
+      <para>
+        <num>(26)</num>
+        <text>"Residential property" has the meaning stated in <cite doc="Md. Code" path="grp|7-105">Real Property Article, §7-105</cite>.1(a), Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(27)</num>
+        <text>"Secured party" has the meaning stated in Maryland Rule 14-202(q).</text>
+      </para>
+      <para>
+        <num>(28)</num>
+        <text>Single Family Dwelling Unit.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Single family dwelling unit" means a structure principally designed for the residential habitation of one family.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Single family dwelling unit" includes an individual residential condominium unit within a larger structure or complex, regardless of the total number of individual units in that structure or complex.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>"Single family dwelling unit" does not include a structure that:</text>
+          <para>
+            <num>(i)</num>
+            <text>Is not intended, and has never been used, for human habitation; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Is intended for human habitation and has never been occupied and for which a use and occupancy permit, if required, has never been issued.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(29)</num>
+        <text>"Unique identifier" has the meaning stated in <cite doc="Md. Code" path="gfi|11-601">Financial Institutions Article, §11-601, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(30)</num>
+        <text>"Vacant and abandoned" means a finding by the appropriate circuit court that a residential property is vacant and abandoned pursuant to <cite doc="Md. Code" path="grp|7-105">Real Property Article, §7-105</cite>.18(c), Annotated Code of Maryland.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="09|03|12|.02">
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Notice of Intent to Foreclose.</heading>
+    <para>
+      <num>A.</num>
+      <text>Subject to §§F, G, and H of this regulation, a person required to send a notice of intent to foreclose under <cite doc="Md. Code" path="grp|7-105">Real Property Article, §7-105</cite>.1, Annotated Code of Maryland, shall send a notice of intent to foreclose, which shall fully conform with §B, C, or D of this regulation.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Owner-Occupied Residential Property.</text>
+      <para>
+        <num>(1)</num>
+        <text>Subject to <cite path="09|03|12|.02|C.">§C of this regulation</cite>, a notice of intent to foreclose on owner-occupied residential property shall be in a form substantially similar to that in:</text>
+        <para>
+          <num>(a)</num>
+          <text>Appendix A of this regulation if the loan is not a federally related mortgage loan;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Appendix A-f of this regulation if the loan is a federally related mortgage loan; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>With respect to a notice of intent to foreclose from a secured party offering prefile mediation for a loan that is not a federally related mortgage loan, Appendix A-1 of this regulation, as follows:</text>
+          <para>
+            <num>(i)</num>
+            <text>Appendix A-1 shall be accompanied in the same envelope or package by the packets of documents and forms substantially similar to Schedule 1 (Prefile Mediation Packet) and Schedule 2 (Loss Mitigation Packet) of Appendix A-1 of this regulation.</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Each of the documents and forms constituting Appendix A-1, Schedule 1, and Schedule 2 as required under subparagraph (i) of this paragraph shall be in the sequence of documents and forms presented in Appendix A-1, Schedule 1, and Schedule 2, respectively of this regulation. Appendix A-1 shall be the first in the sequence. Schedule 1 shall be the second in the sequence and shall be directly behind Appendix A-1. Schedule 2 shall be the third in the sequence and shall be directly behind Schedule 1. Appendix A-1, Schedule 1, and Schedule 2 shall be separated from each other by any reasonable method that ensures that the borrower can identify the forms and documents constituting each of Appendix A-1, Schedule 1, and Schedule 2.</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>The Loss Mitigation Application and Instruction required in Schedule 2 of Appendix A-1 may be in the form authorized under <cite path="|09|03|12|.03">Regulation .03 of this chapter</cite>.</text>
+          </para>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>With respect to a notice of intent to foreclose from a secured party offering prefile mediation for a loan that is a federally related mortgage loan, Appendix A-1(f) of this regulation, as follows:</text>
+          <para>
+            <num>(i)</num>
+            <text>Appendix A-1(f) shall be accompanied in the same envelope or package by the packets of documents and forms substantially similar to Schedule 1 (Prefile Mediation Packet) and Schedule 2 (Loss Mitigation Packet) of Appendix A-1(f) of this regulation.</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Each of the documents and forms constituting Appendix A-1(f), Schedule 1, and Schedule 2 as required under subparagraph (i) of this paragraph shall be in the sequence of documents and forms presented in Appendix A-1(f), Schedule 1, and Schedule 2, respectively. Appendix A-1(f) shall be the first in the sequence. Schedule 1 shall be the second in the sequence and shall be directly behind Appendix A-1(f), Schedule 2 shall be the third in the sequence and shall be directly behind Schedule 1. Appendix A-1(f), Schedule 1, and Schedule 2 shall be separated from each other by any reasonable method that ensures that the borrower can identify the forms and documents constituting each of Appendix A-1(f), Schedule 1, and Schedule 2.</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>The Loss Mitigation Application and Instruction required in Schedule 2(f) of Appendix A-1(f) may be in the form authorized under <cite path="|09|03|12|.03">Regulation .03 of this chapter</cite>.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>For purposes of the notice set forth in <cite path="09|03|12|.02|B.|(1)">§B(1) of this regulation</cite>, the names and license numbers of mortgage lender licensees and mortgage loan originator licensees are required to be included in the notice only if this information is included on or recorded with the security instrument securing the mortgage loan related to the notice, or is otherwise known to the person sending the notice. The person sending the notice set forth in <cite path="09|03|12|.02|B.|(1)">§B(1) of this regulation</cite> may satisfy the requirement to include the license number of the mortgage lender licensee and mortgage loan originator licensee by including the NMLS unique identifier. If the mortgage lender was exempt from licensure under <cite doc="Md. Code" path="gfi|11-501">Financial Institutions Article, §11-501 </cite>et seq., Annotated Code of Maryland, at the time the mortgage loan was made, then a mortgage lender license number is not required under this section. If the mortgage loan originator was exempt from licensure under <cite doc="Md. Code" path="gfi|11-601">Financial Institutions Article, §11-601 </cite>et seq., Annotated Code of Maryland, at the time the mortgage loan was originated, then a mortgage lender license number is not required under this section.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The notice of intent to foreclose shall be accompanied in the same envelope or package by:</text>
+        <para>
+          <num>(a)</num>
+          <text>A loss mitigation application for loss mitigation programs that are applicable to the loan secured by the mortgage or deed of trust that is the subject of the notice. If the secured party does not have its own loss mitigation application, the secured party shall use the form of loss mitigation application set forth in <cite path="|09|03|12|.03">Regulation .03 of this chapter</cite>;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Instructions for completing the loss mitigation application with a telephone number to call to confirm receipt by the secured party, or representative of the secured party, of the completed application;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A description of the eligibility requirements for the loss mitigation programs offered by the secured party that may be applicable to the loan secured by the mortgage or deed of trust that is the subject of the notice. If the mortgage loan is owned, securitized, insured, or guaranteed by the Federal National Mortgage Association, Federal Home Loan Mortgage Corporation, or Federal Housing Administration, providing documentation to the borrower as required by those programs satisfies the requirement to provide a description of the eligibility requirement for the applicable loss mitigation program; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>An addressed envelope in conformity with <cite path="|09|03|12|.10">Regulation .10 of this chapter</cite> addressed to the person (an individual, a group of individuals, or a department such a “loss mitigation department”) responsible for conducting the loss mitigation analysis on behalf of the secured party for the mortgage loan.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>If the basis for the authority to foreclose on the owner-occupied residential property is a homeowners’ association lien, condominium association lien, mechanic’s lien, a similar statutory or contractual lien, or a basis other than a mortgage loan default, a notice of intent to foreclose shall be in a form substantially similar to that in Appendix B of this regulation.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Not an Owner-Occupied Residential Property.</text>
+      <para>
+        <num>(1)</num>
+        <text>A notice of intent to foreclose on residential property that is not an owner-occupied residential property shall be in a form substantially similar to that in Appendix C of this chapter if the loan is not a federally related mortgage loan.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A notice of intent to foreclose on residential property that is not an owner-occupied residential property shall be in a form substantially similar to that in Appendix C(f) of this chapter if the loan is a federally related mortgage loan.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A notice of intent to foreclose under §D(1) or (2) of this regulation shall be sent to the borrower and record owner only if the secured party, or representative of the secured party, has a reasonable belief that the residential property is not owner-occupied residential property.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>If the borrower or record owner contests the determination that the residential property is not owner-occupied residential property, and it is determined that the residential property is owner-occupied residential property, the secured party shall send the appropriate notice of intent to foreclose in compliance with <cite doc="Md. Code" path="grp|7-105">Real Property Article, §7-105</cite>.1, Annotated Code of Maryland, and this regulation.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Any notice of intent to foreclose under this regulation may include a separate addendum, sequenced at the end of the notice of intent to foreclose, with any additional information, notice, or advice required as a prerequisite to commencing foreclosure by the terms of the deed of trust or mortgage that is the subject of the notice, government regulatory guidelines applicable to such deed of trust or mortgage or by the servicer, investor, or insurer of such deed of trust or mortgage, provided the additional information, notice, or advice does not contradict any information required to be contained in the notice of intent to foreclose.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Filing Electronically. A person required to send the Commissioner a copy of a notice of intent to foreclose under <cite doc="Md. Code" path="grp|7-105">Real Property Article, §7-105</cite>.1, Annotated Code of Maryland, shall meet that requirement by making an electronic submission within 5 business days of mailing a notice of intent to foreclose through the Maryland Foreclosure Registration System (the “System”). A link to the System is available on the Commissioner’s website at <a href="http://www.labor.maryland.gov/finance">http://www.labor.maryland.gov/finance</a>.</text>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>The secured party, or representative of the secured party, shall include all information required in a form provided for under §B, C, or D of this regulation in the spaces indicated by brackets and blank lines.</text>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>A notice of intent to foreclose that is sent in compliance with <cite doc="Md. Code" path="grp|7-105">Real Property Article, §7-105</cite>.1, Annotated Code of Maryland, and is otherwise valid under the law, shall expire and will not be effective:</text>
+      <para>
+        <num>(1)</num>
+        <text>If, after 1 year from the date on which it is sent to the borrower, an action to foreclose the mortgage or deed of trust pursuant to such notice of intent to foreclose has not been filed;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If an action to foreclose the mortgage or deed of trust filed pursuant to such notice of intent to foreclose is dismissed by the appropriate adjudicative body;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If the borrower cures the default described in the notice of intent to foreclose and becomes current on payment, whether pursuant to the terms of the mortgage or deed of trust or a loss mitigation agreement entered into by the parties;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>As provided for in <cite doc="Md. Code" path="grp|7-105">Real Property Article, §7-105</cite>.1(d)(18), Annotated Code of Maryland; or</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>As provided for in <cite path="09|03|12|.02|D.|(4)">§D(4) of this regulation</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>If a notice of intent to foreclosure expires and becomes ineffective as provided for in <cite path="09|03|12|.02|H.|(1)">§H(1) of this regulation</cite>, the secured party shall send a new notice of intent to foreclose in compliance with <cite doc="Md. Code" path="grp|7-105">Real Property Article, §7-105</cite>.1, Annotated Code of Maryland, and this regulation prior to filing an action to foreclose a mortgage or deed of trust on residential property.</text>
+    </para>
+    <para>
+      <num>J.</num>
+      <text>The Commissioner shall retain an electronic copy of all submissions made on the System for at least 6 months.</text>
+      <text>SEE FORMS AT END OF CHAPTER.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Loss Mitigation Application and Instructions.</heading>
+    <text>A secured party, or representative of the secured party, that does not have its own loss mitigation application shall use a loss mitigation application in a form substantially similar to that in Appendix G of this chapter.</text>
+    <text>SEE FORMS AT END OF CHAPTER.</text>
+  </section>
+  <section cache:ref-path="09|03|12|.04">
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Prefile Mediation Process.</heading>
+    <para>
+      <num>A.</num>
+      <text>A borrower who elects to accept a secured party's offer to participate in prefile mediation in accordance with <cite doc="Md. Code" path="grp|7-105">Real Property Article §7-105</cite>.1, Annotated Code of Maryland, shall send to the secured party or the identified representative of the secured party the completed and signed application for prefile mediation included in Schedule 1 to Appendix A-1 within 25 days after the date on which the notice of intent to foreclose was mailed by the secured party. The instructions for the prefile mediation application shall include a telephone number to confirm receipt by the secured party or the secured party's representative of the application.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Within 5 business days after the date on which the secured party or the identified representative of the secured party receives an application for prefile mediation from a borrower, the secured party or the representative of the secured party shall notify the Office of Administrative Hearings that the borrower has submitted an application for prefile mediation. The notification shall be in a form substantially similar to that in Appendix I of this regulation.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The obligation of the Office of Administrative Hearings to schedule a mediation session arises upon the receipt of notice from the secured party required under <cite path="09|03|12|.04|B.">§B of this regulation</cite>.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The Office of Administrative Hearings shall conduct the mediation session within 60 days after the receipt of the notice required under <cite path="09|03|12|.04|B.">§B of this regulation</cite> from the secured party unless a postponement, requested in accordance with Appendix OAH-2 of this chapter, is granted.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>The total fee for prefile mediation is $1. In accordance with instructions from the Department of Housing and Community Development, the secured party shall pay the full amount of the prefile mediation fee to the Housing Counseling and Foreclosure Mediation Fund established under <cite doc="Md. Code" path="ghs|4-507">Housing and Community Development Article, §4-507, Annotated Code of Maryland</cite>. The secured party may elect to pay the prefile mediation fee on behalf of the homeowner or collect all or any portion of the fee as part of the resolution of the mortgage loan through prefile mediation or foreclosure, as applicable.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Good Faith and Fair Dealing. The secured party, or any representative of the secured party, has a duty of good faith and fair dealing in its participation at a prefile foreclosure mediation, including, but not limited to:</text>
+      <para>
+        <num>(1)</num>
+        <text>Providing the borrower with an accurate accounting of the debt owed;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Making the borrower aware of all loss mitigation options and services offered by the secured party; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Pursuing loss mitigation when reasonably possible.</text>
+        <text>SEE FORMS AT END OF CHAPTER.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="09|03|12|.05">
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Preliminary Loss Mitigation Affidavit.</heading>
+    <para>
+      <num>A.</num>
+      <text>Subject to <cite path="09|03|12|.05|B.">§B of this regulation</cite>, a preliminary loss mitigation affidavit required by <cite doc="Md. Code" path="grp|7-105">Real Property Article, §7-105</cite>.1(h)(3), Annotated Code of Maryland, and this chapter shall be in a form substantially similar to that in Appendix D of this regulation.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The secured party, or representative of the secured party, shall include all information required in the form provided for under <cite path="09|03|12|.05|A.">§A of this regulation</cite> in the spaces indicated by blank lines.</text>
+      <text>SEE FORMS AT END OF CHAPTER.</text>
+    </para>
+  </section>
+  <section cache:ref-path="09|03|12|.06">
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Final Loss Mitigation Affidavit.</heading>
+    <para>
+      <num>A.</num>
+      <text>Subject to <cite path="09|03|12|.06|B.">§B of this regulation</cite>, a final loss mitigation affidavit required by <cite doc="Md. Code" path="grp|7-105">Real Property Article, §7-105</cite>.1(h)(4), Annotated Code of Maryland, and this chapter shall be in a form substantially similar to that in Appendix E of this regulation.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The secured party, or representative of the secured party, shall include all information required in the form provided for under <cite path="09|03|12|.06|A.">§A of this regulation</cite> in the spaces indicated by blank lines.</text>
+      <text>SEE FORMS AT END OF CHAPTER.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Notice of Foreclosure Action.</heading>
+    <para>
+      <num>A.</num>
+      <text>Notice of Foreclosure Action to Accompany a Preliminary Loss Mitigation Affidavit.</text>
+      <para>
+        <num>(1)</num>
+        <text>A form substantially similar to that in Appendix H-1 of this regulation shall be used to comply with the notice of filing requirement when accompanying a preliminary loss mitigation affidavit, as well as an order to docket or complaint to foreclose, as required by <cite doc="Md. Code" path="grp|7-105">Real Property Article, §7-105</cite>.1, Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The form used under this regulation to comply with the notice of filing requirement to accompany a preliminary loss mitigation affidavit shall be the first in the sequence of papers and documents in the packet sent to the borrower.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The preliminary loss mitigation affidavit shall be the second in the sequence of papers and documents in the packet sent to the borrower and shall be directly behind the form used under this section.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The remainder of the papers and documents in the packet sent to the borrower may be in any other sequence.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The sequence requirements of §A(2) and (3) of this regulation apply only to the papers and documents sent to the borrower.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Notice of Foreclosure Action to Accompany a Final Loss Mitigation Affidavit.</text>
+      <para>
+        <num>(1)</num>
+        <text>A form substantially similar to that in Appendix H-2 of this regulation shall be used to comply with the notice of filing requirement when accompanying a final loss mitigation affidavit and the form used under this chapter to request postfile mediation, as well as an order to docket or complaint to foreclose, as required by <cite doc="Md. Code" path="grp|7-105">Real Property Article, §7-105</cite>.1, Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The form used under this section to comply with the notice of filing requirement to accompany a final loss mitigation affidavit shall be the first in the sequence of papers and documents in the packet sent to the borrower, and shall be on yellow paper.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The form used under this chapter to request postfile mediation shall be the second in the sequence of papers and documents in the packet sent to the borrower and shall be directly behind the form used under this section.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The final loss mitigation affidavit shall be the third in the sequence of papers and documents in the packet sent to the borrower and shall be directly behind the form used under this chapter to request postfile mediation.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The remainder of the papers and documents in the packet sent to the borrower may be in any other sequence.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>The sequence requirements of §B(2), (3), and (4) of this regulation apply only to the papers and documents sent to the borrower.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Notice of Foreclosure Action with Respect to Borrowers Who Have Participated in Prefile Mediation.</text>
+      <para>
+        <num>(1)</num>
+        <text>A form substantially similar to that in Appendix H-3 of this regulation shall be used to comply with the notice of filing requirement when accompanying an order to docket or complaint to foreclose for owner-occupied residential property with respect to which the borrower has participated in prefile mediation that has not resulted in a prefile mediation agreement, as required by <cite doc="Md. Code" path="grp|7-105">Real Property Article, §7-105</cite>.1, Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A form substantially similar to that in Appendix H-4 of this regulation shall be used to comply with the notice of filing requirement when accompanying an order to docket or complaint to foreclose for owner-occupied residential property with respect to which the borrower has participated in prefile mediation that has resulted in a prefile mediation agreement, as required by <cite doc="Md. Code" path="grp|7-105">Real Property Article, §7-105</cite>.1, Annotated Code of Maryland.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Notice of Foreclosure Action for Non Owner-Occupied Properties. A form substantially similar to that in Appendix H-5 of this regulation shall be used to comply with the notice of foreclosure action requirement when accompanying an order to docket or complaint to foreclose with respect to a property that is not an owner-occupied residential property, as required by <cite doc="Md. Code" path="grp|7-105">Real Property Article, §7-105</cite>.1, Annotated Code of Maryland.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Notice of Foreclosure Action Based on a Certificate of Vacancy or a Certificate of Property Unfit for Human Habitation.</text>
+      <para>
+        <num>(1)</num>
+        <text>A form substantially similar to that in Appendix H-6 of this regulation shall be used to comply with the notice of filing requirement when accompanying an order to docket or complaint to foreclose based on a certificate of vacancy or a certificate of property unfit for human habitation pursuant to <cite doc="Md. Code" path="grp|7-105">Real Property Article, §7-105</cite>.13, Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The form used under this section to comply with the notice of filing requirement based on a certificate of vacancy or a certificate of property unfit for human habitation shall be the first in the sequence of papers and documents in the packet sent to the borrower, and shall be on yellow paper.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The form used under this chapter to describe the procedure to challenge a certificate of vacancy or certificate of property unfit for human habitation shall be the second in the sequence of papers and documents in the packet sent to the borrower and shall be directly behind the form used under this section.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The form used under this chapter to make a challenge to a certificate of vacancy or certificate of property unfit for human habitation shall be the third in the sequence of papers and documents in the packet sent to the borrower and shall be directly behind the form used to describe the procedure to challenge a certificate of vacancy or certificate of property unfit for human habitation.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The remainder of the papers and documents in the packet sent to the borrower may be in any other sequence.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>The sequence requirements of §E(2), (3), and (4) of this regulation apply only to the papers and documents sent to the borrower.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Notice of Foreclosure Action with Respect to Properties Found to Be Vacant and Abandoned. A form substantially similar to that in Appendix H-7 of this regulation shall be used to comply with the notice of filing requirement when accompanying an order to docket or complaint to foreclose with respect to a property that is vacant and abandoned.</text>
+      <text>SEE FORMS AT END OF CHAPTER.</text>
+    </para>
+  </section>
+  <section cache:ref-path="09|03|12|.08">
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Postfile Foreclosure Mediation.</heading>
+    <para>
+      <num>A.</num>
+      <text>Subject to <cite path="09|03|12|.08|B.">§B of this regulation</cite>, a request for postfile mediation required by <cite doc="Md. Code" path="grp|7-105">Real Property Article, §7-105</cite>.1(h)(4), Annotated Code of Maryland, and this chapter shall be in a form substantially similar to that in Appendix F of this regulation.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The secured party, or representative of the secured party, shall include all information required in the form provided for under <cite path="09|03|12|.08|A.">§A of this regulation</cite> in the spaces indicated by blank lines.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Good Faith and Fair Dealing. The secured party, or any representative of the secured party, has a duty of good faith and fair dealing in its participation at a postfile foreclosure mediation, including, but not limited to:</text>
+      <para>
+        <num>(1)</num>
+        <text>Providing the borrower with an accurate accounting of the debt owed;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Making the borrower aware of all loss mitigation options and services offered by the secured party; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Pursuing loss mitigation when reasonably possible.</text>
+        <text>SEE FORMS AT END OF CHAPTER.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="09|03|12|.09">
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Office of Administrative Hearings.</heading>
+    <para>
+      <num>A.</num>
+      <text>Borrower Information Worksheet and Instructions.</text>
+      <para>
+        <num>(1)</num>
+        <text>With respect to a scheduled prefile mediation session, the Office of Administrative Hearings shall provide the Borrower(s) Information Worksheet and the instructions regarding the documents and information that must be provided by each party to the other and to the Office of Administrative Hearings in a form substantially similar to that in Appendix OAH-1 of this regulation.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>With respect to a scheduled postfile mediation session, the Office of Administrative Hearings shall provide the Borrower(s) Information Worksheet and the instructions regarding the documents and information that must be provided by each party to the other and to the Office of Administrative Hearings in a form substantially similar to that in Appendix OAH-2 of this regulation.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Housing Counseling.</text>
+      <para>
+        <num>(1)</num>
+        <text>The certification of housing counseling shall be in the form, and shall be delivered to the Office of Administrative Hearings at the time, required by <cite path="05.19.02.02">COMAR 05.19.02.02</cite>.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>At the option of the secured party, a borrower who fails to deliver the housing counseling certification may sign a borrower certification of housing counseling in a form substantially similar to that in Appendix OAH-5 of this regulation.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>At the option of the secured party, the secured party may waive the housing counseling certification at the prefile mediation session by signing the waiver of housing counseling in a form substantially similar to that in Appendix OAH-6 of this regulation.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Housing counseling services provided in accordance with <cite doc="Md. Code" path="grp|7-105">Real Property Article, §7-105</cite>.1(d)(10), Annotated Code of Maryland, shall comply with the National Industry Standards for Foreclosure Counseling created by the Advisory Council for the National Industry Standards for Homeownership Education and Counseling.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Mediation Checklist.</text>
+      <para>
+        <num>(1)</num>
+        <text>The mediation checklist required by <cite doc="Md. Code" path="grp|7-105">Real Property Article, §7-105</cite>.1(d)(10), Annotated Code of Maryland, to be used in a prefile mediation shall be in a form substantially similar to that in Appendix OAH-3 of this regulation and may, as applicable, include Appendix OAH-5 or Appendix OAH-6 of this regulation.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The mediation checklist required by <cite doc="Md. Code" path="grp|7-105">Real Property Article, §7-105</cite>.1(l), Annotated Code of Maryland, to be used in a postfile mediation shall be in a form substantially similar to that in Appendix OAH-4 of this regulation.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Designee Language. Each mediation agreement resulting from prefile mediation shall include the following statements in 14 point, bold type:</text>
+      <text>[Name of borrower] is not entitled to postfile mediation unless otherwise agreed in this agreement.</text>
+      <text>[Name of borrower] may call [Insert name and address of designee] to report a change of financial circumstances that could affect [name of borrower's] ability to carry out the terms of this agreement.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Appearance.</text>
+      <para>
+        <num>(1)</num>
+        <text>At a scheduled foreclosure mediation, the secured party, or a representative of the secured party, shall be present in person or by telephonic means for the entirety of the foreclosure mediation in accordance with <cite path="28.02.01.20|B.">COMAR 28.02.01.20B</cite>.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If the secured party, or a representative of the secured party, fails to appear for the entirety of the foreclosure mediation, then the secured party shall be deemed to have failed to appear pursuant to <cite path="28.02.01.23">COMAR 28.02.01.23</cite>.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>In the case of postfile mediation, if the mediator determines that a party fails to appear at a scheduled foreclosure mediation, then the mediator shall file a notice with the appropriate circuit court stating such a finding.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>If the secured party, itself or through a representative of the secured party, is found by the mediator to have failed to appear at a scheduled foreclosure mediation, then the secured party may not schedule a foreclosure sale until:</text>
+        <para>
+          <num>(a)</num>
+          <text>The secured party, or a representative of the secured party, appears and participates in a foreclosure mediation;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The borrower withdraws the borrowers’ request to participate in the foreclosure mediation; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The foreclosure action has been dismissed and a new foreclosure action is filed in full compliance with State law and this chapter.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Mediation Documents and Information.</text>
+      <para>
+        <num>(1)</num>
+        <text>The Commissioner may allow the submission of information and documents required for the foreclosure mediation under this regulation by an electronic method.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Documents and information provided by one party to another and to the Office of Administrative Hearing as provided for in this regulation, shall be furnished timely and in an accessible and legible format.</text>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Postfile Mediation Agreement Terms. If the postfile mediation results in an agreement, including a conditional agreement, the Office of Administrative Hearings shall draft the postfile mediation agreement term sheet during the mediation session, and, at the conclusion of a postfile mediation session, the mediator and each party shall sign the term sheet.</text>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>Mediation Outcome.</text>
+      <para>
+        <num>(1)</num>
+        <text>Pursuant to the time frame provided for in <cite doc="Md. Code" path="grp|7-105">Real Property Article, §7-105</cite>.1(l)(4), Annotated Code of Maryland, the Office of Administrative Hearings shall file a report with the court that states the outcome of the request for foreclosure mediation that will include:</text>
+        <para>
+          <num>(a)</num>
+          <text>A statement as to whether the postfile mediation was held and, if not, the reasons why it was not held;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>If applicable, a copy of the mediation checklist as provided for in this regulation; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>If applicable, the documented postfile mediation agreement term sheet provided for in <cite path="09|03|12|.09|G.">§G of this regulation</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Office of Administrative Hearings shall furnish a copy of the report provided for in <cite doc="Md. Code" path="grp|7-105">Real Property Article, §7-105</cite>.1(l)(4), Annotated Code of Maryland, as described in this section, to each party that appears at the mediation.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The contents of the report filed by the Office of Administrative Hearings pursuant to <cite doc="Md. Code" path="grp|7-105">Real Property Article, §7-105</cite>.1(l)(4), Annotated Code of Maryland, shall be privileged<strong>.</strong></text>
+        <text>SEE FORMS AT END OF CHAPTER.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.10</num>
+    <heading>Addressed Envelope.</heading>
+    <para>
+      <num>A.</num>
+      <text>The following addressed envelopes are required by this chapter and shall be in the form and include the information set forth in this regulation.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Required Addressed Envelopes.</text>
+      <para>
+        <num>(1)</num>
+        <text>An addressed envelope accompanying the Notice of Intent to Foreclose shall be directed to the person responsible for conducting loss mitigation analysis on behalf of the secured party (the person may be an individual, a group of individuals, or a department such as a “loss mitigation department”).</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An addressed envelope accompanying the Preliminary Loss Mitigation Affidavit (if applicable) shall be directed to the foreclosure attorney handling the foreclosure on behalf of the secured party.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The two addressed envelopes accompanying the Final Loss Mitigation Affidavit shall include:</text>
+        <para>
+          <num>(a)</num>
+          <text>In the case of the addressed envelope to be mailed to the clerk of the court with a request for postfile mediation:</text>
+          <para>
+            <num>(i)</num>
+            <text>The address of the Clerk of the Court; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The words “Request for Foreclosure Mediation” on the face of the addressed envelope in at least 14-point bold type; and</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>For the addressed envelope to be mailed to the foreclosure attorney in connection with a request for postfile mediation, the address of the foreclosure attorney handling the foreclosure on behalf of the secured party.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A copy of any addressed envelope described in this regulation need not be filed with the Clerk of the Court.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>A secured party or representative of a secured party may include with Appendix A-1 addressed envelopes for any necessary notices or mailings by the borrower<strong>.</strong></text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.11</num>
+    <heading>Time.</heading>
+    <text>In computing any period of time prescribed by this chapter, Maryland Rule 1-203 shall apply.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.12</num>
+    <heading>Filing of Duplicate Forms.</heading>
+    <text>Any affidavit, application, or other form submitted to a circuit court as required by this chapter may be a duplicate of the original affidavit, application, or other form.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.13</num>
+    <heading>Challenges to Certificates of Vacancy or Certificates of Unfitness for Human Habitation.</heading>
+    <para>
+      <num>A.</num>
+      <text>A form substantially similar to that in Appendix J of this regulation shall be used to comply with the requirement to provide a description of the procedure to challenge a certificate of vacancy or certificate of property unfit for human habitation when accompanying an order to docket or complaint to foreclose based on a certificate of vacancy or a certificate of property unfit for human habitation pursuant to <cite doc="Md. Code" path="grp|7-105">Real Property Article, §7-105</cite>.13, Annotated Code of Maryland.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A form substantially similar to that in Appendix K of this regulation shall be used to comply with the requirement to provide the form to be used to make a challenge to a certificate of vacancy or certificate of property unfit for human habitation when accompanying an order to docket or complaint to foreclose based on a certificate of vacancy or a certificate of property unfit for human habitation pursuant to <cite doc="Md. Code" path="grp|7-105">Real Property Article, §7-105</cite>.13, Annotated Code of Maryland.</text>
+      <text>SEE FORMS AT END OF CHAPTER.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.14</num>
+    <heading>Enforcement.</heading>
+    <text>The Commissioner may enforce the provisions of this chapter by exercising any of the powers provided under Financial Institutions Article, §§<cite doc="Md. Code" path="gfi|2-114">2-114</cite>—<cite doc="Md. Code" path="gfi|2-116">2-116</cite>, Annotated Code of Maryland.</text>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container"><cite doc="Md. Code" path="gfi|2-105">Financial Institutions Article, §2-105</cite>.1; Real Property Article, §§<cite doc="Md. Code" path="grp|7-105">7-105</cite>.1, 7-105.13, 7-105.14, and 7-105.18, Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="2008-12-29">Effective date: December 29, 2008 (35:26 Md. R. 2248)</annotation>
+    <annotation type="History" dest="container" effective="2010-03-15"><cite path="|09|03|12|.01|B.">Regulation .01B</cite> amended effective March 15, 2010 (37:5 Md. R. 428)</annotation>
+    <annotation type="History" dest="container" effective="2010-03-15"><cite path="|09|03|12|.02|A.">Regulation .02A</cite> amended effective March 15, 2010 (37:5 Md. R. 428)</annotation>
+    <annotation type="History" dest="container" effective="2010-07-01" discontinuity="true">Chapter revised as an emergency provision effective July 1, 2010 (37:15 Md. R. 986); emergency provision extended to 6/24/2011 (38:2 Md. R. 79); emergency provision extended to 11/24/2011 (38:14 Md. R. 787)</annotation>
+    <annotation type="History" dest="container" effective="2010-11-26"><cite path="|09|03|12|.02|C.">Regulation .02C</cite> amended as an emergency provision effective November 26, 2010 (37:26 Md. R. 1784); emergency provision extended to 10/24/2011 (38:9 Md. R. 551); emergency provision expired</annotation>
+    <annotation type="History" dest="container" effective="2013-01-15" discontinuity="true">Regulations <cite path="|09|03|12|.01">.01</cite>—<cite path="|09|03|12|.03">.03</cite> repealed and new Regulations <cite path="|09|03|12|.01">.01</cite>—<cite path="|09|03|12|.12">.12</cite> adopted as an emergency provision effective October 25, 2011 (38:23 Md. R. 1416); emergency provision extended to July 30, 2012 (39:3 Md. R. 256); emergency provision extended to January 15, 2013 (39:15 Md. R. 961); emergency provision expired October 1, 2012 (39:21 Md. R. 1376)</annotation>
+    <annotation type="History" dest="container" effective="2013-01-07" discontinuity="true">Regulations <cite path="|09|03|12|.01">.01</cite>—<cite path="|09|03|12|.03">.03</cite> repealed and new Regulations <cite path="|09|03|12|.01">.01</cite>—<cite path="|09|03|12|.12">.12</cite> adopted as an emergency provision effective October 1, 2012 (39:21 Md. R. 1376); adopted permanently effective January 7, 2013 (39:26 Md. R. 1663)</annotation>
+    <annotation type="History" dest="container" effective="2017-11-06"><cite path="|09|03|12|.01|B.">Regulation .01B</cite> amended effective February 1, 2015 (41:25 Md. R. 1552); July 3, 2017 (44:13 Md. R. 621); November 6, 2017 (44:22 Md. R. 633)</annotation>
+    <annotation type="History" dest="container" effective="2017-07-03"><cite path="|09|03|12|.02|B.">Regulation .02B</cite> amended effective July 3, 2017 (44:13 Md. R. 621)</annotation>
+    <annotation type="History" dest="container" effective="2015-02-01"><cite path="|09|03|12|.02|B.">Regulation .02B</cite>, D amended effective February 1, 2015 (41:25 Md. R. 1552)</annotation>
+    <annotation type="History" dest="container" effective="2017-11-06"><cite path="|09|03|12|.08|E.">Regulation .08E</cite> adopted effective November 6, 2017 (44:22 Md. R. 1037)</annotation>
+    <annotation type="History" dest="container" effective="2016-07-01"><cite path="|09|03|12|.09|E.">Regulation .09E</cite> amended effective July 1, 2016 (43:11 Md. R. 633)</annotation>
+    <annotation type="History" dest="container" effective="2023-03-01" discontinuity="true">Chapter revised effective March 1, 2023 (49:26 Md. R. 1078)</annotation>
+  </annotations>
+</container>

@@ -1,0 +1,644 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>25</num>
+  <heading>Critical Medical Needs Program</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Purpose and Scope.</heading>
+    <text>The purpose of the Critical Medical Needs Program is to:</text>
+    <para>
+      <num>A.</num>
+      <text>Reduce the barriers to the energy assistance application process for critical medically vulnerable individuals and their households in obtaining State and federal financial assistance for their electric, gas, or other energy source bills;</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Make referrals, as necessary, to other agencies and organizations when additional resources are necessary for the continuation or restoration of energy service; and</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Make referrals to the Department of Housing and Community Development for energy efficiency programs, and heating and cooling system repair or replacement programs.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>“Administration” means the Family Investment Administration of the Department of Human Services.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>“Applicant” means an electric, gas, or other energy source service customer for whom assistance is being requested.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>“Arrearage” means the amount of money owed by an electric, gas, or other energy source service customer to a fuel vendor or a utility vendor which is 21 days or more past due.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>“Assisted living facility” means an institution or facility that admits elderly or disabled individuals who cannot manage activities of daily living, and provides a protective institutional or home-type environment for a fee.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>“Benefit” means cash assistance or other service that is provided on behalf of an eligible applicant.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>“CMN Program” means the Critical Medical Needs Program established under <cite doc="Md. Code" path="ghu|5-5">Human Services Article, §5-5</cite>A-08, Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>“Critical medically vulnerable individual” means an individual who:</text>
+        <para>
+          <num>(a)</num>
+          <text>Has a severe health condition that will be aggravated due to the termination or noncontinuation of electric, gas, or other energy source services or needs the use of life-support equipment as documented and certified in accordance with <cite path="20.31.03.01">COMAR 20.31.03.01</cite> on a certification of serious illness or life support form submitted to the appropriate fuel vendor or utility vendor;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Has or will have their electric, gas, or other energy source services terminated for nonpayment; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Is unable to complete the energy assistance applications under available energy assistance programs, including energy efficiency programs offered by the Department of Housing and Community Development.</text>
+        </para>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>“Department” means the Maryland Department of Human Services.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>“Energy emergency” means a lack of fuel or the imminent discontinuation of energy services supplied by a fuel vendor or utility vendor that will endanger health, safety, or welfare.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>“Fuel vendor” means a person that distributes, transports, produces, or offers for sale coal products, fuel oil, kerosene, bottled gas, propane, or wood for fuel use or consumption in the State.</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>“Household” means an individual or group of individuals who are living together as one unit and for whom residential electric, gas, or other energy source service or other home energy is purchased in common.</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>“Income” means gross income.</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>“Life-support equipment” means any electric, gas, or other energy source-using device certified by a licensed physician, certified nurse practitioner, or physician assistant as being essential to prevent, or to provide relief from, a serious illness or to sustain the life of the customer or an occupant of the premises where the applicant resides.</text>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>“Navigator” means a representative from a medical facility or from a public or private assistance agency or organization who:</text>
+        <para>
+          <num>(a)</num>
+          <text>Has completed training provided by the Office;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Has signed a Confidentiality Certification Form;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Is in personal contact with a critical medically vulnerable individual; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Assists the critical medically vulnerable individual in the energy application process.</text>
+        </para>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>“Office” means the Office of Home Energy Programs.</text>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>“Program year” means July 1 through June 30.</text>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>“Recipient” means an applicant whom the Office has approved for CMN Program benefits.</text>
+      </para>
+      <para>
+        <num>(18)</num>
+        <text>“Termination notice” means a notification from a fuel vendor or utility vendor that includes, at a minimum, the following:</text>
+        <para>
+          <num>(a)</num>
+          <text>The name and account number of the customer whose electric, gas, or other energy source service is to be terminated;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The address of the premises where service is to be terminated;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A statement of the reasons for the proposed termination;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>The date on or after which the proposed termination will occur;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>The charges for reconnection of service, if any; and</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>A statement of the total amount due, if applicable.</text>
+        </para>
+      </para>
+      <para>
+        <num>(19)</num>
+        <text>“Utility vendor” means a person that distributes, transports, or produces natural gas or electricity for use or consumption in the State.</text>
+      </para>
+      <para>
+        <num>(20)</num>
+        <text>“Verification” means documentation or proof of accuracy of statements made by the applicant.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Eligibility for Assistance.</heading>
+    <text>An applicant is eligible for service under the CMN Program if the applicant:</text>
+    <para>
+      <num>A.</num>
+      <text>Is an electric, gas, or other energy source customer;</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Resides in Maryland;</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Has total household countable income as described in <cite path="07.03.22.04">COMAR 07.03.22.04</cite> which does not exceed 175 percent of the federal poverty level;</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Is a:</text>
+      <para>
+        <num>(1)</num>
+        <text>U.S. citizen;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Legal immigrant admitted for permanent residence or otherwise legally residing in the United States; or</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Qualified alien; and</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Is a critical medically vulnerable individual who is receiving assistance from a navigator.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Application Process.</heading>
+    <para>
+      <num>A.</num>
+      <text>A navigator shall submit a complete application to the Office via email or fax.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A complete CMN Program application shall include:</text>
+      <para>
+        <num>(1)</num>
+        <text>A completed application form provided by the Office that is signed and dated by a navigator or the applicant;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A completed certification of serious illness or need for life support equipment form that shall include, at a minimum, the following:</text>
+        <para>
+          <num>(a)</num>
+          <text>A certification of a serious illness or the need for life-support equipment made by:</text>
+          <para>
+            <num>(i)</num>
+            <text>A licensed physician; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>A certified nurse practitioner;</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The name and address of the seriously ill person;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A statement that the seriously ill person or person in need of life-support equipment is the applicant or an occupant of the premises in which the applicant resides;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>The name, address, telephone number, physician or certified nurse practitioner license number, and signature of the certifying physician or certified nurse practitioner; and</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>A statement that termination of electric, gas, or other energy source service will aggravate a serious illness or prevent the use of life-support equipment;</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A completed application form as defined in <cite path="07.03.22.05">COMAR 07.03.22.05</cite>; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>A termination notice issued by a fuel vendor or utility vendor.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="07|03|25|.05">
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Office Response to Application.</heading>
+    <para>
+      <num>A.</num>
+      <text>Upon receipt of the application from a navigator, the Office shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Record the date the application was received by the Office;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Assess the application for completeness; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Contact the fuel vendor or utility vendor to place any protections on the account for which the applicant is eligible to prevent termination of service.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The date of application is the date the complete and signed application was submitted by the navigator.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Incomplete Application.</text>
+      <para>
+        <num>(1)</num>
+        <text>If the application is incomplete, the Office shall, by the close of business on the next business day following the date of application, notify the navigator and applicant of all missing information and request such missing information be submitted to the Office within 10 calendar days from the date of the notification.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Office shall provide notification of an incomplete application:</text>
+        <para>
+          <num>(a)</num>
+          <text>To the navigator by email or facsimile; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>To the applicant by first-class mail, postage prepaid.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If the navigator or applicant does not provide the requested information to the Office within 10 calendar days from the date of the notification, the Office shall deny the application.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Decision on Application.</text>
+      <para>
+        <num>(1)</num>
+        <text>The Office shall, within 10 calendar days of receipt of a completed application, approve or deny the application.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Denied Application. The Office shall deny the application for benefits if:</text>
+        <para>
+          <num>(a)</num>
+          <text>The applicant’s household countable income exceeds 175 percent of the federal poverty level;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The applicant has failed to submit a complete application pursuant to <cite path="07|03|25|.05|C.">§C of this regulation</cite>;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The applicant dies while the application is being processed;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>The applicant establishes residency outside Maryland while the application is being processed;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>The applicant does not meet the eligibility criteria as prescribed in <cite path="|07|03|25|.03">Regulation .03 of this chapter</cite>;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>The applicant abandons the applicant’s residence;</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>The applicant withdraws the application for assistance;</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>The information supplied at application was incorrect and the household was originally ineligible; or</text>
+        </para>
+        <para>
+          <num>(i)</num>
+          <text>The applicant resides in an assisted living facility.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Approved Application.</text>
+        <para>
+          <num>(a)</num>
+          <text>The Office shall notify the recipient and navigator of the approval within 2 business days after sending benefits to the applicant’s fuel vendor or utility vendor.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The Office shall provide notification of an approved application:</text>
+          <para>
+            <num>(i)</num>
+            <text>To the navigator by email or facsimile; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>To the applicant by first-class mail, postage prepaid.</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The written notice of the Office’s approval decision shall include:</text>
+          <para>
+            <num>(i)</num>
+            <text>The amount or description of benefits approved on behalf of the recipient’s household;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The duration of the benefits;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>The name of the fuel vendor or utility vendor to which the benefits are paid;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>An explanation of the recipient’s right to appeal any part of the Office’s decision and the method for requesting an administrative hearing set forth in <cite path="|07|03|25|.10">Regulation .10 of this chapter</cite>; and</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>the date by which the Office must receive the applicant’s administrative hearing request.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Delaying Benefits. The Office may delay the delivery of energy benefits when:</text>
+        <para>
+          <num>(a)</num>
+          <text>The recipient moves to another residence and cannot be serviced by the household’s originally designated fuel vendor or utility vendor;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The Office has reason to believe the recipient or navigator provided incorrect information on the application; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The  recipient or navigator fails to notify the Office of a new address and the Office cannot contact the recipient.</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The Office shall mail notification to the applicant of the decision to deny the application within 2 business days of the decision. The written notice shall include:</text>
+        <para>
+          <num>(a)</num>
+          <text>The reason for the denial;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The COMAR citation of the regulation supporting the decision to deny the application;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>An explanation of the applicant’s right to appeal the decision and the method for requesting an administrative hearing set forth in <cite path="|07|03|25|.10">Regulation .10 of this chapter</cite>; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>The date by which the Office must receive the applicant’s administrative hearing request.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Change of Residence.</heading>
+    <text>If an applicant or recipient changes residence from the residence listed on an applicant’s or recipient’s original application for assistance, the applicant, recipient, or navigator shall:</text>
+    <para>
+      <num>A.</num>
+      <text>Immediately notify the Office of the applicant’s or recipient’s current residence; and</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Immediately notify the Office of the fuel vendor and utility vendor servicing the applicant’s or recipient’s current residence if the fuel vendor and utility vendor is different from the fuel vendor or utility vendor servicing the residence listed on the applicant’s or recipient’s original application.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Termination of Benefits.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Office shall terminate a recipient’s benefits and notify the fuel vendor or utility vendor to return the recipient’s unused benefits to the Office when the recipient:</text>
+      <para>
+        <num>(1)</num>
+        <text>Moves to a residence outside Maryland;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Moves to an area outside the recipient’s fuel vendor’s or utility vendor’s service area and fails to report the new address to the Office;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Is no longer an electric, gas, or other energy source customer;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Submits an application for an individual who has died;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Abandons the residence;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Informs the Office that the benefit is not wanted;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Moves to an assisted living facility;</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Is incarcerated; or</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>Supplies incorrect information at application which would have rendered the recipient ineligible.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>When the Office determines that termination of the benefit is required, the Office shall notify the recipient in writing. The written notice shall include:</text>
+      <para>
+        <num>(1)</num>
+        <text>The reason for termination;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The COMAR citation of the regulation supporting the decision to terminate the benefit;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>An explanation of the recipient’s right to appeal the decision and the method for requesting an administrative hearing set forth in <cite path="|07|03|25|.10">Regulation .10 of this chapter</cite>; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The date by which the Office must receive the recipient’s administrative hearing request.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Arrearage Retirement.</heading>
+    <para>
+      <num>A.</num>
+      <text>Subject to Regulations <cite path="|07|03|25|.03">.03</cite>—<cite path="|07|03|25|.05">.05</cite> of this chapter and the availability of funds, the Office may issue benefits for arrearage retirement to an electric and/or gas company in an applicant’s service area on behalf of an eligible applicant who owes an outstanding arrearage to the electric and/or gas company for service.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Arrearage retirement benefits:</text>
+      <para>
+        <num>(1)</num>
+        <text>Are available once every 7 years for past due bills greater than $300 and up to $2,000;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Shall be issued to assist an eligible electric and/or gas customer maintain or reestablish electric and/or gas service; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Are limited to arrearages owed to the applicant’s electric and/or gas company for service arrearages the applicant incurred, prior to the current monthly bill and which had been verified by the applicant’s electric and/or gas company during the application process.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The Office will grant waivers to allow households with a household member who is at least 65 years of age, under the age of 2, and/or medically fragile who received $800 or less within the previous 7 years to apply for additional arrearage funds, not to exceed the maximum allowable arrearage amount of $2,000.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The Office shall allow the applicant or navigator to review arrearage information provided by the applicant’s electric company during the application process.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Delivery of Arrearage Retirement Benefits. The Office shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Issue the arrearage retirement benefits within the minimum and the maximum amount; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Make a benefit payment on behalf of the applicant.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Amount of Benefits. Benefit levels for arrearage retirement shall be based on the applicant’s arrearage balance with a minimum and maximum amount, subject to §§A—E of this regulation, verified by the applicant’s electric and/or gas company.</text>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Disputes Regarding Arrearage Data.</text>
+      <para>
+        <num>(1)</num>
+        <text>The local agency shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Forward an applicant dispute regarding arrearage data supplied by the applicant’s electric and/or gas company to the Public Service Commission for resolution; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Continue the application and payment process pending the Public Service Commission’s notification of the dispute resolution.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>In disputed cases, the payment amount the local agency makes for the applicant’s arrearage retirement shall be the amount specified by the applicant’s electric company.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Following resolution of the dispute, the applicant’s electric and/or gas company shall refund to the local agency benefits received on behalf of the applicant in excess of the amount the Public Service Commission determines to be correct.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Recovery of Benefits.</heading>
+    <para>
+      <num>A.</num>
+      <text>A recipient is liable for all payments made on the recipient’s behalf in excess of the maximum allowable benefit.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The Office shall require the recipient’s fuel vendor and utility vendor to return the amount of an overpayment from any unused benefit to the Office.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>In the event a fuel vendor or utility vendor cannot apply a benefit to a recipient’s active account, the fuel vendor or utility vendor shall return to the Office any unused benefit.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.10</num>
+    <heading>Fair Hearing Process.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Office shall give written notification of the right to and the procedures for requesting and obtaining a fair hearing to each applicant or recipient whenever the Office notifies the applicant or recipient of any action which might deny, delay, suspend, reduce, or terminate assistance.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The appeal procedures are set forth in <cite path="07.01.04.03|H.">COMAR 07.01.04.03H</cite>.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.11</num>
+    <heading>Delivery of Benefits.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Office shall commit to delivery of the benefit by the close of the business day the application for benefits is approved.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>If the benefits administered by the Office are insufficient to provide for continuation or restoration of services to a recipient, the Office, by the close of the business day following the day the recipient’s application is approved by the Office to receive such benefits, shall refer the recipient to other entities that may be able to provide benefits.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The delivery of benefits shall otherwise be subject to <cite path="07.03.21.07">COMAR 07.03.21.07</cite> and <cite path="07.03.22.07">COMAR 07.03.22.07</cite>.</text>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Human Services Article, §§<cite doc="Md. Code" path="ghu|5-5">5-5</cite>A-<cite doc="Md. Code" path="ghu|07">07</cite>, <cite doc="Md. Code" path="ghu|5-5">5-5</cite>A-<cite doc="Md. Code" path="ghu|08">08</cite>, and <cite doc="Md. Code" path="ghu|5-608">5-608</cite>, Annotated Code of Maryland<br/>(Agency Note: Federal Regulatory Reference — 45 CFR 96, Subpart H)</annotation>
+    <annotation type="History" dest="container" effective="2020-07-16">Effective date: July 16, 2020 (47:14 Md. R. 674)</annotation>
+  </annotations>
+</container>

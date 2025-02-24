@@ -1,0 +1,466 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>96</num>
+  <heading>Remote Patient Monitoring</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Purpose and Scope.</heading>
+    <para>
+      <num>A.</num>
+      <text>This chapter applies to remote patient monitoring services reimbursed by the Maryland Medical Assistance Program effective January 1, 2018.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The purpose of providing medically necessary services via remote patient monitoring is to assist participants in managing and controlling their chronic conditions in order to reduce readmissions and emergency department visits and to improve quality of care</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The target populations are high-risk Maryland Medical Assistance Program participants with a chronic disease capable of monitoring via remote patient monitoring.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>"Certified nurse midwife” means an individual who meets the licensure and conditions of participation for certified nurse midwives set forth in <cite path="|10.09.01">COMAR 10.09.01</cite>.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>“Certified nurse practitioner” means an individual who meets the licensure and conditions of participation for certified nurse practitioners set forth in <cite path="|10.09.01">COMAR 10.09.01</cite>.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>“Department” means the Maryland Department of Health, which is the single State agency designated to administer the</text>
+        <text>remote patient monitoring program.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>"Episode" means the span of treatment during which remote patient monitoring services are rendered to eligible participants.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>"Home" means the place of residence occupied by the participant, other than a hospital, nursing facility, or other medical or psychiatric institution.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>“Home health agency" means a public or private agency or organization that meets the licensure requirements and conditions of participation of <cite path="|10.09.04">COMAR 10.09.04</cite>.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>"Maryland Medical Assistance Program" means the program of comprehensive medical, behavioral, and other health-related care for indigent and medically indigent individuals, jointly financed by the federal and state governments and administered by states under Title XIX of the Social Security Act, 42 U.S.C. §1396 et seq., as amended.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>"Medically necessary" means that the service or benefit is:</text>
+        <para>
+          <num>(a)</num>
+          <text>Directly related to diagnostic, preventive, curative, palliative, rehabilitative, or ameliorative treatment of an illness, injury, disability, or health condition;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Consistent with currently accepted standards of good medical practice;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The most cost-efficient service that can be provided without sacrificing effectiveness or access to care; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Not primarily for the convenience of the consumer, family, or provider.</text>
+        </para>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>"Participant" means an individual who is certified as eligible for, and is receiving, Medical Assistance benefits.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>"Physician" means an individual who meets the licensure requirements and conditions of participation of <cite path="|10.09.02">COMAR 10.09.02</cite>.</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>"Physician assistant" means an individual who meets the licensure requirements and conditions of participation set forth in <cite path="|10.09.55">COMAR 10.09.55</cite>.</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>"Program" means the Maryland Medical Assistance Program.</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>"Provider" means an individual or an organization who:</text>
+        <para>
+          <num>(a)</num>
+          <text>Meets the requirements of Regulations .03 and .04 of this chapter; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Through an appropriate agreement with the Department, has been identified as a Program provider by the issuance of a unique provider number.</text>
+        </para>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>“Remote patient monitoring” means the use of synchronous or asynchronous digital technologies that collect or monitor medical, patient-reported, and other forms of health care data for Program participants at an originating site and electronically transmit that data to a distant site provider to enable the distant site provider to assess, diagnose, consult, treat, educate, provide care management, suggest self-management, or make recommendations regarding the Program participant’s health care.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>License Requirements.</heading>
+    <para>
+      <num>A.</num>
+      <text>The provider shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Meet all license requirements as set forth in <cite path="10.09.36.02">COMAR 10.09.36.02</cite>; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Be licensed in the state in which the participant resides.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A home health agency shall be:</text>
+      <para>
+        <num>(1)</num>
+        <text>Licensed pursuant to Health-General Article, §§19-401—19-408, Annotated Code of Maryland;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Part of a hospital or related institution licensed pursuant to Health-General Article, §§19-301—19-359, Annotated Code of Maryland; or</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Legally authorized to provide home health services in the jurisdiction in which the service is provided.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A doctor of medicine or osteopathy shall be licensed and legally authorized to practice medicine and surgery in the state in which the service is provided.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>A certified nurse practitioner shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Hold a current license to practice registered nursing in Maryland, and be certified as a nurse practitioner by the Nursing Board; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Meet the nurse practitioner regulatory requirements of the state in which the services are provided.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>A physician assistant applying for provider status shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Be licensed to practice as a physician assistant in Maryland or in the state or jurisdiction in which the service is provided;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Be in compliance with requirements set forth in <cite path="|10.32.03">COMAR 10.32.03</cite>;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If practicing in Maryland, have a delegation agreement with a supervising physician that outlines the physician assistant’s duties within the medical practice or facility which has been filed with and approved by the Board of Physicians; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>If practicing in Maryland, have a delegation agreement with a supervising physician that documents the specialized training, education, and experience of the physician assistant for performing advanced duties.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Provider Conditions for Participation.</heading>
+    <para>
+      <num>A.</num>
+      <text>To provide remote patient monitoring, the provider shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Be enrolled with an active status as a Maryland Medical Assistance Program provider on the date the service is rendered;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Be a:</text>
+        <para>
+          <num>(a)</num>
+          <text>Physician;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Physician assistant;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Certified nurse practitioner; or</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Home health agency when remote patient monitoring services are prescribed by a physician; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Meet the requirements for participation in the Medical Assistance Program as set forth in <cite path="10.09.36.03">COMAR 10.09.36.03</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Medical Record Documentation. A remote patient monitoring provider shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Maintain documentation using either electronic or paper medical records;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Retain remote patient monitoring records according to the provisions of Health-General Article, §4-403, Annotated Code of Maryland;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Submit the preauthorization on a form developed by the Department; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Include the participant’s consent to participate in remote patient monitoring.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Remote patient monitoring is not a substitute for delivery of care. Provider shall see patients in person periodically for follow-up care.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Participant Eligibility for Services.</heading>
+    <text>A participant is eligible to receive remote patient monitoring services if:</text>
+    <para>
+      <num>A.</num>
+      <text>The participant is enrolled in the Maryland Medical Assistance Program on the date the service is rendered;</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The participant consents to remote patient monitoring services and has the capability to utilize the monitoring tools and take actions to improve self-management of the chronic disease;</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The participant has the internet connections necessary to host the equipment in the home;</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The participant is at risk for avoidable hospital utilization due to a poorly controlled chronic disease capable of being monitored via remote patient monitoring; and</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>The provision of remote patient monitoring may reduce the risk of preventable hospital utilization and promote improvement in control of the chronic condition</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Covered Services.</heading>
+    <para>
+      <num>A.</num>
+      <text>Remote patient monitoring services include:</text>
+      <para>
+        <num>(1)</num>
+        <text>Installation;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Education for the participant in the use of the equipment; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Daily monitoring of vital signs and other medical statistics.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The remote patient monitoring provider shall establish an intervention process to address abnormal data measurements in an effort to prevent avoidable hospital utilization.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Physician, nurse practitioner, and physician assistant providers who establish remote patient monitoring programs shall be responsible for:</text>
+      <para>
+        <num>(1)</num>
+        <text>Establishing criteria for reporting abnormal measurements;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Informing the participant of abnormal results; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Monitoring results and improvements in patient’s ability to self-manage chronic conditions.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Medical interventions by a physician, nurse practitioner, or physician assistant based on abnormal results shall be reimbursed according to <cite path="10.09.02.07">COMAR 10.09.02.07</cite>.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>A home health agency shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Have an order by a physician, physician assistant, certified nurse midwife, or certified nurse practitioner who has examined the patient and with whom the patient has an established, documented and ongoing relationship;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Report abnormal measurements to the participant and to the ordering provider; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Send the ordering provider a weekly summary of monitoring results, including improvement in patient’s ability to self-manage chronic conditions.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Limitations.</heading>
+    <para>
+      <num>A.</num>
+      <text>Remote patient monitoring services are only covered for participants who meet the eligibility criteria specified in <cite path="|10|09|96|.05">Regulation .05 of this chapter</cite>.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The Program does not cover:</text>
+      <para>
+        <num>(1)</num>
+        <text>Remote patient monitoring equipment;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Upgrades to remote patient monitoring equipment;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The internet connections necessary to transmit the results of remote patient monitoring services to the provider’s offices; or</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>More than:</text>
+        <para>
+          <num>(a)</num>
+          <text>2 months of remote patient monitoring services per episode; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Two episodes per year per participant.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Home health agencies may only be reimbursed for remote patient monitoring when the service is ordered by a physician.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Preauthorization Requirements.</heading>
+    <text>The Department may preauthorize services when the provider submits to the Department adequate documentation demonstrating the:</text>
+    <para>
+      <num>A.</num>
+      <text>Participant’s condition meets the criteria listed in <cite path="|10|09|96|.05">Regulation .05 of this chapter</cite>; and</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Participant has not already been preauthorized for two episodes during the past rolling calendar year.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Payment Methodology.</heading>
+    <para>
+      <num>A.</num>
+      <text>After providing the services outlined in <cite path="|10|09|96|.06">Regulation .06 of this chapter</cite>, the remote patient monitoring provider shall submit the request for payment using the format designated by the Department.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Home health agencies shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Bill on a UB04; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Be paid a monthly rate.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Physicians, nurse practitioners, and physician assistants who provide remote patient monitoring shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Bill using a CMS 1500 or an 837P; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Be paid a monthly rate.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Professionals following up on abnormal results from remote patient monitoring shall be paid the lesser of:</text>
+      <para>
+        <num>(1)</num>
+        <text>Provider’s customary charge unless the service is free to individuals not covered by Medicaid; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Department’s professional fee schedule as found in <cite path="10.09.02.07">COMAR 10.09.02.07</cite>.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.10</num>
+    <heading>Recovery and Reimbursement.</heading>
+    <text>Recovery and reimbursement shall be in accordance with <cite path="10.09.36.07">COMAR 10.09.36.07</cite>.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.11</num>
+    <heading>Cause for Suspension or Removal and Imposition of Sanctions.</heading>
+    <text>Cause for suspension or removal and imposition of sanctions shall be in accordance with <cite path="10.09.36.08">COMAR 10.09.36.08</cite>.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.12</num>
+    <heading>Appeal Procedures.</heading>
+    <text>Providers filing appeals from administrative decisions made in connection with these regulations shall do so in accordance with <cite path="10.09.36.09">COMAR 10.09.36.09</cite>.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.13</num>
+    <heading>Interpretive Regulation.</heading>
+    <text>Except when the language of a specific regulation indicates an intent by the Department to provide reimbursement for covered services to Program recipients without regard to the availability of federal financial participation, State regulations shall be interpreted in conformity with applicable federal statutes and regulations.</text>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Health-General Article, §15-103(b), Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="2018-01-01">Effective date: January 1, 2018 (44:26 Md. R. 1215)</annotation>
+    <annotation type="History" dest="container" effective="2023-07-24"><cite path="|10|09|96|.01|C.">Regulation .01C</cite> amended effective July 24, 2023 (50:14 Md. R. 593)</annotation>
+    <annotation type="History" dest="container" effective="2023-07-24"><cite path="|10|09|96|.02|B.">Regulation .02B</cite> amended effective July 24, 2023 (50:14 Md. R. 593)</annotation>
+    <annotation type="History" dest="container" effective="2023-07-24"><cite path="|10|09|96|.05">Regulation .05</cite> amended effective July 24, 2023 (50:14 Md. R. 593)</annotation>
+    <annotation type="History" dest="container" effective="2023-07-24"><cite path="|10|09|96|.06|E.">Regulation .06E</cite> amended effective July 24, 2023 (50:14 Md. R. 593)</annotation>
+  </annotations>
+</container>

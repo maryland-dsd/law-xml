@@ -1,0 +1,503 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>45</num>
+  <heading>Dental Network Adequacy</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Scope.</heading>
+    <text>This chapter applies to carriers that issue or renew dental plans in Maryland and use a provider panel for a dental plan offered in Maryland.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>“Carrier” means:</text>
+        <para>
+          <num>(a)</num>
+          <text>An insurer authorized to sell dental insurance;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A nonprofit health service plan that provides coverage for dental services; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A dental plan organization as defined in <cite doc="Md. Code" path="gin|14-401">Insurance Article, §14-401, Annotated Code of Maryland</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>“Dental plan” means a contractual arrangement for dental services.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>“Dental network adequacy waiver request” means a written request from a carrier to the Commissioner in which the carrier seeks the Commissioner’s approval to be relieved of certain dental network adequacy standards in this chapter for 1 year.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>“Dental service” has the meaning stated in <cite doc="Md. Code" path="gin|14-401">Insurance Article, §14-401, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>“Dentist” has the meaning stated in <cite doc="Md. Code" path="gho|4-101">Health Occupations Article §4-101, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>“Enrollee” means a person entitled to dental benefits from a carrier.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Essential Community Provider.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Essential community provider” means a provider that serves predominantly low-income or dentally underserved individuals.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Essential community provider” includes local health departments.</text>
+        </para>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Network.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Network” means a carrier’s participating providers with which a carrier contracts to provide dental services to the carrier’s enrollees under the carrier’s dental plan.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Network” includes, if a carrier uses a provider panel developed by a subcontracting entity, providers that contract with the subcontracting entity to provide dental services to the carrier’s enrollees under the carrier’s dental plan.</text>
+        </para>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>“Participating provider” means a provider on a carrier’s provider panel.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>“Provider” means:</text>
+        <para>
+          <num>(a)</num>
+          <text>A dentist;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A group of dentists; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A facility where dentists provide dental services.</text>
+        </para>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>Provider Panel.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Provider panel” means the providers who participate in a carrier’s network.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Provider panel” does not include an arrangement in which any provider may participate solely by contracting with the carrier to provide dental services at a discounted fee-for-service rate.</text>
+        </para>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>“Rural area” means a list of zip codes provided on the Maryland Insurance Administration’s website, with a human population of less than 1,000 per square mile according to the Maryland Department of Planning.</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>“Specialty provider” means a dentist who focuses on a specific area of dental care for a group of patients and is identified as a specialist by the Maryland State Board of Dental Examiners.</text>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>“Suburban area” means a list of zip codes provided on the Maryland Insurance Administration’s website, with a human population equal to or more than 1,000 per square mile, but less than 3,000 per square mile according to the Maryland Department of Planning.</text>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>Telehealth.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Telehealth” means, as it relates to the delivery of dental services, the use of interactive audio, video, or other telecommunications or electronic technology by a provider to deliver a dental service within the scope of practice of the provider at a location other than the location of the patient.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Telehealth” does not include:</text>
+          <para>
+            <num>(i)</num>
+            <text>An audio-only telephone conversation between a provider and a patient;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>An electronic mail message between a provider and a patient; or</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>A facsimile transmission between a provider and a patient.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>“Urban area” means a list of zip codes provided on the Maryland Insurance Administration’s website, with a human population equal to or greater than 3,000 per square mile according to the Maryland Department of Planning.</text>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>“Urgent care” means the treatment for a condition of an enrollee that satisfies either of the following:</text>
+        <para>
+          <num>(a)</num>
+          <text>A dental condition that, in the absence of dental services within 72 hours, could reasonably be expected by an individual, acting on behalf of a carrier and applying the judgment of a prudent layperson who possesses an average knowledge of health and medicine, would result in:</text>
+          <para>
+            <num>(i)</num>
+            <text>Placing the enrollee’s life or dental health in serious jeopardy;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The inability of the enrollee to regain maximum dental function;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Serious impairment to the enrollee’s dental function; or</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Serious dysfunction of any bodily organ or part of the enrollee; or</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A dental condition of an enrollee that, in the absence of dental services or treatment within 72 hours, would, in the opinion of a provider with knowledge of the enrollee’s condition, subject the enrollee to severe pain that cannot be adequately managed without the care or treatment.</text>
+        </para>
+      </para>
+      <para>
+        <num>(18)</num>
+        <text>“Waiting time” means the time from the initial request for dental services by an enrollee or by the enrollee’s treating provider to the earliest date offered for the appointment for services.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="31|10|45|.03">
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Travel Distance Standards.</heading>
+    <para>
+      <num>A.</num>
+      <text>Sufficiency Standards.</text>
+      <para>
+        <num>(1)</num>
+        <text>Using the zip code list on the Maryland Insurance Administration’s website, each provider panel of a carrier shall have within the geographic area served by the carrier’s network or networks, sufficient dentists, including specialty providers, and facilities to meet the maximum travel distance standards listed in the chart under <cite path="31|10|45|.03|A.|(2)">§A(2) of this regulation</cite> for each type of geographic area measured from the enrollee’s place of residence.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Chart of Travel Distance Standards.</text>
+        <text>
+          <table>
+            <tbody>
+              <tr>
+                <td proof="needed" data-vertical-align="middle"/>
+                <td data-text-align="center" data-vertical-align="middle">Urban Area<br/>Maximum <br/>Distance<br/> (miles)</td>
+                <td data-text-align="center" data-vertical-align="middle">Suburban Area<br/> Maximum <br/>Distance <br/>(miles)</td>
+                <td data-text-align="center" data-vertical-align="middle">Rural Area <br/>Maximum <br/>Distance <br/>(miles)</td>
+              </tr>
+              <tr>
+                <td data-vertical-align="middle">Provider type:</td>
+                <td proof="needed" data-text-align="center" data-vertical-align="middle"/>
+                <td proof="needed" data-text-align="center" data-vertical-align="middle"/>
+                <td proof="needed" data-text-align="center" data-vertical-align="middle"/>
+              </tr>
+              <tr>
+                <td data-vertical-align="middle">General dentist</td>
+                <td data-text-align="center" data-vertical-align="middle">15</td>
+                <td data-text-align="center" data-vertical-align="middle">30</td>
+                <td data-text-align="center" data-vertical-align="middle">60</td>
+              </tr>
+              <tr>
+                <td data-vertical-align="middle">Endodontic</td>
+                <td data-text-align="center" data-vertical-align="middle">30</td>
+                <td data-text-align="center" data-vertical-align="middle">45</td>
+                <td data-text-align="center" data-vertical-align="middle">75</td>
+              </tr>
+              <tr>
+                <td data-vertical-align="middle">Orthodontics and dentofacial orthopedics</td>
+                <td data-text-align="center" data-vertical-align="middle">30</td>
+                <td data-text-align="center" data-vertical-align="middle">45</td>
+                <td data-text-align="center" data-vertical-align="middle">75</td>
+              </tr>
+              <tr>
+                <td data-vertical-align="middle">Oral and maxillofacial pathology</td>
+                <td data-text-align="center" data-vertical-align="middle">30</td>
+                <td data-text-align="center" data-vertical-align="middle">45</td>
+                <td data-text-align="center" data-vertical-align="middle">75</td>
+              </tr>
+              <tr>
+                <td data-vertical-align="middle">Oral and maxillofacial radiology</td>
+                <td data-text-align="center" data-vertical-align="middle">30</td>
+                <td data-text-align="center" data-vertical-align="middle">45</td>
+                <td data-text-align="center" data-vertical-align="middle">75</td>
+              </tr>
+              <tr>
+                <td data-vertical-align="middle">Oral and maxillofacial surgery</td>
+                <td data-text-align="center" data-vertical-align="middle">30</td>
+                <td data-text-align="center" data-vertical-align="middle">45</td>
+                <td data-text-align="center" data-vertical-align="middle">75</td>
+              </tr>
+              <tr>
+                <td data-vertical-align="middle">Pediatric dentistry</td>
+                <td data-text-align="center" data-vertical-align="middle">30</td>
+                <td data-text-align="center" data-vertical-align="middle">45</td>
+                <td data-text-align="center" data-vertical-align="middle">75</td>
+              </tr>
+              <tr>
+                <td data-vertical-align="middle">Periodontic</td>
+                <td data-text-align="center" data-vertical-align="middle">30</td>
+                <td data-text-align="center" data-vertical-align="middle">45</td>
+                <td data-text-align="center" data-vertical-align="middle">75</td>
+              </tr>
+              <tr>
+                <td data-vertical-align="middle">Prosthodontics</td>
+                <td data-text-align="center" data-vertical-align="middle">30</td>
+                <td data-text-align="center" data-vertical-align="middle">45</td>
+                <td data-text-align="center" data-vertical-align="middle">75</td>
+              </tr>
+            </tbody>
+          </table>
+        </text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Each provider panel of a carrier shall include at least 20 percent of the available essential community providers who provide dental services in each of the urban, rural, and suburban areas.</text>
+    </para>
+  </section>
+  <section cache:ref-path="31|10|45|.04">
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Appointment Waiting Time Standards.</heading>
+    <para>
+      <num>A.</num>
+      <text>Sufficiency Standards.</text>
+      <para>
+        <num>(1)</num>
+        <text>Subject to <cite path="31|10|45|.04|B.">§B of this regulation</cite>, each carrier’s provider panel shall meet the waiting time standards listed in <cite path="31|10|45|.04|C.">§C of this regulation</cite> for at least 95 percent of the enrollees covered under dental plans that use that provider panel.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>When it is clinically appropriate and an enrollee elects to utilize a telehealth appointment, a carrier may consider that utilization as a part of its meeting the standards listed in <cite path="31|10|45|.04|C.">§C of this regulation</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Preventive care services and periodic follow-up care may be scheduled in advance consistent with professionally recognized dental standards of practice as determined by the treating provider acting within the scope of the provider’s license.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Chart of Waiting Time Standards.</text>
+      <text>
+        <table>
+          <tbody>
+            <tr>
+              <td colspan="2" data-vertical-align="middle">First Available Appointment Waiting Time Standards</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">Urgent care</td>
+              <td data-vertical-align="middle">3 calendar days</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">Routine dental services</td>
+              <td data-vertical-align="middle">45 calendar days</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">Non-urgent specialty care</td>
+              <td data-vertical-align="middle">60 calendar days</td>
+            </tr>
+          </tbody>
+        </table>
+      </text>
+    </para>
+  </section>
+  <section cache:ref-path="31|10|45|.05">
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Waiver Request Standards.</heading>
+    <para>
+      <num>A.</num>
+      <text>A carrier may apply for a dental network adequacy waiver, for up to 1 year, of a dental network adequacy requirement listed in this chapter.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The Commissioner may find good cause to grant the dental network adequacy waiver request only if the carrier demonstrates that the providers necessary for an adequate network:</text>
+      <para>
+        <num>(1)</num>
+        <text>Are not available to contract with the carrier;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Are not available in sufficient numbers;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Have refused to contract with the carrier; or</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Are unable to reach agreement with the carrier.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A carrier seeking a dental network adequacy waiver shall submit a written request to the Commissioner that includes the following information:</text>
+      <para>
+        <num>(1)</num>
+        <text>A description of any waiver previously granted by the Commissioner;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A list of providers within the relevant service area that the carrier attempted to contract with, identified by name and specialty, if any, or facility type;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A description of how and when the carrier last contacted the providers;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>A description of any reason each provider gave for refusing to contract with the carrier;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Steps the carrier will take to attempt to improve its network to avoid future dental network adequacy waiver requests;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>If applicable, a statement that there are no providers available within the relevant service area for a covered service or services for which the carrier requests the waiver; and</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>An attestation to the accuracy of the information contained in the dental network adequacy waiver request.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>A carrier submitting a dental network adequacy waiver request may submit a written request to the Commissioner that specific information included in the plan or request not be disclosed under the Public Information Act and shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Identify the particular information that the carrier requests not be disclosed; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Cite the statutory authority that permits denial of access to the information.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>The Commissioner may review a request made under <cite path="31|10|45|.05|D.">§D of this regulation</cite> upon receipt of a request for access pursuant to the Public Information Act.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>The Commissioner may notify the carrier that made a request under <cite path="31|10|45|.05|D.">§D of this regulation</cite> before granting access to information that was the subject of the request.</text>
+    </para>
+  </section>
+  <section cache:ref-path="31|10|45|.06">
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Dental Network Adequacy Executive Summary Form.</heading>
+    <para>
+      <num>A.</num>
+      <text>For each provider panel used by a carrier for a dental plan, the carrier shall provide the network sufficiency results for the dental plan service area as follows:</text>
+      <para>
+        <num>(1)</num>
+        <text>Travel Distance Standards.</text>
+        <para>
+          <num>(a)</num>
+          <text>For each provider type listed in <cite path="|31|10|45|.03">Regulation .03 of this chapter</cite>, list the percentage of enrollees for which the carrier met the travel distance standards, in the following format:</text>
+          <text>
+            <table>
+              <tbody>
+                <tr>
+                  <td proof="needed" data-vertical-align="middle"/>
+                  <td data-vertical-align="middle">Urban Area</td>
+                  <td data-vertical-align="middle">Suburban Area</td>
+                  <td data-vertical-align="middle">Rural Area</td>
+                </tr>
+                <tr>
+                  <td data-vertical-align="middle">General dentist</td>
+                  <td proof="needed" data-vertical-align="middle"/>
+                  <td proof="needed" data-vertical-align="middle"/>
+                  <td proof="needed" data-vertical-align="middle"/>
+                </tr>
+                <tr>
+                  <td data-vertical-align="middle">Specialty provider</td>
+                  <td proof="needed" data-vertical-align="middle"/>
+                  <td proof="needed" data-vertical-align="middle"/>
+                  <td proof="needed" data-vertical-align="middle"/>
+                </tr>
+              </tbody>
+            </table>
+          </text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>List the total number of essential community providers in the carrier’s network.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>List the total percentage of essential community providers available in the dental benefit plan’s service area that are participating providers.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Appointment Waiting Time Standards.</text>
+        <para>
+          <num>(a)</num>
+          <text>For each appointment type listed in <cite path="|31|10|45|.04">Regulation .04 of this chapter</cite>, list the percentage of enrollees in which the carrier met the appointment waiting time standards, in the following format:</text>
+          <text>
+            <table>
+              <tbody>
+                <tr>
+                  <td colspan="2" data-vertical-align="middle">Appointment Waiting Time Standard Results</td>
+                </tr>
+                <tr>
+                  <td data-vertical-align="middle">Urgent care — within 3 calendar days</td>
+                  <td proof="needed" data-vertical-align="middle"/>
+                </tr>
+                <tr>
+                  <td data-vertical-align="middle">Routine dental services — within 45 calendar days</td>
+                  <td proof="needed" data-vertical-align="middle"/>
+                </tr>
+                <tr>
+                  <td data-vertical-align="middle">Nonurgent specialty care — within 60 calendar days</td>
+                  <td proof="needed" data-vertical-align="middle"/>
+                </tr>
+              </tbody>
+            </table>
+          </text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>List the total percentage of telehealth appointments counted as part of the appointment waiting time standard results.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Each carrier shall provide a description of how it will monitor, on an ongoing basis, the ability of participating providers to provide covered services to the carrier’s enrollees.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The dental network adequacy access plan executive summary form filed by a carrier pursuant to <cite path="31|10|45|.06|A.">§A of this regulation</cite> is not confidential information.</text>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Insurance Article, §§<cite doc="Md. Code" path="gin|2-109">2-109</cite>(a)(<cite doc="Md. Code" path="gin|1">1</cite>) and <cite doc="Md. Code" path="gin|15-112">15-112</cite>(e), Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="2017-12-31">Effective date: Effective December 31, 2017 (44:25 Md. R. 1184)</annotation>
+  </annotations>
+</container>

@@ -1,0 +1,424 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>01</num>
+  <heading>General</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Scope.</heading>
+    <para>
+      <num>A.</num>
+      <text>This chapter applies to all public service companies subject to cybersecurity requirements in <cite doc="Md. Code" path="gpu|5-306">Public Utilities Article, §5-306, Annotated Code of Maryland</cite>.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>This chapter also broadly applies to all cybersecurity devices necessary for the adequate, economical, and efficient delivery of public service company services in Maryland.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Applicable Standards. Unless otherwise specified by the Commission, the public service company shall use the applicable provisions in the latest revised version of the National Institute of Standards Special Publication 800-207, Zero Trust Architecture, August 2020 publication.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this subtitle, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>“Chief information security officer (CISO)” means a senior-level executive who oversees an organization's information, cyber, and technology security. The CISO's responsibilities include developing, implementing, and enforcing security policies to protect critical data.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>“Commission” means the Public Service Commission of Maryland.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>“Compliance order” means a document issued by the Commission's Office of Cybersecurity to a public service company directing compliance.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>“Consent order” means a document executed jointly by the Commission's Office of Cybersecurity and a public service company for the disposition of a case.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>“Cybersecurity” means processes or capabilities wherein systems, communications, and information are protected and defended against damage, unauthorized use or modification, and exploitation.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>“Cybersecurity device” means any combination of hardware, software, and related services, including informational technology systems, operational technology systems, and smart grid systems used for delivery of electricity, gas, or water, or systems that store customer information.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>“Cybersecurity Director” means the Director of the Commission's Office of Cybersecurity.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>“Cybersecurity framework” means a common mechanism for organizations to:</text>
+        <para>
+          <num>(a)</num>
+          <text>Describe their current cybersecurity posture;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Describe their target state for cybersecurity;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Identify and prioritize opportunities for improvement within the context of a continuous and repeatable process;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Assess progress toward the target state; and</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Communicate among internal and external stakeholders about cybersecurity risk.</text>
+        </para>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>“Cybersecurity incident” means a malicious act or suspicious event that compromises, or was an attempt to compromise, a public service company’s cybersecurity device.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>“Cybersecurity maturity” is a quantitative and qualitative assessment of an organization's cybersecurity posture using a cybersecurity framework.</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>“Cybersecurity standard” means a mandatory federal or state cybersecurity requirement to protect the cybersecurity devices of an organization.</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>“Good cybersecurity practice” means cybersecurity plans that are designed, implemented, maintained, and operated in accordance with applicable industry cybersecurity standards and with the Cybersecurity and Infrastructure Security Agency’s Cross-Sector Cybersecurity Performance Goals (CPG), or a more stringent standard that is based on the National Institute of Standards and Technology (NIST) security frameworks.</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>“Information technology system” means hardware and software related to electronic processing, and storage, retrieval, transmittal, and manipulation of data.</text>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>“NOPV” means a notice of probable violation issued upon finding good cause to believe a violation of this subtitle or cybersecurity requirements in <cite doc="Md. Code" path="gpu|5-306">Public Utilities Article, §5-306, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>“Office of Cybersecurity” means the organization in the Commission responsible for implementing oversight of cybersecurity requirements in Public Utilities Article, §§<cite doc="Md. Code" path="gpu|2-108">2-108</cite> and <cite doc="Md. Code" path="gpu|5-306">5-306</cite>, Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>“Operations technology system” means a system or network that monitors or controls electric, gas, or water system infrastructure used for utility operations.</text>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>“Public service company” has the meaning stated in <cite doc="Md. Code" path="gpu|1-101">Public Utilities Article, §1-101, Annotated Code of Maryland</cite>, including investor-owned electric companies, electric cooperatives, municipal electric companies, gas companies, and water companies, but excluding public service companies that are a common carrier or a telephone company per <cite doc="Md. Code" path="gpu|5-306">Public Utilities Article, §5-306(b), Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(18)</num>
+        <text>“Smart grid system” means a system or network that enables a utility to gather and store personally identifiable customer information from customer devices or allows for the control of customer devices.</text>
+      </para>
+      <para>
+        <num>(19)</num>
+        <text>“Zero trust” means a cybersecurity approach that is focused on cybersecurity resource protection, is based on the premise that trust is never granted implicitly but shall be continually evaluated, and is aligned with the tenets of the latest revised version of the National Institute of Standards Special Publication 800-207.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Good Cybersecurity Practice.</heading>
+    <para>
+      <num>A.</num>
+      <text>All public service companies shall follow good cybersecurity practice.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>At a minimum, public service company cybersecurity plans shall address cybersecurity-related governance, risk management, procurement practices, personnel hiring, training policies, situational awareness, response, recovery, zero trust implementation, and transparent reporting of cybersecurity incidents to State and federal entities.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>At a minimum, all public service companies shall comply with all cybersecurity standards applicable to their cybersecurity devices and align their cybersecurity practices with Cybersecurity and Infrastructure Security Agency’s Cross-Sector Cybersecurity Performance Goals (CPG) or a more stringent standard that is based on the National Institute of Standards and Technology (NIST) security frameworks.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Cybersecurity Periodic Briefings.</heading>
+    <para>
+      <num>A.</num>
+      <text>All public service companies that have 15,000 or more combined gas, electric, and water customers in Maryland shall provide periodic confidential cybersecurity briefings describing the company’s adherence to good cybersecurity practice, including the company’s cybersecurity maturity level trends, cybersecurity performance metric trends, or any other cybersecurity-related topics of current interest to the Commission and such additional representatives as the Commission designates.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Periodic confidential cybersecurity briefings shall be held at a minimum of every 3 years, or as otherwise directed by the Commission.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Cybersecurity Incident Reporting.</heading>
+    <para>
+      <num>A.</num>
+      <text>All public service companies shall report cybersecurity incidents no later than 24 hours to the State Security Operations Center according to the method specified by the Maryland Department of Information Technology. Public service companies shall include in such reports the following information:</text>
+      <para>
+        <num>(1)</num>
+        <text>Contact information;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Type and size of the organization;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Start and end time of the incident;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Generalized narrative of the incident;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Degree or scope of impact from the incident on delivery of utility operation or service;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Type and amount of involved utility customer information that was or may have been impacted pursuant to <cite doc="Md. Code" path="gcl|14-3501">Commercial Law Article, §14-3501 </cite>et seq., Annotated Code of Maryland; and</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>A follow up report, typically within 30 days, if further impact or exposure is discovered requiring revision of previous reported scope and impact.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The State Security Operations Center shall notify appropriate entities of a cybersecurity incident reported, as required by <cite doc="Md. Code" path="gpu|5-306">Public Utilities Article, §5-306(d)(3), Annotated Code of Maryland</cite>, including the Commission. The Commission’s Office of Cybersecurity shall notify such additional representatives as the Commission designates.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Depending on the circumstances of the cybersecurity incident, the public service company may be requested to provide additional cybersecurity incident related information to either the Department of Information Technology or the Office of Cybersecurity, which may not be unreasonably denied unless this information is superseded by applicable federal cybersecurity standards and regulations that prohibit such disclosures.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The details of a public service company incident report may not be divulged except as directed by the Commission, or a court, as authorized by law, or as required by <cite doc="Md. Code" path="gpu|5-306">Public Utilities Article, §5-306(d)(3), Annotated Code of Maryland</cite>. The Office of Cybersecurity shall promptly notify a public service company upon the discovery of any unauthorized access, compromise, loss, or exfiltration of the public service company’s cybersecurity incident information.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Zero Trust Implementation.</heading>
+    <para>
+      <num>A.</num>
+      <text>Public service companies shall implement a zero trust cybersecurity approach that is focused on cybersecurity resource protection and adopts and implements cybersecurity standards that meet or exceed regulations in this chapter.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A public service company shall adopt a zero trust cybersecurity approach for on-premises services and cloud-based services.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Levels of cybersecurity device risk and supply chain risk shall be defined by each public service company, consistent with industry standard practices, unless superseded by applicable federal or State cybersecurity standards.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The process by which cybersecurity device risk and supply chain risk is determined shall be documented and subject to inspection by the Office of Cybersecurity unless such processes are superseded by applicable federal cybersecurity standards and regulations that prohibit such disclosures.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>A public service company shall establish minimum security standards for each cybersecurity device or grouping of cyber security devices, including security risks with supply chains based on the level of security risk each device or group of devices presents to the public service company’s ability to deliver utility services or protect customer information necessary for the adequate, economical, and efficient delivery of public service company services in Maryland.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Public service companies shall provide evidence that they already or, where technically feasible, are planning to implement zero trust approaches in their Information Technology (IT) and Operational Technology (OT) devices and provide timelines or industry roadmaps for implementing zero trust approaches. Evidence of planning shall consist of the following:</text>
+      <para>
+        <num>(1)</num>
+        <text>A documented good faith analysis to determine where public service companies can expand implementation of zero trust approaches;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An overview of a specific utility’s approaches to zero trust;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The incorporation of zero trust approaches as a criterion in IT and OT asset design and procurement policy as supported by industry;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The existence of auditable asset investments demonstrably compliant with zero trust approaches; and</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Documented company plans with zero trust approach implementation timelines and dedicated resources.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Periodic Assessments of Cybersecurity Devices and Supply Chain Risk.</heading>
+    <para>
+      <num>A.</num>
+      <text>On or before July 1, 2024, and on or before July 1 every other year thereafter, public service companies shall engage a third party to conduct an assessment of cybersecurity devices and supply chain risk based on either of the following cybersecurity frameworks:</text>
+      <para>
+        <num>(1)</num>
+        <text>The Cybersecurity and Infrastructure Security Agency’s Cross-Sector Cybersecurity Performance Goals (CPG); or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A more stringent standard that is based on the National Institute of Standards and Technology (NIST) security frameworks.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The third party conducting the assessment of cybersecurity devices and supply chain risk shall be any non-affiliated entity that is qualified to perform an assessment based on applicable certifications, expertise, or past experience to conduct NIST and CPG cybersecurity framework-based assessments.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Multiple third-party assessments of cybersecurity devices and supply chain risk using applicable cybersecurity frameworks shall be used, if necessary, to cover all cybersecurity devices and supply chain risk under the scope of this chapter.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>All cybersecurity assessments shall be anytime within a 2-year assessment cycle, with the first assessment cycle ending July 1, 2024, and subsequent assessment cycles ending on or before July 1 every other year thereafter.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>A public service company shall confidentially e-file to the Commission, or alternatively submit to the Office of Cybersecurity, an attestation letter by the public service company CISO, or equivalent, on or before July 1, 2024, and on or before July 1 every other year thereafter. This attestation letter shall include the following information:</text>
+      <para>
+        <num>(1)</num>
+        <text>The name of the public service company;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The date of the public service company’s most recent cybersecurity assessments;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The cybersecurity framework used in each cybersecurity assessment of the public service company;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The name of the third-party entity that completed each cybersecurity assessment and their qualifications to conduct NIST or CPG cybersecurity framework-based assessments;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>A certification of the public service company’s compliance with the standards for the cybersecurity frameworks used in these cybersecurity assessments; and</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>If applicable, an attestation that a North American Electric Reliability Corporation Critical Infrastructure Protection (NERC CIP) audit has been performed and the dates the last assessment was performed, or an inspection by the Transportation Security Administration (TSA) pursuant to TSA’s Gas Pipeline Security Directives, or TSA regulations that supersede the security directives.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>A public service company may develop a consolidated assessment of all third-party assessments in a cybersecurity assessment report. At a minimum, a third-party or consolidated public service company cybersecurity assessment report shall include:</text>
+      <para>
+        <num>(1)</num>
+        <text>An executive summary that includes a general overview of cybersecurity technology and policies used by the public service company;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A description of how the cybersecurity frameworks used in each third-party assessment is based on NIST or CPG;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A description of the scope of the cybersecurity devices and supply chain risk assessed and the applicable cybersecurity framework used for each third-party assessment;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The completion date of each third-party assessment;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>A description of the cybersecurity standards to which the public service company shall comply for the cybersecurity devices and supply chain risk included in the assessment;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>The assessment results for each third-party assessment, including a description of cybersecurity maturity and trends of cybersecurity maturity since the previous assessment, if applicable; and</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Conclusions and recommendations from each third-party assessor for corrective actions.</text>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>A public service company shall arrange an in-person meeting with the Office of Cybersecurity at Commission offices or at another mutually agreeable location to review all individual third-party cybersecurity assessments or alternatively a public service company’s consolidated cybersecurity assessment report, within 90 days of the date of the certification of a public service company’s compliance attestation letter.</text>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>A public service company shall maintain all consolidated cybersecurity assessment reports and all third-party assessments of cybersecurity devices under the scope of this regulation a minimum of two, 2-year assessment cycles, except for applicable North American Electric Reliability Corporation Critical Infrastructure Protection (NERC CIP) audits, or an inspection by the Transportation Security Administration (TSA) pursuant to TSA’s Gas Pipeline Security Directives, or TSA regulations that supersede the security directives which are performed on a 3-year cycle. These assessment reports shall be made available at Commission offices or at another mutually agreeable location for inspection by the Office of Cybersecurity, upon request.</text>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>The details of a public service company’s cybersecurity assessments may not be divulged except as directed by the Commission, or a court, as authorized by law. The Office of Cybersecurity shall promptly notify a public service company upon the discovery of any unauthorized access, compromise, loss, or exfiltration of the public service company’s periodic assessment information.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Public Service Company Cybersecurity Contacts.</heading>
+    <para>
+      <num>A.</num>
+      <text>All public service companies shall provide a primary cybersecurity contact and alternate cybersecurity contact information to the Office of Cybersecurity that includes each contact’s name, company, position title, mail address, email address, cellular phone number, and office phone number. The Office of Cybersecurity shall share this information with the State Security Operations Center in the Department of Information Technology.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A public service company’s primary cybersecurity contact shall either be the public service company’s CISO, or equivalent, or directly report to the public service company CISO, or equivalent.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A public service company alternate cybersecurity contact shall either directly report to a public service company CISO, or equivalent, or directly report to the public service company primary cybersecurity contact.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>All public service companies shall provide an organization chart, or equivalent narrative description, that describes the organizational reporting relationships of the primary cybersecurity contact and alternate cybersecurity contact to the CISO.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>The Cybersecurity Director shall be notified of all changes to primary contact and alternate contact information, including the reporting relationship of the primary cybersecurity contact and alternate cybersecurity contact to the CISO, within 30 days of changes.</text>
+    </para>
+  </section>
+  <section cache:ref-path="20|06|01|.09">
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Specific Information Request.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Office of Cybersecurity may send a public service company a specific information request for information related to cybersecurity incidents, standards, practices, procedures, or other information reasonably related to cybersecurity unless such processes are superseded by applicable federal cybersecurity standards and regulations that prohibit such disclosures.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A public service company shall respond within 10 working days after receipt of a specific information request from the Office of Cybersecurity relating to a cybersecurity incident under <cite path="|20|06|01|.05">Regulation .05 of this chapter</cite>.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Except as provided under <cite path="20|06|01|.09|B.">§B of this regulation</cite>, a public service company shall respond within 30 days after receipt of a specific information request from the Office of Cybersecurity.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The Office of Cybersecurity may waive the requirements of §B or C of this regulation upon written request from a public service company demonstrating sufficient cause.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>The details of a public service company cybersecurity specific information request may not be divulged except as directed by the Commission, or a court, as authorized by law. The Office of Cybersecurity shall promptly notify a public service company upon the discovery of any unauthorized access, compromise, loss, or exfiltration of the public service company’s special information request information.</text>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Public Utilities Article, §§<cite doc="Md. Code" path="gpu|2-112">2-112</cite>, <cite doc="Md. Code" path="gpu|2-113">2-113</cite>, <cite doc="Md. Code" path="gpu|2-121">2-121</cite>, <cite doc="Md. Code" path="gpu|3-101">3-101</cite>, <cite doc="Md. Code" path="gpu|3-104">3-104</cite>, and <cite doc="Md. Code" path="gpu|3-113">3-113</cite>, Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="2022-07-25">Effective date: July 25, 2022 (49:15 Md. R. 739)</annotation>
+    <annotation type="History" dest="container" effective="2024-12-12"><cite path="|20|06|01|.01">Regulation .01</cite> amended effective December 12, 2024 (51:24 1081)</annotation>
+    <annotation type="History" dest="container" effective="2024-12-12"><cite path="|20|06|01|.02">Regulation .02</cite> amended effective December 12, 2024 (51:24 1081)</annotation>
+    <annotation type="History" dest="container" effective="2024-12-12"><cite path="|20|06|01|.03">Regulation .03</cite> amended effective December 12, 2024 (51:24 1081)</annotation>
+    <annotation type="History" dest="container" effective="2024-12-12"><cite path="|20|06|01|.04">Regulation .04</cite> amended effective December 12, 2024 (51:24 1081)</annotation>
+    <annotation type="History" dest="container" effective="2024-12-12"><cite path="|20|06|01|.05">Regulation .05</cite> amended effective December 12, 2024 (51:24 1081)</annotation>
+    <annotation type="History" dest="container" effective="2024-12-12"><cite path="|20|06|01|.06">Regulation .06</cite> adopted effective December 12, 2024 (51:24 1081)</annotation>
+    <annotation type="History" dest="container" effective="2024-12-12"><cite path="|20|06|01|.07">Regulation .07</cite> adopted effective December 12, 2024 (51:24 1081)</annotation>
+    <annotation type="History" dest="container" effective="2024-12-12"><cite path="|20|06|01|.08">Regulation .08</cite> adopted effective December 12, 2024 (51:24 1081)</annotation>
+    <annotation type="History" dest="container" effective="2024-12-12"><cite path="|20|06|01|.09">Regulation .09</cite> adopted effective December 12, 2024 (51:24 1081)</annotation>
+  </annotations>
+</container>

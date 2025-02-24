@@ -1,0 +1,793 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>15</num>
+  <heading>Universal Life Insurance</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Purpose.</heading>
+    <text>The purpose of this chapter is to establish standards for universal life insurance policies in order to accommodate the development and issuance of universal life insurance.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Scope.</heading>
+    <text>This chapter applies to all individual universal life insurance policies, except variable universal life insurance policies.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>As used in this chapter, the following terms have the meanings indicted.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>"Cash surrender value" means the net cash surrender value plus any amounts outstanding as policy loans.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>"Commissioner" means the Maryland Insurance Commissioner.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>"Fixed premium universal life insurance policy" means a universal life insurance policy other than a flexible premium universal life insurance policy.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>"Flexible premium universal life insurance policy" means a universal life insurance policy which permits the policyowner to vary, independently of each other, the amount or timing of one or more premium payments or the amount of insurance.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>"Interest-indexed universal life insurance policy" or "interest-indexed policy" means any universal life insurance policy where the interest credits are linked to an external referent.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>"Net cash surrender value" means the maximum amount payable to the policyowner upon surrender.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>"Policy value" means the amount to which separately identified interest credits and mortality, expense, or other charges are made under a universal life insurance policy.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>"Universal life insurance policy" means a life insurance policy where separately identified:</text>
+        <para>
+          <num>(a)</num>
+          <text>Interest credits, other than in connection with dividend accumulations, premium deposit funds, or other supplementary accounts are made to the policy;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Mortality charges are made to the policy; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Expense charges are made to the policy.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="31|09|15|.04">
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>General Calculation Method for Reserves.</heading>
+    <para>
+      <num>A.</num>
+      <text>The minimum valuation standard for universal life insurance policies shall be</text>
+      <para>
+        <num>(1)</num>
+        <text>The Commissioner's Reserve Valuation Method, as described in <cite path="31|09|15|.04|B.">§B of this regulation</cite> for such policies; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The mortality tables and interest rates specified in <cite path="31|09|15|.04|B.|(2)">§B(2) of this regulation</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Commissioner's Reserve Valuation Method.</text>
+      <para>
+        <num>(1)</num>
+        <text>The terminal reserve for the basic policy and any benefits or riders for which premiums are not paid separately as of any policy anniversary shall be equal to the net level premium reserves less (C) and less (D), where:</text>
+        <para>
+          <num>(a)</num>
+          <text>Reserves by the net level premium method shall be equal to ((A) - (B)) r  where:</text>
+          <para>
+            <num>(i)</num>
+            <text>The quantity(a) is the present value of all future guaranteed benefits at the date of valuation;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The quantity (B) is the quantity (PVFB) (ä<sub>x+t</sub>/ä<sub>x</sub>);</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>PVFB is the present value of all benefits guaranteed at issue assuming future guaranteed maturity premiums are paid by the policyowner and taking into account all guarantees contained in the policy or declared by the insurer;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>The quantities ä<sub>x</sub> and ä<sub>x+t</sub> are present values of an annuity of one per year payable on policy anniversaries beginning at ages x and x+t, respectively, and continuing until the highest attained age at which a premium may be paid under the policy;</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>The letter x is the issue age;</text>
+          </para>
+          <para>
+            <num>(vi)</num>
+            <text>The letter t is the duration of the policy; and</text>
+          </para>
+          <para>
+            <num>(vii)</num>
+            <text>The letter r is equal to one unless the policy is a flexible premium policy and the policy value is less than the guaranteed maturity fund, in which case "r" is the ratio of the policy value to the guaranteed maturity fund;</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The guaranteed maturity premium for flexible premium universal life insurance policies shall be that level gross premium, paid at issue and periodically thereafter over the period during which premiums are allowed to be paid, which will mature the policy on the latest maturity date, if any, permitted under the policy, otherwise at the highest age in the valuation mortality table, for an amount which is in accordance with the policy structure;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The guaranteed maturity premium is calculated at issue based on all policy guarantees at issue (excluding guarantees linked to an external referent);</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>The guaranteed maturity premium for fixed premium universal life insurance policies shall be the premium defined in the policy which at issue provides the minimum policy guarantees;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>The guaranteed maturity fund at any duration is that amount which, together with future guaranteed maturity premiums, will mature the policy based on all policy guarantees at issue;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>The quantity (C) is  ((a) - (b)) (ä<sub>x+t</sub> /ä<sub>x</sub>) r where (a) - (b) is the amount, if any, that the present value, at the date of valuation, of the guaranteed benefits under the policy exceeds the present value, at the date of valuation, of any future modified net premiums for the policy, as described in <cite doc="Md. Code" path="gin|5-307">Insurance Article, §5-307(a)(2), Annotated Code of Maryland</cite>, for the plan of insurance defined at issue by the guaranteed maturity premiums and all guarantees contained in the policy or declared by the insurer;</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>The quantity (D) is the sum of any additional quantities analogous to the quantity (C) which arise because of structural changes in the policy, with each such quantity being determined on a basis consistent with that of the quantity (C) using the maturity date in effect at the time of the change;</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>The guaranteed maturity premium, the guaranteed maturity fund, and the quantity (B) described in <cite path="31|09|15|.04|B.|(1)|(a)|(ii)">§B(1)(a)(ii) of this regulation</cite> shall be recalculated to reflect any structural changes in the policy; and</text>
+        </para>
+        <para>
+          <num>(i)</num>
+          <text>The recalculation described in <cite path="31|09|15|.04|B.|(1)|(h)">§B(1)(h) of this regulation</cite> shall be done in a manner consistent with the descriptions found in §B(1)(a)-(g) of this regulation.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Future guaranteed benefits are determined by:</text>
+        <para>
+          <num>(a)</num>
+          <text>Projecting the greater of the guaranteed maturity fund and the policy value, taking into account future guaranteed maturity premiums, if any, and using all guarantees of interest, mortality, expense deductions, and other deductions, contained in the policy or declared by the insurer; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Taking into account any benefits guaranteed in the policy or by declaration which do not depend on the policy value.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>All present values shall be determined using:</text>
+        <para>
+          <num>(a)</num>
+          <text>An interest rate, or rates, specified by <cite doc="Md. Code" path="gin|5-306">Insurance Article, §5-306(c), Annotated Code of Maryland</cite>, for policies issued in the same year;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The mortality rates specified by <cite doc="Md. Code" path="gin|5-304">Insurance Article, §5-304(b)(3), Annotated Code of Maryland</cite>, for policies issued in the same year or the mortality rates contained in another table as may be approved by the Commissioner for this purpose; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Any other tables needed to value supplementary benefits provided by a rider which is being valued together with the policy.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Alternative Minimum Reserves.</heading>
+    <para>
+      <num>A.</num>
+      <text>If, in any policy year, the guaranteed maturity premium on a universal life insurance policy is less than the valuation net premium for the same universal life insurance policy, calculated by the valuation method actually used in calculating the reserve on the universal life insurance policy, but using the minimum valuation standards of mortality and rate of interest, the minimum reserve required for the universal life insurance policy shall be the greater of:</text>
+      <para>
+        <num>(1)</num>
+        <text>The reserve calculated according to the method, the mortality table, and the rate of interest actually used; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The reserve calculated according to the method actually used but using the minimum valuation standards of mortality and rate of interest and replacing the valuation net premium by the Guaranteed Maturity Premium in each policy year for which the valuation net premium exceeds the Guaranteed Maturity Premium.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Reserves.</text>
+      <para>
+        <num>(1)</num>
+        <text>For universal life insurance reserves on a net level premium basis, the valuation net premium is PVFB/ä<sub>x</sub> where PVFB is as described in <cite path="|31|09|15|.04|B.|(1)|(a)|(iii)">Regulation .04B(1)(a)(iii) of this chapter</cite> and  ä<sub>x</sub> and ä<sub>x+t</sub> are as described  in <cite path="|31|09|15|.04|B.|(1)|(a)|(iv)">Regulation .04B(1)(a)(iv) of this chapter</cite>.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>For reserves on the Commissioners Reserve Valuation Method, the valuation net premium is PVFB/ä<sub>x</sub> + ((a) - (b))/ä<sub>x</sub> where(a) - (b) is the amount, if any, that the present value, at the date of valuation, of the guaranteed benefits under the policy exceeds the present value, at the date of valuation, of any future modified net premiums for the policy, as described in <cite doc="Md. Code" path="gin|5-307">Insurance Article, §5-307(a)(2), Annotated Code of Maryland</cite>.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="31|09|15|.06">
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Nonforfeiture Values for Flexible Premium Universal Life Insurance Policies.</heading>
+    <para>
+      <num>A.</num>
+      <text>Minimum cash surrender values for flexible premium universal life insurance policies shall be determined separately for the basic policy and for any benefits and riders for which premiums are paid separately.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The requirements in this regulation pertain to a basic policy and any benefits and riders for which premiums are not paid separately.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The minimum cash surrender value, before adjustment for indebtedness and dividend credits, available on a date as of which interest is credited to the policy shall be equal to:</text>
+      <para>
+        <num>(1)</num>
+        <text>The accumulation to that date of the premiums paid; minus</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The accumulations to that date of:</text>
+        <para>
+          <num>(a)</num>
+          <text>The benefit charges;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The averaged administrative expense charges for the first policy year and any insurance-increase years;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Actual administrative expense charges for other years;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Initial and additional acquisition expense charges not exceeding the initial or additional expense allowances, respectively;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Any service charges actually made, excluding charges for cash surrender or election of a paid-up nonforfeiture benefit; and</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Any deductions made for partial withdrawals; minus</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Any unamortized unused initial and additional expense allowances.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>All accumulations in §C(1) and (2) of this regulation shall be at the actual rate or rates of interest at which interest credits have been made unconditionally to the policy, or have been made conditionally, but for which the conditions have since been met.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Interest on the premiums and on all charges referred to in §C(1)-(2) of this regulation shall be accumulated from and to such dates as are consistent with the manner in which interest is credited in determining the policy value.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Benefit Changes.</text>
+      <para>
+        <num>(1)</num>
+        <text>The benefit charges listed in <cite path="31|09|15|.06|C.|(2)|(a)">§C(2)(a) of this regulation</cite> shall include the charges made for mortality and any charges made for riders or supplementary benefits for which premiums are not paid separately.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If benefit charges are substantially level by duration and develop low or no cash values, then the Commissioner shall have the right to require higher cash values unless the insurer provides adequate justification that the cash values are appropriate in relation to the policy's other characteristics.</text>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Calculation of Administrative Expense Charges.</text>
+      <para>
+        <num>(1)</num>
+        <text>The administrative expense charges referenced in §C(2)(b) and (c) of this regulation shall include the following if provided for by the policy:</text>
+        <para>
+          <num>(a)</num>
+          <text>Charges per premium payment;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Charges per dollar of premium paid;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Periodic charges per thousand dollars of insurance;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Periodic per policy charges; and</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Any other charges permitted by the policy to be imposed without regard to the policyowner's request for services.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The averaged administrative expense charges referenced in <cite path="31|09|15|.06|C.|(2)|(b)">§C(2)(b) of this regulation</cite> for any year shall be those which would have been imposed in that year if the charge rate or rates for each transaction or period within the year had been equal to the arithmetic average of the corresponding charge rates that the policy states will be imposed in policy years 2 through 20 in determining the policy value.</text>
+      </para>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>Calculation of Initial Acquisition Expense Charges.</text>
+      <para>
+        <num>(1)</num>
+        <text>The initial acquisition expense charges referenced in <cite path="31|09|15|.06|C.|(2)|(d)">§C(2)(d) of this regulation</cite> shall be the excess of the expense charges, other than service charges, actually made in the first policy year over the averaged administrative expense charges for that year.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Additional acquisition expense charges referenced in <cite path="31|09|15|.06|C.|(2)|(d)">§C(2)(d) of this regulation</cite> shall be the excess of the expense charges, other than service charges, actually made in an insurance-increase year over the averaged administrative expense charges for that year.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>An insurance-increase year shall be the year beginning on the date of increase in the amount of insurance by policyowner request or by the terms of the policy.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The service charges referenced in §H(1) and (2) of this regulation shall include charges permitted by the policy to be imposed as the result of a policyowner's request for a service by the insurer, such as the furnishing of future benefit illustrations, or of special transactions.</text>
+      </para>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>Calculation of Initial Expense Allowance.</text>
+      <para>
+        <num>(1)</num>
+        <text>The initial expense allowance referenced in <cite path="31|09|15|.06|C.|(3)">§C(3) of this regulation</cite> shall be the allowance provided by <cite doc="Md. Code" path="gin|16-309">Insurance Article, §16-309(b), Annotated Code of Maryland</cite>, for a fixed premium, fixed benefit endowment policy with a face amount equal to the initial face amount of the flexible premium universal life insurance policy, with level premiums paid annually until the highest attained age at which a premium may be paid under the flexible premium universal life insurance policy, and maturing on the latest maturity date permitted under the policy, if any, otherwise at the highest age in the valuation mortality table.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The unused initial expense allowance shall be the excess, if any, of the initial expense allowance over the initial acquisition expense charges as described in <cite path="31|09|15|.06|H.">§H of this regulation</cite>.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If the amount of insurance is subsequently increased upon request of the policyowner, or by the terms of the policy, an additional expense allowance and an unused additional expense allowance shall be determined on a basis consistent with §I(1) and (2) of this regulation and with <cite doc="Md. Code" path="gin|16-309">Insurance Article, §16-309(e), Annotated Code of Maryland</cite>, using the face amount and the latest maturity date permitted at that time under the policy.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Unamortized Unused Expense Allowance.</text>
+        <para>
+          <num>(a)</num>
+          <text>The unamortized unused initial expense allowance during the policy year beginning on the policy anniversary at age x+t, where x is the same issue age, shall be the unused initial expense allowance multiplied by  ä<sub>x+t</sub>/ä<sub>x</sub>  where ä<sub>x+t</sub> and ä<sub>x</sub> are present values of an annuity of one per year payable on policy anniversaries beginning at ages x+t and x, respectively, and continuing until the highest attained age at which a premium may be paid under the policy, both on the mortality and interest bases guaranteed in the policy.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>An unamortized unused additional expense allowance shall be the unused additional expense allowance multiplied by a similar ratio of annuities, with äx replaced by an annuity beginning on the date as of which the additional expense allowance was determined.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="31|09|15|.07">
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Nonforfeiture Values for Fixed Premium Universal Life Insurance Policies.</heading>
+    <para>
+      <num>A.</num>
+      <text>For fixed premium universal life insurance policies, the minimum cash surrender values shall be determined separately for the basic policy and any benefits and riders for which premiums are paid separately.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The requirements in this regulation pertain to a basic policy and to any benefits and riders for which premiums are not paid separately.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The minimum cash surrender value, before adjustment for indebtedness and dividend credits, available on a date as of which interest is credited to the policy shall be equal to [(A)-(B)-(C)-(D)], where:</text>
+      <para>
+        <num>(1)</num>
+        <text>The quantity(a) is the present value of all future guaranteed benefits;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The quantity (B) is the present value of future adjusted premiums;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The quantity (C) is the present value of any quantities analogous to the nonforfeiture net level premium which arise because of guarantees declared by the insurer after the issue date of the policy; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The quantity (D) is the sum of any quantities analogous to (B), as described in <cite path="31|09|15|.07|C.|(2)">§C(2) of this regulation</cite>, which arise because of structural changes in the policy.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The adjusted premiums described in <cite path="31|09|15|.07|C.|(2)">§C(2) of this regulation</cite> are calculated as described in <cite doc="Md. Code" path="gin|16-309">Insurance Article, §16-309(b)(2), Annotated Code of Maryland</cite>.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>The nonforfeiture net level premium is equal to the quantity PVFB/ä<sub>x</sub> where:</text>
+      <para>
+        <num>(1)</num>
+        <text>PVFB is the present value of all benefits guaranteed at issue assuming future premiums are paid by the policyowner and all guarantees are contained in the policy or declared by the insurer; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The quantity ä<sub>x</sub> is the present value of an annuity of one per year payable on policy anniversaries beginning at age x and continuing until the highest attained age at which a premium may be paid under the policy.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>The quantity ä<sub>x</sub> shall be replaced by an annuity beginning on the date as of which the declaration described in <cite path="31|09|15|.07|C.|(3)">§C(3) of this regulation</cite> became effective and payable until the end of the period covered by the declaration.</text>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Future guaranteed benefits are determined by:</text>
+      <para>
+        <num>(1)</num>
+        <text>Projecting the policy value, taking into account future premiums, if any, using all guarantees of interest, mortality, or expense deductions, contained in the policy or declared by the insurer; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Taking into account any benefits guaranteed in the policy or by declaration which do not depend on the policy value.</text>
+      </para>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>All present values shall be determined using:</text>
+      <para>
+        <num>(1)</num>
+        <text>An interest rate, or rates, specified by <cite doc="Md. Code" path="gin|16-309">Insurance Article, §16-309(j), Annotated Code of Maryland</cite>, for policies issued in the same year; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The mortality rates specified by <cite doc="Md. Code" path="gin|16-309">Insurance Article, §16-309(i)(3) </cite>and (5), Annotated Code of Maryland, for policies issued in the same year or contained in such other table as may be approved by the Commissioner for this purpose.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="31|09|15|.08">
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Minimum Paid-Up Nonforfeiture Benefits.</heading>
+    <para>
+      <num>A.</num>
+      <text>If a universal life insurance policy provides for the optional election of a paid-up nonforfeiture benefit, it shall be such that its present value shall be at least equal to the cash surrender value provided for by the policy on the effective date of the election.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The present value in <cite path="31|09|15|.08|A.">§A of this regulation</cite> shall be based on mortality and interest standards at least as favorable to the policyowner as:</text>
+      <para>
+        <num>(1)</num>
+        <text>In the case of a flexible premium universal life insurance policy, the mortality and interest basis guaranteed in the policy for determining the policy value; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>In the case of a fixed premium policy the mortality and interest standards permitted for paid-up nonforfeiture benefits by Insurance Article, §§<cite doc="Md. Code" path="gin|16-306">16-306</cite> and <cite doc="Md. Code" path="gin|16-309">16-309</cite>(i), Annotated Code of Maryland.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>In lieu of the paid-up nonforfeiture benefit described in §§A and B of this regulation, the insurer may substitute, upon proper request not later than 60 days after the due date of the premium in default, an actuarially equivalent alternative paid-up nonforfeiture benefit which provides a greater amount or longer period of death benefits, or, if applicable, a greater amount or earlier payment of endowment benefits.</text>
+    </para>
+  </section>
+  <section cache:ref-path="31|09|15|.09">
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Mandatory Policy Provisions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In addition to the applicable provisions of <cite doc="Md. Code" path="gin">Insurance Article, Title 16, Annotated Code of Maryland</cite>, each universal life insurance policy shall include the provisions described in §§B-H of this regulation.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Periodic Disclosure to Policyowner.</text>
+      <para>
+        <num>(1)</num>
+        <text>The policy shall provide that the policyowner will be sent, without charge, at least annually, a report that satisfies the requirements of <cite path="|31|09|15|.11">Regulation .11 of this chapter</cite>, which will serve to keep the policyowner advised as to the status of the policy.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The end of the current report period shall be not more than 3 months before the date of the mailing of the report.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Policy Guarantees.</text>
+      <para>
+        <num>(1)</num>
+        <text>The policy shall provide guarantees of minimum interest credits and maximum mortality and expense charges.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>All values and data shown in the policy shall be based on guarantees.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Calculation of Cash Surrender Values.</text>
+      <para>
+        <num>(1)</num>
+        <text>The policy shall contain at least a general description of the calculation of cash surrender values including the following information:</text>
+        <para>
+          <num>(a)</num>
+          <text>The guaranteed maximum expense charges and loads;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Any limitation on the crediting of additional interest;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The guaranteed minimum rate or rates of interest;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>The guaranteed maximum mortality charges;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Any other guaranteed charges; and</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Any surrender or partial withdrawal charges.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The interest credits in <cite path="31|09|15|.09|D.|(1)|(b)">§D(1)(b) of this regulation</cite> may not remain conditional for a period longer than 24 months.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Changes in Basic Coverage.</text>
+      <para>
+        <num>(1)</num>
+        <text>If the policyowner has the right to change the basic coverage, any limitation on the amount or timing of the change of basic coverage shall be stated in the policy.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If the policyowner has the right to increase the basic coverage, the policy shall state whether a new period of contestability or suicide, or both, is applicable to the additional coverage.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Grace Period and Lapse.</text>
+      <para>
+        <num>(1)</num>
+        <text>The policy shall provide for written notice to be sent to the policyowner's last known address at least 30 days before termination of coverage.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Flexible Premium Policies.</text>
+        <para>
+          <num>(a)</num>
+          <text>A flexible premium policy shall provide for a grace period of at least 30 days after lapse.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Unless otherwise defined in the policy, lapse shall occur on the date on which the net cash surrender value first equals zero.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Misstatement of Age or Sex.</text>
+      <para>
+        <num>(1)</num>
+        <text>Except as stated in <cite path="31|09|15|.09|G.|(2)">§G(2) of this regulation</cite>, if there is a misstatement of age or sex in the policy, the amount of the death benefit shall be that which would be purchased by the most recent mortality charge at the correct age or sex.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The commissioner may approve other methods of adjustment than those described in <cite path="31|09|15|.09|G.|(1)">§G(1) of this regulation</cite> for misstatement of age which are deemed satisfactory.</text>
+      </para>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>Maturity Date.  If a policy provides for a maturity date, end date, or date after which the policy will no longer be in force, then the policy shall also contain a statement, in close proximity to that date, that it is possible that coverage may not continue to the maturity date even if scheduled premiums are paid in a timely manner, if such is the case.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.10</num>
+    <heading>Disclosure Requirements.</heading>
+    <text>Disclosure of information about the policy being applied for shall follow the standards in <cite path="|31.09.09">COMAR 31.09.09</cite>.</text>
+  </section>
+  <section cache:ref-path="31|09|15|.11">
+    <prefix>Regulation</prefix>
+    <num>.11</num>
+    <heading>Periodic Disclosure to Policyowner.</heading>
+    <para>
+      <num>A.</num>
+      <text>Annual Report.</text>
+      <para>
+        <num>(1)</num>
+        <text>The policy shall provide that the policyowner will be sent, without charge, at least annually, a report which will serve to keep the policyowner advised of the status of the policy.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The end of the current report period shall be not more than 3 months before the date of the mailing of the report.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The annual report required by <cite path="31|09|15|.11|A.">§A of this regulation</cite> shall include the following:</text>
+      <para>
+        <num>(1)</num>
+        <text>The beginning and end of the current report period;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The policy value at the end of the previous report period and at the end of the current report period;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The total amounts which have been credited or debited to the policy value during the current report period, identifying each by type, such as interest, mortality, expense, and riders;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The current death benefit at the end of the current report period on each life covered by the policy;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The net cash surrender value of the policy as of the end of the current report period;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>The amount of outstanding loans, if any, as of the end of the current report period;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Notice that the policyholder may request an illustration of current and future benefits and values;</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>For fixed premium policies:</text>
+        <para>
+          <num>(a)</num>
+          <text>How long the policy will continue in effect, assuming guaranteed interest, mortality and expense loads and continued scheduled premium payments; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>If, assuming guaranteed interest, mortality, and expense loads and continued scheduled premium payments, the policy's net cash surrender value is such that it would not maintain insurance in force until the end of the next reporting period, a notice to this effect; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>For flexible premium policies:</text>
+        <para>
+          <num>(a)</num>
+          <text>How long the policy will continue in effect, assuming guaranteed interest, mortality and expense loads, and no further premium payments; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>If, assuming guaranteed interest, mortality and expense loads, the policy's net cash surrender value will not maintain insurance in force until the end of the next reporting period unless further premium payments are made, a notice to this effect.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="31|09|15|.12">
+    <prefix>Regulation</prefix>
+    <num>.12</num>
+    <heading>Interest-Indexed Universal Life Insurance Policies.</heading>
+    <para>
+      <num>A.</num>
+      <text>Initial Filing Requirements.</text>
+      <para>
+        <num>(1)</num>
+        <text>The following information shall be submitted in connection with any filing of interest-indexed universal life insurance policies:</text>
+        <para>
+          <num>(a)</num>
+          <text>A description of how the interest credits are determined, including:</text>
+          <para>
+            <num>(i)</num>
+            <text>A description of the index;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The relationship between the value of the index and the actual interest rate to be credited;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>The frequency and timing of determining the interest rate; and</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>The allocation of interest credits, if more than one rate of interest applies to different portions of the policy value;</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The insurer's investment policy, which includes a description of the following:</text>
+          <para>
+            <num>(i)</num>
+            <text>How the insurer addressed the reinvestment risks;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>How the insurer plans to address the risk of capital loss on cash outflows;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>How the insurer plans to address the risk that appropriate investments may not be available or not available in sufficient quantities;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>How the insurer plans to address the risk that the indexed interest rate may fall below the minimum contractual interest rate guaranteed in the policy;</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>The amount and type of assets currently held for interest indexed policies; and</text>
+          </para>
+          <para>
+            <num>(vi)</num>
+            <text>The amount and type of assets expected to be acquired in the future;</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>If policies are linked to an index for a specified period less than to the maturity date of the policy, a description of the method used, or currently contemplated, to determine interest credits upon the expiration of the period;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>A description of any interest guarantee in addition to or in place of the index; and</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>A description of any maximum premium limitations and the conditions under which they apply.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>All information received under this regulation shall be treated confidentially to the extent permitted by law.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Additional Filing Requirements.</text>
+      <para>
+        <num>(1)</num>
+        <text>Annually, each insurer shall submit a Statement of Actuarial Opinion by the insurer's actuary similar to the example contained in <cite path="|31|09|15|.13">Regulation .13 of this chapter</cite>.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Annually, each insurer shall submit a description of the amount and type of assets currently held by the insurer with respect to its interest-indexed policies.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Change in Investment Strategy.</text>
+        <para>
+          <num>(a)</num>
+          <text>Before implementation, each domestic insurer shall submit a description of any material change in the insurer's investment strategy or method of determining the interest credits.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A change in investment strategy is considered to be material if it would affect the form or definition of the index, such as any change in the information supplied in <cite path="31|09|15|.12|A.|(1)">§A(1) of this regulation</cite>, or if it would significantly change the amount or type of assets held for interest-indexed policies.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.13</num>
+    <heading>Sample Statement of Actuarial Opinion.</heading>
+    <text>The following form is a sample form that may be used for providing the statement of actuarial opinion as described in <cite path="|31|09|15|.12">Regulation .12 of this chapter</cite>:</text>
+    <text class="center">"Statement of Actuarial Opinion for Interest-Indexed Universal Life Insurance Policies</text>
+    <text>I, {insert name of actuary}, am {insert position or relationship to Insurer} for the XYZ Life Insurance Company (The Insurer) in the state of {Insert State of Domicile of Insurer}.</text>
+    <text>I am a member of the American Academy of Actuaries (or if not, state other qualifications to sign annual statement actuarial opinions).</text>
+    <text>I have examined the interest-indexed universal life insurance policies of the Insurer in force as of December 31, 20XX, encompassing _______ number of policies and $__________ of insurance in force.</text>
+    <text>I have considered the provisions of the policies. I have considered any reinsurance agreements pertaining to such policies, the characteristics of the identified assets, and the investment policy adopted by the Insurer as they affect future insurance and investment cash flows under such policies and related assets. My examination included such tests and calculations as I considered necessary to form an opinion concerning the insurance and investment cash flows arising from the policies and related assets.</text>
+    <text>I relied on the investment policy of the Insurer and on projected investment cash flows as provided by __________________________, Chief Investment Officer of the Insurer.</text>
+    <text>The tests were conducted under various assumptions as to future interest rates, and particular attention was given to those provisions and characteristics that might cause future insurance and investment cash flows to vary with changes in the level of prevailing interest rates.</text>
+    <text>In my opinion, the anticipated insurance and investment cash flows referred to above make good and sufficient provision for the contractual obligations of the Insurer under these insurance policies.</text>
+    <text>__________________________</text>
+    <text>Signature of Actuary"</text>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Insurance Article, §§<cite doc="Md. Code" path="gin|2-109">2-109</cite>, <cite doc="Md. Code" path="gin|5-312">5-312</cite>, <cite doc="Md. Code" path="gin|12-205">12-205</cite>(b)(<cite doc="Md. Code" path="gin|4">4</cite>) and (8), 16-310(c), and 27-208(a), Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="2010-09-06">Effective date: September 6, 2010 (37:18 Md. R. 1215)</annotation>
+  </annotations>
+</container>

@@ -1,0 +1,381 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>03</num>
+  <heading>Earned Compliance Credits</heading>
+  <section cache:ref-path="12|13|03|.01">
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Scope.</heading>
+    <para>
+      <num>A.</num>
+      <text>Except under <cite path="12|13|03|.01|B.">§B of this regulation</cite>, these regulations apply to individuals supervised by the Division of Parole and Probation on probation, parole, or mandatory supervision release.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>These regulations do not apply to an individual who is not a supervised individual.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>“Abatement” has the meaning stated in <cite doc="Md. Code" path="gcs|6-117">Correctional Services Article, §6-117, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>“Department” means the Department of Public Safety and Correctional Services.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>“Director” means the director of the Division of Parole and Probation.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>“Division” means the Division of Parole and Probation.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>“Earned compliance credit (ECC)” has the meaning stated in <cite doc="Md. Code" path="gcs|6-117">Correctional Services Article, §6-117, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>“Infraction” means an act or behavior committed by a supervised individual that is not in compliance with the supervised individual’s general or special conditions of supervised release.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>“Intervention” means a response to an infraction that does not require a Parole and Probation Agent or Drinking Driver Monitor to report the infraction to the sentencing court or Maryland Parole Commission.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>“Monitor” has the meaning stated in <cite path="12.10.01.01">COMAR 12.10.01.01</cite>.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>“Noncompliant” means a supervised individual who has received:</text>
+        <para>
+          <num>(a)</num>
+          <text>A sanction for a technical violation; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>An intervention for an infraction.</text>
+        </para>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>“Offender Case Management System (OCMS)” means the Department’s records management application and database.</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>“Parole and Probation Agent (agent)” has the meaning stated in <cite path="12.10.01.01">COMAR 12.10.01.01</cite>.</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>“Sanction” means a response to a technical violation that does require a Parole and Probation Agent or Drinking Driver Monitor to report the technical violation to the sentencing court of Maryland Parole Commission.</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>“Supervised individual” has the meaning stated in <cite doc="Md. Code" path="gcs|6-117">Correctional Services Article, §6-117, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>“Supervised release” includes the following or a combination of the following:</text>
+        <para>
+          <num>(a)</num>
+          <text>Parole;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Mandatory supervision release; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Probation.</text>
+        </para>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>“Technical violation” has the meaning stated in <cite doc="Md. Code" path="gcs|6-101">Correctional Services Article, §6-101, Annotated Code of Maryland</cite>.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="12|13|03|.03">
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Eligibility to Accrue Earned Compliance Credits.</heading>
+    <para>
+      <num>A.</num>
+      <text>Eligibility is a threshold determination which means that a supervised individual is permitted by law to receive ECC.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Eligibility to earn ECC is not a guarantee that a supervised individual will receive ECC.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Automated Eligibility Determination.</text>
+      <para>
+        <num>(1)</num>
+        <text>The Department shall automate eligibility for ECC.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Unless an individual is determined to be ineligible under <cite path="12|13|03|.03|D.">§D of this regulation</cite>, ECC shall be automatically awarded.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Review of Eligibility Determination.</text>
+      <para>
+        <num>(1)</num>
+        <text>If an agent or monitor has reason to question the automated eligibility determination that an individual under the supervision of the Division is eligible or ineligible to earn ECC, the agent or monitor shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Document the concern in writing;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Manually verify the individual’s eligibility; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Consult with a supervisor.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If an individual under the supervision of the Division has reason to question the automated eligibility determination, the individual may provide documentation supporting eligibility to the agent or monitor to be evaluated under <cite path="12|13|03|.03|D.|(1)">§D(1) of this regulation</cite>.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A supervisor who is provided information by an agent or monitor under §D(1) or (2) of this regulation shall review the material and consult with the appropriate authority to determine whether the affected individual has been improperly categorized in OCMS as eligible or ineligible for ECC.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>A supervisor, upon determining that an individual under the supervision of the Division is ineligible to earn ECC, shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Document the findings and reason for ineligibility; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Notify the individual in writing of the:</text>
+          <para>
+            <num>(i)</num>
+            <text>Determination of ineligibility to earn ECC; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Reason or reasons for the determination of ineligibility.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>A supervisor, upon determining that an individual under the supervision of the Division is eligible to earn ECC, shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Document the findings and reason for eligibility; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Notify the supervised individual in writing of the:</text>
+          <para>
+            <num>(i)</num>
+            <text>Determination of eligibility to earn ECC; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Reason or reasons for the determination of eligibility.</text>
+          </para>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>If the supervised individual participates in a problem solving court established under Md. Rule 16-207, an agent or monitor in conjunction with the Court shall determine if the supervised individual’s enrollment requires the supervised individual to waive abatement as described in <cite path="|12|13|03|.06|D.">Regulation .06D of this chapter</cite>.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Award of Earned Compliance Credits.</heading>
+    <para>
+      <num>A.</num>
+      <text>Automated Award of ECC.</text>
+      <para>
+        <num>(1)</num>
+        <text>If a supervised individual is compliant with all of the conditions of supervised release during a calendar month, the Division shall automatically award ECC resulting in:</text>
+        <para>
+          <num>(a)</num>
+          <text>A reduction of the period of the supervised individual’s supervised release by 20 days; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>An update of the supervised individual’s projected abatement eligibility date.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Division may not award partial ECC or prorate the accrual of ECC based on the number of days a supervised individual is under supervised release in a calendar month.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>An agent or monitor shall notify the:</text>
+      <para>
+        <num>(1)</num>
+        <text>Supervised individual once every 3 months, during the period of supervised release, of the supervised individual’s projected abatement eligibility date; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Sentencing court, Parole Commission, or both, as applicable, at least 90 calendar days before a supervised individual’s abatement date is reached, of the supervised individual’s projected abatement date.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A supervisor shall retract a supervised individual’s ECC if the ECC have been awarded erroneously.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Denial of Earned Compliance Credits.</heading>
+    <para>
+      <num>A.</num>
+      <text>An agent or monitor shall disqualify a supervised individual from receiving the monthly ECC if, during that month, the supervised individual:</text>
+      <para>
+        <num>(1)</num>
+        <text>Was noncompliant with a condition of supervision;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Was arrested, summoned, or indicted on a statement of charges;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Committed a violation of a criminal prohibition other than a minor traffic offense;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Committed a violation of a no contact or stay-away order; or</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Absconded from supervision.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>If a supervised individual is denied ECC during a calendar month, the agent or monitor shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Document the type of noncompliance committed;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Document the denial of ECC during the calendar month;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Notify the supervised individual in writing of the failure to earn ECC; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Encourage the supervised individual to comply with the terms and conditions of supervision release.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The agent or monitor shall retroactively award the denied ECC to the supervised individual if the sentencing court or the Parole Commission finds that the supervised individual was in compliance for an alleged  act of noncompliance that led to a denial of ECC under §§A and B of this regulation.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>If an agent or monitor’s denial of ECC is based on a failure of the supervised individual to make payment on a court-ordered financial obligation for a period exceeding 60 days, the supervised individual shall be retroactively awarded the denied ECC if:</text>
+      <para>
+        <num>(1)</num>
+        <text>The supervised individual satisfies the payment obligation within 60 days; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Court waives the supervised individual’s payment obligation.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Abatement.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Division shall place a supervised individual on abatement if the supervised individual:</text>
+      <para>
+        <num>(1)</num>
+        <text>Is not pending trial for a new criminal charge or technical violation;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Has satisfied the term of active supervised release; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Reached the supervised individual’s abatement eligibility date.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The Division shall not charge a supervision fee or program fee to a supervised individual whose supervised release has been abated.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A supervised individual whose supervised release is abated shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Obey all laws;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Obtain written permission from the Division before relocating residence outside of the State; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If applicable, continue to make payments on outstanding court-ordered restitution and any associated fees.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Except as set forth in <cite path="|12|13|03|.07">Regulation .07 of this chapter</cite>, a supervised individual whose active supervision term is abated shall remain on abated supervision status until the legal expiration date of the supervised individual’s probation, parole, or mandatory supervision release term is reached.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Consent to Continue Active Supervision. A supervised individual whose supervision is eligible for abatement may consent to continue active supervision until the legal expiration date of the supervised individual’s probation, parole, or mandatory supervision release is reached.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Abatement Rescission.</heading>
+    <para>
+      <num>A.</num>
+      <text>An agent or monitor shall inform the sentencing court, Parole Commission, or both, as applicable, if a supervised individual whose active supervision is abated violates a condition of the supervised individual’s probation or release order.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>If a court or the Parole Commission finds that a supervised individual whose active supervision is abated has violated a condition of probation, parole, or mandatory supervision release, as applicable, the court or Parole Commission may rescind the supervised individual’s abatement and order the supervised individual to be returned to active supervision.</text>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Correctional Services Article, §§<cite doc="Md. Code" path="gcs|2-109">2-109</cite>, <cite doc="Md. Code" path="gcs|6-101">6-101</cite>, and <cite doc="Md. Code" path="gcs|6-117">6-117</cite>, Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="2018-05-07">Effective date: May 7, 2018 (45:9 Md. R. 462)</annotation>
+  </annotations>
+</container>

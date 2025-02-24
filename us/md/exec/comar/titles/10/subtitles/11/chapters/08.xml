@@ -1,0 +1,233 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>08</num>
+  <heading>Abortion Care Disclosure</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Purpose.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>“ASTM Standards” means the standard consumer safety performance specifications for infant bedding and related accessories set by the American Society for Testing and Materials (ASTM).</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>“Baby bumper pads” means a pad or pads of non-mesh material resting directly above the mattress in a crib, running the circumference of the crib or along the length of any of the interior sides of the crib, and intended to be used until the age that an infant pulls to stand.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>“Department” means the Maryland Department of Health.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>“Hazardous material” has the meaning stated in Health-General Article, §22-501, Annotated Code of Maryland.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meaning indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>“Electronic health network” has the meaning stated in <cite path="10.25.09.02">COMAR 10.25.09.02</cite>.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>“Health information exchange” has the meaning stated in <cite path="10.25.18.02">COMAR 10.25.18.02</cite>.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>“Mifepristone data” means all medication or related codes pertaining to mifepristone use during any stage of pregnancy, and excludes any codes pertaining to the use of mifepristone for Cushing’s syndrome.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>“Protected Health Care Commission” means the group established under Health-General Article, §4-310, Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>“Secretary” means the Secretary of the Maryland Department of Health.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Abortion Care Codes.</heading>
+    <text>A health information exchange and an electronic health network shall restrict the disclosure of the abortion care medical diagnosis codes and current procedural terminology (CPT) codes listed in the tables below.</text>
+    <para>
+      <num>A.</num>
+      <text>List of Medical Diagnosis Codes.</text>
+      <text>
+        <table>
+          <tbody>
+            <tr>
+              <td data-text-align="center">International Classification of Diseases, Tenth Revision, Clinical Modification (ICD-10-CM) Code</td>
+              <td data-text-align="center">Description</td>
+            </tr>
+            <tr>
+              <td>O04—O04.89</td>
+              <td>Complications following (induced) termination of pregnancy</td>
+            </tr>
+            <tr>
+              <td>O07—O07.4</td>
+              <td>Failed attempted termination of pregnancy</td>
+            </tr>
+            <tr>
+              <td>O31.3—O31.33X9</td>
+              <td>Continuing pregnancy after selective reduction of one fetus or more</td>
+            </tr>
+            <tr>
+              <td>Z33.2</td>
+              <td>Encounter for elective termination of pregnancy</td>
+            </tr>
+          </tbody>
+        </table>
+      </text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>List of the Current Procedural Terminology (CPT®) Codes.</text>
+      <text>
+        <table>
+          <tbody>
+            <tr>
+              <td data-text-align="center">CPT® Code</td>
+              <td data-text-align="center">Description</td>
+            </tr>
+            <tr>
+              <td>59840</td>
+              <td>Induced abortion, by dilation and curettage</td>
+            </tr>
+            <tr>
+              <td>59841</td>
+              <td>Induced abortion, by dilation and evacuation</td>
+            </tr>
+            <tr>
+              <td>59850</td>
+              <td>Induced abortion, by 1 or more intra-amniotic injections, including hospital admission and visits, delivery of fetus and secundines</td>
+            </tr>
+            <tr>
+              <td>59851</td>
+              <td>Induced abortion, by 1 or more intra-amniotic injections, including hospital admission and visits, delivery of fetus and secundines; with dilation and curettage and/or evacuation</td>
+            </tr>
+            <tr>
+              <td>59852</td>
+              <td>Induced abortion, by 1 or more intra-amniotic injections, including hospital admission and visits, delivery of fetus and secundines; with hysterotomy (failed intra-amniotic injection)</td>
+            </tr>
+            <tr>
+              <td>59855</td>
+              <td>Induced abortion, by 1 or more vaginal suppositories (e.g. prostaglandin) with or without cervical dilation (e.g., laminaria), including hospital admission and visits, delivery of fetus and secundines</td>
+            </tr>
+            <tr>
+              <td>59856</td>
+              <td>Induced abortion, by 1 or more vaginal suppositories (e.g. prostaglandin) with or without cervical dilation (e.g., laminaria), including hospital admission and visits, delivery of fetus and secundines; with dilation and curettage and/or evacuation</td>
+            </tr>
+            <tr>
+              <td>59857</td>
+              <td>Induced abortion, by 1 or more vaginal suppositories (e.g. prostaglandin) with or without cervical dilation (e.g., laminaria), including hospital admission and visits, delivery of fetus and secundines; with hysterotomy (failed medical evacuation)</td>
+            </tr>
+            <tr>
+              <td>59866</td>
+              <td>Multifetal pregnancy reduction(s)</td>
+            </tr>
+          </tbody>
+        </table>
+      </text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Mifepristone Data Codes.</heading>
+    <text>A health information exchange and an electronic health network shall restrict the disclosure of mifepristone data Healthcare Common Procedure Coding System (HCPCS) codes and medication codes listed in the tables below.</text>
+    <para>
+      <num>A.</num>
+      <text>List of Healthcare Common Procedure Coding System ( HCPCS) Level 2 Codes.</text>
+      <text>
+        <table>
+          <tbody>
+            <tr>
+              <td data-text-align="center">HCPCS Level 2 Code</td>
+              <td data-text-align="center">Description</td>
+            </tr>
+            <tr>
+              <td>S0190</td>
+              <td>Mifepristone, oral, 200mg</td>
+            </tr>
+            <tr>
+              <td>S0199</td>
+              <td>Medically induced abortion by oral ingestion of medication including all associated services and supplies (e.g., patient counseling, office visits, confirmation of pregnancy by human chorionic gonadotropin (HCG), ultrasound to confirm duration of pregnancy, ultrasound to confirm completion of abortion) except drug/medications</td>
+            </tr>
+          </tbody>
+        </table>
+      </text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>List of Medication Codes.</text>
+      <text>
+        <table>
+          <tbody>
+            <tr>
+              <td data-text-align="center" data-vertical-align="bottom">National Drug Code</td>
+              <td data-text-align="center" data-vertical-align="bottom">Trade Name</td>
+              <td data-text-align="center" data-vertical-align="bottom">Labeler/Manufacturer</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="bottom">64875-0001-01</td>
+              <td data-vertical-align="bottom">Mifeprex (oral mifepristone)</td>
+              <td data-vertical-align="bottom">Danco</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="bottom">43393-001</td>
+              <td data-vertical-align="bottom">Generic mifepristone tablets</td>
+              <td data-vertical-align="bottom">GenBIOPro</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="bottom">43393-001-06</td>
+              <td data-vertical-align="bottom">Generic mifepristone tablets</td>
+              <td data-vertical-align="bottom">GenBIOPro</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="bottom">43393000106</td>
+              <td data-vertical-align="bottom">Generic mifepristone tablets</td>
+              <td data-vertical-align="bottom">GenBIOPro</td>
+            </tr>
+          </tbody>
+        </table>
+      </text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Restrictions on Disclosure of Mifepristone Data.</heading>
+    <text>Data is restricted in accordance with <cite path="|10.25.18">COMAR 10.25.18</cite> and <cite path="|10.25.07">COMAR 10.25.07</cite>.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Sensitive Health Services.</heading>
+    <text>The Secretary shall determine what sensitive health services are subject to restriction under this chapter based on the recommendations of the Protected Health Care Commission.</text>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Health-General Article, §4-302.5 Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="2024-09-16">Effective date: September 16, 2024 (51:18 Md. R. 809)</annotation>
+  </annotations>
+</container>
