@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>04</num>
+  <heading>Reporting Requirements for Lapse or Termination of Required Security</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Scope.</heading>
+    <text>These regulations apply to mandatory electronic reporting of lapses, terminations, reinstatements, and new policies of security required by Transportation Article, §§<cite doc="Md. Code" path="gtr|17-104">17-104</cite>(c) and <cite doc="Md. Code" path="gtr|17-106">17-106</cite>, Annotated Code of Maryland.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>"Administration" means the Motor Vehicle Administration.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>"Fleet policy" has the meaning as stated in <cite doc="Md. Code" path="gtr|17-101">Transportation Article, §17-101, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>"Immediately" means by the close of business on the next business day.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>"Lapse or termination" means interruption of continuous coverage caused by the failure of an insurer to renew the security required by <cite doc="Md. Code" path="gtr|17-103">Transportation Article, §17-103(b), Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>"Policy" means a vehicle policy or binder for required security as defined by §17-101(d), Annotated Code of Maryland, issued by an insurer or other provider of required security.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="11|18|04|.03">
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Reporting Guidelines.</heading>
+    <para>
+      <num>A.</num>
+      <text>Required Reporting.</text>
+      <para>
+        <num>(1)</num>
+        <text>Except as provided in <cite path="11|18|04|.03|A.|(2)">§A(2) of this regulation</cite>, insurance companies shall immediately report, in an electronic format determined by the Administration:</text>
+        <para>
+          <num>(a)</num>
+          <text>New policies;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Lapses;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Terminations;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Reinstatements, and</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Policy changes as specified under <cite path="11|18|04|.03|B.">§B of this regulation</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Insurance companies shall report, in an electronic format determined by the Administration, fleet policy coverage changes every 30 days, to include:</text>
+        <para>
+          <num>(a)</num>
+          <text>Company additions or deletions; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Policy number changes.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If an insurance company does not have any new polices, lapses, terminations, reinstatements, or policy changes as specified under <cite path="11|18|04|.03|B.">§B of this regulation</cite>, the insurance company shall submit a report of no business by the close of business on the last business day of the month.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Except as provided in <cite path="11|18|04|.03|A.|(2)">§A(2) of this regulation</cite> notifications of new policies, lapses, terminations, and reinstatements by an insurer shall include:</text>
+      <para>
+        <num>(1)</num>
+        <text>The name of the insured;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Maryland driver's license number or date of birth of the insured;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The make of the vehicle;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The model year of the vehicle;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The vehicle identification number (VIN);</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>The current policy number;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>The effective date of the policy; and</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>If applicable:</text>
+        <para>
+          <num>(a)</num>
+          <text>The cancellation date of the policy; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A type code, in a format required by the Administration, explaining the reason for the termination or lapse of coverage.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Rejected Notifications.</text>
+      <para>
+        <num>(1)</num>
+        <text>The Administration shall reject notifications of new policies, lapses, terminations, and reinstatements which do not include all of the items specified in <cite path="11|18|04|.03|B.">§B of this regulation</cite>.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The insurer shall resubmit notifications rejected under the provisions of <cite path="11|18|04|.03|C.|(1)">§C(1) of this regulation</cite> to the Administration as soon as practicable.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The insurer shall provide, at each occurrence when the required security will terminate or be canceled, timely notification to the insured of the penalties that may be imposed by the Administration in accordance with <cite doc="Md. Code" path="gtr|17-106">Transportation Article, §17-106, Annotated Code of Maryland</cite>, for their failure to return evidence of registration when the required security has ended and is not replaced. The notice shall include the following statements:</text>
+      <para>
+        <num>(1)</num>
+        <text>"The registration plates must be returned to the Motor Vehicle Administration on or before the date the insurance policy expires or is canceled"; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>"Failure to return the registration plates may result in an uninsured motorist penalty fine which is assessed at a rate of $150 for the first 30 days and is increased by $7 each day thereafter until the insurance is replaced or the registration plates are returned. The uninsured motorist penalty fine is assessed per vehicle."</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Insurance companies shall report, maintain, and update contact information, in a format required by the Administration, for the purpose of establishing and maintaining a database containing the proper address for providing notice to an insurer under <cite doc="Md. Code" path="gtr|21-10">Transportation Article §21-10</cite>A-04, Annotated Code of Maryland.</text>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Transportation Article, §§<cite doc="Md. Code" path="gtr|12-104">12-104</cite>(b), <cite doc="Md. Code" path="gtr|17-101">17-101</cite>, <cite doc="Md. Code" path="gtr|17-103">17-103</cite>, <cite doc="Md. Code" path="gtr|17-104">17-104</cite>, and <cite doc="Md. Code" path="gtr|17-106">17-106</cite>; <cite doc="Md. Code" path="gin|27-611">Insurance Article, §27-611</cite>; Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="1995-10-09">Effective date: October 9, 1995 (22:20 Md. R. 1545)</annotation>
+    <annotation type="History" dest="container" effective="2013-01-07">Regulation .01 amended as an emergency provision effective October 1. 2012 (39:20 Md. R. 1304); amended permanently effective January 7, 2013 (39:26 Md. R. 1665)</annotation>
+    <annotation type="History" dest="container" effective="2013-01-07">Regulation .02B amended as an emergency provision effective October 1. 2012 (39:20 Md. R. 1304); amended permanently effective January 7, 2013 (39:26 Md. R. 1665)</annotation>
+    <annotation type="History" dest="container" effective="2001-07-23">Regulation .03 amended effective July 23, 2001 (28:14 Md. R. 1323)</annotation>
+    <annotation type="History" dest="container" effective="2013-01-07">Regulation .03 amended as an emergency provision effective October 1. 2012 (39:20 Md. R. 1304); amended permanently effective January 7, 2013 (39:26 Md. R. 1665)</annotation>
+  </annotations>
+</container>

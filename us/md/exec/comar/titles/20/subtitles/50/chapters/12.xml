@@ -1,0 +1,1705 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>12</num>
+  <heading>Service Quality and Reliability Standards</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Applicability.</heading>
+    <text>These regulations apply to an electric company under Commission jurisdiction with a total number of 40,000 or more customers served in Maryland.</text>
+  </section>
+  <section cache:ref-path="20|50|12|.02">
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>System-Wide Reliability Standards.</heading>
+    <para>
+      <num>A.</num>
+      <text>Reliability Data. Each utility shall collect and maintain the data required to:</text>
+      <para>
+        <num>(1)</num>
+        <text>Provide in its annual performance reports the reliability information specified in this regulation; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Demonstrate compliance with the reliability standards.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Reliability Reporting Period.</text>
+      <para>
+        <num>(1)</num>
+        <text>Except as otherwise provided in <cite path="20|50|12|.02|B.|(2)">§B(2) of this regulation</cite>, the data used by a utility to determine annual reliability performance shall be from the immediately preceding calendar year.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The data used by a utility to determine the poorest performing feeders and multiple device activations shall include outage data from the 12-month period ending September 30 of the immediately preceding calendar year.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Reliability Standards — System-Wide Indices.</text>
+      <para>
+        <num>(1)</num>
+        <text>A utility shall collect and maintain the data necessary to report CAIDI, SAIDI, and SAIFI for its system and each operating district, consisting of all feeders assigned to Maryland under Regulation .03D of this chapter.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>For an investor-owned utility, each index shall be calculated and reported in the annual performance report using the following sets of input data:</text>
+        <para>
+          <num>(a)</num>
+          <text>All interruption data, including and excluding planned outages;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>All interruption data minus major outage event interruption data; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>For the calendar year 2020 and each calendar year thereafter, all interruption data minus the Institute of Electrical and Electronics Engineers' (IEEE) major event days.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>For cooperatively owned utilities, each index shall be calculated and reported in the annual performance report using the following sets of input data:</text>
+        <para>
+          <num>(a)</num>
+          <text>All interruption data, including and excluding planned outages;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>All interruption data minus major outage event interruption data;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>For the calendar year 2020 and each calendar year thereafter, all interruption data minus the Institute of Electrical and Electronics Engineers' (IEEE) major event days;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>All interruption data minus major outage event interruption data and minus outage data resulting from an outage event occurring on another utility's electric system; and</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>For the calendar year 2020 and each calendar year thereafter, all interruption data minus the Institute of Electrical and Electronics Engineers' (IEEE) major event days minus outage data resulting from an outage event occurring on another utility's electric system.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>SAIDI and SAIFI Standards.</text>
+      <para>
+        <num>(1)</num>
+        <text>The SAIDI in minutes and SAIFI reliability standards for the calendar years noted and thereafter, unless changed by the Commission, are as follows:</text>
+        <text>
+          <table>
+            <tbody>
+              <tr>
+                <td colspan="6">(a) Baltimore Gas and Electric Company.</td>
+              </tr>
+              <tr>
+                <td proof="needed"/>
+                <td>2023</td>
+                <td>2024</td>
+                <td>2025</td>
+                <td>2026</td>
+                <td>2027</td>
+              </tr>
+              <tr>
+                <td>SAIDI</td>
+                <td>103.0</td>
+                <td>89.0</td>
+                <td>87.0</td>
+                <td>86.0</td>
+                <td>85.0</td>
+              </tr>
+              <tr>
+                <td>SAIFI</td>
+                <td>0.83</td>
+                <td>0.87</td>
+                <td>0.84</td>
+                <td>0.83</td>
+                <td>0.83</td>
+              </tr>
+              <tr>
+                <td colspan="5">(b) Delmarva Power &amp; Light Company.</td>
+                <td proof="needed"/>
+              </tr>
+              <tr>
+                <td proof="needed"/>
+                <td>2023</td>
+                <td>2024</td>
+                <td>2025</td>
+                <td>2026</td>
+                <td>2027</td>
+              </tr>
+              <tr>
+                <td>SAIDI</td>
+                <td>88.0</td>
+                <td>77.4</td>
+                <td>77.4</td>
+                <td>77.4</td>
+                <td><strong>77</strong>.4</td>
+              </tr>
+              <tr>
+                <td>SAIFI</td>
+                <td>1.09</td>
+                <td>1.03</td>
+                <td>1.03</td>
+                <td>1.03</td>
+                <td>1.03</td>
+              </tr>
+              <tr>
+                <td colspan="6">(c) Potomac Edison Company.</td>
+              </tr>
+              <tr>
+                <td proof="needed"/>
+                <td>2023</td>
+                <td>2024</td>
+                <td>2025</td>
+                <td>2026</td>
+                <td>2027</td>
+              </tr>
+              <tr>
+                <td>SAIDI</td>
+                <td>142.0</td>
+                <td>142.0</td>
+                <td>142.0</td>
+                <td>142.0</td>
+                <td>142.0</td>
+              </tr>
+              <tr>
+                <td>SAIFI</td>
+                <td>1.06</td>
+                <td>1.05</td>
+                <td>1.05</td>
+                <td>1.05</td>
+                <td>1.05</td>
+              </tr>
+              <tr>
+                <td colspan="6">(d) Potomac Electric Power Company.</td>
+              </tr>
+              <tr>
+                <td proof="needed"/>
+                <td>2023</td>
+                <td>2024</td>
+                <td>2025</td>
+                <td>2026</td>
+                <td>2027</td>
+              </tr>
+              <tr>
+                <td>SAIDI</td>
+                <td>86.0</td>
+                <td>72.0</td>
+                <td>68.4</td>
+                <td>66.0</td>
+                <td>66.0</td>
+              </tr>
+              <tr>
+                <td>SAIFI</td>
+                <td>0.89</td>
+                <td>0.80</td>
+                <td>0.74</td>
+                <td>0.70</td>
+                <td>0.70</td>
+              </tr>
+              <tr>
+                <td colspan="6">(e) Southern Maryland Electric Cooperative, Inc.</td>
+              </tr>
+              <tr>
+                <td proof="needed"/>
+                <td>2023</td>
+                <td>2024</td>
+                <td>2025</td>
+                <td>2026</td>
+                <td>2027</td>
+              </tr>
+              <tr>
+                <td>SAIDI</td>
+                <td>133.2</td>
+                <td>132.9</td>
+                <td>132.7</td>
+                <td>132.6</td>
+                <td>132.5</td>
+              </tr>
+              <tr>
+                <td>SAIFI</td>
+                <td>1.28</td>
+                <td>1.27</td>
+                <td>1.27</td>
+                <td>1.26</td>
+                <td>1.26</td>
+              </tr>
+            </tbody>
+          </table>
+        </text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Each investor-owned utility's annual SAIDI and SAIFI reliability standard shall be measured against its system-wide annual SAIDI and SAIFI result, including all interruption data minus major outage event interruption data and consisting of all feeders assigned to Maryland under Regulation .03D of this chapter.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>For the calendar year 2020 and each calendar year thereafter, each investor-owned utility's annual SAIDI and SAIFI reliability standard shall be measured against its system-wide annual SAIDI and SAIFI result, including all interruption data minus the Institute of Electrical and Electronics Engineers' (IEEE) major event days and consisting of all feeders assigned to Maryland under Regulation .03D of this chapter.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Each cooperatively owned utility's annual SAIDI and SAIFI reliability standard shall be measured against its system-wide annual SAIDI and SAIFI result, including all interruption data minus major outage event interruption data and minus outage data resulting from an outage event occurring on another utility's electric system.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>For the calendar year 2020 and each calendar year thereafter, each cooperatively owned utility's annual SAIDI and SAIFI reliability standard shall be measured against its system-wide annual SAIDI and SAIFI result, including all interruption data minus the Institute of Electrical and Electronics Engineers' (IEEE) major event days minus outage data resulting from an outage event occurring on another utility's electric system.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>A utility's annual SAIDI result shall be equal to or less than its annual SAIDI reliability standard established in <cite path="20|50|12|.02|D.|(1)">§D(1) of this regulation</cite>.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>A utility's annual SAIFI result shall be equal to or less than its annual SAIFI reliability standard established in <cite path="20|50|12|.02|D.|(1)">§D(1) of this regulation</cite>.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>SAIDI and SAIFI Standards after 2015.</text>
+        <para>
+          <num>(a)</num>
+          <text>For the calendar year 2016 and each calendar year thereafter, the Commission shall establish SAIDI and SAIFI reliability standards and any other appropriate reliability requirements for each utility.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>By March 1, 2014 and every 4 years thereafter, unless otherwise directed by the Commission, each utility:</text>
+          <para>
+            <num>(i)</num>
+            <text>Shall file proposed annual SAIDI and SAIFI reliability standards for its Maryland service territory;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Shall file corresponding cost estimates associated with meeting the proposed SAIDI and SAIFI reliability standards as specified by the Commission; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>May propose any other appropriate reliability requirement for the Commission's consideration along with supporting comments.</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The proposed annual SAIDI and SAIFI reliability standards filed by each utility shall be for a 4-calendar-year period, at a minimum.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>If a utility fails to satisfy the standard §D(6) or (7) of this regulation, it shall provide a corrective action plan, preferably in its annual performance report but by no later than April 1.</text>
+    </para>
+  </section>
+  <section cache:ref-path="20|50|12|.03">
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Poorest Performing Feeder Standard.</heading>
+    <para>
+      <num>A.</num>
+      <text>Poorest Performing Feeder Standard for Feeders Assigned to Maryland.</text>
+      <para>
+        <num>(1)</num>
+        <text>A utility shall report in its annual performance report CAIDI, SAIDI, and SAIFI indices for all feeders assigned to Maryland that are identified by the utility as having the poorest feeder reliability.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>For each utility, each index shall be calculated and reported in the annual performance report using all interruption data, and all interruption data minus the following exclusions:</text>
+        <para>
+          <num>(a)</num>
+          <text>Source loss, including any outage that occurs on the feeder by an event occurring external to the feeder;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Major outage events; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Planned outages.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>For each utility, the feeders with poorest reliability shall be all feeders having circuit reliability performance 250 percent or more above the utility's System-Wide SAIFI and SAIDI, which shall be calculated in accordance with the exclusions identified in <cite path="20|50|12|.03|A.|(2)">§A(2) of this regulation</cite>.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>No feeder shall appear in a utility's list of poorest performing feeders during three consecutive 12-month reporting periods, unless the utility has undertaken reasonable remediation measures to improve the performance of the feeder.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Poorest Performing Feeder Standard for Feeders Not Assigned to Maryland.</text>
+      <para>
+        <num>(1)</num>
+        <text>For each feeder not assigned to Maryland that serves more than ten Maryland customers, the utility shall report the feeder in its annual performance report and the feeder's CAIDI, SAIDI, and SAIFI indices, if the feeder would have been included on the poorest performing feeder list but for the fact that the feeder is not assigned to Maryland.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>For each feeder included in <cite path="20|50|12|.03|B.|(1)">§B(1) of this regulation</cite>, the utility shall report the number of customers located in Maryland and the number of customers located in a bordering jurisdiction.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>For each feeder reported in <cite path="20|50|12|.03|B.|(1)">§B(1) of this regulation</cite>, the utility shall implement reasonable remediation measures to improve the performance of the feeder portion serving Maryland customers, which measures shall be described by the utility in its annual performance report. If implementing a remediation plan is not reasonable, the utility shall provide an explanation of its decision in its annual performance plan.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The reliability indices and method for identifying the performance of feeders under this provision shall be consistent with §A(2), (3), and (4) of this regulation.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Evaluation of Remedial Actions. For the feeders that are identified as having the poorest performance, the utility shall provide the following information:</text>
+      <para>
+        <num>(1)</num>
+        <text>In the annual performance report in which the feeders are identified as requiring reasonable remediation measures, a brief description of the actions taken or proposed, if any, to improve reliability and the actual or expected completion date of the action; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>In the five subsequent annual performance reports, the performance of the feeder shall be reported with its performance ranking.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Feeders Assigned to Maryland.</text>
+      <para>
+        <num>(1)</num>
+        <text>All feeders of a utility that serve only Maryland customers are assigned to Maryland.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>For a utility that has one or more feeders that serve a Maryland customer and at least one customer in a bordering jurisdiction:</text>
+        <para>
+          <num>(a)</num>
+          <text>The feeders used in determining the utility's system-wide SAIDI and SAIFI performance results as reported to the Commission by the utility's 2010 annual reliability report shall be assigned to Maryland unless otherwise directed by the Commission;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The utility may not change the assignment list without Commission approval; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>For a new feeder added to the utility's system, or an existing feeder that is modified, that serves more than ten Maryland customers and at least one customer in a bordering jurisdiction, the utility shall file notice with the Commission advising of the feeder's assignment.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>If a utility fails to satisfy the standard in <cite path="20|50|12|.03|A.|(4)">§A(4) of this regulation</cite> with respect to a feeder assigned to Maryland, it shall provide a corrective action plan, preferably in its annual performance report but by no later than April 1.</text>
+    </para>
+  </section>
+  <section cache:ref-path="20|50|12|.04">
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Multiple Device Activation Standard.</heading>
+    <para>
+      <num>A.</num>
+      <text>Each utility shall report in its annual performance report the number of protective devices that activated five or more times during the prior 12-month reporting period specified in Regulation .02B(2) of this chapter causing sustained interruptions in electric service, excluding major outage events and planned outages, to more than ten Maryland customers.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>For each device referenced in <cite path="20|50|12|.04|A.">§A of this regulation</cite>, the utility shall evaluate and report in its annual performance report the cause for the multiple activations.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>For each device referenced in <cite path="20|50|12|.04|A.">§A of this regulation</cite>, the utility shall implement reasonable remediation measures to reduce the number of activations and describe the measures in its annual performance report.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>For each device referenced in <cite path="20|50|12|.04|A.">§A of this regulation</cite>, the device shall not experience five or more activations, including all customer sustained interruption data, during three consecutive 12- month reporting periods, unless the utility has undertaken reasonable remediation measures to improve the performance of the device.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>If a utility fails to satisfy the standard in <cite path="20|50|12|.04|D.">§D of this regulation</cite>, it shall provide a corrective action plan, preferably in its annual performance report but by no later than April 1.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Additional Reliability Indices Reporting.</heading>
+    <para>
+      <num>A.</num>
+      <text>A utility shall calculate and report in its supplemental annual performance report the following annual reliability information for its Maryland service territory:</text>
+      <para>
+        <num>(1)</num>
+        <text>All IEEE major event days;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Dates of all IEEE major event days; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Number of customers impacted by the IEEE major event day events.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A utility shall calculate and report in its supplemental annual performance report an annual (CEMIn) for customers experiencing two or more (CEMI2),  four or more (CEMI4), six or more (CEMI6), and eight or more (CEMI8) sustained interruptions unless it does not have the means to make the calculation, in which case it shall provide an explanation of the reason, and an estimate of the cost to provide the information in the future. A utility shall calculate and report:</text>
+      <para>
+        <num>(1)</num>
+        <text>CEMI2, CEMI4, CEMI6, CEMI8, excluding major outage events; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>CEMI2, CEMI4, CEMI6, CEMI8, including major outage events.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A utility shall calculate and report in its supplemental annual performance report an annual (MAIFIE) for its Maryland service territory unless it does not have the means to make the calculation, in which case it shall provide MAIFI and an explanation of the Utility's limitation as well as estimated cost to furnish MAIFIE information going forward. A utility shall calculate and report:</text>
+      <para>
+        <num>(1)</num>
+        <text>MAIFIE excluding major outage events; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>MAIFIE including major outage events.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="20|50|12|.06">
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Service Interruption Standard.</heading>
+    <para>
+      <num>A.</num>
+      <text>During each calendar year, a utility shall restore service within 8 hours, measured from when the utility knew or should have known of the outage, to at least 92 percent of its customers experiencing sustained interruptions during normal conditions.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>During each calendar year, a utility shall restore service within 50 hours, measured from when the utility knew or should have known of the outage, to at least 95 percent of its customers experiencing sustained interruptions during major outage events where the total number of sustained interruptions is less than or equal to 400,000 or 40 percent of the utility's total number of customers, whichever is less.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>If more than one major outage event subject to the standard set forth in <cite path="20|50|12|.06|B.">§B of this regulation</cite> occurs during a calendar year, the restoration percentage shall be calculated by giving equal weight to all sustained interruptions occurring during the major outage events.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>During each calendar year, a utility shall restore service as quickly and safely as permitted to its customers experiencing sustained interruptions during each major outage event in which the total number of sustained interruptions is greater than 400,000 or 40 percent of the utility's total number of customers, whichever is less.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>If a utility fails to satisfy the standard in §A, B or D of this regulation during the previous calendar year, it shall provide a corrective action plan, preferably in its annual performance report but by no later than April 1.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>In the calendar year these regulations become effective, §§A and B of this regulation shall apply from the effective date of the regulations until the end of the calendar year.</text>
+    </para>
+  </section>
+  <section cache:ref-path="20|50|12|.07">
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Downed Wire Response Standard.</heading>
+    <para>
+      <num>A.</num>
+      <text>Considering data for normal and major outage event conditions for a calendar year, each utility shall respond to a government emergency responder guarded downed electric utility wire within 3 hours after notification by a fire department, police department, or 911 emergency dispatcher at least 90 percent of the time.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>If a utility fails to satisfy the standard in <cite path="20|50|12|.07|A.">§A of this regulation</cite> during the previous calendar year, it shall provide a corrective action plan, preferably in its annual performance report but by no later than April 1.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Each utility shall coordinate its response to a government emergency responder guarded downed electric wire consistent with any program established by a fire department, police department, or 911 emergency dispatcher.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Each utility shall exercise reasonable care to reduce the potential hazard caused by a downed electric wire to which its employees, its customers, and the general public may be subjected.</text>
+    </para>
+  </section>
+  <section cache:ref-path="20|50|12|.08">
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Customer Communications Standards.</heading>
+    <para>
+      <num>A.</num>
+      <text>Customer Telephone Call Answer Time Standard. Each utility shall answer within 30 seconds, on an annual basis, at least 75 percent of all calls offered to the utility for customer service or outage reporting purposes.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Abandoned Call Rate Standard. Each utility shall achieve an annual average abandoned call percentage rate of 5 percent or less, calculated by dividing the total number of abandoned calls by the total number of calls offered to the utility for customer service or outage reporting purposes.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Busy Signals. Each utility shall design its telecommunications systems to accommodate expected volumes of customer calls with minimal or, if possible, no customer busy signals during both normal conditions and major outage events.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Other Customer Communications Information. Each utility shall state in its supplemental annual performance report:</text>
+      <para>
+        <num>(1)</num>
+        <text>Based solely upon those calls offered to its customer service representatives:</text>
+        <para>
+          <num>(a)</num>
+          <text>The percentage of calls that are answered within 30 seconds; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The abandoned call percentage rate; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The average speed of answer, which shall be calculated by dividing the total amount of time callers spend in queue after requesting to speak to a customer service representative through the automated voice response system by the total number of calls handled, including calls handled by the automated voice response system.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>First Call Resolution. Each utility shall measure the percentage of customer issues resolved that are reported to the utility in a single interaction with its customer service representatives.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Average Handling Time. Each utility shall measure an average amount of time needed to resolve a customer's request. This includes any time spent on holds, delays, or follow-up actions necessary to fulfill the customer's needs.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Vulnerable Individuals Notified Before Storms. Each utility shall measure the percentage of vulnerable individual customers notified in advance of a storm event.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Customer Communications Standards Period.</text>
+      <para>
+        <num>(1)</num>
+        <text>Each standard in this regulation is measured using the 12-month period ending December 31.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>For the calendar year in which the regulations become effective, the standards shall be measured from the date the regulations are effective until and including December 31 of that year for reporting purposes only.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Reporting. Each utility shall report its year-ending performance in its annual performance report.</text>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Except as otherwise set forth in <cite path="20|50|12|.08|D.">§D of this regulation</cite>, the standards in this regulation shall apply to customer calls offered to or received by a utility's call overflow system or a third-party vendor retained by the utility.</text>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>Corrective Action Plan. If a utility fails to satisfy the standard in §A, B or C, of this regulation, it shall provide a corrective action plan, preferably in its annual performance report but by no later than April 1.</text>
+    </para>
+  </section>
+  <section cache:ref-path="20|50|12|.09">
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Vegetation Management Requirements.</heading>
+    <para>
+      <num>A.</num>
+      <text>Intent and Scope.</text>
+      <para>
+        <num>(1)</num>
+        <text>It is the intent of the Commission that a utility engage in vegetation management programs that are necessary and appropriate to maintain safety and electric system reliability.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The standards set forth in this regulation shall constitute minimum vegetation management requirements applicable to utilities in the State, and are not intended to supersede or prohibit a utility's implementation of more aggressive vegetation management standards and practices.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The vegetation management requirements in this chapter apply to the extent not limited by contract rights, property rights, or any controlling law or regulation of any unit of State or local government.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>This regulation applies to any electric transmission plant not regulated by the Federal Energy Regulatory Commission.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Technical Standards for Vegetation Management.</text>
+      <para>
+        <num>(1)</num>
+        <text>Each utility shall ensure that vegetation management conducted on its energized plant is performed in accordance with the standards applicable to Maryland Licensed Tree Experts, which are incorporated by reference under <cite path="08.07.07.02">COMAR 08.07.07.02</cite>.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Each utility's vegetation management program shall address, at a minimum, all of the following activities:</text>
+        <para>
+          <num>(a)</num>
+          <text>Tree pruning and removal;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Vegetation management around poles, substations, and energized overhead electric plant;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Manual, mechanical, or chemical vegetation management along rights-of-way;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Inspection of areas where vegetation management is performed after the vegetation management;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Cultural control practices;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Public education regarding vegetation management practices;</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>Public and customer notice of planned vegetation management activities; and</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>Debris management during routine vegetation management and during outage restoration efforts.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Each utility using a call center to handle vegetation management calls shall adopt a script or job aid that is specifically catered to vegetation management practices for usage by call center representatives.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Each utility shall perform periodic reviews of its vegetation management complaints with the goal of improving its complaint resolution process, as necessary.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Each utility shall develop its own vegetation management program, which shall be consistent with this regulation. In developing the program, a utility shall conduct its vegetation management and determine the extent and priority of vegetation management to be performed at a particular site based on these factors:</text>
+        <para>
+          <num>(a)</num>
+          <text>The extent of the potential for vegetation to interfere with poles, substations, and energized overhead electric plant;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The voltage of the affected energized conductor, with higher voltages requiring larger clearances;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The relative importance of the affected energized conductor in maintaining safety and reliability;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>The type of conductors and type of overhead construction;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>The likely regrowth rate for each species of vegetation at the site;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>The potential movement of energized conductors and vegetation during various weather conditions;</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>The utility's legal rights to access the area where vegetation management is to be performed;</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>The maturity of the vegetation;</text>
+        </para>
+        <para>
+          <num>(i)</num>
+          <text>The identification of the structural condition of the vegetation, including the characteristics of a species as one having a high probability of causing a service interruption during weather events;</text>
+        </para>
+        <para>
+          <num>(j)</num>
+          <text>State and local statutes, regulations, or ordinances affecting utility performance of vegetation management;</text>
+        </para>
+        <para>
+          <num>(k)</num>
+          <text>Customer or owner of the property acceptance of the proposed vegetation management where the utility does not have legal rights to perform vegetation management; and</text>
+        </para>
+        <para>
+          <num>(l)</num>
+          <text>Any other appropriate factor approved by the Commission.</text>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Each utility shall file a copy of its vegetation management program with the Commission within 90 days of the effective date of this regulation. If a utility makes a change in its vegetation management program, the utility shall file a copy of the change with the Commission no later than 30 days prior to implementing the change, unless exigent circumstances warrant implementation without prior notice, in which case the change shall be filed by no later than 30 days after implementation.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Training, Record Keeping, and Reporting.</text>
+      <para>
+        <num>(1)</num>
+        <text>Each utility shall adopt standards, to the extent not covered by other existing law, to be used by all persons who perform vegetation management for the utility, whether employees or contractors, for the proper care of trees and other woody plants, including safety practices and line clearance techniques.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The utility shall monitor and document scheduled vegetation management and related activities the utility or its contractor performs. Documentation shall include, but is not limited to:</text>
+        <para>
+          <num>(a)</num>
+          <text>Identification of each circuit or substation or, if applicable, both circuit and substation where vegetation management was performed;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The type of vegetation management performed including removal, trimming, and spraying and methods used;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The name of the Maryland Licensed Tree Expert responsible for oversight of vegetation management at the circuit or substation level;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>The approximate date of activity;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Any occurrence resulting in serious injury to a person as a result of vegetation management activities; and</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>When a utility seeks to remove a tree or limb, but is unable to do so because permission or cooperation is not obtained.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Each utility shall include a summary of the information required under <cite path="20|50|12|.09|C.|(2)">§C(2) of this regulation</cite> about its vegetation management during the preceding calendar year, and shall describe vegetation management planned for the current calendar year, as part of the annual performance report required to be filed with the Commission under Regulation .11 of this chapter. The annual performance report also shall include:</text>
+        <para>
+          <num>(a)</num>
+          <text>Expenditures for vegetation management measured using all-in vegetation management costs in the preceding calendar year;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Vegetation management budget for the current calendar year;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Circuits or substations, completion dates, and the estimated number of overhead circuit miles trimmed in the preceding calendar year in compliance with the cyclical vegetation management requirements set forth under <cite path="20|50|12|.09|F.">§F of this regulation</cite>;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Circuits or substations and the estimated number of overhead circuit miles scheduled for the current calendar year in compliance with the cyclical vegetation management requirements set forth under <cite path="20|50|12|.09|F.">§F of this regulation</cite>;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Total overhead circuit miles for the system; and</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>If applicable, a corrective action plan, preferably in its annual performance report or, if necessary, in the supplemental annual performance report.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Each utility shall report its own violation of this chapter to the Commission within 60 days of discovery and include its plan for correcting each violation.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Public Notice of Planned Vegetation Management.</text>
+      <para>
+        <num>(1)</num>
+        <text>Each utility shall make a reasonable attempt to notify an owner or occupant of all properties upon which cyclical, planned vegetation management is to be performed. This requirement will be satisfied if the utility provides notice to affected property owners or occupants at least 7 days, but not more than 120 days, prior to performing cyclical, planned vegetation management activity. Notice shall be provided by direct mailing, door hanger, postcard, personal contact, or a different method if approved by the Commission, but may not be made solely by bill insert. All direct mailings, door hangers, postcards, or any other method approved by the Commission shall include the contact information of a dedicated group for customers to call for further information. Nothing in this regulation prohibits a utility from using more than one of these methods.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Each utility or its contractor shall provide written notice of any cyclical, planned vegetation management activities to a primary contact for each county and municipality affected at least 2 months before commencing the activities unless the county or municipality notifies the utility that written notification is not required.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Each utility shall include on its website general information about upcoming vegetation management planned work and shall include a link or reference to the Maryland Department of Natural Resources' website for additional information about tree experts and related information.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>For all tree removals that have been readily identified on residential properties, each utility shall proactively contact the customer or owner of the property to discuss the removal of the tree prior to performing the work.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Each utility shall provide the option for customers or the owner of the property to have direct communication with a utility vegetation management representative within 7 business days.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Outreach Programs.</text>
+      <para>
+        <num>(1)</num>
+        <text>Each utility shall conduct an annual public education program to inform its customers, as well as a primary contact for each county and municipality in the utility's service territory, of the importance of vegetation management, and of the utility's role and responsibility in managing vegetation near electric lines, poles, and substations.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The public education program required under this section shall be implemented by direct mail, bill inserts, or a different method if approved by the Commission.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Each utility shall post its vegetation management public education materials on its website.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Specific Requirements. Each utility shall perform vegetation management based on the following schedule:</text>
+      <para>
+        <num>(1)</num>
+        <text>Initially beginning on January 1 of the year immediately following the effective date of this regulation, a utility on a 4-year trim cycle shall within:</text>
+        <para>
+          <num>(a)</num>
+          <text>12 months perform vegetation management on not less than 15 percent of its total distribution miles;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>24 months perform vegetation management on not less than 40 percent of its total distribution miles;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>36 months perform vegetation management on not less than 70 percent of its total distribution miles; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>4 years perform vegetation management on not less than 100 percent of its total distribution miles.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Initially beginning on January1 of the year immediately following the effective date of this regulation, a utility on a 5-year trim cycle shall within:</text>
+        <para>
+          <num>(a)</num>
+          <text>12 months perform vegetation management on not less than 12 percent of its total distribution miles;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>24 months perform vegetation management on not less than 32 percent of its total distribution miles;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>36 months perform vegetation management on not less than 56 percent of its total distribution miles;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>48 months perform vegetation management on not less than 75 percent of its total distribution miles; and</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>5 years perform vegetation management on not less than 100 percent of its total distribution miles.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Each utility shall follow the vegetation management performance requirement under §F(1) or (2) of this regulation for each subsequent trim cycle.</text>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Vegetation management shall be performed based on the factors set forth under <cite path="20|50|12|.09|B.|(3)">§B(3) of this regulation</cite>. The following minimum clearances shall be obtained at the time vegetation management is conducted to the extent not limited by contract rights, property rights or other controlling legal authority:</text>
+      <para>
+        <num>(1)</num>
+        <text>Horizontal clearances:</text>
+        <para>
+          <num>(a)</num>
+          <text>Greater than 34.5 kV: The clearance from the conductors shall be the greater of 15 feet or 4 years' growth if using a 4-year trim cycle (or 5 years' growth if using a 5-year trim cycle). Horizontal clearance beneath the conductors shall be measured radially.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>From 14 kV to 34.5 kV: The clearance from the conductors shall be the greater of 10 feet or 4 years' growth if using a 4-year trim cycle (or 5 years' growth if using a 5-year trim cycle). Horizontal clearance beneath the conductors shall be measured radially.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Less than 14 kV but at least 600 volts: The clearance from the conductors shall be 4 years' growth if using a 4-year trim cycle (or 5 years' growth if using a 5-year trim cycle). Horizontal clearance beneath the conductors shall be measured radially.</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>For a conductor with a voltage from 14 kV to 34.5 kV which is operated only as a distribution feeder, the horizontal clearance shall be as set forth under <cite path="20|50|12|.09|G.|(1)|(c)">§G(1)(c) of this regulation</cite> as if its voltage were less than 14 kV but at least 600 volts.</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>The horizontal clearances are the minimum clearances the utility shall establish during each cyclical planned vegetation management trim cycle.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Vertical clearances:</text>
+        <para>
+          <num>(a)</num>
+          <text>Greater than 34.5 kV: The vertical clearance above the conductors shall be established by removing all overhanging limbs within the maximum horizontal clearance zone specified under <cite path="20|50|12|.09|G.|(1)|(a)">§G(1)(a) of this regulation</cite>. The vertical clearance below the conductors shall be the greater of 15 feet or 4 years' growth (or 5 years' growth if using a 5-year trim cycle). The vertical clearance below the conductors shall be measured radially. See Figure No. 1</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>From 14 kV to 34.5 kV: The vertical clearance above the conductors shall be established by removing all overhanging limbs above the conductors within the horizontal clearance zone specified under <cite path="20|50|12|.09|G.|(1)|(b)">§G(1)(b) of this Regulation</cite>. The vertical clearance below the conductors shall be the greater of 10 feet or 4 years' growth (or 5 years' growth if using a 5-year trim cycle). The vertical clearance below the conductors shall be measured radially. See Figure No. 2.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Less than 14 kV but at least 600 volts:</text>
+          <para>
+            <num>(i)</num>
+            <text>Multiple open wires on a cross-arm or armless construction from the substation to the first protective device: The vertical clearance above the conductors shall be established by removing all overhanging limbs above the conductors within the horizontal clearance zone specified under <cite path="20|50|12|.09|G.|(1)|(c)">§G(1)(c) of this regulation</cite>. The vertical clearance below the conductors shall be 4 years' growth (or 5 years' growth if using a 5-year trim cycle). The vertical clearance below the conductors shall be measured radially. See Figure 3.</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Except as provided in §G(2)(c)(i) for multiple open wires on a cross-arm or armless construction, the vertical clearance above the conductors shall be 15 feet. The vertical clearance below the conductors shall be 4 years' growth (or 5 years' growth if using a 5-year trim cycle). The vertical clearances above and below the conductor shall be measured radially.</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Spacer cable, tree wire with messenger cable above, aerial cable, and single-phase: The vertical clearance above the conductors shall be 6 feet. The vertical clearance below the conductors shall be 4 years' growth (or 5 years' growth if using a 5-year trim cycle). The vertical clearance above and beneath the conductors shall be measured radially.</text>
+          </para>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>For a conductor with a voltage from 14 kV to 34.5 kV which is operated only as a distribution feeder, the vertical clearance shall be as set forth in the corresponding standard contained in <cite path="20|50|12|.09|G.|(2)|(c)">§G(2)(c) of this regulation</cite> as if its voltage were less than 14 kV but at least 600 volts.</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>The vertical clearances are the minimum clearances the utility shall establish during each cyclical planned vegetation management trim cycle.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Mature trees may be exempt from the minimum clearance requirements specified above at the utility's reasonable discretion for voltage levels at 34.5 kV and below.</text>
+      </para>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>Federal Energy Regulatory Commission Jurisdictional Transmission Plant. Each utility shall file with the Commission's Engineering Division a copy of all Vegetation Management Transmission Outage Report filings associated with a transmission line outage in Maryland that are filed with the Federal Energy Regulatory Commission or an entity approved by the Federal Energy Regulatory Commission. If the information is confidential or critical energy infrastructure information, the utility shall advise the Commission's Engineering Division in writing and make the information available for review at a mutually agreeable time and location.</text>
+    </para>
+  </section>
+  <section cache:ref-path="20|50|12|.10">
+    <prefix>Regulation</prefix>
+    <num>.10</num>
+    <heading>Periodic Equipment Inspections.</heading>
+    <para>
+      <num>A.</num>
+      <text>Each utility shall adopt and follow written operation and maintenance procedures for its electric plant in order to maintain safe and reliable service. The operation and maintenance programs shall account for the utility's experience, good engineering practices, and judgment, and manufacturer's recommendations.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Each electric utility shall file its written operation and maintenance programs required under <cite path="20|50|12|.10|A.">§A of this regulation</cite> with the Commission within 60 days from the effective date of these regulations and the programs shall be designed to achieve, at a minimum, the level of reliability established by the Commission's regulations.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>If the electric utility makes a material change to its written operation and maintenance programs required under <cite path="20|50|12|.10|B.">§B of this regulation</cite>, the utility shall file the change with the Commission not less than 60 days prior to implementing the change, unless exigent circumstances warrant implementation without prior notice, in which case the change shall be filed by no later than 30 days after implementation. The filing shall describe each change and the reason for the change.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The operation and maintenance programs required by <cite path="20|50|12|.10|B.">§B of this regulation</cite> shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Include the frequency or triggers for performing an inspection;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Identify the electric plant inspections to be performed; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Identify acceptance criteria for the inspections.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Except as provided under <cite path="20|50|12|.10|D.">§D of this regulation</cite> and Regulation .09 of this chapter, the operation and maintenance programs required by <cite path="20|50|12|.10|B.">§B of this regulation</cite> need not include detailed procedures and shall include a description of the corrective maintenance priorities and general timelines for the overall repair of the electric plant.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Each utility shall maintain sufficient records to give evidence of compliance with its operation and maintenance programs and shall self-report compliance and non-compliance with its maintenance program each year in its annual performance report.</text>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>If a utility fails to comply with its operation and maintenance programs and has not received a stay of enforcement pursuant to <cite path="20|50|12|.10|H.">§H of this regulation</cite>, the utility shall provide a corrective action plan, preferably in its annual performance report but by no later than April 1.</text>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>If a utility cannot perform regular periodic electric plant maintenance work on its electric distribution system according to timeline requirements documented in its operation and maintenance program manual or its vegetation management program pursuant to Regulation .09 of this chapter, the electric company may request a stay of enforcement on a form specified by the Commission. The stay of enforcement request shall demonstrate that the electric company has a good cause for delay, can maintain safety and reliability for the duration of the stay of enforcement, and provides an abatement plan to return to normal timeline requirements. Approval of both the stay of enforcement request and the return to normal shall be delegated to the Commission's Engineering Division.</text>
+    </para>
+  </section>
+  <section cache:ref-path="20|50|12|.11">
+    <prefix>Regulation</prefix>
+    <num>.11</num>
+    <heading>Annual Performance Reports.</heading>
+    <para>
+      <num>A.</num>
+      <text>On or before April 1 of each year, each utility shall file an annual performance report which shall include, at a minimum, the following:</text>
+      <para>
+        <num>(1)</num>
+        <text>The reliability index information and results required in this chapter, including a table showing the actual values of the reliability indices required in this chapter for each of the preceding 3 calendar years;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Annual year-end and 3-year average performance results as required under <cite doc="Md. Code" path="gpu|7-213">Public Utilities Article, §7-213(g)(2)(i) </cite>and (ii), Annotated Code of Maryland, including a table showing the actual values for each of the preceding 3 calendar years;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The time periods during which major outage event interruption data and, if a cooperatively owned utility, the outage data resulting from an outage event occurring on another utility's electric system was excluded from the CAIDI, SAIDI, and SAIFI indices, including a brief description of the interruption causes during each time period;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>A description of the utility's reliability objectives, planned actions and projects, and programs for providing reliable electric service;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>An assessment of the results and effectiveness of the utility's reliability objectives, planned actions and projects, programs, and load studies in achieving an acceptable reliability level as required under <cite doc="Md. Code" path="gpu|7-213">Public Utilities Article, §7-213(g)(2)(iii), Annotated Code of Maryland</cite>. The assessment of the results and effectiveness shall include, to the extent estimated or determined by the utility, the program's, project's, or planned action's impact on reliability indices, including CAIDI, SAIDI, and SAIFI and any other reliability index considered. The method for estimating or determining the impact on any reliability index shall be explained;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Current year expenditures, an estimate or budget amount for the following 2 calendar years, if available, current year labor resources hours, and progress measures for each capital and maintenance program designed to support the maintenance of reliable electric service as required under <cite doc="Md. Code" path="gpu|7-213">Public Utilities Article, §7-213(g)(2)(iv)(1), Annotated Code of Maryland</cite>;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>An explanation for any material differences between current year expenditures and cost estimates filed pursuant to <cite path="20|50|12|.11|A.|(6)">§A(6) of this regulation</cite>;</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>The number of outages by outage type as required under <cite doc="Md. Code" path="gpu|7-213">Public Utilities Article, §7-213(g)(2)(iv)(2), Annotated Code of Maryland</cite>, including planned outage, nonplanned outage minus major outage event, and major outage event;</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>The number of outages by outage cause required under <cite doc="Md. Code" path="gpu|7-213">Public Utilities Article §7-213(g)(2)(iv)(3), Annotated Code of Maryland</cite>, including, but not limited to, animals, overhead equipment failure, and underground equipment failure;</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>The total number of customers that experienced an outage required under <cite doc="Md. Code" path="gpu|7-213">Public Utilities Article, §7-213(g)(2)(iv)(4), Annotated Code of Maryland</cite>;</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>The total number of customer minutes of outage time required under <cite doc="Md. Code" path="gpu|7-213">Public Utilities Article, §7-213(g)(2)(iv)(5), Annotated Code of Maryland</cite>;</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>To the extent practicable, a breakdown, by the number of days each customer was without electric service, of the number of customers that experienced an outage required under <cite doc="Md. Code" path="gpu|7-213">Public Utilities Article, §7-213(g)(2)(iv)(6), Annotated Code of Maryland</cite>;</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>Poorest performing feeder information and results required in this chapter; and</text>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>Multiple device activation information and results required in this chapter.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>On or before April 1 of each year, each utility shall file a supplemental annual performance report which shall include, at a minimum, the following:</text>
+      <para>
+        <num>(1)</num>
+        <text>The actual operation and maintenance and capital expenditures for the past 3 calendar years for each of the utility's reliability programs, including, but not limited to underground and overhead distribution plant inspection, maintenance and replacement programs, vegetation management, subtransmission inspection and maintenance programs, and distribution substation plant inspection and maintenance programs;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Service restoration requirement information and results required in this chapter;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Downed wire response performance information and results required in this chapter;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Customer communications performance information and results required in this chapter;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The vegetation management information required in this chapter;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Periodic equipment inspection information and results required in this chapter;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>For the immediately preceding calendar year, and considering normal conditions only:</text>
+        <para>
+          <num>(a)</num>
+          <text>The number of downed electric utility wires to which the utility responded in:</text>
+          <para>
+            <num>(i)</num>
+            <text>3 hours or less;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>More than 3 hours but less than 8 hours; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>8 hours or more; and</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The total number of downed electric utility wires reported to the utility;</text>
+        </para>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Any corrective action plans required under <cite doc="Md. Code" path="gpu|7-213">Public Utilities Article, §7-213(e)(1)(iii), Annotated Code of Maryland</cite>, or this chapter; and</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>The number of manhole and conduit events during the preceding year that result in a lid displacement, the date of the event, the location and feeder designation, whether the event involved a feeder, primary or secondary services, and the number of customer outages recorded.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The Commission may designate a specific report format for the information required to be included in the written reports mandated under §§A and B of this regulation.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The Commission may require reporting information required to track performance under these regulations on a quarterly basis on a form approved by the Commission.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.12</num>
+    <heading>Major Outage Event Plan.</heading>
+    <para>
+      <num>A.</num>
+      <text>Within 60 days of the effective date of this regulation, each utility shall file a major outage event response plan providing a description of and procedures for its response to major outage events, and performance measures associated with the assessment of the implementation of the major outage event response plan, including, but not limited, to the following topics and issues:</text>
+      <para>
+        <num>(1)</num>
+        <text>Preparation, training, and drills;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Early warning and storm tracking;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Emergency organization structure;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Activation and mobilization;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Materials management and logistics;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Major outage event restoration priorities, including, but not limited to:</text>
+        <para>
+          <num>(a)</num>
+          <text>How the utility prioritizes restoration customers; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>How the utility communicates with customers that are identified as high priority due to medical needs for electricity and how it schedules restoration actions for such customers;</text>
+        </para>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Damage assessment;</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Public safety, including wire down response;</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>Crew deployment;</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>External communications, including communications with emergency officials, the public, and other persons;</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>Internal communications;</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>Communications technology use, including high call volume capability and capacity;</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>Development of estimated times of restoration and assessment of estimated times of restoration accuracy;</text>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>Ramp-down; and</text>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>Major outage event performance review.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Each utility shall file with the Commission any material change to its major outage event response plan at least 60 days prior to implementation, unless it will delay implementation of the change in a manner inconsistent with restoring service in the shortest time practicable, in which case the change shall be filed by no later than 30 days after implementing the change.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Each utility shall comply with its major outage event response plan when preparing for and responding to major outage events.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The major outage event response plan shall be filed as a publicly available document. To the extent that some information may be considered confidential, a redacted version shall also be filed.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Major outage event response plan information may be shared without restriction with state officials that participate in a Maryland Department of Emergency Management activation of the State Emergency Operations Center.</text>
+    </para>
+  </section>
+  <section cache:ref-path="20|50|12|.13">
+    <prefix>Regulation</prefix>
+    <num>.13</num>
+    <heading>Major Outage Event Reporting.</heading>
+    <para>
+      <num>A.</num>
+      <text>Written Reports. Each utility shall file a written report with the Commission within 35 calendar days of the end of a major outage event.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Contents. The written report shall contain:</text>
+      <para>
+        <num>(1)</num>
+        <text>The total number of Maryland customers served by the utility;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The date and time when the major outage event started;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The date and time when all sustained interruptions in Maryland related to the major outage event were restored;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The total number of Maryland customers who experienced a sustained interruption of service related to the major outage event;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The total number of customer interruption hours experienced by customers reported under <cite path="20|50|12|.13|B.|(4)">§B(4) of this regulation</cite>;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>The average duration of customer service interruption, expressed in hours, and calculated by dividing the total number of customer interruption hours reported in <cite path="20|50|12|.13|B.|(5)">§B(5) of this regulation</cite> by the total number of Maryland customers who experienced an interruption reported in <cite path="20|50|12|.13|B.|(4)">§B(4) of this regulation</cite>;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>The maximum number of Maryland customers who concurrently experienced a sustained interruption related to the major outage event and the date and time this occurred;</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>The number of Maryland customers who experienced a sustained interruption recorded at a maximum of 6-hour intervals throughout the major outage event;</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>Information about requests for outside assistance, including the:</text>
+        <para>
+          <num>(a)</num>
+          <text>Name of the organization to which the request was made;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Date and time of the request; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Resources requested;</text>
+        </para>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>Information about outside assistance received, including the:</text>
+        <para>
+          <num>(a)</num>
+          <text>Name of the organization providing crews and the nature of the assistance, i.e., mutual assistance, third-party contractor crew normally dedicated to the utility, additional third-party contractor crew, or other (explain in report);</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Date and time of crew arrivals and departures;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Number and types of vehicles;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Total number of personnel;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Number of personnel on primary overhead line crews;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Number of personnel on secondary overhead line crews;</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>Number of personnel on tree trimming crews; and</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>Number of other personnel.</text>
+        </para>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>Information about electric utility crews working on restoration, including the following:</text>
+        <para>
+          <num>(a)</num>
+          <text>Number and types of vehicles;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Total number of personnel;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Number of personnel on primary overhead line crews;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Number of personnel on secondary overhead line crews;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Number of personnel on damage assessment crews;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Number of personnel on tree trimming crews; and</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>Number of other personnel.</text>
+        </para>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>The following information about communications with customers:</text>
+        <para>
+          <num>(a)</num>
+          <text>The total number of calls received by the utility during each hour of the major outage event;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The total number of calls answered by the utility's voice response system, customer service representatives, and any high volume call systems during each hour of the major outage event;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The total number of customer service representatives logged into the call center and supporting phone systems actively taking or waiting to take customer calls on an hourly basis during the major outage event; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>On a daily basis during the length of the outage and for the entire major outage event, the percentage of all calls that were offered and answered by the utility's voice response system, customer service representatives, and any high volume call systems within a 30-second timeframe and within a 60-second timeframe.</text>
+        </para>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>With regard to system damage, the number of each of the following occurring during restoration:</text>
+        <para>
+          <num>(a)</num>
+          <text>Poles replaced as a percentage of total utility owned or partially owned poles;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Distribution transformers replaced;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Fuses replaced;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Downed wires;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Substations with damaged equipment and substations outages due to loss of one or multiple supplies;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>State highways blocked due to electric utility wires that are referred to the utility for remediation; and</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>Traffic signals reported out of service by government agencies that are referred to the utility for remediation;</text>
+        </para>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>Any issues concerning the availability of materials or equipment that affected restoration progress, including a description of how any unavailability affected restoration, and a description of the emergency measures taken to resolve the issues;</text>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>A self-assessment, including lessons learned and future plans to improve service restoration efforts during major outage events;</text>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>A description of the manner in which customers were informed of the status of the outages in their geographic area by means of the customer call center or by other means of customer communications;</text>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>A description of the manner in which the utility informed elected officials, government officials, and members of the public of the status of the outage and restoration efforts;</text>
+      </para>
+      <para>
+        <num>(18)</num>
+        <text>A description of the manner in which the utility estimated restoration times;</text>
+      </para>
+      <para>
+        <num>(19)</num>
+        <text>A description of any areas where the utility did not comply with its major outage event response plan;</text>
+      </para>
+      <para>
+        <num>(20)</num>
+        <text>The number of customer service interruptions under <cite path="20|50|12|.13|B.|(4)">§B(4) of this regulation</cite> and the number of customer service interruption hours under <cite path="20|50|12|.13|B.|(5)">§B(5) of this regulation</cite> categorized by outage caused by each one of the following:</text>
+        <para>
+          <num>(a)</num>
+          <text>All outage causes typically provided in annual performance reports pursuant to Regulation .11 of this chapter;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A description of the outage causes due to physical security or cybersecurity attacks;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A description of any outage causes due to transmission or energy supply disruptions;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>A description of any other outage causes due to natural weather phenomena not typically encountered;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Ice accumulation on conductors; and</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Each other direct cause of interruption of service to 5 percent or more of total customers interrupted, listing and providing a descriptive name for each cause;</text>
+        </para>
+      </para>
+      <para>
+        <num>(21)</num>
+        <text>For each interruption to normal expected information technology systems used to manage a major outage event, details on deficiencies experienced in these systems including dates, time, and duration of any interruptions to normal expected functionality for the following:</text>
+        <para>
+          <num>(a)</num>
+          <text>Real time operating systems used to monitor and control the event including, but not limited to, distribution automation systems, energy management systems, and outage management systems;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Advanced meter infrastructure systems;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Web-based outage reporting systems;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Web-based outage information systems such as outage maps;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Interactive Voice Response (IVR) systems;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Phone systems;</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>Mobile data systems used to receive information from field crews;</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>The data interface that provides outage information to the Maryland Department of Emergency Management outage map application; and</text>
+        </para>
+        <para>
+          <num>(i)</num>
+          <text>Any utility business systems directly impacted by the major outage event;</text>
+        </para>
+      </para>
+      <para>
+        <num>(22)</num>
+        <text>The percentage of total Maryland customers who had service restored in 50 hours pursuant to Regulation .06B of this chapter;</text>
+      </para>
+      <para>
+        <num>(23)</num>
+        <text>If the company could not safely work due to high wind conditions for the major outage event, an explanation of the company policy and how this impacted restoration;</text>
+      </para>
+      <para>
+        <num>(24)</num>
+        <text>The percentage of calls that are answered within 30 seconds, the abandoned call percentage rate, and the average speed of answer pursuant to Regulation .08D of this chapter, except measured only for the duration of the major outage event;</text>
+      </para>
+      <para>
+        <num>(25)</num>
+        <text>The average amount of time customers were put on hold for every hour during the major outage event after the customer selected the option to talk to a call center representative in the electric company's Interactive Voice Response (IVR) system:</text>
+        <para>
+          <num>(a)</num>
+          <text>Before talking to a call center representative; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Before dropping off the call after waiting unsuccessfully to reach a call center representative.</text>
+        </para>
+      </para>
+      <para>
+        <num>(26)</num>
+        <text>For the duration of the major outage event, the number of customers experiencing multiple sustained interruptions, categorized by the number of multiple sustained interruptions, such as the number of customers experiencing "n" sustained interruptions, where n= 1, 2, 3, etc.;</text>
+      </para>
+      <para>
+        <num>(27)</num>
+        <text>The downed wire response performance to a government emergency responder guarded downed electric utility wire within 3 hours after notification by a fire department, police department, or 911 emergency dispatcher pursuant to Regulation .07A of this chapter, except measured only for this major outage event;</text>
+      </para>
+      <para>
+        <num>(28)</num>
+        <text>The number of peak sustained interruptions restored by county and municipal jurisdiction for the duration of the major outage event;</text>
+      </para>
+      <para>
+        <num>(29)</num>
+        <text>The number of customers sustained interruptions caused by off-right-of-way trees;</text>
+      </para>
+      <para>
+        <num>(30)</num>
+        <text>All press releases, if any, issued and details on the date, time, location, and company participants in all press conferences held, if any;</text>
+      </para>
+      <para>
+        <num>(31)</num>
+        <text>The date and time centralized and regional emergency operations centers, district headquarters, and mutual assistance staging areas activated for the major outage event were operational completed;</text>
+      </para>
+      <para>
+        <num>(32)</num>
+        <text>Electric system infrastructure that was damage assessed and how this damage assessment information was used to establish a Global ETR;</text>
+      </para>
+      <para>
+        <num>(33)</num>
+        <text>The number of Maryland critical facilities who experienced a sustained interruption recorded at a maximum of 6-hour intervals throughout the major outage event; and</text>
+      </para>
+      <para>
+        <num>(34)</num>
+        <text>The percentage critical facility sustained interruptions restored within 24 hours and 48 hours of the start of the major outage event.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The Commission may designate a specific report format for the information required to be included in the written report mandated under this regulation.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.14</num>
+    <heading>Customer Perception Surveys.</heading>
+    <para>
+      <num>A.</num>
+      <text>Each utility shall perform a customer perception survey no less than every 4 years.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The objective of the survey is to measure customer perceptions regarding the utility's overall performance, reliability performance, vegetation management activities, effectiveness of customer communications, and service quality performance.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>By April 1, 2026, and every 4 years thereafter, unless otherwise directed by the Commission, each utility shall file customer perception survey results that shall be included with each utility's submittal under Regulation .02D(7)(b) of this chapter.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Each utility shall use a survey process as determined by the Commission, in which the survey question themes and associated rating scales shall be consistent among all utilities.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Each utility shall determine a communication methodology to reach customers in regard to collecting survey data and survey sample size to reflect a margin of error of plus or minus 5 percent at a minimum 90 percent confidence level for both the residential and commercial customer segments.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.15</num>
+    <heading>Resilience Plans.</heading>
+    <para>
+      <num>A.</num>
+      <text>This regulation applies after January 1, 2024.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>An electric utility shall have resilience plans to prepare for and recover from various utility-defined credible event threat scenarios such as pandemics, physical attacks, cyber attacks, electric supply shortages, weather events, significant infrastructure failures, and other credible disturbances with the potential to lead to large and widespread electric outages or loss of critical facilities essential for public health and safety.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>In consultation with State and local jurisdictions, a utility's resilience plans shall identify critical facilities.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>An electric utility's resilience plans shall be made confidentially available for Commission inspection, upon request.</text>
+    </para>
+  </section>
+  <section cache:ref-path="20|50|12|.16">
+    <prefix>Regulation</prefix>
+    <num>.16</num>
+    <heading>Specific Information Request.</heading>
+    <para>
+      <num>A.</num>
+      <text>After a complaint, report, or inspection, the Commission's Engineering Division may send an electric company a specific information request.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>An electric company shall respond within 10 working days after receipt of a specific information request relating to a possible reportable incident under <cite path="20.50.03.04|F.">COMAR 20.50.03.04F</cite>.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Except as provided under <cite path="20|50|12|.16|B.">§B of this regulation</cite>, an electric company shall respond within 30 days after receipt of a specific information request.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The Commission's Engineering Division may waive the requirements of §B or C of this regulation upon written request from an electric company operator demonstrating sufficient cause.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.17</num>
+    <heading>Electric Underground Location Services.</heading>
+    <para>
+      <num>A.</num>
+      <text>A utility shall make available suitable equipment and personnel to provide electric underground location services upon reasonable request of interested persons, in compliance with <cite doc="Md. Code" path="gpu">Public Utilities Article, Title 12, Subtitle 1, Annotated Code of Maryland</cite>.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.18</num>
+    <heading>Estimated Times of Restoration and Associated Messaging.</heading>
+    <para>
+      <num>A.</num>
+      <text>In the absence of conditions that allow or dictate a more circumscribed ETR, a utility shall issue a Global ETR within 24 hours of the end of the cause of the major outage event. Should completion of the damage assessment required as the result of the major outage event require more time, this period shall be extended by the electric company.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The Global ETR should be reviewed at least once every 24 hours and modified when information is received that would significantly change the Global ETR or allow a more precise ETR for a specific, smaller area.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>An assessment message statement that indicates the electric company is assessing the system, including a safety message, should be posted within 4 hours, if not immediately, upon the end of the cause of the major outage event.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>A restoration message statement that indicates when a majority of the electric company's customers within the entire service territory will be restored shall be delivered to customers within 24 hours following completion of the initial damage assessment.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>When a Zonal ETR can be established, the electric company shall issue a restoration message statement that indicates when at least 90 percent of the electric company's customers, who were affected by the original major outage event within a zone, will be restored.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Global and Zonal ETRs will be reviewed by the utility, at least once every 24 hours during a major outage event and updated when better information becomes available.</text>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>An ETR, whether Global or Zonal, shall be considered accurate if at least 90 percent of the customers affected by the original storm event are restored by the last applicable Global or Zonal ETR provided to the customer.</text>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>Following a major outage event, utilities shall perform a self-assessment of the quality of Global and Zonal ETRs provided to customers as part of lessons learned activities in its Major Outage Event Report pursuant to <cite path="20.50.12.13">COMAR 20.50.12.13</cite>. Elements to be considered include the accuracy of the original ETR in terms of hours, the number of adjustments to the original ETR, the reasons for updating the ETR, significant external influences that may have contributed to the changes, and the accuracy of the final ETR in terms of hours.</text>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>All utilities shall engage in consumer education programs to help customers better understand all aspects of emergency preparedness and outage restoration related to a major outage event.</text>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Public Utilities Article, §§<cite doc="Md. Code" path="gpu|7-213">7-213</cite>, <cite doc="Md. Code" path="gpu|13-201">13-201</cite>, and <cite doc="Md. Code" path="gpu|13-202">13-202</cite>, Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="2012-05-28">Effective date: May 28, 2012 (39:10 Md. R. 661)</annotation>
+    <annotation type="History" dest="container" effective="2023-08-21">Regulation .01 amended effective August 21, 2023 (50:16 Md. R. 728)</annotation>
+    <annotation type="History" dest="container" effective="2023-08-21">Regulation .02 amended effective August 21, 2023 (50:16 Md. R. 728)</annotation>
+    <annotation type="History" dest="container" effective="2019-12-02">Regulation .02C, D amended effective December 2, 2019 (46:24 Md. R. 1104)</annotation>
+    <annotation type="History" dest="container" effective="2016-01-07">Regulation .02D amended effective January 7, 2016 (42:26 Md. R. 1596)</annotation>
+    <annotation type="History" dest="container" effective="2018-10-08">Regulation .03 amended effective October 8, 2018 (45:20 Md. R. 920)</annotation>
+    <annotation type="History" dest="container" effective="2023-08-21">Regulation .04A, D amended effective August 21, 2023 (50:16 Md. R. 728)</annotation>
+    <annotation type="History" dest="container" effective="2023-08-21">Regulation .05 amended effective August 21, 2023 (50:16 Md. R. 728)</annotation>
+    <annotation type="History" dest="container" effective="2019-12-02">Regulation .05A amended effective December 2, 2019 (46:24 Md. R. 1104)</annotation>
+    <annotation type="History" dest="container" effective="2019-12-02">Regulation .07A amended effective December 2, 2019 (46:24 Md. R. 1104)</annotation>
+    <annotation type="History" dest="container" effective="2023-08-21">Regulation .08D amended effective August 21, 2023 (50:16 Md. R. 728)</annotation>
+    <annotation type="History" dest="container" effective="2023-08-21">Regulation .09 amended effective August 21, 2023 (50:16 Md. R. 728)</annotation>
+    <annotation type="History" dest="container" effective="2023-08-21">Regulation .10 amended effective August 21, 2023 (50:16 Md. R. 728)</annotation>
+    <annotation type="History" dest="container" effective="2019-12-02">Regulation .11A amended effective March 18, 2013 (40:5 Md. R. 412); December 2, 2019 (46:24 Md. R. 1104)</annotation>
+    <annotation type="History" dest="container" effective="2023-08-21">Regulation .11B amended effective August 21, 2023 (50:16 Md. R. 728)</annotation>
+    <annotation type="History" dest="container" effective="2023-08-21">Regulation .12A, B amended effective August 21, 2023 (50:16 Md. R. 728)</annotation>
+    <annotation type="History" dest="container" effective="2023-08-21">Regulation .12D, E adopted effective August 21, 2023 (50:16 Md. R. 728)</annotation>
+    <annotation type="History" dest="container" effective="2023-08-21">Regulation .13 amended effective August 21, 2023 (50:16 Md. R. 728)</annotation>
+    <annotation type="History" dest="container" effective="2023-08-21">Regulation .14 amended effective August 21, 2023 (50:16 Md. R. 728)</annotation>
+    <annotation type="History" dest="container" effective="2023-08-21">Regulation .15 adopted effective August 21, 2023 (50:16 Md. R. 728)</annotation>
+    <annotation type="History" dest="container" effective="2023-08-21">Regulation .16 adopted effective August 21, 2023 (50:16 Md. R. 728)</annotation>
+    <annotation type="History" dest="container" effective="2023-08-21">Regulation .17 adopted effective August 21, 2023 (50:16 Md. R. 728)</annotation>
+    <annotation type="History" dest="container" effective="2023-08-21">Regulation .18 adopted effective August 21, 2023 (50:16 Md. R. 728)</annotation>
+  </annotations>
+</container>
