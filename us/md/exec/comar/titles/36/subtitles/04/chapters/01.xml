@@ -1,0 +1,4093 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>01</num>
+  <heading>Video Lottery Technical Standards</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In addition to the terms defined in <cite doc="Md. Code" path="gsg|9-1">State Government Article, §9-1</cite>A-01, Annotated Code of Maryland and in <cite path="36.03.01.02">COMAR 36.03.01.02</cite>, which have the same meaning in this subtitle, in this subtitle, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>“Double-up” means an optional wager on a video lottery terminal, the availability of which is triggered by a preceding winning event, in which the player has a mathematically equal probability of doubling the amount wagered or losing the entire amount placed at risk.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>“Linked” means to connect with.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>“Modification” means a change or alteration that:</text>
+        <para>
+          <num>(a)</num>
+          <text>Affects the conduct of play or operation of equipment, a system, or software including a change or alteration to a:</text>
+          <para>
+            <num>(i)</num>
+            <text>Control program;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Graphics program; or</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Payout percentage; and</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Does not include the replacement of one approved component with an identical component.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>“Progressive controller” means a device independent of the operating system of a video lottery terminal that calculates and transmits to a video lottery terminal the amount of an available progressive jackpot based on:</text>
+        <para>
+          <num>(a)</num>
+          <text>A pre-established rate of progression; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Denomination of the video lottery terminal.</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>“Progressive jackpot” means a jackpot offered by a video lottery terminal that may increase uniformly in value based on wagers as the video lottery terminal is played.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>“Random number generator” means a computational or physical functionality within the operating system of an electronic device which ensures the observed unpredictability and absence of pattern in a set of elements or events that have definite probabilities of occurrence.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>“RAM” means random access memory.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>“RAM clear” means a process that results in the zeroing out of any:</text>
+        <para>
+          <num>(a)</num>
+          <text>Meter information;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Configuration information; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Data stored in the random access memory of a video lottery terminal.</text>
+        </para>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>“Skill” means the application of intelligence and specific knowledge to achieve the best result when a video lottery terminal offers a choice of options during game play.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>“Theme” means a concept, subject matter, and methodology of design of a video lottery terminal.</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>“Version” means a sequence number or designation assigned to equipment, a system, or software to identify the initial release of the equipment, system, or software and to track changes or revisions to the initial release.</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>“Wide area progressive system” means a system independent of the operating system of a video lottery terminal that calculates and transmits to video lottery terminals linked in two or more facilities in or outside the State the amount of an available progressive jackpot based on:</text>
+        <para>
+          <num>(a)</num>
+          <text>A pre-established rate of progression; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Denomination of the video lottery terminal.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="36|04|01|.02">
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Testing, Certification, and Approval of Equipment, a System, or Software.</heading>
+    <para>
+      <num>A.</num>
+      <text>A manufacturer may not offer the equipment, systems, or software enumerated in <cite path="36|04|01|.02|E.">§E of this regulation</cite>, or a modification to a Commission-approved version of that equipment, system or software, for sale, lease, distribution, or use in a facility without it having been:</text>
+      <para>
+        <num>(1)</num>
+        <text>Tested and certified by an independent certified testing laboratory; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Approved in writing by the Commission.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A facility operator may not purchase, lease, or otherwise acquire the right to install, utilize, or make available for use the equipment, systems, or software enumerated in <cite path="36|04|01|.02|E.|(3)">§E(3) of this regulation</cite>, or a modification to a Commission-approved version of that equipment, system, or software, without it having been:</text>
+      <para>
+        <num>(1)</num>
+        <text>Tested and certified by an independent certified testing laboratory; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Approved in writing by the Commission.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A facility operator may not modify, alter, or tamper with the central monitor and control system or a video lottery terminal.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Modification, alteration, or tampering with the central monitor and control system or a video lottery terminal may result in the immediate suspension of an operation license by the Commission.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>The testing, certification, and approval requirements of this regulation shall, at a minimum, apply to:</text>
+      <para>
+        <num>(1)</num>
+        <text>The central monitor and control system;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A video lottery terminal;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The interoperability between a video lottery terminal and:</text>
+        <para>
+          <num>(a)</num>
+          <text>A video lottery terminal data system;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A casino management system;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A gaming ticket system;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>A promotional play system;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>A player tracking system;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>A ticket redemption unit;</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>An automated jackpot payout machine;</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>An external bonusing system;</text>
+        </para>
+        <para>
+          <num>(i)</num>
+          <text>A cashless funds transfer system; and</text>
+        </para>
+        <para>
+          <num>(j)</num>
+          <text>A progressive controller; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Other equipment, systems, or software designated for testing and certification by the Commission.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>A prototype of equipment, a system, or software required to be tested, certified, and approved under <cite path="36|04|01|.02|E.">§E of this regulation</cite>, or a modification to a Commission-approved version of that equipment, system, or software shall, at a minimum, be tested for:</text>
+      <para>
+        <num>(1)</num>
+        <text>Overall operational integrity;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Conformance with <cite doc="Md. Code" path="gsg|9-1">State Government Article, §9-1</cite>A, Annotated Code of Maryland, and this subtitle;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The technical standards enumerated in any Request for Proposals, issued by the Commission pertaining to the equipment, system, or software, as amended or clarified; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>If applicable, compatibility and compliance with the central monitor and control system communication protocol designated by the Commission, including the ability to communicate with the central monitor and control system on a real-time basis for:</text>
+        <para>
+          <num>(a)</num>
+          <text>Meter retrieval; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Video lottery terminal:</text>
+          <para>
+            <num>(i)</num>
+            <text>Status; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Activation and deactivation.</text>
+          </para>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Until such time as the Commission determines it has assembled a list of approved equipment, systems, and software sufficient to meet the needs of facility operators under <cite doc="Md. Code" path="gsg|9-1">State Government Article, §9-1</cite>A-21(d), Annotated Code of Maryland, notwithstanding the requirements of Regulations .03 and .04 of this chapter, the Commission may permit an abbreviated testing and approval process in accordance with the requirements of <cite path="|36|04|01|.05">Regulation .05 of this chapter</cite>.</text>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>If a facility operator develops any equipment, system, or software that is functionally equivalent to that enumerated in <cite path="36|04|01|.02|E.|(3)">§E(3) of this regulation</cite>, or modifies a Commission-approved version of that equipment, system, or software, the facility operator shall be subject to the testing, certification, and approval requirements of this chapter to the same extent as if the equipment, system, or software were developed or modified by a manufacturer.</text>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>A manufacturer shall pay all costs of testing, certification, and approval under this chapter including, but not limited to, all costs associated with:</text>
+      <para>
+        <num>(1)</num>
+        <text>Transportation;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Equipment and technical services required by an independent certified testing laboratory to conduct the testing and certification process; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Implementation testing.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="36|04|01|.03">
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Submission of Equipment, a System, or Software for Testing and Certification.</heading>
+    <para>
+      <num>A.</num>
+      <text>A manufacturer seeking Commission approval for equipment, a system, or software other than a video lottery terminal shall submit the equipment, system, or software to an independent certified testing laboratory.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The submission required by <cite path="36|04|01|.03|A.">§A of this regulation</cite> shall include the following:</text>
+      <para>
+        <num>(1)</num>
+        <text>A request for testing and certification under <cite path="|36|04|01|.02|F.">Regulation .02F of this chapter</cite>;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A prototype of the equipment, system, or software identical in all mechanical, electrical, electronic, and other respects to that for which Commission approval is sought;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Technical and operator manuals;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>A description of all security methodologies incorporated into the design of the equipment, system, or software including, if applicable:</text>
+        <para>
+          <num>(a)</num>
+          <text>Password protection;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Encryption methodology for all alterable media;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Auto-authentication of software;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Network redundancy; and</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Back-up and recovery procedures;</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>A schematic or network diagram of the major components of the equipment, system, or software with a:</text>
+        <para>
+          <num>(a)</num>
+          <text>Description of each component's functionality; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Software object report;</text>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>A description of the data flow, in narrative and in schematic form, including:</text>
+        <para>
+          <num>(a)</num>
+          <text>Data cabling; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>If applicable, communications methodology for multi-site applications;</text>
+        </para>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>A list of:</text>
+        <para>
+          <num>(a)</num>
+          <text>Computer operating systems;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Third-party software; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Available system reports;</text>
+        </para>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>System software and hardware installation procedures;</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>A description of the method used to authenticate software;</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>All source code;</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>If applicable, a description of the features offered by the equipment, system, or software with regard to:</text>
+        <para>
+          <num>(a)</num>
+          <text>Player and employee card functions; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Reconciliation procedures;</text>
+        </para>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>If applicable, a description of any interoperability testing conducted by the manufacturer, including test results identified by manufacturer, model, and software identification and version number, for the submitted equipment, system, or software's connection to any of the following:</text>
+        <para>
+          <num>(a)</num>
+          <text>Video lottery terminal;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Video lottery terminal data system;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Casino management system;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Gaming ticket system;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Promotional play system;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Player tracking system;</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>Ticket redemption unit;</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>Automated jackpot payout machine;</text>
+        </para>
+        <para>
+          <num>(i)</num>
+          <text>External bonusing system;</text>
+        </para>
+        <para>
+          <num>(j)</num>
+          <text>Cashless funds transfer system; and</text>
+        </para>
+        <para>
+          <num>(k)</num>
+          <text>Progressive controller;</text>
+        </para>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>If applicable, a description, accompanied by diagrams, schematics, and specifications, of the creation of a:</text>
+        <para>
+          <num>(a)</num>
+          <text>Gaming ticket and the redemption options available; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Promotional play instrument and the redemption options available; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>If requested by the Commission or an independent certified testing laboratory:</text>
+        <para>
+          <num>(a)</num>
+          <text>Any specialized hardware, software, or other equipment, inclusive of technical support and maintenance, required to conduct the testing and certification process; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Additional documentation pertaining to the equipment, system, or software being tested.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A manufacturer seeking Commission approval for a modification to a Commission-approved version of equipment, a system, or software other than a video lottery terminal shall submit the proposed modification to an independent certified testing laboratory.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>An independent certified testing laboratory selected by a manufacturer or the Commission to test a modification may be, but need not be, the testing laboratory that performed the initial prototype testing.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>The submission required by <cite path="36|04|01|.03|C.">§C of this regulation</cite> shall include the following:</text>
+      <para>
+        <num>(1)</num>
+        <text>A request for testing and certification under <cite path="|36|04|01|.02|F.">Regulation .02F of this chapter</cite>;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The equipment, system, or software proposed for modification;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A description of the proposed modification, accompanied by applicable diagrams, schematics, and specifications;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>A narrative disclosing the purpose for the modification;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>If requested by the Commission or an independent certified testing laboratory:</text>
+        <para>
+          <num>(a)</num>
+          <text>Any specialized hardware, software, or other equipment, inclusive of technical support and maintenance, required to conduct the testing and certification process; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Additional documentation pertaining to the testing of the proposed modification.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>At the conclusion of testing of a prototype or modification of equipment, a system, or software other than a video lottery terminal, an independent certified testing laboratory shall issue to the Commission a certification report in an:</text>
+      <para>
+        <num>(1)</num>
+        <text>Electronic form; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Format acceptable to the Commission.</text>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Upon receipt of a certification report from an independent certified testing laboratory, but prior to a decision to approve a prototype or modification of equipment, a system, or software other than a video lottery terminal, the Commission may require a trial period, as follows:</text>
+      <para>
+        <num>(1)</num>
+        <text>A trial period shall be of a scope and duration the Commission deems appropriate to assess the operation of the prototype or modification in a live gaming environment;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A trial period shall be subject to compliance by the manufacturer and the facility operator with specific terms and conditions required by the Commission, which may include:</text>
+        <para>
+          <num>(a)</num>
+          <text>Development and implementation of product specific accounting and internal controls; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Periodic data reporting to the Commission;</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The Commission may authorize the receipt of compensation by a manufacturer during a trial period; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The Commission may order termination of a trial period at any time upon a determination by the Commission that:</text>
+        <para>
+          <num>(a)</num>
+          <text>A manufacturer or facility operator has not complied with the terms and conditions required by the Commission; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Equipment, a system, or software is not performing as expected.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>Upon receipt of a certification report from an independent certified testing laboratory, the Commission may:</text>
+      <para>
+        <num>(1)</num>
+        <text>Approve the prototype or modification, with or without specific conditions;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Reject the prototype or modification;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Require additional testing; or</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Require a trial period under <cite path="36|04|01|.03|G.">§G of this regulation</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>Commission approval of a prototype or modification does not constitute a guarantee of its safety or reliability.</text>
+    </para>
+  </section>
+  <section cache:ref-path="36|04|01|.04">
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Submission of a Video Lottery Terminal for Testing and Certification.</heading>
+    <para>
+      <num>A.</num>
+      <text>A manufacturer seeking Commission approval for a video lottery terminal shall submit the video lottery terminal to an independent certified testing laboratory.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The submission required by <cite path="36|04|01|.04|A.">§A of this regulation</cite> shall include the following:</text>
+      <para>
+        <num>(1)</num>
+        <text>A request for testing and certification under <cite path="|36|04|01|.02|F.">Regulation .02F of this chapter</cite>;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A prototype of the video lottery terminal identical in all mechanical, electrical, electronic, and other respects to that for which Commission approval is sought;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Technical and operator manuals;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>A description of the video lottery terminal including:</text>
+        <para>
+          <num>(a)</num>
+          <text>Diagrams, schematics, and specifications; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Documentation with regard to the manner in which the video lottery terminal was tested and emulated by the manufacturer prior to submission;</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>A copy, on electronically readable media, of all:</text>
+        <para>
+          <num>(a)</num>
+          <text>Executable software, including data and graphics information;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Source code for programs that have no commercial use other than as a component of a video lottery terminal; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Graphical images displayed on a video lottery terminal including, if applicable:</text>
+          <para>
+            <num>(i)</num>
+            <text>Reel strips or card images;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Rules and instructions; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Pay tables;</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>A mathematical explanation of the average and theoretical return to the player, listing all:</text>
+        <para>
+          <num>(a)</num>
+          <text>Assumptions; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Steps in the formula including the treatment of bonus pays;</text>
+        </para>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>A description of:</text>
+        <para>
+          <num>(a)</num>
+          <text>Security methodologies incorporated into the design of a video lottery terminal including, if applicable:</text>
+          <para>
+            <num>(i)</num>
+            <text>Encryption methodology for all alterable media;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Auto-authentication of software; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Recovery capability of a video lottery terminal on power interruption;</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Tower light functions indicating the corresponding condition;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Error conditions and the corresponding action required; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Use and function of available:</text>
+          <para>
+            <num>(i)</num>
+            <text>Dip switch settings; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Configurable options;</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>A description, accompanied by supporting test results, of the random number generator or generators used to determine the results of a wager, including a detailed explanation of:</text>
+        <para>
+          <num>(a)</num>
+          <text>Operational methodology; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The manner by which the random number generator including the random number selection process is impervious to:</text>
+          <para>
+            <num>(i)</num>
+            <text>Outside influences;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Interference from electro-magnetic, electrostatic, and radio frequencies; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Influence from ancillary equipment by means of data communications;</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>If a video lottery terminal requires or permits player skill in the theoretical derivations of the payout return, the source of strategy;</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>If required, a cross-reference between the meters denoted on the video lottery terminal and the meters required by:</text>
+        <para>
+          <num>(a)</num>
+          <text><cite path="|36|04|01|.16">Regulation .16</cite> of this chapter; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The technical standards enumerated in any Request for Proposals issued by the Commission pertaining to a video lottery terminal, as amended or clarified;</text>
+        </para>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>Program storage media including:</text>
+        <para>
+          <num>(a)</num>
+          <text>EPROMs;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>EEPROMs; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Any type of alterable media for video lottery terminal software;</text>
+        </para>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>Proof that a video lottery terminal has been inspected and approved for customer safety by a reputable testing laboratory;</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>If applicable, a description of any interoperability testing conducted by the manufacturer, including test results identified by manufacturer, model and software identification and version number, for the submitted video lottery terminal’s connection to any of the following:</text>
+        <para>
+          <num>(a)</num>
+          <text>Video lottery terminal data system;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Casino management system;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Gaming ticket system;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Promotional play system;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Player tracking system;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Ticket redemption unit;</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>Automated jackpot payout machine;</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>External bonusing system;</text>
+        </para>
+        <para>
+          <num>(i)</num>
+          <text>Cashless funds transfer system; and</text>
+        </para>
+        <para>
+          <num>(j)</num>
+          <text>Progressive controller;</text>
+        </para>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>A description of the manner in which the video lottery terminal was or will be tested for compatibility and compliance with the central monitor and control system communication protocol designated by the Commission including the ability to communicate with the central monitor and control system on a real time basis for:</text>
+        <para>
+          <num>(a)</num>
+          <text>Meter retrieval; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Video lottery terminal:</text>
+          <para>
+            <num>(i)</num>
+            <text>Status; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Activation and deactivation;</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>Specialized hardware, software, or testing equipment, inclusive of technical support and maintenance, requested by an independent certified testing laboratory including, but not limited to:</text>
+        <para>
+          <num>(a)</num>
+          <text>An emulator for a specified microprocessor;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Personal computers;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Extender cables for CPU boards;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Target reel strips; and</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Door defeats; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>If requested by the Commission or an independent certified testing laboratory, additional documentation pertaining to the video lottery terminal being tested including, but not limited to:</text>
+        <para>
+          <num>(a)</num>
+          <text>Hardware block diagrams of the major subsystems;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A complete set of schematics for all subsystems;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A wiring harness connection diagram; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Technical specifications for any microprocessor or microcontroller.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A manufacturer seeking Commission approval for a modification to a Commission-approved version of a video lottery terminal, including a change in theme, shall submit the modification to an independent certified testing laboratory.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>An independent certified testing laboratory selected by a manufacturer or the Commission to test a modification may, but need not be, the testing laboratory that performed the initial prototype testing.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>The submission required by <cite path="36|04|01|.04|C.">§C of this regulation</cite> shall include the following:</text>
+      <para>
+        <num>(1)</num>
+        <text>A request for testing and certification under <cite path="|36|04|01|.02|F.">Regulation .02F of this chapter</cite>;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The video lottery terminal proposed for modification;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A description of the proposed modification to the video lottery terminal, accompanied by applicable diagrams, schematics, and specifications;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>If a change in theme is involved, a copy of the graphical images displayed on the video lottery terminal including, if applicable:</text>
+        <para>
+          <num>(a)</num>
+          <text>Reel strips and card images;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Rules and instructions; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Pay tables;</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>If a change in the manner in which the average payout percentage is achieved, or a change in the theoretical return to the player is otherwise involved, a mathematical explanation of the return to the player, listing all:</text>
+        <para>
+          <num>(a)</num>
+          <text>Assumptions; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Steps in the formula including the treatment of bonus pays;</text>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>If the proposed modification requires or permits player skill in the theoretical derivations of the payout return, the source of strategy;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>A description of the manner in which the video lottery terminal was or will be tested for compatibility and compliance with the central monitor and control system communication protocol designated by the Commission including the ability to communicate with the central monitor and control system on a real time basis for:</text>
+        <para>
+          <num>(a)</num>
+          <text>Meter retrieval; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Video lottery terminal:</text>
+          <para>
+            <num>(i)</num>
+            <text>Status; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Activation and deactivation; and</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>If requested by the Commission or an independent certified testing laboratory:</text>
+        <para>
+          <num>(a)</num>
+          <text>Any specialized hardware, software, or other equipment, inclusive of technical support and maintenance, required to conduct the testing and certification process; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Additional documentation pertaining to the testing of the proposed modification.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>At the conclusion of testing of a prototype or modification to a video lottery terminal, an independent certified testing laboratory shall issue to the Commission a certification report in an:</text>
+      <para>
+        <num>(1)</num>
+        <text>Electronic form; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Format acceptable to the Commission.</text>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Upon receipt of a certification report from an independent certified testing laboratory, but prior to a decision to approve a prototype or modification to a video lottery terminal, the Commission may require a trial period, as follows:</text>
+      <para>
+        <num>(1)</num>
+        <text>A trial period shall be of a scope and duration the Commission deems appropriate to assess the operation of the video lottery terminal in a live gaming environment;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A trial period shall be subject to compliance by the manufacturer and the facility operator with specific terms and conditions required by the Commission, which may include:</text>
+        <para>
+          <num>(a)</num>
+          <text>Development and implementation of product specific accounting and internal controls; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Periodic data reporting to the Commission;</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The Commission may authorize the receipt of compensation by a manufacturer during a trial period; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The Commission may order termination of the trial period at any time upon a determination by the Commission that:</text>
+        <para>
+          <num>(a)</num>
+          <text>A manufacturer or facility operator has not complied with the terms and conditions required by the Commission; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The video lottery terminal is not performing as expected.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>Upon receipt of a certification report from an independent certified testing laboratory, the Commission may:</text>
+      <para>
+        <num>(1)</num>
+        <text>Approve the prototype or modification, with or without specific conditions;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Reject the prototype or modification;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Require additional testing; or</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Require a trial period under <cite path="36|04|01|.04|G.">§G of this regulation</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>Commission approval of a prototype or modification of a video lottery terminal does not constitute a guarantee of its safety or reliability.</text>
+    </para>
+  </section>
+  <section cache:ref-path="36|04|01|.05">
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Abbreviated Testing and Certification.</heading>
+    <para>
+      <num>A.</num>
+      <text>Except with regard to the Commission’s central monitor and control system, a manufacturer may, during the period specified in <cite path="|36|04|01|.02|G.">Regulation .02G of this chapter</cite>, seek Commission approval of a prototype or proposed modification under an abbreviated testing and certification process for any equipment, system, or software required to be tested and certified under <cite path="|36|04|01|.02|E.">Regulation .02E of this chapter</cite>.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A manufacturer shall submit the equipment, system or software to an independent certified testing laboratory.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The submission required by <cite path="36|04|01|.05|B.">§B of this regulation</cite> shall include the following:</text>
+      <para>
+        <num>(1)</num>
+        <text>A request for abbreviated testing and certification under this regulation naming the state within the United States on whose regulations and technical standards the manufacturer proposes the Commission rely;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A prototype of the equipment, system, or software identical in all mechanical, electrical, electronic, and other respects to that for which Commission approval is sought;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A certification signed by the chief engineer of the manufacturer, or the engineer in charge of the division of the manufacturer responsible for producing the equipment or system submitted, representing that:</text>
+        <para>
+          <num>(a)</num>
+          <text>The prototype or proposed modification is identical in all mechanical, electrical, electronic and other respects to one which has been tested and certified by:</text>
+          <para>
+            <num>(i)</num>
+            <text>A testing laboratory operated by the named state; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>An independent certified testing laboratory on behalf of the named state;</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The manufacturer is licensed in good standing in the named state;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The submitted equipment, system, or software has all regulatory approvals prerequisite to sale, lease, or distribution in the named state;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>The testing standards of the named state are comprehensive, thorough and involve substantially similar technical requirements and safeguards as those required by:</text>
+          <para>
+            <num>(i)</num>
+            <text><cite doc="Md. Code" path="gsg|9-1">State Government Article, §9-1</cite>A, Annotated Code of Maryland, and this subtitle; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The technical standards enumerated in any Request for Proposals issued by the Commission pertaining to the equipment, system, or software, as amended or clarified; and</text>
+          </para>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>The manufacturer has fully disclosed any conditions or limitations placed by the named state on the operation or placement of the equipment, system, or software:</text>
+          <para>
+            <num>(i)</num>
+            <text>At the time of approval; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Subsequent to approval;</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Copies of the submission package, and any amendments thereto, filed in the named state including any:</text>
+        <para>
+          <num>(a)</num>
+          <text>Checklists;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Correspondence, review letters or certification letters issued by:</text>
+          <para>
+            <num>(i)</num>
+            <text>The testing laboratory operated by the named state; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>An independent certified testing laboratory on behalf of the named state; and</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Final approval letter issued by the named state;</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>If applicable, a description of any interoperability testing conducted by the manufacturer, including test results identified by manufacturer, model and software identification and version number, for the submitted equipment or system’s connection to a:</text>
+        <para>
+          <num>(a)</num>
+          <text>Video lottery terminal;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Video lottery terminal data system;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Casino management system;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Gaming ticket system;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Promotional play system;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Player tracking system;</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>Ticket redemption unit;</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>Automated jackpot payout machine;</text>
+        </para>
+        <para>
+          <num>(i)</num>
+          <text>External bonusing system;</text>
+        </para>
+        <para>
+          <num>(j)</num>
+          <text>Cashless funds transfer system; and</text>
+        </para>
+        <para>
+          <num>(k)</num>
+          <text>Progressive controller;</text>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>If the submission involves a video lottery terminal, a description of the manner in which the video lottery terminal was or will be tested for compatibility and compliance with the central monitor and control system communication protocol designated by the Commission including the ability to communicate with the central monitor and control system on a real time basis for:</text>
+        <para>
+          <num>(a)</num>
+          <text>Meter retrieval; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Video lottery terminal:</text>
+          <para>
+            <num>(i)</num>
+            <text>Status; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Activation and deactivation; and</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>If requested by the Commission or an independent certified testing laboratory:</text>
+        <para>
+          <num>(a)</num>
+          <text>Any specialized hardware, software, or other equipment, inclusive of technical support and maintenance, required to conduct the testing and certification process; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Additional documentation pertaining to the equipment, system, or software being tested.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>At the conclusion of testing of a prototype or modification, an independent certified testing laboratory conducting abbreviated testing and certification shall issue to the Commission a certification report in an:</text>
+      <para>
+        <num>(1)</num>
+        <text>Electronic form; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Format acceptable to the Commission.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>The certification report issued under <cite path="36|04|01|.05|D.">§D of this regulation</cite> shall state:</text>
+      <para>
+        <num>(1)</num>
+        <text>Whether the independent certified testing laboratory concurs with the manufacturer that the testing standards of the named state are comprehensive, thorough and involve substantially similar technical requirements and safeguards as those required by:</text>
+        <para>
+          <num>(a)</num>
+          <text><cite doc="Md. Code" path="gsg|9-1">State Government Article, §9-1</cite>A, Annotated Code of Maryland, and this subtitle; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The technical standards enumerated in any Request for Proposals issued by the Commission pertaining to the equipment, system, or software, as amended or clarified;</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Whether the documentation required by <cite path="36|04|01|.05|C.|(3)">§C(3) of this regulation</cite> is complete;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>With respect to any deficiency noted relating to §E(1) or (2) of this regulation, the nature of the non-compliance; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The results of any supplemental testing performed, including interoperability testing with the central monitor and control system.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Upon receipt of a certification report from an independent certified testing laboratory, the Commission may act with regard to:</text>
+      <para>
+        <num>(1)</num>
+        <text>Acceptance of the testing standards of the named state; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The specific equipment, system, or software by:</text>
+        <para>
+          <num>(a)</num>
+          <text>Approving the prototype or modification, with or without specific conditions;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Rejecting the prototype or modification;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Requiring additional testing; or</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Requiring a trial period under this chapter.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Commission approval of a prototype or proposed modification does not constitute a guarantee of its safety or reliability.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Concatenated Binary Files and Related Documentation.</heading>
+    <text>A manufacturer shall deliver each video lottery terminal to the Commission with:</text>
+    <para>
+      <num>A.</num>
+      <text>The concatenated binary file signature corresponding to the Commission-approved version of the video lottery terminal in a form satisfactory to the:</text>
+      <para>
+        <num>(1)</num>
+        <text>Commission; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Central monitor and control system operator; and</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A file, in a form satisfactory to the Commission, describing the video lottery terminal including:</text>
+      <para>
+        <num>(1)</num>
+        <text>Manufacturer’s:</text>
+        <para>
+          <num>(a)</num>
+          <text>Serial number;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Model number;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Software identification number; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Version number;</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Denomination or a designation as multi-denomination;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Cabinet style;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>An indication as to whether the video lottery terminal is a:</text>
+        <para>
+          <num>(a)</num>
+          <text>Progressive; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Wide area progressive;</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Configured for use with a:</text>
+        <para>
+          <num>(a)</num>
+          <text>Gaming ticket system;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>External bonusing system; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Cashless funds transfer system; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Other information required by the Commission.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Emergency Modification of Equipment, a System, or Software.</heading>
+    <para>
+      <num>A.</num>
+      <text>Notwithstanding the requirements of Regulations .03C and .04C of this chapter, the Commission may, on submission of a written request by a manufacturer, authorize installation of a modification to equipment, a system, or software required to be tested, certified, and approved by the Commission under <cite path="|36|04|01|.02|E.">Regulation .02E of this chapter</cite>, on an emergency basis.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A written request submitted by a manufacturer to the Commission shall document the:</text>
+      <para>
+        <num>(1)</num>
+        <text>Equipment, system, or software proposed for emergency modification including:</text>
+        <para>
+          <num>(a)</num>
+          <text>Software identification number; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Version number;</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Facility;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Reason for the emergency modification; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Proposed date and time of installation.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A manufacturer may not install an emergency modification without the written approval of the Commission.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>No more than 15 days following receipt of Commission authorization on an emergency modification, a manufacturer shall submit a modification identical to that receiving emergency authorization for testing, certification and approval under this chapter.</text>
+    </para>
+  </section>
+  <section cache:ref-path="36|04|01|.08">
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Notice of Known or Suspected Defect.</heading>
+    <para>
+      <num>A.</num>
+      <text>A manufacturer shall immediately notify the Commission of any known or suspected defect or malfunction in equipment, system, or software required to be tested, certified, and approved by the Commission under <cite path="|36|04|01|.02|E.">Regulation .02E of this chapter</cite>.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A manufacturer shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Confirm in writing any notice given to the Commission verbally pursuant to <cite path="36|04|01|.08|A.">§A of this regulation</cite>; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If required by the Commission, notify a facility operator of any known or suspected defect or malfunction in equipment, a system, or software installed in its facility.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A facility operator shall immediately notify the Commission of any known or suspected defect or malfunction in equipment, system, or software required to be tested, certified, and approved by the Commission under Regulation .02E of this regulation.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>A facility operator shall confirm in writing any notice given to the Commission verbally pursuant to <cite path="36|04|01|.08|C.">§C of this regulation</cite>.</text>
+    </para>
+  </section>
+  <section cache:ref-path="36|04|01|.09">
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Revocation.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Commission may, at any time, revoke an approval granted to equipment, a system, or software under Regulation .03, .04 or .05 of this chapter on a determination by the Commission that the equipment, system, or software does not comply with:</text>
+      <para>
+        <num>(1)</num>
+        <text><cite doc="Md. Code" path="gsg|9-1">State Government Article, §9-1</cite>A, Annotated Code of Maryland, and this subtitle;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The technical standards enumerated in any Request for Proposals issued by the Commission pertaining to the equipment, system, or software, as amended or clarified; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The central monitor and control system communication protocol designated by the Commission including the ability to communicate with the central monitor and control system on a real time basis for:</text>
+        <para>
+          <num>(a)</num>
+          <text>Meter retrieval; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Video lottery terminal:</text>
+          <para>
+            <num>(i)</num>
+            <text>Status; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Activation and deactivation.</text>
+          </para>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The Commission may, at any time, impose additional conditions on the operation or placement of Commission-approved equipment, systems, or software.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A revocation by the Commission of an approval under <cite path="36|04|01|.09|A.">§A of this regulation</cite> does not give rise to an appeal right.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.10</num>
+    <heading>Communication Requirements.</heading>
+    <para>
+      <num>A.</num>
+      <text>A manufacturer shall enable a video lottery terminal to communicate with the Commission’s central monitor and control system through any gaming industry communication protocols designated by the Commission.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Unless the Commission notifies a manufacturer in writing to the contrary, SAS v.6.02 shall be the designated communication protocol.</text>
+    </para>
+  </section>
+  <section cache:ref-path="36|04|01|.11">
+    <prefix>Regulation</prefix>
+    <num>.11</num>
+    <heading>Average Payout Percentage.</heading>
+    <para>
+      <num>A.</num>
+      <text>Definitions.</text>
+      <para>
+        <num>(1)</num>
+        <text>In this regulation, the following terms have the meanings indicated.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Terms Defined.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Game cycle” means the finite set of all possible combinations of symbols on a video lottery terminal, including spinning reels or card images or other forms of video display or both.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Theoretical payout percentage” means the total value of jackpots expected to be paid by a video lottery terminal divided by the total value of video lottery terminal wagers expected to be made on that video lottery terminal during the game cycle.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>“Wager level” means all credit combinations available on a video lottery terminal from the minimum bet to the maximum bet.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A video lottery terminal shall have an average payout percentage which:</text>
+      <para>
+        <num>(1)</num>
+        <text>Is 85 percent or more; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Does not exceed 100 percent.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Notwithstanding the requirements of <cite path="36|04|01|.11|B.">§B of this regulation</cite>, in no event may a video lottery terminal have a theoretical payout percentage of less than 85 percent.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Unless the paytables have been previously approved by the Commission, a facility may not make available for play a video lottery terminal with an average payout percentage which exceeds 95 percent without the written approval of the Commission.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>A facility’s gaming floor shall be configured to collectively achieve, at all times, an average payout percentage which:</text>
+      <para>
+        <num>(1)</num>
+        <text>Exceeds 85 percent; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Does not exceed 95 percent.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>The Commission and the facility operator shall, in selecting video lottery terminals and configuring a facility’s gaming floor, rely on the video lottery terminal’s theoretical payout percentage.</text>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Once a facility is operational, the Commission shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Conduct periodic reviews to ensure that average payout percentages, on an average annual basis, comply with the requirements of this regulation; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If necessary, require the modification or replacement of a video lottery terminal to ensure compliance with the average payout percentage requirements of this regulation.</text>
+      </para>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>A payout percentage that may be affected by reason of skill shall meet the payout percentage requirements of this regulation factoring in a method of play that provides the greatest return to a player.</text>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>A video lottery terminal:</text>
+      <para>
+        <num>(1)</num>
+        <text>May not:</text>
+        <para>
+          <num>(a)</num>
+          <text>Offer a winning combination where the odds exceed 50,000,000 to one; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Alter any function based on an internal computation of payout percentage; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Shall be designed to ensure that all possible combinations in the game cycle are independent of each other.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="36|04|01|.12">
+    <prefix>Regulation</prefix>
+    <num>.12</num>
+    <heading>Maximum Bet.</heading>
+    <para>
+      <num>A.</num>
+      <text>A video lottery terminal may not accept a maximum bet on a single game event in excess of $500 without the written approval of the Commission.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The $500 maximum bet in <cite path="36|04|01|.12|A.">§A of this regulation</cite> does not apply to a double-up option on a winning wager.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>For an electronic table game, each wager on a separate outcome is a single game event.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.13</num>
+    <heading>Video Lottery Terminal Lock-up.</heading>
+    <para>
+      <num>A.</num>
+      <text>A video lottery terminal shall be configured to lock-up and preclude further play following a single jackpot that requires the filing of IRS Form W-2G, Certain Gambling Winnings.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A single jackpot event shall include the exhaustion of all available double-up and bonus wager options on a winning wager.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A video lottery terminal may be configured to permit the transfer, upon lock-up, of a jackpot amount to the credit meter.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.14</num>
+    <heading>Random Number Generator.</heading>
+    <para>
+      <num>A.</num>
+      <text>Definitions.</text>
+      <para>
+        <num>(1)</num>
+        <text>In this regulation, the following terms have the meanings indicated.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Terms Defined.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Chi-squared analysis” means a statistical test for goodness of fit which measures the difference between a theoretical result and an observed result.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Correlation test” means a statistical test that determines whether each card, number, symbol or stop position is independently chosen without regard to another card, number, symbol, or stop within that game play.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>“Runs test” means a statistical test that determines the existence of recurring patterns within a set of data.</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>“Series correlation test” means a statistical test that determines whether each card, number, symbol or stop position is independently chosen without regard to another card, number, symbol, or stop in the previous game.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A video lottery terminal shall determine the occurrence of a specific card, number, symbol, or stop by utilizing:</text>
+      <para>
+        <num>(1)</num>
+        <text>One random number generator; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Two or more random number generators working collectively.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A video lottery terminal’s selection process shall be considered random if it meets the following statistical requirements:</text>
+      <para>
+        <num>(1)</num>
+        <text>A chi-squared analysis meeting a 99 percent confidence level;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A runs test meeting a 99 percent confidence level;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A correlation test meeting a 99 percent confidence level;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>A series correlation test meeting a 99 percent confidence level; and</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Any other test of randomness determined appropriate by the Commission.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>A random number generator including its random number selection process shall be designed in a manner that ensures it is impervious to:</text>
+      <para>
+        <num>(1)</num>
+        <text>Outside influences;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Interference from electro-magnetic, electrostatic, and radio frequencies; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Influence from ancillary equipment by means of data communication.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Once a random selection process has occurred, a video lottery terminal:</text>
+      <para>
+        <num>(1)</num>
+        <text>Shall display an accurate representation of the randomly selected outcome; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>May not make a secondary decision which affects the result shown to the player at the video lottery terminal.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.15</num>
+    <heading>Rules of Play.</heading>
+    <para>
+      <num>A.</num>
+      <text>Definition.</text>
+      <para>
+        <num>(1)</num>
+        <text>In this regulation the following term has the meaning indicated.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Term Defined. “Strategy choice” means a particular play option on a video lottery terminal that requires the use of skill to consistently achieve the best result.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A video lottery terminal shall be equipped to display to a player while idle the:</text>
+      <para>
+        <num>(1)</num>
+        <text>Schedule of credits awarded with each winning combination;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Applicable rules of play; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Any maximum bet limit imposed under <cite path="|36|04|01|.12">Regulation .12 of this chapter</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The Commission may prohibit the display of any rules of play it determines to be:</text>
+      <para>
+        <num>(1)</num>
+        <text>Incomplete;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Confusing;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Misleading; or</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Inconsistent with the rules of play required by the Commission.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>For rules of play, the schedule of credits awarded with each winning combination may not include possible aggregate awards achievable from free plays.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>A video lottery terminal that includes a strategy choice shall include in its rules of play mathematically sufficient information for a player to use optimal skill unless the player:</text>
+      <para>
+        <num>(1)</num>
+        <text>Is not required to make an additional wager; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Cannot lose any credits earned prior to the strategy choice.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>A manufacturer or facility operator may not attach a sticker or other removable device that concerns rules of play to the face, glass, or screen of a video lottery terminal without the prior written approval of the Commission.</text>
+    </para>
+  </section>
+  <section cache:ref-path="36|04|01|.16">
+    <prefix>Regulation</prefix>
+    <num>.16</num>
+    <heading>Video Lottery Terminal Meters.</heading>
+    <para>
+      <num>A.</num>
+      <text>A video lottery terminal shall be equipped with:</text>
+      <para>
+        <num>(1)</num>
+        <text>The meter functions enumerated in §§C, D, and F of this regulation;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Meters which:</text>
+        <para>
+          <num>(a)</num>
+          <text>Continuously and automatically increment in credits equal to:</text>
+          <para>
+            <num>(i)</num>
+            <text>The denomination of the video lottery terminal; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Cents; and</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Are accessible and legible without access to the interior of the video lottery terminal; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A device, mechanism, or method for retaining electronically accounting data for all meters required under this regulation for a period of not less than 10 days subsequent to a power loss.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A video lottery terminal may not be equipped with any device, mechanism, or method which allows or causes the electronic accounting meters required under this regulation to automatically clear or zero out.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A video lottery terminal shall be equipped with the following cumulative meters, all of which shall be at least ten digits in length:</text>
+      <para>
+        <num>(1)</num>
+        <text>A coin-in meter that:</text>
+        <para>
+          <num>(a)</num>
+          <text>Accumulates the total number of credits wagered whether the wager involves:</text>
+          <para>
+            <num>(i)</num>
+            <text>Currency;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>A gaming ticket;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>A promotional play instrument;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Downloaded credits; or</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>Credits won; and</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Does not accumulate subsequent double-up wagers or other wagers of intermediate winnings accumulated during a game event;</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A series of meters which collectively account for the number of credits won:</text>
+        <para>
+          <num>(a)</num>
+          <text>A coin-out meter that accumulates the total number of credits paid out automatically by the video lottery terminal as a result of winning wagers including a payout:</text>
+          <para>
+            <num>(i)</num>
+            <text>By gaming ticket; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Directly to a credit meter;</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A progressive payout meter that accumulates the total number of credits paid out automatically by the video lottery terminal as a result of a progressive jackpot;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>An external bonus payout meter that accumulates the total number of credits paid out automatically by the video lottery terminal as a result of an external bonusing system award;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>An attendant paid jackpot meter that accumulates the total number of credits hand paid by a facility operator as the result of a single winning combination that exceeds the physical or configured capability of the video lottery terminal;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>An attendant paid cancelled credit meter that accumulates the total number of credits hand paid by a facility operator as the result of a player initiated cash-out that exceeds the physical or configured capability of the video lottery terminal;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>An attendant paid progressive jackpot meter that accumulates the total number of credits hand paid by a facility operator as a result of a progressive jackpot that exceeds the physical or configured capability of the video lottery terminal; and</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>An attendant paid external bonus payout meter that accumulates the total number of credits hand paid by a facility operator as a result of an external bonusing system award that exceeds the physical or configured capability of the video lottery terminal;</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A cashable gaming ticket in count meter that accumulates the number of cashable gaming tickets accepted by a video lottery terminal;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>A cashable gaming ticket in value meter that accumulates the total number of cashable credits on gaming tickets accepted by a video lottery terminal;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>A cashable gaming ticket out count meter that accumulates the number of cashable gaming tickets issued by a video lottery terminal;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>A cashable gaming ticket out value meter that accumulates the total number of cashable credits on gaming tickets issued by a video lottery terminal;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>A noncashable gaming ticket in count meter that accumulates the number of noncashable gaming tickets accepted by a video lottery terminal;</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>A noncashable gaming ticket in value meter that accumulates the total number of noncashable credits on gaming tickets accepted by a video lottery terminal;</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>A noncashable gaming ticket out count meter that accumulates the number of noncashable gaming tickets issued by a video lottery terminal;</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>A noncashable gaming ticket out value meter that accumulates the total number of noncashable credits on gaming tickets issued by a video lottery terminal;</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>A cashable promotional play instrument in count meter that accumulates the number of cashable promotional play instruments accepted by a video lottery terminal;</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>A cashable promotional play instrument in value meter that accumulates the total number of cashable credits on promotional play instruments accepted by a video lottery terminal;</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>A noncashable promotional play instrument in count meter that accumulates the number of noncashable promotional play instruments accepted by a video lottery terminal;</text>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>A noncashable promotional play instrument in value meter that accumulates the total number of noncashable credits on promotional play instruments accepted by a video lottery terminal;</text>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>A cashable downloadable in count meter that accumulates the total number of electronic transfers involving cashable credits accepted by a video lottery terminal through a cashless funds transfer system;</text>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>A cashable downloadable in value meter that accumulates the total number of cashable credits accepted by a video lottery terminal through a cashless funds transfer system;</text>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>A cashable downloadable out count meter that accumulates the total number of electronic transfers involving cashable credits issued by a video lottery terminal to player accounts through a cashless funds transfer system;</text>
+      </para>
+      <para>
+        <num>(18)</num>
+        <text>A cashable downloadable out value meter that accumulates the total number of cashable credits issued by a video lottery terminal to player accounts through a cashless funds transfer system;</text>
+      </para>
+      <para>
+        <num>(19)</num>
+        <text>A noncashable downloadable in count meter that accumulates the total number of electronic transfers involving noncashable credits accepted by a video lottery terminal through a cashless funds transfer system;</text>
+      </para>
+      <para>
+        <num>(20)</num>
+        <text>A noncashable downloadable in value meter that accumulates the total number of noncashable credits accepted by a video lottery terminal through a cashless funds transfer system;</text>
+      </para>
+      <para>
+        <num>(21)</num>
+        <text>A noncashable downloadable out count meter that accumulates the total number of electronic transfers involving noncashable credits issued by a video lottery terminal to player accounts through a cashless funds transfer system;</text>
+      </para>
+      <para>
+        <num>(22)</num>
+        <text>A noncashable downloadable out value meter that accumulates the total number of noncashable credits issued by a video lottery terminal to player accounts through a cashless funds transfer system;</text>
+      </para>
+      <para>
+        <num>(23)</num>
+        <text>A bill in count meter than accumulates the total number of bills accepted by a video lottery terminal;</text>
+      </para>
+      <para>
+        <num>(24)</num>
+        <text>A bill in value meter than accumulates the total dollar amount of currency accepted by a video lottery terminal;</text>
+      </para>
+      <para>
+        <num>(25)</num>
+        <text>Denomination in count meters that accumulate, by denomination, the total number of bills accepted by a video lottery terminal;</text>
+      </para>
+      <para>
+        <num>(26)</num>
+        <text>Denomination in value meters that accumulate, by denomination, the total dollar amount of currency accepted by a video lottery terminal; and</text>
+      </para>
+      <para>
+        <num>(27)</num>
+        <text>Other meters required by the Commission.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>A video lottery terminal shall be equipped with the following noncumulative meters:</text>
+      <para>
+        <num>(1)</num>
+        <text>A credit meter which advises a player of the total number of credits, cashable and noncashable, available for wagering on the video lottery terminal;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A credits wagered meter that advises a player of the total number of credits wagered in a particular game or round of video lottery terminal play;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A win meter that advises a player of the total number of credits won in the immediately concluded game or round of video lottery terminal play; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>A credits paid meter which advises a player of the total value of the last:</text>
+        <para>
+          <num>(a)</num>
+          <text>Cash out initiated by a player;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Hand paid jackpot; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Hand paid cancelled credit.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>The noncumulative meters required by <cite path="36|04|01|.16|D.">§D of this regulation</cite> shall be:</text>
+      <para>
+        <num>(1)</num>
+        <text>Visible from the exterior of the video lottery terminal; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>At least eight digits in length.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>A video lottery terminal shall be equipped with a meter at least eight digits in length which stores, in a manner and for a duration acceptable to the Commission, the number of games played after the following events:</text>
+      <para>
+        <num>(1)</num>
+        <text>Power reset;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Door close; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>RAM clear.</text>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>The Commission may approve a video lottery terminal which combines one of more of the meters enumerated in <cite path="36|04|01|.16|C.">§C of this regulation</cite> if the Commission determines that the combined meters do not preclude the capture of all critical transactions occurring on a video lottery terminal.</text>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>If a video lottery terminal has been enabled for tournament play, the results of tournament play may not increment the cumulative meters required under <cite path="36|04|01|.16|C.">§C of this regulation</cite>.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.17</num>
+    <heading>RAM Clear.</heading>
+    <text>A manufacturer may not perform a RAM clear on a video lottery terminal without:</text>
+    <para>
+      <num>A.</num>
+      <text>Prior notice to the central monitor and control system operator; and</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Recordation and transmission to the central monitor and control system operator of accounting meter data immediately prior to the RAM clear.</text>
+    </para>
+  </section>
+  <section cache:ref-path="36|04|01|.18">
+    <prefix>Regulation</prefix>
+    <num>.18</num>
+    <heading>Video Lottery Terminal Tower Lights and Error Conditions.</heading>
+    <para>
+      <num>A.</num>
+      <text>Definitions.</text>
+      <para>
+        <num>(1)</num>
+        <text>In this regulation the following terms have the meanings indicated.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Terms Defined.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Administrative mode” means a video lottery terminal has been deliberately placed by a manufacturer in an unplayable state to access the set up or recall functions of the video lottery terminal;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Disabled mode” means a video lottery terminal has been deliberately placed, by a manufacturer or the central monitor and control system, in an unplayable state for any reason other than access to the set up or recall functions of the video lottery terminal; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>“Tilt mode” means a video lottery terminal has placed itself in an unplayable state due to malfunction or error condition and may not be returned to a playable state without the intervention of a manufacturer.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A video lottery terminal shall be equipped with a tower light located at the top of its cabinet used to identify the operational status of the video lottery terminal including, but not limited to:</text>
+      <para>
+        <num>(1)</num>
+        <text>A jackpot payout;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A credit meter payout that exceeds the physical or configured capability of the video lottery terminal to pay;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Main door open;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Player requesting attendant services;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Administrative mode;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Disabled mode; and</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Tilt mode.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A tower light shall be visible to:</text>
+      <para>
+        <num>(1)</num>
+        <text>A player; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The facility operator’s surveillance department.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The tower light of a bar-top style video lottery terminal may be:</text>
+      <para>
+        <num>(1)</num>
+        <text>Shared among a group of video lottery terminals; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Substituted by:</text>
+        <para>
+          <num>(a)</num>
+          <text>A flush-mounted light located on the top panel of the video lottery terminal;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>An audible alarm; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Other Commission-approved means of visibly or audibly identifying the operational status of the video lottery terminal.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>The Commission may, on submission of a written request by a manufacturer, approve an alternative means for identifying the operation status enumerated in <cite path="36|04|01|.18|A.">§A of this regulation</cite>.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>A manufacturer shall deliver a video lottery terminal with documentation that identifies each light or light combination on its tower light and the operational status corresponding to that light or light combination.</text>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Nothing in this regulation shall preclude a manufacturer from equipping a video lottery terminal with a light or light combinations not required by this regulation for use by a facility operator for gaming floor communication provided the manufacturer notifies the Commission in writing of any internal communication protocols involving tower lights developed by a manufacturer for a facility prior to implementation.</text>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>A video lottery terminal shall be equipped, while idle and in play mode, to do the following with regard to an error condition identified in §J, K, L, or M of this regulation:</text>
+      <para>
+        <num>(1)</num>
+        <text>Detect the error condition;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Identify the specific error condition by:</text>
+        <para>
+          <num>(a)</num>
+          <text>Tower light; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Other Commission-approved means; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Communicate the specific error condition to the:</text>
+        <para>
+          <num>(a)</num>
+          <text>Central monitor and control system; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Facility operator’s video lottery terminal data system.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>The following error conditions may be cleared automatically by the video lottery terminal upon completion of a new play sequence:</text>
+      <para>
+        <num>(1)</num>
+        <text>Power reset;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Door open; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Door just closed.</text>
+      </para>
+    </para>
+    <para>
+      <num>J.</num>
+      <text>The following error conditions shall result in placement of the video lottery terminal in disabled mode, shall prevent play and shall only be cleared by a manufacturer:</text>
+      <para>
+        <num>(1)</num>
+        <text>Low RAM battery;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Printer failure;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Presentation error;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Program error or defective program storage media;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Reel spin error;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Removal of the control storage media; and</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>RAM defective or corrupted.</text>
+      </para>
+    </para>
+    <para>
+      <num>K.</num>
+      <text>The following error conditions shall result in placement of the video lottery terminal in disabled mode, shall prevent play and shall be cleared by a manufacturer or facility operator:</text>
+      <para>
+        <num>(1)</num>
+        <text>Printer mechanism paper jam; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Bill validator jam.</text>
+      </para>
+    </para>
+    <para>
+      <num>L.</num>
+      <text>The following error conditions need not result in placement of the video lottery terminal in disabled mode, may not preclude play if the error condition is determined not to prohibit completion of the transaction and shall be cleared by a manufacturer or facility operator:</text>
+      <para>
+        <num>(1)</num>
+        <text>Printer mechanism paper level is low; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Printer mechanism is out of paper.</text>
+      </para>
+    </para>
+    <para>
+      <num>M.</num>
+      <text>A manufacturer of a video lottery terminal shall affix a description of the error code corresponding to each error condition inside a video lottery terminal.</text>
+    </para>
+  </section>
+  <section cache:ref-path="36|04|01|.19">
+    <prefix>Regulation</prefix>
+    <num>.19</num>
+    <heading>Last Game Recall.</heading>
+    <para>
+      <num>A.</num>
+      <text>A video lottery terminal shall be capable of recalling and displaying a complete play history for the most recent game event and at least three games immediately preceding the most recent game event.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The play history required by <cite path="36|04|01|.19|A.">§A of this regulation</cite> shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Be presented in the same sequence as the original game play;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Be available when the video lottery terminal is in:</text>
+        <para>
+          <num>(a)</num>
+          <text>Idle mode;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Administrative mode;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Disabled mode; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Tilt mode; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Include:</text>
+        <para>
+          <num>(a)</num>
+          <text>Game outcome in graphics or text;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The base game and all intermediate play decisions;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Details sufficient to determine the credits available at the start and end of each game event;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Wagers placed per line;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Number of lines on which wagers were placed;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Credits won;</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>Credits cashed out;</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>Any progressive jackpot awarded; and</text>
+        </para>
+        <para>
+          <num>(i)</num>
+          <text>All double-up, bonus, and extended play activity.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Notwithstanding the requirements of <cite path="36|04|01|.19|B.|(3)">§B(3) of this regulation</cite>, a video lottery terminal offering a variable number of intermediate play steps in a game event shall satisfy the requirements of this regulation if it is capable of recalling and displaying the last 50 intermediate steps in each of the four base game events retained.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>A video lottery terminal shall be capable of recalling and displaying a complete transaction history for the last 35 transactions with an electronic funds transfer system.</text>
+    </para>
+  </section>
+  <section cache:ref-path="36|04|01|.20">
+    <prefix>Regulation</prefix>
+    <num>.20</num>
+    <heading>Video Lottery Terminal Entry Logs.</heading>
+    <para>
+      <num>A.</num>
+      <text>Unless a request for an alternate procedure is submitted in writing and approved by the Commission, a manufacturer shall equip a video lottery terminal with a maintenance log for use in documenting each time a:</text>
+      <para>
+        <num>(1)</num>
+        <text>Video lottery terminal is entered; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Device connected to a video lottery terminal which may affect the operation of the video lottery terminal is accessed.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A maintenance log shall be:</text>
+      <para>
+        <num>(1)</num>
+        <text>Signed by each individual accessing an area enumerated in <cite path="36|04|01|.20|A.">§A of this regulation</cite> including representatives of a manufacturer, a contractor, a facility operator, or the Commission;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Maintained in a book with bound numbered pages that cannot be readily removed, or in a functional equivalent that has been reviewed and approved by the Commission:</text>
+        <para>
+          <num>(a)</num>
+          <text>In the main cabinet of the video lottery terminal; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>On the cover of which are fields to record:</text>
+          <para>
+            <num>(i)</num>
+            <text>The video lottery terminal’s manufacturer’s serial number;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Commission asset number; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>A log book sequence number;</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Utilized to document the following:</text>
+        <para>
+          <num>(a)</num>
+          <text>Date and time of entry;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Entering individual's signature;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Reason for entering the video lottery terminal including the identification of areas inspected or repaired; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Retained by a facility operator for a minimum of 3 years from the date of the last entry unless a request for destruction is submitted in writing and approved in writing by the Commission.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A manufacturer shall equip a progressive controller not housed within the cabinet of a video lottery terminal with a maintenance log which documents each time the Commission-approved compartment in which the progressive controller resides is accessed which is:</text>
+      <para>
+        <num>(1)</num>
+        <text>Signed by each individual accessing the compartment housing the progressive controller including representatives of a manufacturer, a contractor, a facility operator, or the Commission;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Maintained in a book with bound numbered pages that cannot be readily removed:</text>
+        <para>
+          <num>(a)</num>
+          <text>In the Commission-approved compartment in which the progressive controller resides; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>On the cover of which are fields to record:</text>
+          <para>
+            <num>(i)</num>
+            <text>The progressive controller’s manufacturer’s serial number;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Commission asset number; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>A log book sequence number;</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Utilized to document the following:</text>
+        <para>
+          <num>(a)</num>
+          <text>Date and time of entry to the compartment housing the progressive controller;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Entering individual's signature;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Reason for entering the compartment housing the progressive controller including the identification of areas inspected or repaired; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Retained by a facility operator for a minimum of 3 years from the date of the last entry unless a request for destruction is submitted in writing and approved in writing by the Commission.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.21</num>
+    <heading>Video Lottery Terminal Security.</heading>
+    <para>
+      <num>A.</num>
+      <text>If a manufacturer ships a video lottery terminal with software already installed, prior to transporting it the manufacturer shall seal the video lottery terminal with a prenumbered seal.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Access to the main door securing the interior of a video lottery terminal shall be controlled by at least one lock:</text>
+      <para>
+        <num>(1)</num>
+        <text>The key to which is:</text>
+        <para>
+          <num>(a)</num>
+          <text>Different from any other key securing access to a video lottery terminal component including a:</text>
+          <para>
+            <num>(i)</num>
+            <text>Belly door;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Bill validator; or</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Cash storage box; and</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Limited to access by a:</text>
+          <para>
+            <num>(i)</num>
+            <text>Manufacturer; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Facility operator; and</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Provided and installed by a facility operator except a facility operator may supply a manufacturer with a lock for installation during the manufacturing process.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Access to the logic door securing the video lottery terminal’s main processing unit shall be controlled by at least one lock:</text>
+      <para>
+        <num>(1)</num>
+        <text>The key to which is:</text>
+        <para>
+          <num>(a)</num>
+          <text>Different from any other key securing access to a video lottery terminal component including a:</text>
+          <para>
+            <num>(i)</num>
+            <text>Belly door;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Bill validator; or</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Cash storage box; and</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Limited to access by a:</text>
+          <para>
+            <num>(i)</num>
+            <text>Manufacturer; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Facility operator; and</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Provided and installed by a facility operator, except a facility operator may supply a manufacturer with a lock for installation during the manufacturing process.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Locks to a bill validator and a cash storage box shall be:</text>
+      <para>
+        <num>(1)</num>
+        <text>Accessed and controlled in accordance with <cite path="36.03.10.42">COMAR 36.03.10.42</cite>; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Provided and installed by a facility operator except a facility operator may supply a manufacturer with a lock for installation during the manufacturing process.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>A video lottery terminal shall be designed with access to hardware switches controlling functions critical to the operation of a video lottery terminal limited to access by a manufacturer and the Commission including, but not limited to, switches, jumpers, and other mechanisms utilized to alter:</text>
+      <para>
+        <num>(1)</num>
+        <text>Pay tables;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Payout percentages; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Meters.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>A video lottery terminal shall have:</text>
+      <para>
+        <num>(1)</num>
+        <text>Printed or affixed to the top and front of the video lottery terminal, in a size suitable for effective surveillance coverage:</text>
+        <para>
+          <num>(a)</num>
+          <text>The facility operator’s gaming floor location number; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Commission asset number; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An identification plate on its exterior displaying the:</text>
+        <para>
+          <num>(a)</num>
+          <text>Manufacturer; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Manufacturer’s:</text>
+          <para>
+            <num>(i)</num>
+            <text>Serial number; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Model number.</text>
+          </para>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.22</num>
+    <heading>Minimum Design Standards Applicable to Equipment, a System, or Software.</heading>
+    <para>
+      <num>A.</num>
+      <text>Equipment, a system, or software required to be tested, certified, and approved under this chapter shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Conform to the minimum design standards of this regulation; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If applicable, conform to any specific additional design standards enumerated in this chapter.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Equipment, a system, or software required to be tested, certified, and approved under this chapter shall, at a minimum, control logical access through:</text>
+      <para>
+        <num>(1)</num>
+        <text>Generation of daily monitoring logs documenting:</text>
+        <para>
+          <num>(a)</num>
+          <text>User access; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Security incidents;</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Assignment of rights and privileges to an individual user including specific protocols addressing:</text>
+        <para>
+          <num>(a)</num>
+          <text>Creation, modification, and termination of a unique system account for each user;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Password parameters which:</text>
+          <para>
+            <num>(i)</num>
+            <text>Require a minimum length;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Incorporate an expiration interval; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Result in lockout; and</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Administrator and override capabilities;</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Use of access permissions to restrict an unauthorized user from performing any the following with regard to critical files and directories:</text>
+        <para>
+          <num>(a)</num>
+          <text>Reading;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Altering; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Deleting; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Restricted access to critical files and directories through:</text>
+        <para>
+          <num>(a)</num>
+          <text>Encryption; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>If approved by the Commission, internal controls provided the internal controls include:</text>
+          <para>
+            <num>(i)</num>
+            <text>The effective segregation of duties and responsibilities with regard to the system; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The automatic monitoring and recording by the system of access by an individual to its files and directories.</text>
+          </para>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Equipment, a system or software required to be tested, certified, and approved under this chapter shall, at a minimum, control system operations through:</text>
+      <para>
+        <num>(1)</num>
+        <text>Generation of daily monitoring logs and alert messages documenting:</text>
+        <para>
+          <num>(a)</num>
+          <text>System performance;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Hardware problems; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Software errors;</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Authentication of the source of a data transmission;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Transmission completeness and accuracy checks;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Detection of corrupt or lost data packets;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Rejection of a transmission;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Use of cryptographic controls for critical transmissions of data; and</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Daily synchronization of its real time clock with that of equipment, systems, or software to which it is linked.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Equipment, a system, or software required to be tested, certified, and approved under this chapter shall, at a minimum, control the integrity of data through:</text>
+      <para>
+        <num>(1)</num>
+        <text>Validation of inputs to critical fields including data:</text>
+        <para>
+          <num>(a)</num>
+          <text>Type; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Format;</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Rejection of corrupt data;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Automatic and independent recordation of critical data;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Independent verification of the accuracy of data; and</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Segregation of all security critical system programs, files, and directories from other programs, files, and directories.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Equipment, a system, or software required to be tested, certified, and approved under this chapter shall, at a minimum, ensure continuity through:</text>
+      <para>
+        <num>(1)</num>
+        <text>Data redundancy to permit a complete and prompt recovery of all information in the event of malfunction or power interruption; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Environmental protections, including an uninterruptible power supply to protect critical hardware.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.23</num>
+    <heading>Video Lottery Terminal — Additional Requirements.</heading>
+    <para>
+      <num>A.</num>
+      <text>A manufacturer shall configure a video lottery terminal to wager credits available for play in the following order:</text>
+      <para>
+        <num>(1)</num>
+        <text>Noncashable credits; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Cashable credits.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A manufacturer may enable a video lottery terminal that has been tested, certified, and approved under this chapter for tournament play with the prior written approval of the Commission.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.24</num>
+    <heading>Gaming Ticket System — Additional Requirements.</heading>
+    <para>
+      <num>A.</num>
+      <text>A facility operator shall utilize a gaming ticket system that has been tested, certified, and approved under this chapter.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A facility operator shall, in a form and in a time frame specified by the Commission, submit a report to the Commission detailing any adjustment made to the amount of a gaming ticket.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>In addition to complying with the minimum design standards of <cite path="|36|04|01|.22">Regulation .22 of this chapter</cite>, a gaming ticket system shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Authenticate the source of a data transmission by identifying whether a transmission originated with a:</text>
+        <para>
+          <num>(a)</num>
+          <text>Video lottery terminal;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Ticket redemption unit; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Cashiers’ cage redemption location;</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Use cryptographic controls for transmissions that include:</text>
+        <para>
+          <num>(a)</num>
+          <text>A gaming ticket series number;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Meter information; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Other information used in the calculation or verification of proceeds;</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Control the integrity of data through generation of a unique series number on a gaming ticket:</text>
+        <para>
+          <num>(a)</num>
+          <text>Comprised of at least 18 numbers, symbols, or characters;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Containing at least three numbers, symbols, or characters:</text>
+          <para>
+            <num>(i)</num>
+            <text>Randomly generated in a manner approved by the Commission; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Designed to prevent an individual from being able to predict the series number of any other gaming ticket;</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Containing at least one number, symbol, or character unique to a gaming ticket which visually differentiates between a gaming ticket and a promotional play instrument; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Printed in at least two locations on a gaming ticket;</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Automatically and independently record the critical data required to be printed on a gaming ticket under <cite path="36.03.10.36">COMAR 36.03.10.36</cite> at the time of gaming ticket:</text>
+        <para>
+          <num>(a)</num>
+          <text>Generation; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Redemption; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Independently verify, in a manner satisfactory to the Commission, the accuracy of a gaming ticket series number and amount prior to redemption.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="36|04|01|.25">
+    <prefix>Regulation</prefix>
+    <num>.25</num>
+    <heading>Ticket Redemption Unit — Additional Requirements.</heading>
+    <para>
+      <num>A.</num>
+      <text>A facility operator may utilize a ticket redemption unit that has been tested, certified, and approved under this chapter.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>In addition to complying with the minimum design standards of <cite path="|36|04|01|.22">Regulation .22 of this chapter</cite>, a ticket redemption unit shall, in a manner satisfactory to the Commission:</text>
+      <para>
+        <num>(1)</num>
+        <text>Establish the validity of a gaming ticket or promotional play instrument by comparing the unique series number on the ticket or instrument with electronic records in a gaming ticket system or promotional play system;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Cancel upon acceptance a gaming ticket or promotional play instrument to prevent:</text>
+        <para>
+          <num>(a)</num>
+          <text>Subsequent redemption at a:</text>
+          <para>
+            <num>(i)</num>
+            <text>Cashiers' cage; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Another ticket redemption unit; or</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Acceptance by a video lottery terminal; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Evaluate whether sufficient funds are available before accepting the gaming ticket or promotional play instrument and completing the transaction.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The following error conditions may be cleared automatically by a ticket redemption unit upon completion of a new transaction.</text>
+      <para>
+        <num>(1)</num>
+        <text>Power reset;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Door open;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Door closed; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>System communication loss.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The following error conditions shall result in placement of the ticket redemption unit in disabled mode, shall prevent new transactions and shall only be cleared by a facility operator:</text>
+      <para>
+        <num>(1)</num>
+        <text>Failure to make payment, meaning that a gaming ticket or promotional play instrument was returned and no receipt for an unpaid amount was issued;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Failure to make complete payment, meaning no receipt for an unpaid amount was issued;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Bill validator failure; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Printer failure due to printer jam or lack of paper.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>A ticket redemption unit shall be equipped with:</text>
+      <para>
+        <num>(1)</num>
+        <text>The meters enumerated in <cite path="36|04|01|.25|F.">§F of this regulation</cite>;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Meters which continuously and automatically increment in credits equal to cents; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>An automated transaction log retaining all critical transaction history required under this regulation for a period of not less than 10 days subsequent to a power loss.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>A ticket redemption unit shall be equipped with electronic meters that function as follows:</text>
+      <para>
+        <num>(1)</num>
+        <text>A cashable gaming ticket in count meter that accumulates the number of cashable gaming tickets accepted by a ticket redemption unit;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A cashable gaming ticket in value meter that accumulates the total number of credits on cashable gaming tickets accepted by a ticket redemption unit;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A cashable promotional play instrument in count meter that accumulates the number of cashable promotional play instruments accepted by a ticket redemption unit;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>A cashable promotional play instrument in value meter that accumulates the total number of credits on cashable promotional play instruments accepted by a ticket redemption unit;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Bill denomination in count meters that accumulate, by denomination, the total number of bills accepted by a ticket redemption unit;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Bill denomination in value meters that accumulate, by denomination, the total dollar amount of currency accepted by a ticket redemption unit;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Bill denomination out count meters that accumulate, by denomination, the total number of bills dispensed by a ticket redemption unit;</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Bill denomination – out value meters that accumulate, by denomination, the total dollar amount of currency dispensed by a ticket redemption unit; and</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>Other meters required by the Commission.</text>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>The automated transaction log required under <cite path="36|04|01|.25|E.|(3)">§E(3) of this regulation</cite> shall include for each transaction, whether complete or incomplete, the following:</text>
+      <para>
+        <num>(1)</num>
+        <text>Date and time;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Amount;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Disposition as complete or incomplete;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Error conditions including failed access attempts;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>User access data; and</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>If equipped to redeem multiple cashable gaming tickets and cashable promotional play instruments in a single transaction, a breakdown of the transaction by individual cashable gaming ticket and cashable promotional play instrument.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.26</num>
+    <heading>External Bonusing System — Additional Requirements.</heading>
+    <para>
+      <num>A.</num>
+      <text>A facility operator may utilize an external bonusing system that has been tested, certified, and approved under this chapter.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>In addition to complying with the minimum design standards of <cite path="|36|04|01|.22">Regulation .22 of this chapter</cite>, a video lottery terminal connected to an external bonusing system may not equal or exceed an average payout percentage of 100 percent when the contribution of any bonus awards available on a video lottery terminal is added to the video lottery terminal’s average payout percentage.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.27</num>
+    <heading>Cashless Funds Transfer System — Additional Requirements.</heading>
+    <para>
+      <num>A.</num>
+      <text>A facility operator may utilize a cashless funds transfer system that has been tested, certified, and approved under this chapter.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A facility operator shall, in a form and in a time frame specified by the Commission, submit a report to the Commission detailing any adjustment made to the amount of a credit transferred to or from a video lottery terminal, table game, or wagering account by means of a cashless funds transfer system.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A facility operator utilizing a cashless funds transfer system shall develop and include in the internal controls submitted to and approved by the Commission under <cite path="36.03.10.05">COMAR 36.03.10.05</cite> procedures addressing the integrity, security, and control of a cashless funds transfer system.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>A facility operator’s internal controls shall address:</text>
+      <para>
+        <num>(1)</num>
+        <text>Set-up and administration of a player account including:</text>
+        <para>
+          <num>(a)</num>
+          <text>The procedures utilized to create a unique access code to, and a unique player identification number for, a player account; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The controls employed to secure a player’s access code;</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The intended scope of use of a cashless funds transfer system including whether it will be used to:</text>
+        <para>
+          <num>(a)</num>
+          <text>Transfer credits to a video lottery terminal, table game, or wagering account; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Transfer credits from a video lottery terminal, table game, or wagering account to a player account; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Documentation of individual player transactions including a requirement that:</text>
+        <para>
+          <num>(a)</num>
+          <text>Each transaction is identified, at a minimum, by:</text>
+          <para>
+            <num>(i)</num>
+            <text>Date and time;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Video lottery terminal manufacturer serial number or Commission asset number, table game number, or wagering account number; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>The player’s account identification number;</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A statement of player account activity is available to a player on:</text>
+          <para>
+            <num>(i)</num>
+            <text>Submission of a signed request for the statement at the cashiers’ cage; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Establishing the identification of the player including the authenticity of the player’s signature on the request for the statement in accordance with the signature authentication procedures in <cite path="36.03.10.20">COMAR 36.03.10.20</cite>;</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The statement of player account activity required under this regulation summarize, at a minimum, a player’s activity during the month prior to the date of the request for a statement and include:</text>
+          <para>
+            <num>(i)</num>
+            <text>Player’s beginning credit balance;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Credits earned during the month;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Credits transferred to a video lottery terminal, table game, or wagering account;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Credits transferred from a video lottery terminal, table game, or wagering account to a player account; and</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>Player’s ending credit balance; and</text>
+          </para>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>The statement of player account activity required under this regulation need not include promotional play credits transferred to a player without regard to the identity of the player.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="36|04|01|.28">
+    <prefix>Regulation</prefix>
+    <num>.28</num>
+    <heading>Progressive Video Lottery Terminals.</heading>
+    <para>
+      <num>A.</num>
+      <text>A video lottery terminal offering a progressive jackpot may:</text>
+      <para>
+        <num>(1)</num>
+        <text>Stand alone; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Be linked to:</text>
+        <para>
+          <num>(a)</num>
+          <text>Other video lottery terminals in a facility; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Video lottery terminals in two or more facilities in or outside the State through a wide area progressive system under <cite path="|36|04|01|.29">Regulation .29 of this chapter</cite>.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A manufacturer may not install in a facility, and a facility operator may not make available for play, a video lottery terminal offering a progressive jackpot without Commission approval in writing of:</text>
+      <para>
+        <num>(1)</num>
+        <text>A progressive proposal under <cite path="|36|04|01|.30">Regulation .30 of this chapter</cite>; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Internal controls submitted under <cite path="36.03.10.05">COMAR 36.03.10.05</cite> addressing the payment of a progressive jackpot.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A manufacturer may not modify the terms of a progressive jackpot, and a facility operator may not make available for play, a video lottery terminal which offers a progressive jackpot that differs from its approved progressive proposal without the approval in writing of the Commission under <cite path="|36|04|01|.30|B.">Regulation .30B of this chapter</cite>.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>A video lottery terminal may offer multiple progressive jackpots.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>A progressive jackpot amount may be calculated and transmitted to a video lottery terminal by:</text>
+      <para>
+        <num>(1)</num>
+        <text>The operating system of a video lottery terminal; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A separate progressive controller interfaced to a video lottery terminal.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>A progressive controller shall be:</text>
+      <para>
+        <num>(1)</num>
+        <text>Located in a:</text>
+        <para>
+          <num>(a)</num>
+          <text>Restricted area; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Video lottery terminal;</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Secured:</text>
+        <para>
+          <num>(a)</num>
+          <text>In a dual key controlled compartment with:</text>
+          <para>
+            <num>(i)</num>
+            <text>One key controlled by the operations department; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>One key controlled by the security department; or</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>By alternative means approved by the Commission; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Capable of:</text>
+        <para>
+          <num>(a)</num>
+          <text>Displaying an available progressive jackpot amount on a video lottery terminal’s:</text>
+          <para>
+            <num>(i)</num>
+            <text>Progressive meter; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Common progressive meter;</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Transmitting to a video lottery terminal for metering purposes the amount of a progressive jackpot;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>If linked to a common progressive meter in accordance with <cite path="36|04|01|.28|H.">§H of this regulation</cite>, displaying the Commission asset number of the video lottery terminal on which a progressive jackpot is won;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>If a progressive controller is servicing multiple video lottery terminals, automatically resetting all video lottery terminals connected to it to a pre-established reset amount; and</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>If the progressive offers multiple jackpot levels, maintaining and displaying for each progressive level the:</text>
+          <para>
+            <num>(i)</num>
+            <text>Number of progressive jackpots won;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Cumulative amount paid;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Maximum progressive payout;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Minimum amount or reset amount; and</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>Rate of progression.</text>
+          </para>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>A video lottery terminal offering a progressive jackpot shall be equipped, for each progressive jackpot offered, with the following mechanical, electrical, or electronic meters:</text>
+      <para>
+        <num>(1)</num>
+        <text>A progressive meter which:</text>
+        <para>
+          <num>(a)</num>
+          <text>May increase in value based upon wagers;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Advises the player of the amount which may be won if the video lottery terminal characters that result in the award of a progressive jackpot appear as a result of activation of play; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Is visible from the front of the video lottery terminal through:</text>
+          <para>
+            <num>(i)</num>
+            <text>A meter display housed in the video lottery terminal; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>A common progressive meter display unit;</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A progressive payout meter under <cite path="|36|04|01|.16|C.|(2)|(b)">Regulation .16C(2)(b) of this chapter</cite>;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>An attendant paid progressive jackpot meter under <cite path="|36|04|01|.16|C.|(2)|(f)">Regulation .16C(2)(f) of this chapter</cite>; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>A cumulative progressive payout meter that continuously and automatically records the total value of progressive jackpots paid whether paid:</text>
+        <para>
+          <num>(a)</num>
+          <text>Directly by the video lottery terminal; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Hand paid by a facility operator as a result of a progressive jackpot that exceeds the physical or configured capability of a video lottery terminal.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>A video lottery terminal linked to a common progressive meter for the purpose of offering the same progressive jackpot on two or more video lottery terminals shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Have the same probability of hitting the combination of characters that will award the progressive jackpot as every other video lottery terminal linked to that common progressive meter; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Require each:</text>
+        <para>
+          <num>(a)</num>
+          <text>Player to wager the same amount to receive a chance at winning the progressive jackpot; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Wager to increment the progressive meter by the same rate of progression on every video lottery terminal connected to the common progressive meter.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>Notwithstanding the requirements of <cite path="36|04|01|.28|H.">§H of this regulation</cite>, video lottery terminals linked to a common progressive meter for the purpose of offering the same progressive jackpot on two or more video lottery terminals may be of different denominations or require different wagers, or both, if:</text>
+      <para>
+        <num>(1)</num>
+        <text>The probability of winning the progressive jackpot is directly proportional to the wager required to win a jackpot; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A notice indicating the proportional probability of hitting the progressive jackpot on the common progressive meter is conspicuously displayed in a manner specified by the Commission on each linked video lottery terminal.</text>
+      </para>
+    </para>
+    <para>
+      <num>J.</num>
+      <text>A manufacturer may not:</text>
+      <para>
+        <num>(1)</num>
+        <text>Set a limit for a progressive jackpot which exceeds the display capability of the progressive meter; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Adjust a progressive meter without the prior approval of the Commission unless the adjustment is:</text>
+        <para>
+          <num>(a)</num>
+          <text>Required as a direct result of video lottery terminal or meter malfunction; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Reported by the manufacturer in a form and in a time frame specified by the Commission to the:</text>
+          <para>
+            <num>(i)</num>
+            <text>Commission; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Facility operator.</text>
+          </para>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="36|04|01|.29">
+    <prefix>Regulation</prefix>
+    <num>.29</num>
+    <heading>Wide Area Progressive System.</heading>
+    <para>
+      <num>A.</num>
+      <text>A manufacturer may not install, and a facility operator may not make available for play, a wide area progressive system without Commission approval in writing of:</text>
+      <para>
+        <num>(1)</num>
+        <text>A wide area progressive agreement under §C of the regulation;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A progressive proposal under <cite path="|36|04|01|.30">Regulation .30 of this chapter</cite>; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Internal controls submitted under <cite path="36.03.10.05">COMAR 36.03.10.05</cite> addressing the payment of a progressive jackpot on a video lottery terminal participating in a wide area progressive system.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A manufacturer may not modify the terms of a progressive jackpot offered through a wide area progressive system, and a facility operator may not make available for play, a video lottery terminal which offers a progressive jackpot that differs from its approved progressive proposal without the approval in writing of the Commission under <cite path="|36|04|01|.30">Regulation .30(B) of this chapter</cite>.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A wide area progressive system shall operate under the terms and conditions of a wide area progressive agreement between:</text>
+      <para>
+        <num>(1)</num>
+        <text>The Commission;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A manufacturer; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Participating facility operators in or outside the State.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>A wide area progressive agreement shall assign responsibility for the operation and administration of a wide area progressive system to a designated system operator who may be a:</text>
+      <para>
+        <num>(1)</num>
+        <text>Participating facility operators in or outside the State; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Manufacturer.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>A wide area progressive agreement shall address:</text>
+      <para>
+        <num>(1)</num>
+        <text>The duties and responsibilities of the:</text>
+        <para>
+          <num>(a)</num>
+          <text>Participating:</text>
+          <para>
+            <num>(i)</num>
+            <text>Manufacturer; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Facility operators in or outside the State; and</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>System operator;</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The terms of compensation for a system operator including to what extent the system operator is to receive compensation based, directly or indirectly, on an interest, percentage or share of the proceeds of a wide area progressive system;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Responsibility for progressive jackpots, proceeds, and expenses associated with the operation of a wide area progressive system;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Control and operation of a system monitor room under <cite path="36|04|01|.29|F.">§F of this regulation</cite>;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Service and maintenance of a wide area progressive system;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Responsibility for generating, filing and maintaining the records and reports required under this subtitle;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>If applicable, terms with regard to establishing and servicing any trust agreement associated with an annuity jackpot offered by a wide area progressive system under <cite path="36.03.10.39">COMAR 36.03.10.39</cite>; and</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>If requested by the Commission, additional documentation with regard to a wide area progressive agreement.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>A wide area progressive system shall be controlled and operated from a system monitor room:</text>
+      <para>
+        <num>(1)</num>
+        <text>Under the sole possession of, and maintained and operated by, the system operator designated in a wide area progressive agreement;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>In a location approved by the Commission;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If required by the Commission, staffed by individuals licensed as gaming employees; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Subject to:</text>
+        <para>
+          <num>(a)</num>
+          <text>Surveillance coverage satisfactory to the Commission; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Access controls satisfactory to the Commission including a monitor room access log in accordance with <cite path="36|04|01|.29|G.">§G of this regulation</cite>.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>A system operator shall maintain a monitor room access log:</text>
+      <para>
+        <num>(1)</num>
+        <text>Signed by each individual entering the system monitor room except an employee of a system operator assigned to the system monitor room on his assigned shift;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Maintained in a book with bound numbered pages that cannot be readily removed;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Utilized to document the following:</text>
+        <para>
+          <num>(a)</num>
+          <text>Date and time of entry;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Entering individual's signature; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Reason for entering the system monitor room including the identification of areas inspected or repaired; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Retained by a system operator for a minimum of 3 years from the date of the last entry unless a request for destruction is submitted in writing and approved in writing by the Commission.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="36|04|01|.30">
+    <prefix>Regulation</prefix>
+    <num>.30</num>
+    <heading>Progressive Proposal.</heading>
+    <para>
+      <num>A.</num>
+      <text>A progressive proposal:</text>
+      <para>
+        <num>(1)</num>
+        <text>Shall be jointly prepared, executed, and submitted to the Commission by a facility operator and a manufacturer;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Shall include the following:</text>
+        <para>
+          <num>(a)</num>
+          <text>Manufacturer’s:</text>
+          <para>
+            <num>(i)</num>
+            <text>Serial number;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Model number;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Software identification number; and</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Version number;</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Denomination or a designation as multi-denomination;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Cabinet style;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>An indication as to whether the video lottery terminal is to be:</text>
+          <para>
+            <num>(i)</num>
+            <text>Stand alone;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Linked to other video lottery terminals in a facility; or</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Linked to a wide area progressive system;</text>
+          </para>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>The initial and reset amounts at which the progressive meter or meters will be set;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>For each progressive jackpot the:</text>
+          <para>
+            <num>(i)</num>
+            <text>Rate of progression;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Limit; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Probability of winning; and</text>
+          </para>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>If requested by the Commission, additional documentation; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>May be approved in writing by the Commission.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A manufacturer may not modify the terms of a progressive jackpot, and a facility operator may not make available for play, a video lottery terminal which offers a progressive jackpot that differs from its approved progressive proposal without:</text>
+      <para>
+        <num>(1)</num>
+        <text>Submission to the Commission, in a time frame specified by the Commission, of a request for modification of an approved progressive proposal identifying any proposed change to the terms and conditions of the progressive proposal to be modified; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The approval in writing of the Commission.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The Commission may consider the following modifications to an approved progressive proposal:</text>
+      <para>
+        <num>(1)</num>
+        <text>A revision to the payout limit on an available progressive jackpot, provided the revised payout limit is greater than the then current payout amount on the progressive jackpot meter;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Transfer of an available progressive jackpot amount in accordance with <cite path="36|04|01|.30|D.">§D of this regulation</cite>;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Removal from the gaming floor of a video lottery terminal offering a progressive jackpot in accordance with <cite path="36|04|01|.30|E.">§E of this regulation</cite>; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Other modifications deemed consistent with this regulation by the Commission.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>A transfer of an available progressive jackpot amount under <cite path="36|04|01|.30|C.|(2)">§C(2) of this regulation</cite> shall involve:</text>
+      <para>
+        <num>(1)</num>
+        <text>The entire amount;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Transfer to the:</text>
+        <para>
+          <num>(a)</num>
+          <text>Progressive meter of a video lottery terminal with the same:</text>
+          <para>
+            <num>(i)</num>
+            <text>Or greater probability of winning the progressive jackpot;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Or lower wager requirement to be eligible to win the progressive jackpot; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Type of progressive jackpot award; or</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Progressive meters of two separate video lottery terminals provided each terminal to which a jackpot amount is transferred individually satisfies the requirements of <cite path="36|04|01|.30|D.|(2)|(a)">§D(2)(a) of this regulation</cite>; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Disclosure of the intent to transfer an available progressive jackpot amount on the front of a video lottery terminal in a manner specified by the Commission for at least 14 days prior to the intended date of transfer.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Removal from the gaming floor of a video lottery terminal offering a progressive jackpot under <cite path="36|04|01|.30|C.|(3)">§C(3) of this regulation</cite> shall require:</text>
+      <para>
+        <num>(1)</num>
+        <text>If the removal involves one or more linked video lottery terminals offered in:</text>
+        <para>
+          <num>(a)</num>
+          <text>A single facility, that at least two linked video lottery terminals offering the same progressive jackpot remain on the gaming floor; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>More than one facility, that the facility operator retain at least one linked video lottery terminal offering the same progressive jackpot on its gaming floor; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>In every case, disclosure of the intent to transfer an available progressive jackpot on the front of a video lottery terminal in a manner specified by the Commission for at least 14 days prior to the intended date of transfer.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Nothing in this regulation shall preclude the Commission from imposing additional terms and conditions on a modification of a progressive proposal.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.31</num>
+    <heading>Remote Access.</heading>
+    <para>
+      <num>A.</num>
+      <text>A manufacturer may not perform from a remote location analysis of, or technical support with regard to, a video lottery terminal without:</text>
+      <para>
+        <num>(1)</num>
+        <text>Submission of a written request to the Commission; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The written approval of the Commission.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A manufacturer may perform from a remote location analysis of, or technical support with regard to, a facility operator’s video lottery systems including, but not limited to, a:</text>
+      <para>
+        <num>(1)</num>
+        <text>Gaming ticket system;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Promotional play system;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Player tracking system;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>External bonusing system;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Cashless funds transfer system; and</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Wide area progressive system.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A facility operator intending to authorize remote access to a video lottery system under this regulation shall include in its internal controls submitted for Commission approval under <cite path="36.03.10.05">COMAR 36.03.10.05</cite> a written system of access protocols which require:</text>
+      <para>
+        <num>(1)</num>
+        <text>A unique system account for each employee of a manufacturer identified by the manufacturer as potentially required to perform technical support from a remote location;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Use of a dedicated and secure communication facility;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The facility operator to provide the Commission with notice of access within 4 hours after a person remotely accesses a system;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The facility operator to take affirmative steps, on a per access basis, to activate a manufacturer’s access privileges;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Imposition of limits on the ability of any individual authorized under this regulation to deliberately or inadvertently interfere with:</text>
+        <para>
+          <num>(a)</num>
+          <text>The normal operation of the system; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Its data; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>An access log:</text>
+        <para>
+          <num>(a)</num>
+          <text>Maintained by both the:</text>
+          <para>
+            <num>(i)</num>
+            <text>Manufacturer; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Facility operator’s information technology department;</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Maintained in:</text>
+          <para>
+            <num>(i)</num>
+            <text>A book with bound numbered pages that cannot be readily removed; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>An electronic format equipped with software that prevents modification of an entry after it has been initially entered into the system; and</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Documenting the:</text>
+          <para>
+            <num>(i)</num>
+            <text>Manufacturer version number of the system accessed;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Type of connection as leased line, dial in modem, or private WAN;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Name of the manufacturer employee remotely accessing the system;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Name of the information technology department employee activating the manufacturer's access to the system;</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>Date and time of the connection;</text>
+          </para>
+          <para>
+            <num>(vi)</num>
+            <text>Duration of the connection;</text>
+          </para>
+          <para>
+            <num>(vii)</num>
+            <text>Reason for the remote access including a description of the symptoms or malfunction prompting the need for remote access to the system; and</text>
+          </para>
+          <para>
+            <num>(viii)</num>
+            <text>Any action taken or further action required.</text>
+          </para>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>A facility operator may not authorize a manufacturer to remotely access a video lottery system until its system access protocols are approved in writing by the Commission.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Any modification to a system required to be tested, certified, and approved by the Commission under <cite path="|36|04|01|.02|E.">Regulation .02E of this chapter</cite> shall be processed as:</text>
+      <para>
+        <num>(1)</num>
+        <text>An emergency modification under <cite path="|36|04|01|.07">Regulation .07 of this chapter</cite>; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A standard modification under Regulations .03C and .04C of this chapter.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>If an employee of a manufacturer is no longer employed or authorized by a manufacturer to remotely access a system pursuant to this regulation, the manufacturer shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Immediately notify in writing:</text>
+        <para>
+          <num>(a)</num>
+          <text>Any facility operator that has established a unique system account for that employee of the change in authorization; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The Commission; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Verify with each facility operator notified of the change in authorization that the access privileges of the individual have been revoked.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="36|04|01|.32">
+    <prefix>Regulation</prefix>
+    <num>.32</num>
+    <heading>Manufacturer Storage of Equipment, Systems, and Software Outside a Facility.</heading>
+    <para>
+      <num>A.</num>
+      <text>A manufacturer may not utilize a location outside of a facility to store or repair equipment, systems, software, or related parts and inventory for use in a facility without the storage facility being:</text>
+      <para>
+        <num>(1)</num>
+        <text>Inspected by the Commission; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Approved in writing by the Commission.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A manufacturer shall locate a storage facility in Maryland in a location or locations that reasonably permit the delivery of the support and technical services to which the manufacturer is obligated.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A manufacturer shall submit to the Commission a written request to utilize a storage facility under <cite path="36|04|01|.32|A.">§A of this regulation</cite> which includes, at a minimum:</text>
+      <para>
+        <num>(1)</num>
+        <text>The address;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A physical description of the storage facility;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Specifications for the surveillance system that has been or will be installed at the proposed storage facility including:</text>
+        <para>
+          <num>(a)</num>
+          <text>If digital:</text>
+          <para>
+            <num>(i)</num>
+            <text>Recording frames per second; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Common image rate; and</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Proposed recording retention schedule; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Security procedures for the storage facility.</text>
+      </para>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">State Government Article, §§<cite doc="Md. Code" path="gsg|9-1">9-1</cite>A-<cite doc="Md. Code" path="gsg|02">02</cite>, <cite doc="Md. Code" path="gsg|9-1">9-1</cite>A-<cite doc="Md. Code" path="gsg|04">04</cite>, <cite doc="Md. Code" path="gsg|9-1">9-1</cite>A-<cite doc="Md. Code" path="gsg|15">15</cite>, <cite doc="Md. Code" path="gsg|9-1">9-1</cite>A-<cite doc="Md. Code" path="gsg|22">22</cite>, and <cite doc="Md. Code" path="gsg|9-1">9-1</cite>A-24, Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container">Effective date:</annotation>
+    <annotation type="History" dest="container" effective="2013-04-29">Regulations <cite path="|36|04|01|.01">.01</cite>—<cite path="|36|04|01|.32">.32</cite> adopted as an emergency provision effective March 1, 2013 (40:6 Md. R. 470); adopted permanently effective April 29, 2013 (40:8 Md. R. 725)</annotation>
+    <annotation type="History" dest="container" effective="2014-10-27"><cite path="|36|04|01|.01|A.">Regulation .01A</cite> amended effective October 27, 2014 (41:21 Md. R. 1262)</annotation>
+    <annotation type="History" dest="container" effective="2022-11-14"><cite path="|36|04|01|.11">Regulation .11</cite> amended effective November 14, 2022 (49:23 Md. R. 997)</annotation>
+    <annotation type="History" dest="container" effective="2024-05-27"><cite path="|36|04|01|.11|D.">Regulation .11D</cite> amended as an emergency provision effective December 12, 2023 (50:26 Md. R. 1130); amended permanently effective May 27, 2024 Md. R. 529)</annotation>
+    <annotation type="History" dest="container" effective="2016-01-07"><cite path="|36|04|01|.11|E.">Regulation .11E</cite>, I amended effective January 7, 2016 (42:26 Md. R. 1597)</annotation>
+    <annotation type="History" dest="container" effective="2019-10-07"><cite path="|36|04|01|.12|C.">Regulation .12C</cite> adopted effective October 7, 2019 (46:20 Md. R. 848)</annotation>
+    <annotation type="History" dest="container" effective="2020-10-19"><cite path="|36|04|01|.18">Regulation .18</cite> amended effective October 19, 2020 (47:21 Md. R. 905)</annotation>
+    <annotation type="History" dest="container" effective="2018-10-22"><cite path="|36|04|01|.18|D.">Regulation .18D</cite>, E amended effective October 22, 2018 (45:21 Md. R. 976)</annotation>
+    <annotation type="History" dest="container" effective="2017-10-23"><cite path="|36|04|01|.20|A.">Regulation .20A</cite> amended effective October 23, 2017 (44:21 Md. R. 985)</annotation>
+    <annotation type="History" dest="container" effective="2015-02-16"><cite path="|36|04|01|.20|B.">Regulation .20B</cite> amended effective February 16, 2015 (42:3 Md. R. 319)</annotation>
+    <annotation type="History" dest="container" effective="2019-10-07"><cite path="|36|04|01|.21">Regulation .21</cite> amended effective October 7, 2019 (46:20 Md. R. 848)</annotation>
+    <annotation type="History" dest="container" effective="2018-10-22"><cite path="|36|04|01|.21|E.">Regulation .21E</cite> amended effective October 22, 2018 (45:21 Md. R. 976)</annotation>
+    <annotation type="History" dest="container" effective="2021-09-06"><cite path="|36|04|01|.27|B.">Regulation .27B</cite>, D amended effective September 6, 2021 (48:18 Md. R. 695)</annotation>
+    <annotation type="History" dest="container" effective="2020-10-19"><cite path="|36|04|01|.28|F.">Regulation .28F</cite> amended effective September 26, 2016 (43:19 Md. R. 1073); October 19, 2020 (47:21 Md. R. 905)</annotation>
+    <annotation type="History" dest="container" effective="2021-09-06"><cite path="|36|04|01|.30|D.">Regulation .30D</cite> amended effective October 22, 2018 (45:21 Md. R. 976); September 6, 2021 (48:18 Md. R. 695)</annotation>
+    <annotation type="History" dest="container" effective="2016-01-07"><cite path="|36|04|01|.30|D.">Regulation .30D</cite>, E amended effective January 7, 2016 (42:26 Md. R. 1597)</annotation>
+    <annotation type="History" dest="container" effective="2019-10-07"><cite path="|36|04|01|.31|C.">Regulation .31C</cite> amended effective October 23, 2017 (44:21 Md. R. 985); October 22, 2018 (45:21 Md. R. 976); October 7, 2019 (46:20 Md. R. 848)</annotation>
+  </annotations>
+</container>

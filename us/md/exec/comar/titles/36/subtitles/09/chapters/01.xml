@@ -1,0 +1,251 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>01</num>
+  <heading>General</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Scope.</heading>
+    <para>
+      <num>A.</num>
+      <text>This subtitle applies to fantasy competitions regulated by the Commission under State Government Article, §§<cite doc="Md. Code" path="gsg|9-1">9-1</cite>D-<cite doc="Md. Code" path="gsg|01">01</cite>—9-1D-05, Annotated Code of Maryland.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>This subtitle applies to fantasy competitions that are offered to individuals by means of a fantasy competition platform.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In addition to the terms defined in <cite path="|36.01.01">COMAR 36.01.01</cite>, in this chapter the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>“Beginner player” means any fantasy competition player who:</text>
+        <para>
+          <num>(a)</num>
+          <text>Has entered fewer than 51 fantasy competitions offered by a single fantasy competition operator; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Does not meet the definition of highly experienced player.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>“Entry fee” has the meaning stated in <cite doc="Md. Code" path="gsg|9-1">State Government Article, §9-1</cite>D-01, Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>“Fantasy competition” has the meaning stated in <cite doc="Md. Code" path="gsg|9-1">State Government Article, §9-1</cite>D-01, Annotated Code of Maryland, and includes a competition in which:</text>
+        <para>
+          <num>(a)</num>
+          <text>A prize is awarded;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>One or more players are subject to and may pay an entry fee;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The fantasy competition operator offering the competition receives compensation in connection with the competition regardless of the outcome;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>The winning outcome is not based on:</text>
+          <para>
+            <num>(i)</num>
+            <text>The score, point spread, or any performance of any single actual team;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The score, point spread, or any performance of any combination of teams; or</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Any single performance of an individual athlete or player in any single actual event; and</text>
+          </para>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Fantasy competition players compete against other fantasy competition players and not the fantasy competition operator.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>“Fantasy competition operator” has the meaning stated in <cite doc="Md. Code" path="gsg|9-1">State Government Article, §9-1</cite>D-01, Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>“Fantasy competition platform” means:</text>
+        <para>
+          <num>(a)</num>
+          <text>Hardware and software used for a website, application, or other platform which is accessible via the internet or mobile, wireless, or similar communications technology that allows players to participate in fantasy competitions; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Hardware, software, firmware, communications technology, or other equipment that a registered fantasy competition operator uses to:</text>
+          <para>
+            <num>(i)</num>
+            <text>Allow a player to participate in fantasy competitions;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Display the fantasy competition outcomes and other similar information necessary to facilitate fantasy competitions;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Review player accounts and generate financial reports;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Suspend a fantasy competition;</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>Input outcomes for fantasy competitions; and</text>
+          </para>
+          <para>
+            <num>(vi)</num>
+            <text>Set any configurable parameters.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>“Fantasy competition player” has the meaning stated in <cite doc="Md. Code" path="gsg|9-1">State Government Article, §9-1</cite>D-01, Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>“Fantasy contractor” means any person or entity who:</text>
+        <para>
+          <num>(a)</num>
+          <text>Works under an independent contract with a fantasy competition operator; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Has regular access to:</text>
+          <para>
+            <num>(i)</num>
+            <text>Nonpublic portions of a fantasy competition operator’s system;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Information on a fantasy competition operator’s computer network that is not publicly available; or</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>A fantasy competition operator’s proprietary information that may affect gameplay.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>“Highly experienced player” means any fantasy competition player who has:</text>
+        <para>
+          <num>(a)</num>
+          <text>Entered more than 1,000 fantasy competitions offered by a single fantasy competition operator; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Won more than three fantasy competition prizes valued at $1,000 or more.</text>
+        </para>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>“Location percentage” has the meaning stated in <cite doc="Md. Code" path="gsg|9-1">State Government Article §9-1</cite>D-01, Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>“Minor” means any individual younger than 18 years old.</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>“Player funds” means funds deposited by a fantasy competition player into an account to facilitate entry into fantasy competitions.</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>“Private fantasy sports competition” means a fantasy sports competition that is only open to:</text>
+        <para>
+          <num>(a)</num>
+          <text>Employees of a fantasy competition operator;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Immediate family members of an employee of a fantasy competition operator; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Friends of an employee of a fantasy competition operator.</text>
+        </para>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>“Prize” means anything of monetary value, including:</text>
+        <para>
+          <num>(a)</num>
+          <text>Cash;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Competition credits;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Merchandise;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Monetary equivalents, subject to the approval of the Commission; or</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Admission to another competition in which a prize may be awarded.</text>
+        </para>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>“Proceeds” has the meaning stated in <cite doc="Md. Code" path="gsg|9-1">State Government Article, §9-1</cite>D-01, Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>“Prominently display” or “prominently displayed” means information or material that is placed directly, or via link, on one or more of the pages or dashboards or on similar conspicuously visual tools that are properly labeled and clearly accessible as approved by the Commission.</text>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>“Scripts” means commands that a computer program can execute to automate processes on a fantasy competition platform created by:</text>
+        <para>
+          <num>(a)</num>
+          <text>A fantasy competition player; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A third party for use by a fantasy competition player.</text>
+        </para>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>“Segregated account” means a financial account that segregates funds owned by a fantasy player from the operational funds of a fantasy competition operator.</text>
+      </para>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">State Government Article, §§<cite doc="Md. Code" path="gsg|9-1">9-1</cite>D-<cite doc="Md. Code" path="gsg|01">01</cite>, <cite doc="Md. Code" path="gsg|9-1">9-1</cite>D-<cite doc="Md. Code" path="gsg|02">02</cite>, <cite doc="Md. Code" path="gsg|9-1">9-1</cite>D-<cite doc="Md. Code" path="gsg|03">03</cite>, and <cite doc="Md. Code" path="gsg|9-1">9-1</cite>D-05, Annotated Code of Maryland; Ch. 853, Acts of 2018</annotation>
+    <annotation type="History" dest="container" effective="2019-01-14">Effective date: January 14, 2019 (46:1 Md. R. 13)</annotation>
+    <annotation type="History" dest="container" effective="2019-10-07"><cite path="|36|09|01|.06">Regulation .06</cite> amended effective October 7, 2019 (46:20 Md. R. 848)</annotation>
+    <annotation type="History" dest="container" effective="2019-10-07"><cite path="|36|09|01|.07">Regulation .07</cite> amended effective October 7, 2019 (46:20 Md. R. 848)</annotation>
+    <annotation type="History" dest="container" effective="2019-10-07"><cite path="|36|09|01|.09">Regulation .09</cite> amended effective October 7, 2019 (46:20 Md. R. 848)</annotation>
+    <annotation type="History" dest="container" effective="2019-10-07"><cite path="|36|09|01|.11|A.">Regulation .11A</cite> amended effective October 7, 2019 (46:20 Md. R. 848)</annotation>
+    <annotation type="History" dest="container" effective="2019-10-07"><cite path="|36|09|01|.13">Regulation .13</cite> amended effective October 7, 2019 (46:20 Md. R. 848)</annotation>
+    <annotation type="History" dest="container" effective="2022-05-30" discontinuity="true"><cite path="|36|09|01|.01">Regulation .01</cite> adopted as an emergency provision under a new chapter, General, effective December 16, 2021 (49:3 Md. R. 137); adopted permanently effective May 30, 2022 (49:11 Md. R. 610)</annotation>
+    <annotation type="History" dest="container" effective="2022-05-30"><cite path="|36|09|01|.02">Regulation .02</cite> amended and recodified from <cite path="36.09.01.01">COMAR 36.09.01.01</cite> as an emergency provision effective December 16, 2021 (49:3 Md. R. 137); amended permanently effective May 30, 2022 (49:11 Md. R. 610)</annotation>
+  </annotations>
+</container>
