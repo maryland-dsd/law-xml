@@ -781,20 +781,22 @@
         <text>TABLE .05-1</text>
         <text>
           <table>
-            <tbody>
-              <tr>
-                <td colspan="5" data-text-align="center" data-vertical-align="middle">Room Sizes</td>
-              </tr>
-              <tr>
-                <td colspan="5" data-text-align="center" data-vertical-align="middle">Minimum Area (Square Feet)(2)</td>
-              </tr>
-              <tr>
-                <td data-vertical-align="middle">Name of <br/>Space (1)</td>
-                <td data-text-align="center" data-vertical-align="middle">0 <br/>BR LU</td>
-                <td data-text-align="center" data-vertical-align="middle">1 and 2 <br/>BR LU</td>
-                <td data-text-align="center" data-vertical-align="middle">3 or more <br/>BR LU</td>
-                <td data-text-align="center" data-vertical-align="middle">Least<br/>Dimension (2)</td>
-              </tr>
+                  <thead>
+                    <tr>
+                      <th colspan="5">Room Sizes</th>
+                    </tr>
+                    <tr>
+                      <th colspan="5">Minimum Area (Square Feet)(2)</th>
+                    </tr>
+                    <tr>
+                      <th>Name of <br/>Space (1)</th>
+                      <th>0 <br/>BR LU</th>
+                      <th>1 and 2 <br/>BR LU</th>
+                      <th>3 or more <br/>BR LU</th>
+                      <th>Least<br/>Dimension (2)</th>
+                    </tr>
+                  </thead>
+                  <tbody>
               <tr>
                 <td data-vertical-align="middle">LR</td>
                 <td data-text-align="center" data-vertical-align="middle">NA</td>
