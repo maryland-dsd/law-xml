@@ -1,0 +1,257 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>03</num>
+  <heading>Record-Keeping Requirements for Records Created by Computer and Electronic Systems</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Purpose.</heading>
+    <text>The purpose of this chapter is to serve as a supplement to the requirements imposed on taxpayers for the maintenance and retention of books, records, and other sources of information under <cite path="03.02.02.03">COMAR 03.02.02.03</cite>, <cite path="03.02.03.04">03.02.03.04</cite>, <cite path="03.03.01.05">03.03.01.05</cite>, <cite path="03.03.01.06">03.03.01.06</cite>—.07, <cite path="03.03.04.04">03.03.04.04</cite>, and <cite path="03.06.03.02">03.06.03.02</cite>. This chapter addresses the situation where all or a part of the taxpayer's records are received, created, maintained, or generated through various computer, electronic, and imaging processes and systems.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>"Electronic data interchange" or "EDI technology" means the computer-to-computer exchange of business transactions in a standardized structured electronic format.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>"Hard copy" means any documents, records, reports, or other data printed on paper.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Machine-Sensible Record.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Machine-sensible record" means a collection of related information in an electronic format.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Machine-sensible record" does not include hard-copy records that are created or recorded on paper or stored in or by an imaging system such as microfilm, microfiche, or storage-only imaging systems.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Storage-Only Imaging System.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Storage-only imaging system" means a system of computer hardware and software that provides for the storage, retention, and retrieval of documents originally created on paper.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Storage-only imaging system" does not include any system, or part of a system, that manipulates or processes information or data contained on the document in any manner other than to reproduce the document in hard copy or as an optical image.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="03|01|03|.03">
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Record-Keeping Requirements—General.</heading>
+    <para>
+      <num>A.</num>
+      <text>If a taxpayer retains records required to be retained by the Comptroller in both machine-sensible and hard-copy formats, the taxpayer shall make the records available to the Comptroller in both formats upon request of the Comptroller.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Notwithstanding the requirement in <cite path="03|01|03|.03|A.">§A of this regulation</cite>, a taxpayer may not be prohibited from demonstrating tax compliance with traditional hard-copy documents.</text>
+    </para>
+  </section>
+  <section cache:ref-path="03|01|03|.04">
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Record-Keeping Requirements—Machine-Sensible Records.</heading>
+    <para>
+      <num>A.</num>
+      <text>General Requirements.</text>
+      <para>
+        <num>(1)</num>
+        <text>Machine-sensible records used to establish tax compliance shall contain sufficient transaction-level detail information so that the details underlying the machine-sensible records can be identified and made available to the Comptroller.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>At the time of an examination, the retained machine-sensible records shall be capable of being retrieved and converted to a standard record format.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A taxpayer who does not create the electronic equivalent of a traditional paper document in the ordinary course of business is not required to construct that record for tax purposes.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Electronic Data Interchange Requirements.</text>
+      <para>
+        <num>(1)</num>
+        <text>If a taxpayer uses electronic data interchange processes and technology, the level of record detail, in combination with other records related to the transactions, shall be equivalent to that contained in an acceptable paper record. For example, the retained records shall contain such information as vendor name, invoice date, product description, quantity purchased, price, amount of tax, indication of tax status, and shipping detail. Codes may be used to identify some or all of the data elements, if the taxpayer provides a method which allows the Comptroller to interpret the coded information.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The taxpayer may capture the information necessary to satisfy <cite path="03|01|03|.04|B.|(1)">§B(1) of this regulation</cite> at any level within the accounting system and need not retain the original electronic data interchange transaction records if the audit trail, authenticity, and integrity of the retained records can be established.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Business Process Information.</text>
+      <para>
+        <num>(1)</num>
+        <text>Upon the request of the Comptroller, the taxpayer shall provide a description of the business process that created the retained records. The description shall include the relationship between the records and the tax documents prepared by the taxpayer and the measures employed to ensure the integrity of the records.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The taxpayer shall be capable of demonstrating the:</text>
+        <para>
+          <num>(a)</num>
+          <text>Functions being performed as they relate to the flow of data through the system;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Internal controls used to ensure accurate and reliable processing; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Internal controls used to prevent unauthorized addition, alteration, or deletion of retained records.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The following specific documentation is required for machine-sensible records retained pursuant to this regulation:</text>
+        <para>
+          <num>(a)</num>
+          <text>Record formats or layouts;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Field definitions, including the meaning of all codes used to represent information;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>File descriptions, for example, data set name; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Detailed charts of accounts and account descriptions.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Records Maintenance Requirements.</heading>
+    <text>The taxpayer's computer hardware or software shall accommodate the extraction and conversion of retained machine-sensible records.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Access to Machine-Sensible Records.</heading>
+    <text>The taxpayer shall provide the Comptroller access to machine-sensible records in one or more of the following manners:</text>
+    <para>
+      <num>A.</num>
+      <text>The taxpayer may arrange to provide the Comptroller, either directly or through a third party, with the hardware, software, and personnel resources to access the machine-sensible records;</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The taxpayer may convert the machine-sensible records to a standard record format specified by the Comptroller, including copies of files, on a magnetic medium that is agreed to by the Comptroller; or</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The taxpayer and the Comptroller may agree on other means of providing access to the machine-sensible records taking into account the taxpayer's facts and circumstances.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Taxpayer Responsibility.</heading>
+    <text>A taxpayer may contract with a third party to provide custodial or management services of the records. This contract does not relieve the taxpayer of its responsibilities under this chapter.</text>
+  </section>
+  <section cache:ref-path="03|01|03|.08">
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Alternative Storage Media.</heading>
+    <para>
+      <num>A.</num>
+      <text>For purposes of storage and retention, a taxpayer may:</text>
+      <para>
+        <num>(1)</num>
+        <text>Convert hard-copy documents, received or produced in the normal course of business and required to be retained, to microfilm, microfiche, or other storage-only imaging systems; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>After a 3-month period, discard the original hard-copy documents, if the conditions of <cite path="03|01|03|.08|B.">§B of this regulation</cite> are met.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Requirements.</text>
+      <para>
+        <num>(1)</num>
+        <text>Microfilm, microfiche, and other storage-only imaging systems shall meet the requirements of this regulation.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Documentation establishing the procedures for converting the hard-copy documents to microfilm, microfiche, or other storage-only imaging system shall be maintained and made available on request. The documentation shall, at a minimum, contain a sufficient description to allow an original document to be followed through the conversion system as well as internal procedures established for inspection and quality assurance.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A taxpayer shall establish procedures for the effective identification, processing, storage, and preservation of the stored documents and for making them available for the period they are required to be retained.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>A taxpayer shall provide adequate facilities and equipment for reading, locating, and reproducing any documents maintained on microfilm, microfiche, or other storage-only imaging system so that records may be reviewed in a prompt and efficient manner.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>When displayed on storage-only imaging equipment or reproduced on paper, the documents shall exhibit a high degree of legibility and readability. For this purpose, legibility is defined as the quality of a letter or numeral that enables the observer to identify it positively and quickly to the exclusion of all other letters or numerals. Readability is defined as the quality of a group of letters or numerals being recognizable as words or complete numbers.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>All data stored on microfilm, microfiche, or other storage-only imaging systems shall be maintained and arranged in a manner that permits the prompt and efficient location of a particular record.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The Comptroller is under no obligation to use records stored on microfilm, microfiche, or other storage-only imaging system if there is evidence that it lacks authenticity or integrity or does not meet the requirements set forth in <cite path="03|01|03|.08|B.">§B of this regulation</cite>.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Effect On Hard-Copy Record-Keeping Requirements.</heading>
+    <para>
+      <num>A.</num>
+      <text>Except as otherwise provided in this chapter, this chapter does not relieve taxpayers of the responsibility to retain hard-copy records that are created or received in the ordinary course of business, as required by existing law and regulations.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>If hard-copy records are not produced or received in the ordinary course of transacting business, for example, when the taxpayer uses electronic data interchange technology, hard-copy records need not be created.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Hard-copy records generated at the time of a transaction using a credit or debit card shall be retained unless all the details necessary to determine correct tax liability relating to the transaction are subsequently received and retained by the taxpayer in accordance with this chapter. These details include those listed in <cite path="|03|01|03|.04|B.|(1)">Regulation .04B(1) of this chapter</cite>.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>This regulation does not prevent the Comptroller from requesting hard-copy printouts in lieu of retained machine-sensible records at the time of examination.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.10</num>
+    <heading>Records Retention—Time Period.</heading>
+    <text>Records required to be retained under this chapter shall be preserved for the same time period as all other records are required to be kept for the applicable tax.</text>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container"><cite doc="Md. Code" path="gtg|2-103">Tax-General Article, §2-103, </cite>Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="1998-09-07">Effective date: September 7, 1998 (25:18 Md. R. 1434)</annotation>
+  </annotations>
+</container>

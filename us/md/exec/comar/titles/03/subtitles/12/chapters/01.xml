@@ -1,0 +1,236 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>01</num>
+  <heading>General Regulations</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>“Access” means the transmittal, display, embedding, or other availability to a user for viewing or interaction.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>“Device” means any medium through which digital advertising services may be accessed, including stationary or portable computing devices, tablets, phones, and smart devices.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>“Digital advertising services:”</text>
+        <para>
+          <num>(a)</num>
+          <text>Includes advertisement services on a digital interface, including advertisements in the form of banner advertising, search engine advertising, interstitial advertising, and other comparable advertising services; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Does not include advertisement services on digital interfaces owned or operated by or operated on behalf of a broadcast entity or news media entity as defined in <cite doc="Md. Code" path="gtg|7">Tax-General Article, §7</cite>.5-101, Annotated Code of Maryland.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>“Digital interface” means any type of software, including a website, part of a website, or application, that a user is able to access.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>“Location” means the actual, physical location of a digital interface when a digital advertising service is accessed by a user.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>“User” means an individual or any other person who accesses a digital interface with a device.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Revenues Derived from Digital Advertising Services in the State.</heading>
+    <para>
+      <num>A.</num>
+      <text>Revenues from digital advertising services are derived in the State when any portion of those services are accessed through a device located within the State. Sourcing of digital advertising revenues to the State is based upon the portion of those devices located within the State.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The amount of digital advertising gross revenue attributable to the State shall be computed as follows:</text>
+      <para>
+        <num>(1)</num>
+        <text>An apportionment factor shall be developed as a fraction, where the numerator is the number of devices that have accessed the digital advertising services from a location in the State, and the denominator is the number of devices that have accessed the digital advertising services from any location.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Devices whose location are indeterminate shall be excluded from both the numerator and denominator of the apportionment factor, without any adjustment to the amount of revenue to be apportioned.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The developed apportionment factor shall be applied to the digital advertising gross revenue received by the taxpayer to compute the digital advertising gross revenue attributable to the State.</text>
+        <text>Example 1: Company A receives $100 in gross revenue attributable to digital advertising services. These services are accessed by 1000 devices worldwide, all of which have an identifiable location. Of these devices, 500 are located outside the United States and 500 are within the United States, 10 of which are in the State. Company A would have $1 (10/1000 x $100) of digital advertising gross revenues derived from the State.</text>
+        <text>Example 2: Company B receives $100 in gross revenue attributable to digital advertising services. These services are accessed by 1000 devices worldwide, 500 of which have an identifiable location. Of those, 400 are located outside the United States and 100 are within the United States, 10 of which are in the State. Company B would have $2 (10/500 x $100) of digital advertising gross revenues derived from the State.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Determining the Location of a Device.</text>
+      <para>
+        <num>(1)</num>
+        <text>The location of a device shall be determined by the taxpayer using the totality of the data within their possession or control, including both technical information and nontechnical information included in the contract for digital advertising services.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Each taxpayer shall use the information within their possession or control which most reliably identifies a device’s location.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Technical information which may be used to determine a device’s location includes, but is not limited to:</text>
+        <para>
+          <num>(a)</num>
+          <text>Internet protocol;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Geolocation data;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Device registration;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Cookies;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Industry standard metrics; or</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Any other comparable information.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The location of each device shall be determined by a totality of the facts and circumstances to be:</text>
+      <para>
+        <num>(1)</num>
+        <text>Within the State;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Not within the State, but within the United States;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Not within the United States; or</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Indeterminate.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Revenues Derived from the United States.</heading>
+    <para>
+      <num>A.</num>
+      <text>Revenues from digital advertising services are derived in the United States when any portion of those services are accessed by devices within the United States. In determining the location of devices in this section, taxpayers shall use a method consistent with their determination of revenues derived from the State.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Taxpayers will determine the location of a device using the totality of the data within their possession or control, as described in <cite path="|03|12|01|.02">Regulation .02 of this chapter</cite>.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Computation of Digital Advertising Gross Revenues Tax in Year of a Rate Change.</heading>
+    <text>Unless an act that changes the digital advertising gross revenues tax rate provides otherwise, if the rate changes on a date other than January 1, a person shall compute the digital advertising gross revenues tax using the tax rate that applies to each part of the year.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Digital Advertising Gross Revenues Tax returns and Declarations.</heading>
+    <para>
+      <num>A.</num>
+      <text>Each person required under <cite doc="Md. Code" path="gtg">Tax-General Article, Title 7.5, Annotated Code of Maryland</cite>, to file a digital advertising gross revenues tax return or estimated digital advertising gross revenues tax declaration or return shall file a return or declaration with the Comptroller, whether or not:</text>
+      <para>
+        <num>(1)</num>
+        <text>The person owes digital advertising gross revenues tax; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Comptroller sends the person a form or otherwise requests that the return or declaration be filed.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Each digital advertising gross revenues tax return and estimated digital advertising gross revenues tax declaration and return shall be:</text>
+      <para>
+        <num>(1)</num>
+        <text>Signed in the same manner required for the signing of a federal return under §§6061—6064 of the Internal Revenue Code; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Made under oath.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>To properly identify persons listed in a return or other document, a person shall include in the document the taxpayer identification, Federal Employer Identification, or other identifying number that the Comptroller requires:</text>
+      <para>
+        <num>(1)</num>
+        <text>Of the person required to file the return or document; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Of the person on whose behalf the return or document is filed.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Each person required to file a digital advertising gross revenues return or estimated digital advertising gross revenues tax declaration or return shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Comply with the regulations of the Comptroller;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Keep the records that the Comptroller requires; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Attach to a digital advertising gross revenues return or otherwise file with the Comptroller any records or statements that the Comptroller requires.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>The Comptroller shall provide that a digital advertising gross revenues tax return may be completed using whole dollar amounts instead of expressing amounts in exact dollars and cents by:</text>
+      <para>
+        <num>(1)</num>
+        <text>Disregarding a fractional part of a dollar less than 50 cents; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Increasing to a dollar a fractional part of a dollar of at least 50 cents.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Digital Advertising Gross Revenues Declaration of Estimated Tax.</heading>
+    <text>Each person that reasonably expects estimated digital advertising gross revenues tax for a calendar year to exceed $1,000,000 shall file a declaration of estimated digital advertising gross revenues tax in the form and manner prescribed by the Comptroller.</text>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Tax-General Article, §§<cite doc="Md. Code" path="gtg|2-102">2-102</cite>, <cite doc="Md. Code" path="gtg|2-103">2-103</cite>, and <cite doc="Md. Code" path="gtg|7">7</cite>.5-102, Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="2021-12-13">Effective date: December 13, 2021 (48:25 Md. R. 1079)</annotation>
+  </annotations>
+</container>

@@ -1,0 +1,868 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>03</num>
+  <heading>Senior Assisted Living Subsidy Program</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Purpose.</heading>
+    <text>The purpose of the Senior Assisted Living Subsidy Program is to provide subsidies on behalf of eligible elderly residents of facilities that are licensed as an assisted living program pursuant to <cite path="|10.07.14">COMAR 10.07.14</cite>, and enrolled in the Program.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>“Applicant” means an individual who has applied for a subsidy or a current participant whose eligibility is being redetermined in accordance with <cite path="|32|03|03|.06|C.">Regulation .06C of this chapter</cite>.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>“Assets” means real and personal property.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>“Assisted living program” has the meaning stated in <cite path="10.07.14.02|B.|(11)">COMAR 10.07.14.02B(11)</cite>.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>“Burial funds” means a revocable burial contract, burial trust, or other burial or funeral arrangement or any other separately identifiable fund which is clearly designated as set aside for a person's burial or funeral expenses.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>“Burial spaces” means conventional gravesites, crypts, mausoleums, urns, and other repositories which are customarily and traditionally used for the remains of deceased persons.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>“Consumer Price Index” means the Consumer Price Index for all urban consumers (CPI-U), U.S. City Average, All Items (1982—84=100) published by the United States Department of Labor for each calendar year, January through December.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>“Department” means the Maryland Department of Aging.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>“Earned subsidy” means the amount of subsidy that a subsidized resident qualified for during a reporting period.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>“Elderly” means an individual who is 62 years old or older.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>“Enrolled provider” means a licensee who has entered into a service agreement with a local office.</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>“Facility” means the physical plant in which a licensee provides assisted living services.</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>“Functional assessment” means an evaluation of an applicant's physical, mental, and functional status conducted by a geriatric evaluation service or its equivalent.</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>“Immediate family” means an individual's:</text>
+        <para>
+          <num>(a)</num>
+          <text>Spouse or minor and adult children, including adopted children and stepchildren; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Brothers, sisters, parents, adoptive parents, aunts, uncles, and their spouses.</text>
+        </para>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>“Income" means the gross amount of all earned and unearned income received from all sources, including employment, annuities, Social Security benefits, workers' compensation, pensions or disability payments, alimony, interest, dividends, and net income from a business or profession.</text>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>“Irrevocable burial fund” means an irrevocable burial contract, an irrevocable burial trust, or other irrevocable arrangement, the assets of which are only available for funeral or burial expenses or both.</text>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>“License” means a license issued by the Maryland Department of Health to operate an assisted living program in Maryland.</text>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>“Licensee” means an entity that has been issued a license to operate an assisted living program.</text>
+      </para>
+      <para>
+        <num>(18)</num>
+        <text>“Local office” means the public or private nonprofit agency designated by the Department as the area agency on aging for a specific geographic area of the State.</text>
+      </para>
+      <para>
+        <num>(19)</num>
+        <text>“Monthly allowance for personal expenses” equals $130 per month. Subject to the limitations of the State budget, the amount shall increase on July 1 of each year beginning July 1, 2021, by the percentage, if any, by which the Consumer Price Index for the most recent calendar year exceeds the Consumer Price Index for the previous calendar year, rounded to the nearest dollar. The Department shall publish annually the monthly allowance for personal expenses.</text>
+      </para>
+      <para>
+        <num>(20)</num>
+        <text>“Net annual income” means net monthly income multiplied by 12.</text>
+      </para>
+      <para>
+        <num>(21)</num>
+        <text>“Net monthly income” means total monthly income from all sources, minus:</text>
+        <para>
+          <num>(a)</num>
+          <text>Monthly recurring nonreimbursable medical expenses greater than 3 percent of total monthly income; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The monthly allowance for personal expenses.</text>
+        </para>
+      </para>
+      <para>
+        <num>(22)</num>
+        <text>“Program” means the Senior Assisted Living Subsidy Program.</text>
+      </para>
+      <para>
+        <num>(23)</num>
+        <text>“Representative” means an agent, guardian of the person, guardian of the property, or any other person referred to in <cite path="10.07.14.34">COMAR 10.07.14.34</cite>.</text>
+      </para>
+      <para>
+        <num>(24)</num>
+        <text>“Resident” means an elderly individual who resides in an assisted living facility for the purpose of obtaining assisted living services.</text>
+      </para>
+      <para>
+        <num>(25)</num>
+        <text>“Resident agreement” has the meaning stated in <cite path="10.07.14.02|B.|(65)">COMAR 10.07.14.02B(65)</cite>.</text>
+      </para>
+      <para>
+        <num>(26)</num>
+        <text>“Service agreement” means an agreement between a licensee and the local office that specifies the obligations of both parties, including the types of services to be provided, the fees to be charged, and the amount of subsidy to be paid on behalf of eligible residents.</text>
+      </para>
+      <para>
+        <num>(27)</num>
+        <text>“Subsidy” means funds paid or approved to be paid by the local office to a licensee on behalf of a subsidized resident.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Enrollment of Assisted Living Facility Licensee.</heading>
+    <para>
+      <num>A.</num>
+      <text>If an assisted living facility wants to participate in the Program and receive subsidies on behalf of eligible residents, the licensee shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Obtain an enrollment form from the local office;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Complete the enrollment form; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Submit the enrollment form to the local office, along with:</text>
+        <para>
+          <num>(a)</num>
+          <text>A copy of its license or its application for a license, and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A sample copy of its resident agreement.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>In addition to other routine information, the enrollment form shall require the licensee to demonstrate that it has:</text>
+      <para>
+        <num>(1)</num>
+        <text>The bookkeeping services needed to assure the proper handling of any subsidy funds;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A manager who is literate, able to communicate in English, and is:</text>
+        <para>
+          <num>(a)</num>
+          <text>A licensed physician;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A licensed registered nurse;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A licensed practical nurse; or</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>An individual with at least 3 years' experience in direct patient care in a private home, certified home, or health-related establishment; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Had no deficiencies in the previous 12 months that presented an imminent danger to the residents' health and safety.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>If the local office determines that the information submitted on the enrollment form is accurate and satisfactory, and the resident agreement is consistent with <cite path="10.07.14.24">COMAR 10.07.14.24</cite> and .25, it shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Prepare a service agreement that contains the agreed upon monthly fee; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Send the service agreement to the licensee to execute.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Unless some reason for denying enrollment in the subsidy program came to the local office's attention after sending the service agreement to the licensee, the local office shall execute the service agreement upon its return.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>When the service agreement is executed by the local office, the licensee is an enrolled provider.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Application for Subsidy.</heading>
+    <para>
+      <num>A.</num>
+      <text>If a resident's or prospective resident's net monthly income is less than the approved monthly fee at the facility, the resident or prospective resident may apply to the local office for a subsidy on an application provided by the Department.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>An application for a subsidy shall include:</text>
+      <para>
+        <num>(1)</num>
+        <text>Basic personal information;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Income, expense, and asset information, including the amount and type of regular medical expenses; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A release signed by the applicant authorizing the local office to verify the medical and financial information in the application.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="32|03|03|.05">
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Resident Eligibility for Subsidy.</heading>
+    <para>
+      <num>A.</num>
+      <text>An applicant is eligible to receive a subsidy paid to the licensee on the applicant's behalf when the following conditions are met:</text>
+      <para>
+        <num>(1)</num>
+        <text>The applicant is a resident 62 years old or older, or has been accepted for admission as a resident, in a facility operated by a licensee, which has enrolled in the Program and executed a service agreement with the local office;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The applicant is determined to be functionally eligible for a subsidy, based on a functional assessment;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The applicant is determined to be financially eligible for a subsidy, based on a review and verification of the financial information provided; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Unless the licensee is a nonprofit corporation, the applicant is not a parent, child, spouse, aunt, uncle, niece, nephew, first cousin, or in-law of:</text>
+        <para>
+          <num>(a)</num>
+          <text>The licensee, or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Any partner or officer of the licensee.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>To be functionally eligible for a subsidy, an applicant shall be:</text>
+      <para>
+        <num>(1)</num>
+        <text>Physically or mentally impaired; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>In need of assistance with the activities of daily living provided by the assisted living program.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>To be financially eligible for a subsidy, an applicant shall meet the following conditions:</text>
+      <para>
+        <num>(1)</num>
+        <text>The applicant's net monthly income is less than the approved monthly fee for the services provided;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The applicant's net annual income is not higher than 60 percent of the State median income as determined by the U.S. Department of Housing and Urban Development;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Subject to <cite path="32|03|03|.05|H.">§H of this regulation</cite>, the applicant's resources are not greater than $19,000 if single, or $25,000 if married; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The applicant may not have disposed of or transferred more than 5 percent of such applicant’s net worth in the previous 5 years for less than fair market value unless the transfer was into a:</text>
+        <para>
+          <num>(a)</num>
+          <text>Trust for an immediate family member who was medically dependent; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Special needs trust that meets the requirements of <cite path="10.09.24.08">COMAR 10.09.24.08</cite>-2C.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Calculation of Resources.</text>
+      <para>
+        <num>(1)</num>
+        <text>When calculating the amount of an applicant's or subsidized resident's resources, the net fair market value of all assets owned by the applicant or subsidized resident shall be totaled, with the exception of the following:</text>
+        <para>
+          <num>(a)</num>
+          <text>One personal automobile;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Customary household goods;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Personal effects;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Life insurance policies with a total cash surrender value of not more than $5,000, including available accrued dividends and interest;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Real property that satisfies the exclusion requirements of §§E—G of this regulation;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Burial spaces for a person and the person’s immediate family;</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>An irrevocable burial fund of any amount, which has been set aside for the burial or funeral of the individual or the individual's spouse; and</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>Amounts in burial funds that satisfy the requirements of <cite path="32|03|03|.05|D.|(2)">§D(2) of this regulation</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Burial Funds.</text>
+        <para>
+          <num>(a)</num>
+          <text>In determining the resources of a person and the person's spouse, if any, there shall be excluded an amount up to $5,000 per person of funds specifically set aside in a burial fund for the person or the person's spouse.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Interest earned on excluded burial funds and appreciation on the value of excluded burial arrangements shall be excluded from resources if left to accumulate and become a part of the burial fund.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Funds or interest earned on funds and appreciation in the value of burial arrangements, which have been excluded from resources because they are burial funds, shall be used solely for that purpose.</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>An individual's $5,000 exclusion as described under <cite path="32|03|03|.05|D.|(2)|(a)">§D(2)(a) of this regulation</cite> shall be reduced by amounts in an irrevocable burial fund as described under <cite path="32|03|03|.05|D.|(1)|(g)">§D(1)(g) of this regulation</cite>.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Real property that was the primary residence of the applicant at the time of admission to a facility is excluded from the calculation of the applicant's resources for 1 year from the date of admission. After 1 year, the value of the applicant’s interest in the property shall be counted as part of an applicant's or subsidized resident's resources, unless the:</text>
+      <para>
+        <num>(1)</num>
+        <text>Secretary grants an extension under <cite path="32|03|03|.05|G.">§G of this regulation</cite>; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Residence is occupied by the applicant's or subsidized resident's:</text>
+        <para>
+          <num>(a)</num>
+          <text>Spouse;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Unmarried child younger than 21 years old; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>An immediate family member who is medically or financially dependent.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>For the purposes of §§C and E of this regulation, an unmarried child younger than 21 years old shall be considered financially dependent without documentation other than age, and an immediate family member who has been determined to be blind or disabled by the Social Security Administration or by the State Medical Review Team as a part of determining their eligibility for Medical Assistance, shall be considered medically dependent.</text>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>The Secretary may grant an extension of the 1-year period specified in <cite path="32|03|03|.05|E.">§E of this regulation</cite> if the applicant demonstrates why the property could not be sold within the year despite timely and good faith efforts.</text>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>The resource limits for applicants shall increase on July 1 of each year beginning July 1, 2021, by the percentage, if any, by which the Consumer Price Index for the most recent calendar year exceeds the Consumer Price Index for the previous calendar year, rounded to the nearest dollar. The Department shall publish annually the resource limits.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Determination of Eligibility for Subsidy.</heading>
+    <para>
+      <num>A.</num>
+      <text>If subsidy funds are available, the local office, upon receipt of an application for a subsidy, shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Arrange for a functional assessment of the applicant; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Determine if the applicant is functionally and financially eligible to receive a subsidy.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The local office shall award a subsidy on behalf of an applicant when subsidy funds are available and the applicant has been determined to be eligible to receive a subsidy according to the requirements of <cite path="|32|03|03|.05">Regulation .05 of this chapter</cite>.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>When a subsidy is awarded, the local office shall annually redetermine each subsidized resident's eligibility to receive a subsidy.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>If the local office determines that an applicant or a subsidized resident is ineligible for a Program subsidy, the local office shall notify the applicant in writing of the determination. The notice shall include the:</text>
+      <para>
+        <num>(1)</num>
+        <text>Decision;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Reason for denial;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Specific regulation supporting the denial;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Applicant's right to appeal the decision; and</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Method for obtaining a hearing.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Appeal of Decision.</text>
+      <para>
+        <num>(1)</num>
+        <text>An individual whose application is denied may appeal the determination of ineligibility to the Department in accordance with <cite path="|32.01.01">COMAR 32.01.01</cite>.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The local office shall provide an individual who wishes to appeal a decision the required forms and a list of resources in the community available to assist the individual.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>If subsidy funds are not available, the local office shall maintain a waiting list of interested applicants with names listed in chronological order according to the date on which the application was received.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Amount of Subsidy.</heading>
+    <para>
+      <num>A.</num>
+      <text>Maximum Monthly Subsidy Amount.</text>
+      <para>
+        <num>(1)</num>
+        <text>The monthly subsidy amount paid by the local office to a licensee on behalf of a subsidized resident is equal to the lesser of:</text>
+        <para>
+          <num>(a)</num>
+          <text>The difference between the subsidized resident's net monthly income and the facility's approved monthly fee; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The maximum monthly subsidy amount set forth in writing annually by the local office, which amount shall be between the minimum rate of $650 and the maximum rate of $1,000 per month, inclusive.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The maximum rate shall increase on July 1 of each year beginning July 1, 2021, by the percentage, if any, by which the Consumer Price Index for the most recent calendar year exceeds the Consumer Price Index for the previous calendar year, rounded to the nearest dollar.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The Department shall publish annually the maximum subsidy amount limit.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A local office may limit the amount of the monthly fees that providers may charge subsidized residents within the local office's jurisdiction, subject to the approval of the Department.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>If a subsidized resident stayed in an enrolled provider's facility for less than a full month, the amount of subsidy paid by the local office on behalf of the subsidized resident shall be proportionate to the number of days in the month the subsidized resident stayed in the facility.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>A resident is considered to be staying at a facility even if absent for up to 14 days if, during the period of absence:</text>
+      <para>
+        <num>(1)</num>
+        <text>The subsidized resident was hospitalized on an in-patient basis; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The subsidized resident's bed was held open for the resident by the enrolled provider.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>The amount of the subsidy shall be recalculated annually according to the date of the initial eligibility determination. The recalculation shall be based on the most recent financial information.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Administration of Subsidies.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Department shall designate, in writing, a local office to:</text>
+      <para>
+        <num>(1)</num>
+        <text>Administer the Program’s subsidies;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Execute subsidy agreements with licensees; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Make monthly subsidy payments to licensees on behalf of subsidized residents.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>To receive a subsidy on behalf of an eligible resident, a licensee shall be an enrolled provider and have a service agreement with the local office.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>An enrolled provider may not charge a:</text>
+      <para>
+        <num>(1)</num>
+        <text>Subsidized resident more than the monthly fee indicated in the resident agreement that has been executed by the enrolled provider and the subsidized resident; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Non-subsidized resident less than the approved monthly fee charged to a subsidized resident, unless the non-subsidized resident has a subsidy application pending.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The local office shall pay subsidies to an enrolled provider on a monthly basis for services provided during the previous month to residents who were approved for subsidy payments.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Responsibilities of a Local Office.</heading>
+    <para>
+      <num>A.</num>
+      <text>A local office shall execute a subsidy administration agreement with the Department to administer Program subsidies.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A subsidy administration agreement shall include the:</text>
+      <para>
+        <num>(1)</num>
+        <text>Time period of the agreement;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Monitoring and reporting requirements for facilities in the local office's jurisdiction;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Responsibilities of the local office for administering subsidies, including:</text>
+        <para>
+          <num>(a)</num>
+          <text>Executing service agreements with licensees who receive subsidies on behalf of subsidized residents,</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Determining an applicant's eligibility to receive subsidies,</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Identifying applicants or residents who may be eligible for subsidies,</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Determining and annually recalculating the amount of subsidy that an enrolled provider may receive for a subsidized resident,</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Issuing monthly payments to enrolled providers on behalf of subsidized residents, and</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Filing required reports with the Department concerning subsidies paid;</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Total amount of subsidy funds allocated by the Department to the area served by the local office; and</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Portion of the total amount that the local office may use for its administrative costs.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>If an emergency prevents a local office from carrying out its responsibilities under a subsidy administration agreement, the Department may assume operation of all or part of the subsidy program.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.10</num>
+    <heading>Service Agreement Requirements.</heading>
+    <para>
+      <num>A.</num>
+      <text>A service agreement between a local office and an enrolled provider shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Specify the number of beds for which the enrolled provider is licensed or for which the enrolled provider has applied for a license;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Specify the level of care for which the enrolled provider is licensed or for which the enrolled provider has applied for a license;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Specify the approved monthly fee, which is the maximum amount the enrolled provider can charge a subsidized resident;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Require the enrolled provider to notify the local office immediately if the enrolled provider decides to surrender its license, or if any actions are taken by others to revoke or restrict the license;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Specify that the enrolled provider is obligated to maintain its license and operate in compliance with <cite path="|10.07.14">COMAR 10.07.14</cite>;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Specify the minimum services the enrolled provider shall provide to all subsidized residents;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Require the local office to approve any contracts the enrolled provider uses for subsidized residents;</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Specify that the enrolled provider may not charge a resident who is not subsidized less than the approved monthly fee, unless the non-subsidized resident has a subsidy application pending;</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>Require the enrolled provider to keep a record of all payments received on behalf of a subsidized resident, which records shall be maintained so that they can be examined by the local office or Department with 24 hours notice;</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>Require the enrolled provider to keep information and records regarding a subsidized resident's subsidy confidential from anyone other than the local office or Department, unless:</text>
+        <para>
+          <num>(a)</num>
+          <text>Authorized to release the information or records by the subsidized resident or the subsidized resident's representative, or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Compelled by a subpoena to release the information or records;</text>
+        </para>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>Specify the maximum monthly subsidy that will be available for payment;</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>Specify how and when payment requests shall be made to the local office;</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>Specify the term of the agreement;</text>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>Contain the enrolled provider's Federal Employer Identification number or Social Security number;</text>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>Specify that the subsidized residents are third-party beneficiaries of the service agreement;</text>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>Require that any amendments to the service agreement be in writing and executed by all parties to the agreement or their authorized representatives; and</text>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>Specify that if an emergency prevents a local office from carrying out its responsibilities under a service agreement, the Department may enforce and administer the service agreement.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A local office shall send a copy of the service agreement format to the Department.</text>
+    </para>
+  </section>
+  <section cache:ref-path="32|03|03|.11">
+    <prefix>Regulation</prefix>
+    <num>.11</num>
+    <heading>Denial or Rescission of Licensee Enrollment.</heading>
+    <para>
+      <num>A.</num>
+      <text>A local office may deny enrollments in the subsidy program, refuse to subsidize additional residents at an enrolled provider, or rescind a licensee's service agreement or provider enrollment if:</text>
+      <para>
+        <num>(1)</num>
+        <text>Conditions in the facility present an imminent danger to the life, safety, health, or welfare of the residents;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A licensee fails to meet the licensure requirements of <cite path="|10.07.14">COMAR 10.07.14</cite>;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>An ongoing pattern exists of violations of <cite path="|10.07.14">COMAR 10.07.14</cite> involving the licensee or facility;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>There is a violation involving the licensee or facility of <cite path="|10.07.14">COMAR 10.07.14</cite> that presents a threat to the health, safety, or welfare of a resident;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>A licensee fails to correct cited violations of this chapter within the time specified in writing by the Department or local office;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>A licensee obtains, or attempts to obtain or retain, its assisted living program license by fraudulent means, misrepresentation, or the submission of false information to the Department, a local office, or the Maryland Department of Health;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>A licensee surrenders its license;</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>A licensee fails to comply with the requirements for renewal of the license;</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>A licensee fails to abide by the terms of its service agreement or its resident agreements; or</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>A licensee or one of its principals:</text>
+        <para>
+          <num>(a)</num>
+          <text>Has been cited for one or more deficiencies in the past 24 months which presented serious danger to a resident's health or safety; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Has failed to demonstrate substantial, sustained compliance for at least 24 months after any cited deficiency which presented serious danger to a resident's health or safety.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The local office shall notify the licensee in writing at least 15 days in advance of a proposed action to rescind the service agreement or to refuse to subsidize additional residents.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A notice of denial of enrollment, refusal to subsidize additional residents, or rescission of the service agreement shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>State concisely and simply:</text>
+        <para>
+          <num>(a)</num>
+          <text>The facts that are asserted; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The issues that are involved, if the facts cannot be stated in detail when the notice is given;</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>State the pertinent statutory and regulatory sections under which the local office is taking its action;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>State the sanction proposed, if any, as a result of the local office's action;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>State that the licensee has an opportunity to request a hearing, including:</text>
+        <para>
+          <num>(a)</num>
+          <text>What, if anything, the licensee has to do to receive a hearing; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>All relevant time requirements;</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>State the direct consequences, sanction, potential penalty, if any, or remedy of the licensee's failure to exercise in a timely manner the opportunity for a hearing or to appear for a scheduled hearing; and</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Be sent to the enrolled provider and the Department.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The local office shall notify the subsidized residents and the subsidized residents' representatives of any rescission of a licensee's enrollment in the subsidy program. The notice shall include the information listed in <cite path="32|03|03|.11|C.">§C of this regulation</cite>, and a list of community resources available to assist the subsidized residents to relocate. A copy of the notice shall be sent to the Department.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>The Department shall send notice of a rescission of a licensee's enrollment in the subsidy program to the Maryland Department of Health.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Actions taken against an enrolled provider under this chapter are not in lieu of and do not preclude the Maryland Department of Health from taking any action against a licensee under <cite path="|10.07.14">COMAR 10.07.14</cite>.</text>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container"><cite doc="Md. Code" path="ghu|10-211">Human Services Article, §10-211, </cite>Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="1988-01-14">Effective date: January 14, 1988 (15:1 Md. R. 20)</annotation>
+    <annotation type="History" dest="container" effective="1994-06-06"><cite path="|32|03|03|.24|C.">Regulation .24C</cite> amended effective June 6, 1994 (21:11 Md. R. 953)</annotation>
+    <annotation type="History" dest="container" effective="1994-06-06"><cite path="|32|03|03|.26">Regulation .26</cite> amended effective June 6, 1994 (21:11 Md. R. 953)</annotation>
+    <annotation type="History" dest="container" effective="1999-08-23" discontinuity="true">Regulations <cite path="|32|03|03|.01">.01</cite>—<cite path="|32|03|03|.32">.32</cite>, Group Sheltered Housing for the Elderly, repealed and new Regulations <cite path="|32|03|03|.01">.01</cite>—<cite path="|32|03|03|.11">.11</cite>, Senior Assisted Living Group Home Subsidy Program, adopted effective August 23, 1999 (26:17 Md. R. 1325)</annotation>
+    <annotation type="History" dest="container" discontinuity="true">Chapter recodified from <cite path="|14.11.07">COMAR 14.11.07</cite> to <cite path="|32.03.03">COMAR 32.03.03</cite>, October 2000</annotation>
+    <annotation type="History" dest="container" effective="2020-07-27"><cite path="|32|03|03|.01">Regulation .01</cite> amended effective July 27, 2020 (47:15 Md. R. 713)</annotation>
+    <annotation type="History" dest="container" effective="2002-05-27"><cite path="|32|03|03|.02|B.">Regulation .02B</cite> amended as an emergency provision effective January 10, 2002 (29:6 Md. R. 565); emergency status extended at 29:9 Md. R. 743; amended permanently effective May 27, 2002 (29:10 Md. R. 827)</annotation>
+    <annotation type="History" dest="container" effective="2020-07-27"><cite path="|32|03|03|.02|B.">Regulation .02B</cite> amended effective February 13, 2006 (33:3 Md. R. 244); July 27, 2020 (47:15 Md. R. 713)</annotation>
+    <annotation type="History" dest="container" effective="2020-07-27"><cite path="|32|03|03|.03">Regulation .03</cite> amended effective July 27, 2020 (47:15 Md. R. 713)</annotation>
+    <annotation type="History" dest="container" effective="2002-05-27"><cite path="|32|03|03|.05">Regulation .05</cite> amended as an emergency provision effective January 10, 2002 (29:6 Md. R. 565); emergency status extended at 29:9 Md. R. 743; amended permanently effective May 27, 2002 (29:10 Md. R. 827)</annotation>
+    <annotation type="History" dest="container" effective="2020-07-27"><cite path="|32|03|03|.05">Regulation .05</cite> amended effective July 27, 2020 (47:15 Md. R. 713)</annotation>
+    <annotation type="History" dest="container" effective="2003-01-20"><cite path="|32|03|03|.07|A.">Regulation .07A</cite> amended as an emergency provision effective October 1, 2002 (29:20 Md. R. 1585); amended permanently effective January 20, 2003 (30:1 Md. R. 30)</annotation>
+    <annotation type="History" dest="container" effective="2020-07-27"><cite path="|32|03|03|.07|A.">Regulation .07A</cite> amended effective July 27, 2020 (47:15 Md. R. 713)</annotation>
+    <annotation type="History" dest="container" effective="2020-07-27"><cite path="|32|03|03|.08">Regulation .08</cite> amended effective July 27, 2020 (47:15 Md. R. 713)</annotation>
+    <annotation type="History" dest="container" effective="2006-02-13"><cite path="|32|03|03|.11|A.">Regulation .11A</cite> amended effective February 13, 2006 (33:3 Md. R. 244)</annotation>
+  </annotations>
+</container>

@@ -1,0 +1,817 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>09</num>
+  <heading>Testing for Illegal Use of Drugs</heading>
+  <section cache:ref-path="17|04|09|.01">
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>"Agency technical representative" means an employee designated by an appointing authority to ensure compliance with the requirements of this chapter and whose duties include, but are not limited to, the following:</text>
+        <para>
+          <num>(a)</num>
+          <text>Scheduling of urine specimen collections;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Designation of collection sites;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Assurance of integrity of collection procedures and sites;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Assurance of integrity of testing and specimen retention procedures;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Review of data and reports; and</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Acting as contact person for the appointing authority's program for testing for illegal use of drugs.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>"Applicant" means a person who is seeking an employer-employee relationship in a position in a sensitive classification or in a sensitive position.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>"Applicant-employee" means an employee of the State who is an applicant for a position that is:</text>
+        <para>
+          <num>(a)</num>
+          <text>In a sensitive classification or is a sensitive position; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Different from or in addition to the position currently held by the applicant-employee.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>"Appointing authority" means a person who has the power to make appointments and to terminate employment.</text>
+      </para>
+      <para>
+        <num>(4-1)</num>
+        <text>"Controlled dangerous substance offense" means:</text>
+        <para>
+          <num>(a)</num>
+          <text>A controlled dangerous substance violation under <cite doc="Md. Code" path="gcr">Criminal Law Article, Annotated Code of Maryland</cite>;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>An offense of the law of any other jurisdiction if the prohibited conduct is a controlled dangerous substance offense if committed in this State; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Driving or attempting to drive while under the influence of:</text>
+          <para>
+            <num>(i)</num>
+            <text>Drugs or drugs and alcohol, or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>A controlled dangerous substance.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>"Employee" means a person with whom the State has an employer-employee relationship.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>"Employer-employee relationship" means a relationship in which a person is paid for services to the State and in which:</text>
+        <para>
+          <num>(a)</num>
+          <text>All of the following conditions of employment exist:</text>
+          <para>
+            <num>(i)</num>
+            <text>The State has the right to control and direct the performance of services not only as to results, but also as to details and means,</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The State has the right to discharge the employee, and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>The State furnishes necessary tools and a place to work;</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The status of the employee is any of the following:</text>
+          <para>
+            <num>(i)</num>
+            <text>Classified,</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Unclassified,</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Temporary extra, or</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Contractual; and</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Any of the following personnel actions resulted in employment:</text>
+          <para>
+            <num>(i)</num>
+            <text>Open selection from an eligible list,</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Promotion,</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Demotion,</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Horizontal change,</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>Transfer,</text>
+          </para>
+          <para>
+            <num>(vi)</num>
+            <text>Reinstatement,</text>
+          </para>
+          <para>
+            <num>(vii)</num>
+            <text>Reemployment,</text>
+          </para>
+          <para>
+            <num>(viii)</num>
+            <text>Reclassification,</text>
+          </para>
+          <para>
+            <num>(ix)</num>
+            <text>Unclassified appointment,</text>
+          </para>
+          <para>
+            <num>(x)</num>
+            <text>Temporary appointment pending examination,</text>
+          </para>
+          <para>
+            <num>(xi)</num>
+            <text>Temporary extra appointment, or</text>
+          </para>
+          <para>
+            <num>(xii)</num>
+            <text>Contractual appointment.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>"Secretary" means the Secretary of Budget and Management or the Secretary's designated representative.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>"Sensitive classification" means a classification in which the Secretary has determined that any of the following conditions exists:</text>
+        <para>
+          <num>(a)</num>
+          <text>An employee in the classification has a substantially significant degree of responsibility for the safety of others and there is a potential that impaired performance of the employee could result in death of or injury to the employee or others;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>An employee in the classification is required to carry a firearm;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>An employee in the classification is directly involved in efforts to interdict the flow of narcotics; or</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>An employee in the classification is directly involved with narcotics law enforcement.</text>
+        </para>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>"Sensitive position" means a position for which an appointing authority has determined that any of the conditions listed in <cite path="17|04|09|.01|B.|(8)">§B(8) of this regulation</cite> exists, but which is not in a sensitive classification.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>List of Sensitive Classifications.</heading>
+    <text>The Secretary shall maintain a list of sensitive classifications.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02-1</num>
+    <heading>Designation of Sensitive Positions by Appointing Authority.</heading>
+    <para>
+      <num>A.</num>
+      <text>Each appointing authority is responsible for determining whether positions within the appointing authority are sensitive, and may designate those positions as sensitive positions.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Each appointing authority who designates a position as sensitive shall be responsible for all of the following:</text>
+      <para>
+        <num>(1)</num>
+        <text>Notification to the employee in the position of the designation of the position as sensitive and of requirements for testing in accordance with <cite path="|17|04|09|.04">Regulation .04 of this chapter</cite>;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Maintenance of documentation of the reasons for the designation;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Presentation of the reasons for the designation in administrative or judicial proceedings; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Provision of reports to the Secretary, to be submitted following the end of each fiscal quarter, listing each position, as identified by position identification number, that has been designated as sensitive along with the reasons for the designation.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="17|04|09|.03">
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Requirements for Applicants for Positions in Sensitive Classifications or for Sensitive Positions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In addition to applicants, §§B—E of this regulation apply to applicant-employees.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Conditions for Testing. Testing for illegal use of drugs shall be required for positions in sensitive classifications or for sensitive positions if the applicant has not been eliminated from consideration at an earlier stage of the recruitment process.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Notification.</text>
+      <para>
+        <num>(1)</num>
+        <text>Examination Announcements; Information Provided by Appointing Authority. Examination announcements for positions in sensitive classifications shall include a statement that testing for illegal use of drugs is part of the selection process. The appointing authority shall also inform applicants for positions in sensitive classifications or for sensitive positions that testing for illegal use of drugs is required and shall be conducted at some point in the selection process, including any time during the applicant's probationary period.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Refusal to be Tested. The appointing authority shall inform an applicant for a position in a sensitive classification or for a sensitive position who refuses to be tested that refusal shall result in all of the following:</text>
+        <para>
+          <num>(a)</num>
+          <text>Disqualification from that position;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Removal from any list of eligibles for any sensitive classification; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Removal from the list of eligibles for all sensitive positions within the classification of the sensitive position for which the applicant refused to be tested.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Positive Test Results. The appointing authority shall inform an applicant who agrees to be tested of the consequences of a positive test result in accordance with <cite path="17|04|09|.03|E.">§E of this regulation</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Testing Protocol.</text>
+      <para>
+        <num>(1)</num>
+        <text>The appointing authority shall give an applicant for a position in a sensitive classification or for a sensitive position who has not been eliminated from consideration at an earlier stage of the recruitment process a Drug Abuse Screen-Applicant Authorization form prescribed by the Secretary to complete at the interview. The applicant shall appear at one of the designated collection sites with the completed authorization form at a time set by the appointing authority. When urine specimen collection as provided in <cite path="|17|04|09|.05">Regulation .05 of this chapter</cite> is a part of the interview, the urine specimen may be collected at the time of the interview.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>After completion of the test, the test results shall be provided to the State Medical Director, who shall inform the appointing authority of the suitability of the applicant for further consideration.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If the State Medical Director has determined that an applicant is suitable in accordance with <cite path="17|04|09|.03|D.|(2)">§D(2) of this regulation</cite>, the appointing authority shall schedule an appointment for the applicant to appear for a physical examination within 8 calendar days after the date of the interview.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>All testing protocols shall be in accordance with <cite path="|17|04|09|.05">Regulation .05 of this chapter</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Consequences of Positive Test Results.</text>
+      <para>
+        <num>(1)</num>
+        <text>An applicant for a position in a sensitive classification or for a sensitive position who tests positive shall be disqualified from State employment for a position in a sensitive classification or for a sensitive position unless the applicant submits to the Secretary a certificate from a physician certifying on the certificate under oath that the applicant has:</text>
+        <para>
+          <num>(a)</num>
+          <text>Successfully participated in a drug abuse rehabilitation program of at least 6 months duration; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Been free of drugs listed in <cite path="|17|04|09|.06">Regulation .06 of this chapter</cite> for at least 18 months immediately before reapplying for State service.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An applicant who is later hired in accordance with the procedure described in <cite path="17|04|09|.03|E.|(1)">§E(1) of this regulation</cite> shall be subject to periodic random testing for illegal use of drugs.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Positive Test Applicant-Employee.</text>
+        <para>
+          <num>(a)</num>
+          <text>If an applicant-employee for a position in a sensitive classification or a sensitive position tests positive for use of illegal drugs, as part of a personnel selection process involving a promotion, demotion, horizontal change, transfer, or reclassification, the State Medical Director shall notify the applicant-employee's appointing authority of the positive test result.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The appointing authority shall suspend the employee in <cite path="17|04|09|.03|E.|(3)|(a)">§E(3)(a) of this regulation</cite>, without pay for 15 work days. As a condition of returning to work, the employee shall enroll in a drug abuse rehabilitation program of at least 6 months duration and shall be subject to periodic testing throughout the duration of the program. At the conclusion of the rehabilitation program the employee shall submit to the Secretary a certification from the attending physician, or a certified chemical dependency counselor, licensed certified social worker, or licensed psychologist associated with the rehabilitation program, certifying on the certificate under oath that the employee has successfully participated in a drug abuse program of at least 6 months duration and has not tested positive for drugs listed in <cite path="|17|04|09|.06">Regulation .06 of this chapter</cite> at any point during the rehabilitation program. If the employee does not enroll in a drug abuse rehabilitation program during the suspension period, or if the employee fails to successfully participate in a drug abuse rehabilitation program for at least 6 months, the appointing authority shall begin proceedings to dismiss the employee.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The employee who successfully participated in a drug abuse rehabilitation program of at least 6 months duration and has been free of drugs listed in <cite path="|17|04|09|.06">Regulation .06 of this chapter</cite> for at least 18 months, including the 6-month period in which the employee participated in a drug abuse rehabilitation program, may reapply for a sensitive classification or a sensitive position.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>A person who is later hired in accordance with the procedure described in <cite path="17|04|09|.03|E.|(3)">§E(3) of this regulation</cite> shall be subject to periodic random testing for illegal use of drugs.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The State Medical Director may disapprove a physician's certificate as set forth in §E(1) and (3) of this regulation if the State Medical Director determines that the drug abuse rehabilitation program does not meet standards generally recognized in the field of drug abuse treatment or therapy.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Appeal Rights.</text>
+      <para>
+        <num>(1)</num>
+        <text>This section applies to applicants only.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The appointing authority shall notify the applicant in writing of any disqualification based on test results, and shall inform the applicant of the appropriate appeal route.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>An applicant may submit a written appeal of any positive test results to the Secretary within 5 work days after receipt of the written notice of the positive test results. The applicant shall bear the burden of proving an irregularity in the drug testing procedure used. This appeal may not be a contested case.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Upon receipt of the appeal, the Secretary shall review the documentation, and may decide to uphold the decision of the appointing  authority to eliminate the applicant from consideration in accordance with <cite path="17|04|09|.03|E.">§E of this regulation</cite> or:</text>
+        <para>
+          <num>(a)</num>
+          <text>Conduct an investigation to obtain additional information; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Convene a conference, which may be attended by the appointing authority, the applicant, and other appropriate individuals.</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The Secretary shall issue a written determination within 45 calendar days after receipt of the appeal, or within 45 calendar days after an investigation or conference.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="17|04|09|.04">
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Requirements for Employees.</heading>
+    <para>
+      <num>A.</num>
+      <text>Employee Arrest. Each employee arrested for an alleged controlled dangerous substance offense shall report the arrest to the employee's appointing authority on the employee's next scheduled work day, or within 1 week, whichever is earlier. Failure to report the arrest shall result in disciplinary action, up to and including dismissal.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Conditions for Testing for Illegal Use of Drugs.</text>
+      <para>
+        <num>(1)</num>
+        <text>An appointing authority may require that an employee be tested if the appointing authority has reasonable suspicion to believe that the employee has illegally used drugs.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An appointing authority may require employees in positions in sensitive classifications or in sensitive positions to be tested for the illegal use of drugs if any of the following conditions exist:</text>
+        <para>
+          <num>(a)</num>
+          <text>Reasonable Suspicion. This condition exists when the appointing authority has reasonable and specific grounds to believe that a drug abuse test of an employee shall produce evidence of illegal use of drugs.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Incident Triggered Factor. This condition exists when an injury to the employee or another person or property damage may have been caused by human error, and the employee was directly involved in the accident or incident.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Participation in Drug Abuse Rehabilitation Program. This condition exists when an employee in a position in a sensitive classification or in a sensitive position has notified the employee's appointing authority that the employee is voluntarily participating in a drug abuse rehabilitation program, including any program offered under the State Employee Assistance</text>
+        </para>
+      </para>
+    </para>
+    <aftertext>Program, and this participation is not the result of having tested positive in accordance with this chapter. The employee's appointing authority may arrange for testing of the employee at any time during the:</aftertext>
+    <para>
+      <num>(i)</num>
+      <text>Employee's participation in the rehabilitation program; and</text>
+    </para>
+    <para>
+      <num>(ii)</num>
+      <text>One-year period immediately following the employee's successful completion of the rehabilitation program.</text>
+    </para>
+    <para>
+      <num>(d)</num>
+      <text>Arrest for a Controlled Dangerous Substance Offense. This condition exists when an employee in a position in a sensitive classification or in a sensitive position has notified the employee's appointing authority that the employee has been arrested for a controlled dangerous substance offense.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Random Testing.</text>
+      <para>
+        <num>(1)</num>
+        <text>Each appointing authority, with the approval of the Secretary, shall assure that employees in positions in sensitive classifications or in sensitive positions within the appointing authority are subject to random testing for illegal use of drugs.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Random testing requires that statistically significant samples of employees in sensitive classifications or in sensitive positions be tested on a periodic basis.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>All employees in sensitive classifications or in sensitive positions have an equal chance of being tested. However, only a sample of employees in each sensitive classification or a sample of all employees in sensitive positions are tested, based upon an appropriate random sampling technique.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Notification.</text>
+      <para>
+        <num>(1)</num>
+        <text>An appointing authority shall give an employee who is to be tested a Controlled Dangerous Substance Test Order prescribed by the Secretary.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Refusal to be Tested. The appointing authority shall inform an employee who refuses to be tested that refusal may result in disciplinary action, which may include termination from State service.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Positive Test Results. The appointing authority shall inform an employee who agrees to be tested of the consequences of a positive test result in accordance with <cite path="17|04|09|.04|E.">§E of this regulation</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Testing Protocol.</text>
+      <para>
+        <num>(1)</num>
+        <text>The appointing authority shall provide an employee who is ordered to take a urinalysis for the purpose of testing for illegal use of drugs with a Controlled Dangerous Substance Test Order.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>After completion of the test, the test results shall be provided to the State Medical Director, who shall inform the appointing authority of whether an employee has tested positive or negative.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>All testing protocols shall be in accordance with <cite path="|17|04|09|.05">Regulation .05 of this chapter</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Consequences of Positive Test Results.</text>
+      <para>
+        <num>(1)</num>
+        <text>When, as a result of a random drug test in accordance with <cite path="17|04|09|.04|C.">§C of this regulation</cite>, an employee in a position in a sensitive classification or in a sensitive position tests positive for use of illegal drugs, the appointing authority shall suspend the employee without pay for 15 work days. As a condition of returning to work, the employee shall enroll in a drug abuse rehabilitation program of at least 6 months duration and shall be subject to periodic testing throughout the duration of the program. At the conclusion of the rehabilitation program the employee shall submit to the Secretary a certification from the attending physician, or a certified chemical dependency counselor, licensed certified social worker, or licensed psychologist associated with the rehabilitation program, certifying on the certificate under oath that the employee has successfully participated in a drug abuse rehabilitation program of at least 6 months duration and has not tested positive for drugs listed in <cite path="|17|04|09|.06">Regulation .06 of this chapter</cite> at any point during the rehabilitation program. If the employee does not enroll in a drug abuse rehabilitation program during the suspension period, or if the employee fails to successfully participate in a drug abuse rehabilitation program for at least 6 months, the appointing authority shall begin proceedings to dismiss the employee.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>When, as the result of any of the conditions described in <cite path="17|04|09|.04|B.|(2)">§B(2) of this regulation</cite>, an employee in a position in a sensitive classification or in a sensitive position tests positive for use of illegal drugs, the appointing authority shall institute proceedings to dismiss the employee in accordance with the employee's status of employment.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>When an employee not in a position in a sensitive classification or not in a sensitive position tests positive, the appointing authority shall institute whatever disciplinary action the appointing authority considers appropriate.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Drug Rehabilitation Program.</text>
+        <para>
+          <num>(a)</num>
+          <text>The employee's continued employment or eligibility for reemployment, if terminated, may be conditioned on the employee's enrollment in and satisfactory completion of a drug rehabilitation program.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>If the employee is not terminated, the employee shall be required to enroll in a drug abuse rehabilitation program of at least 6 months duration and shall be subject to periodic testing throughout the duration of the program.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>At the conclusion of the rehabilitation program the employee shall submit to the Secretary a certification from the attending physician, or a certified chemical dependency counselor, licensed certified social worker, or licensed psychologist associated with the rehabilitation program, certifying under oath that the employee has successfully participated in a drug abuse rehabilitation program of at least 6 months duration and has not tested positive for drugs listed in <cite path="|17|04|09|.06">Regulation .06 of this chapter</cite> at any point during the rehabilitation program.</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>The employee may be tested again at any point during the year following participation in the rehabilitation program.</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>If the employee does not enroll in the drug abuse rehabilitation program, or does not successfully complete the rehabilitation program, or if the employee tests positive at any point during the 1 year following participation in the rehabilitation program, the employee shall be terminated.</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>An employee who is dismissed from State service in accordance with <cite path="17|04|09|.04|F.|(1)">§F(1) of this regulation</cite> shall be disqualified from State employment for positions in sensitive classifications or for sensitive positions unless the person submits to the Secretary a certificate from a physician certifying on the certificate under oath that the person has:</text>
+        <para>
+          <num>(a)</num>
+          <text>Successfully participated in a drug abuse rehabilitation program of at least 6 months duration; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Been free of drugs listed in <cite path="|17|04|09|.06">Regulation .06 of this chapter</cite> for at least 18 months before the person's application for the position.</text>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>An individual who is later hired in accordance with the procedure described in <cite path="17|04|09|.04|F.|(5)">§F(5) of this regulation</cite> shall be subject to periodic testing for illegal use of drugs. If the individual tests positive, the individual shall be terminated.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>An individual who is later hired in accordance with the procedure described in <cite path="17|04|09|.04|F.|(5)">§F(5) of this regulation</cite> and who tests positive for illegal use of a controlled dangerous substance shall be dismissed from State service. The individual's eligibility for future State employment shall be conditioned on whatever terms the Secretary considers appropriate.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>The State Medical Director may disapprove a certificate as set forth in  §F(1) and (5) of this regulation if the State Medical Director determines that the drug abuse rehabilitation program does not meet standards generally recognized in the field of drug abuse treatment or therapy.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>Nothing in this section shall be interpreted to prevent an appointing authority from taking appropriate disciplinary action, which may include termination, against an employee when the employee's conduct provides independent grounds for disciplinary action.</text>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Appeal Rights. An employee or an applicant-employee may submit a written appeal in accordance with <cite path="|17.04.07">COMAR 17.04.07</cite>. The adverse party in an appeal shall be the appointing authority.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Urine Specimen Collection; Chain of Custody; Retention of Specimen and Test Results.</heading>
+    <para>
+      <num>A.</num>
+      <text>The appointing authority shall assure that all aspects of urine specimen collection are controlled to ensure integrity of the specimen. This includes either observation as the specimen is provided or methods to preclude adulteration.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The appointing authority shall assure that a chain of custody is established consistent with forensic protocol standards. This means that the specimen is to be sealed in a special container and envelope which is signed by the individual being tested and by every other person who has custody until the specimen is delivered to the testing laboratory technician. All aspects of specimen receipt, identification, and testing shall be documented.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The laboratory that tests the specimen shall retain all confirmed positive test:</text>
+      <para>
+        <num>(1)</num>
+        <text>Specimens for 1 year or longer as may be required by the State; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Results for at least 3 years or longer as may be required by the State.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="17|04|09|.06">
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Drugs to be Screened.</heading>
+    <para>
+      <num>A.</num>
+      <text>The drugs that shall be screened include, but are not limited to, the following:</text>
+      <para>
+        <num>(1)</num>
+        <text>Marijuana/cannabinoids;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Cocaine;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Opiates;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Phencyclidine (PCP); and</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Amphetamines.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>An appointing authority may submit to the Secretary a written request for approval to screen for a drug or controlled substance other than those listed in <cite path="17|04|09|.06|A.">§A of this regulation</cite>. If the Secretary approves the request, the Secretary shall notify all appointing authorities who require testing for illegal use of drugs of the addition of that drug to the list.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Testing Methodologies.</heading>
+    <para>
+      <num>A.</num>
+      <text>The initial screening test shall use an immunoassay.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The confirmatory test shall be gas chromatography-mass spectroscopy (GC-MS).</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Testing Cutoff Levels.</heading>
+    <text>An initial screening test result shall be determined to be positive based upon the following cutoff levels:</text>
+    <text>Initial Test Level — nanograms per milliliter:</text>
+    <para>
+      <num>A.</num>
+      <text>Marijuana metabolites — 50;</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Cocaine metabolites — 300;</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Opiate metabolites — 300;</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Phencyclidine — 25;</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Amphetamines — 1,000.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Confirmatory Test.</heading>
+    <para>
+      <num>A.</num>
+      <text>A confirmatory test which uses the chromatography technology specified in <cite path="|17|04|09|.07">Regulation .07 of this chapter</cite> shall be required subsequent to each test that produces positive results for any of the drugs listed in <cite path="|17|04|09|.06">Regulation .06 of this chapter</cite> or any drug which has been added to the list.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Protocols that double-screen are permitted only if test results which are positive on both screens are confirmed positive with GC-MS before reporting a positive test.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Protocols that result in one negative screening test shall be reported as a negative test.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.10</num>
+    <heading>Testing Laboratory.</heading>
+    <para>
+      <num>A.</num>
+      <text>An appointing authority may arrange for collection of urine specimens by a contractor selected by the Secretary.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Selection of a Laboratory by Appointing Authority. An appointing authority shall arrange for testing for illegal use of drugs to be conducted by a laboratory whose services have been contracted by the Secretary, and which is certified under National Institute of Drug Abuse Mandatory Guidelines for Federal Workplace Drug Testing Programs.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.11</num>
+    <heading>Approval of Testing Procedures; Statistics.</heading>
+    <para>
+      <num>A.</num>
+      <text>Each appointing authority shall establish a procedure for testing for illegal use of drugs, provided that the procedure is in accordance with this chapter. Before implementing that procedure, the appointing authority shall submit the following to the Secretary for approval:</text>
+      <para>
+        <num>(1)</num>
+        <text>A list of sensitive classifications for which random testing will be required;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A description of the testing procedure to be used; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The name of the laboratory that will conduct the testing.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Each appointing authority shall designate an agency technical representative, and shall notify the Secretary in writing of the agency technical representative's name and position.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Each appointing authority shall submit to the Secretary periodic reports, including statistical information, in a format and according to a schedule determined by the Secretary.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.12</num>
+    <heading>Annual Review.</heading>
+    <text>The Secretary shall conduct an annual review of the program for testing for illegal use of drugs to:</text>
+    <para>
+      <num>A.</num>
+      <text>Allow for incorporation of modifications made in the field of testing for illegal use of drugs;</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Allow for addition or deletion of specific substances listed in <cite path="|17|04|09|.06">Regulation .06 of this chapter</cite>; and</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Ensure compliance with this chapter.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.13</num>
+    <heading>Training.</heading>
+    <para>
+      <num>A.</num>
+      <text>Each appointing authority shall assure that training is provided to all of the appointing authority's employees who are involved in the implementation of this chapter. All training programs shall be subject to prior approval of the Secretary.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Training shall include, but is not limited to, all of the following:</text>
+      <para>
+        <num>(1)</num>
+        <text>Conditions for testing for illegal use of drugs;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Identification of sensitive classifications or sensitive positions, which require random testing for illegal use of drugs;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Notification procedures;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Testing protocols, including specimen collection and chain of custody;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Impact of positive test results upon applicants, employees, and the appointing authority;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Appeal rights; and</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Confidentiality requirements.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.14</num>
+    <heading>Confidentiality.</heading>
+    <para>
+      <num>A.</num>
+      <text>Notwithstanding any regulation to the contrary, and to the extent permissible under applicable statutes, all test results shall be handled as confidential information.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Test results shall be considered part of the employee's personnel record and subject to the confidentiality protections of State Government Article,</text>
+      <text>§10-616(h), Annotated Code of Maryland, and <cite path="|17.04.14">COMAR 17.04.14</cite>.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Except for those persons identified elsewhere in these regulations as having a right of access to test results, only those members of management who have a need to know of test results shall be made aware of any test results.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.15</num>
+    <heading>Notice of Regulations in this Chapter.</heading>
+    <text>Each appointing authority shall assure that the appointing authority's employees are notified of the following:</text>
+    <para>
+      <num>A.</num>
+      <text>The existence of these regulations;</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The circumstances under which employees may be subject to these regulations; and</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The employees' rights to appeal any adverse action which results from the implementation of these regulations.</text>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Executive Order <cite path="|01.01">01.01</cite>.1991.16; State Personnel and Pensions Article, §§<cite doc="Md. Code" path="gsp|4-103">4-103</cite>, <cite doc="Md. Code" path="gsp|4-106">4-106</cite>, <cite doc="Md. Code" path="gsp|4-201">4-201</cite>, <cite doc="Md. Code" path="gsp|4-203">4-203</cite>, <cite doc="Md. Code" path="gsp|4-303">4-303</cite>, <cite doc="Md. Code" path="gsp|4-307">4-307</cite>, <cite doc="Md. Code" path="gsp|4-501">4-501</cite>, and <cite doc="Md. Code" path="gsp|4-504">4-504</cite>, and Title 9; Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="1989-01-09">Effective date: January 9, 1989 (15:27 Md. R. 3126)</annotation>
+    <annotation type="History" dest="container" effective="1990-08-06">Regulations .01, .03—.11, .13, and .14 amended effective August 6, 1990 (17:15 Md. R. 1854)</annotation>
+    <annotation type="History" dest="container" effective="1994-10-24"><cite path="|17|04|09|.01|B.">Regulation .01B</cite> amended effective October 24, 1994 (21:21 Md. R. 1812)</annotation>
+    <annotation type="History" dest="container" effective="1990-08-06"><cite path="|17|04|09|.02">Regulation .02</cite>-1 adopted effective August 6, 1990 (17:15 Md. R. 1854)</annotation>
+    <annotation type="History" dest="container" effective="1991-05-13">Regulations .03E, .04E, .10A, B, and .14B amended, and .04F and .14C adopted as an emergency provision effective November 20, 1990 (17:26 Md. R. 2972); adopted permanently May 13, 1991 (18:9 Md. R. 1007)</annotation>
+    <annotation type="History" dest="container" effective="1994-03-28"><cite path="|17|04|09|.03|E.">Regulation .03E</cite> amended as an emergency provision effective May 24, 1993 (20:12 Md. R. 994); emergency status expired November 30, 1993; adopted permanently effective March 28, 1994 (21:6 Md. R. 465)</annotation>
+    <annotation type="History" dest="container" effective="1994-10-24"><cite path="|17|04|09|.04">Regulation .04</cite> amended effective October 24, 1994 (21:21 Md. R. 1812)</annotation>
+    <annotation type="History" dest="container" effective="1994-10-24"><cite path="|17|04|09|.08|A.">Regulation .08A</cite> amended effective October 24, 1994 (21:21 Md. R. 1812)</annotation>
+    <annotation type="History" dest="container" effective="1997-02-12" discontinuity="true">For a history of State Personnel Regulations before February 12, 1997, see the prior version of COMAR Title 06 or contact the Maryland State Archives for assistance</annotation>
+  </annotations>
+</container>
