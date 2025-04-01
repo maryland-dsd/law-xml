@@ -2,7 +2,7 @@
 <container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
   <prefix>Chapter</prefix>
   <num>04</num>
-  <heading>Storage Facilities</heading>
+  <heading>Warehouses</heading>
   <section>
     <prefix>Regulation</prefix>
     <num>.01</num>
@@ -12,44 +12,343 @@
   <section>
     <prefix>Regulation</prefix>
     <num>.02</num>
-    <heading>Requisites.</heading>
-    <text>All storage facilities shall be:</text>
+    <heading>Definitions.</heading>
     <para>
       <num>A.</num>
-      <text>Under the direct and sole control of the local board;</text>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
     </para>
     <para>
       <num>B.</num>
-      <text>Secure from access by unauthorized persons;</text>
-    </para>
-    <para>
-      <num>C.</num>
-      <text>In reasonably close proximity to the local board office;</text>
-    </para>
-    <para>
-      <num>D.</num>
-      <text>Climate-controlled:</text>
+      <text>Terms Defined.</text>
       <para>
         <num>(1)</num>
-        <text>To meet the manufacturer's environmental standards for storage of the equipment;</text>
+        <text>“Ballot” has the meaning stated in <cite path="33.10.01.01">COMAR 33.10.01.01</cite></text>
       </para>
       <para>
         <num>(2)</num>
-        <text>To meet environmental standards necessary for storage of paper ballots without degradation; and</text>
+        <text>“Equipment” means the voting and non-voting system equipment and electronic poll books.</text>
       </para>
       <para>
         <num>(3)</num>
-        <text>So that authorized persons can comfortably conduct required pre-election and post-election testing and maintenance of voting equipment; and</text>
+        <text>“Non-voting system equipment” means equipment used to conduct an election that is not included in the definition of “EVS voting solution” as defined in <cite path="33.10.01.01">COMAR 33.10.01.01</cite>.</text>
       </para>
-    </para>
-    <para>
-      <num>E.</num>
-      <text>Supplied with telecommunication services whenever a local board member, staff member, or contractor is at the facility.</text>
+      <para>
+        <num>(4)</num>
+        <text>“Voting location” has the meaning stated in <cite path="33.10.01.01">COMAR 33.10.01.01</cite>.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>“Voting system equipment” means the EVS Voting solution as defined in <cite path="33.10.01.01">COMAR 33.10.01.01</cite>.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>“Voting unit” has the meaning stated in <cite path="33.10.01.01">COMAR 33.10.01.01</cite>.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>“Warehouse” means any facility, other than a voting location, where voting system equipment is under the direct control of the local board of elections and stored when not in use for an election.</text>
+      </para>
     </para>
   </section>
   <section>
     <prefix>Regulation</prefix>
     <num>.03</num>
+    <heading>Location of Warehouse.</heading>
+    <para>
+      <num>A.</num>
+      <text>Except as provided in §B, a warehouse shall be attached or adjacent to the principal office of the local board of elections.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Where the State Board determines no suitable location attached or adjacent to the principal office of the local board of elections exists, a warehouse may be located within a 5 — 10-mile radius of that principal office.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Telecommunications Required.</heading>
+    <text>All warehouses shall be supplied with telecommunication services.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Equipment Storing — In General.</heading>
+    <para>
+      <num>A.</num>
+      <text>A local board shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Ensure the availability of warehouse space; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Maintain direct control of a warehouse.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Equipment Generally. The voting system equipment stored in a warehouse shall be stored:</text>
+      <para>
+        <num>(1)</num>
+        <text>In a secure manner that preserves any potential claims under any applicable warranties or insurance policies; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>In compliance with:</text>
+        <para>
+          <num>(a)</num>
+          <text>Manufacturer specifications;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>This title;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Climate-controlled requirements of the manufacturer; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Any other legal requirements;</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>To meet the manufacturer's environmental standards for storage of the equipment;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>To meet environmental standards necessary for storage of paper ballots without degradation; and</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>So that authorized persons can comfortably conduct required pre-election and post-election testing and maintenance of voting equipment.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Insurance Coverage — General.</heading>
+    <para>
+      <num>A.</num>
+      <text>Liability Insurance. Each local board or county government shall maintain liability insurance on the storage facility.</text>
+      <para>
+        <num>(1)</num>
+        <text>Minimum Coverage.  The minimum liability insurance coverage on the storage facility shall be:</text>
+        <para>
+          <num>(a)</num>
+          <text>$1,000,000 per occurrence; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>$2,000,000 in the aggregate.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The State Board and designated personnel shall be named as “additional insured” parties to the liability insurance policy.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Property Insurance.  Each local board or county government shall maintain property insurance for equipment in the control of the local board.</text>
+      <para>
+        <num>(1)</num>
+        <text>Minimum Coverage. The minimum property insurance coverage shall be the amount necessary to cover the total loss of all equipment in the control of the local board of elections.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Determination of Coverage. Coverage shall be determined by the replacement values for the designated equipment.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Loss Payees. The State of Maryland and the State Board of Elections shall be included as loss payees under the property insurance policy.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Premiums and Deductibles. A local board or county government shall be responsible for all premiums, deductibles, or retentions associated with any insurance obtained.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Proof of Insurance. A local board shall provide proof to the State Board that it complied with §§A and B of this regulation for all times any voting system equipment is in the custody of the local board. The local board shall provide proof:</text>
+      <para>
+        <num>(1)</num>
+        <text>At the beginning of each fiscal year, and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>In the form of a current certificate of insurance or similar documentation.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Warehouse Size and Capacity Specifications.</heading>
+    <text>Determination of Size and Capacity Need. Beginning on July 1, 2025, the State Board on a biannual basis shall:</text>
+    <para>
+      <num>A.</num>
+      <text>Review and update the inventory of voting system equipment, and pollbook equipment, and voting supplies in the local board’s custody;</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Determine the square footage required for storage and workplace-related tasks of the voting system equipment; and</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Provide written notice to the local board of the warehouse of the square footage requirements within 30 days of the determination.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Security and Safety Specifications.</heading>
+    <para>
+      <num>A.</num>
+      <text>Access Control. The warehouse shall be locked and adequately secured to prevent unauthorized access.</text>
+      <para>
+        <num>(1)</num>
+        <text>Restricted Access. Access to the warehouse should be restricted to authorized personnel only.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Access Control Measures. Access to the warehouse shall be regulated through appropriate measures, such as:</text>
+        <para>
+          <num>(a)</num>
+          <text>Implementing badge systems to identify authorized personnel;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Utilizing door entry access devices to restrict entry; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Recordkeeping practices.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Security Requirements.</text>
+      <para>
+        <num>(1)</num>
+        <text>All warehouses must have a security system containing, at minimum:</text>
+        <para>
+          <num>(a)</num>
+          <text>An alarm that is triggered by unauthorized entry or smoke within the premises; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Central monitoring for fire and unauthorized entry.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A warehouse shall have real-time video surveillance capabilities unless granted a waiver by the State Administrator.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Safety Inspections. Routine safety inspections shall be conducted to ensure the security and safety of the stored equipment. These inspections shall include assessments for:</text>
+      <para>
+        <num>(1)</num>
+        <text>Pest infestation;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Fire hazards;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Water damage;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Mold; and</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Any other potential safety concerns.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Occupancy and Control.</heading>
+    <para>
+      <num>A.</num>
+      <text>Lessees. The local board and the local governmental entity are the only entities permitted to be named as lessees on any lease for a warehouse.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Control of Warehouse. The warehouse in which the equipment is stored must always remain under the direct control of the local board.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Limitation on Tenancy. No other parties, including sub-lessees, may be granted tenancy in the warehouse.</text>
+    </para>
+  </section>
+  <section cache:ref-path="33|15|04|.10">
+    <prefix>Regulation</prefix>
+    <num>.10</num>
+    <heading>Reimbursement.</heading>
+    <para>
+      <num>A.</num>
+      <text>Reimbursement Basis. The State Board shall reimburse the local board for 50 percent of the cost to store:</text>
+      <para>
+        <num>(1)</num>
+        <text>Voting system equipment;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Electronic pollbook equipment; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Ballots.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Calculation of Reimbursement Amount.</text>
+      <para>
+        <num>(1)</num>
+        <text>The local board shall provide a per-square-foot rate to the State Board based on the terms of its lease.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The State Board shall multiply the per-square-foot rate by the requisite square footage determined by <cite path="33.15.04.07">COMAR 33.15.04.07</cite>.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The total amount resulting from the calculation in <cite path="33|15|04|.10|B.|(2)">§B(2) of this regulation</cite> shall be divided into two, determining the reimbursement amount owed by the State Board.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Disbursement of Reimbursement. State Board reimbursements may be issued as a credit on the local board’s quarterly billing or as a check sent to the local governing entity.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.11</num>
+    <heading>Notice of Damage.</heading>
+    <text>Within 24 hours of discovering damage to the office, warehouse, voting system equipment, or other materials used to conduct an election, the election director shall promptly send a written notification to:</text>
+    <para>
+      <num>A.</num>
+      <text>The State Administrator; and</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The local board.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.12</num>
     <heading>Temporary Waiver.</heading>
     <para>
       <num>A.</num>
@@ -81,9 +380,12 @@
     </para>
   </section>
   <annotations>
-    <annotation type="Authority" dest="container">Election Law Article, §§<cite doc="Md. Code" path="gel|2-102">2-102</cite>(b)(<cite doc="Md. Code" path="gel|4">4</cite>) and <cite doc="Md. Code" path="gel|2-202">2-202</cite>(b), Annotated Code of Maryland</annotation>
+    <annotation type="Authority" dest="container">Election Law Article, Election Law Article, §§<cite doc="Md. Code" path="gel|2-102">2-102</cite>(b)(<cite doc="Md. Code" path="gel|4">4</cite>), <cite doc="Md. Code" path="gel|2-202">2-202</cite>(b), <cite doc="Md. Code" path="gel|2-206">2-206</cite>, <cite doc="Md. Code" path="gel|9-106">9-106</cite>(a), <cite doc="Md. Code" path="gel|11-308">11-308</cite>(a), and <cite doc="Md. Code" path="gel|11-303">11-303</cite>.2, Annotated Code of Maryland</annotation>
     <annotation type="History" dest="container">Effective date:</annotation>
     <annotation type="History" dest="container" effective="2000-10-16">Regulations <cite path="|33|15|04|.01">.01</cite>—<cite path="|33|15|04|.03">.03</cite> adopted as an emergency provision effective July 1, 2000 (27:15 Md. R. 1398); adopted permanently effective October 16, 2000 (27:20 Md. R. 1844)</annotation>
     <annotation type="History" dest="container" effective="2009-10-19"><cite path="|33|15|04|.02">Regulation .02</cite> amended effective October 19, 2009 (36:21 Md. R. 1595)</annotation>
+    <annotation type="History" dest="container" effective="2025-03-31" discontinuity="true"><cite path="|33|15|04|.02">Regulation .02</cite> repealed effective March 31, 2025 (52:6 Md. R. 268)</annotation>
+    <annotation type="History" dest="container" effective="2025-03-31">Regulations <cite path="|33|15|04|.02">.02</cite>—<cite path="|33|15|04|.11">.11</cite> adopted effective March 31, 2025 (52:6 Md. R. 268)</annotation>
+    <annotation type="History" dest="container" effective="2025-03-31"><cite path="|33|15|04|.03">Regulation .03</cite> recodified to Regulation .12 effective March 31, 2025 (52:6 Md. R. 268)</annotation>
   </annotations>
 </container>
