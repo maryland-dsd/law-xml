@@ -1,0 +1,286 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>03</num>
+  <heading>UCC Information Management System</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Data Elements.</heading>
+    <para>
+      <num>A.</num>
+      <text>The UCC data elements used in the information management system are specified in §§B—G of this regulation.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>File Number.</text>
+      <para>
+        <num>(1)</num>
+        <text>Each initial financing statement is identified by its file number. Identification of the initial financing statement is affixed on the UCC files or otherwise permanently associated with the record maintained for UCC files in the information management system. A record is created in the information management system for each initial financing statement and all information comprising the record is maintained in the system.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A UCC record other than an initial financing statement is identified by a unique acknowledgment number assigned by the filing office. In the information management system, records of all UCC records other than initial financing statements are linked to the record by the file number of their related initial financing statements.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Type of Record. The type of UCC record from which data is transferred is identified in the information management system from information supplied in the record.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Filing Date and Filing Time. The filing date and filing time of a UCC record is stored in the information management system. Calculation of the lapse date of an initial financing statement is based upon the filing date.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Identification of Parties. The names and addresses of debtors and secured parties are transferred from UCC records to the UCC information management system.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Status of Financing Statement. In the information management system, each financing statement has an active status unless designated terminated or lapsed.</text>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Page Count. The total number of pages in a UCC record is maintained in the information management system.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Name Indexes.</heading>
+    <para>
+      <num>A.</num>
+      <text>Individual Debtors.</text>
+      <para>
+        <num>(1)</num>
+        <text>Individual Name Fields. The names of individuals are stored in fields that include only the names of individuals, and not the names of organizations. Separate data entry fields are established for first, middle, and last names of individuals. If the filer makes no designation as to first, middle, and last name, the filing office shall treat the name as submitted as first, middle, and last name for purposes of this regulation. A filer should place the name of a debtor with a single name, for example, "Cher", in the last name field. The filing office assumes no responsibility for the accurate designation of the components of a name but will accurately enter the data in accordance with the filer's designations.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Titles and Prefixes Before Names. Titles and prefixes, such as "doctor", "reverend", "Mr.", "Ms.", are not entered in the UCC information management system.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Titles and Suffixes After Names. Titles or indications of status such as "M.D." and "esquire" are not entered in the UCC information management system. The only suffixes after names that are entered into the management system are "Jr.", "Sr.", and Roman numerals ("II", "III", "IV", "V", etc.).</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Truncation—Individual Names. Personal name fields in the UCC database are fixed in length. Although filers should continue to provide full names on their UCC records, a name that exceeds the fixed length is entered as presented to the filing office, up to the maximum length of the data entry field. The length of data entry name files are as follows:</text>
+        <para>
+          <num>(a)</num>
+          <text>First name: 20 characters;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Middle name: 20 characters;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Last name: 60 characters;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Suffix: 25 characters.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Organization Debtors.</text>
+      <para>
+        <num>(1)</num>
+        <text>Single Field. The names of organizations are stored in fields that include only the names of organizations and not the names of individuals. A single field is used to store an organization name.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Truncation—Organization Names. The organization name field in the UCC database is fixed in length. The maximum length is 250 characters. A name that exceeds the fixed length is entered as presented to the filing office, up to the maximum length of the data entry field.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Processing and Data Entry Procedures.</heading>
+    <para>
+      <num>A.</num>
+      <text>Processing.</text>
+      <para>
+        <num>(1)</num>
+        <text>Date and Time Stamp. The date and time of receipt are noted on the record or otherwise permanently associated with the record maintained for a UCC filing in the UCC information management system at the earliest possible time.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Transactions necessary for processing payment of the filing fee are performed.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Document Review.</text>
+        <para>
+          <num>(a)</num>
+          <text>The filing office determines whether a ground exists to refuse the document under <cite path="18.14.02.01">COMAR 18.14.02.01</cite>.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>File Stamp. If there is no ground for refusal of the document, the document is determined filed, and a label is affixed containing a file number, a unique acknowledgment number, and the file time and date. All such information contained on the label is permanently associated with the record maintained in the UCC information management system. The sequence of the file or acknowledgment number is not an indication of the order in which the document was received.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Communication of Acceptance or Refusal.</text>
+          <para>
+            <num>(i)</num>
+            <text>If a record tendered by hand for expedited service is accepted, a paper acknowledgment is delivered by hand to the presenter.</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>If a record tendered by hand for expedited service is refused, the record, the filing fee, and a notice of refusal are returned in person.</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>If a record tendered by hand for non-expedited service is accepted or rejected, a paper acknowledgment or notice of refusal is sent via United States Postal Service first class mail.</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>If a record tendered by postal service, express mail, or any other means is accepted or rejected, a paper acknowledgment or notice of refusal is sent via United States Postal Service first class mail.</text>
+          </para>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Data Entered Into Information Management System.</text>
+      <para>
+        <num>(1)</num>
+        <text>Filing Date. The filing date of a UCC record is the date the UCC record is received with the proper filing fee if the filing office is open to the public on that date. If the filing office is not open on that date, the filing date is the next date the filing office is open. The filing office may perform any duty relating to the record on the filing date or on a date after the filing date.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Filing Time. The filing time of a UCC record is determined as provided in <cite path="18.14.01.04">COMAR 18.14.01.04</cite>.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Lapse Date and Time. A lapse date is calculated for each initial financing statement, unless the debtor is indicated to be a transmitting utility. The lapse date is the same date of the same month as the filing date in the fifth year after the filing date or relevant subsequent fifth anniversary if a timely continuation statement is filed. If the initial financing statement indicates that it is filed with respect to a public finance transaction or a manufactured home transaction, the lapse date is the same date of the same month as the filing date in the thirtieth year after the filing date. If there is no timely filing of a continuation, the financing statement will be indicated as "lapsed" after midnight at the end of the lapse date. The relevant anniversary for a February 29 filing date shall be the March 1 in the fifth or thirtieth year following the year of the filing date depending upon the type of transaction.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Errors of the Filing Office. The filing office may correct the errors of filing office personnel in the UCC information management system at any time. If the correction occurs after the filing office has issued an acknowledgment, the filing office shall file a filing office correction statement in the UCC information management system identifying the record, stating the date of the correction and explaining the nature of the corrective action taken. The record shall be preserved as long as the record of the initial financing statement is preserved in the UCC information management system.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Data Entry of Names from Forms with Designated Fields.</text>
+        <para>
+          <num>(a)</num>
+          <text>A form with designated fields must indicate whether a name is a name of an individual or an organization. The rules in §B(5)(b) and (c) of this regulation apply.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Organization Names. Organization names are entered into the UCC information management system exactly as set forth in the UCC record, even if it appears that the name of an individual has been included in the field designated for an organization name.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Individual Names. On a form that designates separate fields for first, middle, and last names and any suffix, the filing office enters the names into the first, middle, and last name and suffix fields in the UCC information management system exactly as set forth on the form subject to the provisions of <cite path="|18|14|03|.02|A.">Regulation .02A of this chapter</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Data Entry of Names from Forms without Designated Fields.</text>
+        <para>
+          <num>(a)</num>
+          <text>The rules in §B(6)(b)—(c) of this regulation apply when entering data from forms without designated fields.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Individual and Organization Names on a Single Line. When it is apparent that the name of an individual and the name of an entity are stated on a single line, the name of the individual and the name of the entity are entered as two separate debtors, one as an individual and one as an entity.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Individual Names.</text>
+          <para>
+            <num>(i)</num>
+            <text>Freestanding Initials. An initial in the first position of the name is treated as a first name. An initial in the second position of the name is treated as a middle name.</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Combined Initials and Names. If an initial and a name to which the initial apparently corresponds are submitted in one name field, only the name is entered, for example, "D. (David)" in the name "John D. (David) Rockefeller" is entered as "John" (first name), "David" (middle name), "Rockefeller" (last name).</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Multiple Individual Names on a Single Line. Two individual names contained in a single line are entered as two different debtors, for example, the debtor name "John and Mary Smith" is entered as two debtors, "John Smith" and "Mary Smith".</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Nicknames. A nickname is entered in the name field together with the name preceding the nickname, or if none, then as the first name, for example, "William (Bill) Jones".</text>
+          </para>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>A form without designated fields that is an initial financing statement or an amendment that adds a debtor to a financing statement and that fails to specify whether the debtor is an individual or an organization shall be refused by the filing office.</text>
+        </para>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Verification of Data Entry. The filing office uses visual inspection to verify the accuracy of its data entry. The filing office also relies upon the inspection of the record by the remitter to verify the data entered into the management information system.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Initial Financing Statement.</text>
+        <para>
+          <num>(a)</num>
+          <text>A new record that bears the file number of the financing statement and the date and time of filing is opened in the UCC information management system for each initial financing statement.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The name and address of each debtor set forth in the financing statement are entered into the record of the financing statement. This debtor name is included in the searchable index and is not removed from the information management system of the filing office even after the financing statement lapses.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The name and address of each secured party set forth in the financing statement are entered into the record of the financing statement.</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>The record is indexed according to the name of the debtor or debtors and is maintained for public inspection.</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>A lapse date is established for the financing statement, unless the initial financing statement indicates it is filed against a transmitting utility, and the lapse date is maintained as part of the record.</text>
+        </para>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>Amendment.</text>
+        <para>
+          <num>(a)</num>
+          <text>A record that bears the acknowledgment number for the amendment and the date and time of filing is created for the amendment.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The record of the amendment is associated with the record of the related initial financing statement in a manner that causes the amendment to be retrievable each time a record of the financing statement is retrieved.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The name and address of each additional debtor and secured parties are entered into the UCC information management system in the record of the financing statement. Each additional debtor name is added to the searchable index and is not removed from the information management system of the filing office even after the financing statement lapses. An amendment that changes a debtor's name is cross-indexed in the UCC information management system so that a search under either the debtor's old name or debtor's new name will reveal the initial financing statement and all related UCC records. An amendment that changes the name of a secured party is entered into the UCC information management system but is not indexed.</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>If the amendment is a continuation, a new lapse date is established for the financing statement and maintained as part of its record.</text>
+        </para>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>Termination Statement. A termination statement shall cause the filing office to designate the financing statement as "terminated".</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>Correction Statement. A record that bears the acknowledgment number for the correction statement and the date and time of filing is created for the correction statement. The record of the correction statement is associated with the record of the related initial financing statement in a manner that causes the correction statement to be retrievable each time a record of the financing statement is retrieved.</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>Archives. The filing office shall act on any UCC record filed with the filing office by adding information obtained from the UCC record to the information system. The filing office may not act on any UCC record by deleting any information from the information system. A record will be maintained indefinitely in the UCC management information system of the filing office regardless of the status of the financing statement.</text>
+      </para>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container"><cite doc="Md. Code" path="gcl|9-526">Commercial Law Article, §9-526, </cite>Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="2001-07-01">Effective date: July 1, 2001 (28:12 Md. R. 1112)</annotation>
+    <annotation type="History" dest="container" effective="2016-07-04"><cite path="|18|14|03|.03|A.">Regulation .03A</cite> amended effective July 4, 2016 (43:13 Md. R. 714)</annotation>
+  </annotations>
+</container>

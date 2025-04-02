@@ -1,0 +1,475 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>03</num>
+  <heading>Classification of Nonpublic Institutions of Higher Education</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Purpose and Scope.</heading>
+    <para>
+      <num>A.</num>
+      <text>The purpose of this chapter is to provide a procedure for the Commission to determine if a nonpublic institution of higher education is a private nonprofit institution of higher education or a for-profit institution of higher education under <cite doc="Md. Code" path="ged|10-101">Education Article, §10-101, Annotated Code of Maryland</cite>.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>This chapter does not affect any rights or obligations of a nonpublic institution of higher education that are not governed by:</text>
+      <para>
+        <num>(1)</num>
+        <text><cite doc="Md. Code" path="ged">Education Article, Annotated Code of Maryland</cite>;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>This title; or</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text><cite doc="Md. Code" path="gcl">Commercial Law Article, Title 13, Annotated Code of Maryland</cite>, and regulations promulgated thereunder.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>“Commission” means the Maryland Higher Education Commission.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>“Disqualified person” means any person who was in a position to exercise substantial influence over the affairs of the institution any time during the 5 years prior to the date of a transaction, and includes, but is not limited to:</text>
+        <para>
+          <num>(a)</num>
+          <text>Current and former officers, directors, trustees, and key employees;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Family members of current and former officers, directors, trustees, and key employees; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>An entity in which a current or former officer, director, trustee, key employee, or family member thereof has at least 35 percent ownership.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>“Excess benefit” means any economic benefit received by a disqualified person from an institution that exceeds the consideration, including services, given to the institution by the disqualified person.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>“Excess benefit transaction” means any transaction in which an excess benefit is provided by the institution, directly or indirectly, to or for the use of any disqualified person.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>“Family member” means a spouse, sibling, half-sibling, child, grandchild, great-grandchild, parent, grandparent, great-grandparent, or spouse of any relation listed in this definition.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>“For-profit institution of higher education” has the meaning stated in <cite doc="Md. Code" path="ged|10-101">Education Article, §10-101, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>“Institution” means an institution of higher education and its affiliate organizations.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>“IRS” means the United States Internal Revenue Service.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>“Key employee” means an employee of an institution, other than an officer, director, or trustee, who meets all three of the following tests, applied in the following order:</text>
+        <para>
+          <num>(a)</num>
+          <text>$150,000 Test. The employee receives reportable compensation from the institution and all related institutions in excess of $150,000 for the calendar year ending with or within the institution’s tax year.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Responsibility Test. The employee:</text>
+          <para>
+            <num>(i)</num>
+            <text>Has responsibilities, powers, or influence over the institution as a whole, similar to those of officers, directors, or trustees;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Manages a discrete segment or activity of the institution that represents 10 percent or more of the activities, assets, income, or expenses of the institution, as compared to the institution as a whole; or</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Has or shares authority to control or determine 10 percent or more of the institution’s capital expenditures, operating budget, or compensation for employees.</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Top 20 Test. The employee meets the $150,000 Test and the Responsibility Test and is one of the 20 employees with the highest reportable compensation from the institution and related institutions for the calendar year ending with or within the institution’s tax year.</text>
+        </para>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>“Net earnings” means gross revenue less expenses.</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>“Person” means an individual, corporation, or other entity.</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>“Private inurement” means financial arrangements that primarily benefit private interests instead of the institution’s charitable interests, which include but are not limited to:</text>
+        <para>
+          <num>(a)</num>
+          <text>A compensation arrangement or contract where there is no upper limit or is based on factors extrinsic to performance at, and benefit to, the institution;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Use of gross revenue or net earnings to provide goods and services to an individual or entity that primarily benefits private interests instead of the institution’s charitable interests; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Payment in excess of the fair market value in exchange for goods or services that primarily benefit private interests instead of the institution’s charitable interests.</text>
+        </para>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>“Private nonprofit institution of higher education” has the meaning stated in <cite doc="Md. Code" path="ged|10-101">Education Article, §10-101, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>“Prohibited tax shelter transaction” has the meaning stated in 26 U.S.C. §4965(e)(1).</text>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>Reportable Incident.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Reportable incident” has the meaning stated in <cite doc="Md. Code" path="ged|10-101">Education Article, §10-101, Annotated Code of Maryland</cite>.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Reportable incident” includes the following activities:</text>
+          <para>
+            <num>(i)</num>
+            <text>Providing a grant or other assistance to a disqualified person;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Having receivables from or payables to a disqualified person; or</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Being a party to a business transaction with a disqualified person.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>“Secretary” means the Secretary of Higher Education.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Delegation to Secretary.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Commission delegates to the Secretary the responsibility and authority to act on its behalf in the determination of whether an institution of higher education is a private nonprofit institution of higher education or a for-profit institution of higher education under <cite doc="Md. Code" path="ged|10-101">Education Article, §10-101, Annotated Code of Maryland</cite>.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The Secretary shall prepare and present a report to the Commission by June 30 of each year and as otherwise requested by the Commission summarizing actions taken under this delegation.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Criteria for Classification.</heading>
+    <para>
+      <num>A.</num>
+      <text>An institution of higher education shall be determined to be a private nonprofit institution of higher education under §10-101 of the Education Article if it:</text>
+      <para>
+        <num>(1)</num>
+        <text>Benefits no person or entity through any part of its net earnings;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Is legally authorized to operate as a nonprofit organization by each state in which it is physically located;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Has been determined by the IRS to be an organization to which contributions are tax deductible in accordance with 26 U.S.C. §501(c)(3);</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Had no reportable incidents in the previous calendar year that:</text>
+        <para>
+          <num>(a)</num>
+          <text>Are determined by the Secretary to constitute private inurement; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Were not satisfactorily corrected prior to the submission of the report in <cite path="|13B|01|03|.05">Regulation .05 of this chapter</cite>; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Timely files the report required under <cite path="|13B|01|03|.05">Regulation .05 of this chapter</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>An institution shall be determined to be a for-profit institution of higher education under <cite doc="Md. Code" path="ged|10-101">Education Article, §10-101, Annotated Code of Maryland</cite>, if it:</text>
+      <para>
+        <num>(1)</num>
+        <text>Does not request classification as a private nonprofit institution of higher education by filing the report required under <cite path="|13B|01|03|.05">Regulation .05 of this chapter</cite>;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Benefits any person or entity through any part of its net earnings;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Is not legally authorized to operate as a nonprofit organization by each state in which it is physically located;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Has not been determined by the IRS to be an organization to which contributions are tax deductible in accordance with 26 U.S.C. §501(c)(3);</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Had any reportable incidents in the previous calendar year that:</text>
+        <para>
+          <num>(a)</num>
+          <text>Are determined by the Secretary to constitute private inurement; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Were not satisfactorily corrected prior to the submission of the report in <cite path="|13B|01|03|.05">Regulation .05 of this chapter</cite>;</text>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Knowingly fails to disclose a reportable incident in the report required under <cite path="|13B|01|03|.05">Regulation .05 of this chapter</cite>; or</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Does not timely file the report required under <cite path="|13B|01|03|.05">Regulation .05 of this chapter</cite>.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Reporting Requirements.</heading>
+    <para>
+      <num>A.</num>
+      <text>To be classified as a private nonprofit institution of higher education under <cite doc="Md. Code" path="ged|10-101">Education Article, §10-101, Annotated Code of Maryland</cite>, an institution of higher education shall provide to the Secretary, by March 1 of each year, a report in a form prescribed by the Secretary.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>In the report, the institution shall include the following:</text>
+      <para>
+        <num>(1)</num>
+        <text>A certification that the institution:</text>
+        <para>
+          <num>(a)</num>
+          <text>Benefits no person or entity through any part of its net earnings;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Is legally authorized to operate as a nonprofit organization by each state in which it is physically located; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Is currently classified by the IRS to be an organization to which contributions are tax deductible in accordance with 26 U.S.C. §501(c)(3);</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A description of any reportable incidents in the previous calendar year and, for each reportable incident:</text>
+        <para>
+          <num>(a)</num>
+          <text>An explanation of the basis for the institution’s belief that the reportable incident does not constitute private inurement; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>What, if any, corrective actions have been taken to date; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A declaration signed and dated by the chief executive officer of the school, under penalty of perjury, that the information in the report and any attachments to the report are true and correct.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Initial Review.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Secretary may request additional information from an institution to determine its classification.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The Secretary shall consult with the Consumer Protection Division of the Office of the Attorney General before determining that any reportable incident does not constitute private inurement.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>If the Secretary finds, based on all the information available to the Secretary, that the requirements of <cite path="|13B|01|03|.04|A.">Regulation .04A of this chapter</cite> are met by an institution, the Secretary shall classify the institution as a private nonprofit institution of higher education under <cite doc="Md. Code" path="ged|10-101">Education Article, §10-101, Annotated Code of Maryland</cite>, and send written notice of the determination to the institution no later than 45 days after submission of the report in <cite path="|13B|01|03|.05">Regulation .05 of this chapter</cite>.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>If the Secretary finds that an institution should be classified as a for-profit institution of higher education under <cite doc="Md. Code" path="ged|10-101">Education Article, §10-101, Annotated Code of Maryland</cite>, the Secretary shall provide a written statement of findings, including the basis of the findings, to the institution no later than 45 days after submission of the report in <cite path="|13B|01|03|.05">Regulation .05 of this chapter</cite>.</text>
+    </para>
+  </section>
+  <section cache:ref-path="13B|01|03|.07">
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Determination After Statement of Findings.</heading>
+    <para>
+      <num>A.</num>
+      <text>An institution may, within 20 days of receipt of a statement of findings under <cite path="|13B|01|03|.06">Regulation .06 of this chapter</cite>, submit to the Secretary a response and proposed corrective action plan.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>If the Secretary does not receive a response to the statement of findings within the specified time period, the Secretary shall issue a determination affirming the statement of findings and classifying the institution as a for-profit institution of higher education.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Within 20 days of receipt of a response to the statement of findings, the Secretary shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Issue a revised statement of findings and a determination classifying the institution as a private nonprofit institution of higher education;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Issue a determination affirming the statement of findings and classifying the institution as a for-profit institution of higher education; or</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Notify the institution, in writing, that a determination is being deferred for the purposes of entering into a corrective action plan.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The criteria used to determine the action the Secretary shall take under <cite path="13B|01|03|.07|C.">§C of this regulation</cite> shall include the egregiousness of the private inurement and the feasibility of satisfactory corrective action.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Corrective Action Plans.</text>
+      <para>
+        <num>(1)</num>
+        <text>A corrective action plan proposal shall include, at a minimum:</text>
+        <para>
+          <num>(a)</num>
+          <text>A description of the measures necessary to remedy the private inurement;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A description of the measures necessary to prevent recurrence of the private inurement; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A timeline for the completion of the corrective action.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Secretary may recommend modifications to the proposed plan, including periodic monitoring or progress reports.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If the Secretary and the institution are unable to agree on a final corrective action plan within 10 days of the Secretary’s deferment notification, the Secretary shall issue a determination classifying the institution as a for-profit institution of higher education.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Upon agreement of the Secretary and the institution, a final corrective action plan may be modified due to a change in circumstances.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>If at any time the Secretary finds that an institution is not in compliance with the corrective action plan, the Secretary shall issue a notice to the institution stating the amount of time in which the institution must remedy the noncompliance.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>If the institution remains in noncompliance after the expiration of the time period in the notice of noncompliance, the Secretary shall issue a determination classifying the institution as a for-profit institution of higher education.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>If the Secretary finds that a corrective action plan has been satisfactorily completed, the Secretary shall issue a revised statement of findings and a determination classifying the institution as a private nonprofit institution of higher education.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Any determination classifying an institution as a for-profit institution of higher education shall state the basis of the determination.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Hearings.</heading>
+    <para>
+      <num>A.</num>
+      <text>Requests.</text>
+      <para>
+        <num>(1)</num>
+        <text>If, within 45 days after timely submission of a report under <cite path="|13B|01|03|.05">Regulation .05 of this chapter</cite>, an institution has not received a determination or a statement of findings, the institution may request a hearing before the Commission to determine its classification.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If, within 20 days after timely submission of a response to a statement of findings, an institution has not received a determination or a notice of deferral, the institution may request a hearing before the Commission to determine its classification.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If the Secretary issues a determination that an institution will be classified as a for-profit institution of higher education, the institution may, within 20 days of receiving notice of the determination, request a hearing before the Commission to determine if the classification was made in an arbitrary or capricious manner.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A hearing requested under this regulation shall be conducted in accordance with the Administrative Procedure Act, <cite doc="Md. Code" path="gsg">State Government Article, Title 10, Subtitle 2, Annotated Code of Maryland</cite>, and COMAR 13B.04.01.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>If, after a hearing, the Secretary’s determination is upheld or the institution is determined by the Commission to be a for-profit institution of higher education under <cite doc="Md. Code" path="ged|10-101">Education Article, §10-101, Annotated Code of Maryland</cite>, the institution has the right to judicial review as provided by <cite doc="Md. Code" path="gsg">State Government Article, Title 10, Subtitle 2, Annotated Code of Maryland</cite>.</text>
+    </para>
+  </section>
+  <section cache:ref-path="13B|01|03|.09">
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Effect of Classification.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Secretary may take any action regarding the institution that is permissible under <cite doc="Md. Code" path="ged">Education Article, Annotated Code of Maryland</cite>, and this title for the Commission to take regarding a for-profit institution of higher education, after:</text>
+      <para>
+        <num>(1)</num>
+        <text>The Secretary issues a determination of classification as a for-profit institution of higher education and no request for a hearing is received within 20 days;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An institution has been determined to be a for-profit institution of higher education after a hearing arising from Regulation .08A(1) or (2) of this chapter; or</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The Secretary’s determination of for-profit classification is upheld after a hearing arising from <cite path="|13B|01|03|.08|A.|(3)">Regulation .08A(3) of this chapter</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>An institution’s nonprofit status shall be retained until the occurrence of one of the provisions of <cite path="13B|01|03|.09|A.">§A of this regulation</cite>.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Notwithstanding any corrective action, an institution’s for-profit status shall be retained until the Secretary issues a determination classifying the institution as a nonprofit institution of higher education.</text>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Education Article, §§<cite doc="Md. Code" path="ged|11-105">11-105</cite>(u) and <cite doc="Md. Code" path="ged|11-407">11-407</cite>.1, Annotated Code of Maryland; Ch. 515, Acts of 2019</annotation>
+    <annotation type="History" dest="container" effective="2020-02-24">Effective date: February 24, 2020 (47:4 Md. R. 262)</annotation>
+  </annotations>
+</container>

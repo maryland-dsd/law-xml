@@ -1,0 +1,479 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>19</num>
+  <heading>Administrative Earnings Withholding</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Purpose and Scope.</heading>
+    <text>This chapter establishes the procedures of the Child Support Administration for:</text>
+    <para>
+      <num>A.</num>
+      <text>Issuing an administrative earnings withholding notice to an employer of an obligor;</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Determining the amount of arrears to be withheld by the employer; and</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Providing the obligor with an opportunity to contest the withholding.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>"Earnings withholding notice" means a notice in a format prescribed by federal law issued by the Administration to an employer requiring the employer to deduct support payments from the earnings of an obligor.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>"New hire data match" means the automated process of matching obligors who owe a child support obligation with information on a newly hired employee reported by employers under 42 U.S.C. §653(a).</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>“Newly hired employee” means an employee who:</text>
+        <para>
+          <num>(a)</num>
+          <text>Has not been previously employed by the employer; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Was previously employed by the employer but has been separated from such prior employment for at least 60 consecutive days.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>"Support" includes:</text>
+        <para>
+          <num>(a)</num>
+          <text>Child support;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Spousal support if included in an order for child support;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Nondifferentiated child and spousal support; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Any medical support ordered by a court, including converted funds as defined in Health-General Article, §15-122.2, Annotated Code of Maryland.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Issuance of an Earnings Withholding Notice by the Administration.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Administration may issue an earnings withholding notice if a tribunal has issued a support order subjecting the obligor to earnings withholding, and either:</text>
+      <para>
+        <num>(1)</num>
+        <text>The Administration is providing child support services under Title IV-D of the Social Security Act; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The obligor requests the service of an earnings withholding order under Title IV-D of the Social Security Act.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The Administration shall issue the earnings withholding notice based on information obtained from:</text>
+      <para>
+        <num>(1)</num>
+        <text>The new hire data match;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The federal parent locator service; or</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Other verifiable sources.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>In cases where employment information is received through the new hire data match, the Administration shall issue an earnings withholding notice not later than 2 business days after the match, unless the obligor is not subject to withholding under 42 U.S.C. §666(b)(3).</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>If employment information is received from sources other than the new hire data match, the Administration shall issue an earnings withholding notice not later than 2 business days after the employment information has been verified, unless the obligor is not subject to withholding under 42 U.S.C. §666(b)(3).</text>
+    </para>
+  </section>
+  <section cache:ref-path="07|07|19|.04">
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Amount of Earnings to be Withheld.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Administration shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Determine the total amount to be withheld from the obligor's earnings pursuant to <cite doc="Md. Code" path="gfl|10-122">Family Law Article, §10-122, Annotated Code of Maryland</cite>; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Specify the amount to be withheld in the earnings withholding notice.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The total amount withheld shall be sufficient to pay:</text>
+      <para>
+        <num>(1)</num>
+        <text>Any current support obligation as specified in the support order;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Any amount specified in the support order to be applied toward arrearages existing at the time the court issued the support order; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Any amount to be determined by the Administration to be applied toward arrearage accumulated after the issuance of the support order.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The amount due on a monthly basis under <cite path="07|07|19|.04|B.|(3)">§B(3) of this regulation</cite> shall be 25 percent of the current monthly support obligation specified in the most recent support order, unless a lesser amount is set by the Administration after a request for reduction on grounds specified in <cite path="|07|07|19|.10|B.">Regulation .10B of this chapter</cite>.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The total amount to be withheld from the obligor's earnings may not exceed the maximum amount permitted under §303(b) of the federal Consumer Credit Protection Act, 15 U.S.C. §1673(b).</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Service of Earnings Withholding Notice.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Administration shall serve an employer with an earnings withholding notice by:</text>
+      <para>
+        <num>(1)</num>
+        <text>First class mail;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Certified mail; or</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Electronic format, if the employer has entered into an agreement with the Administration to accept service of an earnings withholding notice in this manner.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>When the Administration serves the earnings withholding notice on an employer, the Administration shall send, by first class mail, notification of the administrative action to the obligor at the obligor's:</text>
+      <para>
+        <num>(1)</num>
+        <text>Last known home address; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Place of employment.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The notification sent to the obligor shall include:</text>
+      <para>
+        <num>(1)</num>
+        <text>A copy of the earnings withholding notice;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A statement of the obligor's right to contest the accuracy of the information contained in the earnings withholding notice by filing a motion for stay of the earnings withholding notice in the circuit court or by requesting an investigation by the Administration, noting that any contest must be initiated within 30 calendar days of the date the earnings withholding notice was mailed to the obligor;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A statement of the amount of arrears apportioned to each payment that is to be included in the amount of earnings withheld; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>A statement of the procedures under <cite doc="Md. Code" path="gfl|10-134">Family Law Article, §10-134, Annotated Code of Maryland</cite>, that the obligor shall follow to terminate earnings withholding.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Responsibilities of Employer.</heading>
+    <para>
+      <num>A.</num>
+      <text>Upon receipt of an earnings withholding notice, an employer shall, beginning with the next pay period after receipt of the notice:</text>
+      <para>
+        <num>(1)</num>
+        <text>Deduct the amount of the withholding from the obligor's earnings on a regular basis; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Send the deducted amount to the State disbursement unit as specified in the earnings withholding notice, within 7 business days after the day on which the earnings are paid to the obligor.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>An employer may deduct and retain an additional $2 for each deduction made under the earnings withholding notice.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Within 10 days after the obligor terminates employment, the employer shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Notify the Administration of the termination;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Provide the Administration with the obligor's last known address; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Provide the Administration with the name and address of the obligor's new employer, if known.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Amendment or Termination of Withholding.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Administration shall issue an amended earnings withholding notice to an obligor's employer when:</text>
+      <para>
+        <num>(1)</num>
+        <text>The support obligation changes;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Administration changes the amount to be paid toward the arrears; or</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>All arrears have been paid in full and only current support is due.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The Administration shall issue a notice to terminate earnings withholding when:</text>
+      <para>
+        <num>(1)</num>
+        <text>The child support obligation is terminated; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>All arrears, if any, are paid in full.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Effect of the Earnings Withholding Notice.</heading>
+    <para>
+      <num>A.</num>
+      <text>An earnings withholding notice sent to an employer is sufficient to order withholding.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>An earnings withholding notice is binding on each present and future employer on whom a copy of the earnings withholding notice is served.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Right to Contest.</heading>
+    <text>An obligor may contest the accuracy of the information contained in an earnings withholding notice by filing a:</text>
+    <para>
+      <num>A.</num>
+      <text>Request for an investigation with the Administration within 15 days of the date the earnings withholding notice was mailed to the obligor under <cite path="|07|07|19|.05">Regulation .05 of this chapter</cite>; or</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Motion for stay of the earnings withholding notice in circuit court within 15 days of the date the earnings withholding notice was mailed to the obligor under <cite path="|07|07|19|.05">Regulation .05 of this chapter</cite>.</text>
+    </para>
+  </section>
+  <section cache:ref-path="07|07|19|.10">
+    <prefix>Regulation</prefix>
+    <num>.10</num>
+    <heading>Grounds for Contest.</heading>
+    <para>
+      <num>A.</num>
+      <text>The grounds for contest shall be limited to the accuracy of the earnings withholding notice. The obligor may contest:</text>
+      <para>
+        <num>(1)</num>
+        <text>The existence of an arrearage;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The amount of the withholding or the amount of any arrearage;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The identity of the obligor; or</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>That the amount specified in the earnings withholding notice exceeds the maximum amount permitted under §303(b) of the federal Consumer Credit Act, 15 U.S.C. §1673(b).</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>In addition to the grounds specified in <cite path="07|07|19|.10|A.">§A of this regulation</cite>, the obligor may seek a reduction in the amount of withholding set by the Administration under <cite path="|07|07|19|.04|B.|(3)">Regulation .04B(3) of this chapter</cite> to pay arrearages accumulated after the issuance of the most recent support order. The request shall be based upon proof that the obligor is incurring and meeting extraordinary expenses on behalf of the child in addition to any court ordered payments.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>If the evidence submitted under <cite path="07|07|19|.10|B.">§B of this regulation</cite> warrants, the Administration may reduce the amount due accordingly. In any case, the amount due to pay arrearage accumulated after the issuance of the most recent court order shall be at least $1 but not more than 25 percent of the current monthly support obligation specified in the most recent support order.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>When deciding a request for reduction brought under <cite path="07|07|19|.10|B.">§B of this regulation</cite>, the Administration shall make a specific written finding on the record. The written finding shall include a statement of the:</text>
+      <para>
+        <num>(1)</num>
+        <text>Total amount of postorder arrears due;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Amount of postorder arrears which would have been due on a monthly basis if the rule stated in <cite path="|07|07|19|.04|C.">Regulation .04C of this chapter</cite> had been invoked;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Amount of postorder arrears which the Administration decides shall be due on a monthly basis; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Facts upon which the Administration relied in reaching its decision.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.11</num>
+    <heading>Procedures for Administrative Contest; Investigation.</heading>
+    <para>
+      <num>A.</num>
+      <text>An obligor may contest the accuracy of the information provided in the earnings withholding notice by requesting an investigation.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A request for an investigation is effective only if it is:</text>
+      <para>
+        <num>(1)</num>
+        <text>In writing;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Signed by the obligor;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Accompanied by a copy of the earnings withholding notice;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Sent to the Administration at the address provided in the earnings withholding notice; and</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Received by the Administration not later than 30 days after a copy of the earnings withholding notice was mailed to the obligor.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The only issues that may be contested in an investigation are those in <cite path="|07|07|19|.10">Regulation .10 of this chapter</cite>.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Upon receiving a request for an investigation, the Administration shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Conduct and complete an investigation within 15 days of the date of receiving the obligor's request for an investigation;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Upon completion of the investigation, promptly notify the obligor in writing of the result of the investigation; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Advise the obligor of the right to appeal the Administration's decision to the Office of Administrative Hearings.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.12</num>
+    <heading>Appeal of Investigation Results to the Office of Administrative Hearings (OAH).</heading>
+    <para>
+      <num>A.</num>
+      <text>The obligor may appeal the results of the Administration's investigation to OAH.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The only issues that may be appealed to OAH are those in <cite path="|07|07|19|.10">Regulation .10 of this chapter</cite>.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The appeal to OAH shall be effective only if it is:</text>
+      <para>
+        <num>(1)</num>
+        <text>Submitted in writing on a form provided by the Administration;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Signed by the obligor;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Accompanied by:</text>
+        <para>
+          <num>(a)</num>
+          <text>A copy of the results of the Administration's investigation;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A copy of the earnings withholding notice; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Payment of any fee required by OAH; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Received by OAH within 30 days of the date the results of the investigation were mailed to the obligor.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>OAH shall conduct a hearing and inform the obligor and the Administration of the results of the appeal in accordance with <cite path="|07.01.04">COMAR 07.01.04</cite>.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>The decision rendered by OAH shall be the final decision of the Administration.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>The obligor or the Administration may seek a judicial review of a final decision.</text>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Family Law Article, §§<cite doc="Md. Code" path="gfl|10-114">10-114</cite>, <cite doc="Md. Code" path="gfl|10-120">10-120</cite>—<cite doc="Md. Code" path="gfl|10-138">10-138</cite>, and <cite doc="Md. Code" path="gfl|12-105">12-105</cite>, Annotated Code of Maryland<br/>Agency Note: Federal Regulatory Reference—45 CFR §§302-35 and 303.100</annotation>
+    <annotation type="History" dest="container" effective="2003-03-17">Effective date: March 17, 2003 (30:5 Md. R. 366)</annotation>
+    <annotation type="History" dest="container" effective="2012-12-24"><cite path="|07|07|19|.02|B.">Regulation .02B</cite> amended effective December 24, 2012 (39:25 Md. R. 1611)</annotation>
+    <annotation type="History" dest="container" effective="2004-10-11"><cite path="|07|07|19|.05|B.">Regulation .05B</cite> amended effective October 11, 2004 (31:20 Md. R. 1484)</annotation>
+    <annotation type="History" dest="container" effective="2004-10-11"><cite path="|07|07|19|.11|B.">Regulation .11B</cite> amended effective October 11, 2004 (31:20 Md. R. 1484)</annotation>
+  </annotations>
+</container>

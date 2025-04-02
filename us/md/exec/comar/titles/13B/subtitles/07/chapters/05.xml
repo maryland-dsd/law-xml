@@ -1,0 +1,593 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>05</num>
+  <heading>Space Allocation Guidelines</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>General Principles.</heading>
+    <para>
+      <num>A.</num>
+      <text>This chapter provides guidelines for determining space needs that are eligible for capital funding by the State. The space allocation guidelines delineated in this chapter are to be used to compute suggested maximum allowances for a campus for each type of space in the National Higher Education General Information Survey (HEGIS) Space Classification System. These guidelines may not be used to design a specific space or facility. Any space architecturally designed, however, shall fall within the computed needs developed in <cite path="|13B|07|05|.03">Regulation .03 of this chapter</cite>.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>These regulations are not fixed standards and may be subject to modifications when justified as reflected in the Maryland Higher Education Commission's Community College Facilities Manual. The regulations shall be used by the Department of Budget and Management, the Department of General Services, the Maryland Higher Education Commission, and the Board of Public Works in evaluating both long-range planning and individual construction projects.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Normally, projects shall be planned using a 10-year enrollment projection certified by the Secretary of Higher Education.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>On-campus full-time day (8 a.m. to 5 p.m.) students and part-time day students shall be equated to full-time day equivalent (FTDE) students. This count, used in conjunction with space factors, shall be the major basis for determining space needs. Only students attending the campus for which space needs are being computed shall be counted.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>The FTDE count for each college shall be certified by the Secretary.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>On-campus daytime weekly student contact hours (WSCH) shall be used to compute classroom and laboratory space needs. The WSCH shall be certified by the Secretary of Higher Education.</text>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Eligible noncredit contact hours may be included in computing space, and only on-campus hours shall be included. When reporting eligible noncredit contact hours, MHEC Form CC-S6 shall be used.</text>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>Enrollment projections to be used by a college in applying these regulations should be consistent with the approved role and mission statement for that college. The enrollment projection should be that which is contained in the facilities master plan most recently endorsed by the Commission.</text>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>Office space is based on the count of full-time equivalent faculty, full-time administrators, full-time librarians, full-time staff, and student officers as certified to by the Secretary.</text>
+    </para>
+    <para>
+      <num>J.</num>
+      <text>The space inventory to be used by a college in applying these regulations to determine eligibility for State funding is the total amount of on-campus space minus space contained in temporary structures. Temporary structures are those with an anticipated useful life of less than 15 years or those that were not intended to occupy space on campus for more than 15 years from original construction.</text>
+    </para>
+    <para>
+      <num>K.</num>
+      <text>The space inventory is recorded in terms of net assignable square feet (NASF). The space allowances computed under these guidelines are also recorded as NASF.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Capital Guidelines.</heading>
+    <text>Space allocation guidelines for college campuses are as follows:</text>
+    <text>
+      <table class="layout-table">
+        <tbody>
+          <tr>
+            <td colspan="2" data-vertical-align="middle">Room Use Category</td>
+            <td colspan="3" data-vertical-align="middle">Space Factor by Size of FTDE</td>
+          </tr>
+          <tr>
+            <td>HEGIS Code</td>
+            <td>Space</td>
+            <td>Base</td>
+            <td>3000 &amp; Under</td>
+            <td>3001 &amp; Up</td>
+          </tr>
+          <tr>
+            <td>100</td>
+            <td>Classroom Facilities</td>
+            <td>WSCH1</td>
+            <td>1.50</td>
+            <td>1.11</td>
+          </tr>
+          <tr>
+            <td>110</td>
+            <td>Classroom</td>
+            <td proof="needed" data-vertical-align="middle"/>
+            <td proof="needed" data-vertical-align="middle"/>
+            <td proof="needed" data-vertical-align="middle"/>
+          </tr>
+          <tr>
+            <td>200</td>
+            <td>Laboratory Facilities</td>
+            <td>WSCH2</td>
+            <td>7.00</td>
+            <td>5.83</td>
+          </tr>
+          <tr>
+            <td>210</td>
+            <td>Class Laboratory</td>
+            <td proof="needed" data-vertical-align="middle"/>
+            <td proof="needed" data-vertical-align="middle"/>
+            <td proof="needed" data-vertical-align="middle"/>
+          </tr>
+          <tr>
+            <td>220</td>
+            <td>Open Laboratory</td>
+            <td>FTDE</td>
+            <td>4.20</td>
+            <td>4.20</td>
+          </tr>
+          <tr>
+            <td>300</td>
+            <td>Office</td>
+            <td>FTEF3</td>
+            <td>166.00</td>
+            <td>166.00</td>
+          </tr>
+          <tr>
+            <td proof="needed"/>
+            <td proof="needed"/>
+            <td>FT Staff</td>
+            <td proof="needed" data-vertical-align="middle"/>
+            <td proof="needed" data-vertical-align="middle"/>
+          </tr>
+          <tr>
+            <td proof="needed"/>
+            <td proof="needed"/>
+            <td>Student Offices4</td>
+            <td proof="needed" data-vertical-align="middle"/>
+            <td proof="needed" data-vertical-align="middle"/>
+          </tr>
+          <tr>
+            <td>320</td>
+            <td>Testing &amp; Tutoring Centers</td>
+            <td>FTDE5</td>
+            <td colspan="2" data-vertical-align="middle">Core of 1,500 NASF and 0.5 NASF/FTDE in excess of 1,500 FTDE.</td>
+          </tr>
+          <tr>
+            <td>400</td>
+            <td>Library</td>
+            <td proof="needed" data-vertical-align="middle"/>
+            <td proof="needed" data-vertical-align="middle"/>
+            <td proof="needed" data-vertical-align="middle"/>
+          </tr>
+          <tr>
+            <td>410</td>
+            <td>Study/Seating</td>
+            <td>FTDE</td>
+            <td>6.25</td>
+            <td>6.25</td>
+          </tr>
+          <tr>
+            <td>420</td>
+            <td>Stack</td>
+            <td>BVE6</td>
+            <td>.10-</td>
+            <td>.10+</td>
+          </tr>
+          <tr>
+            <td>400—455</td>
+            <td>Processing</td>
+            <td>Percent of 420 with minimum of 1,200 NASF7</td>
+            <td>.40</td>
+            <td>.40</td>
+          </tr>
+          <tr>
+            <td>500</td>
+            <td>Special Use</td>
+            <td proof="needed" data-vertical-align="middle"/>
+            <td proof="needed" data-vertical-align="middle"/>
+            <td proof="needed" data-vertical-align="middle"/>
+          </tr>
+          <tr>
+            <td>520</td>
+            <td>Physical Education—Pool, Gym, and Fitness/Wellness Center</td>
+            <td>FTDE8</td>
+            <td colspan="2" data-vertical-align="middle">Core of 28,000 NASF (consisting of 14,000 for a gym, 8,000 for a pool, and 6,000 for a fitness center) and 10 NASF/FTDE in excess of 1,500 FTDE and 6,000 NASF of service space (consisting of 3,500 for lockers and 2,500 for storage).</td>
+          </tr>
+          <tr>
+            <td>530</td>
+            <td>Audiovisual, Radio, TV</td>
+            <td>FTDE</td>
+            <td colspan="2" data-vertical-align="middle">Core of 1,600 NASF and 0.8 NASF/FTDE in excess of 1,500 FTDE up to 3,000 FTDE and 2 NASF/FTDE in excess of 3,000 FTDE.</td>
+          </tr>
+          <tr>
+            <td>580</td>
+            <td>Greenhouse</td>
+            <td>Campus</td>
+            <td>Core of 1,000 NASF</td>
+            <td proof="needed" data-vertical-align="middle"/>
+          </tr>
+          <tr>
+            <td>600</td>
+            <td>General Use</td>
+            <td proof="needed" data-vertical-align="middle"/>
+            <td proof="needed" data-vertical-align="middle"/>
+            <td proof="needed" data-vertical-align="middle"/>
+          </tr>
+          <tr>
+            <td>610</td>
+            <td>Assembly</td>
+            <td>FTDE</td>
+            <td colspan="2" data-vertical-align="middle">Core of 12,000 NASF and 2 NASF/FTDE in excess of 1,500 FTDE.</td>
+          </tr>
+          <tr>
+            <td>620</td>
+            <td>Exhibition</td>
+            <td>FTDE</td>
+            <td colspan="2" data-vertical-align="middle">Core of 1,500 NASF and 0.5 NASF/FTDE in excess of 1,500 FTDE.</td>
+          </tr>
+          <tr>
+            <td>630</td>
+            <td>Food Facilities</td>
+            <td>PHC9</td>
+            <td>10.2</td>
+            <td>8.4</td>
+          </tr>
+          <tr>
+            <td>650</td>
+            <td>Lounge Facilities</td>
+            <td>PHC10</td>
+            <td>3.0</td>
+            <td>3.0</td>
+          </tr>
+          <tr>
+            <td>660</td>
+            <td>Merchandising</td>
+            <td>FTDE</td>
+            <td colspan="2" data-vertical-align="middle">Core of 1,600 NASF and 0.5 NASF/FTDE in excess of 1,500 FTDE.</td>
+          </tr>
+          <tr>
+            <td>680</td>
+            <td>Meeting Space</td>
+            <td>FTDE</td>
+            <td>Core of 6,000 NASF</td>
+            <td>Core of 8,000 NASF</td>
+          </tr>
+          <tr>
+            <td>700</td>
+            <td>Support</td>
+            <td proof="needed" data-vertical-align="middle"/>
+            <td proof="needed" data-vertical-align="middle"/>
+            <td proof="needed" data-vertical-align="middle"/>
+          </tr>
+          <tr>
+            <td>710</td>
+            <td>Data Processing, Telecomm</td>
+            <td>FTDE11</td>
+            <td colspan="2" data-vertical-align="middle">Core of 2,500 NASF for the first 4,000 FTDE and 0.75 NASF/FTDE beyond 4,000 FTDE.</td>
+          </tr>
+          <tr>
+            <td>720—745</td>
+            <td>Shops, Storage, Vehicle Storage, and Repair</td>
+            <td>Total Campus Allowance minus this category12</td>
+            <td>0.04</td>
+            <td>0.04</td>
+          </tr>
+          <tr>
+            <td>750</td>
+            <td>Central Service</td>
+            <td>FTDE</td>
+            <td colspan="2" data-vertical-align="middle">Core of 4,000 NASF for the first 4,000 FTDE and 1 NASF/FTDE beyond 4,000 FTDE.</td>
+          </tr>
+          <tr>
+            <td>760</td>
+            <td>Hazardous Materials</td>
+            <td>Total Storage</td>
+            <td colspan="2" data-vertical-align="middle">2% of existing inventory in Room Use Categories 720—745.</td>
+          </tr>
+          <tr>
+            <td>800</td>
+            <td>Health Care</td>
+            <td>FTDE</td>
+            <td colspan="2" data-vertical-align="middle">Core of 500 NASF and 0.2 NASF/FTDE in excess of 1,500 FTDE.</td>
+          </tr>
+        </tbody>
+      </table>
+    </text>
+    <text><sup>1</sup>WSCH-Lecture. Weekly student contact hours for on-campus day students in credit courses and eligible noncredit courses where instruction is lecture.</text>
+    <text><sup>2</sup>WSHC-Lab. Weekly student contact hours for on-campus day students in credit courses and eligible noncredit courses where instruction is lab.</text>
+    <text><sup>3</sup>FTEF—Full-time equivalent faculty, including librarians, plus 25% of all part-time faculty.</text>
+    <text><sup>4</sup>1,120 square feet maximum for student offices.</text>
+    <text><sup>5</sup>FTDE—Full-time day equivalent is total credit hours taught on campus between 8 a.m. and 5 p.m. divided by 15 credit hours.</text>
+    <text><sup>6</sup>BVE—Bound volume equivalent which is 20,000 BVE for the first 1,000 FTE and 1,000 BVE for every 100 FTE above 1,000.</text>
+    <text><sup>7</sup>A minimum allowance is needed for cataloging, binding, and maintenance regardless of collection size.</text>
+    <text><sup>8</sup>Minimum size of gym is 14,000 NASF for activity space, 8,000 NASF for pool, 6,000 NASF for fitness space, 3,500 NASF for lockers, and 2,500 NASF for storage.</text>
+    <text><sup>9</sup>PHC—Planning headcount is 50% of FTDE for on-campus credit and eligible noncredit courses plus FTEF and FT Staff and includes space for seating, preparation, and storage.</text>
+    <text><sup>10</sup>Allowance includes quiet, study, and building lounges.</text>
+    <text><sup>11</sup>FTDE for on-campus credit courses and eligible noncredit courses.</text>
+    <text><sup>12</sup>Allowance related to required service space on campus total square footage.</text>
+    <text><sup>13</sup>Computed need in any larger institutional size category may not be less than the maximum amount for any smaller institutional size category.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Capital Guidelines Factor Development.</heading>
+    <para>
+      <num>A.</num>
+      <text>The elements for computing the space factor used for determining space needs for classrooms and laboratories are the net assignable square feet per student station (NASF/SS), the number of hours in a 45-hour week the space shall be used (hours/week), and the percent of student occupancy of the room when space is in use. These elements are expressed in the formula:</text>
+      <text>Space Factor = NASF/SS divided by (hours/week X percent of occupancy)</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>100—Classroom.</text>
+      <para>
+        <num>(1)</num>
+        <text>For the smaller colleges, the guideline was computed on the basis of the following formula:</text>
+        <para>
+          <num>(a)</num>
+          <text>Assume 18 NASF—average station size;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Assume 20 hours per week—target room utilization rate;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Assume 60 percent—expected seat occupancy rate;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>18 divided by (20 X 0.60) yields 1.5.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>For the large colleges, the following formula was used:</text>
+        <para>
+          <num>(a)</num>
+          <text>Assume 20 NASF—average station size;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Assume 27 hours per week—target room utilization rate;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Assume 66.7 percent—expected seat occupancy rate; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>20 divided by (27 X .667) yields 1.11.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>200—Laboratory.</text>
+      <para>
+        <num>(1)</num>
+        <text>For the smaller colleges, the guideline was computed on the basis of the following formula:</text>
+        <para>
+          <num>(a)</num>
+          <text>Assume 50 NASF—average station size for natural and social science labs;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Assume 115 NASF—average station size for technical and career labs;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Assume 80 percent of lab contact hours are generated in natural and social sciences labs, and 20 percent in technical and career labs;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Assume 15 hours per week—target room utilization rate;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Assume 60 percent—expected seat occupancy rate;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>For natural and social sciences labs, 50 times 0.80 divided by (15 X 0.60) yields 4.45;</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>For technical and career labs, 115 times 0.20 divided by (15 X 0.60) yields 2.55; and</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>The sum of 4.45 and 2.55 is 7.0.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>For the larger colleges, the guideline was computed in the same manner except that the target room utilization rate was raised to 18 hours per week.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>300—Office.</text>
+      <para>
+        <num>(1)</num>
+        <text>The allowance of 166.0 NASF per individual requiring office space is adopted to cover all space required for faculty offices, administrative offices, clerical offices, student offices (1,120 square feet maximum), library offices, file rooms, mimeograph rooms, vaults, conference room, waiting rooms, interview rooms, closets, private toilets, record rooms, and office supply rooms. Centralized duplicating or print shops are not included.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>320—A core space of 1,500 NASF and .05 NASF/FTDE in excess of 1,500 FTDE.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>400—Study.</text>
+      <para>
+        <num>(1)</num>
+        <text>This category includes library and learning resource centers. Seating station size is 25 NASH which, when multiplied by seating for 25 percent of the FTDE, produces a seating factor of 6.25 (25 X 0.25).</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The size of the stack space is determined by allowing 0.1 NASF per bound volume equivalent (BVE) with a library of 20,000 BVE recommended for the first 1,000 FTE and 1,000 BVE per 100 FTE after that, although no ceiling on volume count is mandatory.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The processing and service spaces are determined as a group by taking 40 percent of the stack space. A minimum of 1,200 NASF is needed for service regardless of collection size.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The total space for the library is found by adding the space computed for seating, stack, and service.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>500—Special Use.</text>
+      <para>
+        <num>(1)</num>
+        <text>520—Physical Education. A core of 28,000 NASF (consisting of 14,000 for a gym, 8,000 for a pool, and 6,000 for a fitness center) and 10 NASF/FTDE in excess of 1,500 FTDE and 6,000 NASF of service space (consisting of 3,500 for lockers and 2,500 for storage).</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>530—Audiovisual, Radio, TV. A core allowance of 1,600 NASF assumes that each campus will have space for audio/TV electronic distribution equipment racks and panels (600 NASF), equipment and materials storage and circulation area (600 NASF), and a maintenance workshop and technician area (400 NASF). The additional 0.8 NASF/FTDE in excess of 1,500 recognizes that larger campuses may require more space for specialized productions.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>580—Greenhouse. Assumes that greenhouses supporting the instructional program in biology require a minimum amount of space regardless of the size of the college.</text>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>600—General Use.</text>
+      <para>
+        <num>(1)</num>
+        <text>610—Assembly. A core of 12,000 NASF and 2 NASF/FTDE in excess of 1,500 FTDE.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>620—Exhibition. A core space of 1,200 NASF is provided for the first 1,500 FTDE. Regardless of campus size, a minimum amount of space is provided for exhibition of materials, works or art, artifacts, etc. Additional space is provided for campuses larger than 1,500 FTDE in recognition of specialized program offerings and increased demand.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>630—Food Facilities. This factor is based upon the potential number of users to be served, type of service to be used, number of turnovers, preparation methods, commuter implications, and storage. Space is to be provided for 50 percent of the FTDE students, FTE faculty, and FT staff. Allowance is for 15 NASF per seat for dining, 3 NASF per seat for serving, a turnover of 3:1 per meal, 70 percent of dining and serving allowance for campuses 3,000 FTDE and under, and 40 percent of dining and serving allowance for campuses 3,001 FTDE and over.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>650—Lounge Facilities. This factor is based upon the potential numbers of users. Included are primary areas in any student center (game lounge, quiet lounge, study lounge as well as building lounges).</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>660—Merchandising. A core allowance is provided for basis space for storage display of textbooks and academic supplies and materials as well as sales space for a variety of student convenience and interest items. Space beyond 1,500 FTDE allows for increases in the size of student body growth. Storage and backspace requirements grow at a disproportionate rate because increases in the size of the college produce variety in program and instructional offerings that produce a variety in book titles required to support curricula.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>680—Meeting Space. A core of 6,000 NASF for FTDE of 3,000 or less and a core of 8,000 NASF for FTDE 3,001 and above.</text>
+      </para>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>700—Support.</text>
+      <para>
+        <num>(1)</num>
+        <text>710—Data Processing. Allows for average requirements for computer centers and necessary peripherals and processing space. Excluded from this space are instructional computing spaces which are within the HEGIS 200 category. Also, central control monitoring systems are excluded.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>720—745 Shops, Storage, Vehicle Storage and Repair. Assumption is that the amount of building space on campus and the number of vehicles to be stored/maintained has a direct relationship to the amount of required service space.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>760—Hazardous Materials. An allowance of 2 percent of the existing inventory in room use categories 720—745 is used to determine storage space requirement.</text>
+      </para>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>800—Health Facilities. The factor provides a minimum space allocation as well as the opportunity for expansion at larger colleges. Space for infirmaries and health clinics only for students is included in this factor.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Outdoor Facilities.</heading>
+    <para>
+      <num>A.</num>
+      <text>Regular Parking. The allowance is 300 square feet per car and the number of spaces is based upon the following:</text>
+      <para>
+        <num>(1)</num>
+        <text>75 percent—full-time faculty;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>75 percent—staff;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>75 percent—full-time day equivalent for on-campus credit and eligible noncredit courses; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>2 percent—visitors (2 percent of total authorized spaces).</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Handicapped Parking. The parking stall shall be 9 feet wide with a 4-foot wide pedestrian space between each other stall reserved for the handicapped. These spaces shall be in addition to those identified as regular parking. Total reserved spaces shall conform to the following:</text>
+      <text>
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <em>Total Parking Spaces on Lot</em>
+              </td>
+              <td>
+                <em>Required Minimum Number of<br/>Handicapped Accessible Spaces</em>
+              </td>
+            </tr>
+            <tr>
+              <td>Up to 25</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>26—50</td>
+              <td>2</td>
+            </tr>
+            <tr>
+              <td>51—75</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>76—100</td>
+              <td>4</td>
+            </tr>
+            <tr>
+              <td>101—150</td>
+              <td>5</td>
+            </tr>
+            <tr>
+              <td>151—200</td>
+              <td>6</td>
+            </tr>
+            <tr>
+              <td>201—300</td>
+              <td>7</td>
+            </tr>
+            <tr>
+              <td>301—400</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>401—500</td>
+              <td>9</td>
+            </tr>
+            <tr>
+              <td>501—1,000</td>
+              <td>2 percent of total</td>
+            </tr>
+            <tr>
+              <td>over 1,000</td>
+              <td>20 + 1 for each 100 over 1,000</td>
+            </tr>
+          </tbody>
+        </table>
+      </text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Outdoor Physical Education and Recreational Facilities. Outdoor physical education and recreational facilities shall be based upon 100 square feet per headcount day student and justified by program requirements with a minimum of the following, if justified:</text>
+      <para>
+        <num>(1)</num>
+        <text>Six tennis courts;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Two fields, with a total of 300,000 square feet, one of which may have a track consisting of six lanes with an eight-lane straight-away.</text>
+      </para>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Education Article, Title 11 and Title 16, Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="1998-01-26">Effective date: January 26, 1998 (25:2 Md. R. 77)</annotation>
+    <annotation type="History" dest="container" effective="2016-12-19"><cite path="|13B|07|05|.01">Regulation .01</cite> amended effective April 15, 2002 (29:7 Md. R. 621); December 19, 2016 (43:25 Md. R. 1385)</annotation>
+    <annotation type="History" dest="container" effective="2002-04-15"><cite path="|13B|07|05|.02">Regulation .02</cite> repealed and new Regulation .02 adopted effective April 15, 2002 (29:7 Md. R. 621)</annotation>
+    <annotation type="History" dest="container" effective="2016-12-19"><cite path="|13B|07|05|.02">Regulation .02</cite> amended effective December 19, 2016 (43:25 Md. R. 1385)</annotation>
+    <annotation type="History" dest="container" effective="2002-04-15"><cite path="|13B|07|05|.03">Regulation .03</cite> amended effective April 15, 2002 (29:7 Md. R. 621)</annotation>
+    <annotation type="History" dest="container" effective="2002-04-15"><cite path="|13B|07|05|.04">Regulation .04</cite> amended effective April 15, 2002 (29:7 Md. R. 621)</annotation>
+  </annotations>
+</container>
