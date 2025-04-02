@@ -116,19 +116,21 @@
     <heading>Seriousness Categories.</heading>
     <text>
       <table>
-        <tbody>
+        <thead>
           <tr>
-            <td proof="needed"/>
-            <td data-text-align="center" data-vertical-align="middle">Offense Literal</td>
-            <td data-text-align="center" data-vertical-align="middle">CJIS<br/>Code</td>
-            <td data-text-align="center" data-vertical-align="middle">Source</td>
-            <td data-text-align="center">Felony or <br/>Misd.</td>
-            <td data-text-align="center">Max <br/>Term</td>
-            <td data-text-align="center">Min <br/>Term</td>
-            <td data-text-align="center" data-vertical-align="middle">Offense Type</td>
-            <td data-text-align="center">Seriousness Category</td>
-            <td data-text-align="center" data-vertical-align="bottom">Fine</td>
+            <th proof="needed"/>
+            <th>Offense Literal</th>
+            <th>CJIS<br/>Code</th>
+            <th>Source</th>
+            <th>Felony or <br/>Misd.</th>
+            <th>Max <br/>Term</th>
+            <th>Min <br/>Term</th>
+            <th>Offense Type</th>
+            <th>Seriousness Category</th>
+            <th>Fine</th>
           </tr>
+        </thead>
+        <tbody>
           <tr>
             <td>1</td>
             <td><strong>Abuse and Other Offensive Conduct</strong><br/>Child Abuse—physical, 1<sup>st</sup> degree with death, victim at least 13 years old</td>

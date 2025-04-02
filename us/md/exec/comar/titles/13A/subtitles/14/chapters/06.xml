@@ -1167,12 +1167,14 @@
       <text>Income Eligibility Scale.</text>
       <text>
         <table>
-          <tbody>
+          <thead>
             <tr>
-              <td data-text-align="center" data-vertical-align="middle">Family Size</td>
-              <td data-text-align="center" data-vertical-align="middle">Gross Income</td>
-              <td data-vertical-align="middle">Copayment Level</td>
+              <th>Family Size</th>
+              <th>Gross Income</th>
+              <th>Copayment Level</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td data-vertical-align="middle">1</td>
               <td data-vertical-align="middle">$ 0—13,618</td>
@@ -2060,13 +2062,15 @@
         <text>A tiered reimbursement payment amount is determined by multiplying the child’s subsidy amount by the applicable percentage specified for the provider’s Maryland EXCELS level:</text>
         <text>
           <table>
-            <tbody>
+            <thead>
               <tr>
-                <td proof="needed" data-vertical-align="middle"/>
-                <td data-vertical-align="middle">EXCELS Level 3</td>
-                <td data-vertical-align="middle">EXCELS Level 4</td>
-                <td data-vertical-align="middle">EXCELS Level 5</td>
+                <th proof="needed" data-vertical-align="middle"/>
+                <th>EXCELS Level 3</th>
+                <th>EXCELS Level 4</th>
+                <th>EXCELS Level 5</th>
               </tr>
+            </thead>
+            <tbody>
               <tr>
                 <td data-vertical-align="middle">Family Child Care Home</td>
                 <td proof="needed" data-vertical-align="middle"/>
@@ -3569,17 +3573,19 @@
           <text>Copayments Amounts for First (Youngest) Child in Care.</text>
           <text>
             <table>
-              <tbody>
+              <thead>
                 <tr>
-                  <td>Copayment Level</td>
-                  <td>Region U</td>
-                  <td>Region V</td>
-                  <td>Region W</td>
-                  <td>Region X</td>
-                  <td>Region Y</td>
-                  <td>Region Z</td>
-                  <td>Region BC</td>
+                  <th>Copayment Level</th>
+                  <th>Region U</th>
+                  <th>Region V</th>
+                  <th>Region W</th>
+                  <th>Region X</th>
+                  <th>Region Y</th>
+                  <th>Region Z</th>
+                  <th>Region BC</th>
                 </tr>
+              </thead>
+              <tbody>
                 <tr>
                   <td>A</td>
                   <td>$4.56</td>
@@ -3689,17 +3695,19 @@
           <text>Copayments Amounts for Second and Third Children in Care.</text>
           <text>
             <table>
-              <tbody>
+              <thead>
                 <tr>
-                  <td>Copayment Level</td>
-                  <td>Region U</td>
-                  <td>Region V</td>
-                  <td>Region W</td>
-                  <td>Region X</td>
-                  <td>Region Y</td>
-                  <td>Region Z</td>
-                  <td>Region BC</td>
+                  <th>Copayment Level</th>
+                  <th>Region U</th>
+                  <th>Region V</th>
+                  <th>Region W</th>
+                  <th>Region X</th>
+                  <th>Region Y</th>
+                  <th>Region Z</th>
+                  <th>Region BC</th>
                 </tr>
+              </thead>
+              <tbody>
                 <tr>
                   <td>A</td>
                   <td>$2.74</td>
@@ -3825,17 +3833,19 @@
           <text>Copayments Amounts for First (Youngest) Child in Care.</text>
           <text>
             <table>
-              <tbody>
+              <thead>
                 <tr>
-                  <td>Copayment Level</td>
-                  <td>Region U</td>
-                  <td>Region V</td>
-                  <td>Region W</td>
-                  <td>Region X</td>
-                  <td>Region Y</td>
-                  <td>Region Z</td>
-                  <td>Region BC</td>
+                  <th>Copayment Level</th>
+                  <th>Region U</th>
+                  <th>Region V</th>
+                  <th>Region W</th>
+                  <th>Region X</th>
+                  <th>Region Y</th>
+                  <th>Region Z</th>
+                  <th>Region BC</th>
                 </tr>
+              </thead>
+              <tbody>
                 <tr>
                   <td>A</td>
                   <td>$5.82</td>
@@ -3945,17 +3955,19 @@
           <text>Copayments Amounts for Second and Third Children in Care.</text>
           <text>
             <table>
-              <tbody>
+              <thead>
                 <tr>
-                  <td>Copayment Level</td>
-                  <td>Region U</td>
-                  <td>Region V</td>
-                  <td>Region W</td>
-                  <td>Region X</td>
-                  <td>Region Y</td>
-                  <td>Region Z</td>
-                  <td>Region BC</td>
+                  <th>Copayment Level</th>
+                  <th>Region U</th>
+                  <th>Region V</th>
+                  <th>Region W</th>
+                  <th>Region X</th>
+                  <th>Region Y</th>
+                  <th>Region Z</th>
+                  <th>Region BC</th>
                 </tr>
+              </thead>
+              <tbody>
                 <tr>
                   <td>A</td>
                   <td>$3.49</td>
@@ -4082,11 +4094,13 @@
         <text>Copayments Amounts for First (Youngest) Child in Care.</text>
         <text>
           <table>
-            <tbody>
+            <thead>
               <tr>
-                <td>Copayment Level</td>
-                <td>Copayment Percentage</td>
+                <th>Copayment Level</th>
+                <th>Copayment Percentage</th>
               </tr>
+            </thead>
+            <tbody>
               <tr>
                 <td>A</td>
                 <td>5%</td>
@@ -4136,11 +4150,13 @@
         <text>Copayments Amounts for Second and Third Children in Care.</text>
         <text>
           <table>
-            <tbody>
+            <thead>
               <tr>
-                <td>Copayment Level</td>
-                <td>Copayment Percentage</td>
+                <th>Copayment Level</th>
+                <th>Copayment Percentage</th>
               </tr>
+            </thead>
+            <tbody>
               <tr>
                 <td>A</td>
                 <td>3%</td>

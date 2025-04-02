@@ -282,7 +282,7 @@
       </para>
       <para>
         <num>(41)</num>
-        <text>"Lot coverage" means that percentage of the plot area covered by the total of all building areas.</text>
+        <text>Lot coverage" means that percentage of the plot area covered by the total of all building areas.</text>
       </para>
       <para>
         <num>(42)</num>
@@ -781,20 +781,22 @@
         <text>TABLE .05-1</text>
         <text>
           <table>
+            <thead>
+              <tr>
+                <th colspan="5">Room Sizes</th>
+              </tr>
+              <tr>
+                <th colspan="5">Minimum Area (Square Feet)(2)</th>
+              </tr>
+              <tr>
+                <th>Name of <br/>Space (1)</th>
+                <th>0 <br/>BR LU</th>
+                <th>1 and 2 <br/>BR LU</th>
+                <th>3 or more <br/>BR LU</th>
+                <th>Least<br/>Dimension (2)</th>
+              </tr>
+            </thead>
             <tbody>
-              <tr>
-                <td colspan="5" data-text-align="center" data-vertical-align="middle">Room Sizes</td>
-              </tr>
-              <tr>
-                <td colspan="5" data-text-align="center" data-vertical-align="middle">Minimum Area (Square Feet)(2)</td>
-              </tr>
-              <tr>
-                <td data-vertical-align="middle">Name of <br/>Space (1)</td>
-                <td data-text-align="center" data-vertical-align="middle">0 <br/>BR LU</td>
-                <td data-text-align="center" data-vertical-align="middle">1 and 2 <br/>BR LU</td>
-                <td data-text-align="center" data-vertical-align="middle">3 or more <br/>BR LU</td>
-                <td data-text-align="center" data-vertical-align="middle">Least<br/>Dimension (2)</td>
-              </tr>
               <tr>
                 <td data-vertical-align="middle">LR</td>
                 <td data-text-align="center" data-vertical-align="middle">NA</td>
@@ -1009,15 +1011,17 @@
       <text>Fire Protection System. An approved "smoke detector" shall be provided in each sleeping area of a rehabilitated unit as defined in Chapter 11 of the National Fire Protection Association Life Safety Code (1973 edition).</text>
       <text>
         <table class="no-border-heading">
+          <thead>
+            <tr>
+              <th colspan="3">TABLE .06-1<br/>Flame Spread Classification of Interior Finish</th>
+            </tr>
+            <tr>
+              <th>Location (1)(2)</th>
+              <th>Class(5)</th>
+              <th>Flame Spread Rating<br/>Maximum Range</th>
+            </tr>
+          </thead>
           <tbody>
-            <tr>
-              <td colspan="3" data-text-align="center" data-vertical-align="middle">TABLE .06-1<br/>Flame Spread Classification of Interior Finish</td>
-            </tr>
-            <tr>
-              <td data-vertical-align="middle">Location (1)(2)</td>
-              <td data-vertical-align="middle">Class(5)</td>
-              <td data-text-align="center" data-vertical-align="middle">Flame Spread Rating<br/>Maximum Range</td>
-            </tr>
             <tr>
               <td data-vertical-align="middle">Exits and exit access (halls, corridors, entries)</td>
               <td data-text-align="center" data-vertical-align="middle">A or B</td>
@@ -1114,15 +1118,15 @@
         <text>Ceiling insulation shall be provided over all heated areas in locations having 2500 or more annual winter degree days as follows:</text>
         <para>
           <num>(a)</num>
-          <text>2500 to 4500 degree days -- R-11 insulation;</text>
+          <text>2500 to 4500 degree days —R-11 insulation;</text>
         </para>
         <para>
           <num>(b)</num>
-          <text>4501 to 8000 degree days -- R-19 insulation;</text>
+          <text>4501 to 8000 degree days —R-19 insulation;</text>
         </para>
         <para>
           <num>(c)</num>
-          <text>8001 or more degree days -- R-22 insulation.</text>
+          <text>8001 or more degree days —R-22 insulation.</text>
         </para>
       </para>
       <para>
@@ -1410,10 +1414,12 @@
         <text>Recommended Size Pipe for Replacements and New Plumbing Work</text>
         <text>
           <table>
-            <tbody>
+            <thead>
               <tr>
-                <td colspan="7" data-text-align="center" data-vertical-align="middle">Minimum Size of Individual Pipe Fixtures</td>
+                <th colspan="7">Minimum Size of Individual Pipe Fixtures</th>
               </tr>
+            </thead>
+            <tbody>
               <tr>
                 <td proof="needed" data-vertical-align="middle"/>
                 <th colspan="2">Branch</th>
@@ -1497,20 +1503,22 @@
         <text>Table .10-2</text>
         <text>
           <table>
+            <thead>
+              <tr>
+                <th proof="needed" data-text-align="center" data-vertical-align="middle"/>
+                <th colspan="6">Storage Capacity per Living Unit</th>
+              </tr>
+              <tr>
+                <th>Living Units</th>
+                <th>0 Gal.</th>
+                <th>5 Gal.</th>
+                <th>10 Gal.</th>
+                <th>15 Gal.</th>
+                <th>20 Gal.</th>
+                <th>25 Gal.</th>
+              </tr>
+            </thead>
             <tbody>
-              <tr>
-                <td proof="needed" data-text-align="center" data-vertical-align="middle"/>
-                <td colspan="6" data-text-align="center" data-vertical-align="middle">Storage Capacity per Living Unit</td>
-              </tr>
-              <tr>
-                <td data-text-align="center" data-vertical-align="middle">Living Units</td>
-                <td data-text-align="center" data-vertical-align="middle">0 Gal.</td>
-                <td data-text-align="center" data-vertical-align="middle">5 Gal.</td>
-                <td data-text-align="center" data-vertical-align="middle">10 Gal.</td>
-                <td data-text-align="center" data-vertical-align="middle">15 Gal.</td>
-                <td data-text-align="center" data-vertical-align="middle">20 Gal.</td>
-                <td data-text-align="center" data-vertical-align="middle">25 Gal.</td>
-              </tr>
               <tr>
                 <td data-text-align="center" data-vertical-align="middle">3</td>
                 <td data-text-align="center" data-vertical-align="middle">-</td>

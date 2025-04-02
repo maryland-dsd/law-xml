@@ -1194,20 +1194,20 @@
                   <tr>
                     <th colspan="7">CRITERIA FOR PRIOR ADULT CRIMINAL RECORD</th>
                   </tr>
+                  <tr>
+                    <th rowspan="2">Seriousness Category</th>
+                    <th colspan="6">NUMBER OF ADJUDICATIONS</th>
+                  </tr>
+                  <tr>
+                    <th>1</th>
+                    <th>2</th>
+                    <th>3</th>
+                    <th>4</th>
+                    <th>5-9</th>
+                    <th>10 or More</th>
+                  </tr>
                 </thead>
                 <tbody>
-                  <tr>
-                    <td rowspan="2" data-text-align="center" data-vertical-align="middle">Seriousness Category</td>
-                    <td colspan="6" data-text-align="center" data-vertical-align="middle">NUMBER OF ADJUDICATIONS</td>
-                  </tr>
-                  <tr>
-                    <td data-text-align="center" data-vertical-align="middle">1</td>
-                    <td data-text-align="center" data-vertical-align="middle">2</td>
-                    <td data-text-align="center" data-vertical-align="middle">3</td>
-                    <td data-vertical-align="middle">4</td>
-                    <td data-text-align="center" data-vertical-align="middle">5-9</td>
-                    <td data-text-align="center" data-vertical-align="middle">10 or More</td>
-                  </tr>
                   <tr>
                     <td data-text-align="center" data-vertical-align="middle">I</td>
                     <td data-text-align="center" data-vertical-align="middle">Major</td>
@@ -1359,22 +1359,24 @@
         <text>Sentencing Matrix for Offenses Against Persons.</text>
         <text>
           <table>
-            <tbody>
+            <thead>
               <tr>
-                <td proof="needed" data-vertical-align="middle"/>
+                <th proof="needed" data-vertical-align="middle"/>
                 <th colspan="8">SENTENCING MATRIX FOR OFFENSES AGAINST PERSONS<br/>OFFENDER SCORE</th>
               </tr>
               <tr>
-                <td data-text-align="center" data-vertical-align="middle">OFFENSE<br/>SCORE</td>
-                <td data-text-align="center">0</td>
-                <td data-text-align="center">1</td>
-                <td data-text-align="center">2</td>
-                <td data-text-align="center">3</td>
-                <td data-text-align="center">4</td>
-                <td data-text-align="center">5</td>
-                <td data-text-align="center">6</td>
-                <td data-text-align="center">7+</td>
+                <th>OFFENSE<br/>SCORE</th>
+                <th>0</th>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+                <th>6</th>
+                <th>7+</th>
               </tr>
+            </thead>
+            <tbody>
               <tr>
                 <td data-text-align="center" data-vertical-align="middle">1</td>
                 <td data-text-align="center">P</td>
@@ -1558,22 +1560,24 @@
         <text>Sentencing Matrix for Drug Offenses.</text>
         <text>
           <table>
-            <tbody>
+            <thead>
               <tr>
-                <td proof="needed" data-text-align="center" data-vertical-align="middle"/>
+                <th proof="needed" data-text-align="center" data-vertical-align="middle"/>
                 <th colspan="8">SENTENCING MATRIX FOR DRUG OFFENSES<br/>OFFENDER SCORE</th>
               </tr>
               <tr>
-                <td data-text-align="center" data-vertical-align="middle">OFFENSE <br/>SERIOUSNESS <br/>CATEGORY</td>
-                <td data-text-align="center" data-vertical-align="middle">0</td>
-                <td data-text-align="center" data-vertical-align="middle">1</td>
-                <td data-text-align="center" data-vertical-align="middle">2</td>
-                <td data-text-align="center" data-vertical-align="middle">3</td>
-                <td data-text-align="center" data-vertical-align="middle">4</td>
-                <td data-text-align="center" data-vertical-align="middle">5</td>
-                <td data-text-align="center" data-vertical-align="middle">6</td>
-                <td data-text-align="center" data-vertical-align="middle">7+</td>
+                <th>OFFENSE <br/>SERIOUSNESS <br/>CATEGORY</th>
+                <th>0</th>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+                <th>6</th>
+                <th>7+</th>
               </tr>
+            </thead>
+            <tbody>
               <tr>
                 <td data-text-align="center" data-vertical-align="middle">VII</td>
                 <td data-vertical-align="middle">P</td>
@@ -1673,22 +1677,24 @@
         <text>Sentencing Matrix for Property Offenses.</text>
         <text>
           <table>
-            <tbody>
+            <thead>
               <tr>
-                <td proof="needed"/>
+                <th proof="needed"/>
                 <th colspan="8">SENTENCING MATRIX FOR PROPERTY OFFENSES<br/>OFFENDER SCORE</th>
               </tr>
               <tr>
-                <td>OFFENSE <br/>SERIOUSNESS <br/>CATEGORY</td>
-                <td data-text-align="center" data-vertical-align="middle">0</td>
-                <td data-text-align="center" data-vertical-align="middle">1</td>
-                <td data-text-align="center" data-vertical-align="middle">2</td>
-                <td data-text-align="center" data-vertical-align="middle">3</td>
-                <td data-text-align="center" data-vertical-align="middle">4</td>
-                <td data-text-align="center" data-vertical-align="middle">5</td>
-                <td data-text-align="center" data-vertical-align="middle">6</td>
-                <td data-text-align="center" data-vertical-align="middle">7+</td>
+                <th>OFFENSE <br/>SERIOUSNESS <br/>CATEGORY</th>
+                <th>0</th>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+                <th>6</th>
+                <th>7+</th>
               </tr>
+            </thead>
+            <tbody>
               <tr>
                 <td data-text-align="center" data-vertical-align="middle">VII</td>
                 <td>P</td>

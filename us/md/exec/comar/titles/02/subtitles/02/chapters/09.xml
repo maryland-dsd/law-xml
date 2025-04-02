@@ -359,11 +359,13 @@
           <text>Flat Fee Table.</text>
           <text>
             <table>
-              <tbody>
+              <thead>
                 <tr>
-                  <td data-vertical-align="middle">Months Between Last Effective<br/>Date and New Fiscal Year End</td>
-                  <td data-vertical-align="middle">Total Payment Due-----Flat Fee</td>
+                  <th>Months Between Last Effective<br/>Date and New Fiscal Year End</th>
+                  <th>Total Payment Due-----Flat Fee</th>
                 </tr>
+              </thead>
+              <tbody>
                 <tr>
                   <td data-text-align="center" data-vertical-align="middle">13</td>
                   <td data-text-align="center" data-vertical-align="middle">$1,950</td>
@@ -421,13 +423,15 @@
           <text>Calculated Fee Table.</text>
           <text>
             <table>
-              <tbody>
+              <thead>
                 <tr>
-                  <td data-vertical-align="middle">Months<br/>Between <br/>Last <br/>Effective <br/>Date and <br/>New Fiscal <br/>Year End</td>
-                  <td data-vertical-align="middle">Total<br/>Payment<br/>Due-----<br/>Minimum<br/>Fee</td>
-                  <td data-vertical-align="middle">Total<br/>Payment<br/>Due----- <br/>Maximum <br/>Fee</td>
-                  <td data-vertical-align="middle">Total <br/>Payment<br/>Due-1/10 of 1%<br/>of Gross Sales for<br/>Effective Period</td>
+                  <th>Months<br/>Between <br/>Last <br/>Effective <br/>Date and <br/>New Fiscal <br/>Year End</th>
+                  <th>Total<br/>Payment<br/>Due-----<br/>Minimum<br/>Fee</th>
+                  <th>Total<br/>Payment<br/>Due----- <br/>Maximum <br/>Fee</th>
+                  <th>Total <br/>Payment<br/>Due-1/10 of 1%<br/>of Gross Sales for<br/>Effective Period</th>
                 </tr>
+              </thead>
+              <tbody>
                 <tr>
                   <td data-vertical-align="middle">13</td>
                   <td data-vertical-align="middle">$542</td>

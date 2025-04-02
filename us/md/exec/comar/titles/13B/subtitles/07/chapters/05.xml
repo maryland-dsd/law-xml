@@ -59,18 +59,20 @@
     <text>Space allocation guidelines for college campuses are as follows:</text>
     <text>
       <table class="layout-table">
+        <thead>
+          <tr>
+            <th colspan="2">Room Use Category</th>
+            <th colspan="3">Space Factor by Size of FTDE</th>
+          </tr>
+          <tr>
+            <th>HEGIS Code</th>
+            <th>Space</th>
+            <th>Base</th>
+            <th>3000 &amp; Under</th>
+            <th>3001 &amp; Up</th>
+          </tr>
+        </thead>
         <tbody>
-          <tr>
-            <td colspan="2" data-vertical-align="middle">Room Use Category</td>
-            <td colspan="3" data-vertical-align="middle">Space Factor by Size of FTDE</td>
-          </tr>
-          <tr>
-            <td>HEGIS Code</td>
-            <td>Space</td>
-            <td>Base</td>
-            <td>3000 &amp; Under</td>
-            <td>3001 &amp; Up</td>
-          </tr>
           <tr>
             <td>100</td>
             <td>Classroom Facilities</td>
@@ -511,15 +513,13 @@
       <text>Handicapped Parking. The parking stall shall be 9 feet wide with a 4-foot wide pedestrian space between each other stall reserved for the handicapped. These spaces shall be in addition to those identified as regular parking. Total reserved spaces shall conform to the following:</text>
       <text>
         <table>
-          <tbody>
+          <thead>
             <tr>
-              <td>
-                <em>Total Parking Spaces on Lot</em>
-              </td>
-              <td>
-                <em>Required Minimum Number of<br/>Handicapped Accessible Spaces</em>
-              </td>
+              <th>Total Parking Spaces on Lot</th>
+              <th>Required Minimum Number of<br/>Handicapped Accessible Spaces</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td>Up to 25</td>
               <td>1</td>

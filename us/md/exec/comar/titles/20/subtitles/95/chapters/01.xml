@@ -702,16 +702,18 @@
           <text>As set out in the following table:</text>
           <text>
             <table>
+              <thead>
+                <tr>
+                  <th>NUMBER OF VEHICLES</th>
+                  <th colspan="3">REQUIRED AMOUNT OF BOND<br/>NUMBER OF PASSENGERS</th>
+                </tr>
+              </thead>
               <tbody>
                 <tr>
-                  <td>NUMBER OF VEHICLES</td>
-                  <td colspan="3" data-text-align="center" data-vertical-align="middle">REQUIRED AMOUNT OF BOND<br/>NUMBER OF PASSENGERS</td>
-                </tr>
-                <tr>
                   <td proof="needed"/>
-                  <td data-text-align="center">7 or less</td>
-                  <td data-text-align="center">8—15</td>
-                  <td data-text-align="center">16 or more</td>
+                  <th>7 or less</th>
+                  <th>8—15</th>
+                  <th>16 or more</th>
                 </tr>
                 <tr>
                   <td>(i) For one vehicle only</td>
