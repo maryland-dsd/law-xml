@@ -56,12 +56,14 @@
         <text>Emission Rates.</text>
         <text>
           <table>
-            <tbody>
+            <thead>
               <tr>
-                <td data-text-align="center" data-vertical-align="middle">Type Engine</td>
-                <td data-text-align="center" data-vertical-align="middle">Size (Brake HP)</td>
-                <td data-text-align="center" data-vertical-align="middle">NO<sub>x</sub> Emission Rate<br/>(15 Percent Oxygen)</td>
+                <th>Type Engine</th>
+                <th>Size (Brake HP)</th>
+                <th>NO<sub>x</sub> Emission Rate<br/>(15 Percent Oxygen)</th>
               </tr>
+            </thead>
+            <tbody>
               <tr>
                 <td data-vertical-align="middle">Spark ignited rich burn</td>
                 <td data-vertical-align="middle">2400 HP or greater</td>

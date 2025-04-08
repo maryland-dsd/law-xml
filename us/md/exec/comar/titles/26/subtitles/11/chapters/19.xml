@@ -543,12 +543,14 @@
         <text>A person may not cause or permit the discharge into the atmosphere of VOC from an automobile or light-duty truck coating installation in excess of the following emission standards:</text>
         <text>
           <table class="layout-table">
-            <tbody>
+            <thead>
               <tr>
-                <td>Coating</td>
-                <td>Pounds Per Gallon of Coating Applied (minus water)</td>
-                <td>Kilograms Per Liter of Coating Applied (minus water)</td>
+                <th>Coating</th>
+                <th>Pounds Per Gallon of Coating Applied (minus water)</th>
+                <th>Kilograms Per Liter of Coating Applied (minus water)</th>
               </tr>
+            </thead>
+            <tbody>
               <tr>
                 <td proof="needed"/>
                 <td proof="needed" data-vertical-align="middle"/>
@@ -623,14 +625,14 @@
         <table class="layout-table">
           <tbody>
             <tr>
-              <td proof="needed"/>
-              <td>Emission Standard</td>
-              <td proof="needed"/>
+              <td proof="needed" data-text-align="center"/>
+              <th>Emission Standard</th>
+              <td proof="needed" data-text-align="center"/>
             </tr>
             <tr>
-              <td>Coating</td>
-              <td>Pounds Per Gallon of Coating Applied (minus water)</td>
-              <td>Kilograms Per Liter of Coating Applied (minus water)</td>
+              <th>Coating</th>
+              <th>Pounds Per Gallon of Coating Applied (minus water)</th>
+              <th>Kilograms Per Liter of Coating Applied (minus water)</th>
             </tr>
             <tr>
               <td>Sheet Basecoat (Exterior &amp; Interior), Overvarnish, or Two-Piece Can Exterior (Basecoat and Overvarnish)</td>
@@ -947,13 +949,15 @@
         <text>Coating Standards.</text>
         <text>
           <table>
-            <tbody>
+            <thead>
               <tr>
-                <td data-text-align="center" data-vertical-align="bottom">Coating Installation</td>
-                <td data-text-align="center" data-vertical-align="bottom">Applicability<br/>(Pounds of VOC<br/>per day)</td>
-                <td data-text-align="center" data-vertical-align="middle">Pounds of VOC Per Gallon of Coating<br/>As applied minus water)</td>
-                <td data-text-align="center" data-vertical-align="middle">Kilograms of VOC Per Liter<br/>of Coating (As applied minus water)</td>
+                <th>Coating Installation</th>
+                <th>Applicability<br/>(Pounds of VOC<br/>per day)</th>
+                <th>Pounds of VOC Per Gallon of Coating<br/>As applied minus water)</th>
+                <th>Kilograms of VOC Per Liter<br/>of Coating (As applied minus water)</th>
               </tr>
+            </thead>
+            <tbody>
               <tr>
                 <td data-vertical-align="middle">Web paper</td>
                 <td data-text-align="center" data-vertical-align="middle">20</td>
@@ -998,15 +1002,17 @@
           <text>Meet the following emission standard for each coating line installation:</text>
           <text>
             <table>
+              <thead>
+                <tr>
+                  <th>Paper, Film, and Foil Coating</th>
+                  <th colspan="2">Emission Standard (Ratio)</th>
+                </tr>
+              </thead>
               <tbody>
                 <tr>
-                  <td>Paper, Film, and Foil Coating</td>
-                  <td colspan="2" data-vertical-align="middle">Emission Standard (Ratio)</td>
-                </tr>
-                <tr>
                   <td proof="needed"/>
-                  <td>lb VOC/ lb solids or kg VOC/kg solids</td>
-                  <td>lb VOC/lb coating or kg VOC/kg coating</td>
+                  <th>lb VOC/ lb solids or kg VOC/kg solids</th>
+                  <th>lb VOC/lb coating or kg VOC/kg coating</th>
                 </tr>
                 <tr>
                   <td>Paper, Film, and Foil Coating other than a Pressure Sensitive Tape and Label Surface Coating</td>
@@ -1307,13 +1313,15 @@
         <text>Plastic Parts Coating Standards.</text>
         <text>
           <table>
-            <tbody>
+            <thead>
               <tr>
-                <td data-text-align="center" data-vertical-align="middle">Coating<br/>Installation</td>
-                <td data-text-align="center" data-vertical-align="middle">Applicability<br/>(Pounds of VOC<br/>per day)</td>
-                <td data-text-align="center" data-vertical-align="middle">Pounds of VOC<br/>Per Gallon of <br/>Coating<br/>(As applied<br/>minus water)</td>
-                <td data-text-align="center" data-vertical-align="middle">Kilograms of<br/>VOC Per Liter<br/>of Coating<br/>(As applied<br/>minus water)</td>
+                <th>Coating<br/>Installation</th>
+                <th>Applicability<br/>(Pounds of VOC<br/>per day)</th>
+                <th>Pounds of VOC<br/>Per Gallon of <br/>Coating<br/>(As applied<br/>minus water)</th>
+                <th>Kilograms of<br/>VOC Per Liter<br/>of Coating<br/>(As applied<br/>minus water)</th>
               </tr>
+            </thead>
+            <tbody>
               <tr>
                 <td data-vertical-align="middle">Decorative coating of other plastic parts</td>
                 <td data-text-align="center" data-vertical-align="middle">20</td>
@@ -1407,13 +1415,15 @@
         <text>Business Machines Coating Standards.</text>
         <text>
           <table>
-            <tbody>
+            <thead>
               <tr>
-                <td data-text-align="center" data-vertical-align="middle">Coating<br/>Installation</td>
-                <td data-text-align="center" data-vertical-align="middle">Applicability<br/>(Pounds of VOC<br/>per day)</td>
-                <td data-text-align="center" data-vertical-align="middle">Pounds of VOC<br/>Per Gallon of <br/>Coating<br/>(As applied<br/>minus water)</td>
-                <td data-text-align="center" data-vertical-align="middle">Kilograms of<br/>VOC Per Liter<br/>of Coating<br/>(As applied<br/>minus water)</td>
+                <th>Coating<br/>Installation</th>
+                <th>Applicability<br/>(Pounds of VOC<br/>per day)</th>
+                <th>Pounds of VOC<br/>Per Gallon of <br/>Coating<br/>(As applied<br/>minus water)</th>
+                <th>Kilograms of<br/>VOC Per Liter<br/>of Coating<br/>(As applied<br/>minus water)</th>
               </tr>
+            </thead>
+            <tbody>
               <tr>
                 <td data-vertical-align="middle">Prime Coat</td>
                 <td data-text-align="center" data-vertical-align="middle">15</td>
@@ -1453,13 +1463,15 @@
         <text>Printing Standards.</text>
         <text>
           <table>
-            <tbody>
+            <thead>
               <tr>
-                <td data-text-align="center" data-vertical-align="middle">Printing<br/>Installation</td>
-                <td data-text-align="center" data-vertical-align="middle">Applicability<br/>(Pounds of VOC<br/>per day)</td>
-                <td data-text-align="center" data-vertical-align="middle">Pounds of VOC<br/>Per Gallon of<br/>Coating<br/>(As applied<br/>minus water)</td>
-                <td data-text-align="center" data-vertical-align="middle">Kilograms of<br/>VOC Per Liter<br/>of Coating<br/>(As applied<br/>minus water)</td>
+                <th>Printing<br/>Installation</th>
+                <th>Applicability<br/>(Pounds of VOC<br/>per day)</th>
+                <th>Pounds of VOC<br/>Per Gallon of<br/>Coating<br/>(As applied<br/>minus water)</th>
+                <th>Kilograms of<br/>VOC Per Liter<br/>of Coating<br/>(As applied<br/>minus water)</th>
               </tr>
+            </thead>
+            <tbody>
               <tr>
                 <td data-vertical-align="middle">Plastic other than vinyl</td>
                 <td data-vertical-align="middle">Non-major source</td>
@@ -1824,18 +1836,20 @@
         <text>A person subject to this regulation may not exceed the applicable VOC emission standards (expressed in terms of mass of VOC per volume of coating excluding water and exempt compounds, as applied) of the following table when applying a metal furniture coating:</text>
         <text>
           <table>
+            <thead>
+              <tr>
+                <th rowspan="2">Coating Type</th>
+                <th colspan="2">Baked</th>
+                <th colspan="2">Air-Dried</th>
+              </tr>
+              <tr>
+                <th>Lbs/gal</th>
+                <th>Kg/l</th>
+                <th>Lbs/gal</th>
+                <th>Kg/l</th>
+              </tr>
+            </thead>
             <tbody>
-              <tr>
-                <td rowspan="2" data-vertical-align="middle">Coating Type</td>
-                <td colspan="2" data-text-align="center" data-vertical-align="middle">Baked</td>
-                <td colspan="2" data-text-align="center" data-vertical-align="middle">Air-Dried</td>
-              </tr>
-              <tr>
-                <td data-text-align="center" data-vertical-align="middle">Lbs/gal</td>
-                <td data-text-align="center" data-vertical-align="middle">Kg/l</td>
-                <td data-text-align="center" data-vertical-align="middle">Lbs/gal</td>
-                <td data-text-align="center" data-vertical-align="middle">Kg/l</td>
-              </tr>
               <tr>
                 <td data-vertical-align="middle">General, one-component</td>
                 <td data-text-align="center" data-vertical-align="middle">2.3</td>
@@ -1894,18 +1908,20 @@
         <text>A person subject to this regulation may not exceed the applicable VOC emission standards (expressed in terms of mass of VOC per volume of coating excluding water and exempt compounds, as applied) of the following table when applying a metal parts and products coating:</text>
         <text>
           <table>
+            <thead>
+              <tr>
+                <th rowspan="2">Coating Type</th>
+                <th colspan="2">Baked</th>
+                <th colspan="2">Air-Dried</th>
+              </tr>
+              <tr>
+                <th>Lbs/gal</th>
+                <th>Kg/l</th>
+                <th>Lbs/gal</th>
+                <th>Kg/l</th>
+              </tr>
+            </thead>
             <tbody>
-              <tr>
-                <td rowspan="2" data-vertical-align="middle">Coating Type</td>
-                <td colspan="2" data-text-align="center" data-vertical-align="middle">Baked</td>
-                <td colspan="2" data-text-align="center" data-vertical-align="middle">Air-Dried</td>
-              </tr>
-              <tr>
-                <td data-text-align="center" data-vertical-align="middle">Lbs/gal</td>
-                <td data-text-align="center" data-vertical-align="middle">Kg/l</td>
-                <td data-text-align="center" data-vertical-align="middle">Lbs/gal</td>
-                <td data-text-align="center" data-vertical-align="middle">Kg/l</td>
-              </tr>
               <tr>
                 <td data-vertical-align="middle">General, one-component</td>
                 <td data-text-align="center" data-vertical-align="middle">2.3</td>
@@ -2444,12 +2460,14 @@
         <text>Venting the dryer exhaust of the line through a control device that is constructed, operated, and maintained to achieve an overall control efficiency of:</text>
         <text>
           <table>
-            <tbody>
+            <thead>
               <tr>
-                <td data-text-align="center">Overall Control for Efficiency of Flexible Packaging Printing Line (%)</td>
-                <td data-text-align="center">Flexible Packaging Printing Line First Installation Date (For Each Line)</td>
-                <td data-text-align="center">Air Pollution Control Device First Installation Date</td>
+                <th>Overall Control for Efficiency of Flexible Packaging Printing Line (%)</th>
+                <th>Flexible Packaging Printing Line First Installation Date (For Each Line)</th>
+                <th>Air Pollution Control Device First Installation Date</th>
               </tr>
+            </thead>
+            <tbody>
               <tr>
                 <td>(1) 65</td>
                 <td>Prior to March 14, 1995</td>
@@ -2847,12 +2865,14 @@
       <text>Emission Standards. A person subject to this regulation may not exceed the applicable VOC emission standards of the following table:</text>
       <text>
         <table>
-          <tbody>
+          <thead>
             <tr>
-              <td data-text-align="center" data-vertical-align="middle">Coating Types</td>
-              <td data-text-align="center" data-vertical-align="middle">Pounds Per Gallon<br/>of Coating Applied<br/>(Minus Water)</td>
-              <td data-text-align="center" data-vertical-align="middle">Kilograms Per Liter<br/>of Coating Applied<br/>(Minus Water)</td>
+              <th>Coating Types</th>
+              <th>Pounds Per Gallon<br/>of Coating Applied<br/>(Minus Water)</th>
+              <th>Kilograms Per Liter<br/>of Coating Applied<br/>(Minus Water)</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td data-vertical-align="middle">Drum or Pail Coating, New, Exterior</td>
               <td data-text-align="center" data-vertical-align="middle">2.8</td>
@@ -3529,15 +3549,13 @@
           <text>Coating Standards at Maximum Allowable VOC in Pounds Per Gallon (Grams Per Liter) of Coating Applied (Minus Water)</text>
           <text>
             <table>
-              <tbody>
+              <thead>
                 <tr>
-                  <td>
-                    <em>Coating Types</em>
-                  </td>
-                  <td>
-                    <em>Pounds/Gallon (Grams/Liter)</em>
-                  </td>
+                  <th>Coating Types</th>
+                  <th>Pounds/Gallon (Grams/Liter)</th>
                 </tr>
+              </thead>
+              <tbody>
                 <tr>
                   <td>Topcoats</td>
                   <td>3.5 (420)</td>
@@ -3888,12 +3906,14 @@
         <text>Maximum Allowable VOC Content (as applied minus water).</text>
         <text>
           <table class="layout-table">
-            <tbody>
+            <thead>
               <tr>
-                <td>Coating</td>
-                <td>Pounds Per Gallon of Coating Applied</td>
-                <td>Kilograms per Liter of Coating Applied</td>
+                <th>Coating</th>
+                <th>Pounds Per Gallon of Coating Applied</th>
+                <th>Kilograms per Liter of Coating Applied</th>
               </tr>
+            </thead>
+            <tbody>
               <tr>
                 <td>Brake shoe coating</td>
                 <td>6.3</td>
@@ -4378,11 +4398,13 @@
         <text>VOC Concentration Limits for Nutritional Yeast.</text>
         <text>
           <table class="layout-table">
-            <tbody>
+            <thead>
               <tr>
-                <td data-vertical-align="bottom">Type of Fermenter</td>
-                <td data-text-align="center" data-vertical-align="middle">Maximum Allowable VOC <br/>Concentration</td>
+                <th>Type of Fermenter</th>
+                <th>Maximum Allowable VOC <br/>Concentration</th>
               </tr>
+            </thead>
+            <tbody>
               <tr>
                 <td data-vertical-align="middle">(a) Trade fermenter</td>
                 <td data-text-align="center" data-vertical-align="middle">100 ppm</td>
@@ -4600,12 +4622,14 @@
           <text>For screen printing using specialty inks, the maximum VOC content of any ink may not exceed the following:</text>
           <text>
             <table class="layout-table">
-              <tbody>
+              <thead>
                 <tr>
-                  <td>Ink</td>
-                  <td>Pounds Per Gallon</td>
-                  <td>Grams Per Liter</td>
+                  <th>Ink</th>
+                  <th>Pounds Per Gallon</th>
+                  <th>Grams Per Liter</th>
                 </tr>
+              </thead>
+              <tbody>
                 <tr>
                   <td>(i) Acid/etch resist</td>
                   <td data-text-align="center" data-vertical-align="middle">3.3</td>
@@ -4636,12 +4660,14 @@
         <text>Control of VOC Emissions from Ink and Haze Removal and Screen Reclamation. A person may not cause or permit the discharge of VOC into the atmosphere from the use of any ink or haze removal and screen reclamation product unless the VOC content of the ink removal or reclamation product is less than or equal to the following:</text>
         <text>
           <table class="layout-table">
-            <tbody>
+            <thead>
               <tr>
-                <td>Product</td>
-                <td>Pounds Per Gallon</td>
-                <td>Grams Per Liter</td>
+                <th>Product</th>
+                <th>Pounds Per Gallon</th>
+                <th>Grams Per Liter</th>
               </tr>
+            </thead>
+            <tbody>
               <tr>
                 <td>(a) Screen reclamation</td>
                 <td data-text-align="center" data-vertical-align="middle">1.0</td>
@@ -4671,12 +4697,14 @@
       <text>General Requirements for Plywood Sign Coating. A person who owns or operates a plywood sign coating operation subject to this regulation may not cause or permit the discharge of VOC into the atmosphere from any plywood sign coating unless the VOC content of the coating, as applied, is less than or equal to the following:</text>
       <text>
         <table class="layout-table">
-          <tbody>
+          <thead>
             <tr>
-              <td>Coating</td>
-              <td>Pounds Per Gallon</td>
-              <td>Grams per Liter</td>
+              <th>Coating</th>
+              <th>Pounds Per Gallon</th>
+              <th>Grams per Liter</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td>(1) Back-up</td>
               <td data-text-align="center" data-vertical-align="middle">1.0</td>
@@ -5632,11 +5660,13 @@
       <aftertext>Table 1. VOC Content Limits for Automotive Coatings for —Motor Vehicle and Mobile Equipment Non-assembly Line — Refinishing and Recoating.</aftertext>
       <aftertext>
         <table>
-          <tbody>
+          <thead>
             <tr>
-              <td proof="needed" data-vertical-align="middle"/>
-              <td colspan="2" data-text-align="center" data-vertical-align="middle">VOC Content<br/>Limit of<br/>Coatings as<br/>Applied*</td>
+              <th proof="needed" data-vertical-align="middle"/>
+              <th colspan="2">VOC Content<br/>Limit of<br/>Coatings as<br/>Applied*</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td data-vertical-align="middle">Coating Category</td>
               <td data-vertical-align="middle">Pounds per gallon</td>
@@ -6640,13 +6670,15 @@
           <text>Not cause or permit the discharge into the atmosphere of any VOC from resin and gel coat operations in excess of the following standards, except as provided in <cite path="26|11|19|.26-1|C.|(3)">§C(3) of this regulation</cite>:</text>
           <text>
             <table>
-              <tbody>
+              <thead>
                 <tr>
-                  <td data-text-align="center">Operation</td>
-                  <td data-text-align="center">Application<br/>Method</td>
-                  <td data-text-align="center" data-vertical-align="middle">Total Monomer<br/>Content<br/>(percent by weight)</td>
-                  <td data-text-align="center">Total VOC<br/>Content<br/>(percent by weight)</td>
+                  <th>Operation</th>
+                  <th>Application<br/>Method</th>
+                  <th>Total Monomer<br/>Content<br/>(percent by weight)</th>
+                  <th>Total VOC<br/>Content<br/>(percent by weight)</th>
                 </tr>
+              </thead>
+              <tbody>
                 <tr>
                   <td data-vertical-align="middle">Production resin</td>
                   <td data-vertical-align="middle">Atomized resin application (spray)</td>
@@ -6712,12 +6744,14 @@
         <text>In lieu of meeting the standards of <cite path="26|11|19|.26-1|C.|(1)|(a)">§C(1)(a) of this regulation</cite>, a person who owns or operates a fiberglass boat manufacturing facility subject to this regulation may cause or permit the discharge into the atmosphere of any VOC from filled resins provided that such emissions do not exceed the following non-monomer VOC content and as-applied monomer VOC emission rates calculated using the equation in <cite path="26|11|19|.26-1|D.|(3)">§D(3) of this regulation</cite>:</text>
         <text>
           <table>
-            <tbody>
+            <thead>
               <tr>
-                <td>Type of Filled Resin</td>
-                <td data-vertical-align="middle">Monomer Rate in kg <br/>Monomer VOC per<br/>Megagram of Filled<br/>Resin as Applied</td>
-                <td data-vertical-align="middle">Non-monomer VOC<br/>Content Limit of <br/>Unfilled Resin</td>
+                <th>Type of Filled Resin</th>
+                <th>Monomer Rate in kg <br/>Monomer VOC per<br/>Megagram of Filled<br/>Resin as Applied</th>
+                <th>Non-monomer VOC<br/>Content Limit of <br/>Unfilled Resin</th>
               </tr>
+            </thead>
+            <tbody>
               <tr>
                 <td data-vertical-align="middle">Production</td>
                 <td data-vertical-align="middle">46</td>
@@ -6803,15 +6837,17 @@
         <text>The monomer VOC emission rate for the neat (unfilled) resin, before filler is added, PV<sub>u</sub>, shall be calculated using the formulas in the following table:</text>
         <text>
           <table>
+            <thead>
+              <tr>
+                <th colspan="3">Monomer VOC Emission Rate Formulas for Open Molding and Gel Coat Operations</th>
+              </tr>
+              <tr>
+                <th>Material</th>
+                <th>Application Method</th>
+                <th>Formula to Calculate the Monomer VOC Emission Rate<sup>1</sup></th>
+              </tr>
+            </thead>
             <tbody>
-              <tr>
-                <td colspan="3" data-text-align="center" data-vertical-align="middle">Monomer VOC Emission Rate Formulas for Open Molding and Gel Coat Operations</td>
-              </tr>
-              <tr>
-                <td data-vertical-align="middle">Material</td>
-                <td data-vertical-align="middle">Application Method</td>
-                <td data-vertical-align="middle">Formula to Calculate the Monomer VOC Emission Rate<sup>1</sup></td>
-              </tr>
               <tr>
                 <td data-vertical-align="middle">Production resin or tooling resin</td>
                 <td data-vertical-align="middle">Atomized resin application</td>
@@ -7122,11 +7158,13 @@
         <text>Coating Standards.</text>
         <text>
           <table class="layout-table">
-            <tbody>
+            <thead>
               <tr>
-                <td>Coating</td>
-                <td>Maximum VOC content Pounds per Gallon as applied (Grams per Liter)</td>
+                <th>Coating</th>
+                <th>Maximum VOC content Pounds per Gallon as applied (Grams per Liter)</th>
               </tr>
+            </thead>
+            <tbody>
               <tr>
                 <td proof="needed"/>
                 <td proof="needed" data-vertical-align="middle"/>
@@ -7378,12 +7416,14 @@
       <text>Pleasure Craft Coating Standards (Expressed in Terms of Mass of VOC per Volume of Coating Excluding Water and Exempt Compounds, as Applied).</text>
       <text>
         <table>
-          <tbody>
+          <thead>
             <tr>
-              <td data-vertical-align="middle">Coating Types</td>
-              <td data-vertical-align="middle">lbs VOC/gal</td>
-              <td data-vertical-align="middle">kg VOC/liter</td>
+              <th>Coating Types</th>
+              <th>lbs VOC/gal</th>
+              <th>kg VOC/liter</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td data-vertical-align="middle">Extreme high gloss topcoat</td>
               <td data-text-align="center" data-vertical-align="middle">5.0</td>
@@ -8152,18 +8192,20 @@
         <text>A person subject to this regulation shall meet the VOC content limits for coatings described in Table 1:</text>
         <text>
           <table class="layout-table">
+            <thead>
+              <tr>
+                <th colspan="3">Table 1</th>
+              </tr>
+            </thead>
             <tbody>
               <tr>
-                <td colspan="3" data-text-align="center" data-vertical-align="middle">Table 1</td>
-              </tr>
-              <tr>
                 <td proof="needed"/>
-                <td colspan="2" data-vertical-align="middle">VOC Content Limits of Coatings as Applied, Less Water and Exempt Compounds</td>
+                <th colspan="2">VOC Content Limits of Coatings as Applied, Less Water and Exempt Compounds</th>
               </tr>
               <tr>
-                <td>Coating Category</td>
-                <td data-text-align="center" data-vertical-align="middle">Grams per Liter</td>
-                <td data-text-align="center" data-vertical-align="middle">Pounds per Gallon</td>
+                <th>Coating Category</th>
+                <th>Grams per Liter</th>
+                <th>Pounds per Gallon</th>
               </tr>
               <tr>
                 <td>Stains</td>
@@ -8208,18 +8250,20 @@
         <text>A person subject to this regulation shall meet the VOC content limits for non-coating materials described in Table 2:</text>
         <text>
           <table class="layout-table">
+            <thead>
+              <tr>
+                <th colspan="3">Table 2</th>
+              </tr>
+            </thead>
             <tbody>
               <tr>
-                <td colspan="3" data-text-align="center" data-vertical-align="middle">Table 2</td>
-              </tr>
-              <tr>
                 <td proof="needed"/>
-                <td colspan="2" data-vertical-align="middle">VOC Content Limits of Non-Coating Materials as Applied, Less Water and Exempt Compounds</td>
+                <th colspan="2">VOC Content Limits of Non-Coating Materials as Applied, Less Water and Exempt Compounds</th>
               </tr>
               <tr>
-                <td>Non-Coating Materials</td>
-                <td data-text-align="center" data-vertical-align="middle">Grams per Liter</td>
-                <td data-text-align="center" data-vertical-align="middle">Pounds per Gallon</td>
+                <th>Non-Coating Materials</th>
+                <th>Grams per Liter</th>
+                <th>Pounds per Gallon</th>
               </tr>
               <tr>
                 <td>Fillers</td>
@@ -8343,16 +8387,18 @@
       <text>Requirements for Flat Wood Paneling Coating. A person who applies flat wood paneling coatings, including inks and adhesives, where total precontrol VOC emissions from all flat wood paneling coating operations at a premises is 15 pounds or more per day (6.8 kg/day) shall meet the coating standards or overall control efficiency specified in the following table:</text>
       <text>
         <table>
+          <thead>
+            <tr>
+              <th rowspan="2">Surface Coatings, Inks or Adhesives Applied to the Following Flat Wood Paneling Categories</th>
+              <th colspan="3">Emission Limits</th>
+            </tr>
+            <tr>
+              <th>Pound VOC per Gallon (grams VOC/ Liter of Material)</th>
+              <th>Pound VOC per Gallon Solids (grams VOC/ Liter Solids)</th>
+              <th>Overall Control Efficiency Using an Add-On Control Device</th>
+            </tr>
+          </thead>
           <tbody>
-            <tr>
-              <td rowspan="2" data-vertical-align="bottom">Surface Coatings, Inks or Adhesives Applied to the Following Flat Wood Paneling Categories</td>
-              <td colspan="3" data-text-align="center" data-vertical-align="middle">Emission Limits</td>
-            </tr>
-            <tr>
-              <td data-text-align="center" data-vertical-align="middle">Pound VOC per Gallon (grams VOC/ Liter of Material)</td>
-              <td data-text-align="center" data-vertical-align="middle">Pound VOC per Gallon Solids (grams VOC/ Liter Solids)</td>
-              <td data-text-align="center" data-vertical-align="middle">Overall Control Efficiency Using an Add-On Control Device</td>
-            </tr>
             <tr>
               <td>(1) Printed interior panels made of hardwood plywood or thin particleboard</td>
               <td data-text-align="center" data-vertical-align="middle">2.1 (250)</td>

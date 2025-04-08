@@ -1314,12 +1314,14 @@
           <text>A monthly market basket index shall be calculated based on the following calculations:</text>
           <text>
             <table>
-              <tbody>
+              <thead>
                 <tr>
-                  <td data-vertical-align="middle">Market Basket Index Quarter</td>
-                  <td data-vertical-align="middle">Assigned Month</td>
-                  <td data-text-align="center" data-vertical-align="middle">Monthly Index</td>
+                  <th>Market Basket Index Quarter</th>
+                  <th>Assigned Month</th>
+                  <th>Monthly Index</th>
                 </tr>
+              </thead>
+              <tbody>
                 <tr>
                   <td data-vertical-align="middle">Quarter 1</td>
                   <td data-vertical-align="middle">January</td>
@@ -1729,13 +1731,15 @@
         <text>The Department or its designated contractor shall distribute preliminary and final resident rosters according to the following schedule:</text>
         <text>
           <table>
-            <tbody>
+            <thead>
               <tr>
-                <td data-vertical-align="middle">Resident Roster<br/>Quarter</td>
-                <td data-vertical-align="middle">Preliminary<br/>Resident<br/>Roster<br/>Distributed</td>
-                <td data-vertical-align="middle">Facility’s<br/>Revised<br/>Resident Roster<br/>Transmission<br/>Due</td>
-                <td data-vertical-align="middle">Final<br/>Resident<br/>Roster<br/>Distributed</td>
+                <th>Resident Roster<br/>Quarter</th>
+                <th>Preliminary<br/>Resident<br/>Roster<br/>Distributed</th>
+                <th>Facility’s<br/>Revised<br/>Resident Roster<br/>Transmission<br/>Due</th>
+                <th>Final<br/>Resident<br/>Roster<br/>Distributed</th>
               </tr>
+            </thead>
+            <tbody>
               <tr>
                 <td data-vertical-align="middle">January 1 through March 31</td>
                 <td data-vertical-align="middle">May 5</td>
@@ -3396,15 +3400,13 @@
       <text>Personnel Types and Category Groupings.</text>
       <text>
         <table>
-          <tbody>
+          <thead>
             <tr>
-              <td>
-                <em>Selected Personnel Types</em>
-              </td>
-              <td>
-                <em>Personnel Categories</em>
-              </td>
+              <th>Selected Personnel Types</th>
+              <th>Personnel Categories</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td>Director of nursing (RN or LPN)</td>
               <td>Directors of nursing (DON)</td>
@@ -3486,11 +3488,13 @@
       <text>Minimum Data Set Resource Utilization Groups Hourly Weights.</text>
       <text>
         <table>
-          <tbody>
+          <thead>
             <tr>
-              <td data-text-align="center" data-vertical-align="middle">RUG-IV 48</td>
-              <td data-text-align="center" data-vertical-align="middle">Total Hours</td>
+              <th>RUG-IV 48</th>
+              <th>Total Hours</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td data-vertical-align="middle">ES3</td>
               <td data-vertical-align="middle">6.17733333</td>

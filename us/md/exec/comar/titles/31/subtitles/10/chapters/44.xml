@@ -844,16 +844,18 @@
         <text>Chart of Travel Distance Standards.</text>
         <text>
           <table>
-            <tbody>
+            <thead>
               <tr>
-                <td proof="needed" data-vertical-align="middle"/>
-                <td data-text-align="center" data-vertical-align="middle">Urban Area<br/>Maximum<br/>Distance<br/>(miles)</td>
-                <td data-text-align="center" data-vertical-align="middle">Suburban<br/>Area<br/>Maximum<br/>Distance<br/>(miles)</td>
-                <td data-text-align="center" data-vertical-align="middle">Rural<br/>Area<br/>Maximum<br/>Distance<br/>(miles)</td>
+                <th proof="needed" data-vertical-align="middle"/>
+                <th>Urban Area<br/>Maximum<br/>Distance<br/>(miles)</th>
+                <th>Suburban<br/>Area<br/>Maximum<br/>Distance<br/>(miles)</th>
+                <th>Rural<br/>Area<br/>Maximum<br/>Distance<br/>(miles)</th>
               </tr>
               <tr>
                 <th colspan="4">Provider Type:</th>
               </tr>
+            </thead>
+            <tbody>
               <tr>
                 <td data-vertical-align="middle">Addiction Medicine</td>
                 <td data-text-align="center" data-vertical-align="middle">10</td>
@@ -1286,24 +1288,26 @@
         <text>Chart of Travel Distance Standards.</text>
         <text>
           <table>
-            <tbody>
+            <thead>
               <tr>
-                <td proof="needed" data-vertical-align="middle"/>
-                <td data-text-align="center" data-vertical-align="middle">Urban Area<br/>Maximum<br/>Distance<br/>(miles)</td>
-                <td data-text-align="center" data-vertical-align="middle">Suburban<br/>Area<br/>Maximum<br/>Distance<br/>(miles)</td>
-                <td proof="needed" data-text-align="center" data-vertical-align="middle">
+                <th proof="needed" data-vertical-align="middle"/>
+                <th>Urban Area<br/>Maximum<br/>Distance<br/>(miles)</th>
+                <th>Suburban<br/>Area<br/>Maximum<br/>Distance<br/>(miles)</th>
+                <th proof="needed" data-text-align="center" data-vertical-align="middle">
                   <p>Rural</p>
                   <p>Area</p>
                   <p>Maximum Distance</p>
                   <p>(miles)</p>
-                </td>
+                </th>
               </tr>
               <tr>
                 <th>Provider Type:</th>
-                <td proof="needed" data-text-align="center" data-vertical-align="middle"/>
-                <td proof="needed" data-text-align="center" data-vertical-align="middle"/>
-                <td proof="needed" data-text-align="center" data-vertical-align="middle"/>
+                <th proof="needed" data-text-align="center" data-vertical-align="middle"/>
+                <th proof="needed" data-text-align="center" data-vertical-align="middle"/>
+                <th proof="needed" data-text-align="center" data-vertical-align="middle"/>
               </tr>
+            </thead>
+            <tbody>
               <tr>
                 <td data-vertical-align="middle">Addiction Medicine</td>
                 <td data-text-align="center" data-vertical-align="middle">15</td>
@@ -1789,10 +1793,12 @@
       <text>Chart of Waiting Time Standards.</text>
       <text>
         <table>
-          <tbody>
+          <thead>
             <tr>
-              <td colspan="2" data-text-align="center">Waiting Time Standards</td>
+              <th colspan="2">Waiting Time Standards</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td data-vertical-align="middle">Urgent care for medical services</td>
               <td data-vertical-align="middle">72 hours</td>
@@ -2289,13 +2295,15 @@
           <text>For each provider type and facility type listed in <cite path="|31|10|44|.05">Regulation  .05 of this chapter</cite>, list the percentage of enrollees for which the carrier met the travel distance standards, in the following format, with provider types listed first in alphabetical order, followed by facility types in alphabetical order:</text>
           <text>
             <table>
-              <tbody>
+              <thead>
                 <tr>
-                  <td proof="needed" data-text-align="center"/>
-                  <td data-text-align="center">Urban Area</td>
-                  <td data-text-align="center">Suburban Area</td>
-                  <td data-text-align="center">Rural Area</td>
+                  <th proof="needed" data-text-align="center"/>
+                  <th>Urban Area</th>
+                  <th>Suburban Area</th>
+                  <th>Rural Area</th>
                 </tr>
+              </thead>
+              <tbody>
                 <tr>
                   <td data-text-align="center">Provider Type</td>
                   <td proof="needed" data-text-align="center"/>
@@ -2381,10 +2389,12 @@
           <text>For each appointment type listed in <cite path="|31|10|44|.06">Regulation .06 of this chapter</cite>, list the calculated median waiting time to obtain an in-person appointment with a participating provider, in the following format:</text>
           <text>
             <table>
-              <tbody>
+              <thead>
                 <tr>
-                  <td colspan="2" data-text-align="center">Appointment Waiting Time Standard Results</td>
+                  <th colspan="2">Appointment Waiting Time Standard Results</th>
                 </tr>
+              </thead>
+              <tbody>
                 <tr>
                   <td data-vertical-align="middle">Urgent care for medical services</td>
                   <td proof="needed" data-vertical-align="middle"/>

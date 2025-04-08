@@ -1525,14 +1525,16 @@
         <text>The following table lists the triggers for a substantial premium increase:</text>
         <text>
           <table class="layout-table">
+            <thead>
+              <tr>
+                <th colspan="2">Triggers for a Substantial Premium Increase</th>
+              </tr>
+              <tr>
+                <th>Issue Age</th>
+                <th>Percent Increase <br/>Over Initial Premium</th>
+              </tr>
+            </thead>
             <tbody>
-              <tr>
-                <td colspan="2" data-text-align="center">Triggers for a Substantial Premium Increase</td>
-              </tr>
-              <tr>
-                <td data-text-align="center">Issue Age</td>
-                <td data-text-align="center">Percent Increase <br/>Over Initial Premium</td>
-              </tr>
               <tr>
                 <td data-text-align="center" data-vertical-align="middle">29 and younger</td>
                 <td data-text-align="center" data-vertical-align="middle">200%</td>
@@ -1717,14 +1719,16 @@
           <text>The following table lists the triggers for a substantial premium increase for a long-term care insurance policy with a fixed or limited premium paying period:</text>
           <text>
             <table class="layout-table">
+              <thead>
+                <tr>
+                  <th colspan="2">Triggers for a Substantial Premium Increase</th>
+                </tr>
+                <tr>
+                  <th>Issue Age</th>
+                  <th>Percent Increase <br/>Over Initial Premium</th>
+                </tr>
+              </thead>
               <tbody>
-                <tr>
-                  <td colspan="2" data-text-align="center">Triggers for a Substantial Premium Increase</td>
-                </tr>
-                <tr>
-                  <td data-text-align="center">Issue Age</td>
-                  <td data-text-align="center">Percent Increase <br/>Over Initial Premium</td>
-                </tr>
                 <tr>
                   <td>Under 65</td>
                   <td data-text-align="center" data-vertical-align="middle">50%</td>
@@ -3148,15 +3152,17 @@
     <text>The purpose of this form is to report all rescissions of long-term care insurance policies or certificates. Those rescissions voluntarily effectuated by an insured are not required to be included in this report. Please furnish one form per rescission.</text>
     <text>
       <table>
-        <tbody>
+        <thead>
           <tr>
-            <td data-text-align="center" data-vertical-align="middle">Policy <br/>Form#</td>
-            <td data-text-align="center" data-vertical-align="middle">Policy and<br/>Certificate #</td>
-            <td data-text-align="center" data-vertical-align="middle">Name of <br/>Insured</td>
-            <td data-text-align="center" data-vertical-align="middle">Date of <br/>Policy <br/>Issuance</td>
-            <td data-text-align="center" data-vertical-align="middle">Date/s<br/>Claim/s<br/>Submitted</td>
-            <td data-text-align="center" data-vertical-align="middle">Date of <br/>Rescission</td>
+            <th>Policy <br/>Form#</th>
+            <th>Policy and<br/>Certificate #</th>
+            <th>Name of <br/>Insured</th>
+            <th>Date of <br/>Policy <br/>Issuance</th>
+            <th>Date/s<br/>Claim/s<br/>Submitted</th>
+            <th>Date of <br/>Rescission</th>
           </tr>
+        </thead>
+        <tbody>
           <tr>
             <td proof="needed" data-vertical-align="middle"/>
             <td proof="needed" data-vertical-align="middle"/>

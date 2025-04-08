@@ -761,14 +761,16 @@
         <text>Ceiling Concentrations.</text>
         <text>
           <table class="no-border-heading">
+            <thead>
+              <tr>
+                <th colspan="2">Table 1 — Ceiling Concentrations</th>
+              </tr>
+              <tr>
+                <th>Constituent</th>
+                <th>Ceiling Concentration<br/>(milligrams per kilogram)*</th>
+              </tr>
+            </thead>
             <tbody>
-              <tr>
-                <td colspan="2" data-text-align="center" data-vertical-align="middle">Table 1 — Ceiling Concentrations</td>
-              </tr>
-              <tr>
-                <td data-vertical-align="middle">Constituent</td>
-                <td data-vertical-align="middle">Ceiling Concentration<br/>(milligrams per kilogram)*</td>
-              </tr>
               <tr>
                 <td data-vertical-align="middle">Arsenic (As)</td>
                 <td data-text-align="center" data-vertical-align="middle">75</td>
@@ -823,14 +825,16 @@
         <text>Cumulative Constituent Loading Rates.</text>
         <text>
           <table class="no-border-heading">
+            <thead>
+              <tr>
+                <th colspan="2">Table 2 — Cumulative Constituent Loading Rates</th>
+              </tr>
+              <tr>
+                <th>Constituent</th>
+                <th>Cumulative Constituent Loading Rates<br/>(kilograms per hectare)</th>
+              </tr>
+            </thead>
             <tbody>
-              <tr>
-                <td colspan="2" data-text-align="center" data-vertical-align="middle">Table 2 — Cumulative Constituent Loading Rates</td>
-              </tr>
-              <tr>
-                <td data-vertical-align="middle">Constituent</td>
-                <td data-text-align="center" data-vertical-align="middle">Cumulative Constituent Loading Rates<br/>(kilograms per hectare)</td>
-              </tr>
               <tr>
                 <td data-vertical-align="middle">Arsenic (As)</td>
                 <td data-text-align="center" data-vertical-align="middle">41</td>
@@ -872,14 +876,16 @@
         <text>Constituent Concentrations.</text>
         <text>
           <table class="no-border-heading">
+            <thead>
+              <tr>
+                <th colspan="2">Table 3 — Constituent Concentrations</th>
+              </tr>
+              <tr>
+                <th>Constituent</th>
+                <th>Monthly Average Concentration<br/>(milligrams per kilogram)*</th>
+              </tr>
+            </thead>
             <tbody>
-              <tr>
-                <td colspan="2" data-text-align="center" data-vertical-align="middle">Table 3 — Constituent Concentrations</td>
-              </tr>
-              <tr>
-                <td data-vertical-align="middle">Constituent</td>
-                <td data-text-align="center" data-vertical-align="middle">Monthly Average Concentration<br/>(milligrams per kilogram)*</td>
-              </tr>
               <tr>
                 <td data-vertical-align="middle">Arsenic (As)</td>
                 <td data-text-align="center" data-vertical-align="middle">41</td>
@@ -926,14 +932,16 @@
         <text>Annual Constituent Loading Rates.</text>
         <text>
           <table class="no-border-heading">
+            <thead>
+              <tr>
+                <th colspan="2">Table 4 — Annual Constituent Loading Rates</th>
+              </tr>
+              <tr>
+                <th>Constituent</th>
+                <th>Annual constituent loading rates<br/>(kilograms per hectare per 365 day period)</th>
+              </tr>
+            </thead>
             <tbody>
-              <tr>
-                <td colspan="2" data-text-align="center" data-vertical-align="middle">Table 4 — Annual Constituent Loading Rates</td>
-              </tr>
-              <tr>
-                <td data-vertical-align="middle">Constituent</td>
-                <td data-text-align="center" data-vertical-align="middle">Annual constituent loading rates<br/>(kilograms per hectare per 365 day period)</td>
-              </tr>
               <tr>
                 <td data-vertical-align="middle">Arsenic (As)</td>
                 <td data-text-align="center" data-vertical-align="middle">2.0</td>
@@ -1227,15 +1235,17 @@
             <text>Table 1 – Base Fee Rate Adjustment Factors.</text>
             <text>
               <table>
+                <thead>
+                  <tr>
+                    <th rowspan="2">Utilization option</th>
+                    <th colspan="2">Base Fee Rate Adjustment Factor</th>
+                  </tr>
+                  <tr>
+                    <th>Meets<br/>Class A or<br/>Class B<br/>Treatment</th>
+                    <th>Does not<br/>meet Class A<br/>or Class B<br/>Treatment</th>
+                  </tr>
+                </thead>
                 <tbody>
-                  <tr>
-                    <td rowspan="2" data-text-align="center">Utilization option</td>
-                    <td colspan="2" data-text-align="center" data-vertical-align="middle">Base Fee Rate Adjustment Factor</td>
-                  </tr>
-                  <tr>
-                    <td data-text-align="center" data-vertical-align="middle">Meets<br/>Class A or<br/>Class B<br/>Treatment</td>
-                    <td data-text-align="center" data-vertical-align="middle">Does not<br/>meet Class A<br/>or Class B<br/>Treatment</td>
-                  </tr>
                   <tr>
                     <td data-vertical-align="middle">Transported out of State</td>
                     <td data-text-align="center" data-vertical-align="middle">0.5</td>
@@ -3999,15 +4009,17 @@
           <text>Table 1 — Minimum Buffer Distances</text>
           <text>
             <table>
+              <thead>
+                <tr>
+                  <th>Feature of Concern</th>
+                  <th colspan="2">Minimum Buffer Distance</th>
+                </tr>
+              </thead>
               <tbody>
                 <tr>
-                  <td data-vertical-align="middle">Feature of Concern</td>
-                  <td colspan="2" data-text-align="center" data-vertical-align="middle">Minimum Buffer Distance</td>
-                </tr>
-                <tr>
                   <td proof="needed" data-vertical-align="middle"/>
-                  <td data-text-align="center" data-vertical-align="middle">Surface Application of Sewage Sludge with no Incorporation</td>
-                  <td data-text-align="center" data-vertical-align="middle">Injection of Sewage Sludge or Surface Application of Sewage Sludge with Incorporation</td>
+                  <th>Surface Application of Sewage Sludge with no Incorporation</th>
+                  <th>Injection of Sewage Sludge or Surface Application of Sewage Sludge with Incorporation</th>
                 </tr>
                 <tr>
                   <td data-vertical-align="middle">Bedrock</td>

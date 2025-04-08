@@ -369,14 +369,16 @@
       <text>Table 1.</text>
       <text>
         <table>
-          <tbody>
+          <thead>
             <tr>
-              <td proof="needed"/>
-              <td data-text-align="center" data-vertical-align="middle">Use<br/>Constituting<br/>Disposal<br/>(1)</td>
-              <td data-text-align="center" data-vertical-align="middle">Energy<br/>Recovery/<br/>Fuel<br/>(2)</td>
-              <td data-text-align="center" data-vertical-align="bottom">Reclamation<br/>(3)</td>
-              <td data-text-align="center" data-vertical-align="bottom">Speculative<br/>Accumulation<br/>(4)</td>
+              <th proof="needed"/>
+              <th>Use<br/>Constituting<br/>Disposal<br/>(1)</th>
+              <th>Energy<br/>Recovery/<br/>Fuel<br/>(2)</th>
+              <th>Reclamation<br/>(3)</th>
+              <th>Speculative<br/>Accumulation<br/>(4)</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td>Spent materials</td>
               <td data-text-align="center" data-vertical-align="middle">(*)</td>
@@ -880,14 +882,16 @@
       <text>Table 1</text>
       <text>
         <table class="layout-table">
+          <thead>
+            <tr>
+              <th colspan="2">Generic Exclusion Levels for K061 and<br/>K062 Nonwastewater HTMR Residues</th>
+            </tr>
+            <tr>
+              <th>Constituent</th>
+              <th>Maximum for any single <br/>composite sample-TCLP (mg/l)</th>
+            </tr>
+          </thead>
           <tbody>
-            <tr>
-              <td colspan="2" data-text-align="center" data-vertical-align="middle">Generic Exclusion Levels for K061 and<br/>K062 Nonwastewater HTMR Residues</td>
-            </tr>
-            <tr>
-              <td>Constituent</td>
-              <td data-text-align="center">Maximum for any single <br/>composite sample-TCLP (mg/l)</td>
-            </tr>
             <tr>
               <td>Antimony</td>
               <td data-text-align="center" data-vertical-align="middle">0.10</td>
@@ -946,14 +950,16 @@
       <text>Table 2</text>
       <text>
         <table class="layout-table">
+          <thead>
+            <tr>
+              <th colspan="2">Generic Exclusion Levels for<br/>F006 Nonwastewater HTMR Residues</th>
+            </tr>
+            <tr>
+              <th>Constituent</th>
+              <th>Maximum for any single <br/>composite sample-TCLP (mg/l)</th>
+            </tr>
+          </thead>
           <tbody>
-            <tr>
-              <td colspan="2" data-text-align="center" data-vertical-align="middle">Generic Exclusion Levels for<br/>F006 Nonwastewater HTMR Residues</td>
-            </tr>
-            <tr>
-              <td>Constituent</td>
-              <td>Maximum for any single <br/>composite sample-TCLP (mg/l)</td>
-            </tr>
             <tr>
               <td>Antimony</td>
               <td data-text-align="center" data-vertical-align="middle">0.10</td>
@@ -3499,27 +3505,15 @@
     </aftertext>
     <aftertext>
       <table>
-        <tbody>
+        <thead>
           <tr>
-            <td data-text-align="center" data-vertical-align="bottom">
-              <em>EPA<br/>HW No.</em>
-              <sup>
-                <em>1</em>
-              </sup>
-            </td>
-            <td data-text-align="center" data-vertical-align="bottom">
-              <em>Contaminant</em>
-            </td>
-            <td data-text-align="center" data-vertical-align="bottom">
-              <em>CAS No.</em>
-              <sup>
-                <em>2</em>
-              </sup>
-            </td>
-            <td data-text-align="center" data-vertical-align="bottom">
-              <em>Regulatory <br/>Level <br/>(milligrams <br/>per liter)</em>
-            </td>
+            <th>EPA<br/>HW No.<sup>1</sup></th>
+            <th>Contaminant</th>
+            <th>CAS No.<sup>2</sup></th>
+            <th>Regulatory <br/>Level <br/>(milligrams <br/>per liter)</th>
           </tr>
+        </thead>
+        <tbody>
           <tr>
             <td>D004</td>
             <td>Arsenic</td>
@@ -3863,13 +3857,15 @@
         <text>TABLE 1 — Hazardous Waste from Nonspecific Sources</text>
         <text>
           <table>
-            <tbody>
+            <thead>
               <tr>
-                <td data-text-align="center" data-vertical-align="bottom">Industry</td>
-                <td data-text-align="center">EPA Hazardous Waste Number</td>
-                <td data-text-align="center" data-vertical-align="bottom">Hazardous Waste</td>
-                <td data-text-align="center" data-vertical-align="bottom">Hazard Code</td>
+                <th>Industry</th>
+                <th>EPA Hazardous Waste Number</th>
+                <th>Hazardous Waste</th>
+                <th>Hazard Code</th>
               </tr>
+            </thead>
+            <tbody>
               <tr>
                 <td>Generic</td>
                 <td>F001</td>
@@ -4429,19 +4425,15 @@
         <text><cite path="26.13.01.04|A.">COMAR 26.13.01.04A</cite> and C and listed in <cite path="|26|13|02|.26">Regulation .26 of this chapter</cite>:</text>
         <text>
           <table>
-            <tbody>
+            <thead>
               <tr>
-                <td data-text-align="center">Industry</td>
-                <td>
-                  <em>EPA<br/>Hazardous<br/>Waste Number</em>
-                </td>
-                <td data-text-align="center">
-                  <em>Hazardous Waste</em>
-                </td>
-                <td data-text-align="center">
-                  <em>Hazard<br/>Code</em>
-                </td>
+                <th>Industry</th>
+                <th>EPA<br/>Hazardous<br/>Waste Number</th>
+                <th>Hazardous Waste</th>
+                <th>Hazard<br/>Code</th>
               </tr>
+            </thead>
+            <tbody>
               <tr>
                 <td>Wood Preservation</td>
                 <td>K001</td>
@@ -5330,12 +5322,14 @@
         <text>Table 1.</text>
         <text>
           <table>
-            <tbody>
+            <thead>
               <tr>
-                <td data-vertical-align="middle">Constituent</td>
-                <td data-vertical-align="middle">Chemical Abstracts Service Number.</td>
-                <td data-vertical-align="middle">Mass Levels(kilograms per year)</td>
+                <th>Constituent</th>
+                <th>Chemical Abstracts Service Number.</th>
+                <th>Mass Levels(kilograms per year)</th>
               </tr>
+            </thead>
+            <tbody>
               <tr>
                 <td data-vertical-align="middle">Aniline</td>
                 <td data-vertical-align="middle">62-53-3</td>
@@ -5387,13 +5381,15 @@
     <heading>Hazardous Waste from Specific Sources (State).</heading>
     <text>
       <table>
-        <tbody>
+        <thead>
           <tr>
-            <td>Industry</td>
-            <td>EPA Hazardous Waste Number</td>
-            <td>Hazardous Waste</td>
-            <td>Hazard Code</td>
+            <th>Industry</th>
+            <th>EPA Hazardous Waste Number</th>
+            <th>Hazardous Waste</th>
+            <th>Hazard Code</th>
           </tr>
+        </thead>
+        <tbody>
           <tr>
             <td>Organic Chemical</td>
             <td>MD01</td>
@@ -5592,11 +5588,13 @@
       <text>The commercial chemical products, or manufacturing chemical intermediates, or off-specification commercial chemical products or manufacturing chemical intermediates referred to in §§A—D of this regulation are identified as acute hazardous wastes (H) and are subject to the small quantity exclusion defined in <cite path="|26|13|02|.05|C.">Regulation .05C of this chapter</cite>. These wastes and their corresponding EPA Hazardous Waste Numbers are:</text>
       <text>
         <table>
-          <tbody>
+          <thead>
             <tr>
-              <td>Hazardous<br/>Waste Number</td>
-              <td>Substance*</td>
+              <th>Hazardous<br/>Waste Number</th>
+              <th>Substance*</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td proof="needed"/>
               <td>1080 see P058</td>
@@ -7310,15 +7308,13 @@
       <text>The commercial chemical products, manufacturing chemical intermediates, or off-specification commercial chemical products, referred to in §§A—D of this regulation, are identified as toxic wastes (T) unless otherwise designated and are subject to the small quantity exclusion defined in Regulation .05A and C of this chapter. These wastes and their corresponding EPA Hazardous Waste Numbers are:</text>
       <text>
         <table>
-          <tbody>
+          <thead>
             <tr>
-              <td>
-                <em>Hazardous<br/>Waste Number</em>
-              </td>
-              <td>
-                <em>Substance*</em>
-              </td>
+              <th>Hazardous<br/>Waste Number</th>
+              <th>Substance*</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td proof="needed"/>
               <td>A2213 see U394</td>
@@ -9257,11 +9253,13 @@
       <text>and are subject to the same provisions as those identified in Regulation .19G:</text>
       <text>
         <table>
-          <tbody>
+          <thead>
             <tr>
-              <td>Hazardous<br/>Waste Number</td>
-              <td data-text-align="center" data-vertical-align="middle">Substance*</td>
+              <th>Hazardous<br/>Waste Number</th>
+              <th>Substance*</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td>MT01</td>
               <td>Polychlorinated biphenyls (50 to 500 ppm)</td>
@@ -9601,15 +9599,17 @@
     <heading>Basis for Listing Hazardous Wastes.</heading>
     <text>
       <table>
-        <tbody>
+        <thead>
           <tr>
-            <td>
+            <th>
               <em>EPA Hazardous<br/>Waste Number</em>
-            </td>
-            <td>
+            </th>
+            <th>
               <em>Hazardous Constituents For Which Listed</em>
-            </td>
+            </th>
           </tr>
+        </thead>
+        <tbody>
           <tr>
             <td>F001</td>
             <td>tetrachloroethylene, methylene chloride, trichloroethylene, 1,1,1-trichloroethane, chlorinated fluorocarbons, carbon tetrachloride</td>

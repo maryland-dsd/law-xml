@@ -1698,12 +1698,14 @@
     <heading>Table of Rare and Expensive Disease Diagnosis.</heading>
     <text>
       <table>
-        <tbody>
+        <thead>
           <tr>
-            <td data-text-align="center">ICD10</td>
-            <td data-text-align="center">ICD 10 Description</td>
-            <td data-text-align="center">Age Limit</td>
+            <th>ICD10</th>
+            <th>ICD 10 Description</th>
+            <th>Age Limit</th>
           </tr>
+        </thead>
+        <tbody>
           <tr>
             <td data-vertical-align="middle">B20</td>
             <td data-vertical-align="middle">Human immunodeficiency virus (HIV) disease</td>

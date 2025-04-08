@@ -174,11 +174,13 @@
       <text>Table I — Past Due Fees for Unregistered Facilities.</text>
       <text>
         <table>
-          <tbody>
+          <thead>
             <tr>
-              <td data-text-align="center">Machine Type</td>
-              <td data-text-align="center" data-vertical-align="middle">Past Due Fee CY 2011 Base<br/>(Per Tube, Per Year<br/>Without Registration*)</td>
+              <th>Machine Type</th>
+              <th>Past Due Fee CY 2011 Base<br/>(Per Tube, Per Year<br/>Without Registration*)</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td>Group 1** or Group 2 (Accelerator)</td>
               <td data-text-align="center" data-vertical-align="middle">$4,000</td>
@@ -222,16 +224,18 @@
       <text>Table 2 — Radiation Machine Fees.</text>
       <text>
         <table>
+          <thead>
+            <tr>
+              <th proof="needed"/>
+              <th colspan="2">CY 2011 Base</th>
+            </tr>
+            <tr>
+              <th>Machine Type</th>
+              <th>Biennial Fee<br/>Per Tube</th>
+              <th>Annual<br/>Installment</th>
+            </tr>
+          </thead>
           <tbody>
-            <tr>
-              <td proof="needed"/>
-              <td colspan="2" data-text-align="center" data-vertical-align="middle">CY 2011 Base</td>
-            </tr>
-            <tr>
-              <td data-text-align="center">Machine Type</td>
-              <td data-text-align="center" data-vertical-align="middle">Biennial Fee<br/>Per Tube</td>
-              <td data-text-align="center" data-vertical-align="middle">Annual<br/>Installment</td>
-            </tr>
             <tr>
               <td>Group 1 or Group 2 (Accelerator)</td>
               <td data-text-align="center" data-vertical-align="middle">$1,600</td>
@@ -281,12 +285,14 @@
       <text>Table 3 — Fees for Specific Radioactive Material Licenses and Reciprocity.</text>
       <text>
         <table>
-          <tbody>
+          <thead>
             <tr>
-              <td>Code*</td>
-              <td data-text-align="center" data-vertical-align="middle">CY 2011 Base<br/>Annual Fee</td>
-              <td data-text-align="center" data-vertical-align="middle">Definition</td>
+              <th>Code*</th>
+              <th>CY 2011 Base<br/>Annual Fee</th>
+              <th>Definition</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td>01100</td>
               <td data-text-align="center" data-vertical-align="middle">$2,600</td>
@@ -563,14 +569,16 @@
       <text>Table 4—Fees for Sealed Source and Device Sheets.</text>
       <text>
         <table class="layout-table">
-          <tbody>
+          <thead>
             <tr>
-              <td>SS &amp; D Type</td>
-              <td>Scope</td>
-              <td>CY 2011 Base<br/>Annual Fee<sup>3</sup></td>
-              <td>CY 2011 Base<br/>Application Fee<sup>3</sup></td>
-              <td>CY 2011 Base<br/>Modification Fee</td>
+              <th>SS &amp; D Type</th>
+              <th>Scope</th>
+              <th>CY 2011 Base<br/>Annual Fee<sup>3</sup></th>
+              <th>CY 2011 Base<br/>Application Fee<sup>3</sup></th>
+              <th>CY 2011 Base<br/>Modification Fee</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td>Sealed Sources</td>
               <td>Multiple User<sup>1</sup></td>

@@ -1219,12 +1219,14 @@
         <text>The standards in the following table:</text>
         <text>
           <table>
-            <tbody>
+            <thead>
               <tr>
-                <td data-text-align="center">Product</td>
-                <td data-text-align="center">Measure</td>
-                <td data-text-align="center" data-vertical-align="middle">Standard</td>
+                <th>Product</th>
+                <th>Measure</th>
+                <th>Standard</th>
               </tr>
+            </thead>
+            <tbody>
               <tr>
                 <td rowspan="2">Buttermilk (Condensed)</td>
                 <td data-text-align="center">Temperature</td>

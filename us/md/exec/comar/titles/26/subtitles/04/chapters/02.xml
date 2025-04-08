@@ -711,11 +711,13 @@
       <text>The following horizontal separation distances are required to be maintained between the on-site disposal system including its recovery area and the features listed although greater distances may be required at the discretion of the Approving Authority:</text>
       <text>
         <table>
-          <tbody>
+          <thead>
             <tr>
-              <td data-vertical-align="middle">Feature</td>
-              <td data-vertical-align="middle">Separation<br/>Distance</td>
+              <th>Feature</th>
+              <th>Separation<br/>Distance</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td data-vertical-align="middle">(1) All steep slopes (&gt;25 percent)</td>
               <td data-vertical-align="middle">25 feet</td>
@@ -810,14 +812,16 @@
       <text>Residential Septic Tank Size Criteria. Septic tanks serving a residential use, not requiring a BAT system, shall meet the following criteria and tables. This table provides for use of garbage disposal units, automatic clothes washers, and other household appliances.</text>
       <text>
         <table>
+          <thead>
+            <tr>
+              <th colspan="2">Septic Tank Criteria</th>
+            </tr>
+            <tr>
+              <th>Number of Bedrooms</th>
+              <th>Minimum Septic <br/>Tank Capacity <br/>Below Outlet</th>
+            </tr>
+          </thead>
           <tbody>
-            <tr>
-              <td colspan="2" data-text-align="center" data-vertical-align="middle">Septic Tank Criteria</td>
-            </tr>
-            <tr>
-              <td data-vertical-align="middle">Number of Bedrooms</td>
-              <td data-text-align="center" data-vertical-align="middle">Minimum Septic <br/>Tank Capacity <br/>Below Outlet</td>
-            </tr>
             <tr>
               <td data-vertical-align="middle">3 or less</td>
               <td data-text-align="center" data-vertical-align="middle">1,000 gallon</td>
@@ -946,14 +950,16 @@
         <text>The maximum loading rates for on-site disposal of sewage by sewage disposal systems are as follows:</text>
         <text>
           <table>
+            <thead>
+              <tr>
+                <th colspan="2">Maximum Loading Rates for Systems with Design Flow Less than<br/>5,000 Gallons per Day</th>
+              </tr>
+              <tr>
+                <th>Percolation Rate in Minutes for<br/>1-Inch Drop After Prewetting</th>
+                <th>Maximum Loading Rate<br/>(Gallons per Day per Square Foot)</th>
+              </tr>
+            </thead>
             <tbody>
-              <tr>
-                <td colspan="2" data-text-align="center" data-vertical-align="middle">Maximum Loading Rates for Systems with Design Flow Less than<br/>5,000 Gallons per Day</td>
-              </tr>
-              <tr>
-                <td data-text-align="center" data-vertical-align="middle">Percolation Rate in Minutes for<br/>1-Inch Drop After Prewetting</td>
-                <td data-text-align="center" data-vertical-align="middle">Maximum Loading Rate<br/>(Gallons per Day per Square Foot)</td>
-              </tr>
               <tr>
                 <td data-vertical-align="middle">2 — 5</td>
                 <td data-text-align="center" data-vertical-align="middle">1.2</td>
@@ -971,16 +977,18 @@
         </text>
         <text>
           <table>
+            <thead>
+              <tr>
+                <th colspan="4">Maximum Loading Rates for On-Site Disposal by Sewage Disposal Systems with Design Flow Greater Than or Equal to 5,000 Gallons Per Day</th>
+              </tr>
+              <tr>
+                <th>Percolation Rate in Minutes for 1-Inch Drop After Prewetting</th>
+                <th>Maximum Loading Rate (Gallons / Day/ ft<sup>2</sup>)</th>
+                <th>Maximum Loading Rate for effluent with  BOD<sub>5</sub> and TSS 30 mg/l or less  * (Gallons / Day/ ft<sup>2</sup>)</th>
+                <th>Maximum Loading Rate for MBR effluent **(Gallons / Day/ ft<sup>2</sup>)</th>
+              </tr>
+            </thead>
             <tbody>
-              <tr>
-                <td colspan="4" data-text-align="center" data-vertical-align="middle">Maximum Loading Rates for On-Site Disposal by Sewage Disposal Systems with Design Flow Greater Than or Equal to 5,000 Gallons Per Day</td>
-              </tr>
-              <tr>
-                <td data-text-align="center" data-vertical-align="middle">Percolation Rate in Minutes for 1-Inch Drop After Prewetting</td>
-                <td data-text-align="center" data-vertical-align="middle">Maximum Loading Rate (Gallons / Day/ ft<sup>2</sup>)</td>
-                <td data-text-align="center" data-vertical-align="middle">Maximum Loading Rate for effluent with  BOD<sub>5</sub> and TSS 30 mg/l or less  * (Gallons / Day/ ft<sup>2</sup>)</td>
-                <td data-text-align="center" data-vertical-align="middle">Maximum Loading Rate for MBR effluent **(Gallons / Day/ ft<sup>2</sup>)</td>
-              </tr>
               <tr>
                 <td data-text-align="center" data-vertical-align="middle">2—5</td>
                 <td data-text-align="center" data-vertical-align="middle">0.8</td>

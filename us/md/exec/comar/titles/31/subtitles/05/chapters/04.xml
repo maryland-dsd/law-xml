@@ -121,13 +121,13 @@
           <tr>
             <th colspan="3">1983 TABLE "a"—1,000qx</th>
           </tr>
+          <tr>
+            <th>Age</th>
+            <th>Males</th>
+            <th>Females</th>
+          </tr>
         </thead>
         <tbody>
-          <tr>
-            <td>Age</td>
-            <td>Males</td>
-            <td>Females</td>
-          </tr>
           <tr>
             <td>5</td>
             <td>0.377</td>
@@ -693,16 +693,18 @@
     <heading>Annuity 2000 Mortality Table.</heading>
     <text>
       <table>
+        <thead>
+          <tr>
+            <th proof="needed"/>
+            <th colspan="2">1000q</th>
+          </tr>
+          <tr>
+            <th>Age Nearest Birthday (x)</th>
+            <th>Male</th>
+            <th>Female*</th>
+          </tr>
+        </thead>
         <tbody>
-          <tr>
-            <td proof="needed"/>
-            <td colspan="2" data-text-align="center" data-vertical-align="middle">1000q</td>
-          </tr>
-          <tr>
-            <td>Age Nearest Birthday (x)</td>
-            <td>Male</td>
-            <td>Female*</td>
-          </tr>
           <tr>
             <td>5</td>
             <td>0.291</td>
@@ -1311,16 +1313,18 @@
     <text>The 2012 Individual Annuity Mortality Period Life Table, as shown below, is the mortality table designated by that name and developed by the Society of Actuaries Committee on Life Insurance Research.</text>
     <text>
       <table>
+        <thead>
+          <tr>
+            <th proof="needed" data-vertical-align="middle"/>
+            <th colspan="2">1000 q<sub>x</sub><sup>2012</sup></th>
+          </tr>
+          <tr>
+            <th>Age Nearest Birthday</th>
+            <th>Male</th>
+            <th>Female</th>
+          </tr>
+        </thead>
         <tbody>
-          <tr>
-            <td proof="needed" data-vertical-align="middle"/>
-            <td colspan="2" data-text-align="center" data-vertical-align="middle">1000 q<sub>x</sub><sup>2012</sup></td>
-          </tr>
-          <tr>
-            <td data-text-align="center" data-vertical-align="middle">Age Nearest Birthday</td>
-            <td data-text-align="center" data-vertical-align="middle">Male</td>
-            <td data-text-align="center" data-vertical-align="middle">Female</td>
-          </tr>
           <tr>
             <td data-vertical-align="middle">0</td>
             <td data-vertical-align="middle">1.605</td>
@@ -1937,16 +1941,18 @@
     <text>Projection Scale G2, as shown below, is a table containing annual rates, G2<sub>x</sub> , of mortality improvement by age for projecting future mortality rates beyond calendar year 2012 and was developed by the Society of Actuaries Committee on Life Insurance Research.</text>
     <text>
       <table>
+        <thead>
+          <tr>
+            <th proof="needed" data-vertical-align="middle"/>
+            <th colspan="2">G2<sub>x</sub></th>
+          </tr>
+          <tr>
+            <th>Age Nearest Birthday</th>
+            <th>Male</th>
+            <th>Female</th>
+          </tr>
+        </thead>
         <tbody>
-          <tr>
-            <td proof="needed" data-vertical-align="middle"/>
-            <td colspan="2" data-text-align="center" data-vertical-align="middle">G2<sub>x</sub></td>
-          </tr>
-          <tr>
-            <td data-text-align="center" data-vertical-align="middle">Age Nearest Birthday</td>
-            <td data-text-align="center" data-vertical-align="middle">Male</td>
-            <td data-text-align="center" data-vertical-align="middle">Female</td>
-          </tr>
           <tr>
             <td data-vertical-align="middle">0</td>
             <td data-vertical-align="middle">0.010</td>

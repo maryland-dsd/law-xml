@@ -549,11 +549,13 @@
         <text>Subject to <cite path="|31|10|06|.31|A.">Regulation .31A of this chapter</cite>, an insurer shall make available to applicants who qualify under <cite path="31|10|06|.06|A.|(1)|(b)">§A(1)(b) of this regulation</cite> Medicare supplement policies or certificates with benefits that are equal to or less than the benefits of the applicant’s existing Medicare supplement policy or certificate.  For the purpose of this regulation, “benefits that are equal to or less than the benefits of the applicant’s existing Medicare supplement policy or certificate” means a policy or certificate of the same or lower benefit level as indicated in the below chart.</text>
         <text>
           <table>
-            <tbody>
+            <thead>
               <tr>
-                <td data-text-align="center">Existing Plan</td>
-                <td data-text-align="center">Lesser or Equal Plan</td>
+                <th>Existing Plan</th>
+                <th>Lesser or Equal Plan</th>
               </tr>
+            </thead>
+            <tbody>
               <tr>
                 <td>Plan A</td>
                 <td>Plan A</td>
@@ -2401,10 +2403,12 @@
       <text>Medicare Supplement Refund Calculation Form.</text>
       <text>
         <table class="layout-table">
-          <tbody>
+          <thead>
             <tr>
-              <td colspan="2" data-text-align="center" data-vertical-align="middle">MEDICARE SUPPLEMENT REFUND CALCULATION FORM<br/>FOR CALENDAR YEAR _____</td>
+              <th colspan="2">MEDICARE SUPPLEMENT REFUND CALCULATION FORM<br/>FOR CALENDAR YEAR _____</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td data-vertical-align="middle">TYPE<sup>1</sup>___________________________________</td>
               <td data-vertical-align="middle">SMSBP<sup>2</sup>_______________________________________</td>
@@ -2432,10 +2436,10 @@
         <table class="layout-table">
           <tbody>
             <tr>
-              <td data-vertical-align="middle">line</td>
+              <th>line</th>
               <td proof="needed" data-vertical-align="middle"/>
-              <td data-vertical-align="middle" class="text-indent-1">(a) Earned Premium<sup>3</sup></td>
-              <td data-vertical-align="middle" class="text-indent-1">(b) Incurred Claims<sup>4</sup></td>
+              <th>(a) Earned Premium<sup>3</sup></th>
+              <th>(b) Incurred Claims<sup>4</sup></th>
             </tr>
             <tr>
               <td data-text-align="right" data-vertical-align="middle">1</td>
@@ -2538,10 +2542,12 @@
       </text>
       <text>
         <table class="layout-table">
-          <tbody>
+          <thead>
             <tr>
-              <td colspan="2" data-text-align="center" data-vertical-align="middle">MEDICARE SUPPLEMENT REFUND CALCULATION FORM<br/>FOR CALENDAR YEAR _____</td>
+              <th colspan="2">MEDICARE SUPPLEMENT REFUND CALCULATION FORM<br/>FOR CALENDAR YEAR _____</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td data-vertical-align="middle">TYPE<sup>1</sup>___________________________________</td>
               <td data-vertical-align="middle">SMSBP<sup>2</sup>_______________________________________</td>
@@ -2663,10 +2669,12 @@
       </text>
       <text>
         <table class="layout-table">
-          <tbody>
+          <thead>
             <tr>
-              <td colspan="2" data-text-align="center" data-vertical-align="middle">MEDICARE SUPPLEMENT REFUND CALCULATION FORM<br/>FOR CALENDAR YEAR _____</td>
+              <th colspan="2">MEDICARE SUPPLEMENT REFUND CALCULATION FORM<br/>FOR CALENDAR YEAR _____</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td data-vertical-align="middle">TYPE<sup>1</sup>___________________________________</td>
               <td data-vertical-align="middle">SMSBP<sup>2</sup>_______________________________________</td>
@@ -2710,10 +2718,12 @@
       <text>Reporting Form for Benchmark Ratio for Group Policies.</text>
       <text>
         <table class="layout-table">
-          <tbody>
+          <thead>
             <tr>
-              <td colspan="2" data-text-align="center" data-vertical-align="middle">REPORTING FORM FOR THE CALCULATION OF BENCHMARK RATIO <br/>SINCE INCEPTION FOR GROUP POLICIES <br/>FOR CALENDAR YEAR ________</td>
+              <th colspan="2">REPORTING FORM FOR THE CALCULATION OF BENCHMARK RATIO <br/>SINCE INCEPTION FOR GROUP POLICIES <br/>FOR CALENDAR YEAR ________</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td data-vertical-align="middle">TYPE<sup>1</sup>___________________________________</td>
               <td data-vertical-align="middle">SMSBP<sup>2</sup>_______________________________________</td>
@@ -2739,33 +2749,35 @@
       </text>
       <text>
         <table class="layout-table">
+          <thead>
+            <tr>
+              <th>(a)<sup>3</sup></th>
+              <th>(b)<sup>4</sup></th>
+              <th>(c)</th>
+              <th>(d)</th>
+              <th>(e)</th>
+              <th>(f)</th>
+              <th>(g)</th>
+              <th>(h)</th>
+              <th>(i)</th>
+              <th>(j)</th>
+              <th>(o)<sup>5</sup></th>
+            </tr>
+            <tr>
+              <th>Year</th>
+              <th>Earned <br/>Premium</th>
+              <th>Factor</th>
+              <th>(b) × (c)</th>
+              <th>Cumulative<br/>Loss Ratio</th>
+              <th>(d) × (e)</th>
+              <th>Factor</th>
+              <th>(b) × (g)</th>
+              <th>Cumulative<br/>Loss Ratio</th>
+              <th>(h) × (i)</th>
+              <th>Policy Year<br/>Loss Ratio</th>
+            </tr>
+          </thead>
           <tbody>
-            <tr>
-              <td data-text-align="center" data-vertical-align="middle" class="text-indent-1">(a)<sup>3</sup></td>
-              <td data-text-align="center" data-vertical-align="middle" class="text-indent-1">(b)<sup>4</sup></td>
-              <td data-text-align="center" data-vertical-align="middle" class="text-indent-1">(c)</td>
-              <td data-text-align="center" data-vertical-align="middle" class="text-indent-1">(d)</td>
-              <td data-text-align="center" data-vertical-align="middle" class="text-indent-1">(e)</td>
-              <td data-text-align="center" data-vertical-align="middle" class="text-indent-1">(f)</td>
-              <td data-text-align="center" data-vertical-align="middle" class="text-indent-1">(g)</td>
-              <td data-text-align="center" data-vertical-align="middle" class="text-indent-1">(h)</td>
-              <td data-text-align="center" data-vertical-align="middle" class="text-indent-1">(i)</td>
-              <td data-text-align="center" data-vertical-align="middle" class="text-indent-1">(j)</td>
-              <td data-text-align="center" data-vertical-align="middle" class="text-indent-1">(o)<sup>5</sup></td>
-            </tr>
-            <tr>
-              <td data-text-align="center" data-vertical-align="bottom">Year</td>
-              <td data-vertical-align="bottom">Earned <br/>Premium</td>
-              <td data-text-align="center" data-vertical-align="bottom">Factor</td>
-              <td data-text-align="center" data-vertical-align="bottom" class="text-indent-1">(b) × (c)</td>
-              <td data-text-align="center" data-vertical-align="bottom">Cumulative<br/>Loss Ratio</td>
-              <td data-text-align="center" data-vertical-align="bottom" class="text-indent-1">(d) × (e)</td>
-              <td data-vertical-align="bottom">Factor</td>
-              <td data-text-align="center" data-vertical-align="bottom" class="text-indent-1">(b) × (g)</td>
-              <td data-text-align="center" data-vertical-align="bottom">Cumulative<br/>Loss Ratio</td>
-              <td data-text-align="center" data-vertical-align="bottom" class="text-indent-1">(h) × (i)</td>
-              <td data-text-align="center" data-vertical-align="bottom">Policy Year<br/>Loss Ratio</td>
-            </tr>
             <tr>
               <td data-text-align="center" data-vertical-align="middle">1</td>
               <td proof="needed"/>
@@ -3003,10 +3015,12 @@
       <text>Reporting Form for Benchmark Ratio for Individual Policies.</text>
       <text>
         <table class="layout-table">
-          <tbody>
+          <thead>
             <tr>
-              <td colspan="2" data-text-align="center" data-vertical-align="middle">REPORTING FORM FOR THE CALCULATION OF BENCHMARK RATIO <br/>SINCE INCEPTION FOR GROUP POLICIES <br/>FOR CALENDAR YEAR ________</td>
+              <th colspan="2">REPORTING FORM FOR THE CALCULATION OF BENCHMARK RATIO <br/>SINCE INCEPTION FOR GROUP POLICIES <br/>FOR CALENDAR YEAR ________</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td data-vertical-align="middle">TYPE<sup>1</sup>___________________________________</td>
               <td data-vertical-align="middle">SMSBP<sup>2</sup>_______________________________________</td>
@@ -3046,33 +3060,35 @@
     <text>The following form is to be used in making reports of multiple policies in accordance with the requirements of <cite path="|31|10|06|.17">Regulation .17 of this chapter</cite>:</text>
     <text>
       <table class="layout-table">
+        <thead>
+          <tr>
+            <th>(a)<sup>3</sup></th>
+            <th>(b)<sup>4</sup></th>
+            <th>(c)</th>
+            <th>(d)</th>
+            <th>(e)</th>
+            <th>(f)</th>
+            <th>(g)</th>
+            <th>(h)</th>
+            <th>(i)</th>
+            <th>(j)</th>
+            <th>(o)<sup>5</sup></th>
+          </tr>
+          <tr>
+            <th>Year</th>
+            <th>Earned <br/>Premium</th>
+            <th>Factor</th>
+            <th>(b) × (c)</th>
+            <th>Cumulative<br/>Loss Ratio</th>
+            <th>(d) × (e)</th>
+            <th>Factor</th>
+            <th>(b) × (g)</th>
+            <th>Cumulative<br/>Loss Ratio</th>
+            <th>(h) × (i)</th>
+            <th>Policy Year<br/>Loss Ratio</th>
+          </tr>
+        </thead>
         <tbody>
-          <tr>
-            <td data-text-align="center" data-vertical-align="middle" class="text-indent-2">(a)<sup>3</sup></td>
-            <td data-text-align="center" data-vertical-align="middle" class="text-indent-2">(b)<sup>4</sup></td>
-            <td data-text-align="center" data-vertical-align="middle" class="text-indent-2">(c)</td>
-            <td data-text-align="center" data-vertical-align="middle" class="text-indent-2">(d)</td>
-            <td data-text-align="center" data-vertical-align="middle" class="text-indent-2">(e)</td>
-            <td data-text-align="center" data-vertical-align="middle" class="text-indent-2">(f)</td>
-            <td data-text-align="center" data-vertical-align="middle" class="text-indent-2">(g)</td>
-            <td data-text-align="center" data-vertical-align="middle" class="text-indent-2">(h)</td>
-            <td data-text-align="center" data-vertical-align="middle" class="text-indent-2">(i)</td>
-            <td data-text-align="center" data-vertical-align="middle" class="text-indent-2">(j)</td>
-            <td data-text-align="center" data-vertical-align="middle" class="text-indent-2">(o)<sup>5</sup></td>
-          </tr>
-          <tr>
-            <td data-text-align="center" data-vertical-align="bottom">Year</td>
-            <td data-vertical-align="bottom">Earned <br/>Premium</td>
-            <td data-text-align="center" data-vertical-align="bottom">Factor</td>
-            <td data-text-align="center" data-vertical-align="bottom" class="text-indent-2">(b) × (c)</td>
-            <td data-text-align="center" data-vertical-align="bottom">Cumulative<br/>Loss Ratio</td>
-            <td data-text-align="center" data-vertical-align="bottom" class="text-indent-2">(d) × (e)</td>
-            <td data-text-align="center" data-vertical-align="bottom">Factor</td>
-            <td data-text-align="center" data-vertical-align="bottom" class="text-indent-2">(b) × (g)</td>
-            <td data-text-align="center" data-vertical-align="bottom">Cumulative<br/>Loss Ratio</td>
-            <td data-text-align="center" data-vertical-align="bottom" class="text-indent-2">(h) × (i)</td>
-            <td data-text-align="center" data-vertical-align="bottom">Policy Year<br/>Loss Ratio</td>
-          </tr>
           <tr>
             <td data-text-align="center" data-vertical-align="middle">1</td>
             <td proof="needed"/>
@@ -3300,10 +3316,12 @@
     <text>The purpose of this form is to report the following information on each resident of this state who has in force more than one Medicare supplement policy or certificate. The information is to be grouped by individual policyholder.</text>
     <text>
       <table class="layout-table">
-        <tbody>
+        <thead>
           <tr>
-            <td colspan="2" data-text-align="center" data-vertical-align="middle">FORM FOR REPORTING<br/>MEDICARE SUPPLEMENT POLICIES</td>
+            <th colspan="2">FORM FOR REPORTING<br/>MEDICARE SUPPLEMENT POLICIES</th>
           </tr>
+        </thead>
+        <tbody>
           <tr>
             <td data-vertical-align="middle">Company name:</td>
             <td data-vertical-align="middle">________________________________________</td>
@@ -3329,11 +3347,13 @@
     </text>
     <text>
       <table>
-        <tbody>
+        <thead>
           <tr>
-            <td data-text-align="center" data-vertical-align="middle">Policy and<br/>Certificate #</td>
-            <td data-text-align="center" data-vertical-align="middle">Date of<br/>Issuance</td>
+            <th>Policy and<br/>Certificate #</th>
+            <th>Date of<br/>Issuance</th>
           </tr>
+        </thead>
+        <tbody>
           <tr>
             <td proof="needed" data-vertical-align="middle"/>
             <td proof="needed" data-vertical-align="middle"/>

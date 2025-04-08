@@ -836,29 +836,31 @@
         <text>Table 1. Toxic Substances Criteria for Ambient Surface Waters — Inorganic Substances.</text>
         <text>
           <table>
+            <thead>
+              <tr>
+                <th rowspan="3">Substance</th>
+                <th rowspan="3">CAS#</th>
+                <th colspan="6">Aquatic Life (μg/L)</th>
+                <th colspan="3">Human Health for<br/>Consumption of:</th>
+              </tr>
+              <tr>
+                <th colspan="2">Fresh Water</th>
+                <th colspan="2">Estuarine<br/>Water</th>
+                <th colspan="2">Salt Water</th>
+                <th rowspan="2">Drinking Water<br/>+<br/>Organism<br/>(μg/L)</th>
+                <th rowspan="2">Organism<br/>Only<br/>(μg/L<em>)</em></th>
+                <th rowspan="2">Drinking<br/>Water<br/>MCL<br/>(mg/L)</th>
+              </tr>
+              <tr>
+                <th>Acute</th>
+                <th>Chronic</th>
+                <th>Acute</th>
+                <th>Chronic</th>
+                <th>Acute</th>
+                <th>Chronic</th>
+              </tr>
+            </thead>
             <tbody>
-              <tr>
-                <td rowspan="3" data-vertical-align="middle">Substance</td>
-                <td rowspan="3" data-vertical-align="middle">CAS#</td>
-                <td colspan="6" data-text-align="center" data-vertical-align="middle">Aquatic Life (μg/L)</td>
-                <td colspan="3" data-text-align="center" data-vertical-align="middle">Human Health for<br/>Consumption of:</td>
-              </tr>
-              <tr>
-                <td colspan="2" data-vertical-align="middle">Fresh Water</td>
-                <td colspan="2" data-text-align="center" data-vertical-align="middle">Estuarine<br/>Water</td>
-                <td colspan="2" data-vertical-align="middle">Salt Water</td>
-                <td rowspan="2" data-text-align="center" data-vertical-align="middle">Drinking Water<br/>+<br/>Organism<br/>(μg/L)</td>
-                <td rowspan="2" data-text-align="center" data-vertical-align="middle">Organism<br/>Only<br/>(μg/L<em>)</em></td>
-                <td rowspan="2" data-text-align="center" data-vertical-align="middle">Drinking<br/>Water<br/>MCL<br/>(mg/L)</td>
-              </tr>
-              <tr>
-                <td data-vertical-align="middle">Acute</td>
-                <td>Chronic</td>
-                <td>Acute</td>
-                <td>Chronic</td>
-                <td>Acute</td>
-                <td>Chronic</td>
-              </tr>
               <tr>
                 <td data-vertical-align="middle">Antimony</td>
                 <td data-vertical-align="middle">7440360</td>
@@ -1135,15 +1137,17 @@
         <text>Table 2. Coefficients Used to Adjust Applicable Numerical Toxic Substance Fresh Water Aquatic Life Criteria. *</text>
         <text>
           <table>
-            <tbody>
+            <thead>
               <tr>
-                <td data-vertical-align="middle">Substance</td>
-                <td data-vertical-align="middle">CAS#</td>
-                <td data-vertical-align="middle">mA</td>
-                <td data-vertical-align="middle">bA</td>
-                <td data-vertical-align="middle">mC</td>
-                <td data-vertical-align="middle">bC</td>
+                <th>Substance</th>
+                <th>CAS#</th>
+                <th>mA</th>
+                <th>bA</th>
+                <th>mC</th>
+                <th>bC</th>
               </tr>
+            </thead>
+            <tbody>
               <tr>
                 <td data-vertical-align="middle">Cadmium</td>
                 <td data-vertical-align="middle">7440439</td>
@@ -1201,13 +1205,15 @@
         <text>Table 3. Conversion Factors Used to Adjust Applicable Numerical Toxic Substance Fresh Water Aquatic Life Criteria.</text>
         <text>
           <table>
-            <tbody>
+            <thead>
               <tr>
-                <td data-vertical-align="middle">Substance</td>
-                <td data-vertical-align="middle">CAS#</td>
-                <td data-vertical-align="middle">Freshwater Acute Conversion Factor (CF)</td>
-                <td data-vertical-align="middle">Freshwater Chronic Conversion Factor (CF)</td>
+                <th>Substance</th>
+                <th>CAS#</th>
+                <th>Freshwater Acute Conversion Factor (CF)</th>
+                <th>Freshwater Chronic Conversion Factor (CF)</th>
               </tr>
+            </thead>
+            <tbody>
               <tr>
                 <td data-vertical-align="middle">Cadmium</td>
                 <td data-vertical-align="middle">7440439</td>
@@ -1256,26 +1262,28 @@
         <text>Table 4. Toxic Substances for Ambient Water Quality Criteria — Organic Compounds.</text>
         <text>
           <table>
+            <thead>
+              <tr>
+                <th rowspan="3">Substance</th>
+                <th rowspan="3">CAS#</th>
+                <th colspan="4">Aquatic Life (μg/L)</th>
+                <th colspan="3">Human Health for<br/>Consumption of:</th>
+              </tr>
+              <tr>
+                <th colspan="2">Fresh Water</th>
+                <th colspan="2">Salt Water</th>
+                <th rowspan="2">Drinking Water<br/>+<br/>Organism<br/>(μg/L)</th>
+                <th rowspan="2">Organism<br/>Only<br/>(μg/L)</th>
+                <th rowspan="2">Drinking<br/>Water<br/>MCL<br/>(mg/L)</th>
+              </tr>
+              <tr>
+                <th>Acute</th>
+                <th>Chronic</th>
+                <th>Acute</th>
+                <th>Chronic</th>
+              </tr>
+            </thead>
             <tbody>
-              <tr>
-                <td rowspan="3" data-vertical-align="middle">Substance</td>
-                <td rowspan="3" data-vertical-align="middle">CAS#</td>
-                <td colspan="4" data-text-align="center" data-vertical-align="middle">Aquatic Life (μg/L)</td>
-                <td colspan="3" data-text-align="center" data-vertical-align="middle">Human Health for<br/>Consumption of:</td>
-              </tr>
-              <tr>
-                <td colspan="2" data-text-align="center" data-vertical-align="middle">Fresh Water</td>
-                <td colspan="2" data-text-align="center" data-vertical-align="middle">Salt Water</td>
-                <td rowspan="2" data-text-align="center" data-vertical-align="middle">Drinking Water<br/>+<br/>Organism<br/>(μg/L)</td>
-                <td rowspan="2" data-text-align="center" data-vertical-align="middle">Organism<br/>Only<br/>(μg/L)</td>
-                <td rowspan="2" data-text-align="center" data-vertical-align="middle">Drinking<br/>Water<br/>MCL<br/>(mg/L)</td>
-              </tr>
-              <tr>
-                <td data-vertical-align="middle">Acute</td>
-                <td>Chronic</td>
-                <td>Acute</td>
-                <td>Chronic</td>
-              </tr>
               <tr>
                 <td data-vertical-align="middle">1,1 Dichloroethylene (DCE)</td>
                 <td data-vertical-align="middle">75354</td>
@@ -1959,26 +1967,28 @@
         <text>Table 5. Toxic Substances for Ambient Water Quality Criteria-Polycyclic Aromatic Hydrocarbons and Phthalates.</text>
         <text>
           <table>
+            <thead>
+              <tr>
+                <th rowspan="3">Substance</th>
+                <th rowspan="3">CAS#</th>
+                <th colspan="4">Aquatic Life (μg/L)</th>
+                <th colspan="3">Human Health for<br/>Consumption of:</th>
+              </tr>
+              <tr>
+                <th colspan="2">Fresh Water</th>
+                <th colspan="2">Salt Water</th>
+                <th rowspan="2">Drinking Water<br/>+<br/>Organism<br/>(μg/L)</th>
+                <th rowspan="2">Organism<br/>Only<br/>(μg/L)</th>
+                <th rowspan="2">Drinking<br/>Water<br/>MCL<br/>(mg/L)</th>
+              </tr>
+              <tr>
+                <th>Acute</th>
+                <th>Chronic</th>
+                <th>Acute</th>
+                <th>Chronic</th>
+              </tr>
+            </thead>
             <tbody>
-              <tr>
-                <td rowspan="3" data-vertical-align="middle">Substance</td>
-                <td rowspan="3" data-vertical-align="middle">CAS#</td>
-                <td colspan="4" data-text-align="center" data-vertical-align="middle">Aquatic Life (μg/L)</td>
-                <td colspan="3" data-text-align="center" data-vertical-align="middle">Human Health for<br/>Consumption of:</td>
-              </tr>
-              <tr>
-                <td colspan="2" data-text-align="center" data-vertical-align="middle">Fresh Water</td>
-                <td colspan="2" data-text-align="center" data-vertical-align="middle">Salt Water</td>
-                <td rowspan="2" data-text-align="center" data-vertical-align="middle">Drinking Water<br/>+<br/>Organism<br/>(μg/L)</td>
-                <td rowspan="2" data-text-align="center" data-vertical-align="middle">Organism<br/>Only<br/>(μg/L)</td>
-                <td rowspan="2" data-text-align="center" data-vertical-align="middle">Drinking<br/>Water<br/>MCL<br/>(mg/L)</td>
-              </tr>
-              <tr>
-                <td>Acute</td>
-                <td>Chronic</td>
-                <td>Acute</td>
-                <td>Chronic</td>
-              </tr>
               <tr>
                 <td data-vertical-align="middle">Acenaphthene</td>
                 <td data-vertical-align="middle">83329</td>
@@ -2177,26 +2187,28 @@
         <text>Table 6. Toxic Substances for Ambient Water Quality Criteria — Pesticides and Chlorinated Compounds.</text>
         <text>
           <table>
+            <thead>
+              <tr>
+                <th rowspan="3">Substance</th>
+                <th rowspan="3">CAS#</th>
+                <th colspan="4">Aquatic Life (μg/L)</th>
+                <th colspan="3">Human Health for<br/>Consumption of:</th>
+              </tr>
+              <tr>
+                <th colspan="2">Fresh Water</th>
+                <th colspan="2">Salt Water</th>
+                <th rowspan="2">Drinking Water<br/>+<br/>Organism<br/>(μg/L)</th>
+                <th rowspan="2">Organism<br/>Only<br/>(μg/L)</th>
+                <th rowspan="2">Drinking<br/>Water<br/>MCL<br/>(mg/L)</th>
+              </tr>
+              <tr>
+                <th>Acute</th>
+                <th>Chronic</th>
+                <th>Acute</th>
+                <th>Chronic</th>
+              </tr>
+            </thead>
             <tbody>
-              <tr>
-                <td rowspan="3" data-vertical-align="middle">Substance</td>
-                <td rowspan="3" data-vertical-align="middle">CAS#</td>
-                <td colspan="4" data-text-align="center" data-vertical-align="middle">Aquatic Life (μg/L)</td>
-                <td colspan="3" data-text-align="center" data-vertical-align="middle">Human Health for<br/>Consumption of:</td>
-              </tr>
-              <tr>
-                <td colspan="2" data-text-align="center" data-vertical-align="middle">Fresh Water</td>
-                <td colspan="2" data-text-align="center" data-vertical-align="middle">Salt Water</td>
-                <td rowspan="2" data-text-align="center" data-vertical-align="middle">Drinking Water<br/>+<br/>Organism<br/>(μg/L)</td>
-                <td rowspan="2" data-text-align="center" data-vertical-align="middle">Organism<br/>Only<br/>(μg/L)</td>
-                <td rowspan="2" data-text-align="center" data-vertical-align="middle">Drinking<br/>Water<br/>MCL<br/>(mg/L)</td>
-              </tr>
-              <tr>
-                <td>Acute</td>
-                <td>Chronic</td>
-                <td>Acute</td>
-                <td>Chronic</td>
-              </tr>
               <tr>
                 <td>2, 3, 7, 8-TCDD (Dioxin)</td>
                 <td>1746016</td>
@@ -2519,30 +2531,32 @@
         <text>Table 1. Acute Water Quality Criteria for Freshwater Aquatic Life for Ammonia Where Salmonids May Be Present (milligrams of nitrogen per liter)<sup> 1</sup>.</text>
         <text>
           <table>
+            <thead>
+              <tr>
+                <th colspan="18">Temperature (<sup>o</sup>C)</th>
+              </tr>
+              <tr>
+                <th>pH</th>
+                <th>14</th>
+                <th>15</th>
+                <th>16</th>
+                <th>17</th>
+                <th>18</th>
+                <th>19</th>
+                <th>20</th>
+                <th>21</th>
+                <th>22</th>
+                <th>23</th>
+                <th>24</th>
+                <th>25</th>
+                <th>26</th>
+                <th>27</th>
+                <th>28</th>
+                <th>29</th>
+                <th>30</th>
+              </tr>
+            </thead>
             <tbody>
-              <tr>
-                <td colspan="18" data-text-align="center" data-vertical-align="middle">Temperature (<sup>o</sup>C)</td>
-              </tr>
-              <tr>
-                <td data-vertical-align="middle">pH</td>
-                <td data-vertical-align="middle">14</td>
-                <td data-vertical-align="middle">15</td>
-                <td data-vertical-align="middle">16</td>
-                <td data-vertical-align="middle">17</td>
-                <td data-vertical-align="middle">18</td>
-                <td data-vertical-align="middle">19</td>
-                <td data-vertical-align="middle">20</td>
-                <td data-vertical-align="middle">21</td>
-                <td data-vertical-align="middle">22</td>
-                <td data-vertical-align="middle">23</td>
-                <td data-vertical-align="middle">24</td>
-                <td data-vertical-align="middle">25</td>
-                <td data-vertical-align="middle">26</td>
-                <td data-vertical-align="middle">27</td>
-                <td data-vertical-align="middle">28</td>
-                <td data-vertical-align="middle">29</td>
-                <td data-vertical-align="middle">30</td>
-              </tr>
               <tr>
                 <td data-vertical-align="middle">6.5</td>
                 <td data-vertical-align="middle">32.6</td>
@@ -3077,31 +3091,33 @@
         <text>Table 2. Acute Water Quality Criteria for Freshwater Aquatic Life for Ammonia Where Salmonids Are Absent (milligrams of nitrogen per liter)<sup> 1</sup>.</text>
         <text>
           <table>
-            <tbody>
+            <thead>
               <tr>
-                <td data-vertical-align="middle">pH</td>
-                <td data-vertical-align="middle">10</td>
-                <td data-vertical-align="middle">11</td>
-                <td data-vertical-align="middle">12</td>
-                <td data-vertical-align="middle">13</td>
-                <td data-vertical-align="middle">14</td>
-                <td data-vertical-align="middle">15</td>
-                <td data-vertical-align="middle">16</td>
-                <td data-vertical-align="middle">17</td>
-                <td data-vertical-align="middle">18</td>
-                <td data-vertical-align="middle">19</td>
-                <td data-vertical-align="middle">20</td>
-                <td data-vertical-align="middle">21</td>
-                <td data-vertical-align="middle">22</td>
-                <td data-vertical-align="middle">23</td>
-                <td data-vertical-align="middle">24</td>
-                <td data-vertical-align="middle">25</td>
-                <td data-vertical-align="middle">26</td>
-                <td data-vertical-align="middle">27</td>
-                <td data-vertical-align="middle">28</td>
-                <td data-vertical-align="middle">29</td>
-                <td data-vertical-align="middle">30</td>
+                <th>pH</th>
+                <th>10</th>
+                <th>11</th>
+                <th>12</th>
+                <th>13</th>
+                <th>14</th>
+                <th>15</th>
+                <th>16</th>
+                <th>17</th>
+                <th>18</th>
+                <th>19</th>
+                <th>20</th>
+                <th>21</th>
+                <th>22</th>
+                <th>23</th>
+                <th>24</th>
+                <th>25</th>
+                <th>26</th>
+                <th>27</th>
+                <th>28</th>
+                <th>29</th>
+                <th>30</th>
               </tr>
+            </thead>
+            <tbody>
               <tr>
                 <td data-vertical-align="middle">6.5</td>
                 <td data-vertical-align="middle">50.9</td>
@@ -3740,30 +3756,32 @@
         <text>Table 3. Acute Water Quality Criteria for Freshwater Aquatic Life for Ammonia Where Salmonids May Be Present and Freshwater Mussels Are Absent (milligrams of nitrogen per liter)<sup> 1</sup>.</text>
         <text>
           <table>
+            <thead>
+              <tr>
+                <th colspan="18">Temperature (<sup>o </sup>C)</th>
+              </tr>
+              <tr>
+                <th>pH</th>
+                <th>14</th>
+                <th>15</th>
+                <th>16</th>
+                <th>17</th>
+                <th>18</th>
+                <th>19</th>
+                <th>20</th>
+                <th>21</th>
+                <th>22</th>
+                <th>23</th>
+                <th>24</th>
+                <th>25</th>
+                <th>26</th>
+                <th>27</th>
+                <th>28</th>
+                <th>29</th>
+                <th>30</th>
+              </tr>
+            </thead>
             <tbody>
-              <tr>
-                <td colspan="18" data-text-align="center" data-vertical-align="middle">Temperature (<sup>o </sup>C)</td>
-              </tr>
-              <tr>
-                <td data-vertical-align="middle">pH</td>
-                <td data-vertical-align="middle">14</td>
-                <td data-vertical-align="middle">15</td>
-                <td data-vertical-align="middle">16</td>
-                <td data-vertical-align="middle">17</td>
-                <td data-vertical-align="middle">18</td>
-                <td data-vertical-align="middle">19</td>
-                <td data-vertical-align="middle">20</td>
-                <td data-vertical-align="middle">21</td>
-                <td data-vertical-align="middle">22</td>
-                <td data-vertical-align="middle">23</td>
-                <td data-vertical-align="middle">24</td>
-                <td data-vertical-align="middle">25</td>
-                <td data-vertical-align="middle">26</td>
-                <td data-vertical-align="middle">27</td>
-                <td data-vertical-align="middle">28</td>
-                <td data-vertical-align="middle">29</td>
-                <td data-vertical-align="middle">30</td>
-              </tr>
               <tr>
                 <td data-vertical-align="middle">6.5</td>
                 <td data-vertical-align="middle">32.6</td>
@@ -4298,30 +4316,32 @@
         <text>Table 4. Acute Water Quality Criteria for Freshwater Aquatic Life for Ammonia Where Salmonids Are Absent and Freshwater Mussels Are Absent (milligrams of nitrogen per liter)<sup> 1</sup>.</text>
         <text>
           <table>
+            <thead>
+              <tr>
+                <th colspan="18">Temperature (<sup>o </sup>C)</th>
+              </tr>
+              <tr>
+                <th>pH</th>
+                <th>14</th>
+                <th>15</th>
+                <th>16</th>
+                <th>17</th>
+                <th>18</th>
+                <th>19</th>
+                <th>20</th>
+                <th>21</th>
+                <th>22</th>
+                <th>23</th>
+                <th>24</th>
+                <th>25</th>
+                <th>26</th>
+                <th>27</th>
+                <th>28</th>
+                <th>29</th>
+                <th>30</th>
+              </tr>
+            </thead>
             <tbody>
-              <tr>
-                <td colspan="18" data-text-align="center" data-vertical-align="middle">Temperature (<sup>o </sup>C)</td>
-              </tr>
-              <tr>
-                <td data-vertical-align="middle">pH</td>
-                <td data-vertical-align="middle">14</td>
-                <td data-vertical-align="middle">15</td>
-                <td data-vertical-align="middle">16</td>
-                <td data-vertical-align="middle">17</td>
-                <td data-vertical-align="middle">18</td>
-                <td data-vertical-align="middle">19</td>
-                <td data-vertical-align="middle">20</td>
-                <td data-vertical-align="middle">21</td>
-                <td data-vertical-align="middle">22</td>
-                <td data-vertical-align="middle">23</td>
-                <td data-vertical-align="middle">24</td>
-                <td data-vertical-align="middle">25</td>
-                <td data-vertical-align="middle">26</td>
-                <td data-vertical-align="middle">27</td>
-                <td data-vertical-align="middle">28</td>
-                <td data-vertical-align="middle">29</td>
-                <td data-vertical-align="middle">30</td>
-              </tr>
               <tr>
                 <td data-vertical-align="middle">6.5</td>
                 <td data-vertical-align="middle">50.9</td>
@@ -4876,38 +4896,40 @@
         <text>Table 1. Chronic Ammonia Criteria for Waters Where Freshwater Fish Early Life Stages May Be Present (milligrams of nitrogen per liter).<sup> 1</sup></text>
         <text>
           <table>
+            <thead>
+              <tr>
+                <th proof="needed" data-vertical-align="bottom"/>
+                <th colspan="24">Temperature (℃)</th>
+              </tr>
+              <tr>
+                <th>pH</th>
+                <th>7</th>
+                <th>8</th>
+                <th>9</th>
+                <th>10</th>
+                <th>11</th>
+                <th>12</th>
+                <th>13</th>
+                <th>14</th>
+                <th>15</th>
+                <th>16</th>
+                <th>17</th>
+                <th>18</th>
+                <th>19</th>
+                <th>20</th>
+                <th>21</th>
+                <th>22</th>
+                <th>23</th>
+                <th>24</th>
+                <th>25</th>
+                <th>26</th>
+                <th>27</th>
+                <th>28</th>
+                <th>29</th>
+                <th>30</th>
+              </tr>
+            </thead>
             <tbody>
-              <tr>
-                <td proof="needed" data-vertical-align="bottom"/>
-                <td colspan="24" data-text-align="center" data-vertical-align="bottom">Temperature (℃)</td>
-              </tr>
-              <tr>
-                <td data-text-align="center" data-vertical-align="bottom">pH</td>
-                <td data-text-align="center" data-vertical-align="bottom">7</td>
-                <td data-text-align="center" data-vertical-align="bottom">8</td>
-                <td data-text-align="center" data-vertical-align="bottom">9</td>
-                <td data-text-align="center" data-vertical-align="bottom">10</td>
-                <td data-text-align="center" data-vertical-align="bottom">11</td>
-                <td data-text-align="center" data-vertical-align="bottom">12</td>
-                <td data-text-align="center" data-vertical-align="bottom">13</td>
-                <td data-text-align="center" data-vertical-align="bottom">14</td>
-                <td data-text-align="center" data-vertical-align="bottom">15</td>
-                <td data-text-align="center" data-vertical-align="bottom">16</td>
-                <td data-text-align="center" data-vertical-align="bottom">17</td>
-                <td data-text-align="center" data-vertical-align="bottom">18</td>
-                <td data-text-align="center" data-vertical-align="bottom">19</td>
-                <td data-text-align="center" data-vertical-align="bottom">20</td>
-                <td data-text-align="center" data-vertical-align="bottom">21</td>
-                <td data-text-align="center" data-vertical-align="bottom">22</td>
-                <td data-text-align="center" data-vertical-align="bottom">23</td>
-                <td data-text-align="center" data-vertical-align="bottom">24</td>
-                <td data-text-align="center" data-vertical-align="bottom">25</td>
-                <td data-text-align="center" data-vertical-align="bottom">26</td>
-                <td data-text-align="center" data-vertical-align="bottom">27</td>
-                <td data-text-align="center" data-vertical-align="bottom">28</td>
-                <td data-text-align="center" data-vertical-align="bottom">29</td>
-                <td data-text-align="center" data-vertical-align="bottom">30</td>
-              </tr>
               <tr>
                 <td data-text-align="center" data-vertical-align="bottom">6.5</td>
                 <td data-text-align="right" data-vertical-align="bottom">4.92</td>
@@ -5628,38 +5650,39 @@
       <text>Table 2. Chronic Ammonia Criteria for Waters Where Freshwater Fish Early Life Stages Are Present and Freshwater mussels are absent (milligrams of nitrogen per liter).<sup> 1</sup></text>
       <text>
         <table>
+          <thead>
+            <tr>
+              <th colspan="25">Temperature (℃)</th>
+            </tr>
+            <tr>
+              <th>pH</th>
+              <th>7</th>
+              <th>8</th>
+              <th>9</th>
+              <th>10</th>
+              <th>11</th>
+              <th>12</th>
+              <th>13</th>
+              <th>14</th>
+              <th>15</th>
+              <th>16</th>
+              <th>17</th>
+              <th>18</th>
+              <th>19</th>
+              <th>20</th>
+              <th>21</th>
+              <th>22</th>
+              <th>23</th>
+              <th>24</th>
+              <th>25</th>
+              <th>26</th>
+              <th>27</th>
+              <th>28</th>
+              <th>29</th>
+              <th>30</th>
+            </tr>
+          </thead>
           <tbody>
-            <tr>
-              <td proof="needed" data-vertical-align="bottom"/>
-              <td colspan="24" data-text-align="center" data-vertical-align="bottom">Temperature (℃)</td>
-            </tr>
-            <tr>
-              <td data-text-align="center" data-vertical-align="bottom">pH</td>
-              <td data-text-align="center" data-vertical-align="bottom">7</td>
-              <td data-text-align="center" data-vertical-align="bottom">8</td>
-              <td data-text-align="center" data-vertical-align="bottom">9</td>
-              <td data-text-align="center" data-vertical-align="bottom">10</td>
-              <td data-text-align="center" data-vertical-align="bottom">11</td>
-              <td data-text-align="center" data-vertical-align="bottom">12</td>
-              <td data-text-align="center" data-vertical-align="bottom">13</td>
-              <td data-text-align="center" data-vertical-align="bottom">14</td>
-              <td data-text-align="center" data-vertical-align="bottom">15</td>
-              <td data-text-align="center" data-vertical-align="bottom">16</td>
-              <td data-text-align="center" data-vertical-align="bottom">17</td>
-              <td data-text-align="center" data-vertical-align="bottom">18</td>
-              <td data-text-align="center" data-vertical-align="bottom">19</td>
-              <td data-text-align="center" data-vertical-align="bottom">20</td>
-              <td data-text-align="center" data-vertical-align="bottom">21</td>
-              <td data-text-align="center" data-vertical-align="bottom">22</td>
-              <td data-text-align="center" data-vertical-align="bottom">23</td>
-              <td data-text-align="center" data-vertical-align="bottom">24</td>
-              <td data-text-align="center" data-vertical-align="bottom">25</td>
-              <td data-text-align="center" data-vertical-align="bottom">26</td>
-              <td data-text-align="center" data-vertical-align="bottom">27</td>
-              <td data-text-align="center" data-vertical-align="bottom">28</td>
-              <td data-text-align="center" data-vertical-align="bottom">29</td>
-              <td data-text-align="center" data-vertical-align="bottom">30</td>
-            </tr>
             <tr>
               <td data-text-align="center" data-vertical-align="bottom">6.5</td>
               <td data-text-align="right" data-vertical-align="bottom">7.34</td>
@@ -6377,37 +6400,39 @@
       <text>Table 3. Chronic Ammonia Criteria for Waters Where Freshwater Fish Early Life Stages Are Absent and Freshwater Mussels Are Absent (milligrams of nitrogen per liter).<sup> 1</sup></text>
       <text>
         <table>
+          <thead>
+            <tr>
+              <th colspan="25">Temperature (℃)</th>
+            </tr>
+            <tr>
+              <th>pH</th>
+              <th>7</th>
+              <th>8</th>
+              <th>9</th>
+              <th>10</th>
+              <th>11</th>
+              <th>12</th>
+              <th>13</th>
+              <th>14</th>
+              <th>15</th>
+              <th>16</th>
+              <th>17</th>
+              <th>18</th>
+              <th>19</th>
+              <th>20</th>
+              <th>21</th>
+              <th>22</th>
+              <th>23</th>
+              <th>24</th>
+              <th>25</th>
+              <th>26</th>
+              <th>27</th>
+              <th>28</th>
+              <th>29</th>
+              <th>30</th>
+            </tr>
+          </thead>
           <tbody>
-            <tr>
-              <td colspan="25" data-text-align="center" data-vertical-align="middle">Temperature (℃)</td>
-            </tr>
-            <tr>
-              <td data-vertical-align="middle">pH</td>
-              <td data-vertical-align="middle">7</td>
-              <td data-vertical-align="middle">8</td>
-              <td data-vertical-align="middle">9</td>
-              <td data-vertical-align="middle">10</td>
-              <td data-vertical-align="middle">11</td>
-              <td data-vertical-align="middle">12</td>
-              <td data-vertical-align="middle">13</td>
-              <td data-vertical-align="middle">14</td>
-              <td data-vertical-align="middle">15</td>
-              <td data-vertical-align="middle">16</td>
-              <td data-vertical-align="middle">17</td>
-              <td data-vertical-align="middle">18</td>
-              <td data-vertical-align="middle">19</td>
-              <td data-vertical-align="middle">20</td>
-              <td data-vertical-align="middle">21</td>
-              <td data-vertical-align="middle">22</td>
-              <td data-vertical-align="middle">23</td>
-              <td data-vertical-align="middle">24</td>
-              <td data-vertical-align="middle">25</td>
-              <td data-vertical-align="middle">26</td>
-              <td data-vertical-align="middle">27</td>
-              <td data-vertical-align="middle">28</td>
-              <td data-vertical-align="middle">29</td>
-              <td data-vertical-align="middle">30</td>
-            </tr>
             <tr>
               <td data-vertical-align="middle">6.5</td>
               <td data-vertical-align="middle">18.5</td>
@@ -7126,20 +7151,22 @@
       <text>Table 1 Acute Water Quality Criteria for Saltwater Aquatic Life (milligrams per liter total ammonia).</text>
       <text>
         <table>
+          <thead>
+            <tr>
+              <th colspan="9">Temperature (°C)</th>
+            </tr>
+          </thead>
           <tbody>
             <tr>
-              <td colspan="9" data-text-align="center" data-vertical-align="middle">Temperature (°C)</td>
-            </tr>
-            <tr>
               <td proof="needed" data-text-align="center"/>
-              <td>0</td>
-              <td>5</td>
-              <td>10</td>
-              <td>15</td>
-              <td>20</td>
-              <td>25</td>
-              <td>30</td>
-              <td>35</td>
+              <th>0</th>
+              <th>5</th>
+              <th>10</th>
+              <th>15</th>
+              <th>20</th>
+              <th>25</th>
+              <th>30</th>
+              <th>35</th>
             </tr>
             <tr>
               <td>pH</td>
@@ -7538,20 +7565,22 @@
       <aftertext>Table 1 Chronic Water Quality Criteria for Saltwater Aquatic Life (milligrams/liter total ammonia).</aftertext>
       <aftertext>
         <table>
+          <thead>
+            <tr>
+              <th colspan="9">Temperature (°C)</th>
+            </tr>
+          </thead>
           <tbody>
             <tr>
-              <td colspan="9" data-text-align="center" data-vertical-align="middle">Temperature (°C)</td>
-            </tr>
-            <tr>
               <td proof="needed" data-text-align="center"/>
-              <td>0</td>
-              <td>5</td>
-              <td>10</td>
-              <td>15</td>
-              <td>20</td>
-              <td>25</td>
-              <td>30</td>
-              <td>35</td>
+              <th>0</th>
+              <th>5</th>
+              <th>10</th>
+              <th>15</th>
+              <th>20</th>
+              <th>25</th>
+              <th>30</th>
+              <th>35</th>
             </tr>
             <tr>
               <td>pH</td>
@@ -7948,13 +7977,15 @@
           <text>Table 1. Bacteria Indicator Criteria Magnitudes</text>
           <text>
             <table>
-              <tbody>
+              <thead>
                 <tr>
-                  <td proof="needed" data-vertical-align="middle"/>
-                  <td proof="needed" data-vertical-align="middle"/>
-                  <td data-text-align="center" data-vertical-align="middle">Geometric Mean</td>
-                  <td data-text-align="center" data-vertical-align="middle">Statistical Threshold Value</td>
+                  <th proof="needed" data-vertical-align="middle"/>
+                  <th proof="needed" data-vertical-align="middle"/>
+                  <th>Geometric Mean</th>
+                  <th>Statistical Threshold Value</th>
                 </tr>
+              </thead>
+              <tbody>
                 <tr>
                   <td rowspan="2" data-vertical-align="middle">Indicator</td>
                   <td data-vertical-align="middle">Enterococci (fresh or marine) - culturable</td>
@@ -8288,30 +8319,32 @@
           <text>Table 2. Numerical Water Clarity Criteria (in Secchi Depth Equivalents) for General Application to Shallow Water Aquatic Vegetation Bay Grass Designated Use (Application Depths Given in 0.5 Meter Attainment Intervals<sup>1</sup>).</text>
           <text>
             <table>
+              <thead>
+                <tr>
+                  <th proof="needed" data-vertical-align="middle"/>
+                  <th proof="needed" data-vertical-align="middle"/>
+                  <th colspan="4">Water Clarity Criteria as Secchi Depth (meters)</th>
+                  <th proof="needed" data-text-align="center" data-vertical-align="middle"/>
+                </tr>
+                <tr>
+                  <th rowspan="3">Salinity Regime</th>
+                  <th rowspan="3">Water Clarity Criteria as <br/>Percent Light through Water</th>
+                  <th colspan="4">Water Clarity Criteria Application Depths (meters)</th>
+                  <th>Seasonal Application</th>
+                </tr>
+                <tr>
+                  <th>0.5</th>
+                  <th>1.0</th>
+                  <th>1.5</th>
+                  <th>2.0</th>
+                  <th proof="needed" data-text-align="center" data-vertical-align="middle"/>
+                </tr>
+                <tr>
+                  <th colspan="4">Secchi Depth Equivalents for Criteria Application Depth</th>
+                  <th proof="needed" data-vertical-align="middle"/>
+                </tr>
+              </thead>
               <tbody>
-                <tr>
-                  <td proof="needed" data-vertical-align="middle"/>
-                  <td proof="needed" data-vertical-align="middle"/>
-                  <td colspan="4" data-text-align="center" data-vertical-align="middle">Water Clarity Criteria as Secchi Depth (meters)</td>
-                  <td proof="needed" data-text-align="center" data-vertical-align="middle"/>
-                </tr>
-                <tr>
-                  <td rowspan="3" data-vertical-align="middle">Salinity Regime</td>
-                  <td rowspan="3" data-vertical-align="middle">Water Clarity Criteria as <br/>Percent Light through Water</td>
-                  <td colspan="4" data-vertical-align="middle">Water Clarity Criteria Application Depths (meters)</td>
-                  <td data-vertical-align="middle">Seasonal Application</td>
-                </tr>
-                <tr>
-                  <td data-text-align="center" data-vertical-align="middle">0.5</td>
-                  <td data-text-align="center" data-vertical-align="middle">1.0</td>
-                  <td data-text-align="center" data-vertical-align="middle">1.5</td>
-                  <td data-text-align="center" data-vertical-align="middle">2.0</td>
-                  <td proof="needed" data-text-align="center" data-vertical-align="middle"/>
-                </tr>
-                <tr>
-                  <td colspan="4" data-vertical-align="middle">Secchi Depth Equivalents for Criteria Application Depth</td>
-                  <td proof="needed" data-vertical-align="middle"/>
-                </tr>
                 <tr>
                   <td data-vertical-align="middle">Tidal Fresh</td>
                   <td data-text-align="center" data-vertical-align="middle">13%</td>
@@ -8349,13 +8382,15 @@
           <text>Table 3. SAV Acreage Restoration Goals.</text>
           <text>
             <table class="layout-table">
-              <tbody>
+              <thead>
                 <tr>
-                  <td>Segment Description<sup>1</sup></td>
-                  <td>Segment<br/>Designator</td>
-                  <td data-text-align="center" data-vertical-align="middle">SAV Acreage <br/>Restoration Goal</td>
-                  <td data-text-align="center" data-vertical-align="middle">Secchi <br/>Application Depth</td>
+                  <th>Segment Description<sup>1</sup></th>
+                  <th>Segment<br/>Designator</th>
+                  <th>SAV Acreage <br/>Restoration Goal</th>
+                  <th>Secchi <br/>Application Depth</th>
                 </tr>
+              </thead>
+              <tbody>
                 <tr>
                   <td>Northern Chesapeake Bay</td>
                   <td>CB1TF2</td>
@@ -9256,19 +9291,21 @@
       <text>List of Tier II Waters Based on Maryland Biological Stream Survey (fish and benthic macroinvertebrate) Index Scores.</text>
       <text>
         <table>
-          <tbody>
+          <thead>
             <tr>
-              <td data-vertical-align="middle">Date</td>
-              <td data-vertical-align="middle">Stream Name</td>
-              <td data-vertical-align="middle">County</td>
-              <td data-vertical-align="middle">12-Digit Watershed</td>
-              <td data-vertical-align="middle">From Lat</td>
-              <td data-vertical-align="middle">From Long</td>
-              <td data-vertical-align="middle">To Lat</td>
-              <td data-vertical-align="middle">To Long</td>
-              <td data-vertical-align="middle">Baseline: Fish IBI</td>
-              <td data-vertical-align="middle">Benthic IBI</td>
+              <th>Date</th>
+              <th>Stream Name</th>
+              <th>County</th>
+              <th>12-Digit Watershed</th>
+              <th>From Lat</th>
+              <th>From Long</th>
+              <th>To Lat</th>
+              <th>To Long</th>
+              <th>Baseline: Fish IBI</th>
+              <th>Benthic IBI</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td data-vertical-align="middle">2007</td>
               <td data-vertical-align="middle">Black Sulphur Run 1</td>
@@ -12972,13 +13009,15 @@
       <text>Sub-Basin 02-12-02: Lower Susquehanna River Area.</text>
       <text>
         <table>
-          <tbody>
+          <thead>
             <tr>
-              <td data-text-align="center">Designated Use Class and Waterbody</td>
-              <td data-text-align="center">Latitude</td>
-              <td data-text-align="center">Longitude</td>
-              <td data-text-align="center">Limits</td>
+              <th>Designated Use Class and Waterbody</th>
+              <th>Latitude</th>
+              <th>Longitude</th>
+              <th>Limits</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td colspan="4" data-vertical-align="middle">(1) Class I-P:</td>
             </tr>
@@ -13301,13 +13340,15 @@
       <text>Sub-Basin 02-13-01: Coastal Area.</text>
       <text>
         <table>
-          <tbody>
+          <thead>
             <tr>
-              <td data-vertical-align="middle">Designated Use Class and Waterbody</td>
-              <td data-vertical-align="middle">Latitude</td>
-              <td data-vertical-align="middle">Longitude</td>
-              <td data-vertical-align="middle">Limits</td>
+              <th>Designated Use Class and Waterbody</th>
+              <th>Latitude</th>
+              <th>Longitude</th>
+              <th>Limits</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td colspan="4" data-vertical-align="middle">(1) Class I-P: None.</td>
             </tr>
@@ -13377,13 +13418,15 @@
       <text>Sub-Basin 02-13-02: Pocomoke River Area.</text>
       <text>
         <table>
-          <tbody>
+          <thead>
             <tr>
-              <td data-vertical-align="middle">Designated Use Class and Waterbody</td>
-              <td data-vertical-align="middle">Latitude</td>
-              <td data-vertical-align="middle">Longitude</td>
-              <td data-vertical-align="middle">Limits</td>
+              <th>Designated Use Class and Waterbody</th>
+              <th>Latitude</th>
+              <th>Longitude</th>
+              <th>Limits</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td colspan="4" data-vertical-align="middle">(1) Class I-P: None.</td>
             </tr>
@@ -14067,13 +14110,15 @@
       <text>Sub-Basin 02-13-03: Nanticoke River Area.</text>
       <text>
         <table>
-          <tbody>
+          <thead>
             <tr>
-              <td data-vertical-align="middle">Designated Use Class and Waterbody</td>
-              <td data-vertical-align="middle">Latitude</td>
-              <td data-vertical-align="middle">Longitude</td>
-              <td data-vertical-align="middle">Limits</td>
+              <th>Designated Use Class and Waterbody</th>
+              <th>Latitude</th>
+              <th>Longitude</th>
+              <th>Limits</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td colspan="4" data-vertical-align="middle">(1) Class I-P: None.</td>
             </tr>
@@ -14363,13 +14408,15 @@
       <text>Sub-Basin 02-13-04: Choptank River Area.</text>
       <text>
         <table>
-          <tbody>
+          <thead>
             <tr>
-              <td data-vertical-align="middle">Designated Use Class and Waterbody</td>
-              <td data-vertical-align="middle">Latitude</td>
-              <td data-vertical-align="middle">Longitude</td>
-              <td data-vertical-align="middle">Limits</td>
+              <th>Designated Use Class and Waterbody</th>
+              <th>Latitude</th>
+              <th>Longitude</th>
+              <th>Limits</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td colspan="4" data-vertical-align="middle">(1) Class I-P: None.</td>
             </tr>
@@ -14708,13 +14755,15 @@
       <text>Sub-Basin 02-13-05: Chester River Area.</text>
       <text>
         <table>
-          <tbody>
+          <thead>
             <tr>
-              <td data-vertical-align="middle">Designated Use Class and Waterbody</td>
-              <td data-vertical-align="middle">Latitude</td>
-              <td data-vertical-align="middle">Longitude</td>
-              <td data-vertical-align="middle">Limits</td>
+              <th>Designated Use Class and Waterbody</th>
+              <th>Latitude</th>
+              <th>Longitude</th>
+              <th>Limits</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td colspan="4" data-vertical-align="middle">(1) Class I-P: None.</td>
             </tr>
@@ -14983,13 +15032,15 @@
       <text>Sub-Basin 02-13-06: Elk River Area.</text>
       <text>
         <table>
-          <tbody>
+          <thead>
             <tr>
-              <td data-vertical-align="middle">Designated Use Class and Waterbody</td>
-              <td data-vertical-align="middle">Latitude</td>
-              <td data-vertical-align="middle">Longitude</td>
-              <td data-vertical-align="middle">Limits</td>
+              <th>Designated Use Class and Waterbody</th>
+              <th>Latitude</th>
+              <th>Longitude</th>
+              <th>Limits</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td colspan="4" data-vertical-align="middle">(1) Class I-P:</td>
             </tr>
@@ -15424,13 +15475,15 @@
       <text>Sub-Basin 02-13-07: Bush River Area.</text>
       <text>
         <table>
-          <tbody>
+          <thead>
             <tr>
-              <td data-vertical-align="middle">Designated Use Class and Waterbody</td>
-              <td data-vertical-align="middle">Latitude</td>
-              <td data-vertical-align="middle">Longitude</td>
-              <td data-vertical-align="middle">Limits</td>
+              <th>Designated Use Class and Waterbody</th>
+              <th>Latitude</th>
+              <th>Longitude</th>
+              <th>Limits</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td data-vertical-align="middle">(1) Class I-P: Winters Run and all tributaries, including Atkisson Reservoir</td>
               <td data-vertical-align="middle">39.439084</td>
@@ -15545,13 +15598,15 @@
       <text>Sub-Basin 02-13-08: Gunpowder River Area.</text>
       <text>
         <table>
-          <tbody>
+          <thead>
             <tr>
-              <td data-vertical-align="middle">Class: Waters</td>
-              <td data-vertical-align="middle">Latitude</td>
-              <td data-vertical-align="middle">Longitude</td>
-              <td data-vertical-align="middle">Limits</td>
+              <th>Class: Waters</th>
+              <th>Latitude</th>
+              <th>Longitude</th>
+              <th>Limits</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td data-vertical-align="middle">(1) Class I-P: Loch Raven Reservoir.</td>
               <td data-vertical-align="middle">39.430805</td>
@@ -15786,13 +15841,15 @@
       <text>Sub-Basin 02-13-09: Patapsco River Area.</text>
       <text>
         <table>
-          <tbody>
+          <thead>
             <tr>
-              <td data-vertical-align="middle">Designated Use Class and Waterbody</td>
-              <td data-vertical-align="middle">Latitude</td>
-              <td data-vertical-align="middle">Longitude</td>
-              <td data-text-align="center" data-vertical-align="middle">Limits</td>
+              <th>Designated Use Class and Waterbody</th>
+              <th>Latitude</th>
+              <th>Longitude</th>
+              <th>Limits</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td colspan="4" data-vertical-align="middle">(1) Class  I-P:</td>
             </tr>
@@ -16303,13 +16360,15 @@
       <text>Sub-Basin 02-13-10: West Chesapeake Bay Area.</text>
       <text>
         <table>
-          <tbody>
+          <thead>
             <tr>
-              <td data-vertical-align="middle">Designated Use Class and Waterbody</td>
-              <td data-vertical-align="middle">Latitude</td>
-              <td data-vertical-align="middle">Longitude</td>
-              <td data-vertical-align="middle">Limits</td>
+              <th>Designated Use Class and Waterbody</th>
+              <th>Latitude</th>
+              <th>Longitude</th>
+              <th>Limits</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td colspan="4" data-vertical-align="middle">(1) Class  I-P: None.</td>
             </tr>
@@ -16622,13 +16681,15 @@
       <text>Sub-Basin 02-13-11: Patuxent River Area.</text>
       <text>
         <table>
-          <tbody>
+          <thead>
             <tr>
-              <td data-vertical-align="middle">Designated Use Class and Waterbody</td>
-              <td data-vertical-align="middle">Latitude</td>
-              <td data-vertical-align="middle">Longitude</td>
-              <td data-vertical-align="middle">Limits</td>
+              <th>Designated Use Class and Waterbody</th>
+              <th>Latitude</th>
+              <th>Longitude</th>
+              <th>Limits</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td colspan="4" data-vertical-align="middle">(1) Class I-P:</td>
             </tr>
@@ -16989,13 +17050,15 @@
       <text>Sub-Basin 02-14-01: Lower Potomac River Area.</text>
       <text>
         <table>
-          <tbody>
+          <thead>
             <tr>
-              <td data-vertical-align="middle">Designated Use Class and Waterbody</td>
-              <td data-vertical-align="middle">Latitude</td>
-              <td data-vertical-align="middle">Longitude</td>
-              <td data-vertical-align="middle">Limits</td>
+              <th>Designated Use Class and Waterbody</th>
+              <th>Latitude</th>
+              <th>Longitude</th>
+              <th>Limits</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td data-vertical-align="middle">(1) Class I-P: Tilghman Lake Reservoir</td>
               <td data-vertical-align="middle">38.545648</td>
@@ -17359,13 +17422,15 @@
       <text>Sub-Basin 02-14-02: Washington Metropolitan Area.</text>
       <text>
         <table>
-          <tbody>
+          <thead>
             <tr>
-              <td data-vertical-align="middle">Designated Use Class and Waterbody</td>
-              <td data-vertical-align="middle">Latitude</td>
-              <td data-vertical-align="middle">Longitude</td>
-              <td data-vertical-align="middle">Limits</td>
+              <th>Designated Use Class and Waterbody</th>
+              <th>Latitude</th>
+              <th>Longitude</th>
+              <th>Limits</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td data-vertical-align="middle">(1) Class I-P: Potomac River and all tributaries except those designated below as Class III, Class III-P, Class IV, or Class IV-P</td>
               <td data-vertical-align="middle">38.934494</td>
@@ -17552,13 +17617,15 @@
       <text>Sub-Basin 02-14-03: Middle Potomac River Area.</text>
       <text>
         <table>
-          <tbody>
+          <thead>
             <tr>
-              <td data-vertical-align="middle">Designated Use Class and Waterbody</td>
-              <td data-vertical-align="middle">Latitude</td>
-              <td data-vertical-align="middle">Longitude</td>
-              <td data-vertical-align="middle">Limits</td>
+              <th>Designated Use Class and Waterbody</th>
+              <th>Latitude</th>
+              <th>Longitude</th>
+              <th>Limits</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td data-vertical-align="middle">(1) Class I-P: Potomac River and all tributaries except those designated below as Class III-P or Class IV-P</td>
               <td data-vertical-align="middle">39.221736</td>
@@ -17745,13 +17812,15 @@
       <text>Sub-Basin 02-14-05: Upper Potomac River Area.</text>
       <text>
         <table>
-          <tbody>
+          <thead>
             <tr>
-              <td data-vertical-align="middle">Designated Use Class and Waterbody</td>
-              <td data-vertical-align="middle">Latitude</td>
-              <td data-vertical-align="middle">Longitude</td>
-              <td data-vertical-align="middle">Limits</td>
+              <th>Designated Use Class and Waterbody</th>
+              <th>Latitude</th>
+              <th>Longitude</th>
+              <th>Limits</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td data-vertical-align="middle">(1) Class I-P: Potomac River and all Maryland tributaries except those designated below as Class III-P or Class IV-P</td>
               <td data-vertical-align="middle">39.323294</td>
@@ -17950,13 +18019,15 @@
       <text>Sub-Basin 02-14-10: North Branch Potomac River Area.</text>
       <text>
         <table>
-          <tbody>
+          <thead>
             <tr>
-              <td data-vertical-align="middle">Designated Use Class and Waterbody</td>
-              <td data-vertical-align="middle">Latitude</td>
-              <td data-vertical-align="middle">Longitude</td>
-              <td data-vertical-align="middle">Limits</td>
+              <th>Designated Use Class and Waterbody</th>
+              <th>Latitude</th>
+              <th>Longitude</th>
+              <th>Limits</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td colspan="4" data-vertical-align="middle">(1) Class I-P:</td>
             </tr>
@@ -18069,13 +18140,15 @@
       <text>Sub-Basin 05-02-02: Youghiogheny River Area.</text>
       <text>
         <table>
-          <tbody>
+          <thead>
             <tr>
-              <td data-vertical-align="middle">Designated Use Class and Waterbody</td>
-              <td data-vertical-align="middle">Latitude</td>
-              <td data-vertical-align="middle">Longitude</td>
-              <td data-vertical-align="middle">Limits</td>
+              <th>Designated Use Class and Waterbody</th>
+              <th>Latitude</th>
+              <th>Longitude</th>
+              <th data-vertical-align="middle">Limits</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td colspan="4" data-vertical-align="middle">(1) Class I-P:</td>
             </tr>
@@ -18212,13 +18285,15 @@
       <text>Sub-Basin 02-13-99: Chesapeake Bay (Mainstem).</text>
       <text>
         <table>
-          <tbody>
+          <thead>
             <tr>
-              <td data-vertical-align="middle">Designated Use Class and Waterbody</td>
-              <td data-vertical-align="middle">Latitude</td>
-              <td data-vertical-align="middle">Longitude</td>
-              <td data-vertical-align="middle">Limits</td>
+              <th>Designated Use Class and Waterbody</th>
+              <th>Latitude</th>
+              <th>Longitude</th>
+              <th>Limits</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td colspan="4" data-vertical-align="middle">(1) Class I-P: None.</td>
             </tr>

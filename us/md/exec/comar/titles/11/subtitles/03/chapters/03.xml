@@ -237,15 +237,13 @@
           <text>The number of 24-hour measurements of L<sub>dn</sub> shall be equal to the value given in the table below, depending on the data range in decibels for the set of measurements. For this purpose, the data range shall be determined from the field measured noise data. Noise measurements shall be continued at each location until the requirement of this article is satisfied.</text>
           <text>
             <table>
-              <tbody>
+              <thead>
                 <tr>
-                  <td data-vertical-align="middle">
-                    <em>Data Range (dB)</em>
-                  </td>
-                  <td data-text-align="center" data-vertical-align="middle">
-                    <em>Required Number of<br/>Measurements</em>
-                  </td>
+                  <th>Data Range (dB)</th>
+                  <th>Required Number of<br/>Measurements</th>
                 </tr>
+              </thead>
+              <tbody>
                 <tr>
                   <td data-text-align="center" data-vertical-align="middle">2</td>
                   <td data-text-align="center" data-vertical-align="middle">3</td>
@@ -290,7 +288,7 @@
       <text>Limits. Limits for cumulative noise exposure are hereby established</text>
       <text>as follows:</text>
       <text class="center">Limits for Cumulative Noise  Exposure (Annual Day-Night Average Sound Level, dB RE 20 micropascals)</text>
-      <text>Land Use ...................................................................................................................Effective 1 July 1975</text>
+      <text>Land Use ..................................................................................Effective 1 July 1975</text>
       <para>
         <num>(1)</num>
         <text>Residential, single and two family; mobile homes ----------- 65</text>

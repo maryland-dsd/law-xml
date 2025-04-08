@@ -696,24 +696,16 @@
         <text>The following table shall be used to determine the net louvered area in square feet:</text>
         <text>
           <table class="layout-table">
-            <tbody>
+            <thead>
               <tr>
-                <td data-text-align="center">
-                  <em>Input Btu per Hour</em>
-                </td>
-                <td data-text-align="center">
-                  <em>Required Air CFM</em>
-                </td>
-                <td data-text-align="center">
-                  <em>Vertical Ducts Minimum Net Louvered Area Sq. Ft. per Opening</em>
-                </td>
-                <td data-text-align="center">
-                  <em>Horizontal Ducts Minimum Net Louvered Area Sq. Ft. per Opening</em>
-                </td>
-                <td data-text-align="center">
-                  <em>Single Opening</em>
-                </td>
+                <th>Input Btu per Hour</th>
+                <th>Required Air CFM</th>
+                <th>Vertical Ducts Minimum Net Louvered Area Sq. Ft. per Opening</th>
+                <th>Horizontal Ducts Minimum Net Louvered Area Sq. Ft. per Opening</th>
+                <th>Single Opening</th>
               </tr>
+            </thead>
+            <tbody>
               <tr>
                 <td>100,000</td>
                 <td data-text-align="center">50</td>
@@ -1734,21 +1726,17 @@
           <text>In accordance with the following table:</text>
           <text>
             <table>
+              <thead>
+                <tr>
+                  <th colspan="3">Minimum Pounds of Steam Per Hour <br/>Per Square Foot of Heating Surface*</th>
+                </tr>
+                <tr>
+                  <th>Boiler Heating Surface</th>
+                  <th>Firetube Boilers</th>
+                  <th>Watertube Boilers</th>
+                </tr>
+              </thead>
               <tbody>
-                <tr>
-                  <td colspan="3" data-text-align="center" data-vertical-align="middle">Minimum Pounds of Steam Per Hour <br/>Per Square Foot of Heating Surface*</td>
-                </tr>
-                <tr>
-                  <td>
-                    <em>Boiler Heating Surface</em>
-                  </td>
-                  <td>
-                    <em>Firetube Boilers</em>
-                  </td>
-                  <td>
-                    <em>Watertube Boilers</em>
-                  </td>
-                </tr>
                 <tr>
                   <td>Hand-fired</td>
                   <td data-text-align="center" data-vertical-align="middle">5</td>
@@ -3413,20 +3401,16 @@
           <text>As indicated in the following table:</text>
           <text>
             <table>
+              <thead>
+                <tr>
+                  <th colspan="2">Rivet Size</th>
+                </tr>
+                <tr>
+                  <th>Plate Thickness <br/>in Inches</th>
+                  <th>Rivet Diameter</th>
+                </tr>
+              </thead>
               <tbody>
-                <tr>
-                  <td colspan="2" data-text-align="center" data-vertical-align="middle">
-                    <em>Rivet Size</em>
-                  </td>
-                </tr>
-                <tr>
-                  <td data-text-align="center" data-vertical-align="middle">
-                    <em>Plate Thickness <br/>in Inches</em>
-                  </td>
-                  <td data-text-align="center" data-vertical-align="middle">
-                    <em>Rivet Diameter</em>
-                  </td>
-                </tr>
                 <tr>
                   <td data-text-align="center" data-vertical-align="middle">1/4</td>
                   <td data-text-align="center" data-vertical-align="middle">11/16</td>

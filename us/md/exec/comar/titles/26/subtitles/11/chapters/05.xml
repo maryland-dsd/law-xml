@@ -152,15 +152,13 @@
           <text>Pollutant levels:</text>
           <text>
             <table class="layout-table">
-              <tbody>
+              <thead>
                 <tr>
-                  <td data-vertical-align="middle">
-                    <em>Pollutant</em>
-                  </td>
-                  <td data-vertical-align="middle">
-                    <em>Level</em>
-                  </td>
+                  <th>Pollutant</th>
+                  <th>Level</th>
                 </tr>
+              </thead>
+              <tbody>
                 <tr>
                   <td data-vertical-align="middle">(i) Sulfur dioxide</td>
                   <td data-vertical-align="middle">0.3 ppm 24 hour average</td>
@@ -202,15 +200,13 @@
           <text>Pollutant levels:</text>
           <text>
             <table class="layout-table">
-              <tbody>
+              <thead>
                 <tr>
-                  <td data-vertical-align="middle">
-                    <em>Pollutant Level (i) Sulfur dioxide</em>
-                  </td>
-                  <td data-vertical-align="middle">
-                    <em>0.6 ppm 24 hour average</em>
-                  </td>
+                  <th>Pollutant Level (i) Sulfur dioxide</th>
+                  <th>0.6 ppm 24 hour average</th>
                 </tr>
+              </thead>
+              <tbody>
                 <tr>
                   <td data-vertical-align="middle" class="text-indent-1">(ii) PM<sub>10</sub></td>
                   <td data-vertical-align="middle">360 micrograms/cubic meter 24 hour average</td>
@@ -248,15 +244,13 @@
           <text>Pollutant levels:</text>
           <text>
             <table class="layout-table">
-              <tbody>
+              <thead>
                 <tr>
-                  <td data-vertical-align="middle">
-                    <em>Pollutant</em>
-                  </td>
-                  <td data-vertical-align="middle">
-                    <em>Level</em>
-                  </td>
+                  <th>Pollutant</th>
+                  <th>Level</th>
                 </tr>
+              </thead>
+              <tbody>
                 <tr>
                   <td data-vertical-align="middle">(i) Sulfur dioxide</td>
                   <td data-vertical-align="middle">0.8 ppm 24 hour average</td>
@@ -485,16 +479,12 @@
           <tr>
             <th colspan="2">A. Table I<br/>EMISSION REDUCTION OBJECTIVES FOR THE ALERT STAGE*</th>
           </tr>
+          <tr>
+            <th>Source of Emissions</th>
+            <th>Alert Stage Actions</th>
+          </tr>
         </thead>
         <tbody>
-          <tr>
-            <td data-text-align="center" data-vertical-align="middle">
-              <em>Source of Emissions</em>
-            </td>
-            <td data-text-align="center" data-vertical-align="middle">
-              <em>Alert Stage Actions</em>
-            </td>
-          </tr>
           <tr>
             <td class="text-indent-1">(1) Coal or oil-fired electrical power generating facilities</td>
             <td class="text-indent-2">(a) Substantial reduction of emissions by utilizing fuels having low ash and sulfur content (use gaseous fuels where possible) <br/>(b) Substantial reduction of emissions by diverting loads to electric power generating facilities outside of Alert area</td>
@@ -525,27 +515,15 @@
           <tr>
             <th colspan="2">B. Table II<br/>EMISSION REDUCTION OBJECTIVES FOR THE WARNING STAGE*</th>
           </tr>
+          <tr>
+            <th>Source of Emissions</th>
+            <th>Warning Stage Actions</th>
+          </tr>
         </thead>
         <tbody>
           <tr>
-            <td data-text-align="center">
-              <em>Source of Emissions</em>
-            </td>
-            <td data-text-align="center">
-              <em>Warning Stage Actions</em>
-            </td>
-          </tr>
-          <tr>
             <td class="text-indent-1">(1) Coal or oil-fired electrical power generating facilities</td>
             <td class="text-indent-2">(a) Maximum reduction of emissions to provide essential power needs by utilization of fuels having lowest ash and sulfur content (use gaseous fuels where possible)<br/>(b) Maximum reduction of emissions by diverting electric power generation to facilities outside of Warning area</td>
-          </tr>
-          <tr>
-            <td data-text-align="center">
-              <em>Source of Emissions</em>
-            </td>
-            <td data-text-align="center">
-              <em>Warning Stage Actions</em>
-            </td>
           </tr>
           <tr>
             <td class="text-indent-1">(2) Coal or oil-fired steam producing facilities having a capacity to burn  in excess of 4 tons (3630 kilograms) of coal per hour or 600 gallons (2.34 cubic meters) of fuel oil per hour</td>
@@ -579,16 +557,12 @@
           <tr>
             <th colspan="2">C. Table III<br/>EMISSION REDUCTION OBJECTIVES FOR THE EMERGENCY STAGE*</th>
           </tr>
+          <tr>
+            <th>Source of Emissions</th>
+            <th>Emergency Stage Actions</th>
+          </tr>
         </thead>
         <tbody>
-          <tr>
-            <td data-text-align="center" data-vertical-align="middle">
-              <em>Source of Emissions</em>
-            </td>
-            <td data-text-align="center" data-vertical-align="middle">
-              <em>Emergency Stage Actions</em>
-            </td>
-          </tr>
           <tr>
             <td class="text-indent-1">(1) Coal or oil-fired electric power generating facilities</td>
             <td data-vertical-align="middle" class="text-indent-2">(a) Maximum reduction of emissions to provide essential power needs by utilization of fuels having lowest ash and sulfur content (use gaseous fuels where possible)<br/>(b) Maximum reduction of emissions by diverting electric power generation to facilities outside of Emergency area</td>

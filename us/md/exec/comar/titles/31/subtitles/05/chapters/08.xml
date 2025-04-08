@@ -1534,11 +1534,13 @@
         <text>Certification Ratings.</text>
         <text>
           <table>
-            <tbody>
+            <thead>
               <tr>
-                <td data-vertical-align="middle">Certification Ratings</td>
-                <td data-vertical-align="middle">Security Required</td>
+                <th>Certification Ratings</th>
+                <th>Security Required</th>
               </tr>
+            </thead>
+            <tbody>
               <tr>
                 <td data-vertical-align="middle">Secure -1</td>
                 <td data-vertical-align="middle">0%</td>
@@ -1728,14 +1730,16 @@
             <text>Financial Strength Rating Chart.</text>
             <text>
               <table>
-                <tbody>
+                <thead>
                   <tr>
-                    <td data-vertical-align="middle">Ratings</td>
-                    <td data-vertical-align="middle">Best</td>
-                    <td data-vertical-align="middle">S&amp;P</td>
-                    <td data-vertical-align="middle">Moody’s</td>
-                    <td data-vertical-align="middle">Fitch</td>
+                    <th>Ratings</th>
+                    <th>Best</th>
+                    <th>S&amp;P</th>
+                    <th>Moody’s</th>
+                    <th>Fitch</th>
                   </tr>
+                </thead>
+                <tbody>
                   <tr>
                     <td data-vertical-align="middle">Secure - 1</td>
                     <td data-vertical-align="middle">A++</td>

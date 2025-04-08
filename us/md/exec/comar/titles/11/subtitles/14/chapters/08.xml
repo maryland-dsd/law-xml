@@ -35,13 +35,15 @@
         <text>Table 1. Test Procedure Applicability.</text>
         <text>
           <table>
-            <tbody>
+            <thead>
               <tr>
-                <td proof="needed"/>
-                <td>Gross Vehicle Weight (pounds)</td>
-                <td>Vehicle Model Year</td>
-                <td>Test Type</td>
+                <th proof="needed"/>
+                <th>Gross Vehicle Weight (pounds)</th>
+                <th>Vehicle Model Year</th>
+                <th>Test Type</th>
               </tr>
+            </thead>
+            <tbody>
               <tr>
                 <td>(a)</td>
                 <td>8,500 and under</td>
@@ -714,13 +716,15 @@
           <text>Table 2. Gross vehicle weight greater than 8,500 pounds but less than or equal to 10,000 pounds.</text>
           <text>
             <table>
-              <tbody>
+              <thead>
                 <tr>
-                  <td proof="needed" data-vertical-align="middle"/>
-                  <td data-vertical-align="middle">Vehicle Model Year</td>
-                  <td data-vertical-align="middle">HC (parts per million)</td>
-                  <td data-vertical-align="middle">CO (percent)</td>
+                  <th proof="needed" data-vertical-align="middle"/>
+                  <th>Vehicle Model Year</th>
+                  <th>HC (parts per million)</th>
+                  <th>CO (percent)</th>
                 </tr>
+              </thead>
+              <tbody>
                 <tr>
                   <td data-vertical-align="middle">(i)</td>
                   <td data-vertical-align="middle">1977</td>
@@ -802,13 +806,15 @@
           <text>Table 3. Gross vehicle weight greater than 10,000 pounds:</text>
           <text>
             <table>
-              <tbody>
+              <thead>
                 <tr>
-                  <td proof="needed" data-vertical-align="middle"/>
-                  <td data-vertical-align="middle">Vehicle Model Year</td>
-                  <td data-vertical-align="middle">HC (parts per million)</td>
-                  <td data-vertical-align="middle">CO (percent)</td>
+                  <th proof="needed" data-vertical-align="middle"/>
+                  <th>Vehicle Model Year</th>
+                  <th>HC (parts per million)</th>
+                  <th>CO (percent)</th>
                 </tr>
+              </thead>
+              <tbody>
                 <tr>
                   <td data-vertical-align="middle">(i)</td>
                   <td data-vertical-align="middle">1977</td>

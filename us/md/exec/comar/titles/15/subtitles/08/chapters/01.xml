@@ -898,36 +898,18 @@
           <tbody>
             <tr>
               <td proof="needed" data-vertical-align="middle"/>
-              <td colspan="8" data-text-align="center" data-vertical-align="middle">GROUP</td>
+              <th colspan="8">GROUP</th>
             </tr>
             <tr>
-              <td data-vertical-align="middle">
-                <em>TEST</em>
-              </td>
-              <td data-vertical-align="middle">
-                <em>I</em>
-              </td>
-              <td data-vertical-align="middle">
-                <em>II</em>
-              </td>
-              <td data-vertical-align="middle">
-                <em>III</em>
-              </td>
-              <td data-vertical-align="middle">
-                <em>IV</em>
-              </td>
-              <td data-vertical-align="middle">
-                <em>V</em>
-              </td>
-              <td data-vertical-align="middle">
-                <em>VI</em>
-              </td>
-              <td data-vertical-align="middle">
-                <em>VII</em>
-              </td>
-              <td data-vertical-align="middle">
-                <em>VIII</em>
-              </td>
+              <th>TEST</th>
+              <th>I</th>
+              <th>II</th>
+              <th>III</th>
+              <th>IV</th>
+              <th>V</th>
+              <th>VI</th>
+              <th>VII</th>
+              <th>VIII</th>
             </tr>
             <tr>
               <td data-vertical-align="middle">Purity and Noxious</td>
@@ -1054,15 +1036,13 @@
       <text>Vegetable.</text>
       <text>
         <table>
-          <tbody>
+          <thead>
             <tr>
-              <td data-vertical-align="middle">
-                <em>Kind of Seed</em>
-              </td>
-              <td data-text-align="center" data-vertical-align="middle">
-                <em>Minimum * <br/>Germination <br/>(Percent)</em>
-              </td>
+              <th>Kind of Seed</th>
+              <th>Minimum * <br/>Germination <br/>(Percent)</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td data-vertical-align="middle">All other kinds</td>
               <td data-text-align="center" data-vertical-align="middle">50</td>
@@ -1404,15 +1384,13 @@
       <text>Flower.</text>
       <text>
         <table>
-          <tbody>
+          <thead>
             <tr>
-              <td data-vertical-align="middle">
-                <em>Kind of Seed</em>
-              </td>
-              <td data-text-align="center" data-vertical-align="middle">
-                <em>Minimum * <br/>Germination <br/>(Percent)</em>
-              </td>
+              <th>Kind of Seed</th>
+              <th>Minimum * <br/>Germination <br/>(Percent)</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td data-vertical-align="middle">All other kinds</td>
               <td data-text-align="center" data-vertical-align="middle">50</td>
@@ -2115,18 +2093,14 @@
       <text>Agricultural and Lawn and Turf Seeds.</text>
       <text>
         <table>
-          <tbody>
+          <thead>
             <tr>
-              <td data-vertical-align="middle">
-                <em>Kind of Seed</em>
-              </td>
-              <td data-text-align="center" data-vertical-align="middle">
-                <em>Minimum <br/>Germination <br/>(Percent) <br/>Certified Seed</em>
-              </td>
-              <td data-text-align="center" data-vertical-align="middle">
-                <em>Minimum <br/>Germination <br/>(Percent) <br/>Non-Certified Seed</em>
-              </td>
+              <th>Kind of Seed</th>
+              <th>Minimum <br/>Germination <br/>(Percent) <br/>Certified Seed</th>
+              <th>Minimum <br/>Germination <br/>(Percent) <br/>Non-Certified Seed</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td data-vertical-align="middle">Alfalfa</td>
               <td data-text-align="center" data-vertical-align="middle">*80</td>

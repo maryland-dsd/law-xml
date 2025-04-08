@@ -79,15 +79,13 @@
     </aftertext>
     <aftertext>
       <table>
-        <tbody>
+        <thead>
           <tr>
-            <td data-text-align="center" data-vertical-align="middle">
-              <em>Age</em>
-            </td>
-            <td data-text-align="center" data-vertical-align="middle">
-              <em>q</em>
-            </td>
+            <th>Age</th>
+            <th>q</th>
           </tr>
+        </thead>
+        <tbody>
           <tr>
             <td data-text-align="center" data-vertical-align="middle">5</td>
             <td data-text-align="center" data-vertical-align="middle">.000342</td>
@@ -524,15 +522,13 @@
     </aftertext>
     <aftertext>
       <table>
-        <tbody>
+        <thead>
           <tr>
-            <td data-text-align="center" data-vertical-align="middle">
-              <em>Age</em>
-            </td>
-            <td data-text-align="center" data-vertical-align="middle">
-              <em>q</em>
-            </td>
+            <th>Age</th>
+            <th>q</th>
           </tr>
+        </thead>
+        <tbody>
           <tr>
             <td data-text-align="center" data-vertical-align="middle">5</td>
             <td data-text-align="center" data-vertical-align="middle">.000171</td>
@@ -967,19 +963,21 @@
     <heading>1994 GAR Table.</heading>
     <text>
       <table>
+        <thead>
+          <tr>
+            <th proof="needed" data-vertical-align="middle"/>
+            <th colspan="2">Male</th>
+            <th colspan="2">Female</th>
+          </tr>
+          <tr>
+            <th>Age (x)</th>
+            <th>qx1994</th>
+            <th>AAx</th>
+            <th>qx1994</th>
+            <th>AAx</th>
+          </tr>
+        </thead>
         <tbody>
-          <tr>
-            <td proof="needed" data-vertical-align="middle"/>
-            <td colspan="2" data-text-align="center" data-vertical-align="middle">Male</td>
-            <td colspan="2" data-text-align="center" data-vertical-align="middle">Female</td>
-          </tr>
-          <tr>
-            <td data-vertical-align="middle">Age (x)</td>
-            <td data-vertical-align="middle">qx1994</td>
-            <td data-vertical-align="middle">AAx</td>
-            <td data-vertical-align="middle">qx1994</td>
-            <td data-vertical-align="middle">AAx</td>
-          </tr>
           <tr>
             <td data-vertical-align="middle">1</td>
             <td data-vertical-align="middle">0.000592</td>

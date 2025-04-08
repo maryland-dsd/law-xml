@@ -280,16 +280,18 @@
         <text>Table.</text>
         <text>
           <table>
-            <tbody>
+            <thead>
               <tr>
-                <td data-text-align="center" data-vertical-align="middle">Type of Policy</td>
-                <td data-text-align="center" data-vertical-align="middle">Morbidity Risk</td>
-                <td data-text-align="center" data-vertical-align="middle">Mortality Risk</td>
-                <td data-text-align="center" data-vertical-align="middle">Lapse Risk</td>
-                <td data-text-align="center" data-vertical-align="middle">Credit<br/>Quality<br/>Risk (C1)</td>
-                <td data-text-align="center" data-vertical-align="middle">Reinvestment<br/>Risk (C2)</td>
-                <td data-text-align="center" data-vertical-align="middle">Disinter-<br/>mediation<br/>Risk (C3)</td>
+                <th>Type of Policy</th>
+                <th>Morbidity Risk</th>
+                <th>Mortality Risk</th>
+                <th>Lapse Risk</th>
+                <th>Credit<br/>Quality<br/>Risk (C1)</th>
+                <th>Reinvestment<br/>Risk (C2)</th>
+                <th>Disinter-<br/>mediation<br/>Risk (C3)</th>
               </tr>
+            </thead>
+            <tbody>
               <tr>
                 <td data-vertical-align="middle">Health Insurance Other Than Long-<br/>Term Care or Disability</td>
                 <td data-text-align="center" data-vertical-align="middle">+</td>

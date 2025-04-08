@@ -202,13 +202,15 @@
         <text>Chart of Travel Distance Standards.</text>
         <text>
           <table>
-            <tbody>
+            <thead>
               <tr>
-                <td proof="needed" data-vertical-align="middle"/>
-                <td data-text-align="center" data-vertical-align="middle">Urban Area<br/>Maximum <br/>Distance<br/> (miles)</td>
-                <td data-text-align="center" data-vertical-align="middle">Suburban Area<br/> Maximum <br/>Distance <br/>(miles)</td>
-                <td data-text-align="center" data-vertical-align="middle">Rural Area <br/>Maximum <br/>Distance <br/>(miles)</td>
+                <th proof="needed" data-vertical-align="middle"/>
+                <th>Urban Area<br/>Maximum <br/>Distance<br/> (miles)</th>
+                <th>Suburban Area<br/> Maximum <br/>Distance <br/>(miles)</th>
+                <th>Rural Area <br/>Maximum <br/>Distance <br/>(miles)</th>
               </tr>
+            </thead>
+            <tbody>
               <tr>
                 <td data-vertical-align="middle">Provider type:</td>
                 <td proof="needed" data-text-align="center" data-vertical-align="middle"/>
@@ -304,10 +306,12 @@
       <text>Chart of Waiting Time Standards.</text>
       <text>
         <table>
-          <tbody>
+          <thead>
             <tr>
-              <td colspan="2" data-vertical-align="middle">First Available Appointment Waiting Time Standards</td>
+              <th colspan="2">First Available Appointment Waiting Time Standards</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td data-vertical-align="middle">Urgent care</td>
               <td data-vertical-align="middle">3 calendar days</td>
@@ -421,13 +425,15 @@
           <text>For each provider type listed in <cite path="|31|10|45|.03">Regulation .03 of this chapter</cite>, list the percentage of enrollees for which the carrier met the travel distance standards, in the following format:</text>
           <text>
             <table>
-              <tbody>
+              <thead>
                 <tr>
-                  <td proof="needed" data-vertical-align="middle"/>
-                  <td data-vertical-align="middle">Urban Area</td>
-                  <td data-vertical-align="middle">Suburban Area</td>
-                  <td data-vertical-align="middle">Rural Area</td>
+                  <th proof="needed" data-vertical-align="middle"/>
+                  <th>Urban Area</th>
+                  <th>Suburban Area</th>
+                  <th>Rural Area</th>
                 </tr>
+              </thead>
+              <tbody>
                 <tr>
                   <td data-vertical-align="middle">General dentist</td>
                   <td proof="needed" data-vertical-align="middle"/>
@@ -461,10 +467,12 @@
           <text>For each appointment type listed in <cite path="|31|10|45|.04">Regulation .04 of this chapter</cite>, list the percentage of enrollees in which the carrier met the appointment waiting time standards, in the following format:</text>
           <text>
             <table>
-              <tbody>
+              <thead>
                 <tr>
-                  <td colspan="2" data-vertical-align="middle">Appointment Waiting Time Standard Results</td>
+                  <th colspan="2">Appointment Waiting Time Standard Results</th>
                 </tr>
+              </thead>
+              <tbody>
                 <tr>
                   <td data-vertical-align="middle">Urgent care — within 3 calendar days</td>
                   <td proof="needed" data-vertical-align="middle"/>

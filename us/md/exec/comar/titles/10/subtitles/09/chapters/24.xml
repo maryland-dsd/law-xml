@@ -4150,16 +4150,18 @@
       <text>Schedule MA-1.</text>
       <text>
         <table class="layout-table">
+          <thead>
+            <tr>
+              <th>Persons Dependent</th>
+              <th colspan="2">Medical Assistance Standards</th>
+            </tr>
+            <tr>
+              <th>on Income</th>
+              <th>Annual</th>
+              <th>Monthly</th>
+            </tr>
+          </thead>
           <tbody>
-            <tr>
-              <td data-text-align="center" data-vertical-align="middle">Persons Dependent</td>
-              <td colspan="2" data-text-align="center" data-vertical-align="middle">Medical Assistance Standards</td>
-            </tr>
-            <tr>
-              <td data-text-align="center" data-vertical-align="middle">on Income</td>
-              <td data-text-align="center" data-vertical-align="middle">Annual</td>
-              <td data-text-align="center" data-vertical-align="middle">Monthly</td>
-            </tr>
             <tr>
               <td data-text-align="center" data-vertical-align="middle">1</td>
               <td data-text-align="center" data-vertical-align="middle">$ 4,200</td>
@@ -4944,11 +4946,13 @@
       <text>Schedule MA-2.</text>
       <text>
         <table>
-          <tbody>
+          <thead>
             <tr>
-              <td data-text-align="center" data-vertical-align="bottom">Individuals</td>
-              <td>Medically Needy Resource<br/>Standard (ABD)</td>
+              <th>Individuals</th>
+              <th>Medically Needy Resource<br/>Standard (ABD)</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td data-text-align="center" data-vertical-align="middle">1</td>
               <td data-text-align="center" data-vertical-align="middle">2,500</td>
@@ -5002,15 +5006,17 @@
       <text>Schedule MA-2A.</text>
       <text>
         <table>
+          <thead>
+            <tr>
+              <th colspan="3">Categorically Needy Resource Standard</th>
+            </tr>
+            <tr>
+              <th>Effective</th>
+              <th>Individual</th>
+              <th>Couple</th>
+            </tr>
+          </thead>
           <tbody>
-            <tr>
-              <td colspan="3" data-vertical-align="middle">Categorically Needy Resource Standard</td>
-            </tr>
-            <tr>
-              <td>Effective</td>
-              <td>Individual</td>
-              <td>Couple</td>
-            </tr>
             <tr>
               <td>January 1, 1987</td>
               <td>$1,800</td>

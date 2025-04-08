@@ -762,13 +762,15 @@
         <text>All directors and nominees, naming them, and directors and officers of the issuer as a group, without naming them.</text>
         <text>
           <table>
-            <tbody>
+            <thead>
               <tr>
-                <td data-vertical-align="middle">(1)</td>
-                <td data-vertical-align="middle">(2)</td>
-                <td data-vertical-align="middle">(3)</td>
-                <td data-vertical-align="middle">(4)</td>
+                <th>(1)</th>
+                <th>(2)</th>
+                <th>(3)</th>
+                <th>(4)</th>
               </tr>
+            </thead>
+            <tbody>
               <tr>
                 <td proof="needed" data-vertical-align="middle"/>
                 <td data-vertical-align="middle">Name of Beneficial Owner</td>
@@ -988,13 +990,15 @@
         <text>Specified Tabular Format.</text>
         <text>
           <table class="layout-table">
-            <tbody>
+            <thead>
               <tr>
-                <td data-text-align="center">(A)</td>
-                <td data-text-align="center">(B)</td>
-                <td colspan="2" data-text-align="center">(C)</td>
-                <td data-text-align="center" data-vertical-align="middle">(D)</td>
+                <th>(A)</th>
+                <th>(B)</th>
+                <th colspan="2">(C)</th>
+                <th>(D)</th>
               </tr>
+            </thead>
+            <tbody>
               <tr>
                 <td data-vertical-align="middle">Name of individual or number of persons in groups</td>
                 <td data-vertical-align="middle">Capacities in which served</td>
@@ -1083,14 +1087,16 @@
           <text>The amount of shares subject to all unexercised options held as of the most recent practicable date.</text>
           <text>
             <table>
-              <tbody>
+              <thead>
                 <tr>
-                  <td data-vertical-align="middle">Title of Securities</td>
-                  <td data-vertical-align="middle">Name</td>
-                  <td data-vertical-align="middle">Name</td>
-                  <td data-vertical-align="middle">Name</td>
-                  <td data-vertical-align="middle">All directors and officers as a group</td>
+                  <th>Title of Securities</th>
+                  <th>Name</th>
+                  <th>Name</th>
+                  <th>Name</th>
+                  <th>All directors and officers as a group</th>
                 </tr>
+              </thead>
+              <tbody>
                 <tr>
                   <td data-vertical-align="middle">Granted-20[ ] to date:</td>
                   <td proof="needed" data-vertical-align="middle"/>

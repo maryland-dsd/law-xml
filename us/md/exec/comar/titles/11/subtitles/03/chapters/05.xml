@@ -168,20 +168,16 @@
       <text>as follows:</text>
       <text>
         <table class="no-border-heading">
+          <thead>
+            <tr>
+              <th colspan="2">Table 1: Runway Classifications</th>
+            </tr>
+            <tr>
+              <th>Type of Runway</th>
+              <th>Classification</th>
+            </tr>
+          </thead>
           <tbody>
-            <tr>
-              <td colspan="2" data-text-align="center" data-vertical-align="middle">
-                <em>Table 1: Runway Classifications</em>
-              </td>
-            </tr>
-            <tr>
-              <td data-vertical-align="middle">
-                <em>Type of Runway</em>
-              </td>
-              <td data-vertical-align="middle">
-                <em>Classification</em>
-              </td>
-            </tr>
             <tr>
               <td data-vertical-align="middle">Utility Runway:</td>
               <td proof="needed" data-vertical-align="middle"/>
@@ -277,15 +273,13 @@
           <text>The width of the primary surface shall be:</text>
           <text>
             <table>
-              <tbody>
+              <thead>
                 <tr>
-                  <td data-vertical-align="middle">
-                    <em>Runway Classification</em>
-                  </td>
-                  <td data-text-align="center" data-vertical-align="middle">
-                    <em>Width</em>
-                  </td>
+                  <th>Runway Classification</th>
+                  <th>Width</th>
                 </tr>
+              </thead>
+              <tbody>
                 <tr>
                   <td data-vertical-align="middle">I</td>
                   <td data-vertical-align="middle">250 feet</td>
@@ -319,15 +313,13 @@
           <text>The perimeter of the horizontal surface shall be determined by the following radii:</text>
           <text>
             <table>
-              <tbody>
+              <thead>
                 <tr>
-                  <td data-vertical-align="middle">
-                    <em>Runway Classification</em>
-                  </td>
-                  <td data-text-align="center" data-vertical-align="middle">
-                    <em>Radius</em>
-                  </td>
+                  <th>Runway Classification</th>
+                  <th>Radius</th>
                 </tr>
+              </thead>
+              <tbody>
                 <tr>
                   <td data-vertical-align="middle">I, II, III</td>
                   <td data-vertical-align="middle">5,000 feet</td>
@@ -383,15 +375,13 @@
       <text>To provide clearance for mobile objects operating on traverse ways on or near a public-use airport that does not have an operative ground traffic control service coordinated with the air traffic control service, the actual height of the traverse way shall be adjusted upwards by the following amounts:</text>
       <text>
         <table>
-          <tbody>
+          <thead>
             <tr>
-              <td data-text-align="center" data-vertical-align="middle">
-                <em>Type of Traverse Way</em>
-              </td>
-              <td data-text-align="center" data-vertical-align="middle">
-                <em>Increase in Height</em>
-              </td>
+              <th>Type of Traverse Way</th>
+              <th>Increase in Height</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td data-vertical-align="middle">Interstate highway</td>
               <td data-vertical-align="middle">17 feet</td>
@@ -417,30 +407,20 @@
       </text>
       <text>
         <table class="no-border-heading">
+          <thead>
+            <tr>
+              <th colspan="6">Table 2: Dimensions of Approach Surface*</th>
+            </tr>
+            <tr>
+              <th>Runway Class</th>
+              <th>Description</th>
+              <th>Width of Inner Edge</th>
+              <th>Width of Outer Edge</th>
+              <th>Horizontal Length</th>
+              <th>Slope Angle</th>
+            </tr>
+          </thead>
           <tbody>
-            <tr>
-              <td colspan="6" data-text-align="center" data-vertical-align="middle">Table 2: Dimensions of Approach Surface*</td>
-            </tr>
-            <tr>
-              <td data-text-align="center" data-vertical-align="middle">
-                <em>Runway Class</em>
-              </td>
-              <td data-vertical-align="middle">
-                <em>Description</em>
-              </td>
-              <td data-text-align="center" data-vertical-align="middle">
-                <em>Width of Inner Edge</em>
-              </td>
-              <td data-text-align="center" data-vertical-align="middle">
-                <em>Width of Outer Edge</em>
-              </td>
-              <td data-text-align="center" data-vertical-align="middle">
-                <em>Horizontal Length</em>
-              </td>
-              <td data-text-align="center" data-vertical-align="middle">
-                <em>Slope Angle</em>
-              </td>
-            </tr>
             <tr>
               <td data-text-align="center" data-vertical-align="middle">I</td>
               <td data-vertical-align="middle">Utility runway; visual approaches only</td>

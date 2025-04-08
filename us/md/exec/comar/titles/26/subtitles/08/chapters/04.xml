@@ -1191,27 +1191,29 @@
             <text>K<sub>p</sub> = K<sub>po</sub> [ss] <sup>a</sup>, where the values for Kpo and a are given in the following table:</text>
             <text>
               <table>
+                <thead>
+                  <tr>
+                    <th colspan="5">
+                      <em>LINEAR PARTITION COEFFICIENTS FOR PRIORITY METALS IN STREAMS AND LAKES</em>
+                    </th>
+                  </tr>
+                </thead>
                 <tbody>
                   <tr>
-                    <td colspan="5" data-vertical-align="middle">
-                      <em>LINEAR PARTITION COEFFICIENTS FOR PRIORITY METALS IN STREAMS AND LAKES</em>
-                    </td>
-                  </tr>
-                  <tr>
                     <td proof="needed"/>
-                    <td colspan="2" data-text-align="center" data-vertical-align="middle">
+                    <th colspan="2">
                       <em>Streams</em>
-                    </td>
-                    <td colspan="2" data-text-align="center" data-vertical-align="middle">
+                    </th>
+                    <th colspan="2">
                       <em>Lakes</em>
-                    </td>
+                    </th>
                   </tr>
                   <tr>
-                    <td>Metal</td>
-                    <td data-text-align="center" data-vertical-align="middle">K<sub>po</sub></td>
-                    <td data-text-align="center" data-vertical-align="middle">a</td>
-                    <td data-text-align="center" data-vertical-align="middle">K<sub>po</sub></td>
-                    <td data-text-align="center" data-vertical-align="middle">a</td>
+                    <th>Metal</th>
+                    <th>K<sub>po</sub></th>
+                    <th>a</th>
+                    <th>K<sub>po</sub></th>
+                    <th>a</th>
                   </tr>
                   <tr>
                     <td>Arsenic</td>
@@ -2551,15 +2553,13 @@
         <text>The application fees for storm water discharges associated with construction activity are as follows:</text>
         <text>
           <table>
-            <tbody>
+            <thead>
               <tr>
-                <td data-text-align="center" data-vertical-align="middle">
-                  <em>Total Disturbed Area (Acres)</em>
-                </td>
-                <td data-text-align="center" data-vertical-align="middle">
-                  <em>NOI Fee (Dollars)</em>
-                </td>
+                <th>Total Disturbed Area (Acres)</th>
+                <th>NOI Fee (Dollars)</th>
               </tr>
+            </thead>
+            <tbody>
               <tr>
                 <td>(a) 1 to less than 10</td>
                 <td data-text-align="center" data-vertical-align="middle">$100;</td>
@@ -2594,15 +2594,13 @@
         <text>The annual permit fee is based on the total flow volume of effluent discharged from the facility, as determined by the storm water runoff volume calculation in <cite path="26|08|04|.09-1|D.|(3)">§D(3) of this regulation</cite>.</text>
         <text>
           <table>
-            <tbody>
+            <thead>
               <tr>
-                <td data-text-align="center" data-vertical-align="middle">
-                  <em>Average Discharge Volume<br/>(Gallons Per Day)</em>
-                </td>
-                <td data-text-align="center" data-vertical-align="middle">
-                  <em>Annual Permit Fee<br/>(Dollars Per Year)</em>
-                </td>
+                <th>Average Discharge Volume<br/>(Gallons Per Day)</th>
+                <th>Annual Permit Fee<br/>(Dollars Per Year)</th>
               </tr>
+            </thead>
+            <tbody>
               <tr>
                 <td>Less than 1,000</td>
                 <td data-text-align="center" data-vertical-align="middle">$175</td>
@@ -2656,15 +2654,13 @@
         <text>The permit fee is based on the total volume of effluent discharged from the facility. The fees are:</text>
         <text>
           <table>
-            <tbody>
+            <thead>
               <tr>
-                <td data-text-align="center" data-vertical-align="middle">
-                  <em>Average Daily Discharge Volume <br/>(Gallons Per Day)</em>
-                </td>
-                <td data-text-align="center" data-vertical-align="middle">
-                  <em>Annual<br/>Permit Fee</em>
-                </td>
+                <th>Average Daily Discharge Volume <br/>(Gallons Per Day)</th>
+                <th>Annual<br/>Permit Fee</th>
               </tr>
+            </thead>
+            <tbody>
               <tr>
                 <td>Less than 1,000</td>
                 <td data-text-align="center" data-vertical-align="middle">$120</td>
@@ -2713,15 +2709,13 @@
           <text>The permit fee is based on the total volume of effluent discharged from the facility. The fees are:</text>
           <text>
             <table>
-              <tbody>
+              <thead>
                 <tr>
-                  <td data-text-align="center" data-vertical-align="middle">
-                    <em>Average Daily Discharge Volume<br/> (Gallons Per Day)</em>
-                  </td>
-                  <td data-text-align="center" data-vertical-align="middle">
-                    <em>Annual<br/>Permit Fee</em>
-                  </td>
+                  <th>Average Daily Discharge Volume<br/> (Gallons Per Day)</th>
+                  <th>Annual<br/>Permit Fee</th>
                 </tr>
+              </thead>
+              <tbody>
                 <tr>
                   <td>Less than 1,000</td>
                   <td data-text-align="center" data-vertical-align="middle">$110</td>
@@ -2779,16 +2773,14 @@
           <text>The discharge permit fee is based on the total volume of effluent discharged from the facility. The permit fees for the first and subsequent years are:</text>
           <text>
             <table>
-              <tbody>
+              <thead>
                 <tr>
-                  <td>Average Daily Discharge Volume<br/>(Gallons Per Day)</td>
-                  <td data-text-align="center" data-vertical-align="middle">
-                    <em>One <br/>Year Fee</em>
-                  </td>
-                  <td data-text-align="center" data-vertical-align="middle">
-                    <em>Fee Each <br/>Additional Year</em>
-                  </td>
+                  <th>Average Daily Discharge Volume<br/>(Gallons Per Day)</th>
+                  <th>One <br/>Year Fee</th>
+                  <th>Fee Each <br/>Additional Year</th>
                 </tr>
+              </thead>
+              <tbody>
                 <tr>
                   <td>Less than 1,000</td>
                   <td data-text-align="center" data-vertical-align="middle">$175</td>
@@ -2846,15 +2838,13 @@
         <text>Persons seeking coverage under this general permit shall submit an NOI together with the following fee depending upon the number of slips available at the marina:</text>
         <text>
           <table>
-            <tbody>
+            <thead>
               <tr>
-                <td data-text-align="center" data-vertical-align="middle">
-                  <em>Number of Slips</em>
-                </td>
-                <td data-text-align="center" data-vertical-align="middle">
-                  <em>Fee</em>
-                </td>
+                <th>Number of Slips</th>
+                <th>Fee</th>
               </tr>
+            </thead>
+            <tbody>
               <tr>
                 <td>200 or more slips</td>
                 <td>$500</td>
@@ -2892,13 +2882,15 @@
         <text>A CAFO shall pay an annual permit fee. The first annual fee payment shall be submitted to the Department with the NOI form. The Department will bill the permittee annually, and the fee shall be paid annually not later than the anniversary of the effective date of the permit. The following permit fees shall be collected based on the size category of the facility defined in Table 1 under Regulation <cite path="26.08.03.09|A.|(3)">26.08.03.09A(3)</cite>:</text>
         <text>
           <table>
-            <tbody>
+            <thead>
               <tr>
-                <td>Size Category</td>
-                <td>Large</td>
-                <td>Medium</td>
-                <td>Small</td>
+                <th>Size Category</th>
+                <th>Large</th>
+                <th>Medium</th>
+                <th>Small</th>
               </tr>
+            </thead>
+            <tbody>
               <tr>
                 <td>Annual Permit Fee</td>
                 <td>$1200</td>
@@ -3258,11 +3250,13 @@
         <text>The permit fee is based on the total flow volume of effluent discharged from the facility. The fees are as follows:</text>
         <text>
           <table>
-            <tbody>
+            <thead>
               <tr>
-                <td data-text-align="center" data-vertical-align="middle">Average Discharge Volume<br/>(gallons per day)</td>
-                <td data-text-align="center" data-vertical-align="middle">Permit Fee<br/>(per year)</td>
+                <th>Average Discharge Volume<br/>(gallons per day)</th>
+                <th>Permit Fee<br/>(per year)</th>
               </tr>
+            </thead>
+            <tbody>
               <tr>
                 <td data-vertical-align="middle">Less than 1,000</td>
                 <td data-vertical-align="middle">$100</td>
@@ -3347,15 +3341,13 @@
           <text>Volume fees are determined as follows:</text>
           <text>
             <table>
-              <tbody>
+              <thead>
                 <tr>
-                  <td data-text-align="center" data-vertical-align="middle">
-                    <em>Average Discharge Volume<br/>(gallons per day)</em>
-                  </td>
-                  <td data-text-align="center" data-vertical-align="middle">
-                    <em>Volume Fee</em>
-                  </td>
+                  <th>Average Discharge Volume<br/>(gallons per day)</th>
+                  <th>Volume Fee</th>
                 </tr>
+              </thead>
+              <tbody>
                 <tr>
                   <td data-vertical-align="middle">Less than 1,000</td>
                   <td data-vertical-align="middle">$50</td>
@@ -3401,15 +3393,13 @@
           <text>The industry factors are determined as follows:</text>
           <text>
             <table>
-              <tbody>
+              <thead>
                 <tr>
-                  <td data-vertical-align="middle">
-                    <em>Industry Type</em>
-                  </td>
-                  <td data-text-align="center" data-vertical-align="middle">
-                    <em>Industry Factor</em>
-                  </td>
+                  <th>Industry Type</th>
+                  <th>Industry Factor</th>
                 </tr>
+              </thead>
+              <tbody>
                 <tr>
                   <td data-vertical-align="middle">Primary industry as listed in 40 CFR Part 122, Appendix A, which is incorporated by reference</td>
                   <td data-text-align="center" data-vertical-align="middle">5</td>
@@ -3439,15 +3429,13 @@
           <text>The water use factor is determined as follows:</text>
           <text>
             <table class="layout-table">
-              <tbody>
+              <thead>
                 <tr>
-                  <td data-text-align="center" data-vertical-align="middle">
-                    <em>Water Use</em>
-                  </td>
-                  <td data-text-align="center" data-vertical-align="middle">
-                    <em>Water Use Factor</em>
-                  </td>
+                  <th>Water Use</th>
+                  <th>Water Use Factor</th>
                 </tr>
+              </thead>
+              <tbody>
                 <tr>
                   <td data-vertical-align="middle">Process use</td>
                   <td data-text-align="center" data-vertical-align="middle">2.0</td>

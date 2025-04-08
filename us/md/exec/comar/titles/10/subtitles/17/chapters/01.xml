@@ -2869,26 +2869,28 @@
         <text>Minimum dimensions:</text>
         <text>
           <table class="no-border-heading">
+            <thead>
+              <tr>
+                <th colspan="9">Diving Board Height (H) Above Water</th>
+              </tr>
+              <tr>
+                <th rowspan="2">Dimension</th>
+                <th colspan="3">Deck Level Board (20" or less)</th>
+                <th colspan="3">One Meter Diving Board (More than <br/>20" but not more than 39")</th>
+                <th colspan="2">Three Meter Diving<br/>Board (More than 3'3",<br/>but not more than 10'0")</th>
+              </tr>
+              <tr>
+                <th>Minimum</th>
+                <th>Preferred</th>
+                <th>Maximum</th>
+                <th>Minimum</th>
+                <th>Preferred</th>
+                <th>Maximum</th>
+                <th>Minimum</th>
+                <th>Preferred</th>
+              </tr>
+            </thead>
             <tbody>
-              <tr>
-                <td colspan="9" data-text-align="center" data-vertical-align="middle">Diving Board Height (H) Above Water</td>
-              </tr>
-              <tr>
-                <td rowspan="2">Dimension</td>
-                <td colspan="3">Deck Level Board (20" or less)</td>
-                <td colspan="3" data-text-align="center" data-vertical-align="middle">One Meter Diving Board (More than <br/>20" but not more than 39")</td>
-                <td colspan="2" data-text-align="center" data-vertical-align="middle">Three Meter Diving<br/>Board (More than 3'3",<br/>but not more than 10'0")</td>
-              </tr>
-              <tr>
-                <td data-vertical-align="middle">Minimum</td>
-                <td data-vertical-align="middle">Preferred</td>
-                <td data-vertical-align="middle">Maximum</td>
-                <td data-vertical-align="middle">Minimum</td>
-                <td data-vertical-align="middle">Preferred</td>
-                <td data-vertical-align="middle">Maximum</td>
-                <td data-vertical-align="middle">Minimum</td>
-                <td data-vertical-align="middle">Preferred</td>
-              </tr>
               <tr>
                 <td data-vertical-align="middle">D<sub>0</sub></td>
                 <td data-text-align="center" data-vertical-align="middle">6'0"</td>
@@ -4332,15 +4334,17 @@
           <text>The following factor table:</text>
           <text>
             <table>
-              <tbody>
+              <thead>
                 <tr>
-                  <td data-text-align="center">Temperature<br/>(°F)</td>
-                  <td data-text-align="center">Temperature<br/>Factor</td>
-                  <td data-text-align="center">Calcium<br/>Hardness<br/>(ppm)</td>
-                  <td data-text-align="center">Calcium<br/>Factor</td>
-                  <td data-text-align="center">Total<br/>Alkalinity<br/>(ppm)</td>
-                  <td data-text-align="center">Alkalinity<br/>Factor</td>
+                  <th>Temperature<br/>(°F)</th>
+                  <th>Temperature<br/>Factor</th>
+                  <th>Calcium<br/>Hardness<br/>(ppm)</th>
+                  <th>Calcium<br/>Factor</th>
+                  <th>Total<br/>Alkalinity<br/>(ppm)</th>
+                  <th>Alkalinity<br/>Factor</th>
                 </tr>
+              </thead>
+              <tbody>
                 <tr>
                   <td data-text-align="center">32</td>
                   <td data-text-align="center">0.0</td>

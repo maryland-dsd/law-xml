@@ -499,15 +499,13 @@
           <text>In the following order and at or above the minimum percentages accepted for registration, as listed in the following table:</text>
           <text>
             <table>
-              <tbody>
+              <thead>
                 <tr>
-                  <td>
-                    <em>Element</em>
-                  </td>
-                  <td>
-                    <em>Minimum <br/>Percentage</em>
-                  </td>
+                  <th>Element</th>
+                  <th>Minimum <br/>Percentage</th>
                 </tr>
+              </thead>
+              <tbody>
                 <tr>
                   <td>Calcium (Ca)</td>
                   <td>1.00</td>
@@ -929,44 +927,24 @@
         <text class="center">Primary Nutrient Tolerance Table*</text>
         <text>
           <table>
+            <thead>
+              <tr>
+                <th>Guaranteed</th>
+                <th colspan="2">Total Nitrogen (Percentage)</th>
+                <th colspan="2">Available Phosphate (Percentage)</th>
+                <th colspan="2">Soluble Potash (Percentage)</th>
+              </tr>
+              <tr>
+                <th>Percentage</th>
+                <th>Minimum</th>
+                <th>Maximum</th>
+                <th>Minimum</th>
+                <th>Maximum</th>
+                <th>Minimum</th>
+                <th>Maximum</th>
+              </tr>
+            </thead>
             <tbody>
-              <tr>
-                <td data-vertical-align="middle">
-                  <em>Guaranteed</em>
-                </td>
-                <td colspan="2" data-vertical-align="middle">
-                  <em>Total Nitrogen (Percentage)</em>
-                </td>
-                <td colspan="2" data-vertical-align="middle">
-                  <em>Available Phosphate (Percentage)</em>
-                </td>
-                <td colspan="2" data-vertical-align="middle">
-                  <em>Soluble Potash (Percentage)</em>
-                </td>
-              </tr>
-              <tr>
-                <td data-text-align="center" data-vertical-align="middle">
-                  <em>Percentage</em>
-                </td>
-                <td data-text-align="center" data-vertical-align="middle">
-                  <em>Minimum</em>
-                </td>
-                <td data-text-align="center" data-vertical-align="middle">
-                  <em>Maximum</em>
-                </td>
-                <td data-text-align="center" data-vertical-align="middle">
-                  <em>Minimum</em>
-                </td>
-                <td data-text-align="center" data-vertical-align="middle">
-                  <em>Maximum</em>
-                </td>
-                <td data-text-align="center" data-vertical-align="middle">
-                  <em>Minimum</em>
-                </td>
-                <td data-text-align="center" data-vertical-align="middle">
-                  <em>Maximum</em>
-                </td>
-              </tr>
               <tr>
                 <td data-vertical-align="middle">04 or less</td>
                 <td data-text-align="center" data-vertical-align="middle">049</td>
@@ -1141,18 +1119,14 @@
       <text class="center">Secondary Nutrient or Micronutrient Tolerance Table</text>
       <text>
         <table>
-          <tbody>
+          <thead>
             <tr>
-              <td>
-                <em>Element</em>
-              </td>
-              <td>
-                <em>Allowable Deficiency*</em>
-              </td>
-              <td>
-                <em>Allowable Excess</em>
-              </td>
+              <th>Element</th>
+              <th>Allowable Deficiency*</th>
+              <th>Allowable Excess</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td>Calcium</td>
               <td>0.2 unit + 5% of guarantee</td>

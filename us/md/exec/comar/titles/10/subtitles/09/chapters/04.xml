@@ -867,18 +867,20 @@
         <text>The fee schedule effective July 1, 2022 is as follows:</text>
         <text>
           <table>
-            <tbody>
+            <thead>
               <tr>
-                <td proof="needed" data-text-align="center"/>
-                <td data-text-align="center">Skilled Nurse</td>
-                <td data-text-align="center">Home Health Aide</td>
-                <td data-text-align="center">Physical Therapy</td>
-                <td data-text-align="center">Occupational Therapy</td>
-                <td proof="needed" data-text-align="center">
+                <th proof="needed" data-text-align="center"/>
+                <th>Skilled Nurse</th>
+                <th>Home Health Aide</th>
+                <th>Physical Therapy</th>
+                <th>Occupational Therapy</th>
+                <th proof="needed" data-text-align="center">
                   <p>Speech</p>
                   <p>Therapy</p>
-                </td>
+                </th>
               </tr>
+            </thead>
+            <tbody>
               <tr>
                 <td>COUNTY</td>
                 <td proof="needed"/>

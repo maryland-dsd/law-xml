@@ -825,12 +825,14 @@
           <text>Emission Standards in Pounds of NO<sub>x</sub> per Million Btu of heat input.</text>
           <text>
             <table>
-              <tbody>
+              <thead>
                 <tr>
-                  <td>Fuel</td>
-                  <td>Tangential- Fired</td>
-                  <td>Wall-Fired</td>
+                  <th>Fuel</th>
+                  <th>Tangential- Fired</th>
+                  <th>Wall-Fired</th>
                 </tr>
+              </thead>
+              <tbody>
                 <tr>
                   <td>Gas only</td>
                   <td data-text-align="center" data-vertical-align="middle">0.20</td>
@@ -1176,19 +1178,13 @@
           <tr>
             <th colspan="3">Table 1 <br/><em>Emission Standards and Dust Collector Performance <br/>Standards for Fuel-Burning Equipment</em></th>
           </tr>
+          <tr>
+            <th>Equipment Description</th>
+            <th>Max. Rated Heat Input<br/>in million Btu (gigajoules)<br/>per hour per furnace</th>
+            <th>Max. Allowable Emissions<br/>of Part. Matter—<br/>gr/scfd(mg/dscm)</th>
+          </tr>
         </thead>
         <tbody>
-          <tr>
-            <td data-vertical-align="bottom">
-              <em>Equipment Description</em>
-            </td>
-            <td data-text-align="center" data-vertical-align="middle">
-              <em>Max. Rated Heat Input<br/>in million Btu (gigajoules)<br/>per hour per furnace</em>
-            </td>
-            <td data-text-align="center" data-vertical-align="middle">
-              <em>Max. Allowable Emissions<br/>of Part. Matter—<br/>gr/scfd(mg/dscm)</em>
-            </td>
-          </tr>
           <tr>
             <td data-vertical-align="bottom">Existing and new equipment<br/>burning residual oil</td>
             <td data-text-align="center">Less than 13 (13.7)<br/>13—50 (13.7—52.8)<br/>50—250 (52.8—265)</td>
@@ -1341,11 +1337,13 @@
         <text>Except as provided in <cite path="26|11|09|.10|B.|(2)">§B(2) of this regulation</cite>, used oil specifications are as follows:</text>
         <text>
           <table class="layout-table">
-            <tbody>
+            <thead>
               <tr>
-                <td>Material</td>
-                <td>Allowable Level</td>
+                <th>Material</th>
+                <th>Allowable Level</th>
               </tr>
+            </thead>
+            <tbody>
               <tr>
                 <td>(a) Lead</td>
                 <td>100 ppm</td>

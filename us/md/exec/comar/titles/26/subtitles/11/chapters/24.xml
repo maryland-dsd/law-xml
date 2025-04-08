@@ -416,12 +416,14 @@
         <text>Test Schedule.</text>
         <text>
           <table>
-            <tbody>
+            <thead>
               <tr>
-                <td data-vertical-align="middle">Type of Stage II Vapor Recovery System</td>
-                <td data-vertical-align="middle">Initial Test</td>
-                <td data-vertical-align="middle">Frequency of Retest</td>
+                <th>Type of Stage II Vapor Recovery System</th>
+                <th>Initial Test</th>
+                <th>Frequency of Retest</th>
               </tr>
+            </thead>
+            <tbody>
               <tr>
                 <td data-vertical-align="middle">(a) Vapor Balance System</td>
                 <td data-vertical-align="middle">Dynamic Back Pressure</td>
