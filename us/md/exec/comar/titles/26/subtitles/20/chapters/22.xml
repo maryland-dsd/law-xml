@@ -271,15 +271,13 @@
           <text>The maximum ground vibration may not exceed the following limits at the location of any dwelling, public building, school, church, or community or institutional building outside the permit:</text>
           <text>
             <table class="layout-table">
-              <tbody>
+              <thead>
                 <tr>
-                  <td data-vertical-align="middle">
-                    <em>Distance (D) from the blasting site, in feet</em>
-                  </td>
-                  <td data-text-align="center" data-vertical-align="middle">
-                    <em>Maximum allowable peak particle velocity (V max)<br/> for ground in inches/second2</em>
-                  </td>
+                  <th>Distance (D) from the blasting site, in feet</th>
+                  <th>Maximum allowable peak particle velocity (V max)<br/> for ground in inches/second2</th>
                 </tr>
+              </thead>
+              <tbody>
                 <tr>
                   <td data-vertical-align="middle">0 to 300</td>
                   <td data-text-align="center" data-vertical-align="middle">1.25</td>
@@ -295,12 +293,12 @@
               </tbody>
             </table>
           </text>
+          <text><sup>2</sup>Ground vibration shall be measured as the particle velocity. Particle velocity shall be recorded in three mutually perpendicular directions. The maximum allowable peak particle velocity shall apply to each of the three measurements.</text>
         </para>
-      </para>
-      <aftertext><sup>2</sup>Ground vibration shall be measured as the particle velocity. Particle velocity shall be recorded in three mutually perpendicular directions. The maximum allowable peak particle velocity shall apply to each of the three measurements.</aftertext>
-      <para>
-        <num>(b)</num>
-        <text>A seismographic record shall be provided for each blast.</text>
+        <para>
+          <num>(b)</num>
+          <text>A seismographic record shall be provided for each blast.</text>
+        </para>
       </para>
       <para>
         <num>(3)</num>
@@ -310,15 +308,13 @@
           <text>An operator may use the scaled-distance equation, W = (D/Ds)B., to determine the allowable charge weight of explosives to be detonated in any 8-millisecond period, without seismic monitoring, where W = the maximum weight of explosives, in pounds, D = the distance, in feet, from the blasting site to the nearest protected structure, and Ds = the scaled-distance factor, which may initially be approved by the Bureau using the values for scaled-distance factor listed in the following chart:</text>
           <text>
             <table class="layout-table">
-              <tbody>
+              <thead>
                 <tr>
-                  <td data-vertical-align="middle">
-                    <em>Distance (D) from the blasting site, in feet</em>
-                  </td>
-                  <td data-vertical-align="middle">
-                    <em>Scaled-distance  factor (Ds)</em>
-                  </td>
+                <th>Distance (D) from the blasting site, in feet</th>
+                <th>Scaled-distance factor (Ds)</th>
                 </tr>
+              </thead>
+              <tbody>
                 <tr>
                   <td data-vertical-align="middle">0 to 300</td>
                   <td data-text-align="center" data-vertical-align="middle">50</td>
@@ -340,15 +336,13 @@
           <text>For distances between 100 and 5,000 feet, solution of the equation results in the following maximum weight:</text>
           <text>
             <table class="layout-table">
-              <tbody>
+              <thead>
                 <tr>
-                  <td data-text-align="center" data-vertical-align="middle">
-                    <em>Distance in feet (D)</em>
-                  </td>
-                  <td data-text-align="center" data-vertical-align="middle">
-                    <em>Maximum weight in pounds (W)</em>
-                  </td>
+                  <th>Distance in feet (D)</th>
+                  <th>Maximum weight in pounds (W)</th>
                 </tr>
+              </thead>
+              <tbody>
                 <tr>
                   <td data-text-align="center" data-vertical-align="middle">100</td>
                   <td data-text-align="center" data-vertical-align="middle">4</td>
