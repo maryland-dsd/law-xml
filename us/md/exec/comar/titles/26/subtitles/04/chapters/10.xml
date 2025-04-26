@@ -561,37 +561,35 @@
       <para>
         <num>(2)</num>
         <text>Base Fee Adjustment Factors. The base fee shall be adjusted depending on how the coal combustion byproducts are managed based on the appropriate adjustment factor in Table 1:</text>
+        <text>
+          <table class="layout-table">
+            <thead>
+              <tr>
+                <th colspan="2">Table 1—Base Fee Adjustment Factors</th>
+              </tr>
+              <tr>
+                <th>Management category:</th>
+                <th>Adjustment Factor</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td data-vertical-align="middle">Coal combustion byproducts disposed of in the State</td>
+                <td data-text-align="center" data-vertical-align="middle">1.0</td>
+              </tr>
+              <tr>
+                <td data-vertical-align="middle">Coal combustion byproducts used for noncoal mine reclamation in the State</td>
+                <td data-text-align="center" data-vertical-align="middle">1.0</td>
+              </tr>
+              <tr>
+                <td data-vertical-align="middle">Coal combustion byproducts transported out-of-State</td>
+                <td data-text-align="center" data-vertical-align="middle">0.5</td>
+              </tr>
+            </tbody>
+          </table>
+        </text>
       </para>
     </para>
-    <aftertext class="center">
-      <strong>Table 1—Base Fee Adjustment Factors</strong>
-    </aftertext>
-    <aftertext>
-      <table class="layout-table">
-        <tbody>
-          <tr>
-            <td data-vertical-align="middle">
-              <em>Management category:</em>
-            </td>
-            <td data-vertical-align="middle">
-              <em>Adjustment Factor</em>
-            </td>
-          </tr>
-          <tr>
-            <td data-vertical-align="middle">Coal combustion byproducts disposed of in the State</td>
-            <td data-text-align="center" data-vertical-align="middle">1.0</td>
-          </tr>
-          <tr>
-            <td data-vertical-align="middle">Coal combustion byproducts used for noncoal mine reclamation in the State</td>
-            <td data-text-align="center" data-vertical-align="middle">1.0</td>
-          </tr>
-          <tr>
-            <td data-vertical-align="middle">Coal combustion byproducts transported out-of-State</td>
-            <td data-text-align="center" data-vertical-align="middle">0.5</td>
-          </tr>
-        </tbody>
-      </table>
-    </aftertext>
     <para>
       <num>(3)</num>
       <text>Calculation of Fee. The annual generator's fee shall be calculated by adding the results of the following formula for each Management Category in Table 1:</text>
