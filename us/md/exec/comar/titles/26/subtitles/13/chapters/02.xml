@@ -371,7 +371,7 @@
         <table>
           <thead>
             <tr>
-              <th proof="needed"/>
+              <th/>
               <th>Use<br/>Constituting<br/>Disposal<br/>(1)</th>
               <th>Energy<br/>Recovery/<br/>Fuel<br/>(2)</th>
               <th>Reclamation<br/>(3)</th>
@@ -435,15 +435,13 @@
               <td data-text-align="center">(*)</td>
               <td data-text-align="center">(*)</td>
             </tr>
-          </tbody>
-          <tfoot>
             <tr>
               <td colspan="5">——————</td>
             </tr>
             <tr>
               <td colspan="5">NOTE — The terms "spent materials", "sludges", "by-products", and "scrap metal" are defined in <cite path="|26|13|02|.01">Regulation .01 of this chapter</cite>.</td>
             </tr>
-          </tfoot>
+          </tbody>
         </table>
       </text>
     </para>
@@ -3496,284 +3494,282 @@
     <para>
       <num>B.</num>
       <text>A solid waste that exhibits the characteristic of toxicity has the EPA hazardous waste number specified in the following Table 1, which corresponds to the toxic contaminant causing it to be hazardous:</text>
+      <text class="center">
+        <strong>Maximum Concentration of Contaminants</strong>
+      </text>
+      <text class="center">
+        <strong>for the Toxicity Characteristic</strong>
+      </text>
+      <text>
+        <table>
+          <thead>
+            <tr>
+              <th>EPA<br/>HW No.<sup>1</sup></th>
+              <th>Contaminant</th>
+              <th>CAS No.<sup>2</sup></th>
+              <th>Regulatory <br/>Level <br/>(milligrams <br/>per liter)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>D004</td>
+              <td>Arsenic</td>
+              <td>7440-38-2</td>
+              <td>5.0</td>
+            </tr>
+            <tr>
+              <td>D005</td>
+              <td>Barium</td>
+              <td>7440-39-3</td>
+              <td>100.0</td>
+            </tr>
+            <tr>
+              <td>D018</td>
+              <td>Benzene</td>
+              <td>71-43-2</td>
+              <td>0.5</td>
+            </tr>
+            <tr>
+              <td>D006</td>
+              <td>Cadmium</td>
+              <td>7440-43-9</td>
+              <td>1.0</td>
+            </tr>
+            <tr>
+              <td>D019</td>
+              <td>Carbon tetrachloride</td>
+              <td>56-23-5</td>
+              <td>0.5</td>
+            </tr>
+            <tr>
+              <td>D020</td>
+              <td>Chlordane</td>
+              <td>57-74-9</td>
+              <td>0.03</td>
+            </tr>
+            <tr>
+              <td>D021</td>
+              <td>Chlorobenzene</td>
+              <td>108-90-7</td>
+              <td>100.0</td>
+            </tr>
+            <tr>
+              <td>D022</td>
+              <td>Chloroform</td>
+              <td>67-66-3</td>
+              <td>6.0</td>
+            </tr>
+            <tr>
+              <td>D007</td>
+              <td>Chromium</td>
+              <td>7440-47-3</td>
+              <td>5.0</td>
+            </tr>
+            <tr>
+              <td>D023</td>
+              <td>o-Cresol</td>
+              <td>95-48-7</td>
+              <td>200.0<sup>4</sup></td>
+            </tr>
+            <tr>
+              <td>D024</td>
+              <td>m-Cresol</td>
+              <td>108-39-4</td>
+              <td>200.0<sup>4</sup></td>
+            </tr>
+            <tr>
+              <td>D025</td>
+              <td>p-Cresol</td>
+              <td>106-44-5</td>
+              <td>200.0<sup>4</sup></td>
+            </tr>
+            <tr>
+              <td>D026</td>
+              <td>Cresol</td>
+              <td/>
+              <td>200.0<sup>4</sup></td>
+            </tr>
+            <tr>
+              <td>D016</td>
+              <td>2,4-D</td>
+              <td>94-75-7</td>
+              <td>10.0</td>
+            </tr>
+            <tr>
+              <td>D027</td>
+              <td>1,4-Dichlorobenzene</td>
+              <td>106-46-7</td>
+              <td>7.5</td>
+            </tr>
+            <tr>
+              <td>D028</td>
+              <td>1,2-Dichloroethane</td>
+              <td>107-06-2</td>
+              <td>0.5</td>
+            </tr>
+            <tr>
+              <td>D029</td>
+              <td>1,1-Dichloroethylene</td>
+              <td>75-35-4</td>
+              <td>0.7</td>
+            </tr>
+            <tr>
+              <td>D030</td>
+              <td>2,4-Dinitrotoluene</td>
+              <td>121-14-2</td>
+              <td>0.13<sup>3</sup></td>
+            </tr>
+            <tr>
+              <td>D012</td>
+              <td>Endrin</td>
+              <td>72-20-8</td>
+              <td>0.02</td>
+            </tr>
+            <tr>
+              <td>D031</td>
+              <td>Heptachlor (and its epoxide)</td>
+              <td>76-44-8</td>
+              <td>0.008</td>
+            </tr>
+            <tr>
+              <td>D032</td>
+              <td>Hexachlorobenzene</td>
+              <td>118-74-1</td>
+              <td>0.13<sup>3</sup></td>
+            </tr>
+            <tr>
+              <td>D033</td>
+              <td>Hexachlorobutadiene</td>
+              <td>87-68-3</td>
+              <td>0.5</td>
+            </tr>
+            <tr>
+              <td>D034</td>
+              <td>Hexachloroethane</td>
+              <td>67-72-1</td>
+              <td>3.0</td>
+            </tr>
+            <tr>
+              <td>D008</td>
+              <td>Lead</td>
+              <td>7439-92-1</td>
+              <td>5.0</td>
+            </tr>
+            <tr>
+              <td>D013</td>
+              <td>Lindane</td>
+              <td>58-89-9</td>
+              <td>0.4</td>
+            </tr>
+            <tr>
+              <td>D009</td>
+              <td>Mercury</td>
+              <td>7439-97-6</td>
+              <td>0.2</td>
+            </tr>
+            <tr>
+              <td>D014</td>
+              <td>Methoxychlor</td>
+              <td>72-43-5</td>
+              <td>10.0</td>
+            </tr>
+            <tr>
+              <td>D035</td>
+              <td>Methylethylketone</td>
+              <td>78-93-3</td>
+              <td>200.0</td>
+            </tr>
+            <tr>
+              <td>D036</td>
+              <td>Nitrobenzene</td>
+              <td>98-95-3</td>
+              <td>2.0</td>
+            </tr>
+            <tr>
+              <td>D037</td>
+              <td>Pentachlorophenol</td>
+              <td>87-86-5</td>
+              <td>100.0</td>
+            </tr>
+            <tr>
+              <td>D038</td>
+              <td>Pyridine</td>
+              <td>110-86-1</td>
+              <td>5.0<sup>3</sup></td>
+            </tr>
+            <tr>
+              <td>D010</td>
+              <td>Selenium</td>
+              <td>7782-49-2</td>
+              <td>1.0</td>
+            </tr>
+            <tr>
+              <td>D011</td>
+              <td>Silver</td>
+              <td>7440-22-4</td>
+              <td>5.0</td>
+            </tr>
+            <tr>
+              <td>D039</td>
+              <td>Tetrachloroethylene</td>
+              <td>127-18-4</td>
+              <td>0.7</td>
+            </tr>
+            <tr>
+              <td>D015</td>
+              <td>Toxaphene</td>
+              <td>8001-35-2</td>
+              <td>0.5</td>
+            </tr>
+            <tr>
+              <td>D040</td>
+              <td>Trichloroethylene</td>
+              <td>79-01-6</td>
+              <td>0.5</td>
+            </tr>
+            <tr>
+              <td>D041</td>
+              <td>2,4,5-Trichlorophenol</td>
+              <td>95-95-4</td>
+              <td>400.0</td>
+            </tr>
+            <tr>
+              <td>D042</td>
+              <td>2,4,6-Trichlorophenol</td>
+              <td>88-06-2</td>
+              <td>2.0</td>
+            </tr>
+            <tr>
+              <td>D017</td>
+              <td>2,4,5-TP (Silvex)</td>
+              <td>93-72-1</td>
+              <td>1.0</td>
+            </tr>
+            <tr>
+              <td>D043</td>
+              <td>Vinyl chloride</td>
+              <td>75-01-4</td>
+              <td>0.2</td>
+            </tr>
+            <tr>
+              <td colspan="4">——————</td>
+            </tr>
+            <tr>
+              <td colspan="4"><sup>1</sup> Hazardous waste number.</td>
+            </tr>
+            <tr>
+              <td colspan="4"><sup>2</sup> Chemical Abstracts Service number.</td>
+            </tr>
+            <tr>
+              <td colspan="4"><sup>3</sup> Quantitation limit is greater than the calculated regulatory level. The quantitation limit, therefore, becomes the regulatory level.</td>
+            </tr>
+            <tr>
+              <td colspan="4"><sup>4</sup> If o-, m-, and p-cresol concentrations cannot be differentiated, the total cresol (D026) concentration is used. The regulatory level of total cresol is 200 milligrams per liter.</td>
+            </tr>
+          </tbody>
+        </table>
+      </text>
     </para>
-    <aftertext class="center">
-      <strong>Maximum Concentration of Contaminants</strong>
-    </aftertext>
-    <aftertext class="center">
-      <strong>for the Toxicity Characteristic</strong>
-    </aftertext>
-    <aftertext>
-      <table>
-        <thead>
-          <tr>
-            <th>EPA<br/>HW No.<sup>1</sup></th>
-            <th>Contaminant</th>
-            <th>CAS No.<sup>2</sup></th>
-            <th>Regulatory <br/>Level <br/>(milligrams <br/>per liter)</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>D004</td>
-            <td>Arsenic</td>
-            <td>7440-38-2</td>
-            <td>5.0</td>
-          </tr>
-          <tr>
-            <td>D005</td>
-            <td>Barium</td>
-            <td>7440-39-3</td>
-            <td>100.0</td>
-          </tr>
-          <tr>
-            <td>D018</td>
-            <td>Benzene</td>
-            <td>71-43-2</td>
-            <td>0.5</td>
-          </tr>
-          <tr>
-            <td>D006</td>
-            <td>Cadmium</td>
-            <td>7440-43-9</td>
-            <td>1.0</td>
-          </tr>
-          <tr>
-            <td>D019</td>
-            <td>Carbon tetrachloride</td>
-            <td>56-23-5</td>
-            <td>0.5</td>
-          </tr>
-          <tr>
-            <td>D020</td>
-            <td>Chlordane</td>
-            <td>57-74-9</td>
-            <td>0.03</td>
-          </tr>
-          <tr>
-            <td>D021</td>
-            <td>Chlorobenzene</td>
-            <td>108-90-7</td>
-            <td>100.0</td>
-          </tr>
-          <tr>
-            <td>D022</td>
-            <td>Chloroform</td>
-            <td>67-66-3</td>
-            <td>6.0</td>
-          </tr>
-          <tr>
-            <td>D007</td>
-            <td>Chromium</td>
-            <td>7440-47-3</td>
-            <td>5.0</td>
-          </tr>
-          <tr>
-            <td>D023</td>
-            <td>o-Cresol</td>
-            <td>95-48-7</td>
-            <td>200.0<sup>4</sup></td>
-          </tr>
-          <tr>
-            <td>D024</td>
-            <td>m-Cresol</td>
-            <td>108-39-4</td>
-            <td>200.0<sup>4</sup></td>
-          </tr>
-          <tr>
-            <td>D025</td>
-            <td>p-Cresol</td>
-            <td>106-44-5</td>
-            <td>200.0<sup>4</sup></td>
-          </tr>
-          <tr>
-            <td>D026</td>
-            <td>Cresol</td>
-            <td proof="needed"/>
-            <td>200.0<sup>4</sup></td>
-          </tr>
-          <tr>
-            <td>D016</td>
-            <td>2,4-D</td>
-            <td>94-75-7</td>
-            <td>10.0</td>
-          </tr>
-          <tr>
-            <td>D027</td>
-            <td>1,4-Dichlorobenzene</td>
-            <td>106-46-7</td>
-            <td>7.5</td>
-          </tr>
-          <tr>
-            <td>D028</td>
-            <td>1,2-Dichloroethane</td>
-            <td>107-06-2</td>
-            <td>0.5</td>
-          </tr>
-          <tr>
-            <td>D029</td>
-            <td>1,1-Dichloroethylene</td>
-            <td>75-35-4</td>
-            <td>0.7</td>
-          </tr>
-          <tr>
-            <td>D030</td>
-            <td>2,4-Dinitrotoluene</td>
-            <td>121-14-2</td>
-            <td>0.13<sup>3</sup></td>
-          </tr>
-          <tr>
-            <td>D012</td>
-            <td>Endrin</td>
-            <td>72-20-8</td>
-            <td>0.02</td>
-          </tr>
-          <tr>
-            <td>D031</td>
-            <td>Heptachlor (and its epoxide)</td>
-            <td>76-44-8</td>
-            <td>0.008</td>
-          </tr>
-          <tr>
-            <td>D032</td>
-            <td>Hexachlorobenzene</td>
-            <td>118-74-1</td>
-            <td>0.13<sup>3</sup></td>
-          </tr>
-          <tr>
-            <td>D033</td>
-            <td>Hexachlorobutadiene</td>
-            <td>87-68-3</td>
-            <td>0.5</td>
-          </tr>
-          <tr>
-            <td>D034</td>
-            <td>Hexachloroethane</td>
-            <td>67-72-1</td>
-            <td>3.0</td>
-          </tr>
-          <tr>
-            <td>D008</td>
-            <td>Lead</td>
-            <td>7439-92-1</td>
-            <td>5.0</td>
-          </tr>
-          <tr>
-            <td>D013</td>
-            <td>Lindane</td>
-            <td>58-89-9</td>
-            <td>0.4</td>
-          </tr>
-          <tr>
-            <td>D009</td>
-            <td>Mercury</td>
-            <td>7439-97-6</td>
-            <td>0.2</td>
-          </tr>
-          <tr>
-            <td>D014</td>
-            <td>Methoxychlor</td>
-            <td>72-43-5</td>
-            <td>10.0</td>
-          </tr>
-          <tr>
-            <td>D035</td>
-            <td>Methylethylketone</td>
-            <td>78-93-3</td>
-            <td>200.0</td>
-          </tr>
-          <tr>
-            <td>D036</td>
-            <td>Nitrobenzene</td>
-            <td>98-95-3</td>
-            <td>2.0</td>
-          </tr>
-          <tr>
-            <td>D037</td>
-            <td>Pentachlorophenol</td>
-            <td>87-86-5</td>
-            <td>100.0</td>
-          </tr>
-          <tr>
-            <td>D038</td>
-            <td>Pyridine</td>
-            <td>110-86-1</td>
-            <td>5.0<sup>3</sup></td>
-          </tr>
-          <tr>
-            <td>D010</td>
-            <td>Selenium</td>
-            <td>7782-49-2</td>
-            <td>1.0</td>
-          </tr>
-          <tr>
-            <td>D011</td>
-            <td>Silver</td>
-            <td>7440-22-4</td>
-            <td>5.0</td>
-          </tr>
-          <tr>
-            <td>D039</td>
-            <td>Tetrachloroethylene</td>
-            <td>127-18-4</td>
-            <td>0.7</td>
-          </tr>
-          <tr>
-            <td>D015</td>
-            <td>Toxaphene</td>
-            <td>8001-35-2</td>
-            <td>0.5</td>
-          </tr>
-          <tr>
-            <td>D040</td>
-            <td>Trichloroethylene</td>
-            <td>79-01-6</td>
-            <td>0.5</td>
-          </tr>
-          <tr>
-            <td>D041</td>
-            <td>2,4,5-Trichlorophenol</td>
-            <td>95-95-4</td>
-            <td>400.0</td>
-          </tr>
-          <tr>
-            <td>D042</td>
-            <td>2,4,6-Trichlorophenol</td>
-            <td>88-06-2</td>
-            <td>2.0</td>
-          </tr>
-          <tr>
-            <td>D017</td>
-            <td>2,4,5-TP (Silvex)</td>
-            <td>93-72-1</td>
-            <td>1.0</td>
-          </tr>
-          <tr>
-            <td>D043</td>
-            <td>Vinyl chloride</td>
-            <td>75-01-4</td>
-            <td>0.2</td>
-          </tr>
-        </tbody>
-        <tfoot>
-          <tr>
-            <td colspan="4">——————</td>
-          </tr>
-          <tr>
-            <td colspan="4"><sup>1</sup> Hazardous waste number.</td>
-          </tr>
-          <tr>
-            <td colspan="4"><sup>2</sup> Chemical Abstracts Service number.</td>
-          </tr>
-          <tr>
-            <td colspan="4"><sup>3</sup> Quantitation limit is greater than the calculated regulatory level. The quantitation limit, therefore, becomes the regulatory level.</td>
-          </tr>
-          <tr>
-            <td colspan="4"><sup>4</sup> If o-, m-, and p-cresol concentrations cannot be differentiated, the total cresol (D026) concentration is used. The regulatory level of total cresol is 200 milligrams per liter.</td>
-          </tr>
-        </tfoot>
-      </table>
-    </aftertext>
     <para>
       <num>C.</num>
       <text>Clarification Concerning Manufactured Gas Plant Waste. Manufactured gas plant waste that would exhibit the characteristic of toxicity in the absence of the exception provided in <cite path="26|13|02|.14|A.">§A of this regulation</cite> may not be managed in a landfill that is permitted, licensed, or registered to manage municipal solid waste.</text>
@@ -3873,175 +3869,175 @@
                 <td>(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>F002</td>
                 <td>The following spent halogenated solvents: tetrachloroethylene, methylene chloride, trichloroethylene, 1,1,1-trichloroethane, 1,1,2-trichloroethane, chlorobenzene, 1,1,2-trichloro-1,2,2-trifluoroethane, ortho-dichlorobenzene, and trichlorofluoromethane, all spent solvent mixtures or blends containing, before use, a total of 10 percent or more, by volume, of any of the above halogenated solvents or those solvents listed in F001, F004, or F005 or any combination of those solvents; and still bottoms from the recovery of these spent solvents and spent solvent mixtures</td>
                 <td>(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>F003</td>
                 <td>The following spent nonhalogenated solvents: xylene, acetone, ethyl acetate, ethyl benzene, ethyl ether, methyl isobutyl ketene, n-butyl alcohol, cyclohexanone, and methanol; all spent solvent mixtures or blends containing, before use, only the above spent non-halogenated solvents; and all spent solvent mixtures or blends containing, before use, any of the above non-halogenated solvents, and a total of 10 percent or more, by volume of any of those solvents listed in F001, F002, F004, and F005 or any combination of those solvents; and still bottoms from the recovery of these spent solvents and spent solvent mixtures</td>
                 <td>(I)*</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>F004</td>
                 <td>The following spent non-halogenated solvents: cresols and cresylic acid, and nitrobenzene; all spent solvent mixtures or blends containing, before use, a total of 10 percent or more, by volume, of any of the above non-halogenated solvents or those solvents listed in F001, F002, and F005 or any combination of those solvents; and still bottoms from the recovery of these spent solvents and spent solvent mixtures</td>
                 <td>(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>F005</td>
                 <td>The following spent non-halogenated solvents: toluene, methyl ethyl ketone, carbon disulfide, isobutanol, pyridine, benzene, 2-ethoxyethanol, and 2-nitropropane; all spent solvent mixtures or blends containing, before use, a total of 10 percent or more, by volume, of any of the above non-halogenated solvents or those solvents listed in F001, F002, or F004 or any combination of those solvents; and still bottoms from the recovery of these spent solvents and spent solvent mixtures</td>
                 <td>(I, T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>F006</td>
                 <td>Wastewater treatment sludges from electroplating operations except from the following processes: (1) sulfuric acid anodizing of aluminum; (2) tin plating on carbon steel; (3) zinc plating (segregated basis) on carbon steel; (4) aluminum or zinc aluminum plating on carbon steel; (5) cleaning/stripping associated with tin, zinc and aluminum plating on carbon steel; and (6) chemical etching and milling of aluminum</td>
                 <td>(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>F007</td>
                 <td>Spent cyanide plating bath solutions from electroplating operations</td>
                 <td>(R, T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>F008</td>
                 <td>Plating bath residues from the bottom of plating baths from electroplating operations where cyanides are used in the process</td>
                 <td>(R, T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>F009</td>
                 <td>Spent stripping and cleaning bath solutions from electroplating operations where cyanides are used in the process</td>
                 <td>(R, T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>F010</td>
                 <td>Quenching baths residue from oil baths from metal heat treating operations where cyanides are used in the process</td>
                 <td>(R, T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>F011</td>
                 <td>Spent cyanide solutions from salt bath pot cleaning from metal heat treating operations</td>
                 <td>(R, T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>F012</td>
                 <td>Quenching wastewater treatment sludges from metal heat treating operations where cyanides are used in the process</td>
                 <td>(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>F014</td>
                 <td>Cyanidation wastewater treatment tailing pond sediment from mineral metals recovery operations</td>
                 <td>(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>F015</td>
                 <td>Spent cyanide bath solutions from mineral metals recovery operations</td>
                 <td>(R ,T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>F019</td>
                 <td>Wastewater treatment sludges from the chemical conversion coating of aluminum except for wastewater treatment sludges from: (1) zirconium phosphating in aluminum can washing when this phosphating is an exclusive conversion coating process; or (2) the manufacturing of motor vehicles using a zinc phosphating process when the provisions of <cite path="26|13|02|.16|D.|(1)">§D(1) of this regulation</cite> are met</td>
                 <td>(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>F020</td>
                 <td>Wastes except wastewater and spent carbon from hydrogen chloride purification from the production or manufacturing use as a reactant, chemical intermediate, or component in a formulating process of tri- or tetrachlorophenol, or of intermediates used to produce their pesticide derivatives. This listing does not include wastes from the production of hexachlorophene from highly purified 2,4,5-trichlorophenol</td>
                 <td>(H)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>F021</td>
                 <td>Wastes except wastewater and spent carbon from hydrogen chloride purification from the production or manufacturing use as a reactant, chemical intermediate, or component in a formulating process of pentachlorophenol, or of intermediates used to produce its derivatives</td>
                 <td>(H)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>F022</td>
                 <td>Wastes except wastewater and spent carbon from hydrogen chloride purification from the manufacturing use as a reactant, chemical intermediate, or component in a formulating process of tetra-, penta-, or hexachlorobenzenes under alkaline conditions</td>
                 <td>(H)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>F023</td>
                 <td>Wastes except wastewater and spent carbon from hydrogen chloride purification from the production of materials on equipment previously used for the production or manufacturing use as a reactant, chemical intermediate, or component in a formulating process of tri- or tetrachlorophenols. This listing does not include wastes from equipment used only for the production or use of hexachlorophene from highly purified 2,4,5-trichlorophenol</td>
                 <td>(H)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>F024</td>
                 <td>Process wastes including, but not limited to, distillation residues, heavy ends, tars, and reactor cleanout wastes from the production of certain chlorinated aliphatic hydrocarbons by free radical catalyzed processes. These chlorinated aliphatic hydrocarbons are those having carbon chain lengths ranging from one to and including five, with varying amounts and positions of chlorine substitution. This listing does not include wastewaters, wastewater treatment sludges, spent catalysts, and wastes listed in this regulation or <cite path="|26|13|02|.17">Regulation .17 of this chapter</cite></td>
                 <td>(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>F025</td>
                 <td>Condensed light ends, spent filters and filter aids, and spent desiccant wastes from the production of certain chlorinated aliphatic hydrocarbons, by free radical catalyzed processes. These chlorinated aliphatic hydrocarbons are those having carbon chain lengths ranging from one to and including five, with varying amounts and positions of chlorine substitution</td>
                 <td>(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>F026</td>
                 <td>Wastes except wastewater and spent carbon from hydrogen chloride purification from the production of materials on equipment previously used for the manufacturing use as a reactant, chemical intermediate, or component in a formulating process of tetra-, penta-, or hexachlorobenzene under alkaline conditions</td>
                 <td>(H)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>F027</td>
                 <td>Discarded unused formulations containing tri-, tetra-, or pentachlorophenol, or discarded unused formulations containing compounds derived from these chlorophenols. This listing does not include formulations containing hexachlorophene synthesized from prepurified 2,4,5-trichlorophenol as the sole component</td>
                 <td>(H)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>F028</td>
                 <td>Residues resulting from the incineration or thermal treatment of soil contaminated with EPA Hazardous Waste Nos. F020, F021, F022, F023, F026, and F027</td>
                 <td>(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>F032</td>
                 <td>The following wastes from wood preserving processes generated at plants that currently use or have previously used chlorophenolic formulations: wastewaters, except those that have not come into with process contaminants; process residuals; preservative drippage; and spent formulations from wood preserving processes. This listing does not include potentially cross-contaminated wastes that have had the F032 waste code deleted in accordance with <cite path="26|13|02|.16|C.">§C of this regulation</cite> or potentially cross-contaminated wastes that are otherwise currently regulated as hazardous wastes under hazardous waste codes F034 or F035 of this section, and where the generator does not resume or initiate use of chlorophenolic formulations. This listing also does not include K001 bottom sediment sludge from the treatment of wastewater from wood preserving processes that use creosote or pentachlorophenol, or both.</td>
                 <td>(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>F034</td>
                 <td>Wastewaters (except those that have not come into contact with process contaminants), process residuals, preservative drippage, and spent formulations from wood preserving processes generated at plants that use creosote formulations. This listing does not include K001 bottom sediment sludge from the treatment of wastewater from wood preserving processes that use creosote or pentachlorophenol, or both.</td>
                 <td>(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>F035</td>
                 <td>Wastewaters (except those that have not come into contact with process contaminants), process residuals, preservative drippage, and spent formulations from wood preserving processes generated at plants that use inorganic preservative containing arsenic or chromium. This listing does not include K001 bottom sediment sludge from the treatment of wastewater from wood preserving processes that use creosote or pentachlorophenol, or both.</td>
                 <td>(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>F037</td>
                 <td>Petroleum refinery primary oil/water/solids separation sludge—As qualified by <cite path="26|13|02|.16|B.">§B of this regulation</cite>, any sludge generated from the gravitational separation of oil/water/solids during the storage or treatment of process wastewaters and oily cooling wastewaters from petroleum refineries. These sludges include, but are not limited to, those generated in oil/water/solids separators, tanks and impoundments, ditches and other conveyances, sumps, and storm water units receiving dry weather flow. Sludge generated in storm water units that do not receive dry weather flow, sludges generated from noncontact once-through cooling waters segregated for treatment from other process or oily cooling waters, sludges generated in aggressive biological treatment units as defined in <cite path="26|13|02|.16|B.">§B of this regulation</cite>, including sludges generated in one or more additional units after wastewaters have been treated in aggressive biological treat units, and K051 wastes are not included in this listing. This listing does include residuals generated from processing or recycling oil-bearing hazardous secondary materials excluded under <cite path="|26|13|02|.04|A.|(15)">Regulation .04A(15) of this chapter</cite> if those residuals are to be disposed of.</td>
                 <td>(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>F038</td>
                 <td>Petroleum refinery secondary (emulsified) oil/water/solids separation sludge - As qualified by <cite path="26|13|02|.16|B.">§B of this regulation</cite>, any sludge or float, or both, generated from the physical or chemical separation of oil/water/solids in process wastewaters and oily cooling wastewaters from petroleum refineries. These wastes include, but are not limited to, all sludges and floats generated in induced air floation (IAF) units, tanks and impoundments, and all other sludges generated in dissolved air flotation (DAF) units. Sludges generated in storm water units that do not receive dry weather flow, sludges generated from noncontact once-through cooling waters segregated for treatment from other process or oily cooling waters, sludges and floats generated in aggressive biological treatment units as defined in <cite path="26|13|02|.16|B.">§B of this regulation</cite>, including sludges and floats generated in one or more additional units after wastewaters have been treated in aggressive biological treatments, and F037, K048, and K051 wastes are not included in this listing</td>
                 <td>(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>F039</td>
                 <td>Leachate, that is, liquids that have percolated through land-disposed wastes, resulting from the disposal of more than one waste that is both restricted from land disposal under 40 CFR Part 268 and classified as hazardous under Regulations <cite path="|26|13|02|.15">.15</cite>—<cite path="|26|13|02|.19">.19</cite> of this chapter. Agency Note: Leachate resulting from the disposal of one or more of the following hazardous wastes and no other hazardous wastes retains its EPA hazardous waste number or numbers: F020, F021, F022, F023, F026, F027, and F028.</td>
                 <td>(T)</td>
@@ -4447,37 +4443,37 @@
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K003</td>
                 <td>Wastewater treatment sludge from the production of molybdate orange pigments</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K004</td>
                 <td>Wastewater treatment sludge from the production of zinc yellow pigments</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K005</td>
                 <td data-vertical-align="middle">Wastewater treatment sludge from the production of chrome green pigments</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K006</td>
                 <td data-vertical-align="middle">Wastewater treatment sludge from the production of chrome oxide green pigments (anhydrous and hydrated)</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K007</td>
                 <td data-vertical-align="middle">Wastewater treatment sludge from the production of iron blue pigments</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K008</td>
                 <td>Oven residue from the production of chrome oxide green pigments</td>
                 <td data-text-align="center">(T)</td>
@@ -4489,319 +4485,319 @@
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K010</td>
                 <td>Distillation side cuts from the production of acetaldehyde from ethylene</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K011</td>
                 <td>Bottom stream from the wastewater stripper in the production of acrylonitrile</td>
                 <td data-text-align="center">(R, T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K013</td>
                 <td data-vertical-align="middle">Bottom stream from the acetonitrile column in the production of acrylonitrile</td>
                 <td data-text-align="center">(R, T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K014</td>
                 <td>Bottoms from the acetonitrile purification column in the production of acrylonitrile</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K015</td>
                 <td data-vertical-align="middle">Still bottoms from the distillation of benzyl chloride</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K016</td>
                 <td data-vertical-align="middle">Heavy ends or distillation residues from the production of carbon tetrachloride</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K017</td>
                 <td data-vertical-align="middle">Heavy ends (still bottoms) from the purification column in the production of epichlorohydrin</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K018</td>
                 <td data-vertical-align="middle">Heavy ends from fractionation in ethyl chloride production</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K019</td>
                 <td data-vertical-align="middle">Heavy ends from the distillation of ethylene dichloride in ethylene dichloride production</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K020</td>
                 <td data-vertical-align="middle">Heavy ends from the distillation of vinyl chloride in vinyl chloride monomer production</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K021</td>
                 <td data-vertical-align="middle">Aqueous spent antimony catalyst waste from fluoromethanes production</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K022</td>
                 <td data-vertical-align="middle">Distillation bottom tars from the production of phenol/acetone from cumene</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K023</td>
                 <td data-vertical-align="middle">Distillation light ends from the production of phthalic anhydride from naphthalene</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K024</td>
                 <td data-vertical-align="middle">Distillation bottoms from the production of phthalic anhydride from naphthalene</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K025</td>
                 <td data-vertical-align="middle">Distillation bottoms from the production of nitrobenzene by the nitration of benzene</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K026</td>
                 <td data-vertical-align="middle">Stripping still tails from the production of methyl ethyl pyridines</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K027</td>
                 <td data-vertical-align="middle">Centrifuge and distillation residues from toluene diisocyanate production</td>
                 <td data-text-align="center">(R,T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K028</td>
                 <td data-vertical-align="middle">Spent catalyst from the hydrochlorinator reactor in the production of 1,1,1-trichloroethane</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K029</td>
                 <td data-vertical-align="middle">Waste from the product stream stripper in the production of 1,1,1-trichloroethane</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K030</td>
                 <td data-vertical-align="middle">Column bottoms or heavy ends from the combined production of trichloroethylene and perchloroethylene</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K083</td>
                 <td data-vertical-align="middle">Distillation bottoms from aniline production</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K085</td>
                 <td data-vertical-align="middle">Distillation or fractionation column bottoms from the production of chlorobenzenes</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K093</td>
                 <td data-vertical-align="middle">Distillation light ends from the production of phthalic anhydride from ortho-xylene</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K094</td>
                 <td data-vertical-align="middle">Distillation bottoms from the production of phthalic anhydride from ortho-xylene</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K095</td>
                 <td data-vertical-align="middle">Distillation bottoms from the production of 1,1,1-trichloroethane</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K096</td>
                 <td data-vertical-align="middle">Heavy ends from the heavy ends column from the production of 1,1,1-trichloroethane</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K103</td>
                 <td data-vertical-align="middle">Process residues from aniline extraction from the production of aniline</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K104</td>
                 <td data-vertical-align="middle">Combined wastewater streams generated from nitrobenzene/aniline production</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K105</td>
                 <td data-vertical-align="middle">Separated aqueous stream from the reactor product washing step in the production of chlorobenzenes</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K107</td>
                 <td data-vertical-align="middle">Column bottoms from the product separation from the production of 1,1-dimethylhydrazine (UDMH) from carboxylic acid hydrazines</td>
                 <td data-text-align="center">(C, T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K108</td>
                 <td data-vertical-align="middle">Condensed column overheads from product separation and condensed reactor vent gases from the production of 1,1-dimethylhydrazine (UDMH) from carboxylic acid hydrazides</td>
                 <td data-text-align="center">(I, T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K109</td>
                 <td data-vertical-align="middle">Spent filter cartridges from product purification from the production of 1,1-dimethylhydrazine (UDMH) from carboxylic acid hydrazides</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K110</td>
                 <td data-vertical-align="middle">Condensed column overheads from intermediate separation from the production of 1,1-dimethylhydrazine (UDMH) from carboxylic acid hydrazides</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K111</td>
                 <td data-vertical-align="middle">Product washwaters from the production of dinitrotoluene by nitration of toluene</td>
                 <td data-text-align="center">(C, T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K112</td>
                 <td data-vertical-align="middle">Reaction by-product water from the drying column in the production of toluenediamine by hydrogenation of dinitrotoluene</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K113</td>
                 <td data-vertical-align="middle">Condensed liquid light ends from the purification of toluenediamine in the production of toluenediamine by hydrogenation of dinitrotoluene</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K114</td>
                 <td data-vertical-align="middle">Vicinals from the purification of toluenediamine in the production of toluenediamine by hydrogenation of dinitrotoluene</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K115</td>
                 <td data-vertical-align="middle">Heavy ends from the purification of toluenediamine in the production of toluenediamine by hydrogenation of dinitrotoluene</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K116</td>
                 <td data-vertical-align="middle">Organic condensate from the solvent recovery column in the production of toluene diisocyanate by phosgenation of toluenediamine</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K117</td>
                 <td data-vertical-align="middle">Wastewater from the reactor vent gas scrubber in the production of ethylene dibromide by bromination of ethene</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K118</td>
                 <td data-vertical-align="middle">Spent adsorbent solids from purification of ethylene dibromide in the production of ethylene dibromide by bromination of ethene</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K136</td>
                 <td data-vertical-align="middle">Still bottoms from the purification of ethylene dibromide in the production of ethylene dibromide by bromination of ethene</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td data-vertical-align="middle">K149</td>
                 <td data-vertical-align="middle">Distillation bottoms from the production of alpha-chlorinated or methyl-chlorinated toluenes, ring-chlorinated toluenes, benzoyl chlorides, and compounds with mixtures of these functional groups. This waste does not include still bottoms from the distillation of benzyl chloride.</td>
                 <td data-text-align="center" data-vertical-align="middle">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td data-vertical-align="middle">K150</td>
                 <td data-vertical-align="middle">Organic residuals, excluding spent carbon adsorbent, from the spent chlorine gas and hydrochloric acid recovery processes associated with the production of alpha-chlorinated or methyl-chlorinated toluenes, ring-chlorinated toluenes, benzoyl chlorides, and compounds with mixtures of these functional groups.</td>
                 <td data-text-align="center" data-vertical-align="middle">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td data-vertical-align="middle">K151</td>
                 <td data-vertical-align="middle">Wastewater treatment sludges, excluding neutralization and biological sludges, generated during the treatment of wastewaters from the production of alpha-chlorinated or methyl-chlorinated toluenes, ring-chlorinated toluenes, benzoyl chlorides, and compounds with mixtures of these functional groups.</td>
                 <td data-text-align="center" data-vertical-align="middle">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td data-vertical-align="middle">K156</td>
                 <td data-vertical-align="middle">Organic waste, including heavy ends, still bottoms, light ends, spent solvents, filtrates, and decantates, from the production of carbamates and carbamoyl oximes. This listing does not apply to wastes generated from the manufacture of 3-iodo-2- propynyl n- butylcarbamate.</td>
                 <td data-text-align="center" data-vertical-align="middle">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td data-vertical-align="middle">K157</td>
                 <td data-vertical-align="middle">Wastewaters, including scrubber waters, condenser waters, washwaters, and separation waters, from the production of carbamates and carbamoyl oximes. This listing does not apply to wastes generated from the manufacture of 3-iodo-2- propynyl n- butylcarbamate.</td>
                 <td data-text-align="center" data-vertical-align="middle">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td data-vertical-align="middle">K158</td>
                 <td data-vertical-align="middle">Bag house dusts and filter/separation solids from the production of carbamates and carbamoyl oximes. This listing does not apply to wastes generated from the manufacture of 3-iodo-2- propynyl n- butylcarbamate.</td>
                 <td data-text-align="center" data-vertical-align="middle">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td data-vertical-align="middle">K159</td>
                 <td data-vertical-align="middle">Organics from the treatment of thiocarbamate wastes.</td>
                 <td data-text-align="center" data-vertical-align="middle">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td data-vertical-align="middle">K161</td>
                 <td data-vertical-align="middle">Purification solids, including filtration, evaporation, and centrifugation solids, bag house dust and floor sweepings from the production of dithiocarbamate acids and their salts. This listing does not include wastes having EPA hazardous waste number K125 or K126 listed under the inorganic chemistry industry in this regulation.</td>
                 <td data-text-align="center" data-vertical-align="middle">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td data-vertical-align="middle">K174</td>
                 <td data-vertical-align="middle">As qualified by <cite path="26|13|02|.17|B.|(2)">§B(2) of this regulation</cite>, wastewater treatment sludges from the production of ethylene dichloride or vinyl chloride monomer, including sludges that result from commingled ethylene dichloride or vinyl chloride monomer wastewater and other wastewater, unless the following conditions are met:<br/>  (1) The sludges are disposed of in a landfill:<br/>      (a) Regulated under Subtitle C of RCRA; or <br/>      (b) Licensed or permitted by a state or the federal government to manage nonhazardous waste; <br/>  (2) The sludges are not otherwise placed on the land before final disposal; and <br/>  (3) The generator maintains documentation demonstrating that the waste was either disposed of in an on-site landfill or consigned to a transporter or disposal facility that provided a written commitment to dispose of the waste in an off-site landfill.</td>
                 <td>(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td data-vertical-align="middle">K175</td>
                 <td data-vertical-align="middle">Wastewater treatment sludges from the production of vinyl chloride monomer using mercuric chloride catalyst in an acetylene-based process.</td>
                 <td data-text-align="center" data-vertical-align="middle">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K181</td>
                 <td data-vertical-align="middle">Except for wastes demonstrated not to be regulated as K181 using the procedures in <cite path="26|13|02|.17|D.">§D of this regulation</cite>, waste, as qualified by <cite path="26|13|02|.17|B.|(3)">§B(3) of this regulation</cite>, that consists of nonwastewaters from the production of dyes or pigments or both, including nonwastewaters commingled at the point of generation with nonwastewaters from other processes, that, at the point of generation, contains mass loadings of any of the constituents identified in <cite path="26|13|02|.17|C.">§C of this regulation</cite> that are equal to or greater than the corresponding levels specified in <cite path="26|13|02|.17|C.">§C of this regulation</cite>, as determined on a calendar year basis.</td>
                 <td data-text-align="center">(T)</td>
@@ -4813,127 +4809,127 @@
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K032</td>
                 <td data-vertical-align="middle">Wastewater treatment sludge from the production of chlordane</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K033</td>
                 <td data-vertical-align="middle">Wastewater and scrub water from the chlorination of cyclopentadiene in the production of chlordane</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K034</td>
                 <td data-vertical-align="middle">Filter solids from the filtration of hexachlorocyclopentadiene in the production of chlordane</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K035</td>
                 <td data-vertical-align="middle">Wastewater treatment sludges generated in the production of creosote</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K036</td>
                 <td data-vertical-align="middle">Still bottoms from toluene reclamation distillation in the production of disulfoton</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K037</td>
                 <td data-vertical-align="middle">Wastewater treatment sludges from the production of disulfoton</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K038</td>
                 <td data-vertical-align="middle">Wastewater from the washing and stripping of phorate production</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K039</td>
                 <td data-vertical-align="middle">Filter cake from the filtration of diethylphosphorodithioic acid in the production of phorate</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K040</td>
                 <td data-vertical-align="middle">Wastewater treatment sludge from the production of phorate</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K041</td>
                 <td data-vertical-align="middle">Wastewater treatment sludge from the production of toxaphene</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K042</td>
                 <td data-vertical-align="middle">Heavy ends or distillation residues from the distillation of tetrachlorobenzene in the production of 2,4,5-T</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K043</td>
                 <td data-vertical-align="middle">2,6-Dichlorophenol waste from the production of 2,4-D</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K097</td>
                 <td data-vertical-align="middle">Vacuum stripper discharge from the chlordane chlorinator in the production of chlordane</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K098</td>
                 <td data-vertical-align="middle">Untreated process wastewater from the production of toxaphene</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K099</td>
                 <td data-vertical-align="middle">Untreated wastewater from the production of 2,4-D</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K123</td>
                 <td data-vertical-align="middle">Process waste water, including supernates, filtrates, and washwaters from the production of ethylenebisdithiocarbamic acid and its salts</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K124</td>
                 <td data-vertical-align="middle">Reactor vent scrubber water from the production of ethylenebisdithiocarbamic acid and its salts</td>
                 <td data-text-align="center">(C, T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K125</td>
                 <td data-vertical-align="middle">Filtration, evaporation, and centrifugation solids from the production of ethylenebisdithiocarbamic acid and its salts</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K126</td>
                 <td data-vertical-align="middle">Baghouse dust and floor sweepings in milling and packaging operations from the production or formulation of ethylenebisdithiocarbamic acid and its salts</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K131</td>
                 <td data-vertical-align="middle">Wastewater from the reactor and spent sulfuric acid from the acid dryer from the production of methyl bromide</td>
                 <td data-text-align="center">(C; T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K132</td>
                 <td data-vertical-align="middle">Spent absorbent and wastewater separator solids from the production of methyl bromide</td>
                 <td data-text-align="center">(T)</td>
@@ -4945,19 +4941,19 @@
                 <td data-text-align="center">(R)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K045</td>
                 <td data-vertical-align="middle">Spent carbon from the treatment of wastewater containing explosives</td>
                 <td data-text-align="center">(R)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K046</td>
                 <td data-vertical-align="middle">Wastewater treatment sludges from the manufacturing, formulation and loading of lead-based initiating compounds</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K047</td>
                 <td data-vertical-align="middle">Pink/red water from TNT operations</td>
                 <td data-text-align="center">(R)</td>
@@ -4969,49 +4965,49 @@
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K049</td>
                 <td data-vertical-align="middle">Slop oil emulsion from the petroleum refining industry</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K050</td>
                 <td data-vertical-align="middle">Heat exchanger bundle cleaning sludge from the petroleum refining industry</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K051</td>
                 <td data-vertical-align="middle">API separator sludge from the petroleum refining industry</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K052</td>
                 <td data-vertical-align="middle">Tank bottoms (leaded) from the petroleum refining industry</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td data-vertical-align="middle">K169</td>
                 <td data-vertical-align="middle">Crude oil storage tank sediment from petroleum refining operations.</td>
                 <td data-text-align="center" data-vertical-align="middle">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td data-vertical-align="middle">K170</td>
                 <td data-vertical-align="middle">Clarified slurry oil tank sediment, or in-line filter/separation solids from petroleum refining operations, or both.</td>
                 <td data-text-align="center" data-vertical-align="middle">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td data-vertical-align="middle">K171</td>
                 <td data-vertical-align="middle">Spent hydrotreating catalyst from petroleum refining operations, including guard beds used to desulfurize feeds to other catalytic reactors, but not including inert support media.</td>
                 <td data-text-align="center" data-vertical-align="middle">(I, T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td data-vertical-align="middle">K172</td>
                 <td data-vertical-align="middle">Spent hydrorefining catalyst from petroleum refining operations, including guard beds used to desulfurize feeds to other catalytic reactors, but not including inert support media.</td>
                 <td data-text-align="center" data-vertical-align="middle">(I, T)</td>
@@ -5023,7 +5019,7 @@
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K062</td>
                 <td data-vertical-align="middle">Spent pickle liquor generated by steel finishing operations of facilities within the iron and steel industry (SIC Codes 331 and 332)</td>
                 <td data-text-align="center">(C, T)</td>
@@ -5041,7 +5037,7 @@
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K100</td>
                 <td data-vertical-align="middle">Waste leaching solution from acid leaching of emission control dust/sludge from secondary lead smelting</td>
                 <td data-text-align="center">(T)</td>
@@ -5053,31 +5049,31 @@
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K073</td>
                 <td data-vertical-align="middle">Chlorinated hydrocarbon wastes from the purification step of the diaphragm cell process using graphite anodes in chlorine production</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K106</td>
                 <td data-vertical-align="middle">Wastewater treatment sludge from the mercury cell process in chlorine production</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td data-vertical-align="middle">K176</td>
                 <td data-vertical-align="middle">Baghouse filters from the production of antimony oxide, including filters from the production of intermediates, such as, for example, antimony metal or crude antimony oxide.</td>
                 <td data-text-align="center" data-vertical-align="middle">(E)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td data-vertical-align="middle">K177</td>
                 <td data-vertical-align="middle">Slag from the production of antimony oxide that is accumulated speculatively as defined in <cite path="|26|13|02|.01">Regulation .01(D) of this chapter</cite> or disposed of, including slag from the production of intermediates, such as, for example, antimony metal or crude antimony oxide.</td>
                 <td data-text-align="center" data-vertical-align="middle">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td data-vertical-align="middle">K178</td>
                 <td data-vertical-align="middle">Residues from manufacturing and manufacturing-site storage of ferric chloride from acids formed during the production of titanium dioxide using the chloride-ilmenite process.</td>
                 <td data-text-align="center" data-vertical-align="middle">(T)</td>
@@ -5095,13 +5091,13 @@
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K101</td>
                 <td data-vertical-align="middle">Distillation tar residues from the distillation of aniline-based compounds in the production of veterinary pharmaceuticals from arsenic or organoarsenic compounds</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K102</td>
                 <td data-vertical-align="middle">Residue from the use of activated carbon for decolorization in the production of veterinary pharmaceuticals from arsenic or organoarsenic compounds</td>
                 <td data-text-align="center">(T)</td>
@@ -5113,49 +5109,49 @@
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K087</td>
                 <td data-vertical-align="middle">Decantor tank tar sludge from coking operations</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K141</td>
                 <td data-vertical-align="middle">Process residues from the recovery of coal tar, including, but not limited to, collecting sump residues from the production of coke from coal or the recovery of coke by-products produced from coal. This listing does not include K087 (decanter tank tar sludges from coking operations)</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K142</td>
                 <td data-vertical-align="middle">Tar storage tank residues from the production of coke from coal or from the recovery of coke by-products produced from coal</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K143</td>
                 <td data-vertical-align="middle">Process residues from the recovery of light oil, including, but not limited to, those generated in stills, decanters, and wash oil recovery units from the recovery of coke by-products produced from coal</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K144</td>
                 <td data-vertical-align="middle">Wastewater sump residues from light oil refining, including, but not limited to, intercepting or contamination sump sludges from the recovery of coke by-products produced from coal</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K145</td>
                 <td data-vertical-align="middle">Residues from naphthalene collection and recovery operations from the recovery of coke by-products produced from coal.</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K147</td>
                 <td data-vertical-align="middle">Tar storage tank residues from coal tar refining</td>
                 <td data-text-align="center">(T)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K148</td>
                 <td data-vertical-align="middle">Residues from coal tar distillation, including, but not limited to, still bottoms</td>
                 <td data-text-align="center">(T)</td>
@@ -5170,49 +5166,49 @@
                 <td data-text-align="center">(H)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K992</td>
                 <td data-vertical-align="middle">Waste isopropyl methanefluorophosphonate, also known by the common names GB and Sarin and the following alternate chemical names:<br/>Isopropyl methylphosphonofluoridate<br/>Isopropyl ester of methylphosphonofluoridic acid</td>
                 <td data-text-align="center">(H)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K993</td>
                 <td data-vertical-align="middle">Waste 3,3-dimethyl-n-but-2-yl methylphosphonofluoridate, also known by the common names GD and Soman and the following alternate chemical names:<br/>Pinacolyl methylphosphonofluoridate<br/>1,2,2-trimethylpropyl methylphosphonofluoridate<br/>Pinacoloxymethylphosphoryl fluoride</td>
                 <td data-text-align="center">(H)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K994</td>
                 <td data-vertical-align="middle">Waste O-ethyl S-(2-dissopropyl-aminoethyl) methylphosphonothioate also know by the common name VX</td>
                 <td data-text-align="center">(H)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K995</td>
                 <td data-vertical-align="middle">Waste chlorovinylarsine dichloride, also known by the common names L and Lewisite and the following alternative chemical names: Dichloro (2-chlorovinyl) arsine 2-chlorovinyldichlorarsine</td>
                 <td data-text-align="center">(H)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K996</td>
                 <td data-vertical-align="middle">Waste phenarsazine chloride, also known by the common names DM and Adamsite</td>
                 <td data-text-align="center">(H)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K997</td>
                 <td data-vertical-align="middle">Waste bis(2-chloroethyl) sulfide, also known by the common names sulfur mustard, H, HS, and HD, which is distilled sulfur mustard</td>
                 <td data-text-align="center">(H)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K998</td>
                 <td data-vertical-align="middle">Waste 2-2'-di(3-chloroethylthio)-diethyl ether, also know by the common name T and the following alternate chemical name: Bis-(2-chloroethylthioethyl) ether</td>
                 <td data-text-align="center">(H)</td>
               </tr>
               <tr>
-                <td proof="needed"/>
+                <td/>
                 <td>K999</td>
                 <td data-vertical-align="middle">Waste, lethal, military warfare agents having any substances identified in the listings for hazardous waste numbers K991 through K998 as their active or principal ingredient or ingredients, such as HT, which is a mixture of sulfur mustard and bis-(2-chloroethylthioethyl) ether</td>
                 <td data-text-align="center">(H)</td>
@@ -5403,160 +5399,160 @@
             <td>(T)</td>
           </tr>
           <tr>
-            <td proof="needed"/>
-            <td proof="needed"/>
+            <td/>
+            <td/>
             <td>Ethyl dimethylamidocyanophosphate, also known by the common names GA and Tabun and the following alternate chemical names:</td>
-            <td proof="needed"/>
+            <td/>
           </tr>
           <tr>
-            <td proof="needed"/>
-            <td proof="needed"/>
+            <td/>
+            <td/>
             <td>Ethyl N,N dimethylphosphoramidocyanidate; and</td>
-            <td proof="needed"/>
+            <td/>
           </tr>
           <tr>
-            <td proof="needed"/>
-            <td proof="needed"/>
+            <td/>
+            <td/>
             <td>Dimethylamidoethoxyphosphoryl cyanide;</td>
-            <td proof="needed"/>
+            <td/>
           </tr>
           <tr>
-            <td proof="needed"/>
-            <td proof="needed"/>
+            <td/>
+            <td/>
             <td>Isopropyl methanefluorophosphonate, also known by the common names GB and Sarin and the following alternate chemical names:</td>
-            <td proof="needed"/>
+            <td/>
           </tr>
           <tr>
-            <td proof="needed"/>
-            <td proof="needed"/>
+            <td/>
+            <td/>
             <td>Isopropyl methylphosphonofluoridate; and</td>
-            <td proof="needed"/>
+            <td/>
           </tr>
           <tr>
-            <td proof="needed"/>
-            <td proof="needed"/>
+            <td/>
+            <td/>
             <td>Isopropyl ester of methylphosphonofluoridic acid;</td>
-            <td proof="needed"/>
+            <td/>
           </tr>
           <tr>
-            <td proof="needed"/>
-            <td proof="needed"/>
+            <td/>
+            <td/>
             <td>3,3-dimethyl-n-but-2-yl methylphosphonofluoridate, also known by the common names GD and Soman and the following alternate chemical names:</td>
-            <td proof="needed"/>
+            <td/>
           </tr>
           <tr>
-            <td proof="needed"/>
-            <td proof="needed"/>
+            <td/>
+            <td/>
             <td>Pinacolyl methylphosphonofluoridate;</td>
-            <td proof="needed"/>
+            <td/>
           </tr>
           <tr>
-            <td proof="needed"/>
-            <td proof="needed"/>
+            <td/>
+            <td/>
             <td>1,2,2-trimethylpropyl methylphosphonofluoridate; and</td>
-            <td proof="needed"/>
+            <td/>
           </tr>
           <tr>
-            <td proof="needed"/>
-            <td proof="needed"/>
+            <td/>
+            <td/>
             <td>Pinacoloxymethylphosphoryl fluoride;</td>
-            <td proof="needed"/>
+            <td/>
           </tr>
           <tr>
-            <td proof="needed"/>
-            <td proof="needed"/>
+            <td/>
+            <td/>
             <td>O-ethyl S-(2-diisopropyl-aminoethyl) methylphosphonothioate, also known by the common name VX;</td>
-            <td proof="needed"/>
+            <td/>
           </tr>
           <tr>
-            <td proof="needed"/>
-            <td proof="needed"/>
+            <td/>
+            <td/>
             <td>Chlorovinylarsine dichloride, also known by the common names L and Lewisite and the following alternate chemical names:</td>
-            <td proof="needed"/>
+            <td/>
           </tr>
           <tr>
-            <td proof="needed"/>
-            <td proof="needed"/>
+            <td/>
+            <td/>
             <td>Dichloro (2-chlorovinyl) arsine; and</td>
-            <td proof="needed"/>
+            <td/>
           </tr>
           <tr>
-            <td proof="needed"/>
-            <td proof="needed"/>
+            <td/>
+            <td/>
             <td>2-chlorovinyldichlorarsine;</td>
-            <td proof="needed"/>
+            <td/>
           </tr>
           <tr>
-            <td proof="needed"/>
-            <td proof="needed"/>
+            <td/>
+            <td/>
             <td>Phenarsazine chloride, also known by the common names DM and Adamsite;</td>
-            <td proof="needed"/>
+            <td/>
           </tr>
           <tr>
-            <td proof="needed"/>
-            <td proof="needed"/>
+            <td/>
+            <td/>
             <td>Bis(2-chloroethyl) sulfide, also known by the common names sulfur mustard, H, HS, and HD;</td>
-            <td proof="needed"/>
+            <td/>
           </tr>
           <tr>
-            <td proof="needed"/>
-            <td proof="needed"/>
+            <td/>
+            <td/>
             <td>2-2'-di(3-chloroethylthio)-diethyl ether, also known by the common name T and the following alternate chemical name:</td>
-            <td proof="needed"/>
+            <td/>
           </tr>
           <tr>
-            <td proof="needed"/>
-            <td proof="needed"/>
+            <td/>
+            <td/>
             <td>Bis-(2-chloroethylthioethyl) ether</td>
-            <td proof="needed"/>
+            <td/>
           </tr>
           <tr>
-            <td proof="needed"/>
+            <td/>
             <td>MD03</td>
             <td>Except for those wastes as excluded by <cite path="|26|13|02|.26">Regulation .26 of this chapter</cite>:</td>
             <td>(T)</td>
           </tr>
           <tr>
-            <td proof="needed"/>
-            <td proof="needed"/>
+            <td/>
+            <td/>
             <td class="text-indent-2">(a) Residues from the treatment of a liquid having one or more of the hazardous waste numbers K991—K999 if the treatment method, to the Secretary's satisfaction, consistently produces no residue that meets the criteria of <cite path="|26|13|02|.09|A.|(2)">Regulation .09A(2) of this chapter</cite> for listing as an acute hazardous waste; or</td>
-            <td proof="needed"/>
+            <td/>
           </tr>
           <tr>
-            <td proof="needed"/>
-            <td proof="needed"/>
+            <td/>
+            <td/>
             <td class="text-indent-2">(b) A solid item that:</td>
-            <td proof="needed"/>
+            <td/>
           </tr>
           <tr>
-            <td proof="needed"/>
-            <td proof="needed"/>
+            <td/>
+            <td/>
             <td class="text-indent-2">(i) Is known to or is thought to have contained, on the item's surface or within the item through sorption, one or more of the hazardous wastes K991—K999;</td>
-            <td proof="needed"/>
+            <td/>
           </tr>
           <tr>
-            <td proof="needed"/>
-            <td proof="needed"/>
+            <td/>
+            <td/>
             <td class="text-indent-2">(ii) Has been successfully decontaminated, that is, has been decontaminated sufficiently to allow safe disposition through commercial hazardous waste treatment, storage, and disposal facilities; and</td>
-            <td proof="needed"/>
+            <td/>
           </tr>
           <tr>
-            <td proof="needed"/>
-            <td proof="needed"/>
+            <td/>
+            <td/>
             <td class="text-indent-2">(iii) Contains none of the wastes K991—K999 in greater than very small, insignificant amounts.</td>
-            <td proof="needed"/>
+            <td/>
           </tr>
           <tr>
-            <td proof="needed"/>
-            <td proof="needed"/>
+            <td/>
+            <td/>
             <td>Agency note: Once the MD03 hazardous waste number is assigned to a waste, the K hazardous waste number associated with the waste from which the MD03 waste is derived is no longer applicable.</td>
-            <td proof="needed"/>
+            <td/>
           </tr>
           <tr>
-            <td proof="needed"/>
-            <td proof="needed"/>
+            <td/>
+            <td/>
             <td>Agency note: A solid item, assigned a hazardous waste number K991—K999 because it contained the corresponding waste, no longer carries the K hazardous waste number if the solid item has been successfully decontaminated and no longer contains the K waste in more than very small, insignificant amounts. A solid item that no longer contains residues from the decontamination of a hazardous waste K991—K999 does not carry the MD03 hazardous waste number.</td>
-            <td proof="needed"/>
+            <td/>
           </tr>
         </tbody>
       </table>
@@ -5596,19 +5592,19 @@
           </thead>
           <tbody>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>1080 see P058</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>1081 see P057</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>(Acetato) phenylmercury see P092</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Acetone cyanohydrin see P069</td>
             </tr>
             <tr>
@@ -5624,23 +5620,23 @@
               <td>Acrolein</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Agarin see P007</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Agrosan GN 5 see P092</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Aldicarb see P070</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Aldicarb sulfone see P203</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Aldifen see P048</td>
             </tr>
             <tr>
@@ -5648,7 +5644,7 @@
               <td>Aldrin</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Alginycin see P092</td>
             </tr>
             <tr>
@@ -5660,11 +5656,11 @@
               <td>Aluminum phosphide (R,T)</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>ALVIT see P037</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Aminoethylene see P054</td>
             </tr>
             <tr>
@@ -5676,11 +5672,11 @@
               <td>4-Aminopyridine</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>N-(Aminothioxomethyl)-acetamide see P002</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Ammonium metavanadate see P119</td>
             </tr>
             <tr>
@@ -5688,27 +5684,27 @@
               <td>Ammonium picrate (R)</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Ammonium vanadate see P119</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>ANTIMUCIN WDR see P092</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>ANTURAT see P073</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>AQUATHOL see P088</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>ARETIT see P020</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Argentate (1-), bis(cyano-C)-, potassium see P099</td>
             </tr>
             <tr>
@@ -5724,27 +5720,27 @@
               <td>Arsenic trioxide</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Athrombin see P001</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>AVITROL see P008</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Aziridene see P054</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>AZOFOS see P061</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Azophos see P061</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>BANTU see P072</td>
             </tr>
             <tr>
@@ -5752,11 +5748,11 @@
               <td>Barium cyanide</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>BASENITE see P020</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>BCME see P016</td>
             </tr>
             <tr>
@@ -5764,19 +5760,19 @@
               <td>Benzenethiol</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Benzoepin see P050</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>7-Benzofuranol, 2,3-dihydro-2,2-dimethyl-, methylcarbamate see P127</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Benzoic acid, 2-hydroxy-, compd. with (3aS-cis)-1,2,3,3a,8,8a-hexahydro-1,3a,8-trimethylpyrrolo[2,3- b]indol-5-yl methylcarbamate ester (1:1) see P188</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Benzyl chloride see P028</td>
             </tr>
             <tr>
@@ -5788,7 +5784,7 @@
               <td>Bis(chloromethyl) ether</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>BLADAN-M see P017</td>
             </tr>
             <tr>
@@ -5796,7 +5792,7 @@
               <td>Bromoacetone</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>1-Bromo-2-propanone see P017</td>
             </tr>
             <tr>
@@ -5804,11 +5800,11 @@
               <td>Brucine</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>BUFEN see P092</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Butaphene see P020</td>
             </tr>
             <tr>
@@ -5820,27 +5816,27 @@
               <td>Calcium cyanide</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>CALDON see P020</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Carbamic acid, [(dibutylamino)- thio]methyl-, 2,3-dihydro-2,2-dimethyl-7-benzofuranyl ester see P189</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Carbamic acid, dimethyl-, 1-[(dimethyl-amino)carbonyl]- 5-methyl-1H- pyrazol-3-yl ester see P191</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Carbamic acid, dimethyl-, 3-methyl-1-(1-methylethyl)-1H- pyrazol-5-yl ester see P192</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Carbamic acid, methyl-, 3-methylphenyl ester see P190</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Carbofuran see P127</td>
             </tr>
             <tr>
@@ -5848,27 +5844,27 @@
               <td>Carbon disulfide</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Carbonic dichloride see P095</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Carbosulfan see P189</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>CERESAN see P092</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>CERESAN UNIVERSAL see P092</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>CHEMOX GENERAL see P020</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>CHEMOX P.E. see P020</td>
             </tr>
             <tr>
@@ -5880,11 +5876,11 @@
               <td>p-Chloroaniline</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>4-Chlorobenzenamine see P024</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>(Chloromethyl) benzene see P028</td>
             </tr>
             <tr>
@@ -5892,7 +5888,7 @@
               <td>1-(o-Chlorophenyl)thiourea</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>3-Chloropropanenitrile see P027</td>
             </tr>
             <tr>
@@ -5908,19 +5904,19 @@
               <td>Copper cyanide</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>CRETOX see P108</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Coumadin see P001</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Coumafen see P001</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>m-Cumenyl methylcarbamate see P202</td>
             </tr>
             <tr>
@@ -5936,7 +5932,7 @@
               <td>Cyanogen chloride</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Cyclodan see P050</td>
             </tr>
             <tr>
@@ -5944,23 +5940,23 @@
               <td>2-Cyclohexyl-4,6-dinitrophenol</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>D-CON see U001</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>DETHMOR see P001</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>DETHNEL see P001</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>DFP see P043</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Dichloromethyl ether see P016</td>
             </tr>
             <tr>
@@ -5968,7 +5964,7 @@
               <td>Dichlorophenylarsine</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Dicyanogen See P031</td>
             </tr>
             <tr>
@@ -5976,7 +5972,7 @@
               <td>Dieldrin</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>DIELDREX see P037</td>
             </tr>
             <tr>
@@ -5988,7 +5984,7 @@
               <td>O,O-Diethyl-S-(2-ethylthioethyl) ester of phosphorothioic acid</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Diethyl-p-nitrophenyl phosphate see P041</td>
             </tr>
             <tr>
@@ -6008,11 +6004,11 @@
               <td>Di-iso-propylfluorophosphate</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>DIMETANE see P044</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>1,4:5,8-Dimethanonaphthalene, 1,2,3,4,10,10-hexachloro-1,4,4a,5,8,8a-hexahydroendo,endo see P060</td>
             </tr>
             <tr>
@@ -6020,11 +6016,11 @@
               <td>Dimethoate</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>2,3-Dimethoxystrychnidin-10-one see P018</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>alpha,alpha-Dimethylbenzeneethanamine see P046</td>
             </tr>
             <tr>
@@ -6036,11 +6032,11 @@
               <td>alpha,alpha-Dimethylphenethylamine</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Dimetilan see P191</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Dinitrocyclohexyphenol see P034</td>
             </tr>
             <tr>
@@ -6052,19 +6048,19 @@
               <td>2,4-Dinitrophenol</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>DINOSEB see P020</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>DINOSEBE see P020</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Diphosphoric acid, tetraethyl ester see P111</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Disulfoton see P039</td>
             </tr>
             <tr>
@@ -6072,39 +6068,39 @@
               <td>2,4-Dithiobiuret</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>1,3-Dithiolane-2-carboxaldehyde, 2,4-dimethyl-, O-[(methylamino)- carbonyl]oxime see P185</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>DNBP see P020</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>DOLCO MOUSE CEREAL see P108</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>DOW GENERAL see P020</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>DOW GENERAL WEED KILLER see P020</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>DOW SELECTIVE WEED KILLER see P020</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>DYANACIDE see P092</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>EASTERN STATES DUOCIDE see P001</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>ELGETOL see P020</td>
             </tr>
             <tr>
@@ -6112,7 +6108,7 @@
               <td>Endosulfan</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Endothall see P088</td>
             </tr>
             <tr>
@@ -6120,19 +6116,19 @@
               <td>Endrin and metabolites</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Epinephrine see P042</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Ethanedinitrile see P031</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Ethanimidothioc acid, 2-(dimethylamino)-N-[[(methylamino) carbonyl]oxy]-2-oxo-, methyl ester see P194</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Ethyl cyanide see P101</td>
             </tr>
             <tr>
@@ -6140,11 +6136,11 @@
               <td>Ethyleneimine</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Famphur see P097</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>FASCO FASCRAT POWDER see P001</td>
             </tr>
             <tr>
@@ -6160,51 +6156,51 @@
               <td>Fluoroacetic acid, sodium salt</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>FOLODOL-80 see P071</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>FOLODOL M see P071</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Formetanate hydrochloride see P198</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Formparanate see P197</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>FOSFERNO M 50 see P071</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>FRATOL see P058</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Fulminate of mercury see P065</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>FUNGITOX OR see P092</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>FUSSOF see P057</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>GALLOTOX see P092</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>GEARPHOS see P071</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>GERUTOX see P020</td>
             </tr>
             <tr>
@@ -6212,7 +6208,7 @@
               <td>Heptachlor</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>1,4,5,6,7,8,8-Heptachloro-3a,4,7,7a-tetrahydro-4,7-methano-1H-indene see P059</td>
             </tr>
             <tr>
@@ -6220,19 +6216,19 @@
               <td>1,2,3,4,10,10-Hexachloro-1,4,4a,5,8,8a-hexahydro-1,4:5,8-endo, endodimethanonaphthalene</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>6,7,8,9,10,10-Hexachloro-1,5,5a,6,9,9a-hexahydro-6,9-methano-2,4,3-benzodioxathiepin 3-oxide see P050</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>1,4,5,6,7,7-Hexachloro-cyclic-5-norbornene-2,3-dimethanol sulfite see P050</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>3,4,5,6,9,9-Hexachloro-1a,2,2a,3,6,6a,7,7a-octahydro-2,7:3,6-dimethanonaphth (2,3-b) oxirene (1aalpha, 2beta, 2aalpha, 3beta, 6beta, 6aalpha, 7beta, 7aalpha)-see P037</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>3,4,5,6,9,9-Hexachloro-1a,2,2a,3,6,6a,7,7a-octahydro-2,7:3,6-dimethanonaphth (2,3-b) oxirene (1aalpha, 2 beta, 2abeta, 3alpha, 6alpha, 6abeta, 7beta, 7aalpha), and metabolites see P051</td>
             </tr>
             <tr>
@@ -6240,19 +6236,19 @@
               <td>Hexaethyl tetraphosphate</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>HOSTAQUICK see P092</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>HOSTAQUIK see P092</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Hydrazinecarbothioamide see P116</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Hydrazomethane see P068</td>
             </tr>
             <tr>
@@ -6260,43 +6256,43 @@
               <td>Hydrocyanic acid</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Hydrogen cyanide see P063</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Hydrogen phosphide see P096</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>(R)-4-(1-Hydroxy-2-(methylamino)ethyl)-1,2-benzenediol see P042</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>2-Hydroxy-2-methylpropanenitrile see P069</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>4-Hydroxy-3-(3-oxo-1-phenyl-butyl)-2H-1-benzopyran-2-one and salts, when present at concentrations greater than 0.3 percent see P001</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>ILLOXOL see P037</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>INDOCI (Registered) see P025</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Indomethacin see P025</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>INSECTOPHENE see P050</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Isocyanatomethane see P064</td>
             </tr>
             <tr>
@@ -6304,79 +6300,79 @@
               <td>Isocyanic acid, methyl ester</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Isodrin see P060</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Isolan see P192</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>3-Isopropylphenyl N-methylcarbamate see P202</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>KILOSEB see P020</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>KOP-THIODAN see P050</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>KWIK-KIL see P108</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>KWIKSAN see P092</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>KUMADER see P001</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>KYPFARIN see P001</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>LEYTOSAN see P092</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>LIQUIPHENE see P092</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>MALIK see P050</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Manganese, bis(dimethylcarbamodithioato-S,S')-, see P196</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Manganese dimethyldithiocarbamate see P196</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>MAREVAN see P001</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>MAR-FRIN see P001</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>MARTIN'D MAR-FIN see P001</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>MAVERAN see P001</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>MEGATOX see P005</td>
             </tr>
             <tr>
@@ -6384,39 +6380,39 @@
               <td>Mercury fulminate (R), (T)</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>MERSOLITE see P092</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>METACID 50 see P071</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>METAFOS see P071</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>METAPHOR see P071</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>METAPHOS see P071</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>METASOL 30 see P092</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Methanimidamide, N,N-dimethyl-N'-[3-[[(methylamino)-carbonyl]oxy]phenyl]-, monohydrochloride see P198</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Methanimidamide, N,N-dimethyl-N'-[2-methyl-4-[[(methylamino)carbonyl]oxy]phenyl]- see P197</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Methiocarb see P199</td>
             </tr>
             <tr>
@@ -6424,7 +6420,7 @@
               <td>Methomyl</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>N-[((Methylamino) carbonyl) oxy]-ethanimidothioic acid, methyl ester see P066</td>
             </tr>
             <tr>
@@ -6432,11 +6428,11 @@
               <td>2-Methylaziridine</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>2-Methyl-4,6-dinitrophenol and salts see P047</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>METHYL-E 605 see P071</td>
             </tr>
             <tr>
@@ -6444,7 +6440,7 @@
               <td>Methyl hydrazine</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Methyl isocyanate see P064</td>
             </tr>
             <tr>
@@ -6456,11 +6452,11 @@
               <td>2-Methyl-2-(methylthio) propionaldehyde-o-(methylcarbonyl) oxime</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>METHYL NIRON see P042</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>N-Methyl-N-nitrosovinylamine see P084</td>
             </tr>
             <tr>
@@ -6468,43 +6464,43 @@
               <td>Methyl parathion</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>2-(1-Methylpropyl)-4,6-dinitrophenol see P020</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>3-(1-methyl-2-pyrrolidinyl)-pyridine (S) and salts see P075</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Metolcarb see P190</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>METRON see P071</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Mexacarbate see P128</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>MOLE DEATH see P108</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>MOUSE-NOTS see P108</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>MOUSE-RID see P108</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>MOUSE TOX see P108</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>MUSCIMOL see P007</td>
             </tr>
             <tr>
@@ -6532,7 +6528,7 @@
               <td>p-Nitroaniline</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>4-Nitrobenzenamine see P077</td>
             </tr>
             <tr>
@@ -6552,15 +6548,15 @@
               <td>N-Nitrosomethylvinylamine</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>NYLMERATE see P092</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>OCTALOX see P037</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Octamethyldiphosphoramide see P085</td>
             </tr>
             <tr>
@@ -6568,19 +6564,19 @@
               <td>Octamethyl pyrophosphoramide</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>OCTAN see P092</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>OMPA see P085</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>OMPACIDE see P085</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>OMPAX see P085</td>
             </tr>
             <tr>
@@ -6592,27 +6588,27 @@
               <td>7-Oxabicyclo (2.2.1) heptane-2,3-dicarboxylic acid</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Oxamyl see P194</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Oxybis (chloro) methane see P016</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>PANIVARFIN see P001</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>PANORAM D-31 see P037</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>PANTHERINE see P007</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>PANWARFIN see P001</td>
             </tr>
             <tr>
@@ -6620,83 +6616,83 @@
               <td>Parathion</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>PENNCAP-M see P071</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>PENOXYL CARBON N see P048</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Pentachlorophenate see P090</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>PENTA KILL see P090</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>PENTASOL see P090</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>PENWAR see P090</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>PERMICIDE see P090</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>PERMAGUARD see P090</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>PERMATOX see P090</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>PERMITE see P090</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>PERTOX see P090</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>PESTOX III see P085</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>PHENMAD see P092</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Phenol, 4-(dimethylamino)-3,5-dimethyl-, methylcarbamate (ester) see P128</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Phenol, (3,5-dimethyl-4-(methylthio)-, methylcarbamate see P199</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Phenol, 3-(1-methylethyl)-, methyl carbamate see P202</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Phenol, 3-methyl-5-(1-methylethyl)-, methyl carbamate see P201</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>PHENOTAN see P020</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Phenylarsonous dichloride see P036</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Phenyl mercaptan see P014</td>
             </tr>
             <tr>
@@ -6708,11 +6704,11 @@
               <td>N-Phenylthiourea</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>PHILIPS 1861 see P008</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>PHIX see P092</td>
             </tr>
             <tr>
@@ -6728,27 +6724,27 @@
               <td>Phosphine</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Phosphorodithioic acid, O,O-diethyl S-[2-(ethylthio) ethyl] ester see P039</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Phosphorodithioic acid, O,O-diethyl S-[(ethylthio) methyl] ester see P094</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Phosphorodithioic acid, O,O-diethyl O-(4-(nitrophenyl) ester see P089</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Phosphorodithioic acid, O,O-diethyl O-pyrazinyl ester see P040</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Phosphorodithioic acid, O,O-dimethyl S-[2-(methylamino)-2-oxoethyl] ester see P044</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Phosphorofluoridic acid, bis(1-methylethyl) ester see P043</td>
             </tr>
             <tr>
@@ -6756,19 +6752,19 @@
               <td>Phosphorothioic acid, O,O-dimethyl-O-ester</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Phosphorothioic acid, O,O-dimethyl-O-(p-nitrophenyl) ester see P071</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Physostigmine see P204</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Physostigmine salicylate see P188</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>PIED PIPER MOUSE SEED see P108</td>
             </tr>
             <tr>
@@ -6780,35 +6776,35 @@
               <td>Potassium silver cyanide</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>PREMERGE see P020</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Promecarb see P201</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Propanal, 2-methyl-2-(methyl-sulfonyl)-, O-[(methylamino)carbonyl] oxime see P203</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Propanenitrile see P101</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>1,2,3-Propanetriol, trinitrate (R) see P081</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Propargyl alcohol see P102</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>2-Propenal see P003</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>2-Propen-1-ol—see P005</td>
             </tr>
             <tr>
@@ -6816,7 +6812,7 @@
               <td>Propionitrile</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>1,2-Propylenimine see P067</td>
             </tr>
             <tr>
@@ -6824,95 +6820,95 @@
               <td>2-Propyn-1-ol</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>PROTHROMADIN see P001</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>4-Pyridinamine see P008</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Pyrrolo[2,3-b]indol-5-ol, 1,2,3,3a,8,8a-hexahydro-1,3a,8-trimethyl-, methylcarbamate (ester), (3aS-cis)- see P204</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>QUICKSAM see P092</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>QUINTOX see P037</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>RAT AND MICE BAIT see P001</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>RAT-A-WAY see P001</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>RAT-B-GON see P001</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>RAT-O-CIDE #2 see P001</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>RAT-GUARD see P001</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>RAT-KILL see P001</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>RAT-MIX see P001</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>RATS-NO-MORE see P001</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>RAT-OLA P001</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>RATOREX see P001</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>RATTUNAL see P001</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>RAT-TROL see P001</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>RO-DETH see P001</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>RO-DEX see P108</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>ROSEX see P001</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>ROUGH &amp; READY MOUSE MIX see P001</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>SANASEED see P108</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>SCHRADAN see P085</td>
             </tr>
             <tr>
@@ -6924,7 +6920,7 @@
               <td>Silver cyanide</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>SMITE see P105</td>
             </tr>
             <tr>
@@ -6932,7 +6928,7 @@
               <td>Sodium azide</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Sodium coumadin see P001</td>
             </tr>
             <tr>
@@ -6940,43 +6936,43 @@
               <td>Sodium cyanide</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Sodium fluoroacetate see P056</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>SODIUM WARFARIN see P001</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>SOLFARIN see P001</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>SOLFOBLACK BB see P048</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>SOLFOBLACK SB see P048</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>SPARIC see P020</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>SPOR-KIL see P092</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>SPRAY-TROL BRAND RODEN-TROL see P001</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>SPURGE see P020</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Strychnidin-10-one and salts see P108</td>
             </tr>
             <tr>
@@ -6984,31 +6980,31 @@
               <td>Strychnine and salts</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>SUBTEX see P020</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Sulfuric acid, dithallium (1+) salt see P115</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>SYSTAM see P085</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>TAG FUNGICIDE see P092</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>TEKWAISA see P071</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>TEMIC see P070</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>TEMIK see P070</td>
             </tr>
             <tr>
@@ -7016,7 +7012,7 @@
               <td>Tetraethyldithiopyrophosphate</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Tetraethylplumbane see P110</td>
             </tr>
             <tr>
@@ -7032,15 +7028,15 @@
               <td>Tetranitromethane (R)</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Tetraphosphoric acid, hexaethyl ester see P062</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>TETROSULPHUR BLACK PB see P048</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>TETROSULPHUR PBR see P048</td>
             </tr>
             <tr>
@@ -7048,7 +7044,7 @@
               <td>Thallic oxide</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Thallium oxide see P113</td>
             </tr>
             <tr>
@@ -7060,47 +7056,47 @@
               <td>Thallium (I) sulfate</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>THIFOR see P092</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>THIMUL see P092</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>THIODAN see P050</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Thiodiphosphoric acid, tetraethyl ester see P109</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Thiofanox see P045</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>THIOFOR see P050</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Thioimidodicarbonic diamide see P049</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>THIOMUL see P050</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>THIONEX see P050</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>THIOPHENIT see P071</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Thiophenol see P014</td>
             </tr>
             <tr>
@@ -7108,19 +7104,19 @@
               <td>Thiosemicarbazide</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Thiosulfan tionel see P050</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>TIOVEL see P050</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Tirpate see P185</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Toxaphene see P123</td>
             </tr>
             <tr>
@@ -7128,19 +7124,19 @@
               <td>Trichloromethanethiol</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>2,4,6-Trinitrophenol, ammonium salt (R) see P009</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>TWIN LIGHT RAY AWAY see P001</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>USAF RH-8 see P069</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>USAF EK-4890 see P002</td>
             </tr>
             <tr>
@@ -7152,43 +7148,43 @@
               <td>Vanadium pentoxide</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>VOFATOX see P071</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>WANADU see P120</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>WARCOUMIN see P001</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Warfarin, and salts, when present at concentrations greater than 0.3 percent see P001</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>WARFICIDE see P001</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>WOFOTOX see P072</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>YANOCK see P057</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>YASOKNOCK see P058</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>ZIARNIK see P092</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Zinc, bis(dimethylcarbamodithioato-S,S')-, see P205</td>
             </tr>
             <tr>
@@ -7200,11 +7196,11 @@
               <td>Zinc phosphide when present at concentrations greater than 10 percent (R,T)</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Ziram see P205</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>ZOOCOUMARIN see P001</td>
             </tr>
             <tr>
@@ -7316,7 +7312,7 @@
           </thead>
           <tbody>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>A2213 see U394</td>
             </tr>
             <tr>
@@ -7324,19 +7320,19 @@
               <td>AAF see U005</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Acetaldehyde (I)</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Acetic acid, ethyl ester (I) see U112</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Acetic acid, lead (2+) salt see U144</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Acetic acid, thallium (1+) salt see U214</td>
             </tr>
             <tr>
@@ -7356,7 +7352,7 @@
               <td>2-Acetylaminofluorene</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>8-Acetyl-10[(3-amino-2,3-6-trideoxy-alpha-L-lyxo-hexopyranosyl) oxyl-7,8,9,10-tetrahydro-6,8,11-trihydroxy-1-methoxy-5,12-naphthacenedione, (8S-cis)- see U-059</td>
             </tr>
             <tr>
@@ -7368,11 +7364,11 @@
               <td>Acrylamide</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Acetylene tetrachloride see U209</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Acetylene trichloride see U228</td>
             </tr>
             <tr>
@@ -7384,15 +7380,15 @@
               <td>Acrylonitrile</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>AEROTHENE IT see U226</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>3-Amino-5-(p-acetamidophenyl) 1H-1,2,4-triazole, hydrate see U011</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>6-Amino-8-[[(aminocarbonyl)oxy]methyl]-1,1a,2,8,8a,8b-hexahydro-8a-methoxy-5-methyl-azirino (2',3':3,4) pyrrolo (1,2-a) indole-4,7-dione, [1aS-(1aalpha, 8beta, 8aalpha, 8balpha)]- see U010</td>
             </tr>
             <tr>
@@ -7400,11 +7396,11 @@
               <td>6-Amino-1,1a,2,8,8a,8b-hexahydro-8-(hydroxymethyl)8-methoxy-5-methylcarbamate azirino (2',3':3,4) pyrrolo (1,2-a)indole-4,7-dione (ester)</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>2-Amino-1-methylbenzene see U328</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>4-Amino-1-methylbenzene see U353</td>
             </tr>
             <tr>
@@ -7416,7 +7412,7 @@
               <td>Aniline (I,T)</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Ar-methylbenzenediamine see U221</td>
             </tr>
             <tr>
@@ -7428,19 +7424,19 @@
               <td>Azaserine</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Barban see U280</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Bendiocarb see U278</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Bendiocarb phenol see U364</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Benomyl see U271</td>
             </tr>
             <tr>
@@ -7456,7 +7452,7 @@
               <td>Benz(a)anthracene</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Benzeneamine (I,T) see U012</td>
             </tr>
             <tr>
@@ -7464,27 +7460,27 @@
               <td>Benzene (I,T)</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>1,2-Benzenedicarboxylic acid, bis (2-ethylhexyl) ester see U-028</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>1,2-Benzenedicarboxylic acid, dibutyl ester see U069</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>1,2-Benzenedicarboxylic acid, diethyl ester see U088</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>1,2-Benzenedicarboxylic acid, dimethyl ester see U102</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>1,2-Benzenedicarboxylic acid, dioctyl ester see U107</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>1,3-Benzenediol see U201</td>
             </tr>
             <tr>
@@ -7496,27 +7492,27 @@
               <td>Benzidine</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>1,2-Benzisothiazolin-3-one,1,1-dioxide see U202</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Benzo(a)anthracene see U018</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>1,3-Benzodioxol-4-ol, 2,2-dimethyl-, methyl carbamate see U278</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>1,3-Benzodioxol-4-ol, 2,2-dimethyl-, see U364</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>7-Benzofuranol, 2,3-dihydro-2,2-dimethyl- see U367</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Benzo(rst)pentaphene see U064</td>
             </tr>
             <tr>
@@ -7528,15 +7524,15 @@
               <td>Benzotrichloride (C,R,T)</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>2,2'-Bioxirane see U085</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>(1,1'-Biphenyl)-4,4'-diamine see U021</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Bis(acetato-O)tetrahydroxytri-lead see U146</td>
             </tr>
             <tr>
@@ -7544,15 +7540,15 @@
               <td>Bis(2-chloroethoxy) methane</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>4-[Bis(2-chloroethyl) amino] benzenebutanoic acid U035</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>4-[Bis(2-chloroethyl) amino]-L-phenylalanine see U150</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>5-[Bis(2-chloroethyl) amino]-2,4-(1H,3H)-pyrimidinedione see U237</td>
             </tr>
             <tr>
@@ -7564,7 +7560,7 @@
               <td>N,N-Bis(2-chloroethyl)-2-naphthylamine</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>N,N-Bis(2-chloroethyl) tetrahydro-2H-1,3,2-oxazaphosphorin-2-amine, 2-oxide see U-058</td>
             </tr>
             <tr>
@@ -7576,11 +7572,11 @@
               <td>Bis(2-ethylhexyl) phthalate</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Bis(1-methylethyl)-carbamothioic acid, S-(2,3-dichloro-2-propenyl) ester see U062</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Bromoform see U225</td>
             </tr>
             <tr>
@@ -7588,7 +7584,7 @@
               <td>Bromomethane</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>1-Bromo-4-phenoxybenzene see U030</td>
             </tr>
             <tr>
@@ -7596,19 +7592,19 @@
               <td>4-Bromophenyl phenyl ether</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>2-Butanone (I,T) see U159</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>2-Butanone, peroxide (R,T) see U160</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>2-Butenal see U-053</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>2-Butenoic acid, 2-methyl-,7-[[2,3-dihydroxy-2-(1-methoxyethyl)-3-methyl-1-oxobutoxy] methyl]-2,3,5,7a-tetrahydro-1H-pyrrolizin-1-yl ester, [1S-[1alpha(Z), 7(2S*, 3R*),7aalpha]] see U143</td>
             </tr>
             <tr>
@@ -7616,7 +7612,7 @@
               <td>n-Butyl alcohol (I)</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Cacodylic acid see U136</td>
             </tr>
             <tr>
@@ -7624,71 +7620,71 @@
               <td>Calcium chromate</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Carbamic acid, 1H-benzimidazol-2-yl, methyl ester see U372</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Carbamic acid, [1-[(butylamino)carbonyl]-1H-benzimidazol-2-yl]-, methyl ester see U271</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Carbamic acid, (3-chlorophenyl)-, 4-chloro-2-butynyl ester see U280</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Carbamic acid, ethyl ester see U238</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Carbamic acid, phenyl-, 1-methylethyl ester see U373</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Carbamic acid, [1,2-phenylenebis (iminocarbonothioyl)]bis-, dimethyl ester see U409</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Carbamothioic acid, bis(1-methylethyl)-, S-(2,3,3-trichloro-2-propenyl) ester see U389</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Carbamothioic acid, dipropyl-, S-(phenylmethyl) ester see U387</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Carbaryl see U279</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Carbendazim see U372</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Carbofuran phenol see U367</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Carbolic acid see U188</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Carbon tetrachloride see U211</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Carbonic difluoride see U033</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>4,4'-Carbonimidoylbis[N,N-dimethyl-benzenamine] see U014</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Carbonochloridic acid, methyl ester (I,T) see U156</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Carbon oxyfluoride (R,T) see U033</td>
             </tr>
             <tr>
@@ -7708,7 +7704,7 @@
               <td>Chlordane</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Chlornaphazin see U026</td>
             </tr>
             <tr>
@@ -7720,7 +7716,7 @@
               <td>Chlorobenzilate</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>4-Chloro-alpha-(4-chlorophenyl)-alpha-hydroxybenzeneacetic acid, ethyl ester see U038</td>
             </tr>
             <tr>
@@ -7732,7 +7728,7 @@
               <td>1-Chloro-2,3-epoxypropane</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>CHLOROETHENE NU see U226</td>
             </tr>
             <tr>
@@ -7752,11 +7748,11 @@
               <td>Chloromethane (I,T)</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Chloromethoxymethane see U046</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>4-Chloro-2-methylbenzeneamine hydrochloride see U049</td>
             </tr>
             <tr>
@@ -7764,11 +7760,11 @@
               <td>Chloromethyl methyl ether</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>(Chloromethyl)-oxirane see U041</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>4-Chloro-3-methylphenol see U039</td>
             </tr>
             <tr>
@@ -7784,7 +7780,7 @@
               <td>4-Chloro-o-toluidine hydrochloride</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Chromic acid, calcium salt see U032</td>
             </tr>
             <tr>
@@ -7792,7 +7788,7 @@
               <td>Chrysene</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>C.I. 23060 see U073</td>
             </tr>
             <tr>
@@ -7812,15 +7808,15 @@
               <td>Cumene (I)</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Cyanogen bromide see U246</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Cyanomethane see U003</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>2,5-Cyclohexadiene-1,4-dione see U197</td>
             </tr>
             <tr>
@@ -7848,11 +7844,11 @@
               <td>DDT</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>1,1a,3,3a,4,5,5,5a,5b,6-Decachlorooctahydro-1,3,4-metheno-2H-cyclobuta[cd]pentalen-2-one see U142 <br/>2-Deoxy-2-[[(methylnitrosoamino)-carbonyl]amino]-D-glucose see U206</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>2-Deoxy-2-(3-methyl-3-nitrosoureido)-D-glucopyranose see U206</td>
             </tr>
             <tr>
@@ -7864,7 +7860,7 @@
               <td>Dibenz(a,h)anthracene</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Dibenzo(a,h)anthracene see U063</td>
             </tr>
             <tr>
@@ -7884,7 +7880,7 @@
               <td>Dibromomethane</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>2,3-Dibromo-1-propanol phosphate (3:1) see U235</td>
             </tr>
             <tr>
@@ -7912,7 +7908,7 @@
               <td>1,4-Dichloro-2-butene (I,T)</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>3,3'-Dichloro-4,4'-diaminobiphenyl see U073</td>
             </tr>
             <tr>
@@ -7920,7 +7916,7 @@
               <td>Dichlorodifluoromethane</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>3-5-Dichloro-N-(1,1-dimethyl-2-propynyl)-benzamide see U192</td>
             </tr>
             <tr>
@@ -7940,11 +7936,11 @@
               <td>1,2-trans-Dichloroethylene</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Dichloroethyl ether see U025</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Dichloroisopropyl ether see U027</td>
             </tr>
             <tr>
@@ -7952,11 +7948,11 @@
               <td>Dichloromethane</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Dichloromethoxy ethane see U024</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Dichloromethylbenzene see U017</td>
             </tr>
             <tr>
@@ -7968,7 +7964,7 @@
               <td>2,6-Dichlorophenol</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>(2,4-Dichlorophenoxy)-acetic acid, salts and esters see U240</td>
             </tr>
             <tr>
@@ -7984,19 +7980,19 @@
               <td>1,2:3,4-Diepoxybutane (I,T)</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Diethylene glycol, dicarbamate see U395</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>1-4-Diethyleneoxide see U108</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>4,4'-(1,2-Diethyl-1,2-ethenediyl) bisphenol, (E)- see U089</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Diethylhexyl phthalate see U028</td>
             </tr>
             <tr>
@@ -8016,15 +8012,15 @@
               <td>Diethylstilbestrol</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>1,2-Dihydro-3-methylbenz(j)aceanthrylene see U157</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>2,3-Dihydro-6-methyl-2-thioxo-4(1H)-pyrimidinone see U164</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>1,2-Dihydro-3,6-pyridazinedione see U148</td>
             </tr>
             <tr>
@@ -8032,7 +8028,7 @@
               <td>Dihydrosafrole</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>1,3-Diisocyanatomethylbenzene (R,T) see U223</td>
             </tr>
             <tr>
@@ -8040,7 +8036,7 @@
               <td>3,3'-Dimethoxybenzidine</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>11,17-Dimethoxy-18-[(3,4,5-trimethoxybenzoyl)oxy]-yohimban-16-carboxylic acid, methyl ester, (3beta, 16beta, 17alpha, 18beta, 20alpha)- see U200</td>
             </tr>
             <tr>
@@ -8052,7 +8048,7 @@
               <td>p-Dimethylaminoazobenzene</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Dimethylarsinic acid see U136</td>
             </tr>
             <tr>
@@ -8060,7 +8056,7 @@
               <td>7,12-Dimethylbenz(a)anthracene</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Dimethylbenzene (I,T) see U239</td>
             </tr>
             <tr>
@@ -8088,7 +8084,7 @@
               <td>2,4-Dimethylphenol</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>N,N-Dimethyl-4-(phenylazo)-benzenamine see U093</td>
             </tr>
             <tr>
@@ -8096,7 +8092,7 @@
               <td>Dimethyl phthalate</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>N,N-Dimethyl-N'-2-pyridinyl-N'-(2-thienylmethyl)-1,2-ethanediamine see U155</td>
             </tr>
             <tr>
@@ -8132,51 +8128,51 @@
               <td>Di-n-propylnitrosamine</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>EBDC see U114</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Epichlorohydrine see U041</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>1,4-Expoxybutane see U213</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Ethanal (I) see U001</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Ethanamine, N,N-diethyl- see U404</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>1,2-Ethanediylbiscarbamodithioic acid, salts and esters see U114</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Ethanethioamide see U218</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Ethanimidothioic acid, N,N'- [thiobis[(methylimino)carbonyloxy]]bis-, dimethyl ester see U410</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Ethanimidothioic acid, 2-(dimethylamino)-N-hydroxy-2-oxo-, methyl ester see U394</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Ethanol, 2,2'-oxybis-, dicarbamate see U395</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>2-Ethoxyethanol see U359</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>N-(4-Ethoxyphenyl)-acetamide see U187</td>
             </tr>
             <tr>
@@ -8192,15 +8188,15 @@
               <td>Ethylenebisdithiocarbamate acid, salts and esters</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Ethylene dibromide see U067</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Ethylene dichloride see U077</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Ethylene glycol monoethyl ether see U359</td>
             </tr>
             <tr>
@@ -8216,7 +8212,7 @@
               <td>Ethyl ether (I)</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Ethylidene dichloride see U076</td>
             </tr>
             <tr>
@@ -8228,19 +8224,19 @@
               <td>Ethyl methanesulfonate</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Ethylnitrile see U003</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>N-Ethyl-N-nitrosoethanamine see U174</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>N-Ethyl-N-nitrosourea see U176</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Firemaster T23P see U235</td>
             </tr>
             <tr>
@@ -8248,7 +8244,7 @@
               <td>Fluoranthene</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>N-9H-Fluoren-2-yl-acetamide see U005</td>
             </tr>
             <tr>
@@ -8268,11 +8264,11 @@
               <td>Furan (I)</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>2-Furancarboxaldehyde (I) see U125</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>2,5-Furandione see U147</td>
             </tr>
             <tr>
@@ -8280,7 +8276,7 @@
               <td>Furfural (I)</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Furfuran (I) see U124</td>
             </tr>
             <tr>
@@ -8312,7 +8308,7 @@
               <td>Hexachlorophene</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Hexahydrobenzene (I) see U056</td>
             </tr>
             <tr>
@@ -8328,7 +8324,7 @@
               <td>Hydrogen sulfide</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Hydroxybenzene see U188</td>
             </tr>
             <tr>
@@ -8336,15 +8332,15 @@
               <td>Hydroxydimethyl arsine oxide</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>4-Hydroxy-3-(3-oxo-1-phenyl-butyl)-2H-1-benzopyran-2-one and salts, when present at concentrations of 0.3 percent or less see U248</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>2-Imidazolidinethione see U116</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>4,4'-(Imidocarbonyl)bis(N,N-dimethyl)aniline see U014</td>
             </tr>
             <tr>
@@ -8356,7 +8352,7 @@
               <td>Iodomethane</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>1,3-Isobenzofurandione see U190</td>
             </tr>
             <tr>
@@ -8388,7 +8384,7 @@
               <td>Lead subacetate</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Lindane see U129</td>
             </tr>
             <tr>
@@ -8404,7 +8400,7 @@
               <td>Malononitrile</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>MEK peroxide see U160</td>
             </tr>
             <tr>
@@ -8420,7 +8416,7 @@
               <td>Methacrylonitrile (I,T)</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Methanesulfonic acid, ethyl ester see U119</td>
             </tr>
             <tr>
@@ -8436,35 +8432,35 @@
               <td>Methapyrilene</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Methyl alcohol see U154</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>2-Methylbenzenamine see U328</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>4-Methylbenzenamine see U353</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>2-Methylbenzenamine hydrochloride see U222</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Methylbenzene see U220</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Methyl bromide see U029</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>1-Methylbutadiene (I) see U186</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Methyl chloride (I,T) see U045</td>
             </tr>
             <tr>
@@ -8472,11 +8468,11 @@
               <td>Methyl chlorocarbonate (I,T)</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Methyl chloroform see U226</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Methyl chloroformate see U156</td>
             </tr>
             <tr>
@@ -8484,11 +8480,11 @@
               <td>3-Methylcholanthrene</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>1-Methyl-2,4-dinitrobenzene see U105</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>2-Methyl-1,3-dinitrobenzene see U106</td>
             </tr>
             <tr>
@@ -8496,23 +8492,23 @@
               <td>4,4'-Methylene-bis-(2-chloroaniline)</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>1,1'-[Methylenebis(oxy)]bis[2-chloroethane] see U024</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>2,2'-Methylenebis (3,4,6-trichlorophenol) see U132</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Methylene bromide see U068</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Methylene chloride see U080</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>(1-Methylethyl)-benzene (I) see U055</td>
             </tr>
             <tr>
@@ -8524,7 +8520,7 @@
               <td>Methyl ethyl ketone peroxide (R,T)</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Methyl iodide see U138</td>
             </tr>
             <tr>
@@ -8536,11 +8532,11 @@
               <td>Methyl methacrylate (I,T)</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>N-Methylmethanamine (I) see U092</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>2-Methyl-5-nitrobenzenamine see U181</td>
             </tr>
             <tr>
@@ -8548,47 +8544,47 @@
               <td>N-Methyl-N'-nitro-N-nitro-soguanidine</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Methylnitrosocarbamic acid, ethyl ester see U178</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>N-Methyl-N-nitrosourea see U177</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>4-Methylpentanol see U161</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>4-Methyl-2-pentanone (I) see U161</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Methylphenol see U052</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>1-Methyl-1-phenylethylhydroperoxide (R) see U096</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>2-Methyl-1-propanol (I,T) see U140</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>2-Methyl-2-propenenitrile (I,T) see U152</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>2-Methyl-2-propenoic acid, ethyl ester see U118</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>2-Methyl-2-propenoic acid, methyl ester (I,T) see U162</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>2-Methylpyridine see U191</td>
             </tr>
             <tr>
@@ -8596,11 +8592,11 @@
               <td>Methylthiouracil</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Mitomycin C see U010</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>MNNG see U163</td>
             </tr>
             <tr>
@@ -8608,7 +8604,7 @@
               <td>Naphthalene</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>1-Naphthalenol, methylcarbamate see U279</td>
             </tr>
             <tr>
@@ -8628,7 +8624,7 @@
               <td>Nitrobenzene (I,T)</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Nitrobenzol see U169</td>
             </tr>
             <tr>
@@ -8652,7 +8648,7 @@
               <td>N-Nitrosodiethylamine</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>2,2'-(Nitrosoimino) bisethanol see U173</td>
             </tr>
             <tr>
@@ -8672,7 +8668,7 @@
               <td>N-Nitrosopiperidine</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>N-Nitroso-N-propyl-1-propanamine see U111</td>
             </tr>
             <tr>
@@ -8684,27 +8680,27 @@
               <td>5-Nitro-o-toluidine</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>1,2-Oxathiolane, 2,2-dioxide see U193</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Oxirane (I,T) see U115</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Oxiranecarboxyaldehyde see U126</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>1,1'-Oxybis[2-chloroethane] see U025</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>2,2'-Oxybis[2-chloropropane] see U027</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>1,1'-Oxybisethane (I) see U117</td>
             </tr>
             <tr>
@@ -8712,7 +8708,7 @@
               <td>Paraldehyde</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>PCNB see U185</td>
             </tr>
             <tr>
@@ -8728,7 +8724,7 @@
               <td>Pentachloronitrobenzene</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Pentachlorophenol see F027</td>
             </tr>
             <tr>
@@ -8736,11 +8732,11 @@
               <td>1,3-Pentadiene (I)</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Perc see U210</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Perchlorethylene see U210</td>
             </tr>
             <tr>
@@ -8752,27 +8748,27 @@
               <td>Phenol</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Phenol, 2-(1-methylethoxy)-, methylcarbamate see U411</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Phenol, pentachloro- see F027</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Phenol, 2,3,4,6-tetrachloro- see F027</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Phenol, 2,4,5-trichloro- see F027</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Phenol, 2,4,6-trichloro- see F027</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>1-Phenylethanone see U004</td>
             </tr>
             <tr>
@@ -8796,51 +8792,51 @@
               <td>1,3-Propane sultone</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Propane, 2-nitro (I,T) see U171</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Propanedinitrile see U149</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Propanoic acid 2-(2,4,5-trichlorophenoxy) see F027</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>2-Propanone (I) see U002</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>2-Propenamide see U007</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>2-Propenitrile see U009</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>2-Propenoic acid (I) see U008</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>2-Propenoic acid, ethyl ester (I) see U113</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>5-(2-Propenyl)-1,3-benzodioxole see U203</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>5-(1-Propenyl)-1,3-benzodioxole see U141</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Propham see U373</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Propoxur see U411</td>
             </tr>
             <tr>
@@ -8848,15 +8844,15 @@
               <td>n-Propylamine (I,T)</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>5-Propyl-1,3-benzodioxole see U090</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Propylene dichloride see U083</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>N-Propyl-1-propanamine (I) see U110</td>
             </tr>
             <tr>
@@ -8888,7 +8884,7 @@
               <td>Selenious acid</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Selenium dioxide see U204</td>
             </tr>
             <tr>
@@ -8896,11 +8892,11 @@
               <td>Selenium sulfide (R,T)</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>L-Serine, diazoacetate (ester) see U015</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Silvex (2,4,5-TP) see F027</td>
             </tr>
             <tr>
@@ -8908,15 +8904,15 @@
               <td>Streptozotocin</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Sulfuric acid, dimethyl ester see U103</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Sulfur phosphide (R) see U189</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>2,4,5-T see F027</td>
             </tr>
             <tr>
@@ -8936,7 +8932,7 @@
               <td>Tetrachloroethene</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Tetrachloroethylene see U210</td>
             </tr>
             <tr>
@@ -8944,7 +8940,7 @@
               <td>Tetrachloromethane</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>2,3,4,6-Tetrachlorophenol see F027</td>
             </tr>
             <tr>
@@ -8952,7 +8948,7 @@
               <td>Tetrahydrofuran (I)</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Tetramethylthioperoxydicarbonicdiamide see U244</td>
             </tr>
             <tr>
@@ -8976,11 +8972,11 @@
               <td>Thioacetamide</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Thiodicarb see U410</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Thiomethanol (I,T) see U153</td>
             </tr>
             <tr>
@@ -8988,7 +8984,7 @@
               <td>Thiourea</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Thiophanate-methyl see U409</td>
             </tr>
             <tr>
@@ -9000,11 +8996,11 @@
               <td>Toluenediamine</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>o-Toluidine see U328</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>p-Toluidine see U353</td>
             </tr>
             <tr>
@@ -9016,15 +9012,15 @@
               <td>Toluene diisocyanate (R,T)</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>2,4,5-TP see F027</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Triallate see U389</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>1H-1,2,4-Triazol-3-amine see U011</td>
             </tr>
             <tr>
@@ -9032,7 +9028,7 @@
               <td>Tribromomethane</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Trichloroacetaldehyde see U034</td>
             </tr>
             <tr>
@@ -9048,63 +9044,63 @@
               <td>Trichloroethene</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Trichloroethylene see U228</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>1,1'-(2,2,2-Tricholorethylidene)bis[4-chlorobenzene] see U061</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>1,1'-(2,2,2-Tricholorethylidene)bis[4-methoxybenzene] see U247</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Trichlorofluoromethane see U121</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Trichloromethane see U044</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>(Trichloromethyl)-benzene see U023</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Trichloromonofluoromethane see U121</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>2,4,5-Trichlorophenol see F027</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>2,4,6-Trichlorophenol see F027</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>2,4,5-Trichlorophenoxyacetic acid see F027</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>2-(2,4,5-Trichlorophenoxy)-propanoic acid see F027</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>alpha,alpha,alpha-Trichlorotoluene see U023</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>TRI-CLENE see U228</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Triethylamine see U404</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>2,4,6-Trimethyl-1,3,5-trioxane see U182</td>
             </tr>
             <tr>
@@ -9128,11 +9124,11 @@
               <td>Ethyl carbamate (urethane)</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Vinyl chloride see U043</td>
             </tr>
             <tr>
-              <td proof="needed"/>
+              <td/>
               <td>Vinylidene chloride see U078</td>
             </tr>
             <tr>
