@@ -1,0 +1,596 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>06</num>
+  <heading>Inmate Commitment</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>"Adjustment proceeding" means a formal or informal disciplinary and appeal process used by a correctional facility to determine if an inmate has committed a violation of the facility rules.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>"Case Management team" means a group of correctional staff under <cite path="12.02.24.02">COMAR 12.02.24.02</cite>.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>"Commissioner" means the Commissioner of Correction or a designee.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>"Diminution credit" means a day-for-day reduction of an inmate's term of confinement under <cite doc="Md. Code" path="gcs">Correctional Services Article, Title 3, Subtitle 7, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>"Division" means the Division of Correction.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>"Drug crime" means a violation under:</text>
+        <para>
+          <num>(a)</num>
+          <text><cite doc="Md. Code" path="gcr|5-621">Criminal Law Article, §5-621, Annotated Code of Maryland</cite>;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text><cite doc="Md. Code" path="gcr|5-303">Criminal Law Article, §5-303(d), Annotated Code of Maryland</cite>;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text><cite doc="Md. Code" path="gcr">Criminal Law Article, Title 5, Subtitle 5, Annotated Code of Maryland</cite>;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text><cite doc="Md. Code" path="gcr|5-602">Criminal Law Article, §5-602</cite>—5-609, Annotated Code of Maryland;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Criminal Law Article, §§<cite doc="Md. Code" path="gcr|5-614">5-614</cite>, <cite doc="Md. Code" path="gcr|5-617">5-617</cite>, <cite doc="Md. Code" path="gcr|5-627">5-627</cite>, and <cite doc="Md. Code" path="gcr|5-628">5-628</cite>, Annotated Code of Maryland; or</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text><cite doc="Md. Code" path="gcr|1-202">Criminal Law Article, §1-202, Annotated Code of Maryland</cite>, if there is a conspiracy to commit a crime listed in §B(6)(a)—(e) of this regulation.</text>
+        </para>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>"Education credit" means a diminution credit awarded under <cite doc="Md. Code" path="gcs|3-706">Correctional Services Article, §3-706, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>"Good conduct credit" means a diminution credit awarded under <cite doc="Md. Code" path="gcs|3-704">Correctional Services Article, §3-704, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>"Incarceration" means confinement resulting from a conviction, sentencing, and commitment to the custody of the Commissioner.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>"Mandatory supervision" means a conditional release from incarceration granted to an inmate under <cite doc="Md. Code" path="gcs|7-501">Correctional Services Article, §7-501, Annotated Code of Maryland</cite>, which includes a conditional release granted before July 1, 1989, formerly known as "mandatory release".</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>"Mandatory supervision release date" means the date computed by subtracting the credits which are awarded pursuant to Correctional Services Article, Title 3, Subtitle 7, and Title 11, Subtitle 5, Annotated Code of Maryland, from the maximum expiration date.</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>"Maximum expiration date" means the date that an inmate's term of confinement expires.</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>"Release by expiration of sentence" means the unconditional release of an inmate:</text>
+        <para>
+          <num>(a)</num>
+          <text>Whose only sentence or sentences are for offenses committed before July 1, 1970, and who has served the term of confinement less the diminution credits awarded under Correctional Services Article, Title 3, Subtitle 7, and Title 11, Subtitle 5, Annotated Code of Maryland;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Who has actually served the day-to-day maximum term of confinement under which the inmate is incarcerated; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Who has served a term of confinement of 12 months or less and is not subject to mandatory supervision.</text>
+        </para>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>"Release on mandatory supervision" means the conditional release of an inmate under the <cite doc="Md. Code" path="gcs|7-501">Correctional Services Article, §7-501, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>"Secretary" has the meaning stated in <cite path="12.01.01.02|B.|(5)">COMAR 12.01.01.02B(5)</cite>.</text>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>"Sentence" means a period of incarceration or supervision imposed by a judge.</text>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>"Special projects credit" means a diminution credit awarded under <cite doc="Md. Code" path="gcs|3-707">Correctional Services Article, §3-707, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(18)</num>
+        <text>"Term of confinement" means the period of an inmate's current incarceration. If an inmate is serving a:</text>
+        <para>
+          <num>(a)</num>
+          <text>Single sentence, it is the period of confinement under that sentence;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Combination of concurrent sentences, it is the period of confinement between the earliest starting date of those sentences and the latest expiration date of those sentences;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Combination of consecutive sentences, it is the period of confinement between the starting date of the first consecutive sentence and the expiration date of the last consecutive sentence;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Combination of concurrent and consecutive sentences, it is the period of confinement between the earliest starting date of the sentences and the last expiration date of the sentences; or</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Combination of sentences imposed before and after release on mandatory supervision or parole and the release on mandatory supervision or parole is revoked, it is the period of confinement between the earliest starting date of the sentences and the latest expiration date of the sentences, excluding time out of custody for which credit is not allowed.</text>
+        </para>
+      </para>
+      <para>
+        <num>(19)</num>
+        <text>"Work tasks credit" means a diminution credit awarded under <cite doc="Md. Code" path="gcs|3-705">Correctional Services Article, §3-705, Annotated Code of Maryland</cite>.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Parole Procedure for Life Sentences.</heading>
+    <para>
+      <num>A.</num>
+      <text>Under <cite doc="Md. Code" path="gcs|7-301">Correctional Services Article, §7-301(d)(2), Annotated Code of Maryland</cite>, an inmate who has been sentenced under <cite doc="Md. Code" path="gcr|2-303">Criminal Law Article, §2-303, Annotated Code of Maryland</cite>, to life imprisonment when the death penalty had been sought for a first degree murder offense which was committed on or after July 1, 1983, is not eligible for parole consideration until the inmate has served 25 years less any diminution of confinement credits.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>According to <cite doc="Md. Code" path="gcs|7-301">Correctional Services Article, §7-301(d)(1), Annotated Code of Maryland</cite>, other inmates who have been sentenced to life imprisonment are not eligible for parole consideration until they have served 15 years less any diminution of confinement credits.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>If an inmate is serving consecutive life sentences, the inmate is not eligible for parole consideration until the inmate has served the sum of the number of years required by §A or B for each life sentence less any diminution of confinement credits.</text>
+    </para>
+  </section>
+  <section cache:ref-path="12|02|06|.03">
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Diminution of Confinement.</heading>
+    <para>
+      <num>A.</num>
+      <text>Except as provided in <cite path="12|02|06|.03|B.">§B of this regulation</cite>, this regulation applies to a term of confinement being served by an inmate in the Division.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>This regulation does not apply to an indeterminate sentence for civil contempt.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Entitlement to Diminution Credit. An inmate is entitled to diminution of the inmate's term of confinement subject to <cite doc="Md. Code" path="gcs|3-711">Correctional Services Article, §3-711 </cite>and Title 7, Subtitle 5, Annotated Code of Maryland, from:</text>
+      <para>
+        <num>(1)</num>
+        <text>The date of sentencing to the custody of the Commissioner; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If first serving a concurrent Maryland sentence in a foreign jurisdiction and later transferred to the custody of the Commissioner, the date the inmate is received into the physical custody of the Commissioner.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Local Jail Credit. Diminution credit awarded under the Correctional Services Article, §§<cite doc="Md. Code" path="gcs|11-503">11-503</cite>—<cite doc="Md. Code" path="gcs|11-507">11-507</cite>, Annotated Code of Maryland, to an inmate who is later transferred to the custody of the Commissioner and properly documented by a local detention facility, shall be applied to the inmate's term of confinement.</text>
+    </para>
+  </section>
+  <section cache:ref-path="12|02|06|.04">
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Application of Diminution Credits.</heading>
+    <para>
+      <num>A.</num>
+      <text>Diminution credit may be awarded under Correctional Services Article, §§<cite doc="Md. Code" path="gcs|3-703">3-703</cite>—<cite doc="Md. Code" path="gcs|3-707">3-707</cite>, Annotated Code of Maryland, in one or more of the following categories:</text>
+      <para>
+        <num>(1)</num>
+        <text>Good conduct;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Work tasks;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Education; or</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Special projects.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Good Conduct Credit.</text>
+      <para>
+        <num>(1)</num>
+        <text>An inmate shall be awarded an initial deduction from the inmate's term of confinement, subject to the inmate's future good conduct.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A deduction under this subsection may not be awarded for a period during which an inmate does not receive credit for service of the inmate's term of confinement including a period:</text>
+        <para>
+          <num>(a)</num>
+          <text>During which an inmate's sentence is stayed;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>During which the inmate has escaped; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>For which the Maryland Parole Commission has declined to grant credit after revocation of parole or mandatory supervision.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Work Tasks Credit. An inmate may be awarded a deduction from the inmate's term of confinement for satisfactory performance of work tasks assigned to the inmate.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Education Credit. An inmate may be awarded a deduction from the inmate's term of confinement for satisfactory industry, application, and progress in education programs.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Special Projects Credit.</text>
+      <para>
+        <num>(1)</num>
+        <text>The Commissioner, with the approval of the Secretary and based on the Division's current policy and procedure, may establish a list of assignments and programs that qualify for special projects credit  which include, but need not be limited to, the following:</text>
+        <para>
+          <num>(a)</num>
+          <text>Prison industry assignments;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Education programs;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Work details;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Work release employment; or</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Rehabilitation programs including, but not limited to, programs addressing:</text>
+          <para>
+            <num>(i)</num>
+            <text>Substance abuse; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Criminal behavior.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Special projects credit awarded by a local detention center, between the date an inmate is sentenced to the custody of the Commissioner and the date the inmate is transferred to the Division, shall qualify as special projects credit.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Special Projects Credit for Housing.</text>
+      <para>
+        <num>(1)</num>
+        <text>Except as provided in <cite path="12|02|06|.04|F.|(3)">§F(3) of this regulation</cite>, an inmate may be awarded special projects credit for housing under <cite doc="Md. Code" path="gcs|3-707">Correctional Services Article, §3-707, Annotated Code of Maryland</cite>, if the inmate is:</text>
+        <para>
+          <num>(a)</num>
+          <text>Assigned to a cell containing two beds and is not serving a period of disciplinary segregation; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Housed in a dormitory or dormitory-type housing and the housing area where the inmate is confined does not provide 55 square feet of living space per inmate, exclusive of dayrooms, toilets, and showers.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An inmate may be awarded a maximum of five special projects credits for housing for each calendar month, and on a prorated basis for any portion of a calendar month, beginning on a date and ending on a date the Secretary determines appropriate, based on the demand for inmate housing and services in the Division, subject to §§F(3) and G of this regulation.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>An inmate may not be awarded special projects credit under this section during the inmate's term of confinement if the inmate is serving a term of confinement that includes a:</text>
+        <para>
+          <num>(a)</num>
+          <text>Sentence for:</text>
+          <para>
+            <num>(i)</num>
+            <text>Abduction;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Arson in the first degree;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Carjacking or armed carjacking;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Kidnapping;</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>Manslaughter, except involuntary manslaughter;</text>
+          </para>
+          <para>
+            <num>(vi)</num>
+            <text>Mayhem and maiming, as previously proscribed under Article 27, §§384—386, Annotated Code of Maryland;</text>
+          </para>
+          <para>
+            <num>(vii)</num>
+            <text>Murder or attempted murder;</text>
+          </para>
+          <para>
+            <num>(viii)</num>
+            <text>Use of a handgun in the commission of a felony or other crime of violence;</text>
+          </para>
+          <para>
+            <num>(ix)</num>
+            <text>Child abuse, abuse or neglect of a vulnerable adult, or child sale, barter, or trade under <cite doc="Md. Code" path="gcr|3-601">Criminal Law Article, §3-601, </cite>3-602, or 3-603, Annotated Code of Maryland;</text>
+          </para>
+          <para>
+            <num>(x)</num>
+            <text>Assault on a Division inmate or employee under <cite doc="Md. Code" path="gcr|3-205">Criminal Law Article, §3-205, Annotated Code of Maryland</cite>;</text>
+          </para>
+          <para>
+            <num>(xi)</num>
+            <text>A drug crime;</text>
+          </para>
+          <para>
+            <num>(xii)</num>
+            <text>An offense which would cause the offender to be defined as a child sexual offender, offender, sexually violent offender, or sexually violent predator under <cite doc="Md. Code" path="gcp">Criminal Procedure Article, Title 11, Subtitle 7, Annotated Code of Maryland</cite>; or</text>
+          </para>
+          <para>
+            <num>(xiii)</num>
+            <text>A crime committed on or after July 1, 2007.</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Mandatory sentence for the commission of a felony; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Sentence as a repeat offender under <cite doc="Md. Code" path="gcr|14-101">Criminal Law Article, §14-101, Annotated Code of Maryland</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>This section may not be interpreted, understood, or construed to mean that an inmate who is eligible to receive the credits described in this section has a right to these credits or that an inmate will continue to receive these credits in the future.</text>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>An inmate may not be awarded more than 20 diminution credits for a calendar month.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Revocation of Diminution Credit.</heading>
+    <para>
+      <num>A.</num>
+      <text>Diminution credits awarded for participation in education programs may not be revoked under any circumstances.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Good conduct credit and special projects credit may be revoked as the result of an adjustment proceeding.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The Commissioner shall revoke all special projects credit for housing awarded under <cite path="|12|02|06|.04|F.">Regulation .04F of this chapter</cite> if, within 60 days before an inmate's release on mandatory supervision, the inmate is found guilty of an institutional rule violation for:</text>
+      <para>
+        <num>(1)</num>
+        <text>Assault;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Possession of:</text>
+        <para>
+          <num>(a)</num>
+          <text>A weapon or any other article which has been modified into a weapon;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>An implement which could be reasonably used to perpetrate an escape;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A controlled dangerous substance or any intoxicating substance;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Unauthorized medication;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Stolen property; or</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Cash, checks, or money orders in excess of the amount authorized under procedures established by the institution where the inmate is housed;</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Escape; or</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Attempted escape.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Credit revoked under this section may be restored under <cite path="|12|02|06|.06">Regulation .06 of this chapter</cite>.</text>
+    </para>
+  </section>
+  <section cache:ref-path="12|02|06|.06">
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Restoration of Revoked Diminution Credit.</heading>
+    <para>
+      <num>A.</num>
+      <text>Except under <cite path="12|02|06|.06|C.">§C of this regulation</cite>, upon the recommendation of case management staff, a warden may restore diminution credit revoked during the current incarceration.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Case management staff may recommend restoration of revoked diminution credit for an inmate who:</text>
+      <para>
+        <num>(1)</num>
+        <text>Has no guilty finding for an inmate rule violation in the preceding 6 months;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Is not serving a period of disciplinary segregation;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Has not been in disciplinary segregation in the preceding 6 months;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>With the application of the maximum amount of restored diminution credit, is within 12 months of release; and</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Has:</text>
+        <para>
+          <num>(a)</num>
+          <text>Not received prior consideration for restoration of diminution credit during the current term of confinement; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Received prior consideration for restoration of diminution credit where, as part of that consideration, a condition was imposed that the inmate was required to meet before a second consideration to restore revoked diminution credit would be given under this regulation.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Refusal to Submit to Medical Testing or Provide a DNA Sample.</text>
+      <para>
+        <num>(1)</num>
+        <text>A warden may restore, with a recommendation from case management staff, diminution credit revoked for an inmate's refusal to:</text>
+        <para>
+          <num>(a)</num>
+          <text>Submit to a medical test affecting the public health or facility security; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Provide a DNA sample.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Before a warden restores diminution credit revoked for refusing to submit to medical testing or provide a DNA sample, a warden shall verify that the inmate has submitted to the required medical test or provided the DNA sample.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>An inmate has no entitlement to approval of restoration of revoked credit.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Establishing a Diminution of Confinement Record.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Commissioner shall maintain a system for administering the diminution of confinement for each inmate.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A diminution of confinement record shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Be established on the date that an inmate is received into the custody of the Commissioner;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Contain entries reflecting all diminution credits awarded, revoked, or restored; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Reflect a current and accurate record of diminution credit affecting an inmate's term of confinement.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The Commissioner shall ensure that staff responsible for maintaining the diminution of confinement record are notified within 5 days of:</text>
+      <para>
+        <num>(1)</num>
+        <text>The date of an inmate's assignment to and subsequent removal from:</text>
+        <para>
+          <num>(a)</num>
+          <text>A work assignment;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>An education program; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A special project;</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Revocation of an inmate's good conduct or special projects credit, or both; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The warden's approval to restore an inmate's revoked diminution credit.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Notification of Release.</heading>
+    <text>Before release of an inmate for mandatory supervision or expiration of sentence, the commitment office supervisor, or a designee, shall notify the victim of the crime for which the inmate was incarcerated, if the victim has filed a written request for notification.</text>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Correctional Services Article, §§<cite doc="Md. Code" path="gcs|2-109">2-109</cite> and <cite doc="Md. Code" path="gcs|3-107">3-107</cite>, Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container">Effective date:</annotation>
+    <annotation type="History" dest="container" effective="1990-04-01">Regulations .01 and .05 adopted as an emergency provision effective April 1, 1990 (17:8 Md. R. 972); emergency status extended at 17:20 Md. R. 2421 and 18:9 Md. R. 1006, expired May 15, 1991 (Emergency provisions are temporary and not printed in COMAR)</annotation>
+    <annotation type="History" dest="container" effective="1991-05-27">Regulations <cite path="|12|02|06|.01">.01</cite>—<cite path="|12|02|06|.08">.08</cite> adopted effective May 27, 1991 (18:10 Md. R. 1117)</annotation>
+    <annotation type="History" dest="container" effective="1992-04-27"><cite path="|12|02|06|.01|B.">Regulation .01B</cite> amended effective April 27, 1992 (19:8 Md. R. 806)</annotation>
+    <annotation type="History" dest="container" effective="2002-01-01"><cite path="|12|02|06|.01|B.">Regulation .01B</cite> amended as an emergency provision effective January 1, 2002 (29:4 Md. R. 413); emergency status extended at 29:15 Md. R. 1140; emergency provisions are temporary and not printed in COMAR</annotation>
+    <annotation type="History" dest="container" effective="1992-04-27"><cite path="|12|02|06|.03">Regulation .03</cite> amended effective April 27, 1992 (19:8 Md. R. 806)</annotation>
+    <annotation type="History" dest="container" effective="1992-04-27"><cite path="|12|02|06|.04|B.">Regulation .04B</cite> amended effective April 27, 1992 (19:8 Md. R. 806)</annotation>
+    <annotation type="History" dest="container" effective="2000-10-16"><cite path="|12|02|06|.05|C.">Regulation .05C</cite> amended effective April 27, 1992 (19:8 Md. R. 806); August 3, 1992 (19:15 Md. R. 1391); April 12, 1993 (20:7 Md. R. 642); November 20, 1994 (21:23 Md. R. 1935); October 16, 2000 (27:20 Md. R. 1841)</annotation>
+    <annotation type="History" dest="container" effective="1992-04-27"><cite path="|12|02|06|.05|E.">Regulation .05E</cite>, G, N amended effective April 27, 1992 (19:8 Md. R. 806)</annotation>
+    <annotation type="History" dest="container" effective="2002-01-01"><cite path="|12|02|06|.05|N.">Regulation .05N</cite> amended as an emergency provision effective January 1, 2002 (29:4 Md. R. 413); emergency status extended at 29:15 Md. R. 1140; emergency provisions are temporary and not printed in COMAR</annotation>
+    <annotation type="History" dest="container" effective="1992-04-27"><cite path="|12|02|06|.05|O.">Regulation .05O</cite> adopted effective April 27, 1992 (19:8 Md. R. 806)</annotation>
+    <annotation type="History" dest="container" effective="2002-01-01"><cite path="|12|02|06|.05|O.">Regulation .05O</cite> amended as an emergency provision effective January 1, 2002 (29:4 Md. R. 413); emergency status extended at 29:15 Md. R. 1140; emergency provisions are temporary and not printed in COMAR</annotation>
+    <annotation type="History" dest="container" effective="1992-04-27"><cite path="|12|02|06|.06|G.">Regulation .06G</cite>, H, I, K, M amended effective April 27, 1992 (19:8 Md. R. 806)</annotation>
+    <annotation type="History" dest="container" effective="2002-10-14" discontinuity="true">Chapter revised effective October 14, 2002 (29:20 Md. R. 1590)</annotation>
+    <annotation type="History" dest="container" effective="2007-02-12"><cite path="|12|02|06|.04|E.">Regulation .04E</cite> amended effective February 12, 2007 (34:3 Md. R. 300)</annotation>
+    <annotation type="History" dest="container" effective="2007-07-01"><cite path="|12|02|06|.04|F.">Regulation .04F</cite> amended effective July 1, 2007 (34:7 Md. R. 700)</annotation>
+    <annotation type="History" dest="container" effective="2009-05-01"><cite path="|12|02|06|.06">Regulation .06</cite> amended as an emergency provision effective May 1, 2009 (36:14 Md. R. 983); emergency status expired October 1, 2009</annotation>
+    <annotation type="History" dest="container" effective="2009-10-19"><cite path="|12|02|06|.06">Regulation .06</cite> amended effective October 19, 2009 (36:21 Md. R. 1592)</annotation>
+  </annotations>
+</container>

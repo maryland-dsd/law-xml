@@ -1,0 +1,319 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>02</num>
+  <heading>Campaign Finance Report</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Scope.</heading>
+    <text>This chapter applies to the information required on a campaign finance report submitted to the State Board with respect to contributions received, expenditures made, and outstanding obligations incurred by or on behalf of the campaign finance entity.</text>
+  </section>
+  <section cache:ref-path="33|13|02|.02">
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Required Contents.</heading>
+    <para>
+      <num>A.</num>
+      <text>Report Requirements. Except as provided in <cite path="33|13|02|.02|B.">§B of this regulation</cite>, for contributions received, the campaign finance report filed by a campaign finance entity shall include:</text>
+      <para>
+        <num>(1)</num>
+        <text>The date that the contribution was received by the campaign finance entity;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The amount of money or fair market value of the contribution; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The name of:</text>
+        <para>
+          <num>(a)</num>
+          <text>The person who made the contribution;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The campaign finance entity that made the contribution; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The non-federal out-of-State political committee that made the contribution;</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The address of the contributor, provided that:</text>
+        <para>
+          <num>(a)</num>
+          <text>If the person is an individual:</text>
+          <para>
+            <num>(i)</num>
+            <text>The address where the individual resides or receives residential mail; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>An alternate address approved by the State Board if the State Board has granted the individual’s request for confidentiality under <cite path="|33.04.02">COMAR 33.04.02</cite>; or</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>If the contributor is a person except as provided in <cite path="33|13|02|.02|A.|(4)|(a)">§A(4)(a) of this regulation</cite>, the address where the person is registered or does business;</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The method of the contribution transaction and any other information on the transaction method required by the State Administrator;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Whether the contribution is from:</text>
+        <para>
+          <num>(a)</num>
+          <text>An individual or business entity;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A ticket purchased by an individual or business entity including the amount per ticket; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A political committee registered with the Federal Election Commission;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>A political club;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>An authorized candidate campaign committee;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>A slate committee;</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>A Maryland political party central committee;</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>A Maryland political action committee;</text>
+        </para>
+        <para>
+          <num>(i)</num>
+          <text>A legislative party caucus committee; or</text>
+        </para>
+        <para>
+          <num>(j)</num>
+          <text>A non-federal, out-of-State political committee;</text>
+        </para>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>The aggregate amount of contributions received to date from the contributor for the election cycle in which the campaign finance report is filed;</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>If an in-kind contribution, a description of the in-kind contribution; and</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>The contributor’s employer and occupation information as specified under <cite path="33|13|02|.02|E.">§E of this regulation</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Contributions from Different Contributors.</text>
+      <para>
+        <num>(1)</num>
+        <text>Contributions from different contributors may be aggregated and reported as a lump sum contribution on a campaign finance report instead of the name and address of each contributor if the reported contribution amount received is from:</text>
+        <para>
+          <num>(a)</num>
+          <text>The purchase of a raffle ticket, spin, or chance on a paddle wheel or wheel of fortune in accordance with <cite doc="Md. Code" path="gel|13-240">Election Law Article, §13-240, Annotated Code of Maryland</cite>; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Payroll deductions collected in accordance with Election Law Article, §§<cite doc="Md. Code" path="gel|13-241">13-241</cite> and <cite doc="Md. Code" path="gel|13-242">13-242</cite>, Annotated Code of Maryland.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>For lump sum contributions, the campaign finance report shall include:</text>
+        <para>
+          <num>(a)</num>
+          <text>If the lump sum contributions were generated from a raffle, spin, or chance:</text>
+          <para>
+            <num>(i)</num>
+            <text>The net amount received by the political committee from the raffle, spin, or chance;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The total number of individuals purchasing a raffle ticket, spin, or chance; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>The price of the raffle ticket, spin, or chance;</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>If the lump sum contributions were generated from a payroll deduction:</text>
+          <para>
+            <num>(i)</num>
+            <text>The total amount received by the political committee;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The total number of individuals making contributions; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>The average amount of the contribution received by the political committee.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Reporting lump sum contributions on a campaign finance report does not relieve the political committee of the responsibility for maintaining the account book pursuant to Election Law Article, §§<cite doc="Md. Code" path="gel|13-221">13-221</cite> and <cite doc="Md. Code" path="gel|13-240">13-240</cite>(b)(<cite doc="Md. Code" path="gel|1">1</cite>), Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Except as provided in <cite doc="Md. Code" path="gel|13-240">Election Law Article, §13-240, Annotated Code of Maryland</cite>, failure to include the name and address of every contributor in the account book of the campaign finance entity for a lump sum contribution entry on a campaign finance report shall be deemed an anonymous contribution and subject to <cite doc="Md. Code" path="gel|13-239">Election Law Article, §13-239, Annotated Code of Maryland</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Expenditures Made. For expenditures made, the campaign finance report filed by a campaign finance entity shall include:</text>
+      <para>
+        <num>(1)</num>
+        <text>The date the expenditure was made;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The method of the expenditure transaction including any information on the transaction method required by the State Administrator;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The name and address of the payee or the ultimate recipient of the campaign funds;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>If the expenditure was for reimbursement, the name and address of the campaign worker who received the reimbursement;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The amount of the expenditure;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>A description of the expenditure, including whether the expenditure was for a paid campaign advertisement;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>If the expenditure was an in-kind contribution, the name of the campaign finance entity receiving the in-kind contribution; and</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>If the expenditure was to a person to engage in online advocacy on behalf of the political committee, the name and Internet address of any social media identifier, online website, web log, blog, or microblog used by that person.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Outstanding Obligations. For outstanding obligations, the campaign finance report filed by a campaign finance entity shall include:</text>
+      <para>
+        <num>(1)</num>
+        <text>The name and address of the person to whom an outstanding obligation is owed;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The date the outstanding obligation was incurred;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The current balance of the outstanding obligation owed at the end of the campaign finance reporting period;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>For an outstanding obligation other than a loan, a brief description of the item relating to the outstanding obligation; and</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>If the outstanding obligation is a loan, all the information required by <cite doc="Md. Code" path="gel|13-230">Election Law Article, §13-230, Annotated Code of Maryland</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Employer and Occupation.</text>
+      <para>
+        <num>(1)</num>
+        <text>During an election cycle, if an individual makes contributions in a cumulative amount of $500 or more to a political committee, that individual shall provide the treasurer of the political committee specific and accurate information regarding the individual’s primary employer and occupation.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>When providing employer and occupation information, the contributor shall use specific, nongeneric, terms and descriptions, such as, in cases where an individual does not work outside the home, "Retired," "Homemaker," "Unemployed," or "Student” rather than not applicable.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A political committee may deposit and use contributions from an individual who is required to provide employer and occupation information, provided the committee:</text>
+        <para>
+          <num>(a)</num>
+          <text>Requested the information upon receiving or soliciting a contribution; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Sent a written compliance request letter addressed to the contributor within 30 days of receipt of any contribution from an individual that brings the total received to $500 or more during an election cycle.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>For each instance that the employer and occupation information could not be obtained, the political committee shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Keep records reflecting all attempts made by the political committee to obtain the required information; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>State on the campaign finance report:</text>
+          <para>
+            <num>(i)</num>
+            <text>That a written compliance letter was sent by the treasurer of the political committee;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The date the compliance letter was sent by the treasurer of the political committee; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>That the contributor failed to respond or provide the required information.</text>
+          </para>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Final Report.</heading>
+    <para>
+      <num>A.</num>
+      <text>Closeout Report Required. A campaign finance entity shall file a campaign finance report marked as final to cease future reporting obligations.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Approval Required. The submission of a final campaign finance report does not cease future reporting obligations until the submission is approved by the State Board.</text>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Election Law Article, §§<cite doc="Md. Code" path="gel|1-101">1-101</cite>, <cite doc="Md. Code" path="gel|2-102">2-102</cite>(b)(<cite doc="Md. Code" path="gel|4">4</cite>), <cite doc="Md. Code" path="gel|13-218">13-218</cite>(b), <cite doc="Md. Code" path="gel|13-304">13-304</cite>(b), <cite doc="Md. Code" path="gel|13-221">13-221</cite>(a)(<cite doc="Md. Code" path="gel|3">3</cite>), <cite doc="Md. Code" path="gel|13-245">13-245</cite>, and Title 13, Subtitle 3, Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container">Effective date:</annotation>
+    <annotation type="History" dest="container" effective="2000-10-16">Regulations <cite path="|33|13|02|.01">.01</cite>—<cite path="|33|13|02|.04">.04</cite> adopted as an emergency provision effective July 1, 2000 (27:15 Md. R. 1398); adopted permanently effective October 16, 2000 (27:20 Md. R. 1844)</annotation>
+    <annotation type="History" dest="container" effective="2009-10-19" discontinuity="true">Regulations <cite path="|33|13|02|.01">.01</cite>—<cite path="|33|13|02|.04">.04</cite> Chapter, Affidavit of Non-Participation repealed and new Regulations .01 and .02 Chapter, Campaign Finance Report adopted effective October 19, 2009 (36:21 Md. R. 1595)</annotation>
+    <annotation type="History" dest="container" effective="2016-02-29"><cite path="|33|13|02|.02|A.">Regulation .02A</cite> amended effective December 23, 2013 (40:25 Md. R. 2073); February 29, 2016 (43:4 Md. R. 335)</annotation>
+    <annotation type="History" dest="container" effective="2016-02-29"><cite path="|33|13|02|.02|B.">Regulation .02B</cite> amended effective February 29, 2016 (43:4 Md. R. 335)</annotation>
+    <annotation type="History" dest="container" effective="2012-10-29"><cite path="|33|13|02|.02|A.">Regulation .02A</cite>, C amended effective October 29, 2012 (39:21 Md. R. 1381)</annotation>
+    <annotation type="History" dest="container" effective="2012-01-09"><cite path="|33|13|02|.02|C.">Regulation .02C</cite> amended effective January 9, 2012 (38:27 Md. R. 1765)</annotation>
+    <annotation type="History" dest="container" effective="2012-10-29"><cite path="|33|13|02|.02|E.">Regulation .02E</cite> adopted effective October 29, 2012 (39:21 Md. R. 1381)</annotation>
+    <annotation type="History" dest="container" effective="2018-02-12"><cite path="|33|13|02|.02|E.">Regulation .02E</cite> amended effective February 12, 2018 (45:3 Md. R. 159)</annotation>
+    <annotation type="History" dest="container" effective="2023-05-29"><cite path="|33|13|02|.03">Regulation .03</cite> adopted effective May 29, 2023 (50:10 Md. R. 407)</annotation>
+  </annotations>
+</container>

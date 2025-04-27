@@ -1,0 +1,453 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>18</num>
+  <heading>Inmate Transfers</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>Adjudicated Federal Detainer.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Adjudicated federal detainer" means a detainer based on an offense for which the defendant has been:</text>
+          <para>
+            <num>(i)</num>
+            <text>Tried;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Convicted;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Sentenced; and</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Committed to the custody of the U.S. Attorney General.</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Adjudicated federal detainer" does not mean a detainer:</text>
+          <para>
+            <num>(i)</num>
+            <text>Based on an untried indictment, information, or complaint; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Of federal parole or federal probation.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>"Commissioner" means the Commissioner of the Division of Correction or designee.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Concurrent Federal Sentence.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Concurrent federal sentence" means a sentence which runs simultaneously with a Maryland sentence because it:</text>
+          <para>
+            <num>(i)</num>
+            <text>Has a beginning date expressly stated on its judgment and commitment record; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Is expressly described on a federal commitment record, to run concurrent with a Maryland sentence.</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Concurrent federal sentence" also means a federal sentence to which a Maryland sentence is concurrent.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Each additional federal sentence shall be considered consecutive to the Maryland sentence.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>"Division" means Division of Correction.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>"Eligible person" means an inmate who meets the criteria for transfer to Patuxent Institution in <cite doc="Md. Code" path="gcs|4-101">Correctional Services Article, §4-101(e), Annotated Code of Maryland</cite>, and <cite path="12.12.03.05">COMAR 12.12.03.05</cite>.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>"Field compact administrator" means the case management manager, supervisor, or specialist within each correctional institution who coordinates all actions involving the Interstate Corrections Compact.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>"Headquarters compact administrator" means the headquarters staff person appointed by the Commissioner as the administrator for implementation of the Interstate Corrections Compact.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>"Interstate Corrections Compact" means a legal agreement enabling a signatory state to the Interstate Corrections Compact, which has a contractual agreement with Maryland, to consider the transfer of an inmate sentenced to a correctional institution of the other signatory state for confinement and program participation, if appropriate.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>"Signatory state" means a state which has enacted legislation to implement the Interstate Corrections Compact and has a contractual agreement with Maryland for transferring inmates.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>Total Sentence.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Total sentence" means an inmate's last expiring operative sentence.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>If an inmate is serving a single sentence, it is that sentence.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>If an inmate is serving a combination of concurrent sentences, it is the sentence that will expire last.</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>If the inmate is serving a combination of consecutive sentences, it is the sentence or sum of sentences that will expire last.</text>
+        </para>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>"Unserved balance of the total federal sentence" means the:</text>
+        <para>
+          <num>(a)</num>
+          <text>Interval from the date of sentence calculation to the presumptive parole release date of the total federal sentence, if one exists;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Interval from the date of sentence calculation to the maximum expiration date of the total federal sentence; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Length of the total federal sentence considering the unique circumstances of the case.</text>
+        </para>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>"Unserved balance of the total Maryland sentence" means the interval from the date of consideration for eligibility for parole to an adjudicated federal detainer, to the current mandatory release date on the total Maryland sentence.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="12|02|18|.02">
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Referrals for Evaluation at Patuxent Institution.</heading>
+    <para>
+      <num>A.</num>
+      <text>The following persons may recommend to the Commissioner that an inmate who meets the criteria specified in <cite path="12.12.02.01">COMAR 12.12.02.01</cite> or .02 be referred to Patuxent Institution for evaluation as to whether the inmate is an eligible person:</text>
+      <para>
+        <num>(1)</num>
+        <text>The sentencing judge;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The State's attorney of the jurisdiction in which the inmate was last convicted;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A member of the Commissioner's staff, including the chief psychologist or case management team of a Division institution; or</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>An inmate, by self-referral.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The Commissioner shall maintain a list of Division inmates eligible to be referred to Patuxent Institution for evaluation. The Commissioner's list shall be submitted monthly to the Director of Patuxent.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>If the Patuxent evaluation is to be conducted at a Division institution, the records needed for the evaluation shall be assembled by the Division in accordance with <cite path="12.12.03.03">COMAR 12.12.03.03</cite> as specified below:</text>
+      <para>
+        <num>(1)</num>
+        <text>The following documents from the base file include:</text>
+        <para>
+          <num>(a)</num>
+          <text>Copy of commitment order,</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Admission summary,</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Copy of sentencing guidelines,</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Presentence investigation, parole, probation, and other reports that have been prepared concerning the inmate, or documentation that none exists,</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Police reports and other relevant information concerning the crime for which the inmate was most recently convicted and the sentence imposed upon that conviction,</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>State's version of the crime,</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>Prior criminal and juvenile history and all relevant records concerning it,</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>Disciplinary record, and</text>
+        </para>
+        <para>
+          <num>(i)</num>
+          <text>Correspondence from judges and State's attorneys relating to their referral and recommendation of inmates to Patuxent Institution;</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>School records;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The inmate's prior medical history, including any relevant medical and hospital records and reports, and the inmate's medical file;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The inmate's prior mental history, including the inmate's psychological file, previous psychological or psychiatric evaluations, record of psychiatric medications, progress notes, and records of any previous psychiatric and drug and alcohol treatment; and</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Other relevant information, records, and reports concerning the inmate's social, physical, or mental condition and history.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Each warden shall ensure that a Patuxent transfer evaluation team is provided the work space and resources necessary to carry out the examination.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>If the evaluation is to be conducted at Patuxent Institution, the Division shall ensure that the records specified in <cite path="12|02|18|.02|C.">§C of this regulation</cite> accompany the inmate to Patuxent Institution.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>When an inmate is no longer an eligible person, the Director of Patuxent Institution shall notify the Commissioner. The Commissioner shall ensure that Division staff return the inmate to the Division in accordance with <cite doc="Md. Code" path="gcs">Correctional Services Article, Title 4, Annotated Code of Maryland</cite>, and <cite path="|12.12.04">COMAR 12.12.04</cite>.</text>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>When an inmate has returned to a Division institution from Patuxent Institution, the inmate's case management specialist shall advise the Parole Commission of the following information:</text>
+      <para>
+        <num>(1)</num>
+        <text>Inmate's name;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Inmate's Division identification number;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Date of inmate's return to the Division from Patuxent Institution;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Change in the inmate's sentence; and</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Date and decision of last parole hearing, if one was conducted.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Interstate Corrections Compact Transfer.</heading>
+    <para>
+      <num>A.</num>
+      <text>If an inmate desires to transfer to a signatory state under the Interstate Corrections Compact, the inmate shall complete an Application for Interstate Corrections Compact Transfer and submit the completed form to the inmate's case management specialist.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>If the application is disapproved by the warden, the process shall terminate.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>If the application is approved, the field compact administrator shall forward a referral packet to the headquarters compact administrator. The contents of the referral packet shall be determined by the Commissioner.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Review by Commissioner.</text>
+      <para>
+        <num>(1)</num>
+        <text>The headquarters compact administrator shall review the referral packet and forward a written recommendation and rationale to the Commissioner for a final decision.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If the Commissioner's decision is to disapprove the application, the process shall terminate. A disapproved application may be retained on file at the office of the headquarters compact administrator for future consideration.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If the Commissioner's decision is to approve the application, the Application for Interstate Corrections Compact Transfer shall be returned to the headquarters compact administrator, and the Commissioner shall request a review and decision from the other state on the referral packet for the referenced inmate.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The case management specialist shall inform the inmate of the Commissioner's decision and may explain the rationale for that decision.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>The headquarters compact administrator shall advise the requesting case management staff of the decision of the receiving signatory state.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>The headquarters compact administrator shall coordinate the arrangements for the transportation of an inmate between the signatory states.</text>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>If each state is transferring an inmate, the headquarters compact administrator and the compact administrator of the other state shall jointly determine whose responsibility it is to transport the inmates.</text>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>When a transfer is effected, all applicable records and allowable property shall be transported with the inmate to the receiving signatory state.</text>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>Receipt of Inmate from Other Signatory State.</text>
+      <para>
+        <num>(1)</num>
+        <text>When Maryland accepts an inmate from another signatory state, a male inmate shall be delivered to the Maryland Reception, Diagnostic and Classification Center, and a female inmate shall be delivered to the Maryland Correctional Institution for Women.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>After the inmate is received in Maryland, the warden of the Maryland Reception, Diagnostic and Classification Center, or the warden of the Maryland Correctional Institution for Women, shall ensure that:</text>
+        <para>
+          <num>(a)</num>
+          <text>All necessary records are processed to identify the inmate as an Interstate Corrections Compact inmate; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The Maryland Parole Commission is notified by the case management manager or supervisor that the inmate has been received in Maryland as an Interstate Corrections Compact transferee.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Following receipt of an inmate from the sending state, a case management specialist at the receiving institution shall complete an admission summary for each inmate under the Interstate Corrections Compact and forward it to the Interstate Corrections Compact office of the sending state. Thereafter, the receiving state shall provide the sending state a semiannual report summary of the inmate's progress and adjustment since the last report, including a recommendation for retention or return.</text>
+      </para>
+    </para>
+    <para>
+      <num>J.</num>
+      <text>The headquarters compact administrator shall monitor and maintain Interstate Corrections Compact files as well as review and process all correspondence between signatory states for inmates who are transferred from Maryland to a signatory state under the Interstate Corrections Compact.</text>
+    </para>
+    <para>
+      <num>K.</num>
+      <text>Inmate Base File.</text>
+      <para>
+        <num>(1)</num>
+        <text>The field compact administrator shall monitor and maintain the inmate base file for an inmate who is transferred from a signatory state to Maryland under the Interstate Corrections Compact.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>All correspondence between signatory states regarding an Interstate Corrections Compact transferee housed in Maryland shall be reviewed and processed through the applicable case management unit for the field compact administrator unless other direction is given by the headquarters compact administrator.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The headquarters compact administrator shall maintain a working file for an inmate who is transferred from a signatory state to Maryland under the Interstate Corrections Compact.</text>
+      </para>
+    </para>
+    <para>
+      <num>L.</num>
+      <text>The case management specialist shall ensure that the field and headquarters compact administrators are kept apprised of significant events pertaining to an inmate, including but not limited to:</text>
+      <para>
+        <num>(1)</num>
+        <text>Movement within the Division;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Serious incidents;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Parole hearings and results;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Judicial matters;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Pending release through parole or expiration of sentence; and</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>A request by the inmate to return to the sending state.</text>
+      </para>
+    </para>
+    <para>
+      <num>M.</num>
+      <text>The headquarters compact administrator shall be responsible for updating the Division directive which includes a list of states which are signatory to the Interstate Corrections Compact.</text>
+    </para>
+  </section>
+  <section cache:ref-path="12|02|18|.04">
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Parole to Adjudicated Federal Detainer.</heading>
+    <para>
+      <num>A.</num>
+      <text>The commitment office supervisor shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Identify and maintain a list of inmates with adjudicated federal detainers;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Delete from the list the name of an inmate who may not be paroled by the Maryland Parole Commission;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Delete from the list the name of an inmate who has either an adjudicated detainer from a state other than Maryland for a sentence imposed before the federal sentence was imposed, or a Maryland detainer, and reevaluate the inmate if the disqualifying detainer is lifted;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Contact the U.S. Parole Commission office to establish whether a presumptive parole release date has been set for the inmate's federal sentence and, if so, note it;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Delete from the list the name of an inmate whose unserved balance of the total Maryland sentence is greater than the unserved balance of the total federal sentence; and</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Ensure that an inmate whose name is deleted from the list is reevaluated so that the inmate is identified when the unserved balance of the total federal sentence becomes greater than the unserved balance of the total Maryland sentence.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>For each inmate eligible to be paroled to an adjudicated federal detainer, the commitment office supervisor shall complete the referral for parole to adjudicated federal detainer form.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The warden shall complete Section B on the reverse of the form in <cite path="12|02|18|.04|B.">§B of this regulation</cite> and send it to the Director of Classification at Division headquarters, who shall review the form and submit it to the Commissioner.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The Commissioner shall complete the reverse of the form in <cite path="12|02|18|.04|B.">§B of this regulation</cite> and send it to the Maryland Parole Commission.</text>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container"><cite doc="Md. Code" path="gcs|2-109">Correctional Services Article, §2-109(c) </cite>and Title 8, Subtitle 6, Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="1991-05-27">Effective date: May 27, 1991 (18:10 Md. R. 1117)</annotation>
+    <annotation type="History" dest="container" effective="1995-03-27"><cite path="|12|02|18|.01|B.">Regulation .01B</cite> amended effective March 27, 1995 (22:6 Md. R. 474)</annotation>
+    <annotation type="History" dest="container" effective="1995-03-27"><cite path="|12|02|18|.02|A.">Regulation .02A</cite>, B, C, G amended effective March 27, 1995 (22:6 Md. R. 474)</annotation>
+    <annotation type="History" dest="container" effective="1995-03-27"><cite path="|12|02|18|.03">Regulation .03</cite> amended effective March 27, 1995 (22:6 Md. R. 474)</annotation>
+  </annotations>
+</container>

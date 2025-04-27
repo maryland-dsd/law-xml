@@ -1,0 +1,652 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>06</num>
+  <heading>Base Stations</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Scope and Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>This chapter governs the approval and operation of EMS base stations as part of the Maryland Emergency Medical Services Plan.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Definitions.</text>
+      <para>
+        <num>(1)</num>
+        <text>In this chapter, the following terms have the meanings indicated.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Terms Defined.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Digital Emergency Medical Services Telephone System (DEMSTEL) Telephone” means the telephone system by which hospitals and public safety agencies Statewide can maintain communications in emergency situations when the Public Switched Telephone Network may not be available.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Emergency Medical Resource Center (EMRC) Communications” means the medical channel radio communications system that links EMS providers in the field with hospital-based medical consultation. The EMRC operator receives calls from EMS providers in the field, directs the provider to the appropriate med-channel, and establishes a patch to the appropriate medical facility. Consultation facilities and multiple hospitals can be patched into a single consultation. The EMRC plays a critical role that aids in ensuring a coordinated response to major incidents and catastrophic events. The EMRC can also be accessed by local and 800-service dial telephone.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>“Hospital Dashboard/Hub” means the application that allows hospital personnel/users to access a Prehospital Care Report (PCR) produced by the EMS personnel.</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Maryland Emergency Medical Resource Alert Database (MEMRAD).</text>
+          <para>
+            <num>(i)</num>
+            <text>“Maryland Emergency Medical Resource Alert Database (MEMRAD)” means the internet-based program that alerts all components of the Maryland Emergency Medical Services (EMS) System of an emergency medical situation.</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>“MEMRAD” includes the County Hospital Alert Tracking System (CHATS) which shows health care providers the status of hospitals throughout Maryland and in surrounding jurisdictions.</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>“MEMRAD” includes the Facility Resource Emergency Database (FRED) which alerts all health care response partners of an incident and allows them to indicate what resources they have to lend to the response.</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>“MEMRAD” includes the Maryland patient and resource tracking system.</text>
+          </para>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>“State-Designated Health Information Exchange” means the State-Designated Health Information Exchange described in Health-General Article, §19-143, Annotated Code of Maryland.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Base Stations in General.</heading>
+    <text>An EMS base station designated by MIEMSS shall:</text>
+    <para>
+      <num>A.</num>
+      <text>Be a unit of a licensed hospital;</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Operate 24 hours a day;</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Have communications equipment as required by MIEMSS to provide necessary communications with ambulances and MIEMSS;</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>In collaboration with MIEMSS, maintain all MIEMSS required communications equipment in working order, including:</text>
+      <para>
+        <num>(1)</num>
+        <text>EMRC Radio with voice recorder; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Demstel Telephone, where deployed;</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Monitor and provide timely responses to MEMRAD;</text>
+    </para>
+    <para>
+      <num>E-1.</num>
+      <text>Provide admission/discharge/transfer messages to MIEMSS through the State-Designated Health Information Exchange;</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Develop and implement a process to ensure utilization of State standardized and approved quality improvement/quality review tools and retain reviewed records for 5 years;</text>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Have a designated EMS space with computer, and internet connectivity suitable for EMS provider eMEDS® reporting;</text>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>Participate in and provide clinical sites for training EMS personnel under a current memorandum of understanding with one or more EMS academies, educational institutions, or EMS Operational Programs, and maintain documentation of EMS participation;</text>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>Receive from the EMS personnel at time of hand off either the completed eMEDS® report on the Hospital Dashboard or MIEMSS standardized and approved short form;</text>
+    </para>
+    <para>
+      <num>J.</num>
+      <text>Include in the patient’s hospital medical record the downloaded eMEDS® patient care report forms from the eMEDS® Hospital Dashboard /Hub and, when used, the MIEMSS standardized and approved short forms; and</text>
+    </para>
+    <para>
+      <num>K.</num>
+      <text>Develop and implement a process for linking the MIEMSS-approved Prehospital Consultation/Interventions Radio Report Forms to the radio consult and incorporation into the hospital patient medical record.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Personnel.</heading>
+    <para>
+      <num>A.</num>
+      <text>Base Station Medical Director. The Base Station Medical Director shall be a licensed Maryland physician authorized to provide online medical direction who has been appointed by the hospital pursuant to a written job description.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Base Station Coordinator. The Base Station Coordinator shall be a licensed Maryland registered nurse authorized to participate in online medical direction who has been appointed by the hospital pursuant to a written job description.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Physician Authorized to Provide Online Medical Direction. A physician authorized to provide online medical direction shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Be licensed or otherwise authorized to practice medicine in Maryland;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Be Board certified or Board eligible in a specialty approved by the American Board of Medical Specialties appropriate for a base station;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Have successfully completed a MIEMSS-approved base station course with a minimum score of 80 percent; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Annually complete a Maryland Medical Protocols for Emergency Medical Services Providers update by July 1 of each year.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>A licensed registered nurse, a physician assistant or a nurse practitioner authorized to participate in online medical direction at a base station under the direct supervision of a licensed physician shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Be licensed as a registered nurse, a physician assistant or a nurse practitioner in Maryland;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Have successfully completed a MIEMSS-approved base station course with a minimum score of 80 percent; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Annually complete a Maryland Medical Protocols for Emergency Medical Services Providers update by July 1 of each year.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>A physician resident or fellow authorized to participate in online medical direction at a base station under the direct supervision of a licensed physician authorized to provide medical direction shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Be a licensed Maryland physician;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Have successfully completed a MIEMSS-approved base station course with a minimum score of 80 percent; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Annually complete a Maryland Medical Protocols for Emergency Medical Services Providers update by July 1 of each year.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Online Medical Direction.</heading>
+    <para>
+      <num>A.</num>
+      <text>Online medical direction as required in the Maryland Medical Protocols for Emergency Medical Services Provider shall be:</text>
+      <para>
+        <num>(1)</num>
+        <text>Given directly by a physician authorized to provide medical direction; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Given directly by a resident or fellow under the direct supervision of a physician authorized to provide medical direction; or</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Relayed from a physician authorized to provide medical direction through a registered nurse, a physician assistant or a nurse practitioner authorized to participate in medical direction.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The Base Station Medical Director and Base Station Coordinator shall participate in and attend a combined minimum of 50 percent of the scheduled MIEMSS Regional Council meetings;</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>All personnel providing online medical direction and all EMS providers shall ensure that online communications are understood by speaking:</text>
+      <para>
+        <num>(1)</num>
+        <text>Slowly;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Clearly; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>At a proper volume to be heard.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="30|03|06|.04-1">
+    <prefix>Regulation</prefix>
+    <num>.04-1</num>
+    <heading>Limited-Scope Medical Direction.</heading>
+    <para>
+      <num>A.</num>
+      <text>Scope.</text>
+      <para>
+        <num>(1)</num>
+        <text>This regulation applies to an EMS operational program that seeks to facilitate telemedicine appointments between certain low-acuity patients and independent physicians that are not affiliated with a base station or system medical director, nor under the direct supervision of the EMS operational program or its medical director.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>This regulation does not limit the use or scope of medical direction offered through a base station in accordance with the Maryland Medical Protocols for Emergency Medical Services.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Definition. In this regulation, “limited-scope medical direction” means the specific instruction of a licensed physician during a telemedicine encounter regarding the need for transport and the transport destination for a patient 18 years or older and determined to be Priority 3 or Priority 4 under the Maryland Medical Protocols for Emergency Medical Services.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>An EMS operational program may submit to MIEMSS a plan for the use of limited-scope medical direction through an entity that is not an approved EMS base station or system medical director. The plan shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Describe the entity through which the limited-scope medical direction will be provided;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Include the minimum standards that the EMS operational program will require of the entity that will supply and direct physicians in providing limited-scope medical direction authorized by this regulation;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Contain a quality assurance/quality improvement plan that provides MIEMSS with access to any records produced and maintained by the EMS operational program and to any records and recordings of an encounter with the entity’s physicians who provide limited-scope medical direction;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Include the manner by which the EMS operational program or other entity will inform a patient of any financial obligations of the patient associated with a telemedicine appointment provided under this regulation;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Provide for a semi-annual report to MIEMSS that includes at a minimum:</text>
+        <para>
+          <num>(a)</num>
+          <text>The number of patients evaluated or treated through telemedicine resulting in limited-scope medical direction;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A record of the patients’ presenting chief complaints and any interventions provided; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A record of referrals for follow-up medical care;</text>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Provide a system for recording communications between an entity’s physician providing limited-scope medical direction and EMS personnel as well as a system for storing any such recordings for a minimum of 90 days; and</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Be consistent with the Emergency Medical System Plan approved by the EMS Board.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>To provide limited-scope medical direction through an EMS operational program’s plan, an individual shall at a minimum:</text>
+      <para>
+        <num>(1)</num>
+        <text>Be licensed to practice medicine in the State of Maryland;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Hold active board certification in:</text>
+        <para>
+          <num>(a)</num>
+          <text>Emergency medicine;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Emergency medical services;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Family medicine; or</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Internal medicine;</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Be knowledgeable of EMS and the local treatment options for low-acuity patients;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Certify to the EMSOP that the individual has not been subject to disciplinary action by any professional licensing body within the 5 years prior to providing limited-scope medical direction; and</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Meet the requirements of <cite path="|30|03|06|.03|C.">Regulation .03C of this chapter</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>MIEMSS may approve, modify, or deny a proposed plan of an EMS operational program to provide limited-scope medical direction.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Subject to a MIEMSS-approved plan for use of limited-scope medical direction, an EMS operational program may allow an entity whose physicians meet the requirements of <cite path="|30|03|06|.03|C.">Regulation .03C of this chapter</cite> and <cite path="30|03|06|.04-1|D.">§D of this regulation</cite> to provide limited-scope medical direction to EMS personnel affiliated with the EMS operational program.</text>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>No later than June 30 of each year, each EMS operational program seeking to use or continue to use limited-scope medical direction shall submit to MIEMSS a list that identifies each physician by full name and Maryland license number who will provide limited-scope medical direction to the EMS personnel affiliated with the EMS operational program.</text>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>An individual or entity may not provide or offer to provide limited-scope medical direction unless that individual or entity is doing so pursuant to an EMS operational program’s MIEMSS-approved plan.</text>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>EMS Clinicians.</text>
+      <para>
+        <num>(1)</num>
+        <text>An EMS clinician may not receive or attempt to receive limited-scope medical direction unless the EMS clinician is doing so pursuant to an EMS operational program’s MIEMSS-approved plan.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>This regulation does not affect an EMS clinician from receiving or attempting to receive medical direction that includes transport instructions from any base station in accordance with the Maryland Medical Protocols for Emergency Medical Services.</text>
+      </para>
+    </para>
+    <para>
+      <num>J.</num>
+      <text>MIEMSS may revoke the previously approved plan of an EMS operational program for the use of limited-scope medical direction if MIEMSS determines that the EMS operational program has violated the terms of its previously approved plan or any requirements of this regulation.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Quality Improvement.</heading>
+    <para>
+      <num>A.</num>
+      <text>The hospital of which the base station is a unit, or the free standing emergency center if the base station is within a free standing emergency center, shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Monitor and participate in MEMRAD;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Monitor their utilization of CHATS alerts; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Participate in mitigation strategies to improve systems efficiencies and patient safety.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The base station director and base station coordinator shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Assure that online medical direction and consultation provided by the base station is:</text>
+        <para>
+          <num>(a)</num>
+          <text>Timely;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Appropriate; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Otherwise consistent with Maryland Medical Protocols for Emergency Medical Services Providers;</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Assure the MIEMSS approved Prehospital Consultation/Interventions Radio Report Forms are complete, signed and linked to the patient record through a patient identifier;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Develop and implement a process which facilitates monthly quality assurance/quality improvement review of EMS consults which:</text>
+        <para>
+          <num>(a)</num>
+          <text>Reviews all priority one/critical patient consults and select lower priority consults for a minimum of 30 consults per month;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Allows for ongoing documentation of tracking, trending, loop closure and retention of Quality Assurance/Quality Improvement review findings for 5 years;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Notifies EMS operational programs upon discovery of patient care, quality or protocol variance issues involving EMS providers or the EMS system;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Notifies EMS operational programs and MIEMSS Office of the State Medical Director upon discovery of conduct that is specifically prohibited under the requirements of <cite path="30.02.04.01">COMAR 30.02.04.01</cite>;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Monitors hospital’s response rates to MEMRAD notifications and alerts;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Participates in local, regional, and State EMS quality improvement activities;</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>Provides patient follow-up data as required by MIEMSS for public health oversight purposes to determine the appropriateness and outcome of EMS care for:</text>
+          <para>
+            <num>(i)</num>
+            <text>Inpatients; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Outpatients; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Reports as required by MIEMSS for quality assurance and performance improvement purposes.</text>
+          </para>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The State EMS Medical Director through the MIEMSS regional medical directors shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Coordinate online medical direction functions; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Regularly review the quality improvement activities of approved base stations.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="30|03|06|.06">
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Base Station Approval and Renewal.</heading>
+    <para>
+      <num>A.</num>
+      <text>An applicant for designation or redesignation as a base station shall apply by filing an approved application with MIEMSS.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Upon receipt of a completed application, MIEMSS shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Visit the applicant;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Interview the physician designated as base station director;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Interview the licensed registered nurse designated as the base station coordinator;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Consult the EMS regional councils most likely to use the applicant for online medical direction to verify the applicant satisfies the requirements of Regulations .02 and .04 of this chapter; and:</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Consult the EMS medical directors of EMS operational jurisdictions most likely to use the applicant for online medical direction to verify the applicant satisfies the requirements of Regulations .02 and .04 of this chapter.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>MIEMSS shall decide whether to make a designation based on the:</text>
+      <para>
+        <num>(1)</num>
+        <text>Results of the visit, interviews, and consultations conducted by MIEMSS; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Information in the application.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Provisional or Full Designation.</text>
+      <para>
+        <num>(1)</num>
+        <text>MIEMSS may designate or redesignate a base station which does not fully comply with the requirements of this chapter as provisional on such conditions and for such provisional period, including any extensions thereof, which MIEMSS deems appropriate;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>MIEMSS shall require each provisional base station to:</text>
+        <para>
+          <num>(a)</num>
+          <text>Have a written work plan to rectify deficiencies; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Demonstrate progress on the work plan throughout the provisional period.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>At the end of the provisional period, including any extension thereof, MIEMSS may:</text>
+        <para>
+          <num>(a)</num>
+          <text>Grant full designation to the base station; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Deny the base station’s designation under <cite path="30|03|06|.06|E.">§E of this regulation</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>MIEMSS may grant full designation to a base station in full compliance with this chapter for a period not to exceed 5 years.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Denial or Rescission. MIEMSS may deny initial designation, renewal, or redesignation, or rescind designation, for a base station that fails to:</text>
+      <para>
+        <num>(1)</num>
+        <text>Satisfy the requirements of this chapter; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Provide appropriate medical direction consistent with the Maryland Medical Protocols for Emergency Medical Services Providers.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>The applicant shall be notified by mail of MIEMSS' decision. If the decision is other than a 5-year approval or 5-year renewal, the notice shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>State the reasons for the decision;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Advise the applicant of appeal rights;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Require the Hospital to submit within 45 days a corrective action plan to MIEMSS for approval; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Otherwise comply with <cite doc="Md. Code" path="gsg|10-207">State Government Article, §10-207, Annotated Code of Maryland</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Applications for renewal or approval shall be filed with MIEMSS at least 90 days before expiration of the approved period.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Appeal Process.</heading>
+    <para>
+      <num>A.</num>
+      <text>A base station may appeal a designation decision by MIEMSS to the EMS Board by filing a notice of appeal with the Executive Director of MIEMSS within 15 days after receipt of the decision.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A base station that files an appeal will be granted a hearing before the EMS Board or, if the Board so elects and notifies the applicant, the Office of Administrative Hearings.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>An appeal hearing is governed by <cite path="|28.02.01">COMAR 28.02.01</cite>.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>If the hearing is conducted by the Office of Administrative Hearings, <cite path="30.02.06.22">COMAR 30.02.06.22</cite> and .23 also apply.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>A base station may seek judicial review of the EMS Board's final action under <cite doc="Md. Code" path="gsg|10-222">State Government Article, §10-222, Annotated Code of Maryland</cite>. The EMS Board shall be party to the proceeding.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Specialty Base Stations and Consultation Centers.</heading>
+    <para>
+      <num>A.</num>
+      <text>MIEMSS may designate base stations as specialty base stations consistent with the particular base station's affiliation with a Maryland designated trauma or specialty center.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>MIEMSS may designate base stations as specialty consultation centers for pediatrics, hazardous materials, and other specialties as necessary.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Out-of-State Trauma and Specialty Consultation Centers.</heading>
+    <para>
+      <num>A.</num>
+      <text>Out-of-State trauma and specialty hospitals which have entered agreements with MIEMSS under <cite path="30.08.01.03">COMAR 30.08.01.03</cite> shall have the equipment necessary to conduct a dual consult between EMS and a Maryland base station for each Maryland patient transported to the out-of-State trauma or specialty center.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Physicians not authorized to practice in Maryland must have a dual consult with a Maryland base station in order to have a Maryland licensed physician give the orders to Maryland EMS providers.</text>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Education Article, §§<cite doc="Md. Code" path="ged|13-509">13-509</cite>, <cite doc="Md. Code" path="ged|13-510">13-510</cite>, and <cite doc="Md. Code" path="ged|13-516">13-516</cite>, Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="1999-12-15">Effective date: December 15, 1999 (26:24 Md. R. 1859)</annotation>
+    <annotation type="History" dest="container" effective="2002-07-01"><cite path="|30|03|06|.02|A.">Regulation .02A</cite> amended effective July 1, 2002 (29:12 Md. R. 931)</annotation>
+    <annotation type="History" dest="container" effective="2005-12-19"><cite path="|30|03|06|.03|A.">Regulation .03A</cite> amended effective December 19, 2005 (32:25 Md. R. 1946)</annotation>
+    <annotation type="History" dest="container" effective="2002-07-01"><cite path="|30|03|06|.05">Regulation .05</cite> amended effective July 1, 2002 (29:12 Md. R. 931)</annotation>
+    <annotation type="History" dest="container" effective="2005-12-19"><cite path="|30|03|06|.07|B.">Regulation .07B</cite> amended effective December 19, 2005 (32:25 Md. R. 1946)</annotation>
+    <annotation type="History" dest="container" effective="2002-07-01"><cite path="|30|03|06|.08">Regulation .08</cite> amended effective July 1, 2002 (29:12 Md. R. 931)</annotation>
+    <annotation type="History" dest="container" effective="2002-07-01"><cite path="|30|03|06|.09|A.">Regulation .09A</cite> amended effective July 1, 2002 (29:12 Md. R. 931)</annotation>
+    <annotation type="History" dest="container" effective="2016-10-10" discontinuity="true">Chapter revised effective October 10, 2016 (43:20 Md. R. 1110)</annotation>
+    <annotation type="History" dest="container" effective="2021-03-08"><cite path="|30|03|06|.01|B.">Regulation .01B</cite> amended effective March 8, 2021 (48:5 Md. R. 218)</annotation>
+    <annotation type="History" dest="container" effective="2021-03-08"><cite path="|30|03|06|.02|E.">Regulation .02E</cite> amended effective March 8, 2021 (48:5 Md. R. 218)</annotation>
+    <annotation type="History" dest="container" effective="2021-03-08"><cite path="|30|03|06|.02|E.">Regulation .02E</cite>-1 adopted effective March 8, 2021 (48:5 Md. R. 218)</annotation>
+    <annotation type="History" dest="container" effective="2024-02-05">Regulation 04-1 adopted effective February 5, 2024 (51:2 Md. R. 77)</annotation>
+  </annotations>
+</container>

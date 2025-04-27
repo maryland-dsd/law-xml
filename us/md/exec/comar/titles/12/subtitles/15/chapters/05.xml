@@ -1,0 +1,437 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>05</num>
+  <heading>Use of Private Provider Services for Non-Criminal Justice Purposes</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Purpose.</heading>
+    <text>This chapter establishes minimum requirements and procedures for a private provider to perform fingerprinting services and demographic data collection for non-criminal justice purposes for the Central Repository.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>"Authorization certificate" means a document issued by the Central Repository to a private provider authorizing the private provider to perform fingerprinting services and demographic data collection for the Central Repository.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>"Criminal history records check" has the meaning stated in <cite path="12.15.02.02">COMAR 12.15.02.02</cite>.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>"Criminal history record information (CHRI)" has the meaning stated in <cite doc="Md. Code" path="gcp|10-201">Criminal Procedure Article, §10-201(d), Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>"Criminal Justice Information System—Central Repository (Central Repository)" has the meaning stated in <cite doc="Md. Code" path="gcp|10-201">Criminal Procedure Article, §10-201(c), Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>"Criminal justice purposes" has the meaning stated in <cite path="12.15.01.03">COMAR 12.15.01.03</cite>.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>"FBI" means the United States Federal Bureau of Investigation.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>"Network Livescan Applicant Technical Interface Document" means the written minimum specifications for processing a request for a criminal history records check for non-criminal justice purposes.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>"Non-criminal justice purpose" has the meaning stated in <cite path="12.15.01.03">COMAR 12.15.01.03</cite>.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>"Private provider" means a person performing fingerprinting services and demographic data collection for non-criminal justice purposes.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>"Private provider agreement" means a legally binding document that describes the responsibilities of the Central Repository and a private provider authorizing the private provider to perform fingerprinting services and demographic data collection for the Central Repository.</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>"Record" means any printed, written, or electronic document or file used or created for the purposes of collecting and transmitting fingerprint images and demographic data to the Central Repository for a request for a criminal history records check for non-criminal justice purposes.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="12|15|05|.03">
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Private Provider Performing Fingerprinting Services and Demographic Data Collection.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Central Repository may authorize a private provider to perform fingerprinting services and demographic data collection for a request for a criminal history records check for non-criminal justice purposes.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The Central Repository shall establish minimum administrative and operational requirements for private providers to perform fingerprinting services and demographic data collection for non-criminal justice purposes.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Fingerprinting services and demographic data collection for non-criminal justice purposes include:</text>
+      <para>
+        <num>(1)</num>
+        <text>Electronic transmission of an individual's fingerprints and demographic data to the Central Repository for a criminal history records check for non-criminal justice purposes;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Completion of forms required for a request for a criminal history records check by obtaining information about the individual being fingerprinted; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Collection of fees and payment of invoices according to <cite path="|12|15|05|.07">Regulation .07 of this chapter</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Except for purposes under <cite path="12|15|05|.03|E.">§E of this regulation</cite>, a private provider authorized to perform fingerprinting services and demographic data collection for non-criminal justice purposes under this chapter shall make the private provider's fingerprinting services available to a person requesting a criminal history records check for non-criminal justice purposes.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>A private provider may not perform fingerprinting services or demographic data collection for the following purposes:</text>
+      <para>
+        <num>(1)</num>
+        <text>Sex offender registration;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Hazardous materials endorsements—commercial driver's licenses; or</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Criminal justice purposes.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Private Provider Agreement and Authorization Certificate.</heading>
+    <para>
+      <num>A.</num>
+      <text>A private provider may not provide fingerprinting services or demographic data collection for non-criminal justice purposes unless the private provider meets requirements under this chapter.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Before the Central Repository enters into a private provider agreement with or issues an authorization certificate, original or renewal, to a private provider requesting to perform fingerprinting and demographic data collection under this chapter, the private provider shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Submit a written application to the Central Repository in a format established by the Central Repository;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Provide the Central Repository with documentation indicating that the private provider or the private provider’s staff has at least 5 cumulative years providing fingerprinting services and demographic data collection;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Demonstrate the ability to electronically transmit fingerprint images and demographic data using a secure encrypted connection that meets requirements set forth in the Network Livescan Applicant Technical Interface Document maintained by the Central Repository;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Demonstrate compliance with requirements under <cite path="|12|15|05|.05">Regulation .05 of this chapter</cite> for the location where Central Repository authorized fingerprinting services and demographic data collection are performed;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Provide documents to support the existence of a current surety bond as provided under <cite path="|12|15|05|.09">Regulation .09 of this chapter</cite>; and</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Demonstrate that a criminal history records check was performed on the private provider's employee as required under <cite path="|12|15|05|.08">Regulation .08 of this chapter</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The Central Repository shall issue an authorization certificate to a private provider meeting the requirements of this chapter that:</text>
+      <para>
+        <num>(1)</num>
+        <text>Is valid for 3 years from the date of issuance, unless suspended by the Central Repository; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>May be renewed every 3 years upon application by a private provider, unless the Central Repository has suspended the authorization certificate.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>A private provider shall notify the Central Repository within 10 business days of a change in the information submitted as part of an original or renewal application under this chapter.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>A private provider issued an authorization certificate under this chapter shall display the certificate at the location where the fingerprinting services and demographic data collection are performed.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Private Provider Business Location Requirements.</heading>
+    <para>
+      <num>A.</num>
+      <text>Before the Central Repository enters into a private provider agreement with or issues an original or renewal authorization certificate to a private provider, the Central Repository shall review a private provider's location plan.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A private provider's location plan, at a minimum, shall have:</text>
+      <para>
+        <num>(1)</num>
+        <text>A Livescan machine that is approved by the Central Repository;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A waiting area that, at a minimum, includes:</text>
+        <para>
+          <num>(a)</num>
+          <text>A reception desk; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Seating for individuals requesting a criminal history records check;</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A method of securing and maintaining records that meets Central Repository requirements; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Electronic connections, electric power supply, and office climate control that meet manufacturer and Central Repository requirements.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Records.</heading>
+    <para>
+      <num>A.</num>
+      <text>A private provider authorized to perform fingerprinting services and demographic data collection under this chapter shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Retain records related to a request for a criminal history records check for 90 days from the date of the request; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Then destroy the records.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Records, at a minimum, include the following for the individual being fingerprinted and supplying demographic data:</text>
+      <para>
+        <num>(1)</num>
+        <text>An identification number;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The individual's name and address;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The date that the individual was fingerprinted and provided the demographic data;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>A copy of a driver's license or other acceptable identification;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The processing control number;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>The fingerprint image;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>The type of transaction;</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>The authorization number;</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>The matrix code associated with transaction;</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>A record of fees collected; and</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>A record of payment to the Central Repository.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A private provider shall ensure confidentiality of records that are stored and destroyed according to requirements of this chapter.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Records are subject to inspection by the Central Repository or the FBI.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>A private provider may not receive CHRI.</text>
+    </para>
+  </section>
+  <section cache:ref-path="12|15|05|.07">
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Fees.</heading>
+    <para>
+      <num>A.</num>
+      <text>A private provider shall collect fees as specified under <cite path="12.15.01.14">COMAR 12.15.01.14</cite> for performing fingerprinting services and demographic data collection for non-criminal justice purposes on behalf of the Central Repository.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The Central Repository shall submit a monthly invoice to each private provider for requests for criminal history records checks processed by the private provider and submitted to the Central Repository during the preceding month.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Upon receipt of the invoice under <cite path="12|15|05|.07|B.">§B of this regulation</cite>, the private provider shall forward payment to the Central Repository within 7 business days of receipt of the invoice.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>A private provider may charge fees for providing fingerprinting services and demographic data collection in addition to fees as specified under <cite path="12.15.01.15">COMAR 12.15.01.15</cite>.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>If a private provider charges fees in addition to those required under <cite path="12.15.01.15">COMAR 12.15.01.15</cite>, the private provider shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Identify, report, and control the additional fees separately from those required to be collected by the Central Repository under <cite path="12.15.01.15">COMAR 12.15.01.15</cite>; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Include in any public notice of the availability of fingerprinting services and demographic data collection for non-criminal justice purposes:</text>
+        <para>
+          <num>(a)</num>
+          <text>The fees required under <cite path="12.15.01.15">COMAR 12.15.01.15</cite>; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The additional fees charged by the private provider.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="12|15|05|.08">
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Criminal History Records Check for Private Provider Employees.</heading>
+    <para>
+      <num>A.</num>
+      <text>As part of the application for an original or renewal authorization certificate, a private provider shall include the fingerprints and demographic data for each individual performing or supervising fingerprinting services and demographic data collection authorized under this chapter.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The Central Repository shall conduct a criminal history records check of each individual identified by the private provider as performing or supervising fingerprinting services or demographic data collection authorized under this chapter.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The Central Repository may consider CHRI received under <cite path="12|15|05|.08|B.">§B of this regulation</cite> when determining:</text>
+      <para>
+        <num>(1)</num>
+        <text>To authorize a private provider to perform fingerprinting services and demographic data collection under this chapter; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The conditions of the private provider agreement.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="12|15|05|.09">
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Surety Bond.</heading>
+    <para>
+      <num>A.</num>
+      <text>A private provider requesting authorization to perform fingerprinting services and demographic data collection for non-criminal justice purposes shall have a surety bond of $10,000, in a form approved by the Central Repository.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A private provider shall provide the Central Repository with:</text>
+      <para>
+        <num>(1)</num>
+        <text>A certificate from the bonding company listing the individuals of the private provider's company who are covered by the bond;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An agreement from the bonding company that the bonding company shall give the Central Repository at least 60 days’ notice by registered or certified mail of cancellation of the private provider's bond; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>As part of the agreement under <cite path="12|15|05|.09|B.|(2)">§B(2) of this regulation</cite>, written assurance that the bond will be in full force and effect for a period of at least 60 days after notice of cancellation is given to the Central Repository.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The bond value shall increase to 10 percent of the total amount invoiced to the private provider the previous fiscal year if the invoiced amount exceeded $100,000.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>After an original or renewal authorization certificate is issued, the private provider shall maintain the required surety bond throughout the period the private provider is authorized to perform fingerprinting services and demographic data collection for non-criminal justice purposes under this chapter.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.10</num>
+    <heading>Suspension of an Authorization Certificate.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Central Repository may suspend an authorization certificate granted under this chapter, if the Central Repository determines that the private provider:</text>
+      <para>
+        <num>(1)</num>
+        <text>Perpetrated a fraud against the Central Repository or the public;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Created the impression that the private provider is associated with or is a part of the Central Repository or another State agency;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Conducted business in a manner that is detrimental to the interests of the Central Repository, the State, or the public;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Has not met the administrative or operational requirements for authorization under this chapter;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Has more than a 2 percent rejection rate of fingerprint impressions as determined by the Central Repository or FBI; or</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Failed to forward payments to the Central Repository as required under this chapter.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The private provider may reapply for an authorization certificate after 6 months from the date of a suspension.</text>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container"><cite doc="Md. Code" path="gcp|10-221">Criminal Procedure Article, §10-221, </cite>Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="2007-07-16">Effective date: July 16, 2007 (34:14 Md. R. 1246)</annotation>
+    <annotation type="History" dest="container" effective="2013-11-25"><cite path="|12|15|05|.02|B.">Regulation .02B</cite> amended effective November 25, 2013 (40:23 Md. R. 1935)</annotation>
+    <annotation type="History" dest="container" effective="2013-11-25"><cite path="|12|15|05|.03|C.">Regulation .03C</cite> amended effective November 25, 2013 (40:23 Md. R. 1935)</annotation>
+    <annotation type="History" dest="container" effective="2013-11-25"><cite path="|12|15|05|.04|B.">Regulation .04B</cite>, C amended effective November 25, 2013 (40:23 Md. R. 1935)</annotation>
+    <annotation type="History" dest="container" effective="2013-11-25"><cite path="|12|15|05|.05|B.">Regulation .05B</cite> amended effective November 25, 2013 (40:23 Md. R. 1935)</annotation>
+    <annotation type="History" dest="container" effective="2013-11-25"><cite path="|12|15|05|.06|E.">Regulation .06E</cite> amended effective November 25, 2013 (40:23 Md. R. 1935)</annotation>
+    <annotation type="History" dest="container" effective="2013-11-25"><cite path="|12|15|05|.07">Regulation .07</cite> amended effective November 25, 2013 (40:23 Md. R. 1935)</annotation>
+    <annotation type="History" dest="container" effective="2013-11-25"><cite path="|12|15|05|.08|C.">Regulation .08C</cite> amended effective November 25, 2013 (40:23 Md. R. 1935)</annotation>
+    <annotation type="History" dest="container" effective="2013-11-25"><cite path="|12|15|05|.09">Regulation .09</cite> amended effective November 25, 2013 (40:23 Md. R. 1935)</annotation>
+  </annotations>
+</container>
