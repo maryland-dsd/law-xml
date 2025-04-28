@@ -1,0 +1,823 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>04</num>
+  <heading>Construction Funds for Public and Nonprofit Assisted Living Facilities</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Scope.</heading>
+    <para>
+      <num>A.</num>
+      <text>This chapter governs the administration of State grant funds to counties, municipal corporations, and nonprofit organizations for conversion, acquisition, renovation, equipping, and construction of assisted living facilities under the Assisted Living Facilities Grant Program, Health-General Article, §§24-1001—24-1007, Annotated Code of Maryland.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>It is the intent of the Department that State grant funds be used:</text>
+      <para>
+        <num>(1)</num>
+        <text>To assist eligible applicants with the conversion, acquisition, renovation, equipping, and construction of assisted living facilities, eligible under the Act in accordance with this chapter; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>After the applicant has secured all funds available from other sources.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="10|08|04|.02">
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>"Acquisition" means purchasing and obtaining ownership of all or part of an existing building for use as an assisted living facility.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>"Act" means Health-General Article, §§24-1001—24-1007, Annotated Code of Maryland, which authorizes the disbursement of State grant funds for the purposes of conversion, acquisition, renovation, equipping, and construction of an assisted living facility.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>"Admission criteria" means criteria established by a facility for admitting individuals including limitations, if any, regarding age or level of functional medical impairment, or both.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>"Assisted living facility" means a residential facility or facility-based program that:</text>
+        <para>
+          <num>(a)</num>
+          <text>Meets the definitions in Health-General Article, §19-1801, Annotated Code of Maryland; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Is licensed by the Department under <cite path="|10.07.14">COMAR 10.07.14</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>"Applicant" means a county, municipal corporation, or nonprofit organization that seeks to obtain State grant funds under the Act.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>"Board of Public Works" means the Board established by <cite doc="Md. Const." path="XII">Article XII of the Constitution of Maryland</cite>, consisting of the Governor, the Treasurer, and the Comptroller of Maryland.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>"Building" means:</text>
+        <para>
+          <num>(a)</num>
+          <text>All or part of an existing assisted living facility and its surrounding real property;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>All or part of an existing facility to be converted to assisted living and its surrounding real property; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A facility proposed to be constructed for use as an assisted living facility, and its surrounding real property.</text>
+        </para>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Construction.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Construction" means construction of new buildings or additions to existing buildings, including architects' fees and initial capital equipment.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Construction" does not include cost of:</text>
+          <para>
+            <num>(i)</num>
+            <text>Demolition of improvements that return the land to unimproved condition; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Unimproved land acquisition and the cost of off-site infrastructure improvements, such as roads, water, and sewer.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>"Conversion" means the work required to transform a building or part of a building for effective use as an assisted living facility.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>"Default" means:</text>
+        <para>
+          <num>(a)</num>
+          <text>Transfer of property to a person, agency, or organization that would not qualify as an applicant, or that is not approved as a transferee by the Board of Public Works;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Failure to complete a project and obtain an occupancy permit;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Failure to commence operation of a facility within 1 year after obtaining an occupancy permit; or</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Failure to qualify as a facility, as defined in <cite path="10|08|04|.02|B.|(14)">§B(14) of this regulation</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>"Department" means the Maryland Department of Health.</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>"Eligible person" means an individual who meets facility admission criteria.</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>"Eligible work" means that work for which the use of State funds is authorized under the Act.</text>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>"Facility" means an assisted living facility that is wholly owned by and operated under the authority of a:</text>
+        <para>
+          <num>(a)</num>
+          <text>County or municipal corporation; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Nonprofit organization.</text>
+        </para>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>"Grant" means any funds competitively awarded from any source to the applicant including a State grant.</text>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>"Grantee" means a county, municipal corporation, or nonprofit organization for which State grant funds under the Act are approved by the Board of Public Works.</text>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>"Initial capital equipment" means items that:</text>
+        <para>
+          <num>(a)</num>
+          <text>With normal maintenance, have a life expectancy of at least 15 years;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Have durable construction; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Are necessary to furnish a new facility.</text>
+        </para>
+      </para>
+      <para>
+        <num>(18)</num>
+        <text>"Nonprofit assisted living facility" means an assisted living facility which is wholly owned by and operated under the authority of a nonprofit organization.</text>
+      </para>
+      <para>
+        <num>(19)</num>
+        <text>"Nonprofit organization" means a bona fide religious organization, or a chartered nonprofit corporation which:</text>
+        <para>
+          <num>(a)</num>
+          <text>Is classified under §501(c)3 of the Internal Revenue Code as a nonprofit; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Has no earnings which inure to the benefit of an individual or is used for any purpose other than the maintenance and operation of the facility, the purchase of equipment to be used in the facility, or the expansion of the facility.</text>
+        </para>
+      </para>
+      <para>
+        <num>(20)</num>
+        <text>“Office of Capital Planning, Budgeting, and Engineering Services” means the office within the Department designated by the Secretary to administer this chapter.</text>
+      </para>
+      <para>
+        <num>(21)</num>
+        <text>"Operating costs" means costs associated with the operation of an assisted living facility.</text>
+      </para>
+      <para>
+        <num>(22)</num>
+        <text>"Project" means an existing or proposed assisted living facility which receives or has received a State grant for conversion, acquisition, renovation, equipping, or construction.</text>
+      </para>
+      <para>
+        <num>(23)</num>
+        <text>"Public facility" means a facility that is wholly owned by and operated under the authority of a county or municipal corporation.</text>
+      </para>
+      <para>
+        <num>(24)</num>
+        <text>"Renovation" means restoration or modernization, or both, to an existing or proposed assisted living facility.</text>
+      </para>
+      <para>
+        <num>(25)</num>
+        <text>"Secretary" means the Secretary of Health, or a designated representative.</text>
+      </para>
+      <para>
+        <num>(26)</num>
+        <text>"State grant" means State funds awarded under the Assisted Living Facilities Grant Program, unless the context clearly implies otherwise.</text>
+      </para>
+      <para>
+        <num>(27)</num>
+        <text>"Wholly owned" includes leased property, if the lease agreement:</text>
+        <para>
+          <num>(a)</num>
+          <text>Is for a minimum of 30 years following the project completion or extends the right of purchase to the lessee; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Includes a consent to the recording of a notice of the State's right of recovery, by the lessor, under Health-General Article, §24-1006, Annotated Code of Maryland, in the land records of the county or Baltimore City in which the facility is located.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Use of State Grant Funds.</heading>
+    <para>
+      <num>A.</num>
+      <text>State grant funds for assisted living facilities may be used for the following:</text>
+      <para>
+        <num>(1)</num>
+        <text>The conversion of public buildings or parts of buildings;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The acquisition of existing buildings or parts of buildings;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The renovation of assisted living facilities;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The purchase of initial capital equipment; or</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The plan, design, and construction of an assisted living facility.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>State grant funds may be used to acquire an existing building or part of a building or to plan, design, and construct an assisted living facility only if the local government and the Department certify to the Board of Public Works that a surplus public building appropriate for use as an assisted living facility does not exist in the area in which the proposed assisted living facility is to be located.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Eligible Applicants for State Grant Funds.</heading>
+    <text>To be eligible to apply for State grant funds under the Act, an applicant shall:</text>
+    <para>
+      <num>A.</num>
+      <text>Be a county, municipal corporation, or a nonprofit organization;</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Sponsor a project involving work specified in <cite path="|10|08|04|.03|A.">Regulation .03A of this chapter</cite>;</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Have relevant experience providing related health or human services or provide evidence of intent to contract with a provider of assisted living services; and</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Certify that the proposed facility will meet the handicap-accessibility requirements of <cite path="|10.07.14">COMAR 10.07.14</cite> and 42 U.S.C. §12101 et seq., or provide a certified waiver from the Department of Housing and Community Development.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Application Procedure.</heading>
+    <para>
+      <num>A.</num>
+      <text>An applicant shall apply for a State grant by filing an application with the Department on a form provided by the Department, and shall direct the completed application for State grant funds to the Office of Capital Planning, Budgeting, and Engineering Services.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The Department shall provide any notice and information to the State Clearinghouse for intergovernmental review that may be required under <cite path="|14.24.04">COMAR 14.24.04</cite>.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The applicant shall comply with all applicable federal and State laws and regulations in effect at the time of application, including <cite path="|10.07.14">COMAR 10.07.14</cite>.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>At the time of filing the application, the applicant shall file a written statement with the Department containing the following material:</text>
+      <para>
+        <num>(1)</num>
+        <text>Current or intended program of services;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The number of personnel employed or to be employed at the facility, by occupation, and all perquisites, salaries, and any compensation paid, or to be paid, to the personnel;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Expenses incurred, or to be incurred, in carrying out qualified facility operations;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Schedule of rates charged, or to be charged, for services rendered at the facility;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Agreement to admit eligible persons on the basis of their need for services without regard to race, religion, national origin, color, or disability;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>If an applicant is currently operating, a certified, audited profit-and-loss statement and balance sheet for the most recent year; and</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>If the applicant is applying for poverty funding under <cite path="|10|08|04|.08|D.">Regulation .08D of this chapter</cite>, an agreement that the majority of the individuals served by the applicant will be poverty-designated clients, as defined in <cite path="|10|08|04|.08|D.|(2)">Regulation .08D(2) of this chapter</cite>, for each year for a period of 30 years following the completion or acquisition of the facility.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>The Secretary shall approve applications that meet the requirements of this regulation and the priorities of the Department.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Amount of State Grant Awards.</heading>
+    <text>The Department shall determine the amount of the State grant for an applicant's project after consideration of the following:</text>
+    <para>
+      <num>A.</num>
+      <text>All eligible applications;</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Priorities of need as established by the Department;</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The total unallocated State funds available in the Department's Administration-Sponsored Capital Programs for Assisted Living at the time the application is received;</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The projected amount of anticipated appropriations as provided in the Governor's 5-Year Capital Improvement Program;</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>The reasonableness of the total cost of the project; and</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Current operating costs or the reasonableness of a projected budget and revenues for the facility.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Recommendation of State Grant Awards.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Department shall determine whether the approved application is to be recommended to the Board of Public Works for award of State grant funds after consideration of the following:</text>
+      <para>
+        <num>(1)</num>
+        <text>The availability of State grant funds;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The receipt of satisfactory evidence from the applicant of the following requirements:</text>
+        <para>
+          <num>(a)</num>
+          <text>Sufficient total financial contribution to complete the project;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Control of site, such as deed or lease;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Compliance with applicable local zoning requirements;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Certification that the project site is located in a State-approved Smart Growth area;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Certified bid tabulation, construction contract, contract of sale, or 30-year lease agreement with landlord, contingent on Board of Public Works approval; and</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Compliance with all other applicable provisions of State or federal law; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Whether the local government has certified to the Department that a surplus public building appropriate for use as an assisted living facility does not exist in the area in which the facility is to be located, if a new building is to be constructed.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Upon satisfactory completion of §A(1) and (2) of this regulation, the Secretary shall recommend to the Board of Public Works that a State grant be made to the approved applicant, together with a written report:</text>
+      <para>
+        <num>(1)</num>
+        <text>Stating that a notice, including information in the application, has been provided to the State Clearinghouse;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Stating that the application has been approved by the Secretary;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Stating the amount of a federal grant, if any is involved, that has been awarded to the applicant;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>If required, stating that the local government has certified that there is no surplus public building; and</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>If required, certifying that there is no surplus public building.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="10|08|04|.08">
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Grant Limitations and Provisions.</heading>
+    <para>
+      <num>A.</num>
+      <text>Use of Federal Grants and Other Grants.</text>
+      <para>
+        <num>(1)</num>
+        <text>Any federal or other grant that is received for an eligible project shall be applied first to the cost of the project.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>All other sources of funds shall be expended before the State grant is expended on an approved project.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Limits of State Grant.</text>
+      <para>
+        <num>(1)</num>
+        <text>Except as provided in §D(1) and (2) of this regulation, a State grant may not exceed 50 percent of the cost of eligible work remaining unpaid after all federal and other grants have been applied.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A State grant may not be used for retroactive participation in the cost of conversion, construction, renovation, acquisition, or purchase of equipment.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The State grant may include only those costs incurred or obligations contracted for after the application has been approved by the Department.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Costs necessary and appropriate for filing an application, such as appraisals, surveys, and test borings, shall be paid by the applicant. These costs may be approved for funding by the Board of Public Works, if the project is approved by the Board of Public Works.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>State grant funds may not be used to pay certain costs. These costs include:</text>
+        <para>
+          <num>(a)</num>
+          <text>Closing costs;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Noncapital equipment;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Consultant services;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Land;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Off-site improvements; and</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Amounts that exceed the appraised value of the real property.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Exceptions on State Grant Limits.</text>
+      <para>
+        <num>(1)</num>
+        <text>The Department may request Board of Public Works approval for a State grant to exceed 50 percent of the cost of eligible work remaining unpaid after all federal and other grants have been applied, if:</text>
+        <para>
+          <num>(a)</num>
+          <text>The project involves the conversion of a public building or part of a building to an assisted living facility, the renovation of an assisted living facility, or the planning, design, and construction of an assisted living facility;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The value of real property and improvements made available by the local government, or the value of the center to be renovated, equals or exceeds the amount of the State grant;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>State funds have not been used for the acquisition, construction, or maintenance of any real property and improvements made available by the local government or any building to be converted or renovated; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>The State is not responsible for any bonded indebtedness in connection with any real property and improvements made available by the local government or any building to be converted or renovated.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A project designated as eligible for poverty area under <cite path="10|08|04|.08|D.">§D of this regulation</cite> may receive a State grant to cover up to 75 percent of the cost of eligible work remaining unpaid after all federal and other grants have been applied.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Poverty Area Funding. An applicant is eligible for poverty area funding for a facility if:</text>
+      <para>
+        <num>(1)</num>
+        <text>The project complies with all applicable federal regulations and State plans or Departmental regulations; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The majority of individuals served by the facility:</text>
+        <para>
+          <num>(a)</num>
+          <text>Are certified by a local department of social services as eligible for General Public Assistance or Medical Assistance;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Are eligible for Supplemental Security Income benefits; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Have income levels which do not exceed 150 percent of the federal poverty level.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Funding Contribution Requirements</text>
+      <para>
+        <num>(1)</num>
+        <text>The applicant shall provide, from other sources, funds equal to the total cost of the eligible project less the State grant award.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The applicant shall assume the risk of all costs associated with the project that are incurred before the date of approval of a State grant award by the Board of Public Works.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>An applicant may not expend the State grant award before other sources of funds are expended unless the Board of Public Works approves otherwise.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The Department may not consider as contributions:</text>
+        <para>
+          <num>(a)</num>
+          <text>Real or personal property;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>In-kind contributions; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Unless approved by the Board of Public Works under <cite path="10|08|04|.08|B.|(4)">§B(4) of this regulation</cite>, funds expended before the date a grant award is approved by the Board of Public Works.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Prohibition Against Use of the Project for Purposes Other Than Assisted Living.</text>
+      <para>
+        <num>(1)</num>
+        <text>A grantee may not use a project funded by a State grant primarily:</text>
+        <para>
+          <num>(a)</num>
+          <text>For the furtherance of sectarian religious instruction or services;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>As a place of sectarian religious worship or instruction, or primarily in connection with any program or department of divinity for any religious denomination; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>For any purpose other than assisted living.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Upon the request of the Board of Public Works, the grantee shall submit evidence satisfactory to the Board that none of the proceeds of the grant has been, or is being, used for a purpose prohibited by the Act.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="10|08|04|.09">
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Use of Funds for Acquisition and Renovation.</heading>
+    <para>
+      <num>A.</num>
+      <text>If the applicant is acquiring a site with existing improvements, and the existing improvements are to be renovated for or used for an assisted living facility, the total project costs may be eligible for State participation.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>In the circumstances outlined in <cite path="10|08|04|.09|A.">§A of this regulation</cite>, at least two State-approved appraisers shall provide appraisals of the site and existing improvements to be acquired. State participation shall be limited to the lesser of the appraised value approved by the Department of General Services based upon the appraisals or the actual acquisition cost.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>If an applicant proposes to acquire an unimproved land site on which to construct a facility, the cost of the land is not eligible for State participation.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.10</num>
+    <heading>Residual Requirements of the Grantee.</heading>
+    <para>
+      <num>A.</num>
+      <text>Annual Requirements.</text>
+      <para>
+        <num>(1)</num>
+        <text>For a period of 30 years following the completion of conversion, acquisition, renovation, capital equipping, or construction of an assisted living facility involving the State grant funds in this chapter, a grantee shall file a written statement annually with the Department containing the following material:</text>
+        <para>
+          <num>(a)</num>
+          <text>A recent certified, audited profit-and-loss statement and balance sheet for the facility;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Volume of service at the assisted living facility, such as days of service rendered to clients; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Other supplemental information required by the Secretary.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>For a period of 30 years following the completion of a project that receives poverty funding under <cite path="|10|08|04|.07|D.">Regulation .07D of this chapter</cite>, the grantee shall submit annually a quantitative statement of its performance in serving poverty-designated clients.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Insurance Requirements.</text>
+      <para>
+        <num>(1)</num>
+        <text>Upon acquisition of the project, the grantee shall provide an all-risk insurance policy that:</text>
+        <para>
+          <num>(a)</num>
+          <text>Provides coverage for an amount at least equal to the replacement cost of the facility;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Names the State as a loss payee;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Protects the State's interest in the project; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Requires notification of the Office of Capital Planning, Budgeting, and Engineering Services, 201 West Preston Street, Baltimore, Maryland 21201 of any:</text>
+          <para>
+            <num>(i)</num>
+            <text>Cancellation of policy;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Material loss covered by the policy; or</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Material changes in the policy.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The grantee shall provide builders' risk insurance coverage during the entire period of project construction or renovation that:</text>
+        <para>
+          <num>(a)</num>
+          <text>Names the State as a loss payee;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Protects the State's interest in the building;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Provides an amount at least equal to the replacement cost of the facility; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Requires evidence of the coverage be submitted to the Office of Capital Planning, Budgeting, and Engineering Services, 201 West Preston Street, Baltimore, Maryland 21201.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Upon completion of a project, the grantee shall maintain, for a period of 30 years, an all-risk insurance policy that:</text>
+        <para>
+          <num>(a)</num>
+          <text>Provides coverage for an amount at least equal to the replacement cost of the facility;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Names the State as a loss payee;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Protects the State's interest in the project;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Requires notification of the Office of Capital Planning, Budgeting, and Engineering Services, 201 West Preston Street, Baltimore, Maryland 21201 of any:</text>
+          <para>
+            <num>(i)</num>
+            <text>Cancellation of policy;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Material loss covered by the policy; or</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Material changes in the policy.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The grantee shall maintain and submit evidence of this insurance annually, for a period of 30 years, to the Office of Capital Planning, Budgeting, and Engineering Services and to the State Treasurer’s Office, Insurance Division.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>During the entire period of work on the project and for a period of 30 years after the project has been completed or acquired, the Department may audit the business records of the applicant and the applicant's agents, contractors, or assigns.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Extension of Time for Completion, and Other Changes.</text>
+      <para>
+        <num>(1)</num>
+        <text>The applicant shall promptly notify the Secretary, if the applicant is unable to encumber funds:</text>
+        <para>
+          <num>(a)</num>
+          <text>In the manner approved by the Secretary; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Within 2 years of the appropriation by the Maryland legislature.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>For good cause the Secretary may grant a request by the applicant for a change in the manner or time for encumbrance of funds, including an extension of time.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Upon a demonstration of good cause for an extension of time, the Secretary may grant an extension of an additional 180 days to encumber funds.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Absent good cause, the applicant shall be ineligible for grant funds. The applicant may apply for funds in future years.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Expenditures. State funds may not be released until the applicant has a notice of the right of recovery recorded in the land records of the county or Baltimore City in which the property is located, and the applicant is in compliance with this chapter and applicable federal and State laws.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Penalties. If the grantee does not comply with this chapter and all other applicable State and federal laws, the Secretary may:</text>
+      <para>
+        <num>(1)</num>
+        <text>Refuse to consider the grantee for any future funding under the Act;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Require an audit of the grantee;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Notify the Office of Health Care Quality; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Take other action as appropriate.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.11</num>
+    <heading>Right of Recovery.</heading>
+    <text>In the event of default under the terms of the Act and this chapter, an assisted living facility financed pursuant to this chapter is subject to the State's right of recovery as set forth in the Act.</text>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Health-General Article, §§24-1001—24-1007, Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="2001-12-10">Effective date: December 10, 2001 (28:24 Md. R. 2128)</annotation>
+    <annotation type="History" dest="container" effective="2018-03-26"><cite path="|10|08|04|.02|B.">Regulation .02B</cite> amended effective March 26, 2018 (45:6 Md. R. 319)</annotation>
+    <annotation type="History" dest="container" effective="2018-03-26"><cite path="|10|08|04|.05|A.">Regulation .05A</cite> amended effective March 26, 2018 (45:6 Md. R. 319)</annotation>
+    <annotation type="History" dest="container" effective="2018-03-26"><cite path="|10|08|04|.10|B.">Regulation .10B</cite> amended effective March 9, 1998 (25:5 Md. R. 369); March 26, 2018 (45:6 Md. R. 319)</annotation>
+  </annotations>
+</container>

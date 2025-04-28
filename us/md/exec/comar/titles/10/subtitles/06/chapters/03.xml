@@ -1,0 +1,597 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>03</num>
+  <heading>ImmuNet</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Scope.</heading>
+    <text>This chapter governs ImmuNet, a computer-based registry of immunizations, as established in Health-General Article, §18-109, Annotated Code of Maryland.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>“Authorized user” means:</text>
+        <para>
+          <num>(a)</num>
+          <text>A child care facility;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A health care provider;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A health insurer;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>A health maintenance organization;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>An institution of higher learning;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>A local health department;</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>A long-term care facility;</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>A managed care organization;</text>
+        </para>
+        <para>
+          <num>(i)</num>
+          <text>A nonprofit health service plan;</text>
+        </para>
+        <para>
+          <num>(j)</num>
+          <text>A patient;</text>
+        </para>
+        <para>
+          <num>(k)</num>
+          <text>A pharmacist authorized to administer vaccinations in accordance with <cite doc="Md. Code" path="gho|12-508">Health Occupations Article, §12-508, Annotated Code of Maryland</cite>;</text>
+        </para>
+        <para>
+          <num>(l)</num>
+          <text>A school;</text>
+        </para>
+        <para>
+          <num>(m)</num>
+          <text>A school-based health center;</text>
+        </para>
+        <para>
+          <num>(n)</num>
+          <text>In the case of a minor child, a parent or guardian; and</text>
+        </para>
+        <para>
+          <num>(o)</num>
+          <text>Any other authorized user designated by the Secretary.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>“Department” means the Maryland Department of Health.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>“ImmuNet” means a computerized information and reminder system to:</text>
+        <para>
+          <num>(a)</num>
+          <text>Improve the timely and appropriate delivery of immunizations;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Provide a coordinated network for reminder notices when immunizations are due;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Provide and collect information to be shared by authorized users; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Provide a quality indicator for the insurers’ health care provider practices and public health purposes.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>“Refusal to permit disclosure of information” means the right of an individual or the parent or guardian of a minor to prevent disclosure to authorized users of individual identifiable information that was reported to ImmuNet.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Regional Registry.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Regional registry” means a database that contains immunization information for individuals residing in an area of Maryland.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Regional registry” includes an immunization database or registry maintained and operated by a local health department.</text>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>“Secretary” means the Secretary of Health.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>“Vaccine information statement (VIS)” means a document that:</text>
+        <para>
+          <num>(a)</num>
+          <text>Is created and updated by the U.S. Centers for Disease Control and Prevention; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Relates:</text>
+          <para>
+            <num>(i)</num>
+            <text>The purpose of specific vaccines;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Schedules of administration; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Possible adverse reactions to specific vaccines.</text>
+          </para>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Administration of ImmuNet.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Department shall support and administer ImmuNet.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The Department may enter or edit information contained in ImmuNet.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>ImmuNet is subject to the security and reliability standards set forth in <cite path="|10|06|03|.09">Regulation .09 of this chapter</cite>.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The Department shall make available to authorized users and to the general public all forms relevant to ImmuNet, such as the:</text>
+      <para>
+        <num>(1)</num>
+        <text>User agreement;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Refusal to Permit Disclosure of Information form; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Statement of Reactivation of Participation in ImmuNet form.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Information Reported to ImmuNet.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Department shall enter the following information from each birth certificate registered in Maryland:</text>
+      <para>
+        <num>(1)</num>
+        <text>Child’s:</text>
+        <para>
+          <num>(a)</num>
+          <text>First, middle, and last name;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Date of birth;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Sex; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Current or last known address; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Child’s mother’s:</text>
+        <para>
+          <num>(a)</num>
+          <text>First and middle names;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Maiden Name if applicable; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Current last name.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Following the administration of a vaccine to an individual residing in Maryland, the health care provider who administered the vaccine may enter the following information to ImmuNet:</text>
+      <para>
+        <num>(1)</num>
+        <text>Patient’s:</text>
+        <para>
+          <num>(a)</num>
+          <text>First, middle, and last name;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Date of birth;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Sex;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Birth state and country;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Current or last known address;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>If the patient is a minor, the name of the parent or guardian;</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>Last four digits of Social Security number, if available; and</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>Medicaid number, if available and applicable;</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Patient’s mother’s:</text>
+        <para>
+          <num>(a)</num>
+          <text>First and middle names;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Maiden name, if applicable; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Current last name;</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>For each vaccine administered:</text>
+        <para>
+          <num>(a)</num>
+          <text>Antigen type;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Manufacturer;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Expiration date;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Lot number;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Date VIS provided to patient;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>VIS date; and</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>Date of administration;</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Contraindication, adverse event, and exemption information for the patient, including:</text>
+        <para>
+          <num>(a)</num>
+          <text>A medical contraindication or adverse event to the administration of one or more vaccines;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Whether the contraindication is permanent or temporary and, if temporary, the date after which the contraindication will no longer exist or needs to be reassessed; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>An objection to immunization based on a bona fide religious belief and practice;</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Other medical information pertaining to vaccine-preventable diseases, including serologic test results;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Other information designated by the U.S. Centers for Disease Control and Prevention as Immunization Information System Required Core Data Elements; and</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Other information designated by the Secretary.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Correction of Inaccurate Information. A patient or a parent or a guardian of a minor patient whose immunization information is entered into ImmuNet may contact the Department to:</text>
+      <para>
+        <num>(1)</num>
+        <text>View the information; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Provide information to correct any inaccuracies.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>User Agreement.</heading>
+    <para>
+      <num>A.</num>
+      <text>An authorized user who wishes to obtain information from ImmuNet shall enter into a user agreement with the Department for the purpose of protecting the confidentiality and security of ImmuNet information.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The user agreement shall include but not be limited to the:</text>
+      <para>
+        <num>(1)</num>
+        <text>Functions that may be performed by an authorized user of ImmuNet;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Authorized uses of ImmuNet information as set forth in Health-General Article, §18-109(c), Annotated Code of Maryland;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Prohibitive uses of ImmuNet information as set forth in Health-General Article, §18-109(f), Annotated Code of Maryland; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Basic practices for safeguarding confidential information.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Authorized users shall request the renewal of the user agreement on an annual basis.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Authorized User Functions.</text>
+      <para>
+        <num>(1)</num>
+        <text>An authorized user who has signed a user agreement may obtain the following information about an individual from ImmuNet:</text>
+        <para>
+          <num>(a)</num>
+          <text>First, middle, and last name;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Date of birth;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Address;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Telephone number;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>In the case of a minor child, the name of the parent or guardian;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Immunizations given;</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>Immunization dates;</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>Contraindication, adverse event, and exemption information; and</text>
+        </para>
+        <para>
+          <num>(i)</num>
+          <text>Other medical information pertaining to vaccine-preventable diseases, including serologic test results.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An authorized user that is a health care provider, local health department, long-term care facility, or school-based health center that administers immunizations may:</text>
+        <para>
+          <num>(a)</num>
+          <text>Enter information into ImmuNet directly from medical records that are in the authorized user’s possession; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Edit information the authorized user has entered into ImmuNet.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>An authorized user who is a patient or a parent or guardian of a minor may view the patient’s or the minor patient’s ImmuNet information without signing a user agreement by requesting the information from the patient’s or minor’s immunization provider or the Department.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>With approval from the Department, the following authorized users may enter information into ImmuNet:</text>
+        <para>
+          <num>(a)</num>
+          <text>A child care facility;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A health insurer;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A health maintenance organization;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>An institution of higher learning;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>A managed care organization;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>A nonprofit health service plan; and</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>A school.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Refusal and Reactivation.</heading>
+    <para>
+      <num>A.</num>
+      <text>An individual or a parent or guardian of a minor child who has received an immunization may at any time prohibit information in ImmuNet from being disclosed to authorized users by providing to the Department a signed and dated Refusal to Permit Disclosure of Information form.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>An individual or a parent or guardian of a minor who has submitted a Refusal to Permit Disclosure of Information form may allow information in ImmuNet to be disclosed by submitting to the Department a signed and dated written Statement of Reactivation of Participation in ImmuNet form.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Permissible Use of ImmuNet Information.</heading>
+    <text>Information in ImmuNet may be used by authorized users for the following purposes:</text>
+    <para>
+      <num>A.</num>
+      <text>To provide coordinated immunization services, including sending reminder notices to individuals who need immunizations;</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>To obtain an individual immunization history;</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>To identify geographic areas or population groups who are underimmunized;</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>To compile aggregate information and distribute statistical reports on the status of immunizations in geographic areas and population groups;</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>To assist in the management of State and local immunization programs;</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>To monitor the safety of vaccines;</text>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>To assess compliance with immunization requirements by monitoring admissions to:</text>
+      <para>
+        <num>(1)</num>
+        <text>Schools;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Institutions of higher learning; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Child care facilities; and</text>
+      </para>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>For any other purpose that the Secretary deems necessary to prevent the spread of communicable diseases or assess the safety or effectiveness of vaccines in accordance with Health-General Article, §18-109(c), Annotated Code of Maryland.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Regional and Other State Immunization Registries.</heading>
+    <para>
+      <num>A.</num>
+      <text>A regional registry shall submit to ImmuNet all immunization information on Maryland residents within 14 calendar days of receipt of the information.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>If the confidentiality of records of Maryland citizens is protected, the Department may enter into a collaborative agreement with other states for the purpose of sharing immunization information.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Security and Reliability Standards.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Department shall maintain ImmuNet in accordance with system security requirements for federal information processing systems, including National Institute of Standards and Technology (NIST) 800-53 Special Publication, and prevailing agency information technology security policy standards and requirements.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>ImmuNet Security.</text>
+      <para>
+        <num>(1)</num>
+        <text>The Department shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Maintain ImmuNet information on a server protected by a firewall; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Encrypt information traveling to and from authorized users.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Department shall maintain encryption keys in a secure location.</text>
+      </para>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Health-General Article, §18-109; <cite doc="Md. Code" path="gho|12-508">Health Occupations Article, §12-508</cite>; Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="2015-04-27">Effective date: April 27, 2015 (42:8 Md. R. 607)</annotation>
+  </annotations>
+</container>
