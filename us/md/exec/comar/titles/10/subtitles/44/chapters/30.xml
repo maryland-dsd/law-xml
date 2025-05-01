@@ -1,0 +1,576 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>30</num>
+  <heading>Record Keeping</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Scope.</heading>
+    <para>
+      <num>A.</num>
+      <text>This chapter covers the production and maintenance of patient records by dentists in any form or medium.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The following is not governed by this chapter:</text>
+      <para>
+        <num>(1)</num>
+        <text>Retention schedules of dental records;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Confidentiality of dental records;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Disclosure of dental records;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Requests for copies of dental records;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Concealment of dental records;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Destruction and disposal of dental records; and</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Requirements imposed by:</text>
+        <para>
+          <num>(a)</num>
+          <text>45 CFR Part 160, as amended; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>45 CFR Part 164, as amended.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01-1</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>“Best practices” means a method or technique that through experience and research has shown to reliably lead to results superior to those achieved by other means.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>“Electronic health records” means health records created and maintained on computer or other electronic device.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="10|44|30|.02">
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>General Provisions for Handwritten, Typed, and Electronic Health Records.</heading>
+    <para>
+      <num>A.</num>
+      <text>A dentist shall create and maintain a separate dental record for each patient.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Dental records shall include:</text>
+      <para>
+        <num>(1)</num>
+        <text>A patient’s clinical chart as described in <cite path="|10|44|30|.03">Regulation .03 of this chapter</cite>; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Financial records as described in <cite path="|10|44|30|.04">Regulation .04 of this chapter</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Dental records may be:</text>
+      <para>
+        <num>(1)</num>
+        <text>Handwritten in ink;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Typed; or</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Generated on a computer or other electronic device.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Dental records may not be created or maintained in pencil.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>If treatment is rendered, dental records shall be made contemporaneously with the treatment rendered.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Dental records shall be created and maintained for each individual seeking or receiving dental services, regardless of whether:</text>
+      <para>
+        <num>(1)</num>
+        <text>Any treatment is actually rendered; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Any fee is charged.</text>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>All entries shall be dated.</text>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>Electronic Health Records.</text>
+      <para>
+        <num>(1)</num>
+        <text>A dentist who creates and maintains electronic health records shall utilize best practices related to:</text>
+        <para>
+          <num>(a)</num>
+          <text>Hazard and risk analysis and mitigation;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Software development;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Validation;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Maintenance;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Security measures; and</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>System integration and operation.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A dentist who creates and maintains electronic health records shall maintain a back-up copy of the records and, if feasible, a back-up copy off site.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The initials and signatures in electronic health records required by this chapter may be produced electronically.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Electronic health record systems shall include an audit-trail function that details all interactions between systems and their users and all interactions among systems.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The audit-trail identified in <cite path="10|44|30|.02|H.|(4)">§H(4) of this regulation</cite> shall include:</text>
+        <para>
+          <num>(a)</num>
+          <text>Attempted or successful unauthorized access to the electronic health records where the determination is feasible;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Attempted or successful unauthorized modification or destruction of any records where the determination is feasible;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Interference with application operations of the electronic records;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Any setting of or change to logical access controls related to the dispensing of controlled substance prescriptions; and</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Attempted or successful interference with audit trail functions.</text>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Electronic health record systems shall provide the capability to produce a hard copy business version of each treatment or progress note and shall indicate:</text>
+        <para>
+          <num>(a)</num>
+          <text>The date and time of each entry;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The identity of each individual who made the entry;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The method used in the creation of each entry, which shall include but not be limited to:</text>
+          <para>
+            <num>(i)</num>
+            <text>Direct entry via keyboard or mouse;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Speech recognition;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Automation;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Machine-entered default information;</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>Pre-created documentation via form or template;</text>
+          </para>
+          <para>
+            <num>(vi)</num>
+            <text>Copy or import of an object including the date and time of the entry and the identity of the original author;</text>
+          </para>
+          <para>
+            <num>(vii)</num>
+            <text>Copy forward previous note contents including the date and time of the entry and the identity of the original author; and</text>
+          </para>
+          <para>
+            <num>(viii)</num>
+            <text>Dictation and transcription from an external system.</text>
+          </para>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>A dental record shall contain:</text>
+      <para>
+        <num>(1)</num>
+        <text>The patient’s name or other patient identifier;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If the patient is a minor, the name and address of the patient’s parents or guardian;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The patient’s address and telephone number;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The patient’s date of birth;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The patient’s place of employment if the patient wishes to provide the information;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Emergency contact information;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Medical and dental histories which shall be updated at each visit; and</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Insurance information.</text>
+      </para>
+    </para>
+    <para>
+      <num>J.</num>
+      <text>To the extent practicable, each document in the dental records shall contain one or more patient identifiers.</text>
+    </para>
+    <para>
+      <num>K.</num>
+      <text>Dental records shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Be accurate;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Be detailed;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Be legible;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Be well organized; and</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Document all data in the dentist’s possession pertaining to the patient's dental health status;</text>
+      </para>
+    </para>
+    <para>
+      <num>L.</num>
+      <text>Entries shall be signed or initialed by the individual who provided the treatment.</text>
+    </para>
+    <para>
+      <num>M.</num>
+      <text>With the exception of dental hygienists, entries made by auxiliary personnel shall be:</text>
+      <para>
+        <num>(1)</num>
+        <text>Reviewed by the treating dentist; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Signed or initialed by the treating dentist.</text>
+      </para>
+    </para>
+    <para>
+      <num>N.</num>
+      <text>Entries made by individuals other than the individual who provided the treatment shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Identify the individual who made the entry;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Identify the individual who provided the treatment;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Be signed or initialed by the individual who provided the treatment; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Be signed or initialed by the treating dentist.</text>
+      </para>
+    </para>
+    <para>
+      <num>O.</num>
+      <text>Exception. Entries made by an individual other than the individual who provided the treatment may not require the signature or initials of the treating dentist if the treatment was provided by a dental hygienist.</text>
+    </para>
+    <para>
+      <num>P.</num>
+      <text>A dentist and auxiliary personnel may not erase, alter, obliterate, or “white out” dental records.</text>
+    </para>
+    <para>
+      <num>Q.</num>
+      <text>Blank spaces may not be left between entries.</text>
+    </para>
+    <para>
+      <num>R.</num>
+      <text>Changes to handwritten and typed dental records shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Be made by a single line strike-through of the incorrect entry so that the incorrect entry may be read;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Contain changes in the corresponding margin or in close proximity to the incorrect entry;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Be dated;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Be signed or initialed by the treating dentist; and</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>If the change was made by auxiliary personnel:</text>
+        <para>
+          <num>(a)</num>
+          <text>Be reviewed;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Be approved; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Be signed or initialed by the treating dentist.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>S.</num>
+      <text>The dental records shall contain only those abbreviations that are commonly acceptable within the profession and comprehensible to other dentists.</text>
+    </para>
+    <para>
+      <num>T.</num>
+      <text>Except for notations of payment or failure to make payment, financial records may not be maintained in the clinical chart.</text>
+    </para>
+    <para>
+      <num>U.</num>
+      <text>Dentists are responsible for the content of the dental records.</text>
+    </para>
+    <para>
+      <num>V.</num>
+      <text>A dentist who has been issued a dispensing permit by the Board shall maintain dispensing records in accordance with <cite path="|10|44|30|.03|J.">Regulation .03J of this chapter</cite>.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Clinical Charts.</heading>
+    <para>
+      <num>A.</num>
+      <text>Each patient’s clinical chart shall include at a minimum the following:</text>
+      <para>
+        <num>(1)</num>
+        <text>Patient's name and date of treatment;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Reasons for the patient’s visit;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Treatment plans that are signed and dated by both the treating dentist and the patient;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Patient’s complaints;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Diagnosis and treatment notes;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Progress notes;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Post operative instructions;</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Study models;</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>In-person conversations, telephone conversations, and other correspondence with the patient or their representative;</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>Identification of medications prescribed, administered, dispensed, quantity, and directions for use;</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>Clinical details with regard to the administration of:</text>
+        <para>
+          <num>(a)</num>
+          <text>Nitrous oxide;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Anxiolytics;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Sedation; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>General anesthesia.</text>
+        </para>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>Radiographs of diagnostic quality;</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>Periodontal charting;</text>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>Laboratory work authorization forms and correspondence to and from laboratories;</text>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>Informed consent;</text>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>Copies of correspondence and reports provided to other health care providers, diagnostic facilities, and legal representatives;</text>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>Records and reports provided by other health care providers and diagnostic facilities;</text>
+      </para>
+      <para>
+        <num>(18)</num>
+        <text>Details regarding referrals and consultations;</text>
+      </para>
+      <para>
+        <num>(19)</num>
+        <text>Patient complaints pertaining to the dentist and staff, and their manner of resolution;</text>
+      </para>
+      <para>
+        <num>(20)</num>
+        <text>Noncompliance and missed appointment notes; and</text>
+      </para>
+      <para>
+        <num>(21)</num>
+        <text>Dismissal letter.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A dentist who performs diabetes or blood pressure screening shall include the results of the screenings in the patient’s clinical chart.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Financial Records.</heading>
+    <para>
+      <num>A.</num>
+      <text>Financial records shall be considered part of the dental records but shall be maintained separately from the patient’s clinical chart.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Financial records shall include at a minimum the following:</text>
+      <para>
+        <num>(1)</num>
+        <text>Complete financial data concerning the patient’s account, including:</text>
+        <para>
+          <num>(a)</num>
+          <text>Each amount billed to or received from the patient or third-party payor; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The date of each bill and each payment;</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Copies of all claim forms submitted to third-party payors by the dentist or by the dentist’s agent or employee; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Payment vouchers received from third-party payors.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Violations.</heading>
+    <text>Failure to comply with this chapter constitutes unprofessional conduct and may constitute other violations of law.</text>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container"><cite doc="Md. Code" path="gho|4-205">Health Occupations Article, §4-205(c)(3), </cite>Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="2012-06-11">Effective date: June 11, 2012 (39:11 Md. R. 687)</annotation>
+    <annotation type="History" dest="container" effective="2013-04-29"><cite path="|10|44|30|.01">Regulation .01</cite>-1 adopted effective April 29, 2013 (40:8 Md. R. 724)</annotation>
+    <annotation type="History" dest="container" effective="2013-04-29"><cite path="|10|44|30|.02">Regulation .02</cite> amended effective April 29, 2013 (40:8 Md. R. 724)</annotation>
+    <annotation type="History" dest="container" effective="2013-04-29"><cite path="|10|44|30|.03">Regulation .03</cite> amended effective April 29, 2013 (40:8 Md. R. 724)</annotation>
+  </annotations>
+</container>
