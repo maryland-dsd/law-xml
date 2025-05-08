@@ -1,0 +1,702 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>12</num>
+  <heading>Medical Laboratories — Public Health HIV Testing Programs</heading>
+  <text>
+    <table>
+      <tbody>
+        <tr>
+          <td data-vertical-align="middle">Regulation</td>
+          <td data-vertical-align="middle">Sections</td>
+        </tr>
+        <tr>
+          <td data-vertical-align="middle">.01 Scope</td>
+          <td data-vertical-align="middle">17-202</td>
+        </tr>
+        <tr>
+          <td data-vertical-align="middle">.02 Definitions</td>
+          <td data-vertical-align="middle">17-202</td>
+        </tr>
+        <tr>
+          <td data-vertical-align="middle">.03 Incorporation by Reference</td>
+          <td data-vertical-align="middle">17-201, 17-202</td>
+        </tr>
+        <tr>
+          <td data-vertical-align="middle">.04 Public Health Testing License, for Rapid<br/>      HIV Antibody Testing</td>
+          <td data-vertical-align="middle">17-202, 17-204, 17-205, 17-206, <br/>17-207, 17-208, 17-209, 17-210</td>
+        </tr>
+        <tr>
+          <td data-vertical-align="middle">.05 Quality Assessment Plan and Quality <br/>      Control Requirements</td>
+          <td data-vertical-align="middle">17-202, 17-206</td>
+        </tr>
+        <tr>
+          <td data-vertical-align="middle">.06 Personnel Training and Competency</td>
+          <td data-vertical-align="middle">17-202, 17-206</td>
+        </tr>
+        <tr>
+          <td data-vertical-align="middle">.07 Standard Operating Procedures Manual</td>
+          <td data-vertical-align="middle">17-202</td>
+        </tr>
+        <tr>
+          <td data-vertical-align="middle">.08 Public Health Testing Program Director</td>
+          <td data-vertical-align="middle">17-203, 17-206</td>
+        </tr>
+        <tr>
+          <td data-vertical-align="middle">.09 Manufacturer's Requirements</td>
+          <td data-vertical-align="middle">17-202</td>
+        </tr>
+        <tr>
+          <td data-vertical-align="middle">.10 Confirmatory Test</td>
+          <td data-vertical-align="middle">17-202</td>
+        </tr>
+      </tbody>
+    </table>
+  </text>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Scope.</heading>
+    <para>
+      <num>A.</num>
+      <text>This chapter sets the standards and requirements for a person to obtain and maintain a public health testing license to operate a public health testing program to perform rapid HIV antibody testing and rapid hepatitis C virus testing.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>This chapter applies to public health testing programs approved by the Secretary to conduct rapid HIV antibody testing and rapid hepatitis C virus testing.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>This chapter does not apply to any other type of laboratory testing entity such as a:</text>
+      <para>
+        <num>(1)</num>
+        <text>Point-of-care laboratory;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Commercial reference laboratory;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Hospital; or</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Physician office laboratory.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>"CDC" means the federal Centers for Disease Control and Prevention.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>"CLIA" means the federal Clinical Laboratory Improvement Amendments of 1988.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>"Department" means the Maryland Department of Health.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>"Primary standard" means a general comprehensive standard or set of standards as defined in <cite path="10.10.01.03|B.">COMAR 10.10.01.03B</cite>.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>"Public health testing program" means a medical laboratory as defined in <cite path="10.10.01.03|B.">COMAR 10.10.01.03B</cite> that is affiliated or collaborating with the Department for the purpose of offering or performing rapid HIV antibody testing or rapid hepatitis C virus testing approved by the Secretary.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>"Public health testing license" means a license as defined in <cite path="10.10.01.03|B.">COMAR 10.10.01.03B</cite> issued by the Secretary authorizing the director of a public health HIV or hepatitis C (HCV) testing program to offer or perform rapid HIV tests or rapid hepatitis C virus tests.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Quality Assessment Plan.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Quality assessment plan" means a planned system of step-by-step activities to ensure that:</text>
+          <para>
+            <num>(i)</num>
+            <text>Testing is being carried out according to the manufacturer's instructions;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Results are accurate and reliable; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Problems and mistakes are found and corrected to avoid adverse outcomes.</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Quality assessment plan" includes the ongoing activities that monitor, review, evaluate, and improve the overall quality of the procedures and processes before, during, and after a test is performed.</text>
+        </para>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Quality Control.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Quality control" means the policies and procedures defined in <cite path="10.10.01.03|B.">COMAR 10.10.01.03B</cite> that monitor and evaluate the analytical or test performance phase of the testing process.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Quality control" includes the operational techniques, tasks, or activities used to find and correct problems that might occur in the test system.</text>
+        </para>
+      </para>
+      <para>
+        <num>(8-1)</num>
+        <text>“Rapid hepatitis C virus test” means a public health hepatitis test that:</text>
+        <para>
+          <num>(a)</num>
+          <text>Is a single-use test device as defined in <cite path="10.10.01.03|B.">COMAR 10.10.01.03B</cite>;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Uses whole blood as the specimen to detect hepatitis C antibodies;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Is waived under the CLIA program; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Provides a test result while the individual being tested is waiting.</text>
+        </para>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>"Rapid HIV antibody test" means a public health HIV test that:</text>
+        <para>
+          <num>(a)</num>
+          <text>Is a single-use test device as defined in <cite path="10.10.01.03|B.">COMAR 10.10.01.03B</cite>;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Uses whole blood or oral fluid as the specimen to detect HIV antibodies;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Is waived under the CLIA program; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Provides a test result while the individual being tested is waiting.</text>
+        </para>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>"Secretary" means the Secretary of Health.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Incorporation by Reference.</heading>
+    <text>In this chapter, the CDC “Quality Assurance Guidelines for Testing Using Rapid HIV Antibody Tests Waived Under the Clinical Laboratory Improvement Amendments of 1988 (2007)” is incorporated by reference.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Public Health Testing License for Rapid HIV Antibody Testing and HCV Testing.</heading>
+    <para>
+      <num>A.</num>
+      <text>A person shall obtain a public health testing license before offering or performing rapid HIV antibody testing or rapid hepatitis C virus testing.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A person may not:</text>
+      <para>
+        <num>(1)</num>
+        <text>Offer or perform rapid HIV antibody testing or hepatitis C virus testing without obtaining a public health testing license issued under this chapter; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Transfer the public health testing license to another person.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The Secretary may issue a public health testing license under this chapter if the Secretary determines that the public health testing program meets the requirements of this chapter.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The Department shall issue a public health testing license that:</text>
+      <para>
+        <num>(1)</num>
+        <text>Is valid for a period of not more than 2 years;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>States that the license is limited to the performance of rapid HIV antibody testing and rapid hepatitis C virus testing; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Lists the:</text>
+        <para>
+          <num>(a)</num>
+          <text>Name of the director;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Name of the public health testing program; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Address of the public health testing program.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>To obtain, maintain, or renew a public health testing license, a person shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Make records and reports available to the Department;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Possess a valid CLIA Certificate of Waiver from the U.S. Health and Human Services' Centers for Medicare and Medicaid Services;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Submit to the Department:</text>
+        <para>
+          <num>(a)</num>
+          <text>When seeking an initial license or license renewal, a quality assessment plan that describes the testing activities;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The location of all testing sites; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The name and address of the laboratory that will perform confirmatory tests for the person operating the public health testing program; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Submit amendments or changes to the public health testing program's quality assessment plan to the Department and obtain the Department's approval prior to implementation.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>The Department shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Review each submitted quality assessment plan to determine compliance with the requirements of this chapter;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Conduct on-site surveys of public health testing programs:</text>
+        <para>
+          <num>(a)</num>
+          <text>To investigate a complaint; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Periodically to determine compliance with this chapter; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Approve the plan for implementation by the public health testing program if the plan is in compliance with the requirements of this chapter.</text>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>The Secretary may impose one or more sanctions as provided in <cite path="10.10.08.01">COMAR 10.10.08.01</cite>—.03 if the Secretary determines that the public health testing program does not meet the standards of this chapter.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Quality Assessment Plan and Quality Control Requirements.</heading>
+    <para>
+      <num>A.</num>
+      <text>Primary Standard. A person seeking or holding a public health testing license shall establish and maintain a quality assessment plan with written policies and procedures for monitoring and evaluating the operations and activities of the program.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Quality Assessment Plan Components. A person seeking or holding a public health testing license shall ensure that the quality assessment plan addresses the operations and activities that occur before, during, and after testing and include the following components:</text>
+      <para>
+        <num>(1)</num>
+        <text>Verifying, before performing a test; that:</text>
+        <para>
+          <num>(a)</num>
+          <text>The testing process works as set forth in the manufacturer's test specifications and instructions;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Personnel are trained and competent to perform assigned tasks;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Procedures and logistics are in place for:</text>
+          <para>
+            <num>(i)</num>
+            <text>Performing a confirmatory test;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Collecting a specimen for referral to a laboratory to perform a confirmatory test; or</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Referring an individual to a health care provider to have a confirmatory test performed; and</text>
+          </para>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Biohazardous waste handling procedures are in place;</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Troubleshooting procedures that:</text>
+        <para>
+          <num>(a)</num>
+          <text>Detect and resolve a problem that occurs during the testing process;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Require communication of a problem immediately to the director or appropriate supervisory personnel;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>State when to discontinue testing;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Identify how to take corrective action in response to a problem; and</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>State how to:</text>
+          <para>
+            <num>(i)</num>
+            <text>Document a problem and the actions taken; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Verify that a corrective action taken has addressed the problem;</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Procedures and mechanisms to maintain records that document:</text>
+        <para>
+          <num>(a)</num>
+          <text>Personnel training and competency;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Specimen referral and transfer;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Daily temperatures of the areas that will affect testing results;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Quality control test results that include the:</text>
+          <para>
+            <num>(i)</num>
+            <text>Results of the quality control test;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Date and time the control testing was performed;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Lot number and expiration of the test kit;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Lot number and expiration date of the quality controls; and</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>Corrective actions taken if control results are invalid; and</text>
+          </para>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Test result records for the individuals who are tested that include the:</text>
+          <para>
+            <num>(i)</num>
+            <text>Test result;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Date and time testing was performed;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Unique laboratory code for the individual being tested;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Test kit lot number and expiration date;</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>Results of internal validity checks;</text>
+          </para>
+          <para>
+            <num>(vi)</num>
+            <text>Action taken if a result is invalid;</text>
+          </para>
+          <para>
+            <num>(vii)</num>
+            <text>Documentation of required confirmatory testing;</text>
+          </para>
+          <para>
+            <num>(viii)</num>
+            <text>Documentation when a specimen is sent for confirmation or the individual is referred for a confirmatory test;</text>
+          </para>
+          <para>
+            <num>(ix)</num>
+            <text>Confirmatory test results, when available; and</text>
+          </para>
+          <para>
+            <num>(x)</num>
+            <text>Identity of the individual who performed the test.</text>
+          </para>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Personnel Training and Competency.</heading>
+    <para>
+      <num>A.</num>
+      <text>Primary Standard. A person seeking or holding a public health testing license shall ensure that the personnel of the public health testing program are trained in how to perform assigned tasks and responsibilities.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Personnel Training Components. A person seeking or holding a public health testing license shall ensure that personnel training includes the following components:</text>
+      <para>
+        <num>(1)</num>
+        <text>How to perform the test, including procedures performed before, during, and after testing;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>How the testing is integrated into the overall counseling and testing program;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The components of the public health testing program's quality assessment plan; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The use of bloodborne pathogen precautions and biohazard safety.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Training Method. A person seeking or holding a public health testing license shall ensure that the public health testing program personnel training includes the following activities:</text>
+      <para>
+        <num>(1)</num>
+        <text>Reading the manufacturer's instructions for performing the test;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Observing a trained individual performing the test or viewing a video of a trained individual performing the test;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Practicing the performance of the test with positive and negative controls;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Practicing the specimen collection procedure; and</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Reviewing the procedures and forms on how to document the testing.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Personnel Competency. A supervisor or qualified trainer shall assess and document the competency of the public health testing program personnel for each task for which the individual is responsible:</text>
+      <para>
+        <num>(1)</num>
+        <text>Before the individual is permitted to perform testing without assistance for the first time;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Annually; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>When procedures or test systems are changed.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>A person seeking or holding a public health testing license shall have available and ensure that personnel follow the CDC “Quality Assurance Guidelines for Testing Using Rapid HIV Antibody Tests Waived Under the Clinical Laboratory Improvement Amendments of 1988” (2007).</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Standard Operating Procedures Manual.</heading>
+    <para>
+      <num>A.</num>
+      <text>Primary Standard. A person seeking or holding a public health testing license shall develop and maintain a standard operating procedures manual (SOPM) that is available to and followed by the public health testing program personnel.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A person seeking or holding a public health testing license shall ensure that the SOPM includes the step-by-step instructions for the operations, tasks, and techniques occurring before, during, and after testing, including:</text>
+      <para>
+        <num>(1)</num>
+        <text>How to set up the testing site;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Use of quality assessment plan components, policies, and procedures;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The test manufacturer's product inserts and instructions;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Standard precautions for bloodborne pathogens;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Use of gloves and other personal protective equipment;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Handling and disposal of biohazardous waste;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>How to provide testing information to an individual before the individual is tested;</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>How to counsel an individual receiving screening test results; and</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>How to refer an individual who has been tested for HIV antibodies or hepatitis C antibodies, or both, for services as prescribed in <cite path="10.18.08.10|C.">COMAR 10.18.08.10C</cite> and <cite path="10.18.09.07">10.18.09.07</cite>.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Public Health Testing Program Director.</heading>
+    <para>
+      <num>A.</num>
+      <text>Primary Standard. A person seeking or holding a public health testing license shall employ or otherwise engage the services of a director to oversee and manage the public health testing program.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The director of a public health testing program shall oversee the planning, organization, direction, operation, and review of the program's operations, including:</text>
+      <para>
+        <num>(1)</num>
+        <text>Recruiting competent personnel;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Providing and documenting initial training and continuing education of program personnel;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Communicating and consulting with program personnel on a regular basis;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Conducting and documenting periodic on-site visits at the testing sites;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Maintaining the quality assessment plan; and</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Ensuring that the program, testing site, and personnel meet applicable federal requirements and all standards and requirements set forth in this chapter.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Manufacturer's Requirements.</heading>
+    <para>
+      <num>A.</num>
+      <text>Primary Standard. In addition to meeting the quality assessment plan requirements set forth in <cite path="|10|10|12|.05">Regulation .05 of this chapter</cite>, a person seeking or holding a public health testing license shall ensure that public health testing program personnel meet the requirements and follow the manufacturer's test specifications and instructions for the rapid HIV test or rapid hepatitis virus C test being used.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A person seeking or holding a public health testing license shall ensure that public health testing program personnel pay attention to the precautions and warnings set forth in the manufacturer's testing specifications and instructions for the rapid HIV test or rapid hepatitis virus C test being used for:</text>
+      <para>
+        <num>(1)</num>
+        <text>Product usage;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Test system and kit controls; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The step-by-step instructions for performing the rapid HIV antibody test or rapid hepatitis C virus test.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.10</num>
+    <heading>Confirmatory Test.</heading>
+    <text>When an individual has a positive test result with the rapid HIV antibody test or rapid hepatitis C virus test, a person seeking or holding a public health testing license to offer or perform testing shall:</text>
+    <para>
+      <num>A.</num>
+      <text>Offer to perform a confirmatory test;</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Collect a specimen to refer to a laboratory to perform a confirmatory test; or</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Refer that individual to a health care provider to have a confirmatory test performed.</text>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Health-General Article, Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container">Effective date:</annotation>
+    <annotation type="History" dest="container" effective="2005-03-14">Regulations <cite path="|10|10|12|.01">.01</cite>—<cite path="|10|10|12|.10">.10</cite> adopted as an emergency provision effective January 19, 2005 (32:3 Md. R. 287); adopted permanently effective March 14, 2005 (32:5 Md. R. 580)</annotation>
+    <annotation type="History" dest="container" effective="2013-04-01"><cite path="|10|10|12|.01|A.">Regulation .01A</cite>, B amended effective April 1, 2013 (40:6 Md. R. 473)</annotation>
+    <annotation type="History" dest="container" effective="2013-04-01"><cite path="|10|10|12|.02|B.">Regulation .02B</cite> amended effective April 1, 2013 (40:6 Md. R. 473)</annotation>
+    <annotation type="History" dest="container" effective="2013-04-01"><cite path="|10|10|12|.03">Regulation .03</cite> amended effective April 1, 2013 (40:6 Md. R. 473)</annotation>
+    <annotation type="History" dest="container" effective="2013-04-01"><cite path="|10|10|12|.04">Regulation .04</cite> amended effective April 1, 2013 (40:6 Md. R. 473)</annotation>
+    <annotation type="History" dest="container" effective="2016-08-29"><cite path="|10|10|12|.04|E.">Regulation .04E</cite> amended effective August 29, 2016 (43:17 Md. R. 953)</annotation>
+    <annotation type="History" dest="container" effective="2013-04-01"><cite path="|10|10|12|.06|D.">Regulation .06D</cite>, E amended effective April 1, 2013 (40:6 Md. R. 473)</annotation>
+    <annotation type="History" dest="container" effective="2013-04-01"><cite path="|10|10|12|.07|B.">Regulation .07B</cite> amended effective April 1, 2013 (40:6 Md. R. 473)</annotation>
+    <annotation type="History" dest="container" effective="2013-04-01"><cite path="|10|10|12|.09">Regulation .09</cite> amended effective April 1, 2013 (40:6 Md. R. 473)</annotation>
+    <annotation type="History" dest="container" effective="2013-04-01"><cite path="|10|10|12|.10">Regulation .10</cite> amended effective April 1, 2013 (40:6 Md. R. 473)</annotation>
+  </annotations>
+</container>

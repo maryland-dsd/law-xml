@@ -1,0 +1,728 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>10</num>
+  <heading>Job-Related Alcohol and Controlled Dangerous Substances Testing</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Purpose.</heading>
+    <text>This chapter provides for the protection of employers, employees, and the public by setting fair and effective job-related alcohol and controlled dangerous substances testing standards to ensure accurate and reliable test results and to promote drug-free workplaces.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Scope.</heading>
+    <para>
+      <num>A.</num>
+      <text>This chapter provides the standards and procedures that employers, employees, and the Secretary shall meet when job applicants and employees are required to undergo job-related alcohol and controlled dangerous substances testing.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>This chapter does not apply to:</text>
+      <para>
+        <num>(1)</num>
+        <text>A person who is subject to federal or State commercial motor vehicle statutes or regulations concerning alcohol and controlled dangerous substances testing, to the extent that those statutes or regulations conflict with the requirements of this chapter;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An agency of the federal government;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Alcohol or controlled dangerous substances testing of an individual under arrest or held by a law enforcement or correctional agency;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Alcohol testing conducted by a law enforcement or correctional agency on breath-testing equipment certified by the State toxicologist; or</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Controlled dangerous substances testing by a laboratory facility of a law enforcement or correctional agency that maintains laboratory testing standards comparable to the standards in Health-General Article, §17-214, Annotated Code of Maryland.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="10|10|10|.03">
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>"Agent of the employer" means a person other than the employer or a licensed medical laboratory that employs individuals who perform preliminary screening of job applicants for controlled dangerous substances on behalf of the employer.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>"Chain-of-custody" means a method of tracking an individual's specimen for the purpose of maintaining control and accountability from initial collection through each stage in handling, testing, storing, reporting test results, and final specimen disposition.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Confirmation Test.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Confirmation test" means an analytical procedure performed after a preliminary or screening test and intended to verify or positively identify the presence of a controlled dangerous substance in a specimen.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Confirmation test" is limited to an analytical procedure that employs a combination of gas chromatography and mass spectrometry (GC/MS or GC/MS/MS) or mass spectrometry and mass spectrometry (MS/MS).</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Controlled Dangerous Substance.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Controlled dangerous substance" means a drug, substance, or immediate precursor as set forth in Schedules I—V, <cite doc="Md. Code" path="gcr">Criminal Law Article, Title 5, Subtitle 4, Annotated Code of Maryland</cite>.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Controlled dangerous substance" includes new substances controlled under federal law as provided in <cite doc="Md. Code" path="gcr|5-202">Criminal Law Article, §5-202, Annotated Code of Maryland</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Employee.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Employee" means an individual who performs work for an employer.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Employee" includes a salaried, contractual, full-time, part-time, temporary, hourly, and on-call employee or a volunteer.</text>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>"Employer" means a person who employs an individual to perform work.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>"Forensic testing" means testing performed for a nonclinical purpose and under procedures that produce test results that meet rules of evidence required in a court of law.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>"Immediate precursor" means a substance as defined in <cite doc="Md. Code" path="gcr|5-101">Criminal Law Article, §5-101, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>"Independent test" means a test performed at the request and expense of a job applicant, employee, or contractor to verify a test result obtained on the same specimen.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>"Job applicant" means an individual who has applied for a position with an employer but is not currently employed by the employer.</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>"Job-related testing" means any alcohol or controlled dangerous substances testing used by an employer for a lawful business purpose.</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>Laboratory.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Laboratory" means a facility, entity, or site that performs job-related alcohol or controlled dangerous substances testing.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Laboratory" does not include a collection site or other site where an employer or agent of the employer performs preliminary screening of job applicants for a controlled dangerous substance using a single-use test device for forensic testing.</text>
+        </para>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>"Letter of registration" means the authority in the form of a letter issued by the Secretary granting permission to an employer to perform preliminary screening of job applicants for a controlled dangerous substance.</text>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>"License" means the authority in the form of a permit issued by the Secretary granting permission for a laboratory to perform job-related alcohol or controlled dangerous substances testing.</text>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>"Medical review officer" means a licensed physician with knowledge of drug abuse disorders and drug and alcohol testing who is either employed or under contract to an employer that performs preliminary screening of job applicants for a controlled dangerous substance.</text>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>"Non-negative test result" means the result of a preliminary screening for a controlled dangerous substance that is not negative but that has not been confirmed by a licensed laboratory.</text>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>"Office of Health Care Quality (OHCQ)" means the Office of Health Care Quality of the Maryland Department of Health.</text>
+      </para>
+      <para>
+        <num>(18)</num>
+        <text>"Operator" means an individual employed by the employer or agent of the employer who performs a preliminary screening procedure as defined in <cite path="10|10|10|.03|B.|(19)">§B(19) of this regulation</cite>.</text>
+      </para>
+      <para>
+        <num>(19)</num>
+        <text>"Preliminary screening procedure" means a controlled dangerous substance test:</text>
+        <para>
+          <num>(a)</num>
+          <text>Using a single-use test device for forensic testing; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Performed by an employer or agent of the employer on a job applicant.</text>
+        </para>
+      </para>
+      <para>
+        <num>(20)</num>
+        <text>"Secretary" means the Secretary of Health or the Secretary's designee.</text>
+      </para>
+      <para>
+        <num>(21)</num>
+        <text>"Single-use test device for forensic testing" means the reagent-containing unit of a test system that:</text>
+        <para>
+          <num>(a)</num>
+          <text>Is in the form of a sealed container or cartridge possessing a validity check;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Possesses a nonresealable closure or an evidentiary tape to ensure detection of tampering;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Is self-contained and individually packaged;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Is discarded after each test; and</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Does not allow any test component or constituent of a test system to interact from test to test.</text>
+        </para>
+      </para>
+      <para>
+        <num>(22)</num>
+        <text>Specimen.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Specimen" means material derived from the human body and intended for laboratory testing.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Specimen" is limited to blood, urine, saliva, and hair.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Responsibilities of the Secretary.</heading>
+    <para>
+      <num>A.</num>
+      <text>Registration.</text>
+      <para>
+        <num>(1)</num>
+        <text>Requirement. The OHCQ shall register on the Secretary's behalf an employer that conducts a preliminary screening procedure on a job applicant for a controlled dangerous substance.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Forms. The OHCQ shall provide to each employer:</text>
+        <para>
+          <num>(a)</num>
+          <text>A registration application form; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A registration renewal form every 2 years after the initial registration.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Routine Surveys and Complaint Investigation.</text>
+      <para>
+        <num>(1)</num>
+        <text>Requirement. The Secretary or the OHCQ as the Secretary's designee shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Conduct routine surveys of preliminary screening sites;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Conduct surveys of preliminary screening sites as part of a complaint investigation; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Investigate written complaints related to compliance with the standards set forth in this chapter.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>On-site Surveys. The OHCQ may:</text>
+        <para>
+          <num>(a)</num>
+          <text>Annually conduct routine on-site surveys of preliminary screening sites;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Conduct a routine survey any time during a preliminary screening site's normal work hours; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Include as part of a routine survey or complaint investigation:</text>
+          <para>
+            <num>(i)</num>
+            <text>On-site observation and examination of preliminary screening facilities, equipment, screening devices, specimens, and screening procedures;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>On-site examination of documents pertinent to employer registration, preliminary screening performed by the employer or agent of the employer, and operator training; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>On-site interviews of employers and employees involved in performing, supervising, or managing preliminary screening.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Sanctions.</text>
+        <para>
+          <num>(a)</num>
+          <text>Imposition. If the Secretary finds that an employer or agent of an employer is not in compliance with a requirement or standard of this chapter, the Secretary may impose one or more of the following sanctions on the employer, agent of the employer, or both:</text>
+          <para>
+            <num>(i)</num>
+            <text>Suspension of a letter or letters of registration;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Revocation of a letter or letters of registration;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>A direct plan of correction;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>A limitation on preliminary screening; and</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>Required training and technical assistance.</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Departmental Actions. The Secretary shall carry out actions related to the imposition or lifting of sanctions involving preliminary screenings in the same manner as those involving a laboratory, as set forth in <cite path="|10.10.08">COMAR 10.10.08</cite>, including the providing of notice and hearings.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Employer Requirements.</heading>
+    <text>An employer who for job-related reasons requires an individual to be tested for alcohol or controlled dangerous substances shall:</text>
+    <para>
+      <num>A.</num>
+      <text>Have the specimen tested by a laboratory that holds a Maryland license in the discipline of job-related alcohol and controlled dangerous substances testing; and</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>At the time of testing and at the individual's request, inform the person of the name and address of the laboratory that will test the specimen.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Permissible Specimens.</heading>
+    <para>
+      <num>A.</num>
+      <text>General. An employer requiring job-related alcohol or controlled dangerous substances testing shall require that:</text>
+      <para>
+        <num>(1)</num>
+        <text>A job applicant provide only one or more of the following types of specimen:</text>
+        <para>
+          <num>(a)</num>
+          <text>Blood;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Urine;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Saliva; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Hair; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An employee or contractor provide only one or more of the following types of specimen:</text>
+        <para>
+          <num>(a)</num>
+          <text>Blood;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Saliva; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Urine.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Specimen Types. An employer requiring job-related alcohol or controlled dangerous substances testing may not require the testing of any specimen other than:</text>
+      <para>
+        <num>(1)</num>
+        <text>Blood, urine, saliva, or hair, for a job applicant; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Blood, saliva, or urine, for an employee or contractor.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Hair. An employer may require that a job applicant submit a hair specimen for controlled dangerous substances testing if the hair specimen is:</text>
+      <para>
+        <num>(1)</num>
+        <text>Less than or equal to 1-1/2 inches in length measured from the human body;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Tested only for preemployment purposes; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Not used for a purpose other than controlled dangerous substances testing.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Specimen Collection and Handling Procedures.</heading>
+    <para>
+      <num>A.</num>
+      <text>Chain of Custody. A person collecting a specimen shall employ quality assurance and chain-of-custody procedures that include:</text>
+      <para>
+        <num>(1)</num>
+        <text>Collecting a specimen in a sealed container that has a non-resealable closure or an evidentiary tape that assures detection of any tampering;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Collecting, handling, storing, and shipping a specimen in a manner that:</text>
+        <para>
+          <num>(a)</num>
+          <text>Maintains its identity, confidentiality, and physical integrity; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Precludes specimen contamination or adulteration; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Documenting each time a person accesses or transfers the specimen.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Specimen Quantity. A person collecting a specimen shall collect a quantity sufficient to perform an initial screening test, a confirmation test, and an independent test.</text>
+    </para>
+  </section>
+  <section cache:ref-path="10|10|10|.08">
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Protections for Job Applicants, Employees, and Contractors.</heading>
+    <para>
+      <num>A.</num>
+      <text>Notice of Positive Test Results.</text>
+      <para>
+        <num>(1)</num>
+        <text>An employer who requires a job applicant, employee, or contractor to be tested for job-related reasons for the use or abuse of a controlled dangerous substance or alcohol and who receives notice that a job applicant, employee, or contractor has tested positive for a controlled dangerous substance or alcohol shall provide to the job applicant, employee, or contractor with a confirmed positive test result:</text>
+        <para>
+          <num>(a)</num>
+          <text>A copy of the laboratory test indicating the test results;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A copy or written summary of the employer's policy covering an employee, contractor, or job applicant with a confirmed positive test result;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>If applicable, written notice of the employer's intent to take disciplinary action, terminate employment, or change the conditions of continued employment; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>A statement or copy of the provisions set forth in <cite path="10|10|10|.08|B.">§B of this regulation</cite> permitting a job applicant, employee, or contractor to request independent testing of the same sample for verification of the test result.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The employer shall deliver the information required to be provided under <cite path="10|10|10|.08|A.">§A of this regulation</cite> to the job applicant, employee, or contractor:</text>
+        <para>
+          <num>(a)</num>
+          <text>Either in person or by certified mail; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Within 7 days from the date confirmed positive test results are received by the employer.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Right to an Independent Test.</text>
+      <para>
+        <num>(1)</num>
+        <text>Challenge. A job applicant, employee, or contractor who is required to submit to job-related alcohol or controlled dangerous substances testing may request that an independent test be performed on the same specimen in a confirmation test by:</text>
+        <para>
+          <num>(a)</num>
+          <text>Notifying the employer and the laboratory that performed the confirmation test of the challenge to that test result; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Requesting that laboratory to submit a sufficient portion of the original specimen to a different laboratory chosen by the job applicant, employee, or contractor and licensed by the Secretary to perform alcohol or controlled dangerous substances testing.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Testing Sensitivity. The job applicant, employee, or contractor shall employ as an independent testing laboratory one that will perform the independent test using detection levels for alcohol or controlled dangerous substances equal to or lower than those provided by the laboratory that performed the initial confirmation test.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Costs. The job applicant, employee, or contractor shall pay all costs of independent testing including any costs associated with specimen handling and transport.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Confidentiality.</heading>
+    <para>
+      <num>A.</num>
+      <text>General. Except as otherwise provided in an employer's written drug testing policy, in this regulation, or in Health-General Article, §17-214, Annotated Code of Maryland, all information, interviews, reports, statements, memoranda, and test results received or produced as a result of job-related alcohol or controlled dangerous substances testing are confidential and may be released only under a lawful subpoena, court order, or a release signed by the individual tested, or, in the case of a minor, by the individual's parent or legal guardian.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Nonprescription and Medically Prescribed Drugs. In the course of obtaining information for, or as a result of, conducting job-related alcohol or controlled dangerous substances testing for an employer, a laboratory, a physician, including a physician retained by the employer, or any other person, may not reveal to the employer information regarding the use of a:</text>
+      <para>
+        <num>(1)</num>
+        <text>Nonprescription drug, excluding alcohol, that is not prohibited under the laws of the State; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Medically prescribed drug, unless the individual being tested is unable to establish that the drug was medically prescribed under the laws of the State.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.10</num>
+    <heading>Preliminary Screening by an Employer or Agent of the Employer.</heading>
+    <para>
+      <num>A.</num>
+      <text>In addition to any other applicable requirements in this chapter, an employer or agent of the employer that performs a preliminary preemployment screening procedure for a controlled dangerous substance on a job applicant shall meet the standards set forth in this regulation.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Registration Requirement. An employer or agent of the employer shall register the employer initially and every 2 years thereafter with the OHCQ by:</text>
+      <para>
+        <num>(1)</num>
+        <text>Submitting to the OHCQ a registration form that:</text>
+        <para>
+          <num>(a)</num>
+          <text>Lists the permanent office location of the employer and any agent of the employer in the State;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Lists the permanent locations where the employer or agent of the employer performs preliminary screenings; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>States whether the employer or agent of the employer performs preliminary screenings at temporary sites, uses mobile screening vehicles, or both; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Submitting to the OHCQ a registration fee of $50.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Single-Use Test Device. An employer or agent of the employer shall limit screening procedures to those that employ an FDA-cleared or approved single-use test device as defined in <cite path="|10|10|10|.03|B.|(21)">Regulation .03B(21) of this chapter</cite>.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Trained Operator. To perform a preliminary screening procedure, an employer or agent of the employer shall employ an operator who has been trained for each type of device to be used, including instruction that includes the operator's:</text>
+      <para>
+        <num>(1)</num>
+        <text>Reading the test manufacturer's package insert sheet;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Observing the test manufacturer's training video or receiving training:</text>
+        <para>
+          <num>(a)</num>
+          <text>From the test manufacturer;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>From an individual trained by the manufacturer; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Endorsed by the manufacturer;</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Completing the test manufacturer's self-administered test; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Performing tests, interpreting test results, and reporting results to job applicants under the supervision of a trained operator.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Training Records.</text>
+      <para>
+        <num>(1)</num>
+        <text>Requirement. An employer or agent of the employer shall establish and maintain training records that document the training required to properly perform a screening procedure.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Documentation. An employer or agent of the employer shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Keep a record of the training received by a trainee;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Document that a trainee has demonstrated competency in performing the screening procedure; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Maintain for at least 2 years documentation that the trainee has been trained as set forth in this regulation.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Quality Assurance. An employer or agent of the employer shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Limit screening procedures to those that employ an FDA-cleared or FDA-approved single-use test device for forensic testing, as defined in <cite path="|10|10|10|.03">Regulation .03 of this chapter</cite>;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Perform preliminary screening tests in accordance with the quality standards set forth in <cite path="10.10.03.02|C.|(2)">COMAR 10.10.03.02C(2)</cite> and (3);</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Collect and handle all specimens and ship non-negative specimens for testing, in a manner that:</text>
+        <para>
+          <num>(a)</num>
+          <text>Maintains the specimen donor's identity and confidentiality; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Precludes contamination of and tampering with the specimen;</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Provide a secure area with limited access to store a non-negative specimen before it is shipped to a laboratory and while it is retained pending:</text>
+        <para>
+          <num>(a)</num>
+          <text>Confirmatory testing;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Notice;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Any independent testing; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Final disposal;</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Submit a non-negative specimen subjected to a preliminary screening procedure to a licensed medical laboratory for confirmatory testing within 24 hours of screening;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Maintain a written record of the chain-of-custody for a specimen from the time it is collected until it is no longer needed for retesting or confirmatory testing;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Have a medical review officer, as defined in <cite path="|10|10|10|.03|B.|(15)">Regulation .03B(15) of this chapter</cite>, review positive test results resulting from a confirmatory test; and</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Retain for at least 1 year all records pertaining to preliminary screening.</text>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Notice and Independent Testing. An employer or agent of the employer who receives notice that a job applicant has tested positive for a controlled dangerous substance shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Provide to the job applicant the items specified in <cite path="|10|10|10|.08|A.">Regulation .08A of this chapter</cite>; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Inform the job applicant of the right to request that an independent test be performed on the same specimen, as set forth in <cite path="|10|10|10|.08|B.">Regulation .08B of this chapter</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>Voluntary Disclosure.</text>
+      <para>
+        <num>(1)</num>
+        <text>For the purposes of facilitating hiring, a job applicant may voluntarily disclose and provide documentation to an operator that the job applicant is using:</text>
+        <para>
+          <num>(a)</num>
+          <text>A nonprescription drug that is not prohibited under the laws of the State;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A medically prescribed drug; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Both.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An operator may disclose to the employer information involving the use of medically prescribed and nonprohibited nonprescription drugs voluntarily disclosed and documented to the operator by the job applicant.</text>
+      </para>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>Surveys and Complaint Investigations. An employer or agent of an employer shall permit the OHCQ to conduct an on-site survey of a preliminary screening site at any time during the screening site's normal hours of operation as part of a complaint investigation or routine inspection to determine compliance with the applicable requirements and standards set forth in this chapter.</text>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Health-General Article, §§17-202 and 17-214, Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="1998-10-05">Effective date: October 5, 1998 (25:20 Md. R. 1529)</annotation>
+    <annotation type="History" dest="container" effective="1999-12-13" discontinuity="true">Chapter, <cite path="|10.10.05">COMAR 10.10.05</cite>, recodified to <cite path="|10.10.10">COMAR 10.10.10</cite> effective December 13, 1999 (26:25 Md. R. 1897)</annotation>
+    <annotation type="History" dest="container" effective="2003-12-11"><cite path="|10|10|10|.03|B.">Regulation .03B</cite> amended effective February 18, 2002 (29:3 Md. R. 220); December 11, 2003 (30:24 Md. R. 1741)</annotation>
+    <annotation type="History" dest="container" effective="2002-02-18"><cite path="|10|10|10|.04">Regulation .04</cite> repealed and new Regulation .04 adopted effective February 18, 2002 (29:3 Md. R. 220)</annotation>
+    <annotation type="History" dest="container" effective="2003-12-11"><cite path="|10|10|10|.06">Regulation .06</cite> amended effective February 18, 2002 (29:3 Md. R. 220); December 11, 2003 (30:24 Md. R. 1741)</annotation>
+    <annotation type="History" dest="container" effective="2002-02-18"><cite path="|10|10|10|.10">Regulation .10</cite> adopted effective February 18, 2002 (29:3 Md. R. 220)</annotation>
+    <annotation type="History" dest="container" effective="2002-07-22"><cite path="|10|10|10|.10|F.">Regulation .10F</cite> amended effective July 22, 2002 (29:14 Md. R. 1074)</annotation>
+  </annotations>
+</container>

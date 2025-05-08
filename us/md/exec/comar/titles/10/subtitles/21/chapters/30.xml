@@ -1,0 +1,503 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>30</num>
+  <heading>Telemental Health Services</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Scope.</heading>
+    <para>
+      <num>A.</num>
+      <text>This chapter applies to public mental health system (PMHS) outpatient mental health centers (OMHC) or individual psychiatrists to provide psychiatric consultation, evaluation, and ongoing treatment, via interactive video telemental health (TMH) technologies to eligible individuals:</text>
+      <para>
+        <num>(1)</num>
+        <text>Located in designated rural geographic areas of Maryland; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>For whom personal psychiatric services are not available.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The purpose of providing psychiatric care via TMH technology is to:</text>
+      <para>
+        <num>(1)</num>
+        <text>Improve access to outpatient psychiatric care, thus reducing the individual's admission to emergency rooms, inpatient facilities, or detention centers;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Improve access to outpatient and inpatient psychiatric subspeciality consultation, thus improving diagnostic clarification, treatment recommendations, and planning for the individual; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Improve capacity and choice for outpatient ongoing psychiatric treatment, thus reducing the need to travel outside the community when local resources are limited.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, terms have the meanings stated in <cite path="|10.21.17">COMAR 10.21.17</cite> and this regulation.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>"Critical access hospital" means a hospital that is certified to receive cost-based reimbursement from Medicare.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>"Designated rural geographic areas" means the rural geographical areas in Maryland identified by the Department that typically have mental health needs that have limited local mental health resource capacity or specialty psychiatric care.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>"Distant site" means the site at which the psychiatrist is located at the time the mental health service is provided via a telecommunications system.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>"Emergency department services" means initial hospital services provided to individuals with a broad spectrum of illnesses and injuries, some of which may be life-threatening and requiring immediate attention.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>"Federally qualified health center" has the meaning stated in Health-General Article, §24-1301, Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>"Individual practitioner" means a psychiatrist who is licensed to practice psychiatry in Maryland, and either:</text>
+        <para>
+          <num>(a)</num>
+          <text>Is certified in psychiatry by the American Board of Psychiatry and Neurology; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Has completed the minimum educational and training requirements to be qualified to take the Board of Psychiatry and Neurology examination for certification in Neurology.</text>
+        </para>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>"Not available" means that the PMHS administrative services organization certifies that the individual cannot access psychiatric services.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>"Originating site" means a site that has been approved by the Department to provide TMH services, at which an eligible individual is located at the time the service is delivered via a telecommunications system.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>"Originating site fee" means the amount the Department reimburses an approved TMH originating site.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>"Professional fee" means the amount the Department reimburses an approved TMH distant facility or licensed individual mental health professional:</text>
+        <para>
+          <num>(a)</num>
+          <text>For a clinical care opinion, treatment, or both;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>To purchase, install, and maintain video conferencing equipment;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>To pay for line or per minute usage charges, or both; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>For any additional programmatic, administrative, clinical, or contingency support at the distant site.</text>
+        </para>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>Public Mental Health System (PMHS).</text>
+        <para>
+          <num>(a)</num>
+          <text>"Public mental health system" means the system for the delivery of mental health treatment and supports to individuals who meet medical necessity criteria and financial eligibility as established by the Administration.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Public mental health system" includes the specialty mental health system described in <cite path="|10.09.70">COMAR 10.09.70</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>"Rural health clinic" means a facility that meets the definition of a rural health clinic as contained in 42 CFR §491.2(f), as amended.</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>"Security" means the protection of information and information systems from unauthorized access, use, disclosure, disruption, modification, or destruction.</text>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>"Telemental Health (TMH)" means the delivery of mental health care at a distance through the use of technology-assisted communication.</text>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>"Telepresenter" means the individual at the originating site who introduces the patient to the distant site provider for examination, and to whom the distant site provider may delegate tasks and activities, and who is:</text>
+        <para>
+          <num>(a)</num>
+          <text>A licensed independent practitioner; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Licensed or certified to perform health care services by licensing, training, or experience for the performance of the task or activity as long as the task or activity does not require the exercise of independent medical judgment for its performance.</text>
+        </para>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>"Telepresenter fee" means the amount the Department reimburses a licensed, independent provider to present an individual to the TMH provider, due to medical necessity, to successfully complete the examination.</text>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>"Virtual private network connection" means a method of connecting to a private network via a public network.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Approval.</heading>
+    <text>The Department shall grant approval to a TMH provider to be eligible to receive State or federal funds for providing interactive TMH services if the TMH provider meets the requirements of this chapter and:</text>
+    <para>
+      <num>A.</num>
+      <text>For outpatient mental health centers, <cite path="|10.21.20">COMAR 10.21.20</cite>; or</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>If the TMH provider is an individual psychiatrist, <cite path="|10.09.36">COMAR 10.09.36</cite>.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Service Model.</heading>
+    <para>
+      <num>A.</num>
+      <text>TMH provides the opportunity for community-based medical and mental health providers to access general or subspecialty psychiatric care providers from other areas of the State.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>TMH providers may be private practice, part of a hospital, academic, health, or mental health care system.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>PMHS approved community-based providers or individual practitioners may engage in agreements with TMH providers for services.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Fee-for-service reimbursement shall be at an enhanced rate, as stipulated by the Department, provided all applicable provisions of this chapter are met and funds are available.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Eligibility.</heading>
+    <para>
+      <num>A.</num>
+      <text>Individual Eligibility. An individual is eligible to receive TMH services if the individual:</text>
+      <para>
+        <num>(1)</num>
+        <text>Is Medicaid eligible;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Meets the eligibility and medical necessity criteria for participation in the Public Mental Health System;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Resides in one of the designated rural geographic areas or whose situation makes person-to-person psychiatric services unavailable; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Voluntarily consents to TMH services, which shall be documented in the individual's medical record.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Individual Provider Eligibility. A provider of TMH services shall be a psychiatrist who:</text>
+      <para>
+        <num>(1)</num>
+        <text>Has an active:</text>
+        <para>
+          <num>(a)</num>
+          <text>License to practice psychiatry in Maryland; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Medicaid provider number;</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Complies with professional practice standards; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Completes a registration to provide TMH health services.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Originating Site Facility Eligibility. The following Maryland sites may be approved as an originating site for THM health service delivery:</text>
+      <para>
+        <num>(1)</num>
+        <text>County government offices appropriate for private clinical evaluation services;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Critical Access Hospital;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Federally Qualified Health Center;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Hospital;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Outpatient mental health center;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Physician's office;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Rural Health Clinic;</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Elementary, middle, high, or technical school with a supported nursing, counseling or medical office; or</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>College or university student health or counseling office.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Distant Site Location Eligibility. An approved distant TMH location shall be within the State.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Technical Requirements.</heading>
+    <text>A provider of TMH health services shall have video technology components as follows:</text>
+    <para>
+      <num>A.</num>
+      <text>A minimum bandwidth of 384 KBPS (H.263), 256 KBPS (H.264), or technical equivalent;</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A monitor with a:</text>
+      <para>
+        <num>(1)</num>
+        <text>Minimum net display of 16" diagonally; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Non-anamorphic video picture display;</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A minimum video resolution of 1 Common Intermediate Format (CIF), or 1 Source Input Format (SIF);</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Internet protocol sessions that are encrypted unless they are conducted entirely on a protected network, or using a virtual private network connection; and</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>A camera at the originating site, that has pan, tilt, and zoom capabilities that can be remotely controlled from the distant site.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Confidentiality.</heading>
+    <text>All originating and distant TMH sites shall comply with the rules and regulations concerning the privacy and security of protected health information under:</text>
+    <para>
+      <num>A.</num>
+      <text>Health-General Article, Title 4, Subtitle 3, Annotated Code of Maryland; and</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The Health Insurance Portability and Accountability Act of 1996 (HIPAA), 42 U.S.C. §§1320D et seq., as amended, and the implementing regulations at 45 CFR Parts 160 and 164, as amended.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Medical Records.</heading>
+    <para>
+      <num>A.</num>
+      <text>Originating Site. The originating site shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Be responsible for maintaining a complete medical record as if the individual were seen face-to-face at the originating site;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Meet the facility and community standard for medical record completion and retention, including applicable record reviews; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Be responsible for any proper release of information contained in an individual's medical record.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Distant Site.</text>
+      <para>
+        <num>(1)</num>
+        <text>The distant site shall maintain copies of all documentation completed by the distant site TMH provider unless the distant site TMH provider enters the information directly into the originating site's electronic medical record system.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The distant site, as part of its quality improvement system, shall have a process to review TMH care.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>As part of quality monitoring, when the originating site's electronic medical records are reviewed at the distant site, the:</text>
+        <para>
+          <num>(a)</num>
+          <text>Review may include the TMH provider's documentation online, if authorized; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Distant site may request sections of the individual's electronic medical record from the originating site for the distant site peer review.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>TMH records shall be retained according to the provisions of Health-General Article, §4-403, Annotated Code of Maryland.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Covered Services.</heading>
+    <para>
+      <num>A.</num>
+      <text>TMH services shall be authorized by the Administration's administrative service organization.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The Department shall reimburse an approved TMH provider for rendering the following psychiatric services to an eligible child, adolescent, or adult via a telecommunications system:</text>
+      <para>
+        <num>(1)</num>
+        <text>Diagnostic interview;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Individual therapy, with or without medication evaluation and management;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Family therapy, with or without the identified patient;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Group therapy for each individual, up to a maximum of 8 individuals;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Outpatient evaluation and management for a new or established patient;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Outpatient office consultation for a new or established patient;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Initial inpatient consultation for a new or established patient; and</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Emergency department services.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.10</num>
+    <heading>Reimbursement.</heading>
+    <para>
+      <num>A.</num>
+      <text>There are three categories of fees that the Department shall reimburse an approved TMH provider, as applicable:</text>
+      <para>
+        <num>(1)</num>
+        <text>Originating site fee;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Professional fee; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Telepresenter fee.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Originating Site Fee.</text>
+      <para>
+        <num>(1)</num>
+        <text>The originating site facility fee is set forth by the Center for Medicare and Medicaid Services, published annually and included in the Medicare Physician Fee Schedule Final Rule, issued by November 1, prior to the start of the calendar year for which it is effective.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Originating sites only may file for reimbursement and shall use the appropriate code modifier.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Fees paid to the originating site may be used to:</text>
+        <para>
+          <num>(a)</num>
+          <text>Purchase, install, and maintain video conferencing equipment;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Pay for line or per minute usage charges, or both; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Any additional programmatic, administrative, clinical or contingency support at the originating site.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Professional Fee. Professional Fee for individual providers or OMHC providing TMH is set forth in <cite path="|10.21.25">COMAR 10.21.25</cite>.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Telepresenter Fee. Telepresenter Fees for assisting in TMH are set forth in <cite path="|10.21.25">10.21.25</cite> and subject to the following requirements prior to billing:</text>
+      <para>
+        <num>(1)</num>
+        <text>A telepresenter fee is applicable only when, due to medical necessity, a licensed independent practitioner is required to present the individual to the distant provider to successfully complete the examination;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Fees for telepresenters that are not licensed independent practitioners, and fees for telepresenters that are licensed independent practitioners, but their presence is not medically necessary, are included as part of the originating site facility fee; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The distant provider shall clearly document in the individual's medical record the rationale requiring the involvement of the licensed independent practitioner, as medically necessary, at any particular session.</text>
+      </para>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Health-General Article, §10-901, Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="2010-09-06">Effective date: September 6, 2010 (37:18 Md. R. 1214)</annotation>
+  </annotations>
+</container>
