@@ -41,40 +41,24 @@
         <text>Instead of using dispersion modeling, a person may conduct a screening analysis by showing that total allowable emissions of a TAP will be less than the most stringent applicable emission rate listed in the tables in this section. Multiple screening levels with different averaging periods may apply to a TAP. These tables may not be used with screening levels having averaging periods other than those listed in the tables. Emission rates labeled "10 Meter Stacks, No Downwash" may be used only if all emissions of the TAP are discharged from a stack or stacks at least 32.8 feet (10 meters) high under conditions preventing downwash. (TM 86-02 describes conditions causing downwash.) Except as provided in <cite path="26.11.15.06">COMAR 26.11.15.06</cite>, these emission rates apply to the total allowable emissions from a premises.</text>
         <text>
           <table class="layout-table">
+            <thead>
+              <tr>
+                <th>Screening Level</th>
+                <th colspan="2">Premises Emission Rate <br/>(10 Meter Stacks and No Downwash)</th>
+                <th colspan="2">Premises Emission Rate <br/>(Shorter Stack, Possible Downwash, or Fugitive)</th>
+              </tr>
+              <tr>
+                <th proof="needed">
+                  <p>Annual (micro-</p>
+                  <p>grams/ cubic meter)</p>
+                </th>
+                <th>(lb./yr.)</th>
+                <th>(kg/yr.)</th>
+                <th>(lb./yr.)</th>
+                <th>(kg/yr.)</th>
+              </tr>
+            </thead>
             <tbody>
-              <tr>
-                <td data-text-align="center" data-vertical-align="bottom">
-                  <em>Screening Level</em>
-                </td>
-                <td colspan="2" data-text-align="center" data-vertical-align="bottom">
-                  <em>Premises Emission Rate <br/>(10 Meter Stacks and No Downwash)</em>
-                </td>
-                <td colspan="2" data-text-align="center" data-vertical-align="bottom">
-                  <em>Premises Emission Rate <br/>(Shorter Stack, Possible Downwash, or Fugitive)</em>
-                </td>
-              </tr>
-              <tr>
-                <td proof="needed" data-text-align="center" data-vertical-align="bottom">
-                  <p>
-                    <em>Annual (micro-</em>
-                  </p>
-                  <p>
-                    <em>grams/ cubic meter)</em>
-                  </p>
-                </td>
-                <td data-text-align="center" data-vertical-align="bottom">
-                  <em>(lb./yr.)</em>
-                </td>
-                <td data-text-align="center" data-vertical-align="bottom">
-                  <em>(kg/yr.)</em>
-                </td>
-                <td data-text-align="center" data-vertical-align="bottom">
-                  <em>(lb./yr.)</em>
-                </td>
-                <td data-text-align="center" data-vertical-align="bottom">
-                  <em>(kg/yr.)</em>
-                </td>
-              </tr>
               <tr>
                 <td>0.001—0.0099</td>
                 <td data-text-align="right">1.66</td>
@@ -115,24 +99,16 @@
         </text>
         <text>
           <table class="layout-table">
-            <tbody>
+            <thead>
               <tr>
-                <td data-vertical-align="bottom">
-                  <em>8-Hour or 1-Hour (micrograms/ cubic meter)</em>
-                </td>
-                <td data-text-align="center" data-vertical-align="bottom">
-                  <em>(lb./hr.)</em>
-                </td>
-                <td data-text-align="center" data-vertical-align="bottom">
-                  <em>(kg/hr.)</em>
-                </td>
-                <td data-text-align="center" data-vertical-align="bottom">
-                  <em>(lb./hr.)</em>
-                </td>
-                <td data-text-align="center" data-vertical-align="bottom">
-                  <em>(kg/hr.)</em>
-                </td>
+                <th>8-Hour or 1-Hour (micrograms/ cubic meter)</th>
+                <th>(lb./hr.)</th>
+                <th>(kg/hr.)</th>
+                <th>(lb./hr.)</th>
+                <th>(kg/hr.)</th>
               </tr>
+            </thead>
+            <tbody>
               <tr>
                 <td>1—9.9</td>
                 <td data-text-align="center">0.01</td>
@@ -587,12 +563,8 @@
           <tbody>
             <tr>
               <td proof="needed"/>
-              <td data-vertical-align="bottom">
-                <em>CAS Number</em>
-              </td>
-              <td data-vertical-align="bottom">
-                <em>Substance</em>
-              </td>
+              <th>CAS Number</th>
+              <th>Substance</th>
             </tr>
             <tr>
               <td data-vertical-align="middle" class="text-indent-2">(1)</td>
@@ -631,12 +603,8 @@
             </tr>
             <tr>
               <td proof="needed"/>
-              <td data-vertical-align="bottom">
-                <em>CAS Number</em>
-              </td>
-              <td data-vertical-align="bottom">
-                <em>Substance</em>
-              </td>
+              <th>CAS Number</th>
+              <th>Substance</th>
             </tr>
             <tr>
               <td data-vertical-align="middle" class="text-indent-2">(8)</td>
@@ -745,12 +713,8 @@
           <tbody>
             <tr>
               <td proof="needed"/>
-              <td data-vertical-align="bottom">
-                <em>CAS Number</em>
-              </td>
-              <td data-vertical-align="bottom">
-                <em>Substance</em>
-              </td>
+              <th>CAS Number</th>
+              <th>Substance</th>
             </tr>
             <tr>
               <td data-vertical-align="middle" class="text-indent-2">(1)</td>
@@ -1619,12 +1583,8 @@
           <tbody>
             <tr>
               <td proof="needed"/>
-              <td data-vertical-align="bottom">
-                <em>CAS Number</em>
-              </td>
-              <td data-vertical-align="bottom">
-                <em>Substance</em>
-              </td>
+              <th>CAS Number</th>
+              <th>Substance</th>
             </tr>
             <tr>
               <td data-vertical-align="middle" class="text-indent-2">(1)</td>
@@ -1953,15 +1913,9 @@
           <tbody>
             <tr>
               <td proof="needed"/>
-              <td data-vertical-align="bottom">
-                <em>CAS Number</em>
-              </td>
-              <td data-vertical-align="bottom">
-                <em>Substance</em>
-              </td>
-              <td data-text-align="center">
-                <em>Compliance Date</em>
-              </td>
+              <th>CAS Number</th>
+              <th>Substance</th>
+              <th>Compliance Date</th>
             </tr>
             <tr>
               <td data-vertical-align="middle" class="text-indent-2">(1)</td>
@@ -2209,15 +2163,9 @@
           <tbody>
             <tr>
               <td proof="needed"/>
-              <td data-vertical-align="middle">
-                <em>CAS Number</em>
-              </td>
-              <td data-vertical-align="middle">
-                <em>Substance</em>
-              </td>
-              <td data-text-align="center">
-                <em>Compliance Date</em>
-              </td>
+              <th>CAS Number</th>
+              <th>Substance</th>
+              <th>Compliance Date</th>
             </tr>
             <tr>
               <td data-vertical-align="middle" class="text-indent-2">(1)</td>
@@ -5282,12 +5230,8 @@
           <tbody>
             <tr>
               <td proof="needed"/>
-              <td data-vertical-align="middle" class="text-indent-2">
-                <em>CAS Number</em>
-              </td>
-              <td data-vertical-align="middle">
-                <em>Substance</em>
-              </td>
+              <th class="text-indent-2">CAS Number</th>
+              <th>Substance</th>
             </tr>
             <tr>
               <td class="text-indent-2">(1)</td>
@@ -5441,21 +5385,11 @@
           <tbody>
             <tr>
               <td proof="needed"/>
-              <td data-text-align="center" data-vertical-align="bottom">
-                <em>CAS Number</em>
-              </td>
-              <td data-text-align="center" data-vertical-align="bottom">
-                <em>Substance</em>
-              </td>
-              <td data-text-align="center" data-vertical-align="bottom">
-                <em>Concentration<br/>(micrograms/<br/>cubic meter)</em>
-              </td>
-              <td data-text-align="center" data-vertical-align="bottom">
-                <em>Averaging<br/> Time</em>
-              </td>
-              <td data-text-align="center" data-vertical-align="bottom">
-                <em>Type of Level</em>
-              </td>
+              <th>CAS Number</th>
+              <th>Substance</th>
+              <th>Concentration<br/>(micrograms/<br/>cubic meter)</th>
+              <th>Averaging<br/> Time</th>
+              <th>Type of Level</th>
             </tr>
             <tr>
               <td class="text-indent-2">(1)</td>
