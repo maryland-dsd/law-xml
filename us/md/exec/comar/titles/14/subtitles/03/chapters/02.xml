@@ -1,0 +1,850 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>02</num>
+  <heading>Anti-Discrimination Relating to Persons with Disabilities</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Statement of General Purpose.</heading>
+    <text>These regulations were adopted to contribute to the implementation of nondiscriminatory policies in employment and public accommodations with respect to persons with disabilities as required by <cite doc="Md. Code" path="gsg">State Government Article, Title 20, Annotated Code of Maryland</cite>.</text>
+  </section>
+  <section cache:ref-path="14|03|02|.02">
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>"Commission" means the Maryland Commission on Human Relations.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>"Covered entity" means a person or entity subject to the jurisdiction of the Commission under State Government Article, §§<cite doc="Md. Code" path="gsg|20-301">20-301</cite>—<cite doc="Md. Code" path="gsg|20-305">20-305</cite>, <cite doc="Md. Code" path="gsg|20-601">20-601</cite>, <cite doc="Md. Code" path="gsg|20-606">20-606</cite>—<cite doc="Md. Code" path="gsg|20-607">20-607</cite>, <cite doc="Md. Code" path="gsg|20-609">20-609</cite>, <cite doc="Md. Code" path="gsg|20-801">20-801</cite>, <cite doc="Md. Code" path="gsg|20-901">20-901</cite>—<cite doc="Md. Code" path="gsg|20-904">20-904</cite>, or 20-1017, Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>"Facility" means all or a portion of a building, structure, site, complex, equipment, bus, heavy or light rail, or other conveyance, road, walkway, passageway, parking lot, or other real or personal property, including the real property where the building, property, structure, or equipment is located.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>"ADAAG" means the Americans with Disabilities Act Accessibility Guidelines for Buildings and Facilities developed by the United States Architectural and Transportation Barriers Compliance Board, and adopted by the United States Department of Justice in Appendix A to 28 CFR Part 36.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>"Disabled individual" means an individual with a disability as defined in <cite path="14|03|02|.02|B.|(6)">§B(6) of this regulation</cite>.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>"Disability" means, with respect to an individual:</text>
+        <para>
+          <num>(a)</num>
+          <text>Epilepsy, infection with the human immunodeficiency virus, paralysis, amputation, lack of physical coordination, blindness or visual impairment, deafness or hearing impairment, muteness or speech impediment, physical reliance on a seeing eye dog, wheelchair, or other remedial appliance or device, or mental retardation or other mental impairment or deficiency which necessitates remedial or special education and related services;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A physical or mental impairment, other than those enumerated in <cite path="14|03|02|.02|B.|(6)|(a)">§B(6)(a) of this regulation</cite>, that is caused by bodily injury, birth defect, or illness, which substantially limits one or more of an individual's major life activities;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A record of a physical or mental impairment as set forth in §B(6)(a) or (b) of this regulation, including having a history of, or being misclassified as having, such an impairment;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Being regarded as having a physical or mental impairment as set forth in §B(6)(a) or (b) of this regulation, including one that:</text>
+          <para>
+            <num>(i)</num>
+            <text>Does not substantially limit major life activities, if the individual is treated by a covered entity as having such a limitation; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Substantially limits major life activities as a result of the attitude of the covered entity or of others towards the impairment; or</text>
+          </para>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Being treated by a covered entity as having an impairment, even if there is no physical or mental impairment.</text>
+        </para>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>"Major life activities" includes, but is not limited to, functions such as caring for oneself, performing manual tasks, walking, seeing, hearing, speaking, breathing, learning, working, driving a vehicle, socializing, and engaging in procreation and recreation.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>"Place of public accommodation" has the meaning stated in <cite doc="Md. Code" path="gsg|20-301">State Government Article, §20-301, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>"Physical or mental impairment" means:</text>
+        <para>
+          <num>(a)</num>
+          <text>A physiological disorder or condition, cosmetic disfigurement, or anatomical loss, affecting one or more of the following bodily systems:</text>
+          <para>
+            <num>(i)</num>
+            <text>Neurological;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Musculoskeletal;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Special sense organs;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Respiratory, including speech organs;</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>Cardiovascular;</text>
+          </para>
+          <para>
+            <num>(vi)</num>
+            <text>Reproductive;</text>
+          </para>
+          <para>
+            <num>(vii)</num>
+            <text>Digestive;</text>
+          </para>
+          <para>
+            <num>(viii)</num>
+            <text>Genitourinary;</text>
+          </para>
+          <para>
+            <num>(ix)</num>
+            <text>Hemic and lymphatic; or</text>
+          </para>
+          <para>
+            <num>(x)</num>
+            <text>Skin and endocrine; or</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A mental or psychological disorder such as mental retardation, organic brain syndrome, emotional or mental illness, and specific learning disabilities.</text>
+        </para>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>"Qualified individual with a disability" means an individual with a disability who:</text>
+        <para>
+          <num>(a)</num>
+          <text>With or without reasonable accommodation can perform the essential functions of the job in question; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Is otherwise qualified for the benefit, term, condition, or privilege of employment at issue.</text>
+        </para>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>"Qualified historic building or facility" means a building or facility that is:</text>
+        <para>
+          <num>(a)</num>
+          <text>Listed in or eligible for listing in the National Register of Historic Places under the National Historic Preservation Act of 1966, 16 U.S.C. §470a(a);</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Listed in or eligible for listing in the Maryland Register of Historic Properties under <cite doc="Md. Code" path="gsf|5A-323">State Finance and Procurement Article, §5A-323, Annotated Code of Maryland</cite>; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Designated as historic under a local law.</text>
+        </para>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>"Remedial appliance or device" means wheelchairs, prosthetic limbs and devices, braces, crutches, hearing aids, corrective lenses, and such other appliances or devices, which ameliorate or compensate for the limitations imposed by a physical or mental impairment, and which are acquired by an individual for such purpose.</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>"Service animal" means a guide dog, signal dog, or other animal, individually trained to do work or perform tasks for the benefit of an individual with a disability, including, but not limited to:</text>
+        <para>
+          <num>(a)</num>
+          <text>Guiding an individual with impaired vision;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Alerting an individual with impaired hearing to intruders or sounds;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Alerting an individual with seizures to the onset of a seizure;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Providing minimal protection or rescue work;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Pulling a wheelchair; or</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Retrieving items.</text>
+        </para>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>"Structural changes" means any physical alterations or removal of barriers to a facility that would cause the facility to be accessible to an individual with a disability.</text>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>"Teleworking" means an arrangement whereby an employee performs some or all of the employee's job duties at a work station located in the employee's residence, or at a designated location other than the employer's usual and customary worksite.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Verification of a Disability.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Commission may require the complainant to sign a waiver for the Commission to obtain verification of the existence, nature, and extent of the complainant's disability from a physician or other health care provider, based on medically accepted clinical or laboratory diagnostic techniques.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The determination of whether an individual has a physical or mental impairment, or is substantially limited in a major life activity, or both, shall be made on a case-by-case basis and without regard to the mitigating effects of any remedial appliance or device.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Employment.</heading>
+    <para>
+      <num>A.</num>
+      <text>Unlawful Employment Practices Generally. It is an unlawful employment practice for a covered entity to discriminate on the basis of disability against a qualified individual with a disability with regard to:</text>
+      <para>
+        <num>(1)</num>
+        <text>Recruitment, advertising, and job application procedures;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Hiring, upgrading, promotion, tenure, demotion, transfer, layoff, termination, right of return from layoff, and rehiring;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Rate of pay, other form of compensation, and change in compensation;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Job assignment, job referral, job classification, organizational structure, position description, line of progression, and seniority list;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Leave of absence, sick leave, family leave, or other leave;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Fringe benefits available by reason of employment, whether administered by the covered entity, except for underwriting or rate-setting practices of an insurer, as that term is defined in <cite doc="Md. Code" path="gin|1-101">Insurance Article, §1-101(v), Annotated Code of Maryland</cite>;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Union membership;</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Selection and financial support for training, including apprenticeship, professional meetings, conferences, and other related activities, and selection for leave of absence to pursue training;</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>Employer-sponsored activities, including social or recreational programs; and</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>Any other term, condition, or privilege of employment.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Unlawful Employment Practices Specifically. A covered entity may not:</text>
+      <para>
+        <num>(1)</num>
+        <text>Limit, segregate, or classify a job applicant or employee in a way that adversely affects the individual's employment opportunities or status, on the basis of disability prohibited by this chapter;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Participate in a contractual or other arrangement or relationship that has the effect of subjecting an applicant or employee to the discrimination, on the basis of disability prohibited by this chapter; or</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Fail to make an individualized assessment of a qualified individual with a disability's ability to perform the essential functions of a job, unless the qualification standard, employment test, or other selection criteria under which the individual was disqualified meet the requirements of a bona fide occupational qualification (BFOQ) reasonably necessary to the normal operation of the particular business or program.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Reasonable Accommodation in Employment.</heading>
+    <para>
+      <num>A.</num>
+      <text>A covered entity:</text>
+      <para>
+        <num>(1)</num>
+        <text>Shall make a reasonable accommodation to the known physical or mental limitations of a qualified individual with a disability;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Is not required to provide an accommodation, if it demonstrates that the accommodation would impose undue hardship on the operation of its business or program; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>May not deny an employment opportunity to a qualified individual with a disability, if the basis for the denial is the need to accommodate the individual's physical or mental limitations, and this accommodation, if attempted, would be reasonable.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Examples of a reasonable accommodation include, but are not limited to:</text>
+      <para>
+        <num>(1)</num>
+        <text>Making existing facilities used by employees readily accessible to, and usable by, individuals with disabilities;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Providing or modifying equipment or devices;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Job restructuring;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Part-time or modified work schedules;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Reassigning or transferring an employee to a vacant position, light duty job, different work location, or other alternative employment opportunity which is available under the employer's existing policies or practices;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Teleworking;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Permitting an employee to use paid or unpaid sick leave, disability leave, medical leave, or other leave which is available under the employer's existing policies or practices;</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Adjusting or modifying examinations, training materials, or policies;</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>Waiving a no pet requirement to allow use of a service animal;</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>Providing applicants or employees with a disability with an opportunity to demonstrate their pertinent knowledge, skills, and abilities by testing methods adapted to their special circumstances if employment tests are used;</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>Making reasonable modifications in the covered entity's rules, policies, and practices if the modification may enable an applicant or employee with a disability to perform the essential functions of the job; and</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>Reanalyzing, with full consideration to the needs of the applicant or employee with a disability, job specifications, qualifications, or criteria to determine if they may be waived or modified.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Undue Hardship in Employment.</heading>
+    <para>
+      <num>A.</num>
+      <text>The covered entity has the burden of proving an inability to accommodate a qualified individual with a disability.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>In determining whether an accommodation would impose an undue hardship on the covered entity's business or program, the following factors shall be considered:</text>
+      <para>
+        <num>(1)</num>
+        <text>The nature and cost of the accommodation needed;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The financial resources of the covered entity, and any parent corporation if applicable;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The size of the business with respect to the number and type of facilities;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The type of business or program, including the composition and structure of the work force;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The ability of the covered entity to conduct business or operate programs with the accommodation;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>The effect of the accommodation on other employees' performance; and</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Legitimate safety concerns.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Safety requirements shall be based on actual information or data, not speculation, conjecture, stereotypes, or generalizations about individuals with disabilities.</text>
+    </para>
+  </section>
+  <section cache:ref-path="14|03|02|.07">
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Preemployment Inquiries.</heading>
+    <para>
+      <num>A.</num>
+      <text>Except as provided in <cite path="14|03|02|.07|C.">§C of this regulation</cite>, a covered entity may not conduct a preemployment inquiry or medical examination to ascertain the existence of or the severity of a disability.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A covered entity may make a preemployment inquiry into an applicant's ability to perform job-related functions.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>This section does not prohibit a covered entity from conditioning an offer of employment on the results of a medical examination conducted before the employee's entrance on duty, if:</text>
+      <para>
+        <num>(1)</num>
+        <text>All entering employees in the same job category are subjected to the examination regardless of disability; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The results of the examination are used only in accordance with the requirements of <cite path="14|03|02|.07|D.">§D of this regulation</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Information obtained in accordance with this section as to the condition or history of the employee or applicant shall be collected and maintained on separate forms in separate files that are accorded confidentiality as medical records, except that:</text>
+      <para>
+        <num>(1)</num>
+        <text>Supervisors and managers may be informed regarding restrictions on the work or duties of an employee with a disability, and necessary accommodations;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>First aid and safety personnel may be informed, when appropriate, if the condition may require emergency treatment; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The staff of the Commission investigating compliance with <cite doc="Md. Code" path="gsg|20-606">State Government Article, §20-606, Annotated Code of Maryland</cite>, shall be provided medical information upon request.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Affirmative Defenses.</heading>
+    <para>
+      <num>A.</num>
+      <text>Bona Fide Occupational Qualification.</text>
+      <para>
+        <num>(1)</num>
+        <text>A covered entity may take discriminatory actions otherwise prohibited under this chapter if mental or physical ability is a bona fide occupational qualification (BFOQ), reasonably necessary to the normal operation of the business or program.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A covered entity has the burden of establishing the existence of a BFOQ. In determining whether the BFOQ defense, narrowly construed, has been met, a covered entity shall show that the particular standard or regulation is reasonably necessary to the normal operation of that business, and that:</text>
+        <para>
+          <num>(a)</num>
+          <text>All or substantially all individuals with the particular disability would be unable, even with reasonable accommodation, to perform the duties of the job in question; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>It is impossible or highly impractical to determine, on an individual basis, whether an individual with the particular disability would be able to perform the duties of the job in question.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Future Hazard.</text>
+      <para>
+        <num>(1)</num>
+        <text>A covered entity may take discriminatory actions otherwise prohibited by this chapter, if the applicant's or employee's disability would create a future hazard to health or safety.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>To establish a future hazard defense, a covered entity shall show that:</text>
+        <para>
+          <num>(a)</num>
+          <text>It conducted an individualized assessment of the individual's ability to perform the essential functions of the job in question; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>To a reasonable probability, the individual's disability, even with reasonable accommodation, would render the individual unable to perform the duties of the position in question without endangering the health or safety of the individual with a disability or others.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="14|03|02|.09">
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Public Accommodations Practices.</heading>
+    <para>
+      <num>A.</num>
+      <text>Unlawful Practices in Public Accommodations Generally. An owner, operator, manager, or lessor of a place of public accommodation may not discriminate on the basis of disability against an individual in the full and equal enjoyment of goods, services, facilities, privileges, advantages, or accommodations.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Unlawful Practices in Public Accommodations Specifically.</text>
+      <para>
+        <num>(1)</num>
+        <text>Unlawful Denial of Participation. An owner, operator, manager, or lessor of a place of public accommodation may not deny an individual with a disability, directly or indirectly, or through contractual, licensing, or other arrangements, the opportunity to participate in, or benefit from, a good, service, facility, privilege, advantage, or accommodation of a place of public accommodation.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Unequal Participation. An owner, operator, manager, or lessor of a place of public accommodation may not deny an individual with a disability, directly or indirectly, or through contractual, licensing, or other arrangements, the opportunity to participate in, or benefit from, a good, service, facility, privilege, advantage, or accommodation of a place of public accommodation that is equal to that afforded to an individual without a disability.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Separate Benefit. A public accommodation may provide separate benefits for individuals with disabilities only if requiring that individuals with disabilities be provided the same benefits as provided to individuals without disabilities would in effect create a barrier to full accessibility for the individual with a disability.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Examples of when a public accommodation is permitted to provide a separate benefit include, but are not limited to:</text>
+        <para>
+          <num>(a)</num>
+          <text>An athletic club which may provide a separate basketball league for wheelchair users, because integrating wheelchair users with nondisabled persons in the same game would create a barrier to full accessibility for the wheelchair users; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A museum which may provide a separate benefit to blind visitors through a separate tour in which they touch objects because the general rule that prohibits touching would create a barrier to full accessibility for blind visitors.</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The example in <cite path="14|03|02|.09|B.|(4)|(b)">§B(4)(b) of this regulation</cite> may not be construed to deny blind visitors the right to go on the standard tour observing the general rules applicable to all visitors.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Eligibility Criteria. An owner, operator, manager, or lessor of a place of public accommodation may not impose, or apply eligibility criteria, that screen out or tend to screen out an individual with a disability from fully and equally participating in a good, service, facility, privilege, advantage, or accommodation, unless this criteria can be shown to be necessary for the provision of the good, service, facility, privilege, advantage, or accommodation.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Surcharge. An owner, operator, manager, or lessor of a place of public accommodation may not impose a surcharge on an individual with a disability to cover the costs of complying with State Government Article, §§<cite doc="Md. Code" path="gsg|20-301">20-301</cite>—<cite doc="Md. Code" path="gsg|20-305">20-305</cite>, Annotated Code of Maryland.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.10</num>
+    <heading>Reasonable Accommodation in Public Accommodations.</heading>
+    <para>
+      <num>A.</num>
+      <text>An owner, operator, manager, or lessor of a place of public accommodation, shall make a reasonable accommodation for an individual with a disability.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>For the purposes of this section, reasonable accommodation means to make a building or facility suitable for access, use, and patronage by an individual with a disability without danger to the individual's health or safety, and without undue hardship or expense to the business, or other activity making such an accommodation.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Examples of a reasonable accommodation include, but are not limited to:</text>
+      <para>
+        <num>(1)</num>
+        <text>Providing at least one accessible route consisting of a continuous unobstructed path connecting all accessible elements and spaces of a building or facility which shall include compliance with:</text>
+        <para>
+          <num>(a)</num>
+          <text>ADAAG §4.6, parking and passenger loading zones, or other reasonable number of accessible parking spaces and passenger loading zones for individuals with physical disabilities;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>ADAAG §4.7, curb ramps, or other curb ramps or sloped areas in sidewalks, paths, and entrances to buildings or facilities;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>ADAAG §4.14, entrances, and §4.3, accessible route, or other accessible primary public entrance on at least the ground floor of the building or facility which allows safe and unobstructed passage by an individual using a wheelchair, which may be a service entrance only if the service entrance is the sole entrance for everyone;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>ADAAG §4.13, doors, or other doorways at the entrance and leading to each accessible space of sufficient clear width, and maneuvering clearances to allow safe and unobstructed passage by an individual using a wheelchair;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>ADAAG §4.2, space allowance and reach ranges, §4.3, accessible route, §4.4, protruding objects, and §4.5, ground and floor surfaces, or other walks, halls, corridors, passageways, aisles, and other spaces of sufficient clear width and maneuvering clearances, level grading with firm, stable, slip-resistant surfaces, and sufficient head room, to allow safe and unobstructed passage by an individual using a wheelchair;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Where necessary to provide safe access to floor spaces of higher or lower levels, ADAAG §4.8, ramps, or the installation of a ramp;</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>Where necessary to provide access over changes in floor levels too great for a ramp, or to provide vertical access to upper or lower floors, ADAAG §4.10, elevators, §4.11, platform lifts, or both, or the installation of a wheelchair lift or elevator;</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>ADAAG §4.3.10, egress, or §4.3.11, areas of rescue assistance, or other accessible means of egress for emergencies, with the doors of sufficient clear width and maneuvering clearances to allow safe and unobstructed passage by an individual using a wheelchair, or an accessible area of rescue assistance or approved alternative;</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If the building or facility has public toilet facilities, compliance with ADAAG §4.22, toilet rooms, §4.16, water closets, §4.17, toilet stalls, §4.18, urinals, and §4.19, lavatories, or otherwise providing a facility with at least one water closet, lavatory and toilet stall, with grab bars, on an accessible route, and with sufficient clear doorway and floor space to accommodate a person using a wheelchair;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If the building or facility has a public bathroom, bathing facility, shower room, or any of these, compliance with ADAAG §4.23, bathrooms, bathing facilities, and shower rooms, or otherwise providing a facility with grab bars, on an accessible route, and with sufficient clear doorway and floor space to accommodate a person using a wheelchair;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>If the building or facility has a public drinking fountain or water cooler, compliance with ADAAG §4.15, drinking fountains and water coolers, or otherwise providing at least one on accessible route with sufficient clear knee, or floor space, or both, at a height which allows an individual in a wheelchair to approach and use the drinking fountain or water cooler;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>If the building or facility has fixed or built-in storage facilities such as cabinets, shelves, closets, or drawers in accessible spaces, compliance with ADAAG §4.25, storage, or providing at least one of each type on an accessible route with sufficient clear floor space, and at a height which allows an individual in a wheelchair to approach and use the storage facility;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>If the building or facility has fixed or built-in seating, tables or counters in accessible public or common use areas, compliance with ADAAG §4.32, fixed or built-in seating and tables, or otherwise providing a reasonable number of seats, tables or counters on an accessible route with sufficient clear floor space and knee clearances, and at a height which allows an individual in a wheelchair to approach and use them;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>If the building or facility is a place of assembly with fixed seating, compliance with ADAAG §4.33, assembly areas, or otherwise providing a reasonable number of wheelchair seating locations on an accessible route with sufficient clear floor space and level surface for an individual in a wheelchair to comfortably view the performing areas with lines of sight comparable to those for members of the general public;</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Compliance with ADAAG §4.27, controls and operating mechanisms, or otherwise providing controls and operating mechanisms such as light switches and dispenser controls on an accessible route with sufficient clear floor space, and at a height which allows an individual in a wheelchair to approach and use the control or mechanism with limited force from one hand;</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>If the building or facility has an emergency warning system, compliance with ADAAG §4.28, alarms, or otherwise installing a system with both audible and visual alarms of sufficient intensity, and at locations from which they will be heard or seen by individuals with sensory impairments;</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>Compliance with ADAAG §4.29, detectable warnings, or otherwise installing detectable warnings on pedestrian walking surfaces that cross or adjoin vehicular ways, which are not separated by curbs, railings, or other elements; and</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>In addition to the above actions, taking other steps to remove architectural and communication barriers and to facilitate physical access to goods and services, including, but not limited to, the following:</text>
+        <para>
+          <num>(a)</num>
+          <text>Repositioning shelves;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Rearranging tables, chairs, vending machines, display racks, and other furniture;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Repositioning telephones;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Installing flashing alarm lights or visual alarms;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Adding raised markings on elevator control buttons;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Providing Brailled and raised character signage;</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>Waiving a no-pet requirement to allow the use of a service animal;</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>Maintaining in operable working condition those features of facilities and equipment that are required to be readily accessible to, and usable by an individual with a disability, except an owner, operator, manager, or lessor of a place of public accommodation may temporarily fail to have its facilities or equipment accessible due to short term maintenance or repair;</text>
+        </para>
+        <para>
+          <num>(i)</num>
+          <text>Modifying policies, practices and procedures to afford goods, services, facilities, privileges, advantages, or accommodations to an individual with a disability; and</text>
+        </para>
+        <para>
+          <num>(j)</num>
+          <text>Providing an individual with a disability integrated settings.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="14|03|02|.11">
+    <prefix>Regulation</prefix>
+    <num>.11</num>
+    <heading>Undue Hardship or Expense in Public Accommodations.</heading>
+    <para>
+      <num>A.</num>
+      <text>An owner, operator, manager, or lessor of a place of public accommodation is not required to make a reasonable accommodation, if it is demonstrated that the accommodation would impose undue hardship or expense to the operation of the business or program.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The owner, operator, manager, or lessor of a place of public accommodation has the burden of proving an inability to accommodate an individual with a disability because of undue hardship or expense.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>In determining if an accommodation would impose undue hardship or expense, the following factors shall be considered:</text>
+      <para>
+        <num>(1)</num>
+        <text>The nature and cost of the accommodation needed;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The financial resources of the individual or entity that owns, operates, manages, or leases the place of public accommodation, and a parent corporation, if applicable;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The overall size of the place of public accommodation, and number and type of facilities;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The type of business or program of the public accommodation; and</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Legitimate safety requirements that are necessary for safe operation.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Safety requirements referred in <cite path="14|03|02|.11|C.|(5)">§C(5) of this regulation</cite> shall be based on actual information or data, not speculation, conjecture, stereotypes, or generalizations about individuals with disabilities.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.12</num>
+    <heading>Qualified Historic Buildings and Facilities.</heading>
+    <para>
+      <num>A.</num>
+      <text>An owner, operator, manager, or lessor of a qualified historic building or facility that is a place of public accommodation shall comply with the reasonable accommodation requirements of <cite path="|14|03|02|.10">Regulation .10 of this chapter</cite>.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>In determining whether a particular accommodation is reasonable, in addition to the factors set forth in <cite path="|14|03|02|.11">Regulation .11 of this chapter</cite>, the impact of the accommodation on the historical significance of a qualified historic building or facility shall be considered. A public accommodation is not required to take any action that would threaten, or destroy the historical significance of the building or facility.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>In making this determination, the Commission staff shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Identify the historically significant features, finishes, materials, spaces, and spatial relationships that characterize the property, as well as the secondary features, finishes, materials, spaces, and spatial relationships, including previously altered areas and later additions, that may be less important to historic character;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Consult with the appropriate federal, State, or local government officials or agencies with oversight responsibilities, or all of these officials, including but not limited to, the State Historic Preservation Officer, the Maryland Historical Trust, the Maryland Advisory Council on Historic Preservation, the National Advisory Council on Historical Preservation, or all of these. Other interested persons shall be invited to participate in the consultation process, including State or local accessibility officials, individuals with disabilities, and organizations representing individuals with disabilities;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Seek accessibility solutions that:</text>
+        <para>
+          <num>(a)</num>
+          <text>Do not cause damage to, permanently alter, or require the removal of, historically significant features, finishes, materials, spaces, or spatial relationships;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Are in scale with the historic property; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Are visually compatible with the historic property.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Examples of accessibility modifications to a qualified historic building or facility may include, but are not limited to:</text>
+      <para>
+        <num>(1)</num>
+        <text>Regrading the entrance when the entrance steps and landscape are not highly significant;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Incorporating an entrance ramp or interior ramps, carefully designed and appropriately located to minimize the loss of historical features and preserve the overall historic setting and character;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Installing a vertical or inclined wheelchair lift or a portable wheelchair lift if appropriate to make an entrance accessible, or to overcome changes in elevation within the building or facility, preferably in unobtrusive locations;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Retrofitting nonhistorically significant doors, adapting door hardware and altering door thresholds to increase the size of the door opening and upgrade door pressure;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Upgrading historic elevators by modifying control panels and adjusting timing devices;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Modifying interior stairs by adding hand railings and beveled or closed risers; and</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Constructing a new addition to the building or facility with an accessible entrance and access to public levels via a ramp, wheelchair lift or elevator, where such addition is carefully located and compatible with the size, scale, and proportions of the property's historic features and materials.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>If it is determined that modifications necessary to provide physical access to all public areas of a qualified historic building or facility would threaten or destroy the historic significance of the property, the extent of physical access to the property may be limited as follows:</text>
+      <para>
+        <num>(1)</num>
+        <text>At least one accessible route from a site access point to an accessible entrance, which may be a ramp with a slope greater than that normally required if appropriate safety measures, such as handrails and nonskid surfaces, are used;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>At least one accessible entrance which is used by the public, or if not feasible:</text>
+        <para>
+          <num>(a)</num>
+          <text>Access at any unlocked entrance not used by the general public with directional signage at the primary entrance and a notification system; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>If security is a problem, remote monitoring may be used;</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If the building or facility has public toilets, at least one accessible toilet facility along an accessible route; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Accessible routes from the entrance to all publicly used spaces on at least the level of the accessible entrance, and if practical, to all levels of a building or facility.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>With respect to historically significant public areas or spaces, in which physical access cannot be provided without threatening or destroying the historical significance of the building or facility, alternative methods of programmatic access shall be provided, for example:</text>
+      <para>
+        <num>(1)</num>
+        <text>Using audio-visual materials and devices, interpretive panels, tactile models, Brailled exhibits, and other media to depict those portions of an historic building or facility that cannot otherwise be made accessible;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Assigning persons to guide individuals with disabilities into or through portions of historic buildings or facilities that cannot otherwise be made accessible; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Adopting other innovative measures.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.13</num>
+    <heading>More Stringent Laws.</heading>
+    <text>These regulations do not exempt compliance with State, federal or local laws requiring more stringent structural changes, modifications, or additions to buildings or vehicles.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.14</num>
+    <heading>Affirmative Action to Inform.</heading>
+    <text>A person engaged in a business which falls within the areas covered by <cite doc="Md. Code" path="gsg">State Government Article, Title 20, Annotated Code of Maryland</cite>, shall take affirmative action to inform individuals with disabilities, as well as the public in general, of nondiscriminatory policies with respect to individuals with disabilities.</text>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">State Government Article, §§<cite doc="Md. Code" path="gsg|10-111">10-111</cite>, <cite doc="Md. Code" path="gsg|10-111">10-111</cite>.1(b), 10-205, 2-506, and 20-207, Annotated Code of Maryland;<br/>62 Opinions of the Attorney General 36 (1977)</annotation>
+    <annotation type="History" dest="container" effective="1979-07-27">Effective date: July 27, 1979 (6:15 Md. R. 1285)</annotation>
+    <annotation type="History" dest="container" effective="1988-04-04"><cite path="|14|03|02|.02">Regulation .02</cite> amended effective April 4, 1988 (15:7 Md. R. 852)</annotation>
+    <annotation type="History" dest="container" effective="2001-12-24" discontinuity="true">Regulations <cite path="|14|03|02|.01">.01</cite>—<cite path="|14|03|02|.08">.08</cite>, Anti-Discrimination Relating to the Handicapped, repealed and new Regulations .01—14, Anti-Discrimination Relating to Persons with Disabilities, adopted effective December 24, 2001 (28:25 Md. R. 2192)</annotation>
+    <annotation type="History" dest="container" effective="2011-04-18"><cite path="|14|03|02|.01">Regulation .01</cite> amended effective April 18, 2011 (38:8 Md. R. 507)</annotation>
+    <annotation type="History" dest="container" effective="2011-04-18"><cite path="|14|03|02|.02|B.">Regulation .02B</cite> amended effective April 18, 2011 (38:8 Md. R. 507)</annotation>
+    <annotation type="History" dest="container" effective="2011-04-18"><cite path="|14|03|02|.07|D.">Regulation .07D</cite> amended effective April 18, 2011 (38:8 Md. R. 507)</annotation>
+    <annotation type="History" dest="container" effective="2011-04-18"><cite path="|14|03|02|.09|B.">Regulation .09B</cite> amended effective April 18, 2011 (38:8 Md. R. 507)</annotation>
+    <annotation type="History" dest="container" effective="2011-04-18"><cite path="|14|03|02|.14">Regulation .14</cite> amended effective April 18, 2011 (38:8 Md. R. 507)</annotation>
+  </annotations>
+</container>

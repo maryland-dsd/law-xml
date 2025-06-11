@@ -1,0 +1,720 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>20</num>
+  <heading>Hearings by the Board of Trustees</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Scope.</heading>
+    <para>
+      <num>A.</num>
+      <text>In General. This chapter applies to hearings conducted by the Board of Trustees of the Maryland Health Benefit Exchange.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Determinations Entitled to Hearings. This chapter applies only to the appeal of an Exchange determination regarding:</text>
+      <para>
+        <num>(1)</num>
+        <text>The amount of State-based subsidy paid by the Exchange to carriers pursuant to <cite path="|14.35.19">COMAR 14.35.19</cite>;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Contested cases under <cite path="|14.35.10">COMAR 14.35.10</cite> in which the Board has revoked delegation authority;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Rehearings held pursuant to <cite path="14.35.10.11|E.">COMAR 14.35.10.11E</cite>; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Any other matter in which the Board has the authority to conduct hearings, and the Board has determined that a hearing is necessary.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>“Board” means the Maryland Health Benefit Exchange Board of Trustees.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>“Board Secretary” means the Secretary for the Board of Trustees.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Contested Case.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Contested case” has the meaning stated in <cite doc="Md. Code" path="gsg|10-202">State Government Article, §10-202(d), Annotated Code of Maryland</cite>.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Contested case” includes a proceeding:</text>
+          <para>
+            <num>(i)</num>
+            <text>Arising out of a determination made by the Exchange;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Regarding an authorization, certification, or permit issued by the Exchange; or</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Arising out of any act of or failure to act by the Exchange, involving an authorization or a certification issued by the Exchange, that aggrieves a person.</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>“Contested case” does not include any other quasi-legislative hearing.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Determination.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Determination” means a decision by the Exchange that requires the Board to provide the opportunity for a hearing to a person aggrieved by the decision.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Determination” includes:</text>
+          <para>
+            <num>(i)</num>
+            <text>A decision as to whether a person against whom an administrative complaint has been received violated a law, regulation, or order; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>An order issued pursuant to the Board's authority.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>“Exchange” means the Maryland Health Benefit Exchange.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>“Executive Director” means the Executive Director of the Maryland Health Benefit Exchange, appointed pursuant to <cite doc="Md. Code" path="gin|31-105">Insurance Article, §31-105, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>“Maryland Health Benefit Exchange” has the meaning set forth under <cite doc="Md. Code" path="gin|31-101">Insurance Article, §31-101(e), Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>“Office” means the Office of Administrative Hearings.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>“Person” has the meaning set forth under <cite path="28.02.01.02|B.|(12)">COMAR 28.02.01.02B(12)</cite>.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>“Presiding officer” means the Board member selected by the board to conduct, manage, and oversee the hearing and the administrative matters of an appeal on behalf of the Board of Trustees of the Maryland Health Benefit Exchange.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="14|35|20|.03">
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Request for Hearing—In General.</heading>
+    <para>
+      <num>A.</num>
+      <text>Scope. This regulation applies to all requests for a hearing permitted under <cite path="|14|35|20|.01|B.">Regulation .01B of this chapter</cite>.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Except as provided in <cite path="14|35|20|.03|D.">§D of this regulation</cite>, a person aggrieved may request a hearing by submitting a written statement to the Board Chair, signed by the requesting person and containing the following information:</text>
+      <para>
+        <num>(1)</num>
+        <text>The action or nonaction of the Exchange causing the person requesting the hearing to be aggrieved;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The facts related to the incident or incidents about which the person requests the Board to act or not to act; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The ultimate relief requested.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Hearing Requests—Timing.</text>
+      <para>
+        <num>(1)</num>
+        <text>Except as provided in <cite path="14|35|20|.03|D.">§D of this regulation</cite>, a request for a hearing shall be received by the Board within 30 calendar days of the date of the letter notifying the party of the Exchange’s action, intention to act, or failure to act.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>In calculating the 30-day period, the date of the letter notifying the party of the Exchange's action, intention to act, or failure to act is not included.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The end of a day is considered to be 11:59 p.m. Eastern Time.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The last day of the 30-day period is included unless it is a Saturday, Sunday, legal holiday, or day that the Maryland Health Benefit Exchange is closed for a part of the day.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>If the last day of the 30-day period is a Saturday, Sunday, legal holiday, or a day that the Maryland Health Benefit Exchange is closed for a part of the day, the 30-day period runs until the end of the next day which is not a Saturday, Sunday, legal holiday, or day that the Maryland Health Benefit Exchange is closed for a part of the day.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Intermediate Saturdays, Sundays, legal holidays, and days that the Maryland Health Benefit Exchange is closed for a part of the day shall be counted toward the 30-day period.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Request for Hearing—Appeals of Procurement Bid Protests.</text>
+      <para>
+        <num>(1)</num>
+        <text>A person aggrieved may request a hearing under this subparagraph by submitting a written statement to the Board Chair postmarked within 10 calendar days after issuance of the decision resolving the protest, and containing the following information:</text>
+        <para>
+          <num>(a)</num>
+          <text>Each ground on which the protestor claims that the protest was resolved in error; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A copy of the initial protest and the decision of the Executive Director or designated procurement officer resolving the protest</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Ten copies of all required materials shall be submitted.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Except as provided in <cite path="14|35|20|.03|F.">§F of this regulation</cite>, upon receipt of a proper request, the Board shall grant a hearing unless, in viewing the facts set forth by the person making the request, in the light most favorable to that person, the Board determines that:</text>
+      <para>
+        <num>(1)</num>
+        <text>The Board has no authority to take action;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The request does not contain the information required by this chapter;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The request is untimely; or</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The request is moot.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>For appeals of procurement bid protests, instead of granting a hearing, the Board may:</text>
+      <para>
+        <num>(1)</num>
+        <text>Resolve the appeal without granting a hearing;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Elect to refer the matter for a hearing and recommended decision to a single member of the Board; or</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Elect to refer the matter for a hearing and recommended decision to a panel consisting of two or more members of the Board.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Service of Notices, Decisions, Orders, and Other Documents.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Board Secretary shall provide notice of a hearing pursuant to <cite doc="Md. Code" path="gsg|10-209">State Government Article, §10-209, Annotated Code of Maryland</cite>.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The notice shall state:</text>
+      <para>
+        <num>(1)</num>
+        <text>The date, time, place, and nature of the hearing;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The right to call witnesses and submit documents or other evidence under <cite doc="Md. Code" path="gsg|10-213">State Government Article, §10-213(f), Annotated Code of Maryland</cite>;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Any applicable right to request subpoenas for witnesses and evidence and specify the costs, if any, associated with such a request;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>That a copy of the hearing procedure is available on request and specify the costs associated with such a request;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Any right or restriction pertaining to representation;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>That failure to appear for the scheduled hearing may result in an adverse action against the party; and</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>That, unless otherwise prohibited by law, the parties may agree to the evidence and waive their right to appear at the hearing.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Notices, decisions, orders, and other documents issued by the Board may be served on a person by:</text>
+      <para>
+        <num>(1)</num>
+        <text>Personal delivery to the person;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Mailing a copy of the document, first class, postage prepaid, to the person's address of record on file with the Exchange;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Mailing a copy of the document, first class, postage prepaid, to the person's last known address if different from the person's address of record on file with the Exchange;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Mailing a copy of the document by certified mail to the person's address of record on file with the Exchange or last known address; or</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Delivering or mailing a copy of the document, first class, postage prepaid, to the person's attorney, if the person is represented by counsel.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Notice of a hearing is sufficient if the initial notice of a hearing is sent by regular mail to a party at the party's business and resident addresses, as applicable, on file with the Exchange.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>A hearing may be rescheduled if there is satisfactory showing that the notice was sent not less than 30 calendar days before the hearing, or upon agreement of all parties.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>The Board shall maintain a record stating:</text>
+      <para>
+        <num>(1)</num>
+        <text>To whom the initial notice was sent;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The address to which the initial notice was sent;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The date the initial notice was sent;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The manner of service; and</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The name of the person who sent the initial notice.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Discovery.</heading>
+    <para>
+      <num>A.</num>
+      <text>By written request served on other parties and filed with the presiding officer not later than 30 calendar days before the scheduled hearing, a party may require any other party to produce, within 15 calendar days, for inspection or copying, any file, memorandum, correspondence, document, object, or tangible item:</text>
+      <para>
+        <num>(1)</num>
+        <text>Relevant to the subject matter of the case; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Not privileged.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Unless provided by agreement of the parties, no other discovery procedure is allowed.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Copies.</text>
+      <para>
+        <num>(1)</num>
+        <text>Copies of requested documents and records shall be made at the expense of the party making the request.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The charge for copies of requested documents and records may be waived by the custodian of the documents in accordance with <cite doc="Md. Code" path="gsg|10-621">State Government Article, §10-621(e), Annotated Code of Maryland</cite>, or other applicable law.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Objection to Production.</text>
+      <para>
+        <num>(1)</num>
+        <text>A party may object to the production of a file, memorandum, correspondence, document, object, or tangible item by filing a motion to quash discovery or for other relief.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The presiding officer, for cause shown, may issue any order that justice requires to protect the party from annoyance, embarrassment, oppression, or undue burden or expense.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>A party who has responded to a request for production and who obtains or discovers, before the hearing, additional files, memoranda, correspondence, documents, objects, or tangible things that are relevant to the request for production shall supplement the response to the request promptly.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>If a party fails to comply with a request for production, the presiding officer, either on the presiding officer's own motion or by motion of the party requesting the production, may issue an order:</text>
+      <para>
+        <num>(1)</num>
+        <text>Refusing to allow the party to support or oppose designated claims or defenses;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Prohibiting the party from introducing designated matters into evidence;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Striking any allegations or charges made by the party failing to produce;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Staying further proceedings until the discovery is provided; or</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Dismissing the action or any part of it.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="14|35|20|.06">
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Subpoenas.</heading>
+    <para>
+      <num>A.</num>
+      <text>On request of a party, the presiding officer may issue subpoenas requiring the attendance and testimony of witnesses and the production, at the hearing, of any tangible items in the possession or under the control of a witness.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Subpoena Requests.</text>
+      <para>
+        <num>(1)</num>
+        <text>A request for a subpoena shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Be made, in writing, to the Board Chair; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Specify the:</text>
+          <para>
+            <num>(i)</num>
+            <text>Name and full address of the person to be subpoenaed; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Name, full address, and telephone number of the party requesting the subpoena.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A subpoena that requests the production of tangible items, books, papers, or other documents shall describe those items with particularity.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A subpoena request need not be served on all parties.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Service of Subpoenas.</text>
+      <para>
+        <num>(1)</num>
+        <text>Except as provided in <cite path="14|35|20|.06|C.|(2)">§C(2) of this regulation</cite>, subpoenas shall be served by hand delivery by an individual 18 years old or older who is not a party to the proceeding. For subpoenas requested 15 calendar days or less before the scheduled hearing, the requester shall provide service.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>In a case where the individual to be served resides outside Maryland, the subpoena may be served by certified mail.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Return of service shall be made by:</text>
+      <para>
+        <num>(1)</num>
+        <text>Affidavit, if hand delivered; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Return receipt, if mailed.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>A person may object to a subpoena by filing a motion to quash or for other relief.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>If a request for a subpoena was filed less than 15 calendar days before the hearing date, the presiding officer may refuse to postpone the hearing based on the party's inability to serve the subpoena.</text>
+    </para>
+  </section>
+  <section cache:ref-path="14|35|20|.07">
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Conduct of Hearing—In General.</heading>
+    <para>
+      <num>A.</num>
+      <text>A hearing conducted under this chapter shall be audio recorded and presided over by a quorum of the Board.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The presiding officer will determine whether a hearing will be open to the public, unless otherwise required by law.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Parties to Proceeding.</text>
+      <para>
+        <num>(1)</num>
+        <text>The necessary parties to a contested case proceeding or other matter for which a hearing is being held are:</text>
+        <para>
+          <num>(a)</num>
+          <text>The Exchange; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A person who requests a hearing due to being aggrieved by:</text>
+          <para>
+            <num>(i)</num>
+            <text>A determination made by the Exchange; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Any other act of or failure to act by the Exchange, involving an authorization or a certification issued by the Exchange.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Not later than 15 calendar days before the earlier of the prehearing conference or the hearing date, a person who is not a necessary party under <cite path="14|35|20|.07|C.|(1)">§C(1) of this regulation</cite> may seek to become a party by intervention by filing a motion to intervene, which shall state:</text>
+        <para>
+          <num>(a)</num>
+          <text>The basis for considering intervention to be timely; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>How the financial interests of the person will be directly and immediately affected by an order of the Board resulting from the hearing.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The presiding officer shall conduct the hearing and may allow the case to proceed in a manner necessary to ensure the fair resolution of the issues, including, but not limited to, placing reasonable limitations on the number of witnesses a party may call and the exclusion of evidence which is repetitive, irrelevant, immaterial, or otherwise not probative. The Maryland Rules of Civil Procedure may be used as a guide for resolving procedural issues regarding the conduct of the hearing.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>The presiding officer shall rule on all procedural matters, including motions, objections, and offers of proof.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>The Board may designate an attorney to represent the Exchange. Once the hearing is closed by the presiding officer, the individual presenting the case on behalf of the Exchange may not have a further role in the decision process of the Exchange.</text>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Motion for Summary Decision.</text>
+      <para>
+        <num>(1)</num>
+        <text>A party may move for summary decision at any time on any appropriate issue in the case.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Board may grant a final summary decision if the Board finds that:</text>
+        <para>
+          <num>(a)</num>
+          <text>There is no genuine issue of material fact; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A party is entitled to prevail as a matter of law.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>Motion to Dismiss. Upon motion, the Board may issue a final decision dismissing an initial pleading which fails to state a claim for which relief may be granted.</text>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>Motion for Judgment.</text>
+      <para>
+        <num>(1)</num>
+        <text>A party may move for judgment on any or all of the issues in any action at the close of the evidence offered by an opposing party. The moving party shall state all reasons why the motion should be granted. No objection to the motion for judgment shall be necessary. A party does not waive the right to make the motion by introducing evidence during the presentation of any opposing party's case.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>When a party moves for judgment at the close of the evidence offered by an opposing party, the Board may:</text>
+        <para>
+          <num>(a)</num>
+          <text>Proceed to determine the facts and to render judgment against an opposing party; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Decline to render judgment until the close of all evidence.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A party who moves for judgment at the close of the evidence offered by an opposing party may offer evidence if the motion is not granted, without having reserved the right to do so and to the same extent as if the motion had not been made. In so doing, the party withdraws the motion.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Postponements.</heading>
+    <para>
+      <num>A.</num>
+      <text>At the discretion of the presiding officer, a hearing may be postponed if a written request for postponement is filed with the presiding officer not later than 15 calendar days before the date of the hearing.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A hearing may not be postponed, except for good cause, when the request for postponement is filed within 15 calendar days of the date of the hearing.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Default Orders.</heading>
+    <para>
+      <num>A.</num>
+      <text>The presiding officer may issue a default order against a party other than the Exchange that, after receiving proper notice, fails to appear at a hearing if:</text>
+      <para>
+        <num>(1)</num>
+        <text>Notice is issued by the Board, and the party failing to appear is the person against whom the notice was issued; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>In any other contested case hearing, the party failing to appear is the person that requested the hearing.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>In a hearing arising out of a notice or determination issued by the Exchange, the default order shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>State the facts supporting the finding of proper notice to the person against whom the notice or determination was issued;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Adopt the facts and violations of law as alleged by the Exchange in its notice or determination as if by admission of the person against whom the charging document, order, or notice was issued; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Adopt the sanction requested by the Exchange.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The Board Secretary shall serve the default order directly on the parties by certified mail.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Within 15 calendar days after service of a default order, the party in default may submit to the Board a written motion:</text>
+      <para>
+        <num>(1)</num>
+        <text>Requesting that the default order be vacated or modified; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Stating the grounds for the request.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>If the presiding officer finds that there is:</text>
+      <para>
+        <num>(1)</num>
+        <text>Good cause to excuse the default, the presiding officer may:</text>
+        <para>
+          <num>(a)</num>
+          <text>Vacate or modify the default order; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Schedule the case for further appropriate proceedings; or</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>No good cause to excuse the default, the presiding officer shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Deny the motion; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Affirm the default order as the final order.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.10</num>
+    <heading>Decisions.</heading>
+    <para>
+      <num>A.</num>
+      <text>The presiding officer shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Sign the final order following a hearing; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>File a copy of the final order with the Exchange and serve a copy on all parties to the hearing.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The final order is effective when issued, unless a different date is specified in the decision.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The decision of the Board is the final administrative decision of the case.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.11</num>
+    <heading>Mistake or Error in the Final Order.</heading>
+    <text>The Board may correct an order if, upon review, the final order was issued as a result of fraud, mistake, or inadvertence or contains a clerical error.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.12</num>
+    <heading>Judicial Review.</heading>
+    <text>A party adversely affected by a final decision of the Board may obtain judicial review of the decision as provided by law.</text>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Insurance Article, §§<cite doc="Md. Code" path="gin|31-106">31-106</cite>(c)(<cite doc="Md. Code" path="gin|1">1</cite>)(iv), <cite doc="Md. Code" path="gin|31-112">31-112</cite>, and <cite doc="Md. Code" path="gin|31-113">31-113</cite>; State Government Article, Title 10, Subtitle 2, <br/>Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="2023-10-16">Effective date: October 16, 2023 (50:20 Md. R. 889)</annotation>
+  </annotations>
+</container>

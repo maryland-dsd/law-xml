@@ -1,0 +1,341 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>17</num>
+  <heading>State Reinsurance Program</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Scope.</heading>
+    <text>This chapter sets forth the structure, implementation, and eligibility standards for the State Reinsurance Program, as required under <cite doc="Md. Code" path="gin|31-117">Insurance Article, §31-117, Annotated Code of Maryland</cite>.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>“Affordable Care Act (ACA)” means the Patient Protection and Affordable Care Act of 2010 (Pub. L. 111-148), as amended, including by the Health Care and Education Reconciliation Act of 2010 (Pub. L. 111-152), and the regulations issued under it.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>“Annual Letter to Issuers” means a written communication, issued by the Individual and SHOP Exchange, that:</text>
+        <para>
+          <num>(a)</num>
+          <text>Provides guidance on how the Exchange will interpret laws and regulations, issues reminders regarding requirements of and compliance with relevant laws and regulations, and provides notification of policy developments; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Instructs issuers on how to meet compliance with QHP certification standards, establishes timelines on implementation, and details Exchange expectations of issuer compliance with such certification standards.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>“Attachment point” means the threshold dollar amount for claims costs incurred by a health insurance carrier for an enrolled individual’s covered benefits in a benefit year, after which threshold the claims costs for such benefits are eligible for reinsurance payments.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>“Benefit year” means a calendar year for which a health plan provides coverage for health benefits.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>“Board” has the meaning stated in <cite doc="Md. Code" path="gin|31-101">Insurance Article, §31-101, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>“Carrier business agreement” means the annual agreement between the Exchange and the carrier that contains terms and conditions governing compliance with the Annotated Code of Maryland, and State and federal regulations.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>“Carrier Reference Manual” means the document developed by the Exchange that provides business rules and operational instructions to authorized carriers participating on the Individual and SHOP Exchange.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>“Carrier-specific adjustment factors” means a set of coefficients that modify payments under the State Reinsurance Program and that replicate the modified payments that would occur by applying the Dampening Factor to the Federal Risk Adjustment Program.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>“Claims-to-premium ratio” means the resulting ratio produced by dividing total claims incurred (less State Reinsurance Program payments, federal risk adjustment payments, and federal high risk pool reinsurance payments) by the premium amount collected for a reinsurance-eligible plan.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>“Coinsurance rate” means the rate at which the applicable reinsurance entity will reimburse the health insurance issuer for claims costs incurred for an enrolled individual’s covered benefits in a benefit year after the attachment point and before the reinsurance cap.</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>“Dampening factor” means a coefficient that modifies payments under the State Reinsurance Program to account for RA/RI program interaction to the extent that the claims-to-premium ratio between payers and receivers under the risk adjustment is normalized.</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>“Individual Exchange” has the meaning stated in <cite doc="Md. Code" path="gin|31-101">Insurance Article, §31-101(h), Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>Payment Parameters.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Payment parameters” means the attachment point, coinsurance rate, and reinsurance cap for reinsurance payments.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Payment parameters” includes a dampening factor, if determined appropriate by the Board.</text>
+        </para>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>“Qualified health plan (QHP)" has the meaning stated in <cite doc="Md. Code" path="gin|31-101">Insurance Article, §31-101, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>“RA/RI program interaction” refers to payments received by a carrier for the enrolled population whose risk and claims experience would be eligible for payments under both the Federal Risk Adjustment Program and the State Reinsurance Program, such that the resulting full payment would result in a normalized claims-to-premium ratio, for the enrolled population identified in this definition, that is less than one.</text>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>“Reinsurance cap” means the threshold dollar amount for total claims costs paid by a health insurance issuer for an enrolled individual’s covered benefits, after which, the claims costs for such benefits are no longer eligible for reinsurance payments.</text>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>“Reinsurance-eligible plan” means any health benefit plan offered in the individual market, except for the limitations and exceptions provided in <cite path="|14|35|17|.03">Regulation .03 of this chapter</cite>.</text>
+      </para>
+      <para>
+        <num>(18)</num>
+        <text>“Risk adjustment covered plan” means, for the purpose of the risk adjustment program, any health insurance coverage offered in the individual or small group market with the exception of grandfathered health plans, group health insurance coverage described in 45 CFR §146.145(c), individual health insurance coverage described in 45 CFR §148.220, and any plan determined not to be a risk adjustment covered plan in the applicable federally certified risk adjustment methodology.</text>
+      </para>
+      <para>
+        <num>(19)</num>
+        <text>“Section 1332 State Innovation Waiver” means the waiver for state innovation filed by the State of Maryland, pursuant to 42 U.S. Code §18052.</text>
+      </para>
+      <para>
+        <num>(20)</num>
+        <text>“State Reinsurance Program” means the market stabilization program identified in <cite doc="Md. Code" path="gin|31-117">Insurance Article, §31-117, Annotated Code of Maryland</cite>.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="14|35|17|.03">
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Eligibility for Receipt of Reinsurance Payments.</heading>
+    <para>
+      <num>A.</num>
+      <text>Except as provided in <cite path="14|35|17|.03|B.">§B of this regulation</cite>, a qualified health plan is eligible to receive reinsurance payments from the State Reinsurance Program, provided that the qualified health plan is offered by a carrier that:</text>
+      <para>
+        <num>(1)</num>
+        <text>Is authorized to offer individual non-Medigap health benefit plans in Maryland;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Complies with the assessment under <cite doc="Md. Code" path="gin|6-102">Insurance Article, §6-102</cite>.1, Annotated Code of Maryland; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Meets all obligations set forth in the Carrier Business Agreement.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The following health benefit plans are not eligible to receive reinsurance payments:</text>
+      <para>
+        <num>(1)</num>
+        <text>Grandfathered health benefit plans as defined in §1251 of the Affordable Care Act;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Health benefit plans that are not required to submit reinsurance contributions under <cite doc="Md. Code" path="gin|6-102">Insurance Article, §6-102</cite>.1, Annotated Code of Maryland;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Group health insurance plans, including but not limited to those identified in <cite doc="Md. Code" path="gin|15-1202">Insurance Article, §15-1202, Annotated Code of Maryland</cite>;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Short-term, limited duration insurance plans, including but not limited to those identified in <cite doc="Md. Code" path="gin|15-1301">Insurance Article, §15-1301, Annotated Code of Maryland</cite>; and</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Association health plans, including but not limited to those offered by associations identified in <cite doc="Md. Code" path="gin|15-1301">Insurance Article, §15-1301, Annotated Code of Maryland</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Carrier State Reinsurance Program Accountability Report. For each year a carrier which offers a reinsurance-eligible plan participates in the State Reinsurance Program, the carrier shall submit to the Board a report on a date no later than that provided in the Annual Letter to Issuers, to be made publically available on the Individual Exchange website upon review of the Board, detailing carrier action to manage the costs and utilization of enrollees whose claims are reimbursable under the State Reinsurance Program. At minimum, the report shall include information related to the following:</text>
+      <para>
+        <num>(1)</num>
+        <text>The initiatives and programs the carrier administers to manage cost and utilization of enrollees whose claims are reimbursable under the State Reinsurance Program in a narrative summary format;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The total population of enrollees whose claims are reimbursable under the State Reinsurance Program, the allocation of these enrollees across each of the initiatives and programs identified in <cite path="14|35|17|.03|C.|(1)">§C(1) of this regulation</cite>, and the allocation of these enrollees who do not participate in the initiatives and programs identified in <cite path="14|35|17|.03|C.|(1)">§C(1) of this regulation</cite>;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The effectiveness of the initiatives and programs identified in <cite path="14|35|17|.03|C.|(1)">§C(1) of this regulation</cite> as measured by the estimated reduction of claims and utilization by the enrollees identified in <cite path="14|35|17|.03|C.|(1)">§C(1) of this regulation</cite>;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The actions the carrier will take to improve on the effectiveness estimates identified in <cite path="14|35|17|.03|C.|(3)">§C(3) of this regulation</cite>;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The estimated savings to the State Reinsurance Program based upon the effectiveness identified in <cite path="14|35|17|.03|C.|(3)">§C(3) of this regulation</cite>;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>The estimated rate impact of the initiatives and programs identified in <cite path="14|35|17|.03|C.|(1)">§C(1) of this regulation</cite>;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>The methodology utilized to determine which programs to include in <cite path="14|35|17|.03|C.|(1)">§C(1) of this regulation</cite>, estimated effectives in <cite path="14|35|17|.03|C.|(3)">§C(3) of this regulation</cite>, and estimated savings to the State Reinsurance Program in <cite path="14|35|17|.03|C.|(5)">§C(5) of this regulation</cite>; and</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Population health initiatives and outcomes for Individual Exchange enrollment.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="14|35|17|.04">
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Calculation of Reinsurance Payments Under the State Reinsurance Program.</heading>
+    <para>
+      <num>A.</num>
+      <text>A carrier of a reinsurance-eligible plan, as provided for in <cite path="|14|35|17|.03">Regulation .03 of this chapter</cite>, becomes eligible for reinsurance payments from the State Reinsurance Program when its claims costs for individual enrollees’ covered benefits in a benefit year exceed the attachment point established under the process identified in <cite path="14|35|17|.04|B.">§B of this regulation</cite>.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Each year the Board shall set the payment parameters for the State Reinsurance Program by determining the following factors:</text>
+      <para>
+        <num>(1)</num>
+        <text>An attachment point;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A coinsurance rate;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A reinsurance cap; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>A market-level dampening factor provided by the Commissioner, if determined necessary by the Board.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>For each benefit year after 2019, the Board shall set the estimated payment parameters for the State Reinsurance Program on or before April 1 of the calendar year proceeding the applicable plan year.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>For each benefit year after 2019, the Board shall set the final payment parameters for the State Reinsurance Program before December 31 of the calendar year proceeding the applicable plan year.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>The Exchange shall calculate each reinsurance payment made from the State Reinsurance Program as the product of the coinsurance rate multiplied by the carrier’s claims costs for an individual enrollee’s covered benefits that the carrier incurs in the applicable benefit year between the attachment point and reinsurance cap. The Exchange shall apply the carrier-specific adjustment factor provided in <cite path="14|35|17|.04|B.|(4)">§B(4) of this regulation</cite> to the product calculated above to determine the adjusted reinsurance payment.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>If the Individual Exchange determines that all reinsurance payments requested under the State Reinsurance Program by reinsurance-eligible plans in the State for a benefit year will not be equal to the amount of funding allocated to the State Reinsurance Program, the Individual Exchange shall determine a uniform pro rata adjustment to be applied to all such requests for reinsurance payments in the State.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Data Collection and Maintenance for Reinsurance Payments.</heading>
+    <para>
+      <num>A.</num>
+      <text>The carriers of reinsurance-eligible plans shall submit to the Exchange data required to determine reinsurance payments as described in <cite path="|14|35|17|.06">Regulation .06 of this chapter</cite>, or shall provide access to such data, according to the data requirements specified by the Exchange in the Annual Letter to Issuers.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The Individual Exchange shall establish a process through which an issuer of a reinsurance-eligible plan that does not generate individual enrollee claims in the normal course of business may use estimated claims costs to make a request for payment, or to submit data to be considered for reinsurance payments, in accordance with the requirements of <cite path="|14|35|17|.09">Regulation .09 of this chapter</cite>. The State shall ensure that such requests for reinsurance payment, or a subset of such requests, are subject to validation.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The Individual Exchange shall maintain documents and records relating to the State Reinsurance Program, whether paper, electronic, or in other media, for each benefit year for at least 10 years. The documents and records shall be sufficient to enable the evaluation of the State Reinsurance Program’s compliance with federal standards.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The Individual Exchange shall ensure that the collection of personally identifiable information is limited to information reasonably necessary for use in the calculation of reinsurance payments. Any use and disclosure of personally identifiable information shall be limited to those purposes for which the personally identifiable information was collected, including for purposes of data validation.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>The Individual Exchange shall maintain standards that provide administrative, physical, and technical safeguards for the personally identifiable information consistent with applicable State and federal standards.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Disbursement of Reinsurance Payments.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Individual Exchange shall make reinsurance payments to the carrier of a reinsurance-eligible plan after it receives a valid claim for payment from that carrier in accordance with the processes established in <cite path="|14|35|17|.07">Regulation .07 of this chapter</cite>.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>For each applicable benefit year, the Individual Exchange shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Notify carriers annually of reinsurance payments under the State Reinsurance Program payment parameters to be made for the applicable benefit year no later than September 30 of the year following the applicable benefit year; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Provide to each issuer of a reinsurance-eligible plan the calculation of total reinsurance payment requests made under the State Reinsurance Program payment parameters.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Request for Reinsurance Payment.</heading>
+    <para>
+      <num>A.</num>
+      <text>A carrier may make a request for payment when a carrier’s claims costs for an enrollee of a reinsurance-eligible plan has met the criteria for reinsurance payment set forth by the Board for the applicable benefit year.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A carrier of a reinsurance-eligible plan shall make requests for payment in accordance with the requirements of the Annual Letter to Issuers for the applicable benefit year.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Document Retention and Audits.</heading>
+    <para>
+      <num>A.</num>
+      <text>A carrier of a reinsurance-eligible plan shall maintain documents and records, whether paper, electronic, or in other media, sufficient to substantiate the requests for reinsurance payments made pursuant to <cite path="|14|35|17|.07">Regulation .07 of this chapter</cite> for a period of at least 10 years and shall make those documents and records available upon request by the Board or the Individual Exchange or its designee to any such entity for purposes of verification, investigation, audit, or other review of reinsurance payment requests.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The Individual Exchange may audit a carrier of a reinsurance-eligible plan to assess its compliance with the requirements of this chapter. The issuer shall ensure that its relevant contractors, subcontractors, or agents cooperate with any audit under this section. If an audit results in a finding of material weakness or significant deficiency with respect to compliance with any requirement of these regulations, the carrier shall complete all of the following:</text>
+      <para>
+        <num>(1)</num>
+        <text>Within 30 calendar days of the issuance of the final audit report, provide a written corrective action plan to the Exchange for approval;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Implement the corrective action plan; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Provide to the Exchange written documentation of the corrective actions once taken.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>State Reinsurance Program Surplus.</heading>
+    <text>For the Benefit Year 2019 and after, the Individual Exchange shall reserve any surplus, after all reinsurance payments have been remitted, for claims in future years of the State Reinsurance Program.</text>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container"><cite doc="Md. Code" path="gin|31-117">Insurance Article, §31-117(f), </cite>Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="2019-03-11">Effective date: March 11, 2019 (46:5 Md. R. 309)</annotation>
+  </annotations>
+</container>

@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>05</num>
+  <heading>Data Collection</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>“Center” means the Maryland Longitudinal Data System Center.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>“Data” means student and workforce data as defined under <cite doc="Md. Code" path="ged|24-701">Education Article, §24-701, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>“Data partner” means a State agency, an industry certifier, or other entity that originally collects student and workforce data and provides that data to the Center under <cite doc="Md. Code" path="ged|24-707">Education Article, §24-707, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>“Governing Board” has the meaning stated in <cite doc="Md. Code" path="ged|24-701">Education Article, §24-701, Annotated Code of Maryland</cite>.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="14|36|05|.02">
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Data Inventory.</heading>
+    <para>
+      <num>A.</num>
+      <text>General.</text>
+      <para>
+        <num>(1)</num>
+        <text>Except as provided in <cite path="14|36|05|.02|A.|(2)">§A(2) of this regulation</cite>, the Center may not collect, use, or warehouse data that is not listed in a data inventory approved by the Governing Board.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Center may temporarily collect limited data elements from a data partner for the purpose of determining if identify resolution is possible.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Data Inventory Requirements. The data inventory shall specify:</text>
+      <para>
+        <num>(1)</num>
+        <text>Each data element collected and warehoused in the system;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The data partner; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The date range for the data.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Required Review. The Governing Board shall review and approve the data inventory:</text>
+      <para>
+        <num>(1)</num>
+        <text>Each December prior to the submission of the annual report required under <cite doc="Md. Code" path="ged|24-705">Education Article, §24-705, Annotated Code of Maryland</cite>; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Each time the Center proposes adding or removing a data element.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The Center shall annually report any data element that has been removed upon determination that it is no longer necessary to carry out the mission of the Center.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Data Collection Schedule.</heading>
+    <text>The Governing Board shall approve a data collection schedule that establishes deadlines for each data partner to transfer its data to the Center.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Data Transmission.</heading>
+    <text>The Center shall establish a data transmission method that each data partner shall follow when transferring data to the Center.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Data Source.</heading>
+    <para>
+      <num>A.</num>
+      <text>State Data.</text>
+      <para>
+        <num>(1)</num>
+        <text>As provided in <cite doc="Md. Code" path="ged|24-707">Education Article, §24-707(a), Annotated Code of Maryland</cite>, the Center may collect student and workforce data directly from local education agencies, community colleges, public senior higher education institutions, or State agencies.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Center shall collect student and workforce data from a State agency if the State agency is already collecting that data or agrees to collect the data on behalf of the Center.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Private Secondary School Data.</text>
+      <para>
+        <num>(1)</num>
+        <text>As provided in <cite doc="Md. Code" path="ged|24-707">Education Article, §24-707(b), Annotated Code of Maryland</cite>, a private secondary school may transfer student and workforce data to the Center.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If such data is transferred, the Center may designate the Maryland State Department of Education as its agent for collecting data from the private secondary schools.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>For-Profit and Private Nonprofit Institutions of Higher Education Data.</text>
+      <para>
+        <num>(1)</num>
+        <text>As provided in <cite doc="Md. Code" path="ged|24-707">Education Article, §24-707(c), Annotated Code of Maryland</cite>, certain for-profit and private nonprofit institutions of higher education are required to transfer student-level data to the Center.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Center may designate the Maryland Higher Education Commission as its agent for collecting data from the for-profit and private nonprofit institutions of higher education.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Other Data Sources. The Center may collect and incorporate data from an entity other than a State or local agency, if the data collected by that entity:</text>
+      <para>
+        <num>(1)</num>
+        <text>Is permissible student data or workforce data;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Is determined to be accurate and reliable; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Is approved for inclusion by the Governing Board.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Medical and Health Records—Prohibited.</heading>
+    <para>
+      <num>A.</num>
+      <text>Definition.</text>
+      <para>
+        <num>(1)</num>
+        <text>For purposes of this regulation, the following term has the meaning indicated.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Medical and Health Records.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Medical and health records” means records created by a health care provider for the purpose of providing care and treatment to an individual.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Medical and health records” does not include information about a student that is:</text>
+          <para>
+            <num>(i)</num>
+            <text>Collected by a data partner that provides data to the MLDS under this subtitle; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Used solely to determine eligibility for or to administer educational services and programs to students.</text>
+          </para>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Prohibition.</text>
+      <para>
+        <num>(1)</num>
+        <text>Under <cite doc="Md. Code" path="ged|24-701">Education Article, §24-701(l)(3), Annotated Code of Maryland</cite>, medical and health records are not student data.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Center may not collect medical and health records.</text>
+      </para>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Education Article, §§<cite doc="Md. Code" path="ged|24-706">24-706</cite> and <cite doc="Md. Code" path="ged|24-707">24-707</cite>, Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="2015-07-06">Effective date: July 6, 2015 (42:13 Md. R. 796)</annotation>
+    <annotation type="History" dest="container" effective="2024-10-14"><cite path="|14|36|05|.01|B.">Regulation .01B</cite> amended effective October 14, 2024 (51:20 Md. R. 899)</annotation>
+    <annotation type="History" dest="container" effective="2024-10-14"><cite path="|14|36|05|.02">Regulation .02</cite> amended effective October 14, 2024 (51:20 Md. R. 899)</annotation>
+    <annotation type="History" dest="container" effective="2024-10-14"><cite path="|14|36|05|.03">Regulation .03</cite> amended effective October 14, 2024 (51:20 Md. R. 899)</annotation>
+    <annotation type="History" dest="container" effective="2024-10-14"><cite path="|14|36|05|.04">Regulation .04</cite> amended effective October 14, 2024 (51:20 Md. R. 899)</annotation>
+    <annotation type="History" dest="container" effective="2024-10-14"><cite path="|14|36|05|.05|D.">Regulation .05D</cite> amended effective October 14, 2024 (51:20 Md. R. 899)</annotation>
+    <annotation type="History" dest="container" effective="2024-10-14"><cite path="|14|36|05|.06">Regulation .06</cite> adopted effective October 14, 2024 (51:20 Md. R. 899)</annotation>
+  </annotations>
+</container>

@@ -1,0 +1,870 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>11</num>
+  <heading>Fair Hearings of Individual Exchange Eligibility Determinations</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Scope.</heading>
+    <text>This chapter applies to eligibility determinations and redeterminations for enrollment in qualified health plans, advance payments of the premium tax credit, cost-sharing reductions, and State-based subsidies offered through the Individual Exchange, as well as for MAGI-based eligibility determinations and redeterminations for the Maryland State Medicaid program and the Maryland Children’s Health Insurance Program.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>“Administrative law judge” means an individual appointed by the Chief Administrative Law Judge under <cite doc="Md. Code" path="gsg|9-1604">State Government Article, §9-1604, Annotated Code of Maryland</cite>, or designated by the Chief Administrative Law Judge under <cite doc="Md. Code" path="gsg|9-1607">State Government Article, §9-1607, Annotated Code of Maryland</cite>, to adjudicate contested cases at the Maryland Office of Administrative Hearings.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>“Affordable Care Act” means the Patient Protection and Affordable Care Act of 2010 (Pub.L. 111-148), as amended by the Health Care and Education Reconciliation Act of 2010 (Pub.L. 111-152), as amended by the Three Percent Withholding Repeal and Job Creation Act (Pub.L. 112-56).</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>“Appellant” means any individual who requests a fair hearing for the reasons specified in <cite path="|14|35|11|.03">Regulation .03 of this chapter</cite> or that individual’s authorized representative, whether regarding an initial determination or a redetermination.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>“Authorized representative” has the same meaning as in <cite path="|14|35|11|.14">Regulation .14 of this chapter</cite>.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>“Catastrophic plan” means a plan established under §1302(e) of the Affordable Care Act.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>“Consolidated Services Center” means the call center operated by the Maryland Health Benefit Exchange to assist consumers who apply for, or participate in, a qualified health plan or the insurance affordability programs offered through the Maryland Health Connection.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>“Delegate agency” means the Department of Human Services and its affiliate local departments which, under contractual agreements with the Department, determine initial and continuing eligibility in the Program.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>“Department” means the Maryland Department of Health, the single State agency which, pursuant to Title XIX of the Social Security Act, implements fair hearing requirements for Program applicants and recipients.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>“Individual Exchange” has the meaning stated in <cite doc="Md. Code" path="gin|31-101">Insurance Article, §31-101(h), Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>“Insurance affordability program” means a program that is one of the following:</text>
+        <para>
+          <num>(a)</num>
+          <text>The Maryland State Medicaid program;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The Maryland Children’s Health Insurance Program (CHIP), including the program known as Maryland Children’s Health Program (MCHP) Premium;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A State basic health program established under §1331 of the Affordable Care Act;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>A program that makes available to eligible individuals coverage in a qualified health plan through the Maryland Health Benefit Exchange with advance payments of the premium tax credit established under §36B of the Internal Revenue Code;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>A program that makes available to eligible individuals coverage in a qualified health plan through the Maryland Health Benefit Exchange with cost-sharing reductions established under §1402 of the Affordable Care Act; or</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>The State-Based Young Adult Health Insurance Subsidies Program established under <cite doc="Md. Code" path="gin|31-122">Insurance Article, §31-122, Annotated Code of Maryland</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>“MAGI” means modified adjusted gross income, as calculated for purposes of determining or redetermining eligibility for insurance affordability programs under the Affordable Care Act, as defined in 26 CFR §1.36B-1(e)(2).</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>“Maryland Health Benefit Exchange” or “Exchange” means the unit of State government that determines initial and continuing eligibility for the MAGI-based insurance affordability programs, including, by delegation, certain eligibility in the Program.</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>“Maryland Health Connection” means the electronic eligibility system maintained by the Maryland Health Benefit Exchange.</text>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>“Program” means the Department’s Medical Assistance Program.</text>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>Qualified Health Plan.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Qualified health plan” means a health benefit plan that has been certified by the Maryland Health Benefit Exchange to meet the criteria for certification described in §1311(c) of the Affordable Care Act and <cite doc="Md. Code" path="gin|31-115">Insurance Article, §31-115, Annotated Code of Maryland</cite>.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Qualified health plan” includes a catastrophic plan.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Opportunity for a Fair Hearing.</heading>
+    <para>
+      <num>A.</num>
+      <text>An opportunity for a fair hearing shall be granted if an applicant claims that:</text>
+      <para>
+        <num>(1)</num>
+        <text>The determination or redetermination received from the Exchange of the applicant’s eligibility for enrollment in a qualified health plan is incorrect;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The determination or redetermination received from the Exchange of the applicant’s eligibility for an insurance affordability program is incorrect; or</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The determination or redetermination received from the Exchange of the applicant’s eligibility for enrollment in a qualified health plan or an insurance affordability program is untimely as set forth in applicable law.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The administrative law judge need not grant a fair hearing if the sole issue is a federal or State law requiring an automatic change adversely affecting some or all applicants.</text>
+    </para>
+  </section>
+  <section cache:ref-path="14|35|11|.04">
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Notification of Right to Request a Fair Hearing.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Exchange shall notify an individual and the individual’s authorized representative, if previously designated by the individual or recognized as valid by the Exchange, in writing:</text>
+      <para>
+        <num>(1)</num>
+        <text>Of the right to obtain a fair hearing;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Of the method to obtain the hearing;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>That the individual may represent the individual or use an authorized representative at a fair hearing;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Of the circumstances under which the individual’s eligibility may be maintained or reinstated pending an appeal decision; and</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>That an appeal decision for one household member may result in a change in eligibility for other household members, and that such a change will be handled as a redetermination of eligibility for other household members.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The notification specified in <cite path="14|35|11|.04|A.">§A of this regulation</cite> shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Be provided by the Exchange when:</text>
+        <para>
+          <num>(a)</num>
+          <text>The individual applies for enrollment in a qualified health plan and, if applicable, for an insurance affordability program; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Any Exchange action affects the individual’s claim to enrollment in a qualified health plan, or to eligibility for, or the amount of, an insurance affordability program.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Include a statement of the action the Exchange intends to take;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Include the reasons for the intended action;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Include the specific regulations that support, or the change in federal or State law that requires, the action;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>To the extent required by law for Program benefits, include an explanation of the individual’s right to request a fair hearing, including that expenses incurred in connection with a fair hearing, such as transportation and baby-sitting costs, but not including attorney’s fees, shall be paid by the Department when incurred by the appellant and may be paid by the Department when incurred by the appellant’s witnesses;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Include information about fair hearings;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Include an explanation of the circumstances under which Program benefits are continued if a fair hearing is requested as provided in <cite path="|14|35|11|.05">Regulation .05 of this chapter</cite>;</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Identify who may act as an authorized representative of the appellant in the fair hearing process, explain how an applicant may designate an authorized representative, and provide information about designation procedures under <cite path="|14|35|11|.14">Regulation .14 of this chapter</cite>;</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>Specify that the appellant or the appellant’s authorized representative may examine the appellant’s records upon reasonable notice to the Exchange; and</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>For termination of Program benefits, be mailed at least 10 days before the date of action except as specified under <cite path="10.01.04.03|C.">COMAR 10.01.04.03C</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The notice specified in <cite path="14|35|11|.04|A.">§A of this regulation</cite> shall be mailed in accordance with 45 CFR §155.310(g) if the action is a determination or redetermination regarding eligibility for enrollment in a qualified health plan or eligibility for an insurance affordability program described in Regulation .02B(10)(d) or (e) of this chapter.</text>
+    </para>
+  </section>
+  <section cache:ref-path="14|35|11|.05">
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Request for Fair Hearing.</heading>
+    <para>
+      <num>A.</num>
+      <text>Statement of Request.</text>
+      <para>
+        <num>(1)</num>
+        <text>Any individual, either personally or through an authorized representative, may request a fair hearing by giving a clear statement, oral, electronic, or written, that the individual desires an opportunity to present for review any matter which is the proper subject of a fair hearing as provided in <cite path="|14|35|11|.03">Regulation .03 of this chapter</cite>. The request shall be made by:</text>
+        <para>
+          <num>(a)</num>
+          <text>Contacting the Exchange in writing, by mail, telephone, email, or fax;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Contacting the Consolidated Services Center maintained by the Exchange by mail, telephone, or fax;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Contacting the delegate agency in person or by mail, telephone, or fax;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Contacting the Department’s Office of Health Services in person or by mail, telephone, or fax; or</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Contacting the Office of Administrative Hearings in person, or by mail or fax.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Program’s Office of Health Services, the Exchange, the Consolidated Services Center, or the delegate agency that is contacted by an appellant or the appellant’s authorized representative about requesting a hearing shall assist the appellant or the appellant’s authorized representative in preparing the request.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The Program’s Office of Health Services, the Exchange, the Consolidated Services Center, or the delegate agency that receives or prepares a written statement on behalf of the appellant or the appellant’s authorized representative requesting an appeal shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Immediately forward an applicant’s statement to the Office of Administrative Hearings;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Indicate whether the appeal is for a determination or redetermination of eligibility to enroll in a qualified health plan or eligibility for an insurance affordability program, if known; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Note in its correspondence with the Office of Administrative Hearings if the appeal:</text>
+          <para>
+            <num>(i)</num>
+            <text>Concerns an immediate need for health services where the appellant’s life, health, or ability to attain, maintain, or regain maximum function would be jeopardized by the standard appeal process; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>To the extent required by applicable law, must be heard and decided within 3 working days after the Office of Administrative Hearings receives the fair hearing request.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>If a request for a hearing is made by someone other than the applicant, the Office of Administrative Hearings shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Treat the appeal as timely noted if it complies with <cite path="14|35|11|.05|D.">§D of this regulation</cite>, provided documentation pursuant to §A(4)(b) is provided on or before the hearing date, except that no documentation shall be required for representation pursuant to <cite path="14|35|11|.05|A.|(4)|(c)">§A(4)(c) of this regulation</cite>;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Accept appropriate documentation, up to and including the date of the fair hearing, demonstrating that the representative is authorized; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Accept the representation of any member of the bar of Maryland that the individual appellant is the member’s client without further documentation.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Acknowledgement. The Office of Administrative Hearings shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Send timely acknowledgement to the appellant, and the appellant’s authorized representative, if applicable, of the receipt of the fair hearing request;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Give advance notice in writing of the date, time, and place of the fair hearing;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Provide the appellant with the information specified in <cite path="|14|35|11|.04|A.|(4)">Regulation .04A(4) of this chapter</cite>; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Provide an explanation that any advance payments of the premium tax credit paid on behalf of the appellant pending appeal are subject to reconciliation pursuant to 26 CFR §1.36B-4.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Postponements.</text>
+      <para>
+        <num>(1)</num>
+        <text>If any party notifies the Office of Administrative Hearings that either the time or place designated by the Office of Administrative Hearings is not convenient to the party, and requests a different time or place for the fair hearing, the administrative law judge shall designate another time or place convenient to the parties if the administrative law judge deems that the party has sufficient reason for requesting the change.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If the appellant is employed during the periods when fair hearings are normally held, the administrative law judge shall attempt to schedule the hearing so that the appellant will not be required to miss employment.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Timeliness of Appeal. A request for a fair hearing may not be granted unless the request pursuant to <cite path="14|35|11|.05|A.">§A of this regulation</cite> is filed within 90 days of the receipt of the notification specified in <cite path="|14|35|11|.04|A.">Regulation .04A of this chapter</cite>, in one of the following methods:</text>
+      <para>
+        <num>(1)</num>
+        <text>Postmarked, delivered in person, or faxed to the Office of Administrative Hearings;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Postmarked, emailed, telephoned, or faxed to the Exchange;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Postmarked, telephoned, or faxed to the Consolidated Services Center;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Postmarked, delivered in person, telephoned, or faxed to the delegate agency; or</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Postmarked, delivered in person, telephoned, or faxed to the Department’s Office of Health Services.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Dismissal.</text>
+      <para>
+        <num>(1)</num>
+        <text>The Exchange or the Office of Administrative Hearings may dismiss a request for a fair hearing when the appeal has been:</text>
+        <para>
+          <num>(a)</num>
+          <text>Withdrawn in writing, either electronically or in hard copy; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Abandoned.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An appellant shall be deemed to have abandoned the appellant’s request for a fair hearing if the appellant fails to appear for the fair hearing on the established date without good cause as determined by the administrative law judge.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Program’s Response. In responding to timely filed requests for a fair hearing, the Office of Administrative Hearings:</text>
+      <para>
+        <num>(1)</num>
+        <text>May respond to a series of individual requests for hearing by conducting a single group hearing;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>May consolidate hearings only in cases in which the sole issue involved is one of federal or State law or policy; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Shall permit each applicant to present the appellant’s own case or be represented by the appellant’s authorized representative.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Prehearing Procedures.</heading>
+    <para>
+      <num>A.</num>
+      <text>A hearing summary shall be prepared containing pertinent information detailing the specific action that is the basis for the appeal. The summary shall be forwarded to the appellant or the appellant’s authorized representative and to the Office of Administrative Hearings at least 6 days before the hearing date.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The appellant and the Exchange may request the names of all witnesses that the other party intends to call at the fair hearing.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Hearing Procedures.</heading>
+    <para>
+      <num>A.</num>
+      <text>The appellant and the Exchange shall have the opportunity to:</text>
+      <para>
+        <num>(1)</num>
+        <text>Present witnesses;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Present documentary evidence;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Present oral and written argument without undue interference;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Establish all facts and circumstances the administrative law judge judges to be relevant; and</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Question or refute any testimony or evidence, including an opportunity to confront and cross-examine all witnesses the administrative law judge judges to be adverse.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>All parties that wish to call a witness at the hearing shall subpoena the witness in accordance with Office of Administrative Hearings procedures in <cite path="28.02.01.14">COMAR 28.02.01.14</cite>. The appellant or authorized representative may subpoena any employee of the Exchange whose action is being contested by the appellant or whose testimony may be relevant to the issues under consideration as determined by the administrative law judge.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Right to Review Record.</text>
+      <para>
+        <num>(1)</num>
+        <text>If the Exchange introduces as evidence documents from the case record, special investigation file, or other sources, the appellant shall have the opportunity to examine the:</text>
+        <para>
+          <num>(a)</num>
+          <text>Persons who prepared the documents; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Case record or special investigation file for the purpose of discovering information favorable to the appellant’s case.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Exchange shall have access to relevant portions of the appellant’s medical record in accordance with Health-General Article,  4-305, Annotated Code of Maryland, to the extent required by law.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>To the extent required by law, when a hearing involves a medical issue, such as a diagnosis, an examining physician’s report, or a medical review team’s decision, an additional medical assessment of the appellant’s condition shall be obtained and made part of the record if the administrative law judge considers it necessary. Any additional medical assessment shall be made by a person other than the person who made the original medical assessment and shall be obtained at the Exchange’s expense.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>The Record.</heading>
+    <para>
+      <num>A.</num>
+      <text>A verbatim recording of the fair hearing shall be made. Nonrecorded or confidential information, which the appellant does not have an opportunity to hear or see, may not be made a part of the hearing record. One transcribed copy of the recording shall be supplied to the appellant at no cost if the appellant takes a further appeal.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The following shall constitute the exclusive record of the hearing:</text>
+      <para>
+        <num>(1)</num>
+        <text>The transcript or recording of testimony and exhibits, or an official report containing the substance of what happened at the hearing;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>All papers and requests, including those maintained electronically, filed in the proceeding; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The administrative law judge’s decision.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The recording of testimony shall remain in the custody of the Office of Administrative Hearings for a period not to exceed 2 years, or until all litigation involving the decision is terminated. All other components of the record shall remain in the custody of the Exchange for a period not to exceed 2 years, or until all litigation involving the decision is terminated.</text>
+    </para>
+  </section>
+  <section cache:ref-path="14|35|11|.09">
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Findings, Timing of Decision, and Effect of Decision.</heading>
+    <para>
+      <num>A.</num>
+      <text>Findings.</text>
+      <para>
+        <num>(1)</num>
+        <text>The administrative law judge shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Prepare a written summary of findings and conclusions based exclusively on the record; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Make a decision based on his findings and conclusions.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The summary of findings and conclusions shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>State the evidence, policies, regulations, or laws upon which the administrative law judge’s decision is based; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Provide written notice to the appellant that, if they are not satisfied with the decision, they may seek additional appeals as specified in <cite path="14|35|11|.09|C.">§C of this regulation</cite>.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Timing of Hearing Decision.</text>
+      <para>
+        <num>(1)</num>
+        <text>The administrative law judge shall forward to the appellant, and to appellant’s authorized representative, if applicable, a copy of the findings, conclusions, and decision within 90 days from the date the appellant or appellant’s representative filed a request for a fair hearing pursuant to <cite path="|14|35|11|.05|A.">Regulation .05A of this chapter</cite>.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If the date of the fair hearing is postponed at the appellant’s request, the length of the postponement may not be counted as part of any of the time period specified in <cite path="14|35|11|.09|B.|(1)">§B(1) of this regulation</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Appeal Rights.</text>
+      <para>
+        <num>(1)</num>
+        <text>Any party may seek judicial review as provided in <cite doc="Md. Code" path="gsg|10-222">State Government Article, §10-222, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An administrative law judge’s decision:</text>
+        <para>
+          <num>(a)</num>
+          <text>Related to Program benefits:</text>
+          <para>
+            <num>(i)</num>
+            <text>Shall be implemented immediately, if adverse to the appellant.</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>If favorable to the appellant, shall be implemented retroactively to the date the incorrect action was taken; or</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Related to eligibility for enrollment in a qualified health plan, advance payments of the premium tax credit, cost-sharing reductions, or State-based subsidies shall be implemented in accordance with 45 CFR §155.545(c)(1).</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>To the extent an administrative law judge’s decision upholds the determination or redetermination of the Exchange with respect to an applicant for eligibility for enrollment in a qualified health plan or for an insurance affordability program described in Regulation .02B(10)(d) or (e), the applicant may appeal to the United States Department of Health and Human Services pursuant to 45 CFR §155.520(c).</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Effect of Decision.</text>
+      <para>
+        <num>(1)</num>
+        <text>When the decision requires action by the Department, the Exchange shall notify the Department.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>When the decision is favorable to the appellant, or when the Exchange grants the appellant the relief the appellant requests before the decision, the Exchange, where applicable, shall authorize corrected payments or relief retroactive to the date the incorrect action was taken and redetermine eligibility for household members whose eligibility may be affected by the appeals decision.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Any payment or action by the Exchange under <cite path="14|35|11|.09|D.|(2)">§D(2) of this regulation</cite> may not constitute a waiver of the Exchange’s sovereign immunity from suit.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.10</num>
+    <heading>Confidentiality.</heading>
+    <para>
+      <num>A.</num>
+      <text>If the appellant waives in writing his privilege of confidentiality as to the fair hearing, the administrative law judge shall permit members of the public to attend the hearing.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The administrative law judge may cause the removal of any member of the public whose conduct impedes the orderly progress of the hearing, or recess the hearing until it may proceed in orderly fashion.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The administrative law judge may exclude from the hearing individuals who have not given the Exchange advance notice of their intention to attend if the size of the hearing room is too small to accommodate them.</text>
+    </para>
+  </section>
+  <section cache:ref-path="14|35|11|.11">
+    <prefix>Regulation</prefix>
+    <num>.11</num>
+    <heading>Program Benefits During Appeals Process.</heading>
+    <para>
+      <num>A.</num>
+      <text>Benefits Pending Outcome of the Hearing.</text>
+      <para>
+        <num>(1)</num>
+        <text>The Program may terminate or reduce services effective as of the date specified in the notice if the Program timely mails the notice as required under <cite path="|14|35|11|.04">Regulation .04 of this chapter</cite> and:</text>
+        <para>
+          <num>(a)</num>
+          <text>The appellant or the appellant’s authorized representative does not timely request a hearing in accordance with <cite path="|14|35|11|.05">Regulation .05 of this chapter</cite>; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The appellant or the appellant’s authorized representative withdraws in writing or abandons a request for a fair hearing.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Except as provided in <cite path="14|35|11|.11|A.|(3)">§A(3) of this regulation</cite>, the Program may not terminate or reduce services until a decision is rendered after the hearing if:</text>
+        <para>
+          <num>(a)</num>
+          <text>The Program timely mails the notice as required under <cite path="|14|35|11|.04">Regulation .04 of this chapter</cite>; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The appellant requests a hearing before the date of the action.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The Program may terminate or reduce services before an administrative law judge renders a decision after a hearing if:</text>
+        <para>
+          <num>(a)</num>
+          <text>The administrative law judge determines at the hearing that the sole issue is one of federal or State law or policy, or the request for a fair hearing is withdrawn in writing or abandoned; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The Program includes in the notification required by <cite path="|14|35|11|.04">Regulation .04 of this chapter</cite> that services are to be terminated or reduced pending the hearing decision.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Reinstating Benefits.</text>
+      <para>
+        <num>(1)</num>
+        <text>If the Program terminates or reduces services pursuant to <cite path="14|35|11|.11|A.">§A of this regulation</cite>, the Program may reinstate services if a Program recipient requests a hearing not more than 10 days after the date of action.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The reinstated services shall continue until a hearing decision, unless, at the hearing, the administrative law judge determines that the sole issue is one of federal or State law or policy.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The Program shall reinstate and continue services until a decision is rendered after a hearing if:</text>
+        <para>
+          <num>(a)</num>
+          <text>Action is taken without the advance notice being given to the recipient as required by <cite path="|14|35|11|.04">Regulation .04 of this chapter</cite>;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The recipient requests a hearing within 10 days of the mailing of the notice of action; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The Program determines that the action resulted from other than the application of federal or State law or policy.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>If a recipient’s whereabouts are unknown, as indicated by the return of unforwardable Program mail directed to the recipient, any discontinued services shall be reinstated if the recipient’s whereabouts become known during the time the recipient is eligible for services.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The administrative law judge may provide for an additional period during which time the request for a fair hearing will result in reinstatement of a recipient’s assistance to be continued until the hearing decision.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="14|35|11|.12">
+    <prefix>Regulation</prefix>
+    <num>.12</num>
+    <heading>Eligibility for Enrollment in a Qualified Health Plan, for Advance Payments of Premium Tax Credit, for Cost-Sharing Reductions, and for the State-Based Young Adult Health Insurance Subsidies Program Pending Appeal.</heading>
+    <para>
+      <num>A.</num>
+      <text>Eligibility for Enrollment in a Qualified Health Plan.</text>
+      <para>
+        <num>(1)</num>
+        <text>If, upon initial determination, an applicant has been determined to be ineligible to enroll in a qualified health plan, the applicant may not enroll in a qualified health plan pending the outcome of the appeal.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Except where the applicant does not appeal a redetermination of eligibility within 90 days of such redetermination, an applicant enrolled in a qualified health plan who, upon redetermination, is found ineligible to remain enrolled in the qualified health plan may remain enrolled in the qualified health plan pending the outcome of the appeal.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Eligibility for Advance Payments of the Premium Tax Credit, Cost-Sharing Reduction, and/or the State-Based Young Adult Health Insurance Subsidies Program.</text>
+      <para>
+        <num>(1)</num>
+        <text>Except where the applicant does not appeal an initial determination of eligibility within 90 days of such determination, an applicant who, upon initial determination, has been determined to be eligible to enroll in a qualified health plan may enroll in a qualified health plan within 90 days of the determination of eligibility for a qualified health plan notwithstanding ineligibility for or the amount of Advance Payments of the Premium Tax Credit, Cost-Sharing Reduction, or State-based subsidy for which the applicant was determined to be eligible.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Pending the outcome of the appeal, the applicant under <cite path="14|35|11|.12|B.|(1)">§B(1) of this regulation</cite> will receive only the amount of the advance payments of the premium tax credit, cost-sharing reduction, and/or State-based subsidy if any, for which applicant was determined to be eligible upon initial determination.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Except where the applicant does not appeal a redetermination of eligibility within 90 days of such redetermination, an applicant who is receiving advance payments of the premium tax credit and/or cost-sharing reduction and is found to be ineligible for, or subject to a reduced amount of, advance payments of the premium tax credit and/or cost-sharing reduction during a redetermination may elect to continue to receive the advance payments of the premium tax credit and/or cost-sharing reduction that the applicant had been receiving immediately prior to the redetermination pending the outcome of the appeals process, provided that the applicant attests to understanding that by continuing to receive the advance payments of the premium tax credit the applicant may incur a liability to the Internal Revenue Service pursuant to 26 U.S.C. §36B.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.13</num>
+    <heading>Applicability of Regulations.</heading>
+    <text>If a conflict exists between this chapter and the Rules of Procedure of the Office of Administrative Hearings in <cite path="|28.02.01">COMAR 28.02.01</cite>, this chapter shall govern.</text>
+  </section>
+  <section cache:ref-path="14|35|11|.14">
+    <prefix>Regulation</prefix>
+    <num>.14</num>
+    <heading>Authorized Representatives.</heading>
+    <para>
+      <num>A.</num>
+      <text>Definitions.</text>
+      <para>
+        <num>(1)</num>
+        <text>“Authorized representative” means an individual or organization acting responsibly on behalf of the applicant in accordance with this regulation, in assisting with an applicant’s application, renewal of eligibility, appeals, and other ongoing communications with the Exchange.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>“Signature” includes electronic, including telephonically recorded, signatures and handwritten signatures transmitted by facsimile or other electronic transmissions.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Designating an Authorized Representative.</text>
+      <para>
+        <num>(1)</num>
+        <text>An applicant may designate any individual or organization to serve as authorized representative.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An authorized representative may be designated either:</text>
+        <para>
+          <num>(a)</num>
+          <text>In writing, including the applicant’s signature; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>By providing proof of legal authority to act on behalf of an applicant.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Legal authority includes, but is not limited to the:</text>
+        <para>
+          <num>(a)</num>
+          <text>Applicant’s parent, if the applicant is a minor;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Applicant’s legal guardian, if one has been appointed, or a person who has in good faith filed an application to be appointed the applicant’s legal guardian but who has not yet been appointed the applicant’s legal guardian;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Applicant’s healthcare surrogate as defined in Health-General Article, §5-605, Annotated Code of Maryland;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Personal representative of applicant’s estate, or a person who has in good faith filed an application to be appointed the personal representative of the applicant’s estate but who has not yet been appointed the personal representative of the applicant’s estate;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Individual appointed to make legal or medical decisions on behalf of the applicant pursuant to a validly executed power of attorney; or</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Attorney or paralegal retained by the applicant.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>For individuals who lack the capacity to designate an authorized representative and for whom no other individual or organization has the legal authority to act under <cite path="14|35|11|.14|B.|(2)">§B(2) of this regulation</cite>, an authorized representative can be any individual or organization acting responsibly on behalf of the applicant who:</text>
+        <para>
+          <num>(a)</num>
+          <text>In good faith, is acting in the best interest of the applicant; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Declares the applicant lacks legal capacity, and for organizations, declares that its directors, employees, officers or employers, if any, do not have a direct financial interest in the outcome of the fair hearing.</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>For individuals who lack the capacity to designate an authorized representative, for whom no other individual or organization has the legal authority to act under <cite path="14|35|11|.14|B.|(2)">§B(2) of this regulation</cite>, and on behalf of whom no individual or organization covered by <cite path="14|35|11|.14|B.|(4)">§B(4) of this regulation</cite> is willing and able to act, an authorized representative can be any individual or organization with a direct financial interest in the outcome of the hearing or whose employer has a direct financial interest in the outcome of the hearing who:</text>
+        <para>
+          <num>(a)</num>
+          <text>In good faith is acting in the best interest of the applicant;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Declares that the applicant lacks legal capacity; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Declares that to the best of the authorized representative’s belief, no other individual or organization is willing and able to act on the applicant’s behalf.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Time for Authorization. Designation of an authorized representative, or the declarations by an individual or organization required under §B(4) or (5) of this regulation to become an authorized representative, can take place at any time, including, but not limited to, the time of application, upon redetermination, upon filing an appeal, and at the appeal hearing.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Duration of Representation. The power to act as an authorized representative is valid until the applicant modifies the authorization or notifies the Exchange that the representative is no longer authorized to act on his or her behalf, there is a change in the legal authority upon which the individual or organization’s authority was based, or the authorized representative informs the Exchange, as required by 45 CFR §155.227(d)(2), that the representative no longer has legal authority to act on behalf of the applicant. Such notice shall be in writing and shall include the applicant’s signature or the authorized representative’s signature, as appropriate.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Powers of Authorized Representative. Authorized representatives may be authorized to perform all, or fewer than all, of the following:</text>
+      <para>
+        <num>(1)</num>
+        <text>Sign an application on the applicant’s behalf;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Complete and submit an update or a renewal form or respond to a request for redetermination;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Receive copies of the applicant’s notice and other communications from the Exchange; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Act on behalf of the applicant in all matters with the Exchange including appeals.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Obligations of Authorized Representative. An authorized representative:</text>
+      <para>
+        <num>(1)</num>
+        <text>Is responsible for fulfilling all the responsibilities encompassed within the scope of the authorized representation as described in <cite path="14|35|11|.14|E.">§E of this regulation</cite> to the same extent as the individual the representative represents;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Shall agree to maintain, or be legally bound to maintain, the confidentiality of any information regarding the applicant provided by the Exchange.</text>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Authorized Representatives Through an Organization. A provider, staff member, or volunteer of an organization shall sign an agreement to adhere to the federal regulations governing authorized representatives as laid out in 42 CFR §435.923 or 45 CFR §155.227, as applicable, as well as relevant State and federal laws concerning conflicts of interest and confidentiality of information.</text>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Insurance Article, §§<cite doc="Md. Code" path="gin|31-106">31-106</cite>(c)(<cite doc="Md. Code" path="gin|1">1</cite>)(iv) and <cite doc="Md. Code" path="gin|31-108">31-108</cite>(b)(<cite doc="Md. Code" path="gin|1">1</cite>), (10), and (17), Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="2015-06-08">Effective date: June 8, 2015 (42:11 Md. R. 726)</annotation>
+    <annotation type="History" dest="container" effective="2021-11-29"><cite path="|14|35|11|.01">Regulation .01</cite> amended effective November 29, 2021 (48:24 Md. R. 1025)</annotation>
+    <annotation type="History" dest="container" effective="2021-11-29"><cite path="|14|35|11|.02|B.">Regulation .02B</cite> amended effective November 29, 2021 (48:24 Md. R. 1025)</annotation>
+    <annotation type="History" dest="container" effective="2021-11-29"><cite path="|14|35|11|.09|C.">Regulation .09C</cite> amended effective November 29, 2021 (48:24 Md. R. 1025)</annotation>
+    <annotation type="History" dest="container" effective="2021-11-29"><cite path="|14|35|11|.12">Regulation .12</cite> amended effective November 29, 2021 (48:24 Md. R. 1025)</annotation>
+  </annotations>
+</container>

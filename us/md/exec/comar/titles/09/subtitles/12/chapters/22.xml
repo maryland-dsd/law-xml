@@ -1,0 +1,827 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>22</num>
+  <heading>Personally Identifiable Employee Medical Information</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Purpose.</heading>
+    <text>The purpose of this chapter is to protect the substantial privacy interests involved in employee medical records by ensuring that:</text>
+    <para>
+      <num>A.</num>
+      <text>The Commissioner or the Commissioner's authorized representative will exercise authority to gain access to personally identifiable employee medical information only:</text>
+      <para>
+        <num>(1)</num>
+        <text>After a careful determination of the need for this information, and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>With appropriate safeguards to protect individual privacy;</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Once the medical information is obtained, the examination and use of personally identifiable employee medical information obtained under this chapter is limited to only that information needed to accomplish the purpose for access;</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Personally identifiable employee medical information is:</text>
+      <para>
+        <num>(1)</num>
+        <text>Retained only for the time needed to accomplish the purpose for access,</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Kept secure while being used, and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Not disclosed to other agencies or members of the public, except in narrowly defined circumstances and as permitted or required by law; and</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Medically related information reported in a personally identifiable form, even if not specifically covered by the terms of this chapter, is handled with appropriate discretion and care befitting information concerning specific employees.</text>
+    </para>
+  </section>
+  <section cache:ref-path="09|12|22|.02">
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Scope and Application.</heading>
+    <para>
+      <num>A.</num>
+      <text>Except as provided in <cite path="09|12|22|.02|B.">§B of this regulation</cite>, this chapter applies to a request by MOSH inspection personnel to access records for the purpose of examining or copying personally identifiable employee medical information, whether or not the request is made under the access provisions of 29 CFR §1910.1020(e)(3).</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>This regulation does not apply when:</text>
+      <para>
+        <num>(1)</num>
+        <text>MOSH inspection personnel:</text>
+        <para>
+          <num>(a)</num>
+          <text>Conduct an examination of employee medical records solely to verify employer compliance with the medical surveillance record-keeping requirements of an occupational safety and health standard or with 29 CFR §1910.1020;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Conduct the examination:</text>
+          <para>
+            <num>(i)</num>
+            <text>On-site, and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>If requested, under the observation of the record holder; and</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Do not record and take offsite any information from medical records other than documentation of the fact of compliance or noncompliance; or</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A written directive by the Commissioner authorizes appropriately qualified personnel to conduct limited reviews of:</text>
+        <para>
+          <num>(a)</num>
+          <text>Specific medical information mandated by an occupational safety and health standard; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Specific biological monitoring test results.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Definition.</heading>
+    <para>
+      <num>A.</num>
+      <text>The definitions set forth in <cite path="|09.12.20">COMAR 09.12.20</cite> apply to this chapter.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>For the purpose of this chapter, "personally identifiable employee medical information":</text>
+      <para>
+        <num>(1)</num>
+        <text>Means employee medical information accompanied by either:</text>
+        <para>
+          <num>(a)</num>
+          <text>Direct identifiers, including:</text>
+          <para>
+            <num>(i)</num>
+            <text>Name,</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Address,</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Social Security number,</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Payroll number; or</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Information which could reasonably be used indirectly to identify specific employees, including:</text>
+          <para>
+            <num>(i)</num>
+            <text>Exact age,</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Height,</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Weight,</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Race,</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>Sex,</text>
+          </para>
+          <para>
+            <num>(vi)</num>
+            <text>Date of initial employment, or</text>
+          </para>
+          <para>
+            <num>(vii)</num>
+            <text>Job title;</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Does not include:</text>
+        <para>
+          <num>(a)</num>
+          <text>Aggregate employee medical information or medical records on individual employees not in a personally identifiable form;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Personally identifiable employee medical information obtained in the course of litigation;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Records required by <cite path="|09.12.21">COMAR 09.12.21</cite>;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Death certificates; or</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Employee exposure records, including biological monitoring records which constitute exposure records under either 29 CFR §1910.1020(c)(5) or specific occupational safety and health standards.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Responsible Individuals.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Commissioner or the Commissioner's authorized representative is responsible for the overall administration and implementation of the procedures contained in this chapter, including making a final determination concerning:</text>
+      <para>
+        <num>(1)</num>
+        <text>Access to personally identifiable employee medical information; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Interagency transfer or public disclosure of personally identifiable employee medical information.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Medical Records Officer.</text>
+      <para>
+        <num>(1)</num>
+        <text>The Commissioner or the Commissioner's authorized representative shall designate a medical records officer with experience or training in the evaluation, use, and privacy protection of medical records.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The medical records officer shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Report directly to the Commissioner or the Commissioner's authorized representative on matters concerning this chapter; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Be responsible for:</text>
+          <para>
+            <num>(i)</num>
+            <text>Making a recommendation to the Commissioner or the Commissioner's authorized representative regarding the approval or denial of a written access order,</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Assuring that a written access order meets the requirements of Regulation .05B and C of this chapter,</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Responding to an objection from an employee, collective bargaining agent, or employer concerning a written access order,</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Regulating the use of direct personal identifiers,</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>Regulating internal agency use and security of personally identifiable employee medical information,</text>
+          </para>
+          <para>
+            <num>(vi)</num>
+            <text>Assuring that the results of an analysis of personally identifiable medical information are, when appropriate, communicated to employees,</text>
+          </para>
+          <para>
+            <num>(vii)</num>
+            <text>Preparing an annual report of experience under <cite path="|09|12|22|.10">Regulation .10 of this chapter</cite>, and</text>
+          </para>
+          <para>
+            <num>(viii)</num>
+            <text>Assuring that advance notice is given of intended interagency transfer or public disclosure of personally identifiable employee medical information.</text>
+          </para>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Principal Investigator.</text>
+      <para>
+        <num>(1)</num>
+        <text>The principal investigator is the MOSH representative who, in each instance of access to personally identifiable employee medical information, is made primarily responsible for assuring that the examination and use of the information is performed in the manner prescribed by:</text>
+        <para>
+          <num>(a)</num>
+          <text>A written access order; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The requirements of this chapter.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>When access is under a written access order, the principal investigator shall be professionally trained in medicine, public health, or allied fields such as epidemiology, toxicology, industrial hygiene, biostatistics, or environmental health.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="09|12|22|.05">
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Written Access Orders.</heading>
+    <para>
+      <num>A.</num>
+      <text>Requirements.</text>
+      <para>
+        <num>(1)</num>
+        <text>Except as provided in <cite path="09|12|22|.05|D.">§D of this regulation</cite>, a request by a MOSH representative to examine or copy personally identifiable employee medical information contained in a record held by an employer or other record holder shall be made in accordance with a written access order approved by the Commissioner or the Commissioner's authorized representative upon the recommendation of the medical records officer.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>At the Commissioner's discretion, a written access order may constitute, or be accompanied by, an administrative subpoena.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Approval Criteria. Before issuing a written access order, the Commissioner or the Commissioner's authorized representative and the medical records officer shall determine that:</text>
+      <para>
+        <num>(1)</num>
+        <text>The medical information to be examined or copied is relevant to a statutory purpose;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>There is a need to gain access to the personally identifiable information;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The personally identifiable medical information to be examined or copied is limited to only the information needed to accomplish the purpose for access; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The personnel authorized to review and analyze the personally identifiable medical information are limited to those who have need for access and who have appropriate professional qualifications.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Content. A written access order shall state with reasonable particularity:</text>
+      <para>
+        <num>(1)</num>
+        <text>The statutory purposes for which access is sought;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A general description of the kind of employee medical information that will be examined;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>An explanation of the need to examine personally identifiable employee medical information;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Whether medical information will be examined onsite;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>What type of information will be copied and removed offsite;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>The name, address, and telephone number of the principal investigator and medical records officer;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>The name of any other authorized individual who is expected to review and analyze the medical information; and</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>The anticipated period of time during which the employee medical information in a personally identifiable form is expected to be retained.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Special Situations Not Requiring a Written Access Order.</text>
+      <para>
+        <num>(1)</num>
+        <text>MOSH personnel are permitted to examine or copy personally identifiable employee medical information without a written access order if:</text>
+        <para>
+          <num>(a)</num>
+          <text>The specific written consent of an employee is obtained under 29 CFR §1910.1020(e)(2)(ii), and MOSH or a MOSH employee is listed on the authorization as the designated representative to receive the medical information;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>When the information is taken offsite, the Commissioner or the Commissioner's authorized representative promptly:</text>
+          <para>
+            <num>(i)</num>
+            <text>Names a principal investigator to ensure protection of the information, and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Notifies the medical records officer of the principal investigator's identity; and</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>MOSH handles the personally identifiable medical information in accordance with the use and security requirements of Regulations .06 and .07 of this chapter.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>MOSH Physician.</text>
+        <para>
+          <num>(a)</num>
+          <text>A MOSH staff or contract physician shall be accorded access to personally identifiable employee medical information without a written access order, if the MOSH staff or contract physician:</text>
+          <para>
+            <num>(i)</num>
+            <text>Is consulting with an employer's physician concerning an occupational safety or health issue;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Conducts an on-site evaluation of employee medical records in consultation with the employer's physician; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Makes only necessary personal notes of the MOSH staff or contract physician's findings.</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Employee medical records may not be taken offsite in the absence of a written access order or the specific written consent of an employee.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Notes of personally identifiable employee medical information made by the MOSH physician may not leave the physician's control without the permission of the medical records officer.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Procedure for Presentation of Written Access Order.</text>
+      <para>
+        <num>(1)</num>
+        <text>Presentation to Employer.</text>
+        <para>
+          <num>(a)</num>
+          <text>Before examining or obtaining medical information subject to a written access order, the principal investigator, or a MOSH employee under the investigator's supervision, shall present to the employer:</text>
+          <para>
+            <num>(i)</num>
+            <text>At least two copies of the written access order; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>An accompanying cover letter to the employer.</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>At least one copy of the written access order may not identify specific employees by direct personal identifier.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The accompanying cover letter shall:</text>
+          <para>
+            <num>(i)</num>
+            <text>Summarize the requirements of this section; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Indicate that questions or objections concerning the written access order may be directed to the principal investigator or to the medical records officer.</text>
+          </para>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>The employer shall post promptly:</text>
+          <para>
+            <num>(i)</num>
+            <text>A copy of the written access order which does not identify specific employees by direct personal identifier; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The accompanying cover letter.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Presentation to Collective Bargaining Agent. The principal investigator shall present promptly to each collective bargaining agent representing employees whose medical records are subject to the written access order:</text>
+        <para>
+          <num>(a)</num>
+          <text>A copy of the written access order which does not identify specific employees by direct personal identifier; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The accompanying cover letter.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Notice to Employees.</text>
+        <para>
+          <num>(a)</num>
+          <text>After presentation of a written access order to an employer and a collective bargaining agent, if any, the principal investigator shall:</text>
+          <para>
+            <num>(i)</num>
+            <text>Discuss with the collective bargaining agent, if any, and the employer whether to provide individual notice to employees affected by the written access order; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>If it is agreed that individual notice is appropriate, provide the employer an adequate number of copies of the written access order which does not identify specific employees by direct personal identifier, and the accompanying cover letter.</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>An employer shall notify each affected employee by delivering the written access order or by placing a copy in each employee's medical file.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Objections Concerning a Written Access Order.</text>
+      <para>
+        <num>(1)</num>
+        <text>An employee, collective bargaining agent, and employer may file a written objection to access to records under a written access order.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A written objection shall be transmitted to the medical records officer.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Unless the Commissioner or the Commissioner's authorized representative decides otherwise, access to the records shall proceed without delay, notwithstanding the filing of an objection.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The medical records officer shall respond in writing to a written objection to access by MOSH.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>If appropriate, the medical records officer may:</text>
+        <para>
+          <num>(a)</num>
+          <text>Revoke a written access order; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Direct that the medical information obtained under the revoked written access order be returned to the original record holder, or destroyed.</text>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>The principal investigator shall ensure that the instructions by the medical records officer are promptly implemented.</text>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Removal of Direct Personal Identifiers.</text>
+      <para>
+        <num>(1)</num>
+        <text>If employee medical information obtained under a written access order is taken offsite with direct personal identifiers included, and the investigator is not otherwise authorized by the medical records officer, the principal investigator shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Separate promptly all direct personal identifiers from the medical information; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Code the medical information and the list of direct identifiers with a unique identifier for each employee.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The medical information with the code shall be used and kept secured as though still in a directly identifiable form.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The principal investigator shall hand deliver or mail the list of direct personal identifiers with corresponding codes to the medical records officer.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The medical records officer shall limit the use and distribution of the list of coded identifiers to individuals with a need to know its contents.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>MOSH Use of Personally Identifiable Employee Medical Information.</heading>
+    <para>
+      <num>A.</num>
+      <text>Whenever practicable, the examination of personally identifiable employee medical information shall be performed onsite with a minimum of medical information taken offsite in a personally identifiable form.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The principal investigator, in each instance of access, is primarily responsible for ensuring that personally identifiable employee medical information is used and kept secured in accordance with this chapter.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The principal investigator, the medical records officer, the Commissioner or the Commissioner's authorized representative, and any other authorized individual listed on a written access order may permit the examination or use of personally identifiable employee medical information by MOSH personnel and contractors who have:</text>
+      <para>
+        <num>(1)</num>
+        <text>A need for access; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Appropriate qualifications for the purpose for which they are using the information.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>MOSH personnel or contractors are not authorized to examine or otherwise use personally identifiable employee medical information unless so permitted.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>If a need exists, access to personally identifiable employee medical information may be provided to:</text>
+      <para>
+        <num>(1)</num>
+        <text>An assistant attorney general assigned to MOSH; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A MOSH contractor who:</text>
+        <para>
+          <num>(a)</num>
+          <text>Is a physician, or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Has contractually agreed to abide by the requirements of this chapter and to implement directives and instructions regarding them.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>MOSH personnel and contractors are authorized to use personally identifiable employee medical information only for the purposes for which it was obtained unless the:</text>
+      <para>
+        <num>(1)</num>
+        <text>Specific written consent of the affected employee is obtained to permit information to be used for another purpose; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Procedures in <cite path="|09|12|22|.05">Regulation .05 of this chapter</cite> are repeated with respect to using the information for another purpose.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Security Procedures.</heading>
+    <para>
+      <num>A.</num>
+      <text>MOSH Files.</text>
+      <para>
+        <num>(1)</num>
+        <text>MOSH files containing personally identifiable employee medical information shall be segregated from other MOSH files.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>When not in active use, files containing personally identifiable employee medical information shall be kept secured in a locked cabinet or vault.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Except for necessary use by staff under their direct personal supervision, both the medical records officer and the principal investigator shall maintain a log of:</text>
+      <para>
+        <num>(1)</num>
+        <text>Uses and transfers of personally identifiable employee medical information; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Lists of coded direct personal identifiers.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Photocopying or other duplication of personally identifiable employee medical information shall be kept to the minimum necessary to accomplish the purposes for which the information was obtained.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The protective measures established by this regulation apply to all:</text>
+      <para>
+        <num>(1)</num>
+        <text>Worksheets;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Duplicate copies; or</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Other documents containing personally identifiable employee medical information.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Intra-Agency Transfers.</text>
+      <para>
+        <num>(1)</num>
+        <text>Intra-agency transfers of personally identifiable employee medical information shall be by:</text>
+        <para>
+          <num>(a)</num>
+          <text>Hand delivery;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>United States mail; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>An equally protective means.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Inter-office mailing channels may not be used.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Retention and Destruction of Records.</heading>
+    <para>
+      <num>A.</num>
+      <text>Consistent with Maryland records retention programs, personally identifiable employee medical information and lists of coded direct personal identifiers shall be destroyed or returned to the original record holder when they are no longer needed for the purposes for which they were obtained.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The medical records officer shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Maintain custody of personally identifiable employee medical information which is currently not being used actively but may be needed for future use; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Conduct an annual review of all centrally held information to determine which information is no longer needed for the purposes for which it was obtained.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Results of Analysis Using Personally Identifiable Employee Medical Information.</heading>
+    <text>If appropriate, the medical records officer shall communicate the results of a MOSH analysis using personally identifiable employee medical information to employees whose personal medical information was used as part of the analysis.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.10</num>
+    <heading>Annual Report.</heading>
+    <para>
+      <num>A.</num>
+      <text>On an annual basis, the medical records officer shall review MOSH experience under this chapter during the previous year, and prepare a report to the Commissioner, which shall be made available to the public.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The report shall discuss:</text>
+      <para>
+        <num>(1)</num>
+        <text>The number of written access orders approved and a summary of the purposes for access;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The nature and disposition of employee, collective bargaining agent, and employer written objections concerning access to personally identifiable employee medical information; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The nature and disposition of requests for inter-agency transfer or public disclosure of personally identifiable employee medical information.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="09|12|22|.11">
+    <prefix>Regulation</prefix>
+    <num>.11</num>
+    <heading>Inter-Agency Transfer and Public Disclosure.</heading>
+    <para>
+      <num>A.</num>
+      <text>Except when required by law or when approved by the Commissioner, personally identifiable employee medical information may not be:</text>
+      <para>
+        <num>(1)</num>
+        <text>Transferred to an agency or office other than MOSH, except to an assistant attorney general assigned to MOSH; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Disclosed to the public, other than to the affected employee or the original record holder.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Except as provided in <cite path="09|12|22|.11|C.">§C of this regulation</cite>, without the consent of the affected employee, the Commissioner or the Commissioner's authorized representative may not approve a request for an inter-agency transfer of personally identifiable employee medical information, unless the request is from a public health agency which:</text>
+      <para>
+        <num>(1)</num>
+        <text>Needs the requested information in a personally identifiable form for a substantial public health purpose;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Will not use the requested information to make individual determinations concerning an affected employee which could be to the employee's detriment;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Has regulations or established written procedures providing protection for personally identifiable medical information substantially equivalent to that of this chapter; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Satisfies an exemption to the Maryland Public Information Act, <cite doc="Md. Code" path="gsg">State Government Article, Title 10, Subtitle 6, Annotated Code of Maryland</cite>, to the extent that the Maryland Public Information Act applies to the requested information.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>To the extent permitted by <cite doc="Md. Code" path="gsg">State Government Article, Title 10, Subtitle 6, Annotated Code of Maryland</cite>, and upon the approval of the Commissioner or the Commissioner's authorized representative, personally identifiable employee medical information may be transferred to the:</text>
+      <para>
+        <num>(1)</num>
+        <text>National Institute for Occupational Safety and Health (NIOSH); and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>When necessary with respect to a specific action under the Act, Office of the Maryland Attorney General, or the State's Attorney for Baltimore City or a Maryland county.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The Commissioner may not approve a request for public disclosure of employee medical information containing:</text>
+      <para>
+        <num>(1)</num>
+        <text>Direct personal identifiers unless there are compelling circumstances affecting the health or safety of an individual; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Information which could reasonably be used indirectly to identify a specific employee when the disclosure would constitute a clearly unwarranted invasion of personal privacy.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Advance Notice.</text>
+      <para>
+        <num>(1)</num>
+        <text>Except for an interagency transfer under <cite path="09|12|22|.11|C.">§C of this regulation</cite>, when MOSH intends to release personally identifiable employee medical information to another agency or a member of the public other than an affected employee, the medical records officer shall ensure advance notice is provided to:</text>
+        <para>
+          <num>(a)</num>
+          <text>A collective bargaining agent representing affected employees; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The employer.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>When the employee medical information to be transferred or disclosed contains direct personal identifiers, the medical records officer shall take reasonable steps to ensure that advance notice is provided to affected employees, when feasible.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A release made under this section shall comply with <cite doc="Md. Code" path="gsg">State Government Article, Title 10, Subtitle 6, Annotated Code of Maryland</cite>.</text>
+      </para>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Labor and Employment Article, §§<cite doc="Md. Code" path="gle|2-106">2-106</cite>(b)(<cite doc="Md. Code" path="gle|4">4</cite>) and <cite doc="Md. Code" path="gle|5-312">5-312</cite>, Annotated Code of Maryland; 29 CFR §1913.10(d) and 29 U.S.C. §668</annotation>
+    <annotation type="History" dest="container" effective="1993-07-05">Effective date: July 5, 1993 (20:13 Md. R. 1047)</annotation>
+  </annotations>
+</container>

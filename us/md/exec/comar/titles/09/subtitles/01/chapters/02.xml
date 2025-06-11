@@ -1,0 +1,748 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>02</num>
+  <heading>Hearing Regulations</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Scope.</heading>
+    <para>
+      <num>A.</num>
+      <text>This chapter governs procedures for all contested case hearings of an administrative unit within the Department, with the exception of hearings conducted under the following:</text>
+      <para>
+        <num>(1)</num>
+        <text><cite doc="Md. Code" path="gps">Public Safety Article, Title 12, Subtitle 9, Annotated Code of Maryland</cite>, and corresponding regulations;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text><cite doc="Md. Code" path="gbr|3-314">Business Regulation Article, §3-314, Annotated Code of Maryland</cite>, and corresponding regulations;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Labor and Employment Article, Title 5, Subtitle 2 and Subtitle 5, Part III, Annotated Code of Maryland, and corresponding regulations;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text><cite doc="Md. Code" path="gle">Labor and Employment Article, Title 8, Subtitle 5, Annotated Code of Maryland</cite>, and corresponding regulations; and</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text><cite doc="Md. Code" path="gsf">State Finance and Procurement Article, Title 17, Subtitle 2, Annotated Code of Maryland</cite>, and corresponding regulations.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The procedures in this chapter are intended to supplement the procedures required by law, and may not be construed as creating additional or contrary substantive rights.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>An administrative unit may promulgate additional hearing regulations to supplement or modify this chapter under the administrative unit's enabling statute.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>If a conflict exists between this chapter and the statute or regulations governing an administrative unit, the statute or regulations of the individual administrative unit shall govern.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>If a conflict exists between this chapter and the Rules of Procedure of the Office of Administrative Hearings in <cite path="|28.02.01">COMAR 28.02.01</cite>, this chapter shall govern.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>"ALJ" means an Administrative Law Judge appointed under <cite doc="Md. Code" path="gsg|9-1604">State Government Article, §9-1604, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>"Administrative Procedure Act" means State Government Article, §§<cite doc="Md. Code" path="gsg|10-201">10-201</cite>—<cite doc="Md. Code" path="gsg|10-217">10-217</cite>, Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>"Administrative unit" means a board, commission, hearing panel, committee, division, or a unit within the Department which is authorized by law or regulation to hear and determine contested cases.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>"Applicant" means a person seeking a new or renewal license, certificate, registration, or permit from an administrative unit.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>"Charging document" means a document issued by an administrative unit which sets forth:</text>
+        <para>
+          <num>(a)</num>
+          <text>One or more violations alleged to have been committed by a respondent; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A denial or an intent to deny a license, certificate, registration, or permit.</text>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>"Claim" means a claim against a guaranty fund.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>"Claimant" means an individual who has filed a claim against a guaranty fund.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>"Complaint" means a written allegation that:</text>
+        <para>
+          <num>(a)</num>
+          <text>A licensee, registrant, certificate holder, or permit holder has committed an act which is prohibited by the appropriate statute or regulation and for which an administrative unit may take disciplinary action; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A person has practiced a regulated profession or occupation, or engaged in a business, without the required license, certificate, registration, or permit.</text>
+        </para>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>"Contested case" has the meaning stated in <cite doc="Md. Code" path="gsg|10-202">State Government Article, §10-202, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>"Counsel" means the attorney assigned by the Office of the Attorney General to provide a particular administrative unit with legal advice.</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>"Department" means the Maryland Department of Labor.</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>"Final order" means the final decision of an administrative unit which contains findings of fact, conclusions of law, and a disposition which:</text>
+        <para>
+          <num>(a)</num>
+          <text>Grants or denies a license, certificate, registration, or permit;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Sanctions by reprimand, fine, suspension, or revocation;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Makes a monetary award to a party from a guaranty fund or any other source, or denies an award; or</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Dismisses disciplinary charges.</text>
+        </para>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>"Guaranty fund" has the meaning stated in <cite doc="Md. Code" path="gbo">Business Occupations and Professions Article, Title 17, Subtitle 4, Annotated Code of Maryland</cite>, and <cite doc="Md. Code" path="gbr">Business Regulation Article, Title 8, Subtitle 4, Annotated Code of Maryland</cite>, as applicable.</text>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>"Office of Administrative Hearings" has the meaning stated in <cite doc="Md. Code" path="gsg|9-1602">State Government Article, §9-1602, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>"Party" means a respondent, a claimant, an applicant, or an administrative unit, or all or some of them, as applicable.</text>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>"Person" has the meaning stated in <cite doc="Md. Code" path="gbr|1-101">Business Regulation Article, §1-101(g), Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>"Presenter of evidence" means the attorney assigned by the Office of the Attorney General to:</text>
+        <para>
+          <num>(a)</num>
+          <text>Present charges and evidence against a respondent or applicant; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Represent the interests of a guaranty fund.</text>
+        </para>
+      </para>
+      <para>
+        <num>(18)</num>
+        <text>"Presiding officer" means the chairman of an administrative unit, or in the absence of a chairman, a member of the administrative unit designated by the applicable enabling statute or by the administrative unit itself to preside over the hearing of a contested case.</text>
+      </para>
+      <para>
+        <num>(19)</num>
+        <text>"Proposed decision" has the meaning stated in <cite path="28.02.01.02">COMAR 28.02.01.02</cite>.</text>
+      </para>
+      <para>
+        <num>(20)</num>
+        <text>"Proposed order" means the order issued by an administrative unit, after a hearing conducted by an ALJ which:</text>
+        <para>
+          <num>(a)</num>
+          <text>Grants or denies a license, certificate, registration, or permit;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Sanctions by reprimand, fine, suspension, or revocation;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Makes or denies a monetary award to a party from a guaranty fund or any other source; or</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Dismisses the charges.</text>
+        </para>
+      </para>
+      <para>
+        <num>(21)</num>
+        <text>"Respondent" means a person who has been called upon to answer charges made under disciplinary provisions or against whom a guaranty fund claim has been filed.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Complaints.</heading>
+    <para>
+      <num>A.</num>
+      <text>A complaint to an administrative unit may be made by any person or administrative unit.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The complaint shall be in writing, and shall state the facts on which the complaint is based.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>In response to a complaint, an administrative unit may take one or more of the following actions:</text>
+      <para>
+        <num>(1)</num>
+        <text>Dismiss the complaint;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Refer the complaint for investigation;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Take appropriate informal action consistent with the facts and circumstances of the complaint;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Charge the respondent with violation of the relevant statutory and regulatory sections and give the respondent an opportunity to appear at a hearing before the administrative unit; or</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Schedule a hearing before the administrative unit on a claim against a guaranty fund.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Applications.</heading>
+    <para>
+      <num>A.</num>
+      <text>An applicant who has been notified that a new or renewal license, certificate, registration, or permit, has been, or may be, denied may request a hearing before an administrative unit.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The administrative unit shall hold a hearing to provide the applicant an opportunity to present evidence in support of the application.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Hearing Notice.</heading>
+    <para>
+      <num>A.</num>
+      <text>An administrative unit shall provide reasonable written notice of a hearing to the parties.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The hearing notice shall contain:</text>
+      <para>
+        <num>(1)</num>
+        <text>The date, time, place, and nature of the hearing;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A statement of the right to present witnesses, documents, and other forms of evidence, and the right to cross-examine witnesses of another party;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A statement of the right to request subpoenas for witnesses and evidence, specifying the costs, if any, associated with the request;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The availability on request of a copy of the hearing procedure, and the costs associated with the request;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>A statement of the right or restrictions pertaining to representation;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>A statement that failure to appear for the scheduled hearing may result in an adverse action against that party; and</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>A statement that the parties may agree to the evidence and waive their right to appear at the hearing.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Charging Document.</heading>
+    <para>
+      <num>A.</num>
+      <text>The charging document shall be attached to the notice of hearing or incorporated in it.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The charging document shall contain at least:</text>
+      <para>
+        <num>(1)</num>
+        <text>The facts asserted, or if the facts cannot be stated in detail, the issues involved;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The pertinent statutory and regulatory sections under which an administrative unit is taking action;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The potential penalties; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>A statement that if a hearing is not automatically scheduled, an applicant may request a hearing, and the process by which a request is made, including any time restrictions.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="09|01|02|.07">
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Service of Notices, Orders, and Other Documents.</heading>
+    <para>
+      <num>A.</num>
+      <text>Except as provided in <cite path="09|01|02|.07|B.">§B of this regulation</cite> or by prior agreement of the parties, the administrative unit shall serve all notices, orders, and other documents in one of the following ways:</text>
+      <para>
+        <num>(1)</num>
+        <text>By personal delivery;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>By mailing a copy of the document, first class, postage prepaid, to the person's last known business or home address; or</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If the person is represented by counsel, by delivering or mailing a copy of the document, first class, postage prepaid, to the person's attorney.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The administrative unit shall send the hearing notice to the person against whom the action is contemplated by certified mail to the person's last known address:</text>
+      <para>
+        <num>(1)</num>
+        <text>At least 20 days before the hearing; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If the parties have agreed to a date for which 20 days notice cannot be given, at the earliest time possible.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>If service of a hearing notice cannot be made under <cite path="09|01|02|.07|B.">§B of this regulation</cite>, notice may be given under <cite doc="Md. Code" path="gsg|10-209">State Government Article, §10-209, Annotated Code of Maryland</cite>.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Service under this regulation is effective on receipt.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Unless the evidence shows otherwise, a document served by mail under this regulation is presumed to have been received by the addressee 3 days after the date the document was mailed.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Service of a subpoena shall be made under <cite path="|09|01|02|.12">Regulation .12 of this chapter</cite>.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Representation.</heading>
+    <para>
+      <num>A.</num>
+      <text>A party to a proceeding may:</text>
+      <para>
+        <num>(1)</num>
+        <text>Appear in person or, if appearance by a representative is permitted by law, through a representative; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Be represented by an attorney authorized to practice in Maryland.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Any notice, decision, or other matter required to be sent to a party may be sent instead to the party's attorney of record at the attorney's address, and the presumption of service in <cite path="|09|01|02|.07|E.">Regulation .07E of this chapter</cite> shall apply.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>If a party is represented by an attorney or appears through an authorized representative, all submission of evidence, examination and cross-examination of witnesses, and all objections and motions on the party's behalf shall be made solely by the attorney or the authorized representative.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Failure to Appear.</heading>
+    <text>A hearing may proceed as scheduled in the absence of a party if the party has:</text>
+    <para>
+      <num>A.</num>
+      <text>Been served in accordance with <cite path="|09|01|02|.07">Regulation .07 of this chapter</cite>; and</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Failed to obtain a postponement of the hearing from the administrative unit under <cite path="|09|01|02|.10">Regulation .10 of this chapter</cite>.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.10</num>
+    <heading>Postponement.</heading>
+    <para>
+      <num>A.</num>
+      <text>An administrative unit may postpone a hearing for good cause only if a written request for postponement is filed with the administrative unit not later than 10 days before the date of the hearing.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>If a request for postponement is received later than 10 days before the date of the hearing, the administrative unit shall deny the request unless it determines that there were extenuating circumstances which justified the delay.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The failure of a respondent, claimant, or applicant to retain counsel or to timely request a subpoena may not be considered good cause under this regulation.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>A request for postponement based on failure to obtain service on a witness may not be granted if the party has failed to comply with <cite path="|09|01|02|.12">Regulation .12 of this chapter</cite>.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.11</num>
+    <heading>Discovery.</heading>
+    <text>There is no prehearing discovery.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.12</num>
+    <heading>Subpoenas.</heading>
+    <para>
+      <num>A.</num>
+      <text>On request of a party to a proceeding, an administrative unit shall issue a subpoena requiring the attendance and testimony of a witness and, if requested, the production at the hearing of relevant documents and tangible items in the possession or under the control of the witness.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A request for the issuance of a subpoena shall be made in writing to the administrative unit not later than 10 days before the scheduled hearing date.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>If a request for issuance of a subpoena is received by the administrative unit less than 15 days before the scheduled hearing date, the requesting party shall be responsible for service of the subpoena.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>A request for a subpoena shall specify:</text>
+      <para>
+        <num>(1)</num>
+        <text>The full name and address of the person to be subpoenaed;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The full name, address, and telephone number of the party requesting the subpoena;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The caption of the action for which a subpoena is requested;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The date, time, and place of the hearing for which the subpoenaed person is to appear; and</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>For a subpoena for the production of documents, a description of tangible items, books, papers, or other documents.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>A subpoena request need not be served on all parties.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Subpoenas may be served by:</text>
+      <para>
+        <num>(1)</num>
+        <text>Certified mail to the person at the address specified in the subpoena request; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Personal delivery by an individual who is:</text>
+        <para>
+          <num>(a)</num>
+          <text>18 years old or older; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Not a party to the proceeding.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Return of service of subpoena shall be made by:</text>
+      <para>
+        <num>(1)</num>
+        <text>Affidavit, if personally delivered; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Return receipt, if mailed.</text>
+      </para>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>A person may object to a subpoena by filing with the administrative unit, before the time specified in the subpoena for compliance, a motion to quash or for other appropriate relief.</text>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>If a person fails to comply with a properly served subpoena, the party requesting the subpoena may apply to the appropriate circuit court for relief.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.13</num>
+    <heading>Conduct of the Proceedings.</heading>
+    <para>
+      <num>A.</num>
+      <text>A quorum of the administrative unit shall be present for the hearing.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The presiding officer, in consultation with counsel, shall determine all procedural and evidentiary issues governed by this chapter and by the Administrative Procedure Act, and may impose reasonable time limitations.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The Maryland Rules of Civil Procedure may be used as a guide in resolving procedural issues governing the conduct of the hearing that are not addressed in this chapter and the Administrative Procedure Act.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The presiding officer may conduct all or any part of the hearing by telephone, television, or other electronic means, in accordance with <cite doc="Md. Code" path="gsg|10-211">State Government Article, §10-211, Annotated Code of Maryland</cite>.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Order of Proceedings. Absent unusual circumstances, the order of proceedings in a case involving disciplinary charges against a respondent shall be as follows:</text>
+      <para>
+        <num>(1)</num>
+        <text>Opening statements and preliminary matters may be heard;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>All individuals planning to testify shall be sworn before testifying;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The presenter of evidence shall present the case against the respondent;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The respondent or the respondent's attorney or representative may present the respondent's case;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The presenter may present a rebuttal case; and</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>The administrative unit may hear closing arguments in the same order as the presentation of evidence and may receive written memoranda of law.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>In a disciplinary action case which includes a claim against a guaranty fund:</text>
+      <para>
+        <num>(1)</num>
+        <text>The claimant or the claimant's attorney shall present the claimant's case after the presenter of evidence has presented the case against the respondent;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The respondent or the respondent's attorney or representative may then present the respondent's case and respond to the claim;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The attorney for the guaranty fund may then present evidence on the claim; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>All parties may give closing argument in the same order as the presentation of evidence.</text>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>The presenter of evidence, the respondent, and the claimant may cross-examine any witness called by any party during a combined regulatory and guaranty fund hearing.</text>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>In an application case the order of proceedings shall be as follows:</text>
+      <para>
+        <num>(1)</num>
+        <text>The applicant or the applicant's attorney shall present the case in support of the application;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The presenter of evidence may then present the case in opposition to the application; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The applicant may then present rebuttal.</text>
+      </para>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>After the parties have completed their questioning of a witness, the presiding officer, members of the administrative unit, and counsel to the unit may question the witness.</text>
+    </para>
+    <para>
+      <num>J.</num>
+      <text>Upon a showing of good cause that a hearing cannot be completed on the scheduled date, an administrative unit may grant a continuance of the proceeding.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.14</num>
+    <heading>Evidence.</heading>
+    <text>The rules of evidence under this chapter shall be under <cite doc="Md. Code" path="gsg|10-213">State Government Article, §10-213, Annotated Code of Maryland</cite>.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.15</num>
+    <heading>Interpreters.</heading>
+    <para>
+      <num>A.</num>
+      <text>If a party or witness cannot readily hear, speak, or understand the spoken or written English language, and applies to the administrative unit in advance of the hearing for the appointment of a qualified interpreter to assist that party or witness, the administrative unit shall appoint a qualified interpreter to provide assistance during the hearing.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>With the approval of the administrative unit, a party who intends to offer the testimony of a witness who cannot readily hear, speak, or understand the spoken or written English language, may arrange for a qualified interpreter to assist the witness.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>An interpreter shall take an oath or affirm that the interpreter will accurately translate.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.16</num>
+    <heading>Burden of Proof.</heading>
+    <para>
+      <num>A.</num>
+      <text>In the hearing of a contested case involving allegations that the respondent violated a law or regulation, the presenter of evidence for the administrative unit shall bear the burden of proving, by a preponderance of the evidence, that the respondent committed the violations set forth in the charging document.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>In the hearing of a contested case resulting from the denial, or proposed denial, of a license, certificate, registration, or permit, the applicant shall have the burden of establishing, by a preponderance of the evidence, the applicant's entitlement to the license, certificate, registration, or permit.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>In a proceeding involving a guaranty fund claim, the claimant shall have the burden of proving, by a preponderance of the evidence, that the claimant is entitled to be compensated from the appropriate guaranty fund.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.17</num>
+    <heading>Public Hearings.</heading>
+    <text>Unless otherwise provided by statute, all hearings conducted under this chapter are open to the public.</text>
+  </section>
+  <section cache:ref-path="09|01|02|.18">
+    <prefix>Regulation</prefix>
+    <num>.18</num>
+    <heading>Recording.</heading>
+    <para>
+      <num>A.</num>
+      <text>The administrative unit shall cause the proceedings to be recorded.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The record need not be transcribed unless requested by a party or the administrative unit.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The cost of a typewritten transcript of any proceeding or part of a proceeding shall be paid by the party requesting the transcript.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Except as provided in <cite path="09|01|02|.18|A.">§A of this regulation</cite>, cameras, tape recorders, and other electronic and photographic equipment of any type are not permitted at the hearing, unless the equipment is intended to be introduced into evidence or used to present evidence.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.19</num>
+    <heading>Recusal.</heading>
+    <text>A member of an administrative unit shall be recused from the review of a complaint and from participating in a hearing if the individual:</text>
+    <para>
+      <num>A.</num>
+      <text>Has personal knowledge of the facts which gave rise to the complaint;</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Has a personal or business relationship with any of the parties or witnesses; or</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>For any other reason may be unable to act impartially in the matter.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.20</num>
+    <heading>Decisions.</heading>
+    <para>
+      <num>A.</num>
+      <text>After consideration of the testimony and other evidence, the administrative unit shall issue a written final order setting forth an appropriate disposition agreed to by a majority of the members of the unit who participated in the hearing.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A member who was not present at all parts of the hearing may not vote on the disposition.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The final order shall be issued within 90 days after the record of the proceeding is closed unless the administrative unit gives written notice to the parties that the time limit has been extended.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The final order shall be signed by the presiding officer or a designee, and unless otherwise noted in the order, is final upon issuance.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>A copy of the decision shall be maintained in the files of the administrative unit.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Decisions issued by an administrative unit in connection with a particular proceeding shall be mailed to the parties, or if represented by counsel to their attorney, by first-class mail within 3 business days from the date of the issuance of the order.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.21</num>
+    <heading>Judicial Review.</heading>
+    <text>A party aggrieved by the final decision in a contested case is entitled to judicial review of the decision under <cite doc="Md. Code" path="gsg|10-222">State Government Article, §10-222, Annotated Code of Maryland</cite>.</text>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container"><cite doc="Md. Code" path="gbr|2-105">Business Regulation Article, §2-105, </cite>Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="1982-03-29">Effective date: March 29, 1982 (9:6 Md. R. 613)</annotation>
+    <annotation type="History" dest="container" effective="1985-04-08"><cite path="|09|01|02|.01">Regulation .01</cite> amended effective April 8, 1985 (12:7 Md. R. 701)</annotation>
+    <annotation type="History" dest="container" effective="1987-02-23"><cite path="|09|01|02|.02">Regulation .02</cite> amended effective February 23, 1987 (14:4 Md. R. 415)</annotation>
+    <annotation type="History" dest="container" effective="2002-12-12" discontinuity="true">Regulations <cite path="|09|01|02|.01">.01</cite>—<cite path="|09|01|02|.04">.04</cite> repealed and new Regulations <cite path="|09|01|02|.01">.01</cite>—<cite path="|09|01|02|.21">.21</cite> adopted effective December 12, 2002 (29:24 Md. R. 1918)</annotation>
+  </annotations>
+</container>

@@ -1,0 +1,753 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>08</num>
+  <heading>Guide of Medical and Surgical Fees</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>“Ambulatory surgical center (ASC)” means any center, service, office facility, or other entity that:</text>
+        <para>
+          <num>(a)</num>
+          <text>Operates primarily for the purpose of providing surgical services to patients requiring a period of postoperative observation but not requiring overnight hospitalization; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Seeks reimbursement from payors as an ambulatory surgery center.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>“Authorized provider” means:</text>
+        <para>
+          <num>(a)</num>
+          <text>A licensed physician's assistant (P.A.), providing services on or after March 24, 2008;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A licensed acupuncturist;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A medical doctor (M.D.);</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>A doctor of osteopathy (D.O.);</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>A doctor of chiropractic (D.C.), for services provided within the scope of <cite doc="Md. Code" path="gho">Health Occupations Article, Title 3, Annotated Code of Maryland</cite>;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Podiatrist (D.P.M.);</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>An optometrist (O.D.);</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>A certified registered nurse anesthetist (C.R.N.A.);</text>
+        </para>
+        <para>
+          <num>(i)</num>
+          <text>An occupational therapist (O.T.);</text>
+        </para>
+        <para>
+          <num>(j)</num>
+          <text>A pharmacist (R. Ph.);</text>
+        </para>
+        <para>
+          <num>(k)</num>
+          <text>A licensed physical therapist (P.T.);</text>
+        </para>
+        <para>
+          <num>(l)</num>
+          <text>A psychologist (Ph.D.);</text>
+        </para>
+        <para>
+          <num>(m)</num>
+          <text>A licensed clinical social worker (L.C.S.W.);</text>
+        </para>
+        <para>
+          <num>(n)</num>
+          <text>A licensed audiologist;</text>
+        </para>
+        <para>
+          <num>(o)</num>
+          <text>A licensed speech-language pathologist;</text>
+        </para>
+        <para>
+          <num>(p)</num>
+          <text>A dentist (D.D.S./D.M.D.); and</text>
+        </para>
+        <para>
+          <num>(q)</num>
+          <text>Any other health care provider as defined under Health-General Article, §4-301(h)(1)(i), Annotated Code of Maryland.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>“Base Unit/Basic Value” means the value assigned by CMS to each anesthesia procedure code based on the difficulty of the anesthesia service and is used to determine a portion of the reimbursement amount of the anesthesia procedure.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>“CMS” means the Centers for Medicare and Medicaid Services, the federal agency that administers the nation's Medicare program and partners with the states to administer the Medicaid program.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>“CMS-1500” means the standard claim form, maintained by the National Uniform Claim Committee (NUCC), used by a non-institutional provider or supplier to bill Medicare carriers, Medicare administrative contractors, and Medicaid State agencies.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>“CPT” means the Physician's Current Procedural Terminology, copyrighted and maintained by the American Medical Association.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>“CPT code” means the five digit numerical code obtained from the CPT in effect when a medical service or treatment is provided.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>“CPT modifier” means the numerical code used to indicate that a service or procedure was altered in some way from the stated CPT description.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>“Geographic Price Cost Index (GPCI)” means the resource cost difference of providing a service, by geographic region, reflected in the relative work (work), practice expense (PE), and malpractice costs (MP) of the service.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>“Healthcare Common Procedure Coding System (HCPCS)” means one of two coding systems used by CMS: level I, consisting of CPT codes, and level II, used primarily to identify products, supplies, and services not included in the CPT codes, such as ambulance services and durable medical equipment, prosthetics, orthotics, and supplies.</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>“Maryland specific conversion factor (MSCF)” means a fixed dollar amount used as a multiplier in calculating the MRA for medical services and treatment, orthopedic and neurological surgical procedures, and anesthesiology services.</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>“Maximum reimbursement allowable (MRA)” means the amount payable to an authorized provider, unless subject to a private agreement to the contrary, calculated pursuant to this chapter for the provision of medical services and treatment rendered to an individual whose injury or disease falls within the scope of <cite doc="Md. Code" path="gle">Labor and Employment Article, Title 9, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>“Medicare economic index (MEI)” means a measure of the inflation faced by physicians with respect to their practice costs and wage levels as calculated by CMS.</text>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>“Medicare Physician Fee Schedule” means the Medicare database, based on the RBRVS, from which the Medicare reimbursement rate is obtained.</text>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>“Medicare reimbursement rate (MRR)” means the rate at which Medicare reimburses a services provider based on certain inputs including the CPT/HCPCS code, jurisdiction, year, any applicable CPT modifiers, any federal budget neutrality adjuster, and any Medicare conversion factor.</text>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>“Resource based relative value scale (RBRVS)” means the system by which medical providers are reimbursed based on the resource costs needed to provide a given service. Under the RBRVS, CMS assigns each medical procedure a relative value quantifying the relative work (work), practice expense (PE), and malpractice costs (MP) for each service.</text>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>“RBRVS relative value unit (RVU)” means the uniform value assigned by CMS to each medical procedure and service identified by CPT/HCPCS code quantifying the work (work), practice expense (PE), and malpractice costs (MP) for each service.</text>
+      </para>
+      <para>
+        <num>(18)</num>
+        <text>“Time Unit” means a measure of each 15-minute interval, or fraction thereof, during which anesthesiology services are performed.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Incorporation by Reference.</heading>
+    <para>
+      <num>A.</num>
+      <text>The “Official Maryland Workers’ Compensation Medical Fee Guide” (1995) is incorporated by reference.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Health Services Cost Review Commission. In accordance with Health-General Article, §19-211, Annotated Code of Maryland, in the case of a discrepancy between a rate for a hospital service set by the Health Services Cost Review Commission and that set by the Workers’ Compensation Commission, the rate set by the Health Services Cost Review Commission shall prevail.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Calculation of the Maximum Reimbursement Allowable.</heading>
+    <para>
+      <num>A.</num>
+      <text>For medical services and treatment provided before August 31, 2001, the MRA shall be the fees set forth in the Official Maryland Workers' Compensation Medical Fee Guide (1995). For anesthesiology services, the MRA is calculated by adding the Time Units and Base Units/Basic Value and multiplying that sum by a conversion factor: MRA = (Time Units + Base Units) × Conversion Factor.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>For medical services and treatment provided between August 31, 2001, and August 31, 2004, the MRA shall be calculated by increasing the fees set forth in the Official Maryland Workers' Compensation Medical Fee Guide (1995) by 4 percent.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>For medical services and treatment provided between September 1, 2004, and January 31, 2006, the MRA shall be calculated by multiplying the MRR by a percentage multiplier as follows:</text>
+      <para>
+        <num>(1)</num>
+        <text>The MRR is obtained from the Medicare Physician Fee Schedule by utilizing 2004 for the year, Maryland for the state, Baltimore and Surrounding Counties for the locality, the applicable CPT code and any CPT modifier;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The MRA is calculated by multiplying the MRR by 109 percent; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>For anesthesiology services, the MRA is calculated by adding the Time Units and Base Units/Basic Value, multiplying that sum by the CMS 2004 conversion factor multiplied by 109 percent: MRA = (Time Units + Base Units) × CMS 2004 Conversion Factor × 109 percent.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>For medical services and treatment provided between February 1, 2006, and March 24, 2008, the MRA shall be calculated by multiplying the MRR by a percentage multiplier as follows:</text>
+      <para>
+        <num>(1)</num>
+        <text>The MRR is obtained from the Medicare Physician Fee Schedule by utilizing 2004 for the year, Maryland for the state, Baltimore and Surrounding Counties for the locality, the applicable CPT code and any CPT modifier; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The MRA is calculated by multiplying the MRR by the specified percentage multiplier:</text>
+        <para>
+          <num>(a)</num>
+          <text>For anesthesiology services, the MRA is calculated by adding the Time Units and Base Units/Basic Value, multiplying that sum by the CMS 2004 conversion factor multiplied by 109 percent;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>For orthopedic and neurological surgical procedures, excluding minor procedures, the MRA is calculated by multiplying the MRR by 144 percent; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Except as otherwise provided, the MRA for all other medical services and treatment is calculated by multiplying the MRR by 109 percent.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>After March 24, 2008.</text>
+      <para>
+        <num>(1)</num>
+        <text>For medical services and treatment provided after March 24, 2008, the Commission shall utilize the current calendar year CMS Resource Based Relative Value Scale (RBRVS), exclusive of any Federal Budget Neutrality Adjustment Factor or CMS conversion factor, as the basis for calculating the MRA.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The non-facility MRA shall be calculated by multiplying each RBRVS relative value unit (RVU) by each corresponding GPCI, adding those sums, and then multiplying that total by the Maryland specific conversion factor (MSCF) as follows: Non-facility MRA = ((Work RVU × Work GPCI) + (Transitioned Non-Facility PE RVU × PE GPCI) + (MP RVU × MP GPCI)) × MSCF.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The facility MRA shall be calculated by multiplying each RBRVS RVU by each corresponding GPCI, adding those sums, and then multiplying that total by the MSCF as follows: Facility MRA = ((Work RVU × Work GPCI) + (Transitioned Facility PE RVU × PE GPCI) + (MP RVU × MP GPCI)) × MSCF.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>For anesthesiology services, the MRA shall be calculated by adding the Time Units and Base Units and multiplying that sum by the MSCF: MRA = (Time Units + Base Units) × MSCF.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>In calculating the MRA, the following MSCFs apply:</text>
+        <para>
+          <num>(a)</num>
+          <text>For anesthesiology services, the MSCF is $19.39;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>For orthopedic and neurological surgical procedures, MSCF is $53.77; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>For all other medical services and treatment, except as otherwise provided, the MSCF is $40.70.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Ambulatory Surgical Centers.</text>
+      <para>
+        <num>(1)</num>
+        <text>For medical services and treatment provided at an ASC between September 1, 2004, and January 31, 2006, the MRA is calculated by multiplying the CMS 2004 ASC group payment rate by 109 percent.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>For medical services and treatment provided at an ASC between February 1, 2006, and March 24, 2008, the MRA is calculated by multiplying the 2004 CMS ASC group payment rate by 125 percent.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>For medical services and treatment provided at an ASC on, or after, March 24, 2008, the MRA is calculated by multiplying the current calendar year ASC MRR by 125 percent.</text>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>MSCF Annual Adjustment.</text>
+      <para>
+        <num>(1)</num>
+        <text>Beginning January 1, 2009, an adjustment shall be made to the prior year's MSCFs and percentage multiplier (for ASCs).</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The MSCFs for the following year shall be calculated by multiplying the MSCFs in effect on November 1 of the current year by the percentage change in the first quarter MEI of the current year, as published on November 1 of the current year, and adding that amount to the current year's MSCFs.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The percentage multiplier for the following year shall be calculated by multiplying the percentage multiplier in effect on November 1 of the current year by the percentage change in the first quarter MEI of the current year, as published on November 1 of the current year, and adding that amount to the current year's percentage multiplier.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The resulting figures shall be utilized as the new MSCF and percentage multiplier for the following year for the purpose of calculating the MRA under §§E and F of this regulation.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The Commission shall post the new MSCFs and percentage multiplier on its website by December 1.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>The resulting new MSCFs and percentage multiplier shall be effective January 1 of the following year.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>The Commission shall review the annual adjustment process every 5 years to assure that reimbursement rates are neither inadequate nor excessive.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="14|09|08|.04">
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>MRA or Fee Not Established.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Commission has not established a medical fee schedule for dental services, durable medical equipment, and pharmaceuticals.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>For products and services for which the Commission has not established an MRA or medical fee schedule, including dental services, durable medical equipment, and pharmaceuticals, the insurance carrier shall assign a relative value to the product or service.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>An insurance carrier may base the assigned value on nationally recognized and published relative value studies, or on the values assigned for services involving similar work and resources.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Upon application of either party, the amount of reimbursement is subject to review by the Commission under the procedures set forth in <cite path="|14|09|08|.06">Regulation .06 of this chapter</cite>.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Reimbursement.</text>
+      <para>
+        <num>(1)</num>
+        <text>Except as provided in <cite path="14|09|08|.04|E.|(2)">§E(2) of this regulation</cite>, reimbursement shall be the lesser of:</text>
+        <para>
+          <num>(a)</num>
+          <text>The MRA amount as established by this regulation; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The authorized provider's usual and customary charge.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If, in the opinion of a health care provider it is medically necessary to exceed the MRA, the authorized provider shall submit substantiating documentation to the payor with the Form CMS-1500.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>For relevant CPT/HCPCS level I codes that are not valued by CMS, the Commission shall post MRAs for those codes on its website.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Guidelines for Using Values and Codes.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Maryland Workers' Compensation Act, implementing regulations, policies, and guidelines shall take precedence over any conflicting provision adopted or utilized by CMS in administering the CMS program.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>For coding, billing, reporting, and reimbursement of medical treatment and services, authorized providers shall apply the CPT/HCPCS code and CPT modifier in effect on the date the treatment or service was provided.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The Commission shall post instructions for obtaining RVU and GPCI values on its website.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>RVU and GPCI values shall be obtained utilizing the current year, the locality code for Baltimore and Surrounding Counties (0090101), the applicable CPT/HCPCS code and any CPT modifier.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>The Commission shall post a link to the Medicare Physician Fee Schedule on its website.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>The Commission shall post a link to the ASC payment rate instructions on its website.</text>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Notwithstanding CMS payment policies, chiropractors may be reimbursed for services provided within the scope of their practice act.</text>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>For procedures performed or services rendered after September 1, 2004, a multiple procedure discount is not permitted for physical medicine and rehabilitation services (CPT codes 97010—97799).</text>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>After September 1, 2004, only one code per session will be reimbursed for CPT codes 97012—97039.</text>
+    </para>
+  </section>
+  <section cache:ref-path="14|09|08|.06">
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Reimbursement Procedures.</heading>
+    <para>
+      <num>A.</num>
+      <text>To obtain reimbursement under this chapter, an authorized provider shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Complete Form CMS-1500 in accordance with the written instructions posted on the Commission's website; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Within the time provided in <cite path="14|09|08|.06|H.">§H of this regulation</cite>, submit to the employer or insurer the completed Form CMS-1500, which shall include:</text>
+        <para>
+          <num>(a)</num>
+          <text>An itemized list of each service;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The diagnosis relative to each service;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The medical records related to the service being billed;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>The appropriate CPT/HCPCS code with CPT modifiers, if any, for each service;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>The date of each service;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>The specific fee charged for each service;</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>The tax ID number of the provider;</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>The professional license number of the provider; and</text>
+        </para>
+        <para>
+          <num>(i)</num>
+          <text>The National Provider Identifier (NPI) of the provider.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Modifiers.</text>
+      <para>
+        <num>(1)</num>
+        <text>Modifying circumstances may be identified by use of the relevant CPT modifier in effect when the medical service or treatment was provided.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The identification of modifying circumstances does not imply or guarantee that a provider will receive reimbursement as billed.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Time for Reimbursement. Reimbursement by the employer or insurer shall be made within 45 days of the date on which the Form CMS-1500 was received by the employer or insurer, unless the claim for treatment or services is denied in full or in part under <cite path="14|09|08|.06|G.">§G of this regulation</cite>.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Untimely Reimbursement. If an employer or insurer does not pay the fee calculated under this chapter or file a notice of denial of reimbursement, within 45 days of receipt of the CMS-1500, the Commission may assess a fine against the employer or its insurer, and award interest to the provider in accordance with Labor and Employment Article, §§<cite doc="Md. Code" path="gle|9-663">9-663</cite> and <cite doc="Md. Code" path="gle|9-664">9-664</cite>, Annotated Code of Maryland, and <cite path="14.09.06.02">COMAR 14.09.06.02</cite>.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Denial of Reimbursement.</text>
+      <para>
+        <num>(1)</num>
+        <text>If an employer or insurer denies, in full or in part, a claim for treatment or services, the employer or insurer shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Notify the provider of the reasons for the denial in writing; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Mail the notice of denial of reimbursement to the provider within 45 days of the date on which Form CMS-1500 was received.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An employer or insurer who fails to file a notice of denial of reimbursement within 45 days of receipt of the CMS-1500 waives the right to deny reimbursement, and is subject to the provisions of Labor and Employment Article, §§<cite doc="Md. Code" path="gle|9-663">9-663</cite> and <cite doc="Md. Code" path="gle|9-664">9-664</cite>, Annotated Code of Maryland, and <cite path="14.09.06.02">COMAR 14.09.06.02</cite></text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Objection to Denial of Reimbursement.</text>
+      <para>
+        <num>(1)</num>
+        <text>A provider may contest a partial or total denial of reimbursement, by submitting to the Commission the following items:</text>
+        <para>
+          <num>(a)</num>
+          <text>A "Claim for Medical Services" on a form provided by the Commission;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The Form CMS-1500 that relates to the unpaid claims; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>All correspondence relating to the unpaid claim.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Commission shall review the items submitted, without hearing, and issue its decision in an Order Nisi.</text>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Hearing on Objection to Commission's Order Nisi.</text>
+      <para>
+        <num>(1)</num>
+        <text>The provider, employer, or insurer may contest the Commission's Order Nisi by filing with the Commission a controversion of medical claim, on a form provided by the Commission, within 30 days of the date of the Order Nisi.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Commission shall schedule a hearing on the matter and render a decision.</text>
+      </para>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>Time for Submitting Form CMS-1500.</text>
+      <para>
+        <num>(1)</num>
+        <text>A provider who provides medical service or treatment to a covered employee and seeks reimbursement under this chapter for providing medical service or treatment shall submit to the employer or the employer’s insurer a bill in the form of a completed Form CMS-1500 within 12 months from the later of the date:</text>
+        <para>
+          <num>(a)</num>
+          <text>Medical service or treatment was provided to a covered employee;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The claim for compensation was accepted by the employer or the employer’s insurer; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The claim for compensation was determined by the Commission to be compensable.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The employer or the employer’s insurer may not be required to pay a bill submitted after the time period required under <cite path="14|09|08|.06|H.|(1)">§H(1) of this regulation</cite> unless:</text>
+        <para>
+          <num>(a)</num>
+          <text>The provider files an application for payment with the Commission within 3 years from the later of the date:</text>
+          <para>
+            <num>(i)</num>
+            <text>Medical service or treatment was provided to the covered employee;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The claim for compensation was accepted by the employer or the employer’s insurer; or</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>The claim for compensation was determined by the Commission to be compensable; and</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The Commission excuses the untimely submission for good cause.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Medical Records.</heading>
+    <para>
+      <num>A.</num>
+      <text>Medical records are the basis for determining whether a particular treatment or service is medically necessary and, therefore, reimbursable.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Each health care provider is responsible for creating and maintaining legible medical records documenting the employee's course of treatment.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Employee medical records shall include the:</text>
+      <para>
+        <num>(1)</num>
+        <text>History of the patient;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Results of a physical examination performed in conformity with the standard of practice of similar health care providers, with similar training, in the same or similar communities;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Progress, clinical, or office notes that reflect:</text>
+        <para>
+          <num>(a)</num>
+          <text>Subjective patient complaints;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Objective findings of the provider;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Assessment of the presenting problem;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Any plan or plans of care or recommendations for treatment; and</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Updated assessments of patient's medical status and response to therapy;</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Copies of lab, x-ray, or other diagnostic tests, if any, that reflect the current progress of the patient and response to therapy; and</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Hospital inpatient and outpatient records, if any, including:</text>
+        <para>
+          <num>(a)</num>
+          <text>Operation reports;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Test results;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Consultation reports;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Discharge summaries; and</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Other dictated reports.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Writing, Maintaining, and Submitting Medical Records.</text>
+      <para>
+        <num>(1)</num>
+        <text>Employee medical records shall be submitted to the employer or insurer, or, upon request, to the Commission.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The cost of maintaining medical records is included in the treatment and service fees established by the Official Maryland Workers' Compensation Medical Fee Guide (1995) and this chapter. A provider may not submit a separate fee for writing or maintaining medical records.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Additional Medical Report Fees.</text>
+        <para>
+          <num>(a)</num>
+          <text>Upon the request of any party or the Commission, a provider shall promptly write and submit the requested additional medical reports.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>When additional medical reports are requested by the Commission, a provider may not charge a fee for writing or preparing the additional medical reports.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>When additional medical reports are requested by any party, the provider may seek reimbursement under <cite path="|14|09|08|.06">Regulation .06 of this chapter</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Copies of Medical Records and Additional Medical Reports.</text>
+        <para>
+          <num>(a)</num>
+          <text>Requests for Copies of Medical Records.</text>
+          <para>
+            <num>(i)</num>
+            <text>A party requesting medical records shall ensure that the request is reasonable and specific.</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Health care providers shall respond promptly to requests for medical records and additional medical reports.</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Health care providers may request clarification regarding which medical records and medical reports are the subject of the request.</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Copies of medical records that were not specifically requested by the payor, are not subject to reimbursement under this chapter.</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Fees for Copying.</text>
+          <para>
+            <num>(i)</num>
+            <text>When requested by the injured employee, injured employee's attorney, the employer, or insurer, copies of medical records and additional medical reports will be reimbursed pursuant to Health-General Article, §4-304(c), Annotated Code of Maryland, and other applicable law.</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Medical record requests by the Commission will be furnished by the provider without charge.</text>
+          </para>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Deposition Witness Fee.</heading>
+    <para>
+      <num>A.</num>
+      <text>After March 24, 2008, the Commission no longer regulates the reimbursement of deposition fees through a medical fee schedule.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>For witness depositions for which a bill has been submitted by the authorized provider before March 24, 2008, the authorized provider shall be allowed a witness fee if the provider submits a bill for the fee using the CPT code for the service.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Reimbursement for a deposition is limited to the amount published in the "Official Maryland Workers' Compensation Medical Fee Guide (1995)" for the appropriate CPT code.</text>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Labor and Employment Article, §§<cite doc="Md. Code" path="gle|9-309">9-309</cite>, <cite doc="Md. Code" path="gle|9-663">9-663</cite>, and <cite doc="Md. Code" path="gle|9-731">9-731</cite>, Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container">Effective date:</annotation>
+    <annotation type="History" dest="container" effective="1987-08-01"><cite path="|14|09|08|.01">Regulation .01</cite> adopted as an emergency provision effective August 1, 1987 (14:17 Md. R. 1869); emergency status expired July 31, 1988</annotation>
+    <annotation type="History" dest="container" effective="1988-08-01"><cite path="|14|09|08|.01">Regulation .01</cite> adopted effective August 1, 1988 (15:14 Md. R. 1655)</annotation>
+    <annotation type="History" dest="container" effective="1991-08-01"><cite path="|14|09|08|.01">Regulation .01</cite> amended effective August 1, 1991 (18:13 Md. R. 1484)</annotation>
+    <annotation type="History" dest="container" effective="1996-07-01" discontinuity="true"><cite path="|14|09|08|.01">Regulation .01</cite> repealed and new Regulation .01 adopted effective July 1, 1996 (23:12 Md. R. 872)</annotation>
+    <annotation type="History" dest="container" effective="2004-09-01"><cite path="|14|09|08|.01">Regulation .01</cite> amended effective September 1, 2004 (31:13 Md. R. 995)</annotation>
+    <annotation type="History" dest="container" effective="2006-06-05"><cite path="|14|09|08|.01">Regulation .01</cite> amended as an emergency provision effective February 1, 2006 (33:5 Md. R. 517); amended permanently effective June 5, 2006 (33:11 Md. R. 951)</annotation>
+    <annotation type="History" dest="container" effective="2001-10-29"><cite path="|14|09|08|.02">Regulation .02</cite> adopted as an emergency provision effective August 31, 2001 (28:19 Md. R. 1681); adopted permanently effective October 29, 2001 (28:21 Md. R. 1858)</annotation>
+    <annotation type="History" dest="container" effective="2008-03-24" discontinuity="true">Regulations <cite path="|14|09|08|.01">.01</cite>—<cite path="|14|09|08|.02">.02</cite> repealed and new Regulations <cite path="|14|09|08|.01">.01</cite>—<cite path="|14|09|08|.08">.08</cite> adopted effective March 24, 2008 (35:6 Md. R. 699)</annotation>
+    <annotation type="History" dest="container" effective="2008-09-08"><cite path="|14|09|08|.03|F.">Regulation .03F</cite> amended as an emergency provision effective April 4, 2008, (35:9 Md. R. 895); amended permanently effective September 8, 2008 (35:18 Md. R. 1501)</annotation>
+    <annotation type="History" dest="container" effective="2012-03-05"><cite path="|14|09|08|.03|G.">Regulation .03G</cite> amended effective March 5, 2012 (39:4 Md. R. 338)</annotation>
+    <annotation type="History" dest="container" effective="2014-03-03" discontinuity="true">Chapter recodified from <cite path="|14.09.03">COMAR 14.09.03</cite>, Guide of Medical and Surgical Fees, to <cite path="|14.09.08">COMAR 14.09.08</cite>, Guide of Medical and Surgical Fees, effective March 3, 2014 (41:4 Md. R. 304)</annotation>
+    <annotation type="History" dest="container" effective="2020-02-24"><cite path="|14|09|08|.01|B.">Regulation .01B</cite> amended effective February 24, 2020 (47:4 Md. R. 263)</annotation>
+    <annotation type="History" dest="container" effective="2020-02-24"><cite path="|14|09|08|.02">Regulation .02</cite> amended effective February 24, 2020 (47:4 Md. R. 263)</annotation>
+    <annotation type="History" dest="container" effective="2018-03-12"><cite path="|14|09|08|.06|A.">Regulation .06A</cite> amended effective March 12, 2018 (45:5 Md. R. 287)</annotation>
+    <annotation type="History" dest="container" effective="2018-03-12"><cite path="|14|09|08|.06|H.">Regulation .06H</cite> adopted effective March 12, 2018 (45:5 Md. R. 287)</annotation>
+  </annotations>
+</container>

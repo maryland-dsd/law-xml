@@ -1,0 +1,917 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>14</num>
+  <heading>Governmental Group Self-Insurance</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>For the purposes of this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>“Actuarially calculated ultimate loss liability” means the sum of open claim reserves plus an estimate of incurred but not reported losses on open and closed claims through the cutoff date for the estimate in accordance with generally accepted actuarial principles.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>"Adequate consideration" has the meaning set forth in the Employee Retirement Income Security Act of 1974 (ERISA), 29 U.S.C. §1108(17)(B).</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>"Administrator" means a person or entity designated by the Board of Trustees for a purpose authorized by this regulation.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>"Board of Trustees" means the elected governing body of a governmental group self-insurance fund.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>"Elect" means either:</text>
+        <para>
+          <num>(a)</num>
+          <text>Direct election by the members of the governmental group fund;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Appointment by the Board of Directors of a governmental entity member organization; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Appointment by the Board of Directors of the governmental group or sponsoring organization.</text>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>"Exchange traded fund" or "ETF" means an equity fund or bond fund designed to replicate the performance of a major broad market United States, international, or global index and publicly traded on an American Stock Exchange.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>"Fiduciary" means:</text>
+        <para>
+          <num>(a)</num>
+          <text>An individual or group of individuals as defined in the Employee Retirement Income Security Act of 1974 (ERISA), 29 U.S.C. §1102(21)(A);</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A member of the Board of Trustees;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A member of an investment committee of the Board of Trustees; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>An administrator.</text>
+        </para>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>"Fiscal agent" means the entity employed by the Board of Trustees to hold the monies of the Fund.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>"Fund" means the governmental self-insurance group fund established pursuant to <cite doc="Md. Code" path="gle|9-404">Labor and Employment Article, §9-404, Annotated Code of Maryland</cite>, and this chapter.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>"Party in interest" means:</text>
+        <para>
+          <num>(a)</num>
+          <text>An administrator;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A fiduciary;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A member of the Fund, any of whose employees are covered by the Fund;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>A service company;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>A trustee;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>A fiscal agent;</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>A spouse, ancestor, lineal descendent, or spouse of a lineal descendent of a person set forth in §B(10)(a) — (f) of this regulation;</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>A corporation, partnership, trust or estate of which 50 percent is owned directly or indirectly by a person set forth in §B(9)(a) — (f) of this regulation;</text>
+        </para>
+        <para>
+          <num>(i)</num>
+          <text>An employee, officer, director or 10 percent or more shareholder of an entity or person set forth in §B(10)(a) — (f) of this regulation; and</text>
+        </para>
+        <para>
+          <num>(j)</num>
+          <text>A 10 percent or more partner or joint venturer of an entity or person set forth in §B(10)(a) — (f) of this regulation.</text>
+        </para>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>"SEC" means the United States Securities and Exchange Commission.</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>"Service company" means an organization, company, or person hired to perform a function of the Fund's day-to-day operations including, but not limited to:</text>
+        <para>
+          <num>(a)</num>
+          <text>Adjusting claims;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Performing safety engineering;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Compiling statistics and preparing premium, loss, and tax reports;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Preparing other required fund reports;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Developing members' premiums and fees;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Managing the investment of all or part of the Fund's assets; and</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>Providing advisory services, including advice on investment objectives, asset allocation, manager search, and performance monitoring.</text>
+        </para>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>"Sponsoring organization" means the governmental group that has been approved for joint self-insurance coverage under <cite doc="Md. Code" path="gle|9-404">Labor and Employment Article, §9-404, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>"Surplus monies not needed to meet current obligations (surplus monies)" means monies not needed to pay current Fund:</text>
+        <para>
+          <num>(a)</num>
+          <text>Expenses;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Obligations;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Open claim reserves; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Incurred, but not reported, claim reserves.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01-1</num>
+    <heading>Application.</heading>
+    <para>
+      <num>A.</num>
+      <text>Application for governmental group coverage for the express purpose of establishing a group self-insurers' fund, to be administered under the direction of an elected board of trustees, and to provide workers' compensation coverage for a group of public employers of the same type of unit, shall be made to the Workers' Compensation Commission.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The application shall be made on a prescribed form and shall contain answers to all questions and shall be accompanied by the application fee in the amount as may be approved by the Commission from time to time.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Additional Requirements. The application, as submitted by the initial board of trustees of self-insurersâ€™ fund, shall be accompanied by all of the following:</text>
+      <para>
+        <num>(1)</num>
+        <text>A copy of the bylaws of the proposed group self-insurers' fund.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An individual application of each member of the group applying for coverage in the fund.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A current financial statement and a budget report that shows planned expenditures are funded.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Evidence of the financial ability of the group to meet its obligations under the Workers' Compensation Law.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>A composite listing of the estimated standard premium to be developed by each member of the group individually and in total as a group.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Proof of payment by each member of not less than 25 percent of the estimated annual standard premium into a designated depository. For governmental entities, a letter of intent signed by the responsible financial officer pledging payment within 10 days of the approval of the fund by the Commission may constitute proof of payment.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>A confirmation of excess insurance by an authorized carrier in an acceptable amount and which complies with the requirements in <cite path="|14|09|14|.07">Regulation .07 of this chapter</cite>.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Designation of a qualified employee or administrator of the association or group, or a qualified service company with a copy of the signed service agreement.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>Designation of the initial board of trustees.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>Proof of a fidelity bond and errors and omissions policy in a form and amount acceptable to the Commission.</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>If required, a surety bond written by an authorized carrier in an amount acceptable or other acceptable security.</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>A copy of a trust and indemnity agreement which shall be subject to approval by the Commission. The agreement shall contain a provision jointly and severally binding the group and each member of it to comply with the provision of the Workers' Compensation Law.</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>A breakdown of all projected administrative expenses for the fund year in an amount and as a percentage of the annual standard premium collected.</text>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>Proof, satisfactory to the Commission, that the annual gross premiums of the fund will not be less than $500,000. The premium collected from each member shall be computed by applying the appropriate manual rates per payroll code classification and multiplying the manual rate by an experience modification factor, if the modification factor is applicable.</text>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>Proof that the fund has within its own organization ample facilities and competent personnel to service its own program with respect to underwriting matters and industrial safety engineering or shall contract with a qualified service company or employer adjusters to provide these services. A qualified service company shall be used to handle claims adjusting and reporting of loss data.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Approval and Review.</heading>
+    <para>
+      <num>A.</num>
+      <text>After considering the application and all supportive data, the Commission shall either grant approval or advise the trustees of the governmental self-insurers' group of the requirements to be met before approval is granted. The group shall be given 30 days from the receipt of the notice in which to comply with the requirements. The self-insured authority may not become effective until there is proof that all requirements for self-insured approval have been met.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The group may, at the discretion of the Commission, be granted additional time to meet the requirements for the self-insured program. A request for an extension of time shall be made in writing by the group within the 30-day compliance period. If the Commission does not receive proof that all requirements for the self-insured program have been met within the time prescribed, the application shall be considered withdrawn.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Upon meeting the requirements, the group shall receive a formal certificate approving its status as a self-insurer. The privilege shall be extended until denied.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Members Admission and Termination.</heading>
+    <para>
+      <num>A.</num>
+      <text>After the inception date of the fund, prospective new members of the fund shall submit an application for membership to the board of trustees, or its administrator. The trustees or administrator may approve the application for membership pursuant to the bylaws of the governmental group self-insurers' fund. The application for membership shall then be filed with the Commission, and membership shall take effect on the date approval is granted by the Commission.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Individual members may elect to terminate their participation in a governmental group self-insurersâ€™ program or be subject to cancellation by the governmental group fund pursuant to the bylaws of the fund. However, termination or cancellation may not take place for at least 30 days after notice to the Commission of the termination or cancellation from the governmental group fund.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Reports to the Commission.</heading>
+    <para>
+      <num>A.</num>
+      <text>Reports as to financial standing, payroll records, insurance coverage, accident experience, compensation payments, and such other reports as are required to be filed shall be made at the following times and in the following manner:</text>
+      <para>
+        <num>(1)</num>
+        <text>Each fund shall file a statement of financial condition annually prepared by a certified public accounting firm. The financial statement shall show evidence that the fund has surplus sufficient to pay 1 year of estimated claim payments.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Summary loss data shall be filed on each fund member within 60 days after the annual evaluation date of the losses being reported, in a manner as prescribed. Full actuarial reports and loss runs shall be provided annually. The Commission may request these reports more frequently.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Classified, audited, and properly limited payrolls on each fund member shall be submitted on an annual basis or upon special request on forms prescribed.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>A certified copy of the minutes of all trustee meetings shall be submitted by the fund administrator within 30 days of approval but not less than 45 days after the meeting date.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Members of a governmental self-insurers' group shall be subject to an experience rating plan for the purpose of determining the modified insurance rate to develop compensation premiums. The experience rating formula promulgated by the National Council on Compensation Insurance or other formula approved by the group and the Commission shall be used in determining the modified premium. Annually, or as otherwise prescribed, the modified premium for each member shall be approved by the trustees.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>The trustees of any governmental group fund may apply a penalty rate in excess of the normal premium to any risk with an unfavorable loss experience, provided the members and the Commission are notified in writing before the effective date of the change in rates.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Any fund which fails or refuses to file the above reports within the time limits prescribed in these regulations or whose filed reports indicate the fund is not operating in accordance with these regulations shall be notified that its authority to be self-insured shall be terminated and the grounds for the termination. The fund may request a hearing in accordance with the regulation.</text>
+    </para>
+  </section>
+  <section cache:ref-path="14|09|14|.05">
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Trustee Responsibilities.</heading>
+    <para>
+      <num>A.</num>
+      <text>Trustee Election.</text>
+      <para>
+        <num>(1)</num>
+        <text>Trustees shall be elected or appointed for a stated term of office.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A trustee may not be an owner, officer, or employee of a service company with which the Board of Trustees contracts for a purpose authorized by this chapter, except that a Trustee may be an employee of the governmental group or sponsoring organization.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Delegation of Authority to Administrator.</text>
+      <para>
+        <num>(1)</num>
+        <text>Subject to final approval by the Commission, the Board of Trustees may delegate authority to perform specific functions to an Administrator including, but not limited to, the authority to:</text>
+        <para>
+          <num>(a)</num>
+          <text>Contract with a service company and other providers;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Determine the premium charged to and refunds payable to members subject to the restrictions of the Commission;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Invest surplus monies subject to the restrictions set forth in this regulation; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Approve applications for membership.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Board of Trustees shall include in the written minutes of trustee meetings the specific authority delegated to an administrator pursuant to this section.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The Board of Trustees shall submit a copy of the minutes under <cite path="14|09|14|.05|B.|(2)">§B(2) of this regulation</cite> to the Commission for approval.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>An Administrator designated by the Board of Trustees:</text>
+        <para>
+          <num>(a)</num>
+          <text>May not be an owner, officer, or employee of a service company with which the Board of Trustees has contracted for a purpose authorized by this chapter, except that the Administrator may be an employee of the governmental group or sponsoring organization; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Shall furnish a fidelity bond, with the Fund as obligee, in an amount, as determined by the Commission, sufficient to protect the Fund against misappropriation or misuse of any monies or securities.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Authority of Board of Trustees.</text>
+      <para>
+        <num>(1)</num>
+        <text>The Board of Trustees may not:</text>
+        <para>
+          <num>(a)</num>
+          <text>Extend credit to individual members for payment of premiums other than normal premium payment plans;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Utilize any of the monies collected as premiums for any purpose unrelated to the Fund's workers' compensation program; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Borrow any monies from the Fund or in the name of the Fund:</text>
+          <para>
+            <num>(i)</num>
+            <text>Without obtaining the prior approval of the Commission; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>For the purpose of engaging in an investment activity pursuant to this chapter.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Board of Trustees may:</text>
+        <para>
+          <num>(a)</num>
+          <text>Direct the administration of the Fund;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Approve applications for membership in the Fund;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Invest surplus monies subject to the restrictions set forth in <cite doc="Md. Code" path="gle|9-404">Labor and Employment Article, §9-404(a), Annotated Code of Maryland</cite>, and this chapter; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Contract with a service company or other provider for a purpose authorized by this chapter.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The Board of Trustees shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Retain control of monies collected or disbursed from the Fund;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Establish a claims fund sufficient to cover payment of the entire aggregate loss fund as defined in any aggregate excess policy required by the Commission;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Establish a trustee fund sufficient to pay the administrative costs of the Fund and from which all administrative costs and other disbursements shall be made;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Establish a revolving fund, to be replenished from time to time from the claims fund, for use by the Fund's staff or an authorized service company;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Arrange for the annual audit of the accounts and records of the Fund by an independent certified public accountant, copies of which shall be filed with the Commission no later than 5 months after the close of the Fund fiscal year; and</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Determine the premiums charged to and refunds payable to members.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Use of Service Company.</text>
+      <para>
+        <num>(1)</num>
+        <text>The Board of Trustees may contract with a service company to perform any function not specifically reserved to the Board of Trustees.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Prior to entering into a contract with a service company or other provider for a purpose authorized by this chapter, the Board of Trustees or Administrator shall provide to the Commission satisfactory proof that the service company or provider:</text>
+        <para>
+          <num>(a)</num>
+          <text>Is covered by a fidelity bond, with the Fund as obligee, in an amount sufficient to protect monies over which the service company or provider exercises control;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Maintains fiduciary liability insurance, and if not, how the Fund's interests are protected;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Possesses experience and expertise relevant to the activity that the service company or provider has been contracted to provide;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Holds the qualifications required by the state or federal agency responsible for regulating the activity that the service company or provider has been contracted to provide; and</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Is licensed, registered, or exempt from licensing or registration, with the state or federal agency responsible for regulating the activity that the service company or provider has been contracted to provide.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Prohibited Transactions.</text>
+      <para>
+        <num>(1)</num>
+        <text>Except as provided in §E(3), a fiduciary with respect to the Fund may not cause the Fund to engage in a transaction, if the fiduciary knows or should know that such transaction constitutes direct or indirect:</text>
+        <para>
+          <num>(a)</num>
+          <text>Sale, exchange, or leasing of property between the Fund and a party in interest;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Lending of money or other extension of credit between the Fund and a party in interest;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Furnishing of goods, services, or facilities between the Fund and a party in interest;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Transfer to, or use by or for the benefit of, a party in interest, of an asset of the Fund; or</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Engaging in investment, or other activity not provided for in the approved annual investment plan, this chapter, or <cite doc="Md. Code" path="gle|9-404">Labor and Employment Article, §9-404(a), Annotated Code of Maryland</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Except as provided in <cite path="14|09|14|.05|E.|(3)">§E(3) of this regulation</cite>, a fiduciary may not:</text>
+        <para>
+          <num>(a)</num>
+          <text>Deal with Fund assets in the fiduciary's own interest or for the fiduciary's own account;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Act in a transaction involving the Fund on behalf of a party whose interests are adverse to the interest of the Fund or its members; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Receive any consideration for the fiduciary's own personal account from a person dealing with the Fund in connection with a transaction involving the assets of the Fund.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The prohibitions in §E(1) and (2) of this regulation do not apply to the following transactions:</text>
+        <para>
+          <num>(a)</num>
+          <text>Contracting or making reasonable arrangements with a party in interest for office space, or legal, accounting, or other services necessary for the establishment or operation of the Fund and its workers' compensation insurance program, if not more than reasonable compensation is paid for those services; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Transactions described in §E(1) and (2) of this regulation between the Fund and a person that is a party in interest, other than a fiduciary, who has or exercises any discretionary authority or control with respect to the investment of the Fund assets involved in the transaction, or who renders investment advice, within the meaning of <cite path="|14|09|14|.01|B.|(7)|(a)">Regulation .01B(7)(a) of this chapter</cite>, with respect to those assets, solely by reason of providing services to the plan or solely by reason of a relationship to such a service provider, but only if in connection with such transaction the Fund receives no less, or pays no more, than adequate consideration as defined in <cite path="|14|09|14|.01|A.|(2)">Regulation .01A(2) of this chapter</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Upon application, the Commission may authorize other exemptions for fiduciaries or transactions.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Funds, Advance Premium Discounts, Surplus Distribution, Deficits.</heading>
+    <para>
+      <num>A.</num>
+      <text>The trustees of any group self-insurers' fund may not allow advance premium discounts to any member in excess of that allowed by the excess insurance underwriter, subject, however, to a maximum of 15 percent of their standard premium.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Any surplus monies for a fund year in excess of the amount necessary to fulfill all obligations under the Workers' Compensation Law for that fund year, including a provision for claims incurred but not reported, may be declared to be refundable by the trustees at any time, and the amount of the declaration shall be a fixed liability of the fund at the time of the declaration.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The date of payment shall be as agreed by the trustees except that surplus monies not needed to satisfy the loss fund requirements, that is, trustees' funds, may be refunded immediately after the end of the fund year with the approval of the Commission. The intent of this section is to ensure that sufficient monies are retained to assure that total assets are greater than total liabilities for each fund year.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>In the event of a deficit in any fund year, the deficit shall be made up immediately from any of the following:</text>
+      <para>
+        <num>(1)</num>
+        <text>Unencumbered surplus from a fund year other than the current fund year;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Trustees' funds;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>By assessment of the membership of the deficit fund year if ordered; or</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>By such alternative method as the Commission may approve.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>The Commission shall be notified before any transfer of unencumbered surplus funds.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Excess Insurance.</heading>
+    <text>A contract or policy of aggregate or specific excess insurance may not be recognized in considering the ability of an applicant to fulfill its financial obligations under the Workers' Compensation Law, unless the contract or policy complies with all of the following:</text>
+    <para>
+      <num>A.</num>
+      <text>Is issued by a casualty insurance company authorized to transact this business in this State and is rated A- or above by AM Best or equivalent.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Is not cancelable or nonrenewable unless written notice by registered or certified mail is given to the other party to the policy and to the Commission not less than 30 days before termination by the party desiring to cancel or not renew the policy.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Any contract or policy containing any type of commutation clause shall provide that any commutation effected thereunder does not relieve the underwriter of further liability in respect to claims and expenses unknown at the time of the commutation or in regard to any claim apparently closed at the time of initial commutation which is subsequently reopened by or through a competent authority. If the underwriter proposes to settle their liability for future payments payable as compensation for accidents occurring during the term of the policy by the payment of a lump sum to the employer, to be fixed as provided in the commutation clause of the policy, then not less than 30 days prior notice of the commutation shall be given by the underwriters or their agent by registered or certified mail. If any commutation is effected, then the Commission shall have the right to direct that the sum be placed in trust for the benefit of the injured employee entitled to the future payments of compensation.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>If a governmental group self-insured employer becomes insolvent or is unable to make compensation payments, the excess carrier shall make, directly to claimants or their authorized representatives, such payments as would have been made by the excess carrier to the employer after it has been determined that the retention level has been reached on the excess contract.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>All of the following shall be applied toward the reaching of the retention level in the aggregate excess contract:</text>
+      <para>
+        <num>(1)</num>
+        <text>Payments made by the employer;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Payments due and owing to claimants of the employer;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Payments made on behalf of the employer by any surety bond under a bond required by the Commission.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Copies of the complete policies of excess insurance shall be filed with the Commission, together with a certification that these policies fully comply with the regulations of the Workers' Compensation Law.</text>
+    </para>
+  </section>
+  <section cache:ref-path="14|09|14|.08">
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Investments Authorized.</heading>
+    <para>
+      <num>A.</num>
+      <text>Conditions to Investing.</text>
+      <para>
+        <num>(1)</num>
+        <text>Prior to engaging in an investment activity under this chapter, the Board of Trustees shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Fully fund the actuarially calculated ultimate loss liability of the Fund; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Submit to the Commission for approval an Annual Investment Plan that satisfies the requirements of this regulation.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Annual Investment Plan submitted to the Commission shall include:</text>
+        <para>
+          <num>(a)</num>
+          <text>A statement of investment policy and current year objectives;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A complete asset allocation study;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Projected investment activity for the coming year by asset allocation group; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>A signed acknowledgement from any fiduciary acknowledging his or her fiduciary responsibilities and the prohibited transactions set forth in <cite path="|14|09|14|.06|E.">Regulation .06E of this chapter</cite>.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Investing of Surplus Monies in Insured and Government Obligations.</text>
+      <para>
+        <num>(1)</num>
+        <text>The Board of Trustees may invest all surplus monies not needed to meet current obligations in:</text>
+        <para>
+          <num>(a)</num>
+          <text>Investments authorized by <cite doc="Md. Code" path="gsf|6-222">State Finance and Procurement Article, §6-222, Annotated Code of Maryland</cite>;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>United States Government Bonds or Treasury Notes;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Investment shares accounts in any savings and loan association whose deposits are insured by a federal agency; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Certificates of deposit issued by a duly chartered commercial bank.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Except as provided in <cite path="14|09|14|.08|B.|(3)">§B(3) of this regulation</cite>, the Board of Trustees:</text>
+        <para>
+          <num>(a)</num>
+          <text>Shall limit deposits in savings and loan associations and commercial banks to institutions in this State; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>May not deposit more than the federally insured amount in any one account.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Notwithstanding <cite path="14|09|14|.08|B.|(2)">§B(2) of this regulation</cite>, the Board of Trustees may deposit more than the federally insured amount in any one account if the amount does not exceed:</text>
+        <para>
+          <num>(a)</num>
+          <text>5 percent of the combination of surplus and undivided profits and reserves as currently reported for each bank in this State in the banking division annual report of the Financial Institution Bureau of the Department of Commerce (banking control); or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>$500,000 per institution.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Investing of Surplus Monies in Equities.</text>
+      <para>
+        <num>(1)</num>
+        <text>The Board of Trustees may, subject to the requirements of this chapter, invest a maximum of 30 percent of surplus monies not needed to meet current obligations in equities.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Of the monies that may be invested in equities pursuant to <cite path="14|09|14|.08|C.|(1)">§C(1) of this regulation</cite>, the Board of Trustees may not invest more than:</text>
+        <para>
+          <num>(a)</num>
+          <text>33-1/3 percent, at cost, or 50 percent at market value, in any single equity fund, bond fund, or ETF, including any single country, commodity, or sector fund; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>5 percent, at cost, or 8 percent at market value, in any single listed equity, right, depositary receipt, or convertible security.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Notwithstanding the investment allocation restrictions in <cite path="14|09|14|.08|C.|(2)">§C(2) of this regulation</cite>, in the case of an equity investment whose weighting is greater than 5 percent of the applicable benchmark index, the Board of Trustees may be permitted to equal-weight the equity investment at cost and hold a market value weighting not to exceed 1-1/2 times the equity investment's index weighting.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The Board of Trustees may invest in only the following equities:</text>
+        <para>
+          <num>(a)</num>
+          <text>Preferred stock of a solvent institution that is:</text>
+          <para>
+            <num>(i)</num>
+            <text>Not in default of dividend, principal, or interest payments on any preferred stock or debt instrument; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Created or existing under the laws of the United States, Canada, a state, or a province of Canada;</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Common stock of a solvent corporation created or existing under the laws of the United States, Canada, a state, or a province of Canada that is:</text>
+          <para>
+            <num>(i)</num>
+            <text>Not in default of dividend, principal, or interest payments on any preferred stock or debt instrument;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Publicly traded on an American stock exchange; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Subject to the rules and regulation of the SEC;</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Common Stock Mutual Funds and Bond Mutual Funds created by investment managers that are formed and operated under the laws of the United States, Canada, a state, or a province of Canada that are:</text>
+          <para>
+            <num>(i)</num>
+            <text>Publicly traded and readily marketable;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Offered for purchase and redemption to the public; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Are subject to the rules and regulation of the SEC and the existing laws and regulations of a State, province, or nation in which they reside; and</text>
+          </para>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>An ETF that is formed and operated under the laws of the United States, Canada, a state, or a province of Canada and that is:</text>
+          <para>
+            <num>(i)</num>
+            <text>Readily marketable;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Offered for purchase and redemption to the public; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Subject to the rules and regulation of the SEC and the existing laws and regulations of the state, province, or nation in which it resides.</text>
+          </para>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="14|09|14|.09">
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Reporting Requirements and Corrective Action Plans.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Board of Trustees shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Submit quarterly reports regarding the status or condition of investments made pursuant to this chapter, including quarterly investment statements; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Submit any additional information requested by the Commission under <cite path="14|09|14|.09|B.">§B of this regulation</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The Commission may direct the Board of Trustees to submit to the Commission:</text>
+      <para>
+        <num>(1)</num>
+        <text>A written explanation of its investment strategy and performance;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A written proposed corrective action plan; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Any additional information concerning these investments that the Commission deems relevant.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The Commission may order the Board of Trustees to implement a corrective action plan, to convert its investments to the investments authorized in <cite path="|14|09|14|.07|B.">Regulation .07B of this chapter</cite>, and to take any other action the Commission deems necessary.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The Commission shall serve an order issued under <cite path="14|09|14|.09|C.">§C of this regulation</cite> on the Board of Trustees by certified and regular mail.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>If aggrieved by a decision of the Commission under this regulation, the Board of Trustees may request a hearing before the Commission in accordance with <cite path="|14|09|14|.10">Regulation .10 of this chapter</cite>.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>The Commission may terminate a fund from participation in the governmental group self-insurance program for failing to comply with an order of the Commission under this chapter.</text>
+    </para>
+  </section>
+  <section cache:ref-path="14|09|14|.10">
+    <prefix>Regulation</prefix>
+    <num>.10</num>
+    <heading>Request for Hearing Before the Commission.</heading>
+    <para>
+      <num>A.</num>
+      <text>A Board of Trustees aggrieved by a decision of the Commission under this chapter may request a hearing before the Commission within 15 days of the date the decision is mailed.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A hearing shall be set as soon as practicable but no sooner than 20 days after the request is received by the Commission.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The Board of Trustees may:</text>
+      <para>
+        <num>(1)</num>
+        <text>Submit a written statement, 15 copies of which shall be served on the Commission at least 5 days before the hearing; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Appear and present oral argument and evidence on the issues contained in the hearing notice.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The Board of Trustees bears the burden of persuasion in a hearing held under <cite path="14|09|14|.10|A.|(1)">§A(1) of this regulation</cite>.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>The Commission shall issue a decision, which shall be served on the Board of Trustees by certified mail, return receipt requested.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.11</num>
+    <heading>Appeals to Circuit Court.</heading>
+    <text>The Board of Trustees may appeal an adverse decision pursuant to <cite doc="Md. Code" path="gle|9-409">Labor and Employment Article, §9-409, Annotated Code of Maryland</cite>.</text>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Labor and Employment Article, §§<cite doc="Md. Code" path="gle|9-309">9-309</cite>, <cite doc="Md. Code" path="gle|9-402">9-402</cite>, and <cite doc="Md. Code" path="gle|9-404">9-404</cite>, Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="1983-03-14">Effective date: March 14, 1983 (10:5 Md. R. 466)</annotation>
+    <annotation type="History" dest="container" effective="2004-09-27">Chapter revised effective September 27, 2004 (31:19 Md. R. 1433)</annotation>
+    <annotation type="History" dest="container" effective="2011-03-07" discontinuity="true">Chapter revised effective March 7, 2011 (38:5 Md. R. 319)</annotation>
+    <annotation type="History" dest="container" effective="2014-03-03" discontinuity="true">Chapter recodified from <cite path="|14.09.02">COMAR 14.09.02</cite>, Governmental Group Self-Insurance, to <cite path="|14.09.14">COMAR 14.09.14</cite>, Governmental Group Self-Insurance, effective March 3, 2014 (41:4 Md. R. 304)</annotation>
+    <annotation type="History" dest="container" effective="2021-10-18"><cite path="|14|09|14|.01">Regulation .01</cite>-1C amended effective October 18, 2021 (48:21 Md. R. 890)</annotation>
+    <annotation type="History" dest="container" effective="2021-10-18"><cite path="|14|09|14|.03|B.">Regulation .03B</cite> amended effective October 18, 2021 (48:21 Md. R. 890)</annotation>
+  </annotations>
+</container>

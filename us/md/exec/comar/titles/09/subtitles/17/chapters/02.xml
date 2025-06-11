@@ -1,0 +1,305 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>02</num>
+  <heading>Computerized Monitoring System</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Scope.</heading>
+    <text>This chapter governs the duties of licensed stationary engineers and is to be read in conjunction with Maryland Boiler and Pressure Vessel Safety Act, <cite doc="Md. Code" path="gps">Public Safety Article, Title 12, Subtitle 9, Annotated Code of Maryland</cite>.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meaning indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>"Competent authority" means:</text>
+        <para>
+          <num>(a)</num>
+          <text>The boiler manufacturer; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>If the boiler manufacturer is unavailable or defers to a jurisdictional authority:</text>
+          <para>
+            <num>(i)</num>
+            <text>A person designated by the Commissioner of Labor and Industry as a Deputy Boiler Inspector or a Special Boiler Inspector; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>A professional engineer who has experience in the design, operation, and maintenance and repair of boilers.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>"High level" means the level above normal considered unsafe for the operation of the boiler by a competent authority.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>"High pressure" means the pressure above normal considered unsafe for the operation of the boiler by a competent authority.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>"High temperature" means the temperature above normal considered unsafe for the operation of the boiler by a competent authority.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>"Low level" means the level below normal considered unsafe for the operation of the boiler by a competent authority.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>"Low pressure" means the pressure below normal considered unsafe for the operation of the boiler by a competent authority.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>"Low temperature" means the temperature below normal considered unsafe for the operation of the boiler by a competent authority.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>"Normal level" means the level considered safe for the operation of the boiler by a competent authority.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>"Normal pressure" means the pressure considered safe for the operation of the boiler by a competent authority.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>"Normal temperature" means the temperature considered safe for the operation of the boiler by a competent authority.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Incorporation by Reference.</heading>
+    <text>Controls and Safety Devices for Automatically Fired Boilers (ASME CSD-1), published by the American Society of Mechanical Engineers, which has been incorporated by reference in <cite path="09.12.01.01">COMAR 09.12.01.01</cite>-1, is incorporated by reference in this chapter.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Monitors and Indicators.</heading>
+    <para>
+      <num>A.</num>
+      <text>For a boiler, a computerized monitoring system shall qualify as a "24-hour computerized monitoring system and automatic controls," in accordance with <cite doc="Md. Code" path="gbo">Business Occupations and Professions Article, Title 6.5, Annotated Code of Maryland</cite>, if it meets the requirements of this regulation.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>For a boiler operating at 30 to 299 horsepower, the system shall monitor and indicate:</text>
+      <para>
+        <num>(1)</num>
+        <text>Stack flue gas temperature;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Burner status, including "on" and "off" indicators;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Flame safety control status, including "normal" and "flame failure" indicators; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>One of the following, as applicable:</text>
+        <para>
+          <num>(a)</num>
+          <text>For steam boilers:</text>
+          <para>
+            <num>(i)</num>
+            <text>Pressure; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Water level; or</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>For hot water boilers, temperature.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>For a boiler operating at 300 horsepower or more, the system shall monitor, indicate, and record:</text>
+      <para>
+        <num>(1)</num>
+        <text>Stack flue gas temperature;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Burner status, including "on" and "off" indicators;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Flame safety control status, including "normal" and "flame failure" indicators; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>One of the following, as applicable:</text>
+        <para>
+          <num>(a)</num>
+          <text>For steam boilers:</text>
+          <para>
+            <num>(i)</num>
+            <text>Pressure; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Water level; or</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>For hot water boilers:</text>
+          <para>
+            <num>(i)</num>
+            <text>Pressure; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Temperature.</text>
+          </para>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Automatic Controls.</heading>
+    <text>A computerized monitoring system shall be equipped with automatic controls in accordance with whichever is more restrictive of the Maryland Boiler and Pressure Vessel Safety Act, <cite doc="Md. Code" path="gps">Public Safety Article, Title 12, Subtitle 9, Annotated Code of Maryland</cite> or ASME CSD-1.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Alarm.</heading>
+    <text>A computerized monitoring system shall be equipped with an alarm that will activate when:</text>
+    <para>
+      <num>A.</num>
+      <text>The stack flue gas reaches a high temperature;</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The burner status indicator indicates the burner is "off";</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The flame safety control status indicates a "flame failure"; and</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>One of the following occurs, as applicable:</text>
+      <para>
+        <num>(1)</num>
+        <text>For steam boilers, the:</text>
+        <para>
+          <num>(a)</num>
+          <text>Steam reaches low or high pressure; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Water reaches low or high level;</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>For a hot water boiler operating at 30 to 299 horsepower, the water reaches low or high temperature; or</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>For a hot water boiler operating at 300 or more horsepower the water reaches low or high:</text>
+        <para>
+          <num>(a)</num>
+          <text>Pressure;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Temperature; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Level.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Automatic Shutdown.</heading>
+    <text>A computerized monitoring system shall be equipped with an automatic burner shutdown mechanism that will activate when:</text>
+    <para>
+      <num>A.</num>
+      <text>Stack flue gas reaches high temperature; and</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>One of the following occurs, as applicable:</text>
+      <para>
+        <num>(1)</num>
+        <text>For a steam boiler:</text>
+        <para>
+          <num>(a)</num>
+          <text>Steam reaches high pressure; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Water reaches Low or high level;</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>For a hot water boiler operating at 30 to 299 horsepower, water reaches high temperature; or</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>For a hot water boiler operating at 300 or more horsepower, water reaches:</text>
+        <para>
+          <num>(a)</num>
+          <text>High pressure;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>High temperature; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Low level.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="09|17|02|.08">
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Manual Reset.</heading>
+    <para>
+      <num>A.</num>
+      <text>Subject to <cite path="09|17|02|.08|B.">§B of this regulation</cite>, manual reset following an automatic shutdown as set forth in <cite path="|09|17|02|.07">Regulation .07 of this chapter</cite> requires that a licensee or the licensee's designee shall physically inspect the boiler and appurtenances prior to restart.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Notwithstanding <cite path="09|17|02|.08|A.">§A of this regulation</cite>, the licensee shall be responsible for the safe operation of a boiler at all times in accordance with <cite doc="Md. Code" path="gbo|6">Business Occupations and Professions Article, §6</cite>.5-302, Annotated Code of Maryland.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Miscellaneous Provisions.</heading>
+    <text>The Board may accept an alternate computerized monitoring system if the system is equipped with features that provide a comparable level of safety, monitoring, and control to those required by this regulation, in the opinion of the Board.</text>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Article 4, §4-1, Public Laws of Baltimore City</annotation>
+    <annotation type="History" dest="container" effective="2010-12-27">Effective date: December 27, 2010 (37:26 Md. R. 1786)</annotation>
+  </annotations>
+</container>
