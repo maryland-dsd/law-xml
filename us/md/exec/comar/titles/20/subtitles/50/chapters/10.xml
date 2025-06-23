@@ -1,0 +1,297 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>10</num>
+  <heading>Net Metering</heading>
+  <section cache:ref-path="20|50|10|.01">
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>General.</heading>
+    <para>
+      <num>A.</num>
+      <text>Net Energy Metering. An electric company shall provide net metering of electric service to eligible customer-generators using a meter capable of net energy metering until the rated generating capacity of all eligible customer-generators in the State reaches 1,500 megawatts.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Maximum Size of Electric Generating System — Net Metering. An electric company may not provide net energy metering to an eligible customer-generator operating an electric generating system that has a rated capacity of more than 2 megawatts.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Micro Combined Heat and Power Electric Generating System. An electric company may not provide net energy metering to an eligible customer-generator operating a micro combined heat and power electric generating system that has a rated capacity of more than 30 kilowatts.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Qualifying for Net Energy Metering.</text>
+      <para>
+        <num>(1)</num>
+        <text>In order to initially qualify for net energy metering:</text>
+        <para>
+          <num>(a)</num>
+          <text>An eligible customer-generator shall comply with the provisions of <cite path="|20.50.09">COMAR 20.50.09</cite>; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The eligible customer-generator’s proposed electric generating system may not exceed 200 percent of the eligible customer-generator’s baseline annual usage.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Upgraded Electric Generating Systems.</text>
+        <para>
+          <num>(a)</num>
+          <text>When an eligible customer-generator receiving net energy metering proposes an upgrade to an existing electric generating system, an electric company shall re-evaluate the baseline annual usage to determine whether the electric generating system continues to meet the requirements of <cite path="20|50|10|.01|D.|(1)|(b)">§D(1)(b) of this regulation</cite>.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>If the eligible customer-generator’s upgraded electric generating system does not meet the requirements of <cite path="20|50|10|.01|D.|(1)|(b)">§D(1)(b) of this regulation</cite>, an electric company may discontinue net energy metering.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Metering.</heading>
+    <text>An electric company shall ensure that a meter installed for net energy metering is capable of measuring the flow of electricity in two directions.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Tariffs and Contracts.</heading>
+    <para>
+      <num>A.</num>
+      <text>An electric company shall offer net energy metering service to an eligible customer-generator under a Commission-approved standard contract or tariff.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>An electric company’s tariff or contract for net metering shall contain an energy rate, a rate structure, and any monthly charge identical to the monthly contract or tariff charge paid by a customer of the rate class in which the eligible customer-generator would be a member if they were not receiving net energy metering service.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>An electric company may not include in an eligible customer-generator’s bill rates, charges or fees that raise the eligible customer-generator’s minimum monthly charge above that of customers of the same rate class to which the eligible customer-generator would otherwise be assigned.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>An electric company may not charge to an eligible customer-generator new or additional demand charges, standby charges, customer charges, or minimum monthly charges.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>An electric company may not require an eligible customer-generator whose electric generating system meets the requirements of this chapter to:</text>
+      <para>
+        <num>(1)</num>
+        <text>Install additional controls;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Perform or pay for additional tests; or</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Purchase additional liability insurance.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="20|50|10|.04">
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Calculation of Net Energy.</heading>
+    <para>
+      <num>A.</num>
+      <text>Net Energy Calculation. An electric company shall calculate net energy in accordance with this regulation.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Metering Net Energy — The electric company shall meter net energy produced or consumed on a regular basis in accordance with standard metering practice under this subtitle.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Time-Varying Rates.</text>
+      <para>
+        <num>(1)</num>
+        <text>For eligible customer-generators whose applicable tariff includes time-varying rates, an electric company may calculate net energy separately for each applicable rate period during a billing cycle.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An electric company may apply §§D, E, and F of this regulation separately for each rate period for an eligible customer-generator whose applicable tariff bills using time-varying rates. If net generation is calculated separately for each applicable rate period during a billing cycle, an electric company shall apply §§E and F of this regulation separately for each rate period for an eligible customer-generator whose applicable tariff bills using time-varying rates.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Energy Usage Exceeds Generation — Billing. If the electricity used by an eligible customer-generator exceeds the electricity generated by the eligible customer-generator in a billing month, an electric company shall bill the eligible customer-generator for usage under the terms of <cite path="|20|50|10|.03">Regulation .03 of this chapter</cite>.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Generation Exceeds Usage — Billing. If the electricity generated by an eligible customer-generator exceeds the customer’s usage, an electric company shall only bill the eligible customer-generator a customer charge.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Conversion of Excess Generation — Billing. An electric company shall convert any excess electric generation described in <cite path="20|50|10|.04|E.">§E of this regulation</cite> into generation credits upon billing, consistent with the provisions of <cite path="|20|50|10|.05">Regulation .05 of this chapter</cite>.</text>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Commercial Customers.</text>
+      <para>
+        <num>(1)</num>
+        <text>An electric company shall use the net hourly energy consumed or produced to assign the energy requirement for commercial eligible customer-generators with interval metering equipment.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>PJM shall use the net energy metered each hour, positive or negative, for the settlement process, even in cases when the total usage by the customer in a month exceeds the electricity generated by a commercial eligible customer-generator with interval metering equipment.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="20|50|10|.05">
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Net Excess Generation.</heading>
+    <para>
+      <num>A.</num>
+      <text>Generation Conversion — Dollar Amount. An electric utility shall convert an eligible customer-generator’s net excess generation to a dollar amount according to this regulation.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Conversion Calculation.</text>
+      <para>
+        <num>(1)</num>
+        <text>Except as provided in <cite path="20|50|10|.05|C.">§C of this regulation</cite>, an electric company shall convert net excess generation from kilowatt-hours to dollars by multiplying the net excess generation by the generation or commodity portion of the rate that the eligible customer-generator would have been charged by the electric company averaged over the previous 12-month period ending with the billing cycle that is complete immediately prior to the end of April.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>For customers served by an electricity supplier, the utility shall convert net excess generation in the same manner as described in <cite path="20|50|10|.05|B.|(1)">§B(1) of this regulation</cite> except that the dollar value of the net excess generation shall be equal to the generation or commodity rate that the customer would have been charged by the electricity supplier multiplied by the number of kilowatt-hours of net excess generation.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Cooperative Electric Company — Conversion Calculation.</text>
+      <para>
+        <num>(1)</num>
+        <text>When net energy metering is provided by a cooperative electric company that serves a population of less than 250,000 in its distribution territory, the eligible customer-generator may choose to be paid for the dollar value of net excess generation remaining at the end of each month instead of at the end of the accrual period specified in <cite path="20|50|10|.05|F.">§F of this regulation</cite>.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If an eligible customer-generator chooses to be paid for the dollar value of net excess generation remaining at the end of each month:</text>
+        <para>
+          <num>(a)</num>
+          <text>The customer-generator may accrue net excess generation on a monthly basis;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The dollar value of the net excess generation shall be equal to the generation or commodity portion of the rate that the eligible customer-generator would have been charged by the electric company for the previous month multiplied by the number of kilowatt-hours of excess generation; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>On or before 30 days after the end of each month, the electric cooperative shall pay the eligible customer-generator for the dollar value of net excess generation remaining at the end of the previous month.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Net Excess Generation — Carry Forward. An electric company shall carry forward accrued net excess generation on a customer’s bill until the net excess generation has been used by the customer or the electric company has paid the customer for the credit under <cite path="20|50|10|.05|F.">§F of this regulation</cite>.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Time-Varying Rates—Carry Forward.</text>
+      <para>
+        <num>(1)</num>
+        <text>For customers on a time-varying rate, an electric company may calculate net excess generation separately for each applicable rate period during a billing cycle.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An electric company may carry forward net excess generation separately for each rate period until the net excess generation has been used by the customer or the electric company has paid the customer for the credit under <cite path="20|50|10|.05|F.">§F of this regulation</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Payment for Generator Credits.</text>
+      <para>
+        <num>(1)</num>
+        <text>On or before 30 days after the billing cycle that is complete immediately prior to the end of April of each year, the electric company shall pay each eligible customer-generator for the dollar value of any accrued net excess generation remaining at the end of previous 12-month period ending with the billing cycle that is complete immediately prior to the end of April.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>On the closure of a net energy metering account of an eligible customer-generator, an electric company shall pay an eligible customer-generator the dollar value of the net excess generation on their account within 15 days.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Safety Standards and Controls for Net Energy Metering.</heading>
+    <text>An electric generating system used by an eligible customer-generator for net energy metering shall meet all applicable safety and performance standards incorporated by reference in <cite path="20.50.02.02">COMAR 20.50.02.02</cite>.</text>
+  </section>
+  <section cache:ref-path="20|50|10|.07">
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Meter Aggregation.</heading>
+    <para>
+      <num>A.</num>
+      <text>When requested in writing by a qualified eligible customer-generator under <cite path="20|50|10|.07|B.">§B of this regulation</cite>, an electric utility shall provide meter aggregation.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Customers Qualifying for Aggregation. The following electric utility eligible customer-generators are qualified to request meter aggregation under <cite path="20|50|10|.07|A.">§A of this regulation</cite>:</text>
+      <para>
+        <num>(1)</num>
+        <text>An eligible customer-generator using electrical service for agriculture;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An eligible customer-generator who is a not-for-profit organization or a not-for-profit business; or</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>An eligible customer-generator who is a municipal or county government or its affiliated organizations.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>An electric company shall require that an eligible customer-generator requesting meter aggregation under this regulation provide written allocation instructions detailing how to distribute its excess generation credits to each account prior to the commencement of any meter aggregation.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Meter Aggregation Method.</heading>
+    <para>
+      <num>A.</num>
+      <text>This regulation applies to an eligible customer-generator qualifying for meter aggregation under <cite path="|20|50|10|.07">Regulation .07 of this chapter</cite>.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Virtual Meter Aggregation.</text>
+      <para>
+        <num>(1)</num>
+        <text>If an aggregation qualified eligible customer-generator’s electrical services are not located close enough to physically interconnect metered service, the electric company shall sum the usage and excess generation of all applicable accounts on a kilowatt-hour basis over each billing period prior to calculating the customer’s excess generation for that billing period.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The electric company shall allocate generated electricity to each account per the instructions of the eligible customer-generator.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Physical Meter Aggregation.</text>
+      <para>
+        <num>(1)</num>
+        <text>For an aggregation qualified eligible customer-generator whose electrical services are located close enough to physically interconnect and meter at a single point, the electric company shall allow the customer to make physical electrical connections and re-establish metering at a single location.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Physically aggregated services must meet all applicable requirements of <cite path="|20.50.01">COMAR 20.50.01</cite> and <cite path="|20.50.02">20.50.02</cite>.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The electric company shall allocate the net-energy used each billing period and the excess generation credit calculated each billing period to each account per the instructions of the customer.</text>
+      </para>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Public Utilities Article, §§<cite doc="Md. Code" path="gpu|2-113">2-113</cite>, <cite doc="Md. Code" path="gpu|2-121">2-121</cite>, <cite doc="Md. Code" path="gpu|5-101">5-101</cite>, <cite doc="Md. Code" path="gpu|5-303">5-303</cite>, and <cite doc="Md. Code" path="gpu|7-306">7-306</cite>, Annotated Code of Maryland</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container">Effective date:</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2011-09-05">Regulations <cite path="|20|50|10|.01">.01</cite>—<cite path="|20|50|10|.04">.04</cite> and Regulations <cite path="|20|50|10|.06">.06</cite>—<cite path="|20|50|10|.08">.08</cite> adopted effective September 5, 2011 (38:18 Md. R. 1078)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2024-09-16"><cite path="|20|50|10|.04">Regulation .04</cite> amended effective September 16, 2024 (51:18 Md. R. 810)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2012-02-20"><cite path="|20|50|10|.05">Regulation .05</cite> adopted effective February 20, 2012 (39:3 Md. R. 260)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2024-09-16"><cite path="|20|50|10|.05">Regulation .05</cite> amended effective September 16, 2024 (51:18 Md. R. 810)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2016-07-18"><cite path="|20|50|10|.07|B.">Regulation .07B</cite> amended effective July 18, 2016 (43:14 Md. R. 780)</annotation>
+  </annotations>
+</container>

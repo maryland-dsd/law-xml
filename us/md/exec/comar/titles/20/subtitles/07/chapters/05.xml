@@ -1,0 +1,284 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>05</num>
+  <heading>Fees</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Scope.</heading>
+    <text>This chapter outlines procedures for the payment of fees for certain Public Service Commission filings.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>"Commission" means the Public Service Commission of Maryland.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>"Company" means a public service company as defined in <cite doc="Md. Code" path="gpu|1-101">Public Utilities Article, §1-101, Annotated Code of Maryland</cite>, and any other entity subject to the jurisdiction of the Commission under <cite doc="Md. Code" path="gpu">Public Utilities Article, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>"Custodian" means the Executive Secretary of the Commission.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="20|07|05|.03">
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Schedule of Fees.</heading>
+    <para>
+      <num>A.</num>
+      <text>Filing Fees. The Commission shall assess the following fees:</text>
+      <text>
+        <table>
+          <thead>
+            <tr>
+              <th>Service</th>
+              <th>Fee</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>(1) Application for Authority to Provide Resold or Facilities-Based Local Exchange Service</td>
+              <td data-text-align="right" class="text-indent-2">$2,000</td>
+            </tr>
+            <tr>
+              <td>(2) Application for Authority to Provide Resold or Facilities-Based Interexchange Telecommunications Service</td>
+              <td data-text-align="right">$2,000</td>
+            </tr>
+            <tr>
+              <td>(3) Application for a License to Supply Natural Gas or Natural Gas Supply Services</td>
+              <td data-text-align="right">$400</td>
+            </tr>
+            <tr>
+              <td>(4) Application for a License to Supply Electricity or Electric Generation Services</td>
+              <td data-text-align="right">$400</td>
+            </tr>
+            <tr>
+              <td>(5) Applications under <cite doc="Md. Code" path="gpu|7-207">Public Utilities Article, §7-207, Annotated Code of Maryland</cite></td>
+              <td data-text-align="right">$10,000</td>
+            </tr>
+            <tr>
+              <td>(6) Applications under <cite doc="Md. Code" path="gpu|7-207">Public Utilities Article, §7-207</cite>.1, Annotated Code of Maryland,for Certificates of Public Convenience and Necessity</td>
+              <td data-text-align="right">$500</td>
+            </tr>
+            <tr>
+              <td>(7) Application for an Increase or Decrease in Rates under Public Utilities Article, §§<cite doc="Md. Code" path="gpu|4-204">4-204</cite> and <cite doc="Md. Code" path="gpu|4-205">4-205</cite>, Annotated Code of Maryland</td>
+              <td data-text-align="right">$300</td>
+            </tr>
+            <tr>
+              <td class="text-indent-1">(a) Rate Cases—5,000 Customers or less</td>
+              <td proof="needed"/>
+            </tr>
+            <tr>
+              <td class="text-indent-1">(b) Rate Cases—5,001 Customers or more</td>
+              <td proof="needed"/>
+            </tr>
+            <tr>
+              <td>(8) Request for Waiver under Public Utilities Article, 7-207.1 and 7-208, Annotated Code of Maryland</td>
+              <td data-text-align="right">$500</td>
+            </tr>
+            <tr>
+              <td>(9) Corporate Transactions (for example, notice of merger, abandonment, name change, corporate reorganization)</td>
+              <td data-text-align="right">$250</td>
+            </tr>
+            <tr>
+              <td>(10) Electric Utility Tariff Revisions</td>
+              <td data-text-align="right">$100</td>
+            </tr>
+            <tr>
+              <td>(11) Gas Utility Tariff Revisions</td>
+              <td data-text-align="right">$100</td>
+            </tr>
+            <tr>
+              <td>(12) Initial Tariff</td>
+              <td data-text-align="right">$500</td>
+            </tr>
+            <tr>
+              <td>(13) Interconnection Agreements</td>
+              <td proof="needed"/>
+            </tr>
+            <tr>
+              <td class="text-indent-1">(a) Application for interconnection agreement—each party</td>
+              <td class="text-indent-3">$375</td>
+            </tr>
+            <tr>
+              <td class="text-indent-1">(b) Interconnection agreement amendment, modification, or change—each party</td>
+              <td data-text-align="right">$50</td>
+            </tr>
+            <tr>
+              <td>(14) Telecommunications Tariff Revisions</td>
+              <td data-text-align="right">$100</td>
+            </tr>
+          </tbody>
+        </table>
+      </text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Schedule of Miscellaneous Fees.</text>
+      <para>
+        <num>(1)</num>
+        <text>The Commission shall publish and revise, as necessary, a schedule of reasonable fees for:</text>
+        <para>
+          <num>(a)</num>
+          <text>Copying and certifying copies of records;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The issuance of a subpoena;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A copy of the Commission's statute; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>A copy of the Commission's annual report.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The schedule of fees under this section shall be based on the actual cost of:</text>
+        <para>
+          <num>(a)</num>
+          <text>Reproduction, including costs for staff time and equipment use; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Printing the Commission's statute or annual report.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A charge under this section may not be assessed if the total amount of the fee is $1 or less.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>If the custodian is unable to copy a record within the Commission, the custodian shall make arrangements for the reproduction of the record at facilities outside the Commission. The custodian shall either collect from the applicant a fee to cover the actual cost of reproduction under this subsection or direct the applicant to pay the cost of reproduction directly to the facility making the copy.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Fees for Time.</text>
+        <para>
+          <num>(a)</num>
+          <text>The official custodian may charge reasonable fees for Commission time in excess of 2 hours expended:</text>
+          <para>
+            <num>(i)</num>
+            <text>Searching for requested records; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Preparing records for inspection and copying.</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The official custodian may not charge a search or preparation fee for the first 2 hours of Commission time needed to respond to a request for information.</text>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>If the official custodian determines that a request for waiver or reduction of a fee is in the public interest, the official custodian may waive or reduce any fee under <cite path="20|07|05|.03|B.">§B of this regulation</cite>. In making a decision under this subsection, the official custodian shall consider, among other relevant factors, the ability of the applicant to pay the cost or fee.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>If the applicant requests that copies be mailed or delivered to the applicant, the official custodian may charge the applicant for the cost of postage or delivery to the applicant.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="20|07|05|.04">
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Payment of Filing Fees.</heading>
+    <para>
+      <num>A.</num>
+      <text>Establishment of a Fee Account. Unless waived by the Commission under <cite path="|20|07|05|.05">Regulation .05 of this chapter</cite>, a company shall establish a fee account on an annual basis or renew its account annually with the Commission for the purpose of billing and receiving payment of a fee required under <cite path="|20|07|05|.03">Regulation .03 of this chapter</cite>.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Account Set-Up Fee. On or before November 1 of each year, each company subject to <cite path="20|07|05|.04|A.">§A of this regulation</cite> shall pay an account set-up fee of $250.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Method of Payment of Fees. Payment of all filing fees required under <cite path="|20|07|05|.03">Regulation .03 of this chapter</cite> and <cite path="20|07|05|.04|B.">§B of this regulation</cite> shall be by:</text>
+      <para>
+        <num>(1)</num>
+        <text>Cash;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Certified check;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Cashier's check;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Money order; or</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Personal check.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Assessment of Penalty for Bad Check.</heading>
+    <text>A company paying a fee required under Regulations .03 or .04B of this chapter by personal check, that is returned for insufficient funds, shall pay a $25 returned check fee and may be required to submit the fee, the returned check fee, and subsequent fees by another method under <cite path="|20|07|05|.04">Regulation .04 of this chapter</cite>, as specified by the Commission.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Waiver of Fees.</heading>
+    <para>
+      <num>A.</num>
+      <text>Request for Fee Waiver.</text>
+      <para>
+        <num>(1)</num>
+        <text>If the Commission finds it is in the public interest, the Commission may waive a filing fee required under <cite path="|20|07|05|.03">Regulation .03 of this chapter</cite>.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A company requesting waiver of a filing fee under this section shall submit the request in writing.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The Commission shall grant or deny a request for a fee waiver within 5 working days of receipt of the request.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Required Waiver. The Commission shall waive a fee charged under this chapter for a filing by a unit of State government or for a service performed by the Commission for a unit of State government.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Penalty for Failure to Pay Fees.</heading>
+    <text>Failure to pay an applicable filing fee or obtain a waiver of an applicable filing fee shall result in a filing not being processed.</text>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Public Utilities Article, §§<cite doc="Md. Code" path="gpu|2-113">2-113</cite>, <cite doc="Md. Code" path="gpu|2-121">2-121</cite>, and <cite doc="Md. Code" path="gpu|5-101">5-101</cite> Annotated Code of Maryland</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container">Effective date:</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2002-07-01">Regulations <cite path="|20|07|05|.01">.01</cite>—<cite path="|20|07|05|.07">.07</cite> adopted as an emergency provision effective July 1, 2002 (29:15 Md. R. 1140); emergency status extended at 30:1 Md. R. 23; emergency status expired February 28, 2003</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2004-08-02"><cite path="|20|07|05|.01">Regulation .01</cite> adopted effective August 2, 2004 (31:15 Md. R. 1186)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2003-01-20">Regulations <cite path="|20|07|05|.02">.02</cite>—<cite path="|20|07|05|.07">.07</cite> adopted effective January 20, 2003 (30:1 Md. R. 28)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2003-06-23"><cite path="|20|07|05|.03|A.">Regulation .03A</cite> amended effective June 23, 2003 (30:12 Md. R. 791)</annotation>
+  </annotations>
+</container>

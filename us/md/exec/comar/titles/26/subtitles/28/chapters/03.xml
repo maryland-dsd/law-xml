@@ -1,0 +1,542 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>03</num>
+  <heading>Performance Standards and Compliance Demonstration</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Purpose.</heading>
+    <text>The purpose of this chapter is to establish performance standards for covered buildings.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Performance Standards.</heading>
+    <para>
+      <num>A.</num>
+      <text>Interim and final net direct emissions standards are set forth below.</text>
+      <text>Table 1. Performance Standards.</text>
+      <text>
+        <table>
+          <thead>
+            <tr>
+              <th/>
+              <th colspan="3">Net Direct Emissions Standards<br/>Kg CO2e per square foot</th>
+            </tr>
+            <tr>
+              <th>Property Type</th>
+              <th>Interim Standard for<br/>2030—2034</th>
+              <th>Interim Standard for<br/>2035—2039</th>
+              <th>Final Standard for<br/>2040 and beyond</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Adult Education</td>
+              <td data-text-align="center">2.34</td>
+              <td data-text-align="center">1.17</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Ambulatory Surgical Center</td>
+              <td data-text-align="center">1.76</td>
+              <td data-text-align="center">0.88</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Aquarium</td>
+              <td data-text-align="center">1.99</td>
+              <td data-text-align="center">1.00</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Bank Branch</td>
+              <td data-text-align="center">1.01</td>
+              <td data-text-align="center">0.50</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Bar/Nightclub</td>
+              <td data-text-align="center">1.70</td>
+              <td data-text-align="center">0.85</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Barracks</td>
+              <td data-text-align="center">0.57</td>
+              <td data-text-align="center">0.29</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Bowling Alley</td>
+              <td data-text-align="center">2.07</td>
+              <td data-text-align="center">1.03</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Casino</td>
+              <td data-text-align="center">1.03</td>
+              <td data-text-align="center">0.52</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>College/University</td>
+              <td data-text-align="center">2.43</td>
+              <td data-text-align="center">1.21</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Convenience Store with Gas Station</td>
+              <td data-text-align="center">2.25</td>
+              <td data-text-align="center">1.13</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Convenience Store without Gas Station</td>
+              <td data-text-align="center">2.25</td>
+              <td data-text-align="center">1.13</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Convention Center</td>
+              <td data-text-align="center">0.39</td>
+              <td data-text-align="center">0.19</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Courthouse</td>
+              <td data-text-align="center">1.14</td>
+              <td data-text-align="center">0.57</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Data Center</td>
+              <td data-text-align="center">1.26</td>
+              <td data-text-align="center">0.63</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Distribution Center</td>
+              <td data-text-align="center">0.58</td>
+              <td data-text-align="center">0.29</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Fast Food Restaurant</td>
+              <td data-text-align="center">exempt</td>
+              <td data-text-align="center">exempt</td>
+              <td data-text-align="center">exempt</td>
+            </tr>
+            <tr>
+              <td>Financial Office</td>
+              <td data-text-align="center">0.32</td>
+              <td data-text-align="center">0.16</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Fire Station</td>
+              <td data-text-align="center">1.70</td>
+              <td data-text-align="center">0.85</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Fitness Center/Health Club/Gym</td>
+              <td data-text-align="center">2.87</td>
+              <td data-text-align="center">1.43</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Food Sales</td>
+              <td data-text-align="center">2.25</td>
+              <td data-text-align="center">1.13</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Food Service</td>
+              <td data-text-align="center">exempt</td>
+              <td data-text-align="center">exempt</td>
+              <td data-text-align="center">exempt</td>
+            </tr>
+            <tr>
+              <td>Heated Swimming Pool</td>
+              <td data-text-align="center">2.07</td>
+              <td data-text-align="center">1.03</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Hospital (General Medical and Surgical)</td>
+              <td data-text-align="center">6.10</td>
+              <td data-text-align="center">3.05</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Hotel</td>
+              <td data-text-align="center">1.47</td>
+              <td data-text-align="center">0.74</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Ice/Curling Rink</td>
+              <td data-text-align="center">2.07</td>
+              <td data-text-align="center">1.03</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Indoor Arena</td>
+              <td data-text-align="center">1.03</td>
+              <td data-text-align="center">0.52</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>K-12 School</td>
+              <td data-text-align="center">exempt</td>
+              <td data-text-align="center">exempt</td>
+              <td data-text-align="center">exempt</td>
+            </tr>
+            <tr>
+              <td>Laboratory</td>
+              <td data-text-align="center">5.35</td>
+              <td data-text-align="center">2.68</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Library</td>
+              <td data-text-align="center">1.92</td>
+              <td data-text-align="center">0.96</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Lifestyle Center</td>
+              <td data-text-align="center">0.91</td>
+              <td data-text-align="center">0.46</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Mailing Center/Post Office</td>
+              <td data-text-align="center">0.92</td>
+              <td data-text-align="center">0.46</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Medical Office</td>
+              <td data-text-align="center">0.18</td>
+              <td data-text-align="center">0.09</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Movie Theater</td>
+              <td data-text-align="center">0.78</td>
+              <td data-text-align="center">0.39</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Multifamily Housing</td>
+              <td data-text-align="center">0.82</td>
+              <td data-text-align="center">0.41</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Museum</td>
+              <td data-text-align="center">0.75</td>
+              <td data-text-align="center">0.38</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Non-Refrigerated Warehouse</td>
+              <td data-text-align="center">0.09</td>
+              <td data-text-align="center">0.05</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Office</td>
+              <td data-text-align="center">0.22</td>
+              <td data-text-align="center">0.11</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Other — Education</td>
+              <td data-text-align="center">1.59</td>
+              <td data-text-align="center">0.80</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Other — Entertainment/Public Assembly</td>
+              <td data-text-align="center">0.54</td>
+              <td data-text-align="center">0.27</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Other — Lodging/Residential</td>
+              <td data-text-align="center">0.002</td>
+              <td data-text-align="center">0.001</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Other — Mall</td>
+              <td data-text-align="center">1.40</td>
+              <td data-text-align="center">0.70</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Other — Other</td>
+              <td data-text-align="center">1.60</td>
+              <td data-text-align="center">0.80</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Other — Public Services</td>
+              <td data-text-align="center">2.12</td>
+              <td data-text-align="center">1.06</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Other — Recreation</td>
+              <td data-text-align="center">0.70</td>
+              <td data-text-align="center">0.35</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Other — Restaurant/Bar</td>
+              <td data-text-align="center">exempt</td>
+              <td data-text-align="center">exempt</td>
+              <td data-text-align="center">exempt</td>
+            </tr>
+            <tr>
+              <td>Other — Services</td>
+              <td data-text-align="center">2.63</td>
+              <td data-text-align="center">1.31</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Other — Specialty Hospital</td>
+              <td data-text-align="center">6.10</td>
+              <td data-text-align="center">3.05</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Other — Stadium</td>
+              <td data-text-align="center">0.31</td>
+              <td data-text-align="center">0.16</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Other — Technology/Science</td>
+              <td data-text-align="center">0.001</td>
+              <td data-text-align="center">0.001</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Outpatient Rehabilitation/Physical Therapy</td>
+              <td data-text-align="center">1.76</td>
+              <td data-text-align="center">0.88</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Parking</td>
+              <td data-text-align="center">exempt</td>
+              <td data-text-align="center">exempt</td>
+              <td data-text-align="center">exempt</td>
+            </tr>
+            <tr>
+              <td>Performing Arts</td>
+              <td data-text-align="center">2.38</td>
+              <td data-text-align="center">1.19</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Personal Services (Health/Beauty, Dry Cleaning, etc.)</td>
+              <td data-text-align="center">2.17</td>
+              <td data-text-align="center">1.09</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Police Station</td>
+              <td data-text-align="center">1.52</td>
+              <td data-text-align="center">0.76</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Pre-school/Daycare</td>
+              <td data-text-align="center">2.45</td>
+              <td data-text-align="center">1.23</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Prison/Incarceration</td>
+              <td data-text-align="center">0.57</td>
+              <td data-text-align="center">0.29</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Race Track</td>
+              <td data-text-align="center">1.03</td>
+              <td data-text-align="center">0.52</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Refrigerated Warehouse</td>
+              <td data-text-align="center">1.37</td>
+              <td data-text-align="center">0.69</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Repair Services (Vehicle, Shoe, Locksmith, etc.)</td>
+              <td data-text-align="center">2.16</td>
+              <td data-text-align="center">1.08</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Residence Hall/Dormitory</td>
+              <td data-text-align="center">0.70</td>
+              <td data-text-align="center">0.35</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Residential Care Facility</td>
+              <td data-text-align="center">1.43</td>
+              <td data-text-align="center">0.72</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Restaurant</td>
+              <td data-text-align="center">exempt</td>
+              <td data-text-align="center">exempt</td>
+              <td data-text-align="center">exempt</td>
+            </tr>
+            <tr>
+              <td>Retail Store</td>
+              <td data-text-align="center">0.60</td>
+              <td data-text-align="center">0.30</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Roller Rink</td>
+              <td data-text-align="center">2.07</td>
+              <td data-text-align="center">1.03</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Self-Storage Facility</td>
+              <td data-text-align="center">0.19</td>
+              <td data-text-align="center">0.10</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Senior Living Community</td>
+              <td data-text-align="center">1.43</td>
+              <td data-text-align="center">0.72</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Social/Meeting Hall</td>
+              <td data-text-align="center">1.53</td>
+              <td data-text-align="center">0.76</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Stadium (Closed)</td>
+              <td data-text-align="center">0.31</td>
+              <td data-text-align="center">0.16</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Stadium (Open)</td>
+              <td data-text-align="center">0.32</td>
+              <td data-text-align="center">0.16</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Strip Mall</td>
+              <td data-text-align="center">1.90</td>
+              <td data-text-align="center">0.95</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Supermarket/Grocery Store</td>
+              <td data-text-align="center">2.25</td>
+              <td data-text-align="center">1.13</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Transportation Terminal/Station</td>
+              <td data-text-align="center">2.22</td>
+              <td data-text-align="center">1.11</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Urgent Care/Clinic/Other Outpatient</td>
+              <td data-text-align="center">1.76</td>
+              <td data-text-align="center">0.88</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Vehicle Dealership</td>
+              <td data-text-align="center">2.23</td>
+              <td data-text-align="center">1.12</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Veterinary Office</td>
+              <td data-text-align="center">1.76</td>
+              <td data-text-align="center">0.88</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Vocational School</td>
+              <td data-text-align="center">2.34</td>
+              <td data-text-align="center">1.17</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Wholesale Club/Supercenter</td>
+              <td data-text-align="center">0.60</td>
+              <td data-text-align="center">0.30</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Worship Facility</td>
+              <td data-text-align="center">0.87</td>
+              <td data-text-align="center">0.44</td>
+              <td data-text-align="center">0</td>
+            </tr>
+            <tr>
+              <td>Zoo</td>
+              <td data-text-align="center">1.03</td>
+              <td data-text-align="center">0.52</td>
+              <td data-text-align="center">0</td>
+            </tr>
+          </tbody>
+        </table>
+      </text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Reserved.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Interim and Final Standards for Mixed-Use Covered Buildings. Area-weighted standards for net direct emissions      for mixed-use buildings will be set by the compliance tool as specified in the Department’s TM 24-01, “Technical Guidance and Calculation Methodologies to Comply with Building Energy Performance Standards”, which is incorporated by reference in <cite path="26.28.01.03">COMAR 26.28.01.03</cite>.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Achieving and Maintaining the Standards.</text>
+      <para>
+        <num>(1)</num>
+        <text>Each covered building shall not exceed the net direct emissions standards for 2030—2034 in each calendar year including 2030, 2031, 2032, 2033, and 2034, as determined on a yearly basis.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Each covered building shall not exceed the net direct emissions standards for 2035—2039 in each calendar year including 2035, 2036, 2037, 2038, and 2039, as determined on a yearly basis.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Each covered building shall not exceed the net direct emissions standards in calendar year 2040 and each calendar year thereafter, as determined on a yearly basis.</text>
+      </para>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Environment Article, §§<cite doc="Md. Code" path="gen|1-404">1-404</cite>, <cite doc="Md. Code" path="gen|2-301">2-301</cite>, <cite doc="Md. Code" path="gen|2-302">2-302</cite>, <cite doc="Md. Code" path="gen|2-1205">2-1205</cite>, <cite doc="Md. Code" path="gen|2-1602">2-1602</cite>, Annotated Code of Maryland</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2024-12-23">Effective date: December 23, 2024 (51:25 Md. R. 1142)</annotation>
+  </annotations>
+</container>

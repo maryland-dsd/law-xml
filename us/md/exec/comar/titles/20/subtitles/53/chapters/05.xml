@@ -1,0 +1,752 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>05</num>
+  <heading>Supplier-Utility Coordination, Utility-Consolidated Billing, and Supplier-Consolidated Billing</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Electric Energy Scheduling.</heading>
+    <para>
+      <num>A.</num>
+      <text>A utility and a supplier shall follow the energy scheduling procedures of the regional transmission organization designated for Maryland by the Federal Energy Regulatory Commission.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Coordination of Energy Schedules.</text>
+      <para>
+        <num>(1)</num>
+        <text>A supplier may use more than one scheduling coordinator.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Unless otherwise provided by mutual agreement between a supplier and a utility, a utility shall accommodate at least ten supplier scheduling coordinators.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Load Assignment.</heading>
+    <para>
+      <num>A.</num>
+      <text>A utility shall report a load obligation for a supplier's customers to the regional transmission organization designated for Maryland by the Federal Energy Regulatory Commission as specified in the utility's tariff.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A utility shall provide to the supplier customer usage data that will allow a supplier to bill customers in a timely manner for capacity and energy that is consistent with the load obligation assigned to the supplier by the utility.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Utility Consolidated Billing.</heading>
+    <para>
+      <num>A.</num>
+      <text>A supplier may elect to use utility consolidated billing.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A utility and a supplier shall transmit consumption, billing, and related data to each other using electronic transactions for the purpose of utility consolidated billing.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A utility shall remit supplier revenue and billing data to a supplier by electronic transaction.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Suppliers using utility consolidated billing shall have access to customer billing and payment information from the utility for the supplier's presently enrolled customers at no cost beyond the tariffed rate for consolidated billing.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>A utility shall provide a supplier using utility consolidated billing with the same electronic access to customer bill information that it provides to the customer.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Budget Billing.</heading>
+    <para>
+      <num>A.</num>
+      <text>A utility that uses budget billing to determine a customer's bill shall perform a final budget reconciliation for the commodity portion of the bill on the switch of a customer from SOS to a supplier service.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A utility's portion of a budget bill amount for a customer who is served by a supplier shall be based solely on the utility's regulated charges.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>For those customers who otherwise have a budget billing option, a utility shall make budget billing available for supplier charges.</text>
+    </para>
+  </section>
+  <section cache:ref-path="20|53|05|.05">
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Utility Responsibilities in the Event of Supplier Default.</heading>
+    <para>
+      <num>A.</num>
+      <text>A supplier is considered a defaulted supplier if it is unable to deliver electricity because:</text>
+      <para>
+        <num>(1)</num>
+        <text>The Commission revokes or suspends the supplier's retail electricity license; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The supplier is unable to transact sales through the regional transmission organization designated for Maryland by the Federal Energy Regulatory Commission.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A defaulted supplier using utility-consolidated billing remains obligated to provide the utility with information necessary to allow the utility to continue consolidated billing through the conclusion of the billing cycle in which the default occurred.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The defaulted supplier using utility consolidated billing services is prohibited from issuing bills to persons who were customers at the time of the default unless specifically authorized by the Commission. A request to authorize a supplier to bill directly may be made by the supplier or the applicable utility.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>In order that supplier charges may be included in utility consolidated billing services, a defaulted supplier and the utility shall abide by the Maryland supplier coordination agreement.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Supplier Ineligible to Provide Supplier-Consolidated Billing.</text>
+      <para>
+        <num>(1)</num>
+        <text>A supplier shall be ineligible to provide supplier-consolidated billing service if:</text>
+        <para>
+          <num>(a)</num>
+          <text>The supplier is in default under <cite path="20|53|05|.05|A.">§A of this regulation</cite>; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The supplier has not paid the utility for purchased receivables 30 days after the date that the payment was due to the utility.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Unless otherwise directed by the Commission, a supplier using supplier-consolidated billing services who is considered to be ineligible to provide supplier-consolidated billing services may issue bills to persons who were customers for charges incurred before the date of ineligibility.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Unless authorized by the Commission, a supplier using supplier-consolidated billing and considered to be ineligible to provide supplier-consolidated billing services may not issue consolidated customer bills on or after the date of ineligibility.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>A supplier may continue to provide a bill solely for supplier charges to customers who were using supplier-consolidated billing after the date of ineligibility if the supplier offers dual billing through that utility; otherwise the customer will be returned to standard offer service.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Utility Purchased Receivables or Prorated Payments.</heading>
+    <para>
+      <num>A.</num>
+      <text>A utility providing utility consolidated billing shall either purchase the receivables of a supplier or prorate customer payments between the utility and a supplier.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The utility has the option of choosing whether its consolidated billing agreement includes the purchase of supplier receivables or the proration of customer payments.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>If the utility chooses the option of purchasing supplier receivables, supplier receivables shall be purchased with full and timely cost recovery for the utility under terms and conditions approved by the Commission. An early termination fee is not considered a commodity and is not subject to purchase as a receivable by the utility.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>If the utility chooses the option of prorating customer payments, a payment shall be allocated between the utility, supplier, and any other party in proportion to the percentage of the combined charges on the customer's total bill under terms and conditions approved by the Commission.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>If supplier receivables are not purchased by the utility, a utility shall bill for supplier charges and arrearages for a minimum of 90 days from the date a supplier receives final usage data from the utility.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>If supplier receivables are not purchased by the utility and the utility cancels a supplier's charges, the utility shall rebill the canceled supplier charges to the customer for at least 90 days after the bill adjustment.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Supplier-Consolidated Billing.</heading>
+    <para>
+      <num>A.</num>
+      <text>A supplier may elect to use supplier-consolidated billing upon receiving licensing that authorizes the provision of supplier-consolidated billing.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>When an authorized supplier elects to use supplier-consolidated billing, a utility and a supplier shall transmit consumption, billing, payment, and related data to each other using electronic transactions approved by the Commission.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A utility may not obligate a supplier to purchase a customer’s arrears from the utility or from another supplier.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Utility Access to Supplier Bills for Supplier-Consolidated Billing.</text>
+      <para>
+        <num>(1)</num>
+        <text>A supplier providing supplier-consolidated billing services shall make a customer’s bill available to the utility in an electronic format.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A utility provided access to a customer’s supplier-consolidated billing information that includes supplier charges may not:</text>
+        <para>
+          <num>(a)</num>
+          <text>Use the information to market standard offer service;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Use the information to research or market other utility service; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Without Commission authorization, share any information the utility gains through access to the supplier bill with the utility’s nonregulated affiliates or any other nongovernmental entity.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="20|53|05|.08">
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Supplier Changing a Customer’s Billing Method.</heading>
+    <para>
+      <num>A.</num>
+      <text>A supplier may change a customer’s billing method to or from supplier-consolidated billing in the following circumstances:</text>
+      <para>
+        <num>(1)</num>
+        <text>The customer’s contract permits the supplier to impose on the customer a change in billing method;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The customer’s contract does not specify whether the supplier may impose on the customer a change in billing method; or</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The customer’s contract permits the supplier to impose on the customer a change in billing method during an assignment or transfer of contract as described under <cite path="20.53.07.12|E.">COMAR 20.53.07.12E</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A supplier shall provide the customer no less than two written notices regarding a change in billing method:</text>
+      <para>
+        <num>(1)</num>
+        <text>A notice by mail 60 days before the date of the first bill using a new billing method; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A notice by mail or email 30 days before the date of the first bill using a new billing method.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Notices required by <cite path="20|53|05|.08|B.">§B of this regulation</cite> shall be identified as follows:</text>
+      <para>
+        <num>(1)</num>
+        <text>A notice sent by mail shall be sent in an envelope clearly marked with a message stating that it contains important information regarding changes to the customer’s energy bill; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A notice sent by email shall be identified in the subject line as a notice stating it contains important information regarding changes to the customer’s energy bill.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>A supplier’s notices to change a customer’s billing method as required by <cite path="20|53|05|.08|B.">§B of this regulation</cite> shall inform the customer, at a minimum, of the following options which a customer may choose to:</text>
+      <para>
+        <num>(1)</num>
+        <text>Change the customer’s current billing method to the one proposed by the supplier;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Refuse the change in billing method and remain with the supplier if the supplier will continue the customer’s contract under the current billing method;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Elect standard offer service; or</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Switch to another supplier.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>A supplier shall provide all notices given under <cite path="20|53|05|.08|B.">§B of this regulation</cite> with the following provisions:</text>
+      <para>
+        <num>(1)</num>
+        <text>A statement advising the customer of the billing change which informs the customer of the manner in which to exercise the customer’s options required by <cite path="20|53|05|.08|D.">§D of this regulation</cite>;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The telephone number and Internet address for the Commission;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The Internet address for the Maryland supplier choice website;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The date on or after which the supplier will effectuate the change in billing method;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>A notice that the customer will not be subject to any fees or penalties for declining to accept the change in billing method unless allowed by <cite path="20|53|05|.08|J.|(3)">§J(3) of this regulation</cite>;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>The expiration date of the customer’s contract;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>A statement that the customer’s previous bill provider may still bill the customer for unpaid charges; and</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>A statement indicating that terms and conditions of the customer’s contract with the supplier remain unchanged.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>The supplier shall provide the customer the Customer Rights Pamphlet described in <cite path="20.53.08.08">COMAR 20.53.08.08</cite> with the 60-day notice required by <cite path="20|53|05|.08|B.|(1)">§B(1) of this regulation</cite>.</text>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>If the customer will start to receive bills under supplier-consolidated billing, then, in addition to the notice requirements in <cite path="20|53|05|.08|E.">§E of this regulation</cite>, the notices shall include:</text>
+      <para>
+        <num>(1)</num>
+        <text>An explanation that the customer will receive one bill from the supplier that will include both utility and supplier charges;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A statement of each payment method a customer may use to pay the supplier;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Any information necessary for the customer to submit payment to the supplier; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>A statement that the utility shall be contacted for issues relating to outages and emergencies.</text>
+      </para>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>If the customer will start to receive bills from the utility in addition to the notice requirements in <cite path="20|53|05|.08|E.">§E of this regulation</cite>, the notice shall include a statement that the customer will receive bills from the utility.</text>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>Customer’s Response to Supplier Notices.</text>
+      <para>
+        <num>(1)</num>
+        <text>The supplier shall effectuate the change in billing method consistent with the provisions of the notices required by <cite path="20|53|05|.08|B.">§B of this regulation</cite> if the customer does not exercise one of the options in <cite path="20|53|05|.08|D.">§D of this regulation</cite>, if permitted by a customer’s contract in §A(1) or (3) of this regulation.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Except as provided in <cite path="20|53|05|.08|I.|(3)">§I(3) of this regulation</cite>, a supplier may not effectuate the change in billing method for a customer under a contract which is silent as described in <cite path="20|53|05|.08|A.|(2)">§A(2) of this regulation</cite> if the customer does not affirmatively exercise one of the options in <cite path="20|53|05|.08|D.">§D of this regulation</cite>.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A supplier shall drop the customer if the supplier will not continue the customer’s contract under the current billing method and an alternative agreement is not established between the customer and supplier by the prescribed date in <cite path="20|53|05|.08|E.|(4)">§E(4) of this regulation</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>J.</num>
+      <text>Imposition of Fees or Penalties.</text>
+      <para>
+        <num>(1)</num>
+        <text>A supplier may not impose a fee or penalty on a customer who exercises one of the options in <cite path="20|53|05|.08|D.">§D of this regulation</cite> before a supplier changes a customer billing method.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A supplier may not impose any fees or penalties on a customer if a customer’s billing method is changed as allowed in <cite path="20|53|05|.08|A.|(2)">§A(2) of this regulation</cite> when a customer exercises one of the options in <cite path="20|53|05|.08|D.">§D of this regulation</cite>.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A supplier may not impose any fees or penalties on a customer if a customer’s billing method is changed as allowed in §A(1) or (3) of this regulation if a customer exercises one of the options in <cite path="20|53|05|.08|D.">§D of this regulation</cite> during the first two billing cycles after a customer’s billing method is changed.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="20|53|05|.09">
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Customer on Budget Billing with Utility at Time of Switch.</heading>
+    <para>
+      <num>A.</num>
+      <text>If a customer is on budget billing at the time of transfer to supplier-consolidated billing service from utility-consolidated billing or standard offer service, the utility shall provide a customer an alternative payment plan upon request if the budget deficit is greater than $100.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The utility shall inform the customer that the customer may be unable to switch to another supplier providing supplier-consolidated billing until a payment plan as described in <cite path="20|53|05|.09|A.">§A of this regulation</cite> is paid in full.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A customer may choose to pay the budget deficit in full at any time.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.10</num>
+    <heading>Budget Billing for Supplier-Consolidated Billing.</heading>
+    <para>
+      <num>A.</num>
+      <text>A supplier that provides supplier-consolidated billing services may offer budget billing for the customer’s regulated electric utility charges and supplier charges.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A supplier that offers budget billing for the customer’s regulated electric utility charges shall purchase the customer’s regulated electric utility charges from the utility according to <cite path="|20|53|05|.11">Regulation .11 of this chapter</cite>.</text>
+    </para>
+  </section>
+  <section cache:ref-path="20|53|05|.11">
+    <prefix>Regulation</prefix>
+    <num>.11</num>
+    <heading>Supplier-Consolidated Billing Purchase of Receivables.</heading>
+    <para>
+      <num>A.</num>
+      <text>A supplier providing supplier-consolidated billing shall purchase the regulated receivables of the utility.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Partial Payment Priority.</text>
+      <para>
+        <num>(1)</num>
+        <text>The supplier shall apply a customer’s partial payment of a supplier-consolidated bill in the following order:</text>
+        <para>
+          <num>(a)</num>
+          <text>Utility arrearages and supplier commodity arrearages in proportion to the relative proportion of their sum;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Current utility charges and current supplier commodity charges in proportion to the relative proportion of their sum; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Noncommodity charges.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If a supplier’s commodity charge is bundled with noncommodity charges, and the supplier is unable to separate the commodity and noncommodity prices, the supplier shall consider the bundled charge as a noncommodity charge for the purpose of payment posting.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Partial Payment Priority if a Supplier Provides Both Gas and Electricity on the Same Bill.</text>
+      <para>
+        <num>(1)</num>
+        <text>The supplier shall divide customer payments into two equal amounts and apply one half to gas receivables and the other half to electricity receivables.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The supplier shall apply the payments in <cite path="20|53|05|.11|C.|(1)">§C(1) of this regulation</cite> following the payment posting system in <cite path="20|53|05|.11|B.">§B of this regulation</cite>.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>In the event a customer payment satisfies the entirety of a gas or electric arrearage, any remainder of the customer’s payment will be allocated to the other arrearage before applying revenue to current charges in <cite path="20|53|05|.11|B.">§B of this regulation</cite>.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>A noncommodity charge in <cite path="20|53|05|.11|B.">§B of this regulation</cite> shall be paid after all gas and electricity utility and supplier commodity receivables have been paid.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>If a customer disputes a charge:</text>
+      <para>
+        <num>(1)</num>
+        <text>The supplier shall credit the customer’s payment to the undisputed portion of the account; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A utility may not count the number of days a charge is disputed with CAD or the Commission toward the limit on the number of days a supplier has to sell customer arrearages to the utility under <cite path="|20|53|05|.12|D.|(2)">Regulation .12D(2) of this chapter</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>A charge is considered disputed under <cite path="20|53|05|.11|D.">§D of this regulation</cite> if:</text>
+      <para>
+        <num>(1)</num>
+        <text>A customer has filed a dispute with the Commission;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The utility has communicated to the supplier that the utility considers the charge under dispute; or</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The supplier has communicated to the utility that the supplier considers the charge under dispute.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="20|53|05|.12">
+    <prefix>Regulation</prefix>
+    <num>.12</num>
+    <heading>Nonpayment by Customer Receiving a Supplier-Consolidated Bill.</heading>
+    <para>
+      <num>A.</num>
+      <text>If a customer has not paid the supplier’s consolidated bill or otherwise has breached the supply contract:</text>
+      <para>
+        <num>(1)</num>
+        <text>The supplier may return the nonpaying customer to the utility pursuant to <cite path="20.53.06.06">COMAR 20.53.06.06</cite> or <cite path="20.53.07.10">COMAR 20.53.07.10</cite>; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The supplier shall conduct reasonable collection efforts for unpaid amounts if the supplier intends to seek repurchase of the regulated electric utility charges from the utility.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Collection Notices.</text>
+      <para>
+        <num>(1)</num>
+        <text>A supplier that provides two collection notices shall have complied with the reasonable collection efforts required by <cite path="20|53|05|.12|A.|(2)">§A(2) of this regulation</cite>.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A supplier may include a collection notice with its final bill to the customer.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A collection notice shall be sent to the customer 15 days before the supplier submits regulated electric utility charges to the utility for repurchase.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>If a notice was not sent with the final bill in accordance with <cite path="20|53|05|.12|B.|(2)">§B(2) of this regulation</cite>, a collection notice must be sent prior to sending the collection notice required in <cite path="20|53|05|.12|B.|(3)">§B(3) of this regulation</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A supplier shall prominently display the following information in the notices required to be sent in <cite path="20|53|05|.12|B.">§B of this regulation</cite>:</text>
+      <para>
+        <num>(1)</num>
+        <text>The total amount due;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A statement that regulated utility charges will be returned to the utility due to nonpayment on a specific date;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The date by which the payment was due to the supplier;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The date on or after which the supplier will return the regulated utility charges to the utility if payment is not received; and</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The telephone number at which the supplier representatives who handle payment arrangements, payment plans, and customer complaints may be reached.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Purchase of Arrears and Limitations.</text>
+      <para>
+        <num>(1)</num>
+        <text>After the supplier has conducted reasonable collection efforts as required by <cite path="20|53|05|.12|A.|(3)">§A(3) of this regulation</cite>, the utility shall purchase arrearages attributable to the utility submitted by the supplier.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A utility shall purchase arrearages attributable to the utility no more than:</text>
+        <para>
+          <num>(a)</num>
+          <text>110 days after the utility sent an invoice with the charges to the supplier for residential customers; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>105 days after the utility sent an invoice with the charges to the supplier for nonresidential customers.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A supplier may sell a utility arrearage to the utility if the customer remains with the supplier after a change in billing method.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>A supplier shall provide the following to a utility when submitting unpaid charges to the utility:</text>
+      <para>
+        <num>(1)</num>
+        <text>The amount of unpaid regulated electric utility charges; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The supplier’s electronic submission to the utility of a customer’s unpaid regulated electric utility charges, which shall constitute the supplier’s certification that the customer has not paid the charges pursuant to the payment posting hierarchy in <cite path="|20|53|05|.11">Regulation .11 of this chapter</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Records of Purchased Unpaid Charges.</text>
+      <para>
+        <num>(1)</num>
+        <text>The utility shall maintain records of a utility’s repurchase of unpaid regulated electric utility charges for a minimum of 3 years from the date the supplier receives the utility’s payment, and the utility shall make the records available to the supplier upon request.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The supplier shall maintain, for a minimum of 3 years from the date the supplier receives the utility’s payment, records of unpaid regulated electric utility charges sold to the utility.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A supplier shall include in the records:</text>
+        <para>
+          <num>(a)</num>
+          <text>The customer’s payment history; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The appropriate application of the customer’s funds pursuant to <cite path="|20|53|05|.11">Regulation .11 of this chapter</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The supplier shall make the records available to the Commission and the utility upon request.</text>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>A supplier shall report to the utility, every 2 weeks, the unpaid regulated electric utility charges.</text>
+    </para>
+  </section>
+  <section cache:ref-path="20|53|05|.13">
+    <prefix>Regulation</prefix>
+    <num>.13</num>
+    <heading>Reporting Requirements for Supplier-Consolidated Billing.</heading>
+    <para>
+      <num>A.</num>
+      <text>A supplier shall record customer complaints according to the following categories:</text>
+      <para>
+        <num>(1)</num>
+        <text>Call center operations;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Unauthorized charges;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Enrollment;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Accuracy of billing services;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Contract renewal or cancellation;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Deposits; and</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Change in customer’s billing method.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A supplier providing supplier-consolidated billing shall retain for a minimum of 3 years the following information in a monthly format to provide to the Commission and the Office of People’s Counsel upon request:</text>
+      <para>
+        <num>(1)</num>
+        <text>Number of complaints received by the supplier from customers for the categories identified in <cite path="20|53|05|.13|A.">§A of this regulation</cite>;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Disputes escalated to CAD;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Number of times a supplier did not charge a customer the correct amount, excluding when a utility invoices the supplier an incorrect billing amount or meter reading;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Call center metrics as described in <cite path="20.53.08.09">COMAR 20.53.08.09</cite>;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The number of customers dropped for nonpayment;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Total arrears resold to the utility, separated by residential and nonresidential;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Average customer arrears repurchased by the utility, separated by residential and nonresidential;</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Number of customers to whom the supplier provided budget billing; and</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>Number of bill adjustments initiated by the supplier.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A utility shall retain the following information for supplier-consolidated billing disaggregated by the supplier, in a monthly format for a minimum of 3 years, to provide to the Commission upon request:</text>
+      <para>
+        <num>(1)</num>
+        <text>The number of customers receiving supplier-consolidated billing services;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The number of customers who were dropped from supplier-consolidated billing by a supplier for nonpayment;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The number of customers who are using net energy metering or community solar;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Total arrears repurchased by the utility;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Average customer arrears repurchased by the utility by residential and nonresidential customers;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Volume of retail sales and demand in supplier-consolidated billing;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Number of customer enrollments rejected by specific eligibility requirement;</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Number of customers rejected due to energy assistance;</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>Number of customers dropped from supplier-consolidated billing due to energy assistance;</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>Number of customers who enroll in supplier-consolidated billing that were on budget billing at time of enrollment;</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>Number of times the utility failed to provide charges to the supplier within 3 days; and</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>Number of bill adjustments initiated by the utility for supplier-consolidated billing customers.</text>
+      </para>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Public Utilities Article, §§<cite doc="Md. Code" path="gpu|2-113">2-113</cite>, <cite doc="Md. Code" path="gpu|2-121">2-121</cite>, <cite doc="Md. Code" path="gpu|5-101">5-101</cite>, <cite doc="Md. Code" path="gpu|7-505">7-505</cite>, <cite doc="Md. Code" path="gpu|7-507">7-507</cite>, <cite doc="Md. Code" path="gpu|7-511">7-511</cite>, and <cite doc="Md. Code" path="gpu|7-603">7-603</cite>, Annotated Code of Maryland</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2005-07-01">Effective date: July 1, 2005 (31:26 Md. R. 1865)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2008-06-20" discontinuity="true">Regulations <cite path="|20|53|05|.01">.01</cite>—<cite path="|20|53|05|.03">.03</cite>, Notice of Contract Expiration or Cancellation, repealed effective June 20, 2008 (35:11 Md. R. 1043)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2008-11-17" discontinuity="true">Regulations .01, .02, .04, Supplier-Utility Coordination and Utility Consolidated Billing, adopted effective November 17, 2008 (35:23 Md. R. 2017)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2009-04-06"><cite path="|20|53|05|.03">Regulation .03</cite> adopted effective April 6, 2009 (36:7 Md. R. 526)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2009-04-06"><cite path="|20|53|05|.05">Regulation .05</cite> adopted effective April 6, 2009 (36:7 Md. R. 526)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2022-03-07"><cite path="|20|53|05|.05|B.">Regulation .05B</cite> amended effective March 7, 2022 (49:5 Md. R. 367)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2022-03-07"><cite path="|20|53|05|.05|E.">Regulation .05E</cite> adopted effective March 7, 2022 (49:5 Md. R. 367)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2009-04-06"><cite path="|20|53|05|.06">Regulation .06</cite> adopted effective April 6, 2009 (36:7 Md. R. 526)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2016-03-14"><cite path="|20|53|05|.06|C.">Regulation .06C</cite> amended effective March 14, 2016 (43:5 Md. R. 386)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2022-03-07">Regulations <cite path="|20|53|05|.07">.07</cite>—<cite path="|20|53|05|.13">.13</cite> adopted effective March 7, 2022 (49:5 Md. R. 367)</annotation>
+  </annotations>
+</container>

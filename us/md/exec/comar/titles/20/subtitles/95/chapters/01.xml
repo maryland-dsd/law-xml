@@ -1,0 +1,1557 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>01</num>
+  <heading>General</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Authority.</heading>
+    <text>The laws of Maryland require that the service and facilities furnished by means of motor vehicle in the public transportation of passengers or property for hire within the State shall be safe and adequate and in all respects just and reasonable, and vest in the Public Service Commission authority to formulate standards for, and definitions of, service and facilities. The service and facilities of all motor vehicles engaged in the transportation of persons or property for hire and operating under permits issued by the Public Service Commission shall conform to these regulations.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Saving Clause.</heading>
+    <text>The formulation of these regulations does not preclude the Commission from altering or amending them in whole or in part, or from requiring any other or additional service, equipment, facility, or standard, either upon complaint or upon its own motion, or upon the application of a motor vehicle owner. Furthermore, these standards do not relieve an owner or operator of any motor vehicle from any of his duties under any orders of the Commission which are not in conflict with these regulations or under the laws of this State.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>"Commission" means the Public Service Commission of Maryland.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>“Company” includes every corporation, association, partnership, group of individuals, or individual owning, controlling, operating, or managing one or more motor vehicles engaged in the transportation of persons for hire over any road between fixed termini, over a more or less regular route, on a more or less fixed schedule, or transportation from point to point that is pre-arranged between the company and a rider.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Inspection Certificate.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Inspection certificate” means a numbered certificate issued in a form authorized by the Maryland State Police and issued by a facility licensed by the Maryland State Police to perform motor vehicle safety inspections, or issued by a facility licensed by an adjacent state or the District of Columbia to perform motor vehicle safety inspections and in a form acceptable to the licensing authority of the adjacent state or the District of Columbia, if the Commission determines or has previously determined that the vehicle inspection standards of that jurisdiction are materially the same as those adopted by the Maryland State Police.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Inspection certificate” does not include a vehicle inspection report or sticker.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>“License” includes a for-hire license issued by the Commission to provide passenger-for-hire services as defined in <cite doc="Md. Code" path="gpu|10-101">Public Utilities Article, §10-101(g), Annotated Code of Maryland</cite>, including a transportation network operator’s license.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Motor Vehicle.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Motor vehicle" includes all vehicles or machines propelled by any power other than muscular used upon the public roads, not on rails, for public transportation of persons for compensation.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Motor vehicle" does not include a taxicab.</text>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>“Operator” means any person engaged in driving a motor vehicle for which a permit has been issued, other than a Transportation Network Operator.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>“Owner” means the individual, partnership, carrier, or company to whom a permit has been issued, other than a Transportation Network Company or Transportation Network Operator.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>“Permit” means the motor carrier or driver’s permit issued by the Commission.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>"Roads" means State or State-aid roads, improved county roads, or streets and roads of incorporated towns and cities in the State.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>"State" means the State of Maryland.</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>“Surge pricing” means the practice of a company applying a multiplier to customer fares for a limited duration.</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>“Transportation Network Company” or “TNC” means a company that has been issued a permit by the Commission and operates in the State of Maryland using a digital network to connect passengers to Transportation Network Operators for Transportation Network Services.</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>“Transportation Network Operator” means an individual who:</text>
+        <para>
+          <num>(a)</num>
+          <text>Has been issued a Transportation Network Operator’s License, or is otherwise authorized, by the Commission to provide Transportation Network Services;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Receives, through a Transportation Network Company’s digital network application, a connection to a potential passenger to transport the passenger between points chosen by the passenger in exchange for the payment of a fee to the Transportation Network Company; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Uses a motor vehicle that is owned, leased, or otherwise authorized for use by the individual and is approved for use in providing Transportation Network Services by the Commission.</text>
+        </para>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>“Transportation Network Services” means:</text>
+        <para>
+          <num>(a)</num>
+          <text>The activities of a Transportation Network Operator during:</text>
+          <para>
+            <num>(i)</num>
+            <text>Transportation Network Coverage Period One, during which the Transportation Network Operator is logged onto and ready to accept a prearranged ride request made through a TNC’s digital network application;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Transportation Network Coverage Period Two, during which the Transportation Network Operator accepts a ride request from a passenger that is prearranged through a TNC’s digital network application, and is traveling to a predetermined location to pick up the passenger; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Transportation Network Coverage Period Three, during which the Transportation Network Operator transports the passenger and continuing until the passenger departs the motor vehicle.</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Transportation Network Services” does not include providing taxicab services, sedan services, or limousine services.</text>
+        </para>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>“Transportation Network Operator Vehicle” means a vehicle that is used by a Transportation Network Operator to provide pre-arranged passenger transportation services requested through a TNC Platform, using Commission approved motor vehicles and operators.</text>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>“TNC Platform” means a digital network application used by a TNC to connect riders to Transportation Network Operators who provide for-hire transportation services for compensation.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Necessity for Permit.</heading>
+    <para>
+      <num>A.</num>
+      <text>A motor vehicle may not be operated over roads of this State until a permit has been obtained from the Commission authorizing its operation.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A permit may be issued by the Commission at any time during the year, and for such length of time as the Commission may deem best for the public welfare and convenience.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Permits are not transferable.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>A charge may not be made for the issuance of a permit under the provisions of these regulations.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Securing a Permit.</heading>
+    <para>
+      <num>A.</num>
+      <text>An application for a permit to operate a motor vehicle in the transportation of passengers for hire shall be made on forms provided by the Commission.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A permit shall be in effect for the term specified by the Commission, not exceeding 20 years.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>An owner shall notify the Commission within 15 days of any change of address.</text>
+    </para>
+  </section>
+  <section cache:ref-path="20|95|01|.06">
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Violations and Penalties.</heading>
+    <para>
+      <num>A.</num>
+      <text>Violations.</text>
+      <para>
+        <num>(1)</num>
+        <text>An owner of a motor vehicle who neglectfully or with prior knowledge causes or permits the violation of <cite doc="Md. Code" path="gpu">Public Utilities Article, Annotated Code of Maryland</cite>, or this chapter, may be guilty of a violation and subject to a civil penalty under this regulation as fully as though the owner was operating the motor vehicle personally at the time.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>In the case of a corporation, an officer, agent, or employee who violates, procures, aids, or abets any violation of <cite doc="Md. Code" path="gpu">Public Utilities Article, Annotated Code of Maryland</cite>, or this chapter, may be determined to be individually guilty of a violation.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Civil Penalty Violations. The following violations are subject to a civil penalty under <cite doc="Md. Code" path="gpu|13-202">Public Utilities Article, §13-202, Annotated Code of Maryland</cite>:</text>
+      <para>
+        <num>(1)</num>
+        <text>Operating a motor vehicle after a permit is suspended or revoked;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Failure to present a motor vehicle for inspection;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Failure to file with the Commission an inspection certificate from a facility licensed by the State to perform motor vehicle inspections, or a facility licensed to perform inspections in an adjacent jurisdiction, if the Commission has previously determined that the vehicle inspection standards of that jurisdiction are materially the same as those adopted by the Maryland State Police;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Failure to carry appropriate insurance or provide evidence of coverage to the Commission under Regulations .18 and .20 of this chapter;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Operating a motor vehicle which has been placed out of service;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Operating a motor vehicle without a valid state driver’s license or valid passenger-for-hire driver’s license, or a valid Transportation Network Operator’s License;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Operating a motor vehicle while under the influence of alcohol or drugs, as defined under State law;</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Violation of State or local law relating to motor vehicle traffic control, the violation of which directly contributed to the cause of a fatality;</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>Reckless driving while operating a motor vehicle, as defined under State or local law;</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>Leaving the scene of a motor vehicle accident while operating a motor vehicle;</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>Operating a motor vehicle which has had recurring violations of the equipment and safety standards under 49 CFR 393, as amended, which is incorporated by reference, <cite doc="Md. Code" path="gtr">Transportation Article, Title 22, Annotated Code of Maryland</cite>, or COMAR Title 11, committed with actual knowledge of and a conscious failure to avert the violation;</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>Use of a motor vehicle subject to the provisions of this chapter before obtaining approval of the Commission;</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>Falsification of a certification statement that a defect in a motor vehicle has been repaired;</text>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>Operating a motor vehicle which has been placed out of service for the same violation more than two times in a 1-year period or over 50 percent of the time inspected in a 1-year period, whichever is less;</text>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>Failure of the owner or an operator of a motor vehicle, including a Transportation Network Operator, to permit inspection of a vehicle or of records relating to a permit;</text>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>Operating a motor vehicle without all required permits; or</text>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>Violation of Accessibility and Non-Discrimination under <cite path="|20|95|01|.25">Regulation .25 of this chapter</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Civil penalties for the violations set forth in <cite path="20|95|01|.06|B.">§B of this regulation</cite> may be assessed upon owners or operators as appropriate, including Transportation Network Companies and Transportation Network Operators.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Notice.</text>
+      <para>
+        <num>(1)</num>
+        <text>Notice of a violation and imposition of a civil penalty under <cite path="20|95|01|.06|B.">§B of this regulation</cite> shall be in writing and mailed by first class mail, postage prepaid, to the last known address of the owner, or in the case of a corporation, the authorized representative.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The notice given under <cite path="20|95|01|.06|C.|(1)">§C(1) of this regulation</cite> shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Include a statement that a party desiring a hearing must request the hearing on or before the date set by the Commission in the citation or complaint; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Indicate that failure to respond to the notice may result in the suspension or revocation of authority to operate as a common carrier.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The mailing by first class mail of a notice is considered to be as effective and binding as an actual notice.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Waiver of Regulations.</heading>
+    <text>A regulation in this subtitle may be waived by the Commission for good cause shown.</text>
+  </section>
+  <section cache:ref-path="20|95|01|.08">
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Schedules — Rates and Charges.</heading>
+    <para>
+      <num>A.</num>
+      <text>The provisions of this regulation do not apply to a motor carrier providing transportation for hire by or through contract with a public authority, or a federal, State, district, or municipal transportation agency.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Notice.</text>
+      <para>
+        <num>(1)</num>
+        <text>A schedule of rates and charges may not be instituted or changed by an owner or Transportation Network Company without providing the Commission and the Maryland Office of People's Counsel with 14 days notice.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Interested persons and the Maryland Office of People’s Counsel may file with the Commission an objection to the schedule of rates and charges within 14 days of the submission of the application and proposed schedule.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Unless the Commission suspends a schedule filed under <cite path="20|95|01|.08|B.|(1)">§B(1) of this regulation</cite> within 14 days, the schedule shall take effect on the date specified in the schedule.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>A schedule of rates may include a range of maximum and minimum rates, including a range of base rates, and any applicable surge pricing capped at a maximum multiplier.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>An owner or Transportation Network Company shall file with the Commission a schedule of its rates and charges, as required in <cite path="|20|95|01|.08|B.">Regulation .08B of this chapter</cite>.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>An application for authority to institute or change rates and charges shall be typewritten or printed and shall include an original and two copies of the proposed tariff change, including the following information:</text>
+      <para>
+        <num>(1)</num>
+        <text>A reference to the specific rate or charge section being instituted or changed;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A list of the rate or charge pages being revised;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A brief description of the nature of the rate or charge addition or change;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>If applicable, the percentage of increase or decrease in a rate or charge and the related dollar amount for each class;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The proposed effective date;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>The name and telephone number of a representative of the owner or Transportation Network Company capable of answering any question the Commission may have concerning the rate or charge; and</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>The signature of the owner, or in the case of a Transportation Network Company, corporation, partnership, or LLC, the signature of an authorized representative.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>An owner shall provide access to a copy of the effective and proposed schedule of rates and charges to the public on a website, or if the owner does not have a website, at their principal place of business.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>A Transportation Network Company shall disclose the following information to a passenger through the TNC Platform before the passenger agrees to a trip with a Transportation Network Company:</text>
+      <para>
+        <num>(1)</num>
+        <text>The applicable rate being charged;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Notice that surge pricing is in effect and the multiplier to be applied, if applicable;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Notice of the type and amount of any additional fee or fees being charged; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The option to obtain an estimated fare for the transportation service that will be provided, based on passenger-input pick-up and drop-off points.</text>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>A Transportation Network Company shall include in its digital platform a feature that requires a passenger to acknowledge that surge pricing is in effect, when applicable.</text>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>A Transportation Network Company shall permit all passengers to view on their personal computer or mobile device a photograph of the authorized Transportation Network Operator, and the vehicle’s license plate number, prior to entering the Commission approved vehicle.</text>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>A Transportation Network Company, on completion of transportation services, shall transmit an electronic receipt to the passenger’s electronic mail address or mobile application documenting:</text>
+      <para>
+        <num>(1)</num>
+        <text>The origin and destination of the trip;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The total time of the trip;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The total fare paid, including the base fare and any additional charges incurred for distance traveled or duration of the prearranged ride;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The driver’s first name;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The PSC license number or a unique receipt identification number;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>The Company name; and</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>A customer support telephone number and an e-mail address or hyperlink, or both for the submittal of inquiries and feedback.</text>
+      </para>
+    </para>
+    <para>
+      <num>J.</num>
+      <text>A Transportation Network Company shall make available on its digital network and website a customer support telephone number and an e-mail address or hyperlink, or both for passenger inquires, as well as instructions to passengers for filing a complaint with the Commission.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Schedules — Repealed.</heading>
+  </section>
+  <section cache:ref-path="20|95|01|.10">
+    <prefix>Regulation</prefix>
+    <num>.10</num>
+    <heading>Suspension or Revocation of a Permit.</heading>
+    <para>
+      <num>A.</num>
+      <text>After a hearing, the Commission may suspend or revoke a permit for:</text>
+      <para>
+        <num>(1)</num>
+        <text>A violation of <cite doc="Md. Code" path="gpu">Public Utilities Article, Annotated Code of Maryland</cite>, or COMAR Title 20; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The failure to obtain a Maryland motor vehicle license to provide the service authorized by the permit issued under this chapter within 30 days after the issuance of a permit.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Notice.</text>
+      <para>
+        <num>(1)</num>
+        <text>Notice of the hearing required under <cite path="20|95|01|.10|A.">§A of this regulation</cite> shall be in writing and mailed by first class mail, postage prepaid, to the last known address of the owner, or in the case of a corporation, the authorized representative.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The notice given under <cite path="20|95|01|.10|B.|(1)">§B(1) of this regulation</cite> shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Include the time, date, and location of the hearing; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Indicate that failure to appear for the hearing may result in the suspension or revocation of authority to operate as a common carrier.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The mailing by first class mail of a notice is considered to be as effective and binding as an actual notice.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="20|95|01|.11">
+    <prefix>Regulation</prefix>
+    <num>.11</num>
+    <heading>Required Equipment, and Minimum Safety Standards.</heading>
+    <para>
+      <num>A.</num>
+      <text>A motor vehicle, including a leased or reserved motor vehicle, used by a carrier or Transportation Network Operator shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Comply with <cite doc="Md. Code" path="gtr">Transportation Article, Title 22, Annotated Code of Maryland</cite>, relating to required equipment on motor vehicles;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Comply with 49 CFR 393, as amended, which is incorporated by reference, relating to required equipment on motor vehicles operated in Maryland;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Be equipped with:</text>
+        <para>
+          <num>(a)</num>
+          <text>Except for a vehicle with a manufacturer’s rated seating capacity of eight or fewer passengers, a light or lights within the motor vehicle arranged to illuminate the entire interior except for the area occupied by the driver; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A heating system, and an air conditioning system if the air conditioning system was originally installed by the vehicle manufacturer;</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Be identified by a distinctive number, and have the name, trade name, or company logo conspicuously displayed, unless waived by the Transportation Division of the Commission or, if the vehicle is a Transportation Network Operator Vehicle, be identified by a removable insignia as specified in <cite path="|20|95|01|.24">Regulation .24 of this chapter</cite>, and in the Transportation Network Company’s digital platform by providing the Transportation Network Operator Vehicle license plate number and a picture of the Transportation Network Operator;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Be kept clean and sanitary; and</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>After July 1, 2018, not exceed more than 12 model years of age, unless the vehicle has an existing Commission permit, and proof of semi-annual safety inspections, conforming to the requirements of <cite path="20|95|01|.11|B.|(2)">§B(2) of this regulation</cite> is submitted to the Commission, or the vehicle is a historic motor vehicle as defined in <cite doc="Md. Code" path="gtr|13-936">Transportation Article, §13-936, Annotated Code of Maryland</cite>, or the vehicle exceeds 10,000 pounds Gross Vehicle Weight Rating.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>After July 1, 2022, an owner, Transportation Network Operator, or Transportation Network Company, upon application for a vehicle permit and annually thereafter, shall self-certify the vehicle is not subject to any open safety recalls issued by a vehicle manufacturer and posted online by the National Highway Traffic Safety Administration (NHTSA) under 49 U.S.C. §30118.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Upon self-certification, the owner, Transportation Network Operator, or Transportation Network Company may not operate or permit the operation of a motor vehicle for hire with any open vehicle safety recalls as of the date of self-certification, except if, due to the unavailability of parts to comply with the manufacturer’s safety recall, the owner or Transportation Network Operator cannot comply with the recall.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Any recall that qualifies for this exemption shall be remedied as soon as practicable, after parts become available, and not to exceed 90 days from the availability of the parts.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Self certification for vehicle safety recall compliance, in a form approved by the Commission, is the responsibility of the owner, Transportation Network Operator, or Transportation Network Company.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Inspection.</text>
+      <para>
+        <num>(1)</num>
+        <text>Except for vehicles over 10,000 pounds Gross Vehicle Weight Rating (GVWR) or vehicles that exceed more than 10 model years of age, an owner of a motor vehicle or a Transportation Network Operator shall provide an inspection certificate as part of the application for vehicle permit and annually thereafter. The annual inspection certificate shall be dated no later than the annual anniversary of the date the vehicle permit was issued, or as otherwise directed by the Commission.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>For vehicles under 10,000 pounds Gross Vehicle Weight Rating (GVWR) that exceed more than 10 model years of age, an owner of a motor vehicle or a Transportation Network Operator shall provide an inspection certificate on a semi-annual basis.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>For new vehicles not previously registered with less than 7,500 miles, a copy of the bill of sale and a copy of the certificate of origin may be substituted for the required inspection.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Upon presenting proper identification, the Commission or its representative may enter a motor vehicle for the purpose of inspecting the vehicle, vehicle equipment, or records of the carrier.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>A representative of the Commission, after inspection and a determination that a motor vehicle does not comply with the requirements of this chapter, may require:</text>
+        <para>
+          <num>(a)</num>
+          <text>The repair or replacement of the motor vehicle;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>That the motor vehicle be removed from service pending the repair or replacement; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>That a Transportation Network Operator or an owner of a motor vehicle, which has been removed from service for repair, provide evidence of the repair.</text>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>The Commission may require an owner of a motor vehicle, a Transportation Network Operator, or a Transportation Network Company on behalf of a Transportation Network Operator, to provide a valid inspection certificate to verify the inspection required under this section.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Upon receipt of a customer complaint, the Commission may order a motor carrier, or vehicle operator, including a Transportation Network Operator, to present the subject vehicle for inspection by a Commission representative. In the alternative, if the complaint alleges a safety issue that is addressed by the annual safety inspection, the Commission may require the motor carrier, operator, or Transportation Network Operator to have the vehicle inspected in a licensed facility conforming to the requirements of §B(1) or (2) of this regulation, and provide an inspection certificate to the Commission.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>At the direction of the Commission, an owner of a motor vehicle over 10,000 pounds Gross Vehicle Weight Rating (GVWR) shall present the motor vehicle for inspection by a Commission representative.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.12</num>
+    <heading>Operation of Motor Vehicle.</heading>
+    <para>
+      <num>A.</num>
+      <text>Driver. An owner or a Transportation Network Company shall ensure that:</text>
+      <para>
+        <num>(1)</num>
+        <text>Only a properly licensed driver operates a motor vehicle used in the exercise of a permit;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A driver of a motor vehicle operates the vehicle in a prudent and safe manner; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A driver of a motor vehicle adheres to all local, city, state, and federal laws and regulations.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>A driver of a motor vehicle is provided information and training about the requirements of laws governing non-discrimination and accessibility, including the Americans with Disabilities Act, to the extent applicable.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Carrying Capacity.</text>
+      <para>
+        <num>(1)</num>
+        <text>The number of passengers transported by a motor vehicle may not exceed the number authorized by the vehicle list associated with a permit and on file with the Commission, and may not exceed the manufacturer’s rated seating capacity.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A passenger may not stand in a motor vehicle, except in emergency situations.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Fatality Report. An owner, Transportation Network Operator, or Transportation Network Company shall report in writing, to the Commission, an accident involving a motor vehicle that results in a fatality.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Maintenance Record. A continuous maintenance record shall be kept for each motor vehicle in accordance with state and federal laws and regulations.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.13—.17</num>
+    <heading>Repealed.</heading>
+  </section>
+  <section cache:ref-path="20|95|01|.18">
+    <prefix>Regulation</prefix>
+    <num>.18</num>
+    <heading>Insurance or Bond for Motor Vehicles Carrying Passengers.</heading>
+    <para>
+      <num>A.</num>
+      <text>Requirements. A motor vehicle carrying passengers for which a permit is necessary may not be operated unless the owner maintains a liability insurance policy or bond for that vehicle. The required insurance shall have a term of coverage of 6 months or more.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Liability Insurance.</text>
+      <para>
+        <num>(1)</num>
+        <text>The minimum per accident insurance required for each motor vehicle with a seating capacity of seven passengers or less is:</text>
+        <para>
+          <num>(a)</num>
+          <text>$50,000 for injury to any one person, $100,000 for injuries to two or more persons, and $20,000 for property damage; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>$120,000 combined single limit.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The minimum per accident insurance required for each motor vehicle with a seating capacity between eight to 15 passengers is:</text>
+        <para>
+          <num>(a)</num>
+          <text>$75,000 for injury to any one person, $200,000 for injuries to two or more persons, and $50,000 for property damage; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>$250,000 combined single limit.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The minimum per accident insurance required for each vehicle with a seating capacity of 16 passengers or more is:</text>
+        <para>
+          <num>(a)</num>
+          <text>$75,000 for injury to any one person, $400,000 for injuries to two or more persons, and $100,000 for property damage; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>$500,000 combined single limit.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Bond Instead of Insurance.</text>
+      <para>
+        <num>(1)</num>
+        <text>If an owner of a motor vehicle used to carry passengers elects a bond instead of insurance, the amount of the bond is:</text>
+        <para>
+          <num>(a)</num>
+          <text>Determined by the number of vehicles covered by and described in the bond;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Determined by the designed passenger seating capacity of the motor vehicle; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>As set out in the following table:</text>
+          <text>
+            <table>
+              <thead>
+                <tr>
+                  <th>NUMBER OF VEHICLES</th>
+                  <th colspan="3">REQUIRED AMOUNT OF BOND<br/>NUMBER OF PASSENGERS</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td proof="needed"/>
+                  <th>7 or less</th>
+                  <th>8—15</th>
+                  <th>16 or more</th>
+                </tr>
+                <tr>
+                  <td>(i) For one vehicle only</td>
+                  <td data-text-align="center">$120,000</td>
+                  <td data-text-align="center">$325,000</td>
+                  <td data-text-align="center">$575,000</td>
+                </tr>
+                <tr>
+                  <td>(ii 2 to 5 vehicles, inclusive</td>
+                  <td data-text-align="center">150,000</td>
+                  <td data-text-align="center">355,000</td>
+                  <td data-text-align="center">605,000</td>
+                </tr>
+                <tr>
+                  <td>(iii) 6 to 15 vehicles, inclusive</td>
+                  <td data-text-align="center">180,000</td>
+                  <td data-text-align="center">385,000</td>
+                  <td data-text-align="center">635,000</td>
+                </tr>
+                <tr>
+                  <td>(iv) 16 to 30 vehicles, inclusive</td>
+                  <td data-text-align="center">210,000</td>
+                  <td data-text-align="center">415,000</td>
+                  <td data-text-align="center">665,000</td>
+                </tr>
+                <tr>
+                  <td>(v) 31 to 50 vehicles, inclusive</td>
+                  <td data-text-align="center">240,000</td>
+                  <td data-text-align="center">445,000</td>
+                  <td data-text-align="center">695,000</td>
+                </tr>
+                <tr>
+                  <td>(vi) 51 to 80 vehicles, inclusive</td>
+                  <td data-text-align="center">270,000</td>
+                  <td data-text-align="center">475,000</td>
+                  <td data-text-align="center">725,000</td>
+                </tr>
+                <tr>
+                  <td>(vii) 81 to 120 vehicles, inclusive</td>
+                  <td data-text-align="center">300,000</td>
+                  <td data-text-align="center">505,000</td>
+                  <td data-text-align="center">755,000</td>
+                </tr>
+                <tr>
+                  <td>(viii) 121 to 170 vehicles, inclusive</td>
+                  <td data-text-align="center">330,000</td>
+                  <td data-text-align="center">535,000</td>
+                  <td data-text-align="center">785,000</td>
+                </tr>
+                <tr>
+                  <td>(ix) 171 to 230 vehicles, inclusive</td>
+                  <td data-text-align="center">360,000</td>
+                  <td data-text-align="center">565,000</td>
+                  <td data-text-align="center">815,000</td>
+                </tr>
+                <tr>
+                  <td>(x) 231 to 300 vehicles, inclusive</td>
+                  <td data-text-align="center">390,000</td>
+                  <td data-text-align="center">595,000</td>
+                  <td data-text-align="center">845,000</td>
+                </tr>
+              </tbody>
+            </table>
+          </text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The bonding company shall guarantee the prompt payment by the owner of indemnities for personal injuries or for property damage resulting from any accident due to the negligence of the operator, to the extent of the damages sustained, but not less than the amounts described under <cite path="20|95|01|.18|B.">§B of this regulation</cite> whichever section applies to the owner.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The penalty of the bond instead of insurance may not be exhausted by successive recoveries but shall remain unimpaired until the bond is cancelled.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>If the bond instead of insurance is cancelled or if the owner's operation is terminated or interrupted at any time, the bonding company shall proceed to make settlement of all then outstanding indemnity claims, in conformity with the limitations of <cite path="20|95|01|.18|C.|(2)">§C(2) of this regulation</cite> except that the aggregate amount of the settlements may not exceed the penal sum of the bond instead of insurance.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Compliance.</text>
+      <para>
+        <num>(1)</num>
+        <text>An owner shall file with the Commission:</text>
+        <para>
+          <num>(a)</num>
+          <text>An original certificate of insurance signed by an authorized agent of an insurance company, indicating that the policy has been issued, specifying the terms of the policy and the name of insured; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A certified copy of the bond instead of insurance showing similar information.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The insurance company and the insurance broker shall be licensed to do business in Maryland as required by <cite doc="Md. Code" path="gin">Insurance Article, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The Public Service Commission shall be shown as a certificate holder on the liability insurance policy.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The certificate of insurance shall list, either typed on the face of the certificate or on the insurance company letterhead attached to the certificate, the year, make, and serial number of each motor vehicle that is covered by the insurance policy.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Notice.</text>
+      <para>
+        <num>(1)</num>
+        <text>A liability insurance policy or bond instead of insurance under this regulation shall contain a clause requiring at least 10 days written notice to the Commission and the insured before a policy or bond may be cancelled.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The holder of a permit authorizing the transportation of passengers shall give the Commission at least 10 days written notice of any proposed change affecting the liability insurance policy or bond instead of insurance required by this regulation.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.19</num>
+    <heading>Prohibited Conduct.</heading>
+    <para>
+      <num>A.</num>
+      <text>A Transportation Network Company, Transportation Network Operator, or an owner of a motor vehicle used in the transportation of a person for hire, which is not licensed as a taxicab by a county or by the Commission, may not:</text>
+      <para>
+        <num>(1)</num>
+        <text>Paint, identify, or letter the motor vehicle to resemble the distinctive color scheme or markings of a taxicab;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Equip the motor vehicle with a dome light or taxi meter;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Advertise the use of a motor vehicle as a taxicab service;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Dispatch a motor vehicle to pick up a customer calling for a taxicab; or</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Accept or dispatch a motor vehicle from a telephone number identified or advertised as providing taxicab service.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>An owner of a motor vehicle may not permit or direct an operator of a motor vehicle in the transportation of a person for hire to:</text>
+      <para>
+        <num>(1)</num>
+        <text>Pick up an individual hailing the motor vehicle from the street;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Discharge an individual at random except at the request of the individual;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Solicit an individual at a public or private taxicab stand or at Baltimore/Washington International Thurgood Marshall Airport; or</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Solicit an individual on the street.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A Transportation Network Company may not permit or direct a Transportation Network Operator to:</text>
+      <para>
+        <num>(1)</num>
+        <text>Pick up an individual hailing the motor vehicle from the street or through any means other than the digital platform used by the Transportation Network Company;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Discharge an individual at random except at the request of the individual;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Solicit an individual at a public or private taxicab stand or at Baltimore/Washington International Thurgood Marshall Airport; or</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Solicit an individual on the street.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>A permit issued by the Public Service Commission does not convey authority to operate on the property of Baltimore /Washington International Thurgood Marshall Airport.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.20</num>
+    <heading>Transportation Network Company.</heading>
+    <para>
+      <num>A.</num>
+      <text>A Transportation Network Company shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Have a permit from the Commission authorizing its operation;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Register with the Maryland State Department of Assessments;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Maintain a registered agent in Maryland;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Comply with all insurance requirements applicable to Transportation Network Companies, and ensure that Transportation Network Operators operating under its permit comply with all Commission Transportation Network Operator licensing requirements, vehicle inspections, and insurance requirements;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Maintain a current registry of all Transportation Network Operators, vehicles and TNC platform activity associated with the TNC and, upon request, make the registry available for Commission review to assure compliance with this chapter;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Provide Transportation Network Operators with a Transportation Network Company identification as defined under <cite path="20.95.01.24|A.|(6)">COMAR 20.95.01.24A(6)</cite> and <cite path="20.95.01.24|A.|(7)">COMAR 20.95.01.24A(7)</cite>;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Provide the following information on its website:</text>
+        <para>
+          <num>(a)</num>
+          <text>The Transportation Network Company’s customer service telephone number or electronic mail address;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The procedure for reporting a complaint; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A telephone number and electronic mail address for the Maryland Public Service Commission.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Insurance.</text>
+      <para>
+        <num>(1)</num>
+        <text>A Transportation Network Company shall maintain, or require its Transportation Network Operators to maintain primary insurance coverage in the amounts and types specified in <cite doc="Md. Code" path="gpu|10-405">Public Utilities Article, §10-405, Annotated Code of Maryland</cite>;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A Transportation Network Company shall provide proof of insurance as required by <cite doc="Md. Code" path="gpu|10-405">Public Utilities Article, §10-405(d), Annotated Code of Maryland</cite>; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A Transportation Network Company shall ensure that Transportation Network Company or Transportation Network Operator insurance coverage is in effect during Transportation Network Coverage Period One, Transportation Network Coverage Period Two, and Transportation Network Coverage Period Three;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>A Transportation Network Operator, a Transportation Network Company, or a combination of both shall maintain primary motor vehicle insurance that:</text>
+        <para>
+          <num>(a)</num>
+          <text>Recognizes that the Transportation Network Operator is a Transportation Network Operator or otherwise uses a motor vehicle to transport passengers for hire; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Covers the Transportation Network Operator while the Transportation Network Operator is providing Transportation Network Services.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Complies with the requirements of <cite doc="Md. Code" path="gpu|10-405">Public Utilities Article, §10-405, Annotated Code of Maryland</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>If the primary insurance required by <cite doc="Md. Code" path="gpu|10-405">Public Utilities Article, §10-405, Annotated Code of Maryland</cite> is maintained by a Transportation Network Operator and lapses or fails to provide the amount of coverage required, then the insurance maintained by a Transportation Network Company shall provide such coverage from the first dollar of a claim and provide for the duty to defend such claim pursuant to <cite doc="Md. Code" path="gpu|10-405">Public Utilities Article, §10-405(c), Annotated Code of Maryland</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A company that received a motor carrier permit prior to the effective date of these regulations may operate as a Transportation Network Company without obtaining another permit, provided the company otherwise complies with all statutory and regulatory requirements applicable to Transportation Network Companies.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.21</num>
+    <heading>Transportation Network Operator’s Licenses.</heading>
+    <para>
+      <num>A.</num>
+      <text>An individual who wishes to operate as a Transportation Network Operator shall apply for a Transportation Network Operator’s License, which may be done through a TNC.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A TNC may file with the Commission an application for a temporary operator’s license on behalf of a Transportation Network Operator.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Once a TNC submits a completed application for a temporary operator’s license, the Commission shall render a decision on the application and issue or deny a temporary license within a reasonable period following the receipt of a completed application. An application for a temporary operator’s license shall not be considered complete unless it includes a background check as described in <cite doc="Md. Code" path="gpu|10-404">Public Utilities Article, §10-404(b), Annotated Code of Maryland</cite> that was performed within the twelve months preceding the date of the application.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>During the review process described in §(C) of this regulation, a Transportation Network Operator whose application is pending before the Commission is authorized to operate as a Transportation Network Operator on a provisional basis until the Commission renders a decision on the application for temporary license.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>After April 1, 2016, upon expiration of a temporary operator’s license issued by the Commission, a Transportation Network Operator who wishes to continue operating as a Transportation Network Operator shall provide a fingerprint supported State and FBI background investigators’ record check to the Commission, unless the Commission has granted the Transportation Network Operator’s Transportation Network Company a waiver under <cite doc="Md. Code" path="gpu|10-404">Public Utilities Article, §10-404(e), Annotated Code of Maryland</cite>.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>The Commission shall issue a Transportation Network Operator’s License of up to 3 years to a Transportation Network Operator upon receipt of a fingerprint supported State and FBI background investigators record check, unless the results of the record checks show that the applicant has been convicted of a crime or driving offense that bears a direct relationship to the applicant’s fitness to serve the public as a for-hire driver.</text>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>If the Commission has granted a Transportation Network Company a waiver under <cite doc="Md. Code" path="gpu|10-404">Public Utilities Article, §10-404(e), Annotated Code of Maryland</cite>, the Commission shall issue the Transportation Network Operator a Transportation Network Operator’s License of up to 3 years upon completing its review of a qualifying application, unless the results of the background checks show that the applicant has been convicted of a crime or driving offense that bears a direct relationship to the applicant’s fitness to serve the public as a for-hire driver.</text>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>In order to obtain a waiver under <cite doc="Md. Code" path="gpu|10-404">Public Utilities Article, §10-404(e), Annotated Code of Maryland</cite>, a Transportation Network Company must demonstrate that the background check it uses meets the requirements of <cite doc="Md. Code" path="gpu|10-404">Public Utilities Article, §10-404(b), Annotated Code of Maryland</cite> and is as comprehensive and accurate as complying with the supplemental criminal background check as set forth under <cite doc="Md. Code" path="gpu|10-104">Public Utilities Article, §10-104(b), Annotated Code of Maryland</cite>.</text>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>A person who holds a valid passenger-for-hire driver’s license issued by the Commission may obtain a Transportation Network Operator’s License with the same expiration date as the passenger-for-hire driver’s license, without providing a new background check, provided that the person otherwise complies with all statutory and regulatory provisions applicable to Transportation Network Operators.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.22</num>
+    <heading>Transportation Network Operator.</heading>
+    <text>A Transportation Network Operator shall:</text>
+    <para>
+      <num>A.</num>
+      <text>Comply with all applicable Commission, vehicle inspection, and insurance requirements;</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Accept only transportation arranged through a TNC’s digital network and shall not solicit or accept street-hails;</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Display a TNC identification defined under Regulation .24A(6) and (7) of this chapter at any time that the operator is logged onto a TNC’s digital network;</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Possess a valid driver’s license;</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Be at least 18 years of age, and have at least 6 months of licensed driving experience; and</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Upon request, provide the Commission with a valid motor vehicle safety inspection certificate.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.23</num>
+    <heading>Transportation Network Company Operator Vehicle Permits.</heading>
+    <para>
+      <num>A.</num>
+      <text>An individual who wishes to operate as a Transportation Network Operator may apply for a vehicle permit through a TNC.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A TNC is authorized to file with the Commission an application for a vehicle permit.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The Commission shall issue a vehicle permit for a Transportation Network Operator Vehicle upon receipt and review of a complete application. An application will be deemed complete if it contains:</text>
+      <para>
+        <num>(1)</num>
+        <text>A copy of the valid vehicle registration for the Transportation Network Operator Vehicle;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A copy of a valid safety inspection certificate; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Proof that the vehicle complies with all insurance requirements set forth in <cite doc="Md. Code" path="gpu|10-405">Public Utilities Article, §10-405, Annotated Code of Maryland</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Once a TNC submits a completed application for a permit, the Commission shall render a decision on the application and issue or deny a permit within a reasonable period following the receipt of a completed application.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>A Transportation Network Operator whose application is pending before the Commission is authorized to operate their Transportation Network Operator Vehicle on a provisional basis until the Commission renders a decision on the application.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.24</num>
+    <heading>Transportation Network Company Operator Vehicle.</heading>
+    <text>A Transportation Network Operator Vehicle shall:</text>
+    <para>
+      <num>A.</num>
+      <text>Have, or have applied for and not been denied, a permit from the Commission authorizing its operation;</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Have a manufacturers rated seating capacity of no more than 8 passengers including the driver;</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Not exceed more than 12 model years age, except as provided in <cite path="|20|95|01|.11|A.|(6)">Regulation .11A(6) of this chapter</cite>;</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Comply with all required equipment and minimum safety standards as defined in <cite path="|20|95|01|.11">Regulation .11 of this chapter</cite>;</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Comply with all insurance requirements as defined in <cite doc="Md. Code" path="gpu|10-405">Public Utilities Article, §10-405, Annotated Code of Maryland</cite>; and</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>At all times while engaged on the TNC platform display on the vehicle’s rear passenger side window, a consistent and distinctive TNC identification, approved by the Commission, consisting of a logo, insignia, or emblem. The TNC identification shall be:</text>
+      <para>
+        <num>(1)</num>
+        <text>Sufficiently large and color contrasted so as to be readable during daylight hours at a distance of at least 50 fee;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Reflective or otherwise patently visible in darkness; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Displayed in a manner that complies with Maryland motor vehicle laws.</text>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>The TNC identification may take the form of a removable device.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.25</num>
+    <heading>Accessibility and Non-Discrimination.</heading>
+    <para>
+      <num>A.</num>
+      <text>For purposes of this regulation, “Accessible” means fully and equally accessible to and independently usable by individuals with disabilities so that the individuals are able to acquire the same information, engage in the same interactions, and enjoy the same services as users without disabilities, with substantially equivalent ease of use.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>By July 1, 2016, a carrier or TNC that operates five or more vehicles under its permit shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Ensure that the company’s websites and mobile applications are accessible to the blind and visually impaired and the deaf and hard of hearing; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Provide a report to the Commission Staff, on how the company intends to increase access to wheelchair accessible public or private vehicle-for-hire service to individuals with disabilities.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A company that provides for-hire transportation, including a Transportation Network Company shall not:</text>
+      <para>
+        <num>(1)</num>
+        <text>Impose additional or special charges on an individual with a disability for providing services to accommodate the individual; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Require an individual with a disability to be accompanied by an attendant.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>If an owner, operator, or Transportation Network Operator accepts a ride request from a passenger with a disability who uses a mobility device, upon picking up the passenger, the operator or Transportation Network Operator shall stow the passenger’s mobility equipment in the vehicle if the vehicle is capable of stowing the equipment.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>If a passenger or driver determines that the vehicle is not capable of stowing the equipment, the owner or Transportation Network Company may not charge a trip cancellation fee or, if such fee is charged, shall provide the passenger with a refund in a timely manner.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>All companies that provide for-hire transportation, and all Transportation Network Operators, shall comply with all applicable laws related to accommodation of service animals.</text>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>All companies that provide for-hire transportation, including Transportation Network Companies, shall provide their drivers detailed information and appropriate training regarding the requirements of laws governing non-discrimination and accessibility, including the Americans with Disabilities Act, prior to allowing them to provide service to passengers to the extent applicable.</text>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>By July 1 of each year, a carrier or TNC that operates five or more vehicles under its permit , shall report to the Commission Staff:</text>
+      <para>
+        <num>(1)</num>
+        <text>the steps it has taken during the preceding twelve months to ensure and upgrade the accessibility of the company’s services; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>the number of complaints or other notifications received regarding an inability or failure to accommodate a person with a disability.</text>
+      </para>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>Transportation Network Companies, Transportation Network Operators, owners, and operators that provide platforms allowing drivers to rate passengers shall ensure that such ratings are not based on unlawful discrimination, and that drivers do not discriminate against passengers or potential passengers on the basis of geographic endpoints of the ride, race, color, national origin, religion, sex, disability, age, or sexual orientation/identity.</text>
+    </para>
+    <para>
+      <num>J.</num>
+      <text>The Maryland Office of People’s Counsel shall have access to the reports filed under §§B and H of this regulation, upon request.</text>
+    </para>
+  </section>
+  <section cache:ref-path="20|95|01|.26">
+    <prefix>Regulation</prefix>
+    <num>.26</num>
+    <heading>Licensure — Driver Screening Standards.</heading>
+    <para>
+      <num>A.</num>
+      <text>General. As used in this regulation, the terms “conviction” and “convicted of” include a finding of guilt in a criminal or motor vehicle proceeding, the entry of the plea of guilty or nolo contendere, a probation before judgment if the applicant has not yet completed the terms of the probation or if the applicant has been found to have violated the terms of probation, or has been found not criminally responsible pursuant to Maryland Rule 4-134. The terms of an applicant’s probation before judgment will be determined by referencing the sentencing and disposition date information contained in the background check or criminal history report provided with the application. Unless the background check or criminal history report indicates otherwise, there will be a presumption that the terms of the probation before judgment have been completed within the period indicated on the report and that the applicant has not violated the terms of the probation.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Criminal Offenses.</text>
+      <para>
+        <num>(1)</num>
+        <text>Tier 1 Felony Offenses involving a Crime of Violence. An individual may be denied a license for an indefinite period if the individual has been convicted of a crime of violence, as defined by <cite doc="Md. Code" path="gcr|14-101">Criminal Law Article, §14-101, Annotated Code of Maryland</cite>, including any conspiracy, solicitation, attempt, or accessory to such crime of violence. Crimes of violence include:</text>
+        <para>
+          <num>(a)</num>
+          <text>Abduction;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Arson in the first degree;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Kidnapping;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Manslaughter, except involuntary manslaughter;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Mayhem;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Maiming;</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>Murder;</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>Rape;</text>
+        </para>
+        <para>
+          <num>(i)</num>
+          <text>Robbery, as defined by <cite doc="Md. Code" path="gcr|3-402">Criminal Law Article, §3-402 </cite>or 3-403, Annotated Code of Maryland, including robbery with a deadly weapon;</text>
+        </para>
+        <para>
+          <num>(j)</num>
+          <text>Carjacking;</text>
+        </para>
+        <para>
+          <num>(k)</num>
+          <text>Armed carjacking;</text>
+        </para>
+        <para>
+          <num>(l)</num>
+          <text>Sexual offense in the first degree;</text>
+        </para>
+        <para>
+          <num>(m)</num>
+          <text>Sexual offense in the second degree;</text>
+        </para>
+        <para>
+          <num>(n)</num>
+          <text>Use of a handgun in the commission of a felony or other crime of violence;</text>
+        </para>
+        <para>
+          <num>(o)</num>
+          <text>Child abuse in the first degree under <cite doc="Md. Code" path="gcr|3-601">Criminal Law Article, §3-601, Annotated Code of Maryland</cite>;</text>
+        </para>
+        <para>
+          <num>(p)</num>
+          <text>Sexual abuse of a minor under <cite doc="Md. Code" path="gcr|3-602">Criminal Law Article, §3-602, Annotated Code of Maryland</cite>, if:</text>
+          <para>
+            <num>(i)</num>
+            <text>The victim is under the age of 13 years and the offender is an adult at the time of the offense; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The offense involved vaginal intercourse, as defined in <cite doc="Md. Code" path="gcr|3-301">Criminal Law Article, §3-301, Annotated Code of Maryland</cite>; a sexual act, as defined in <cite doc="Md. Code" path="gcr|3-301">Criminal Law Article, §3-301, Annotated Code of Maryland</cite>;  an act in which a part of the offender’s body penetrates, however slightly, into the victim’s genital opening or anus; or the intentional touching, not through the clothing, of the victim’s or the offender’s genital, anal, or other intimate area for sexual arousal, gratification, or abuse;</text>
+          </para>
+        </para>
+        <para>
+          <num>(q)</num>
+          <text>An attempt to commit any of the crimes as described in §B(1)(a)—(p) of this regulation;</text>
+        </para>
+        <para>
+          <num>(r)</num>
+          <text>Continuing course of conduct with a child under <cite doc="Md. Code" path="gcr|3-315">Criminal Law Article, §3-315, Annotated Code of Maryland</cite>;</text>
+        </para>
+        <para>
+          <num>(s)</num>
+          <text>Assault in the first degree;</text>
+        </para>
+        <para>
+          <num>(t)</num>
+          <text>Assault with intent to murder;</text>
+        </para>
+        <para>
+          <num>(u)</num>
+          <text>Assault with intent to rape;</text>
+        </para>
+        <para>
+          <num>(v)</num>
+          <text>Assault with intent to rob;</text>
+        </para>
+        <para>
+          <num>(w)</num>
+          <text>Assault with intent to commit a sexual offense in the first degree; and</text>
+        </para>
+        <para>
+          <num>(x)</num>
+          <text>Assault with intent to commit a sexual offense in the second degree.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Tier 2 Felony Offenses Other than Tier 1 Crimes of Violence. An individual may be denied a license if, within the 7-year period prior to the date of submission of the application, the individual has been convicted of any felony offense that is not defined as a crime of violence under <cite doc="Md. Code" path="gcr|14-101">Criminal Law Article, §14-101, Annotated Code of Maryland</cite>. Tier 2 felony offenses include:</text>
+        <para>
+          <num>(a)</num>
+          <text>Any felony offense against a person including any assault or assault and battery that is not defined as a Tier 1 crime of violence as described in <cite path="20|95|01|.26|B.|(1)">§B(1) of this regulation</cite>, or any threat to commit such crime, or any violation of a restraining order;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Any felony offense involving the illegal use or possession of weapons;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Any felony offense involving the possession, importation, manufacture, distribution, or registration of a controlled dangerous substance, prescription drug, or other substance;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Any felony offense involving the manufacture, sale, transport, or possession of explosives, or the intent to create an explosive device;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Any felony offense involving criminal sexual assault that is not defined as a Tier 1 crime of violence as described in <cite path="20|95|01|.26|B.|(1)">§B(1) of this regulation</cite>, any type of sexual abuse, solicitation, pandering, prostitution, pimping, obscenity, pornography, possession of obscene material, exploitation, public indecency, sexual relations within families, or sexual misconduct;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Any felony property offenses that are not defined as a Tier 1 crime of violence as described in <cite path="20|95|01|.26|B.|(1)">§B(1) of this regulation</cite>, including arson and burning, burglary and related crimes including home invasion, malicious destruction and related crimes, trespass, or crimes against a railroad;</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>Any felony theft and related offenses; fraud and related offenses; offenses against public administration; offenses against public health, conduct, and sensibilities; indecency and obscenity; or gaming.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Misdemeanor Offenses — Crimes of Violence. Except for driving offenses as described in <cite path="20|95|01|.26|B.">§B of this regulation</cite>, an individual may be denied a license if, within a 3-year period prior to the date of the submission of the application, the individual has been convicted of any crime classified as a misdemeanor in the state of Maryland that involves violence against a person, including any conspiracy, solicitation, attempt, or accessory to such crime of violence.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Multiple Disqualifying Offenses. Individuals who have been convicted of multiple criminal offenses as described in §B(2) and (3) of this regulation shall be subject to the following exclusion periods.</text>
+        <para>
+          <num>(a)</num>
+          <text>Two or more felonies offenses — An individual may be denied a license if, within 10 years prior to the date of submission of the application the individual has been convicted of two or more Tier 2 felony offenses as described in <cite path="20|95|01|.26|B.|(2)">§B(2) of this regulation</cite>, provided these crimes arose out of separate incidents.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Three or more misdemeanor crimes of violence — An individual may be denied a license if, within 7 years prior to the date of submission of the application, the individual has been convicted of three or more misdemeanors as described in <cite path="20|95|01|.26|B.|(3)">§B(3) of this regulation</cite>, provided each of these offenses arose out of separate incidents.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Driving Offenses.</text>
+      <para>
+        <num>(1)</num>
+        <text>Major Traffic Offenses Involving Fatalities. An individual may be denied a license for an indefinite period if the individual has been convicted of a traffic violation involving the negligent or reckless operation of a motor vehicle that resulted in a fatality, including but not limited to crimes of motor vehicle manslaughter, homicide by motor vehicle, and negligent homicide.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Major Traffic Offenses Involving Alcohol or Controlled Substances.</text>
+        <para>
+          <num>(a)</num>
+          <text>An individual may be denied a license if, within the 7-year period prior to the date of submission of the application, the individual has been convicted of a single major traffic violation involving the operation of a motor vehicle while under the influence of alcohol or a controlled substance; violating an interlock or alcohol restriction, leaving the scene of an accident, fleeing or evading police or resisting arrest while operating a motor vehicle or driving a motor vehicle when, as a result of a violation involving the use of alcohol or a controlled substance, the individual’s license is revoked, suspended, or canceled.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>If, within 15 years prior to the date of submission of the application, an individual has been convicted of 2 or more major traffic violations as described in <cite path="20|95|01|.26|C.|(2)|(a)">§C(2)(a) of this regulation</cite>, the individual may be denied a license.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Major Traffic Violations Not Related to Driving While Impaired by Alcohol or Controlled Substance.</text>
+        <para>
+          <num>(a)</num>
+          <text>An individual may be denied a license if, within the 3-year period prior to the date of the application, the individual has been convicted of reckless or negligent driving, use of a text messaging device while driving or use of a handheld telephone while driving as described in the Maryland Transportation Article, §§<cite doc="Md. Code" path="gtr|21-1124">21-1124</cite>.1 and 21-1124.2, Annotated Code of Maryland, if such use results in personal injury as noted on the applicant’s driving history report or Maryland <cite doc="Md. Code" path="gtr|21-1124">Transportation Article, §21-1124</cite>.3, Annotated Code of Maryland, failure to stop for a police officer, speeding 31 MPH or more over the posted speed limit, street or drag racing, driving after the individual’s license has been withdrawn or revoked, driving with a counterfeit or altered license or making a material misrepresentation about a driving license or, as a result of the refusal of a chemical test, the individual’s license is revoked or suspended.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>An individual may be denied a license if, within the 5-year period prior to the date of the application, the individual has been convicted of two or more major traffic violations as described in <cite path="20|95|01|.26|C.|(3)">§C(3) of this regulation</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Multiple Moving Traffic Violations. An individual may be denied a license if, within the 4-year period prior to the date of the application, the individual has been convicted of four moving traffic violations.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Offenses in Other Jurisdictions. All criminal and driving offenses described in this regulation are to be construed as including all violations of Maryland law and like or substantially similar violations of the laws of another state, the United States, a military, territorial or Native American tribal authority, or any other jurisdiction.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Additional Factors — Mitigating or Aggravating. The Commission may consider the following factors in determining whether to grant a license prior to the expiration of the restriction periods as described in this section:</text>
+      <para>
+        <num>(1)</num>
+        <text>The applicant’s age at the time of the commission of any crime or traffic violation;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The circumstances surrounding the crime or traffic violation;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The time elapsed since conviction;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The nature of the crime or traffic violation;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The number and frequency of convictions for criminal offenses or traffic violations;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Documented character references;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Documented treatment and/or rehabilitation records;</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Favorable parole/probation records;</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>Documentation of favorable employment records;</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>Family situation;</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>Restitution made or being made to victims of the crime;</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>Conduct since conviction;</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>The applicant’s overall driving record during the restriction period; and</text>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>The length of time the applicant has held a driving privilege. If the individual has been incarcerated, the applicant’s driving record since release from incarceration.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Open Charges in Pending Applications. The Commission may defer a decision on a pending application until any open Tier 1 or Tier 2 Criminal Offenses as described in <cite path="20|95|01|.26|A.">§A of this regulation</cite> or major traffic violations as described in <cite path="20|95|01|.26|B.">§B of this regulation</cite>  are resolved.</text>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Sex Offender Registry. An individual may be denied a license for an indefinite period if the individual is listed on the national sex offender registry or the sex offender registry of any state.</text>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Public Utilities Article, §§<cite doc="Md. Code" path="gpu|2-113">2-113</cite>, <cite doc="Md. Code" path="gpu|2-121">2-121</cite>, <cite doc="Md. Code" path="gpu|4-503">4-503</cite>, <cite doc="Md. Code" path="gpu|5-101">5-101</cite>, <cite doc="Md. Code" path="gpu|5-106">5-106</cite>, <cite doc="Md. Code" path="gpu|9-101">9-101</cite>—<cite doc="Md. Code" path="gpu|9-103">9-103</cite>, <cite doc="Md. Code" path="gpu|9-201">9-201</cite>—<cite doc="Md. Code" path="gpu|9-205">9-205</cite>, <cite doc="Md. Code" path="gpu|9-207">9-207</cite>, <cite doc="Md. Code" path="gpu|10-101">10-101</cite>—<cite doc="Md. Code" path="gpu|10-104">10-104</cite>, <cite doc="Md. Code" path="gpu|10-104">10-104</cite>.1, 10-105, 10-106, 10-108, 10-401—10-407, 13-101, 13-201, and 13-202; <cite doc="Md. Code" path="gsg|7-207">State Government Article, §7-207(a)</cite>; Annotated Code of Maryland</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1928-01-01">Effective date: January 1, 1928 (Order No. 12184)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1995-07-31"><cite path="|20|95|01|.03">Regulation .03</cite> amended effective December 9, 1991 (18:24 Md. R. 2646); June 7, 1993 (20:11 Md. R. 916); July 31, 1995 (22:15 Md. R. 1122)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2018-02-26"><cite path="|20|95|01|.03|B.">Regulation .03B</cite> amended effective March 28, 2016 (43:6 Md. R. 411); February 26, 2018 (45:4 Md. R. 207)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1995-07-31"><cite path="|20|95|01|.04">Regulation .04</cite> amended effective October 25, 1929 (Order No. 15012); June 7, 1993 (20:11 Md. R. 916); July 31, 1995 (22:15 Md. R. 1122)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1992-01-20"><cite path="|20|95|01|.05">Regulation .05</cite> repealed effective January 20, 1992 (19:1 Md. R. 35)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1993-06-07"><cite path="|20|95|01|.05">Regulation .05</cite> adopted effective June 7, 1993 (20:11 Md. R. 916)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1981-01-23"><cite path="|20|95|01|.06">Regulation .06</cite> amended effective January 23, 1981 (8:2 Md. R. 117)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1992-01-20"><cite path="|20|95|01|.06">Regulation .06</cite> repealed and new Regulation .06 adopted effective January 20, 1992 (19:1 Md. R. 35)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2001-06-15"><cite path="|20|95|01|.06">Regulation .06</cite> amended as an emergency provision effective June 15, 2001 (28:15 Md. R. 1395); emergency status expired December 15, 2001</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2016-03-28"><cite path="|20|95|01|.06">Regulation .06</cite> amended effective March 28, 2016 (43:6 Md. R. 411)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1998-06-15"><cite path="|20|95|01|.06|A.">Regulation .06A</cite> amended effective June 15, 1998 (25:12 Md. R. 948)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2007-03-26"><cite path="|20|95|01|.06|B.">Regulation .06B</cite> amended effective November 9, 1992 (19:22 Md. R. 1989); June 7, 1993 (20:11 Md. R. 916); August 15, 1994 (21:16 Md. R. 1390); December 24, 2005 (28:25 Md. R. 2194); June 20, 2005 (32:12 Md. R. 1047); March 26, 2007 (34:6 Md. R. 629)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1993-06-07"><cite path="|20|95|01|.06|C.">Regulation .06C</cite> adopted effective June 7, 1993 (20:11 Md. R. 916)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2006-02-13"><cite path="|20|95|01|.06|C.">Regulation .06C</cite> amended effective February 13, 2006 (33:3 Md. R. 244)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1993-06-07"><cite path="|20|95|01|.07">Regulation .07</cite> repealed and new Regulation .07 adopted effective June 7, 1993 (20:11 Md. R. 916)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1993-06-07"><cite path="|20|95|01|.08">Regulation .08</cite> repealed and new Regulation .08 adopted effective June 7, 1993 (20:11 Md. R. 916)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1999-12-27"><cite path="|20|95|01|.08">Regulation .08</cite> amended effective December 27, 1999 (26:26 Md. R. 1959)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2016-03-28"><cite path="|20|95|01|.08|B.">Regulation .08B</cite>, C, D, E amended effective March 28, 2016 (43:6 Md. R. 411)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2016-03-28"><cite path="|20|95|01|.08|F.">Regulation .08F</cite>, G, H, I, J adopted effective March 28, 2016 (43:6 Md. R. 411)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1993-06-07"><cite path="|20|95|01|.09">Regulation .09</cite> repealed and new Regulation .09 adopted effective June 7, 1993 (20:11 Md. R. 916)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2016-03-28"><cite path="|20|95|01|.09">Regulation .09</cite> repealed effective March 28, 2016 (43:6 Md. R. 411)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1993-06-07"><cite path="|20|95|01|.10">Regulation .10</cite> repealed and new Regulation .10 adopted effective June 7, 1993 (20:11 Md. R. 916)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1993-06-07"><cite path="|20|95|01|.11">Regulation .11</cite> repealed and new Regulation .11 adopted effective June 7, 1993 (20:11 Md. R. 916)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2001-06-15"><cite path="|20|95|01|.11">Regulation .11</cite> amended as an emergency provision effective June 15, 2001 (28:15 Md. R. 1395)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2022-02-07"><cite path="|20|95|01|.11">Regulation .11</cite> amended effective March 28, 2016 (43:6 Md. R. 411); February 26, 2018 (45:4 Md. R. 207); February 7, 2022 (49:3 Md. R. 139)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2007-03-26"><cite path="|20|95|01|.11|A.">Regulation .11A</cite> amended effective March 26, 2007 (34:6 Md. R. 629)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2001-12-24"><cite path="|20|95|01|.11|B.">Regulation .11B</cite> amended effective December 24, 2001 (28:25 Md. R. 2194)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1993-06-07"><cite path="|20|95|01|.12">Regulation .12</cite> repealed and new Regulation .12 adopted effective June 7, 1993 (20:11 Md. R. 916)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2016-03-28"><cite path="|20|95|01|.12">Regulation .12</cite> amended effective March 28, 2016 (43:6 Md. R. 411)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1929-10-25"><cite path="|20|95|01|.12|C.">Regulation .12C</cite> adopted effective October 25, 1929 (Order No. 15012)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1993-06-07">Regulations .13 repealed effective June 7, 1993 (20:11 Md. R. 916)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1993-06-07">Regulations .14 repealed effective June 7, 1993 (20:11 Md. R. 916)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1993-06-07">Regulations .15 repealed effective June 7, 1993 (20:11 Md. R. 916)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1932-01-01"><cite path="|20|95|01|.15|D.">Regulation .15D</cite>, E amended effective January 1, 1932 (Order No. 17987)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1981-01-23"><cite path="|20|95|01|.15|F.">Regulation .15F</cite> amended effective January 23, 1981 (8:2 Md. R. 117)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1935-05-10"><cite path="|20|95|01|.15|G.">Regulation .15G</cite> adopted effective May 10, 1935 (Order No. 26943)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1932-01-01"><cite path="|20|95|01|.15|L.">Regulation .15L</cite>, M adopted effective January 1, 1932 (Order No. 17987)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1981-01-23"><cite path="|20|95|01|.16">Regulation .16</cite> amended effective January 23, 1981 (8:2 Md. R. 117)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1993-06-07">Regulations .16 repealed effective June 7, 1993 (20:11 Md. R. 916)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1991-04-15"><cite path="|20|95|01|.17">Regulation .17</cite> adopted effective April 15, 1991 (18:7 Md. R. 774)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1991-12-09"><cite path="|20|95|01|.17">Regulation .17</cite> amended effective December 9, 1991 (18:24 Md. R. 2646)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1995-07-31"><cite path="|20|95|01|.17">Regulation .17</cite> repealed effective July 31, 1995 (22:15 Md. R. 1122)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1991-12-09"><cite path="|20|95|01|.18">Regulation .18</cite> adopted effective December 9, 1991 (18:24 Md. R. 2646)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1995-04-10"><cite path="|20|95|01|.18|A.">Regulation .18A</cite> amended effective April 10, 1995 (22:7 Md. R. 539)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1992-09-28"><cite path="|20|95|01|.18|B.">Regulation .18B</cite> amended effective September 28, 1992 (19:19 Md. R. 1714)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1995-04-10"><cite path="|20|95|01|.19">Regulation .19</cite> adopted effective April 10, 1995 (22:7 Md. R. 539)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2016-03-28"><cite path="|20|95|01|.19|A.">Regulation .19A</cite>, B amended effective March 28, 2016 (43:6 Md. R. 411)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1996-06-17"><cite path="|20|95|01|.19|B.">Regulation .19B</cite> amended effective June 17, 1996 (23:12 Md. R. 873)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1996-03-11"><cite path="|20|95|01|.19|C.">Regulation .19C</cite> repealed effective March 11, 1996 (23:5 Md. R. 384)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2016-03-28"><cite path="|20|95|01|.19|C.">Regulation .19C</cite>, D adopted effective March 28, 2016 (43:6 Md. R. 411)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2016-03-28">Regulations <cite path="|20|95|01|.20">.20</cite>—<cite path="|20|95|01|.25">.25</cite> adopted effective March 28, 2016 (43:6 Md. R. 411)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2018-02-26"><cite path="|20|95|01|.22|F.">Regulation .22F</cite> amended effective February 26, 2018 (45:4 Md. R. 207)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2018-02-26"><cite path="|20|95|01|.23|C.">Regulation .23C</cite> amended effective February 26, 2018 (45:4 Md. R. 207)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2018-02-26"><cite path="|20|95|01|.24|C.">Regulation .24C</cite>, F amended effective February 26, 2018 (45:4 Md. R. 207)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2018-02-26"><cite path="|20|95|01|.26">Regulation .26</cite> adopted effective February 26, 2018 (45:4 Md. R. 207)</annotation>
+  </annotations>
+</container>
