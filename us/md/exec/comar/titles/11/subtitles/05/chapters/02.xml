@@ -1,0 +1,607 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>02</num>
+  <heading>Hazardous Materials</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Scope.</heading>
+    <text>This chapter applies to persons at all Maryland Port Administration (MPA) port facilities and to the land and water carriers using these port facilities.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>"CFR" means the Code of Federal Regulations.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>"Citation" means a charging document:</text>
+        <para>
+          <num>(a)</num>
+          <text>Issued by an authorized member of the Maryland Transportation Authority (MdTA) Police, which specifies the offense for which the person stands accused; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Which is in the following form:</text>
+          <para>
+            <num>(i)</num>
+            <text>For the purpose of traffic offenses under <cite doc="Md. Code" path="gtr|6-211">Transportation Article, §6-211, Annotated Code of Maryland</cite>, the Uniform Traffic Summons or Citation form is sufficient, when properly completed; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>For the purpose of any other offense, the MdTA Police's standard citation form is sufficient, when properly completed.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>"Commodities requiring notification" means those hazardous materials which can be introduced into the Port without a specific permit, including those shipments in the waterborne mode.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>"Commodities requiring permits" means hazardous materials which present a high risk to the safety of persons or property at MPA port facilities, including those shipments in the waterborne mode.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>"Director of Security" means the MPA official in charge of security at the Maryland Port Administration.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>"Executive Director" means the Executive Director of the Maryland Port Administration.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Fissile Material.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Fissile material" means (as defined in 49 CFR §173.403) plutonium 238, 239, or 241, or uranium 233 or 235, or any combination of these radionuclides.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Fissile material" does not mean:</text>
+          <para>
+            <num>(i)</num>
+            <text>Material containing fissile nuclides;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Unirradiated natural uranium and unirradiated depleted uranium;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Natural uranium or depleted uranium that has been irradiated in thermal uranium;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Depleted uranium that has been irradiated in thermal reactors only; or</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>Material listed in 49 CFR §173.453.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>"Hazardous material" means a substance or material including a hazardous substance which has been designated by the United States Secretary of Transportation to be capable of posing an unreasonable risk to health, safety, and property when transported in commerce.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>"Hazardous materials incident" means:</text>
+        <para>
+          <num>(a)</num>
+          <text>An actual release of hazardous materials from the packaging or containment used for its transport or storage;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The imminent danger of an actual release of hazardous materials from the packaging or containment used for its transport or storage; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The imminent danger of injury to persons or property due to the method of transportation or the place of storage of hazardous materials.</text>
+        </para>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>"IMDG Code" means the International Maritime Dangerous Goods Code.</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>"Introduce in the Port" means the transporting, handling, storing, off-loading from, or loading on to a vessel, or having on board a vessel as cargo or via any means of transportation causing to be present at an MPA port facility any materials regulated there.</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>"Manager, Safety, Environment, and Risk Management (SERM)" means the MPA official in charge of regulating the transportation and storage of hazardous materials, or the Manager's designee.</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>"MdTA" means the Maryland Transportation Authority.</text>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>“MdTA Police” has the meaning stated in <cite path="11.05.03.02">COMAR 11.05.03.02</cite>.</text>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>"MPA" means the Maryland Port Administration.</text>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>"MPA port facility" means any one or more or combination of:</text>
+        <para>
+          <num>(a)</num>
+          <text>Lands, piers, docks, wharves, warehouses, sheds, transit sheds, buildings, structures, and other facilities, appurtenances, and equipment used for or designed for use in connection with the operation of a port;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Every kind of terminal or storage structure or facility used for or designed for use in handling, storing, loading, or unloading freight or passengers at marine terminals;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Every kind of transportation facility used for or designed for use in connection with any of these.</text>
+        </para>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>"Person" means an individual, receiver, trustee, guardian, executor, administrator, fiduciary, broker, freight forwarder, agent, or representative of any kind, and any partnership, firm, association, public or private corporation, sole proprietorship, or any other entity.</text>
+      </para>
+      <para>
+        <num>(18)</num>
+        <text>"Prohibited commodities" means hazardous materials which are barred from transportation by land or water carrier by either the US DOT regulations or the IMDG Code, or which present unacceptable risks to the safety of life and property in the Port of Baltimore as determined by the Manager, SERM or the Manager's designee.</text>
+      </para>
+      <para>
+        <num>(19)</num>
+        <text>"Terminal operator" means the person controlling the land use of a marine terminal including railroads and lessees of facilities from the MPA.</text>
+      </para>
+      <para>
+        <num>(20)</num>
+        <text>"US DOT regulations" means the United States Department of Transportation regulations contained in CFR, Titles 33, 46, and 49, which are incorporated by reference.</text>
+      </para>
+      <para>
+        <num>(21)</num>
+        <text>"Vessel" means the vessel and those in charge of the vessel.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02-1</num>
+    <heading>International Maritime Dangerous Goods Code (IMDG Code).</heading>
+    <para>
+      <num>A.</num>
+      <text>The International Maritime Dangerous Goods Code (International Maritime Organization, London, U.K.; 1994 Consolidated Edition, Volumes I through IV, including amendments through 27-94 and errata), is incorporated by reference.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The IMDG Code is available for inspection at the following public offices:</text>
+      <para>
+        <num>(1)</num>
+        <text>Division of State Documents, 16 Francis Street, Annapolis, Maryland 21401, 410-974-2486;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Maryland Port Administration, Risk Management/Safety Department, 2310 Broening Highway, Baltimore, Maryland 21224, 410-631-1063;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>U.S. Coast Guard, Activities Baltimore, 2401 Hawkins Point Road, Baltimore, Maryland 21226-1794, 410-576-2693;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>U.S. Coast Guard Headquarters, Office of Standards (G-MSO), 2100 2nd St., S.W., Washington, D.C. 20593-0001, 202-267-1142;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Library of Congress, Madison Building, Law Library Reading Room, 101 Independence Ave., S.E., Washington, D.C. 20540, 202-707-5079 (Call Document No.: K4178.D3A25-1970); and</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>U.S. Department of Transportation Library, 400 Seventh Street, Washington, DC 20590, 202-366-0746.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Administration.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Manager, SERM or the Manager's designee, shall administer these regulations.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>When a hazardous materials incident occurs, any person having knowledge of the hazardous materials incident shall immediately notify the Manager, SERM or the Manager's designee, and the nearest terminal operator. Notification to the Manager, SERM or the Manager's designee, may be through the MdTA Police Communications at the Dundalk Marine Terminal, by dialing 410-633-1092.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The person who causes hazardous materials to be introduced into the Port of Baltimore is responsible for the prompt control, containment, mitigation, and removal of any hazardous materials discharged or released into the environment including, but not limited to, the accidental or intentional spilling, leaking, pumping, pouring, emitting, or dumping into or on any land or water. This prompt control, containment, mitigation, and removal shall be done to the satisfaction of the Manager, SERM or the Manager's designee, or the responding enforcement authority.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>If a hazardous materials incident occurs at an MPA port facility, the Manager, SERM or the Manager's designee, may take such emergency action as may be necessary including removing or relocating any property or water carrier.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Any expenses incurred by the MPA, pursuant to the use of this emergency authority, shall be reimbursed to the MPA by the person responsible for the hazardous materials incident in the same manner any debt would be due.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>General Requirements.</heading>
+    <para>
+      <num>A.</num>
+      <text>A person may not introduce in the Port of Baltimore any hazardous materials, unless:</text>
+      <para>
+        <num>(1)</num>
+        <text>The person complies with 49 CFR 171—174 and 176—178, and 33 CFR 126; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The cargo is properly classed, described, packaged, marked, labeled, placarded, and approved for highway, rail, or water transportation.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The Manager, SERM or the Manager's designee, or the Director of Security or the Director's designee, may reasonably enter an MPA port facility and inspect hazardous materials designated as cargo. These inspections shall be conducted during normal business hours and are confined to areas where cargo is introduced or stored.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Prohibited Commodities.</heading>
+    <para>
+      <num>A.</num>
+      <text>Exceptions.</text>
+      <para>
+        <num>(1)</num>
+        <text>U.S. Navy vessels, U.S. Coast Guard vessels, or foreign warships carrying any amount of explosives in magazines as part of their armament may enter an MPA port facility without securing a permit.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A contractor may introduce in the Port explosives in such amounts as are reasonably necessary for construction and repair if the contractor obtains a permit as required by <cite path="|11|05|02|.06|A.|(2)">Regulation .06A(2) of this chapter</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A person may not introduce in the Port:</text>
+      <para>
+        <num>(1)</num>
+        <text>Prohibited commodities, unless the US DOT has granted an exception for its movement;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Class 1, divisions 1.1 and 1.2 explosives, as defined in 49 CFR §§173.50 and 173.53, weighing more than 100 pounds net explosive weight, although in-transit Class 1, divisions 1.1 and 1.2 explosives in any amount on board a vessel are exempt from this requirement if the explosives are not moved or disturbed while the vessel is in port;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Class 1, divisions 1.2 and 1.3 propellant explosives, as defined in 49 CFR §§173.50 and 173.53 weighing more than 2,500 pounds net explosive weight, although in-transit Class 1, divisions 1.2 and 1.3 explosives in any amount on board a vessel are exempt from this requirement if the explosives are not moved or disturbed while the vessel is in port;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Any blasting agent, ammonium nitrate, or ammonium nitrate mixture, except as permitted in <cite path="|11|05|02|.06|A.|(9)">Regulation .06A(9) of this chapter</cite>.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="11|05|02|.06">
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Commodities Requiring Permits.</heading>
+    <para>
+      <num>A.</num>
+      <text>A person may not introduce in the Port any of the following commodities unless a permit has been obtained from the Manager, SERM or the Manager's designee:</text>
+      <para>
+        <num>(1)</num>
+        <text>Class 1, divisions 1.1 and 1.2 explosives weighing 100 pounds net explosive weight or less, although a permit may not be issued by the MPA until the appropriate request covered by 33 CFR §127.17 has been favorably acted upon by the U.S. Coast Guard;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Class 1, divisions 1.1 and 1.2 explosives for construction and repair, although a permit may not be issued by MPA until all permits required by federal, State, county, and city authorities, as appropriate, have been issued;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Class 1, divisions 1.1 and 1.2 explosives over 100 pounds net explosive weight in marine transit;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Class 1, divisions 1.2 and 1.3 explosives weighing 2,500 pounds net weight or less;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Class 1, divisions 1.2 and 1.3 explosives over 2,500 pounds of net explosive weight in marine transit;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Certain dangerous cargo (CDC) as defined in 33 CFR §160.204;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Class 6, division 6.1 poisons, as defined in 49 CFR §173.132;</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Fissile material as defined in 49 CFR §173.403;</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>Blasting agents, ammonium nitrate, and certain ammonium nitrate mixtures as specified in 49 CFR §176.415(a), the loading or unloading of which requires the written permission of the U.S. Coast Guard Captain of the Port; or</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>Liquid hydrogen moving under a US DOT exemption.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>None of the hazardous materials listed in <cite path="11|05|02|.06|A.">§A of this regulation</cite> may remain on any MPA port facility without a valid permit.</text>
+    </para>
+  </section>
+  <section cache:ref-path="11|05|02|.06-1">
+    <prefix>Regulation</prefix>
+    <num>.06-1</num>
+    <heading>Requirements for Explosives-Carrying Vessels.</heading>
+    <para>
+      <num>A.</num>
+      <text>A vessel carrying quantities exceeding 100 pounds of Class 1, divisions 1.1 and 1.2 explosives or 2,500 pounds of Class 1, divisions 1.2 and 1.3 explosives, or both, in transit to or from an MPA port facility shall establish a security watch once tied up to any berth, pier, dock, or wharf.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The security watch in <cite path="11|05|02|.06-1|A.">§A of this regulation</cite> shall be a member of the MdTA Police Department, or armed security guard approved in advance by the MPA Manager, SERM or the Manager's designee, and the Director of Security or the Director's designee, and is considered a borrowed servant of the vessel.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The security watch in <cite path="11|05|02|.06-1|A.">§A of this regulation</cite> is required for both landside and waterside and the security watch shall be required during the entire duration of the vessel being tied up to the berth, pier, dock, or wharf. The security watch may also require an escort for the vessel when it enters and leaves the harbor. The decision to escort the vessel will be made by the Director of Security or the Director's designee.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Costs incurred for the security watch in <cite path="11|05|02|.06-1|A.">§A of this regulation</cite> shall be paid by and for the account of the vessel carrying the explosives.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Affected vessels shall be required to provide a fire warp fore and aft on the outboard side.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Before any longshoring operations on an affected vessel, an inspectional tour may be conducted by a representative of the Maryland Port Administration, and the affected vessel shall permit the inspection.</text>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Open flames, including burning, welding, or smoking, may not be permitted on or near the vessel.</text>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>Affected vessels shall maintain at all times accessibility for ingress and egress of emergency equipment and personnel to and from the affected vessel and its cargo.</text>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>All applicable international, federal, State, and local laws, rules, and regulations governing explosives shall apply.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Time Limits for Explosives.</heading>
+    <text>Permitted cargo shipments of Class 1, divisions 1.1—1.3 explosives, may not remain on the land area of an MPA port facility for more than 6 hours.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Commodities Requiring Notification.</heading>
+    <text>Except in the case of flammable liquids handled at bulk petroleum terminals, any person required to notify the United States Coast Guard in compliance with 33 CFR §§126.17 and 127.27(b) shall notify the Manager, SERM or the Manager's designee, in the same manner.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Permit Procedures.</heading>
+    <para>
+      <num>A.</num>
+      <text>The following persons shall make application to introduce in the Port any commodity requiring a permit:</text>
+      <para>
+        <num>(1)</num>
+        <text>The Baltimore representative of a vessel whether or not the cargo is for import, export, in-transit shipment, or a landbridge movement; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Any other person who wishes to introduce in the Port any commodity requiring a permit.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>In cases when commodities requiring a permit arrive in the MPA port facility and the Baltimore representative of the water carrier cannot be immediately identified, the person controlling the area where the hazardous material comes to rest on the MPA port facility shall apply for a permit at once.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Applicants shall submit their application and send it to the Manager, SERM or the Manager's designee, Maryland Port Administration, by fax to 410-285-0921.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Applicants shall send applications to the Manager, SERM or the Manager's designee, at least 48 hours before the arrival of the affected vessel at an MPA port facility.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Under unusual circumstances, applicants may seek a permit by telephone at 410-633-1147, but in all cases, they shall promptly fax an application.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>When applying for a permit, the permit applicant shall state:</text>
+      <para>
+        <num>(1)</num>
+        <text>The shipper's name, address, and, if possible, a telephone number;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The shipping name and identification number prescribed for the hazardous material as required by 49 CFR §172.101 or 172.102, including the technical name when the material is described as "N.O.S." (not otherwise specified) entry;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The hazard class prescribed for the material as required by 49 CFR §172.101 or 172.102, or the IMDG Code;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The total quantity (by weight, volume, or as otherwise appropriate) of the hazardous material covered by the description;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The identification of the type of packages, such as barrels, drums, cylinders, and boxes;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>The complete consignee's name and address including the port of destination (if known) on exports;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>The name, scheduled date of arrival, and berth assignment (if known) of vessel involved;</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>The date and estimated time of arrival of the hazardous materials at the terminal;</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>The mode of land transport involved in transporting the hazardous material to or from the terminal;</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>Whether the shipment is breakbulk or container, including the container or boxcar number; and</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>If the shipment is a container, whether there is a stripping and stuffing requirement.</text>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Requests for permits for fissile materials considered a certain dangerous cargo under 33 CFR §160.204 shall additionally include:</text>
+      <para>
+        <num>(1)</num>
+        <text>The name of each fissile material;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The type of packaging and identification marking as prescribed by 49 CFR 173;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The activity in each package of the shipment in terms of curies, millicuries, or microcuries;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The transport index assigned to each package in the shipment;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The fissile class of each package unless the shipment is exempt pursuant to 49 CFR §173.453.</text>
+      </para>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>Requests for permits for ammonium nitrate shipments shall additionally include the composition of the material, including the percentage of ammonium nitrate by weight, along with a detailed description of the packaging.</text>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>A permit may be denied if:</text>
+      <para>
+        <num>(1)</num>
+        <text>The person requesting the permit has previously violated any of these regulations; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>In the judgment of the Manager, SERM or the Manager's designee, or the Director of Security or the Director's designee, it would be unsafe or pose a potential security risk to introduce in the MPA port facility the hazardous material at that time.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.10</num>
+    <heading>Waiver.</heading>
+    <text>The Manager, SERM or the Manager's designee may waive any of the requirements in this chapter if:</text>
+    <para>
+      <num>A.</num>
+      <text>The request does not violate any applicable statutes, laws, other regulations, or ordinances;</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The request is reasonable under the circumstances.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.11</num>
+    <heading>Responsibility.</heading>
+    <para>
+      <num>A.</num>
+      <text>No permit granted by the MPA and no inspection made by it may operate to shift to it or to its officials any responsibility for the improper packing, handling, storage, stowage, movement, classification, description, marking, labeling, or placarding of hazardous materials by others at MPA port facilities. MPA's issuance of a permit, or waiver of the requirements in this chapter does not constitute a waiver of the immunities granted to the MPA under law.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The MPA does not assume a supervisory function with respect to these operations and may not be considered by the existence of these regulations to be in control of them. However, the MPA retains the right to direct the cessation of any operation in connection with the movement of hazardous materials at MPA port facilities, if, in the opinion of its Manager, SERM or the Manager's designee, safety requires this cessation.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.12</num>
+    <heading>Appeals.</heading>
+    <para>
+      <num>A.</num>
+      <text>A person aggrieved by any action of the Manager, SERM or the Manager's designee, under this chapter may appeal in writing or orally to the Executive Director.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Written appeals shall be sent to the Maryland Port Administration, Executive Director, World Trade Center Baltimore, 401 East Pratt Street, 20th floor, Baltimore, Maryland 21202-3041.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A person making an oral appeal shall promptly send to the Executive Director a written outline of key points to be considered.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The Executive Director's decision shall be final. Upon request, the Executive Director will provide a decision in writing.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>The Executive Director may stay action while the request or appeal is pending except where a stay would cause an imminent threat of injury to persons or property in the Port.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.13</num>
+    <heading>Violations and Penalties.</heading>
+    <para>
+      <num>A.</num>
+      <text>An MdTA police officer may arrest violators and issue citations for violations of the regulations in this chapter. Violations are considered misdemeanors and a conviction may result in penalties in accordance with <cite doc="Md. Code" path="gtr|6-602">Transportation Article, §6-602, Annotated Code of Maryland</cite>.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Maximum penalties for violating any of these regulations are a fine of $500 or imprisonment for not more than 1 year, or both.</text>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Transportation Article, §§<cite doc="Md. Code" path="gtr|6-201">6-201</cite>, <cite doc="Md. Code" path="gtr|6-202">6-202</cite>, <cite doc="Md. Code" path="gtr|6-206">6-206</cite>, and <cite doc="Md. Code" path="gtr|6-602">6-602</cite>, Annotated Code of Maryland</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1975-06-11">Effective date: June 11, 1975 (2:13 Md. R. 930)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1980-10-01" discontinuity="true">Chapter revised effective October 1, 1980 (7:19 Md. R. 1807)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1990-01-08" discontinuity="true">Chapter revised effective January 8, 1990 (16:26 Md. R. 2795)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1995-08-28" discontinuity="true">Chapter revised effective August 28, 1995 (22:17 Md. R. 1320)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2002-02-18"><cite path="|11|05|02|.02">Regulation .02</cite> amended effective February 18, 2002 (29:3 Md. R. 222)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2002-02-18"><cite path="|11|05|02|.02">Regulation .02</cite>-1B amended effective February 18, 2002 (29:3 Md. R. 222)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2002-02-18"><cite path="|11|05|02|.03|C.">Regulation .03C</cite> amended effective February 18, 2002 (29:3 Md. R. 222)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2002-02-18"><cite path="|11|05|02|.05|B.">Regulation .05B</cite> amended effective February 18, 2002 (29:3 Md. R. 222)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2002-02-18"><cite path="|11|05|02|.06|A.">Regulation .06A</cite> amended effective February 18, 2002 (29:3 Md. R. 222)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2002-02-18"><cite path="|11|05|02|.06">Regulation .06</cite>-1B amended effective February 18, 2002 (29:3 Md. R. 222)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2002-02-18"><cite path="|11|05|02|.07">Regulation .07</cite> amended effective February 18, 2002 (29:3 Md. R. 222)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2002-02-18"><cite path="|11|05|02|.08">Regulation .08</cite> amended effective February 18, 2002 (29:3 Md. R. 222)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2002-02-18"><cite path="|11|05|02|.09">Regulation .09</cite> amended effective February 18, 2002 (29:3 Md. R. 222)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2009-04-06" discontinuity="true">Chapter revised effective April 6, 2009 (36:7 Md. R. 525)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2015-01-05"><cite path="|11|05|02|.02|B.">Regulation .02B</cite> amended effective January 5, 2015 (41:26 Md. R. 1570)</annotation>
+  </annotations>
+</container>

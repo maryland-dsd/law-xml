@@ -1,0 +1,849 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>07</num>
+  <heading>Electronic Toll Collection and Toll Violation Enforcement</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Applicability.</heading>
+    <text>This chapter applies to Maryland Transportation Authority highways.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>“Agreement” means the application and its corresponding terms and conditions to establish an E-ZPass account which sets out the terms and conditions, and instructions for use of the Authority's electronic toll collection system.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>“Authority” means the Maryland Transportation Authority and its designated agents.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>“Authority highway” has the meaning stated in <cite doc="Md. Code" path="gtr|21-1401">Transportation Article, §21-1401, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>“CCU” means the Maryland Department of Budget and Management Central Collection Unit.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>“Citation” means a notice of a toll violation and related civil penalties sent by the Authority, pursuant to <cite doc="Md. Code" path="gtr|21-1414">Transportation Article, §21-1414, Annotated Code of Maryland</cite>, to a person who is required to and fails to pay a video toll established by the Authority.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>“Electronic toll collection” has the meaning stated in <cite doc="Md. Code" path="gtr|21-1414">Transportation Article, §21-1414, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>“Electronic payment method” means any noncash payment acceptable to the Authority.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>“E-ZPass account” means a financial relationship between the Authority and a person who agrees to abide by the Agreement established for the electronic collection of tolls.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>“E-ZPass account maintenance fee” means any monetary charge that may be assessed to offset the cost of electronic toll collection accounts and is set in accordance with Chapter .05 of this subtitle.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>“Final notice” means a written administrative notice from the Authority of outstanding amounts due to the Authority when preparing to refer amounts due through a notice of referral to the CCU in accordance with <cite path="|11|07|07|.08|C.">Regulation .08C of this chapter</cite>.</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>“Final toll violation” means the total amount due as a result of a toll violation where a citation has been issued, is not paid and:</text>
+        <para>
+          <num>(a)</num>
+          <text>A person fails to request a hearing within the time permitted pursuant to <cite doc="Md. Code" path="gtr|21-1414">Transportation Article, §21-1414(d)(6), Annotated Code of Maryland</cite>;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A person fails to appear for a trial requested in District Court and has exhausted all appeals;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A person is adjudicated to be liable for the toll violation by the District Court and has exhausted all appeals; or</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>A person has failed to satisfy the requirements of an installment payment plan with the Authority.</text>
+        </para>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>“Motor Vehicle Administration (MVA)” means the Motor Vehicle Administration of the Department of Transportation.</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>“Notice of toll due” or “NOTD” means an administrative notice of a video toll transaction.</text>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>“Past due notice” means a written administrative notice from the Authority, sent when payment for a toll violation remains due through a notice of referral to the MVA in accordance with Regulations .08A or .08B of this chapter.</text>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>“Pay” means the Authority receives payment by:</text>
+        <para>
+          <num>(a)</num>
+          <text>Cash;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Permitting a charge against an E-ZPass account with a balance sufficient to pay the toll due;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Pay-By-Plate; or</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Another means of payment approved by the Authority.</text>
+        </para>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>“Pay-By-Plate” means a payment method whereby a customer provides their vehicle license plate information and a valid electronic payment method to the Authority prior to travel for processing toll payments at Authority facilities.</text>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>“Person alleged to be liable” has the meaning stated in <cite doc="Md. Code" path="gtr|21-1414">Transportation Article, §21-1414, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(18)</num>
+        <text>“Posted speed limit” means the speed limit posted in an electronic toll collection lane.</text>
+      </para>
+      <para>
+        <num>(19)</num>
+        <text>“Recorded image” has the meaning stated in <cite doc="Md. Code" path="gtr|21-1414">Transportation Article, §21-1414, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(20)</num>
+        <text>“Registered owner” has the meaning stated in Transportation Article, 21-1414, Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(21)</num>
+        <text>“Speed violation” means a violation of the posted speed limit in an electronic toll collection lane.</text>
+      </para>
+      <para>
+        <num>(22)</num>
+        <text>“State” means any state of the United States, the District of Columbia, a possession of the United States, or a province or territory of Canada.</text>
+      </para>
+      <para>
+        <num>(23)</num>
+        <text>“Toll” means the amount of money due as established by the Authority for passage of a vehicle on an Authority highway.</text>
+      </para>
+      <para>
+        <num>(24)</num>
+        <text>“Toll collection facility” has the meaning stated in <cite doc="Md. Code" path="gtr|21-1414">Transportation Article, §21-1414, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(25)</num>
+        <text>“Toll violation” means the failure to pay a video toll within the time prescribed by the Authority in a notice of toll due and as otherwise provided in a response from the Authority regarding a denial of a transfer of liability.</text>
+      </para>
+      <para>
+        <num>(26)</num>
+        <text>“Transponder” means a device which is designed to transmit information used to collect tolls and is associated with a particular toll collection account.</text>
+      </para>
+      <para>
+        <num>(27)</num>
+        <text>“Trip” means one passage of a vehicle on an Authority highway where a toll is normally collected.</text>
+      </para>
+      <para>
+        <num>(28)</num>
+        <text>“Vehicle” means a motor vehicle as defined by <cite doc="Md. Code" path="gtr|11-135">Transportation Article, §11-135, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(29)</num>
+        <text>“Video monitoring system” has the meaning stated in <cite doc="Md. Code" path="gtr|21-1414">Transportation Article, §21-1414, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(30)</num>
+        <text>“Video toll” has the meaning stated in <cite doc="Md. Code" path="gtr|21-1414">Transportation Article, §21-1414, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(31)</num>
+        <text>“Video toll transaction” has the meaning stated in <cite doc="Md. Code" path="gtr|21-1414">Transportation Article, §21-1414, Annotated Code of Maryland</cite>.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>E-ZPass Application Process.</heading>
+    <para>
+      <num>A.</num>
+      <text>A person who applies to establish an E-ZPass account with the Authority shall complete an online, voice, or written application, or register a retail-purchased transponder, and provide the requested information to the Authority.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The Authority may, in its discretion, deny the E-ZPass application of a person for prior toll violations, in Maryland or any other state; prior speed violations; or for other reasons related to the use of electronic toll collection.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A person establishing an E-ZPass account shall agree to comply with the Agreement.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>A person establishing an E-ZPass account shall purchase at least one transponder or have a pre-owned Maryland transponder.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Any payment to an E-ZPass account shall be made by any approved payment method in accordance with the Agreement.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>E-ZPass Accounts.</text>
+      <para>
+        <num>(1)</num>
+        <text>The Authority may establish different E-ZPass account types to be selected by the applicant during the E-ZPass application process.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The specific conditions for each E-ZPass account type shall be included in the Agreement.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Terms and Conditions for E-ZPass Account Holders.</heading>
+    <para>
+      <num>A.</num>
+      <text>An E-ZPass account holder acknowledges and agrees to comply with the Agreement when opening an E-ZPass account.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Discount Toll Programs.</text>
+      <para>
+        <num>(1)</num>
+        <text>The Authority may establish different types of discount toll programs.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>2-axle Vehicle Discount Toll Programs.</text>
+        <para>
+          <num>(a)</num>
+          <text>E-ZPass account holders may purchase approved discount toll programs that have a number of trips which are valid for a specified period of time.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Trips not used within the period of time specified in the applicable discount toll program are no longer valid.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Refunds or credits may not be issued for unused trips.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Multi-Axle Vehicle Discount Toll Programs. An E-ZPass account holder may receive a toll discount based on the volume of use by vehicles included on their E-ZPass account.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>An E-ZPass account holder shall maintain sufficient funds within the E-ZPass account in accordance with the Agreement.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>If at any time an E-ZPass account balance is insufficient to pay tolls due, an E-ZPass account holder remains liable for the toll and the Authority shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Send a NOTD in accordance with <cite path="|11|07|07|.06">Regulation .06 of this chapter</cite>;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Issue a Citation after failure to pay a NOTD in accordance with <cite path="|11|07|07|.07">Regulation .07 of this chapter</cite>; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Collect the toll due and any civil penalties that accrue in accordance with <cite path="|11|07|07|.08">Regulation .08 of this chapter</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>An E-ZPass account holder remains responsible for updating account information with the Authority in accordance with the Agreement. Failure to keep the E-ZPass account information current does not relieve the account holder of liability for tolls due.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>The use of the transponder is transferable between vehicles listed on an E-ZPass account.</text>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Speed Violations — Procedures.</text>
+      <para>
+        <num>(1)</num>
+        <text>A speed violation notice may be sent per E-ZPass account for E-ZPass private and business accounts.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Notice of Warning for a Speed Violation. A warning notice may be sent for the first speed violation in a toll lane and the notice shall include the consequences for receiving a second violation.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Notice of E-ZPass Account Suspension for a Speed Violation.</text>
+        <para>
+          <num>(a)</num>
+          <text>E-ZPass account suspension for a speed violation is the temporary invalidation by the Authority of an E-ZPass account holder’s privilege to use a transponder or an established E-ZPass account for toll collection in all states where E-ZPass is accepted.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>An E-ZPass account suspension notice may be sent for a second speed violation in a toll lane occurring within 180 days of the first speed violation for which notice has been given by the Authority.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>An E-ZPass account suspension notice shall notify the E-ZPass account holder that their E-ZPass account privileges are being suspended for 60 days, and shall include the beginning date and ending date of the E-ZPass account suspension of privileges.</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>An E-ZPass account suspension notice shall include the consequences of any speed violation or attempt to use the E-ZPass account while under suspension.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Notice of E-ZPass Account Closure for a Speed Violation.</text>
+        <para>
+          <num>(a)</num>
+          <text>An E-ZPass account closure notice may be sent for the third speed violation in a toll lane occurring within 180 days of the first speed violation for which notice has been given by the Authority.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>An E-ZPass account closure notice shall notify the E-ZPass account holder that their E-ZPass account privileges are being terminated, and shall specify the effective date of the E-ZPass account closure.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>An E-ZPass account closure notice shall include the consequences of any attempt to use the E-ZPass account once closed.</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The Authority may issue speed violation notices by email or first class U.S. mail.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Suspension or Termination of E-ZPass Account Privileges.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Authority may suspend or terminate an E-ZPass account holder's privileges for violation of electronic toll collection laws, this chapter, or the Agreement.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The Authority may terminate an E-ZPass account for inactivity, with no tolls posted or funds added to the account for at least 24 months.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The Authority shall notify an E-ZPass account holder as soon as practicable of a suspension or termination of E-ZPass account privileges.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>If E-ZPass account privileges are suspended or terminated, the Authority shall return to an E-ZPass account holder within 60 days any unencumbered funds more than $3.50 remaining in an E-ZPass account. Unused discount toll program trips remaining on an E-ZPass account may not be refunded or credited.</text>
+    </para>
+  </section>
+  <section cache:ref-path="11|07|07|.06">
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Toll Collection by Recorded Image.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Authority may use the recorded image of a motor vehicle passing through a Maryland toll collection facility to determine liability for tolls due.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Pay-By-Plate.</text>
+      <para>
+        <num>(1)</num>
+        <text>Tolls may be paid via Pay-By-Plate, whereby a customer authorizes the Authority to charge tolls due by providing the Authority with vehicle information and a valid electronic payment method online, over the phone, or in person for processing payment prior to travel.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Vehicle information provided by the customer shall include the license plate number, state of registration, type of vehicle, and vehicle year.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A Pay-By-Plate customer is responsible for updating vehicle information and maintaining valid electronic payment information with the Authority. If a customer fails to keep vehicle and electronic payment information current, the customer is not relieved of liability for tolls due.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The electronic payment method provided shall be valid at all times and be charged for each toll transaction.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>If a valid payment is not made using the Pay-by-Plate payment method, the customer remains liable for the toll and the Authority shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Send a NOTD in accordance with <cite path="11|07|07|.06|D.">§D of this regulation</cite>;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Issue a citation after failure to pay a NOTD in accordance with Regulation .07 of the chapter; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Collect the toll due and any civil penalties that accrue in accordance with <cite path="|11|07|07|.08">Regulation .08 of this chapter</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>The Pay-By-Plate payment method is only valid for use with the Authority's electronic toll collection system.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Video Toll Early Payment Discount. The Authority may establish a discount for video toll transactions paid prior to the mailing of the NOTD.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Notice of Toll Due (NOTD).</text>
+      <para>
+        <num>(1)</num>
+        <text>The Authority shall send the person alleged to be liable that was involved in a video toll transaction a NOTD containing:</text>
+        <para>
+          <num>(a)</num>
+          <text>The name and address of the person alleged to be liable under this chapter;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The license plate number and state of registration of the vehicle involved in the video toll transaction;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The location where the video toll transaction took place;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>The date and time of the video toll transaction;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>The amount of the video toll;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>The date by which the video toll must be paid;</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>A copy of the recorded image;</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>The statutory defenses described in <cite doc="Md. Code" path="gtr|21-1414">Transportation Article, §21-1414(g), Annotated Code of Maryland</cite> to transfer liability to another person;</text>
+        </para>
+        <para>
+          <num>(i)</num>
+          <text>A warning that failure to pay the video toll, request a transfer of liability in the manner and time prescribed, or the late payment of the video toll, will result in a Toll Violation subject to a citation and a civil penalty, in the amount set forth in <cite path="|11|07|07|.09">Regulation .09 of this chapter</cite>, and that continued failure to pay may lead to refusal or suspension of the motor vehicle registration and referral to the CCU;</text>
+        </para>
+        <para>
+          <num>(j)</num>
+          <text>A warning that payment of the video toll, whether timely or late is an admission of liability of the video toll transaction; and</text>
+        </para>
+        <para>
+          <num>(k)</num>
+          <text>Instructions on how to pay the video toll or request a transfer of liability of the video toll transaction to another person.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Except as provided in <cite path="11|07|07|.06|E.">§E of this regulation</cite>, the person alleged to be liable who receives a NOTD shall have at least 30 days to pay the video toll from the mailing date of the NOTD.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Except as provided for in <cite path="11|07|07|.06|E.">§E of this regulation</cite>, failure of the person alleged to be liable to pay the video toll by the NOTD payment due date shall constitute a toll violation subject to a citation and a civil penalty, in the amount set forth in <cite path="|11|07|07|.09">Regulation .09 of this chapter</cite>.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>If a transfer of liability is requested, the person alleged to be liable shall send the request to the Authority, which must be received by the Authority on or before the NOTD payment due date.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Transfer of Liability.</text>
+      <para>
+        <num>(1)</num>
+        <text>The person alleged to be liable may request a transfer of liability of the video toll transaction from the Authority by asserting any of the statutory defenses described in <cite doc="Md. Code" path="gtr|21-1414">Transportation Article, §21-1414(g), Annotated Code of Maryland</cite>, which includes providing the additional documentation required by statute.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Authority must receive the request for a transfer of liability, including all supporting documentation by the NOTD payment due date.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If the Authority does not receive payment of the video toll or a request for a transfer of liability by the NOTD payment due date, a toll violation will result subject to issuance of a citation and a civil penalty as set forth in <cite path="|11|07|07|.07">Regulation .07 of this chapter</cite>.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>A request for transfer of liability received by the Authority on or before the NOTD payment due date shall be reviewed by the Authority to determine whether liability for the video toll transaction may be transferred from the person alleged to be liable to another person.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>If the Authority accepts the request for transfer of liability as described in this regulation:</text>
+        <para>
+          <num>(a)</num>
+          <text>The Authority shall send the person alleged to be liable a determination of the request for transfer of liability indicating it is accepted;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The person alleged to be liable shall not be responsible for the video toll transaction; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The Authority shall send a new NOTD to the person to whom liability was transferred in accordance with <cite doc="Md. Code" path="gtr|21-1414">Transportation Article, §21-1414(g), Annotated Code of Maryland</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>If the Authority denies the request for transfer of liability as described in this regulation:</text>
+        <para>
+          <num>(a)</num>
+          <text>The person alleged to be liable will receive a determination of a request for transfer of liability from the Authority indicating it is denied;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The person alleged to be liable shall pay the video toll by the NOTD payment due date or within 10 days from the mailing date on the denial notification, whichever is later; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>If payment is not received in accordance with <cite path="11|07|07|.06|E.|(6)|(b)">§E(6)(b) of this regulation</cite>, a toll violation will result with a date relating back to the day after the original NOTD payment due date subject to a citation and a civil penalty for a toll violation as set forth in <cite path="|11|07|07|.07">Regulation .07 of this chapter</cite>.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Installment Plans.</text>
+      <para>
+        <num>(1)</num>
+        <text>The Authority may offer an installment plan to a person alleged to be liable for payment of unpaid video tolls and any associated civil penalties that total at least $300.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An installment plan shall require the person to make monthly installment payments until the total amount of the outstanding unpaid video tolls and any associated civil penalties owed are paid. The Authority may waive any portion of the associated outstanding civil penalties.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If liquidation by installment payments requires more than 3 years, then the debt may be referred as a delinquent account to the Central Collection Unit.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The Authority may not offer more than one installment plan to a person at a time. A person is responsible for fully paying all unpaid video tolls and associated penalties within the one installment plan in accordance with the installment plan.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>If a person fails to make payment or defaults on the terms of an installment plan, then the Authority may terminate the installment plan, resulting in a final toll violation. The Authority is not required to offer alternative payment plans if a person defaults on the installment payments. The Authority may use any legal action available to collect in accordance with <cite path="|11|07|07|.08">Regulation .08 of this chapter</cite>.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Toll Violation Enforcement.</heading>
+    <para>
+      <num>A.</num>
+      <text>Citation.</text>
+      <para>
+        <num>(1)</num>
+        <text>Within 60 days of a toll violation, the Authority shall issue a citation, as provided in <cite doc="Md. Code" path="gtr|21-1414">Transportation Article, §21-1414, Annotated Code of Maryland</cite>, to the person alleged to be liable who has previously been issued an NOTD.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The citation shall contain information required in <cite doc="Md. Code" path="gtr|21-1414">Transportation Article, §21-1414(d)(3), Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Within 30 days of the mailing date of the citation a person alleged to be liable may:</text>
+        <para>
+          <num>(a)</num>
+          <text>Pay the video toll and civil penalty, in the amount set forth in <cite path="|11|07|07|.09">Regulation .09 of this chapter</cite>, to the Authority; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Contest the citation by electing to stand trial in the District Court of Maryland.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Final Toll Violation.</text>
+      <para>
+        <num>(1)</num>
+        <text>A citation may result in a final toll violation.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>For any citation that results in a final toll violation and remains unpaid, the Authority may do one or more of the following:</text>
+        <para>
+          <num>(a)</num>
+          <text>Request the MVA to refuse the vehicle registration for a vehicle that has incurred at least one unpaid final toll violation as set forth in <cite path="|11|07|07|.08">Regulation .08 of this chapter</cite>;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Send a request to the MVA for suspension of the vehicle registration if a vehicle has incurred at least $1,000 in unpaid final toll violations as set forth in <cite path="|11|07|07|.08">Regulation .08 of this chapter</cite>;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Refer any amounts due as a result of the unpaid final toll violation to the CCU as set forth in <cite path="|11|07|07|.08">Regulation .08 of this chapter</cite>; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Collect the amount due by any other means as provided by law.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="11|07|07|.08">
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Collection, Suspension, and Waiver.</heading>
+    <para>
+      <num>A.</num>
+      <text>Notice of Referral to the MVA for Refusal.</text>
+      <para>
+        <num>(1)</num>
+        <text>The Authority may send to the registered vehicle owner in Maryland or any state with which the Authority has entered into a reciprocal agreement in accordance with <cite doc="Md. Code" path="gtr|21-1415">Transportation Article, §21-1415, Annotated Code of Maryland</cite>, a past due notice indicating that failure to pay will result in refusal of the vehicle registration for any vehicle incurring at least one unpaid final toll violation, under the provisions of <cite doc="Md. Code" path="gtr|27-110">Transportation Article, §27-110, Annotated Code of Maryland</cite>.</text>
+        <para>
+          <num>(a)</num>
+          <text>If payment of all outstanding video tolls or civil penalties is not received by the Authority within 15 days of the mailing date on the past due notice, the Authority shall notify the MVA to refuse to renew or transfer the vehicle registration in accordance with <cite path="11.15.28.03">COMAR 11.15.28.03</cite>.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The Authority shall notify the MVA:</text>
+          <para>
+            <num>(i)</num>
+            <text>Within 3 business days, to permit the renewal or transfer of the vehicle registration when no outstanding video tolls or civil penalties exist for any final toll violations, including those that may have occurred after the referral to MVA, when the Authority receives payment directly or is notified by CCU of payment; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Within 3 business days, to permit the renewal or transfer of the vehicle registration if amounts have been referred to CCU, and the registered owner of the vehicle enters into a confessed judgment with the CCU to pay the amount due to the Authority and the Authority is notified by CCU of the confessed judgment.</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>If the registered owner of the vehicle defaults on the confessed judgment entered into with the CCU as provided in <cite path="11|07|07|.08|A.|(1)|(b)|(ii)">§A(1)(b)(ii) of this regulation</cite>, the Authority shall notify the MVA to refuse to renew or transfer the vehicle registration in accordance with <cite path="11.15.28.03">COMAR 11.15.28.03</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A past due notice shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Advise the registered owner of the total amount due to the Authority for each unpaid final toll violation upon which the referral is based;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Inform the recipient that failure to pay will result in referral to the MVA for refusal of the vehicle registration;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Identify to whom payment shall be made for the various unpaid final toll violations that are included in the referral in the case where portions of the amount due have already been referred to the CCU for collection in accordance with <cite path="11|07|07|.08|C.">§C of this regulation</cite>;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Advise the registered owner that payment of the outstanding unpaid final toll violations due to the Authority by the payment due date may avoid referral and that failure to pay will result in referral to the MVA for refusal of the vehicle registration; and</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Advise the registered owner of additional fees that may be imposed by the MVA.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Additional unpaid final toll violations that accrue after the final toll violation that lead to referral to MVA shall be added to the total amount due and are to be paid in accordance with <cite path="11|07|07|.08|A.|(1)|(a)">§A(1)(a) of this regulation</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Notice of Referral to the MVA for Suspension.</text>
+      <para>
+        <num>(1)</num>
+        <text>The Authority may send to the registered owner in Maryland or any state with which the Authority has entered into reciprocal agreement in accordance with <cite doc="Md. Code" path="gtr|21-1415">Transportation Article, §21-1415, Annotated Code of Maryland</cite>, a past due notice for any vehicle incurring at least $1,000 in unpaid final toll violations, under the provisions of <cite doc="Md. Code" path="gtr|27-110">Transportation Article, §27-110, Annotated Code of Maryland</cite>, indicating that failure to pay will result in referral to the MVA for suspension of the vehicle registration.</text>
+        <para>
+          <num>(a)</num>
+          <text>The threshold dollar amount of $1,000 for issuing a past due notice for referral to the MVA for suspension of the vehicle registration may include previous amounts due to the Authority that were referred to the CCU for collections in accordance with <cite path="11|07|07|.08|C.">§C of this regulation</cite>.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>If payment of all outstanding video tolls or civil penalties is not received by the Authority within 15 days of the mailing date on the past due notice, the Authority shall notify the MVA to suspend the vehicle registration in accordance with <cite path="11.15.28.04">COMAR 11.15.28.04</cite>.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The Authority shall notify the MVA:</text>
+          <para>
+            <num>(i)</num>
+            <text>Within 3 business days, to lift suspension of the vehicle registration when no outstanding video tolls or civil penalties exist for any final video toll violations, including those that may have occurred after the referral to MVA, when the Authority receives payment directly or is notified by CCU of payment; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Within 3 business days, to lift suspension of the vehicle registration if amounts have been referred to CCU, and the registered owner of the vehicle enters into a confessed judgment with CCU to pay the amount due to the Authority and the Authority is notified by CCU of the confessed judgment.</text>
+          </para>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>If the registered owner of the vehicle defaults on the confessed judgment entered into with CCU as provided in <cite path="11|07|07|.08|B.|(1)|(c)|(ii)">§B(1)(c)(ii) of this regulation</cite>, the Authority shall notify MVA to suspend the vehicle registration in accordance with <cite path="11.15.28.04">COMAR 11.15.28.04</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A past due notice shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Advise the registered owner of the total amount due to the Authority for each unpaid final toll violation upon which the referral is based;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Inform the recipient that failure to pay will result in referral to the MVA for suspension of the vehicle registration;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Identify to whom payment shall be made for the various unpaid final toll violations that are included in the referral in the case where portions of the amount due have already been referred to the CCU for collection in accordance with <cite path="11|07|07|.08|C.">§C of this regulation</cite>;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Advise the registered owner that payment of the outstanding unpaid final toll violations due to the Authority by the payment due date shall avoid referral and that failure to pay will result in referral to the MVA for refusal of the vehicle registration; and</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Advise the registered owner of the additional fees that may be imposed by the MVA.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Additional unpaid final toll violations that accrue after the referral to MVA shall be added to the total amount due and are to be paid in accordance with <cite path="11|07|07|.08|B.|(1)|(b)">§B(1)(b) of this regulation</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Final Notice — Referral to the CCU.</text>
+      <para>
+        <num>(1)</num>
+        <text>The Authority may send to a person that has incurred unpaid final toll violations that total the amount established by the CCU, a final notice of possible referral to the CCU. The CCU shall act as the authorized agent for any civil action instituted for the collection of unpaid Final Toll Violations pursuant to <cite doc="Md. Code" path="gtr|21-1414">Transportation Article, §21-1414(d)(6)(i), Annotated Code of Maryland</cite>.</text>
+        <para>
+          <num>(a)</num>
+          <text>The amounts referred to the CCU for unpaid final toll violations may be included by the Authority to reach the threshold dollar amount of $1,000 for referral to the MVA of a vehicle registration for suspension in accordance with <cite path="11|07|07|.08|B.">§B of this regulation</cite>.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>If payment of all outstanding video tolls or civil penalties is not received by the Authority within 15 days of the mailing date on the final notice to avoid referral to the CCU, the Authority will refer those final toll violations to the CCU.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A final notice of possible referral to the CCU shall advise the person of the total amount due to the Authority for each unpaid final toll violation that is included in the referral.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A final notice of possible referral to the CCU shall advise the person that payment of the outstanding unpaid final toll violations due to the Authority by the payment due date may avoid referral.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>A final notice of possible referral to the CCU shall advise the person of the additional fees that may be imposed by the CCU.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Waiver of Tolls and Civil Penalties.</text>
+      <para>
+        <num>(1)</num>
+        <text>Notwithstanding any provision of the electronic toll collection process as set forth in this chapter, until the Authority refers the debt to the CCU, the Authority may waive any portion of the video toll due or civil penalty assessed under <cite doc="Md. Code" path="gtr|21-1414">Transportation Article, §21-1414, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A person alleged to be liable who receives an NOTD or citation may request a waiver of any portion of the video toll due and the civil penalty.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The person alleged to be liable shall provide documentation to the Authority to support the person’s request for the waiver.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Waivers may be granted based upon, but not limited to, the following:</text>
+        <para>
+          <num>(a)</num>
+          <text>Notice related issues, including, but not limited to, receipt or processing and handling delays;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Extended absences of the person alleged to be liable, including, but not limited to, hospitalization, incarceration, and long-term out-of-State travel;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>License plate issues, including but not limited to, theft, fraud, or lost plates;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Emergency traffic diversion onto a toll collection facility; and</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Payment error, including, but not limited to, referencing an incorrect payee, providing an incorrect payment amount, and using an incorrect mailing address for payment to the Authority.</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Additional information related to waivers is maintained by the Authority on its website.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Fees.</heading>
+    <para>
+      <num>A.</num>
+      <text>General Provisions. The Authority shall enforce this chapter in accordance with law and may charge fees related to the collection of unpaid tolls.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Fees established by the Authority are as follows:</text>
+      <para>
+        <num>(1)</num>
+        <text>Civil Penalty. The civil penalty included in a citation for a toll violation is $25.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>E-ZPass Account Maintenance Fee. The monthly E-ZPass account maintenance fee shall be set in accordance with Chapter .05 of this subtitle and will apply to applicable E-ZPass accounts.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Insufficient Funds Fee. An additional fee shall be assessed on all checks returned for insufficient funds and the person shall submit the tolls, any civil penalties due, the returned check fee, and may be subject to subsequent fees by another method of payment, as specified by the Authority.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Transponder. Any person opening an E-ZPass account must purchase a new or previously owned Maryland transponder in accordance with <cite path="|11|07|07|.03">Regulation .03 of this chapter</cite>. Prices of transponders vary by make and model and may be found on the E-ZPass application.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The person entering an installment plan shall pay the Authority the costs of administering the installment plan as a percentage of the total amount owed, which amount shall equal the amount authorized by the Central Collection Unit for collections in <cite path="17.01.01.07">COMAR 17.01.01.07</cite></text>
+      </para>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Courts and Judicial Proceedings Article, §§<cite doc="Md. Code" path="gcj|7-301">7-301</cite> and <cite doc="Md. Code" path="gcj|7-302">7-302</cite>;<br/>Transportation Article, §§<cite doc="Md. Code" path="gtr|4-205">4-205</cite>, <cite doc="Md. Code" path="gtr|4-312">4-312</cite>, <cite doc="Md. Code" path="gtr|21-1414">21-1414</cite>, <cite doc="Md. Code" path="gtr|21-1415">21-1415</cite>, <cite doc="Md. Code" path="gtr|26-401">26-401</cite>, and <cite doc="Md. Code" path="gtr|27-110">27-110</cite>; Annotated Code of Maryland</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1998-04-20">Effective date: April 20, 1998 (25:8 Md. R. 597)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2009-06-15" discontinuity="true">Chapter revised effective June 15, 2009 (36:12 Md. R. 837)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2013-10-28" discontinuity="true">Regulations <cite path="|11|07|07|.01">.01</cite>—<cite path="|11|07|07|.06">.06</cite> repealed and new Regulations <cite path="|11|07|07|.01">.01</cite>—<cite path="|11|07|07|.09">.09</cite> adopted as an emergency provision effective September 1, 2013 (40:19 Md. R. 1541); adopted permanently effective October 28, 2013 (40:21 Md. R. 1779)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2015-12-21"><cite path="|11|07|07|.02|B.">Regulation .02B</cite> amended effective December 21, 2015 (42:25 Md. R. 1544)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2020-08-24"><cite path="|11|07|07|.02|B.">Regulation .02B</cite> amended as an emergency provision effective June 30, 2020 (47:11 Md. R. 557); amended permanently effective August 24, 2020 (47:17 Md. R. 796)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2023-01-23"><cite path="|11|07|07|.02|B.">Regulation .02B</cite> amended effective January 23, 2023 (50:1 Md. R. 8)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2015-12-21"><cite path="|11|07|07|.04|G.">Regulation .04G</cite> amended effective December 21, 2015 (42:25 Md. R. 1544)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2025-03-31"><cite path="|11|07|07|.05">Regulation .05</cite> amended effective March 31, 2025 (52:6 Md. R. 267)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2015-12-21"><cite path="|11|07|07|.06">Regulation .06</cite> amended effective December 21, 2015 (42:25 Md. R. 1544)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2020-08-24"><cite path="|11|07|07|.06">Regulation .06</cite> amended as an emergency provision effective June 30, 2020 (47:11 Md. R. 557); amended permanently effective August 24, 2020 (47:17 Md. R. 796)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2023-01-23"><cite path="|11|07|07|.06|F.">Regulation .06F</cite> adopted effective January 23, 2023 (50:1 Md. R. 8)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2015-12-21"><cite path="|11|07|07|.08">Regulation .08</cite> amended effective December 21, 2015 (42:25 Md. R. 1544)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2023-01-23"><cite path="|11|07|07|.09|B.">Regulation .09B</cite> amended effective December 21, 2015 (42:25 Md. R. 1544); January 23, 2023 (50:1 Md. R. ​8)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2020-08-24"><cite path="|11|07|07|.09|B.">Regulation .09B</cite> amended as an emergency provision effective June 30, 2020 (47:11 Md. R. 557); amended permanently effective August 24, 2020 (47:17 Md. R. 796)</annotation>
+  </annotations>
+</container>
