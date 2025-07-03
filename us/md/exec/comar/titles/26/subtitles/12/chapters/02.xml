@@ -1,0 +1,777 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>02</num>
+  <heading>Inspection and Certification</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>"Applied radiation machine experience" means employment at activities that:</text>
+        <para>
+          <num>(a)</num>
+          <text>Involve the operation, maintenance, or quality control of radiation machines; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Produce data that can be used in the determination of radiation machine compliance with the regulations of Maryland, the Federal Government, or any other state.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>"Device" means any assemblage of components of a radiation machine that includes:</text>
+        <para>
+          <num>(a)</num>
+          <text>Not more than one control panel;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The necessary supporting structures; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Any additional components or auxiliary equipment that function with the assemblage to produce the result desired by using the machine.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>"Inspect" means the process of observing the use and operation of a radiation machine for the purpose of judging whether its use may violate a provision of the Maryland Radiation Act or any regulations issued under this Act.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>"Inspector" means a person who has a valid and current license, issued by the Department pursuant to <cite path="|26|12|02|.03">Regulation .03 of this chapter</cite>, to inspect radiation machines and radiation machine facilities.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>"Major component" means a part of a radiation machine that if improperly installed, maintained, or operating could result in a higher radiation dose to humans than would occur if the component were properly installed, maintained, or operating.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>"Medical physicist" means a person who has a valid and current license, issued by the Department pursuant to <cite path="|26|12|02|.03">Regulation .03 of this chapter</cite>, to evaluate performance of mammography equipment and facility quality assurance programs.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>"Radiation" means:</text>
+        <para>
+          <num>(a)</num>
+          <text>Ionizing radiation, including gamma rays, X-rays, alpha particles, beta particles, neutrons, high speed electrons, high speed protons, and any other atomic or nuclear particles or rays;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>All electromagnetic radiation that can be generated during the operation of a manufactured device that has an electronic circuit; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>All sonic, ultrasonic, or infrasonic waves that are emitted as a result of the operation, in a manufactured device, of an electronic circuit that can generate a physical field of radiation.</text>
+        </para>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>"Radiation machine" means a device that is capable of producing radiation.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>"State certification" or "State-certified" means a declaration by the Department that the use of a radiation machine complies with the Maryland Radiation Act and all regulations adopted under this Act.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>"Reference inspection procedure" means an inspection procedure that:</text>
+        <para>
+          <num>(a)</num>
+          <text>Is used by the Department to determine compliance of a radiation machine with a provision of the Maryland Radiation Act or any regulations issued under this Act; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Has been described in the "Maryland State Catalog of Reference Inspection Procedures for Inspecting Radiation Machines" (April 15, 1986) which is incorporated by reference.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="26|12|02|.02">
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>State Certification of Radiation Machines.</heading>
+    <para>
+      <num>A.</num>
+      <text>Applicability. This regulation does not apply to persons using the following radiation machines:</text>
+      <para>
+        <num>(1)</num>
+        <text>Those used for dental diagnosis or screening (machines classified in Group 6);</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Those used for veterinary diagnosis or screening (machines classified in Group 7);</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Those used for mammography diagnostic or screening purposes located in a mammography facility regulated under 21 CFR Part 900 (machines classified in Group 8);</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Those used for veterinary dental diagnosis or screening (machines classified in Group 9);</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Radiation machines exempted from the requirements of Section B.3 of the Regulations for the Control of Ionizing Radiation 1994, which is incorporated by reference in <cite path="26.12.01.01">COMAR 26.12.01.01</cite>; and</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Radiation machines that are licensed by the Department as provided by Section C. of the incorporated document in <cite path="26.12.01.01">COMAR 26.12.01.01</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Classification of Radiation Machines. Radiation machines are classified according to the following system:</text>
+      <para>
+        <num>(1)</num>
+        <text>Group 1 — Radiation machines that can generate radiation levels of 500 rems in one hour at one meter from the source of radiation and are used to irradiate materials. These are the radiation machines subject to  Section D.602 of the incorporated document in <cite path="26.12.01.01">COMAR 26.12.01.01</cite>.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Group 2 — Radiation machines that are used for human medical therapy. These are the radiation machines subject to  Sections F.8 and F.9 of the incorporated document in <cite path="26.12.01.01">COMAR 26.12.01.01</cite>.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Group 3 — Radiation machines other than those in Group 2 that are used for healing arts purposes in hospitals certified by the Joint Commission on Accreditation of Hospitals.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Group 4 — Radiation machines that are not included in Group 3 or Group 5 but their use is prescribed by a physician, chiropractor, or podiatrist.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Group 5 — Radiation machines that are not included in Groups 1 through 4 but are used:</text>
+        <para>
+          <num>(a)</num>
+          <text>In industrial applications;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>For research purposes;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>For security fluoroscopy of baggage or parcels; or</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Solely for educational purposes.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>State Certification Required for Radiation Machines.</text>
+      <para>
+        <num>(1)</num>
+        <text>Exemptions from Other Regulations Not Implied. A person is not exempted from complying with an applicable provision of the incorporated document in <cite path="26.12.01.01">COMAR 26.12.01.01</cite> because of compliance with this regulation.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>General State Certification. Other than during inspections for compliance with these regulations, a person may not cause or permit the use of any radiation machine after the State certification due date specified for that machine in <cite path="26|12|02|.02|C.|(5)">§C(5) of this regulation</cite> if it has not been State certified by the Department.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Recertification After Replacement or Rebuilding of Major Components. Except for routine X-ray tube replacement, a person may not cause or permit the use of any radiation machine that has had any major component replaced or substantially rebuilt until the major component that has been affected has been reinspected and the radiation machine has again been State certified.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Interim State Certification.</text>
+        <para>
+          <num>(a)</num>
+          <text>The following classes of radiation machines are State certified until the time the Department promulgates regulations controlling the use of these radiation machines:</text>
+          <para>
+            <num>(i)</num>
+            <text>Radiation machines that produce non-ionizing electromagnetic radiation; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Radiation machines that produce sonic, ultrasonic, or infrasonic radiation.</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A radiation machine shall be considered State-certified by the Department until the first State certification due date established in <cite path="26|12|02|.02|C.|(5)">§C(5) of this regulation</cite>, if:</text>
+          <para>
+            <num>(i)</num>
+            <text>The machine has been registered by the Department under Sections B. and F. of the Regulations for the Control of Ionizing Radiation (1994), which is incorporated by reference in <cite path="26.12.01.01">COMAR 26.12.01.01</cite>; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The person responsible for the use of the machine has not been notified by the Department that the machine does not meet a provision of this subtitle.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Due Dates for State Certification. Due dates for State certification of radiation machines are established according to the Group as set forth in <cite path="26|12|02|.02|B.">§B of this regulation</cite>. These dates are as follows:</text>
+        <text>
+          <table class="layout-table">
+            <tbody>
+              <tr>
+                <td>Certification Due Date</td>
+                <td>Group 1</td>
+                <td>Group 2</td>
+                <td>Group 3</td>
+                <td>Group 4</td>
+                <td>Group 5</td>
+              </tr>
+              <tr>
+                <td>July 1, 2017</td>
+                <td>All<sup>1</sup></td>
+                <td/>
+                <td/>
+                <td>Even<sup>3</sup></td>
+                <td/>
+              </tr>
+              <tr>
+                <td>December 31, 2017</td>
+                <td/>
+                <td>All</td>
+                <td>Even<sup>3</sup></td>
+                <td/>
+                <td>Even<sup>3</sup></td>
+              </tr>
+              <tr>
+                <td>July 1, 2018</td>
+                <td>All</td>
+                <td/>
+                <td/>
+                <td>Odd<sup>2</sup></td>
+                <td/>
+              </tr>
+              <tr>
+                <td>December 31, 2018</td>
+                <td/>
+                <td>All</td>
+                <td>Odd<sup>2</sup></td>
+                <td/>
+                <td/>
+              </tr>
+              <tr>
+                <td>July 1, 2019</td>
+                <td>All</td>
+                <td/>
+                <td/>
+                <td>Even</td>
+                <td/>
+              </tr>
+              <tr>
+                <td>December 31, 2019</td>
+                <td/>
+                <td>All</td>
+                <td>Even</td>
+                <td/>
+                <td>Odd<sup>2</sup></td>
+              </tr>
+              <tr>
+                <td>July 1, 2020</td>
+                <td>All</td>
+                <td/>
+                <td/>
+                <td>Odd</td>
+                <td/>
+              </tr>
+              <tr>
+                <td>December 31, 2020</td>
+                <td/>
+                <td>All</td>
+                <td>Odd</td>
+                <td/>
+                <td>Even</td>
+              </tr>
+              <tr>
+                <td>July 1, 2021</td>
+                <td>All</td>
+                <td/>
+                <td/>
+                <td>Even</td>
+                <td/>
+              </tr>
+              <tr>
+                <td>December 31, 2021</td>
+                <td/>
+                <td>All</td>
+                <td>Even</td>
+                <td/>
+                <td/>
+              </tr>
+              <tr>
+                <td>July 1, 2022</td>
+                <td>All</td>
+                <td/>
+                <td/>
+                <td>Odd</td>
+                <td/>
+              </tr>
+              <tr>
+                <td>December 31, 2022</td>
+                <td/>
+                <td>All</td>
+                <td>Odd</td>
+                <td/>
+                <td>Odd</td>
+              </tr>
+              <tr>
+                <td>July 1, 2023</td>
+                <td>All</td>
+                <td/>
+                <td/>
+                <td>Even</td>
+                <td/>
+              </tr>
+              <tr>
+                <td>December 31, 2023</td>
+                <td/>
+                <td>All</td>
+                <td>Even</td>
+                <td/>
+                <td>Even</td>
+              </tr>
+              <tr>
+                <td>July 1, 2024</td>
+                <td>All</td>
+                <td/>
+                <td/>
+                <td>Odd</td>
+                <td/>
+              </tr>
+              <tr>
+                <td>December 31, 2024</td>
+                <td/>
+                <td>All</td>
+                <td>Odd</td>
+                <td/>
+                <td/>
+              </tr>
+              <tr>
+                <td>July 1, 2025</td>
+                <td>All</td>
+                <td/>
+                <td/>
+                <td>Even</td>
+                <td/>
+              </tr>
+              <tr>
+                <td>December 31, 2025</td>
+                <td/>
+                <td>All</td>
+                <td>Even</td>
+                <td/>
+                <td>Odd</td>
+              </tr>
+              <tr>
+                <td>July 1, 2026</td>
+                <td>All</td>
+                <td/>
+                <td/>
+                <td>Odd</td>
+                <td/>
+              </tr>
+              <tr>
+                <td>December 31, 2026</td>
+                <td/>
+                <td>All</td>
+                <td>Odd</td>
+                <td/>
+                <td>Even</td>
+              </tr>
+              <tr>
+                <td>July 1, 2027</td>
+                <td>All</td>
+                <td/>
+                <td/>
+                <td>Even</td>
+                <td/>
+              </tr>
+              <tr>
+                <td>December 31, 2027</td>
+                <td/>
+                <td>All</td>
+                <td>Even</td>
+                <td/>
+                <td/>
+              </tr>
+              <tr>
+                <td>July 1, 2028</td>
+                <td>All</td>
+                <td/>
+                <td/>
+                <td>Odd</td>
+                <td/>
+              </tr>
+              <tr>
+                <td>December 31, 2028</td>
+                <td/>
+                <td>All</td>
+                <td>Odd</td>
+                <td/>
+                <td>Odd</td>
+              </tr>
+              <tr>
+                <td>July 1, 2029</td>
+                <td>All</td>
+                <td/>
+                <td/>
+                <td>Even</td>
+                <td/>
+              </tr>
+              <tr>
+                <td>December 31, 2029</td>
+                <td/>
+                <td>All</td>
+                <td>Even</td>
+                <td/>
+                <td>Even</td>
+              </tr>
+            </tbody>
+          </table>
+        </text>
+      </para>
+      <aftertext><sup>1</sup> “All” means all facilities of that group regardless of registration number. The certification due date for Group 1 machines shall be July 1st of each year. The certification due date for Group 2 machines shall be December 31st of each year.</aftertext>
+      <aftertext><sup>2</sup> “Odd” means facilities with a registration number ending in an odd digit. For such facilities, the certification due date for Group 3 machines shall be as indicated in the table and biennially thereafter beginning December 31, 2018, the certification due date for Group 4 machines shall be as indicated in the table and biennially thereafter beginning July 1, 2018, and the certification due date for Group 5 machines shall be as indicated in the table and triennially thereafter beginning December 31, 2019.</aftertext>
+      <aftertext><sup>3</sup> “Even” means facilities with a registration number ending in an even digit. For such facilities, the certification due date for Group 3 machines shall be as indicated in the table and biennially thereafter beginning December 31, 2017, the certification due date for Group 4 machines shall be as indicated in the table and biennially thereafter beginning July 1, 2017, and the certification due date for Group 5 machines shall be as indicated in the table and triennially thereafter beginning December 31, 2017.</aftertext>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Application for State Certification.</text>
+      <para>
+        <num>(1)</num>
+        <text>Each person responsible for the use of a radiation machine shall apply for State certification of the machine at least 45 days, but not more than 180 days, before the scheduled due date established in <cite path="26|12|02|.02|C.|(5)">§C(5) of this regulation</cite>.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The application shall be made on forms issued by the Department and shall contain:</text>
+        <para>
+          <num>(a)</num>
+          <text>All information indicated on the forms; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A Departmental inspection report that has been completed and signed by an inspector licensed under <cite path="|26|12|02|.03">Regulation .03 of this chapter</cite>.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Denial of Certification.</text>
+      <para>
+        <num>(1)</num>
+        <text>The Department shall deny State certification of a radiation machine if it determines that the use of the machine will result in a violation of either the Maryland Radiation Act or any regulation promulgated under this Act.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A determination made by the Department under §E(1) may be made based on information contained on the inspection report, an independent inspection made by the Department, or any other pertinent information known by the Department.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="26|12|02|.03">
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Licensing of Inspectors.</heading>
+    <para>
+      <num>A.</num>
+      <text>Application For a License. A person may apply to the Department, on forms provided by the Department, for a license to inspect radiation machines or for the renewal or reinstatement of a previously issued license. The application shall contain all information indicated on the form.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Denial of Application.</text>
+      <para>
+        <num>(1)</num>
+        <text>The Department shall deny an application for a license to inspect radiation machines if the applicant:</text>
+        <para>
+          <num>(a)</num>
+          <text>Has not demonstrated compliance with the State Workers' Compensation Laws as required by <cite doc="Md. Code" path="gen|1-202">Environment Article, §1-202, Annotated Code of Maryland</cite>; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Has a financial arrangement with any business entity offering commercial sales or servicing of radiation machines.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Department may deny an application, or suspend or revoke a license, or grant a license with conditions, if it determines that the applicant or licensee does not have sufficient training or applied radiation machine experience to carry out the requirements of this regulation, has demonstrated improper performance in the inspection of radiation machines as provided under <cite path="26|12|02|.03|C.">§C of this regulation</cite>, or has not performed any State certifications during a licensing period.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Determination Criteria. The determination made by the Department under §B(2) of this chapter shall be made using the following criteria:</text>
+        <para>
+          <num>(a)</num>
+          <text>The licensee shall have a level of training and applied radiation machine experience equal to or greater than one of the following sets of criteria:</text>
+          <para>
+            <num>(i)</num>
+            <text>A bachelor's degree with 30 credit hours in the physical or biological sciences or mathematics, and 4 years of applied radiation machine experience acceptable to the Department;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>A master's degree in health physics or medical radiological physics, and 2 years of applied radiation machine experience acceptable to the Department;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>A doctor's degree in health physics or medical radiological physics, and 1 year of applied radiation machine experience acceptable to the Department;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Certification by the American Board of Health Physics or the American Board of Radiology, and 1 year of applied radiation machine experience acceptable to the Department; or</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>An associate's degree with 15 credit hours in the physical or biological sciences or mathematics, and 10 years of applied radiation experience acceptable to the Department;</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>In addition to the requirements of <cite path="26|12|02|.03|B.|(3)|(a)">§B(3)(a) of this regulation</cite>, a licensee who inspects radiation machines having energy levels greater than one million electron volts shall have at least 1 year of experience at activities that provide information useful in the determination of compliance of these radiation machines with Section F.(9) and I. of the Regulations for the Control of Ionizing Radiation (1994), which is incorporated by reference in <cite path="26.12.01.01">COMAR 26.12.01.01</cite> or the equivalent regulations of the federal government or of any other state.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>In addition to the requirements of §B(3)(a) or B(3)(b) of this regulation, a licensee who evaluates the performance of mammography equipment and facility quality assurance programs shall meet all qualifications for a medical physicist set forth in 21 CFR §900.12(a)(3).</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Suspension or Revocation of License.  The Department may deny a renewal application or suspend or revoke a license if it determines that the inspector:</text>
+      <para>
+        <num>(1)</num>
+        <text>Has a financial arrangement with any business entity offering commercial sales or servicing of radiation machines;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Has falsified data on a report;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Has used an inspection procedure found unacceptable under Regulation .05C;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Is negligent in the performance of inspections such that significant errors result;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Has performed an inspection for the purpose of State certification without having filed a report with the Department within 30 days of the inspection;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Has violated any other applicable regulation in this chapter; or</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Has failed to provide, in the initial or renewal application for a medical physicist, documentation of information, such as continuing education.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Duration of Licenses. Unless a license is suspended or revoked as provided in <cite path="26|12|02|.03|C.">§C of this regulation</cite> or has been issued with conditions, a license shall remain in effect for 3 years from the date of issuance.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>License To Be Available.</text>
+      <para>
+        <num>(1)</num>
+        <text>An inspector shall maintain the license or a copy of the license in his possession and shall show the license to every person for whom an inspection is to be performed before the inspection.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The inspector shall make the license immediately available to the Department upon request.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="26|12|02|.04">
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Notification and Hearings.</heading>
+    <para>
+      <num>A.</num>
+      <text>Notification of Denial, Suspension, or Revocation; Hearing. An order denying, suspending, or revoking a license or certificate, or the granting of a license or certificate with conditions, shall be personally served as summonses are served, or by certified mail, upon the applicant or licensee and shall be final unless the applicant or licensee requests a hearing before the Department within 10 days after service.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>When a hearing is requested by the applicant or licensee, under <cite path="26|12|02|.04|A.">§A of this regulation</cite>, it shall be held pursuant to the Administrative Procedure Act, State Government Article, §§<cite doc="Md. Code" path="gsg|10-201">10-201</cite>—<cite doc="Md. Code" path="gsg|10-226">10-226</cite>, Annotated Code of Maryland.</text>
+    </para>
+  </section>
+  <section cache:ref-path="26|12|02|.05">
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Inspection Procedures.</heading>
+    <para>
+      <num>A.</num>
+      <text>Procedures Common To All Radiation Machine Inspections. The inspector shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Notify the Department's Radiological Health Program immediately by telephone if a situation is discovered where a person could receive an excess radiation dose due to a radiation machine not meeting the requirements of Sections A., B., E., F., H., I., or J. of the Regulations for the Control of Ionizing Radiation (1994), which is incorporated by reference in <cite path="26.12.01.01">COMAR 26.12.01.01</cite> and if that dose may cause an imminent and substantial endangerment to health;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Record all information required by the State Certification Data Forms;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Observe if the notices to workers are posted as required by Section J. of the incorporated document in <cite path="26.12.01.01">COMAR 26.12.01.01</cite>;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Observe if the warning signs and instructions of Sections D. and F. of the incorporated document in <cite path="26.12.01.01">COMAR 26.12.01.01</cite> are posted when required;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Determine the adequacy of the personnel monitoring system if a system is required by Section D.202 of the incorporated document in <cite path="26.12.01.01">COMAR 26.12.01.01</cite>;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Forward a copy of the inspection report to the Department not later than 30 calendar days after the beginning of each radiation machine inspection; and</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Record the nature of any machine adjustments or repairs that are carried out during the time of the inspection on the appropriate spaces provided on the Department inspection report forms.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Inspections Performed According to Procedures.</text>
+      <para>
+        <num>(1)</num>
+        <text>While inspecting a radiation machine, an inspector shall use a procedure that is adequate to determine compliance with the requirement of this subtitle.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An inspector may not use an inspection test procedure that has been found by the Department to be an unacceptable test procedure under <cite path="26|12|02|.05|C.">§C of this regulation</cite>.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The Department will periodically audit the performance of inspectors, including verification that at least one State certification was performed during the licensing period.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Finding of Unacceptability of Test Procedure.</text>
+      <para>
+        <num>(1)</num>
+        <text>Upon request by the Department, an inspector shall provide a schedule of forthcoming inspections of radiation machines.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An inspector shall cooperate with any agent of the Department while the agent is auditing the performance of a radiation machine inspection.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Initial Finding.</text>
+        <para>
+          <num>(a)</num>
+          <text>Based upon audit information, inspection report information or any other pertinent information known to the Department, the Department may notify an inspector that a procedure or part of a procedure used under §B is questionable and shall provide the reasons for this finding.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Not later than 20 calendar days following receipt of the notification under §C(3)(a), of this regulation, the inspector shall forward to the Department a detailed, written description of the questionable inspection procedure.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>If an inspector does not meet the requirement of §C(3)(b), of this regulation, a finding that a procedure is questionable under §C(3)(a), of this regulation, shall become a finding of unacceptability for the purpose of <cite path="26|12|02|.05|B.">§B of this regulation</cite>.</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Based upon the information received under §C(3)(a) and (b), of this regulation, the Department shall notify the inspector within 25 calendar days following the forwarding of the written description under §C(3)(b), of this regulation, that the questionable inspection procedure is found to be:</text>
+          <para>
+            <num>(i)</num>
+            <text>Acceptable; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Initially unacceptable.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Final Finding.</text>
+        <para>
+          <num>(a)</num>
+          <text>If an initially unacceptable finding is made under §C(3)(d)(ii), the inspector may request that a final finding be made under this regulation.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A finding that a procedure is initially unacceptable shall become a final finding of unacceptability for the purpose of §B, of this regulation, if the inspector does not request a final finding within 14 calendar days following the inspector's receipt of notification under <cite path="26|12|02|.05|C.|(3)|(d)">§C(3)(d) of this regulation</cite>.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Not later than 60 calendar days following the Department's receipt of the request for a final finding under §C(4)(a), of this regulation, the inspector shall conduct a personal demonstration for the Department of the inspection procedure in question. The personal demonstration may include:</text>
+          <para>
+            <num>(i)</num>
+            <text>A physical demonstration of the procedure using the type of radiation machine that it was designed to inspect;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>A mathematical demonstration of the theory upon which the procedure is based; or</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Any other method of demonstration agreed to by the Department.</text>
+          </para>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>A demonstration arranged by the inspector under <cite path="26|12|02|.05|C.|(4)|(c)">§C(4)(c) of this regulation</cite> shall be made:</text>
+          <para>
+            <num>(i)</num>
+            <text>At a time and location convenient to the Department;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>At a reasonable expense to the Department; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>According to a demonstration protocol prepared by the inspector and approved by the Department.</text>
+          </para>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>In making its final finding, the Department will determine whether the inspector has presented sufficient additional information that will allow the Department to change the initially unacceptable finding to an acceptable finding.</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>In making its initial or final finding, the Department will determine whether the inspector has demonstrated, to the satisfaction of the Department, that the questionable inspection procedure can produce data that is as accurate and precise as the applicable reference inspection procedure.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Use of Unlicensed Personnel.</text>
+      <para>
+        <num>(1)</num>
+        <text>Other than as provided in <cite path="26|12|02|.05|C.|(2)">§C(2) of this regulation</cite>, the use of unlicensed persons in the conduct of a certification inspection is not allowed.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An inspector may use an unlicensed assistant or trainee during the course of an inspection if the assistant or trainee is under the personal supervision of the licensee at all times. "Personal supervision" means guidance and instruction provided to an assistant or trainee by an inspector licensed under this chapter who is present at the site, in visual contact with the assistant or trainee while the assistant or trainee is using sources of radiation, and in such proximity that immediate advice or assistance can be given.</text>
+      </para>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Environment Article, §§<cite doc="Md. Code" path="gen|8-104">8-104</cite>(a), <cite doc="Md. Code" path="gen|8-106">8-106</cite>, <cite doc="Md. Code" path="gen|8-301">8-301</cite>, <cite doc="Md. Code" path="gen|8-304">8-304</cite>, and <cite doc="Md. Code" path="gen|8-306">8-306</cite>, Annotated Code of Maryland</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container">Effective date:</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1987-04-30">Regulations <cite path="|26|12|02|.02">.02</cite>—<cite path="|26|12|02|.06">.06</cite> adopted April 30, 1987 (14:4 Md. R. 418)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" discontinuity="true"><cite path="10.14.02.02">COMAR 10.14.02.02</cite>—.06 recodified to <cite path="26.12.02.01">COMAR 26.12.02.01</cite>—.05</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2004-03-29"><cite path="|26|12|02|.01|B.">Regulation .01B</cite> amended effective March 29, 2004 (31:6 Md. R. 510)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2004-03-29"><cite path="|26|12|02|.02">Regulation .02</cite> amended effective March 29, 2004 (31:6 Md. R. 510)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2018-05-21"><cite path="|26|12|02|.02|A.">Regulation .02A</cite> amended effective May 21, 2018 (45:10 Md. R. 504)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1997-10-20"><cite path="|26|12|02|.02|B.">Regulation .02B</cite> amended effective October 20, 1997 (24:21 Md. R. 1453)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2021-02-22"><cite path="|26|12|02|.02|C.">Regulation .02C</cite> amended effective February 15, 1993 (20:3 Md. R. 261); October 20, 1997 (24:21 Md. R. 1453); November 15, 2010 (37:23 Md. R. 1613); February 22, 2021 (48:4 Md. R. 178)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1990-05-14"><cite path="|26|12|02|.02|D.">Regulation .02D</cite> amended effective May 14, 1990 (17:9 Md. R. 1092)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2004-03-29"><cite path="|26|12|02|.03">Regulation .03</cite> amended effective March 29, 2004 (31:6 Md. R. 510)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2015-01-19"><cite path="|26|12|02|.03|B.">Regulation .03B</cite>, C amended effective January 19, 2015 (42:1 Md. R. 19)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2004-03-29"><cite path="|26|12|02|.04|B.">Regulation .04B</cite> amended effective March 29, 2004 (31:6 Md. R. 510)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2004-03-29"><cite path="|26|12|02|.05|A.">Regulation .05A</cite>, B amended effective March 29, 2004 (31:6 Md. R. 510)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1997-10-20"><cite path="|26|12|02|.05|D.">Regulation .05D</cite> adopted effective October 20, 1997 (24:21 Md. R. 1453)</annotation>
+  </annotations>
+</container>

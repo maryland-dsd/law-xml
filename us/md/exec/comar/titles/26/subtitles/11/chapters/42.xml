@@ -1,0 +1,2974 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>42</num>
+  <heading>Control of Methane Emissions from Municipal Solid Waste Landfills</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Applicability and Exemptions.</heading>
+    <para>
+      <num>A.</num>
+      <text>This chapter applies to a person who owns or operates a municipal solid waste (MSW) landfill that has accepted waste after November 8, 1987.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>This chapter does not apply to:</text>
+      <para>
+        <num>(1)</num>
+        <text>Landfills that are permitted to accept controlled hazardous substances (CHS) as defined in <cite path="26.13.01.03|B.">COMAR 26.13.01.03B</cite> or are currently regulated under the Comprehensive Environmental Response, Compensation and Liability Act, 42 U.S.C. Chapter 103;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Landfills that receive only construction and demolition wastes, inert waste, or non-decomposable wastes;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Closed or inactive MSW landfills with:</text>
+        <para>
+          <num>(a)</num>
+          <text>Less than 450,000 tons of waste-in-place; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A design capacity of less than 2,750,000 tons (2.5 million megagrams) and 3,260,000 cubic yards (2.5 million cubic meters) that last accepted waste before December 31, 1993; or</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Closed or inactive MSW landfills, or closed or inactive areas of an active MSW landfill, that have commenced installation of solar panels or arrays on or before January 1, 2024 and which meet the following requirements:</text>
+        <para>
+          <num>(a)</num>
+          <text>The landfill, or inactive area of an active landfill, was closed or last accepted waste on or before July 17, 2014;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The landfill, including all active and/or inactive areas combined, has less than 2,750,000 tons (2.5 million megagrams) or 3,260,000 cubic yards (2.5 million cubic meters) of MSW; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The request to install solar panels or arrays is approved by the Department in writing based on project specifications and impacts to other requirements under this chapter.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Title V Operating Permits.</text>
+      <para>
+        <num>(1)</num>
+        <text>The owner or operator of a MSW landfill which is subject to the provisions of this chapter and that has a design capacity equal to or greater than 2,750,000 tons and 3,260,000 cubic yards of MSW shall obtain an operating permit for the landfill in accordance with <cite path="|26.11.03">COMAR 26.11.03</cite>.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>When a MSW landfill subject to this section is closed, the owner or operator is no longer subject to the requirement to maintain an operating permit under <cite path="|26.11.03">COMAR 26.11.03</cite> for the landfill if the landfill is not otherwise subject to the requirements of <cite path="|26.11.03">COMAR 26.11.03</cite> and if either of the following conditions are met:</text>
+        <para>
+          <num>(a)</num>
+          <text>The landfill was never subject to the requirement to install and operate a gas collection and control system under <cite path="|26|11|42|.04">Regulation .04 of this chapter</cite>; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The landfill meets the conditions for control system removal specified in <cite path="|26|11|42|.06|A.">Regulation .06A of this chapter</cite>.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Incorporation by Reference — Test Methods.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following documents are incorporated by reference.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Documents Incorporated.</text>
+      <para>
+        <num>(1)</num>
+        <text>EPA Method 2 (40 CFR Part 60, Appendix A-1, Section 10.3, as amended).</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>EPA Method 3A (40 CFR Part 60, Appendix A, as amended).</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>EPA Method 3C (40 CFR Part 60, Appendix A, as amended).</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>EPA Method 10 (40 CFR Part 60, Appendix A, as amended).</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>EPA Method 18 (40 CFR Part 60, Appendix A, as amended).</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>EPA Method 21 (40 CFR Part 60, Appendix A, as amended).</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>EPA Method 25 (40 CFR Part 60, Appendix A, as amended).</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>EPA Method 25C (40 CFR Part 60, Appendix A, as amended).</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>ASTM D6522-11, “Standard Test Method for Determination of Nitrogen Oxides, Carbon Monoxide, and Oxygen Concentrations in Emissions from Natural Gas-Fired Reciprocating Engines, Combustion Turbines, Boilers, and Process Heaters Using Portable Analyzers, December 1, 2011.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>ASTM D6522-20, “Standard Test Method for Determination of Nitrogen Oxides, Carbon Monoxide, and Oxygen Concentrations in Emissions from Natural Gas-Fired Reciprocating Engines, Combustion Turbines, Boilers, and Process Heaters Using Portable Analyzers, June 1, 2020.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>“Active MSW landfill” means a MSW landfill in which solid waste is being placed or a MSW landfill that has been constructed at least in part and that is planned to accept waste in the future.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>“Bioreactor” means a landfill or portion of a landfill where any liquid other than leachate (leachate includes landfill gas condensate) is added in a controlled fashion into the waste mass (often in combination with recirculating leachate) to reach a minimum average moisture content of at least 40 percent by weight to accelerate or enhance the anaerobic (without oxygen) biodegradation of the waste.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>“Closed MSW landfill” means a MSW landfill that is no longer accepting solid waste for disposal and has documentation that the closure was conducted in accordance with the applicable statutes, regulations, and local ordinances in effect at the time of closure.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>“Component” means any equipment that is part of the gas collection and control system and that contains landfill gas including, but not limited to:</text>
+        <para>
+          <num>(a)</num>
+          <text>Wells;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Pipes;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Flanges;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Fittings;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Flame arrestors;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Knock-out drums;</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>Sampling ports;</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>Blowers;</text>
+        </para>
+        <para>
+          <num>(i)</num>
+          <text>Compressors; and</text>
+        </para>
+        <para>
+          <num>(j)</num>
+          <text>Connectors.</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Component Leak.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Component leak” means the concentration of methane measured one half an inch or less from a component source that equals or exceeds 500 parts per million by volume (ppmv), other than non-repeatable, momentary readings.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Component leak” includes measurements from any vault taken within 3 inches above the surface of the vault exposed to the atmosphere.</text>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>“Construction and demolition waste” means waste building materials, packing, and rubble resulting from construction, remodeling, repair, and demolition operations on pavements, houses, commercial buildings, and other structures.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>“Continuous operation” means a gas collection and gas control system that is operated continuously, with the gas collection wells operating under vacuum while maintaining landfill gas flow and the collected landfill gas is processed by a gas control system 24 hours per day.</text>
+      </para>
+      <para>
+        <num>(7-1)</num>
+        <text>Controlled MSW Landfill.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Controlled MSW landfill” means any MSW landfill at which gas collection and control systems are required as a result of triggering the threshold for:</text>
+          <para>
+            <num>(i)</num>
+            <text>The calculated methane generation rate; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The calculated methane generation rate and the concentration of methane.</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Controlled MSW landfill” is considered to be controlled at the time a gas collection and control system design plan is submitted to the Department in accordance with applicable regulations.</text>
+        </para>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>“Corrective action analysis” means a description of all reasonable interim and long-term measures, if any, that are available, and an explanation of why the selected corrective action(s) is/are the best alternative(s), including, but not limited to consideration of:</text>
+        <para>
+          <num>(a)</num>
+          <text>Cost effectiveness;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Technical feasibility;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Safety; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Secondary impacts.</text>
+        </para>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>“Destruction efficiency” means a measure of the ability of a gas control device to combust, transform, or otherwise prevent emissions of methane from entering the atmosphere.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>“Disposal facility” means all contiguous land and structures, appurtenances, and other improvements used for the disposal of solid waste.</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>“Enclosed combustor” means an enclosed flare, steam generating boiler, internal combustion engine, or gas turbine.</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>“Energy recovery device” means any combustion device that uses landfill gas to recover energy in the form of steam or electricity, including, but not limited to:</text>
+        <para>
+          <num>(a)</num>
+          <text>Gas turbines;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Internal combustion engines;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Boilers; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Boiler-to-steam turbine systems.</text>
+        </para>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>“Gas collection system” means any system that employs various gas collection wells and connected piping and gas mover equipment, or any system that is a passive collection system.</text>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>“Gas collection and control system” means any system consisting of a gas collection system and a gas control system.</text>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>“Gas control device” means any device used to dispose of or treat collected landfill gas, including, but not limited to:</text>
+        <para>
+          <num>(a)</num>
+          <text>Enclosed flares;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Internal combustion engines;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Boilers and boiler-to-steam turbine systems;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Fuel cells; and</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Gas turbines.</text>
+        </para>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>“Gas control system” means any system that disposes of or treats collected landfill gas by one or more of the following methods:</text>
+        <para>
+          <num>(a)</num>
+          <text>Combustion;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Gas treatment for subsequent sale; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Sale for processing offsite, including for transportation fuel and injection into the natural gas pipeline.</text>
+        </para>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>“Gas mover equipment” means the equipment (e.g., fan, blower, compressor) used to transport landfill gas through the header system.</text>
+      </para>
+      <para>
+        <num>(18)</num>
+        <text>“Inactive area” means a separate area of a MSW landfill in which solid waste is no longer being placed.</text>
+      </para>
+      <para>
+        <num>(19)</num>
+        <text>“Inactive MSW landfill” means a MSW landfill that is no longer accepting solid waste for disposal and can subsequently document that solid waste is no longer being placed at the landfill.</text>
+      </para>
+      <para>
+        <num>(20)</num>
+        <text>“Landfill gas” means the gases generated by a MSW landfill through the natural process of decomposing organic material or through the chemical reaction of other substances in the municipal solid waste.</text>
+      </para>
+      <para>
+        <num>(21)</num>
+        <text>“Landfill surface” means the area of the landfill under which decomposable solid waste has been placed, excluding the working face.</text>
+      </para>
+      <para>
+        <num>(22)</num>
+        <text>“Leachate recirculation” means the practice of taking the leachate collected from the landfill and reapplying it to the landfill by any of one of a variety of methods, including:</text>
+        <para>
+          <num>(a)</num>
+          <text>Pre-wetting of the waste;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Direct discharge into the working face;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Spraying;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Infiltration ponds;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Vertical injection wells;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Horizontal gravity distribution systems; and</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>Pressure distribution systems.</text>
+        </para>
+      </para>
+      <para>
+        <num>(23)</num>
+        <text>“Municipal solid waste (MSW)” means household waste, commercial solid waste, and industrial solid waste, as defined in 40 CFR §60.751.</text>
+      </para>
+      <para>
+        <num>(24)</num>
+        <text>Municipal Solid Waste Landfill (MSW Landfill).</text>
+        <para>
+          <num>(a)</num>
+          <text>“Municipal solid waste landfill” means an entire disposal facility in a contiguous geographical space where household waste is placed in or on land, portions of which may be separated by access roads.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Municipal solid waste landfill” includes landfills that also receive other types of federal (40 CFR §257.2) Resource Conservation and Recovery Act (RCRA) Subtitle D defined wastes such as commercial solid waste, nonhazardous sludge, conditionally exempt small quantity generator waste, and industrial solid waste.</text>
+        </para>
+      </para>
+      <para>
+        <num>(25)</num>
+        <text>Non-Decomposable Solid Waste.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Non-decomposable solid waste” means materials that do not degrade biologically to form landfill gas.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Non-decomposable solid waste” includes but is not limited to:</text>
+          <para>
+            <num>(i)</num>
+            <text>Earth;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Rock;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Concrete asphalt paving fragments;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Uncontaminated concrete (including fiberglass or steel reinforcing rods embedded in the concrete);</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>Brick;</text>
+          </para>
+          <para>
+            <num>(vi)</num>
+            <text>Glass;</text>
+          </para>
+          <para>
+            <num>(vii)</num>
+            <text>Ceramics;</text>
+          </para>
+          <para>
+            <num>(viii)</num>
+            <text>Clay products;</text>
+          </para>
+          <para>
+            <num>(ix)</num>
+            <text>Inert slag;</text>
+          </para>
+          <para>
+            <num>(x)</num>
+            <text>Asbestos-containing waste;</text>
+          </para>
+          <para>
+            <num>(xi)</num>
+            <text>Demolition materials containing minor amounts (less than 10 percent by volume) of wood and metals; and</text>
+          </para>
+          <para>
+            <num>(xii)</num>
+            <text>Coal combustion byproducts (CCBs) and incinerator ash.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(26)</num>
+        <text>“Non-repeatable momentary readings” means indications of the presence of methane, total organic compounds, or toxic air contaminants, which persist for less than 5 seconds and do not recur when the sampling probe of a portable gas detector is placed in the same location.</text>
+      </para>
+      <para>
+        <num>(27)</num>
+        <text>“Open flare” means an open combustor without enclosure or shroud.</text>
+      </para>
+      <para>
+        <num>(28)</num>
+        <text>“Owner or Operator” means a person who owns or operates a MSW landfill.</text>
+      </para>
+      <para>
+        <num>(29)</num>
+        <text>“Passive gas collection system” means a gas collection system that solely uses positive pressure within the MSW landfill to move gas rather than using gas mover equipment.</text>
+      </para>
+      <para>
+        <num>(30)</num>
+        <text>“Root cause analysis” means an assessment conducted through a process of investigation to determine the primary cause, and any other contributing causes, of positive pressure at a wellhead.</text>
+      </para>
+      <para>
+        <num>(31)</num>
+        <text>“Solar array” means multiple solar panels used in conjunction to produce electricity.</text>
+      </para>
+      <para>
+        <num>(32)</num>
+        <text>Solar Panel.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Solar panel” means any photovoltaic energy system designed for the generation of electrical power from the collection of sunlight.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Solar panel” includes without limitation:</text>
+          <para>
+            <num>(i)</num>
+            <text>Photovoltaic panels;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Foundations;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Support structures;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Braces; and</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>Related equipment.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(33)</num>
+        <text>“Total waste landfilled” means the same as waste-in-place.</text>
+      </para>
+      <para>
+        <num>(34)</num>
+        <text>“Treatment system” means a system that filters, de-waters, and compresses landfill gas for sale or subsequent use.</text>
+      </para>
+      <para>
+        <num>(35)</num>
+        <text>Waste-In-Place.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Waste-in-place” means the total amount of solid waste placed in the MSW landfill estimated in tons and is also referred to as “total waste landfilled.”</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Waste-in-place” assumes both the refuse density to be 1,300 pounds per cubic yard and the decomposable fraction to be 70 percent by weight.</text>
+        </para>
+      </para>
+      <para>
+        <num>(36)</num>
+        <text>Well Raising.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Well raising” means a MSW landfill activity where an existing gas collection well is temporarily disconnected from a vacuum source, and the non-perforated pipe attached to the well is extended vertically to allow the addition of a new layer of solid waste or the final cover; or is extended horizontally to allow the horizontal extension of an existing layer of solid waste or cover material.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Well raising” includes re-connecting the extended pipe (well extension) to continue collecting gas from that well.</text>
+        </para>
+      </para>
+      <para>
+        <num>(37)</num>
+        <text>“Working face” means the open area where solid waste is deposited daily and compacted with landfill equipment.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="26|11|42|.04">
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Requirements for Municipal Solid Waste (MSW) Landfills.</heading>
+    <para>
+      <num>A.</num>
+      <text>Active MSW Landfills With Less Than 450,000 Tons of Waste-in-Place.</text>
+      <para>
+        <num>(1)</num>
+        <text>A person who owns or operates an active MSW landfill having less than 450,000 tons of waste-in-place shall submit to the Department a copy of the annual tonnage report required pursuant to the Refuse Disposal Permit issued under <cite path="|26.04.07">COMAR 26.04.07</cite> which includes all the following information:</text>
+        <para>
+          <num>(a)</num>
+          <text>Annual waste accepted;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Total waste landfilled or waste-in-place; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Calculation of remaining airspace.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Once the active MSW landfill reaches a size greater than or equal to 450,000 tons of waste-in-place, the owner or operator shall be subject to requirements of <cite path="26|11|42|.04|B.">§B of this regulation</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>MSW Landfills Greater Than or Equal to 450,000 Tons of Waste-in-Place.</text>
+      <para>
+        <num>(1)</num>
+        <text>Within 90 days of the effective date of this regulation, the owner or operator of a MSW landfill having greater than or equal to 450,000 tons of waste-in-place shall perform the following:</text>
+        <para>
+          <num>(a)</num>
+          <text>Submit an initial waste-in-place report to the Department; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Calculate the methane generation rate in accordance with the test methods in <cite path="|26|11|42|.11|D.">Regulation .11D of this chapter</cite> and submit a methane generation rate report to the Department.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If the calculated methane generation rate is less than 732 tons per year reported, the owner or operator shall recalculate the methane generation rate annually in accordance with the test methods in <cite path="|26|11|42|.11|D.">Regulation .11D of this chapter</cite>.</text>
+        <para>
+          <num>(a)</num>
+          <text>If the MSW landfill is active, the owner or operator shall submit an annual methane generation rate report to the Department until either of the following conditions is met:</text>
+          <para>
+            <num>(i)</num>
+            <text>The calculated methane generation rate is greater than or equal to 732 tons per year; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The owner or operator submits a closure notification to the Department in accordance with <cite path="|26|11|42|.10|C.|(1)">Regulation .10C(1) of this chapter</cite>.</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>If the MSW landfill is closed or inactive, the owner or operator shall submit the following information to the Department:</text>
+          <para>
+            <num>(i)</num>
+            <text>A final methane generation rate report in accordance with the provisions in <cite path="|26|11|42|.10|C.|(6)">Regulation .10C(6) of this chapter</cite>; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>A closure notification in accordance with the provisions in <cite path="|26|11|42|.10|C.|(1)">Regulation .10C(1) of this chapter</cite>.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If the calculated methane generation rate is greater than or equal to 732 tons per year but less than 8,548 tons per year, the owner or operator shall either:</text>
+        <para>
+          <num>(a)</num>
+          <text>Install and operate a gas collection and control system in accordance with the provisions in Regulation .05 and comply with the requirements in Regulations <cite path="|26|11|42|.04">.04</cite> —<cite path="|26|11|42|.11">.11</cite> of this chapter; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Undertake four consecutive quarterly surface emissions monitoring periods using the instantaneous surface emissions monitoring procedures specified in <cite path="|26|11|42|.11|F.">Regulation .11F of this chapter</cite>, in order to demonstrate that there is no measured concentration of methane of 200 parts per million by volume (ppmv) or greater.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>An owner or operator of an MSW landfill who chooses to conduct consecutive quarterly surface emissions monitoring pursuant to <cite path="26|11|42|.04|B.|(3)|(b)">§B(3)(b) of this regulation</cite> shall begin quarterly instantaneous surface emissions monitoring no later than 90 days after the methane generation rate report is required to be submitted under <cite path="26|11|42|.04|B.|(1)|(b)">§B(1)(b) of this regulation</cite>.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The owner or operator who chooses to conduct consecutive quarterly surface emissions monitoring pursuant to <cite path="26|11|42|.04|B.|(3)|(b)">§B(3)(b) of this regulation</cite> shall perform one of the following actions based on the monitoring results:</text>
+        <para>
+          <num>(a)</num>
+          <text>Except as provided in <cite path="|26|11|42|.09|A.|(1)">Regulation .09A(1) of this chapter</cite>, if there is any measured concentration of methane of 200 ppmv or greater from the surface of an active, inactive, or closed MSW landfill, other than non-repeatable, momentary readings, the owner or operator shall cease the quarterly monitoring, and instead, install a gas collection and control system in accordance with the provisions in Regulation .05, and shall comply with the requirements in Regulations <cite path="|26|11|42|.04">.04</cite>—<cite path="|26|11|42|.11">.11</cite> of this chapter beginning with the next quarter.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>If there is no measured concentration of methane of 200 ppmv or greater from the surface of an active MSW landfill after four consecutive quarterly instantaneous surface emissions monitoring periods, the owner or operator shall comply with all the following requirements:</text>
+          <para>
+            <num>(i)</num>
+            <text>Recalculate the methane generation rate annually in accordance with the test methods in <cite path="|26|11|42|.11|D.">Regulation .11D of this chapter</cite> and submit a methane generation rate report to the Department;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Continue quarterly instantaneous surface emissions monitoring in accordance with the test methods and procedures specified in <cite path="|26|11|42|.11|F.">Regulation .11F of this chapter</cite>; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Prepare and submit an annual instantaneous surface emissions monitoring report to the Department in accordance with <cite path="|26|11|42|.10|C.|(11)">Regulation .10C(11) of this chapter</cite>.</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>If there is no measured concentration of methane of 200 ppmv or greater from the surface of a closed or inactive MSW landfill, the provisions of this chapter shall no longer apply provided that the owner or operator has completed all of the following requirements:</text>
+          <para>
+            <num>(i)</num>
+            <text>Satisfied all applicable requirements for the permanent shutdown and removal of a gas collection and control system in <cite path="|26|11|42|.06">Regulation .06 of this chapter</cite>;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Submitted a final waste-in-place report to the Department in accordance with the provisions in <cite path="|26|11|42|.10|C.|(5)">Regulation .10C(5) of this chapter</cite>;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Submitted a closure notification to the Department in accordance with the recordkeeping and reporting requirements in <cite path="|26|11|42|.10|C.|(1)">Regulation .10C(1) of this chapter</cite>; and</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Submitted all instantaneous surface emissions monitoring reports to the Department in accordance with requirements of <cite path="|26|11|42|.10|C.|(11)">Regulation .10C(11) of this chapter</cite>.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>If the calculated methane generation rate is greater than or equal to 8,548 tons per year, the owner or operator of a MSW landfill shall install and operate a gas control and collection system in accordance with the provisions in Regulation .05 and comply with the requirements in Regulations <cite path="|26|11|42|.04">.04</cite> —<cite path="|26|11|42|.11">.11</cite> of this chapter.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Liquids Addition. If the owner or operator of a MSW landfill with more than 450,000 tons of waste-in-place adds any liquid, other than leachate in a controlled fashion, to the waste mass to reach a minimum average moisture content of at least 40 percent by weight to accelerate or enhance the anaerobic biodegradation of the waste, the owner or operator shall install and operate a gas collection and control system that meets the criteria in <cite path="|26|11|42|.05">Regulation .05 of this chapter</cite> in accordance with the following:</text>
+      <para>
+        <num>(1)</num>
+        <text>Install the gas collection and control system for the bioreactor before initiating liquids addition and extend the collection and control system into each new cell or area of the bioreactor prior to initiating liquids addition in that area;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Begin operating the gas collection and control system within 180 days after initiating liquids addition or within 180 days after achieving a moisture content of 40 percent by weight, whichever is later; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Calculate the bioreactor moisture content in accordance with <cite path="|26|11|42|.11|J.">Regulation .11J of this chapter</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Maintenance Requirements. The owner or operator of a MSW landfill shall maintain the cover integrity in accordance with the provisions in <cite path="26.04.07.10|D.">COMAR 26.04.07.10D</cite> and implement a program for cover repairs as necessary on a quarterly basis.</text>
+    </para>
+  </section>
+  <section cache:ref-path="26|11|42|.05">
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Requirements for Gas Collection and Control Systems.</heading>
+    <para>
+      <num>A.</num>
+      <text>Design Plan and Installation.</text>
+      <para>
+        <num>(1)</num>
+        <text>If a gas collection and control system which meets the requirements in <cite path="26|11|42|.05|B.">§B of this regulation</cite> has not been installed, the owner or operator of a MSW landfill shall submit a design plan to the Department within 1 year of meeting the criteria requirement to install and operate a gas collection and control system in accordance with the provisions in Regulation  .04B(3) and (6) and C of this chapter.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A design plan shall meet the following requirements:</text>
+        <para>
+          <num>(a)</num>
+          <text>Be prepared and certified by a professional engineer;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Address the following issues:</text>
+          <para>
+            <num>(i)</num>
+            <text>Depths of solid waste;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Solid waste gas generation rates and flow characteristics;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Cover properties;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Gas system expandability;</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>Leachate and condensate management;</text>
+          </para>
+          <para>
+            <num>(vi)</num>
+            <text>Accessibility;</text>
+          </para>
+          <para>
+            <num>(vii)</num>
+            <text>Compatibility with filling operations;</text>
+          </para>
+          <para>
+            <num>(viii)</num>
+            <text>Integration with closure end use;</text>
+          </para>
+          <para>
+            <num>(ix)</num>
+            <text>Air intrusion control;</text>
+          </para>
+          <para>
+            <num>(x)</num>
+            <text>Corrosion resistance;</text>
+          </para>
+          <para>
+            <num>(xi)</num>
+            <text>Fill settlement;</text>
+          </para>
+          <para>
+            <num>(xii)</num>
+            <text>Resistance to the solid waste decomposition heat; and</text>
+          </para>
+          <para>
+            <num>(xiii)</num>
+            <text>The ability to isolate individual components or sections for repair or troubleshooting without shutting down <em>the </em>entire collection system<em>.</em></text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Provide for the control of the collected gas using a gas collection and control system meeting the applicable requirements of  §B(1), (2), (3), or (4) of this regulation or an alternative method approved in accordance with the provisions in <cite path="|26|11|42|.08">Regulation .08 of this chapter</cite>;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Demonstrate that the gas collection and control system is designed to handle the maximum expected gas generation flow rate from the entire area of the MSW landfill that warrants control over the intended use period of the gas control system equipment;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Include any proposed alternatives to the requirements, justification for the need for any proposed alternatives, test methods, procedures, compliance measures, monitoring, and recordkeeping or reporting requirements in accordance with the provisions in <cite path="|26|11|42|.08">Regulation .08 of this chapter</cite>;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Include a description of potential mitigation measures to be used to prevent the release of methane or other pollutants into the atmosphere during the installation or preparation of wells, piping, or other equipment, during repairs or the temporary shutdown of gas collection system components, or when solid waste is to be excavated and moved;</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>For active MSW landfills, identify areas of the landfill that are closed or inactive;</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>Design the gas collection and control system to handle the expected gas generation flow rate from the entire area of the landfill and to collect gas at an extraction rate to comply with the surface methane concentration standards in <cite path="|26|11|42|.07|A.">Regulation .07A of this chapter</cite>, component leak standards in <cite path="|26|11|42|.09|B.|(7)">Regulation .09B(7) of this chapter</cite>, and which is sufficient to meet all operational and performance standards in this chapter;</text>
+        </para>
+        <para>
+          <num>(i)</num>
+          <text>Identify any areas of the MSW landfill that contains only asbestos-containing or non-decomposable solid waste that may be excluded from gas collection provided that the owner or operator submits documentation to the Department containing the nature of the waste, date of deposition, and location and amount of asbestos-containing or non-decomposable solid waste deposited in the area;</text>
+        </para>
+        <para>
+          <num>(j)</num>
+          <text>Design the gas collection and control system to maintain a negative pressure at all wellheads in the collection system without causing air infiltration, including any wellheads connected to the system as a result of expansion or excess surface emissions;</text>
+        </para>
+        <para>
+          <num>(k)</num>
+          <text>Ascertain the density of wells, horizontal collectors, surface collectors, or other gas extraction devices necessary to achieve compliance with <cite path="26|11|42|.05|B.">§B of this regulation</cite>; and</text>
+        </para>
+        <para>
+          <num>(l)</num>
+          <text>Include any procedures for detecting and suppressing any internal landfill fires or thermal waste oxidation events that might occur within the waste, and for mitigating any damage that may have occurred to pollution control devices such as the liner, leachate collection system, cap, or gas collection system elements as a result of the event.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The maximum expected gas generation flow rate in <cite path="26|11|42|.05|A.|(2)|(d)">§A(2)(d) of this regulation</cite> shall be calculated using the test method in <cite path="|26|11|42|.11|B.">Regulation .11B of this chapter</cite> or an alternative test method approved in accordance with <cite path="|26|11|42|.08">Regulation .08 of this chapter</cite>.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The owner or operator of a MSW landfill that is required or chooses to install and operate a gas collection and control system, shall do so within 30 months after approval of the design plan.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>If an owner or operator is modifying an existing gas collection and control system to meet the requirements of this regulation, the owner or operator shall submit an amended design plan to the Department that includes the information in <cite path="26|11|42|.05|A.|(2)">§A(2) of this regulation</cite> and any necessary updates or addenda in accordance with <cite path="|26|11|42|.10|C.|(9)">Regulation .10C(9) of this chapter</cite>.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>The gas collection and control system shall be operated, maintained, and expanded in accordance with the procedures and schedules in the approved design plan.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>The owner or operator of a controlled MSW landfill shall place each well or design component as specified in the approved design plan.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Following initial construction, the owner or operator of a controlled MSW landfill shall install each new component no later than 60 days after the date on which the area controlled by the well is required to be controlled in accordance with the provisions in this regulation.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Standards and Requirements for Gas Collection and Control Systems.</text>
+      <para>
+        <num>(1)</num>
+        <text>General Requirements.</text>
+        <para>
+          <num>(a)</num>
+          <text>Route the collected gas to a gas control device(s) and operate the gas collection and control system continuously, except as provided in §D and <cite path="26|11|42|.05|F.">§F of this regulation</cite>.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Operate the gas collection and control system to comply with the requirements in <cite path="26|11|42|.05|A.|(2)|(h)">§A(2)(h) of this regulation</cite><em>.</em></text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Design and operate the gas collection and control system to draw all the gas toward the gas control device or devices.</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Design and operate the gas collection system to minimize off-site and on-site migration of subsurface gas in compliance with <cite path="26.04.07.03|B.|(9)">COMAR 26.04.07.03B(9)</cite>, <cite path="26.04.07.08|B.|(15)">COMAR 26.04.07.08B(15)</cite>, and <cite path="26.04.07.10|I.">COMAR 26.04.07.10I</cite>.</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>In the event the gas collection or control system is inoperable, the gas mover system shall be shut down and all valves in the gas collection and control system contributing to venting of the gas to the atmosphere shall be closed within 1 hour of the gas collection or control system not operating.</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Efforts to repair the gas collection or control system shall be initiated and completed in a manner such that downtime is kept to a minimum, and the gas collection and control system is returned to operation as expeditiously as practicable.</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>For a MSW landfill with a design capacity equal to or greater than 2,750,000 tons and 3,260,000 cubic yards of MSW:</text>
+          <para>
+            <num>(i)</num>
+            <text>Install all passive gas collection systems with liners on the bottom and all sides in all areas in which gas is to be collected; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Install all liners in accordance with 40 CFR §258.40, as amended.</text>
+          </para>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>Any nonproductive area of the MSW landfill as identified in <cite path="26|11|42|.05|A.|(2)|(i)">§A(2)(i) of this regulation</cite> may be excluded from control, provided that the total of all excluded areas can be shown to contribute less than 1 percent of the total amount of methane emissions from the landfill and:</text>
+          <para>
+            <num>(i)</num>
+            <text>The amount, location, and age of the material or waste shall be documented and provided to Department;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>If data on actual amounts and age of the material or waste is not available, the owner or operator shall estimate based on known information and provide all documentation used to make the estimates;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>A separate methane emissions estimate shall be made for each section proposed for exclusion, and the sum of all such sections shall be compared to the methane emissions estimate for the entire landfill, and all calculations, data and documentation used to perform the calculations shall be submitted to the Department; and</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>The methane emissions from each section proposed for exclusion shall be calculated using the test methods provided in <cite path="|26|11|42|.11|D.">Regulation .11D of this chapter</cite>.</text>
+          </para>
+        </para>
+        <para>
+          <num>(i)</num>
+          <text>reserved</text>
+        </para>
+        <para>
+          <num>(j)</num>
+          <text>The landfill gas extraction components shall be constructed of polyvinyl chloride (PVC), high density polyethylene (HDPE) pipe, fiberglass, stainless steel, or other nonporous corrosion resistant material of suitable dimensions to:</text>
+          <para>
+            <num>(i)</num>
+            <text>Convey projected amounts of gases;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Withstand installation, static, and settlement forces; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Withstand planned overburden or traffic loads.</text>
+          </para>
+        </para>
+        <para>
+          <num>(k)</num>
+          <text>The gas collection system shall extend as necessary to comply with emission and migration standards.</text>
+        </para>
+        <para>
+          <num>(l)</num>
+          <text>Gas collection devices such as wells and horizontal collectors shall be perforated to allow gas entry without head loss which may impair performance across the intended extent of control.</text>
+        </para>
+        <para>
+          <num>(m)</num>
+          <text>Perforations shall be situated with regard to the need to prevent excessive air infiltration.</text>
+        </para>
+        <para>
+          <num>(n)</num>
+          <text>Vertical wells shall be placed so as not to endanger underlying liners and shall address the occurrence of water within the landfill.</text>
+          <para>
+            <num>(i)</num>
+            <text>Holes and trenches constructed for piped wells and horizontal collectors shall be of sufficient cross-section so as to allow for their proper construction and completion including, for example, centering of pipes and placement of gravel backfill.</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Collection devices shall be designed so as not to allow indirect short circuiting of air into the soil cover, into the MSW, or into the collection system, or gas into the air.</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Any gravel used around pipe perforations should be of a dimension so as not to penetrate or block the perforations.</text>
+          </para>
+        </para>
+        <para>
+          <num>(o)</num>
+          <text>Gas collection devices may be connected to the collection header pipes below or above the landfill surface.</text>
+          <para>
+            <num>(i)</num>
+            <text>The connector assembly shall include a positive closing throttle valve, any necessary seals and couplings, access couplings, and at least one sampling port.</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The collection devices shall be constructed of PVC, HDPE, fiberglass, stainless steel, or other nonporous material of suitable thickness.</text>
+          </para>
+        </para>
+        <para>
+          <num>(p)</num>
+          <text>Landfill gas shall be conveyed through the gas collection system header pipe(s) to a gas control device.</text>
+        </para>
+        <para>
+          <num>(q)</num>
+          <text>The gas mover equipment shall be sized to handle the maximum gas generation flow rate expected over the intended use period of the gas moving equipment using the following procedures:</text>
+          <para>
+            <num>(i)</num>
+            <text>For existing gas collection systems, the flow data shall be used to project the maximum flow rate;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>If no flow data exists, the procedures in <cite path="26|11|42|.05|B.|(l)|(q)|(iii)">§B(l)(q)(iii) of this regulation</cite> shall be used; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>For new gas collection systems, the maximum flow rate shall be determined in accordance with <cite path="|26|11|42|.11|B.">Regulation .11B of this chapter</cite>.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Requirements for Enclosed Flares.</text>
+        <para>
+          <num>(a)</num>
+          <text>An owner or operator of a MSW landfill that routes landfill gas to an enclosed flare shall achieve a methane destruction efficiency of at least 99 percent by weight and meet the following specifications:</text>
+          <para>
+            <num>(i)</num>
+            <text>The device shall be equipped with automatic dampers, an automatic shutdown device, a flame arrester, and continuous recording temperature sensors; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The device shall have a sufficient flow of propane, natural gas, or another fuel source approved by the Department to the pilot light to prevent unburned collected methane from being emitted to the atmosphere during restart and startup.</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The owner or operator of a MSW landfill shall install, calibrate, operate and maintain the flare system in accordance with the manufacturer’s specifications and if applicable, within the parameter ranges established in the landfill’s permit to construct issued by the Department.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>An owner or operator that used an enclosed flare shall install, calibrate, and maintain a gas flow rate measuring device that either records the flow to the control device at least every 15 minutes or secures the bypass line valve in the closed position with a car-seal or a lock-and-key type configuration.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Requirements for Open Flares.</text>
+        <para>
+          <num>(a)</num>
+          <text>The owner or operator of a MSW landfill that routes landfill gas to an open flare shall operate the equipment according to the requirements included in 40 CFR §60.18, as amended.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The owner or operator of a MSW landfill using an open flare shall install, calibrate, maintain, and operate the following equipment according to the manufacturer’s specifications:</text>
+          <para>
+            <num>(i)</num>
+            <text>A heat sensing device, such as an ultraviolet beam sensor or thermocouple, at the pilot light or the flame itself to indicate the continuous presence of a flame; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>A device that records flow to the flare and bypass of the flare (if applicable).</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>An owner or operator that uses an open flare shall install, calibrate, and maintain a gas flow rate measuring device that either records the flow to the control device at least every 15 minutes or secures the bypass line valve in the closed position with a car-seal or a lock-and-key type configuration.</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>An owner or operator that is subject to <cite path="26|11|42|.05|B.|(3)|(b)">§B(3)(b) of this regulation</cite> shall perform a visual inspection of the seal or closure mechanism at least once every month to ensure that the valve is maintained in the closed position and that the gas flow is not diverted through the bypass line.</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>The operation of an open flare on or after January 1, 2025 is prohibited unless the owner or operator demonstrates that one of the following conditions apply and receives the Department’s prior written approval:</text>
+          <para>
+            <num>(i)</num>
+            <text>The methane generation rate is less than 732 tons per year in accordance with the test methods in <cite path="|26|11|42|.11|D.">Regulation .11D of this chapter</cite> and is insufficient to support the continuous operation of an enclosed flare or other gas control device;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The owner or operator is seeking to temporarily operate an open flare during the repair or maintenance of the gas control system, or while awaiting the installation of an enclosed flare, or to address offsite gas migration issues;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>The owner or operator has landfill gas emissions that are unable to be controlled using enclosed flare gas control devices in the gas control system; or</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>The owner or operator otherwise has received written approval from the Department to operate an open flare in accordance with <cite path="|26|11|42|.08">Regulation .08 of this chapter</cite>.</text>
+          </para>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>An owner or operator seeking to operate an open flare in accordance with one of the provisions of <cite path="26|11|42|.05|B.|(3)|(e)">§B(3)(e) of this regulation</cite> shall submit a written request to the Department which includes the following information:</text>
+          <para>
+            <num>(i)</num>
+            <text>Proof that the landfill gas emissions being controlled using an open flare does not exceed 732 tons per year of methane; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>An analysis verifying there is no feasible alternative control device configuration that would use the landfill gas emissions without use of an open flare.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Requirements for Gas Control Devices Other than Flares. An owner or operator of a MSW landfill may operate a gas control device other than a flare if it complies with one of the following requirements:</text>
+        <para>
+          <num>(a)</num>
+          <text>The device is a boiler or process heater with a design heat input capacity equal to or greater than 44 megawatts per hour (150 MMBtu/hr), provided that the landfill gas stream is introduced into the flame zone;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The collected gas is routed to an energy recovery device, or series of devices, that shall meet all the following requirements:</text>
+          <para>
+            <num>(i)</num>
+            <text>Achieves a methane destruction efficiency of at least 99 percent by weight;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>For lean burn internal combustion engines, reduces the outlet methane concentration to less than 3,000 ppmv, dry basis, corrected to 15 percent oxygen; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>The gas control device operates within the parameter ranges established during the initial or most recent performance test that demonstrates compliance with the methane destruction efficiency standard in <cite path="26|11|42|.05|B.|(4)|(b)|(i)">§B(4)(b)(i) of this regulation</cite> or within engineering or manufacturer’s established parameter ranges until a performance test is performed as specified in <cite path="26|11|42|.05|B.|(7)">§B(7) of this regulation</cite>; or</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The collected gas is routed to a treatment system that processes the collected gas for subsequent sale or beneficial use provided that:</text>
+          <para>
+            <num>(i)</num>
+            <text>The venting of treated landfill gas to the ambient air is not allowed; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>If, for any reason, the treated landfill gas cannot be routed for subsequent sale or beneficial use, then the treated landfill gas shall be controlled in accordance with the applicable requirements of §B(2), (3), or (4)(a) or (b) of this regulation.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The owner or operator subject to the requirements of §B(4)(c) in this regulation shall prepare a site-specific treatment monitoring plan, submitted with the gas collection and control design plan, to include all of the following:</text>
+        <para>
+          <num>(a)</num>
+          <text>Monitoring records of parameters that are identified in the treatment system monitoring plan and that ensure the treatment system is operating properly for each intended end use of the treated landfill gas;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>At a minimum, records shall include records of filtration, de-watering, and compression parameters that ensure the treatment system is operating properly for each intended end use of the treated landfill gas;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Monitoring methods, frequencies, and operating ranges for each monitored operating parameter based on manufacturer’s recommendations or engineering analysis for each intended end use of the treated landfill gas;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Documentation of the monitoring methods and ranges, along with justification for their use;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Processes and methods used to collect the necessary data; and</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>A description of the procedures and methods that are used for quality assurance, maintenance, and repair of all continuous monitoring systems.</text>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>The owner or operator subject to the provisions in <cite path="26|11|42|.05|B.|(4)|(c)">§B(4)(c) of this regulation</cite> shall demonstrate compliance by using a device that records flow to the treatment system and bypass of the treatment system, if applicable, that shall be calibrated, maintained, and operated according to the manufacturer’s specifications.</text>
+        <para>
+          <num>(a)</num>
+          <text>The owner or operator shall maintain and operate all monitoring systems associated with the treatment system in accordance with the site-specific treatment system monitoring plan prepared in accordance with the provisions of <cite path="26|11|42|.05|B.|(5)">§B(5) of this regulation</cite>.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The owner or operator shall comply with the following requirements:</text>
+          <para>
+            <num>(i)</num>
+            <text>Install, calibrate, and maintain a gas flow rate measuring device that records the flow to the treatment system at least every 15 minutes;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>If using a passive collection system, install liners or equivalent non-permeable materials as required under 40 CFR §258.40, as amended, on the bottom and all sides in all areas in which gas is to be collected; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Secure the bypass line valve in the closed position with a car-seal or a lock-and-key type configuration and perform a visual inspection of the seal or closure mechanism at least once every month to ensure that the valve is maintained in the closed position and that the gas flow is not diverted through the bypass line.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Performance Test Requirements.</text>
+        <para>
+          <num>(a)</num>
+          <text>The owner or operator shall conduct annual performance tests for any gas control device or devises subject to the requirements of §B(2), (3) and (4) of this regulation using the test methods identified in <cite path="|26|11|42|.11|C.">Regulation .11C of this chapter</cite>.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>An initial performance test shall be conducted within 180 days of start-up of the gas collection and control system.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Following an initial performance test, the owner or operator shall conduct a complete annual performance test no later than 45 days following the 1-year anniversary date of the initial performance test.</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>The owner or operator of an existing gas control device shall demonstrate compliance with this regulation no later than 180 days following the effective date of this regulation in accordance with the test methods and procedures specified in Regulation .11C of this regulation.</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>The owner or operator shall conduct performance tests under conditions specified by the Department based on representative performance of the affected source for the period being tested.</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Representative conditions shall exclude periods of startup and shutdown unless specified by the Department.</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>The owner or operator may not conduct performance tests during periods of malfunction.</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>The owner or operator shall record the process information that is necessary to document operating conditions during the test and include in such record an explanation to support that such conditions represent normal operation.</text>
+        </para>
+        <para>
+          <num>(i)</num>
+          <text>The owner or operator shall make available records necessary to determine the conditions of performance tests available upon request by the Department.</text>
+        </para>
+        <para>
+          <num>(j)</num>
+          <text>If a gas control device remains in compliance after three consecutive performance tests, the owner or operator may conduct the performance test every 3 years.</text>
+        </para>
+        <para>
+          <num>(k)</num>
+          <text>Once a gas control device is placed on the 3-year performance test schedule, if a subsequent performance test shows the gas collection and control system is out of compliance with the requirements of this regulation, the performance testing frequency shall return to annual.</text>
+        </para>
+        <para>
+          <num>(l)</num>
+          <text>The performance test is not required for boilers and process heaters with design heat input capacities equal to or greater than 44 megawatts per hour (150 MMBtu/hr) that burn landfill gas for compliance with the requirements in <cite path="26|11|42|.05|B.|(4)">§B(4) of this regulation</cite>.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Wellhead Gauge Pressure Requirement. Each landfill gas collection and control system wellhead shall be operated under negative pressure without causing air filtration, except as provided in §§D and F of this regulation, or under any of the following conditions:</text>
+      <para>
+        <num>(1)</num>
+        <text>Use of a Geomembrane or Synthetic Cover. The owner or operator shall develop acceptable pressure limits for the wellheads and include them in the design plan;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A Decommissioned Well. A well may experience a static positive pressure after shutdown to accommodate for declining flows; or</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A Fire or Increased Well Temperature.</text>
+        <para>
+          <num>(a)</num>
+          <text>The owner or operator shall record all instances when positive pressure occurs, in efforts to avoid a fire.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>These records shall be submitted as part of the semi-annual report to the Department in accordance with the requirements of <cite path="|26|11|42|.10|C.|(3)">Regulation .10C(3) of this chapter</cite>.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Well Raising. The requirements of §B(1)(a)—(b) and <cite path="26|11|42|.05|E.">§E of this regulation</cite> do not apply to individual wells involved in well raising provided the following conditions are met:</text>
+      <para>
+        <num>(1)</num>
+        <text>New fill is being added or compacted in the immediate vicinity around the well; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Once installed, a gas collection well extension is sealed or capped until the raised well is reconnected to a vacuum source.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Wellhead Sampling. The owner or operator that is required to comply with <cite path="26|11|42|.05|B.">§B of this regulation</cite> for an active gas collection system shall install a sampling port and measuring devices, or an access port for measuring devices, at each wellhead and comply with the following, using measuring devices that meet the requirements of <cite path="|26|11|42|.11|H.">Regulation .11H of this chapter</cite>:</text>
+      <para>
+        <num>(1)</num>
+        <text>Monitor nitrogen or oxygen concentration in the landfill gas on a monthly basis as provided in <cite path="|26|11|42|.09|C.">Regulation .09C of this chapter</cite>;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Monitor temperature of the landfill gas on a monthly basis as provided in Regulation .09C in this chapter; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Measure the gauge pressure in the gas collection header on a monthly basis as provided in <cite path="|26|11|42|.09|B.|(8)">Regulation .09B(8) of this chapter</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Repairs and Temporary Shutdown of Gas Collection System Components. The requirements of §B(1)(a) and (b) of this regulation do not apply to individual landfill gas collection system components that are temporarily shut down in order to repair the components, due to an emergency, caused by catastrophic events such as earthquakes, to connect new landfill gas collection system components to the existing system, to extinguish landfill fires, or to perform construction activities in accordance with <cite path="|26|11|42|.07|C.">Regulation .07C of this chapter</cite>, provided the following requirements are met:</text>
+      <para>
+        <num>(1)</num>
+        <text>Any new gas collection system components required to maintain compliance with this regulation shall be included in the most recent design plan in accordance with <cite path="26|11|42|.05|A.">§A of this regulation</cite>;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Methane emissions are minimized during shutdown in accordance with <cite path="26|11|42|.05|A.|(2)|(f)">§A(2)(f) of this regulation</cite>; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The owner or operator submits a notification to the Department after any temporary shutdown due to an emergency, catastrophic event, or landfill fire(s) in accordance with <cite path="|26|11|42|.10|C.|(13)">Regulation .10C(13) of this chapter</cite>.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="26|11|42|.06">
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Requirements for the Permanent Shutdown and Removal of a Gas Collection and Control System.</heading>
+    <para>
+      <num>A.</num>
+      <text>A gas collection and control system installed at a closed MSW landfill or closed area of a MSW landfill may be capped and permanently removed provided the following requirements are met:</text>
+      <para>
+        <num>(1)</num>
+        <text>The gas collection and control system was in operation for at least 15 years, unless the owner or operator can demonstrate to the Department that due to declining methane rates the MSW landfill will be unable to operate the gas collection and control system for a 15-year period;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The calculated or measured methane generation rate at the MSW landfill is less than 732 tons per year on three successive test dates, provided that:</text>
+        <para>
+          <num>(a)</num>
+          <text>For measured methane generation rates, the test dates shall be no less than 90 days apart, and no more than 180 days apart; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The calculated methane generation rate shall be calculated in accordance with the provisions of <cite path="|26|11|42|.11|D.">Regulation .11D of this chapter</cite>;</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Surface methane concentration measurements do not exceed 200 ppmv;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The concentrations of methane gas at the MSW landfill do not exceed 25 percent of the lower explosive limit in facility structures (excluding gas collection and control system components) or the lower explosive limit at the property boundary; and</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The owner or operator submits an equipment removal report to the Department in accordance with the provisions of <cite path="|26|11|42|.10">Regulation .10(2) of this chapter</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The owner or operator of a MSW landfill that has capped or removed a gas collection and control system subject to <cite path="26|11|42|.06|A.">§A of this regulation</cite> shall conduct instantaneous surface methane concentration measurements over the portion of the landfill with the capped or removed gas collection and control system in accordance with the procedures in Regulation .11F(1) and (2) of this chapter for at least eight consecutive calendar quarters after the gas collection and control system is capped or removed. The measurements shall comply with the following requirements:</text>
+      <para>
+        <num>(1)</num>
+        <text>The walking grid in <cite path="|26|11|42|.11|F.|(1)|(d)">Regulation .11F(1)(d) of this chapter</cite> may be reduced to 100-foot spacing so long as the walking grid is offset by 25-feet each quarter so that by the end of 1 year of monitoring, the entire surface area has been monitored every 25 feet;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If there is no measured concentration of methane of 200 ppmv or greater from the surface of the closed MSW landfill in any of these measurement events, the owner or operator shall submit a final gas collection and control system closure notification to the Department in accordance with the provisions in <cite path="|26|11|42|.10|C.|(1)">Regulation .10C(1) of this chapter</cite>; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If there is any measured concentration of methane of 200 ppmv or greater in any of these measurement events, other than nonrepeatable, momentary readings, as determined by instantaneous surface emissions monitoring from the surface of the closed MSW landfill, the owner or operator shall comply with the provisions in <cite path="|26|11|42|.09|A.|(1)">Regulation .09A(1) of this chapter</cite>.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="26|11|42|.07">
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Compliance Standards.</heading>
+    <para>
+      <num>A.</num>
+      <text>Surface Methane Concentration Standards. Except as provided in Regulations .05D and F, <cite path="|26|11|42|.09|A.">Regulation .09A of this chapter</cite>, and <cite path="26|11|42|.07|C.">§C of this regulation</cite>, beginning January 1, 2024, or upon commencing operation of a newly installed gas collection and control system or modification of an existing gas collection and control system in accordance with <cite path="|26|11|42|.05|A.">Regulation .05A of this chapter</cite>, whichever is later, no location on the MSW landfill surface shall equal or exceed either of the following methane concentration limits:</text>
+      <para>
+        <num>(1)</num>
+        <text>Excluding non-repeatable, momentary readings, a methane concentration limit of 500 ppmv as determined by instantaneous surface emissions monitoring in accordance with Regulation .11F(1) and (2) of this chapter; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An average methane concentration limit of 25 ppmv as determined by integrated surface emissions monitoring in accordance with Regulation .11F(1) and (3) of this chapter.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Wellhead Temperature Requirement.</text>
+      <para>
+        <num>(1)</num>
+        <text>Each interior wellhead of a landfill gas collection and control system shall be operated with a landfill gas temperature of less than 62.8°C (145°F), unless a higher operating temperature is approved in writing by the Department.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Department shall approve an alternate temperature only where a MSW landfill owner or operator submits to the Department a request which uses supporting data to adequately demonstrate that the higher operating temperature value at a particular well will not:</text>
+        <para>
+          <num>(a)</num>
+          <text>cause a fire; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>significantly inhibit anaerobic decomposition by killing methanogens.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Construction Activities. The requirements of <cite path="26|11|42|.07|A.">§A of this regulation</cite> do not apply to the working face of the landfill or to areas of the landfill surface where the landfill cover material has been removed and refuse has been exposed for the following activities:</text>
+      <para>
+        <num>(1)</num>
+        <text>The purpose of installing, expanding, replacing, or repairing components of the landfill gas, leachate, or gas condensate collection and removal system; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>For law enforcement activities requiring excavation.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Alternative Compliance Standards.</heading>
+    <para>
+      <num>A.</num>
+      <text>The owner or operator may request alternatives to the compliance measures, monitoring requirements, test methods and procedures of Regulations .05, .09 and .11 of this chapter. Any alternative compliance options requested by the owner or operator shall be submitted in writing to the Department for approval and may include, but are not limited to, the following:</text>
+      <para>
+        <num>(1)</num>
+        <text>Semi-continuous (batch) operation of the gas collection and control system due to insufficient landfill gas flow rates;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Alternative wind speed requirements for landfills consistently having winds in excess of the limits specified in this regulation;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Alternative walking patterns to address potential safety and other issues, such as steep or slippery slopes, monitoring instrument obstructions, and physical obstructions;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Exclusion of construction areas and other dangerous areas from landfill surface inspection; and</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Exclusion of paved roads that do not have any cracks, potholes, or other penetrations from landfill surface inspection.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The owner or operator of a MSW landfill seeking an alternative compliance option in accordance with the provisions of this regulation shall provide information satisfactory to the Department and EPA demonstrating that:</text>
+      <para>
+        <num>(1)</num>
+        <text>The off-site migration of landfill gas is being, and will be, effectively controlled; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The proposed alternative compliance option provides an equivalent level of methane emission control, as compared with the methane controls that would have been required under Regulations .05, .09 and .11 of this chapter.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The Department and EPA may approve any alternative compliance option as long as the proposed alternative effectively controls the off-site migration of landfill gas and provides an equivalent level of methane emission control.</text>
+    </para>
+  </section>
+  <section cache:ref-path="26|11|42|.09">
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Monitoring Requirements and Corrective Actions.</heading>
+    <para>
+      <num>A.</num>
+      <text>Surface Emissions Monitoring Requirements. The owner or operator of a MSW landfill shall conduct instantaneous and integrated surface emissions monitoring of the landfill surface on a quarterly basis in accordance with the procedures specified in <cite path="|26|11|42|.11|F.">Regulation .11F of this chapter</cite>. All the following requirements shall apply to surface monitoring:</text>
+      <para>
+        <num>(1)</num>
+        <text>Instantaneous Surface Emissions Monitoring. Any reading equal to or exceeding a limit specified in Regulation .04B(3)(b), .06B(3), or .07A(1) of this chapter shall be recorded as an exceedance and the following actions shall be taken:</text>
+        <para>
+          <num>(a)</num>
+          <text>The owner or operator of an MSW landfill shall:</text>
+          <para>
+            <num>(i)</num>
+            <text>Record the date, location, and value of each test, including re-tests, with the location of the grids, the gas collection system, and the tests clearly mark and identify on a topographic map of the MSW landfill which is drawn to scale; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Retain and submit to the Department in accordance with the provisions of <cite path="|26|11|42|.10">Regulation .10 of this chapter</cite>, a copy of the documentation required under <cite path="26|11|42|.09|A.|(1)|(a)|(i)">§A(1)(a)(i) of this regulation</cite>.</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The owner or operator shall take corrective action such as, but not limited to, cover maintenance, cover repair, or well vacuum adjustments;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The owner or operator shall re-monitor the location within 10 calendar days of the measured exceedance and comply with all the following requirements:</text>
+          <para>
+            <num>(i)</num>
+            <text>If after the initial monitoring of the location a second exceedance is detected, additional corrective action shall be taken, and the location shall be re-monitored again no later than 10 calendar days after detecting the second exceedance;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>If after the re-monitoring in A(1)(c)(i) of this regulation a third exceedance is detected, the owner or owner or operator shall install a new or replacement well or collection device and demonstrate compliance no later than 120 calendar days after detecting the third exceedance;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>If after the re-monitoring in A(1)(c)(i) of this regulation a location has demonstrated no subsequent exceedance, that location shall be re-monitored 1 month from the initial exceedance;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>If the 1-month re-monitoring in A(1)(c)(iii) of this regulation shows a concentration less than 500 ppmv methane (for compliance with Regulation.07A(1) of this chapter), or less than 200 ppmv methane (for compliance with Regulations .04B(3)(b) or .06B(3) of this chapter), no further monitoring of that location is required until the next quarterly monitoring period;</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>If the 1-month re-monitoring in A(1)(c)(iii) of this regulation shows an exceedance, the owner or operator shall install a new or replacement well or collection device no later than 120 days after detecting the third exceedance;</text>
+          </para>
+          <para>
+            <num>(vi)</num>
+            <text>For any location where the monitored methane concentration had a third exceedance within a quarterly period, and there is no gas collection and control system, the owner or operator shall design and install a system following Regulations <cite path="|26|11|42|.05">.05</cite>—<cite path="|26|11|42|.11">.11</cite>; and</text>
+          </para>
+          <para>
+            <num>(vii)</num>
+            <text>An alternative remedy to the exceedance, such as upgrading the blower, header pipes or control device, and a corresponding timeline for installation may be submitted for approval to the Department in accordance with requirements of <cite path="|26|11|42|.08">Regulation .08 of this chapter</cite>.</text>
+          </para>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>The owner or operator of a closed or inactive MSW landfill, or of any closed or inactive areas on an active MSW landfill, that has no monitored exceedances of the limit specified in <cite path="|26|11|42|.07|A.|(1)">Regulation .07A(1) of this chapter</cite> after four consecutive quarterly instantaneous surface monitoring periods may shift to annual instantaneous surface monitoring; and</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Any exceedances of the limit specified in <cite path="|26|11|42|.07|A.|(1)">Regulation .07A(1) of this chapter</cite> as detected during any compliance inspections or annual instantaneous surface monitoring that cannot be remediated within 10 calendar days will result in a return to quarterly instantaneous surface monitoring of the MSW landfill.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Integrated Surface Emissions Monitoring: Any reading exceeding the limit specified in <cite path="|26|11|42|.07|A.|(2)">Regulation .07A(2) of this chapter</cite> shall be recorded as an exceedance and the following actions shall be taken:</text>
+        <para>
+          <num>(a)</num>
+          <text>The owner or operator shall:</text>
+          <para>
+            <num>(i)</num>
+            <text>Record the date, location, and the average surface concentration measured as methane for each test, including re-tests, with the location of the grids, the gas collection system, and each test clearly marked and identified on a topographic map of the MSW landfill which is drawn to scale; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Retain, and submit to the Department in accordance with the provisions of <cite path="|26|11|42|.10">Regulation .10 of this chapter</cite>, a copy of the documentation required under <cite path="26|11|42|.09|A.|(2)|(a)|(i)">§A(2)(a)(i) of this regulation</cite>.</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Within 10 calendar days of a measured exceedance, the owner or operator shall take corrective action such as, but not limited to:</text>
+          <para>
+            <num>(i)</num>
+            <text>Cover maintenance or repair; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Well vacuum adjustments.</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The owner or operator who takes corrective action as required under <cite path="26|11|42|.09|A.|(2)|(b)">§A(2)(b) of this regulation</cite> shall re-monitor the grid and comply with the requirements under <cite path="26|11|42|.09|A.|(1)|(c)">§A(1)(c) of this regulation</cite> when an exceedance of <cite path="|26|11|42|.07|A.|(2)">Regulation .07A(2) of this chapter</cite> is recorded for the grid.</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Any closed or inactive MSW landfill, or any closed or inactive areas on an active MSW landfill that has no monitored exceedances of the limit specified in <cite path="|26|11|42|.07|A.|(2)">Regulation .07A(2) of this chapter</cite> after four consecutive quarterly integrated surface emissions monitoring periods may shift to annual integrated surface emissions monitoring; and</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>An owner or operator of a MSW landfill that has shifted to annual integrated surface monitoring under <cite path="26|11|42|.09|A.|(2)|(d)">§A(2)(d) of this regulation</cite> shall return to quarterly integrated surface emissions monitoring upon the occurrence of any exceedances of the limits specified in <cite path="|26|11|42|.07|A.|(2)">Regulation .07A(2) of this chapter</cite> detected during the annual integrated surface emissions monitoring or during any compliance inspection.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Gas Control System Equipment Monitoring. The owner or operator shall monitor the gas control system<em>.</em></text>
+      <para>
+        <num>(1)</num>
+        <text>For enclosed combustors (including enclosed flares), the following equipment shall be installed, calibrated, maintained, and operated according to the manufacturer’s specifications:</text>
+        <para>
+          <num>(a)</num>
+          <text>A temperature monitoring device equipped with a continuous recorder which has an accuracy of plus or minus (±) 1 percent of the temperature being measured expressed in degrees Celsius or Fahrenheit; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A device which records the gas flow to the control device(s) and bypass of the control device. The owner or operator shall:</text>
+          <para>
+            <num>(i)</num>
+            <text>Install, calibrate, and maintain a gas flow rate measuring device that records the flow to the control device at least every 15 minutes;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Secure the bypass line valve in the closed position with a car-seal or a lock-and-key type configuration; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Perform a visual inspection of the seal or closure mechanism at least once every month to ensure that the valve is maintained in the closed position and that the gas flow is not diverted through the bypass line.</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A temperature monitoring device is not required for boilers and process heaters with a design heat input capacity of 44 megawatts (150 MMBtu/hr) or greater.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>For open flares, the following equipment shall be installed, calibrated, maintained, and operated according to the manufacturer’s specifications:</text>
+        <para>
+          <num>(a)</num>
+          <text>A heat sensing device, such as an ultraviolet beam sensor or thermocouple, at the pilot light or the flame itself to indicate the continuous presence of a flame; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A device which records the gas flow to the flare and bypass if applicable. The owner or operator shall:</text>
+          <para>
+            <num>(i)</num>
+            <text>Install, calibrate, and maintain a gas flow rate measuring device that records the flow to the control device at least every 15 minutes;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Secure the bypass line valve in the closed position with a car-seal or a lock-and-key type configuration; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Perform a visual inspection of the seal or closure mechanism at least once every month to ensure that the valve is maintained in the closed position and that the gas flow is not diverted through the bypass line.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>For a gas control device other than an enclosed flare, the owner or operator shall demonstrate compliance by providing and complying with the following information and instructions:</text>
+        <para>
+          <num>(a)</num>
+          <text>A description of the operation of the gas control device;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Operating parameters that would indicate proper performance;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Appropriate monitoring procedures; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>The manufacturer’s instructions and specifications.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The owner or operator subject to <cite path="26|11|42|.09|B.|(3)">§B(3) of this regulation</cite> shall maintain, operate, and monitor the device in accordance with written manufacturer instructions and specifications.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The owner or operator subject to <cite path="26|11|42|.09|B.|(3)">§B(3) of this regulation</cite> may submit alternative compliance procedures to the Department for approval in accordance with the provisions in <cite path="|26|11|42|.08">Regulation .08 of this chapter</cite>.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Notwithstanding §B(3) and (4) of this regulation, the Department may specify additional monitoring procedures for a gas control device other than an enclosed flare, and the owner or operator shall comply with any such requirement.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Components containing landfill gas and under positive pressure shall be monitored quarterly for leaks.</text>
+        <para>
+          <num>(a)</num>
+          <text>Any component leak of 500 ppmv or greater shall be tagged and repaired within 10 calendar days.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Any component leak of 250 ppmv or greater shall be recorded in accordance with the provisions in <cite path="|26|11|42|.10|B.|(1)|(s)">Regulation .10B(1)(s) of this chapter</cite>.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Quarterly component leak testing at a MSW landfill having a landfill gas-to-energy facility shall be conducted prior to scheduled maintenance or planned outage periods.</text>
+        </para>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>The owner or operator shall measure gauge pressure in the gas collection header applied to each individual well on a monthly basis.</text>
+        <para>
+          <num>(a)</num>
+          <text>If a positive pressure exists, other than as provided in <cite path="|26|11|42|.05|C.">Regulation .05C of this chapter</cite>, action shall be initiated to correct the positive pressure within 5 days.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Any attempted corrective action shall not cause exceedances of other operational or performance standards.</text>
+        </para>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>For a gas treatment system, the following equipment shall be installed, calibrated, maintained, and operated according to the manufacturer’s specifications:</text>
+        <para>
+          <num>(a)</num>
+          <text>A device which records the gas flow to the treatment system and bypass if applicable.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The owner or operator shall:</text>
+          <para>
+            <num>(i)</num>
+            <text>Install, calibrate, and maintain a gas flow rate measuring device that records the flow to the treatment system at least every 15 minutes;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Secure the bypass line valve in the closed position with a car-seal or a lock-and-key type configuration; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Perform a visual inspection of the seal or closure mechanism at least once every month to ensure that the valve is maintained in the closed position and that the gas flow is not diverted through the bypass line.</text>
+          </para>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Wellhead Monitoring. The owner or operator shall monitor each individual wellhead monthly to determine and record the gauge pressure, temperature, and nitrogen or oxygen content of gas emissions, and follow the procedures listed as applicable.</text>
+      <para>
+        <num>(1)</num>
+        <text>If there is any positive pressure reading other than as provided in Regulation .05D and E, the owner or operator shall take the following actions and shall not cause exceedances of other operational or performance standards from any attempted corrective measure:</text>
+        <para>
+          <num>(a)</num>
+          <text>Initiate corrective action within 5 calendar days of the positive pressure measurement;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>If negative pressure cannot be achieved without excess air infiltration within 15 calendar days of the first measurement of positive pressure, the owner or operator shall conduct a root cause analysis and correct the exceedance as soon as practicable, but no later than 60 days after positive pressure was first measured and submit reports in accordance with the reporting requirements of Regulation .10B and .10C(3) of this chapter;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>If corrective actions cannot be fully implemented within 60 days following the positive pressure measurement for which the root cause analysis was required, the owner or operator shall also conduct a corrective action analysis and develop an implementation schedule to complete the corrective action(s) as soon as practicable, but no more than 120 days following the positive pressure measurement and submit reports in accordance with the requirements of Regulation .10B, .10C(3) and .10C(4); and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>If corrective action is expected to take longer than 120 days to complete after the initial exceedance, the owner or operator shall submit the root cause analysis, corrective action analysis, and corresponding implementation timeline to the Department for approval in accordance with the requirements of Regulation .10C(10) and .10C(14) of this chapter.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If a well exceeds the operating parameter for temperature, action shall be initiated to correct the exceedance within 5 days.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The owner or operator shall not cause exceedances of other operational or performance standards from any attempted corrective measure and shall comply with all the following requirements:</text>
+        <para>
+          <num>(a)</num>
+          <text>If a landfill gas temperature less than 62.8ºC (145ºF), or as established in Regulation .07B, cannot be achieved within 15 days of the first measurement of landfill gas temperature greater than 62.8ºC (145ºF), the owner or operator shall conduct a root cause analysis and correct the exceedance as soon as practicable, but no later than 60 days after a landfill gas temperature greater than 62.8ºC (145ºF) was first measured;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>If corrective actions cannot be fully implemented within 60 days following the temperature measurement for which the root cause analysis was required, the owner or operator shall also conduct a corrective action analysis and develop an implementation schedule to complete the corrective action(s) as soon as practicable, but no more than 120 days following the measurement of landfill gas temperature greater than 62.8ºC (145ºF) and submit records in accordance with the provisions of Regulation .10B and .10C(3);</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>If corrective action is expected to take longer than 120 days to complete after the initial exceedance, the owner or operator shall submit the root cause analysis, corrective action analysis, and corresponding implementation timeline to the Department for approval, in accordance with the provisions of Regulation .10C(10) and .10C(14) of this chapter and <cite path="26|11|42|.09|C.|(1)|(c)">§C(1)(c) of this regulation</cite>;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>If a landfill gas temperature measured at either the wellhead or at any point in the well is greater than or equal to 76.7ºC (170ºF) and the carbon monoxide concentration measured, according to the procedures in <cite path="|26|11|42|.11|H.">Regulation .11H of this chapter</cite>, is greater than or equal to 1,000 ppmv the corrective action(s) for the wellhead temperature standard 62.8ºC (145ºF) shall be completed within 15 days; and</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>If a higher operating temperature has not been approved by the Department, the enhanced monitoring specified in <cite path="|26|11|42|.11|I.">Regulation .11I of this chapter</cite> is required at each well with a measurement of landfill gas temperature greater than 62.8ºC (145ºF).</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The owner or operator subject to the requirements in <cite path="26|11|42|.09|C.|(3)|(b)">§C(3)(b) of this regulation</cite> shall submit the items listed in Regulation .10C(3)(c) to the Department as part of the next semi-annual report.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The owner or operator subject to the requirements in §C(3)(a)—(c) of this regulation shall keep records in accordance with the provisions of <cite path="|26|11|42|.10|B.">Regulation .10B of this chapter</cite>.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>The owner or operator shall monitor each wellhead and record all nitrogen levels at or above 20 percent and all oxygen levels at or above 5 percent according to Regulation .10B(1)(e) and .10C(3) following the procedures of <cite path="|26|11|42|.11|H.">Regulation .11H of this chapter</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Requirements for Monitoring Systems—Malfunction, Repair and Other Activities.</text>
+      <para>
+        <num>(1)</num>
+        <text>The monitoring requirements in the regulation apply at all times except for periods of monitoring system malfunctions, repairs associated with monitoring system malfunctions, and required monitoring system quality assurance or quality control activities.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Any sudden, infrequent, not reasonably preventable failure of the monitoring system to provide valid data shall be considered a monitoring system malfunction.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>For purposes of this regulation, monitoring system failures that are caused in part by poor maintenance or careless operation are not malfunctions.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Monitoring system repairs completed in response to monitoring system malfunctions to return the monitoring system to operation shall be completed as expeditiously as possible.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="26|11|42|.10">
+    <prefix>Regulation</prefix>
+    <num>.10</num>
+    <heading>Recordkeeping and Reporting Requirements.</heading>
+    <para>
+      <num>A.</num>
+      <text>The owner or operator of a MSW landfill that meets the applicability or designated facility requirements in 40 CFR §60.31f, 40 CFR §60.760, or 40 CFR §63.1935 shall comply with the electronic reporting requirements of 40 CFR §60.38f(j), 40 CFR §60.767(i), or CFR §63.1981(i), as applicable.</text>
+    </para>
+    <para>
+      <num>A-1.</num>
+      <text>Whenever a provision in this chapter requires submission or reporting of test results, reports, or other information to the Department, unless otherwise specified, the information shall be submitted to:</text>
+      <text>Program Manager</text>
+      <text>Air Quality Compliance Program</text>
+      <text>Maryland Department of the Environment</text>
+      <text>1800 Washington Boulevard, Suite 715</text>
+      <text>Baltimore, Maryland 21230</text>
+      <text>410-537-4225</text>
+      <text>Or electronically to:</text>
+      <text>
+        <a href="mailto:MDEAIR.OTHERCOMPLIANCE@maryland.gov">MDEAIR.OTHERCOMPLIANCE@maryland.gov</a>
+      </text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Recordkeeping Requirements.</text>
+      <para>
+        <num>(1)</num>
+        <text>An owner or operator of a MSW landfill shall maintain the following records for at least 5 years:</text>
+        <para>
+          <num>(a)</num>
+          <text>All gas collection system downtime exceeding 5 days, including dates of downtime, individual well shutdown and disconnection times, the reason for the downtime, and any corrective actions conducted in response to the downtime;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>All gas control system downtime in excess of 1 hour, the reason for the downtime, and the length of time the gas control system was shut down, and any corrective actions conducted in response to the downtime;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>All instantaneous surface readings of 100 ppmv methane or greater and all exceedances of the limits in Regulation .04B(3)(b) and Regulation .07, including:</text>
+          <para>
+            <num>(i)</num>
+            <text>The location of the leak (or affected grid);</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The leak concentration of methane (in ppmv);</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>The date and time of measurement;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>The action(s) taken to repair the leak and the date(s) of repair;</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>Any required re-monitoring and the re-monitored concentration of methane (in ppmv);</text>
+          </para>
+          <para>
+            <num>(vi)</num>
+            <text>Wind speed during surface sampling; and</text>
+          </para>
+          <para>
+            <num>(vii)</num>
+            <text>The installation date and location of each well installed as part of a gas collection system expansion.</text>
+          </para>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Any positive wellhead gauge pressure measurements, the date of the measurements, the well identification number, and the corrective action taken;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Each wellhead temperature monitoring value of 62.8ºC (145ºF) or above, each wellhead nitrogen level at or above 20 percent, and each wellhead oxygen level at or above 5 percent;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>The monthly solid waste acceptance rate for active MSW landfills or MSW landfills that have accepted waste within the last 5 years;</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>The current amount of waste-in-place including waste composition;</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>The nature, location, amount, and date of deposition of non-decomposable waste for any landfill areas excluded from the collection system;</text>
+        </para>
+        <para>
+          <num>(i)</num>
+          <text>Results of any performance tests conducted in accordance with the provisions in <cite path="|26|11|42|.05|B.|(7)">Regulation .05B(7) of this chapter</cite>;</text>
+        </para>
+        <para>
+          <num>(j)</num>
+          <text>A description of mitigation measures taken to prevent the release of methane or other emissions into the atmosphere, including:</text>
+          <para>
+            <num>(i)</num>
+            <text>When solid waste was brought to the surface during the installation or preparation of wells, piping, or other equipment;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>During repairs or the temporary shutdown of gas collection system components; or</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>When solid waste was excavated and moved.</text>
+          </para>
+        </para>
+        <para>
+          <num>(k)</num>
+          <text>Records of any construction activities in accordance with <cite path="|26|11|42|.07|C.">Regulation .07C of this chapter</cite>. Records shall contain the following information:</text>
+          <para>
+            <num>(i)</num>
+            <text>A description of the actions being taken, the areas of the landfill that will be affected by these actions, the reason the actions are required, and any landfill gas collection system components that will be affected by these actions;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Construction start and finish dates, projected equipment installation dates, and projected shut down times for individual gas collection system components; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>A description of the mitigation measures taken to minimize methane emissions and other potential air quality impacts.</text>
+          </para>
+        </para>
+        <para>
+          <num>(l)</num>
+          <text>For any root cause analysis for which corrective actions are required, the following information:</text>
+          <para>
+            <num>(i)</num>
+            <text>Records of the root cause analysis conducted;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The corrective action analysis;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>The date for corrective action(s) already completed following the positive pressure reading or high temperature reading;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>For action(s) not already completed, a schedule for implementation, including proposed commencement and completion dates; and</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>A copy of any comments or final approval on the corrective action analysis or schedule from the Department.</text>
+          </para>
+        </para>
+        <para>
+          <num>(m)</num>
+          <text>Records of the gas control system equipment operating parameters specified to be monitored under <cite path="|26|11|42|.09|B.">Regulation .09B of this chapter</cite> as well as records for periods of operation during which the parameter boundaries established during the most recent performance test are exceeded. The records shall include the following information:</text>
+          <para>
+            <num>(i)</num>
+            <text>For enclosed flares, all 3-hour periods of operation during which the average temperature difference was more than 28ºC (50º F) below the average combustion temperature during the most recent performance test at which compliance with Regulations .05B(2) and (3) of this chapter was determined;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>For a boiler or process heater with a design heat input capacity of 44 megawatts (150 MMBtu/hr) or greater to comply with <cite path="|26|11|42|.05|B.|(3)">Regulation .05B(3) of this chapter</cite>, all periods of operation of the boiler or process heater (e.g., steam use, fuel use, or monitoring data collected pursuant to other federal, State, local, or tribal regulatory requirements;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>For open flares, continuous records of the flame or flare pilot flame monitoring, and up-to-date, readily accessible records of all periods of operation in which the flame or flare pilot flame is absent; and</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>For the system, the indication of flow to the control system and the indication of bypass flow or records of monthly inspections of car-seals or lock-and-key configurations used to seal bypass lines.</text>
+          </para>
+        </para>
+        <para>
+          <num>(n)</num>
+          <text>All gas collection and control system exceedances of the operational standards, the reading in the subsequent month whether or not the second reading is an exceedance, and the location of each exceedance;</text>
+        </para>
+        <para>
+          <num>(o)</num>
+          <text>For the owner or operator of a MSW landfill who converts waste-in-place from volume to mass, records of the annual recalculation of site-specific density, design capacity, and the supporting documentation;</text>
+        </para>
+        <para>
+          <num>(p)</num>
+          <text>For the owner or operator of a MSW landfill demonstrating that site-specific surface methane emissions are below 200 ppmv by conducting surface emissions monitoring in accordance with <cite path="|26|11|42|.04|B.|(3)|(b)">Regulation .04B(3)(b) of this chapter</cite>, records of all surface emissions monitoring and information related to monitoring instrument calibrations conducted according to sections 8 and 10 of Method 21 of Appendix A of 40 CFR Part 60, including all of the following items:</text>
+          <para>
+            <num>(i)</num>
+            <text>Calibration records, including the date of calibration and initials of operator performing the calibration, calibration gas cylinder identification, certification date, and certified concentration, the instrument scale used, description of any corrective action taken if the meter readout could not be adjusted to correspond to the calibration gas value, and, if an owner or operator makes their own calibration gas, a description of the procedure(s) used;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Digital photographs of the instrument setup, including the wind barrier. The photographs shall be accurately time and date-stamped and taken at the first sampling location prior to sampling and at the last sampling location after sampling at the end of each sampling day;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Timestamp of each surface scan reading which shall be detailed to the nearest second, based on when the sample collection begins and log for the length of time each sample was taken using a stopwatch (e.g., the time the probe was held over the area);</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Location of each surface scan reading. The owner or operator shall determine the coordinates using an instrument with an accuracy of at least 4 meters and the coordinates shall be in decimal degrees with at least five decimal places and the coordinates will become the location identification label;</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>Monitored methane concentration (ppmv) of each reading;</text>
+          </para>
+          <para>
+            <num>(vi)</num>
+            <text>Background methane concentration (ppmv) after each instrument calibration test;</text>
+          </para>
+          <para>
+            <num>(vii)</num>
+            <text>For readings taken at each surface penetration, the unique identification location label matching the label specified in <cite path="|26|11|42|.10|B.|(1)|(p)|(iv)">Regulation .10B(1)(p)(iv) of this chapter</cite>; and,</text>
+          </para>
+          <para>
+            <num>(viii)</num>
+            <text>Records of the operating hours of the gas collection system for each destruction device.</text>
+          </para>
+        </para>
+        <para>
+          <num>(q)</num>
+          <text>For the owner or operator reporting leachate or other liquids addition under <cite path="|26|11|42|.10|C.|(16)">Regulation .10C(16) of this chapter</cite>, records of any engineering calculations or company records used to estimate the quantities of leachate or liquids added, the surface areas for which the leachate or liquids were applied, and the estimates of annual waste acceptance or total waste in place in the areas where leachate or liquids were applied;</text>
+        </para>
+        <para>
+          <num>(r)</num>
+          <text>The date of initial placement of waste in newly constructed MSW landfill cells;</text>
+        </para>
+        <para>
+          <num>(s)</num>
+          <text>Documentation of any component leaks of methane equal to or greater than 250 ppmv detected in accordance with the provisions in <cite path="|26|11|42|.09|B.|(7)">Regulation .09B(7) of this chapter</cite> and all repairs performed in response to any component leaks equal to or greater than 500 ppmv; and</text>
+        </para>
+        <para>
+          <num>(t)</num>
+          <text>The maximum design capacity of the MSW landfill.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The owner or operator of a MSW landfill shall maintain the following records for the life of each gas control device, as measured during the initial performance test or compliance determination:</text>
+        <para>
+          <num>(a)</num>
+          <text>The density of wells, horizontal collectors, surface collectors, or other gas extraction devices determined using the procedures and requirements specified in <cite path="|26|11|42|.05|A.|(1)">Regulation .05A(1) of this chapter</cite>;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The expected gas generation flow rate as calculated in accordance with <cite path="|26|11|42|.11|B.">Regulation .11B of this chapter</cite>;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The percent reduction of methane achieved by the control device determined in accordance with <cite path="|26|11|42|.11|C.">Regulation .11C of this chapter</cite>;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>For a boiler or process heater, the description of the location at which the collected gas vent stream is introduced into the boiler or process heater over the same time period of the performance test;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Where the owner or operator subject to the provisions of this regulation is demonstrating compliance with <cite path="|26|11|42|.05|B.">Regulation .05B of this chapter</cite> through use of an enclosed combustion device other than a boiler or process heater with a design heat input capacity equal to or greater than 44 megawatts per hour (150 million British thermal units per hour):</text>
+          <para>
+            <num>(i)</num>
+            <text>The average temperature measured at least every 15 minutes and averaged over the same time period of the performance test; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The percent reduction of methane determined as specified in <cite path="|26|11|42|.11|C.">Regulation .11C of this chapter</cite> achieved by the control device;</text>
+          </para>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>For an open flare:</text>
+          <para>
+            <num>(i)</num>
+            <text>The flare type (i.e., steam-assisted, air-assisted, or non-assisted);</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>All visible emission readings, heat content determination, flow rate or bypass flow rate measurements, and exit velocity determinations made during the performance test as specified in 40 CFR §60.18, as amended; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Records of the flare pilot flame or flare flame monitoring and records of all periods of operations during which the pilot flame or the flare flame is absent;</text>
+          </para>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>The most recent map showing each existing and planned gas collector in the system;</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>Bypass records, including records of the flow of landfill gas to, and bypass of, the treatment system, as used to demonstrate compliance with Regulation .05B</text>
+        </para>
+        <para>
+          <num>(i)</num>
+          <text>Site-specific treatment monitoring plan meeting the requirements of <cite path="|26|11|42|.05|B.|(5)">Regulation .05B(5) of this chapter</cite>.</text>
+        </para>
+        <para>
+          <num>(j)</num>
+          <text>The most recent, readily accessible plot map showing all existing and planned collectors in the system and providing a unique identification location label for each collector.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Bioreactor Moisture Content Calculations.</text>
+        <para>
+          <num>(a)</num>
+          <text>A MSW landfill owner or operator conducting calculations to determine the moisture content of a bioreactor shall document the calculations and the basis of any assumptions made to make such calculations.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The owner or operator shall keep records of the calculations for a minimum of 5 years or until liquids addition ceases.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Retention of Records and Reports.</text>
+        <para>
+          <num>(a)</num>
+          <text>The owner or operator shall keep records of subsequent tests or monitoring in <cite path="26|11|42|.10|B.|(2)">§B(2) of this regulation</cite> for a minimum of 5 years and records of the control device vendor specifications until removal.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The owner or operator shall maintain copies of the records and reports required by this regulation and provide them to the Department upon request.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Reporting Requirements.</text>
+      <para>
+        <num>(1)</num>
+        <text>Closure Notification.</text>
+        <para>
+          <num>(a)</num>
+          <text>The owner or operator of a MSW landfill which has ceased accepting waste shall submit a closure notification to the Department no later than 30 days after waste acceptance cessation.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The closure notification shall include the last day solid waste was accepted, the anticipated closure date of the MSW landfill, and the estimated waste-in-place.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The Department may request additional information as necessary to verify that permanent closure has taken place in accordance with the requirements of any applicable federal, State, or local regulations and ordinances in effect at the time of closure.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Equipment Removal Report.</text>
+        <para>
+          <num>(a)</num>
+          <text>A gas collection and control system equipment removal report shall be submitted to the Department 30 days prior to well capping, removal, or cessation of operation of the gas collection, treatment, or control system equipment.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The report shall contain the following information:</text>
+          <para>
+            <num>(i)</num>
+            <text>A copy of the closure notification submitted to the Department in accordance with <cite path="26|11|42|.10|C.|(1)">§C(1) of this regulation</cite>;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>A copy of the initial performance test report or other documentation demonstrating that the gas collection and control system has been installed and operated for a minimum of 15 years, unless the owner or operator can demonstrate that due to declining methane rates the MSW landfill is unable to operate the gas collection and control system for a 15-year period; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Surface emissions monitoring results needed to verify that landfill surface methane concentration measurements do not exceed the limits specified in <cite path="|26|11|42|.07|A.">Regulation .07A of this chapter</cite>.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Semi-annual Report. A MSW landfill owner or operator subject to the requirements of this chapter shall submit a semi-annual report to the Department by the end of the month following the 6-month period beginning January 1, 2024 through June 30, 2024, and each subsequent 6 months thereafter. The semi-annual report shall include the MSW landfill name, owner and operator, and address; and the following information:</text>
+        <para>
+          <num>(a)</num>
+          <text>All instantaneous surface readings of 100 ppmv or greater;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>All exceedances of the limits in Regulation .04B(3)(b), Regulation .07A, and <cite path="|26|11|42|.09|B.|(7)">Regulation .09B(7) of this chapter</cite> including:</text>
+          <para>
+            <num>(i)</num>
+            <text>The location of the leak (or affected grid);</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Leak concentration in ppmv;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Date and time of measurement;——</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>The action taken to repair the leak;</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>Date of repair;</text>
+          </para>
+          <para>
+            <num>(vi)</num>
+            <text>Any required re-monitoring and the re-monitored concentration in ppmv;</text>
+          </para>
+          <para>
+            <num>(vii)</num>
+            <text>Wind speed during surface sampling;</text>
+          </para>
+          <para>
+            <num>(viii)</num>
+            <text>The concentration recorded at each location for which an exceedance was recorded in the previous month; and</text>
+          </para>
+          <para>
+            <num>(ix)</num>
+            <text>The installation date and location of each well installed as part of a gas collection system expansion.</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>For any corrective action analysis for which corrective actions are required in Regulation .09C(1)—(3) of this chapter and that take more than 60 days to correct the exceedance:</text>
+          <para>
+            <num>(i)</num>
+            <text>The root cause analysis conducted, including a description of the recommended corrective action(s);</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The date for corrective action(s) already completed following the positive pressure or elevated temperature reading; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>For action(s) not already completed, a schedule for implementation, including proposed commencement and completion dates.</text>
+          </para>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>All known, prevented, or suspected subsurface landfill fire(s) along with potential causes and any efforts conducted to avoid or put out the fire(s), including any positive pressure readings that may have contributed to the known, prevented, or suspected fire;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>The number of times that applicable parameters monitored under Regulation .05B or Regulation .07 were exceeded and when the gas collection and control system was not operating in compliance with the provisions of Regulation .05B(1) including periods of startup, shutdown, and malfunction. For each instance, report the date, time, and duration of each exceedance;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Where the owner or operator subject to the requirements of this regulation is demonstrating compliance with the operational standard for temperature in Regulation .09C(2) and (3) of this chapter, the owner or operator shall provide a statement of the wellhead operational standard for temperature and oxygen level the landfill is complying with for the period covered by the report. The report shall indicate:</text>
+          <para>
+            <num>(i)</num>
+            <text>The number of times each of those parameters monitored under <cite path="|26|11|42|.09|C.">Regulation .09C of this chapter</cite> were exceeded, reporting for each instance the date, time, and duration of each exceedance; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The number of times the parameters for the site-specific treatment system in Regulation .05B(5) were exceeded.</text>
+          </para>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>Description and duration of all periods when the gas stream was diverted from the control device or treatment system through a bypass line or there was an indication of bypass flow resulting from an inspection required by <cite path="|26|11|42|.05|B.|(3)|(d)">Regulation .05B(3)(d) of this chapter</cite>;</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>Description and duration of all periods when the control device or treatment system was not operating and length of time the control device or treatment system was not operating;</text>
+        </para>
+        <para>
+          <num>(i)</num>
+          <text>All periods when the collection system was not operating;</text>
+        </para>
+        <para>
+          <num>(j)</num>
+          <text>The date of installation and the location of each well or collection system expansion;</text>
+        </para>
+        <para>
+          <num>(k)</num>
+          <text>Each owner or operator required to conduct enhanced monitoring in accordance with the provisions of <cite path="|26|11|42|.11|I.">Regulation .11I of this chapter</cite> for temperatures exceeding 62.8ºC (145ºF) shall include the results of all monitoring activities conducted during the period;</text>
+        </para>
+        <para>
+          <num>(l)</num>
+          <text>For enclosed combustors, except for boilers and process heaters with design heat input capacity of 44 megawatts per hour (150 million British thermal units per hour) or greater, all three-hour periods of operation during which the average temperature was more than 28ºC (82ºF) below the average combustion temperature during the most recent performance test; and</text>
+        </para>
+        <para>
+          <num>(m)</num>
+          <text>For boilers or process heaters, whenever there is a change in the location at which the vent stream is introduced into the flame zone.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Annual Report.</text>
+        <para>
+          <num>(a)</num>
+          <text>The owner or operator subject to the requirements of this chapter shall submit to the Department an annual report for the period of January 1 through December 31 of each year.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Unless otherwise stated, the annual report shall be submitted to the Department no later than March 15 of the following year.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The annual report shall consist of the semi-annual reports and contain the following additional annual reporting requirements:</text>
+          <para>
+            <num>(i)</num>
+            <text>MSW landfill name, owner and operator, and address;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Total volume of landfill gas collected for the entire reporting period (reported in standard cubic yards);</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Average composition of the landfill gas collected over the reporting period (reported in percent methane and percent carbon dioxide by volume);</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Gas control device type, year of installation, rating, fuel type, and total amount of landfill gas combusted in each control device;</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>The date that the gas collection and control system was installed and in full operation;</text>
+          </para>
+          <para>
+            <num>(vi)</num>
+            <text>The percent methane destruction efficiency of each gas control device(s);</text>
+          </para>
+          <para>
+            <num>(vii)</num>
+            <text>The type and amount of supplemental fuels burned with the landfill gas in each device;</text>
+          </para>
+          <para>
+            <num>(viii)</num>
+            <text>The total volume of landfill gas shipped off-site, the composition of the landfill gas collected (reported in percent methane and percent carbon dioxide by volume), and the recipient of the gas;</text>
+          </para>
+          <para>
+            <num>(ix)</num>
+            <text>The most recent topographic map of the site showing the areas with final cover and a geomembrane and the areas with final cover without a geomembrane with corresponding percentages over the landfill surface;</text>
+          </para>
+          <para>
+            <num>(x)</num>
+            <text>The information required in §B(1)(a)—(e), §B(1)(g), and §B(1)(j)—(l) of this regulation; and</text>
+          </para>
+          <para>
+            <num>(xi)</num>
+            <text>Instrument specifications for all instruments used for monitoring compliance with this chapter.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Waste-in-Place Report. The owner or operator subject to the requirements of Regulation .04B shall prepare a Waste-in-Place report for the period of January 1 through December 31 of each year and submit the following information to the Department by March 15 of the following year:</text>
+        <para>
+          <num>(a)</num>
+          <text>MSW landfill name, owner and operator, and address;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The MSW landfill’s status (active, closed, or inactive);</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The total estimated waste-in-place, in tons, as of December 31 of each year;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>A description of the known and assumed waste composition in the landfill; and</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>The most recent topographic map of the site showing the areas with final cover and a geomembrane and the areas with final cover without a geomembrane with a calculation of the corresponding percentage geomembrane coverage over the landfill surface.</text>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Methane Generation Rate Report. The owner or operator subject to the requirements of Regulation .04B shall calculate the methane generation rate using the calculation procedures specified in <cite path="|26|11|42|.11|D.">Regulation .11D of this chapter</cite> and submit the results, along with a summary of efforts being implemented at the MSW landfill to reduce landfill gas emissions to the Department:</text>
+        <para>
+          <num>(a)</num>
+          <text>By March 15, 2024 for MSW landfills with greater than 450,000 tons waste-in-place;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Within 90 days of reaching 450,000 tons of waste-in-place;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>By March 15 of each subsequent year while waste-in-place is greater than 450,000 tons and the methane generation rate is less than 732 tons per year.</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Include in the report the methane generation calculation, along with relevant parameters, and</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Include in the report the results of a visual inspection of the landfill cover and any actions done to fix leaks and minimize methane releases.</text>
+        </para>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Performance Test Report.</text>
+        <para>
+          <num>(a)</num>
+          <text>For a control system designed and operated to meet the requirements of this chapter, the owner or operator shall submit a Performance Test Report to the Department that establishes the reduction efficiency or parts per million by volume no later than 180 days after the initial startup of the approved control system using EPA Method 25 or 25C, 40 CFR Part 60, Appendix A.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The owner or operator shall submit any additional performance test reports to the Department within 30 days after the date of completing each performance test, including any associated fuel analyses.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The performance test report shall include the following information:</text>
+          <para>
+            <num>(i)</num>
+            <text>A diagram of the collection system showing collection system positioning including all wells, horizontal collectors, surface collectors, or other gas extraction devices, all areas excluded from collection, and the proposed sites for the future collection system expansion;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The data upon which the sufficient density of wells, horizontal collectors, surface collectors, or other gas extraction devices and the gas mover equipment sizing are based;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>The documentation of the presence of asbestos or non-decomposable material for each area from which collection wells have been excluded based on the presence of asbestos or non-decomposable material;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>The sum of the gas generation flow rates for all areas from which collection wells have been excluded based on nonproductivity and the calculations of gas generation flow rate for each excluded area;</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>The process for increasing gas mover equipment capacity with increased gas generation flow rate, if the present gas mover equipment is inadequate to move the maximum flow rate expected over the life of the landfill; and</text>
+          </para>
+          <para>
+            <num>(vi)</num>
+            <text>The process for controlling off-site migration.</text>
+          </para>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>The control device shall be operated within the parameter ranges established during the initial or most recent performance test, or manufacturer written specifications.</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>The operating parameters shall be monitored in accordance with the procedures specified in <cite path="|26|11|42|.09|B.">Regulation .09B of this chapter</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Gas Collection and Control System Design Plans. The collection and control system design plan shall be prepared by a professional engineer and shall meet the following requirements:</text>
+        <para>
+          <num>(a)</num>
+          <text>The gas collection and control system as described in the design plan shall meet the design requirements and deadlines in <cite path="|26|11|42|.05|A.">Regulation .05A of this chapter</cite>;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>In the event that the design plan is required to be modified to obtain approval, the owner or operator shall take any steps necessary to conform any prior actions to the approved design plan; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>If the owner or operator chooses to demonstrate compliance with the emission control requirements of this chapter using a treatment system as defined in this chapter, then the owner or operator shall prepare and submit to the Department a site-specific treatment system monitoring plan as specified in <cite path="|26|11|42|.05|B.|(5)">Regulation .05B(5) of this chapter</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>Amended Design Plans. The owner or operator who has previously been required to submit a design plan under Regulation .05Aof this chapter shall submit an amended design plan to the Department at least 90 days in advance of any of the following events:</text>
+        <para>
+          <num>(a)</num>
+          <text>Expanding operations to an area not covered by the previously approved design plan; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Installing, repairing, or expanding the gas collection system in a way that is not consistent with the design plan previously approved by the Department.</text>
+        </para>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>Corrective Action and Corresponding Timeline Reports.</text>
+        <para>
+          <num>(a)</num>
+          <text>For corrective action that is required in accordance with the provisions in <cite path="|26|11|42|.09|C.">Regulation .09C of this chapter</cite> and is expected to take longer than 120 days after the initial exceedance to complete, the MSW landfill owner or operator shall submit the root cause analysis, corrective action analysis, and corresponding implementation timeline to the Department for approval as soon as practicable but no later than 75 days after the first measurement of positive pressure or temperature monitoring value of 62.8ºC (145ºF).</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>For corrective action that is required according to Regulation .09C and is not completed within 60 days after the initial exceedance, the MSW landfill owner or operator shall submit a notification to the Department as soon as practicable but no later than 75 days after the first measurement of positive pressure or temperature exceedance.</text>
+        </para>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>Instantaneous Surface Emissions Monitoring Report.</text>
+        <para>
+          <num>(a)</num>
+          <text>A MSW landfill owner or operator conducting surface emission monitoring in accordance with the provisions in Regulation .04B(3)(b) and (4) of this chapter shall submit an instantaneous surface emissions monitoring report to the Department within 30 days after the fourth consecutive quarter of monitoring if no exceedances are detected, or 30 days after a measured concentration of methane of 200 ppmv or greater, whichever is first.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The instantaneous surface emissions monitoring report shall include:</text>
+          <para>
+            <num>(i)</num>
+            <text>All results of the surface emissions monitoring, clearly identifying the location, date and time (to nearest second), average wind speeds including wind gusts, reading (in parts per million) of concentrations of methane above 100 ppmv, other than non-repeatable, momentary readings, and any corrective actions taken;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>For location, the owner or operator shall determine the latitude and longitude coordinates using an instrument with an accuracy of at least 4 meters and the coordinates in decimal degrees with at least five decimal places; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>The results of the most recent methane generation rate calculation.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>24-Hour High Temperature Report. Where an owner or operator seeks to demonstrate compliance with the operational standard for temperature in Regulation .09C(2)—(3) of this chapter and the landfill gas temperature measured at either the wellhead or at any point in the well is greater than or equal to 76.7ºC (170ºF), and the carbon monoxide concentration measured is greater than or equal to 1,000 ppmv, the owner or operator shall report the date, time, well identifier, temperature and carbon monoxide reading to the Department within 24 hours of the measurement unless a higher operating temperature value has been approved by the Department for the well.</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>Repairs and Temporary Shutdown Notification.</text>
+        <para>
+          <num>(a)</num>
+          <text>The owner or operator of an MSW landfill that intends to temporarily shut down a gas collection and control system in accordance with <cite path="|26|11|42|.05|F.">Regulation .05F of this chapter</cite> shall submit a notification of the shutdown to the Department at least 30 days in advance that includes a justification for the shutdown, the system component(s) that will require shutdown, and the approximate timeline for the shutdown.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>If a shutdown occurs due to catastrophic or other unplanned events as listed in <cite path="|26|11|42|.05|F.|(3)">Regulation .05F(3) of this chapter</cite>, the notification shall be submitted to the Department within 10 days after the shutdown.</text>
+        </para>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>Root Cause Analysis Report.</text>
+        <para>
+          <num>(a)</num>
+          <text>If a person who owns or operates a MSW landfill cannot fully implement a corrective action required according to Regulation .09C within 120 days after the initial exceedance, the owner or operator shall submit the root cause analysis and additional analysis and reporting in accordance with <cite path="26|11|42|.10|C.|(10)">§C(10) of this regulation</cite> as soon as practicable but no later than 75 days after the first measurement of positive pressure or temperature monitoring value of 62.8ºC (145ºF).</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The root cause analysis shall include a thorough investigation of the landfill gas collection and control system to determine the primary cause, and any other contributing causes, of positive pressure or high temperature at a wellhead.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The report shall include each factor investigated, methods used, and alternative causes that were analyzed.</text>
+        </para>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>Bioreactor Moisture Content Report. If a MSW landfill owner or operator calculates moisture content to establish the date the bioreactor is required to begin operating the collection and control system, the owner or operator shall submit not later than 90 days after the bioreactor achieves 40-percent moisture content a bioreactor moisture content report to the Department that includes all of the following information:</text>
+        <para>
+          <num>(a)</num>
+          <text>Results of the calculation;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The date the bioreactor achieved 40-percent moisture content by weight; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The date the owner or operator will begin collection and control system operation.</text>
+        </para>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>Liquids Addition Report.</text>
+        <para>
+          <num>(a)</num>
+          <text>An owner or operator subject to the provisions in <cite path="|26|11|42|.04|C.">Regulation .04C of this chapter</cite> that has employed leachate recirculation or added liquids based on a research, development, and demonstration permit for landfill operations (issued through Resource Conservation and Recovery Act, subtitle D, part 258) within the last 10 years shall submit to Department, annually, the following information:</text>
+          <para>
+            <num>(i)</num>
+            <text>Volume of leachate recirculated (gallons per year) and the reported basis of those estimates (records or engineering estimates);</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Total volume of all other liquids added (gallons per year) and the reported basis of those estimates (records or engineering estimates);</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Surface area (acres) over which the leachate is recirculated (or otherwise applied);</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Surface area (acres) over which any other liquids are applied;</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>The total waste disposed (megagrams) in the areas with recirculated leachate, added liquids, or both, based on on-site records to the extent data are available, or engineering estimates and the reported basis of those estimates; and</text>
+          </para>
+          <para>
+            <num>(vi)</num>
+            <text>The annual waste acceptance rates (megagrams per year) in the areas with recirculated leachate, added liquids, or both, based on on-site records to the extent data are available, or engineering estimates.</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The initial report shall include the information listed in <cite path="26|11|42|.10|C.|(16)|(a)">§C(16)(a) of this regulation</cite> for the initial annual reporting period as well as for each of the previous 10 years, to the extent historical data is in possession or control of the owner or operator.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The initial report shall be submitted to the Department no later than 12 months after the date of commenced construction, modification, or reconstruction.</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Subsequent annual reports shall include the information listed in <cite path="26|11|42|.10|C.|(16)|(a)">§C(16)(a) of this regulation</cite> for the 365-day period following the 365-day period included in the previous annual report.</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>All subsequent annual reports shall be submitted to the Department no later than 365 days after the date the previous report was submitted.</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Landfills may cease annual reporting of the information listed in <cite path="26|11|42|.10|C.|(16)|(a)">§C(16)(a) of this regulation</cite> once they have submitted the closure notification in <cite path="26|11|42|.10|C.|(1)">§C(1) of this regulation</cite> to the Department.</text>
+        </para>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>Design Capacity Report.</text>
+        <para>
+          <num>(a)</num>
+          <text>An amended design capacity report shall be submitted to the Department within 90 days of an increase in the maximum design capacity of the landfill to meet or exceed 2,750,000 tons and 3,260,000 cubic yards.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>An increase in design capacity may result from an increase in the permitted volume of the MSW landfill and/or an increase in the density.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="26|11|42|.11">
+    <prefix>Regulation</prefix>
+    <num>.11</num>
+    <heading>Test Methods and Procedures.</heading>
+    <text>The owner or operator of a MSW landfill shall use the following test methods and procedures to demonstrate compliance with the provisions of this chapter:</text>
+    <para>
+      <num>A.</num>
+      <text>Hydrocarbon Detector Specification. Any instrument used for the measurement of methane shall be a gas detector or other equivalent instrument approved by the Department that meets the calibration, specifications, and performance criteria of EPA Reference Method 21, Determination of Volatile Organic Compound Leaks, 40 CFR Part 60, Appendix A, as amended except for the following modifications and adjustments:</text>
+      <para>
+        <num>(1)</num>
+        <text>“Methane” shall replace all references to volatile organic compounds (VOC);</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The calibration gas shall be methane, diluted to a nominal concentration of 500 parts per million in air;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>To meet the performance evaluation requirements in section 8.1 of Method 21 of 40 CFR Part 60, Appendix A the instrument evaluation procedures of section 8.1 of Method 21 of 40 CFR. Part 60, Appendix A shall be used; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The calibration procedures provided in sections 8 and 10 of Method 21 of 40 CFR Part 60, Appendix A shall be followed immediately before commencing a surface monitoring survey.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Determination of Expected Gas Generation Flow Rate. The expected gas generation flow rate shall be determined in accordance with 40 CFR §63.1960(a)(1), as amended.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Determination of Control Device Destruction Efficiency. The following methods of analysis shall be used to determine the efficiency of the control device in reducing methane:</text>
+      <para>
+        <num>(1)</num>
+        <text>Enclosed Combustors. One of the following test methods shall be used to determine the efficiency of the control device in reducing methane by at least 99 percent, or in reducing the outlet methane concentration for lean burn engines to less than 3,000 ppmv, dry basis, corrected to 15 percent oxygen:</text>
+        <para>
+          <num>(a)</num>
+          <text>U.S. EPA Reference Method 18, Measurement of Gaseous Organic Compound Emissions by Gas Chromatography;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>U.S. EPA Reference Method 25, Determination of Total Gaseous Nonmethane Organic Emissions as Carbon;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>U.S. EPA Reference Method 25A, Determination of Total Gaseous Organic Concentration Using a Flame Ionization Analyzer; or</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>U.S. EPA Reference Method 25C, Determination of Nonmethane Organic Compounds in Landfill Gases.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The following equation shall be used to calculate destruction efficiency:</text>
+        <text>
+          <img alt="Equation used to calculate destruction efficiency." src="data:image/png;base64,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"/>
+        </text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Determination of Methane Generation Rate. The following methods and procedures shall be used to determine the methane generation rate, as applicable:</text>
+      <para>
+        <num>(1)</num>
+        <text>MSW Landfills without Carbon Adsorption or Passive Venting Systems.</text>
+        <para>
+          <num>(a)</num>
+          <text>The methane generation rate shall be calculated using the procedures specified in 40 CFR §98.343(a)(1), as amended.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The Department may request additional information as may be necessary to verify the methane generation rate from the landfill and site-specific data may be substituted when available.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>MSW Landfills with Carbon Adsorption Systems.</text>
+        <para>
+          <num>(a)</num>
+          <text>The methane generation rate shall be determined by measuring the actual total landfill gas flow rate, in standard cubic feet per minute (scfm), using a flow meter or other flow measuring device such as a standard pitot tube and the methane concentration (percent by volume) using a hydrocarbon detector meeting the requirements of <cite path="|26|11|42|.11|A.">Regulation .11A of this chapter</cite>.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The total landfill gas flow rate shall be multiplied by the methane concentration to determine the methane generation rate.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>MSW Landfills with Passive Venting Systems. The methane generation rate shall be determined using the following methods and shall be the higher of those determined values:</text>
+        <para>
+          <num>(a)</num>
+          <text>The test methods in Regulation .11D(1)(a); and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The measured actual landfill gas flow rates (in units of scfm) using a flow measuring device such as a standard pitot tube and methane concentration (percent by volume) using a hydrocarbon detector meeting the requirements of Regulation .11A from each venting pipe that is within the waste mass.</text>
+          <para>
+            <num>(i)</num>
+            <text>Each gas flow rate shall be multiplied by its corresponding methane concentration to obtain the individual methane flow rate.</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The individual methane flow rates shall be added together to determine the methane generation rate.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The methane generation rate shall include waste received during the previous calendar year, from January 1 through December 31.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Open Flares. Open flares shall meet the requirements of 40 CFR §60.18, as amended.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Surface Emissions Monitoring. The owner or operator shall measure the landfill surface concentration of methane using a hydrocarbon detector meeting the requirements of <cite path="|26|11|42|.11|A.">Regulation .11A of this chapter</cite>. The landfill surface shall be inspected using the following procedures:</text>
+      <para>
+        <num>(1)</num>
+        <text>General Procedures for Instantaneous and Integrated Monitoring.</text>
+        <para>
+          <num>(a)</num>
+          <text>The entire MSW landfill surface or monitoring area shall be divided into individually identified 50,000 square foot grids and include the entire perimeter of the collection area.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The grids shall be used for both instantaneous and integrated surface emissions monitoring.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Surface emissions monitoring shall be performed in accordance with section 8.3.1 of EPA Method 21 of Appendix A of 40 CFR. Part 60 by holding the inlet probe of the hydrocarbon detector within 2 inches of the landfill surface while traversing the grid.</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>The walking pattern shall be no more than a 25-foot spacing interval and shall traverse each monitoring grid.</text>
+          <para>
+            <num>(i)</num>
+            <text>If the owner or operator has no exceedances of the limits specified in <cite path="|26|11|42|.07|A.">Regulation .07A of this chapter</cite> after any four consecutive quarterly monitoring periods, the walking pattern spacing may be increased to 100-foot intervals.</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The owner or operator shall return to a 25-foot spacing interval upon any exceedances of the limits specified in <cite path="|26|11|42|.07|A.">Regulation .07A of this chapter</cite> that cannot be remediated within 10 calendar days or upon any exceedances detected during a compliance inspection.</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>If an owner or operator of a MSW landfill can demonstrate that in the past 3 years before the effective date of this regulation that there were no measured exceedances of the limit specified in <cite path="|26|11|42|.07|A.|(1)">Regulation .07A(1) of this chapter</cite> by annual or quarterly monitoring, the owner or operator may increase the walking pattern spacing to 100-foot intervals.</text>
+          </para>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Average wind speed shall be determined on a 5-minute interval using an on-site anemometer with a continuous recorder and data logger for the entire duration of the monitoring event.</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>The owner or operator shall use a wind barrier, similar to a funnel, when onsite average wind speed exceeds 4 miles per hour or 2 meters per second or gust exceeding 10 miles per hour.</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>The wind barrier shall surround the surface emission monitoring monitor, and shall be placed on the ground, to ensure wind turbulence is blocked.</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>Surface emissions monitoring shall not be conducted if average wind speed exceeds 25 miles per hour.</text>
+        </para>
+        <para>
+          <num>(i)</num>
+          <text>Surface emissions monitoring shall be performed during typical meteorological conditions.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Instantaneous Surface Emissions Monitoring Procedures.</text>
+        <para>
+          <num>(a)</num>
+          <text>The owner or operator of a MSW landfill shall record any instantaneous surface readings of methane 100 ppmv or greater and shall document if the reading is a confirmed reading or whether it is a non-repeatable, momentary reading.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Surface areas of the MSW landfill that equal or exceed a methane concentration limit of 500 ppmv, or 200 ppmv if this is to determine compliance with the requirements in Regulation .04B(3)(b), shall be marked and remediated in accordance with <cite path="|26|11|42|.09|A.|(1)">Regulation .09A(1) of this chapter</cite>.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Surface areas of the MSW landfill that equal or exceed a methane concentration limit of 250 ppmv (for compliance with <cite path="|26|11|42|.09|B.|(7)">Regulation .09B(7) of this chapter</cite>), or 100 ppmv (for compliance with <cite path="|26|11|42|.04|B.|(3)|(b)">Regulation .04B(3)(b) of this chapter</cite>), shall be monitored in a 5-foot grid around the location to determine the extents of the methane leak.</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>The wind speed shall be recorded during the sampling period.</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>The landfill surface areas with cover penetrations, distressed vegetation, cracks, or seeps shall also be inspected visually and with a hydrocarbon detector meeting the requirements in <cite path="26|11|42|.11|A.">§A of this regulation</cite>.</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>If a MSW landfill is not subject to quarterly monitoring but is otherwise required to monitor in accordance with the provisions in 40 CFR Part 63 Subpart AAAA, 40 CFR 60 Subpart WWW or XXX, the MSW landfill owner or operator may reduce monitoring to annually at a specific penetration location if no methane is detected with the hydrocarbon detector at that specific penetration location for four consecutive quarters, but the penetration location shall return to quarterly monitoring if any subsequent methane concentration is detected during annual monitoring.</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>The location of each monitored exceedance shall be marked and the location and concentration recorded.</text>
+          <para>
+            <num>(i)</num>
+            <text>The location shall be recorded using an instrument with an accuracy of at least 4 meters.</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The coordinates shall be in decimal degrees with at least five decimal places.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Integrated Surface Emissions Monitoring Procedures.</text>
+        <para>
+          <num>(a)</num>
+          <text>Integrated surface readings shall be recorded and then averaged for each grid.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Individual monitoring grids that exceed an average methane concentration of 25 ppmv shall be identified and remediated in accordance with <cite path="|26|11|42|.09|A.|(2)">Regulation .09A(2) of this chapter</cite>.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The wind speed shall be recorded during the sampling period.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Gas Collection and Control System Leak Inspection Procedures. Leaks shall be measured using a hydrocarbon detector meeting the requirements of <cite path="|26|11|42|.11|A.">Regulation .11A of this chapter</cite>.</text>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>Wellhead Monitoring.</text>
+      <para>
+        <num>(1)</num>
+        <text>An owner or operator of a MSW landfill shall determine wellhead nitrogen levels using EPA Reference Method 3C, Determination of Volatile Organic Compound Leaks, 40 CFR Part 60, Appendix A, as amended, unless an alternative test method is approved by the Department.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Unless an alternative test method is established and approved by the Department, an owner or operator of an MSW landfill shall determine wellhead oxygen levels by an oxygen meter using EPA Reference Method 3A or 3C, 40 CFR Part 60, Appendix A, or ASTM D6522-20, (if sample location is prior to combustion) except that:</text>
+        <para>
+          <num>(a)</num>
+          <text>The span shall be set between 10 and 12 percent oxygen;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A data recorder is not required;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Only two calibration gases are required, a zero and span;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>A calibration error check is not required; and</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>The allowable sample bias, zero drift, and calibration drift are ±10 percent.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The owner and operator of a MSW landfill may use a portable gas composition analyzer to monitor wellhead oxygen levels provided that the analyzer is calibrated and the analyzer meets all quality assurance and quality control requirements for 40 CFR Part 60, Appendix A-1, Method 3A or ASTM D6522-11.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Determination of Gauge Pressure.</text>
+        <para>
+          <num>(a)</num>
+          <text>Wellhead gauge pressure shall be determined using a hand-held manometer, magnehelic gauge, or other pressure measuring device approved by the Department.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The device shall be calibrated and operated in accordance with the manufacturer’s specifications.</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>An owner or operator of a MSW landfill shall calibrate the wellhead temperature measuring devices annually using the procedure in 40 CFR Part 60, Appendix A-1, Method 2, Section 10.3, except that a minimum of two temperature points, bracket within 10 percent of all landfill absolute temperature measurements or two fixed points of ice bath and boiling water, corrected for barometric pressure, are used.</text>
+      </para>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>Enhanced Monitoring. The owner or operator of a MSW landfill shall initiate enhanced monitoring at each well with a measurement of landfill gas temperature greater than 62.8 ºC (145 ºF) as follows:</text>
+      <para>
+        <num>(1)</num>
+        <text>Visual observations for subsurface oxidation events (smoke, smoldering ash, damage to well) within the radius of influence of the well;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Monitor oxygen or nitrogen concentration as provided in <cite path="|26|11|42|.09|C.">Regulation .09C of this chapter</cite>;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Monitor temperature of the landfill gas at the wellhead as provided in <cite path="|26|11|42|.09|C.">Regulation .09C of this chapter</cite>;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Monitor temperature of the landfill gas every 10 vertical feet of the well as provided in <cite path="|26|11|42|.09|C.">Regulation .09C of this chapter</cite> and <cite path="26|11|42|.11|I.|(10)">§I(10) of this regulation</cite>;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Monitor the methane concentration with a methane meter using EPA Method 3C of Appendix A-6 to 40 CFR Part 60, EPA Method 18 of Appendix A-6 to 40 CFR. part 60, or a portable gas composition analyzer to monitor the methane levels provided that the analyzer is calibrated and the analyzer meets all quality assurance and quality control requirements for EPA Method 3C or EPA Method 18;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Monitor carbon monoxide concentrations, as follows:</text>
+        <para>
+          <num>(a)</num>
+          <text>Collect the sample from the wellhead sampling port in a passivated canister or multi-layer foil gas sampling bag (such as the Cali-5-Bond Bag) and analyze that sample using EPA Method 10, 40 CFR Part 60, Appendix A-4, or an equivalent method with a detection limit of at least 100 ppmv of carbon monoxide in high concentrations of methane; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Collect and analyze the sample from the wellhead using EPA Method 10, 40 CFR Part 60, Appendix A-4 to measure carbon monoxide concentrations.</text>
+        </para>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>The enhanced monitoring shall begin 7 days after the first measurement of landfill gas temperature greater than 62.8ºC (145ºF);</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>The enhanced monitoring shall be conducted on a weekly basis.</text>
+        <para>
+          <num>(a)</num>
+          <text>If four consecutive weekly carbon monoxide readings are under 100 ppmv, then enhanced monitoring may be decreased to a monthly basis;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>If monthly carbon monoxide readings exceed 100 ppmv, the MSW landfill shall return to weekly monitoring.</text>
+        </para>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>The enhanced monitoring can be stopped once a higher operating value is approved, at which time the monitoring provisions issued with the higher operating value shall be followed, or once the measurement of landfill gas temperature at the wellhead is less than or equal to 62.8ºC (145ºF);</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>For each wellhead with a measurement of landfill gas temperature greater than or equal to 73.9ºC (165ºF), annually monitor temperature of the landfill gas every 10 vertical feet of the well; and</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>The owner or operator may use a removable thermometer or use temporary or permanent thermocouples installed in the well to monitor the temperature of the landfill gas.</text>
+      </para>
+    </para>
+    <para>
+      <num>J.</num>
+      <text>Bioreactor Moisture Content.</text>
+      <para>
+        <num>(1)</num>
+        <text>The bioreactor moisture content calculation shall consider the following:</text>
+        <para>
+          <num>(a)</num>
+          <text>Waste mass;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Moisture content of the incoming waste;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Mass of water added to the waste including leachate recirculation and other liquids addition and precipitation;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Mass of water removed through leachate or other water losses; and</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Moisture level sampling or mass balances.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The owner or operator of a MSW landfill subject to the requirements in <cite path="|26|11|42|.04|C.">Regulation .04C of this chapter</cite> shall document the calculations and the basis of any assumptions and keep the record of the calculations until liquids addition ceases.</text>
+      </para>
+    </para>
+    <para>
+      <num>K.</num>
+      <text>Alternative Test Methods. Alternative test methods may be used upon written approval by the Department and EPA.</text>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Environment Article, §§<cite doc="Md. Code" path="gen|1-404">1-404</cite>, <cite doc="Md. Code" path="gen|2-103">2-103</cite>, <cite doc="Md. Code" path="gen|2-301">2-301</cite>—<cite doc="Md. Code" path="gen|2-303">2-303</cite>, <cite doc="Md. Code" path="gen|10-102">10-102</cite>, and <cite doc="Md. Code" path="gen|10-103">10-103</cite>, Annotated Code of Maryland</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2023-06-12">Effective date: June 12, 2023 (50:11 Md. R. 446)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2024-08-05"><cite path="|26|11|42|.03|B.">Regulation .03B</cite> amended effective August 5, 2024 (51: 15 Md. R. 711)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2024-08-05"><cite path="|26|11|42|.04|B.">Regulation .04B</cite> amended effective August 5, 2024 (51: 15 Md. R. 711)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2024-08-05"><cite path="|26|11|42|.05">Regulation .05</cite> amended effective August 5, 2024 (51: 15 Md. R. 711)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2024-08-05"><cite path="|26|11|42|.06|B.">Regulation .06B</cite> amended effective August 5, 2024 (51: 15 Md. R. 711)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2024-08-05"><cite path="|26|11|42|.09">Regulation .09</cite> amended effective August 5, 2024 (51: 15 Md. R. 711)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2024-08-05"><cite path="|26|11|42|.10|C.">Regulation .10C</cite> amended effective August 5, 2024 (51: 15 Md. R. 711)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2024-08-05"><cite path="|26|11|42|.11|D.">Regulation .11D</cite>, F amended effective August 5, 2024 (51: 15 Md. R. 711)</annotation>
+  </annotations>
+</container>

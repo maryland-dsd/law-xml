@@ -1,0 +1,945 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>02</num>
+  <heading>Underground Storage Tank Systems</heading>
+  <section cache:ref-path="26|10|02|.01">
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Applicability.</heading>
+    <para>
+      <num>A.</num>
+      <text>Requirements for an Owner and an Operator of a UST System.</text>
+      <para>
+        <num>(1)</num>
+        <text>Except as otherwise provided in §§B and C of this regulation, an owner and an operator of a UST system that uses or may use the UST system to store a regulated substance are subject to the requirements of this chapter, <cite path="|26.10.03">COMAR 26.10.03</cite>—26.10.12, and <cite path="|26.10.16">26.10.16</cite>.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Beginning January 12, 2009, an owner and an operator installing a new or replacement UST system are subject to the interstitial monitoring requirements for methods of release detection in <cite path="26.10.05.05|G.">COMAR 26.10.05.05G</cite>.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Beginning January 12, 2009, an owner and an operator of a UST system installing new, replacement, or upgraded secondary containment piping are subject to the monitoring requirements for secondary containment piping in <cite path="26.10.05.02|D.|(3)">COMAR 26.10.05.02D(3)</cite>.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>An owner and an operator of an airport hydrant fuel distribution system are subject to the requirements in <cite path="|26.10.12">COMAR 26.10.12</cite>.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>An owner and an operator of a UST system with one or more field-constructed tanks are subject to the requirements in <cite path="|26.10.12">COMAR 26.10.12</cite>.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>An owner and an operator of a UST system that stores fuel for use by an emergency power generator are subject to the methods of release detection requirements in <cite path="|26.10.05">COMAR 26.10.05</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Exclusions. An owner and an operator of the following UST systems are not subject to the requirements of this chapter and <cite path="|26.10.03">COMAR 26.10.03</cite>—26.10.12 and <cite path="|26.10.16">26.10.16</cite>:</text>
+      <para>
+        <num>(1)</num>
+        <text>A UST system holding:</text>
+        <para>
+          <num>(a)</num>
+          <text>A hazardous waste listed or identified under Subtitle C of the Resource Conservation and Recovery Act; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A mixture of a hazardous waste, as described under <cite path="26|10|02|.01|B.|(1)|(a)">§B(1)(a) of this regulation</cite>, and other regulated substances;</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A wastewater treatment tank system that is part of a wastewater treatment facility regulated under §307(b) or 402 of the Clean Water Act (33 U.S.C. §1317(b) or 1342);</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Equipment or machinery that contains a regulated substance for operational purposes, such as hydraulic lift tanks and electrical equipment tanks;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>A UST system that contains a de minimis concentration of a regulated substance; and</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>An emergency spill or overflow containment UST system that is expeditiously emptied after use.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Partial Exclusions.</text>
+      <para>
+        <num>(1)</num>
+        <text>An owner and an operator of the following UST systems are not subject to the requirements under <cite path="|26.10.03">COMAR 26.10.03</cite>—26.10.05, <cite path="|26.10.08">26.10.08</cite>, <cite path="|26.10.10">26.10.10</cite>, <cite path="|26.10.12">26.10.12</cite>, and <cite path="|26.10.16">26.10.16</cite>:</text>
+        <para>
+          <num>(a)</num>
+          <text>A wastewater treatment tank system not covered under <cite path="26|10|02|.01|B.|(2)">§B(2) of this regulation</cite>;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>An AST associated with:</text>
+          <para>
+            <num>(i)</num>
+            <text>An airport hydrant fuel distribution system regulated under <cite path="|26.10.12">COMAR 26.10.12</cite>; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>A UST system with one or more field-constructed tanks regulated under <cite path="|26.10.12">COMAR 26.10.12</cite>;</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A UST system containing radioactive material that is regulated under the Atomic Energy Act of 1954 (42 U.S.C. §§2011—2296b-7); and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>A UST system that is part of an emergency generator system at a nuclear power generation facility licensed by the Nuclear Regulatory Commission and subject to the Nuclear Regulatory Commission’s requirements regarding design and quality criteria including, but not limited to, 10 CFR Part 50.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An owner and an operator of a UST system that stores heating oil only for consumptive use are not subject to the requirements under <cite path="26.10.03.08">COMAR 26.10.03.08</cite>, <cite path="|26.10.05">26.10.05</cite>, <cite path="|26.10.11">26.10.11</cite>, and <cite path="|26.10.16">26.10.16</cite>.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="26|10|02|.02">
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter and <cite path="|26.10.03">COMAR 26.10.03</cite>—26.10.12 and <cite path="|26.10.16">26.10.16</cite>:</text>
+      <para>
+        <num>(1)</num>
+        <text>A term in <cite path="26|10|02|.02|B.">§B of this regulation</cite> has the meaning indicated; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A term not defined in <cite path="26|10|02|.02|B.">§B of this regulation</cite> has the meaning given to it in:</text>
+        <para>
+          <num>(a)</num>
+          <text>A relevant statute;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text><cite path="|26.10.01">COMAR 26.10.01</cite>; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>If not defined in a relevant statute or <cite path="|26.10.01">COMAR 26.10.01</cite>, the meaning attributed by common use.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>Aboveground Release.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Aboveground release” means a spill, release, or discharge to the surface of the land or to surface water.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Aboveground release” includes, but is not limited to:</text>
+          <para>
+            <num>(i)</num>
+            <text>A release from the aboveground portion of a UST system; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>An aboveground release associated with overfills and transfer operations as a regulated substance moves to or from a UST system.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>“Airport hydrant fuel distribution system” or “airport hydrant system” means a UST system which fuels aircraft and operates under high pressure with large diameter piping that typically terminates into one or more hydrants or fill stands, and begins where fuel enters one or more storage tanks from an external source such as a pipeline, barge, rail car, or other motor fuel carrier.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Belowground Release.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Belowground release” means a spill, release, or discharge to the subsurface of the land, groundwater, or both.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Belowground release” includes, but is not limited to:</text>
+          <para>
+            <num>(i)</num>
+            <text>A release from the belowground portions of a UST system; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>A belowground release associated with overfills and transfer operations as a regulated substance moves to or from a UST.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>“Beneath the surface of the ground” means beneath the ground surface or otherwise covered with earthen materials.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Bulk Oil Storage.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Bulk oil storage” means the storage of oil in a UST system that is not excluded under <cite path="|26|10|02|.01|B.">Regulation .01B of this chapter</cite>; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Bulk oil storage” does not include the storage of oil in a UST system for consumptive use.</text>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>“CERCLA” means the Comprehensive Environmental Response, Compensation, and Liability Act of 1980, 42 U.S.C. §9601 et seq.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>“Compatible” means the ability of two or more substances to maintain their respective physical and chemical properties upon contact with one another for the design life of a UST system under conditions likely to be encountered in the UST system.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>“Completion” means the final grade of a finished regulated substance storage facility, including all concrete pads and asphalt paving.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>Connected Piping.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Connected piping” means all underground piping, including valves, elbows, joints, flanges, and flexible connectors, attached to a UST system through which a regulated substance or petroleum vapor flows.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Connected piping” includes, for the purpose of determining how much piping is connected to an individual UST system, the piping that joins two UST systems with the piping allocated equally between the UST systems.</text>
+        </para>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>Consumptive Use.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Consumptive use” means heating oil consumed on the premises.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Consumptive use” does not include the use of fuel oil in an emergency generator.</text>
+        </para>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>“Electrical equipment” means underground equipment that contains dielectric fluid that is necessary for the operation of equipment such as transformers and buried electrical cable.</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>Excavation Zone.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Excavation zone” means the volume containing one or more UST systems and backfill material bounded by the ground surface, walls, and floor of a pit and trenches into which a UST system is placed at the time of installation.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Excavation zone” includes a storage tank field.</text>
+        </para>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>“Existing UST system” means a UST system used to contain an accumulation of regulated substances for which installation commenced on or before December 22, 1988.</text>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>“Field-constructed tank” means a storage tank constructed in the field, including, but not limited to:</text>
+        <para>
+          <num>(a)</num>
+          <text>A storage tank constructed of concrete that is poured in the field; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A steel or fiberglass storage tank primarily fabricated in the field.</text>
+        </para>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>“Free product” refers to a regulated substance that is present as a nonaqueous phase liquid.</text>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>“General UST System Permit” means the authorization established under <cite path="|26|10|02|.04|A.">Regulation .04A of this chapter</cite> for the operation of a UST system.</text>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>Groundwater Drain System.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Groundwater drain system” means a permanent installation of a horizontal pipe or gravel trench intercepting the excavation zone of a UST for the purpose of removing, directing, or relieving groundwater accumulation to an alternative location.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Groundwater drain system” does not include a temporary sump pump or temporary well point dewatering system.</text>
+        </para>
+      </para>
+      <para>
+        <num>(18)</num>
+        <text>Hazardous Substance UST System.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Hazardous substance UST system” means a UST system that contains a hazardous substance or any mixture of a hazardous substance and petroleum.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Hazardous substance UST system” does not include a petroleum UST system or a hazardous waste tank regulated under Subtitle C of the Resource Conservation and Recovery Act.</text>
+        </para>
+      </para>
+      <para>
+        <num>(19)</num>
+        <text>“Hydraulic lift tank” means a tank holding hydraulic fluid for a closed-loop mechanical system that uses compressed air or hydraulic fluid to operate lifts, elevators, and other similar devices.</text>
+      </para>
+      <para>
+        <num>(20)</num>
+        <text>“Implementing agency” means the Maryland Department of the Environment.</text>
+      </para>
+      <para>
+        <num>(21)</num>
+        <text>“Installation commenced” means an owner and an operator of a UST system has:</text>
+        <para>
+          <num>(a)</num>
+          <text>Obtained all federal, State, and local approvals or permits necessary to begin physical construction of the site or installation of the UST system; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Either:</text>
+          <para>
+            <num>(i)</num>
+            <text>Begun a continuous on-site physical construction or installation program; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Entered into contractual obligations, which cannot be cancelled or modified without substantial loss, for physical construction at the site or installation of the UST system to be completed within a reasonable time.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(22)</num>
+        <text>“Liquid trap” means a sump, well cellar, and other trap used in association with oil and gas production, gathering, and extraction operations, including gas production plants, for the purpose of:</text>
+        <para>
+          <num>(a)</num>
+          <text>Collecting oil, water, and other liquids;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Temporarily collecting liquids for subsequent disposition or reinjection into a production or pipeline stream; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Collecting and separating liquids from a gas stream.</text>
+        </para>
+      </para>
+      <para>
+        <num>(23)</num>
+        <text>“New UST system” means a UST system that is or will be used to contain an accumulation of regulated substances for which installation commenced after December 22, 1988.</text>
+      </para>
+      <para>
+        <num>(24)</num>
+        <text>“Noncommercial purposes” means motor fuel not for resale.</text>
+      </para>
+      <para>
+        <num>(25)</num>
+        <text>“On the premises” means a UST system storing heating oil located on the same property where the stored heating oil is used.</text>
+      </para>
+      <para>
+        <num>(26)</num>
+        <text>“Operational life” means the period beginning when installation of a UST system has commenced until the time the UST system is properly closed in accordance with <cite path="|26.10.10">COMAR 26.10.10</cite>.</text>
+      </para>
+      <para>
+        <num>(27)</num>
+        <text>“Overfill” means an occurrence when a UST is filled beyond the applicable level specified in <cite path="26.10.03.03|A.|(2)|(a)">COMAR 26.10.03.03A(2)(a)</cite>, and that may result in a spill, release, or discharge of a regulated substance.</text>
+      </para>
+      <para>
+        <num>(28)</num>
+        <text>Petroleum UST System.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Petroleum UST system” means a UST system that contains petroleum or a mixture of petroleum with de minimis quantities of other regulated substances.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Petroleum UST system” includes a UST system that may contain motor fuel, jet fuel, distillate fuel oil, residual fuel oil, heating oil, lubricant, petroleum solvent, or used oil.</text>
+        </para>
+      </para>
+      <para>
+        <num>(29)</num>
+        <text>“Pipe” or “piping” means a hollow cylinder or tubular conduit that is constructed of nonearthen materials.</text>
+      </para>
+      <para>
+        <num>(30)</num>
+        <text>“Pipeline facility” means a new and existing pipe rights-of-way and any associated equipment, facilities, or buildings, including gathering lines.</text>
+      </para>
+      <para>
+        <num>(31)</num>
+        <text>“Precision tightness test” means a test:</text>
+        <para>
+          <num>(a)</num>
+          <text>For UST system tightness approved by the Department;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Conducted in accordance with the manufacturer’s test procedure, a test method with third party approval, or standards approved by the Department; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Capable of detecting a 0.1 gallon per hour leak rate from any portion of a UST system, while accounting for the effects of:</text>
+          <para>
+            <num>(i)</num>
+            <text>Thermal expansion;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Contraction of a liquid;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Vapor pockets;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Storage tank deformation;</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>Evaporation;</text>
+          </para>
+          <para>
+            <num>(vi)</num>
+            <text>Water; and</text>
+          </para>
+          <para>
+            <num>(vii)</num>
+            <text>Any subsurface water contacting the UST system.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(32)</num>
+        <text>“Release detection” means to determine whether a release of a regulated substance has occurred:</text>
+        <para>
+          <num>(a)</num>
+          <text>From a UST system into the environment;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Into the interstitial space between a UST system and the secondary barrier of the UST system; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Into the secondary containment around a UST system.</text>
+        </para>
+      </para>
+      <para>
+        <num>(33)</num>
+        <text>“Repair” means to restore to proper operating condition a storage tank, pipe, spill prevention equipment, overfill prevention equipment, corrosion protection equipment, release detection equipment, or other component of a UST system that has:</text>
+        <para>
+          <num>(a)</num>
+          <text>Caused a release of a regulated substance from the UST system;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Failed to function properly; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Been rendered inoperable in any way.</text>
+        </para>
+      </para>
+      <para>
+        <num>(34)</num>
+        <text>“Replace” means to remove and install:</text>
+        <para>
+          <num>(a)</num>
+          <text>A UST; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>40 percent or more of piping connected to a single UST, including each independent piping run connected to a UST with multiple piping runs.</text>
+        </para>
+      </para>
+      <para>
+        <num>(35)</num>
+        <text>“SARA” means Superfund Amendments and Reauthorization Act of 1986.</text>
+      </para>
+      <para>
+        <num>(36)</num>
+        <text>“Septic tank” means a watertight covered receptacle designed to receive or process, through liquid separation or biological digestion, the sewage discharged from a building sewer, with the effluent distributed for disposal through the soil and settled solids and scum from the septic tank are pumped out periodically and hauled to a treatment facility.</text>
+      </para>
+      <para>
+        <num>(37)</num>
+        <text>Stormwater or Wastewater Collection System.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Stormwater or wastewater collection system” means piping, pumps, conduits, and any other equipment necessary to collect and transport the flow of:</text>
+          <para>
+            <num>(i)</num>
+            <text>Stormwater runoff resulting from precipitation; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Domestic, commercial, or industrial wastewater to and from retention areas or any areas where treatment is designated to occur.</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Stormwater or wastewater collection system” does not include the treatment of stormwater or wastewater, except where treatment is incidental to conveyance of stormwater or wastewater.</text>
+        </para>
+      </para>
+      <para>
+        <num>(38)</num>
+        <text>“Surface impoundment” means a natural topographic depression, man-made excavation, or diked area formed primarily of earthen materials, although it may be lined with man-made materials, that is not an injection well.</text>
+      </para>
+      <para>
+        <num>(39)</num>
+        <text>“Under-dispenser containment” means containment underneath a dispenser system that meets the following conditions:</text>
+        <para>
+          <num>(a)</num>
+          <text>Designed to prevent a spill, release, or discharge from the dispenser and piping within or above the under-dispenser containment from reaching soil or groundwater;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Liquid-tight on the sides, bottom, and at any penetration of the containment;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Compatible with the regulated substance conveyed by the piping;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Tested in accordance with <cite path="26.10.03.03">COMAR 26.10.03.03</cite>; and</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Allows for visual inspection and access to the components in the containment, or the periodic monitoring of the containment for leaks from the dispenser system.</text>
+        </para>
+      </para>
+      <para>
+        <num>(40)</num>
+        <text>“Upgrade” means:</text>
+        <para>
+          <num>(a)</num>
+          <text>The addition or retrofit of a system designed to prevent the spill, release, or discharge of product from a UST system, such as an interior lining, cathodic protection, or spill and overfill controls; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The replacement of any underground piping connected to a storage tank system.</text>
+        </para>
+      </para>
+      <para>
+        <num>(41)</num>
+        <text>UST.</text>
+        <para>
+          <num>(a)</num>
+          <text>“UST” means one storage tank or a combination of storage tanks, including underground pipes connected to the storage tank, in which the volume of the storage tank and connected underground pipes is 10 percent or more beneath the surface of the ground.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“UST” does not include:</text>
+          <para>
+            <num>(i)</num>
+            <text>Except for a farm or residential tank no longer in use and subject to the requirements under <cite path="|26.10.10">COMAR 26.10.10</cite>, a farm or residential tank with the capacity to store 1,100 gallons or less of motor fuel or heating oil for noncommercial purposes;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>A septic tank;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>A pipeline facility, including gathering lines, regulated under 49 U.S.C. §§60101—60141, or an intrastate pipeline facility regulated under State law as provided under 49 U.S.C. §§60101—60141 and determined by the federal Secretary of Transportation to be connected to a pipeline, or operated or intended to be capable of operating at pipeline pressure or as an integral part of a pipeline;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>A surface impoundment, pit, pond, or lagoon;</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>A stormwater or wastewater collection system;</text>
+          </para>
+          <para>
+            <num>(vi)</num>
+            <text>A flow-through process tank;</text>
+          </para>
+          <para>
+            <num>(vii)</num>
+            <text>A liquid trap or associated gathering lines directly related to oil or gas production and gathering operations;</text>
+          </para>
+          <para>
+            <num>(viii)</num>
+            <text>If a storage tank is situated upon or above the surface of the floor, a storage tank situated in an underground area such as a basement, cellar, mineworking, drift, shaft, or tunnel; or</text>
+          </para>
+          <para>
+            <num>(ix)</num>
+            <text>Pipes connected to a tank described under <cite path="26|10|02|.02|B.|(41)|(b)">§B(41)(b) of this regulation</cite>.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(42)</num>
+        <text>“UST system” means a UST, connected underground piping, underground ancillary equipment, and, if any, containment systems.</text>
+      </para>
+      <para>
+        <num>(43)</num>
+        <text>“Wastewater treatment tank” means a tank that is designed to receive and treat an influent wastewater through physical, chemical, or biological methods.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="26|10|02|.03">
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>General Provisions for UST Systems.</heading>
+    <para>
+      <num>A.</num>
+      <text>An owner and an operator of a UST system storing a regulated substance shall comply with the general provisions and specifically prohibited acts under <cite path="26.10.01.04">COMAR 26.10.01.04</cite>.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Person Responsible for a Release.</text>
+      <para>
+        <num>(1)</num>
+        <text>The following persons shall be responsible for the prompt control, containment, and removal of a regulated substance release:</text>
+        <para>
+          <num>(a)</num>
+          <text>The responsible party;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The owner of the property where the regulated substance release occurred;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The owner of the regulated substance;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>The owner and the operator of the UST system storing the regulated substance;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>The person in charge of the facility, vessel, or vehicle involved in the release; and</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>If a release occurs from an improperly abandoned UST system, the current landowner and any person who owned, leased, or was otherwise responsible for the UST system at the time it was improperly abandoned.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A person shall continue to be responsible for the control, containment, and removal of a regulated substance release until removal of the regulated substance has been accomplished to the satisfaction of the Department.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Ban on Receiving a Regulated Substance.</text>
+      <para>
+        <num>(1)</num>
+        <text>An owner and an operator of a UST system served a written notification provided under <cite path="26|10|02|.03|C.|(2)">§C(2) of this regulation</cite> is subject to a ban on receiving a regulated substance until the conditions in <cite path="26|10|02|.03|C.|(3)">§C(3) of this regulation</cite> are met.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Upon determining that a UST system is not in compliance with one or more requirements of this chapter or <cite path="|26.10.03">COMAR 26.10.03</cite>—26.10.12 and <cite path="|26.10.16">26.10.16</cite>:</text>
+        <para>
+          <num>(a)</num>
+          <text>The Department may serve a written notification to the owner and the operator of the UST system that specifies the Department’s determination, the regulatory provisions violated, and the facts that constitute the violation;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Subsequent to or concurrent with service of the written notification provided in <cite path="26|10|02|.03|C.|(2)|(a)">§C(2)(a) of this regulation</cite>, the Department may:</text>
+          <para>
+            <num>(i)</num>
+            <text>Issue the owner and the operator of the UST system an order requiring the performance of corrective actions necessary to bring the UST system into compliance;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Issue the owner and the operator of the UST system a ban on receiving a regulated substance; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Affix a monitoring device, such as a tag, notice, or locking mechanism to the UST system.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The Department may allow an owner and an operator of a UST system subject to a ban on receiving regulated substances to resume receiving regulated substances for the UST system if the following conditions are met:</text>
+        <para>
+          <num>(a)</num>
+          <text>The owner and the operator of the UST system notify the Department that the corrective actions necessary to bring the UST system into compliance have been performed;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The owner and the operator of the UST system submit to the Department evidence of the corrective actions performed that includes at least the following records:</text>
+          <para>
+            <num>(i)</num>
+            <text>Receipts;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Work orders;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Certificates;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Testing records; and</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>Photographs;</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The owner and the operator of the UST system have resolved all obligations related to the UST system as directed by the Department or in compliance with an order issued by the Department under <cite path="26|10|02|.03|C.|(2)|(b)">§C(2)(b) of this regulation</cite>; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>The owner and the operator of the UST system receive written approval from the Department to remove the monitoring device from the UST system.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Contested Case Hearings.</text>
+        <para>
+          <num>(a)</num>
+          <text>As provided under <cite doc="Md. Code" path="gen|4-412">Environment Article, §4-412, Annotated Code of Maryland</cite>, an owner and an operator of a UST system served an order under <cite path="26|10|02|.03|C.|(2)|(b)">§C(2)(b) of this regulation</cite> shall have an opportunity for a contested case hearing if the owner and the operator of the UST system files a written request with the Department not later than 10 calendar days from the date the order was served.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The filing of a hearing request made in accordance with <cite path="26|10|02|.03|C.|(4)|(a)">§C(4)(a) of this regulation</cite> does not stay the:</text>
+          <para>
+            <num>(i)</num>
+            <text>Department’s determination of noncompliance;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The ban on receiving a regulated substance; or</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>The obligation of the owner and the operator of the UST system to comply with <cite path="26|10|02|.03|C.|(3)">§C(3) of this regulation</cite>.</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The Department shall conduct a contested case hearing in accordance with the provisions under <cite doc="Md. Code" path="gsg">State Government Article, Title 10, Subtitle 2, Annotated Code of Maryland</cite>.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Work Performed by Certified UST System Individuals.</text>
+      <para>
+        <num>(1)</num>
+        <text>Except as otherwise provided in <cite path="26|10|02|.03|D.|(3)">§D(3) of this regulation</cite>, an owner, an operator, and a person in charge of a UST system shall ensure that the following work is performed by the following individuals certified by the Department under <cite path="|26.10.06">COMAR 26.10.06</cite>:</text>
+        <para>
+          <num>(a)</num>
+          <text>The installation, upgrade, and repair of a UST system is performed by or under the supervision of a certified UST system technician;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The closure or change-in-service of a UST system is performed by or under the supervision of a certified UST system technician or remover; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Inspections required under <cite path="26.10.03.10">COMAR 26.10.03.10</cite> are performed by or under the supervision of a certified UST system inspector.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Except as otherwise provided in <cite path="26|10|02|.03|D.|(3)">§D(3) of this regulation</cite>, an owner, an operator, and a person in charge of a storage tank system shall ensure that the following work is performed by the following individuals certified by the Department under <cite path="|26.10.06">COMAR 26.10.06</cite>:</text>
+        <para>
+          <num>(a)</num>
+          <text>The installation, upgrade, and repair of a UST system or the underground piping associated with a storage tank is performed in the continuous on-site presence and under the direction of a certified UST system technician; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The closure or a change-in-service of a UST system, underground farm tank, underground residential tank, an underground residential heating oil tank, or the underground piping associated with a storage tank is performed in the continuous on-site presence and direction of a certified UST system technician or remover.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>An owner, an operator, and a person in charge of a UST system storing heating oil for consumptive use and with a capacity of 2,000 gallons or less may use a heating oil technician that is certified by the Department under <cite path="|26.10.06">COMAR 26.10.06</cite> to install, upgrade, repair, and close the UST system.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Installation Requirements for Partially Excluded UST Systems. An owner and an operator of a UST system listed under <cite path="|26|10|02|.01|C.">Regulation .01C of this chapter</cite> storing a regulated substance shall install a UST system that meets the following requirements:</text>
+      <para>
+        <num>(1)</num>
+        <text>Will prevent releases due to corrosion or structural failure for the operational life of the UST system;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Is cathodically protected against corrosion, constructed of non-corrodible material, steel clad with a non-corrodible material, or designed in a manner to prevent the release or threatened release of a stored regulated substance; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Is constructed or lined with material that is compatible with the stored regulated substance.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="26|10|02|.04">
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>General UST System Permit by Rule.</heading>
+    <para>
+      <num>A.</num>
+      <text>An owner and an operator of a UST system regulated under this chapter are authorized by the Department under a General UST System Permit to operate the UST system provided the conditions specified in this section are met:</text>
+      <para>
+        <num>(1)</num>
+        <text>The owner and the operator of the UST system shall comply with all of the applicable requirements of this chapter and <cite path="|26.10.03">COMAR 26.10.03</cite>—26.10.12 and <cite path="|26.10.16">26.10.16</cite>;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The owner and the operator of the UST system shall remove or properly decommission nonoperational components and appurtenances connected to the UST system in order to:</text>
+        <para>
+          <num>(a)</num>
+          <text>Ensure proper operation of all spill and overfill, corrosion protection, and release detection equipment; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Prevent a spill, release, or discharge;</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The owner and the operator of the UST system shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Make the facility where the UST system is located available for reasonable inspection by the Secretary or the Secretary’s authorized representative; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>During an inspection, allow the Secretary or the Secretary’s authorized representative to:</text>
+          <para>
+            <num>(i)</num>
+            <text>Collect air, ground or surface water, soil, and vegetation samples or samples of other materials on-site as determined necessary by the Department; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Obtain photographic or videographic documentation or evidence;</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The owner and the operator of the UST system shall make all records required under <cite path="|26.10">COMAR 26.10</cite> and <cite doc="Md. Code" path="gen">Environment Article, Annotated Code of Maryland</cite> available for inspection and copying by the Secretary or the Secretary’s authorized representative; and</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The owner and the operator of the UST system shall complete any survey forms or other documents required by the Department in a timely manner.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Suspension or Revocation.</text>
+      <para>
+        <num>(1)</num>
+        <text>The Department may suspend or revoke a permittee’s authorization provided under <cite path="26|10|02|.04|A.">§A of this regulation</cite> if the Department determines that:</text>
+        <para>
+          <num>(a)</num>
+          <text>A violation of a condition specified under <cite path="26|10|02|.04|A.">§A of this regulation</cite> has occurred;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A violation of an applicable federal, State, or local requirement related to the management of a regulated substance has occurred;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A violation of the <cite doc="Md. Code" path="gen">Environment Article, Annotated Code of Maryland</cite> or a regulation adopted under the <cite doc="Md. Code" path="gen">Environment Article, Annotated Code of Maryland</cite> has occurred;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>False or inaccurate information or data was provided in a document required to be submitted under this regulation to the Department;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>A permittee’s continued operation of a UST system under the General UST System Permit would pose a risk of harm to public health, safety, or welfare or the environment; or</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Any other good cause exists for suspending or revoking the authorization.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Once the Department suspends or revokes a permittee’s authorization provided under <cite path="26|10|02|.04|A.">§A of this regulation</cite>, the permittee shall cease activities permitted under the suspended or revoked authorization in a manner determined by the Department.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Judicial Review. A person aggrieved by a permit issued by the Department may obtain immediate judicial review under the provisions of State Government Article, §§<cite doc="Md. Code" path="gsg|10-222">10-222</cite> and <cite doc="Md. Code" path="gsg|10-223">10-223</cite>, Annotated Code of Maryland and the Maryland Rules.</text>
+    </para>
+  </section>
+  <section cache:ref-path="26|10|02|.05">
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Violations and Hearing Rights.</heading>
+    <para>
+      <num>A.</num>
+      <text>The provisions of this regulation apply to an owner and an operator of a UST system regulated under <cite path="|26.10">COMAR 26.10</cite>.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>If the Department determines that an owner and an operator of a UST system violated a provision of this chapter or <cite doc="Md. Code" path="gen">Environment Article, Title 4, Subtitle 4, Annotated Code of Maryland</cite>, the Department shall comply with the violation procedures specified under <cite path="26.10.01.24">COMAR 26.10.01.24</cite> and <cite doc="Md. Code" path="gen|4-412">Environment Article, §4-412, Annotated Code of Maryland</cite>.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>In addition to the violation procedures identified under <cite path="26|10|02|.05|B.">§B of this regulation</cite>, if the UST system is a hazardous substance UST system from which a release of a hazardous substance has occurred, the Department shall conduct any applicable enforcement actions under Environment Article, Title 7, Subtitle 2, Part VIII, Annotated Code of Maryland.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Contested Case Hearings.</text>
+      <para>
+        <num>(1)</num>
+        <text>In addition to any other contested case hearing rights provided under this chapter, an owner and an operator of a UST system shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Have the contested case hearing rights provided under <cite path="26.10.01.24|B.">COMAR 26.10.01.24B</cite> and <cite doc="Md. Code" path="gen|4-412">Environment Article, §4-412, Annotated Code of Maryland</cite>; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>In the case of a release of a hazardous substance from a UST system, have the contested case hearing rights provided under <cite doc="Md. Code" path="gen|7-261">Environment Article, §7-261, Annotated Code of Maryland</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Department shall conduct a contested case hearing in accordance with the provisions under <cite doc="Md. Code" path="gsg">State Government Article, Title 10, Subtitle 2, Annotated Code of Maryland</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Judicial Review. A person aggrieved by an order issued by the Department may obtain immediate judicial review under the provisions of State Government Article, §§<cite doc="Md. Code" path="gsg|10-222">10-222</cite> and <cite doc="Md. Code" path="gsg|10-223">10-223</cite>, Annotated Code of Maryland and the Maryland Rules.</text>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Environment Article, §§<cite doc="Md. Code" path="gen|4-401">4-401</cite>, <cite doc="Md. Code" path="gen|4-402">4-402</cite>, <cite doc="Md. Code" path="gen|4-405">4-405</cite>, <cite doc="Md. Code" path="gen|4-407">4-407</cite>—<cite doc="Md. Code" path="gen|4-412">4-412</cite>, <cite doc="Md. Code" path="gen|4-415">4-415</cite>—<cite doc="Md. Code" path="gen|4-419">4-419</cite>, <cite doc="Md. Code" path="gen|4-701">4-701</cite> et seq., and 7-201 et seq.; State Government Article, §§<cite doc="Md. Code" path="gsg|10-206">10-206</cite> and <cite doc="Md. Code" path="gsg|10-226">10-226</cite>; Annotated Code of Maryland</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1991-02-04">Effective date: February 4, 1991 (18:2 Md. R. 151)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1996-11-04">Chapter revised effective November 4, 1996 (23:22 Md. R. 1498)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2009-01-12"><cite path="|26|10|02|.01">Regulation .01</cite> amended effective January 12, 2009 (36:1 Md. R. 25)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2009-01-12"><cite path="|26|10|02|.02|A.">Regulation .02A</cite>, C amended effective January 12, 2009 (36:1 Md. R. 25)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2002-02-18"><cite path="|26|10|02|.02|C.">Regulation .02C</cite> amended effective February 18, 2002 (29:3 Md. R. 224)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2005-01-26">Regulations <cite path="|26|10|02|.03">.03</cite>—<cite path="|26|10|02|.03">.03</cite>-6 adopted as an emergency provision effective January 26, 2005 (32:4 Md. R. 404); emergency provision extended at 32:15 Md. R. 1315</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2006-01-16">Regulations <cite path="|26|10|02|.03">.03</cite>—<cite path="|26|10|02|.03">.03</cite>-6 adopted effective January 16, 2006 (33:1 Md. R. 37)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2009-01-12"><cite path="|26|10|02|.03|B.">Regulation .03B</cite> amended effective January 12, 2009 (36:1 Md. R. 25)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2006-07-05"><cite path="|26|10|02|.03">Regulation .03</cite>-1 amended as an emergency provision effective July 5, 2006 (33:16 Md. R. 1362); emergency status expired December 31, 2006</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2010-04-19"><cite path="|26|10|02|.03">Regulation .03</cite>-2F amended effective April 19, 2010 (37:8 Md. R. 621)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2009-01-12"><cite path="|26|10|02|.03">Regulation .03</cite>-4 amended effective January 12, 2009 (36:1 Md. R. 25)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2009-01-12"><cite path="|26|10|02|.04|B.">Regulation .04B</cite> amended effective June 29, 1998 (25:13 Md. R. 997); February 18, 2002 (29:3 Md. R. 224); January 16, 2006 (33:1 Md. R. 37); January 12, 2009 (36:1 Md. R. 25)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2009-01-12"><cite path="|26|10|02|.05">Regulation .05</cite> amended effective January 12, 2009 (36:1 Md. R. 25)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2010-04-19"><cite path="|26|10|02|.06">Regulation .06</cite> amended effective June 29, 1998 (25:13 Md. R. 997); February 18, 2002 (29:3 Md. R. 224); January 12, 2009 (36:1 Md. R. 25); April 19, 2010 (37:8 Md. R. 621)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2022-06-13" discontinuity="true">Regulations <cite path="|26|10|02|.01">.01</cite>—<cite path="|26|10|02|.06">.06</cite> repealed and new Regulations <cite path="|26|10|02|.01">.01</cite>—<cite path="|26|10|02|.05">.05</cite> adopted effective June 13, 2022 (49:12 Md. R. 642)</annotation>
+  </annotations>
+</container>

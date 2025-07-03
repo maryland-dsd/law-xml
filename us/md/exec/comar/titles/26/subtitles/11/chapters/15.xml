@@ -1,0 +1,554 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>15</num>
+  <heading>Toxic Air Pollutants</heading>
+  <section cache:ref-path="26|11|15|.01">
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>"Acceptable ambient level (AAL)" means a concentration of a toxic air pollutant in the atmosphere that the Department determines will provide a margin of safety to protect the public health from toxic, noncarcinogenic effects that may be caused by the toxic air pollutant and that is used to evaluate the air quality impacts of all premises within a 5-kilometer (3.1-mile) radius. AALs are listed in <cite path="26.11.16.09">COMAR 26.11.16.09</cite>.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>"Allowable emissions" means the maximum emissions a source or installation is capable of discharging after consideration of any physical or operational limitations required by this subtitle or by enforceable conditions included in an applicable air quality permit to construct, permit to operate, secretarial order, plan for compliance, consent agreement, or court order.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Best Available Control Technology for Toxics (T-BACT).</text>
+        <para>
+          <num>(a)</num>
+          <text>"T-BACT" means control technology that results in the maximum degree of emission reduction that the Department determines, on a case-by-case basis, is available for each toxic air pollutant discharged by the installation, taking into account the potency and toxicity of each toxic air pollutant and the technical and economic feasibility of control.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"T-BACT" includes production, operation, and maintenance procedures, emission control technology, and other emission reduction technologies or a combination of these technologies and procedures.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>"T-BACT", as applicable to a MACT source, means:</text>
+          <para>
+            <num>(i)</num>
+            <text>A requirement that has been adopted by the US EPA under 40 CFR 63 and that applies to the installation, source, source category, or subcategory;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>A new source MACT as established by the Department in accordance with the provisions of 40 CFR §§63.40—63.44;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Alternative standard approved by the EPA Administrator; or</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Alternative emission limitation approved by the Department in accordance with 40 CFR Part 63, Subpart D.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>"Class I toxic air pollutant (Class I TAP)" means a substance or group of substances that is listed in <cite path="26.11.16.06">COMAR 26.11.16.06</cite>.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>"Class II toxic air pollutant (Class II TAP)" means any substance that is not a Class I TAP, for which there is no ambient air quality standard under this subtitle, that is not a simple asphyxiant or nuisance particulate, and that is:</text>
+        <para>
+          <num>(a)</num>
+          <text>A health hazard as that term is defined at 29 CFR §1915.1200 (July 1, 1994); or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Listed in <cite path="26.11.16.07|B.">COMAR 26.11.16.07B</cite> as an existing source Class II TAP, either individually or as a member of a group of substances.</text>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>"EPA's Risk Assessment Guidelines" means the U.S. Environmental Protection Agency's Guidelines for Carcinogenic Risk Assessment, 51 FR 33992 (September 24, 1986).</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>"Existing installation, existing source, or existing premises" means an installation, source, or premises, respectively, constructed before July 1, 1988, or for which the Department issued an air quality permit to construct before July 1, 1988. Any existing installation that is modified but that is not reconstructed after July 1, 1988, remains an existing installation.</text>
+      </para>
+      <para>
+        <num>(7-1)</num>
+        <text>"Hazardous air pollutant (HAP)" means any of the hazardous air pollutants listed in §112(b) of the federal Clean Air Act of 1990, 42 U.S.C. §§7401—7671.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>"Insignificant risk concentration (IRC)" means a concentration of a Class I toxic air pollutant in the atmosphere that would result in an excess individual lifetime cancer risk of not more than 1 in 100,000 (1 × 10 superscript -5) assuming continuous exposure for 70 years and using procedures consistent with EPA's Risk Assessment Guidelines. IRCs are listed in <cite path="26.11.16.09">COMAR 26.11.16.09</cite>.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>"Installation" has the meaning given in <cite path="26.11.01.01">COMAR 26.11.01.01</cite>, except that for purposes of this chapter, installation does not include air pollution control equipment as defined in <cite path="26.11.01.01">COMAR 26.11.01.01</cite>.</text>
+      </para>
+      <para>
+        <num>(9-1)</num>
+        <text>"MACT source" means a NESHAP source that is subject to the requirements in 40 CFR 63;</text>
+      </para>
+      <para>
+        <num>(9-2)</num>
+        <text>"Maximum achievable control technology (MACT)", as applicable, means:</text>
+        <para>
+          <num>(a)</num>
+          <text>MACT emission limitation for existing sources as defined in 40 CFR §63.51; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>MACT emission limitation for new sources as defined in 40 CFR §63.51.</text>
+        </para>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>"New installation, new source, or new premises" means an installation, source, or premises, respectively, constructed or reconstructed on or after July 1, 1988, except as provided under <cite path="26|11|15|.01|B.|(7)">§B(7) of this regulation</cite>.</text>
+      </para>
+      <para>
+        <num>(10-1)</num>
+        <text>"New source MACT" means maximum achievable control technology (MACT) emission limitation for new sources as defined in 40 CFR §63.41.</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>"Nuisance particulate" means dust that, when inhaled, causes a potentially reversible lung tissue reaction in which the architecture of the lung's air spaces remains intact, and collagen (scar tissue) is not formed to a significant extent. Examples of nuisance particulates are listed in <cite path="26.11.16.08">COMAR 26.11.16.08</cite>.</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>"Premises" means all the installations or other sources that are located on contiguous or adjacent properties and that are under the control of one person or under common control of a group of persons.</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>"Reconstruct" means to replace components of an existing installation, or add components to an existing installation, to such an extent that the fixed capital cost of the new components exceeds 50 percent of the fixed capital cost that would be required to construct a comparable entirely new installation. Reconstruct does not include replacement or additions that do not:</text>
+        <para>
+          <num>(a)</num>
+          <text>Cause the discharge of different toxic air pollutants;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Cause applicable screening levels to be exceeded; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Increase the ambient concentration of any Class I toxic air pollutant.</text>
+        </para>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>"Screening analysis" means an optional procedure for demonstrating compliance with <cite path="|26|11|15|.06">Regulation .06 of this chapter</cite> that compares maximum incremental ambient impacts with applicable screening levels.</text>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>"Screening level" means a concentration of a toxic air pollutant in the atmosphere used to evaluate the air quality impacts of a single premises. Screening level includes the following:</text>
+        <para>
+          <num>(a)</num>
+          <text>"Risk-based screening level" means a concentration of a Class I toxic air pollutant in the atmosphere as determined under <cite path="26.11.16.03">COMAR 26.11.16.03</cite>;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Special screening level (SSL)" means a concentration of a toxic air pollutant in the atmosphere that replaces a TLV or threshold-based screening level. Special screening levels are listed in <cite path="26.11.16.09">COMAR 26.11.16.09</cite>;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>"TLV-based screening level" means a concentration of a Class I or Class II toxic air pollutant in the atmosphere as determined under <cite path="26.11.16.03">COMAR 26.11.16.03</cite>;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>"Threshold-based screening level" means a concentration of a Class I or Class II toxic air pollutant in the atmosphere as determined under <cite path="26.11.16.03">COMAR 26.11.16.03</cite> when a TAP has neither a TLV-based nor a special screening level.</text>
+        </para>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>"Second tier analysis" means an optional procedure for demonstrating compliance with <cite path="|26|11|15|.06">Regulation .06 of this chapter</cite> using an acceptable ambient level or an insignificant risk concentration, as provided in <cite path="26.11.16.02">COMAR 26.11.16.02</cite>, instead of a screening level.</text>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>"Simple asphyxiant" means a physiologically inert gas or vapor that acts primarily by diluting atmospheric oxygen below the level required to maintain proper levels of oxygen in the blood. Examples of simple asphyxiants are listed in <cite path="26.11.16.08">COMAR 26.11.16.08</cite>.</text>
+      </para>
+      <para>
+        <num>(18)</num>
+        <text>"Threshold limit value (TLV)" means the airborne concentration of a substance that, according to the American Conference of Governmental Industrial Hygienists (ACGIH), represents conditions to which nearly all workers may be exposed without adverse effect and that is published in the chapter titled "1991—1992 Threshold Limit Values for Chemical Substances in the Work Environment" (Adopted by ACGIH with Intended Changes for 1991—1992), which is incorporated by reference. This chapter is found in the TLV booklet, defined in <cite path="26|11|15|.01|B.|(19)">§B(19) of this regulation</cite>. TLV includes the following:</text>
+        <para>
+          <num>(a)</num>
+          <text>"Ceiling TLV (TLV-C)" means a concentration that ACGIH indicates should not be exceeded even instantaneously in a workplace;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Short term exposure limit (TLV-STEL or STEL)" means a 15-minute time-weighted average concentration that ACGIH indicates should not be exceeded at any time during a workday;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>"Threshold limit value—time weighted average (TLV-TWA)" means a concentration recommended by ACGIH for a normal 8-hour workday and 40-hour workweek.</text>
+        </para>
+      </para>
+      <para>
+        <num>(19)</num>
+        <text>"TLV booklet" means "1991—1992 Threshold Limit Values for Chemical Substances and Physical Agents and Biological Exposure Indices" (American Conference of Governmental Industrial Hygienists, 1991).</text>
+      </para>
+      <para>
+        <num>(20)</num>
+        <text>Toxic Air Pollutant.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Toxic air pollutant (TAP)" means any Class I or Class II toxic air pollutant, as defined in §B(4) and (5) of this regulation.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Toxic air pollutant" does not include particulate matter and volatile organic compounds as generic classes of substances, but an individual substance or a group of substances within either of these classes is a TAP if it meets a criterion in §B(4) or (5) of this regulation.</text>
+        </para>
+      </para>
+      <para>
+        <num>(21)</num>
+        <text>"Upper bound unit risk factor" means the 95 percent upper confidence limit of an estimate of the extra risk of cancer associated with a continuous 70-year exposure to 1 microgram/cubic meter of a Class I toxic air pollutant.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="26|11|15|.02">
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Control of NESHAP and MACT Sources.</heading>
+    <para>
+      <num>A.</num>
+      <text>A person may not construct, modify, operate, or cause to be constructed, modified, or operated any NESHAP source as defined in <cite path="26.11.01.01|B.|(21)">COMAR 26.11.01.01B(21)</cite>, which results or will result in violation of any provisions of 40 CFR Part 61 (excluding Subparts B, H, I, K, Q, R, T, and W).</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A NESHAP source controlled under the requirements of <cite path="26|11|15|.02|A.">§A of this regulation</cite> is not subject to the requirements of Regulations .05 and .06 of this chapter to the extent that emissions from the source are regulated under 40 CFR 61 (NESHAP), except that a source is subject to any applicable requirement under 40 CFR 63, or MACT or new source MACT established by the Department in accordance with the provisions of 40 CFR Part 63, Subpart B.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A person may not construct, reconstruct, or operate, or cause to be constructed, reconstructed, or operated, a MACT source which results, or will result, in violation of any provisions of 40 CFR 63.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>A person may not construct, reconstruct, or operate, or cause to be constructed, reconstructed, or operated, any MACT source which results, or will result, in a violation of a MACT or new source MACT established by the Department in accordance with the provisions of 40 CFR Part 63, Subpart B.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>The applicability of a requirement under 40 CFR 63, a MACT, or a new source MACT to a source does not change the applicability of this chapter to that source.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>MACT sources may request from the Department a compliance extension for certain 40 CFR 63 requirements following the procedures set forth in 40 CFR Part 63, Subpart D.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Applicability and Exemptions.</heading>
+    <para>
+      <num>A.</num>
+      <text>Applicability.</text>
+      <para>
+        <num>(1)</num>
+        <text>Sources Subject to Permit Requirements. Except as provided in this regulation and in <cite path="|26|11|15|.06">Regulation .06 of this chapter</cite>, any installation or source that discharges a Class I or Class II TAP into the ambient air is subject to the requirements of this chapter if the installation or source:</text>
+        <para>
+          <num>(a)</num>
+          <text>Is required to obtain a permit to construct or approval under <cite path="26.11.02.09">COMAR 26.11.02.09</cite>; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Either has obtained, or was required to obtain, a State permit to operate on or before March 1, 1993.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Certain Electric Generating Stations. An installation that burns refuse-derived fuel that is part of a generating station constructed by an electric company is subject to the requirements of this chapter.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Hazardous Waste Incinerators. A hazardous waste incinerator, as defined in <cite path="26.13.01.03|B.|(33)">COMAR 26.13.01.03B(33)</cite>, for which a hazardous waste facility permit has been requested or issued is subject to the requirements of this chapter.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Sources Subject to Requirements Under 40 CFR 63. Regardless of the applicability of this chapter, a person that causes emissions of HAPs may be subject to the requirements of 40 CFR 63.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Other. The Department may require any installation or source not otherwise subject to this chapter to meet the requirements of this chapter if the Department determines that the installation or source has the potential to discharge toxic air pollutants in quantities that may unreasonably endanger the public health.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Exempt Installations or Sources.</text>
+      <para>
+        <num>(1)</num>
+        <text>This section does not mean that a source is exempt from an applicable requirement under 40 CFR 63, or MACT or new source MACT established by the Department in accordance with the provisions of 40 CFR Part 63, Subpart B.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>General Exemptions. The following installations or sources are exempt from the requirements of this chapter:</text>
+        <para>
+          <num>(a)</num>
+          <text>Fuel-burning equipment as defined at <cite path="26.11.09.01">COMAR 26.11.09.01</cite>, other than equipment burning refuse-derived fuel;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Charbroilers and pit barbecues as defined in <cite path="26.11.18.01">COMAR 26.11.18.01</cite>; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Gasoline stations operated for the purpose of refueling motor vehicles.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Exemptions from Regulations .05 and .06 of this chapter.</text>
+        <para>
+          <num>(a)</num>
+          <text>Premises Discharging Small Quantities of Class II TAPs. The emissions of a Class II TAP from a premises are exempt from the requirements of Regulations .05 and .06 of this chapter, if:</text>
+          <para>
+            <num>(i)</num>
+            <text>The total allowable emissions of the TAP from the premises are 0.5 pound per hour (0.23 kilogram per hour) or less; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>All applicable TLV-based, threshold-based, or special screening levels for the TAP are greater than 200 micrograms/cubic meter.</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Premises Discharging Small Quantities of Class I TAPs. The emissions of a Class I TAP from a premises are exempt from the requirements of Regulations .05 and .06 of this chapter, if:</text>
+          <para>
+            <num>(i)</num>
+            <text>The total allowable emissions of the TAP from the premises are 0.5 pound per hour (0.23 kilogram per hour) or less;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The total allowable emissions of the TAP from the premises are 350 pounds per year (159 kilograms per year) or less;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>All applicable TLV-based, threshold-based, or special screening levels for the TAP are greater than 200 micrograms/cubic meter; and</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>The applicable risk-based screening level is greater than 1 microgram/cubic meter.</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Other. The Department may, on a case-by-case basis, after providing public notice and an opportunity for a public hearing, exempt any other installation, source, or premises from a requirement under Regulations .05 and .06 of this chapter on the basis of capacity, nature of equipment or materials, amount of emissions, or other evidence that the installation, source, or premises has a limited potential to discharge toxic air pollutants to the atmosphere and will not unreasonably endanger human health.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Exemption from Regulation .06. If the total allowable emissions of a Class II TAP from a premises will not create an 8-hour concentration of the TAP in the atmosphere that exceeds 0.02 microgram/cubic meter beyond the property line, then emissions of that TAP from the premises are exempt from the requirements of <cite path="|26|11|15|.06">Regulation .06 of this chapter</cite>.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Requirement to Quantify Emissions.</heading>
+    <para>
+      <num>A.</num>
+      <text>New Installations or Sources.</text>
+      <para>
+        <num>(1)</num>
+        <text>The owner or operator of a new installation or source shall quantify emissions of each TAP that will be discharged and submit that information to the Department when applying for the permit to construct the new installation or source, or when an update is requested by the Department.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Emissions shall be quantified in sufficient detail to determine whether the premises complies with the requirements of this chapter.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Existing Installations or Sources.</text>
+      <para>
+        <num>(1)</num>
+        <text>The owner or operator of an existing installation or source that, on or before March 1, 1993, either has obtained or was required to obtain a State permit to operate shall quantify emissions of each toxic air pollutant that is discharged that is listed in <cite path="26.11.16.06">COMAR 26.11.16.06</cite> and .07B.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Emissions shall be quantified in sufficient detail to determine whether the premises complies with the requirements of this chapter.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>An owner or operator of an existing installation or source shall submit emissions data not later than 1 year after becoming subject to this chapter or not later than the following dates, whichever is later:</text>
+        <para>
+          <num>(a)</num>
+          <text>January 1, 1989, for Class I toxic air pollutants listed in <cite path="26.11.16.06">COMAR 26.11.16.06</cite>;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>January 1, 1989, for Class II toxic air pollutants listed in <cite path="26.11.16.07|B.">COMAR 26.11.16.07B</cite> with a compliance date of July 1, 1990; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>January 1, 1991, for any other Class II toxic air pollutants listed in <cite path="26.11.16.07|B.">COMAR 26.11.16.07B</cite>.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Certain Exempt Sources.</text>
+      <para>
+        <num>(1)</num>
+        <text>Certain Premises Discharging Small Quantities of TAP. The owner or operator of a premises exempted from certain requirements under Regulation .03B(3)(a) or (b) of this chapter shall quantify emissions as required by §A or B of this regulation in sufficient detail to demonstrate the Department's satisfaction that emissions are less than the applicable emission rates listed in Regulation .03B(3)(a) or (b) of this chapter.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Other Sources Exempt from Regulations .05 or .06. The owner or operator of a NESHAP source or other installation, source, or premises exempted from certain requirements under Regulation .02B, .03B(3)(c), or .03B(4) of this chapter shall quantity emissions as required by §A or B of this regulation.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Level of Detail.</text>
+      <para>
+        <num>(1)</num>
+        <text>An initial screening analysis under <cite path="26.11.16.02|A.">COMAR 26.11.16.02A</cite> may be based on a conservative estimate of emissions that represents good engineering judgment, if the Department determines that the analysis demonstrates applicable screening levels will not be exceeded. If compliance with <cite path="|26|11|15|.06">Regulation .06 of this chapter</cite> cannot be demonstrated on this basis, more precise emission estimates shall be used.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An owner or operator of a source that discharges more than one toxic air pollutant may demonstrate compliance with <cite path="|26|11|15|.06">Regulation .06 of this chapter</cite> by:</text>
+        <para>
+          <num>(a)</num>
+          <text>Quantifying emissions and performing modeling for each TAP individually;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Using procedures approved by the Department to quantify TAP emissions and perform modeling for a group of TAPs, and to evaluate concentrations on the basis of the toxicity of the most toxic component or components of the group; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Using other procedures approved by the Department.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If several related substances are listed as Class I TAPs or are members of a group of substances listed as a Class I TAP, and these substances are evaluated using a common upper bound unit risk factor, then the substances shall be considered together as one TAP. For example, all hexavalent compounds of chromium that have been determined to be carcinogens shall be considered together as one TAP. Also, dioxin and furan emissions shall be considered together as one TAP and expressed as an equivalent emission of 2,3,7,8-tetrachlorodibenzo-p-dioxin based upon the relative potency of the isomers.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Control Technology Requirements.</heading>
+    <para>
+      <num>A.</num>
+      <text>New or Reconstructed Installations. A person may not construct, reconstruct, operate, or cause to be constructed, reconstructed, or operated, any new installation or source that will discharge a toxic air pollutant to the atmosphere without installing and operating T-BACT.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Certain Installations Discharging Class I Toxic Air Pollutants. A person who requests a special permit as provided in <cite path="26.11.16.05">COMAR 26.11.16.05</cite> shall install and operate T-BACT on installations or sources discharging the Class I TAP in question located at the same premises.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Existing Installations Using Dispersion Techniques. A person who complies with the ambient impact requirement in <cite path="|26|11|15|.06">Regulation .06 of this chapter</cite> by increasing the height of a stack above good engineering practice or by using other dispersion techniques shall use T-BACT. The following apply:</text>
+      <para>
+        <num>(1)</num>
+        <text>For purposes of this section, dispersion technique is defined as provided in 40 CFR §51.100(hh), 1996 edition, except that:</text>
+        <para>
+          <num>(a)</num>
+          <text>The provisions of 40 CFR §51.100(hh)(2)(v), 1996 edition, do not apply; that is, an installation's emissions of sulfur dioxide do not affect the definition of dispersion technique;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Good engineering practice (GEP) stack height shall be calculated as provided in 40 CFR §51.100(ii)(2)—(3), 1996 edition; that is, a stack height 65 meters or less is not presumed to be GEP unless it meets other criteria in 40 CFR §51.100(ii).</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>This section applies only to stack heights increased after July 1, 1988, or dispersion techniques instituted after July 1, 1988.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Unless an existing installation is controlled using T-BACT, the degree of emission limitation required in order to demonstrate compliance with <cite path="|26|11|15|.06">Regulation .06 of this chapter</cite> may not be affected by the amount of the installation's stack height that exceeds good engineering practice (GEP), or by any other dispersion technique.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="26|11|15|.06">
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Ambient Impact Requirement.</heading>
+    <para>
+      <num>A.</num>
+      <text>Requirements for New Installations, Sources, or Premises.</text>
+      <para>
+        <num>(1)</num>
+        <text>Except as provided in <cite path="26|11|15|.06|A.|(2)">§A(2) of this regulation</cite>, a person may not construct, modify, or operate, or cause to be constructed, modified, or operated, any new installation or source without first demonstrating to the satisfaction of the Department using procedures established in this chapter that total allowable emissions from the premises of each toxic air pollutant discharged by the new installation or source will not unreasonably endanger human health.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If a new installation or source will discharge a TAP that is not listed in <cite path="26.11.16.07">COMAR 26.11.16.07</cite> and will be part of an existing premises, then emissions of that TAP from existing sources or existing installations on the premises may be omitted from a screening analysis unless the TAP is added to <cite path="26.11.16.07">COMAR 26.11.16.07</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Requirements for Existing Installations, Sources, or Premises.</text>
+      <para>
+        <num>(1)</num>
+        <text>Except as provided in <cite path="26|11|15|.06|B.|(3)">§B(3) of this regulation</cite>, a person may not cause or permit the discharge of a toxic air pollutant listed in <cite path="26.11.16.07">COMAR 26.11.16.07</cite> from an existing installation or source if total allowable emissions of that TAP from the premises will unreasonably endanger human health.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A person shall demonstrate compliance with <cite path="26|11|15|.06|B.|(1)">§B(1) of this regulation</cite> using the procedures established in <cite path="|26|11|15|.07">Regulation .07 of this chapter</cite> and <cite path="|26.11.16">COMAR 26.11.16</cite>.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A person who owns or operates an existing premises shall meet the requirements of §B(1) and (2) of this regulation for each TAP listed in  <cite path="26.11.16.07">COMAR 26.11.16.07</cite> by the applicable compliance dates listed in <cite path="26.11.16.07">COMAR 26.11.16.07</cite>, or not later than 2 years after becoming subject to this chapter, whichever is later.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>General Requirements for Compliance Demonstrations.</heading>
+    <para>
+      <num>A.</num>
+      <text>To demonstrate that a premises discharging a Class I TAP is in compliance with <cite path="|26|11|15|.06">Regulation .06 of this chapter</cite>, a person shall demonstrate that allowable emissions will not unreasonably endanger human health both because of potential carcinogenic effects and because of other potential toxic effects. Demonstrations for Class II TAPs are required only for potential toxic effects other than cancer.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>To demonstrate compliance with <cite path="|26|11|15|.06">Regulation .06 of this chapter</cite> a person may:</text>
+      <para>
+        <num>(1)</num>
+        <text>Use a screening analysis or second tier analysis, as explained in <cite path="26.11.16.02|A.">COMAR 26.11.16.02A</cite> and B;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Request a special permit under <cite path="26.11.16.05">COMAR 26.11.16.05</cite>; or</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Use other options provided by law.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A person may request approval of an interim special screening level, interim acceptable ambient level, or interim insignificant risk concentration as provided in <cite path="26.11.16.04">COMAR 26.11.16.04</cite> in order to use the interim level in place of a special screening level, AAL, or IRC to demonstrate compliance with <cite path="|26|11|15|.06">Regulation .06 of this chapter</cite>.</text>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Environment Article, §§<cite doc="Md. Code" path="gen|1-101">1-101</cite>, <cite doc="Md. Code" path="gen|1-404">1-404</cite>, <cite doc="Md. Code" path="gen|2-101">2-101</cite>—<cite doc="Md. Code" path="gen|2-103">2-103</cite>, <cite doc="Md. Code" path="gen|2-301">2-301</cite>—<cite doc="Md. Code" path="gen|2-303">2-303</cite>, <cite doc="Md. Code" path="gen|10-102">10-102</cite>, and <cite doc="Md. Code" path="gen|10-103">10-103</cite>, Annotated Code of Maryland</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1983-02-25">Effective date: February 25, 1983 (10:1 Md. R. 30)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1986-08-11">Regulations .01E and .02 amended effective July 2, 1985 (12:11 Md. R. 1049); October 14, 1985 (12:18 Md. R. 1766); August 11, 1986 (13:13 Md. R. 1492)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1987-04-06">Regulations .01 and .03 repealed effective April 6, 1987 (14:5 Md. R. 579) (Provisions transferred to <cite path="|10.18.23">COMAR 10.18.23</cite>)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1988-01-05"><cite path="|26|11|15|.02">Regulation .02</cite> amended effective January 5, 1988 (14:24 Md. R. 2555)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1983-05-02" discontinuity="true"><strong>Annotation: </strong>Attorney General Opinion No. 83-015 (May 2, 1983) found that the Department of Health and Mental Hygiene has ample statutory authority to adopt the asbestos project cleanliness measurement found in <cite path="10.18.15.03|B.|(1)|(d)|(ii)">COMAR 10.18.15.03B(1)(d)(ii)</cite>.</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" discontinuity="true">Chapter recodified from <cite path="|10.18.15">COMAR 10.18.15</cite> to <cite path="|26.11.15">COMAR 26.11.15</cite></annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1988-09-27"><cite path="|26|11|15|.01">Regulation .01</cite> adopted effective September 27, 1988 (15:18 Md. R. 2148)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1997-08-11"><cite path="|26|11|15|.01|B.">Regulation .01B</cite> amended effective November 19, 1989 (16:20 Md. R. 2185); July 2, 1990 (17:10 Md. R. 1221); May 2, 1991 (18:6 Md. R. 689); November 23, 1992 (19:23 Md. R. 2042); August 11, 1997 (24:16 Md. R. 1161)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1997-08-11"><cite path="|26|11|15|.02">Regulation .02</cite> amended effective September 26, 1988 (15:17 Md. R. 2049); March 31, 1991 (18:4 Md. R. 450); February 17, 1992 (19:3 Md. R. 306); June 20, 1994 (21:12 Md. R. 1064); August 11, 1997 (24:16 Md. R. 1161)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1988-09-27">Regulations <cite path="|26|11|15|.03">.03</cite>—<cite path="|26|11|15|.13">.13</cite> adopted effective September 27, 1988 (15:18 Md. R. 2148)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1997-08-11"><cite path="|26|11|15|.03|A.">Regulation .03A</cite> amended effective November 19, 1989 (16:20 Md. R. 2185); May 8, 1995 (22:9 Md. R. 653); August 11, 1997 (24:16 Md. R. 1161)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1995-05-08"><cite path="|26|11|15|.04|A.">Regulation .04A</cite>, B amended effective May 8, 1995 (22:9 Md. R. 653)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1989-06-20"><cite path="|26|11|15|.07|C.">Regulation .07C</cite> amended effective June 20, 1989 (16:9 Md. R. 995)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1995-05-08"><cite path="|26|11|15|.09|B.">Regulation .09B</cite> amended effective May 8, 1995 (22:9 Md. R. 653)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1997-08-11"><cite path="|26|11|15|.10|D.">Regulation .10D</cite> amended effective August 11, 1997 (24:16 Md. R. 1161)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1992-11-09"><cite path="|26|11|15|.11">Regulation .11</cite> amended effective November 9, 1992 (19:22 Md. R. 1990)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1992-11-09"><cite path="|26|11|15|.12">Regulation .12</cite> amended effective November 9, 1992 (19:22 Md. R. 1990)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1991-05-02"><cite path="|26|11|15|.13">Regulation .13</cite> amended effective May 2, 1991 (18:6 Md. R. 689)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1997-08-11"><cite path="|26|11|15|.14">Regulation .14</cite> adopted effective August 11, 1997 (24:16 Md. R. 1161)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1998-10-05" discontinuity="true">Regulations <cite path="|26|11|15|.01">.01</cite>—<cite path="|26|11|15|.07|A.">.07A</cite> amended and Regulations <cite path="|26|11|15|.07|B.">.07B</cite>—<cite path="|26|11|15|.14">.14</cite> recodified to <cite path="|26.11.16">COMAR 26.11.16</cite> effective October 5, 1998 (25:20 Md. R. 1533)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2000-12-25"><cite path="|26|11|15|.01|B.">Regulation .01B</cite> amended effective December 25, 2000 (27:25 Md. R. 2285)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2000-12-25"><cite path="|26|11|15|.02">Regulation .02</cite> amended effective December 25, 2000 (27:25 Md. R. 2285)</annotation>
+  </annotations>
+</container>
