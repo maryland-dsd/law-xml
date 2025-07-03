@@ -1,0 +1,625 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>40</num>
+  <heading>Early Intervention Services Coordination</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>"Department" means the Department as defined in <cite path="10.09.36.01">COMAR 10.09.36.01</cite>.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>"Developmental areas" means cognitive development, physical development (including fine and gross motor and sensory development), speech and language development, psychological development, and self-help skills.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>“Developmental delay” has the meaning stated in COMAR 13A.13.01.03B.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>“Early intervention services” means services defined in COMAR 13A.13.01.03B(15) that:</text>
+        <para>
+          <num>(a)</num>
+          <text>Are designed to meet the developmental needs of infants and toddlers with disabilities;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Are provided under public supervision and in conformity with an IFSP; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Meet applicable State and federal standards.</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>“Early intervention service coordination” means the coordination of services covered under this chapter.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>"Family" means those individuals with whom a participant resides, who are responsible for the participant, are the primary nurturing caregivers, and have assumed major, long-term roles in the infant or toddler's daily life.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>"Individualized Family Service Plan (IFSP)" means a participant's written plan for early intervention services which is developed or revised by a multidisciplinary team based on the results of a multidisciplinary assessment or reassessment and is documented in accordance with guidelines issued by the Maryland Infants and Toddlers Program.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>"Local health department" means the public health services agency in each county and Baltimore City, which receives State and local government funding to ensure that basic public health services in the areas of personal and environmental health are available in each jurisdiction.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>“Maryland Infants and Toddlers Program” means the program designated by the Governor under Executive Order <cite path="01.01.1988.15">01.01.1988.15</cite> to plan, develop, and implement a Statewide, coordinated, comprehensive, multidisciplinary, interagency plan for early intervention services in Maryland.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>"Medical Assistance Program" means the Medical Assistance Program as defined in <cite path="10.09.36.01">COMAR 10.09.36.01</cite>.</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>"Medically necessary" has the meaning stated in <cite path="10.09.36.01">COMAR 10.09.36.01</cite>.</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>"Multidisciplinary assessment or reassessment" means the process used by a participant's multidisciplinary team to review the child's unique needs, the family's ability to assist in meeting needs related to the child's development, and the nature and extent of early intervention and other services needed by the child.</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>“Multidisciplinary team” means the involvement of two or more disciplines or professions in the provision of integrated and coordinated services, including evaluation and assessment activities and the development of the IFSP.</text>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>“Parent” has the meaning stated in COMAR 13A.13.01.03B.</text>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>“Participant” means a federally qualified recipient:</text>
+        <para>
+          <num>(a)</num>
+          <text>Who is aged birth to the beginning of the school year following the child’s fourth birthday;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Whose parents have provided written consent for the use of public benefits consistent with COMAR 13A.13.01.12;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Who is not receiving the same service coordination services under another Program authority; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Who is defined as a child with a developmental delay as defined in COMAR 13A.13.01.03.</text>
+        </para>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>"Program" means the Program as defined in <cite path="10.09.36.01">COMAR 10.09.36.01</cite>.</text>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>“Provider” means an early intervention service coordination provider.</text>
+      </para>
+      <para>
+        <num>(18)</num>
+        <text>“Service coordination” means the services provided, as part of the Maryland Infants and Toddlers Program, which assists participants in gaining access to the full range of Medical Assistance services, as well as to any additional needed medical, social, mental health, financial assistance, counseling, educational, and other support services.</text>
+      </para>
+      <para>
+        <num>(19)</num>
+        <text>“Service coordinator” means an individual who:</text>
+        <para>
+          <num>(a)</num>
+          <text>Is utilized by the provider and chosen by the participant’s parent;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Is designated to carry out the IFSP service coordination activities;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Meets the requirements in <cite path="|10|09|40|.03|C.">Regulation .03C of this chapter</cite>; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Provides the services specified in <cite path="|10|09|40|.04">Regulation .04 of this chapter</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(20)</num>
+        <text>“Telehealth” has the meaning as stated in <cite path="10.09.49.02">COMAR 10.09.49.02</cite>.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Licensing Requirements.</heading>
+    <para>
+      <num>A.</num>
+      <text>Social workers participating as service coordinators shall be licensed pursuant to <cite doc="Md. Code" path="gho">Health Occupations Article, Title 18, Annotated Code of Maryland</cite>, or meet the social worker licensure and regulatory requirements of the state in which the services are provided.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Registered nurses participating as service coordinators shall be licensed pursuant to <cite doc="Md. Code" path="gho">Health Occupations Article, Title 7, Annotated Code of Maryland</cite>, or meet the registered nurse licensure and regulatory requirements of the state in which the services are provided.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Audiologists participating as service coordinators shall be licensed pursuant to <cite path="10.41.03.03">COMAR 10.41.03.03</cite>, or meet the audiologist licensure and regulatory requirements of the state in which the services are provided.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Nutritionists or dietitians participating as service coordinators shall be licensed pursuant to <cite doc="Md. Code" path="gho">Health Occupations Article, Title 4, Annotated Code of Maryland</cite>, or meet the corresponding licensure and regulatory requirements of the state in which the services are provided.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Occupational therapists participating as service coordinators shall be licensed pursuant to <cite doc="Md. Code" path="gho">Health Occupations Article, Title 9, Annotated Code of Maryland</cite>, or meet the occupational therapist licensure and regulatory requirements of the state in which the services are provided.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Physical therapists participating as service coordinators shall be licensed pursuant to <cite doc="Md. Code" path="gho">Health Occupations Article, Title 13, Annotated Code of Maryland</cite>, or meet the physical therapist licensure and regulatory requirements of the state in which the services are provided.</text>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Clinical psychologists participating as service coordinators shall be licensed pursuant to <cite doc="Md. Code" path="gho">Health Occupations Article, Title 16, Annotated Code of Maryland</cite>, or meet the clinical psychologist licensure and regulatory requirements of the state in which the services are provided.</text>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>School psychologists participating as service coordinators shall be certified pursuant to COMAR 13A.12.03.08, or meet the school psychologist regulatory requirements of the state in which the services are provided.</text>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>Special educators participating as service coordinators shall be certified pursuant to COMAR 13A.12.01.04, or meet the special educator regulatory requirements of the state in which services are provided.</text>
+    </para>
+    <para>
+      <num>J.</num>
+      <text>Speech language pathologists participating as service coordinators shall be licensed pursuant to <cite doc="Md. Code" path="gho">Health Occupations Article, Title 19, Annotated Code of Maryland</cite>, or meet the speech language pathologist licensure or certification and regulatory requirements of the state in which the services are provided.</text>
+    </para>
+    <para>
+      <num>K.</num>
+      <text>Professional counselors participating as service coordinators shall be licensed pursuant to <cite doc="Md. Code" path="gho">Health Occupations Article, Title 15, Annotated Code of Maryland</cite>, or meet the professional counselor licensure and regulatory requirements of the state in which services are provided.</text>
+    </para>
+    <para>
+      <num>L.</num>
+      <text>Physicians participating as service coordinators shall be licensed pursuant to <cite doc="Md. Code" path="gho">Health Occupations Article, Title 14, Annotated Code of Maryland</cite>, or meet the physicians’ licensure and regulatory requirements of the state in which the services are provided.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Conditions for Participation.</heading>
+    <para>
+      <num>A.</num>
+      <text>General requirements for participation in the Program are that providers shall do the following, either directly through staff or by agreement:</text>
+      <para>
+        <num>(1)</num>
+        <text>Meet all conditions for participation as set forth in <cite path="10.09.36.03">COMAR 10.09.36.03</cite>; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Maintain a file on each participant which meets the Program’s requirements and which includes for each contact made by the service coordinator:</text>
+        <para>
+          <num>(a)</num>
+          <text>Date and subject of contact,</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Person contacted,</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Person making the contact,</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Nature, content, and unit or units of service provided;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Place of service; and</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Signature and printed name of the service coordinator.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Specific requirements for participation in the Program as an early intervention service coordinator are that the provider shall do the following, either directly or indirectly by agreement:</text>
+      <para>
+        <num>(1)</num>
+        <text>Use qualified individuals as service coordinators;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Have demonstrated expertise in providing family-centered, community-based, coordinated care to children with disabilities, with an emphasis on early intervention services;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Develop the IFSP within 45 working days of referral, unless client-related extenuating circumstances are documented in accordance with COMAR 13A.13.01.07B.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Have formal written policies and procedures, approved by the Department, which specifically address the provision of early intervention [services case management] service coordination to participants in accordance with the requirements of this chapter;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Designate specific qualified individuals as early intervention service coordinators;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Maintain on file an initial Individualized Family Service Plan for each participant, and any subsequent revised IFSPs;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Be knowledgeable of the eligibility requirements and application procedures of federal, State, and local government assistance programs which are applicable to participants;</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Maintain a current listing of medical, social, mental health, financial assistance, education, training, counseling, and other early intervention and support services available to infants and toddlers with disabilities; and</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>Strictly safeguard the confidentiality of a participant's records, so as not to endanger the participant's and the family's legal rights, family relationships, and status in the community.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A service coordinator shall meet the following requirements:</text>
+      <para>
+        <num>(1)</num>
+        <text>Be a professional who:</text>
+        <para>
+          <num>(a)</num>
+          <text>Has a current license or certification, according to <cite path="|10|09|40|.02">Regulation .02 of this chapter</cite>, in the profession most immediately relevant to a participant’s needs; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Has demonstrated training or experience in providing service coordination or other early intervention services to infants and toddlers with disabilities; or</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Be a nonprofessional who:</text>
+        <para>
+          <num>(a)</num>
+          <text>Has a high school diploma or its equivalency who meets Personnel Standards described in COMAR 13A.07.01.02;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Has demonstrated training or experience in providing service coordination or other early intervention services to infants and toddlers with disabilities; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Participates in ongoing training offerings as specified in the interagency plan for early intervention services.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Covered Services.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Program shall reimburse for the services in §§B, C, and D of this regulation, when they have been documented as necessary.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Initial Service Coordination.</text>
+      <para>
+        <num>(1)</num>
+        <text>A unit of service is defined as a completed initial Individualized Family Service Plan (IFSP) and at least one contact with the participant or the participant’s family, on the participant’s behalf.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The covered services include convening and conducting a multidisciplinary team to:</text>
+        <para>
+          <num>(a)</num>
+          <text>Perform a multidisciplinary assessment; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Develop an initial IFSP for a participant that identifies the:</text>
+          <para>
+            <num>(i)</num>
+            <text>Participant’s needs for early intervention, medical, mental and behavioral health, social, educational, financial assistance, counseling, and other support services;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Responsibilities and rights of the participant and the family,</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Provider's responsibilities, and</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Resources available to provide the needed services.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Administrative, supervisory, and monitoring services associated with the initial service coordination are included as a part of the service.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Ongoing Service Coordination.</text>
+      <para>
+        <num>(1)</num>
+        <text>Ongoing service coordination is provided following the initial service coordination.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A unit of service includes all necessary covered services and at least one monthly contact with the participant’s family on the participant’s behalf via:</text>
+        <para>
+          <num>(a)</num>
+          <text>Telephone call;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Telehealth or in-person visit; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Written communication.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>These services include:</text>
+        <para>
+          <num>(a)</num>
+          <text>Maintaining contact with a participant and the family through home visits, office visits, telephone calls, and follow-up services as necessary;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Referring the participant to direct service providers, assisting the participant in gaining access to services specified in the IFSP, and providing linkage to agreed-upon direct service providers of early intervention services;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Discussing with direct service providers of early intervention services the services needed and available for the participant, determining the quality and quantity of service being provided, following up to identify any obstacles to a participant's utilization of services, coordinating the service delivery, and performing ongoing monitoring to determine whether the recommended services are being delivered and meet the participant's current needs;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Providing a participant's family with information and direction that will assist the participant in successfully accessing and using the services recommended in the IFSP;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Informing a participant's family of the participant's and the family's rights and responsibilities in regard to specific programs and resources;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Conducting, with a participant's family, a periodic review of the participant's IFSP every 6 months, or more frequently if conditions warrant or the family requests a review;</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>A periodic review accomplished at a meeting or by other means acceptable to the family and others involved in the review process, and which determines the following:</text>
+          <para>
+            <num>(i)</num>
+            <text>The degree of a participant's progress toward achieving the goals established in the IFSP, and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Whether the goals or recommended services need to be revised; and</text>
+          </para>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>Being available to the participant and the family on a nonscheduled basis as necessary for problem resolution and crisis management related to the participant's needs.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Administrative, supervisory, and monitoring services associated with the ongoing case management services are included as part of the service.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Annual IFSP Review.</text>
+      <para>
+        <num>(1)</num>
+        <text>A unit of service is defined as a completed annual IFSP review and at least one contact with the participant or the participant’s family, on the participant’s behalf.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The covered services include convening and conducting a multidisciplinary team to:</text>
+        <para>
+          <num>(a)</num>
+          <text>Perform a multidisciplinary reassessment of the participant's status and service needs; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Review and revise, as necessary, the participant's IFSP.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Limitations.</heading>
+    <para>
+      <num>A.</num>
+      <text>Early intervention service coordination is advisory in nature.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A restriction may not be placed on a qualified participant’s option to receive early intervention service coordination.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Early intervention service coordination does not restrict or otherwise affect:</text>
+      <para>
+        <num>(1)</num>
+        <text>Eligibility for Title XIX benefits or other available benefits or programs;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The freedom of a participant's parent or family to select from all available services for which the participant is found to be eligible;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A participant's parent or family's free choice among qualified providers, in the participant's behalf; or</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>A provider's right to bill the Program for other covered Program services.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Early intervention service coordination may not be:</text>
+      <para>
+        <num>(1)</num>
+        <text>Provided as an integral and inseparable part of another covered Program service;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Provided as an administrative function necessary for the proper and efficient operation of the State's Medical Assistance plan;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Rendered in connection with the implementation of §1915(b) or (c) of the Social Security Act; or</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Delivered as part of institutional discharge planning.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Reimbursement may not be made for early intervention service coordination if a participant is receiving a comparable case management service under another Program authority.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>A participant’s service coordinator may not be the participant’s parent.</text>
+    </para>
+  </section>
+  <section cache:ref-path="10|09|40|.06">
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Payment Procedures.</heading>
+    <para>
+      <num>A.</num>
+      <text>Request for Payment.</text>
+      <para>
+        <num>(1)</num>
+        <text>Requests for payment of early intervention service coordination shall be submitted by an approved provider according to procedures established by the Department. The Department reserves the right to return to the provider, before payment, all claims not properly signed and completed.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A provider shall submit a request for payment on the claim form designated by the Department. A separate claim shall be submitted for each participant.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The completed claim form in §A(2)B of this regulation shall indicate the:</text>
+        <para>
+          <num>(a)</num>
+          <text>Date or dates of service;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Participant's name and Medical Assistance number;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Provider's name, location, and provider number; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Nature, unit or units, and procedure code or codes of covered services provided.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Providers shall bill the Program for the appropriate fee specified in <cite path="10|09|40|.06|C.">§C of this regulation</cite>.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The Program may not make direct payment to participants.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Billing Time Limitations. Billing time limitations shall be as set forth in <cite path="10.09.36.06">COMAR 10.09.36.06</cite>.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Payment shall be made:</text>
+      <para>
+        <num>(1)</num>
+        <text>Only to a qualified provider for covered services rendered to a participant, as specified in these regulations;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Only to one provider of early intervention service coordination rendered to a participant during a billing period; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>According to the following fee-for-service schedule for early intervention service coordination:</text>
+        <para>
+          <num>(a)</num>
+          <text>Initial service coordination (only one unit of service may be reimbursed per participant) ... $500;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Ongoing service coordination (only one unit of service per month may be reimbursed for a participant after completion of initial service coordination or the annual IFSP review) ... $150;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Annual IFSP review ... $275 per review.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Recovery and Reimbursement.</heading>
+    <text>Recovery and reimbursement shall be as set forth in <cite path="10.09.36.07">COMAR 10.09.36.07</cite>.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Cause for Suspension or Removal and Imposition of Sanctions.</heading>
+    <text>Cause for suspension or removal and imposition of sanctions shall be as set forth in <cite path="10.09.36.08">COMAR 10.09.36.08</cite>.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Appeal Procedures.</heading>
+    <text>Appeal Procedures shall be as set forth in <cite path="10.09.36.09">COMAR 10.09.36.09</cite>.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.10</num>
+    <heading>Interpretive Regulation.</heading>
+    <text>State regulations shall be interpreted as set forth in <cite path="10.09.36.10">COMAR 10.09.36.10</cite>.</text>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Health-General Article, §§2-104(b), 15-103, and 15-105,, Annotated Code of Maryland</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container">Effective date:</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1991-02-22">Regulations <cite path="|10|09|40|.01">.01</cite>—<cite path="|10|09|40|.10">.10</cite> adopted as an emergency provision effective November 19, 1990 (17:24 Md. R. 2835); emergency status extended at 18:4 Md. R. 445 (February 22, 1991); adopted permanently effective February 18, 1991 (18:3 Md. R. 305)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1991-11-01" discontinuity="true">Chapter revised as an emergency provision effective August 1, 1991 (18:17 Md. R. 1911); amended permanently effective November 1, 1991 (18:21 Md. R. 2308)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2023-11-13"><cite path="|10|09|40|.01|B.">Regulation .01B</cite> amended effective August 27, 2007 (34:17 Md. R. 1507); November 13, 2023 (50:22 Md. R. 973)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2023-11-13"><cite path="|10|09|40|.02">Regulation .02</cite> amended effective November 13, 2023 (50:22 Md. R. 973)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2023-11-13"><cite path="|10|09|40|.03">Regulation .03</cite> amended effective November 13, 2023 (50:22 Md. R. 973)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2023-11-13"><cite path="|10|09|40|.04">Regulation .04</cite> amended effective November 13, 2023 (50:22 Md. R. 973)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2007-08-27"><cite path="|10|09|40|.04|A.">Regulation .04A</cite> amended effective August 27, 2007 (34:17 Md. R. 1507)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2023-11-13"><cite path="|10|09|40|.05">Regulation .05</cite> amended effective November 13, 2023 (50:22 Md. R. 973)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2023-11-13"><cite path="|10|09|40|.06|A.">Regulation .06A</cite>, C amended effective November 13, 2023 (50:22 Md. R. 973)</annotation>
+  </annotations>
+</container>

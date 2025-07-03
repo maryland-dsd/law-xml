@@ -1,0 +1,1239 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>05</num>
+  <heading>Data Release</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Scope and Purpose.</heading>
+    <para>
+      <num>A.</num>
+      <text>This chapter addresses the requirements, parameters, administrative process, and procedures for submission, review, approval, and disapproval of requests for data from the Maryland Medical Care Data Base, any other information collected and stored in the Maryland Medical Care Data Base, and any data submitted to the Maryland Health Care Commission from a claims clearinghouse certified by the Commission that qualify as directly or indirectly individually identifiable health information, as defined in the Health Insurance Portability and Accountability Act of 1996, including all pertinent implementing regulations at 45 CFR Parts 160 and 164.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The Commission releases data pursuant to this chapter to facilitate uses of data that are in the public interest, such as to develop public policy, promote improvement in health care access, delivery, efficiency, quality, safety, and public health outcomes, contain costs, and advance the transparency of the health care system.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The Commission retains all ownership rights to any data released pursuant to this chapter. A recipient of data released pursuant to this chapter does not obtain any right, title, or interest in data released to a data recipient pursuant to this chapter.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>This chapter does not apply to:</text>
+      <para>
+        <num>(1)</num>
+        <text>Requests for information from the Maryland Medical Care Data Base or any other Commission data base considered public under the Maryland Public Information Act and any other applicable laws and regulations;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Internal activities that are required of the Commission to conduct its lawful business of assembling the Maryland Medical Care Data Base, or any other data base that it is authorized to create and maintain;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Data released to any person, governmental entity, or other entity with which the Commission has contracted pursuant to State procurement policy and laws;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Data released, pursuant to the terms and conditions of a written, signed data use agreement entered into between the Commission and a State governmental entity, as defined in <cite path="|10|25|05|.02|B.">Regulation .02B of this chapter</cite>, that has an express statutory or regulatory mandate under Maryland law to access and use requested data;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Data that the Commission is expressly authorized and required to release under applicable federal or State law requirements, provided the release of the data complies with and is limited to the relevant requirements of the applicable law.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Data released pursuant to compulsory process, such as a subpoena, discovery request, warrant, or court order, issued under lawful authority in the course of litigation or an administrative proceeding before a State or federal court or administrative tribunal of competent jurisdiction, provided that prior to release of the data the Commission has made a reasonable effort to secure, or has secured, an appropriate protective order from the court or administrative tribunal, or a stipulation of the parties that:</text>
+        <para>
+          <num>(a)</num>
+          <text>Prohibits the use or disclosure of the data by the parties for any purpose other than the litigation or proceeding for which the data was sought; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Requires the return of the data to the Commission or destruction of the data, including all copies of the data, at the end of the litigation or proceeding.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>“All-payor claims database” or “APCD” means a large-scale database that systematically collects and aggregates enrollment, claims, and provider information from private and public payors in a state.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>“Applicant” means a person, governmental entity, or other entity that submits an application requesting data from the Commission.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>“Application” means a written request for data submitted in the form and manner specified by the Commission.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>“Commission” means the Maryland Health Care Commission.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>“Data extract” means a subset of information from the Maryland medical care database or other data base maintained by the Commission based on criteria provided by an applicant.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>“Data recipient” means a person, governmental entity, or other entity whose application has been approved and who is authorized to access and use data requested in an application in accordance with a data use agreement.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>“Data release” means the process of providing a data recipient with access and use of data requested in an application in accordance with a data use agreement.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>“Data Release Advisory Committee” or “DRAC” means a multi-stakeholder group of individuals appointed by the Commission whose functions include but are not limited to that of privacy board review as described in 45 CFR §164.512, reviewing completed applications, and making a written recommendation to the Executive Director regarding whether an application should be approved, approved with conditions, or disapproved.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>“Data set” means a collection of separate data elements or variables that can be manipulated as a unit.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>“Data use agreement” means a written contractual document entered into between the Commission and a data recipient that contains terms and conditions that govern a data recipient’s access to and use of data provided by the Commission.</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>“De-identified data” means information that does not identify an individual and for which there is no reasonable basis to believe that it can be used to identify an individual.</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>“Direct individual identifier” means personal information such as name, Social Security number, and date of birth that uniquely identifies an individual or that can be combined with other readily available information to uniquely identify an individual.</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>“Disclose” means the release, redisclosure, transfer, provision, access, transmission, communication, or divulgence in any other manner of data release pursuant to this chapter.</text>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>Entity.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Entity” means a person, partnership, firm, association, limited liability company, limited liability partnership, or public or private corporation.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Entity includes a county or municipality of Maryland or a governmental entity of another state.</text>
+        </para>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>“Executive Director” means the Executive Director of the Maryland Health Care Commission.</text>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>“Funding source” means any federal or state governmental entity, public or private corporation or organization, educational or research institution or organization, foundation, person, individual, or other entity that has committed to give or grant, or has already given or granted, monetary funds to an applicant to cover all or part of the costs of the proposed use of the data described in an application submitted to the Commission.</text>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>Governmental Entity.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Governmental entity” means any agency, authority, board, commission, council, department, instrumentality, unit, or other body of State government or the federal government that is established by law.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Governmental entity” does not include a county or municipality of Maryland or a governmental entity of another state.</text>
+        </para>
+      </para>
+      <para>
+        <num>(18)</num>
+        <text>“HIPAA” means the United States Health Insurance Portability and Accountability Act of 1996, P.L.10491, as implemented and amended in federal regulations, including the HIPAA Privacy and Security Rules, 45 CFR Parts 160 and 164, as they may be amended, modified, or renumbered, including as amended by the Health Information Technology for Economic and Clinical Health (HITECH) Act.</text>
+      </para>
+      <para>
+        <num>(19)</num>
+        <text>“Identifiable data” means information that contains data elements that can be used to identify a specific individual.</text>
+      </para>
+      <para>
+        <num>(20)</num>
+        <text>“Indirect individual identifier” means a data element that can be used to identify an individual when combined with other information or data.</text>
+      </para>
+      <para>
+        <num>(21)</num>
+        <text>“Institutional Review Board” or “IRB” has the meaning stated in 45 CFR Part 46, and any subsequent revisions of those regulations, as they may be amended, modified, or renumbered, regarding the protection of human subject research.</text>
+      </para>
+      <para>
+        <num>(22)</num>
+        <text>“Medicaid” means the Maryland Medical Assistance Program.</text>
+      </para>
+      <para>
+        <num>(23)</num>
+        <text>“Medical Care Data Base” or “MCDB” means the data base established and maintained by the Commission pursuant to Health-General Article, §19-133, Annotated Code of Maryland, that collects eligibility data, professional services claims, institutional services claims, pharmacy claims, and provider data for Maryland residents enrolled in private insurance, Medicaid, or Medicare. The MCDB is Maryland’s all-payer claims data base.</text>
+      </para>
+      <para>
+        <num>(24)</num>
+        <text>“Person” means an individual, receiver, trustee, guardian, personal representative, fiduciary, representative of any kind, partnership, firm, association, corporation, or other entity.</text>
+      </para>
+      <para>
+        <num>(25)</num>
+        <text>“Product” means any creation derived in whole or part from data released pursuant to this chapter, including an analysis, article, chart, compilation, display, finding, graph, information, manuscript, map, presentation, publication, report, service, software, study, subscription service, summary, table, or website.</text>
+      </para>
+      <para>
+        <num>(26)</num>
+        <text>“Protected health information” or “PHI” means individually identifiable health information as defined in the HIPAA Privacy Rule at 45 CFR §160.103, as it may be amended, modified, or renumbered.</text>
+      </para>
+      <para>
+        <num>(27)</num>
+        <text>“State” means:</text>
+        <para>
+          <num>(a)</num>
+          <text>When capitalized, the State of Maryland; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>When lowercase, any state, possession, territory, or commonwealth of the United States, or the District of Columbia.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="10|25|05|.03">
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Types of Data Available for Release.</heading>
+    <para>
+      <num>A.</num>
+      <text>The types of data specified in <cite path="10|25|05|.03|C.">§C of this regulation</cite> may be released to an applicant whose application has been approved in accordance with the requirements of this chapter.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The availability of the types of data specified in <cite path="10|25|05|.03|C.">§C of this regulation</cite> requesting Medicaid data are subject to a determination of availability by Medicaid.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Data may be provided pursuant to an approved application at the following levels of detail:</text>
+      <para>
+        <num>(1)</num>
+        <text>De-identified standard analytic file: A data extract that contains only data elements that are not considered PHI because the extract excludes direct and indirect individual identifiers as defined in the HIPAA Privacy Rule.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Limited data set: A data extract that contains a limited set of indirect individual identifiers as defined in the HIPAA Privacy Rule and excludes direct individual identifiers.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Custom data file: A data extract that is created based on criteria provided by an applicant and deemed the minimum amount necessary for an applicant’s proposed use of the data and consists of:</text>
+        <para>
+          <num>(a)</num>
+          <text>Indirect individual identifiers that can be used to identify individuals when combined with other information or data; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Aggregate, summary data in which the risk of identifying individuals is minimal.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="10|25|05|.04">
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Requests for Medicaid Data.</heading>
+    <para>
+      <num>A.</num>
+      <text>An application submitted to the Commission that includes a request for Medicaid data shall be referred to Medicaid for review after Commission staff has reviewed the application and determined the application to be complete in accordance with <cite path="|10|25|05|.06">Regulation .06 of this chapter</cite>.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Medicaid shall review an application referred pursuant to <cite path="10|25|05|.04|A.">§A of this regulation</cite> and notify Commission staff in writing within 15 business days of the date of referral of Medicaid’s decision to:</text>
+      <para>
+        <num>(1)</num>
+        <text>Proceed with its own independent application review and decision-making process on that part of an application requesting Medicaid data:</text>
+        <para>
+          <num>(a)</num>
+          <text>Without further involvement or participation of Commission staff, the DRAC, or the full Commission; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>That is not governed by the review and decision-making process in Regulations <cite path="|10|25|05|.07">.07</cite>—<cite path="|10|25|05|.14">.14</cite> of this chapter;</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Decline to proceed with its own independent application review and decision-making process as described in <cite path="10|25|05|.04|B.|(1)">§B(1) of this regulation</cite> and direct Commission staff to proceed with processing the referred application in accordance with Regulations <cite path="|10|25|05|.07">.07</cite>—<cite path="|10|25|05|.11">.11</cite> of this chapter; or</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Disapprove the request for Medicaid data based on the information provided in an application, in which case Medicaid shall provide reasons for the disapproval in the written notification to Commission staff.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>If Commission staff does not receive written notification from Medicaid within 15 business days of referring an application to Medicaid pursuant to §§A and B of this regulation, Commission staff shall proceed with processing the application in accordance with Regulations <cite path="|10|25|05|.07">.07</cite>—<cite path="|10|25|05|.11">.11</cite> of this chapter.</text>
+    </para>
+  </section>
+  <section cache:ref-path="10|25|05|.05">
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Requests for Data from Governmental Entities.</heading>
+    <para>
+      <num>A.</num>
+      <text>A governmental entity requesting data shall submit a written data request in the form and manner specified by the Commission that shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Be signed by the agency head or chief executive officer of a governmental entity; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Include a signed statement by a governmental entity’s legal counsel that the governmental entity has legal authority to use the requested data for the purpose described in the written data request.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The written data request submitted in accordance with <cite path="10|25|05|.05|A.">§A of this regulation</cite> shall include at a minimum:</text>
+      <para>
+        <num>(1)</num>
+        <text>A description of the proposed purpose and use of the data requested and, if applicable, a description of an intention to incorporate the data requested into a product;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A description of, and reasons for, any proposed linkages to other data;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A data management plan that demonstrates appropriate privacy and security controls for access and storage of the data and for protection against inadvertent and unauthorized access and disclosure of the data; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The safeguards against re-identification of an individual in a product that will be created or published publicly by the governmental entity.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The Executive Director may make a final decision on whether to approve, approve with conditions, or disapprove a governmental entity’s data request provided that, prior to making a final decision, the Executive Director considers each of the criteria for approval and each reason for disapproval described in <cite path="10|25|05|.05|E.">§E of this regulation</cite>.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The Executive Director may exercise the discretion not to make a final decision on a governmental entity’s request for data and refer the data request to the DRAC for review and a written recommendation in accordance with <cite path="|10|25|05|.09">Regulation .09 of this chapter</cite>. Upon receipt of a written report and recommendation from the DRAC, the Executive Director may, in the Executive Director’s discretion, either:</text>
+      <para>
+        <num>(1)</num>
+        <text>Make a final decision in accordance with Regulation .10A—C of this chapter; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Refer the DRAC’s report and recommendation to a panel of three Commission members or the full Commission in accordance with Regulation .10D—E of this chapter for a decision on the data request.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>In reviewing and making a recommendation or final decision on whether a data request shall be approved, approved with conditions, or disapproved, the Executive Director, the DRAC, a panel of three Commission members, or the full Commission, as applicable, shall determine whether the proposed use of the data requested:</text>
+      <para>
+        <num>(1)</num>
+        <text>Falls within the public interest uses described in <cite path="|10|25|05|.01|B.">Regulation .01B of this chapter</cite>;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Meets the applicable criteria for approval in <cite path="|10|25|05|.09|C.">Regulation .09C of this chapter</cite>; or</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Should be disapproved for any of the reasons in <cite path="|10|25|05|.09|D.">Regulation .09D of this chapter</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Prior to the receipt of data pursuant to an approved data request, a governmental entity shall enter into a written data use agreement with the Commission in accordance with <cite path="|10|25|05|.13">Regulation .13 of this chapter</cite>.</text>
+    </para>
+  </section>
+  <section cache:ref-path="10|25|05|.06">
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Requests for Data from Nongovernmental Entities.</heading>
+    <para>
+      <num>A.</num>
+      <text>Submission of Applications.</text>
+      <para>
+        <num>(1)</num>
+        <text>An applicant shall complete and submit a written application in the form and manner specified by the Commission.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An applicant shall disclose on an application all potential or approved funding sources at the time of submission of an application.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If applicable, an applicant shall disclose any data sharing or other requirements imposed by a funding source as a condition of receipt of funding.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>An applicant shall disclose on an application whether an applicant or any person or entity that is an officer, owner, operator, or part of management of an applicant’s organization who will have access and use of the requested data is currently, or has been within 10 years prior to the date of the application, a subject of or a party to a state or federal regulatory agency action or civil or criminal action involving a data breach, HIPAA violation, or other matter involving unauthorized access, use, and disclosure of data regardless of whether there has been a finding or admission of guilt, including being:</text>
+        <para>
+          <num>(a)</num>
+          <text>Convicted of a felony or pleading guilty, nolo contendere, entering a best interest plea of guilty, or receiving a diversionary disposition regarding a felony;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A subject of an investigation conducted by, or a pending complaint, charge, or indictment issued by, a local, state, or federal governmental regulatory agency or other state or federal law enforcement agency; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A party to a final dispositive action in a state or federal governmental agency regulatory action or a civil action that resulted in entry into a settlement agreement, consent agreement, decree or order, corporate integrity agreement, corrective action agreement, or other similar agreement or other disposition in a civil action regardless of whether there has been an admission or finding of guilt or liability.</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>A person who signs an application shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Be an officer of an applicant’s organization who has been given signatory authority to bind the organization, unless an applicant is not part of an organization and is requesting data in an applicant’s individual capacity, in which case the applicant shall sign an application; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Sign the following affirmation statement: “I solemnly affirm under the penalties of perjury that the contents of the application and any supplementary information are true to the best of my knowledge, information, and belief.”</text>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>An applicant shall pay a nonrefundable application fee in the amount specified in the list of fees published on the Commission’s website at the time of submission of an application.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Completeness Review.</text>
+      <para>
+        <num>(1)</num>
+        <text>An application is not complete until an applicant has submitted a completed application, as determined by Commission staff, and provided any additional information, documentation, answers to questions, and clarifications requested by Commission staff within the time limit specified by Commission staff.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>After Commission staff has determined that an application is complete, Commission staff shall refer an application requesting Medicaid data to Medicaid for review in accordance with <cite path="|10|25|05|.04">Regulation .04 of this chapter</cite>.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If Commission staff has received a written response from Medicaid specifying its decision on whether to proceed on the request for Medicaid data under either Regulation .04B(1), (2) or (3) of this chapter, Commission staff shall refer a completed application, Medicaid’s written response, all supporting documentation, and any public comment received under <cite path="|10|25|05|.07">Regulation .07 of this chapter</cite>, to the DRAC for further review in accordance with <cite path="|10|25|05|.09">Regulation .09 of this chapter</cite>.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>In accordance with <cite path="|10|25|05|.04|C.">Regulation .04C of this chapter</cite>, if Commission staff has not received a written response from Medicaid within 15 business days of Commission staff’s referral of the application to Medicaid, then Commission staff shall proceed with processing the application, including the request for Medicaid data, in accordance with Regulations <cite path="|10|25|05|.07">.07</cite>—<cite path="|10|25|05|.11">.11</cite> of this chapter.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>If Medicaid disapproves the part of an application requesting Medicaid data pursuant to <cite path="|10|25|05|.04|B.|(3)">Regulation .04B(3) of this chapter</cite>, an applicant shall notify Commission staff in writing within 15 business days of an applicant’s wishes regarding further consideration of a non-Medicaid part of an application, specifically, whether an applicant requests that:</text>
+        <para>
+          <num>(a)</num>
+          <text>Commission staff refer the part of a completed application requesting non-Medicaid data to the DRAC for further review in accordance with <cite path="|10|25|05|.09">Regulation .09 of this chapter</cite>; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>An applicant’s entire application be withdrawn and receive no further consideration, in which case Commission staff shall administratively close the application pursuant to <cite path="10|25|05|.06|B.|(7)">§B(7) of this regulation</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>If an applicant fails to notify Commission staff in writing within 15 business days of receiving notice that Medicaid has disapproved the Medicaid part of an application as required under <cite path="10|25|05|.06|B.|(5)">§B(5) of this regulation</cite>, Commission staff may administratively close an application pursuant to <cite path="10|25|05|.06|B.|(7)">§B(7) of this regulation</cite>.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>An application may be administratively closed and receive no further consideration if:</text>
+        <para>
+          <num>(a)</num>
+          <text>An applicant fails to provide a complete application, in the judgment of Commission staff, including providing all additional information, documentation, answers to questions, and clarifications requested by Commission staff, or by the DRAC during its review of an application under <cite path="|10|25|05|.09">Regulation .09 of this chapter</cite>, within the time limit specified by Commission staff or the DRAC; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>An applicant fails to provide the written notification within 15 business days as required under <cite path="10|25|05|.06|B.|(5)">§B(5) of this regulation</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>For an applicant to receive further consideration of a request for data in an application that was administratively closed under <cite path="10|25|05|.06|B.|(7)">§B(7) of this regulation</cite>, an applicant shall file a new application and pay the required fees that are in effect at the time of submission of a new application.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Transparency of Data Request and Data Release Process.</heading>
+    <para>
+      <num>A.</num>
+      <text>Except for applications submitted by governmental entities pursuant to an express state or federal statutory or regulatory mandate, all completed applications shall be published on the Commission’s website during the pendency of the review process, without those parts of the application that specify an applicant’s proposed data management plan and security measures.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Members of the public may submit written comment on an application for a period of 10 business days following the date on which an application is published on the Commission’s website.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Commission staff shall provide all public comments received on an application to the DRAC for review and consideration in accordance with <cite path="|10|25|05|.09">Regulation .09 of this chapter</cite>.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>After a decision has been made on an application, the following information shall be published on the Commission’s website:</text>
+      <para>
+        <num>(1)</num>
+        <text>The disposition of an application; that is, whether the application has been:</text>
+        <para>
+          <num>(a)</num>
+          <text>Approved;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Approved with conditions;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Disapproved; or</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Withdrawn;</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>For approved applications:</text>
+        <para>
+          <num>(a)</num>
+          <text>The amount of fees charged for requested data;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A statement that all fees were waived; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>In the case of a partial waiver of fees, the amount of fees waived;</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If applicable, notice that further review of a decision on the application is pending under <cite path="|10|25|05|.11">Regulation .11 of this chapter</cite> and a description of the final decision when the further review process is completed; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>A summary description of a product derived in whole or part from data released to an applicant pursuant to this chapter, subject to any prohibition on public disclosure under applicable federal or State law, including the Maryland Public Information Act.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="10|25|05|.08">
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Data Release Advisory Committee.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Commission shall establish a Data Release Advisory Committee (DRAC) that meets the membership composition requirements and performs the review functions of a privacy board as described in 45 CFR §164.512.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The Commission shall appoint the members of the DRAC and a chairperson from among the appointed members.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The number of members appointed to the DRAC shall be at the discretion of the Commission but large enough to:</text>
+      <para>
+        <num>(1)</num>
+        <text>Represent the appropriate range of stakeholder groups described in <cite path="10|25|05|.08|D.">§D of this regulation</cite>; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Provide relevant experience, professional competency, and subject matter expertise in the areas of consumer privacy and advocacy, data analytics, data privacy, data security, health policy research, individual privacy issues, information technology, public health, and the use and analysis of health care claims data.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The membership of the DRAC shall include, but not be limited to:</text>
+      <para>
+        <num>(1)</num>
+        <text>Representatives of various stakeholder groups, including academic research organizations, consumer advocacy organizations, employers, health care providers, health maintenance organizations, insurers, and nonprofit health service plans, that possess the relevant experience, professional competency, and subject matter expertise described in <cite path="10|25|05|.08|C.|(2)">§C(2) of this regulation</cite>;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>At least one representative from Medicaid;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>At least one Commission staff member who shall serve as an ex-officio member; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Any additional representatives that the Commission determines are needed.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Members of the DRAC shall serve for a term not to exceed 3 years. At the end of a term, a member continues to serve until a successor is appointed. A member of the DRAC may be reappointed.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>The DRAC shall meet as necessary to:</text>
+      <para>
+        <num>(1)</num>
+        <text>Review completed applications requesting data;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Prepare reports and recommendations, with the administrative support of Commission staff, and submit them to the Executive Director;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If requested by Commission staff or the Executive Director, provide advice, consultation, and expertise on issues and questions that may arise:</text>
+        <para>
+          <num>(a)</num>
+          <text>During Commission staff’s review of applications under Regulations .05 and .06 of this chapter;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>During the Executive Director’s review of applications under <cite path="|10|25|05|.10">Regulation .10 of this chapter</cite>; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>After an application has been approved and requested data has been released to a data recipient, regarding compliance and enforcement of a data use agreement under Regulations .13 and .14 of this chapter; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Perform any other duties and obligations required of the DRAC under this chapter.</text>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Commission staff shall provide the necessary administrative support required for the DRAC to perform its duties and obligations under this chapter, such as facilitating the scheduling and conducting of DRAC meetings, providing DRAC meeting agendas and supporting reference materials, conducting research and obtaining additional information as requested by the DRAC, and assisting in the preparation of written reports and recommendations.</text>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>The Executive Director may remove a member of the DRAC for neglect of duty or misconduct by providing written notification to the DRAC member, stating the reason for the removal.</text>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>A member of the DRAC who receives written notification of removal under <cite path="10|25|05|.08|H.">§H of this regulation</cite> may submit a written request for full Commission review of the Executive Director’s removal decision within 20 business days of the date of the Executive Director’s written notification of removal. The written request for full Commission review shall state with particularity the grounds and factual basis for the DRAC member’s disagreement with the Executive Director’s decision to remove the DRAC member.</text>
+    </para>
+  </section>
+  <section cache:ref-path="10|25|05|.09">
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Data Release Advisory Committee Review.</heading>
+    <para>
+      <num>A.</num>
+      <text>The following data requests are not subject to review by the DRAC:</text>
+      <para>
+        <num>(1)</num>
+        <text>Those categories of data requests and data release described in Regulation .01D(1)—(5) of this chapter;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Requests for data submitted by a governmental entity that the Executive Director determines warrants an expedited review under <cite path="|10|25|05|.05">Regulation .05 of this chapter</cite>; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Requests for aggregate, summarized data as described in <cite path="|10|25|05|.03|C.|(3)|(b)">Regulation .03C(3)(b) of this chapter</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>In reviewing an application, the DRAC shall consider the criteria for approval and reasons for disapproval of an application in §§C and D of this regulation and all public comment received under <cite path="|10|25|05|.07">Regulation .07 of this chapter</cite> before preparing a written report and recommendation.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The DRAC shall determine whether an application has met the following criteria for approval:</text>
+      <para>
+        <num>(1)</num>
+        <text>An applicant has provided documentation of relevant education, training, and experience that demonstrates the applicant is capable of undertaking and accomplishing the objective of the proposed use of the data and being a responsible steward of the requested data.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The data elements requested by an applicant are the minimum amount necessary to achieve the intended purpose for which the data is requested.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The proposed use of the data complies with applicable State and federal laws, including those laws relating to the privacy and security of protected health information (PHI).</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The applicant has provided a written data management plan that demonstrates appropriate privacy and security controls for access and storage of the data and for safeguarding individual privacy and preventing unauthorized access and use of the data.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The requirement of obtaining written authorization from each individual who is the subject of requested identifiable data can be waived in accordance with 45 CFR §164.512.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>If the applicant has proposed linkage of the requested data to other data source(s), the applicant has provided:</text>
+        <para>
+          <num>(a)</num>
+          <text>Sufficient written justification of the need to link the requested data to the other data source(s) named in the application to accomplish the objective and achieve the results of the proposed use of the data; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Written proof that an additional level of data privacy and security controls will be in place to protect the privacy and identification of the individuals who are the subject of the requested data and the other data source(s) to which the requested data is to be linked.</text>
+        </para>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>An applicant who proposes to develop and sell a product that contains de-identified data has provided satisfactory written justification of how the proposed sale of the product using the de-identified data will serve the public interest.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>The proposed use of the data is in the public interest. Examples of uses of data that serve the public interest include:</text>
+        <para>
+          <num>(a)</num>
+          <text>Health care cost and utilization analysis to guide and develop public policy;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Studies that promote improvement in public health, health care quality, and health care access;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Health planning and resource allocation studies;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Making information on cost and quality accessible to the public; and</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Studies directly tied to evaluation and improvement of federal and State government initiatives.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The DRAC shall determine whether an application has met any of the following criteria for disapproval:</text>
+      <para>
+        <num>(1)</num>
+        <text>The proposed use of the data violates State or federal law.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The proposed use of the data is not in the public interest.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The proposed use of the data is designed so that the stated objective of the project cannot be met.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>False information or documentation on, or related to, an application was provided to Commission staff, the DRAC, the Executive Director, or the Commission.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>An applicant provided incomplete information upon which to base a decision on the application.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>An applicant or any person or entity that is an officer, owner, operator, or part of management of an applicant’s organization who will have access and use of the requested data is currently, or has been within 10 years prior to the date of the application, a subject of or a party to a state or federal regulatory agency action or civil or criminal action involving a data breach, HIPAA violation, or other matter involving unauthorized access, use, and disclosure of data regardless of whether there has been a finding or admission of guilt, including being:</text>
+        <para>
+          <num>(a)</num>
+          <text>Convicted of a felony or pleading guilty, nolo contendere, entering a best interest plea of guilty, or receiving a diversionary disposition regarding a felony;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A subject of an investigation conducted by, or a pending complaint, charges, or indictment issued by a local, state, or federal governmental regulatory agency or other state or federal law enforcement agency; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A party to a final dispositive action in a state or federal governmental agency regulatory action or a civil action that resulted in entry into a settlement agreement, consent agreement, decree or order, corporate integrity agreement, corrective action agreement, or other similar agreement or other disposition in a civil action regardless of whether there has been an admission or finding of guilt or liability.</text>
+        </para>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Violation of a previous data use agreement.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>The data management plan does not demonstrate privacy and security controls for safeguarding individual privacy and preventing unauthorized access to or use of the data.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>The proposed use of the data is for an impermissible purpose, which includes but is not limited to:</text>
+        <para>
+          <num>(a)</num>
+          <text>Using the requested data to identify an individual using a particular product or drug in order to develop a marketing campaign and directly contact an individual;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Using the requested data to contact an individual for fund-raising purposes directly; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Using the requested data to contact an individual who is the subject of the data for any reason.</text>
+        </para>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>An applicant who proposes to develop and sell a product that contains requested de-identified data has not provided satisfactory written justification of how the proposed sale of the product using the de-identified data will serve the public interest.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>A member of the DRAC who has an affiliation with an applicant, or with any entity sponsoring, participating, or otherwise affiliated with an applicant’s proposed use of the requested data or any other conflict of interest or appearance of impropriety, shall recuse from consideration of that applicant’s application and may not participate in any discussions with other DRAC members or vote on the application.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>The DRAC may request that the Executive Director authorize the DRAC to invite an individual with expertise and competence in certain areas to assist the DRAC in the review of complex issues that require expertise beyond, or in addition to, that available among the membership of the DRAC. An individual invited pursuant to this section may not:</text>
+      <para>
+        <num>(1)</num>
+        <text>Have an affiliation with an applicant, or with any entity sponsoring, participating in, or otherwise affiliated with an applicant’s proposed use of the requested data or any other conflict of interest or appearance of impropriety; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Vote on an application.</text>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>The DRAC may require an applicant to obtain Institutional Review Board review prior to deciding on a recommendation for an application.</text>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>The DRAC may request that Commission staff obtain additional information and documentation from an applicant if needed to determine whether the criteria for approval in <cite path="10|25|05|.09|C.">§C of this regulation</cite> have been met or the reasons for disapproval in <cite path="10|25|05|.09|D.">§D of this regulation</cite> exist. If an applicant does not provide the additional information within the time limit specified by the DRAC, the DRAC may refer the application to Commission staff with a request that the application submitted by the applicant be administratively closed per <cite path="|10|25|05|.06|B.|(7)">Regulation .06B(7) of this chapter</cite>.</text>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>The DRAC, at its discretion, may require that an applicant meet with the DRAC to provide additional information, answer questions, or provide clarification on information provided in an application, the proposed use of the data requested, or the capability of an applicant to accomplish the objective of the proposed use of requested data.</text>
+    </para>
+    <para>
+      <num>J.</num>
+      <text>The DRAC shall review and consider all public comment received regarding an application under <cite path="|10|25|05|.07">Regulation .07 of this chapter</cite> before making a recommendation to the Executive Director.</text>
+    </para>
+    <para>
+      <num>K.</num>
+      <text>The DRAC, with the administrative support of Commission staff, shall prepare a written report and recommendation for the Executive Director on each application reviewed, which shall address:</text>
+      <para>
+        <num>(1)</num>
+        <text>Each of the approval criteria in <cite path="10|25|05|.09|C.">§C of this regulation</cite>;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Each of the disapproval criteria in <cite path="10|25|05|.09|D.">§D of this regulation</cite>;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Any public comment received; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The DRAC’s recommendation on whether an application should be approved, approved with conditions, or disapproved.</text>
+      </para>
+    </para>
+    <para>
+      <num>L.</num>
+      <text>After an application is approved pursuant to <cite path="|10|25|05|.10">Regulation .10 of this chapter</cite>, Commission staff may:</text>
+      <para>
+        <num>(1)</num>
+        <text>Seek the advice and expertise of the DRAC on any issues regarding the applicant’s receipt of data or compliance with the terms and conditions of a data use agreement entered into under <cite path="|10|25|05|.13">Regulation .13 of this chapter</cite>; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Request that the DRAC prepare a written report and recommendation to the Executive Director regarding whether any compliance and enforcement actions may be warranted under <cite path="|10|25|05|.14">Regulation .14 of this chapter</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>M.</num>
+      <text>A DRAC recommendation on an application or on other issues related to an applicant’s receipt of data or compliance with the terms and conditions of a data use agreement entered into under <cite path="|10|25|05|.13">Regulation .13 of this chapter</cite> is advisory and not binding on the Executive Director’s decision on an application or on whether to pursue an enforcement action under <cite path="|10|25|05|.14">Regulation .14 of this chapter</cite> for noncompliance with a data use agreement.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.10</num>
+    <heading>Executive Director Review and Decision on Requests for Data.</heading>
+    <para>
+      <num>A.</num>
+      <text>Before making a decision on an application requesting data, the Executive Director shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Review and consider the DRAC’s written report and recommendation;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Review all public comment received;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Determine whether the approval criteria set forth in <cite path="|10|25|05|.09|C.">Regulation .09C of this chapter</cite> have been met; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Determine whether any of the disapproval criteria set forth in <cite path="|10|25|05|.09|C.">Regulation .09C of this chapter</cite> exists for disapproval of an application under <cite path="|10|25|05|.09|D.">Regulation .09D of this chapter</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>If the Executive Director determines that there is insufficient information upon which to base a decision on an application, the Executive Director may refer an application back to the DRAC with a request that the DRAC, through Commission staff, obtain and provide more specific or additional information, conduct a more detailed review and evaluation of the review criteria, and, if appropriate, submit a revised written report and recommendation.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>After considering the DRAC’s written report and recommendation on an application, the Executive Director shall issue a written decision:</text>
+      <para>
+        <num>(1)</num>
+        <text>Approving an application;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Approving an application subject to conditions, which shall be included as conditions in the data use agreement required under <cite path="|10|25|05|.13">Regulation .13 of this chapter</cite>; or</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Disapproving an application.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>If the Executive Director decides not to adopt the DRAC’s recommendation, specifically to approve an application that the DRAC has recommended be disapproved, or to disapprove an application that the DRAC has recommended be approved, then the Executive Director shall prepare a proposed recommended decision and refer to the full Commission for consideration and issuance of a final decision affirming, reversing, or modifying the Executive Director’s recommended decision.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>The Executive Director may exercise the discretion not to make a decision on an application and refer the DRAC’s written report and recommendation, and all public comment received on an application, to a review panel of 3 Commission members, which shall include a consumer member of the Commission. A review panel may render a final written decision on the application, or elect not to make a decision and refer the application to the full Commission for a decision.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>The Executive Director may not make a decision on an application that proposes to develop and sell a product that contains requested de-identified data and shall refer the application, the DRAC’s written report and recommendation, and all public comment received on the application to the full Commission for a decision.</text>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>The Executive Director, a review panel, or the full Commission, as applicable, shall issue a written decision notifying an applicant that an application has been approved, approved with conditions, or disapproved. The written decision shall state the conditions imposed, if any, and, if an application is disapproved, state the reasons for disapproval.</text>
+    </para>
+  </section>
+  <section cache:ref-path="10|25|05|.11">
+    <prefix>Regulation</prefix>
+    <num>.11</num>
+    <heading>Review of Decisions on Requests for Data.</heading>
+    <para>
+      <num>A.</num>
+      <text>Request for Further Review of Decisions on Requests for Data.</text>
+      <para>
+        <num>(1)</num>
+        <text>An applicant may submit a written request for full Commission review of a written decision issued by the Executive Director or a review panel, as applicable, under <cite path="|10|25|05|.10|G.">Regulation .10G of this chapter</cite>, within 20 business days of the date the written decision is issued, which shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>State with particularity the grounds and factual basis for an applicant’s disagreement with the decision and include citations to specific documentation or authority for each argument made in support of an applicant’s disagreement with the decision;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Include all relevant supporting documentation and authority cited in <cite path="10|25|05|.11|A.|(1)|(a)">§A(1)(a) of this regulation</cite>;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Specify the remedy requested:</text>
+          <para>
+            <num>(i)</num>
+            <text>Reversal of the decision and unconditional release of the requested data; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Modification of the decision to release the requested data subject to conditions; and</text>
+          </para>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>If desired, include a written request to present oral argument to the full Commission, which shall be scheduled if requested.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>After reviewing and considering an applicant’s written request for review of a decision and any oral argument, if applicable, the full Commission shall issue a written decision affirming, reversing, or modifying the decision reviewed.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Request for Reconsideration of Commission Decisions on Requests for Data.</text>
+      <para>
+        <num>(1)</num>
+        <text>If the full Commission, instead of the Executive Director or a review panel, issues a decision on an application, an applicant may submit, within 20 business days of the date the Commission’s written decision was issued, a written request, which shall conform to <cite path="10|25|05|.11|A.|(1)">§A(1) of this regulation</cite>, that the Commission reconsider its decision.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Commission shall review and consider an applicant’s written request for reconsideration of its previous decision and any oral argument, if requested, and issue a written decision affirming, reversing, or modifying its previous decision.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="10|25|05|.12">
+    <prefix>Regulation</prefix>
+    <num>.12</num>
+    <heading>Fees.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Commission may charge fees to an applicant and data recipient for:</text>
+      <para>
+        <num>(1)</num>
+        <text>Submission of an application; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The cost of accessing data, which may include but is not limited to the costs of producing and releasing data to a data recipient.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A list of fees to be charged pursuant to <cite path="10|25|05|.12|A.">§A of this regulation</cite> shall be published on the Commission’s website, reviewed annually, and updated as needed.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A list of proposed fees shall be published on the Commission’s website for receipt of written public comment for a period of 30 days before the proposed fees become final. All public comment received shall be considered before the proposed fees become final.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>An applicant shall pay the required application fee in full before Commission staff may begin the application review process. An application fee paid by an applicant is nonrefundable.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>An applicant who is approved to receive requested data shall pay all required fees in full prior to receipt of requested data. Fees paid by an approved data recipient for receipt of requested data are nonrefundable.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>If an approved applicant does not pay the required fees in full within 30 days of the date of written notification of application approval, the applicant will not receive the requested data and the application shall be deemed withdrawn and will receive no further consideration.</text>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>The Executive Director may grant a partial or full waiver of fees for requested data if:</text>
+      <para>
+        <num>(1)</num>
+        <text>An applicant submits a written request for partial or full waiver of fees detailing reasons for the waiver request and, if applicable, state the amount of partial waiver requested;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An applicant provides financial statements or any other supporting documentation requested by the Executive Director regarding the applicant’s inability to pay required fees;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>An applicant is a recipient of monetary funds from a funding source that covers all or part of the costs of an applicant’s use of the data, and the applicant provides documentation of:</text>
+        <para>
+          <num>(a)</num>
+          <text>An applicant’s written proposal requesting funding submitted to a funding source;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A funding source’s response to an applicant’s request for funding and, if applicable, funding approval;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Any requirements, including data sharing, imposed by a funding source as a condition of receipt of funding;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>The budget governing an applicant’s use and allocation of the monetary funds that a funding source has granted or given to an applicant; and</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Any other documentation regarding a funding source requested by the Executive Director;</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>An applicant timely provides any other information and documentation requested by the Executive Director; and</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>After considering all information provided by an applicant in support of a full or partial fee waiver, the Executive Director determines that a full or partial waiver of fees is in the public interest.</text>
+      </para>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>Before making a final decision on a request for a partial or full waiver of fees under <cite path="10|25|05|.12|G.">§G of this regulation</cite>, the Executive Director may consult with a review panel or the full Commission if the Executive Director deems it appropriate.</text>
+    </para>
+  </section>
+  <section cache:ref-path="10|25|05|.13">
+    <prefix>Regulation</prefix>
+    <num>.13</num>
+    <heading>Data Use Agreement.</heading>
+    <para>
+      <num>A.</num>
+      <text>An approved applicant shall enter into and sign a data use agreement prior to receipt of the requested data. If an approved applicant does not sign a data use agreement within 30 days of the date of written notification of application approval, the application shall be deemed withdrawn and will receive no further consideration.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Prior to entry into a data use agreement and receipt of requested data, an approved applicant shall disclose any data sharing plan or agreement required by a funding source as a condition of an applicant’s receipt of funding.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A data use agreement entered into with a data recipient under <cite path="10|25|05|.13|A.">§A of this regulation</cite> shall, at a minimum:</text>
+      <para>
+        <num>(1)</num>
+        <text>Define the scope of use of the requested data and the research methodology;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Provide a plan for safeguarding the privacy and security of the data and complying with all applicable laws governing the privacy and security of data;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Require a data recipient to adhere to security processes and procedures aimed at preventing unauthorized access, use, or disclosure of the data;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Require that a data recipient notify Commission staff of any potential or actual data breach, including any instance of unauthorized access, use, or disclosure of data, no later than 7 days from the date of knowledge of the breach;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Require a data recipient to notify Commission staff in writing within 24 hours of receipt of any request from a third party requesting a data recipient to disclose all or part of the data received from the Commission, including but not limited to compulsory process, such as a subpoena, discovery request, warrant, or judicial or administrative order, or a public information act request, to provide the Commission adequate time to intervene and respond before the date that a data recipient has been requested or ordered to provide the data;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Specify the beginning and end dates of a data use agreement;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Provide for the return or destruction of data by a certain date upon termination of a data use agreement, or upon a determination that a data recipient has failed to comply with a data use agreement;</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Require that a data recipient comply and assist, if requested, in any audit of compliance with a data use agreement;</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>Provide that a breach of any term or condition of a data use agreement is a breach of contract;</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>Permit that appropriate administrative and judicial remedies under applicable law may be pursued against a data recipient for failing to comply with the terms and conditions of a data use agreement; and</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>Be signed by:</text>
+        <para>
+          <num>(a)</num>
+          <text>A person authorized to contractually bind a data recipient’s organization; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A data recipient, if a data recipient is not part of an organization.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The Executive Director may consider a request from a data recipient for an extension of time or a modification of a term or condition of an executed data use agreement if:</text>
+      <para>
+        <num>(1)</num>
+        <text>A data use agreement includes an express provision allowing a request for an extension of time or a modification of a term or condition;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A data recipient submits a written request in the form and manner specified by the Commission, which shall include the reasons for the request, or specify good cause for the extension or modification request;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A request for an extension of time states the requested new end date for the data use agreement; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>A request for modification does not seek approval of a new or different use of the released data that was not approved under <cite path="|10|25|05|.10">Regulation .10 of this chapter</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Commission staff shall refer a written request for an extension of time or a modification of a term or condition of a data use agreement to the Executive Director for a decision. The Executive Director shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Consider a data recipient’s written request submitted under <cite path="10|25|05|.13|D.">§D of this regulation</cite> before making a decision; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Make a decision to approve, approve with conditions, or disapprove the request, and notify the data recipient in writing of the decision.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>If the Executive Director approves an extension or modification request, or approves with conditions, the Executive Director shall issue a signed, dated written amendment to the data use agreement approving the extension or modification request, stating the new end date of the data use agreement, if applicable, and specifying any additional conditions on the extension or modification.</text>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Re-Use of Data.</text>
+      <para>
+        <num>(1)</num>
+        <text>A data recipient who wishes to re-use data previously released, pursuant to an approved application and executed data use agreement prior to the termination of the data use agreement and destruction of the data, for a different use or purpose or to link with other data sources not described in the approved application shall submit a written application in the form and manner specified by the Commission and pay a nonrefundable application fee in the amount published on the Commission’s website at the time of submission of an application for re-use of previously released data.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Commission staff shall refer a data recipient’s completed application for re-use of previously released data prior to termination of a data use agreement for a different use for DRAC and Executive Director review, in accordance with Regulations <cite path="|10|25|05|.09">.09</cite>—<cite path="|10|25|05|.11">.11</cite> of this chapter.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If a re-use application is approved, a data recipient shall pay the applicable nonrefundable data re-use fees in full in the amount published on the Commission’s website before a data recipient can use the previously released data for a different use or purpose.</text>
+      </para>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>A data recipient who wishes to request additional data not requested in a data recipient’s approved application and described in a data use agreement shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Submit a new application in the form and manner specified by the Commission and pay a new nonrefundable application fee in accordance with <cite path="|10|25|05|.12">Regulation .12 of this chapter</cite>, regardless of whether a data recipient intends to use the additional data for the same use described in a data recipient’s previously approved application; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Pay required fees for receipt of additional data in accordance with <cite path="|10|25|05|.12">Regulation .12 of this chapter</cite> if a data recipient’s request for additional data is approved.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.14</num>
+    <heading>Compliance and Enforcement.</heading>
+    <para>
+      <num>A.</num>
+      <text>If a data recipient fails to comply with any of the terms and conditions of a data use agreement, or it becomes known after execution of a data use agreement that a data recipient provided false information during the application process, the Commission, acting through the Executive Director, may take one or more of the following administrative and judicial enforcement actions, depending upon the facts, circumstances, and gravity of the acts of noncompliance:</text>
+      <para>
+        <num>(1)</num>
+        <text>Terminate a data recipient’s current access to data;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Suspend a data recipient’s current access to data for a period of time:</text>
+        <para>
+          <num>(a)</num>
+          <text>Subject to conditions that a data recipient must satisfy before the suspension may be lifted and access to data reinstated; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>If required by the Executive Director, until a data recipient enters into a new data use agreement that requires compliance with a corrective action plan addressing the acts of noncompliance;</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Require a data recipient to suspend or retract for a designated period of time a product that has been created or published from the data, subject to conditions that a data recipient must satisfy before the suspension or retraction may be lifted;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Demand the secure destruction or return of data and require documentary proof that all data released to a data recipient has been destroyed;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Terminate a data use agreement; or</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Prohibit a data recipient from submitting a new application requesting data for a designated period of time.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The Executive Director may refer an instance of unauthorized access, use, or disclosure of data to the Office of the Attorney General of Maryland, the Maryland State’s Attorney Office, or any other appropriate State or federal law enforcement authority.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The Commission, based upon information provided by the Executive Director, may seek any appropriate administrative and judicial remedy allowed by State or federal law for:</text>
+      <para>
+        <num>(1)</num>
+        <text>Failing to comply with any terms and conditions for accessing and using data; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Any instance of unauthorized or impermissible access, use, and disclosure of data.</text>
+      </para>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Health-General Article, §§19-103(c)(3), 19-109(a)(1) and (7) and (b)(5), and 19-133(d), and 19-134, Annotated Code of Maryland</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1995-06-19">Effective date: June 19, 1995 (22:12 Md. R. 900)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2001-10-15"><cite path="|10|25|05|.01">Regulation .01</cite> amended effective October 15, 2001 (28:20 Md. R. 1783)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2007-10-22"><cite path="|10|25|05|.02">Regulation .02</cite> amended effective October 15, 2001 (28:20 Md. R. 1783); October 22, 2007 (34:21 Md. R. 1915)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2002-12-23"><cite path="|10|25|05|.04">Regulation .04</cite> amended effective December 23, 2002 (29:25 Md. R. 1983)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1997-03-10"><cite path="|10|25|05|.06">Regulation .06</cite> amended effective March 10, 1997 (24:5 Md. R. 412)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2001-10-15"><cite path="|10|25|05|.06">Regulation .06</cite> repealed and new Regulation .06 adopted effective October 15, 2001 (28:20 Md. R. 1783)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2007-10-22"><cite path="|10|25|05|.06">Regulation .06</cite> repealed effective October 22, 2007 (34:21 Md. R. 1915)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2021-12-13" discontinuity="true">Regulations <cite path="|10|25|05|.01">.01</cite>—<cite path="|10|25|05|.05">.05</cite> under Small Group Market Data Collection repealed and new Regulations <cite path="|10|25|05|.01">.01</cite>—<cite path="|10|25|05|.14">.14</cite> under Data Release adopted effective December 13, 2021 (48:25 Md. R. 1079)</annotation>
+  </annotations>
+</container>

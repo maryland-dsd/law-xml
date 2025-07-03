@@ -1,0 +1,685 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>23</num>
+  <heading>Permits for the Dispensing of Prescription Drugs</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Scope.</heading>
+    <text>This chapter defines the parameters under which a physician may obtain a permit to dispense prescription drugs to that physician’s patients, dispense prescription drugs to the patients of other prescribers under certain circumstances, and delegate parts of the dispensing process to others in accordance with Health Occupations Article, §§<cite doc="Md. Code" path="gho|12-102">12-102</cite> and <cite doc="Md. Code" path="gho|14-306">14-306</cite>, Annotated Code of Maryland.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>“Board” means the State Board of Physicians.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>“Controlled dangerous substance (CDS)” has the meaning stated in <cite doc="Md. Code" path="gcr|5-101">Criminal Law Article, §5-101(g), Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>“Dispense” has the meaning stated in <cite doc="Md. Code" path="gho|12-101">Health Occupations Article, §12-101, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>“Drug sample” has the meaning stated in 21 CFR §203.3(i).</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Final Check.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Final check” means the verification of the accuracy and completeness of a filled prescription order by the permit holder before the drug is dispensed to the patient.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Final check” includes the assumption of responsibility for the filled prescription, including verifying the:</text>
+          <para>
+            <num>(i)</num>
+            <text>Appropriateness of the dose;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Accurate expiration date;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Accuracy of the drug dispensed;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Strength of the drug dispensed;</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>Labeling that complies with <cite doc="Md. Code" path="gho|12-505">Health Occupations Article, §12-505, Annotated Code of Maryland</cite>; and</text>
+          </para>
+          <para>
+            <num>(vi)</num>
+            <text>Appropriateness of the container in which the drug is dispensed, including child-proof containers where applicable.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>“In good standing” means that an individual:</text>
+        <para>
+          <num>(a)</num>
+          <text>Holds a license to practice medicine in this State;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Is not currently suspended by any order imposed by any medical licensing board;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Is not currently on probation by any order imposed by any medical licensing board;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Is not currently subject to any restrictions on practice related to the abuse, misuse, or improper prescribing of drugs;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Has not been within the past 5 years sanctioned by any medical licensing board for the commission of a crime of moral turpitude or for a violation of <cite doc="Md. Code" path="gho|14-404">Health Occupations Article, §14-404(a)(7), </cite>(8), (9), (10), or (28), Annotated Code of Maryland, or a similar statute of another state; and</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Has not within the past 5 years had the CDS registration issued by the OCSA or its predecessor, the registration issued by the federal Drug Enforcement Agency, or the Board dispensing permit:</text>
+          <para>
+            <num>(i)</num>
+            <text>Revoked;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Suspended; or</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Voluntarily relinquished or surrendered while under investigation or after being informed that an investigation will be commenced.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>“In the public interest” means that a pharmacy is not conveniently available to the patient.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Mechanical Act.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Mechanical act” means an act which does not require professional judgment, medical or pharmaceutical training, or discretion.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Mechanical act” does not include:</text>
+          <para>
+            <num>(i)</num>
+            <text>Selecting a drug;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Labeling;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Measuring or calculating dosages;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Substituting one drug for another, including substituting a generic or brand drug for the prescribed drug;</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>Substituting one dosage form of a drug for another;</text>
+          </para>
+          <para>
+            <num>(vi)</num>
+            <text>Altering the route of administration; or</text>
+          </para>
+          <para>
+            <num>(vii)</num>
+            <text>Counseling patients.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>“OCSA” means the Office of Controlled Substances Administration of the Maryland Department of Health.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>“Permit holder” means a physician licensed in this State who holds a valid dispensing permit under this chapter.</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>“Readily retrievable” means maintained by any method by which the permit holder can retrieve and produce the record to OCSA during the course of an unscheduled on-site inspection.</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>“Sample unit” has the meaning stated in 21 CFR §203.3 (aa).</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>“Supplier” means:</text>
+        <para>
+          <num>(a)</num>
+          <text>A wholesale distributor as defined in <cite doc="Md. Code" path="gho|12-6">Health Occupations Article, §12-6</cite>C-01(v), Annotated Code of Maryland; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A pharmacy, to the extent permitted by <cite doc="Md. Code" path="gho|12-406">Health Occupations Article, §12-406(b), Annotated Code of Maryland</cite>.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Permit Not Required.</heading>
+    <text>A dispensing permit is not required to:</text>
+    <para>
+      <num>A.</num>
+      <text>Dispense prescription drugs or devices at a health facility or center described in <cite doc="Md. Code" path="gho|12-102">Health Occupations Article, §12-102(g)(1)</cite>—(3), Annotated Code of Maryland; or</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Dispense to a patient, free of charge:</text>
+      <para>
+        <num>(1)</num>
+        <text>A drug sample;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A sample unit; or</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A starter dosage of a prescription drug, not to exceed a 72-hour supply.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Qualifications for Dispensing Permits.</heading>
+    <para>
+      <num>A.</num>
+      <text>An applicant for a dispensing permit shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Possess a license to practice medicine in this State;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Be in good standing as that term is defined in this chapter;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Be of good moral character;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Demonstrate a basic knowledge of the statutes and regulations governing the practice of dispensing prescription drugs;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Complete the application on a form supplied by the Board; and</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Pay the required fee as set out in <cite path="10.32.01.12">COMAR 10.32.01.12</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The applicant shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>State each location at which prescription drugs will be dispensed; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Grant permission to OCSA to inspect each location at which drugs will be dispensed at any reasonable hour.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>An applicant for renewal of a dispensing permit shall submit, upon request, documentation of completion of at least ten continuing education credits related to the preparing and dispensing of prescription drugs offered by the Accreditation Council for Pharmacy Education or as approved by the Secretary of the Maryland Department of Health.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Consideration of Applications.</heading>
+    <text>The Board shall grant the application for a dispensing permit if:</text>
+    <para>
+      <num>A.</num>
+      <text>The applicant meets the requirements of <cite path="|10|32|23|.04">Regulation .04 of this chapter</cite>;</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The applicant has not been sanctioned by the Board for dispensing drugs without a permit within the last 5 years; and</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Granting the application is in the public interest.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Requirements for Permit Holders.</heading>
+    <para>
+      <num>A.</num>
+      <text>A permit holder shall comply with all federal and State statutes and regulations regarding prescription drugs, including all requirements for:</text>
+      <para>
+        <num>(1)</num>
+        <text>Dispensing, including labeling;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Storing and securing inventory;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Allowing access only to authorized individuals;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Managing inventory controls;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Recordkeeping; and</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Submitting prescription monitoring data to the Maryland Prescription Drug Monitoring Program in accordance with Health-General Article, Title 21, Subtitle 2A, Annotated Code of Maryland.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A permit holder shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Perform in person the final check of each drug dispensed;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Sign or initial documentation in person that the final check was completed;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Be present on the premises and available for consultation at the time the drug is dispensed;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>With regard to inspections by the OCSA:</text>
+        <para>
+          <num>(a)</num>
+          <text>Personally sign at the time of the inspection the acknowledgement of receipt of the inspection report required by <cite doc="Md. Code" path="gho|12-102">Health Occupations Article, §12-102(c)(2)(ii)</cite>4D, Annotated Code of Maryland; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Assure that during all normal office hours a designee is available on the premises who will sign at the time of the inspection the acknowledgement of receipt of the inspection report;</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Assure that the lot number of a drug obtained from a stock bottle or other larger container:</text>
+        <para>
+          <num>(a)</num>
+          <text>Is recorded in the office records;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Can be correlated with any patient’s prescription for that drug; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Is immediately available for inspection; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Except with regard to sample units, drug samples, and starter dosages in the possession and control of an authorized prescriber, assure that physical access to all prescription drugs is denied to all individuals at all times that a permit holder is not on the premises.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A permit holder may not dispense medications by:</text>
+      <para>
+        <num>(1)</num>
+        <text>Mail order; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A refill.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>For the purposes of this regulation, “refill” means an additional allotment of the same drug initially authorized by the original, written prescription. “Refill” does not prohibit a permit holder from dispensing the same or different drug through an additional or subsequent, written prescription.</text>
+    </para>
+  </section>
+  <section cache:ref-path="10|32|23|.07">
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Delegation of Dispensing Functions.</heading>
+    <para>
+      <num>A.</num>
+      <text>A permit holder may delegate to an unlicensed person only mechanical acts involved in dispensing a drug.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Delegation to a Physician Assistant.</text>
+      <para>
+        <num>(1)</num>
+        <text>Except as required in <cite path="10|32|23|.07|B.|(2)">§B(2) of this regulation</cite>, a permit holder may delegate to a physician assistant with whom the permit holder has a delegation agreement under <cite doc="Md. Code" path="gho|15-302">Health Occupations Article, §15-302, Annotated Code of Maryland</cite>, the dispensing of a drug prescribed by:</text>
+        <para>
+          <num>(a)</num>
+          <text>The permit holder to the permit holder’s patient; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A physician assistant or certified registered nurse practitioner who meets the requirements of Regulation .08 or .09 of this chapter.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The permit holder shall perform the final check.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Dispensing Prescription Drugs Prescribed by Physician Assistants.</heading>
+    <para>
+      <num>A.</num>
+      <text>Except as required in §§B and C of this regulation, a permit holder may dispense a drug prescribed by a physician assistant with whom the permit holder has a delegation agreement under <cite doc="Md. Code" path="gho|15-302">Health Occupations Article, §15-302, Annotated Code of Maryland</cite>, which authorizes the physician assistant to prescribe the drug.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The permit holder shall perform the final check.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The permit holder may dispense under this regulation only a drug that the permit holder is authorized to prescribe.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Dispensing Prescription Drugs Prescribed by Certified Registered Nurse Practitioners.</heading>
+    <para>
+      <num>A.</num>
+      <text>Except as required in §§B and C of this regulation, a permit holder may dispense a drug prescribed by a certified registered nurse practitioner who is:</text>
+      <para>
+        <num>(1)</num>
+        <text>Authorized under <cite doc="Md. Code" path="gho">Health Occupations Article, Title 8, Annotated Code of Maryland</cite>, to prescribe the drug; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Working with the permit holder in the same office setting.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The permit holder shall perform the final check.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The permit holder may dispense under this regulation only a drug that the permit holder is authorized to prescribe.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.10</num>
+    <heading>Records.</heading>
+    <para>
+      <num>A.</num>
+      <text>A permit holder shall keep readily retrievable at each dispensing location:</text>
+      <para>
+        <num>(1)</num>
+        <text>A copy of the dispensing permit issued by the Board;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A record of each final check;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A copy of the form, signed and dated by the patient, maintained in accordance with <cite path="10.13.01.04">COMAR 10.13.01.04</cite>, indicating the patient’s determination that a pharmacy is not conveniently available and demonstrating that the determination was made solely by the patient;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The delegation agreement of any physician assistant for whom the permit holder dispenses prescription drugs at that location, including the name of the primary supervising physician and any alternate supervising physician;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>A list of the name and license number of all physician assistants for whom the permit holder dispenses drugs at that location;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>A list of the name, license number, and specialty of all certified registered nurse practitioners for whom the permit holder dispenses drugs at that location;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>The permit holder’s protocols for handling drug recalls, including the arrangements for notifying patients;</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>The permit holder’s protocols for disposal of drugs;</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>With respect to suppliers from whom the permit holder purchased prescription drugs:</text>
+        <para>
+          <num>(a)</num>
+          <text>The name, address, and phone number of each supplier; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Documentation including:</text>
+          <para>
+            <num>(i)</num>
+            <text>For any pharmacy supplier, the number and the expiration date of the pharmacy permit issued by the Maryland Board of Pharmacy and the number and expiration date of the CDS registration issued by OCSA; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>For each wholesale supplier, the number and the expiration date of the distribution permit issued by the Maryland Board of Pharmacy and the number and expiration date of the CDS registration issued by OCSA; and</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>Any other purchasing, inventory, and dispensing records required by State or federal statutes or regulations.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>In addition to meeting the requirements of Regulation .10A, the permit holder shall comply with any other State or federal law or regulation relating to dispensing of prescription drugs.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A permit holder who dispenses CDS shall keep additional records available for inspection as required by <cite path="10.19.03.05">COMAR 10.19.03.05</cite>.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.11</num>
+    <heading>Revision of Dispensing Permit.</heading>
+    <text>A permit holder may revise a permit twice during its term, without charge, to change the location at which prescriptions will be dispensed.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.12</num>
+    <heading>Lapse of Dispensing Permit.</heading>
+    <para>
+      <num>A.</num>
+      <text>A permit automatically lapses if the permit holder:</text>
+      <para>
+        <num>(1)</num>
+        <text>Dies;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Fails to retain a valid and active Maryland medical license;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Fails without good cause to file the annual report required by <cite doc="Md. Code" path="gho|12-102">Health Occupations Article, §12-102(c)(2)(ii)</cite>4L, Annotated Code of Maryland, within 15 days of the anniversary date of the date the permit was issued; or</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Fails without good cause to notify the Board of a change of address as required by <cite doc="Md. Code" path="gho|14-316">Health Occupations Article, §14-316(f), Annotated Code of Maryland</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A lapsed permit may not be reinstated.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The lapse of a permit is not in itself a bar to filing an application for a new permit.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.13</num>
+    <heading>Written Notice on Reactivation of Dispensing.</heading>
+    <text>A permit holder who has reported pursuant to <cite doc="Md. Code" path="gho|12-102">Health Occupations Article, §12-102(c)(2)(ii)</cite>4L, Annotated Code of Maryland, that the permit holder has not personally dispensed prescription drugs during the previous year:</text>
+    <para>
+      <num>A.</num>
+      <text>Will not be subject to inspections by OCSA pursuant to <cite doc="Md. Code" path="gho|12-102">Health Occupations Article, §12-102</cite>.1(b), Annotated Code of Maryland, unless the permit holder begins dispensing again; and</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>May not begin to dispense prescription drugs again during the term of the dispensing permit without notifying the Board in advance in writing.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.14</num>
+    <heading>Grounds for Revocation of Dispensing Permit.</heading>
+    <para>
+      <num>A.</num>
+      <text>Subject to the Administrative Procedure Act, and in addition to any sanction for violation of <cite doc="Md. Code" path="gho|14-404">Health Occupations Article, §14-404(a)(28), Annotated Code of Maryland</cite>, the Board may revoke a dispensing permit on any of the following grounds:</text>
+      <para>
+        <num>(1)</num>
+        <text>Violating the attestations made pursuant to <cite path="10.13.01.05|C.|(4)">COMAR 10.13.01.05C(4)</cite>;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Violating State or federal statutes or regulations regarding prescribing or dispensing prescription drugs;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Delegating dispensing duties outside the scope of this chapter;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Dispensing prescription drugs prescribed by another outside the scope of this chapter;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Dispensing at a location not designated on the permit;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Being absent from the premises when prescription drugs are dispensed under the permit;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Failing to comply with the applicable requirements of the Prescription Drug Monitoring Program set out in Health-General Article, Title 21, Subtitle 2A, Annotated Code of Maryland;</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Failing to cooperate with an investigation by the Board or an inspection by OCSA; or</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>Violating Regulations .06, .10, or .13 of this chapter.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>If a permit holder surrenders the permit while under investigation:</text>
+      <para>
+        <num>(1)</num>
+        <text>The surrender does not prevent the Board from taking any appropriate disciplinary action under <cite doc="Md. Code" path="gho|14-404">Health Occupations Article, §14-404(a)(28), Annotated Code of Maryland</cite>, or any other statute under which the Board has jurisdiction; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The permit holder may not apply for another permit again for a minimum of 5 years.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.15</num>
+    <heading>Summary Suspension of Dispensing Permit.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Board may summarily suspend a dispensing permit if it finds that the public safety, health, or welfare imperatively requires emergency action.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Procedures for summary suspension shall be governed by <cite path="10.32.02.08">COMAR 10.32.02.08</cite>.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.16</num>
+    <heading>Fraud or Deception in Obtaining a Permit.</heading>
+    <text>Subject to the Administrative Procedure Act, a licensee who fraudulently or deceptively obtains or attempts to obtain a permit is guilty of violating <cite doc="Md. Code" path="gho|14-404">Health Occupations Article, §14-404(a)(1), Annotated Code of Maryland</cite>.</text>
+  </section>
+  <section cache:ref-path="10|32|23|.17">
+    <prefix>Regulation</prefix>
+    <num>.17</num>
+    <heading>Permit Holders Sanctioned for Violating the Medical Practice Act.</heading>
+    <para>
+      <num>A.</num>
+      <text>If the Board sanctions a permit holder for violating <cite doc="Md. Code" path="gho|14-404">Health Occupations Article, §14-404(a)(7), </cite>(8), (9), (10), or (28), or §14-404(b), Annotated Code of Maryland, the Board shall, in addition to any sanctions imposed on the permit holder under <cite path="10.32.02.07">COMAR 10.32.02.07</cite> or <cite path="10.32.02.10">10.32.02.10</cite>, revoke the permit.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Subject to the requirement of <cite path="10|32|23|.17|C.">§C of this regulation</cite>, reinstatement of a revoked permit is at the discretion of the Board.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A revoked permit may not be reinstated for a minimum of 5 years from the date of revocation.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.18</num>
+    <heading>Dispensing Without a Permit.</heading>
+    <text>Unless otherwise authorized by <cite doc="Md. Code" path="gho|12-102">Health Occupations Article, §12-102, Annotated Code of Maryland</cite>, the dispensing of prescription drugs by a physician without a permit is a violation of <cite doc="Md. Code" path="gho|14-404">Health Occupations Article, §14-404(a)(28), Annotated Code of Maryland</cite>, and also may be considered unprofessional conduct in the practice of medicine in violation of <cite doc="Md. Code" path="gho|14-404">Health Occupations Article, §14-404(a)(3)(ii), Annotated Code of Maryland</cite>.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.19</num>
+    <heading>Interpretation.</heading>
+    <text>Nothing in this chapter relieves any permit holder from meeting the requirements of State or federal law or <cite path="|10.13.01">COMAR 10.13.01</cite>.</text>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Health Occupations Article, §§<cite doc="Md. Code" path="gho|12-102">12-102</cite>, <cite doc="Md. Code" path="gho|14-205">14-205</cite>, <cite doc="Md. Code" path="gho|14-306">14-306</cite>, <cite doc="Md. Code" path="gho|14-404">14-404</cite>, and <cite doc="Md. Code" path="gho|14-408">14-408</cite>; State Government Article, §§<cite doc="Md. Code" path="gsg|10-206">10-206</cite> and <cite doc="Md. Code" path="gsg|10-226">10-226</cite>; Annotated Code of Maryland</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2018-03-26">Effective date: March 26, 2018 (45:6 Md. R. 320)</annotation>
+  </annotations>
+</container>

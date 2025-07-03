@@ -1,0 +1,859 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>32</num>
+  <heading>Targeted Case Management for HIV-Infected Individuals</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>The following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>"Case management" means services which will assist participants in gaining access to the full range of Medical Assistance services, as well as to any additional needed medical, social, housing, financial, counseling, and other support services.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>“Case manager” means a physician, nurse, or social worker (refer to <cite path="|10|09|32|.02">Regulation .02 of this chapter</cite>) employed by the HIV ongoing case management provider and chosen by the participant or the participant’s legally authorized representative.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>"Department" means Department as defined in <cite path="10.09.36.01">COMAR 10.09.36.01</cite>.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>"Entity" means a facility, agency, organization, department, office, corporation, partnership, group or individual.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>“HIV diagnostic evaluation services” means a bio-psychosocial assessment of a participant and development or revision of an individualized plan of care by a multidisciplinary team convened by an approved HIV diagnostic evaluation services provider.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>"HIV diagnostic evaluation services provider" means an entity approved by the Department as a provider of HIV diagnostic evaluation services, as defined in <cite path="|10|09|32|.03">Regulation .03 of this chapter</cite>.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>“HIV-infected individual” means a person determined as positive for human immunodeficiency virus (HIV) infection by the enzyme-linked immunosorbent assay (ELISA) and confirmed by the Western Blot, or another generally accepted diagnostic testing algorithm for HIV infection.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>"HIV ongoing case management" means the activities involved in developing, revising, implementing, and monitoring the plan of care, as performed by a case manager through an approved HIV ongoing case management provider.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>"HIV ongoing case management provider" means an entity, as defined in <cite path="|10|09|32|.03">Regulation .03 of this chapter</cite>, approved by the Department as a provider of ongoing case management services to participants.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>“HIV-targeted case management” means the provision of HIV diagnostic evaluation services and HIV ongoing case management.</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>"Medical Assistance Program" means the Medical Assistance Program as defined in <cite path="10.09.36.01">COMAR 10.09.36.01</cite>.</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>"Medically necessary" has the meaning stated in <cite path="10.09.36.01">COMAR 10.09.36.01</cite>.</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>“Multidisciplinary team” means the members convened by the HIV diagnostic evaluation services provider to perform a bio-psychosocial assessment of the participant and develop or revise an individualized plan of care.</text>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>"Nurse" means a person who is licensed as a registered nurse in the jurisdiction in which services are provided.</text>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>"Ongoing case management" means the activities involved in developing, revising, implementing, and monitoring the plan of care, as performed by a case manager through an approved HIV ongoing case management provider.</text>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>"Participant" means a recipient who:</text>
+        <para>
+          <num>(a)</num>
+          <text>Has been diagnosed as HIV-infected or is a child less than 2 years old born to a woman diagnosed as HIV-infected;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Elects, or has a legally authorized representative elect in the recipient's behalf, to receive the services available under these regulations; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Is not receiving the same case management services under the Social Security Act, §1915(b), 1915(c), or 1915(g).</text>
+        </para>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>"Physician" means a doctor of medicine or osteopathy who is licensed to practice medicine in the jurisdiction in which services are rendered.</text>
+      </para>
+      <para>
+        <num>(18)</num>
+        <text>“Plan of Care” means a goal-directed treatment plan developed and revised by the HIV diagnostic evaluation service provider’s multidisciplinary team that is based on the bio-psychosocial assessment.</text>
+      </para>
+      <para>
+        <num>(19)</num>
+        <text>"Program" means the Program as defined in <cite path="10.09.36.01">COMAR 10.09.36.01</cite>.</text>
+      </para>
+      <para>
+        <num>(20)</num>
+        <text>"Provider" means the HIV diagnostic evaluation services provider or HIV ongoing case management provider, which offers covered case management services to participants through a provider agreement signed with the Department and which is identified as a Program provider by issuance of an individual account number.</text>
+      </para>
+      <para>
+        <num>(21)</num>
+        <text>"Provider agreement" means a contract between the Department and the provider.</text>
+      </para>
+      <para>
+        <num>(22)</num>
+        <text>"Recipient" means recipient as defined in <cite path="10.09.36.01">COMAR 10.09.36.01</cite>.</text>
+      </para>
+      <para>
+        <num>(23)</num>
+        <text>"Social worker" means a person who is in compliance with the social work licensing requirements of the jurisdiction in which services are provided.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Licensing Requirements.</heading>
+    <para>
+      <num>A.</num>
+      <text>Registered nurses participating in targeted case management for HIV-infected individuals shall be licensed pursuant to <cite doc="Md. Code" path="gho">Health Occupations Article, Title 7, Annotated Code of Maryland</cite>, or pursuant to comparable licensing requirements of the jurisdiction in which services are rendered.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Social workers participating in targeted case management for HIV-infected individuals shall be licensed pursuant to <cite doc="Md. Code" path="gho">Health Occupations Article, Title 18, Annotated Code of Maryland</cite>.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Physicians participating in targeted case management for HIV-infected individuals shall be licensed to practice medicine in the jurisdiction in which services are rendered.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Conditions for Participation.</heading>
+    <para>
+      <num>A.</num>
+      <text>General requirements for participation in the Medical Assistance Program are that providers shall meet all the conditions for participation as set forth in <cite path="10.09.36.03">COMAR 10.09.36.03</cite>.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Specific requirements for participation in the Program as a provider of services covered under this chapter are that the provider shall maintain a record on each participant which meets the Program’s requirements and which includes:</text>
+      <para>
+        <num>(1)</num>
+        <text>Verification of the participant’s HIV-infected status;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Verification of the participant’s eligibility for services;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A signed consent form by the participant to participate in HIV ongoing case management;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The completed bio-psychosocial assessment;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The completed plan of care signed by all members of the multidisciplinary team;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Documentation for each contact made by the case manager including:</text>
+        <para>
+          <num>(a)</num>
+          <text>Date and subject of contact;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Person contacted;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Person making the contact;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Nature, extent, and unit or units of service provided; and</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Place of service; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>A signed case closure form when HIV ongoing case management services are ended.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Specific requirements for participation in the Program as an HIV diagnostic evaluation services provider are that the provider shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Be a physician or a health or social services entity which employs or has a written agreement with physicians, nurses, or social workers for provision of its diagnostic evaluation services who are experienced or trained in the provision of services to HIV-infected individuals;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Have a written plan for the implementation of HIV diagnostic evaluation services;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Be available to participants at least 8 hours a day, 5 days a week, except on State holidays;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Have existing policies and procedures concerning the performance of HIV diagnostic evaluation services;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Develop procedures to expedite bio-psychosocial assessments when necessary;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Have access to specialty physicians experienced and trained in the provision of services to HIV-infected individuals for consultation, as necessary, concerning a participant’s medical assessment and the medical services recommended in the plan of care.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Present a qualified recipient with the option of receiving HIV diagnostic evaluation services and HIV ongoing case management services. If the recipient elects to receive HIV ongoing case management, the provider shall ask the recipient to select from a list of qualified HIV ongoing case management providers.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Establish a written agreement with any entity approved as an HIV ongoing case management provider which a participant selects as his or her case manager and agrees to allow the case manager chosen by the participant to:</text>
+        <para>
+          <num>(a)</num>
+          <text>Participate as a member of the multidisciplinary team;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Assist with performance of the bio-psychosocial assessment;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Assist with the development and revision of the plan of care; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Monitor the participant’s need for a revised bio-psychosocial assessment.</text>
+        </para>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>Convene a multidisciplinary team for each participant, to perform the bio-psychosocial assessment and develop or revise an individualized plan of care. The team shall be composed of:</text>
+        <para>
+          <num>(a)</num>
+          <text>The participant;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The participant’s legally authorized representative or representatives;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Any additional representatives chosen by the participant, if desired;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>A representative from the HIV diagnostic evaluation services provider which may include any of the following as necessary and appropriate:</text>
+          <para>
+            <num>(i)</num>
+            <text>The participant’s primary care physician;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Nurse;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Current service provider or providers;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Specialty physician; or</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>Social worker; and</text>
+          </para>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>The participant’s case manager. If employed by the HIV diagnostic evaluation services provider, the case manager may also act as the representative from the provider.</text>
+        </para>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>Inform the participant or the participant’s legally authorized representative or representatives of:</text>
+        <para>
+          <num>(a)</num>
+          <text>Recommendations for the plan of care in the bio-psychosocial assessment; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Availability of needed services.</text>
+        </para>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>Have the capacity to conduct, at minimum, an annual bio-psychosocial assessment of the participant, unless an earlier assessment is recommended by the case manager or multidisciplinary team.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Specific requirements for participation in the Program as an HIV ongoing case management provider are that the provider shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Be a health or social services entity employing registered nurses, social workers, or physicians, who are trained and have at least 1 year experience in the provision of services as a case manager. Experience may have been acquired as volunteer work or field placement;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Have a written agreement:</text>
+        <para>
+          <num>(a)</num>
+          <text>With any entity approved as an HIV diagnostic evaluation services provider from whom the ongoing case management provider is accepting referrals, and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Which permits the case manager to participate as a member of the multidisciplinary team, to have access to the plan of care, and to request a bio-psychosocial assessment and plan of care revision as necessary;</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Have a written plan for the implementation of HIV ongoing case management services;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Have existing policies and procedures concerning the performance of HIV ongoing case management;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Provide HIV ongoing case management services to participants who:</text>
+        <para>
+          <num>(a)</num>
+          <text>Are assessed by an HIV diagnostic evaluation services provider;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Are recommended for HIV ongoing case management services in the plan of care; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Elect to receive ongoing case management services;</text>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Be available to participants at least 8 hours a day, 5 days a week, except on State holidays;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Have established alternatives for managing participants’ medical and social crises during off-hours that will be specified in participants’ individualized plans of care;</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Have the capacity to meet with the participant face-to-face;</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>Be knowledgeable of the eligibility requirements and application procedures of applicable federal, State, and local government assistance programs; and</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>Maintain a current listing of medical, social, housing assistance, mental health, financial assistance, counseling, and other support services available to HIV-infected individuals.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="10|09|32|.04">
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Covered Services.</heading>
+    <text>The Program covers the following services when they have been documented as medically necessary:</text>
+    <para>
+      <num>A.</num>
+      <text>HIV Diagnostic Evaluation Services.</text>
+      <para>
+        <num>(1)</num>
+        <text>These services shall include, as a unit of service, performance of a bio-psychosocial assessment and development or revision of a recommended plan of care, as well as all other necessary covered services described in <cite path="10|09|32|.04|A.|(2)">§A(2) of this regulation</cite>.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A bio-psychosocial assessment shall be completed within 6 weeks of the participant’s referral for case management services. The assessment shall be performed by the HIV diagnostic evaluation services provider representative on the multidisciplinary team and include:</text>
+        <para>
+          <num>(a)</num>
+          <text>A review of relevant medical and other records, with the participant’s or legal representative’s written consent;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A consult with the participant’s attending physician and current providers of medical, social, or other support services, as appropriate;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A face-to-face assessment of the participant, preferably at the participant’s residence, to determine:</text>
+          <para>
+            <num>(i)</num>
+            <text>Medical, psychiatric, and substance abuse history, including current medications;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Nutritional status;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Emotional and behavioral status;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Health care coverage;</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>Living situation;</text>
+          </para>
+          <para>
+            <num>(vi)</num>
+            <text>Personal support systems;</text>
+          </para>
+          <para>
+            <num>(vii)</num>
+            <text>Employment and income status;</text>
+          </para>
+          <para>
+            <num>(viii)</num>
+            <text>Health education;</text>
+          </para>
+          <para>
+            <num>(ix)</num>
+            <text>Social support; and</text>
+          </para>
+          <para>
+            <num>(x)</num>
+            <text>Any additional service needs;</text>
+          </para>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>A consult, as appropriate, with the participant or the participant’s legally authorized representative or representatives; and</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>All areas listed on the Department’s approved sample bio-psychosocial assessment form.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Documentation of the results of the assessment shall be kept in the participant’s record.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The multidisciplinary team will develop a written, individualized plan of care which reflects both the needed and available services being recommended for delivery.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The plan of care shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Be participant-centered and goal-oriented;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Be developed and written in collaboration with the participant and other members of the multidisciplinary team;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Incorporate findings from the bio-psychosocial assessment;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Incorporate findings and recommendations from the multidisciplinary team;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Establish a plan for after-hours crises, including medical and social crises, and other emergency situations;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Document the proposed frequency of contact with a minimum of 1 face-to-face meeting every 6 months; and</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>Address all areas listed on the Department’s approved sample plan of care form.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>HIV Ongoing Case Management Services.</text>
+      <para>
+        <num>(1)</num>
+        <text>The case manager shall assist with the bio-psychosocial assessment and with development or revision of the plan of care by:</text>
+        <para>
+          <num>(a)</num>
+          <text>Conducting a face-to-face assessment of the participant’s psychosocial status and health care needs and briefing the multidisciplinary team on the findings;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Participating in the development or revision of an individualized plan of care for the participant;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Encouraging the participant’s and representative’s participation in the multidisciplinary team process; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Linking the participant with any services needed on an emergency basis before the plan of care or revision is finalized.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The HIV ongoing case management provider may be reimbursed for the case manager’s participation as a member of the multidisciplinary team, convened to review the participant’s case by the HIV diagnostic evaluation services provider.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The case manager:</text>
+        <para>
+          <num>(a)</num>
+          <text>Participates as a member of the multidisciplinary team convened by the HIV diagnostic evaluation services provider;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Assumes responsibility for providing case management services to the participant;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Acts as a point of contact for the case; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Implements and monitors the plan of care recommended by the HIV diagnostic evaluation services provider’s multidisciplinary team and approved by the participant.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>HIV ongoing case management services shall be provided to participants who:</text>
+        <para>
+          <num>(a)</num>
+          <text>Are recommended in the plan of care as needing case management; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Who elect to receive case management services.</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The plan of care shall be implemented as follows:</text>
+        <para>
+          <num>(a)</num>
+          <text>The case manager shall make initial contact with the participant to assure that medical and support referrals were completed and followed-up on;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The case manager shall maintain regular contact that will occur at intervals agreed on by the participant and case manager in the plan of care;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The case manager or HIV ongoing case management provider, when necessary, shall respond to participant-initiated non-emergency contact within 2 working days;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>The participant or the participant’s representative or representatives shall be offered a copy of the plan of care;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>The case manager shall document every direct and indirect contact, including assessing the progress of implementation of the plan of care in the participant’s record;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>The case manager shall assist the participant with each action plan to reach the goals outlined in the plan of care;</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>The case manager shall advise the participant about available services and service providers, by making referrals to and arrangements with service providers selected by the participant, and by assisting the participant in gaining access to services for which the participant is eligible and which the participant chooses, to include:</text>
+          <para>
+            <num>(i)</num>
+            <text>The full range of Medical Assistance services; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Other available support services such as medical, social, housing, financial, and counseling;</text>
+          </para>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>The case manager shall provide the participant with any necessary counseling concerning:</text>
+          <para>
+            <num>(i)</num>
+            <text>Government entitlement programs;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Health programs;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Social programs;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Educational programs;</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>Psychological programs;</text>
+          </para>
+          <para>
+            <num>(vi)</num>
+            <text>Financial programs;</text>
+          </para>
+          <para>
+            <num>(vii)</num>
+            <text>Housing programs; and</text>
+          </para>
+          <para>
+            <num>(viii)</num>
+            <text>Other resources;</text>
+          </para>
+        </para>
+        <para>
+          <num>(i)</num>
+          <text>The case manager shall follow up with referral sources; and</text>
+        </para>
+        <para>
+          <num>(j)</num>
+          <text>The case manager shall examine the actual service delivery against the plan of care.</text>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>The case manager shall monitor and evaluate the participant’s plan of care as follows:</text>
+        <para>
+          <num>(a)</num>
+          <text>Review and check the status of each activity outlined in the plan of care;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Modify the action plan or goals to accommodate the participant’s changing needs or changes in service availability;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Monitor the plan of care at regular intervals that have been predetermined at the time of the plan of care or more often depending on participant need;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Evaluate the plan of care, in collaboration with the participant, at least every 6 months, with input from any members of a multidisciplinary team who have been involved with the participant’s care.</text>
+        </para>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>The case manager shall document the following in the participant’s record regarding case closure:</text>
+        <para>
+          <num>(a)</num>
+          <text>Participant notification, including date of closure, reason, and explanation of closure;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Participant’s notification of right to re-enter services at a later time;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Documentation of coordination and referral to a new provider if desired by the participant; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Documentation of a participant’s non-response to case manager attempts to reach the participant over a 6-month period of time with at least 3 attempts to contact the participant.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Limitations.</heading>
+    <para>
+      <num>A.</num>
+      <text>HIV-targeted case management shall be advisory in nature.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A restriction may not be placed on qualified recipients' option to receive HIV case management services.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>HIV-targeted case management does not restrict or otherwise affect:</text>
+      <para>
+        <num>(1)</num>
+        <text>Eligibility for Title XIX benefits or other available benefits or programs;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The freedom of a recipient to select from all available services for which the individual is found to be eligible; or</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The participant's free choice of qualified providers.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>HIV-targeted case management may not be:</text>
+      <para>
+        <num>(1)</num>
+        <text>Provided as an integral and inseparable part of another covered Program service;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Provided as an administrative function;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Rendered in connection with the implementation of the Social Security Act, §1915(b) or 1915(c); or</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Part of institutional discharge planning.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Reimbursement may not be made for HIV-targeted case management services if the participant is:</text>
+      <para>
+        <num>(1)</num>
+        <text>Eligible to receive services under the Maryland Medicaid Managed Care Program, as defined in <cite path="|10.09.62">COMAR 10.09.62</cite>; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Receiving comparable case management services under:</text>
+        <para>
+          <num>(a)</num>
+          <text>The Rare and Expensive Case Management Program, as defined in <cite path="|10.09.69">COMAR 10.09.69</cite>; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Under another Program authority.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>A participant's case manager may not be a direct services provider for the participant.</text>
+    </para>
+  </section>
+  <section cache:ref-path="10|09|32|.06">
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Payment Procedures.</heading>
+    <para>
+      <num>A.</num>
+      <text>Request for Payment.</text>
+      <para>
+        <num>(1)</num>
+        <text>Requests for payment of HIV-targeted case management services rendered shall be submitted by an approved provider according to procedures as set forth in <cite path="10.09.36.04">COMAR 10.09.36.04</cite>.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Requests for payment shall be submitted on the invoice form specified by the Department. The completed form shall indicate the:</text>
+        <para>
+          <num>(a)</num>
+          <text>Date or dates of service;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Participant's name and Medical Assistance number;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Provider's name, identification number, and location; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Nature, procedure code or codes, and unit or units of covered service provided.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Providers shall bill the Program for the appropriate fee specified in <cite path="10|09|32|.06|C.">§C of this regulation</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Billing time limitations for claims submitted pursuant to this chapter are set forth in <cite path="|10.09.36">COMAR 10.09.36</cite>.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Payments shall be made:</text>
+      <para>
+        <num>(1)</num>
+        <text>Only to 1 provider for a specific type of HIV-targeted case management services rendered to a participant during a specified time period;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>To an HIV ongoing case management provider that shall be reimbursed in 15-minute increments, which is equal to 1 unit of service. Reimbursement for HIV ongoing case management may not exceed 96 units of service per year following the date of service for the HIV diagnostic evaluation services; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>To a provider of HIV-targeted case management services that may not exceed the following fee schedule:</text>
+        <para>
+          <num>(a)</num>
+          <text>For the completion of a bio-psychosocial assessment and development or revision of the plan of care performed by an HIV diagnostic evaluation services provider — $200;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>For the participation by the case manager in the completion of the bio-psychosocial assessment and development or revision of the plan of care, as specified in <cite path="|10|09|32|.04|B.">Regulation .04B of this chapter</cite> up to 6 units of service at a rate of $17.86 per unit of service</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>For HIV ongoing case management, up to 96 units of service, at a rate of $17.86 per unit of service, may be reimbursed per year following completion of the bio-psychosocial assessment and development or revision of the plan of care by a qualified provider of HIV diagnostic evaluation services.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Recovery and Reimbursement.</heading>
+    <text>Recovery and reimbursement shall be as set forth in <cite path="10.09.36.07">COMAR 10.09.36.07</cite>.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Cause for Suspension or Removal and Imposition of Sanctions.</heading>
+    <text>Cause for suspension or removal and imposition of sanctions shall be as set forth in <cite path="10.09.36.08">COMAR 10.09.36.08</cite>.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Appeal Procedures.</heading>
+    <text>Appeal procedures shall be as set forth in <cite path="10.09.36.09">COMAR 10.09.36.09</cite>.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.10</num>
+    <heading>Interpretive Regulation.</heading>
+    <text>State regulations shall be interpreted as set forth in <cite path="10.09.36.10">COMAR 10.09.36.10</cite>.</text>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Health-General Article, §§2-104(b), 15-103, and 15-105, Annotated Code of Maryland</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1988-07-11">Effective date: July 11, 1988 (15:14 Md. R. 1655)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1989-04-25">Regulations <cite path="|10|09|32|.01">.01</cite>—<cite path="|10|09|32|.06">.06</cite> amended as an emergency provision effective December 26, 1988 (15:27 Md. R. 3123); adopted permanently effective April 25, 1989 (16:7 Md. R. 811)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1990-11-26">Regulations <cite path="|10|09|32|.01">.01</cite>—<cite path="|10|09|32|.06">.06</cite> amended as an emergency provision effective August 28, 1990 (17:19 Md. R. 2318); emergency status expired November 11, 1990; amended permanently effective November 26, 1990 (17:23 Md. R. 2732)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1991-01-28"><cite path="|10|09|32|.06|B.">Regulation .06B</cite> amended as an emergency provision effective January 28, 1991 (18:3 Md. R. 301); emergency status expired April 8, 1991 (18:9 Md. R. 1004)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1991-10-07"><cite path="|10|09|32|.06|B.">Regulation .06B</cite> amended as an emergency provision effective April 9, 1991 (18:9 Md. R. 1005); amended permanently effective October 7, 1991 (18:18 Md. R. 2004)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1991-09-30" discontinuity="true">Chapter revised effective September 30, 1991 (18:19 Md. R. 2100)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2012-04-02"><cite path="|10|09|32|.01|B.">Regulation .01B</cite> amended effective August 27, 2007 (34:17 Md. R. 1507); April 2, 2012 (39:6 Md. R. 408)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2012-04-02"><cite path="|10|09|32|.03">Regulation .03</cite> amended effective April 2, 2012 (39:6 Md. R. 408)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2012-04-02"><cite path="|10|09|32|.04">Regulation .04</cite> amended effective August 27, 2007 (34:17 Md. R. 1507); April 2, 2012 (39:6 Md. R. 408)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2012-04-02"><cite path="|10|09|32|.05|D.">Regulation .05D</cite>, E amended effective April 2, 2012 (39:6 Md. R. 408)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2012-04-02"><cite path="|10|09|32|.06|A.">Regulation .06A</cite>, C amended effective April 2, 2012 (39:6 Md. R. 408)</annotation>
+  </annotations>
+</container>

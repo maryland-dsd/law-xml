@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>05</num>
+  <heading>Telehealth</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Scope.</heading>
+    <text>This chapter governs the practice of medicine using telehealth as an adjunct to, or replacement for, in-person patient visits.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>“Asynchronous” means not occurring at the same time.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>“In-person” means within the physical presence of the patient.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>“Interpretive services” means reading and analyzing images, tracings, or specimens through telehealth or giving interpretations based on visual, auditory, thermal, or ultrasonic patterns or other patterns as may evolve with technology.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>“Remote patient monitoring” means the use of telehealth devices to collect from patients medical and other forms of health data that are securely provided to a telehealth practitioner in a different location for assessment, recommendation, and diagnosis.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>“Store and forward telehealth services” means a type of asynchronous telehealth service involving a response to or interpretation of digital images, documents, audio files, or videos transmitted electronically through secure means.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>“Surrogate examiner” means an individual examining a patient at the direction of a telehealth practitioner during a synchronous audio-visual telehealth encounter and providing the telehealth practitioner with observations and information.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>“Synchronous” means simultaneously or quickly enough to allow two or more individuals to conduct a conversation.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Telehealth.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Telehealth” means the use of interactive audio, video, audio-visual, or other telecommunications or electronic technology by a Maryland licensed physician or licensed allied health practitioner to deliver clinical services within the scope of practice of the Maryland licensed physician or licensed allied health practitioner at a location other than the location of the patient.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Telehealth” does not include:</text>
+          <para>
+            <num>(i)</num>
+            <text>An audio-only telephone conversation between a Maryland licensed physician or licensed allied health practitioner and a patient;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>An electronic mail message between a Maryland licensed physician or licensed allied health practitioner and a patient; or</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>A facsimile transmission between a Maryland licensed physician or licensed allied health practitioner and a patient.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>“Telehealth devices” means devices that gather visual or other data and remotely sends the images or data to a telehealth practitioner in a different location from that of the patient.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>“Telehealth practitioner” means a Maryland licensed physician or licensed allied health practitioner performing telehealth services within their respective scope of practice.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Licensure.</heading>
+    <text>Except as specified in <cite doc="Md. Code" path="gho|14-302">Health Occupations Article, §14-302, Annotated Code of Maryland</cite>, a telehealth practitioner may practice telehealth if one or both of the following occurs:</text>
+    <para>
+      <num>A.</num>
+      <text>The individual practicing telehealth is physically located in Maryland; or</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The patient is in Maryland.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Specific Telehealth Requirements.</heading>
+    <para>
+      <num>A.</num>
+      <text>Before performing telehealth services, a telehealth practitioner shall develop and follow a procedure to:</text>
+      <para>
+        <num>(1)</num>
+        <text>Verify the identification of the patient receiving telehealth services;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Except for interpretive services, obtain oral or written acknowledgement from a patient or person in interest as defined by Health-General Article, §4-301(m), Annotated Code of Maryland, to perform telehealth services;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Prevent access to data by unauthorized persons through encryption or other means;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Notify patients in the event of a data breach;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Ensure that the telehealth practitioner provides a secure and private telehealth connection that complies with federal and state privacy laws; and</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Establish safety protocols to be used in the case of an emergency.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Except when providing store and forward telehealth services, remote patient monitoring, or other asynchronous telehealth services, a telehealth practitioner shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Obtain or confirm an alternative method of contacting the patient in case of a technological failure;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Confirm whether the patient is in Maryland and identify the practice setting in which the patient is located;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>For an initial patient-telehealth practitioner interaction only, disclose the telehealth practitioner’s name, contact information, and medical specialty; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Identify all individuals present at each location and confirm they are allowed to hear personal health information.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The requirements set forth under §§A and B of this regulation may be delegated.</text>
+    </para>
+  </section>
+  <section cache:ref-path="10|32|05|.05">
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Patient Evaluation.</heading>
+    <para>
+      <num>A.</num>
+      <text>A telehealth practitioner shall perform a synchronous, audio-visual patient evaluation adequate to establish diagnoses and identify underlying conditions or contraindications to recommended treatment options before providing treatment or prescribing medication.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Subject to <cite path="|10|32|05|.06">Regulation .06 of this chapter</cite>, the requirements of <cite path="10|32|05|.05|A.">§A of this regulation</cite> do not apply to:</text>
+      <para>
+        <num>(1)</num>
+        <text>Interpretive services where a prior patient evaluation was performed by another provider;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Remote patient monitoring; or</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Asynchronous telehealth services for a patient who has had a prior synchronous, audio-visual telehealth patient evaluation or in-person patient evaluation that complies with the requirements of <cite path="10|32|05|.05|A.">§A of this regulation</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>To comply with <cite path="10|32|05|.05|A.">§A of this regulation</cite>, a telehealth practitioner may use:</text>
+      <para>
+        <num>(1)</num>
+        <text>A surrogate examiner; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A patient evaluation performed by another licensed health care practitioner providing coverage.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Standard Related to Telehealth.</heading>
+    <para>
+      <num>A.</num>
+      <text>A telehealth practitioner shall be held to the same standards of practice and documentation as those applicable in in-person health care settings.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A telehealth practitioner may not treat a patient or prescribe medication based solely on an online questionnaire.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A telehealth practitioner may not prescribe opioids for the treatment of pain through telehealth except if the patient is in a health care facility as defined in Health-General Article, §19-114(d)(1), Annotated Code of Maryland.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Telehealth Practitioner Discipline.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Board shall use the same standards in evaluating and investigating a complaint about and in disciplining a licensee who practices telehealth as it would use for a licensee who does not use telehealth technology in the licensee’s practice.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The failure of a telehealth practitioner to comply with Regulation .04, .05, or .06 of this chapter shall constitute unprofessional conduct.</text>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Health Occupations Article, §§<cite doc="Md. Code" path="gho|1-903">1-903</cite>, <cite doc="Md. Code" path="gho|14-205">14-205</cite>, <cite doc="Md. Code" path="gho|14-301">14-301</cite>, and <cite doc="Md. Code" path="gho|14-601">14-601</cite>, Annotated Code of Maryland</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2009-12-28">Effective date: December 28, 2009 (36:26 Md. R. 1995)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2019-08-12" discontinuity="true">Regulations <cite path="|10|32|05|.01">.01</cite>—<cite path="|10|32|05|.07">.07</cite>, Telemedicine, repealed and new Regulations <cite path="|10|32|05|.01">.01</cite>—<cite path="|10|32|05|.07">.07</cite>, Telehealth, adopted effective August 12, 2019 (46:16 Md. R. 688)</annotation>
+  </annotations>
+</container>

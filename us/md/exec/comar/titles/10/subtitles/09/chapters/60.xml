@@ -1,0 +1,571 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>60</num>
+  <heading>Senior Prescription Drug Assistance Program</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>"Administrator" means the third party that contracts with the Department to administer the Program.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>"Annual household income" has the meaning stated in <cite path="|10|09|60|.02|B.">Regulation .02B of this chapter</cite>.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>“Department” means the Maryland Department of Health.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>"Eligible individual" means an individual who meets the criteria set forth in <cite path="|10|09|60|.02|A.">Regulation .02A of this chapter</cite>:</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>"Enrollee" means an individual enrolled in the Senior Prescription Drug Assistance Program.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>"Household member" means:</text>
+        <para>
+          <num>(a)</num>
+          <text>An eligible individual;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The spouse of an eligible individual if the spouse resides in the same residence as the eligible individual; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>An individual who:</text>
+          <para>
+            <num>(i)</num>
+            <text>Is related to an eligible individual by blood, marriage, or adoption;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Resides in the same residence as the eligible individual; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Is dependent on the eligible individual or the spouse of the eligible individual for at least one-half of the individual's support.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>"Prescription drug plan sponsor" means a nongovernmental entity that is certified by the Centers for Medicare and Medicaid Services as meeting the requirements of the Medicare Prescription Drug, Improvement, and Modernization Act of 2003 for offering in the State:</text>
+        <para>
+          <num>(a)</num>
+          <text>A Medicare Part D prescription drug plan; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A Medicare Advantage Plan that provides prescription drug benefits.</text>
+        </para>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>"Program" means the Senior Prescription Drug Assistance Program established under Health-General Article, Title 15, Subtitle 10, Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>"Program Fund" means the Fund established under <cite doc="Md. Code" path="gin|15-1004">Insurance Article, §15-1004, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>"Reasonable administrative expenses" means administrative expenses including, but not limited to, marketing, advertising, mailing, printing, and fully allocated costs for administration of the Program.</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>Support and Maintenance Furnished in-Kind.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Support and maintenance furnished in-kind" means any food or shelter that is:</text>
+          <para>
+            <num>(i)</num>
+            <text>Given to an eligible individual or the spouse of an eligible individual without cost; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Received by an eligible individual or the spouse of an eligible individual because another person has paid the cost.</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Support and maintenance in-kind" includes the provision of room, rent, garbage collection services, mortgage payments, real property tax payments, and heating fuel, gas, electricity, water, and sewage payments.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="10|09|60|.02">
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Eligibility, Enrollment, and Disenrollment.</heading>
+    <para>
+      <num>A.</num>
+      <text>To be eligible for enrollment in the Program, an individual shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Be a resident of Maryland;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Be a Medicare beneficiary enrolled in the Medicare Part D Voluntary Prescription Drug Benefit Program or a Medicare Advantage Plan that provides Part D coverage;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Have an annual household income, as described in <cite path="10|09|60|.02|B.">§B of this regulation</cite>, at or below 300 percent of the Federal Poverty Guidelines that apply to the individual based on the number of household members of the individual;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Not be enrolled in a health benefit plan, other than a Medicare Part D prescription drug plan or a Medicare Advantage Plan, that provides prescription drug benefits at the time the individual applies for enrollment in the Program; and</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Not be eligible for a full federal low-income subsidy under 42 CFR §423.772.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Consideration of Annual Household Income.</text>
+      <para>
+        <num>(1)</num>
+        <text>Annual household income to be considered in determining financial eligibility is both earned and unearned income of the applicant and spouse who reside in the same residence, projected for a 12-month period beginning with the month in which the person submits the application for enrollment in the Program.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Earned income includes:</text>
+        <para>
+          <num>(a)</num>
+          <text>Wages, commissions, fees, profit from self-employment, salaries, and tips;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The value of nonmonetary compensation received for services rendered; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Profit from rent received from a roomer, tenant, or boarder.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Unearned income includes:</text>
+        <para>
+          <num>(a)</num>
+          <text>Payment from unemployment insurance, the Family Investment Program, the Supplemental Security Income Program, Veteran's and Workers' Compensations, private insurance, Black Lung Program, Railroad Retirement, Social Security, pensions, annuities, and other regular benefits received;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Except as provided in <cite path="10|09|60|.02|B.|(4)">§B(4) of this regulation</cite>, support from absent relatives, support from legally responsible relatives, and income which is received on a regular basis from relatives and friends who are not legally responsible;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Parental income received by a child as support from his natural or adoptive parents or putative father; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Income from assets received as either interest, dividends, or other income from savings accounts, certificates, stocks, bonds, insurance policies, mortgages, and from real property that is not included as earned income.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Unearned income does not include support and maintenance furnished in-kind.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>An eligible individual may apply for enrollment in the Program by submitting a completed application to the Administrator.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Maximum Capacity of Program.</text>
+      <para>
+        <num>(1)</num>
+        <text>The Administrator may not enroll additional individuals at a time when the Program's total enrollment reaches the level authorized by the Department.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Program shall maintain a waiting list of individuals who meet the eligibility requirements for the Program but who are not served by the Program because of funding limitations.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If, after the Program reaches its maximum capacity as established by the Department, the number of individuals enrolled decreases, the Administrator may recommence enrolling eligible individuals in the Program as specified in this regulation, until the Program's enrollment again reaches the authorized maximum.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The Department may direct the Administrator to limit enrollment based on the amount of money remaining in the Program Fund.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Disenrollment.</text>
+      <para>
+        <num>(1)</num>
+        <text>The Administrator may, after first providing reasonable notice to the enrollee, disenroll from the Program an enrollee for any of the causes specified in <cite path="10|09|60|.02|E.|(2)">§E(2) of this regulation</cite>.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An enrollee may be disenrolled from the Program if the enrollee:</text>
+        <para>
+          <num>(a)</num>
+          <text>Ceases to meet the eligibility criteria set forth in <cite path="10|09|60|.02|A.">§A of this regulation</cite>; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Is enrolled in:</text>
+          <para>
+            <num>(i)</num>
+            <text>A Medicare Part D prescription drug plan that does not charge a premium; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>A Medicare Advantage Plan that does not charge a premium for prescription drug coverage.</text>
+          </para>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="10|09|60|.03">
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Outreach Program.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Department shall develop and implement an outreach program targeted at eligible individuals.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The Department shall publicize the existence and eligibility requirements of the Program through the following entities:</text>
+      <para>
+        <num>(1)</num>
+        <text>The Department of Aging;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Local health departments;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Continuing care retirement communities;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Places of worship;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Civic organizations;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Community pharmacies; and</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Any other entity that the Department determines is appropriate.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The Department of Aging, through its Senior Health Insurance Program, shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Assist eligible individuals in applying for coverage under the Program; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Provide notice of the Program and its eligibility requirements to potentially eligible individuals who seek health insurance counseling services through the Department of Aging.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The Department shall ensure that the entities used to publicize the existence of the Program under <cite path="10|09|60|.03|B.">§B of this regulation</cite>, have sufficient Program applications and enrollment materials for distribution.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Mail-In Application.</text>
+      <para>
+        <num>(1)</num>
+        <text>The Department shall develop a mail-in application for the Program.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Administrator shall make available mail-in applications to eligible individuals.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Any outreach performed by the Department on behalf of the Program shall be funded through the Program Fund.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Administrator.</heading>
+    <para>
+      <num>A.</num>
+      <text>Administrator Contract. The Administrator and the Department shall execute an Administrator contract specifying the terms under which the Administrator shall operate the Program, including but not limited to an agreement by the Administrator to:</text>
+      <para>
+        <num>(1)</num>
+        <text>Provide the prescription drug benefit subsidies described in <cite path="|10|09|60|.06">Regulation .06 of this chapter</cite>;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Submit a detailed quarterly financial accounting of the Program, including the identification of all revenue and cost items to the Department;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Develop and implement a marketing plan designed to notify eligible individuals throughout the State of the existence and eligibility criteria for the Program; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Collect and submit to the Department, data regarding the costs for program enrollees.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Program Operation. The Administrator shall operate the Program in a manner consistent with:</text>
+      <para>
+        <num>(1)</num>
+        <text>The terms of this chapter;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Administrator contract governing operation of the Program that is executed between the Department and the Administrator; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>All applicable federal and State law.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Prescription Drug Benefit Subsidies. The Administrator shall pay to prescription drug plan sponsors the subsidy payments that the Program has agreed to make on behalf of member enrollees of the prescription drug plan sponsors.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Program Description Booklet.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Administrator shall develop a Program description booklet.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The Program description booklet is subject to approval by the Department.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The Program description booklet shall describe the essential features of the Program including:</text>
+      <para>
+        <num>(1)</num>
+        <text>Eligibility requirements;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A listing of available prescription drug plans and details of the prescription drug plans;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Termination provisions;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Appeal procedures;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Other Program guidelines; and</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>All other terms, conditions, and limitations of the Program.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="10|09|60|.06">
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Prescription Drug Benefit Subsidy.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Program shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Provide a prescription drug benefit subsidy, as determined by the Department, that may pay all or some of the deductibles, coinsurance payments, premiums, and copayments under the federal Medicare Part D Pharmaceutical Assistance Program for enrollees of the Program; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Provide the subsidy to the maximum number of individuals eligible for enrollment in the Program, subject to the money available in the Program Fund.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The Program may annually provide an additional subsidy, up to the full amount of the Medicare Part D Prescription Drug Plan premium, for individuals who qualify for a partial federal low-income subsidy.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The Department shall determine annually:</text>
+      <para>
+        <num>(1)</num>
+        <text>The number of individuals to be enrolled in the Program;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The amount of subsidy to be provided under <cite path="10|09|60|.06|A.">§A of this regulation</cite>; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The amount of any additional subsidy provided under <cite path="10|09|60|.06|B.">§B of this regulation</cite>.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Contracts with Prescription Drug Plan Sponsors.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Department may enter into contracts with prescription drug plan sponsors who have been approved by the Centers for Medicare and Medicaid Services to offer Medicare Part D plans in the State.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A prescription drug plan sponsor that enters into a contract with the Department shall agree to perform its obligations in a manner that complies with:</text>
+      <para>
+        <num>(1)</num>
+        <text>Medicare Part D and any federal regulations adopted to implement Medicare Part D;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Program;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The terms and conditions of the contract; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Guidance from the Centers for Medicare and Medicaid Services.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A contract entered into with the Department shall include provisions that require the prescription drug plan sponsor to:</text>
+      <para>
+        <num>(1)</num>
+        <text>Coordinate with the Program in identifying member enrollees;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Accept the premium subsidy on behalf of member enrollees;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Apply the premium subsidy to the member enrollee's total premium costs;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Separately bill member enrollees for any premium owed in excess of the premium subsidy paid by the Program;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Account for the subsidies received from the Program;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Communicate in writing with member enrollees, including notifying member enrollees of their enrollment status;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Share enrollment data and information with the Department;</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Report data and enrollment information as required by the Department;</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>Reconcile Program and member payments with enrollment data; and</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>Transmit information to appropriate third-parties, including the Administrator and the Centers for Medicare and Medicaid Services.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="10|09|60|.08">
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Program Fund.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Program Fund shall include:</text>
+      <para>
+        <num>(1)</num>
+        <text>Interest and investment income attributable to the Program Fund; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Money deposited to the account by a nonprofit health service plan in accordance with <cite path="10|09|60|.08|C.">§C of this regulation</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>On or before April 1, 2003 and quarterly thereafter, the nonprofit health service plan required to subsidize the Program under <cite doc="Md. Code" path="gin|14-106">Insurance Article, §14-106(d), Annotated Code of Maryland</cite>, shall deposit to the Program Fund the amount that is necessary to operate and administer the Program for the following quarter.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The amount deposited by the nonprofit health service plan under <cite path="10|09|60|.08|C.">§C of this regulation</cite>:</text>
+      <para>
+        <num>(1)</num>
+        <text>Shall be determined by the Department based on enrollment, expenditures, and revenue for the previous year; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>May not exceed the amounts specified in <cite doc="Md. Code" path="gin|14-106">Insurance Article, §14-106(e), Annotated Code of Maryland</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The Department shall provide funds to the Administrator, in accordance with the contract with the Administrator, for the cost of the State subsidy and administrative expenses incurred on behalf of the Program.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>The Administrator shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Permit inspection of its papers, books, and records pertaining to its operation of the Program by the Department or its designee; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Cooperate with any inspections and audits performed on the Administrator or the Program by the Department or its designee.</text>
+      </para>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Health-General Article, §15-1005(b)(1), Annotated Code of Maryland</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container">Effective date:</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2016-07-01">Chapter recodified from <cite path="|31.17.04">31.17.04</cite> Senior Prescription Drug Assistance Program, to <cite path="|10.09.60">10.09.60</cite> Senior Prescription Drug Program effective July 1, 2016</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2017-02-13"><cite path="|10|09|60|.01|B.">Regulation .01B</cite> amended effective February 13, 2017 (44:3 Md. R. 188)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2017-02-13"><cite path="|10|09|60|.02|D.">Regulation .02D</cite> amended effective February 13, 2017 (44:3 Md. R. 188)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2017-02-13"><cite path="|10|09|60|.03">Regulation .03</cite> amended effective February 13, 2017 (44:3 Md. R. 188)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2017-02-13"><cite path="|10|09|60|.04|A.">Regulation .04A</cite>, B amended effective February 13, 2017 (44:3 Md. R. 188)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2017-02-13"><cite path="|10|09|60|.05|B.">Regulation .05B</cite> amended effective February 13, 2017 (44:3 Md. R. 188)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2017-02-13"><cite path="|10|09|60|.06">Regulation .06</cite> amended effective February 13, 2017 (44:3 Md. R. 188)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2017-02-13"><cite path="|10|09|60|.07">Regulation .07</cite> amended effective February 13, 2017 (44:3 Md. R. 188)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2017-02-13"><cite path="|10|09|60|.08">Regulation .08</cite> amended effective February 13, 2017 (44:3 Md. R. 188)</annotation>
+  </annotations>
+</container>

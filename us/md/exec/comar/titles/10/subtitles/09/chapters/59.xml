@@ -1,0 +1,946 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>59</num>
+  <heading>Specialty Mental Health Services</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>“Administrative services organization (ASO)” means the contractor procured by the State to provide the Department with administrative support services to operate the Maryland Public Behavioral Health System.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>“Behavioral Health Administration (BHA)” means the administration within the Department that establishes regulatory requirements that behavioral health programs are to maintain in order to become licensed by the Department.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>“Definitive drug test” means a drug screening test that includes:</text>
+        <para>
+          <num>(a)</num>
+          <text>The ability to identify individual drugs and distinguish between structural isomers, but not necessarily stereoisomers, using gas chromatography or mass spectrometry and liquid chromatography or mass spectrometry;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Qualitative or quantitative results;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>All source types for specimen selection; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Specimen validity testing, per day, 1—22 or more drug classes including metabolites, if performed.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>“Department” means the Maryland Department of Health, as defined in <cite path="10.09.36.01">COMAR 10.09.36.01</cite>, or its authorized agents acting on behalf of the Department.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>“Hospital” means an institution which:</text>
+        <para>
+          <num>(a)</num>
+          <text>Falls within the jurisdiction of Health-General Article, Title 19, Subtitle 3, Annotated Code of Maryland; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Is licensed under <cite path="|10.07.01">COMAR 10.07.01</cite> or is licensed by the state in which the service is provided.</text>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>“Individualized education program (IEP)” has the meaning stated in <cite path="10.09.50.01">COMAR 10.09.50.01</cite>.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>“Individualized Family Service Plan (IFSP)” has the meaning stated in <cite path="10.09.50.01">COMAR 10.09.50.01</cite>.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>“Local school system (LSS)” means a local public school district.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>"Medical Assistance" has the meaning stated in <cite path="10.09.24.02">COMAR 10.09.24.02</cite>.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>"Medically necessary" has the meaning stated in <cite path="10.09.36.01">COMAR 10.09.36.01</cite>.</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>“Medicare” means the insurance program administered by the federal government under Title XVIII of the Social Security Act, 42 U.S.C. §1395 et seq.</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>“Participant” means an individual who is certified as eligible for, and is receiving, medical assistance benefits.</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>“Presumptive drug test” means a drug screening test that includes:</text>
+        <para>
+          <num>(a)</num>
+          <text>Any number of drug classes;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Any number of devices;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The use of direct optical observation, instrument assisted direct optical observation or instrumented chemistry analyzers; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Sample validation.</text>
+        </para>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>“Program” has the meaning stated in <cite path="10.09.36.01">COMAR 10.09.36.01</cite>.</text>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>“Provider” means an organization or an individual practitioner furnishing the services covered under this chapter which, through appropriate agreement with the Department, has been identified as a Program provider by the issuance of a provider account number.</text>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>“Public Behavioral Health System” means the system that provides medically necessary behavioral health services, including mental health and substance use disorder services, for Medical Assistance participants and certain other uninsured individuals.</text>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>“Specialty mental health services” means services for which a participant’s diagnosis and treatment provider meet the criteria specified in <cite path="|10.67.08">COMAR 10.67.08</cite> and this chapter.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>License Requirements.</heading>
+    <text>To participate in the Program, a provider shall meet the license requirements stated in <cite path="10.09.36.02">COMAR 10.09.36.02</cite>.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>General Conditions for Provider Participation.</heading>
+    <text>To participate in the Program, a provider shall:</text>
+    <para>
+      <num>A.</num>
+      <text>Meet the conditions for provider participation in the Medical Assistance Program as set forth in <cite path="10.09.36.03">COMAR 10.09.36.03</cite>;</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Meet the conditions for licensure and practice as set forth in <cite path="|10.63.01">COMAR 10.63.01</cite>, <cite path="|10.63.02">10.63.02</cite>, and <cite path="|10.63.06">10.63.06</cite>;</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Have clearly defined and written patient care policies; and</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Maintain, either manually or electronically, adequate documentation of each contact with a participant as part of the medical record, which, at a minimum, meets the following requirements:</text>
+      <para>
+        <num>(1)</num>
+        <text>Includes the date of service with service start and end times;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Includes the participant’s primary behavioral health complaint or reason for the visit;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Includes a brief description of the service provided, including progress notes;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Includes an official e-Signature, or a legible signature, along with the printed or typed name of the individual providing care, with the appropriate title;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Is made available to the following as requested:</text>
+        <para>
+          <num>(a)</num>
+          <text>The Department;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The ASO;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The Core Service Agency;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>The Office of Inspector General; and</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>The Office of the Attorney General Medicaid Fraud Control Unit; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Is consistent with the medical records confidentiality and disclosure requirements of:</text>
+        <para>
+          <num>(a)</num>
+          <text>Maryland Confidentiality of Medical Records Act, Health-General Article, Title 4, Subtitle 3, Annotated Code of Maryland; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Relevant federal statutes and regulations, including the Health Insurance Portability and Accountability Act, 42 U.S.C. §1320D et seq., and implementing regulations at 45 CFR Parts 160 and 164.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Provider Requirements for Participation.</heading>
+    <para>
+      <num>A.</num>
+      <text>Individual Practitioner Providers. To participate in the Program as an individual practitioner of specialty mental health services, the provider shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Be licensed and legally authorized to practice independently by the appropriate Board to practice in the state in which the service is rendered; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Demonstrate, by training and experience, the competency to provide mental health services as one of the following:</text>
+        <para>
+          <num>(a)</num>
+          <text>A licensed certified social worker-clinical;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A nurse psychotherapist (APRN-PMH);</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A pediatric nurse practitioner with a PMHS;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>A nurse practitioner-psychiatric (CRNP-PMH);</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>A physician who demonstrates the competency to provide specialty mental health services;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>A licensed certified counselor which includes:</text>
+          <para>
+            <num>(i)</num>
+            <text>A licensed clinical professional counselor;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>A licensed clinical marriage and family therapist;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>A licensed clinical counselor-alcohol and drug; or</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>A licensed clinical professional art therapist;</text>
+          </para>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>A psychiatrist certified by the American Board of Psychiatry and Neurology or possessing the minimum educational and training requirements to take the Board of Psychiatry and Neurology examination for certification in psychiatry; or</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>A psychologist.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Community Mental Health Program Providers. To participate in the Program as a community-based mental health program provider, the provider shall be approved under <cite path="|10.63.01">COMAR 10.63.01</cite>, <cite path="|10.63.02">10.63.02</cite>, and <cite path="|10.63.06">10.63.06</cite> and possess licensure by the Behavioral Health Administration as:</text>
+      <para>
+        <num>(1)</num>
+        <text>A psychiatric rehabilitation program serving adults in compliance with <cite path="10.63.03.09">COMAR 10.63.03.09</cite>;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A psychiatric rehabilitation program serving minors in compliance with <cite path="10.63.03.10">COMAR 10.63.03.10</cite>;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A mobile treatment program, which shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Comply with <cite path="10.63.03.04">COMAR 10.63.03.04</cite>;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Consist of a multidisciplinary team including, at a minimum:</text>
+          <para>
+            <num>(i)</num>
+            <text>A program director that is a mental health professional;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>A psychiatrist or psychiatric nurse practitioner (CRNP-PMH);</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>A licensed registered nurse;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>At least one licensed social worker or licensed graduate social worker; and;</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>At least one mental health professional who may include the staff identified in §B(3)(b)(iii) and (iv) of this regulation; and</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Maintain sufficient staffing to fulfill the following service requirements including:</text>
+          <para>
+            <num>(i)</num>
+            <text>Initial and continuing psychiatric evaluation, diagnosis, and individual treatment planning;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Medication services;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Independent living skills assessment and training;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Health promotion and training;</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>Interactive therapies;</text>
+          </para>
+          <para>
+            <num>(vi)</num>
+            <text>Crisis intervention services; and</text>
+          </para>
+          <para>
+            <num>(vii)</num>
+            <text>Support, linkage, and advocacy; or</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>An outpatient mental health clinic in compliance with:</text>
+        <para>
+          <num>(a)</num>
+          <text><cite path="10.63.03.05">COMAR 10.63.03.05</cite>; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Staffing requirements as described in <cite path="10.63.03.05">COMAR 10.63.03.05</cite> and including:</text>
+          <para>
+            <num>(i)</num>
+            <text>A program director who is a licensed mental health professional or has a master’s degree in a related field and is employed by the OMHC and is on-site at the organization for at least 20 hours per week;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>A medical director as described in <cite path="10.63.03.05">COMAR 10.63.03.05</cite> and is serving the organization for at least 20 hours per week;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>A multidisciplinary licensed mental health professional staff as described in <cite path="10.63.03.05">COMAR 10.63.03.05</cite>, including representatives of two different mental health professions, each of whom shall be on-site 50 percent of the OMHC’s regularly scheduled hours;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Graduate level students and interns, who may deliver services under supervision of a licensed mental health professional and when a licensed mental health professional co-signs all documentation of contact with participants.</text>
+          </para>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Federally Qualified Health Centers. To participate in the Program as a Federally Qualified Health Center, the provider shall be in compliance with <cite path="|10.09.08">COMAR 10.09.08</cite>.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Other Licensed or Approved Mental Health Providers. To participate in the Program as a specialty mental health provider not defined in §§A—C of this regulation, a provider shall be approved pursuant to COMAR as a:</text>
+      <para>
+        <num>(1)</num>
+        <text>Targeted case management provider in compliance with:</text>
+        <para>
+          <num>(a)</num>
+          <text>If serving children, <cite path="|10.09.90">COMAR 10.09.90</cite>; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>If serving adults, <cite path="|10.09.45">COMAR 10.09.45</cite>;</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Residential treatment center in compliance with <cite path="|10.07.04">COMAR 10.07.04</cite> and <cite path="|10.09.29">10.09.29</cite>;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Hospital in compliance with <cite path="|10.09.92">COMAR 10.09.92</cite>—10.09.95;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Non-hospital-based mental health psychiatric day treatment provider in compliance with:</text>
+        <para>
+          <num>(a)</num>
+          <text><cite path="10.63.03.08">COMAR 10.63.03.08</cite>;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Staffing requirements described in <cite path="10.63.03.08">10.63.03.08</cite> and including:</text>
+          <para>
+            <num>(i)</num>
+            <text>A multidisciplinary team employed at least on a part-time basis; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>A program director;</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Service requirements as described in <cite path="10.63.03.08">10.63.03.08</cite> and including:</text>
+          <para>
+            <num>(i)</num>
+            <text>An individual treatment plan developed by the multi-disciplinary team within 4 working days of admission;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Psychopharmacological treatment;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Occupational therapy;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Activity therapy; and</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>Other necessary medical, psychological, and social services; and</text>
+          </para>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text><cite path="10.05.01.11">COMAR 10.05.01.11</cite> for requirements of the physical environment;</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>1915(i) Intensive Behavioral Health Services for Children, Youth, and Families Waiver provider in compliance with <cite path="|10.09.89">COMAR 10.09.89</cite>;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Therapeutic behavioral service provider in compliance with <cite path="|10.09.34">COMAR 10.09.34</cite>;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Medical laboratory in compliance with <cite path="|10.09.09">COMAR 10.09.09</cite>; or</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Local school systems in compliance with <cite path="|10.09.50">COMAR 10.09.50</cite> as a provider of school-based health-related services.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Eligibility.</heading>
+    <para>
+      <num>A.</num>
+      <text>A participant is eligible for specialty mental health services if:</text>
+      <para>
+        <num>(1)</num>
+        <text>The individual meets the Department’s medical necessity criteria; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The service is appropriate to the specific provider type or community-based mental health provider listed in <cite path="|10|09|59|.04">Regulation .04 of this chapter</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Individuals are eligible for Psychiatric Rehabilitation Programs for adults if the individual:</text>
+      <para>
+        <num>(1)</num>
+        <text>Has been referred for psychiatric rehabilitation program services by a licensed mental health professional who:</text>
+        <para>
+          <num>(a)</num>
+          <text>Is enrolled as a provider in the Program with an active status on the date of service;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Facilitates an informed choice of psychiatric rehabilitation program providers; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Currently provides inpatient, residential treatment center, or outpatient mental health services to the individual;</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Has a diagnosis listed in <cite path="10.67.08.02|N.">COMAR 10.67.08.02N</cite>; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Is in need of program services in order to improve or restore independent living and social skills necessary to support the individual’s recovery, ability to make informed decisions and choices, and participation in community life.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Individuals are eligible for Psychiatric Rehabilitation Programs for minors if the individual:</text>
+      <para>
+        <num>(1)</num>
+        <text>Has been referred for psychiatric rehabilitation program services by a licensed mental health professional who:</text>
+        <para>
+          <num>(a)</num>
+          <text>Is enrolled as a provider in the Program with an active status on the date of service;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Facilitates an informed choice of psychiatric rehabilitation program providers; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Currently provides inpatient, residential treatment center, or outpatient mental health services to the minor;</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Is currently in, and remains in, active mental health treatment;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Has the appropriate consent to participate in psychiatric rehabilitation program services;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Has a diagnosis listed in <cite path="10.67.08.02|N.">COMAR 10.67.08.02N</cite> and severe functional impairments in at least one life domain;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>With psychiatric rehabilitation program services, is expected to have reduced symptoms of their mental illness or functional behavioral impairment as a result of their mental illness based on the clinical evaluation and ongoing treatment plan; and</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Is at risk of requiring a higher level of care, or is returning from a higher level of care.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Individuals are eligible for Mobile Treatment Services if it is assessed that the individual will benefit from mobile treatment services and the individual is:</text>
+      <para>
+        <num>(1)</num>
+        <text>Experiencing homelessness;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Unable or unwilling to use, on a continuing basis, community-based mental health services that are prescribed for the individual; or</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>In an institution or inpatient facility and would be able to reside in a community setting if the individual received MTS and other appropriate support services.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Covered Services.</heading>
+    <para>
+      <num>A.</num>
+      <text>The ASO shall reimburse the following specialty mental health services rendered to participants when authorized by the ASO:</text>
+      <para>
+        <num>(1)</num>
+        <text>Medically necessary specialty mental health services delivered by providers listed in <cite path="|10|09|59|.04">Regulation .04 of this chapter</cite>, for which the primary diagnosis is listed in <cite path="10.67.08.02|M.">COMAR 10.67.08.02M</cite> or N;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Telehealth services as defined in <cite path="|10.09.49">COMAR 10.09.49</cite> when rendered in accordance with limitations in <cite path="|10|09|59|.07">Regulation .07 of this chapter</cite>; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Presumptive drug tests and definitive drug tests, when ordered by a specialty mental health provider, with a behavioral health primary diagnosis listed in <cite path="10.67.08.02|M.">COMAR 10.67.08.02M</cite> or N on the claim.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Specialty mental health services billed by local school systems are covered under the following conditions:</text>
+      <para>
+        <num>(1)</num>
+        <text>The services are not furnished as part of an individualized education program or individualized family service plan) as defined in <cite path="10.09.50.01">COMAR 10.09.50.01</cite>; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The services are rendered by a school psychologist or school social worker that meets the qualifications described in <cite path="10.09.50.02">COMAR 10.09.50.02</cite>.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Limitations.</heading>
+    <text>The Program does not cover the following:</text>
+    <para>
+      <num>A.</num>
+      <text>Services not delivered in compliance with the COMAR references listed in Regulations .04 and .05 of this chapter;</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Services not medically necessary;</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Investigational or experimental drugs and procedures;</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Specialty mental health services for participants in an institution for mental disease as defined in 42 CFR §435.1009 unless the service is delivered through the §1115 HealthChoice Demonstration Waiver;</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Specialty mental health visits solely for the purpose of:</text>
+      <para>
+        <num>(1)</num>
+        <text>Prescribing medication;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Administering medication;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Drug or supply pick-up;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Collecting laboratory specimens;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Interpreting laboratory tests or panels; or</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Administering injections, unless the following are documented in the participant’s medical record:</text>
+        <para>
+          <num>(a)</num>
+          <text>Medical necessity; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The participant’s inability to take appropriate oral medications;</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Separate reimbursement to an employee of a program for services that have been provided by and reimbursed directly to a program;</text>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Vocational counseling, vocational training at a classroom or job site, and academic or remedial educational services;</text>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>Services provided to or for the primary benefit of individuals other than the participant;</text>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>Outpatient Mental Health Clinic services delivered to a participant with a primary diagnosis of substance use disorder, unless the claim reflects a secondary diagnosis of mental health;</text>
+    </para>
+    <para>
+      <num>J.</num>
+      <text>An on-site psychiatric rehabilitation program visit by a participant on the same day that the participant receives medical day care services under <cite path="|10.09.07">COMAR 10.09.07</cite>;</text>
+    </para>
+    <para>
+      <num>K.</num>
+      <text>Psychiatric rehabilitation program services rendered via telehealth when:</text>
+      <para>
+        <num>(1)</num>
+        <text>They are rendered as a group service; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The total services rendered via telehealth comprise more than 50 percent of a participant’s services rendered;</text>
+      </para>
+    </para>
+    <para>
+      <num>L.</num>
+      <text>Non-emergency services not authorized by the ASO;</text>
+    </para>
+    <para>
+      <num>M.</num>
+      <text>Mental health services delivered by a primary care provider and reimbursed through Medicaid Fee for Service or the Maryland Medicaid Managed Care Program;</text>
+    </para>
+    <para>
+      <num>N.</num>
+      <text>Services delivered by Federally Qualified Health Centers other than those billed using the T-code or H-code, which may include the following, delivered by two separate but appropriately licensed providers:</text>
+      <para>
+        <num>(1)</num>
+        <text>One T-code for mental health services per day; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>One H-code for substance use disorder services per day;</text>
+      </para>
+    </para>
+    <para>
+      <num>O.</num>
+      <text>Supported employment services provided by a community-based psychiatric rehabilitation program, except in cases of clinic coordination;</text>
+    </para>
+    <para>
+      <num>P.</num>
+      <text>Residential crisis services;</text>
+    </para>
+    <para>
+      <num>Q.</num>
+      <text>Respite care services, other than those provided through the 1915(i) Intensive Behavioral Health Services program described in <cite path="|10.09.89">COMAR 10.09.89</cite>;</text>
+    </para>
+    <para>
+      <num>R.</num>
+      <text>Services provided to participants in a hospital inpatient setting, with the exception of services delivered by:</text>
+      <para>
+        <num>(1)</num>
+        <text>Physicians; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Nurse Practitioners;</text>
+      </para>
+    </para>
+    <para>
+      <num>S.</num>
+      <text>Housing services;</text>
+    </para>
+    <para>
+      <num>T.</num>
+      <text>Services rendered but not appropriately documented;</text>
+    </para>
+    <para>
+      <num>U.</num>
+      <text>Services reimbursed by the ASO not included in this chapter;</text>
+    </para>
+    <para>
+      <num>V.</num>
+      <text>Mobile Treatment or ACT Services without a minimum of four in-person services provided per month;</text>
+    </para>
+    <para>
+      <num>W.</num>
+      <text>Services rendered by community based specialty mental health programs with an immediate family member of an employee of the program serving on the governing body, board of directors, or advisory committee, whichever applies; and</text>
+    </para>
+    <para>
+      <num>X.</num>
+      <text>Psychiatric rehabilitation services referred by:</text>
+      <para>
+        <num>(1)</num>
+        <text>An individual who is not enrolled as a provider in the Program with an active status on the date of service; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An entity, facility, or another provider that is not an individual.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Authorization Requirements.</heading>
+    <para>
+      <num>A.</num>
+      <text>The ASO shall establish a process, through a utilization review system, for authorization of specialty mental health services.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The ASO shall authorize services that are:</text>
+      <para>
+        <num>(1)</num>
+        <text>Medically necessary;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Of a type, frequency, and duration that are consistent with expected results and cost-effective; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Delivered in a manner consistent with this chapter.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Preauthorization is not required before a provider renders services in an emergency department.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Except as provided in <cite path="|10|09|59|.08|C.">Regulation .08C of this chapter</cite>, no payment shall be rendered for services that have not been authorized.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Payment Procedures.</heading>
+    <para>
+      <num>A.</num>
+      <text>Payment procedures shall be followed as specified in <cite path="10.09.36.04">COMAR 10.09.36.04</cite>.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A provider shall deliver and document services in accordance with Department regulations in order to receive reimbursement.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Unless the care is free to other patients, a provider shall bill the Program its usual and customary charge to the general public.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The Department shall authorize supplemental payment on Medicare claims only if:</text>
+      <para>
+        <num>(1)</num>
+        <text>The provider accepts Medicare assignments;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Medicare makes direct payment to the provider;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Medicare has determined that the services are medically necessary;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The services are covered by the Program; and</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Initial billing is made directly to Medicare according to Medicare guidelines.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>The Department shall make payment on Medicare claims subject to the following provisions:</text>
+      <para>
+        <num>(1)</num>
+        <text>Deductible and coinsurance shall be paid in full for services designated as mental health services by Medicare; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Program shall reimburse services not covered by Medicare, but considered medically necessary by the Program, according to the limitations of this chapter.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>A provider may not bill the Program for:</text>
+      <para>
+        <num>(1)</num>
+        <text>Completion of forms and reports;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Broken or missed appointments;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Professional services rendered by mail or telehealth, unless the services are provided in compliance with <cite path="|10.09.49">COMAR 10.09.49</cite>; or</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Services not authorized consistent with <cite path="|10|09|59|.08">Regulation .08 of this chapter</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Billing time limitations for claims submitted under this chapter are set forth in <cite path="10.09.36.06">COMAR 10.09.36.06</cite>.</text>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>The Department shall reimburse providers according to the fee schedule in <cite path="|10.21.25">COMAR 10.21.25</cite>.</text>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>Psychiatric rehabilitation programs shall identify the mental health professional who referred the individual to psychiatric rehabilitation services by recording the individual practitioner’s National Provider Identifier (NPI) number on the claim.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.10</num>
+    <heading>Recovery and Reimbursement.</heading>
+    <text>Recovery and reimbursement are as set forth in <cite path="10.09.36.07">COMAR 10.09.36.07</cite>.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.11</num>
+    <heading>Cause for Suspension or Removal and Imposition of Sanctions.</heading>
+    <text>Cause for suspension or removal and imposition of sanctions are as set forth in <cite path="10.09.36.08">COMAR 10.09.36.08</cite>.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.12</num>
+    <heading>Appeal Procedures for Providers.</heading>
+    <text>Appeal procedures for providers are as set forth in <cite path="10.09.36.09">COMAR 10.09.36.09</cite>.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.13</num>
+    <heading>Appeal Rights — Denial of Services.</heading>
+    <text>Appeal procedures for applicants and participants are as set forth in <cite path="|10.01.03">COMAR 10.01.03</cite> and <cite path="|10.01.04">10.01.04</cite>.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.14</num>
+    <heading>Interpretive Regulation.</heading>
+    <text>State regulations are interpreted as set forth in <cite path="10.09.36.10">COMAR 10.09.36.10</cite>.</text>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Health-General Article, §§2-104(b), 2-105(b), 15-102.8, 15-103, 15-105, and 15-105.2, Annotated Code of Maryland</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container">Effective date:</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1995-06-05">Regulations <cite path="|10|09|59|.01">.01</cite>—<cite path="|10|09|59|.11">.11</cite> adopted as an emergency provision effective February 3, 1995 (22:4 Md. R. 232); adopted permanently effective June 5, 1995 (22:11 Md. R. 821)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1998-02-09">Regulations .01 and .03—.07 amended as an emergency provision effective July 1, 1997 (24:18 Md. R. 1291); emergency status expired December 31, 1997; amended permanently effective February 9, 1998 (25:3 Md. R. 144)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1996-02-12"><cite path="|10|09|59|.04">Regulation .04</cite> amended effective February 12, 1996 (23:3 Md. R. 168)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1998-08-10"><cite path="|10|09|59|.05">Regulation .05</cite> amended effective February 12, 1996 (23:3 Md. R. 168); August 10, 1998 (25:16 Md. R. 1274)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1998-08-10"><cite path="|10|09|59|.07|K.">Regulation .07K</cite>—M amended effective August 10, 1998 (25:16 Md. R. 1274)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2014-12-22" discontinuity="true">Regulations <cite path="|10|09|59|.01">.01</cite>—<cite path="|10|09|59|.11">.11</cite> under, Rehabilitation and Other Mental Health Services, repealed and new Regulations <cite path="|10|09|59|.01">.01</cite>—<cite path="|10|09|59|.14">.14</cite> under, Specialty Mental Health Services, adopted effective December 22, 2014 (41:25 Md. R. 1479)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2025-05-12"><cite path="|10|09|59|.01|B.">Regulation .01B</cite> amended effective October 26, 2015 (42:21 Md. R. 1300); October 10, 2016 (43:20 Md. R. 1110); May 12, 2025 (52:9 Md. R. 405)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2015-10-26"><cite path="|10|09|59|.02">Regulation .02</cite> amended effective October 26, 2015 (42:21 Md. R. 1300)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2018-04-23"><cite path="|10|09|59|.03">Regulation .03</cite> amended effective October 26, 2015 (42:21 Md. R. 1300); April 23, 2018 (45:8 Md. R. 420)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2025-05-12"><cite path="|10|09|59|.04">Regulation .04</cite> amended effective October 26, 2015 (42:21 Md. R. 1300); April 23, 2018 (45:8 Md. R. 420); December 31, 2018 (45:26 Md. R. 1243); May 12, 2025 (52:9 Md. R. 405)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2020-05-18"><cite path="|10|09|59|.04|B.">Regulation .04B</cite> amended effective May 18, 2020 (47:10 Md. R. 517)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2016-10-10"><cite path="|10|09|59|.04|B.">Regulation .04B</cite>, D amended effective October 10, 2016 (43:20 Md. R. 1110)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2015-10-26"><cite path="|10|09|59|.05">Regulation .05</cite> repealed and new Regulation .05 adopted effective October 26, 2015 (42:21 Md. R. 1300)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2018-04-23"><cite path="|10|09|59|.05">Regulation .05</cite> amended effective April 23, 2018 (45:8 Md. R. 420)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2025-05-12"><cite path="|10|09|59|.05|B.">Regulation .05B</cite>, C amended effective May 12, 2025 (52:9 Md. R. 405)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2025-05-12"><cite path="|10|09|59|.06">Regulation .06</cite> amended effective October 26, 2015 (42:21 Md. R. 1300); May 12, 2025 (52:9 Md. R. 405)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2016-10-10"><cite path="|10|09|59|.06|C.">Regulation .06C</cite> amended effective October 10, 2016 (43:20 Md. R. 1110)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2018-04-23"><cite path="|10|09|59|.07">Regulation .07</cite> amended effective October 26, 2015 (42:21 Md. R. 1300); April 23, 2018 (45:8 Md. R. 420)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2025-05-12"><cite path="|10|09|59|.07|D.">Regulation .07D</cite>, K, N amended effective May 12, 2025 (52:9 Md. R. 405)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2018-12-31"><cite path="|10|09|59|.07|V.">Regulation .07V</cite> amended effective December 31, 2018 (45:26 Md. R. 1243)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2015-10-26"><cite path="|10|09|59|.08">Regulation .08</cite> amended effective October 26, 2015 (42:21 Md. R. 1300)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2015-10-26"><cite path="|10|09|59|.09">Regulation .09</cite> amended effective October 26, 2015 (42:21 Md. R. 1300)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2025-05-12"><cite path="|10|09|59|.09|F.">Regulation .09F</cite> amended effective May 12, 2025 (52:9 Md. R. 405)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2018-04-23"><cite path="|10|09|59|.09|I.">Regulation .09I</cite> adopted effective April 23, 2018 (45:8 Md. R. 420)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2015-10-26"><cite path="|10|09|59|.12">Regulation .12</cite> amended effective October 26, 2015 (42:21 Md. R. 1300)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2015-10-26"><cite path="|10|09|59|.13">Regulation .13</cite> amended effective October 26, 2015 (42:21 Md. R. 1300)</annotation>
+  </annotations>
+</container>

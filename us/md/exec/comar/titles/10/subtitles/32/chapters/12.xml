@@ -1,0 +1,550 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>12</num>
+  <heading>Delegation of Acts by a Licensed Physician</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Scope.</heading>
+    <para>
+      <num>A.</num>
+      <text>This chapter governs the delegation of technical acts by a licensed physician to an:</text>
+      <para>
+        <num>(1)</num>
+        <text>Assistant not otherwise authorized under the Health Occupations Article or the <cite doc="Md. Code" path="ged">Education Article, Annotated Code of Maryland</cite>; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>RCIS assisting in the physician's performance of fluoroscopy during a cardiac catheterization procedure under certain circumstances as authorized under <cite path="|10|32|12|.06">Regulation .06 of this chapter</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>This chapter may not be construed:</text>
+      <para>
+        <num>(1)</num>
+        <text>As establishing the licensure, certification, or registration by the Board of assistants or registered cardiovascular invasive specialists;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>To apply to certified, registered, or licensed professionals, or health occupation students acting pursuant to <cite doc="Md. Code" path="gho">Health Occupations Article, Annotated Code of Maryland</cite>; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>To mean that this chapter overrides or is to be used in lieu of more stringent regulations, policies, and procedures established by State licensure or certification requirements or Board-recognized accrediting agencies.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="10|32|12|.02">
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>“Assistant” means an individual to whom only routine technical acts are delegated by a licensed physician and who is:</text>
+        <para>
+          <num>(a)</num>
+          <text>Trained as defined in <cite path="10|32|12|.02|B.|(17)">§B(17) of this regulation</cite> and not certified, registered, or licensed by the Board or any other State health occupation board; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Certified, registered, or licensed by the Board or any other State health occupation board and is not acting under the authority of that certification, registration, or license granted by a State health occupation board.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>“Board” means the State Board of Physicians.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>"CLIA" means the federal Clinical Laboratory Improvement Amendments of 1988 (42 U.S.C. §263a) and the regulations promulgated under them, and 42 CFR Part 493, Subparts B and M.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>“Delegating physician” means a physician possessing an active license to practice medicine in this State who directs an assistant or RCIS to perform technical acts.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>“Direct supervision” means oversight exercised by a delegating physician who is:</text>
+        <para>
+          <num>(a)</num>
+          <text>Personally treating the patient; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>In the presence of the patient and the:</text>
+          <para>
+            <num>(i)</num>
+            <text>Assistant; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>RCIS.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>“Fluoroscopy” means a technique for generating x-ray images and presenting them simultaneously and continuously as visible images.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>“Hospital” has the meaning stated in Health-General Article, §19-301, Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>“Licensed physician” means, unless the context requires otherwise, a physician, including a doctor of osteopathy, who is licensed by the Board to practice medicine.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>“MDE” means the Maryland Department of the Environment.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>“Microdermabrasion” means the use of a minimally invasive technique to gently exfoliate the dead, outermost layer of skin and is a method for improving superficial, environmental, aging, and hereditary skin changes by superficial, mechanically powered abrasion, often combined with application of topical crystals such as vitamin C.</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>"On-site supervision" means oversight exercised by a delegating physician who is present at the site and able to be immediately available in person during the course of the performance of a delegated act.</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>“Perform fluoroscopy” means the energizing of a fluoroscopic x-ray system by an individual authorized in accordance with MDE regulations.</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>“Readily retrievable” means maintained in a method by which a hospital can retrieve and produce the record for the Board upon request.</text>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>“Registered cardiovascular invasive specialist (RCIS)” means an individual who is credentialed by Cardiovascular Credentialing International or another credentialing body approved by the Board to assist in cardiac catheterization procedures under the direct, in-person supervision of a licensed physician.</text>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>"Site" means any facility or location including those defined in Health-General Article, §§19-114 and 19-3B-01(b), Annotated Code of Maryland, used for the delivery of health services not covered in this chapter.</text>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>"Technical act" means a routine medical or surgical act which does not require medical judgment and is performed with the supervision as specified within this chapter.</text>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>“Trained” means possessing the knowledge, skills, and abilities, as determined by the licensed physician, to perform delegated acts.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Standards for the Licensed Physician Delegating to an Assistant.</heading>
+    <para>
+      <num>A.</num>
+      <text>A licensed physician who delegates shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Evaluate the risk to the patient and the outcome of the delegated acts;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Delegate only those technical acts that are customary to the practice of the licensed physician;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Delegate only those technical acts for which the assistant has been trained;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Be responsible for the acts of the assistant; and</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Supervise the assistant.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The responsibility for the delegated act cannot be transferred from the delegating physician to another licensed physician without:</text>
+      <para>
+        <num>(1)</num>
+        <text>The expressed consent of the other physician; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Informing the assistant.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Scope of Delegation to an Assistant.</heading>
+    <para>
+      <num>A.</num>
+      <text>A licensed physician may not delegate to an assistant technical acts which are exclusively limited to any individual required to be licensed, certified, registered, or otherwise recognized pursuant to any provision of the Health Occupations Article and the <cite doc="Md. Code" path="ged">Education Article, Annotated Code of Maryland</cite>.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A licensed physician may delegate technical acts consistent with national standards in the medical community and the approved policies and procedures of the sites for the delivery of health services in the following categories:</text>
+      <para>
+        <num>(1)</num>
+        <text>Surgical technical acts that the delegating physician directly orders while present, scrubbed, and personally performing the surgery in the same surgical field; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Nonsurgical technical acts while the assistant is under the licensed physician's direct supervision or on-site supervision if the assistant performs the act in accordance with procedures of the site.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>At sites included in Health-General Article, §§19-114 and 19-3B-01(b), Annotated Code of Maryland, or any unit of those sites, a licensed physician may delegate technical acts in compliance with State regulations and the policies, procedures, and supervisory structures of those sites.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>At sites not included in Health-General Article, §§19-114 and 19-3B-01(b), Annotated Code of Maryland, when providing the following specified levels of supervision, a licensed physician may delegate to an assistant technical acts which include but are not limited to:</text>
+      <para>
+        <num>(1)</num>
+        <text>Without on-site supervision:</text>
+        <para>
+          <num>(a)</num>
+          <text>Patient preparation for physician examination;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Patient history interview;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Collecting and processing specimens, such as performing phlebotomy and inoculating culture media;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Preparation of specimens for selected tests including:</text>
+          <para>
+            <num>(i)</num>
+            <text>Pregnancy tests;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Dipstick and microscopic urinalysis; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Microbiology (rapid streptococcal testing and throat cultures);</text>
+          </para>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Laboratory tests that the licensed physician is satisfied the assistant is qualified to perform under State and CLIA regulations;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Clinical tests such as:</text>
+          <para>
+            <num>(i)</num>
+            <text>Application of tuberculin skin tests;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Electrocardiography;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Administering basic pulmonary function tests; and</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Visual field tests;</text>
+          </para>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>Transmitting prescriptions to a pharmacy;</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>Providing sample packets of medication, selected by a licensed physician who is physically present at the time of selection, to patients as directed by the delegating physician and in conformance with <cite doc="Md. Code" path="gho|12-102">Health Occupations Article, §12-102(a), </cite>(d), and (f), Annotated Code of Maryland;</text>
+        </para>
+        <para>
+          <num>(i)</num>
+          <text>Preparing and administering oral drugs; and</text>
+        </para>
+        <para>
+          <num>(j)</num>
+          <text>Microdermabrasion;</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>With on-site supervision:</text>
+        <para>
+          <num>(a)</num>
+          <text>Preparing and administering injections limited to intradermal, subcutaneous, and intramuscular (deltoid, gluteal, vastus lateralis) to include small amounts of local anesthetics;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Establishing a peripheral intravenous line; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Injecting fluorescein-like dyes for retinal angiography; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>With direct supervision, injecting intravenous drugs or contrast materials.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>A licensed physician who possesses a dispensing permit may delegate the dispensing functions in accordance with the requirements of <cite path="|10.32.23">COMAR 10.32.23</cite>.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>A licensed physician may not delegate to an assistant acts which include but are not limited to:</text>
+      <para>
+        <num>(1)</num>
+        <text>Conducting physical examinations;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Administering any form of anesthetic agent or agent of conscious sedation other than topical anesthetics or small amounts of local anesthetics;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Initiating independently any form of treatment, exclusive of cardiopulmonary resuscitation;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Giving medical advice without the consult of a licensed physician; and</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Providing physical therapy.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Prohibited Conduct and Penalties.</heading>
+    <para>
+      <num>A.</num>
+      <text>An assistant or RCIS acting beyond the scope of this chapter may be:</text>
+      <para>
+        <num>(1)</num>
+        <text>Considered to be engaged in the unlicensed practice of medicine; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Subject to all applicable penalties and fines in accordance with Health Occupations Article, §§<cite doc="Md. Code" path="gho|14-602">14-602</cite> and <cite doc="Md. Code" path="gho|14-607">14-607</cite>, Annotated Code of Maryland, and <cite path="|10.32.02">COMAR 10.32.02</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A delegating physician, through either act or omission, facilitation, or otherwise enabling or forcing an assistant or RCIS to practice beyond the scope of this chapter, may be subject to discipline for grounds within <cite doc="Md. Code" path="gho|14-404">Health Occupations Article, §14-404(a), Annotated Code of Maryland</cite>, including, but not limited to, practicing medicine with an unauthorized person or aiding an unauthorized person in the practice of medicine.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A delegating physician may not:</text>
+      <para>
+        <num>(1)</num>
+        <text>Require an assistant or RCIS to perform a delegated act; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Permit an assistant or RCIS to delegate any act to another individual.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>A hospital that fails to comply with the requirements of <cite doc="Md. Code" path="gho|14-306">Health Occupations Article, §14-306, Annotated Code of Maryland</cite>, and this chapter may be assessed a civil penalty of up to $5,000 for each instance.</text>
+    </para>
+  </section>
+  <section cache:ref-path="10|32|12|.06">
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>RCIS Assistance in the Delegating Physician’s Performance of Fluoroscopy.</heading>
+    <para>
+      <num>A.</num>
+      <text>Scope of Regulation.</text>
+      <para>
+        <num>(1)</num>
+        <text>This regulation governs:</text>
+        <para>
+          <num>(a)</num>
+          <text>A licensed physician’s delegation of technical acts to an RCIS assisting in the physician’s performance of fluoroscopy provided the delegation is in accordance with the entirety of this chapter; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The responsibilities of the hospital in which the cardiac catheterization laboratory is located to verify and document the qualifications of an RCIS and to ensure that all requirements of <cite doc="Md. Code" path="gho|14-306">Health Occupations Article, §14-306, Annotated Code of Maryland</cite> and this regulation are met for each procedure.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>This regulation does not limit a licensed physician from delegating technical acts to an RCIS who is not assisting in the physician’s performance of fluoroscopy provided the delegation is in accordance with Regulations <cite path="|10|32|12|.01">.01</cite>—<cite path="|10|32|12|.05">.05</cite> of this chapter.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>An RCIS assisting in a delegating physician’s performance of fluoroscopy shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Possess an active RCIS certification issued by Cardiovascular Credentialing International or another credentialing body approved by the Board;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Complete 40 hours of:</text>
+        <para>
+          <num>(a)</num>
+          <text>Accredited didactic education in fluoroscopic radiation physics and fluoroscopic patient safety; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Clinical fluoroscopic training supervised by a radiologist, radiographer, or radiologist assistant who is physically present in the room with the RCIS to instruct the clinical fluoroscopic training;</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>In the hospital, wear an identification badge displaying in readily visible type:</text>
+        <para>
+          <num>(a)</num>
+          <text>The name of the RCIS; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A designation by the hospital of verification of the RCIS’ credentials and completion of requirements to assist in a physician’s performance of fluoroscopy; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Comply with any additional requirements as established by:</text>
+        <para>
+          <num>(a)</num>
+          <text>MDE;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The Joint Commission; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Federal and State laws and regulations.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Responsibilities.</text>
+      <para>
+        <num>(1)</num>
+        <text>The hospital shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Verify that the RCIS has met the requirements in <cite path="10|32|12|.06|B.">§B of this regulation</cite> before permitting an RCIS to assist in a delegating physician’s performance of fluoroscopy;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Issue to the RCIS an identification badge in accordance with <cite path="10|32|12|.06|B.|(3)">§B(3) of this regulation</cite>;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Keep on-site all documentation of the RCIS’ certification and the additional training required under this regulation;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Permit the Board, at any reasonable hour, to inspect the hospital’s documentation of the RCIS’ certification and training to ensure compliance with this regulation;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Regarding radiation machines and fluoroscopy services, comply with any additional requirements as established by:</text>
+          <para>
+            <num>(i)</num>
+            <text>MDE;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The Joint Commission; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Federal and State laws and regulations; and</text>
+          </para>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Verify that the acts delegated to the RCIS are in accordance with the scope of this chapter.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The delegating physician shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Exercise direct supervision of the RCIS when the RCIS is assisting the delegating physician in the delegating physician’s performance of fluoroscopy;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Delegate only technical acts involved in the physician’s performance of fluoroscopy in accordance with <cite path="|10|32|12|.03">Regulation .03 of this chapter</cite>; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Verbally direct each technical act performed by the RCIS.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The RCIS:</text>
+        <para>
+          <num>(a)</num>
+          <text>May not perform fluoroscopy;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Shall perform technical acts to assist the delegating physician in the delegating physician’s performance of fluoroscopy only upon verbal direction from the delegating physician;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>May not delegate any act to another individual; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>May not engage in prohibited conduct as set out in <cite path="|10|32|12|.05">Regulation .05 of this chapter</cite>.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Enforcement.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Board shall conduct any necessary investigation regarding the failure to comply with the requirements of <cite doc="Md. Code" path="gho|14-306">Health Occupations Article, §14-306, Annotated Code of Maryland</cite>, and this chapter.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Any matter regarding a hospital’s failure to comply with the requirements of <cite doc="Md. Code" path="gho|14-306">Health Occupations Article, §14-306, Annotated Code of Maryland</cite>, and <cite path="|10|32|12|.06">Regulation .06 of this chapter</cite> shall be adjudicated in accordance with <cite path="|10.32.02">COMAR 10.32.02</cite>.</text>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Health General Article, §§19-114 and 19-118; Health Occupations Article, §§<cite doc="Md. Code" path="gho|14-205">14-205</cite>(a) and <cite doc="Md. Code" path="gho|14-306">14-306</cite>; Annotated Code of Maryland</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2000-06-12">Effective date: June 12, 2000 (27:11 Md. R. 1078)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2021-12-27"><cite path="|10|32|12|.01">Regulation .01</cite> amended effective December 27, 2021 (48:26 Md. R. 1112)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2021-12-27"><cite path="|10|32|12|.02|B.">Regulation .02B</cite> amended effective September 2, 2002 (29:17 Md. R. 1380); March 14, 2016 (43:5 Md. R. 386); December 27, 2021 (48:26 Md. R. 1112)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2021-12-27"><cite path="|10|32|12|.03">Regulation .03</cite> amended effective December 27, 2021 (48:26 Md. R. 1112)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2021-12-27"><cite path="|10|32|12|.04">Regulation .04</cite> amended effective September 2, 2002 (29:17 Md. R. 1380); December 27, 2021 (48:26 Md. R. 1112)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2016-03-14"><cite path="|10|32|12|.04|D.">Regulation .04D</cite> amended effective March 14, 2016 (43:5 Md. R. 386)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2018-03-26"><cite path="|10|32|12|.04|E.">Regulation .04E</cite>, F amended effective March 26, 2018 (45:6 Md. R. 320)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2021-12-27"><cite path="|10|32|12|.05">Regulation .05</cite> amended effective December 27, 2021 (48:26 Md. R. 1112)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2021-12-27"><cite path="|10|32|12|.06">Regulation .06</cite> adopted effective December 27, 2021 (48:26 Md. R. 1112)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2021-12-27"><cite path="|10|32|12|.07">Regulation .07</cite> adopted effective December 27, 2021 (48:26 Md. R. 1112)</annotation>
+  </annotations>
+</container>
