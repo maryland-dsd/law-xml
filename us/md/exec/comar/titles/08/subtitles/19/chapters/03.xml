@@ -8,25 +8,25 @@
     <num>.01</num>
     <heading>Ordinance for Local Program.</heading>
     <text>The following Model Ordinance shall be to assist and guide in the development of a local program. This Model Ordinance will further enable each unit of local government with planning and zoning authority to determine the size, location and orientation of forest to be retained, and prioritize tracts of land for reforestation and afforestation. Although it is the intention of the Department that this chapter be liberally construed to accomplish its purpose, a local authority shall demonstrate that the substantive provisions of each article are incorporated in the local program. Some local authorities may be able to adopt this Ordinance with only minor changes appropriate to each jurisdiction. Other local authorities may choose to use elements of this Ordinance to amend existing laws, statutes, or Ordinances.</text>
-    <include>
+    <include name="Model Forest Conservation Ordinance">
       <text>Model Forest Conservation Ordinance Ordinance Number _________</text>
       <text>An Ordinance for the purpose of prohibiting certain development projects from cutting or clearing certain forests within the Community of _________________ unless a forest stand delineation and a forest conservation plan are in effect.</text>
-      <para name="article-i">
+      <section>
         <prefix>Article</prefix>
         <num>I</num>
         <heading>Purpose and General Provisions.</heading>
-        <section>
+        <para>
           <num>1.1</num>
           <text>Purpose.</text>
           <text>The County Council has determined that to meet the requirements of Natural Resources Article, §§<cite doc="Md. Code" path="gnr|5-1601">5-1601</cite>—<cite doc="Md. Code" path="gnr|5-1612">5-1612</cite>, Annotated Code of Maryland, the provisions of this Ordinance must be enacted.</text>
-        </section>
-      </para>
-      <para name="article-ii">
+        </para>
+      </section>
+      <section>
         <prefix>Article</prefix>
         <num>II</num>
         <heading>Forest and Tree Conservation Definitions.</heading>
         <text>In this Ordinance the following terms have the meanings indicated.</text>
-        <section>
+        <para>
           <num>2.1</num>
           <text>"Afforestation" means:</text>
           <para>
@@ -37,20 +37,20 @@
             <num>B.</num>
             <text>Planting of open areas which are not presently in forest cover.</text>
           </para>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.2</num>
           <text>"Agricultural activity" means farming activities including plowing, tillage, cropping, installation of best management practices, seeding, cultivating, and harvesting for production of food and fiber products (except commercial logging and timber harvesting operations), the grazing and raising of livestock, aquaculture, sod production, orchards, nursery, and other products cultivated as part of a recognized commercial enterprise.</text>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.3</num>
           <text>"Agricultural and resource areas" means undeveloped areas zoned for densities of less than or equal to one dwelling unit per 5 acres and corresponds to (Name of County) County Zoning Classification(s) _____ .</text>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.4</num>
           <text>"Applicant" means a person who is applying for subdivision or project plan approval or a grading or sediment control permit, or who has received approval of a forest stand delineation or forest conservation plan.</text>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.5</num>
           <text>"Approved forest management plan" means a document:</text>
           <para>
@@ -61,28 +61,28 @@
             <num>B.</num>
             <text>Which operates as a protective agreement for forest conservation as described in the Natural Resources Article, §§<cite doc="Md. Code" path="gnr|5-1607">5-1607</cite>(e)—(f), Annotated Code of Maryland.</text>
           </para>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.6</num>
           <text>"Caliper" means the diameter measured at 2 inches above the root collar.</text>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.7</num>
           <text>"Champion tree" means the largest tree of its species within the United States, the State, county, or municipality;</text>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.8</num>
           <text>Repealed.</text>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.9</num>
           <text>"Commercial and industrial uses" means manufacturing operations, office complexes, shopping centers, and other similar uses and their associated storage areas, yarding and parking areas, and corresponds to (Name of County) County Zoning Classification(s) _______ .</text>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.10</num>
           <text>"Commercial logging or timber harvesting operations" means the cutting and removing of tree stems from a site for commercial purposes, leaving the root mass intact.</text>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.11</num>
           <text>"Critical habitat area" means a critical habitat for an endangered species and its surrounding protection area. A critical habitat area shall:</text>
           <para>
@@ -97,12 +97,12 @@
             <num>C.</num>
             <text>Constitute habitat of the species which is considered critical under Natural Resources Article, §§<cite doc="Md. Code" path="gnr|4-2">4-2</cite>A-<cite doc="Md. Code" path="gnr|04">04</cite> and <cite doc="Md. Code" path="gnr|10-2">10-2</cite>A-06, Annotated Code of Maryland.</text>
           </para>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.12</num>
           <text>"Critical habitat for endangered species" means a habitat occupied by an endangered species as determined or listed under Natural Resources Article, §§<cite doc="Md. Code" path="gnr|4-2">4-2</cite>A-<cite doc="Md. Code" path="gnr|04">04</cite> and <cite doc="Md. Code" path="gnr|10-2">10-2</cite>A-04, Annotated Code of Maryland.</text>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.13</num>
           <text>"Declaration of intent" means:</text>
           <para>
@@ -125,12 +125,12 @@
             <num>B.</num>
             <text>The document required under <cite path="08.19.01.05">COMAR 08.19.01.05</cite> or this Ordinance.</text>
           </para>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.14</num>
           <text>"Department" means the Department charged with implementing the local forest conservation program.</text>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.15</num>
           <text>Development Project.</text>
           <para>
@@ -141,8 +141,8 @@
             <num>B.</num>
             <text>"Development project" includes redevelopment.</text>
           </para>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.16</num>
           <text>"Development project completion" means for the purposes of afforestation, reforestation, or payment into a fund:</text>
           <para>
@@ -165,8 +165,8 @@
               <text>Particular stage of a staged development project, including a planned unit development, has been completed.</text>
             </para>
           </para>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.17</num>
           <text>Forest.</text>
           <para>
@@ -189,68 +189,68 @@
             <num>C.</num>
             <text>"Forest" does not include orchards.</text>
           </para>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.18</num>
           <text>"Forest Conservancy District Board" means the forestry board created for each State forest conservancy district under Natural Resources Article, §§<cite doc="Md. Code" path="gnr|5-601">5-601</cite>—<cite doc="Md. Code" path="gnr|5-610">5-610</cite>, Annotated Code of Maryland.</text>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.19</num>
           <text>"Forest conservation" means the retention of existing forest or the creation of new forest at the levels set by the State or Department.</text>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.20</num>
           <text>"Forest Conservation and Management Agreement" means an agreement as stated in <cite doc="Md. Code" path="gtp|8-211">Tax-Property Article, §8-211, Annotated Code of Maryland</cite>.</text>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.21</num>
           <text>"Forest Conservation Technical Manual" means the (Name of county) County technical manual incorporated by reference, used to establish standards of performance required in preparing forest stand delineations and forest conservation plans.</text>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.22</num>
           <text>"Forest conservation plan" means a plan approved pursuant to Natural Resources Article, §§<cite doc="Md. Code" path="gnr|5-1606">5-1606</cite> and <cite doc="Md. Code" path="gnr|5-1607">5-1607</cite>, Annotated Code of Maryland.</text>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.23</num>
           <text>"Forest cover" means the area of a site meeting the definition of forest.</text>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.24</num>
           <text>"Forest management plan" means a plan establishing best conservation and management practices for a landowner in assessment of the resource values of forested property.</text>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.24-1</num>
           <text>"Forest mitigation bank" means an area of land which has been intentionally afforested or reforested for the express purpose of providing credits for reforestation requirements.</text>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.24-2</num>
           <text>"Forest mitigation bank agreement" means an agreement entered into by an individual owning a forest mitigation bank and the Department or local government which commits the banker to certain procedures and requirements when creating and operating the forest mitigation bank.</text>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.24-3</num>
           <text>"Forest mitigation bank plan" means a plan submitted for approval of a forest mitigation bank to the Department, or a local government with an approved local program, by an individual proposing to establish a forest mitigation bank.</text>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.25</num>
           <text>"Forest stand delineation" means the methodology for evaluating the existing vegetation on a site proposed for development, as provided in the (Name of County) County Forest Conservation Technical Manual.</text>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.26</num>
           <text>"Growing season" means the period of consecutive frost-free days as stated in the current soil survey for this county published by the National Cooperative Soil Survey Program, 16 U.S.C. §590(a)—(f).</text>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.27</num>
           <text>"High density residential areas" means areas zoned for densities greater than 1 dwelling unit per acre, including both existing and planned development and their associated infrastructure, such as roads, utilities, and water and sewer service, and corresponds to the (Name of County) County Zoning Classification(s) of _____ .</text>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.28</num>
           <text>"Institutional development area" means schools, colleges and universities, military installations, transportation facilities, utility and sewer projects, government offices and facilities, golf courses, recreation areas, parks, and cemeteries and corresponds to the (Name of County) County Zoning Classification(s) of _____ .</text>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.29</num>
           <text>"Intermittent stream" means a stream in which surface water is absent during a part of the year as shown on the most recent 7.5 minute topographic quadrangle published by the United States Geologic Survey as confirmed by field verification.</text>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.30</num>
           <text>"Landscaping plan" means a plan:</text>
           <para>
@@ -265,8 +265,8 @@
             <num>C.</num>
             <text>Which is made part of an approved forest conservation plan.</text>
           </para>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.30-1</num>
           <text>"Linear project" means a project which:</text>
           <para>
@@ -281,24 +281,24 @@
             <num>C.</num>
             <text>May traverse fee simple properties through defined boundaries, or established easement rights.</text>
           </para>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.31</num>
           <text>"Local agency" means each unit in the executive, legislative, or judicial branch of a county or municipal government, including an office or department of public works.</text>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.32</num>
           <text>"Lot" means a unit of land, the boundaries of which have been established by subdivision of a larger parcel, and which will not be the subject of further subdivision, as defined by <cite doc="Md. Code" path="gnr|5-1601">Natural Resources Article, §5-1601, Annotated Code of Maryland</cite>, and this Ordinance without an approved forest stand delineation and forest conservation plan.</text>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.33</num>
           <text>"Maintenance agreement" means the short-term management agreement associated with afforestation or reforestation plans required under <cite doc="Md. Code" path="gnr|5-1605">Natural Resources Article, §5-1605, Annotated Code of Maryland</cite>, and this Ordinance.</text>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.34</num>
           <text>"Medium density residential areas" means areas zoned for densities greater than 1 dwelling unit per 5 acres and less than or equal to 1 dwelling unit per acre, including both existing and planned development and their associated infrastructure, such as roads, utilities, and water and sewer service, and corresponds to the (Name of County) County Zoning Classification(s) of _____ .</text>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.35</num>
           <text>"Minor development project" means a project:</text>
           <para>
@@ -309,16 +309,16 @@
             <num>B.</num>
             <text>Substantively similar as defined by the Department and approved by the State.</text>
           </para>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.36</num>
           <text>"Mixed use development" means a single, relatively high density development project, usually commercial in nature, which includes two or more types of uses, and corresponds to the (Name of County) County Zoning Classification(s) of _____ .</text>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.37</num>
           <text>"Natural regeneration" means the natural establishment of trees and other vegetation with at least 400 woody, free-to-grow seedlings per acre, which are capable of reaching a height of at least 20 feet at maturity.</text>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.38</num>
           <text>"Net tract area" means:</text>
           <para>
@@ -341,8 +341,8 @@
               <text>The limits of disturbance as shown on an application for sediment and erosion control approval or in a capital improvements program project description.</text>
             </para>
           </para>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.39</num>
           <text>Nontidal Wetlands.</text>
           <para>
@@ -361,44 +361,44 @@
             <num>B.</num>
             <text>"Nontidal wetlands" does not include tidal wetlands regulated under <cite doc="Md. Code" path="gnr">Natural Resources Article, Title 9, Annotated Code of Maryland</cite>.</text>
           </para>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.40</num>
           <text>"Offsite" means outside of the limits of the area encompassed by the tract.</text>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.41</num>
           <text>"Onsite" means within the limits of the area encompassed by the tract, including an area classified as a 100-year floodplain.</text>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.42</num>
           <text>"100-year flood" means a flood which has a 1 percent chance of being equaled or exceeded in any given year. Except for Class III waters (natural trout streams), a body of water with a watershed less than 400 acres is excluded.</text>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.43</num>
           <text>"100-year floodplain" means an area along or adjacent to a stream or body of water, except tidal waters, that is capable of storing or conveying floodwaters during a 100-year frequency storm event, or a 100-year flood.</text>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.44</num>
           <text>"Perennial stream" means a stream containing surface water throughout an average rainfall year, as shown on the most recent 7.5 minute topographic quadrangle published by the United States Geologic Survey, as confirmed by field verification.</text>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.45</num>
           <text>"Person" means the federal government, the State, a county, municipal corporation, or other political subdivision of the State, or any of their units, or an individual, receiver, trustee, guardian, executor, administrator, fiduciary, or representative of any kind, or any partnership, firm, association, public or private corporation, or any of their affiliates, or any other entity.</text>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.46</num>
           <text>"Planned unit development" means a development comprised of a combination of land uses or varying intensities of the same land use in accordance with an integrated plan that provides flexibility in land use design approved by (Name of County) County with at least 20 percent of the land permanently dedicated to open space and corresponds to (Name of County) County Zoning Classification _____ .</text>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.47</num>
           <text>“Priority funding area” means an area designated as a priority funding area under <cite doc="Md. Code" path="gsf|5-7">State Finance and Procurement Article, §5-7</cite>b-02, Annotated Code of Maryland.</text>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.48</num>
           <text>"Project plan" means a construction, grading, or sediment control activity on an area of 40,000 square feet or greater by a local agency.</text>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.49</num>
           <text>"Public utility" means any:</text>
           <para>
@@ -409,8 +409,8 @@
             <num>B.</num>
             <text>Water, sewer, electric, gas, telephone, or television cable service line.</text>
           </para>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.50</num>
           <text>Reforestation.</text>
           <para>
@@ -433,8 +433,8 @@
             <num>C.</num>
             <text>"Reforestation" or "reforested" for a linear project involving overhead transmission lines may consist of a biological community dominated by trees and woody shrubs with no minimum height or diameter criteria.</text>
           </para>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.51</num>
           <text>"Regulated activity" means any of the following activities, when that activity occurs on a unit of land which is 40,000 square feet or greater:</text>
           <para>
@@ -453,28 +453,28 @@
             <num>D.</num>
             <text>Project plan of a local agency.</text>
           </para>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.52</num>
           <text>"Retention" means the deliberate holding and protecting of existing trees, shrubs, or plants on the site according to established standards as provided in the (Name of County) County Forest Conservation Technical Manual.</text>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.53</num>
           <text>"Sediment control permit" means the authorization of an activity regulated under a sediment control plan as provided in <cite doc="Md. Code" path="gen">Environment Article, Title 4, Annotated Code of Maryland</cite>.</text>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.54</num>
           <text>"Seedling" means an unbranched woody plant, less than 24 inches in height and having a diameter of less than 1/2 inch measured at 2 inches above the root collar.</text>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.55</num>
           <text>"Selective clearing" means the careful and planned removal of trees, shrubs, and plants using specific standards and protection measures under an approved forest conservation plan.</text>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.56</num>
           <text>"Stream buffer" means all lands lying within 50 feet, measured from the top of each normal bank of a perennial or intermittent stream.</text>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.57</num>
           <text>“Stream restoration project” means an activity that:</text>
           <para>
@@ -493,12 +493,12 @@
             <num>D.</num>
             <text>Is not performed to satisfy stormwater management, wetlands mitigation, or any other regulatory requirement associated with proposed development activity.</text>
           </para>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.58</num>
           <text>"Subdivision" means any division of a unit of land into 2 or more lots or parcels for the purpose, whether immediate or future, of transfer of ownership, sale, lease, or development.</text>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.59</num>
           <text>Timber Harvesting.</text>
           <para>
@@ -509,20 +509,20 @@
             <num>B.</num>
             <text>"Timber harvesting" does not include grubbing and clearing of root mass.</text>
           </para>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.60</num>
           <text>"Tract" means property or unit of land subject to an application for a grading or sediment control permit, subdivision approval, project plan approval, or areas subject to this law.</text>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.61</num>
           <text>"Tract for a planned unit development" means the entire property subject to a planned unit development.</text>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.62</num>
           <text>"Tree" means a large, branched woody plant having one or several self-supporting stems or trunks that reach a height of at least 20 feet at maturity.</text>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.63</num>
           <text>Variance.</text>
           <para>
@@ -533,21 +533,21 @@
             <num>B.</num>
             <text>"Variance" does not mean a zoning variance.</text>
           </para>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.64</num>
           <text>"Watershed" means all land lying within an area described as a subbasin in water quality regulations adopted by the Department of the Environment under <cite path="26.08.02.08">COMAR 26.08.02.08</cite>.</text>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>2.65</num>
           <text>"Whip" means an unbranched woody plant greater than 24 inches in height and having a diameter of less than 1 inch measured at 2 inches above the root collar.</text>
-        </section>
-      </para>
-      <para name="article-iii">
+        </para>
+      </section>
+      <section>
         <prefix>Article</prefix>
         <num>III</num>
         <heading>Application.</heading>
-        <section>
+        <para>
           <num>3.1</num>
           <text>Except as provided in §3.2 of this article, this Ordinance applies to:</text>
           <para>
@@ -562,8 +562,8 @@
             <num>C.</num>
             <text>A unit of county or municipal government, including a public utility or public works project, making application for a subdivision, project plan, grading, or sediment control approval on areas 40,000 square feet or greater.</text>
           </para>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>3.2</num>
           <text>This Ordinance does not apply to:</text>
           <para>
@@ -710,8 +710,8 @@
             <num>Q.</num>
             <text>A stream restoration project, as defined in Article II 2.57 of this ordinance, for which the applicant for a grading or sediment control permit has executed a binding maintenance agreement of at least 5 years with the affected property owner or owners.</text>
           </para>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>3.3</num>
           <text>Declaration of Intent.</text>
           <para>
@@ -786,13 +786,13 @@
             <num>J.</num>
             <text>Agricultural Activities or Commercial Logging and Timber Harvesting. A declaration of intent may be part of an amended sediment and erosion control plan which ensures that the activity meets the conditions for an exemption as stated in Article III, §3.2C and D of this Ordinance.</text>
           </para>
-        </section>
-      </para>
-      <para name="article-iv">
+        </para>
+      </section>
+      <section>
         <prefix>Article</prefix>
         <num>IV</num>
         <heading>General Requirements.</heading>
-        <section>
+        <para>
           <num>4.1</num>
           <text>A person making application after the effective date of ______, for subdivision or local agency project plan approval, a grading permit, or a sediment control permit for an area of land of 40,000 square feet or greater shall:</text>
           <para>
@@ -803,17 +803,17 @@
             <num>B.</num>
             <text>Use methods approved by the Department, as provided in the (Name of County) County Forest Conservation Technical Manual, to protect retained forests and trees during construction.</text>
           </para>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>4.2</num>
           <text>If a local agency or person using state funds makes application to conduct a regulated activity, the provisions of <cite path="08.19.04.01|D.">COMAR 08.19.04.01D</cite>—G apply.</text>
-        </section>
-      </para>
-      <para name="article-v">
+        </para>
+      </section>
+      <section>
         <prefix>Article</prefix>
         <num>V</num>
         <heading>Forest Stand Delineation.</heading>
-        <section>
+        <para>
           <num>5.1</num>
           <text>Criteria.</text>
           <para>
@@ -900,13 +900,13 @@
               <text>The Department may require further information or provide for an additional 15 calendar days under extenuating circumstances.</text>
             </para>
           </para>
-        </section>
-      </para>
-      <para name="article-vi">
+        </para>
+      </section>
+      <section>
         <prefix>Article</prefix>
         <num>VI</num>
         <heading>Forest Conservation Plan.</heading>
-        <section>
+        <para>
           <num>6.1</num>
           <text>General Provisions.</text>
           <para>
@@ -961,8 +961,8 @@
               <text>Forested nontidal wetland identification and delineation should be included at the earliest stage of planning to assist the applicant in avoidance and reduction of impacts to the nontidal wetlands and to avoid delay in the approval process.</text>
             </para>
           </para>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>6.2</num>
           <text>Preliminary Forest Conservation Plan.</text>
           <para>
@@ -1037,8 +1037,8 @@
             <num>D.</num>
             <text>During the different stages of the review process, the preliminary forest conservation plan may be modified provided the Department approves of the changes.</text>
           </para>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>6.3</num>
           <text>The Final Forest Conservation Plan.</text>
           <para>
@@ -1157,13 +1157,13 @@
             <num>G.</num>
             <text>Before revoking approval of a forest conservation plan, the Department shall notify the violator in writing and provide an opportunity for a hearing.</text>
           </para>
-        </section>
-      </para>
-      <para name="article-vii">
+        </para>
+      </section>
+      <section>
         <prefix>Article</prefix>
         <num>VII</num>
         <heading>Afforestation and Retention.</heading>
-        <section>
+        <para>
           <num>7.1</num>
           <text>Afforestation Requirement. A person making application after the effective date of this Ordinance for subdivision or project plan approval, a grading permit, or a sediment control permit for an area of land of 40,000 square feet or greater, shall:</text>
           <para>
@@ -1214,8 +1214,8 @@
               <text>Forest cut or cleared below the required afforestation level shall be reforested or afforested at a 2 to 1 ratio and added to the amount of afforestation necessary to reach the minimum required afforestation level, as determined by the amount of forest existing before cutting or clearing began.</text>
             </para>
           </para>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>7.2</num>
           <text>Retention. The following trees, shrubs, plants, and specific areas are considered priority for retention and protection and shall be left in an undisturbed condition unless the applicant has demonstrated, to the satisfaction of the Department, that reasonable efforts have been made to protect them and the plan cannot reasonably be altered:</text>
           <para>
@@ -1226,8 +1226,8 @@
             <num>B.</num>
             <text>Contiguous forest that connects the largest undeveloped or most vegetated tracts of land within and adjacent to the site.</text>
           </para>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>7.2-1</num>
           <text>Retention. The following trees, shrubs, plants, and specific areas are considered priority for retention and protection and shall be left in an undisturbed condition unless the applicant has demonstrated, to the satisfaction of the Department, that the applicant qualifies for a variance in accordance with Section 14.1 of this article:</text>
           <para>
@@ -1274,13 +1274,13 @@
               <text>75 percent or more of the diameter, measured at 4.5 feet above the ground, of the current State champion tree of that species as designated by the Department of Natural Resources.</text>
             </para>
           </para>
-        </section>
-      </para>
-      <para name="article-viii">
+        </para>
+      </section>
+      <section>
         <prefix>Article</prefix>
         <num>VIII</num>
         <heading>Reforestation.</heading>
-        <section>
+        <para>
           <num>8.1</num>
           <text>Forest Conservation Threshold.</text>
           <para>
@@ -1341,13 +1341,13 @@
               <text>For all existing forest cover measured to the nearest 1/10th acre cleared on the net tract area below the applicable forest conservation threshold, the area of forest removed shall be reforested at a ratio of 2 acres planted for each acre removed below the threshold.</text>
             </para>
           </para>
-        </section>
-      </para>
-      <para name="article-ix">
+        </para>
+      </section>
+      <section>
         <prefix>Article</prefix>
         <num>IX</num>
         <heading>Priorities and Time Requirements for Afforestation and Reforestation.</heading>
-        <section>
+        <para>
           <num>9.1</num>
           <text>Sequence for Afforestation and Reforestation.</text>
           <para>
@@ -1462,13 +1462,13 @@
             <num>G.</num>
             <text>A person required to conduct afforestation or reforestation under this article shall accomplish it within 1 year or two growing seasons, whichever is a greater time period, following development project completion.</text>
           </para>
-        </section>
-      </para>
-      <para name="article-x">
+        </para>
+      </section>
+      <section>
         <prefix>Article</prefix>
         <num>X</num>
         <heading>Payment Instead of Afforestation and Reforestation.</heading>
-        <section>
+        <para>
           <num>10.1</num>
           <text>Forest Conservation Fund.</text>
           <para>
@@ -1530,8 +1530,8 @@
           <aftertext>
             <strong>Article X-1 Payment by Credits From a Forest Mitigation Bank.</strong>
           </aftertext>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>10.1.1</num>
           <text>Use of Forest Mitigation Bank.</text>
           <para>
@@ -1545,8 +1545,8 @@
           <aftertext>
             <strong>Article X-2 Establishing Forest Mitigation Banks.</strong>
           </aftertext>
-        </section>
-        <section>
+        </para>
+        <para>
           <num>10.1.2</num>
           <text>Forest Mitigation Banks.</text>
           <para>
@@ -1689,13 +1689,13 @@
               <text>An acknowledgment that the bank may not debit any portion of the afforested or reforested land until 2 years of successful growth has been achieved unless the banker has posted a bond or alternate form of security.</text>
             </para>
           </para>
-        </section>
-      </para>
-      <para name="article-xi">
+        </para>
+      </section>
+      <section>
         <prefix>Article</prefix>
         <num>XI</num>
         <heading>Recommended Tree Species.</heading>
-        <section>
+        <para>
           <num>11.1</num>
           <text>Recommended Tree Species List.</text>
           <para>
@@ -1706,13 +1706,13 @@
             <num>B.</num>
             <text>The Department shall adopt a list of tree species to be used for any required afforestation or reforestation and incorporate it into the (Name of county) County Forest Conservation Technical Manual.</text>
           </para>
-        </section>
-      </para>
-      <para name="article-xii">
+        </para>
+      </section>
+      <section>
         <prefix>Article</prefix>
         <num>XII</num>
         <heading>Financial Security for Afforestation and Reforestation.</heading>
-        <section>
+        <para>
           <num>12.1</num>
           <text>Bonding.</text>
           <para>
@@ -1767,13 +1767,13 @@
             <num>E.</num>
             <text>A local forest conservation program may incorporate the financial security set forth in §12.1A—D of this article or in <cite path="08.19.05.01|B.">COMAR 08.19.05.01B</cite>.</text>
           </para>
-        </section>
-      </para>
-      <para name="article-xiii">
+        </para>
+      </section>
+      <section>
         <prefix>Article</prefix>
         <num>XIII</num>
         <heading>Standards for Protecting Trees from Construction Activities.</heading>
-        <section>
+        <para>
           <num>13.1</num>
           <text>Protection Devices.</text>
           <para>
@@ -1784,13 +1784,13 @@
             <num>B.</num>
             <text>Before cutting, clearing, grading, or construction begins on a site for which a forest conservation plan is required by this article, the applicant shall demonstrate to the Department that protective devices have been established.</text>
           </para>
-        </section>
-      </para>
-      <para name="article-xiv">
+        </para>
+      </section>
+      <section>
         <prefix>Article</prefix>
         <num>XIV</num>
         <heading>Variances.</heading>
-        <section>
+        <para>
           <num>14.1</num>
           <text>Procedure.</text>
           <para>
@@ -1837,13 +1837,13 @@
             <num>E.</num>
             <text>There is established by this Ordinance the right and authority of the Department of Natural Resources to initiate or intervene in an administrative, judicial, or other original proceeding or appeal in the State concerning an approval of a variance under Natural Resources Article, §§<cite doc="Md. Code" path="gnr|5-1601">5-1601</cite>—<cite doc="Md. Code" path="gnr|5-1612">5-1612</cite>, Annotated Code of Maryland, or this Ordinance.</text>
           </para>
-        </section>
-      </para>
-      <para name="article-xv">
+        </para>
+      </section>
+      <section>
         <prefix>Article</prefix>
         <num>XV</num>
         <heading>Penalties.</heading>
-        <section>
+        <para>
           <num>15.1</num>
           <text>Enforcement.</text>
           <para>
@@ -1882,13 +1882,13 @@
             <num>E.</num>
             <text>The local program shall provide to the Department notice of an enforcement action within 15 days after the commencement of enforcement by the local program.</text>
           </para>
-        </section>
-      </para>
-      <para name="article-xvi">
+        </para>
+      </section>
+      <section>
         <prefix>Article</prefix>
         <num>XVI</num>
         <heading>Annual Report.</heading>
-        <section>
+        <para>
           <num>16.1</num>
           <text>On or before March 1 of each year, the Department shall submit to the Department of Natural Resources a report which contains the:</text>
           <para>
@@ -1927,26 +1927,26 @@
             <num>I.</num>
             <text>The size and location of all conserved and planted forest areas shall be submitted in an electronic geographic information system or computer aided design format if possible. If not possible, the location shall be given by Maryland State Plane Grid Coordinates and 8 digit subwatershed.</text>
           </para>
-        </section>
-      </para>
-      <para name="article-xvii">
+        </para>
+      </section>
+      <section>
         <prefix>Article</prefix>
         <num>XVII</num>
         <heading>Biennial Review by the Department of Natural Resources.</heading>
-        <section>
+        <para>
           <num>17.1</num>
           <text>The Department shall submit the necessary documentation to comply with <cite path="08.19.02.04">COMAR 08.19.02.04</cite>.</text>
-        </section>
-      </para>
-      <para name="article-xviii">
+        </para>
+      </section>
+      <section>
         <prefix>Article</prefix>
         <num>XVIII</num>
         <heading>Effective Date and Subsequent Amendments.</heading>
-        <section>
+        <para>
           <num>18.1</num>
           <text>This Ordinance is hereby enacted and becomes effective ________, 20____. This Ordinance may be amended as required. All amendments to this Ordinance are subject to the approval of the Department of Natural Resources.</text>
-        </section>
-      </para>
+        </para>
+      </section>
     </include>
   </section>
   <annotations>
