@@ -1403,14 +1403,14 @@
             </tr>
             <tr>
               <td data-text-align="center" data-vertical-align="middle">DD2</td>
-              <td proof="needed"/>
-              <td proof="needed"/>
+              <td/>
+              <td/>
               <td data-text-align="center" data-vertical-align="middle">2</td>
             </tr>
             <tr>
               <td data-text-align="center" data-vertical-align="middle">DD3</td>
-              <td proof="needed"/>
-              <td proof="needed"/>
+              <td/>
+              <td/>
               <td data-text-align="center" data-vertical-align="middle">2</td>
             </tr>
           </tbody>
@@ -3145,15 +3145,13 @@
       <text>Odometer/hubometer.</text>
       <text>
         <table>
-          <tbody>
+          <thead>
             <tr>
-              <td data-text-align="center" data-vertical-align="middle">
-                <em>Procedures:</em>
-              </td>
-              <td data-text-align="center" data-vertical-align="middle">
-                <em>Reject Vehicle If:</em>
-              </td>
+              <th>Procedures:</th>
+              <th>Reject Vehicle If:</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td data-vertical-align="middle">(1) Inspect for presence and condition.</td>
               <td>(1) Odometer or hubometer is missing or fails to operate.</td>
