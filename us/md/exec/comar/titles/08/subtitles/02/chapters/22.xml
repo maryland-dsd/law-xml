@@ -1,0 +1,780 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>22</num>
+  <heading>Sharks</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>“Circle hook” means a nonoffset hook with the point turned perpendicularly back to the shank.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>“Eviscerate” means to remove the digestive organs of a shark, excluding the head.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>“Finning” means removing only the fins of a shark.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>“Fork length” means that length measured in a straight line from the tip of the nose of the shark to the center of the fork of the tail of the shark.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>“Handline” means a mainline to which not more than two gangions or hooks are attached.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>“Landing” means:</text>
+        <para>
+          <num>(a)</num>
+          <text>The unloading of any fish at a dock or shore by a commercial fisherman; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The bringing of any fish to a dock, pier, or shore by a recreational fisherman for personal use.</text>
+        </para>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>“Large mesh gillnet” means a gillnet having a stretch mesh size equal to or greater than 5 inches.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>“Recreational angler” means any fisherman who catches sharks for personal use.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>“Shore-angler” means any person engaged in any type of fishing that does not take place on board a vessel.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>“Shortline” means a fishing line meeting the requirements of <cite path="08.02.25.06">COMAR 08.02.25.06</cite>.</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>“Small mesh gillnet” means a gillnet having a stretch mesh size smaller than 5 inches.</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>“Vessel” means every type of watercraft used or capable of being used as a means of transportation on water except for nondisplacement craft and seaplanes.</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>“Vessel-fishing” means any fishing conducted from a vessel.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="08|02|22|.02">
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Recreational Shark Fishery.</heading>
+    <para>
+      <num>A.</num>
+      <text>Authorized Shark Species. A recreational angler may harvest only the following species:</text>
+      <para>
+        <num>(1)</num>
+        <text>Smoothhound (Mustelus canis);</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Atlantic sharpnose (Rhizoprionodon terraenovae);</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Bonnethead (Sphyrna tiburo);</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Finetooth (Carcharhinus isodon);</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Blacknose (Carcharhinus acronotus);</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Tiger (Galeocerdo cuvier);</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Blacktip (Carcharhinus limbatus);</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Spinner (Carcharhinus brevipinna);</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>Bull (Carcharhinus leucas);</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>Lemon (Negaprion brevirostris);</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>Nurse (Ginglymostoma cirratum);</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>Shortfin mako (Isurus oxyrinchus);</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>Porbeagle (Lamna nasus);</text>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>Common thresher (Alopias vulpinus);</text>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>Oceanic whitetip (Carcharhinus longimanus);</text>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>Blue (Prionace glauca);</text>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>Scalloped hammerhead (Sphyrna lewini);</text>
+      </para>
+      <para>
+        <num>(18)</num>
+        <text>Great hammerhead (Sphyrna mokarran); and</text>
+      </para>
+      <para>
+        <num>(19)</num>
+        <text>Smooth hammerhead (Sphyrna zygaena).</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Season Closure. A recreational angler may not harvest, possess, or transport the species listed in §A(6)—(11) and (17)—(19) of this regulation from May 15 through July 15, inclusive, regardless of where the shark was caught.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Size Limits.</text>
+      <para>
+        <num>(1)</num>
+        <text>There is no minimum fork length for the species listed in §A(1)—(3) of this regulation.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The minimum fork length is 4.5 feet (54 inches) for the species listed in §A(4)—(16) of this regulation.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The minimum fork length is 78 inches for the species listed in §A(17)—(19) of this regulation.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Catch Limits.</text>
+      <para>
+        <num>(1)</num>
+        <text>There is no catch limit for smoothhound (Mustelus canis) sharks.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Shore-Angler Catch Limits. Each calendar day, a recreational shore-angler may harvest:</text>
+        <para>
+          <num>(a)</num>
+          <text>Only one shark, regardless of the species, from the species listed in §A(2)—(19) of this regulation;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>One additional Atlantic sharpnose (Rhizoprionodon terraenovae); and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>One additional Bonnethead (Sphyrna tiburo).</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Vessel-Fishing Catch Limits.</text>
+        <para>
+          <num>(a)</num>
+          <text>A recreational fishing vessel may not harvest more than one shark, per trip, from the list in §A(2)—(19) of this regulation, regardless of the:</text>
+          <para>
+            <num>(i)</num>
+            <text>Species of shark; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Number of people on board the vessel.</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>In addition to the vessel limit described in <cite path="08|02|22|.02|D.|(3)|(a)">§D(3)(a) of this regulation</cite>, each recreational angler fishing from a vessel may harvest, per trip:</text>
+          <para>
+            <num>(i)</num>
+            <text>One Atlantic sharpnose (Rhizoprionodon terraenovae); and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>One Bonnethead (Sphyrna tiburo).</text>
+          </para>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Gear.</text>
+      <para>
+        <num>(1)</num>
+        <text>A recreational angler may catch sharks using only active line fishing gear.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Except when fishing with artificial flies or artificial lures, a recreational angler fishing for sharks shall use a circle hook.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A circle hook used to catch a shark shall be corrodible.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>A recreational angler fishing for sharks shall have in possession at least one device capable of quickly cutting either the leader or the hook.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Tags and Reporting.</text>
+      <para>
+        <num>(1)</num>
+        <text>An individual shall obtain tags and catch information forms from a reporting station designated by the Department.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Before removing a landed shark from a boat or removing a boat containing a shark from the water, a person shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Affix a tail tag, provided by the reporting station, to the shark; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Complete a catch information form provided by the reporting station.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Before removing a landed shark from the point of landing if caught on shore, a person shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Affix a tail tag, provided by the reporting station, to the shark; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Complete a catch information form provided by the reporting station.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Upon landing a shark, an individual shall immediately return the catch information form to a reporting station designated by the Department.</text>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>General.</text>
+      <para>
+        <num>(1)</num>
+        <text>A recreational angler may not sell, barter, or trade sharks or shark pieces.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>When aboard a vessel, a recreational angler is bound by the more restrictive vessel-fishing possession limits described in <cite path="08|02|22|.02|D.|(3)">§D(3) of this regulation</cite>, regardless of the location where the shark was caught.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A shark that is transported by a vessel is considered "boat assisted" and is regulated under the more restrictive vessel-fishing possession limits described in <cite path="08|02|22|.02|D.|(3)">§D(3) of this regulation</cite>, regardless of where it was caught.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>All sharks harvested by a recreational angler shall have heads, tails, and fins attached naturally to the carcass through landing.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Sharks harvested in accordance with this regulation may be eviscerated as long as the tail is not removed.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>An individual shall immediately release a species of shark:</text>
+        <para>
+          <num>(a)</num>
+          <text>That is not listed in <cite path="08|02|22|.02|A.">§A of this regulation</cite>;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Whose season is closed as described in <cite path="08|02|22|.02|B.">§B of this regulation</cite>; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>That does not meet the minimum size specified in <cite path="08|02|22|.02|C.">§C of this regulation</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Except for a smoothhound, an individual may not remove from the water a shark that will be released.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>For any shark that will be released, an individual may not:</text>
+        <para>
+          <num>(a)</num>
+          <text>Sit on the shark;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Hold the shark’s mouth open;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Put the shark on dry sand;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Put the shark on a boat deck; or</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Use a gaff.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="08|02|22|.03">
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Commercial Fishery.</heading>
+    <para>
+      <num>A.</num>
+      <text>Shark Groups.</text>
+      <para>
+        <num>(1)</num>
+        <text>Prohibited Species. The species of shark in the prohibited group are:</text>
+        <para>
+          <num>(a)</num>
+          <text>Sand tiger (Carcharias taurus);</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Bigeye sandtiger (Odontaspis noronhai);</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Whale (Rhincodon typus);</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Basking (Cetorhinus maximus);</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>White (Carcharodon carcharias);</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Dusky (Carcharhinus obscurus);</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>Bignose (Carcharhinus altimus);</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>Galapagos (Carcharhinus galapagensis);</text>
+        </para>
+        <para>
+          <num>(i)</num>
+          <text>Night (Carcharhinus signatus);</text>
+        </para>
+        <para>
+          <num>(j)</num>
+          <text>Reef (Carcharhinus perezii);</text>
+        </para>
+        <para>
+          <num>(k)</num>
+          <text>Narrowtooth (Carcharhinus brachyurus);</text>
+        </para>
+        <para>
+          <num>(l)</num>
+          <text>Caribbean sharpnose (Rhizoprionodon porosus);</text>
+        </para>
+        <para>
+          <num>(m)</num>
+          <text>Smalltail (Carcharhinus porosus);</text>
+        </para>
+        <para>
+          <num>(n)</num>
+          <text>Atlantic angel (Squatina dumeril);</text>
+        </para>
+        <para>
+          <num>(o)</num>
+          <text>Longfin mako (Isurus paucus);</text>
+        </para>
+        <para>
+          <num>(p)</num>
+          <text>Bigeye thresher (Alopias superciliosus);</text>
+        </para>
+        <para>
+          <num>(q)</num>
+          <text>Sharpnose sevengill (Heptranchias perlo);</text>
+        </para>
+        <para>
+          <num>(r)</num>
+          <text>Bluntnose sixgill (Hexanchus griseus); and</text>
+        </para>
+        <para>
+          <num>(s)</num>
+          <text>Bigeye sixgill (Hexanchus nakamurai).</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Research. The species of shark in the research group is Sandbar (Carcharhinus plumbeus).</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Smoothhound. The species of shark in the smoothhound group is Smoothhound (Mustelus canis).</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Non-Blacknose Small Coastal. The species of shark in the small coastal group are:</text>
+        <para>
+          <num>(a)</num>
+          <text>Atlantic sharpnose (Rhizoprionodon terraenovae);</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Finetooth (Carcharhinus isodon); and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Bonnethead (Sphyrna tiburo).</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Blacknose. The species of shark in the blacknose group is Blacknose (Carcharhinus acronotus).</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Aggregated Large Coastal. The species of shark in the aggregated large coastal group are:</text>
+        <para>
+          <num>(a)</num>
+          <text>Silky (Carcharhinus falciformis);</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Tiger (Galeocerdo cuvier);</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Blacktip (Carcharhinus limbatus);</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Spinner (Carcharhinus brevipinna);</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Bull (Carcharhinus leucas);</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Lemon (Negaprion brevirostris); and</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>Nurse (Ginglymostoma cirratum).</text>
+        </para>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Hammerhead. The species of shark in the hammerhead group are:</text>
+        <para>
+          <num>(a)</num>
+          <text>Scalloped hammerhead (Sphyrna lewini);</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Great hammerhead (Sphyrna mokarran); and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Smooth hammerhead (Sphyrna zygaena).</text>
+        </para>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Pelagic. The species of shark in the pelagic group are:</text>
+        <para>
+          <num>(a)</num>
+          <text>Shortfin mako (Isurus oxyrinchus);</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Porbeagle (Lamna nasus);</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Common thresher (Alopias vulpinus);</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Oceanic whitetip (Carcharhinus longimanus); and</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Blue (Prionace glauca).</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Season.</text>
+      <para>
+        <num>(1)</num>
+        <text>Closure. During the period of May 15July 15, inclusive, an individual may not:</text>
+        <para>
+          <num>(a)</num>
+          <text>Harvest the species listed in §A(6) and (7) of this regulation from State waters; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Transport the species listed in §A(6) and (7) of this regulation in State waters, unless the shark was harvested from federal waters provided:</text>
+          <para>
+            <num>(i)</num>
+            <text>The vessel does not engage in fishing within the closed area while possessing the species listed in §A(6) and (7) of this regulation;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The sharks possessed were not caught in the closed area; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>All fishing gear is stowed as described in <cite path="08|02|22|.03|D.|(4)">§D(4) of this regulation</cite> and not available for immediate use.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A person may not harvest, possess, or land sharks for commercial purposes in State waters when the National Oceanic and Atmospheric Administration closes the fishery in federal waters for any species listed in <cite path="08|02|22|.03|A.">§A of this regulation</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Catch Limits. An individual who has been issued a federal shark permit issued under 50 CFR §635 may not harvest, possess, or land more sharks than authorized by the individual's federal shark permit.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Gear.</text>
+      <para>
+        <num>(1)</num>
+        <text>The following gear types are the only gear authorized for use by a commercial tidal fish licensee to catch sharks in State waters:</text>
+        <para>
+          <num>(a)</num>
+          <text>Rod and reel;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Handline, which shall be:</text>
+          <para>
+            <num>(i)</num>
+            <text>Retrieved by hand, not by mechanical means; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Attached to, or in contact with, a vessel;</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Small mesh gillnet;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Large mesh gillnet, which shall be:</text>
+          <para>
+            <num>(i)</num>
+            <text>Shorter than 2.5 kilometers; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Checked once every 2 hours;</text>
+          </para>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Trawl net;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Shortline;</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>Pound net; and</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>Weir.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Methods of Stowing Gear.</text>
+        <para>
+          <num>(a)</num>
+          <text>On Reel.</text>
+          <para>
+            <num>(i)</num>
+            <text>The net shall be on a reel, its entire surface covered with canvas or other similar opaque material, and the canvas or other material securely bound.</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The towing wires shall be detached from the doors.</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>A containment rope, codend tripping device, or other mechanism to close off the codend may not be attached to the codend.</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Hook Gear.</text>
+          <para>
+            <num>(i)</num>
+            <text>All anchors and buoys shall be secured.</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>All hook gear, including jigging machines, shall be covered.</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Sink Gillnet Gear.</text>
+          <para>
+            <num>(i)</num>
+            <text>All nets shall be covered with canvas or other similar material and lashed or otherwise securely fastened to the deck or rail.</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>All buoys larger than 6 inches (15.24 centimeters) in diameter, high flyers, and anchors shall be disconnected.</text>
+          </para>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>General.</text>
+      <para>
+        <num>(1)</num>
+        <text>Prior to harvesting or landing a shark for commercial purposes, an individual shall be authorized in accordance with <cite doc="Md. Code" path="gnr|4-701">Natural Resources Article, §4-701, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A vessel which is used to catch, possess, or land any shark species listed in <cite path="08|02|22|.03|A.">§A of this regulation</cite> for commercial purposes from the waters of the federal Exclusive Economic Zone (EEZ) of the Atlantic Ocean, which are defined as those ocean waters between 3 and 200 miles offshore, shall be permitted by the National Marine Fisheries Service in accordance with 50 CFR §635.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A federal commercial shark dealer permit is required to buy and sell any shark harvested from State waters.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Except as provided in <cite path="08|02|22|.03|E.|(5)">§E(5) of this regulation</cite>, all sharks harvested in accordance with this chapter shall have the tails and fins attached naturally to the carcass through landing.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Smoothhound sharks harvested in accordance with this chapter may have the dorsal, pectoral, and caudal fins removed if smoothhound sharks make up at least 25 percent, by weight, of the total catch on board at the time of landing.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>If fins are removed from a smoothhound shark, the total wet weight of the:</text>
+        <para>
+          <num>(a)</num>
+          <text>Caudal fins may not exceed 4 percent of the total dressed weight of smoothhound shark carcasses landed or found on board a vessel; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Dorsal and pectoral fins may not exceed 8 percent of the total dressed weight of smoothhound shark carcasses landed or found on board a vessel.</text>
+        </para>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Sharks harvested in accordance with this chapter may be eviscerated and have the heads removed.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="08|02|22|.04">
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>General.</heading>
+    <para>
+      <num>A.</num>
+      <text>Filleting and Finning.</text>
+      <para>
+        <num>(1)</num>
+        <text>Sharks may not be filleted or cut into pieces at sea.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Finning is prohibited.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Public Notice.</text>
+      <para>
+        <num>(1)</num>
+        <text>The Secretary may modify size limits, catch limits, gear provisions, shark species lists, and seasons for sharks in order to comply with species management through the Atlantic States Marine Fisheries Commission Interstate Fishery Management Plan for Atlantic Coastal Sharks by issuing a public notice on the Fisheries Service website.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The public notice shall state its effective hour and date and shall be published on the Fisheries Service website at least 48 hours in advance of the effective hour and date.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The Secretary shall make a reasonable effort to disseminate a public notice issued under this section through various other media so that an affected individual has a reasonable opportunity to be informed.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>A violation of the restrictions set by the Secretary in accordance with <cite path="08|02|22|.04|B.">§B of this regulation</cite> is a violation of this regulation.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Spiny Dogfish. The provisions of this chapter do not apply to spiny dogfish (Squalus acanthias). Spiny dogfish (Squalus acanthias) may be harvested in accordance with <cite path="08.02.05.24">COMAR 08.02.05.24</cite>.</text>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Natural Resources Article, §§<cite doc="Md. Code" path="gnr|4-206">4-206</cite> and <cite doc="Md. Code" path="gnr|4-2">4-2</cite>A-03, Annotated Code of Maryland</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2009-03-23">Effective date: March 23, 2009 (36:6 Md. R. 489)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2024-02-05"><cite path="|08|02|22|.01|B.">Regulation .01B</cite> amended effective February 5, 2024 (51:2 Md. R. 76)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2019-07-15"><cite path="|08|02|22|.02">Regulation .02</cite> amended effective March 3, 2014 (41:4 Md. R. 299); July 15, 2019 (46:14 Md. R. 621)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2013-05-27"><cite path="|08|02|22|.02|F.">Regulation .02F</cite>, G amended effective May 27, 2013 (40:10 Md. R. 916)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2014-03-03"><cite path="|08|02|22|.03">Regulation .03</cite> amended effective March 3, 2014 (41:4 Md. R. 299)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2015-02-16"><cite path="|08|02|22|.03|C.">Regulation .03C</cite>, E amended effective February 16, 2015 (42:3 Md. R. 315)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2024-02-05"><cite path="|08|02|22|.03|D.">Regulation .03D</cite> amended effective February 5, 2024 (51:2 Md. R. 76)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2017-09-11"><cite path="|08|02|22|.03|E.">Regulation .03E</cite> amended effective September 11, 2017 (44:18 Md. R. 864)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2014-03-03"><cite path="|08|02|22|.04|A.">Regulation .04A</cite> amended effective March 3, 2014 (41:4 Md. R. 299)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2013-05-27"><cite path="|08|02|22|.04|B.">Regulation .04B</cite> amended effective May 27, 2013 (40:10 Md. R. 916)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2019-07-15"><cite path="|08|02|22|.04|C.">Regulation .04C</cite> amended effective July 15, 2019 (46:14 Md. R. 621)</annotation>
+  </annotations>
+</container>
