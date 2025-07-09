@@ -1,0 +1,2712 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>08</num>
+  <heading>Credit for Reinsurance</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Applicability.</heading>
+    <text>This chapter is applicable to any domestic authorized insurer who obtains reinsurance for itself from another insurer for all or part of its insurance risk.</text>
+  </section>
+  <section cache:ref-path="31|05|08|.02">
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>"Accredited reinsurer" means an unauthorized insurer who is accepted by the Commissioner to act as a reinsurer in the State under <cite doc="Md. Code" path="gin|5-906">Insurance Article, §5-906, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>“Actuarial method”, as used in <cite path="|31|05|08|.29">Regulation .29 of this chapter</cite>, means the methodology used to determine the required level of primary security as described in <cite path="|31|05|08|.29|C.">Regulation .29C of this chapter</cite>.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>"Beneficiary" means:</text>
+        <para>
+          <num>(a)</num>
+          <text>The entity for whose sole benefit the trust has been established; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Any successor of the beneficiary by operation of law or, if a court of law appoints a successor in interest to the named beneficiary, then the named beneficiary is the court appointed domiciliary receiver, including conservator, rehabilitator, or liquidator.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>“Covered policies”, subject to the exemptions in <cite path="|31|05|08|.29|B.">Regulation .29B of this chapter</cite>, means those policies, other than grandfathered policies, of the following policy types:</text>
+        <para>
+          <num>(a)</num>
+          <text>Life insurance policies with guaranteed nonlevel gross premiums or guaranteed nonlevel benefits, except for flexible premium universal life insurance policies; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Flexible premium universal life insurance policies with provisions resulting in the ability of a policyholder to keep a policy in force over a secondary guarantee period.</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>“Grandfathered policies” means policies of the types described in <cite path="31|05|08|.02|B.|(4)">§B(4) of this regulation</cite> that were:</text>
+        <para>
+          <num>(a)</num>
+          <text>Issued prior to January 1, 2015; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Ceded, as of December 31, 2014, as part of a reinsurance treaty that would not have met one of the exemptions set forth in <cite path="|31|05|08|.29|B.">Regulation .29B of this chapter</cite> had that section been in effect.</text>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Grantor.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Grantor" means the entity that has established a trust for the sole benefit of the beneficiary.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>When established in conjunction with a reinsurance contract, the grantor is the unauthorized unaccredited assuming insurer.</text>
+        </para>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>"Liabilities", as used in Regulations <cite path="|31|05|08|.08">.08</cite>—<cite path="|31|05|08|.11">.11</cite> of this chapter, means the assuming insurer's gross liabilities attributable to reinsurance ceded by U.S. domiciled insurers that are not otherwise secured by acceptable means, and shall include:</text>
+        <para>
+          <num>(a)</num>
+          <text>For business ceded by domestic insurers authorized to write accident and health, and property and casualty insurance:</text>
+          <para>
+            <num>(i)</num>
+            <text>Losses and loss adjustment expenses paid by the ceding insurer, recoverable from the assuming insurer;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Reserves for losses reported and outstanding;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Reserves for losses incurred but not reported;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Reserves for loss adjustment expenses; and</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>Unearned premiums; and</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>For business ceded by domestic insurers authorized to write life, health, and annuity insurance:</text>
+          <para>
+            <num>(i)</num>
+            <text>Aggregate reserves for life policies and contracts net of policy loans and net due and deferred premiums;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Aggregate reserves for accident and health policies;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Deposit funds and other liabilities without life or disability contingencies; and</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Liabilities for policy and contract claims.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>"Mortgage-related security", as used in <cite path="|31|05|08|.10">Regulation .10 of this chapter</cite>, means an obligation that is rated AA or higher (or the equivalent) by a nationally recognized statistical rating organization approved by the Securities Valuation Office and that either:</text>
+        <para>
+          <num>(a)</num>
+          <text>Represents ownership of one or more promissory notes or certificates of interest or participation in the notes (including any rights designed to assure servicing of, or the receipt or timeliness of receipt by the holders of the notes, certificates, or participation of amounts payable under, the notes, certificates or participation), that:</text>
+          <para>
+            <num>(i)</num>
+            <text>Are directly secured by a first lien on a single parcel of real estate, including stock allocated to a dwelling unit in a residential cooperative housing corporation, upon which is located a dwelling or mixed residential and commercial structure, or on a residential manufactured home as defined in 42 U.S.C. §5402(6), whether the manufactured home is considered real or personal property under the laws of the state in which it is located; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Were originated by a savings and loan association, savings bank, commercial bank, credit union, insurance company, or similar institution that is supervised and examined by a federal or state housing authority, or by a mortgagee approved by the Secretary of Housing and Urban Development pursuant to 12 U.S.C. §§1709 and 1715-b, or, where the notes involve a lien on the manufactured home, by an institution or by a financial institution approved for insurance by the Secretary of Housing and Urban Development pursuant to 12 U.S.C. §1703; or</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Is secured by one or more promissory notes or certificates of deposit or participations in the notes (with or without recourse to the insurer of the notes) and, by its terms, provides for payments of principal in relation to payments, or reasonable projections of payments, or notes meeting the requirements of §B(5)(a)(i) and (ii) of this regulation.</text>
+        </para>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>“NAIC” means National Association of Insurance Commissioners.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>“Non-covered policies”, as used in <cite path="|31|05|08|.29">Regulation .29 of this chapter</cite>, means any policy that does not meet the definition of covered policies, including grandfathered policies.</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>"Obligations", as used in <cite path="|31|05|08|.17">Regulation .17 of this chapter</cite>, means:</text>
+        <para>
+          <num>(a)</num>
+          <text>Reinsured losses and loss adjustment expenses paid by the ceding insurer, but not recovered from the assuming insurer;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Reserves for reinsured losses reported and outstanding;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Reserves for reinsured losses incurred but not reported; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Reserves for allocated reinsured loss expenses and unearned premiums.</text>
+        </para>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>“Other security”, as used in <cite path="|31|05|08|.29">Regulation .29 of this chapter</cite>, means any security acceptable to the Commissioner other than security meeting the definition of primary security.</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>“Primary security”, as used in <cite path="|31|05|08|.29">Regulation .29 of this chapter</cite>, means the following forms of security:</text>
+        <para>
+          <num>(a)</num>
+          <text>Cash;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Securities listed by the Securities Valuation Office meeting the requirements of <cite doc="Md. Code" path="gin|5-914">Insurance Article, §5-914(c)(2), Annotated Code of Maryland</cite>, but excluding any synthetic letter of credit, contingent note, credit-linked note, or other similar security that operates in a manner similar to a letter of credit, and excluding any securities issued by the ceding insurer or any of its affiliates; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>For security held in connection with funds-withheld and modified coinsurance reinsurance treaties:</text>
+          <para>
+            <num>(i)</num>
+            <text>Commercial loans in good standing of CM3 quality and higher;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Policy loans; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Derivatives acquired in the normal course and used to support and hedge liabilities pertaining to the actual risks in the policies ceded pursuant to the reinsurance treaty.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>"Promissory note", as used in <cite path="|31|05|08|.10">Regulation .10 of this chapter</cite>, when used in connection with a manufactured home, also includes a loan, advance, or credit sale as evidenced by a retail installment sales contract or other instrument.</text>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>“Qualified jurisdiction” has the meaning set forth in <cite doc="Md. Code" path="gin|5-901">Insurance Article, §5-901(d), Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>"Qualified U.S. financial institution" means:</text>
+        <para>
+          <num>(a)</num>
+          <text>For purposes of those provisions of <cite path="|31|05|08|.14">Regulation .14 of this chapter</cite> specifying those institutions that are eligible to act as a fiduciary of a trust, an institution that:</text>
+          <para>
+            <num>(i)</num>
+            <text>Is organized, or in the case of a U.S. branch or agency office of a foreign banking organization, licensed, under the laws of the United States or any state and has been granted authority to operate with fiduciary powers; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Is regulated, supervised, and examined by federal or state authorities having regulatory authority over banks and trust companies; or</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>For purposes of those provisions of <cite path="|31|05|08|.14">Regulation .14 of this chapter</cite> specifying those institutions that are eligible to issue letters of credit, an institution that:</text>
+          <para>
+            <num>(i)</num>
+            <text>Is organized or, in the case of a U.S. office of a foreign banking organization, licensed, under the laws of the United States or any state;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Is regulated, supervised, and examined by U.S. federal or state authorities having regulatory authority over banks and trust companies; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Has been determined by either the Commissioner or the Securities Valuation Office of the NAIC to meet the standards of financial condition and standing as are considered necessary and appropriate to regulate the quality of financial institutions whose letters of credit will be acceptable to the Commissioner.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>“Reinsurance intermediary” has the meaning set forth in <cite doc="Md. Code" path="gin|8-501">Insurance Article, §8-501(e), Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(18)</num>
+        <text>“Required level of primary security”, as used in <cite path="|31|05|08|.29">Regulation .29 of this chapter</cite>, means the dollar amount determined by applying the actuarial method to the risks ceded with respect to covered policies, but not more than the total reserve ceded.</text>
+      </para>
+      <para>
+        <num>(19)</num>
+        <text>"Securities Valuation Office" refers to the Securities Valuation Office of the NAIC.</text>
+      </para>
+      <para>
+        <num>(20)</num>
+        <text>“Valuation manual”, as used in <cite path="|31|05|08|.29">Regulation .29 of this chapter</cite>, means the valuation manual adopted by the NAIC as described in <cite doc="Md. Code" path="gin|5-313">Insurance Article, §5-313(b), Annotated Code of Maryland</cite>, with all amendments adopted by the NAIC that are effective for the financial statement date on which credit for reinsurance is claimed.</text>
+      </para>
+      <para>
+        <num>(21)</num>
+        <text>“VM-20” means “Requirements for Principle-Based Reserves for Life Products,” including all relevant definitions from the Valuation Manual.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Credit for Reinsurance.</heading>
+    <text>The Commissioner shall allow a domestic authorized insurer credit as an asset or deduction from liability for reinsurance that the insurer obtains, if the reinsurance is obtained:</text>
+    <para>
+      <num>A.</num>
+      <text>From an insurer that was authorized in this State as of any date on which the statutory financial statement credit for reinsurance is claimed;</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>From an accredited reinsurer pursuant to Regulations <cite path="|31|05|08|.04">.04</cite>—<cite path="|31|05|08|.07">.07</cite> of this chapter;</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>From a reinsurer maintaining trust funds for multiple cedents pursuant to Regulation .08—.11 of this chapter;</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>When required by law pursuant to <cite path="|31|05|08|.12">Regulation .12 of this chapter</cite>;</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>From an unauthorized reinsurer pursuant to Regulations <cite path="|31|05|08|.14">.14</cite>—<cite path="|31|05|08|.23">.23</cite> of this chapter; or</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>From a certified reinsurer pursuant to Regulations .24, .25, and .27 of this chapter.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Approval Required for Accreditation of Reinsurer.</heading>
+    <text>An unauthorized insurer may not act as an accredited reinsurer in the State, unless the Commissioner accepts the insurer as a reinsurer under <cite doc="Md. Code" path="gin|5-906">Insurance Article, §5-906, Annotated Code of Maryland</cite>.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Requirements for Accredited Reinsurer.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Commissioner shall allow credit for reinsurance ceded by a domestic insurer to an assuming insurer that is accredited as a reinsurer in this State as of the date on which statutory financial statement credit for reinsurance is claimed.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>For initial eligibility as an accredited reinsurer, an applicant shall file with the Commissioner:</text>
+      <para>
+        <num>(1)</num>
+        <text>An appointment of the Commissioner as its attorney to receive legal process issued against the applicant in the State on a form approved by the Commissioner;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A properly executed NAIC Form AR-1 Certificate of Assuming Insurer as evidence that the applicant agrees to submit to the jurisdiction of the State and to the Commissioner's authority to examine its books and records;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If reinsuring a life insurer, a certificate of valuation issued by the insurance regulatory agency of the applicant's state of domicile if a foreign insurer, or state of entry if an alien insurer;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>An annual statement fee pursuant to <cite doc="Md. Code" path="gin|2-112">Insurance Article, §2-112(a)(8), Annotated Code of Maryland</cite>, and an annual fraud prevention fee pursuant to <cite doc="Md. Code" path="gin|6-203">Insurance Article, §6-203(a), Annotated Code of Maryland</cite>;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>A Maryland Insurance Administration Reinsurance Application; and</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Upon request of the Commissioner:</text>
+        <para>
+          <num>(a)</num>
+          <text>A certified copy of its annual statement for the preceding calendar year;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Evidence that the insurer is licensed to transact insurance or reinsurance in at least one state or, in the case of a U.S. branch of an alien insurer, is entered through and licensed to transact insurance or reinsurance in at least one state;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>An audited financial report for the preceding calendar year prepared by an independent certified public accountant;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>A certificate of deposit issued by the official custodian of deposits of the applicant's state of domicile if a foreign insurer, or state of entry if an alien insurer;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>A copy of the report of the last examination made of the applicant by the insurance regulatory agency of the applicant's state of domicile if a foreign insurer, or state of entry if an alien insurer; and</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Any other document or information that the Commissioner considers necessary to determine eligibility to act as an accredited reinsurer.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>For continued eligibility as an accredited reinsurer, an applicant shall, by May 30 of each year, file with the Commissioner:</text>
+      <para>
+        <num>(1)</num>
+        <text>A properly executed NAIC Form AR-1 Certificate of Assuming Insurer as evidence that the applicant agrees to submit to the jurisdiction of the State and to the Commissioner's authority to examine its books and records;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If reinsuring a life insurer, a certificate of valuation issued by the insurance regulatory agency of the applicant's state of domicile if a foreign insurer, or state of entry if an alien insurer;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>An annual statement fee pursuant to <cite doc="Md. Code" path="gin|2-112">Insurance Article, §2-112(a)(8), Annotated Code of Maryland</cite>, and an annual fraud prevention fee pursuant to <cite doc="Md. Code" path="gin|6-203">Insurance Article, §6-203(a), Annotated Code of Maryland</cite>;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>A Maryland Insurance Administration Reinsurance Application; and</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Upon request of the Commissioner:</text>
+        <para>
+          <num>(a)</num>
+          <text>A certified copy of its annual statement for the preceding calendar year;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Evidence that the insurer is licensed to transact insurance or reinsurance in at least one state or, in the case of a U.S. branch of an alien insurer, is entered through and licensed to transact insurance or reinsurance in at least one state;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>An audited financial report for the preceding calendar year prepared by an independent certified public accountant;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>A certificate of deposit issued by the official custodian of deposits of the applicant's state of domicile if a foreign insurer, or state of entry if an alien insurer;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>A copy of the report of the last examination made of the applicant by the insurance regulatory agency of the applicant's state of domicile if a foreign insurer, or state of entry if an alien insurer; and</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Any other document or information that the Commissioner considers necessary to determine continued eligibility to act as an accredited reinsurer.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Surplus. An accredited reinsurer shall maintain a surplus as regards policyholders in an amount not less than $20,000,000.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Examination of Accredited Reinsurer.</heading>
+    <text>Whenever the Commissioner considers it advisable, the Commissioner shall examine the affairs, transactions, accounts, records, and assets of each accredited reinsurer.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Suspension or Revocation of Accreditation.</heading>
+    <text>Contracts not qualifying for credit after suspension or revocation beyond secured obligations:</text>
+    <para>
+      <num>A.</num>
+      <text>While a reinsurer’s accreditation or certification is suspended, a reinsurance contract issued or renewed after the effective date of the suspension does not qualify for credit except to the extent the reinsurer’s obligations under the contract are secured in accordance with <cite doc="Md. Code" path="gin|5-914">Insurance Article, §5-914, Annotated Code of Maryland</cite>.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>If a reinsurer’s accreditation or certification is revoked, credit for reinsurance may not be granted after the effective date of the revocation except to the extent that the reinsurer’s obligations under the contract are secured in accordance with <cite doc="Md. Code" path="gin|5-911">Insurance Article, §5-911 </cite>or 5-914, Annotated Code of Maryland.</text>
+    </para>
+  </section>
+  <section cache:ref-path="31|05|08|.08">
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Credit for Reinsurance — Reinsurers Maintaining Trust Funds for Multiple Cedents — General Requirements.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Commissioner shall allow credit for reinsurance ceded by a domestic insurer to an assuming insurer which, as of any date on which statutory financial statement credit for reinsurance is claimed, and thereafter for so long as credit for reinsurance is claimed, maintains a trust fund in an amount prescribed below in a qualified U.S. financial institution, for the payment of the valid claims of its U.S. domiciled ceding insurers, their assigns, and successors in interest.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The assuming insurer shall report annually to the Commissioner substantially the same information as that required to be reported on the National Association of Insurance Commissioners (NAIC) annual statement form by authorized insurers, to enable the Commissioner to determine the sufficiency of the trust fund.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Categories of Assuming Insurer.</text>
+      <para>
+        <num>(1)</num>
+        <text>The requirements of this section apply to the categories of assuming insurer described in this section.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The trust fund for a single assuming insurer shall consist of funds in trust in an amount not less than the assuming insurer's liabilities attributable to reinsurance ceded by U.S. domiciled insurers, and in addition, the assuming insurer shall maintain a trusteed surplus in excess of the assuming insurer's obligations of not less than $20,000,000 except as provided in <cite path="31|05|08|.08|C.|(3)">§C(3) of this regulation</cite>.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>At any time after the assuming insurer has permanently discontinued underwriting new business secured by the trust for at least 3 full years, the insurance regulatory agency with principal regulatory oversight of the trust may authorize a reduction in the required trusteed surplus, but only after a finding, based on an assessment of the risk, that the new required surplus level is adequate for the protection of U.S. ceding insurers, policyholders, and claimants in light of reasonably foreseeable adverse loss development. The risk assessment may involve an actuarial review, including an independent analysis of reserves and cash flows, and shall consider all material risk factors, including, when applicable, the lines of business involved, the stability of the incurred loss estimates, and the effect of the surplus requirements on the assuming insurer’s liquidity or solvency. The minimum required trusteed surplus may not be reduced to an amount less than 30 percent of the assuming insurer’s liabilities attributable to reinsurance ceded by U.S. ceding insurers covered by the trust.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Trust Funds for Groups — General Requirements.</text>
+        <para>
+          <num>(a)</num>
+          <text>The trust fund for a group including incorporated and individual unincorporated underwriters shall consist of:</text>
+          <para>
+            <num>(i)</num>
+            <text>For reinsurance ceded under reinsurance contracts with an inception, amendment, or renewal date on or after January 1, 1993, funds in trust in an amount not less than the respective underwriters’ several liabilities attributable to business ceded by U.S. domiciled ceding insurers to any underwriter of the group;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>For reinsurance ceded under reinsurance contracts with an inception date on or before December 31, 1992, and not amended or renewed after that date, notwithstanding the other provisions of this regulation, funds in trust in an amount not less than the respective underwriters’ several insurance and reinsurance liabilities attributable to business written in the United States; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>In addition to these trusts, a trusteed surplus of which $100,000,000 shall be held jointly for the benefit of the U.S. domiciled ceding insurers of any member of the group for all the years of account.</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The incorporated members of the group may not be engaged in any business other than underwriting as a member of the group and shall be subject to the same level of regulation and solvency control by the group's domiciliary regulator as are the unincorporated members. The group shall, within 90 days after its financial statements are due to be filed with the group's domiciliary regulator, provide to the Commissioner:</text>
+          <para>
+            <num>(i)</num>
+            <text>An annual certification by the group's domiciliary regulator of the solvency of each underwriter member of the group; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>If a certification is unavailable, a financial statement, audited by independent public accountants, of each underwriter member of the group.</text>
+          </para>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Credit for Reinsurance — Reinsurers Maintaining Trust Funds for Multiple Cedents — Trusts.</heading>
+    <para>
+      <num>A.</num>
+      <text>Credit for reinsurance may not be granted unless the form of the trust and any amendments to the trust have been approved by either the insurance regulatory agency of the state where the trust is domiciled or the insurance regulatory agency of another state who, pursuant to the terms of the trust instrument, has accepted responsibility for regulatory oversight of the trust. The form of the trust and any trust amendments also shall be filed with the insurance regulatory agency of every state in which the ceding insurer beneficiaries of the trust are domiciled. The trust instrument shall provide that:</text>
+      <para>
+        <num>(1)</num>
+        <text>Contested claims shall be valid and enforceable out of funds in trust to the extent remaining unsatisfied 30 days after entry of the final order of any court of competent jurisdiction in the United States;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Legal title to the assets of the trust shall be vested in the trustee for the benefit of the grantor's U.S. ceding insurers, their assigns, and successors in interest;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The trust shall be subject to examination as determined by the Commissioner;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The trust shall remain in effect for as long as the assuming insurer, or any member or former member of a group of insurers, shall have outstanding obligations under reinsurance contracts subject to the trust; and</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>No later than February 28 of each year, the trustee of the trust shall report to the Commissioner in writing setting forth the balance in the trust and listing the trust's investments at the preceding year-end, and shall certify the date of termination of the trust, if so planned, or certify that the trust will not expire prior to the following December 31.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Inadequate Trust Funds.</text>
+      <para>
+        <num>(1)</num>
+        <text>Notwithstanding any other provisions in the trust instrument, if the trust fund is inadequate because it contains an amount less than the amount required by <cite path="|31|05|08|.08|C.">Regulation .08C of this chapter</cite> or if the grantor of the trust has been declared insolvent or placed into receivership, rehabilitation, liquidation, or similar proceedings under the laws of its state or country of domicile, the trustee shall comply with an order of the insurance regulatory agency with regulatory oversight over the trust or with an order of a court of competent jurisdiction directing the trustee to transfer to the insurance regulatory agency with regulatory oversight over the trust or other designated receiver all of the assets of the trust fund.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The assets shall be distributed by and claims shall be filed with and valued by the insurance regulatory agency with regulatory oversight over the trust in accordance with the laws of the state in which the trust is domiciled applicable to the liquidation of domestic insurance companies.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If the insurance regulatory agency with regulatory oversight over the trust determines that the assets of the trust fund or any part of the assets are not necessary to satisfy the claims of the U.S. beneficiaries of the trust, the insurance regulatory agency with regulatory oversight over the trust shall return the assets, or any part of the assets, to the trustee for distribution in accordance with the trust agreement.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The grantor shall waive any right otherwise available to it under U.S. law that is inconsistent with this provision.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="31|05|08|.10">
+    <prefix>Regulation</prefix>
+    <num>.10</num>
+    <heading>Credit for Reinsurance — Reinsurers Maintaining Trust Funds for Multiple Cedents — Assets Deposited in the Trust.</heading>
+    <para>
+      <num>A.</num>
+      <text>Assets deposited in the trust shall be valued according to their current fair market value and shall consist only of cash in U.S. dollars, certificates of deposit issued by a qualified U.S. financial institution, clean, irrevocable, unconditional and "evergreen" letters of credit issued or confirmed by a qualified U.S. financial institution, and investments of the type specified in this regulation, but investments in or issued by an entity controlling, controlled by, or under common control with either the grantor or beneficiary of the trust may not exceed 5 percent of total investments.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>No more than 20 percent of the total of the investments in the trust may be foreign investments authorized under §D(1)(d), D(3), E(2), or F of this regulation, and no more than 10 percent of the total of the investments in the trust may be securities denominated in foreign currencies.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>For purposes of applying <cite path="31|05|08|.10|B.">§B of this regulation</cite>, a depository receipt denominated in U.S. dollars and representing rights conferred by a foreign security shall be classified as a foreign investment denominated in a foreign currency.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The assets of a trust established to satisfy the requirements of Regulations <cite path="|31|05|08|.08">.08</cite>—<cite path="|31|05|08|.11">.11</cite> of this chapter shall be invested only as follows:</text>
+      <para>
+        <num>(1)</num>
+        <text>Government obligations that are not in default as to principal or interest, that are valid and legally authorized and that are issued, assumed, or guaranteed by:</text>
+        <para>
+          <num>(a)</num>
+          <text>The United States or by any agency or instrumentality of the United States;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A state of the United States;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A territory, possession, or other governmental unit of the United States;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>An agency or instrumentality of a governmental unit referred to in §D(1)(b) and (c) of this regulation if the obligations shall be by law (statutory or otherwise) payable, as to both principal and interest, from taxes levied, or by law required to be levied, or from adequate special revenues pledged or otherwise appropriated, or by law required to be provided for making these payments, but may not be obligations eligible for investment under this section if payable solely out of special assessments on properties benefited by local improvements; or</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>The government of any other country that is a member of the Organization for Economic Cooperation and Development and whose government obligations are rated A or higher, or the equivalent, by a nationally recognized statistical rating organization approved by the Securities Valuation Office;</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Obligations that are issued in the United States, or that are dollar denominated and issued in a non-U.S. market, by a solvent U.S. institution (other than an insurance company), or that are assumed or guaranteed by a solvent U.S. institution (other than an insurance company) and that are not in default as to principal or interest if the obligations:</text>
+        <para>
+          <num>(a)</num>
+          <text>Are rated A or higher (or the equivalent) by a nationally recognized statistical rating organization approved by the Securities Valuation Office, or, if not so rated, are similar in structure and other material respects to other obligations of the same institution that are so rated;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Are insured by at least one authorized insurer (other than the investing insurer or a parent, subsidiary, or affiliate of the investing insurer) licensed to insure obligations in this State and, after considering the insurance, are rated AAA (or the equivalent) by a nationally recognized statistical rating organization approved by the Securities Valuation Office; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Have been designated as Class One or Class Two by the Securities Valuation Office;</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Obligations issued, assumed, or guaranteed by a solvent non-U.S. institution chartered in a country that is a member of the Organization for Economic Cooperation and Development, or obligations of U.S. corporations issued in a non-U.S. currency, provided that in either case the obligations are rated A or higher, or the equivalent, by a nationally recognized statistical rating organization approved by the Securities Valuation Office;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>An investment made pursuant to the provisions of §D(1), (2), or (3) of this regulation shall be subject to the following additional limitations:</text>
+        <para>
+          <num>(a)</num>
+          <text>An investment in or loan upon the obligations of an institution other than an institution that issues mortgage-related securities may not exceed 5 percent of the assets of the trust;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>An investment in any one mortgage-related security may not exceed 5 percent of the assets of the trust;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The aggregate total investment in mortgage-related securities may not exceed 25 percent of the assets of the trust; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Preferred or guaranteed shares issued or guaranteed by a solvent U.S. institution are permissible investments if all of the institution's obligations are eligible as investments under §D(2)(a) and (c) of this regulation, but may not exceed 2 percent of the assets of the trust.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Equity Interests.</text>
+      <para>
+        <num>(1)</num>
+        <text>Investments in common shares or partnership interests of a solvent U.S. institution are permissible if:</text>
+        <para>
+          <num>(a)</num>
+          <text>Its obligations and preferred shares, if any, are eligible as investments under <cite path="31|05|08|.10|D.">§D of this regulation</cite>;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The equity interests of the institution (except an insurance company) are registered on a national securities exchange as provided in the Securities Exchange Act of 1934, 15 U.S.C. §78a to 78kk or otherwise registered pursuant to that Act, and if otherwise registered, price quotations for them are furnished through a nationwide automated quotations system approved by the Financial Industry Regulatory Authority or successor organization; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The amount invested in equity interests under this subsection does not exceed 1 percent of the assets of the trust even though the equity interests are not so registered and are not issued by an insurance company.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Investments in common shares of a solvent institution organized under the laws of a country that is a member of the Organization for Economic Cooperation and Development are permissible if:</text>
+        <para>
+          <num>(a)</num>
+          <text>All its obligations are rated A or higher, or the equivalent, by a nationally recognized statistical rating organization approved by the Securities Valuation Office; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The equity interests of the institution are registered on a securities exchange regulated by the government of a country that is a member of the Organization for Economic Cooperation and Development.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>An investment in or loan upon any one institution's outstanding equity interests may not exceed 1 percent of the assets of the trust. The cost of an investment in equity interests made pursuant to this section, when added to the aggregate cost of other investments in equity interests then held pursuant to this section, may not exceed 10 percent of the assets in the trust.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Obligations issued, assumed, or guaranteed by a multinational development bank are permissible investments, provided the obligations are rated A or higher, or the equivalent, by a nationally recognized statistical rating organization approved by the Securities Valuation Office.</text>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Investment Companies.</text>
+      <para>
+        <num>(1)</num>
+        <text>Securities of an investment company registered pursuant to the Investment Company Act of 1940, 15 U.S.C. §80a, are permissible investments if the investment company:</text>
+        <para>
+          <num>(a)</num>
+          <text>Invests at least 90 percent of its assets in the types of securities that qualify as an investment under §D(1), (2), or (3) of this regulation or invests in securities that are determined by the Commissioner to be substantively similar to the types of securities set forth in §D(1), (2), or (3) of this regulation; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Invests at least 90 percent of its assets in the types of equity interests that qualify as an investment under <cite path="31|05|08|.10|E.|(1)">§E(1) of this regulation</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Investments made by a trust in investment companies under this section may not exceed the following limitations:</text>
+        <para>
+          <num>(a)</num>
+          <text>An investment in an investment company qualifying under <cite path="31|05|08|.10|G.|(1)|(a)">§G(1)(a) of this regulation</cite> may not exceed 10 percent of the assets in the trust, and the aggregate amount of investment in qualifying investment companies may not exceed 25 percent of the assets in the trust; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Investments in an investment company qualifying under <cite path="31|05|08|.10|G.|(1)|(b)">§G(1)(b) of this regulation</cite> may not exceed 5 percent of the assets in the trust and the aggregate amount of investment in qualifying investment companies shall be included when calculating the permissible aggregate value of equity interests pursuant to <cite path="31|05|08|.10|E.|(1)">§E(1) of this regulation</cite>.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>Letters of Credit.</text>
+      <para>
+        <num>(1)</num>
+        <text>In order for a letter of credit to qualify as an asset of the trust, the trustee shall have the right and the obligation pursuant to the deed of trust or some other binding agreement, duly approved by the Commissioner, to immediately draw down the full amount of the letter of credit and hold the proceeds in trust for the beneficiaries of the trust if the letter of credit will otherwise expire without being renewed or replaced.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The trust agreement shall provide that the trustee shall be liable for its negligence, willful misconduct, or lack of good faith. The failure of the trustee to draw against the letter of credit in circumstances where the draw would be required shall be considered to be negligence, willful misconduct, or both.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.11</num>
+    <heading>Credit for Reinsurance—Reinsurers Maintaining Trust Funds for Multiple Cedents—Additional Security.</heading>
+    <text>A specific security provided to a ceding insurer by an assuming insurer pursuant to <cite path="|31|05|08|.14">Regulation .14 of this chapter</cite> shall be applied, until exhausted, to the payment of liabilities of the assuming insurer to the ceding insurer holding the specific security prior to, and as a condition precedent for, presentation of a claim by the ceding insurer for payment by a trustee of a trust established by the assuming insurer pursuant to Regulations <cite path="|31|05|08|.08">.08</cite>—<cite path="|31|05|08|.10">.10</cite> of this chapter.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.12</num>
+    <heading>Credit for Reinsurance Required by Law.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this regulation, "jurisdiction" means a state, district, or territory of the United States and any lawful national government.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The Commissioner shall allow credit for reinsurance ceded by a domestic insurer to an assuming insurer not meeting the requirements of Regulations <cite path="|31|05|08|.03">.03</cite>—<cite path="|31|05|08|.05">.05</cite>, .08—.11, .14, and .24—.27 of this chapter, but only as to the insurance of risks located in jurisdictions where the reinsurance is required by the applicable law or regulation of that jurisdiction.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.13</num>
+    <heading>Credit Allowed a Foreign Ceding Insurer — Repealed.</heading>
+  </section>
+  <section cache:ref-path="31|05|08|.14">
+    <prefix>Regulation</prefix>
+    <num>.14</num>
+    <heading>Reduction from Liability for Reinsurance</heading>
+    <para>
+      <num>A.</num>
+      <text>Notwithstanding Regulations <cite path="|31|05|08|.03">.03</cite>—<cite path="|31|05|08|.13">.13</cite> of this chapter and subject to the requirements of this regulation, the Commissioner shall allow a ceding insurer a reduction from liability for reinsurance obtained from an assuming insurer for the payment of the obligations under a reinsurance contract.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Requirements.</text>
+      <para>
+        <num>(1)</num>
+        <text>The Commissioner shall allow a ceding insurer a reduction from liability for the reinsurance ceded in an amount equal to the funds held by it or on its behalf, including funds held in trust, as security for the payment of the obligations under a reinsurance contract.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The reduction from liability that is allowed a ceding insurer may not exceed the liabilities carried by the ceding insurer for the business reinsured.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Any funds held by the ceding insurer, or on its behalf, as security for the payment of its obligations under a reinsurance contract shall be held for the exclusive benefit of the ceding insurer.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Forms of Security Under Reinsurance Contract.</text>
+      <para>
+        <num>(1)</num>
+        <text>The Commissioner shall accept the following as security under a reinsurance contract:</text>
+        <para>
+          <num>(a)</num>
+          <text>Cash;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A letter of credit issued or confirmed by a qualified U.S. financial institution;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Any security that qualifies as an admitted asset and is listed by the Securities Valuation Office, including those deemed exempt from filing as defined by the Purposes and Procedures Manual of the Securities Valuation Office; or</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Any other form of security acceptable to the Commissioner.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The security shall be held in:</text>
+        <para>
+          <num>(a)</num>
+          <text>The United States and subject to withdrawal solely by and under the exclusive control of the ceding insurer; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A qualified U.S. financial institution, if the security is held in trust.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Standards of Acceptability for Letters of Credit.</text>
+      <para>
+        <num>(1)</num>
+        <text>For acceptance as security under a reinsurance contract, a letter of credit shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Be clean, irrevocable, and unconditional;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Be issued or confirmed by a qualified U.S. financial institution authorized to issue letters of credit, pursuant to <cite path="|31|05|08|.02|B.|(9)|(b)">Regulation .02B(9)(b) of this chapter</cite>, and effective on or before December 31 of the year for which the annual statement filing is made;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Be in the possession of or in trust for the ceding insurer on or before the date for filing its annual statement;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Be issued for a term of at least 1 year, with an issue date and expiration date; and</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Contain an "evergreen clause" that:</text>
+          <para>
+            <num>(i)</num>
+            <text>Prevents the expiration of the letter of credit without due notice from the issuer; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Provides for the letter of credit to renew automatically unless the issuer notifies the Commissioner and beneficiary no less than 30 days prior to the expiration date or nonrenewal.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>On the date of issuance or confirmation of the letter of credit, the issuer of the letter of credit shall meet the applicable standards of acceptability for a letter of credit.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Notwithstanding the failure of a previously accepted issuer of a letter of credit to continue to meet applicable standards of acceptability for a letter of credit, the letter of credit shall continue to be accepted until:</text>
+        <para>
+          <num>(a)</num>
+          <text>15 days from the date that its issuer fails to meet the standards of acceptability; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The date of its scheduled expiration, if earlier.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>A letter of credit shall provide that to obtain funds, the beneficiary need:</text>
+        <para>
+          <num>(a)</num>
+          <text>Only draw a sight draft under the letter of credit and present it; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Not present any other document.</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>A letter of credit shall provide that it is not subject to any condition outside of the letter of credit.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>A letter of credit may not contain references to any other agreements, documents, or entities.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>The heading of the letter of credit may include a boxed section containing the name of the applicant and other appropriate notations to provide a reference for the letter of credit. The boxed section shall be clearly marked to indicate that the information is for internal identification purposes only.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>The letter of credit shall contain a statement to the effect that the obligation of the qualified United States financial institution under the letter of credit is in no way contingent upon reimbursement with respect thereto.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>The letter of credit shall state whether it is subject to and governed by the laws of this State or the Uniform Customs and Practice for Documentary Credits of the International Chamber of Commerce Publication 600 (UCP 600), International Standby Practices of the International Chamber of Commerce Publication 590 (ISP98), or any successor publication, and all drafts drawn thereunder shall be presentable at an office in the U. S. of a qualified U. S. financial institution.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>If the letter of credit is made subject to the Uniform Customs and Practice for Documentary Credits of the International Chamber of Commerce Publication 600 (UCP 600), International Standby Practices of the International Chamber of Commerce Publication 590 (ISP98), or any successor publication, then the letter of credit shall specifically address and provide for an extension of time to draw against the letter of credit in the event that one or more of the occurrences specified in Article 17 of Publication 500, or any other successor publication, occur.</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>If the letter of credit is issued by a financial institution authorized to issue letters of credit, other than a qualified U. S. financial institution as described in <cite path="|31|05|08|.02|B.|(9)|(b)">Regulation .02B(9)(b) of this chapter</cite>, then the following additional requirements shall be met:</text>
+        <para>
+          <num>(a)</num>
+          <text>The issuing financial institution shall formally designate the confirming qualified U.S. financial institution as its agent for the receipt and payment of the drafts; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The "evergreen clause" shall provide for 30 days notice, to the Commissioner and beneficiary, prior to the expiry date for nonrenewal.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Standards of Acceptability for Letters of Credit—Reinsurance Contract Provisions.</text>
+      <para>
+        <num>(1)</num>
+        <text>The reinsurance contract in conjunction with which the letter of credit is obtained may contain provisions that:</text>
+        <para>
+          <num>(a)</num>
+          <text>Require the assuming insurer to provide letters of credit to the ceding insurer and specify what they are to cover;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Stipulate that the assuming insurer and ceding insurer agree that the letter of credit provided by the assuming insurer pursuant to the provisions of the reinsurance contract may be drawn upon at any time, notwithstanding any other provisions in the contract and shall be utilized by the ceding insurer or its successors in interest only for one or more of the following reasons:</text>
+          <para>
+            <num>(i)</num>
+            <text>To pay or reimburse the ceding insurer for the assuming insurer's share under the specific reinsurance contract of premiums returned, but not yet recovered from the assuming insurers, to the owners of policies reinsured under the reinsurance contract on account of cancellations of the policies;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>To pay or reimburse the ceding insurer for the assuming insurer's share, under the specific reinsurance contract of surrenders and benefits or losses paid by the ceding insurer, but not yet recovered from the assuming insurers, under the terms and provisions of the policies reinsured under the reinsurance contract;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>To pay or reimburse the ceding insurer for any other amounts necessary to secure the credit or reduction from liability for reinsurance taken by the ceding insurer; and</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>When the letter of credit will expire without renewal or be reduced or replaced by a letter of credit for a reduced amount and when the assuming insurer's entire obligations under the specific reinsurance remain unliquidated and undischarged 10 days prior to the termination date, to withdraw amounts equal to the assuming insurer's share of the liabilities, to the extent that the liabilities have not yet been funded by the assuming insurer and exceed the amount of any reduced or replacement letter of credit, and deposit those amounts in a separate account in the name of the ceding insurer in a qualified U.S. financial institution apart from its general assets, in trust for such uses and purposes specified in <cite path="31|05|08|.14|E.|(1)|(b)|(i)">§E(1)(b)(i) of this regulation</cite> as may remain after withdrawal and for any period after the termination date.</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>All of the provisions of <cite path="31|05|08|.14|E.">§E of this regulation</cite> shall be applied without diminution because of insolvency on the part of the ceding insurer or assuming insurer.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>This section does not preclude the ceding insurer and assuming insurer from providing for:</text>
+        <para>
+          <num>(a)</num>
+          <text>An interest payment, at a rate not in excess of the prime rate of interest, on the amounts held pursuant to <cite path="31|05|08|.14|E.|(1)|(b)">§E(1)(b) of this regulation</cite>; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The return of any amounts drawn down on the letters of credit in excess of the actual amounts required for the above or any amounts that are subsequently determined not to be due.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.15</num>
+    <heading>Required Standards for Trust Agreements Under Regulation .14.</heading>
+    <para>
+      <num>A.</num>
+      <text>In General. A trust agreement established to meet the requirements of <cite path="|31|05|08|.14">Regulation .14 of this chapter</cite> shall comply with this regulation.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Parties to Trust Agreement.</text>
+      <para>
+        <num>(1)</num>
+        <text>A trust agreement shall be entered into between a beneficiary, a grantor, and a trustee, which shall be a qualified U.S. financial institution.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A trust agreement shall be established for the sole benefit of the beneficiary.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The failure of a trust agreement to identify the beneficiary does not affect any actions or rights that the Commissioner may take or possess under the laws of this State.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Trust Account.</text>
+      <para>
+        <num>(1)</num>
+        <text>A trust agreement shall create a trust account into which assets shall be deposited.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The assets in the trust account shall be held by the trustee at the trustee's office in the United States.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Withdrawal of Assets. A trust agreement shall provide that the beneficiary:</text>
+      <para>
+        <num>(1)</num>
+        <text>May withdraw assets from the trust account at any time, without notice to the grantor, if the beneficiary provides written notice to the trustee; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Is not required to present any other statement or document to withdraw assets, but may be required to acknowledge receipt of withdrawn assets.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Governing Law; Trust Agreement Not Subject to Other Conditions.</text>
+      <para>
+        <num>(1)</num>
+        <text>A trust agreement shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Be subject to and governed by the laws of the state in which the trust is domiciled; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Provide that it is not subject to any conditions outside of the trust agreement.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Except as provided in <cite path="|31|05|08|.17">Regulation .17 of this chapter</cite>, a trust agreement may not contain references to any other agreement or document.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Duties of Trustee.</text>
+      <para>
+        <num>(1)</num>
+        <text>A trust agreement shall require the trustee to:</text>
+        <para>
+          <num>(a)</num>
+          <text>Receive assets and hold the assets in a safe place;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Determine that the assets are in a form that the beneficiary, or the trustee on direction of the beneficiary, may negotiate whenever necessary, without consent or signature from the grantor or any other person or entity;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Provide to the grantor and the beneficiary a statement of all assets in the trust account on its inception and at least as often as the end of each calendar quarter;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Notify the grantor and the beneficiary, within 10 days, of any deposits to or withdrawals from the trust account;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>On written demand of the beneficiary, immediately take the steps necessary to transfer absolutely all right, title, and interest in the assets held in the trust account to the beneficiary and deliver physical custody of the assets to the beneficiary; and</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Allow no substitutions or withdrawals of assets from the trust account, except on:</text>
+          <para>
+            <num>(i)</num>
+            <text>Written instructions from the beneficiary; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Call or maturity of any trust asset if the trustee provides written notice to the beneficiary and pays the proceeds from the asset into the trust account.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A trust agreement shall prohibit invasion of the trust corpus to pay compensation to, or reimburse the expenses of, the trustee.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>In order for a letter of credit to qualify as an asset of the trust, the trustee shall have the right and the obligation pursuant to the trust agreement or some other binding agreement, duly approved by the Commissioner, to immediately draw down the full amount of the letter of credit and hold the proceeds in trust for the beneficiaries of the trust if the letter of credit will otherwise expire without being renewed or replaced.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The trust agreement shall provide that the trustee shall be liable for its negligence, willful misconduct, or lack of good faith. The failure of the trustee to draw against the letter of credit in circumstances where the draw would be required shall be considered to be negligence, willful misconduct, or both.</text>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>When Grantor Is Declared Insolvent or Placed into Receivership, Rehabilitation, or Liquidation.</text>
+      <para>
+        <num>(1)</num>
+        <text>Notwithstanding any other provision in a trust agreement, if the grantor of the trust has been declared insolvent or placed into receivership, rehabilitation, liquidation, or similar proceedings under the laws of its state or country of domicile, the trustee shall comply with an order of the insurance regulatory agency with regulatory oversight of the trust or court of competent jurisdiction directing the trustee to transfer to the insurance regulatory agency with regulatory oversight or other designated receiver all of the assets of the trust fund.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The assets shall be applied in accordance with the priority statutes and laws of the state in which the trust is domiciled applicable to the assets of insurance companies in liquidation.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If the insurance regulatory agency with regulatory oversight determines that the assets of the trust fund or any part of the assets are not necessary to satisfy claims of the U.S. beneficiaries of the trust, the assets or any part of the assets shall be returned to the trustee for distribution in accordance with the trust agreement.</text>
+      </para>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>Termination of Trust Account. A trust agreement shall provide that at least 30 days, but not more than 45 days, before termination of the trust account, the trustee shall deliver to the beneficiary and the Commissioner written notice of termination.</text>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>Valuation and Form of Assets.</text>
+      <para>
+        <num>(1)</num>
+        <text>Either the reinsurance contract or the trust agreement shall stipulate that assets deposited in the trust account shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Be valued according to their current fair market value; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Consist only of:</text>
+          <para>
+            <num>(i)</num>
+            <text>Cash in U.S. dollars;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Certificates of deposit issued by a U.S. bank and payable in U.S. dollars;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Investments permitted by the <cite doc="Md. Code" path="gin">Insurance Article, Annotated Code of Maryland</cite>; or</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Any combination of §I(1)(b)(i)—(iii) of this regulation.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Investments in or issued by an entity controlling, controlled by, or under common control with the grantor or the beneficiary of the trust may not exceed 5 percent of total investments.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A trust agreement may specify the types of investments to be deposited in the trust account.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>If a trust agreement is entered into in conjunction with a reinsurance contract covering life, annuities, or accident and health, then the reinsurance contract shall contain the provisions required by this section.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="31|05|08|.16">
+    <prefix>Regulation</prefix>
+    <num>.16</num>
+    <heading>Permitted Conditions for Trust Agreements.</heading>
+    <para>
+      <num>A.</num>
+      <text>In General. A trust agreement established to meet the requirements of <cite path="|31|05|08|.14">Regulation .14 of this chapter</cite> may include the provisions allowed under this regulation.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Resignation and Removal of Trustee.</text>
+      <para>
+        <num>(1)</num>
+        <text>Subject to <cite path="31|05|08|.16|B.|(2)">§B(2) of this regulation</cite>, a trust agreement may provide that the:</text>
+        <para>
+          <num>(a)</num>
+          <text>Trustee may resign by delivering to the beneficiary and grantor written notice of resignation, effective not less than 90 days after receipt by the beneficiary and grantor; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Grantor may remove the trustee by delivering to the trustee and beneficiary written notice of removal, effective not less than 90 days after receipt by the trustee and beneficiary.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A resignation or removal under this section may not become effective until:</text>
+        <para>
+          <num>(a)</num>
+          <text>A successor trustee has been appointed and approved by the beneficiary and the grantor; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>All assets in the trust have been transferred to the new trustee.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Shares of Stock—Voting Rights and Dividends.</text>
+      <para>
+        <num>(1)</num>
+        <text>A trust agreement may give the grantor the full and unqualified right to:</text>
+        <para>
+          <num>(a)</num>
+          <text>Vote any shares of stock in the trust account; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Receive from time to time payments of any dividends or interest on any shares of stock or obligations included in the trust account.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Any interest or dividends shall be:</text>
+        <para>
+          <num>(a)</num>
+          <text>Forwarded promptly on receipt to the grantor; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Deposited in a separate account established in the grantor's name.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Investment and Substitution.</text>
+      <para>
+        <num>(1)</num>
+        <text>Subject to <cite path="31|05|08|.16|D.|(2)">§D(2) of this regulation</cite>, a trust agreement may authorize the trustee to invest, and accept substitutions of, any funds in the account.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The trustee may not make an investment or substitution without prior approval of the beneficiary unless the trust agreement:</text>
+        <para>
+          <num>(a)</num>
+          <text>Specifies categories of investments acceptable to the beneficiary; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Authorizes the trustee to invest funds and to accept substitutions that the trustee determines are at least equal in current fair market value to the assets withdrawn, and that are consistent with the restrictions in <cite path="|31|05|08|.15">Regulation .15 of this chapter</cite>.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Transfer of Assets.</text>
+      <para>
+        <num>(1)</num>
+        <text>A trust agreement may provide that the beneficiary may at any time designate a party to which all or part of the trust assets shall be transferred.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Transfer may be conditioned on the trustee receiving other specified assets before or simultaneously with the transfer.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Delivery of Assets to Grantor on Termination of Account. A trust agreement may provide that, on termination of the trust account, all assets not previously withdrawn by the beneficiary shall, with written approval of the beneficiary, be delivered to the grantor.</text>
+    </para>
+  </section>
+  <section cache:ref-path="31|05|08|.17">
+    <prefix>Regulation</prefix>
+    <num>.17</num>
+    <heading>Trust Agreement Established in Conjunction with Reinsurance Contracts Covering Risks Other than Life, Annuities, and Accident and Health.</heading>
+    <para>
+      <num>A.</num>
+      <text>Use of Amounts Drawn on Trust Account. Notwithstanding any provision of <cite path="|31|05|08|.15">Regulation .15 of this chapter</cite>, when a trust agreement is established to meet the requirements of <cite path="|31|05|08|.14">Regulation .14 of this chapter</cite> in conjunction with a reinsurance contract covering risks other than life, annuities, or accident and health, where it is customary practice to provide a trust agreement for a specific purpose, the trust agreement may allow the ceding insurer to use amounts drawn on the trust account, without diminution because of the insolvency of the ceding insurer or the assuming insurer, for the purposes listed in this regulation.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>To Pay or Reimburse Ceding Insurer. A trust agreement may allow the ceding insurer to use amounts drawn on the trust account to pay or reimburse the ceding insurer for:</text>
+      <para>
+        <num>(1)</num>
+        <text>The assuming insurer's share under the specific reinsurance contract regarding any losses and loss adjustment expenses paid by the ceding insurer but not recovered from the assuming insurer; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Unearned premiums due to the ceding insurer if not otherwise paid by the assuming insurer.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Payment to Assuming Insurer. A trust agreement may allow the ceding insurer to use amounts drawn on the trust account to make payment to the assuming insurer of any amounts held in the trust account that exceed 102 percent of the actual amount required to fund the assuming insurer's obligations under the specific reinsurance contract.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>On Termination of Trust Account.</text>
+      <para>
+        <num>(1)</num>
+        <text>A trust agreement may allow the ceding insurer to withdraw amounts equal to the assuming insurer's entire obligations under the reinsurance contract and deposit those amounts in a separate account in accordance with <cite path="31|05|08|.17|D.|(2)">§D(2) of this regulation</cite> in trust for the uses specified in §§B and C of this regulation if the:</text>
+        <para>
+          <num>(a)</num>
+          <text>Ceding insurer has received notification of termination of the trust account; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Assuming insurer's entire obligations under the reinsurance contract remain unliquidated and undischarged 10 days before the termination date.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Amounts withdrawn from the trust account and deposited under <cite path="31|05|08|.17|D.|(1)">§D(1) of this regulation</cite> shall be deposited:</text>
+        <para>
+          <num>(a)</num>
+          <text>In a separate account, in the name of the ceding insurer, in a qualified U.S. financial institution, apart from the general assets of the ceding insurer; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>In trust for the uses specified in §§B and C of this regulation as may remain executory after the withdrawal and for any period after the termination date.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="31|05|08|.18">
+    <prefix>Regulation</prefix>
+    <num>.18</num>
+    <heading>Trust Agreement Established in Conjunction with Reinsurance Contracts Covering Life, Annuities, or Accident and Health Risks.</heading>
+    <para>
+      <num>A.</num>
+      <text>Use of Amounts Drawn on Trust Account. Notwithstanding any provision of <cite path="|31|05|08|.15">Regulation .15 of this chapter</cite>, when a trust agreement is established to meet the requirements of <cite path="|31|05|08|.14">Regulation .14 of this chapter</cite> in conjunction with a reinsurance contract covering life, annuities, or accident and health risks, where it is customary to provide a trust agreement for a specific purpose, the trust agreement may allow the ceding insurer to use amounts drawn on the trust account, without diminution because of the insolvency of the ceding insurer or the assuming insurer, for the purposes listed in this regulation.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>To Pay or Reimburse Ceding Insurer. A trust agreement may allow the ceding insurer to use amounts drawn on the trust account to pay or reimburse the ceding insurer for the assuming insurer's share under the:</text>
+      <para>
+        <num>(1)</num>
+        <text>Reinsurance contract of premiums returned, but not yet recovered from the assuming insurer, to the owners of policies reinsured under the insurance contract on account of cancellations of the policies; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Specific reinsurance contract of surrenders and benefits or losses paid by the ceding insurer, but not yet recovered from the assuming insurer, under the terms and provisions of the policies reinsured under the reinsurance contract.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Payment to Assuming Insurer. A trust agreement may allow the ceding insurer to use amounts drawn on the trust account to pay to the assuming insurer amounts held in the trust account in excess of the amount necessary to secure the credit or reduction from liability for reinsurance taken by the ceding insurer.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>On Termination of Trust Account.</text>
+      <para>
+        <num>(1)</num>
+        <text>A trust agreement may allow the ceding insurer to withdraw amounts equal to the assuming insurer's share of liabilities, to the extent that the liabilities have not yet been funded by the assuming insurer, and deposit those amounts in a separate account in accordance with <cite path="31|05|08|.18|D.|(2)">§D(2) of this regulation</cite> in trust for the uses and purposes specified in §§B and C of this regulation if the:</text>
+        <para>
+          <num>(a)</num>
+          <text>Ceding insurer has received notification of termination of the trust account; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Assuming insurer's entire obligations under the specific reinsurance contract remain unliquidated and undischarged 10 days before the termination date.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Amounts withdrawn from the trust account and deposited under <cite path="31|05|08|.18|D.|(1)">§D(1) of this regulation</cite> shall be deposited:</text>
+        <para>
+          <num>(a)</num>
+          <text>In a separate account, in the name of the ceding insurer, in a qualified U.S. financial institution, apart from the general assets of the ceding insurer; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>In trust for the uses specified in §§A and B of this regulation as may remain executory after the withdrawal and for any period after the termination date.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="31|05|08|.19">
+    <prefix>Regulation</prefix>
+    <num>.19</num>
+    <heading>Permitted Conditions Applicable to Reinsurance Contracts.</heading>
+    <para>
+      <num>A.</num>
+      <text>Trust Agreement. A reinsurance contract may:</text>
+      <para>
+        <num>(1)</num>
+        <text>Require the assuming insurer to enter into a trust agreement;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Establish a trust account for the benefit of the ceding insurer; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Specify what the agreement is to cover.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Execution of Assignments or Endorsements. To allow the ceding insurer, or the trustee on the direction of the ceding insurer, to negotiate assets whenever necessary without consent or signature from the assuming insurer or any other entity, a reinsurance agreement may require the assuming insurer, before depositing assets with the trustee, to:</text>
+      <para>
+        <num>(1)</num>
+        <text>Execute assignments or endorsements in blank; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Transfer legal title to the trustee of all shares, obligations, or any other assets requiring assignments.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Settlements of Account in Cash or Equivalent. A reinsurance contract may require that all settlements of account between the ceding insurer and the assuming insurer be made in cash or its equivalent.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Withdrawal of Assets. A reinsurance contract may stipulate that the assuming insurer and the ceding insurer agree that the assets in the trust account, established under the provisions of the reinsurance contract, may be withdrawn by the ceding insurer at any time, notwithstanding any other provisions in the reinsurance contract, and may be used by the ceding insurer or its successors in interest by operation of law, including any liquidator, rehabilitator, receiver, or conservator of the company, without diminution because of insolvency on the part of the ceding insurer or the assuming insurer, for the following purposes:</text>
+      <para>
+        <num>(1)</num>
+        <text>To pay or reimburse the ceding insurer for:</text>
+        <para>
+          <num>(a)</num>
+          <text>The assuming insurer's share under the specific reinsurance contract of premiums returned, but not yet recovered from the assuming insurer, to the owners of policies reinsured under the reinsurance contract because of cancellations of the policies;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The assuming insurer's share of surrenders and benefits or losses paid by the ceding insurer under the provisions of the policies reinsured under the reinsurance contract; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Any other amounts necessary to secure the credit or reduction from liability for reinsurance taken by the ceding insurer; or</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>To make payment to the assuming insurer of amounts held in the trust account in excess of the amount necessary to secure the credit or reduction from liability for reinsurance taken by the ceding insurer.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Transfer of Assets to Assuming Insurer. A reinsurance contract may allow the assuming insurer to seek approval from the ceding insurer, which may not be unreasonably or arbitrarily withheld, to withdraw from the trust account all or any part of the trust assets and transfer those assets to the assuming insurer, if:</text>
+      <para>
+        <num>(1)</num>
+        <text>At the time of withdrawal, the assuming insurer replaces the withdrawn assets with other qualified assets that have a current fair market value equal to the market value of the withdrawn assets to maintain at all times the deposit in the required amount; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>After withdrawal and transfer, the current fair market value of the trust account is not less than 102 percent of the required amount.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Return of Amount Withdrawn; Interest. A reinsurance contract may provide for:</text>
+      <para>
+        <num>(1)</num>
+        <text>The return of any amount withdrawn in excess of the actual amounts required for <cite path="31|05|08|.19|D.">§D of this regulation</cite>; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Interest payments at a rate not in excess of the prime rate of interest on such amounts held pursuant to <cite path="31|05|08|.19|D.">§D of this regulation</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Arbitration Panel or Court-Award of Expenses. A reinsurance contract may allow the award by an arbitration panel or court of competent jurisdiction of:</text>
+      <para>
+        <num>(1)</num>
+        <text>Interest at a rate different from that provided in <cite path="31|05|08|.19|F.">§F of this regulation</cite>;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Court or arbitration costs;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Attorney's fees; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Any other reasonable expenses.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.20</num>
+    <heading>Financial Reporting.</heading>
+    <para>
+      <num>A.</num>
+      <text>Reduction of Liability. A ceding insurer may use a trust agreement to reduce any liability for reinsurance ceded to an unauthorized assuming insurer in financial statements required to be filed with the Commissioner in compliance with this chapter when the trust agreement is established on or before the date of filing of the financial statement of the ceding insurer.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Amount of Reduction. A reduction for the existence of an acceptable trust account may be up to the current fair market value of acceptable assets available to be withdrawn from the trust account at that time, but the reduction may not exceed the specific obligations under the reinsurance contract that the trust account was established to secure.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.21</num>
+    <heading>Existing Agreements — Repealed.</heading>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.22</num>
+    <heading>Other Security.</heading>
+    <text>A ceding insurer may take credit for unencumbered funds that are:</text>
+    <para>
+      <num>A.</num>
+      <text>Withheld by the ceding insurer in the United States;</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Subject to withdrawal solely by the ceding insurer; and</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Under the exclusive control of the ceding insurer.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.23</num>
+    <heading>Reinsurance Contract.</heading>
+    <text>Credit for reinsurance may not be allowed by the Commissioner as an admitted asset or deduction from liability to any ceding insurer for a reinsurance contract entered into with a reinsurer under this chapter after the adoption of this regulation unless the reinsurance contract includes:</text>
+    <para>
+      <num>A.</num>
+      <text>An insolvency clause, in accordance with <cite doc="Md. Code" path="gin|5-905">Insurance Article, §5-905(a), Annotated Code of Maryland</cite>; and</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A provision under which the reinsurer, if an unauthorized reinsurer, has:</text>
+      <para>
+        <num>(1)</num>
+        <text>Submitted to the jurisdiction of an alternative dispute resolution panel or court of competent jurisdiction within the United States;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Agreed to comply with all requirements necessary to give the court or panel jurisdiction;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Designated an agent to receive service of process; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Agreed to abide by the final decision of the court or panel.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Includes a proper reinsurance intermediary clause, if applicable, which stipulates that the credit risk for the intermediary is carried by the assuming insurer.</text>
+    </para>
+  </section>
+  <section cache:ref-path="31|05|08|.24">
+    <prefix>Regulation</prefix>
+    <num>.24</num>
+    <heading>Credit for Reinsurance — Certified Reinsurers.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Commissioner shall allow credit for reinsurance ceded by a domestic insurer to an assuming insurer that has been certified as a reinsurer in this State at all times for which statutory financial statement credit for reinsurance is claimed under this regulation.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The credit allowed shall be based upon the security held by or on behalf of the ceding insurer in accordance with a rating assigned to the certified reinsurer by the Commissioner.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The security shall be in a form consistent with Insurance Article, §§<cite doc="Md. Code" path="gin|5-911">5-911</cite> and <cite doc="Md. Code" path="gin|5-914">5-914</cite>, Annotated Code of Maryland, and this chapter.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The amount of security required in order for full credit to be allowed shall correspond with the following requirements:</text>
+      <para>
+        <num>(1)</num>
+        <text>Certification Ratings.</text>
+        <text>
+          <table>
+            <thead>
+              <tr>
+                <th>Certification Ratings</th>
+                <th>Security Required</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td data-vertical-align="middle">Secure -1</td>
+                <td data-vertical-align="middle">0%</td>
+              </tr>
+              <tr>
+                <td data-vertical-align="middle">Secure - 2</td>
+                <td data-vertical-align="middle">10%</td>
+              </tr>
+              <tr>
+                <td data-vertical-align="middle">Secure - 3</td>
+                <td data-vertical-align="middle">20%</td>
+              </tr>
+              <tr>
+                <td data-vertical-align="middle">Secure - 4</td>
+                <td data-vertical-align="middle">50%</td>
+              </tr>
+              <tr>
+                <td data-vertical-align="middle">Secure - 5</td>
+                <td data-vertical-align="middle">75%</td>
+              </tr>
+              <tr>
+                <td data-vertical-align="middle">Vulnerable - 6</td>
+                <td data-vertical-align="middle">100%</td>
+              </tr>
+            </tbody>
+          </table>
+        </text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Affiliated reinsurance transactions shall receive the same opportunity for reduced security requirements as all other reinsurance transactions.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The Commissioner shall require the certified reinsurer to post 100 percent security, for the benefit of the ceding insurer or its estate, upon the entry of an order of rehabilitation, liquidation, or conservation against the ceding insurer.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Catastrophic Occurrence.</text>
+        <para>
+          <num>(a)</num>
+          <text>A certified reinsurer may defer posting security for catastrophe recoverables for a period of up to 1 year from the date of the first instance of a liability reserve entry by the ceding company as a result of a catastrophic occurrence that is likely to result in significant insured losses as recognized by the Commissioner.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The deferral period is contingent upon the certified reinsurer continuing to pay claims in a timely manner as determined by the Commissioner.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Reinsurance recoverables for only the following lines of business as reported on the NAIC annual financial statement related specifically to the catastrophic occurrence will be included in the deferral:</text>
+          <text>
+            <table>
+              <tbody>
+                <tr>
+                  <td data-vertical-align="middle">Line 1</td>
+                  <td data-vertical-align="middle">Fire</td>
+                </tr>
+                <tr>
+                  <td data-vertical-align="middle">Line 2</td>
+                  <td data-vertical-align="middle">Allied Lines</td>
+                </tr>
+                <tr>
+                  <td data-vertical-align="middle">Line 3</td>
+                  <td data-vertical-align="middle">Farmowners multiple peril</td>
+                </tr>
+                <tr>
+                  <td data-vertical-align="middle">Line 4</td>
+                  <td data-vertical-align="middle">Homeowners multiple peril</td>
+                </tr>
+                <tr>
+                  <td data-vertical-align="middle">Line 5</td>
+                  <td data-vertical-align="middle">Commercial multiple peril</td>
+                </tr>
+                <tr>
+                  <td data-vertical-align="middle">Line 9</td>
+                  <td data-vertical-align="middle">Inland Marine</td>
+                </tr>
+                <tr>
+                  <td data-vertical-align="middle">Line 12</td>
+                  <td data-vertical-align="middle">Earthquake</td>
+                </tr>
+                <tr>
+                  <td data-vertical-align="middle">Line 21</td>
+                  <td data-vertical-align="middle">Auto physical damage</td>
+                </tr>
+              </tbody>
+            </table>
+          </text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Credit for reinsurance under this regulation shall apply only to reinsurance contracts entered into or renewed on or after the effective date of the certification of the assuming insurer. Any reinsurance contract entered into prior to the effective date of the certification of the assuming insurer that is subsequently amended after the effective date of the certification of the assuming insurer or a new reinsurance contract, covering any risk for which collateral was provided previously, shall only be subject to this regulation with respect to losses incurred and reserves reported on or after the effective date of the amendment or new contract.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Nothing in this section shall prohibit the parties to a reinsurance contract from agreeing to provisions establishing security requirements that exceed the minimum security requirements established for certified reinsurers under this section.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Certification Procedure.</text>
+      <para>
+        <num>(1)</num>
+        <text>The Commissioner shall post notice on the Administration’s website promptly upon receipt of any application for certification, including instructions on how members of the public may respond to the application.  The Commissioner may not take final action on the application until at least 30 days after posting the notice required by this subsection.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Commissioner shall issue written notice to an assuming insurer that has been approved as a certified reinsurer.  Including in such notice shall be the certification rating assigned to the certified reinsurer in accordance with <cite path="31|05|08|.24|G.|(2)">§G(2) of this regulation</cite>.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The Commissioner shall publish a list of all certified reinsurers and their ratings.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The Commissioner shall comply with all reporting and notification requirements that may be established by the NAIC with respect to certified reinsurers and qualified jurisdictions.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Certification Eligibility Requirements. In order to be eligible for certification, the assuming insurer shall meet the following requirements:</text>
+      <para>
+        <num>(1)</num>
+        <text>The assuming insurer shall be domiciled and licensed to transact insurance or reinsurance in a qualified jurisdiction, as determined by the Commissioner pursuant to <cite path="|31|05|08|.26">Regulation .26 of this chapter</cite>.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The assuming insurer shall maintain capital and surplus, or its equivalent, of no less than $250,000,000, calculated in accordance with <cite path="31|05|08|.24|G.|(2)|(h)">§G(2)(h) of this regulation</cite>.  This requirement may also be satisfied by a group including incorporated and individual unincorporated underwriters having minimum capital and surplus equivalents (net of liabilities) of at least $250,000,000 and a central fund containing a balance of at least $250,000,000.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The assuming insurer shall have financial strength ratings from two or more rating agencies deemed acceptable by the Commissioner. These ratings shall be based on interactive communication between the rating agency and the assuming insurer and may not be based solely on publicly available information.  These financial strength ratings shall be one factor used by the Commissioner in determining the rating that is assigned to the assuming insurer. Failure to obtain or maintain at least two financial strength ratings from acceptable rating agencies shall result in the loss of eligibility for certification.   Acceptable rating agencies include the following:</text>
+        <para>
+          <num>(a)</num>
+          <text>Standard &amp; Poor’s;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Moody’s Investors Service;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Fitch Ratings;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>A.M. Best Company; or</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>A nationally recognized statistical rating organization deemed acceptable by the Commissioner.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Any other requirements imposed by the Commissioner.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>If an applicant for certification has been certified as a reinsurer by the insurance regulatory agency of a state accredited by the NAIC, the Commissioner has the discretion to defer to that insurance regulatory agency to designate the assuming insurer as a certified reinsurer in this State.</text>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Certification Rating.</text>
+      <para>
+        <num>(1)</num>
+        <text>The Commissioner shall rate each certified reinsurer on a legal entity basis and with due consideration being given to a group rating where appropriate, except that a group including incorporated and individual unincorporated underwriters that has been approved to do business as a single certified reinsurer may be evaluated on the basis of its group rating.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Factors that may be considered as part of the certification rating process include, but are not limited to:</text>
+        <para>
+          <num>(a)</num>
+          <text>The certified reinsurer’s financial strength rating from an acceptable rating agency pursuant to <cite path="31|05|08|.24|F.|(3)">§F(3) of this regulation</cite>, as follows:</text>
+          <para>
+            <num>(i)</num>
+            <text>A certified reinsurer may not be eligible for a certification rating higher than the rating corresponding with the financial strength ratings set forth in <cite path="31|05|08|.24|G.|(2)|(a)|(iii)">§G(2)(a)(iii) of this regulation</cite>.</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The Commissioner shall use the lowest financial strength rating received from an acceptable rating agency in establishing the maximum certification rating of a certified reinsurer.</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Financial Strength Rating Chart.</text>
+            <text>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Ratings</th>
+                    <th>Best</th>
+                    <th>S&amp;P</th>
+                    <th>Moody’s</th>
+                    <th>Fitch</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td data-vertical-align="middle">Secure - 1</td>
+                    <td data-vertical-align="middle">A++</td>
+                    <td data-vertical-align="middle">AAA</td>
+                    <td data-vertical-align="middle">Aaa</td>
+                    <td data-vertical-align="middle">AAA</td>
+                  </tr>
+                  <tr>
+                    <td data-vertical-align="middle">Secure - 2</td>
+                    <td data-vertical-align="middle">A+</td>
+                    <td data-vertical-align="middle">AA+, AA, AA-</td>
+                    <td data-vertical-align="middle">Aa1, Aa2, Aa3</td>
+                    <td data-vertical-align="middle">AA+, AA, AA-</td>
+                  </tr>
+                  <tr>
+                    <td data-vertical-align="middle">Secure - 3</td>
+                    <td data-vertical-align="middle">A</td>
+                    <td data-vertical-align="middle">A+, A</td>
+                    <td data-vertical-align="middle">A1, A2</td>
+                    <td data-vertical-align="middle">A+, A</td>
+                  </tr>
+                  <tr>
+                    <td data-vertical-align="middle">Secure - 4</td>
+                    <td data-vertical-align="middle">A-</td>
+                    <td data-vertical-align="middle">A-</td>
+                    <td data-vertical-align="middle">A3</td>
+                    <td data-vertical-align="middle">A-</td>
+                  </tr>
+                  <tr>
+                    <td data-vertical-align="middle">Secure - 5</td>
+                    <td data-vertical-align="middle">B++, B+</td>
+                    <td data-vertical-align="middle">BBB+, BBB, BBB-</td>
+                    <td data-vertical-align="middle">Baa1, Baa2, Baa3</td>
+                    <td data-vertical-align="middle">BBB+, BBB, BBB-</td>
+                  </tr>
+                  <tr>
+                    <td data-vertical-align="middle">Vulnerable - 6</td>
+                    <td data-vertical-align="middle">B, B-C++, C+, C, C-, D, E, F</td>
+                    <td data-vertical-align="middle">BB+, BB, BB-, B+, B, B-, CCC, CC, C, D, R</td>
+                    <td data-vertical-align="middle">Ba1, Ba2, Ba3, B1, B2, B3, Caa, Ca, C</td>
+                    <td data-vertical-align="middle">BB+, BB, BB-, B+, B, B-, CCC+, CC, CCC-, DD</td>
+                  </tr>
+                </tbody>
+              </table>
+            </text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The business practices of the certified reinsurer in dealing with its ceding insurers, including its record of compliance with reinsurance contractual terms and obligations;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>For certified reinsurers domiciled in the U.S., a review of the most recent applicable NAIC Annual Statement Blank, either Schedule F (for property/casualty reinsurers) or Schedule S (for life and health reinsurers);</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>For certified reinsurers not domiciled in the U.S., a review annually of the Maryland Insurance Administration Reinsurance Application and NAIC Form CR-F Assumed Reinsurance (for Property/Casualty Reinsurers) or NAIC Form CR-S Reinsurance Assumed (for Life and Health Reinsurers);</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>The history of the certified reinsurer for prompt payment of claims under reinsurance contracts, based on an analysis of ceding insurers’ Schedule F reporting of overdue reinsurance recoverables, including the proportion of obligations that are more than 90 days past due or are in dispute, with specific attention given to obligations payable to companies that are in administrative supervision or receivership;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Regulatory actions against the certified reinsurer;</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>The report of the independent auditor on the financial statements of the insurance enterprise, on the basis described in <cite path="31|05|08|.24|G.|(2)|(h)">§G(2)(h) of this regulation</cite>;</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>For certified reinsurers not domiciled in the U.S., audited financial statements, regulatory filings and actuarial opinions (as filed with the non-U.S. jurisdiction supervisor, with a translation into English). Upon the initial application for certification, the Commissioner shall consider audited financial statements for the last 2 years filed with its non-U.S. jurisdiction supervisor;</text>
+        </para>
+        <para>
+          <num>(i)</num>
+          <text>The liquidation priority of obligations to a ceding insurer in the certified reinsurer’s domiciliary jurisdiction in the context of an insolvency proceeding;</text>
+        </para>
+        <para>
+          <num>(j)</num>
+          <text>A certified reinsurer’s participation in any solvent scheme of arrangement, or similar procedure, which involves U.S. ceding insurers. The Commissioner shall receive prior notice from a certified reinsurer that proposes participation by the certified reinsurer in a solvent scheme of arrangement; and</text>
+        </para>
+        <para>
+          <num>(k)</num>
+          <text>Any other information deemed relevant by the Commissioner.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>Certification Rating and Security Adjustment.  Based on the analysis conducted under <cite path="31|05|08|.24|G.|(2)">§G(2) of this regulation</cite> of a certified reinsurer’s history of prompt payment of claims, the Commissioner may adjust the security the certified reinsurer is required to post to protect its liabilities to U.S. ceding insurers provided that the Commissioner shall, at a minimum, increase the security the certified reinsurer is required to post by one certification rating level pursuant to <cite path="31|05|08|.24|G.|(2)|(a)|(iii)">§G(2)(a)(iii) of this regulation</cite> if the Commissioner finds that:</text>
+      <para>
+        <num>(1)</num>
+        <text>More than 15 percent of the certified reinsurer’s ceding insurers have overdue reinsurance recoverables on paid losses of 90 calendar days or more which are not in dispute and which exceed $100,000 for each cedent; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The aggregate amount of reinsurance recoverables on paid losses which are not in dispute that are overdue by 90 calendar days or more exceeds $50,000,000.</text>
+      </para>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>The Commissioner may not certify any assuming insurer that is domiciled in a jurisdiction that the Commissioner has determined does not adequately and promptly enforce final U.S. judgments or arbitration awards.</text>
+    </para>
+    <para>
+      <num>J.</num>
+      <text>For initial eligibility as a certified reinsurer, an applicant shall agree to meet applicable information filing requirements as determined by the Commissioner.  All information submitted by applicants, which is not otherwise public information subject to disclosure, shall be exempt from disclosure under <cite doc="Md. Code" path="ggp">General Provisions Article, Title 4, Annotated Code of Maryland</cite>, and shall be withheld from public disclosure.  The applicant shall file with the Commissioner:</text>
+      <para>
+        <num>(1)</num>
+        <text>A properly executed NAIC Form CR-F Assumed Reinsurance (for Property/Casualty Reinsurers) or NAIC Form CR-S Reinsurance Assumed (for Life and Health Reinsurers);</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A Maryland Insurance Administration Reinsurance Application;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>An updated list of all disputed and overdue reinsurance claims regarding reinsurance assumed from U.S. domestic ceding insurers;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The report of the independent auditor on the financial statements of the insurance enterprise and the audited financial statements, regulatory filings and actuarial opinions (as filed with the non-U.S. jurisdiction supervisor, with a translation into English). Upon the initial application for certification, the Commissioner may consider audited financial statements for the last 2 years filed with its non-U.S. jurisdiction supervisor;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>A certification from the certified reinsurer’s domestic regulator that the certified reinsurer is in good standing and maintains capital in excess of the jurisdiction’s highest regulatory action level;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Any other document or information that the Commissioner considers necessary to determine eligibility to act as a certified reinsurer; and</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>A properly executed NAIC Form CR-1 Certificate of Certified Reinsurer as evidence that the applicant agrees to:</text>
+        <para>
+          <num>(a)</num>
+          <text>Submit to the jurisdiction of the State;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The Appointment of the Commissioner as an agent for service of process in this State; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Provide security for 100 percent of the assuming insurer’s liabilities attributable to reinsurance ceded by U.S. ceding insurers if it resists enforcement of a final U.S. judgment.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>K.</num>
+      <text>If an applicant for certification has been certified as a reinsurer in a NAIC accredited jurisdiction, the Commissioner shall have the discretion to defer to that jurisdiction’s certification, and to defer to the rating assigned by that jurisdiction, if the assuming insurer submits a properly executed NAIC Form CR-1 and any additional information the Commissioner requires. The assuming insurer shall be considered to be a certified reinsurer in this State based on the following limitations:</text>
+      <para>
+        <num>(1)</num>
+        <text>Any change in the certified reinsurer’s status or rating in the other jurisdiction shall apply automatically in this State as of the date it takes effect in the other jurisdiction. The certified reinsurer shall notify the Commissioner of any change in its status or rating within 10 days after receiving notice of the change.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Commissioner may withdraw recognition of the other jurisdiction’s rating at any time and assign a new rating in accordance with <cite path="|31|05|08|.25">Regulation .25 of this chapter</cite>.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The Commissioner may withdraw recognition of the other jurisdiction’s certification at any time, with written notice to the certified reinsurer.  Unless the Commissioner suspends or revokes the certified reinsurer’s certification in accordance with <cite path="|31|05|08|.25">Regulation .25 of this chapter</cite>, the certified reinsurer’s certification shall remain in good standing in this State for a period of 3 months, which shall be extended if additional time is necessary to consider the assuming insurer’s application for certification in this State.</text>
+      </para>
+    </para>
+    <para>
+      <num>L.</num>
+      <text>For continued eligibility as a certified reinsurer, a certified reinsurer shall agree to meet applicable information filing requirements as determined by the Commissioner. All information submitted by certified reinsurers which is not otherwise public information subject to disclosure shall be exempted from disclosure under <cite doc="Md. Code" path="ggp">General Provisions Article, Title 4, Annotated Code of Maryland</cite>, and shall be withheld from public disclosure.  The certified reinsurer shall by May 30 of each year, file with the Commissioner:</text>
+      <para>
+        <num>(1)</num>
+        <text>A properly executed NAIC Form CR-F Assumed Reinsurance (for Property/Casualty Reinsurers) or NAIC Form CR-S Reinsurance Assumed (for Life and Health Reinsurers);</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A Maryland Insurance Administration Reinsurance Application;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>An updated list of all disputed and overdue reinsurance claims regarding reinsurance assumed from U.S. domestic ceding insurers;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The report of the independent auditor on the financial statements of the insurance enterprise and the audited financial statements, regulatory filings and actuarial opinions (as filed with the non-U.S. jurisdiction supervisor, with a translation into English). Upon the initial application for certification, the Commissioner may consider audited financial statements for the last 2 years filed with its non-U.S. jurisdiction supervisor;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>A certification from the certified reinsurer’s domestic regulator that the certified reinsurer is in good standing and maintains capital in excess of the jurisdiction’s highest regulatory action level;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Any other document or information that the Commissioner considers necessary to determine continued eligibility to act as a certified reinsurer; and</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>A properly executed NAIC Form CR-1 Certificate of Certified Reinsurer as evidence that the applicant agrees to:</text>
+        <para>
+          <num>(a)</num>
+          <text>Submit to the jurisdiction of the State;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The Appointment of the Commissioner as an agent for service of process in this State; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Provide security for 100 percent of the assuming insurer’s liabilities attributable to reinsurance ceded by U.S. ceding insurers if it resists enforcement of a final U.S. judgment.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>M.</num>
+      <text>Notification of the Commissioner by the Certified Reinsurer. In order to obtain or maintain a certification, a certified reinsurer shall agree to notify and provide a written statement describing the changes and the reasons therefore in writing to the Commissioner within 10 business days of:</text>
+      <para>
+        <num>(1)</num>
+        <text>Any regulatory actions taken against the certified reinsurer;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Any change in the provisions of its domiciliary license; or</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Any change in rating by an acceptable rating agency pursuant to <cite path="31|05|08|.24|F.|(3)">§F(3) of this regulation</cite>.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.25</num>
+    <heading>Change in Certification Rating or Suspension or Revocation of Certification.</heading>
+    <para>
+      <num>A.</num>
+      <text>Change in Certification Rating.</text>
+      <para>
+        <num>(1)</num>
+        <text>In the case of a downgrade of a financial strength rating by a rating agency, or other change in circumstance, the Commissioner shall upon written notice to the certified reinsurer assign a new certification rating to the certified reinsurer in accordance with the requirements of <cite path="|31|05|08|.24">Regulation .24 of this chapter</cite>.  If the Commissioner downgrades the certified reinsurer’s certification rating, the certified reinsurer shall meet the security requirements applicable to its new certification rating for all business it has assumed as a certified reinsurer.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If the Commissioner upgrades a certified reinsurer’s certification rating, the certified reinsurer may meet the security requirements applicable to its new rating on a prospective basis, but the Commissioner shall require the certified reinsurer to post security under the previously applicable security requirements as to all contracts in force on or before the effective date of the upgraded rating.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Authority to Suspend or Revoke. The Commissioner may upon written notice and opportunity for a hearing pursuant to <cite doc="Md. Code" path="gin|2-210">Insurance Article, §2-210, Annotated Code of Maryland</cite>, suspend or revoke a certified reinsurer’s certification at any time if:</text>
+      <para>
+        <num>(1)</num>
+        <text>The certified reinsurer fails to meet its obligations or security requirements under this chapter;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Other financial or operating results of the certified reinsurer, or documented significant delays in payment by the certified reinsurer, lead the Commissioner to reconsider the certified reinsurer’s ability or willingness to meet its contractual obligations; or</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The certified reinsurer ceases to meet other requirements for certification.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Suspension or Revocation of the Certification of a Certified Reinsurer.</text>
+      <para>
+        <num>(1)</num>
+        <text>While a reinsurer’s certification is suspended, a reinsurance contract issued or renewed after the effective date of the suspension does not qualify for credit except to the extent the reinsurer’s obligations under the contract are secured in accordance with <cite doc="Md. Code" path="gin|5-914">Insurance Article, §5-914, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If a reinsurer’s certification is revoked, credit for reinsurance may not be granted after the effective date of the revocation except to the extent that the reinsurer’s obligations under the contract are secured in accordance with <cite doc="Md. Code" path="gin|5-911">Insurance Article, §5-911, Annotated Code of Maryland</cite>, or <cite doc="Md. Code" path="gin|5-914">Insurance Article, §5-914, Annotated Code of Maryland</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Notwithstanding the change of a certified reinsurer’s certification rating or suspension or revocation of its certification, a domestic insurer that has ceded reinsurance to that certified reinsurer may not be denied credit for reinsurance for a period of 3 months for all reinsurance ceded to that certified reinsurer, unless the Commissioner finds that the reinsurance is found to be at high risk of uncollectibility.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.26</num>
+    <heading>Qualified Jurisdictions.</heading>
+    <para>
+      <num>A.</num>
+      <text>Eligibility.</text>
+      <para>
+        <num>(1)</num>
+        <text>The Commissioner shall maintain and publish a list of qualified jurisdictions under which an assuming insurer, licensed and domiciled in that jurisdiction, is eligible to be considered for certification by the Commissioner as a certified reinsurer.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>In order to determine whether the domiciliary jurisdiction of a non-U.S. assuming insurer is eligible to be recognized as a qualified jurisdiction, the Commissioner shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Evaluate the reinsurance supervisory system of the non-U.S. jurisdiction, both initially and on an ongoing basis;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Consider the rights, benefits and extent of reciprocal recognition afforded by a non-U.S. jurisdiction to reinsurers licensed and domiciled in the U.S.; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Consider any additional factors that the Commissioner deems appropriate, which may include:</text>
+          <para>
+            <num>(i)</num>
+            <text>The framework under which the assuming insurer is regulated;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The structure and authority of the domiciliary regulator with regard to solvency regulation requirements and financial surveillance;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>The substance of financial and operating standards for assuming insurers in the domiciliary jurisdiction;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>The form and substance of financial reports required to be filed or made publicly available by reinsurers in the domiciliary jurisdiction and the accounting principles used for purposes of those reports;</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>The domiciliary regulator’s cooperation with U.S. regulators, including the Commissioner;</text>
+          </para>
+          <para>
+            <num>(vi)</num>
+            <text>The history of performance by assuming insurers in the domiciliary jurisdiction;</text>
+          </para>
+          <para>
+            <num>(vii)</num>
+            <text>Any relevant international standards or guidance with respect to mutual recognition of reinsurance supervision adopted by the International Association of Insurance Supervisors or successor organization; and</text>
+          </para>
+          <para>
+            <num>(viii)</num>
+            <text>Any other matters deemed relevant by the Commissioner.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The Commissioner may not recognize a jurisdiction as a qualified jurisdiction unless the Commissioner has determined that the jurisdiction adequately and promptly enforces final U.S. judgments or arbitration awards.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>A qualified jurisdiction shall agree in writing to share information and cooperate with the Commissioner with respect to all certified reinsurers domiciled within that jurisdiction.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Additional Considerations.</text>
+      <para>
+        <num>(1)</num>
+        <text>The Commissioner shall consider the list of qualified jurisdictions published through the NAIC Committee Process in determining qualified jurisdictions in this State.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>In determining whether a jurisdiction is a qualified jurisdiction, the Commissioner shall consider the NAIC’s list:</text>
+        <para>
+          <num>(a)</num>
+          <text>when the jurisdiction has been evaluated for inclusion on the list; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>whenever the list is amended.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If the Commissioner approves a jurisdiction as qualified that does not appear on the NAIC’s list of qualified jurisdictions, the Commissioner shall provide to the NAIC, upon written request, information relating to such determination pursuant to the requirements in Section A of this regulation.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The Commissioner shall recognize as a qualified jurisdiction in this State any state that meets the requirements for accreditation under the NAIC’s financial standards and accreditation program.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The Commissioner shall withdraw recognition of those jurisdictions that are no longer qualified.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>The Commissioner shall publish notice of jurisdictions that have qualified or are no longer qualified to be recognized as a qualified jurisdiction.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.27</num>
+    <heading>Mandatory Funding Clause.</heading>
+    <text>In addition to the requirements of Regulations <cite path="|31|05|08|.14">.14</cite>—<cite path="|31|05|08|.18">.18</cite> of this chapter, reinsurance contracts entered into or renewed under Regulations <cite path="|31|05|08|.24">.24</cite>—<cite path="|31|05|08|.26">.26</cite> of this chapter shall include a funding clause, which requires the certified reinsurer to provide and maintain security in an amount sufficient to avoid the imposition of any unfavorable financial statement accounting treatment on the ceding insurer under this chapter for reinsurance ceded to the certified reinsurer.</text>
+  </section>
+  <section cache:ref-path="31|05|08|.28">
+    <prefix>Regulation</prefix>
+    <num>.28</num>
+    <heading>Credit for Reinsurance — Reciprocal Jurisdictions</heading>
+    <para>
+      <num>A.</num>
+      <text>Pursuant to <cite doc="Md. Code" path="gin|5-917">Insurance Article, §5-917, Annotated Code of Maryland</cite>, the Commissioner shall allow credit for reinsurance ceded by a domestic insurer to an assuming insurer that is licensed to write reinsurance by, and has its head office or is domiciled in, a reciprocal jurisdiction, and which meets the other requirements of this regulation.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A “reciprocal jurisdiction” means a jurisdiction, as designated by the Commissioner pursuant to <cite path="31|05|08|.28|D.">§D of this regulation</cite> that is:</text>
+      <para>
+        <num>(1)</num>
+        <text>A non-U.S. jurisdiction that is subject to an in-force covered agreement with the U.S., each within its legal authority, or, in the case of a covered agreement between the U.S. and the European Union, is a member state of the European Union. For purposes of this section, a “covered agreement” is an agreement:</text>
+        <para>
+          <num>(a)</num>
+          <text>Entered into pursuant to the Dodd-Frank Wall Street Reform and Consumer Protection Act, 31 U.S.C. §§313 and 314; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Currently in effect or in a period of provisional application and addresses the elimination, under specified conditions, of collateral requirements as a condition for entering into any reinsurance agreement with a ceding insurer domiciled in this State or for allowing the ceding insurer to recognize credit for reinsurance;</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A U.S. jurisdiction that meets the requirements for accreditation under the NAIC financial standard and accreditation program; or</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A qualified jurisdiction as determined by the Commissioner pursuant to <cite doc="Md. Code" path="gin|5-909">Insurance Article, §5-909, Annotated Code of Maryland</cite>, and <cite path="|31|05|08|.26">Regulation .26 of this chapter</cite> which is not otherwise described in §B(1) or (2) of this regulation and the Commissioner:</text>
+        <para>
+          <num>(a)</num>
+          <text>Provides that an insurer which has its head office or is domiciled in such qualified jurisdiction shall receive credit for reinsurance ceded to a U.S.-domiciled assuming insurer in the same manner as credit for reinsurance is received for reinsurance assumed by insurers domiciled in such qualified jurisdictions;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Does not require a U.S.-domiciled assuming insurer to establish or maintain a local presence as a condition for entering into a reinsurance agreement with any ceding insurer subject to regulation by the non-U.S. jurisdiction or as a condition to allow the ceding insurer to recognize credit for such reinsurance;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Recognizes the U.S.’s state regulatory approach to group supervision and group capital, by providing written confirmation by a competent regulatory authority, in such qualified jurisdiction, that insurers and insurance groups that are domiciled or maintain their headquarters in this State or another jurisdiction accredited by the NAIC shall be subject to:</text>
+          <para>
+            <num>(i)</num>
+            <text>Worldwide prudential insurance group supervision including worldwide group governance, solvency, and capital; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Reporting, as applicable, by the Commissioner or the commissioner of the domiciliary state. Insurers and insurance groups will not be subject to group supervision at the level of the worldwide parent undertaking of the insurance or reinsurance group by the qualified jurisdiction; and</text>
+          </para>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Provides written confirmation by a competent regulatory authority in such qualified jurisdiction that information regarding insurers and their parent, subsidiary, or affiliated entities, if applicable, shall be provided to the Commissioner in accordance with a memorandum of understanding or similar document between the Commissioner and such qualified jurisdiction, including, but not limited to:</text>
+          <para>
+            <num>(i)</num>
+            <text>The International Association of Insurance Supervisors Multilateral Memorandum of Understanding; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Other multilateral memoranda of understanding coordinated by the NAIC.</text>
+          </para>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Credit shall be allowed when the reinsurance is ceded from an insurer domiciled in this State to an assuming insurer meeting each of the conditions set forth below:</text>
+      <para>
+        <num>(1)</num>
+        <text>The assuming insurer shall be licensed to transact reinsurance by, and have its head office or be domiciled in, a reciprocal jurisdiction;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The assuming insurer shall have and maintain on an ongoing basis minimum capital and surplus, or its equivalent, calculated on at least an annual basis as of the preceding December 31 or at the annual date otherwise statutorily reported to the reciprocal jurisdiction, and confirmed as set forth in <cite path="31|05|08|.28|C.|(7)">§C(7) of this regulation</cite> according to the methodology of its domiciliary jurisdiction, in the following amounts:</text>
+        <para>
+          <num>(a)</num>
+          <text>No less than $250,000,000; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>If the assuming insurer is an association, including incorporated and individual unincorporated underwriters, then the association shall have:</text>
+          <para>
+            <num>(i)</num>
+            <text>Minimum capital and surplus equivalents (net of liabilities) or own funds of the equivalent of at least $250,000,000; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>A central fund containing a balance of the equivalent of at least $250,000,000;</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The assuming insurer shall have and maintain on an ongoing basis a minimum solvency or capital ratio, as applicable, as follows:</text>
+        <para>
+          <num>(a)</num>
+          <text>If the assuming insurer has its head office or is domiciled in a reciprocal jurisdiction as defined in <cite path="31|05|08|.28|B.">§B of this regulation</cite>, the ratio specified in the applicable covered agreement;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>If the assuming insurer is domiciled in a reciprocal jurisdiction as defined in <cite path="31|05|08|.28|B.">§B of this regulation</cite>, a risk-based capital ratio of 300 percent of the authorized control level, calculated in accordance with the formula developed by the NAIC; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>If the assuming insurer is domiciled in a reciprocal jurisdiction as defined in <cite path="31|05|08|.28|B.">§B of this regulation</cite>, after consultation with the reciprocal jurisdiction and considering any recommendations published through the NAIC Committee Process, such as solvency or capital ratio as the Commissioner determines to be an effective measure of solvency;</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The assuming insurer shall agree to and provide adequate assurance, in the form of a properly executed Form RJ-1 Certificate of Reinsurer Domiciled in Reciprocal Jurisdiction, of its agreement to:</text>
+        <para>
+          <num>(a)</num>
+          <text>Provide prompt written notice and explanation to the Commissioner if it falls below the minimum requirements set forth in §C(2) or (3) of this regulation, or if any regulatory action is taken against it for serious noncompliance with applicable law;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Consent in writing to the jurisdiction of the courts of this State and to the appointment of the Commissioner as agent for service of process. In addition:</text>
+          <para>
+            <num>(i)</num>
+            <text>The Commissioner may require that such consent be provided and included in each reinsurance agreement under the Commissioner’s jurisdiction; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Nothing in this provision shall limit or in any way alter the capacity of parties to a reinsurance agreement to agree to alternative dispute resolution mechanisms, except to the extent such agreements are unenforceable under applicable insolvency of delinquency laws;</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Consent in writing to pay all final judgements, wherever enforcement is sought, obtained by a ceding insurer, that have been declared enforceable in the territory where the judgement was obtained;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Include a provision in each reinsurance agreement requiring the assuming insurer to provide security in an amount equal to 100 percent of the assuming insurer’s liabilities attributable to reinsurance ceded pursuant to that agreement if the assuming insurer resists enforcement of a final judgement that is enforceable under the law of the jurisdiction in which it was obtained or a properly enforceable arbitration award, whether obtained by the ceding insurer or by its legal successor on behalf of its estate, if applicable;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Confirm that it is not presently participating in any solvent scheme of arrangement, which involves this State’s ceding insurers, and agrees to notify the ceding insurer and the Commissioner of such solvent scheme arrangement; and to provide 100 percent security to the ceding insurer consistent with the terms of the scheme should the assuming insurer enter into such a solvent scheme of arrangement. Such security shall be in a form consistent with the provision of Insurance Article, §§<cite doc="Md. Code" path="gin|5-908">5-908</cite> and <cite doc="Md. Code" path="gin|5-914">5-914</cite>, Annotated Code of Maryland, and Regulations <cite path="|31|05|08|.14">.14</cite>—<cite path="|31|05|08|.18">.18</cite> and .22 of this chapter. For purposes of this regulation, the term “solvent scheme of arrangement” means a foreign or alien statutory or regulatory compromise procedure subject to requisite majority creditor approval and judicial sanction in the assuming insurer’s home jurisdiction either to:</text>
+          <para>
+            <num>(i)</num>
+            <text>Finally commute liabilities of duly noticed class members or creditors of a solvent debtor; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>To reorganize or restructure the debts and obligations of a solvent debtor on a final basis and which may be subject to judicial recognition and enforcement of the arrangement by a governing authority outside the ceding insurer’s home jurisdiction; and</text>
+          </para>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Meet the applicable information filing requirements as set forth in <cite path="31|05|08|.28|C.|(5)">§C(5) of this regulation</cite>;</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The assuming insurer or its legal successor shall provide, if requested by the Commissioner, on behalf of itself and any legal predecessors, the following documentation:</text>
+        <para>
+          <num>(a)</num>
+          <text>For the 2 years preceding entry into the reinsurance agreement and on an annual basis thereafter, the assuming insurer’s annual audited financial statements, in accordance with the applicable law of the jurisdiction of its head office or domiciliary jurisdiction, as applicable, including the external audit report;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>For the 2 years preceding entry into the reinsurance agreement, the solvency and financial condition report or actuarial opinion, if filed with the assuming insurer’s supervisor;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>An updated list of all disputed and overdue reinsurance claims outstanding for 90 days or more, regarding reinsurance assumed from ceding insurers domiciled in the U.S. shall be submitted prior to entry into the reinsurance agreement and on a semi-annual basis thereafter; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Information regarding the assuming insurer’s assumed reinsurance by ceding insurer, ceded reinsurance by the assuming insurer, and reinsurance recoverable on paid and unpaid losses by the assuming insurer to allow for the evaluation of the criteria set forth in §C(6) of the regulation, shall be provided prior to entry into the reinsurance agreement and on a semi-annual basis thereafter;</text>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>The assuming insurer shall maintain a practice of prompt payment of claims under reinsurance agreements. The lack of prompt payment will be evidenced if any of the following criteria is met:</text>
+        <para>
+          <num>(a)</num>
+          <text>More than 15 percent of the reinsurance recoverable from the assuming insurer are overdue and in dispute as reported to the Commissioner;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>More than 15 percent of the assuming insurer’s ceding insurers or reinsurers have overdue reinsurance recoverable on paid losses of 90 days or more which are not in dispute and which exceed for each ceding insurer $100,000, or as otherwise specified in a covered agreement; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The aggregate amount of reinsurance recoverable on paid losses which are not in dispute, but are overdue by 90 days or more, exceeds $50,000,000, or as otherwise specified in a covered agreement;</text>
+        </para>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>The assuming insurer’s supervisory authority shall confirm to the Commissioner on an annual basis that the assuming insurer complies with the requirements set forth in §C(2) and (3) of this regulation; and</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>The assuming insurer may provide the Commissioner with information on a voluntary basis.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>List of Reciprocal Jurisdictions.</text>
+      <para>
+        <num>(1)</num>
+        <text>The Commissioner shall create and publish a list of reciprocal jurisdictions.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A list of reciprocal jurisdictions is published through the NAIC Committee Process. The Commissioner’s list shall include any reciprocal jurisdiction as defined under <cite path="31|05|08|.28|B.">§B of this regulation</cite> and shall consider any other reciprocal jurisdiction included on the NAIC list. The Commissioner may approve a jurisdiction that does not appear on the NAIC list of reciprocal jurisdictions as provided by applicable law, regulation, or in accordance with criteria published through the NAIC Committee process.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The Commissioner may remove a jurisdiction from the list of reciprocal jurisdictions upon a determination that the jurisdiction no longer meets one or more of the requirements of a reciprocal jurisdiction, as provided by applicable law, regulation, or in accordance with a process published through the NAIC Committee process, except that the Commissioner may not remove from the list a reciprocal jurisdiction as defined under §B(1) and (2) of this regulation. Upon removal of a reciprocal jurisdiction from this list, credit for reinsurance ceded to an assuming insurer domiciled in that jurisdiction shall be allowed, if otherwise allowed pursuant to <cite doc="Md. Code" path="gin">Insurance Article, Title 5, Subtitle 9, Annotated Code of Maryland</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>List of Assuming Insurers.</text>
+      <para>
+        <num>(1)</num>
+        <text>The Commissioner shall timely create and publish a list of assuming insurers that have satisfied the conditions set forth in this regulation and to which cessions shall be granted credit in accordance with this regulation.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If an NAIC accredited jurisdiction has determined that the conditions set forth in <cite path="31|05|08|.28|C.">§C of this regulation</cite> have been met, the Commissioner may defer to that jurisdiction’s determination, and add such assuming insurer to the list of assuming insurers to which cessions shall be granted credit in accordance with this section.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The Commissioner may accept financial documentation filed with another NAIC accredited jurisdiction or with the NAIC in satisfaction of the requirements of <cite path="31|05|08|.28|C.">§C of this regulation</cite>.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>When requesting that the Commissioner defer to another NAIC accredited jurisdiction’s determination, an assuming insurer shall submit a properly executed NAIC Form RJ-1 and additional information as the Commissioner may require. A state that has received such a request shall notify other states through the NAIC Committee process and provide relevant information with respect to the determination of eligibility.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Suspension of Assuming Insurers.</text>
+      <para>
+        <num>(1)</num>
+        <text>If the Commissioner determines that an assuming insurer no longer meets one or more of the requirements under this regulation, the Commissioner may revoke or suspend the eligibility of the assuming insurer for recognition under this section.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>While an assuming insurer’s eligibility is suspended, no reinsurance agreement issued, amended or renewed after the effective date of the suspension qualifies for credit except to the extent that the assuming insurer’s obligations under the contract are secured in accordance with <cite doc="Md. Code" path="gin|5-914">Insurance Article, §5-914, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If an assuming insurer’s eligibility is revoked, no credit for reinsurance may be granted after the effective date of the revocation with respect to any reinsurance agreements entered into by the assuming insurer, including reinsurance agreements entered into prior to the date of revocation, except to the extent that the assuming insurer’s obligations under the contract are secured in a form acceptable to the Commissioner and consistent with the provisions of <cite doc="Md. Code" path="gin|5-914">Insurance Article, §5-914, Annotated Code of Maryland</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Security.</text>
+      <para>
+        <num>(1)</num>
+        <text>Before denying statement credit or imposing a requirement to post security with respect to <cite path="31|05|08|.28|F.">§F of this regulation</cite> or adopting any similar requirement that will have substantially the same regulatory impact as security, the Commissioner shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Communicate with the ceding insurer, the assuming insurer, and the assuming insurer’s supervisory authority that the assuming insurer no longer satisfies one of the conditions listed in <cite path="31|05|08|.28|C.">§C of this regulation</cite>;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Provide the assuming insurer with 30 days from the initial communication to submit a plan to remedy the defect, and 90 days from the initial communication to remedy the defect, except in exceptional circumstances in which a shorter period is necessary for policyholder and other consumer protection; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Provide a written explanation to the assuming insurer of any of the requirements set out in this section.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>After the expiration of 90 days or less, as set out in <cite path="31|05|08|.28|G.|(1)|(b)">§G(1)(b) of this regulation</cite>, if the Commissioner determines that no or insufficient action was taken by the assuming insurer, the Commissioner may impose any of the requirements as set out in this section.</text>
+      </para>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>If subject to a legal process of rehabilitation, liquidation, or conservation, as applicable, the ceding insurer, or its representative, may seek and, if determined appropriate by the court in which the proceedings are pending, may obtain an order requiring that the assuming insurer post security for all outstanding liabilities.</text>
+    </para>
+  </section>
+  <section cache:ref-path="31|05|08|.29">
+    <prefix>Regulation</prefix>
+    <num>.29</num>
+    <heading>Term and Universal Life Insurance Reserve Financing.</heading>
+    <para>
+      <num>A.</num>
+      <text>The purpose and intent of this regulation is to establish uniform, national standards governing reserve financing arrangements pertaining to life insurance policies containing guaranteed nonlevel gross premiums, guaranteed nonlevel benefits, and universal life insurance policies with secondary guarantees; and to ensure that, with respect to each such financing arrangement, funds consisting of primary security and other security, as defined in <cite path="|31|05|08|.02">Regulation .02 of this chapter</cite>, are held by or on behalf of ceding insurers in the forms and amounts required herein.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Applicability of this Regulation.</text>
+      <para>
+        <num>(1)</num>
+        <text>This regulation shall apply to reinsurance treaties that cede liabilities pertaining to covered policies, as that term is defined in <cite path="|31|05|08|.02|B.|(4)">Regulation .02B(4) of this chapter</cite>, issued by a life insurance company domiciled in this State.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>This regulation and Regulations <cite path="|31|05|08|.03">.03</cite>—<cite path="|31|05|08|.28">.28</cite> of this chapter shall both apply to such reinsurance treaties; provided that, in the event of a direct conflict between the provisions of this regulation and Regulations <cite path="|31|05|08|.03">.03</cite>—<cite path="|31|05|08|.28">.28</cite> of this chapter, the provisions of this regulations shall apply, but only to the extent of the conflict.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>This regulation does not apply to:</text>
+        <para>
+          <num>(a)</num>
+          <text>Reinsurance of:</text>
+          <para>
+            <num>(i)</num>
+            <text>Policies that satisfy the criteria for exemption set forth in <cite path="31.05.03.11|F.">COMAR 31.05.03.11F</cite> or G and which are issued before the effective date of this regulation;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Portions of policies that satisfy the criteria for exemption set forth in <cite path="31.05.03.11|E.">COMAR 31.05.03.11E</cite> and which are issued before the effective date of this regulation;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Any universal life insurance policy that has a secondary guarantee period, if any, of 5 years or less, has specified premium for the secondary guarantee period that is not less than the net level reserve premium for the secondary guarantee period based on the Commissioners Standard Ordinary valuation tables and valuation interest rate applicable to the issue year of the policy, and has an initial surrender charge that is not less than 100 percent of the first year annualized specified premium for the secondary guarantee period;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Credit life insurance;</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>Any variable life insurance policy that provides for life insurance, the amount or duration of which varies according to the investment experience of any separate account or accounts; or</text>
+          </para>
+          <para>
+            <num>(vi)</num>
+            <text>Any group life insurance certificate unless the certificate provides for a stated or implied schedule of maximum gross premiums required in order to continue coverage in force for a period in excess of 1 year;</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Reinsurance ceded to an assuming insurer that meets the applicable requirements of Insurance Article, §§<cite doc="Md. Code" path="gin|5-904">5-904</cite>(e) and <cite doc="Md. Code" path="gin|5-907">5-907</cite>, Annotated Code of Maryland;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Reinsurance ceded to an assuming insurer that meets the applicable requirements of <cite doc="Md. Code" path="gin|5-904">Insurance Article, §5-904(c) </cite>or (d) or §5-906, Annotated Code of Maryland, and that:</text>
+          <para>
+            <num>(i)</num>
+            <text>Prepares statutory financial statements in compliance with the NAIC Accounting Practices and Procedures Manual, without any departure from NAIC statutory accounting practices and procedures pertaining to the admissibility or valuation of assets or liabilities that increase the assuming insurer’s reported surplus and are material enough that they need to be disclosed in the financial statement of the assuming insurer pursuant to Statement of Statutory Accounting Principles No. 1; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Is not in a company action level event, regulatory action level event, authorized control level event, or mandatory control level event as those terms are defined in Insurance Article, §§<cite doc="Md. Code" path="gin|4-305">4-305</cite>—<cite doc="Md. Code" path="gin|4-308">4-308</cite>, Annotated Code of Maryland, when its risk-based capital is calculated in accordance with the life risk-based capital report including overview and instructions for companies, as the same may be amended by the NAIC from time to time, without deviation;</text>
+          </para>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Reinsurance ceded to an assuming insurer that meets the applicable requirements of <cite doc="Md. Code" path="gin|5-904">Insurance Article, §5-904(c) </cite>or (d) or §5-906, Annotated Code of Maryland, and that:</text>
+          <para>
+            <num>(i)</num>
+            <text>Is not an affiliate, as that term is defined in <cite doc="Md. Code" path="gin|7-101">Insurance Article, §7-101, </cite>Annotated Code Maryland, of the insurer ceding the business to the assuming insurer or any insurer that directly or indirectly ceded the business to that ceding insurer;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Prepares statutory financial statements in compliance with the NAIC Accounting Practices and Procedures Manual;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Is both licensed or accredited in at least ten states including its state of domicile and not licensed in any state as a captive, special purpose vehicle, special purpose financial captive, special purpose life reinsurance company, limited purpose subsidiary, or any other similar licensing regime; and</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Is not, or would not be below 500 percent of the authorized control level RBC as that term is defined in <cite doc="Md. Code" path="gin|4-301">Insurance Article, §4-301, Annotated Code of Maryland</cite>, when its risk-based capital is calculated in accordance with the life risk-based capital reporting including overview and instructions for companies, as the same may be amended by the NAIC from time to time, without deviation, and without recognition of any departures from NAIC statutory accounting practices and procedures pertaining to the admission or valuation of assets or liabilities that increase the assuming insurer’s reported surplus;</text>
+          </para>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Reinsurance ceded to an assuming insurer that meets the requirements of <cite doc="Md. Code" path="gin|5-916">Insurance Article, §5-916(b)(4), Annotated Code of Maryland</cite>; or</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Reinsurance not otherwise exempt under §B(3)(a)—(e) of this regulation if the Commissioner, after consulting with the NAIC Financial Analysis Working Group or other group of regulators designated by the NAIC, as applicable, determines under all the facts and circumstances that all of the following apply:</text>
+          <para>
+            <num>(i)</num>
+            <text>The risks are clearly outside of the intent and purpose of this regulation;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The risks are included within the scope of this regulation only as a technicality; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>The application of this regulation to those risks is not necessary to provide appropriate protection to policyholders.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The Commissioner shall publicly disclose any decision made pursuant to <cite path="31|05|08|.29|B.|(3)|(f)">§B(3)(f) of this regulation</cite> to exempt a reinsurance treaty from this regulation, as well as the general basis for the decision, including a summary description of the treaty.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The actuarial method to establish the required level of primary security for each reinsurance treaty subject to this regulation shall be VM-20, applied on a treaty-by-treaty basis, including all relevant definitions, from the Valuation Manual as then in effect. This method shall be applied as follows:</text>
+      <para>
+        <num>(1)</num>
+        <text>For covered policies described in <cite path="|31|05|08|.02|B.|(4)|(a)">Regulation .02B(4)(a) of this chapter</cite>, the actuarial method is the greater of the deterministic reserve or the net premium reserve regardless of whether the criteria for exemption testing can be met;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If, for covered policies described in <cite path="|31|05|08|.02|B.|(4)|(a)">Regulation .02B(4)(a) of this chapter</cite>, the covered policies do not meet the requirements of the stochastic reserve exclusion test in the Valuation Manual, then the actuarial method is the greatest of the deterministic reserve, the stochastic reserve, or the net premium reserve;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If, for covered policies described in <cite path="|31|05|08|.02|B.|(4)|(a)">Regulation .02B(4)(a) of this chapter</cite>, the covered policies are reinsured in a reinsurance treaty that also contains covered policies described in <cite path="|31|05|08|.02|B.|(4)|(b)">Regulation .02B(4)(b) of this chapter</cite>, the ceding insurer may elect to instead use <cite path="31|05|08|.29|C.|(5)">§C(5) of this regulation</cite> as the actuarial method for the entire reinsurance agreement;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Regardless of whether §C(1), (2), (3), or (5) of this regulation is used, the actuarial method shall comply with any requirements or restrictions that the Valuation Manual imposes when aggregating these policy types for purposes of principle-based reserve calculations;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>For covered policies described in <cite path="|31|05|08|.02|B.|(4)|(b)">Regulation .02B(4)(b) of this chapter</cite>, the actuarial method is the greatest of the deterministic reserve, the stochastic reserve, or the net premium reserve regardless of whether the criteria for exemption testing can be met;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Except as provided in <cite path="31|05|08|.29|C.|(7)">§C(7) of this regulation</cite>, the actuarial method shall be applied on a gross basis to all risks with respect to the covered policies as originally issued or assumed by the ceding insurer;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>If the reinsurance treaty cedes less than 100 percent of the risk with respect to the covered policies, then the required level of primary security may be reduced as follows:</text>
+        <para>
+          <num>(a)</num>
+          <text>If a reinsurance treaty cedes only a quota share of some or all of the risks pertaining to the covered policies, the required level of primary security, as well as any adjustment under <cite path="31|05|08|.29|C.|(7)|(c)">§C(7)(c) of this regulation</cite>, may be reduced to a pro rata portion in accordance with the percentage of the risk ceded;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>If the reinsurance treaty in a non-exempt arrangement cedes only the risks pertaining to a secondary guarantee, the required level of primary security may be reduced by an amount determined by applying the actuarial method on a gross basis to all risks, other than risk relating to the secondary guarantee, pertaining to the covered policies, except that for covered policies for which the ceding insurer did not elect to apply the provisions of VM-20 to establish statutory reserves, the required level of primary security may be reduced by the statutory reserve retained by the ceding insurer on those covered policies, where the retained reserve of those covered policies shall be reflective of any reduction pursuant to the cession of mortality risk on a yearly renewable term basis in an exempt arrangement;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>If a portion of the covered policy risk is ceded to another reinsurer on a yearly renewable term basis in an exempt arrangement, the required level of primary security may be reduced by the amount resulting by applying the actuarial method including the reinsurance section of VM-20 to the portion of the covered policy risks ceded in the exempt arrangement, except that for covered policies issued prior to January 1, 2017, this adjustment, is not to exceed [cx/ (2 * number of reinsurance premiums per year)] where cx is calculated using the same mortality table used in calculating the net premium reserve;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>For any other treaty ceding a portion of risk to a different reinsurer, including, but not limited to stop loss, excess of loss and other non-proportional reinsurance treaties, there will be no reduction in the required level of primary security;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>It is possible for any combination of §C(7)(a)—(d) of this regulation to apply. Such adjustments to the required level of primary security will be done in the sequence that accurately reflects the portion of the risk ceded via the treaty. The ceding insurer shall document the rationale and steps taken to accomplish the adjustments to the required level of primary security due to the cession of less than 100 percent of the risk; and</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>The adjustments for other reinsurance will be made only with respect to reinsurance treaties entered into directly by the ceding insurer. The ceding insurer shall make no adjustment as a result of a retrocession treaty entered into by the assuming insurers;</text>
+        </para>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>In no event shall the required level of primary security resulting from application of the actuarial method exceed the amount of statutory reserves ceded;</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>If the ceding insurer cedes risks with respect to covered policies, including any riders, in more than one reinsurance treaty subject to this regulation, in no event shall the aggregate required level of primary security for those reinsurance treaties be less than the required level of primary security calculated using the actuarial method as if all risks ceded in those treaties were ceded in a single treaty subject to this regulation;</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>If a reinsurance treaty subject to this regulation ceded risk on both covered and non-covered policies, credit for the ceded reserves shall be determined as follows:</text>
+        <para>
+          <num>(a)</num>
+          <text>The actuarial method shall be used to determine the required level of primary security for the covered policies, and <cite path="31|05|08|.29|D.">§D of this regulation</cite> shall be used to determine the reinsurance credit for the covered policy reserves; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Credit for the non-covered policy reserves shall be granted only to the extent that security, in addition to the security held to satisfy the requirements of <cite path="31|05|08|.29|C.|(10)|(a)">§C(10)(a) of this regulation</cite>, is held by or on behalf of the ceding insurer in accordance with <cite doc="Md. Code" path="gin">Insurance Article, Title 5, Subtitle 9, Annotated Code of Maryland</cite>. Any primary security used to meet the requirements of this subparagraph may not be used to satisfy the required level of primary security for the covered policies; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>For the purposes of both calculating the required level of primary security pursuant to the actuarial method and determining the amount of primary security and other security, as applicable, held by or on behalf of the ceding insurer, the following shall apply:</text>
+        <para>
+          <num>(a)</num>
+          <text>For assets, including any such assets held in trust, that would be admitted under the NAIC Accounting Practices and Procedures Manual if they were held by the ceding insurer, the valuations are to be determined according to statutory accounting procedures as if such assets were held in the ceding insurer’s general account and without taking into consideration the effect of any prescribed or permitted practices; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>For all other assets:</text>
+          <para>
+            <num>(i)</num>
+            <text>The valuations are to be those that were assigned to the assets for the purpose of determining the amount of reserve credit taken;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The asset spread tables and asset default cost tables required by VM-20 shall be included in the actuarial method if adopted by the NAIC’s Life Actuarial(a) Task Force no later than the December 31 on or immediately preceding the valuation date for which the required level of primary security is being calculated; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>The tables of asset spreads and asset default costs shall be incorporated into the actuarial method in the manner specified in VM-20.</text>
+          </para>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Requirements Applicable to Covered Policies to Obtain Credit for Reinsurance; Opportunity for Remediation.</text>
+      <para>
+        <num>(1)</num>
+        <text>Subject to the exemptions described in <cite path="31|05|08|.29|B.|(3)">§B(3) of this regulation</cite> and the provisions of <cite path="31|05|08|.29|D.|(2)">§D(2) of this regulation</cite>, credit for reinsurance shall be allowed with respect to ceded liabilities pertaining to covered policies pursuant to <cite doc="Md. Code" path="gin|5-904">Insurance Article, §5-904, </cite>5-914, or 5-917, Annotated Code of Maryland, if, in additional to all other requirements imposed by law or regulation, the following requirements are met on a treaty-by-treaty basis:</text>
+        <para>
+          <num>(a)</num>
+          <text>The ceding insurer’s statutory policy reserves with respect to the covered policies are established in full and in accordance with the applicable requirements of <cite doc="Md. Code" path="gin">Insurance Article, Title 5, Subtitle 3, Annotated Code of Maryland</cite>, and related regulations and actuarial guidelines, and credit claimed for any reinsurance treaty subject to this regulation does not exceed the proportionate share of those reserves ceded under the contract;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The ceding insurer determines the required level of primary security with respect to each reinsurance treaty subject to this regulation and provides support for its calculation as determined to be acceptable to the Commissioner;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Funds consisting of primary security, in an amount at least equal to the required level of primary security, are held by or on behalf of the ceding insurer, as security under the reinsurance treaty within the meaning of <cite doc="Md. Code" path="gin|5-914">Insurance Article, §5-914, Annotated Code of Maryland</cite>, on a funds withheld, trust, or modified coinsurance basis;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Funds consisting of other security, in an amount at least equal to any portion of the statutory reserves as to which primary security is not held pursuant to <cite path="31|05|08|.29|D.|(1)|(c)">§D(1)(c) of this regulation</cite>, are held by or on behalf of the ceding insurer as security under the reinsurance treaty within the meaning of <cite doc="Md. Code" path="gin|5-914">Insurance Article, §5-914, Annotated Code of Maryland</cite>;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Any trust used to satisfy the requirements of this <cite path="31|05|08|.29|D.">§D of this regulation</cite> shall comply with all of the conditions and qualifications of <cite path="|31|05|08|.15">Regulation .15 of this chapter</cite>, except that:</text>
+          <para>
+            <num>(i)</num>
+            <text>Funds consisting of primary security or other security held in trust, shall for the purposes identified in <cite path="31|05|08|.29|C.|(11)">§C(11) of this regulation</cite>, be valued according to the valuation rules set forth in <cite path="31|05|08|.29|C.|(11)">§C(11) of this regulation</cite>, as applicable;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>There are no affiliate investment limitations with respect to any security held in such trust if such security is not needed to satisfy the requirements of <cite path="31|05|08|.29|D.|(1)|(c)">§D(1)(c) of this regulation</cite>;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>The reinsurance treaty shall prohibit withdrawals or substitutions of trust assets that would leave the fair market value of the primary security within the trust (when aggregated with primary security outside the trust that is held by or on behalf of the ceding insurer in the manner required by <cite path="31|05|08|.29|D.|(1)|(c)">§D(1)(c) of this regulation</cite>) below 102 percent of the level required by <cite path="31|05|08|.29|D.|(1)|(c)">§D(1)(c) of this regulation</cite> at the time of the withdrawal or substitution; and</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>The determination of reserve credit under <cite path="|31|05|08|.20">Regulation .20 of this chapter</cite> shall be determined according to the valuation rules set forth in <cite path="31|05|08|.29|C.|(11)">§C(11) of this regulation</cite>, as applicable; and</text>
+          </para>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>The reinsurance treaty has been approved by the Commissioner.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Requirements at Inception Date and on an Ongoing Basis; Remediation.</text>
+        <para>
+          <num>(a)</num>
+          <text>The requirements of <cite path="31|05|08|.29|D.|(1)">§D(1) of this regulation</cite>, shall be satisfied as of the date that risks under covered policies are ceded, if such date is on or after the effective date of this regulation, and on an ongoing basis thereafter.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Under no circumstances shall a ceding insurer take or consent to any action or series of actions that would result in a deficiency under §D(1)(c) or (d) of this regulation with respect to any reinsurance treaty under which covered policies have been ceded, and in the event that a ceding insurer becomes aware at any time that such a deficiency exists, it shall use its best efforts to arrange for the deficiency to be eliminated as quickly as possible.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Prior to the due date of each quarterly or annual statement, each life insurance company that has ceded reinsurance within the scope of <cite path="31|05|08|.29|B.">§B of this regulation</cite> shall perform an analysis, on a treaty-by-treaty basis, to determine, as to each reinsurance treaty under which covered policies have been ceded, whether as of the end of the immediately preceding calendar quarter (the valuation date) the requirements of §D(1)(c) and (d) of this regulation were satisfied. The ceding insurer shall establish a liability equal to the excess of the credit for reinsurance taken over the amount of primary security actually held pursuant to <cite path="31|05|08|.29|D.|(1)|(c)">§D(1)(c) of this regulation</cite>, unless either:</text>
+          <para>
+            <num>(i)</num>
+            <text>The requirements of §D(1)(c) and (d) of this regulation were fully satisfied as of the valuation date as to such reinsurance treaty; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Any deficiency has been eliminated before the due date of the quarterly or annual statement to which the valuation date relates through the addition of primary security or other security, as the case may be, in such amount and in such form as would have caused the requirements of §D(1)(c) and (d) of this regulation to be fully satisfied as of the valuation date.</text>
+          </para>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Nothing in <cite path="31|05|08|.29|D.|(2)|(c)">§D(2)(c) of this regulation</cite> shall be construed to allow a ceding company to maintain any deficiency under §D(1)(c) or (d) of this regulation for any period of time longer than is reasonably necessary to eliminate it.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>No insurer that has covered policies to which this regulation applies shall take any action or series of actions, or enter into any transaction or arrangement or series of transactions or arrangements if the purpose of such action, transaction, or arrangement or series thereof is to avoid the requirements of this regulation, or to circumvent its purpose and intent.</text>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Insurance Article, §§<cite doc="Md. Code" path="gin|1-101">1-101</cite>(jj), <cite doc="Md. Code" path="gin|2-109">2-109</cite>, <cite doc="Md. Code" path="gin|2-205">2-205</cite>, <cite doc="Md. Code" path="gin|2-209">2-209</cite>, and <cite doc="Md. Code" path="gin|5-901">5-901</cite>—<cite doc="Md. Code" path="gin|5-917">5-917</cite>, Annotated Code of Maryland</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container">Effective date:</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1993-10-11">Regulations <cite path="|31|05|08|.01">.01</cite>—<cite path="|31|05|08|.08">.08</cite> adopted as an emergency provision effective June 17, 1993 (20:14 Md. R. 1164); adopted permanently effective October 11, 1993 (20:20 Md. R. 1571)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1998-06-15">Regulations .02B and .08F amended, and Regulations <cite path="|31|05|08|.09">.09</cite>—<cite path="|31|05|08|.17">.17</cite> adopted, as an emergency provision effective December 19, 1997 (25:2 Md. R. 73); adopted permanently effective June 15, 1998 (25:12 Md. R. 947)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1998-09-07" discontinuity="true">Chapter recodified from <cite path="|09.30.97">COMAR 09.30.97</cite> to <cite path="|31.05.08">COMAR 31.05.08</cite> effective September 7, 1998 (25:18 Md. R. 1439)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2006-06-05" discontinuity="true">Regulations <cite path="|31|05|08|.01">.01</cite>—<cite path="|31|05|08|.17">.17</cite> repealed and new Regulations <cite path="|31|05|08|.01">.01</cite>—<cite path="|31|05|08|.24">.24</cite> adopted effective June 5, 2006 (33:11 Md. R. 953)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2014-08-18" discontinuity="true">Chapter revised effective August 18, 2014 (41:16 Md. R. 947)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2022-10-01"><cite path="|31|05|08|.02|B.">Regulation .02B</cite> amended effective October 1, 2022 (49:19 Md. R. 868)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2021-07-01"><cite path="|31|05|08|.24">Regulation .24</cite> amended effective July 1, 2021 (48:13 Md. R. 510)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2023-12-11"><cite path="|31|05|08|.28|D.">Regulation .28D</cite> amended effective December 11, 2023 (50:24 Md. R. 1043)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2022-10-01"><cite path="|31|05|08|.29">Regulation .29</cite> adopted effective October 1, 2022 (49:19 Md. R. 868)</annotation>
+  </annotations>
+</container>

@@ -1,0 +1,2402 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>02</num>
+  <heading>Long-Term Care Insurance — Premium Rates and Reserves</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Applicability and Scope.</heading>
+    <text>This chapter applies to all long-term care insurance delivered or issued for delivery in this State by insurers, nonprofit health service plans, and health maintenance organizations. This chapter is not intended to supersede other applicable insurance laws or regulations which do not conflict with this chapter.</text>
+  </section>
+  <section cache:ref-path="31|14|02|.02">
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>"Employer group long-term care insurance" means a long-term care insurance policy that is:</text>
+        <para>
+          <num>(a)</num>
+          <text>Issued or delivered in Maryland to:</text>
+          <para>
+            <num>(i)</num>
+            <text>One or more employers or labor organizations; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>A trust or the trustees of a fund established by one or more employers or labor organizations, or by a combination of employers or labor organizations; and</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Designed for:</text>
+          <para>
+            <num>(i)</num>
+            <text>Employees or former employees, or a combination of employees and former employees, of the employer or employers; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Members or former members, or a combination of members and former members, of the labor organization or labor organizations.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>"Exceptional increase" means only those increases filed by an insurer as exceptional for which the Commissioner determines that the need for a premium rate increase is justified due to:</text>
+        <para>
+          <num>(a)</num>
+          <text>Changes in laws or regulations applicable to long-term care coverage in the State; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Increased and unexpected utilization that affects the majority of insurers of similar products.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>"Incidental" means that the value of the long-term care benefits provided, as of the date of issue, is less than 10 percent of the total value of the benefits provided over the life of the policy.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Long-Term Care Insurance.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Long-term care insurance" means any group or individual insurance policy, contract, certificate, or rider issued, delivered, or offered by an insurer that:</text>
+          <para>
+            <num>(i)</num>
+            <text>Is advertised, marketed, offered, or designed to provide coverage for not less than 24 consecutive months for covered persons on an expense incurred, indemnity, prepaid, or insured basis; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Provides one or more necessary or appropriate diagnostic, preventive, therapeutic, rehabilitative, maintenance, or personal care services provided in a situation other than an acute care unit of a hospital.</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Long-term care insurance includes any product that is advertised, marketed, or offered as long-term care insurance.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>"Long-term care insurance" does not include any insurance policy, contract, certificate, or rider which is offered primarily to provide:</text>
+          <para>
+            <num>(i)</num>
+            <text>Basic Medicare supplement coverage;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Hospital confinement indemnity coverage;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Basic hospital expense or medical-surgical expense coverage;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Disability income protection coverage;</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>Accident-only coverage;</text>
+          </para>
+          <para>
+            <num>(vi)</num>
+            <text>Specified disease or specified accident coverage; or</text>
+          </para>
+          <para>
+            <num>(vii)</num>
+            <text>Skilled nursing care.</text>
+          </para>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>"Long-term care insurance" does not include benefits provided under any life insurance policy, contract, or rider:</text>
+          <para>
+            <num>(i)</num>
+            <text>That accelerates the death benefit specifically for one or more of the qualifying events of terminal illness, a medical condition requiring extraordinary medical intervention, permanent institutional confinement, or institutional confinement for a lengthy confinement;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>That provides the option of a lump-sum payment for one or more of the benefits in <cite path="31|14|02|.02|B.|(4)|(d)|(i)">§B(4)(d)(i) of this regulation</cite>; or</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>In which neither benefits nor eligibility for benefits is conditioned on receipt of long-term care.</text>
+          </para>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>"Long-term care insurance" does not include any certificate issued under an out-of-State employer group contract.</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>"Loss ratio" means the ratio of losses incurred to premiums earned on policies issued, delivered, or renewed in the State.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>"Out-of-State employer group contract" means a group contract that is:</text>
+        <para>
+          <num>(a)</num>
+          <text>Entered into with an employer in a state other than Maryland; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Issued directly to an employer under the laws of that employer's state.</text>
+        </para>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>"Policy" means any group or individual policy, contract, subscriber agreement, rider, certificate, or endorsement delivered or issued for delivery in the State by an insurer, a nonprofit health service plan, health maintenance organization, or a preferred provider organization.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>"Qualified actuary" means a member in good standing of the American Academy of Actuaries.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>Similar Policy Forms.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Similar policy forms" means all of the long-term care insurance policies and certificates issued by an insurer in the same long-term care benefit classification as the policy form being considered.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>With respect to certificates issued under employer group long-term care insurance policies, "similar policy forms" includes other certificates issued under employer group long-term care insurance policies with the same long-term care benefit classifications.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>With respect to certificates issued under employer group long-term care insurance policies, "similar policy forms" does not include certificates or policies issued as long-term care insurance, except those certificates described in <cite path="31|14|02|.02|B.|(9)|(b)">§B(9)(b) of this regulation</cite>.</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>For purposes of determining similar policy forms, long-term care policies and certificates shall be considered in the following three separate long-term care benefit classifications:</text>
+          <para>
+            <num>(i)</num>
+            <text>Institutional long-term care benefits only;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Noninstitutional long-term care benefits only; or</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Comprehensive long-term care benefits.</text>
+          </para>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="31|14|02|.03">
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Required Disclosure of Rating Practices to Consumers.</heading>
+    <para>
+      <num>A.</num>
+      <text>Applicability.</text>
+      <para>
+        <num>(1)</num>
+        <text>Except as provided in §A(2) and (3) of this regulation, the provisions of this regulation apply to any long-term care policy or certificate issued in this State on or after October 1, 2002.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>For certificates issued on or after April 1, 2002, under an employer group long-term care insurance policy that was in force on April 1, 2002, the provisions of this regulation apply on the policy anniversary following April 1, 2003.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The requirements of §K(2)(ii)—(iv) of this regulation shall apply to any rate increase implemented in Maryland on or after March 1, 2018.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Other than policies for which no applicable premium rate or rate schedule increases can be made, insurers shall provide all of the information listed in <cite path="31|14|02|.03|D.">§D of this regulation</cite> to the applicant at the time of application or enrollment, unless the method of application does not allow for delivery at that time.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>If the method of application does not allow for delivery at the time of application or enrollment, an insurer shall provide all of the information listed in <cite path="31|14|02|.03|D.">§D of this regulation</cite> to the applicant no later than the time of delivery of the policy or certificate.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The insurer shall provide the following information to the applicant in accordance with §§B and C of this regulation:</text>
+      <para>
+        <num>(1)</num>
+        <text>A statement that the policy may be subject to rate increases in the future;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An explanation of potential future premium rate revisions, and the policyholder’s or certificate holder’s options in the event of a premium rate revision, including the options described in §B of <cite path="31.14.01.36">COMAR 31.14.01.36</cite>; and applicable disclosures described in §K(2)(iii) and (iv) of this regulation.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The premium rate or rate schedules applicable to the applicant that will be in effect until a request is made for an increase;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>A general explanation for applying premium rate or rate schedule adjustments that shall include:</text>
+        <para>
+          <num>(a)</num>
+          <text>A description of when premium rate or rate schedule adjustments will be effective (for example, next anniversary date or next billing date); and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The right to a revised premium rate or rate schedule as provided in <cite path="31|14|02|.03|D.|(2)">§D(2) of this regulation</cite> if the premium rate or rate schedule is changed; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Information regarding each premium rate increase on the policy form or similar policy forms over the past 10 years for Maryland or any other state that, at a minimum, identifies:</text>
+        <para>
+          <num>(a)</num>
+          <text>The policy forms for which premium rates have been increased;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The calendar years when the form was available for purchase; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The amount or percent of each increase, expressed as a percentage of the premium rate before the increase, or as minimum and maximum percentages if the rate increase is variable by rating characteristics.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>The insurer may, in a fair manner, provide explanatory information related to the rate increases in addition to the information required in <cite path="31|14|02|.03|D.|(5)">§D(5) of this regulation</cite>.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>An insurer may exclude premium rate increases from the disclosure required by <cite path="31|14|02|.03|D.|(5)">§D(5) of this regulation</cite>, if the premium rate increases only apply to blocks of business acquired from other nonaffiliated insurers or the long-term care policies acquired from other nonaffiliated insurers when those increases occurred before the acquisition.</text>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Disclosure Required for Initial Rate Increases on Acquired Insurance.</text>
+      <para>
+        <num>(1)</num>
+        <text>If an acquiring insurer files for a rate increase on a long-term care policy form acquired from nonaffiliated insurers or a block of policy forms acquired from nonaffiliated insurers on or before the later of April 1, 2002, or the end of a 24-month period following the acquisition of the block or policies, the acquiring insurer may exclude that rate increase from the disclosure required by <cite path="31|14|02|.03|D.|(5)">§D(5) of this regulation</cite>.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The nonaffiliated selling company shall include the disclosure of the rate increase referenced in <cite path="31|14|02|.03|G.|(1)">§G(1) of this regulation</cite> in accordance with <cite path="31|14|02|.03|D.|(5)">§D(5) of this regulation</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>Disclosure Required for Subsequent Rate Increases on Acquired Insurance.</text>
+      <para>
+        <num>(1)</num>
+        <text>This section applies if the acquiring insurer referenced in <cite path="31|14|02|.03|G.">§G of this regulation</cite> files for a rate increase after the rate increase described in <cite path="31|14|02|.03|G.">§G of this regulation</cite> on the same policy form acquired from nonaffiliated insurers or block of policy forms acquired from nonaffiliated insurers referenced in <cite path="31|14|02|.03|G.">§G of this regulation</cite>.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The acquiring insurer described in <cite path="31|14|02|.03|H.|(1)">§H(1) of this regulation</cite> shall make all disclosures required by <cite path="31|14|02|.03|D.|(5)">§D(5) of this regulation</cite>.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The disclosures required under <cite path="31|14|02|.03|H.|(2)">§H(2) of this regulation</cite> apply to all rate increases after the initial rate increase described in <cite path="31|14|02|.03|G.">§G of this regulation</cite>, including subsequent rate increases within the 24-month period referenced in <cite path="31|14|02|.03|G.">§G of this regulation</cite>.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The disclosure required by this section shall include the disclosure of the earlier rate increase referenced in <cite path="31|14|02|.03|G.">§G of this regulation</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>Acknowledgement.</text>
+      <para>
+        <num>(1)</num>
+        <text>Unless the method of application does not allow for signature at the time of application, an applicant shall sign an acknowledgement at the time of application that the insurer made the disclosure required under §D(1) and (5) of this regulation.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If, due to the method of application, the applicant cannot sign an acknowledgement at the time of application, the applicant shall sign no later than at the time of delivery of the policy or certificate.</text>
+      </para>
+    </para>
+    <para>
+      <num>J.</num>
+      <text>An insurer shall use the forms set forth in Regulations .08 and .09 of this chapter to comply with the requirements of <cite path="31|14|02|.03|D.">§D of this regulation</cite>.</text>
+    </para>
+    <para>
+      <num>K.</num>
+      <text>Notice of Premium Rate Schedule Increase.</text>
+      <para>
+        <num>(1)</num>
+        <text>An insurer shall provide notice of an upcoming premium rate schedule increase to all policyholders or certificate holders, if applicable, at least 45 days before the implementation of a premium rate schedule increase by the insurer.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A notice shall include:</text>
+        <para>
+          <num>(i)</num>
+          <text>The information required by <cite path="31|14|02|.03|D.">§D of this regulation</cite> when a rate increase is implemented;</text>
+        </para>
+        <para>
+          <num>(ii)</num>
+          <text>An offer to reduce policy benefits provided by the current coverage consistent with the requirements of <cite path="31.14.01.36">COMAR 31.14.01.36</cite>;</text>
+        </para>
+        <para>
+          <num>(iii)</num>
+          <text>A disclosure stating that all options available to the policyholder may not be of equal value; and</text>
+        </para>
+        <para>
+          <num>(iv)</num>
+          <text>In the case of a partnership policy, a disclosure that some benefit reduction options may result in a loss in partnership status that may reduce policyholder protections.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="31|14|02|.04">
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Initial Filing Requirements.</heading>
+    <para>
+      <num>A.</num>
+      <text>Applicability.</text>
+      <para>
+        <num>(1)</num>
+        <text>Sections B.—D. of this regulation apply to any long-term care policy issued in Maryland on or after October 1, 2002 and before September 1, 2017.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Sections E.—H. of this regulation apply to any to any long-term care policy issued in Maryland on or after September 1, 2017.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>An insurer shall provide the following information to the Commissioner at least 60 days before making a long-term care insurance form available for sale:</text>
+      <para>
+        <num>(1)</num>
+        <text>A copy of the disclosure documents required by <cite path="|31|14|02|.03">Regulation .03 of this chapter</cite>; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An actuarial certification consisting of at least the following:</text>
+        <para>
+          <num>(a)</num>
+          <text>A statement that the initial premium rate schedule is sufficient to cover anticipated costs under moderately adverse experience and that the premium rate schedule is reasonably expected to be sustainable over the life of the form with no future premium increases anticipated;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A statement that the policy design and coverage provided have been reviewed and taken into consideration;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A statement that the underwriting and claims adjudication processes have been reviewed and taken into consideration;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>A complete description of the basis for contract reserves that are anticipated to be held under the form, to include:</text>
+          <para>
+            <num>(i)</num>
+            <text>Sufficient detail or sample calculations provided so as to have a complete depiction of the reserve amount to be held;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>A statement that the assumptions used for reserves contain reasonable margins for adverse experience;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>A statement that the net valuation premium for renewal years does not increase; and</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>A statement that the difference between the gross premium and the net valuation premium for renewal years is sufficient to cover expected renewal expenses or, if such a statement cannot be made, a complete description of the situations where this does not occur; and</text>
+          </para>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>One of the following:</text>
+          <para>
+            <num>(i)</num>
+            <text>A statement that the premium rate schedule is not less than the premium rate schedule for existing similar policy forms also available from the insurer except for reasonable differences attributable to benefits; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>A comparison of the premium schedules for similar policy forms that are currently available from the insurer with an explanation of the differences.</text>
+          </para>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>In providing the statement required by <cite path="31|14|02|.04|B.|(2)|(d)|(iv)">§B(2)(d)(iv) of this regulation</cite>, the insurer may base this statement on the following:</text>
+      <para>
+        <num>(1)</num>
+        <text>An aggregate distribution of anticipated issues may be used as long as the underlying gross premiums maintain a reasonably consistent relationship; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If the gross premiums for certain age groups appear to be inconsistent with the requirement in <cite path="31|14|02|.04|B.|(2)|(d)|(iv)">§B(2)(d)(iv) of this regulation</cite>, the Commissioner may request a demonstration under <cite path="31|14|02|.04|D.">§D of this regulation</cite> based on a standard age distribution.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Additional Information.</text>
+      <para>
+        <num>(1)</num>
+        <text>The Commissioner may request an actuarial demonstration that benefits are reasonable in relation to premiums.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The actuarial demonstration shall include:</text>
+        <para>
+          <num>(a)</num>
+          <text>Premium and claim experience on similar policy forms, adjusted for any premium or benefit differences;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Relevant and credible data from other studies; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Information described in §D(2)(a) and (b) of this regulation.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If the Commissioner asks for additional information under this section, the period in <cite path="31|14|02|.04|B.">§B of this regulation</cite> does not include the period during which the insurer is preparing the requested information.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>An insurer shall provide the following information to the Commissioner at least 60 days before making a long-term care insurance form available for sale:</text>
+      <para>
+        <num>(1)</num>
+        <text>A copy of the disclosure documents required by <cite path="|31|14|02|.03">Regulation .03 of this chapter</cite>;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An actuarial certification consisting of at least the following:</text>
+        <para>
+          <num>(a)</num>
+          <text>A statement that the initial premium rate schedule is sufficient to cover anticipated costs under moderately adverse experience and that the premium rate schedule is reasonably expected to be sustainable over the life of the form with no future premium increases anticipated;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A statement that the policy design and coverage provided have been reviewed and taken into consideration;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A statement that the underwriting and claims adjudication processes have been reviewed and taken into consideration;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>A statement that the premiums contain one of the following:</text>
+          <para>
+            <num>(i)</num>
+            <text>At least the minimum composite margin for moderately adverse experience as specified in <cite path="31|14|02|.04|G.|(1)">§G(1) of this regulation</cite>; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The specification of and justification for a lower margin as required by <cite path="31|14|02|.04|G.|(2)">§G(2) of this regulation</cite>; and</text>
+          </para>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>One of the following:</text>
+          <para>
+            <num>(i)</num>
+            <text>A statement that the premium rate schedule is not less than the premium rate schedule for existing similar policy forms also available from the insurer except for reasonable differences attributable to benefits; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>A comparison of the premium schedules for similar policy forms that are currently available from the insurer with an explanation of the differences;</text>
+          </para>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>A statement that reserve requirements have been reviewed and considered. Support for this statement shall include:</text>
+          <para>
+            <num>(i)</num>
+            <text>Sufficient detail or sample calculations to provide a complete depiction of the reserve amounts to be held; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>A statement that the difference between the gross premium and the net valuation premium for renewal years is sufficient to cover expected renewal expenses; and</text>
+          </para>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>If the statement required in <cite path="31|14|02|.04|E.|(2)|(f)|(ii)">§E(2)(f)(ii) of this regulation</cite> cannot be made, a complete description of the circumstances under which this does not occur; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>An actuarial memorandum prepared, dated and signed by a member of the American Academy of Actuaries that:</text>
+        <para>
+          <num>(a)</num>
+          <text>Addresses and supports each specific item required as part of the actuarial certification;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Provides at least the following information:</text>
+          <para>
+            <num>(i)</num>
+            <text>An explanation of the review performed by the actuary before making the statements in §E(2)(b) and (c) of this regulation;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>A complete description of pricing assumptions;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Sources and levels of margins incorporated into the gross premiums that are the basis for the statement made in the actuarial certification under <cite path="31|14|02|.04|E.|(2)|(a)">§E(2)(a) of this regulation</cite>;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>An explanation of the analysis and testing performed in determining the sufficiency of the margins provided for in <cite path="31|14|02|.04|E.|(2)|(d)">§E(2)(d) of this regulation</cite>, to include a clear description of the deviations in margins between ages, sexes, plans or states other than those produced utilizing generally accepted actuarial methods for smoothing and interpolating gross premium scales; and</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>A demonstration that the gross premiums include the minimum composite margin specified in <cite path="31|14|02|.04|E.|(2)|(d)">§E(2)(d) of this regulation</cite>.</text>
+          </para>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>In providing the statement required by <cite path="31|14|02|.04|E.|(2)|(f)|(ii)">§E(2)(f)(ii) of this regulation</cite>, the insurer may base this statement on the following:</text>
+      <para>
+        <num>(1)</num>
+        <text>An aggregate distribution of anticipated issues may be used as long as the underlying gross premiums maintain a reasonably consistent relationship; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If the gross premiums for certain age groups appear to be inconsistent with the requirement in <cite path="31|14|02|.04|E.|(2)|(f)|(ii)">§E(2)(f)(ii) of this regulation</cite>, the Commissioner may request a demonstration under <cite path="31|14|02|.04|H.">§H of this regulation</cite> based on a standard age distribution.</text>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>The following provisions apply to the statement required under <cite path="31|14|02|.04|E.|(2)|(d)">§E(2)(d) of this regulation</cite>:</text>
+      <para>
+        <num>(1)</num>
+        <text>For the purposes of the actuarial certification under <cite path="31|14|02|.04|E.|(2)|(d)|(i)">§E(2)(d)(i) of this regulation</cite>, a composite margin may not be less than 10 percent of lifetime claims;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>For the purposes of the actuarial certification under <cite path="31|14|02|.04|E.|(2)|(d)|(ii)">§E(2)(d)(ii) of this regulation</cite>, a composite margin less than 10 percent may be justified in uncommon circumstances, if the following is submitted:</text>
+        <para>
+          <num>(a)</num>
+          <text>Full justification of the proposed amount; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Methods to monitor developing experience that would be the basis for withdrawal of approval for the lower margins;</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A composite margin lower than otherwise considered appropriate for the standalone long-term care policy may be justified for long-term care benefits if it is:</text>
+        <para>
+          <num>(a)</num>
+          <text>Provided through a life insurance policy or an annuity contract; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The lower composite margin is justified by appropriate actuarial demonstration addressing margins and volatility when considering the entirety of the product; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>A greater margin may be appropriate if the insurer has less credible experience to support its assumptions used to determine the premium rates.</text>
+      </para>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>Additional Information.</text>
+      <para>
+        <num>(1)</num>
+        <text>In any review of the actuarial certification and actuarial memorandum required by <cite path="31|14|02|.04|E.">§E of this regulation</cite>, the Commissioner may request review by an independent actuary with experience in long-term care pricing.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If the Commissioner asks for additional information under this section, the period in <cite path="31|14|02|.04|E.">§E of this regulation</cite> does not include the period during which the insurer is preparing the requested information.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="31|14|02|.05">
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Loss Ratio.</heading>
+    <para>
+      <num>A.</num>
+      <text>This regulation applies to all long-term care insurance policies or certificates except those covered under Regulations .04, .06, and, .06-1 of this chapter.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Minimum Loss Ratios.</text>
+      <para>
+        <num>(1)</num>
+        <text>Benefits under long-term care insurance policies shall be deemed reasonable in relation to premiums if the expected loss ratio is at least 60 percent, calculated in a manner which provides for adequate reserving of the long-term care insurance risk.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>In evaluating the expected loss ratio described in <cite path="31|14|02|.05|B.|(1)">§B(1) of this regulation</cite>, due consideration shall be given to all relevant factors, including:</text>
+        <para>
+          <num>(a)</num>
+          <text>Statistical credibility of incurred claims experience and earned premiums;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The period for which rates are computed to provide coverage;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Experienced and projected trends;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Concentration of experience within early policy duration;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Expected claim fluctuation;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Experience refunds, adjustments, or dividends;</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>Renewability features;</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>All appropriate expense factors;</text>
+        </para>
+        <para>
+          <num>(i)</num>
+          <text>Interest;</text>
+        </para>
+        <para>
+          <num>(j)</num>
+          <text>Experimental nature of the coverage;</text>
+        </para>
+        <para>
+          <num>(k)</num>
+          <text>Policy reserves;</text>
+        </para>
+        <para>
+          <num>(l)</num>
+          <text>Mix of business by risk classification; and</text>
+        </para>
+        <para>
+          <num>(m)</num>
+          <text>Product features such as long elimination periods, high deductibles, and high maximum limits.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Life Insurance Policies that Accelerate Benefits for Long-Term Care.</text>
+      <para>
+        <num>(1)</num>
+        <text>Section B of this regulation does not apply to life insurance policies that accelerate benefits for long-term care.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A life insurance policy that funds long-term care benefits entirely by accelerating the death benefit is considered to provide reasonable benefits in relation to premiums paid, if all of the following requirements are met:</text>
+        <para>
+          <num>(a)</num>
+          <text>The interest credited internally to determine cash value accumulations, including long-term care, if any, are guaranteed not to be less than the minimum guaranteed interest rate for cash value accumulations without long-term care set forth in the policy;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The portion of the policy that provides life insurance benefits meets the nonforfeiture requirements of <cite doc="Md. Code" path="gin">Insurance Article, Title 16, Subtitle 3, Annotated Code of Maryland</cite>;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The policy meets the disclosure requirements of Insurance Article, §§<cite doc="Md. Code" path="gin|18-108">18-108</cite> and <cite doc="Md. Code" path="gin|18-117">18-117</cite>, Annotated Code of Maryland;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Any policy illustration used for the policy meets the applicable requirements of <cite path="|31.09.09">COMAR 31.09.09</cite>; and</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>An actuarial memorandum is filed with the Commissioner that includes:</text>
+          <para>
+            <num>(i)</num>
+            <text>A description of the basis on which the long-term care rates were determined;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>A description of the basis for the reserves;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>A summary of the type of policy, benefits, renewability, general marketing method, and limits on ages of issuance;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>A description and a table of each actuarial assumption used;</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>A description and a table of the anticipated policy reserves and additional reserves to be held in each future year for active lives;</text>
+          </para>
+          <para>
+            <num>(vi)</num>
+            <text>The estimated average annual premium per policy and the average issue age;</text>
+          </para>
+          <para>
+            <num>(vii)</num>
+            <text>A statement as to whether underwriting is performed at the time of application; and</text>
+          </para>
+          <para>
+            <num>(viii)</num>
+            <text>A description of the effect of the long-term care policy provision on the required premiums, nonforfeiture values, and reserves on the underlying life insurance policy, both for active lives and those in long-term care claim status.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>For the expense assumptions under <cite path="31|14|02|.05|C.|(2)|(e)|(iv)">§C(2)(e)(iv) of this regulation</cite>, an insurer shall include the percent of premium dollars per policy and the dollars per unit of benefits, if any.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The statement required by <cite path="31|14|02|.05|C.|(2)|(e)|(vii)">§C(2)(e)(vii) of this regulation</cite> shall indicate whether underwriting is used. If underwriting is used, the statement shall include a description of the type or types of underwriting used, such as medical underwriting or functional assessment underwriting. If coverage is under a group policy, the statement shall indicate whether the enrollee or any dependent will be underwritten and when underwriting occurs.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="31|14|02|.06">
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Premium Rate Schedule Increases.</heading>
+    <para>
+      <num>A.</num>
+      <text>Applicability.</text>
+      <para>
+        <num>(1)</num>
+        <text>Except as provided in <cite path="31|14|02|.06|A.|(2)">§A(2) of this regulation</cite>, the provisions of this regulation apply to any long-term care policy or certificate issued in Maryland on or after October 1, 2002 and before September 1, 2017.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>For certificates issued on or after April 1, 2002, under an employer group long-term care insurance policy that was in force on April 1, 2002, the provisions of this regulation apply on the policy anniversary following April 1, 2003.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Premium Rate Increase Filing Requirements.</text>
+      <para>
+        <num>(1)</num>
+        <text>An insurer shall request approval of a pending premium rate schedule increase, including an exceptional increase, to the Commissioner at least 45 days before the notice to the policyholders.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The notice to the Commissioner required by <cite path="31|14|02|.06|B.|(1)">§B(1) of this regulation</cite> shall include:</text>
+        <para>
+          <num>(a)</num>
+          <text>Information required by <cite path="|31|14|02|.03">Regulation .03 of this chapter</cite>;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Certification by a qualified actuary that:</text>
+          <para>
+            <num>(i)</num>
+            <text>If the requested premium rate schedule increase is implemented and the underlying assumptions, which reflect moderately adverse conditions, are realized, no further premium rate schedule increases are anticipated; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The premium rate filing is in compliance with the provisions of this regulation;</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>An actuarial memorandum justifying the rate schedule change request that includes:</text>
+          <para>
+            <num>(i)</num>
+            <text>Lifetime projections of earned premiums and incurred claims based on the filed premium rate schedule increase;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The method and assumptions used in determining the lifetime projections described in <cite path="31|14|02|.06|B.|(2)|(c)|(i)">§B(2)(c)(i) of this regulation</cite>, including reflection of any assumptions that deviate from those used for pricing other forms currently available for sale;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Disclosure of how reserves have been incorporated in this rate increase whenever the rate increase will trigger contingent benefit upon lapse;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Disclosure of the analysis performed to determine why a rate adjustment is necessary, which pricing assumptions were not realized and why, and what other actions taken by the company have been relied on by the actuary;</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>A statement that policy design, underwriting, and claims adjudication practices have been taken into consideration;</text>
+          </para>
+          <para>
+            <num>(vi)</num>
+            <text>If it is necessary to maintain consistent premium rates for new certificates and certificates receiving a rate increase, composite rates reflecting projections of new certificates; and</text>
+          </para>
+          <para>
+            <num>(vii)</num>
+            <text>A demonstration that actual and projected costs exceed costs anticipated at the time of initial pricing under moderately adverse experience and that the composite margin specified in Regulation .04B(2)(d) or .04E(2)(d) of this chapter is projected to be exhausted.</text>
+          </para>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>A statement that renewal premium rate schedules are not greater than new business premium rate schedules except for differences attributable to benefits, unless sufficient justification is provided to the Commissioner; and</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Sufficient information for review and approval of the premium rate schedule increase by the Commissioner.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The lifetime projection and assumptions required to be filed under §B(2)(c)(i) and (ii) of this regulation shall comply with the following requirements:</text>
+        <para>
+          <num>(a)</num>
+          <text>Annual values for the 5 years preceding and the 3 years following the valuation date shall be provided separately;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The projections shall include the development of the lifetime loss ratio, unless the rate increase is an exceptional increase;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The projections shall demonstrate compliance with <cite path="31|14|02|.06|C.">§C of this regulation</cite>; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>For exceptional increases:</text>
+          <para>
+            <num>(i)</num>
+            <text>The projected experience shall be limited to the increases in claims expenses attributable to the approved reasons for the exceptional increase; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>If the Commissioner determines as provided in <cite path="|31|14|02|.07|C.">Regulation .07C of this chapter</cite> that offsets may exist, the insurer shall use appropriate net projected experience.</text>
+          </para>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>An insurer may request a premium rate schedule increase less than what is required under this regulation and the Commissioner may approve this premium rate schedule increase, without submission of the certification required under §B(2)(b)(i)of this regulation, if:</text>
+      <para>
+        <num>(1)</num>
+        <text>The actuarial memorandum discloses the premium rate schedule increase necessary to make the certification required under <cite path="31|14|02|.06|B.|(2)|(b)">§B(2)(b) of this regulation</cite>;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The premium rate schedule increase filing satisfies all other requirements of <cite path="31|14|02|.06|B.">§B of this regulation</cite>; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The premium rate schedule increase filing is, in the opinion of the Commissioner, in the best interest of policyholders.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>All premium rate schedule increases shall be determined in accordance with the following requirements:</text>
+      <para>
+        <num>(1)</num>
+        <text>Exceptional increases shall provide that 70 percent of the present value of projected additional premiums from the exceptional increase will be returned to policyholders in benefits;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Premium rate schedule increases shall be calculated such that the sum of the accumulated value of incurred claims, without the inclusion of active life reserves, and the present value of future projected incurred claims, without the inclusion of active life reserves, is not less than the sum of the following:</text>
+        <para>
+          <num>(a)</num>
+          <text>The accumulated value of the initial earned premium times 58 percent;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>85 percent of the accumulated value of prior premium rate schedule increases on an earned basis;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The present value of future projected initial earned premiums times 58 percent; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>85 percent of the present value of future projected premiums not in <cite path="31|14|02|.06|C.|(2)|(c)">§C(2)(c) of this regulation</cite> on an earned basis;</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If a policy form has both exceptional and other increases, the values in §C(2)(b) and (d) shall also include 70 percent for exceptional rate increase amounts;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>All present and accumulated values used to determine rate increases shall use the maximum valuation interest rate for contract reserves as specified in <cite path="|31|14|02|.13">Regulation .13 of this chapter</cite>; and</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The actuary shall disclose as a part of the actuarial memorandum the use of any appropriate averages.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Updated Projections.</text>
+      <para>
+        <num>(1)</num>
+        <text>For each rate increase that is implemented, the insurer shall file for approval by the Commissioner updated projections, as described in §B(2)(c)(i) and (ii) of this regulation, annually for the next 3 years and include a comparison of actual results to projected values.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Commissioner may extend the period to greater than 3 years if actual results are not consistent with projected values from prior projections.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>For group insurance policies that meet the conditions in <cite path="31|14|02|.06|K.">§K of this regulation</cite>, the projections required by this section shall be provided to the policyholder instead of filing with the Commissioner.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Lifetime Projections.</text>
+      <para>
+        <num>(1)</num>
+        <text>If any premium rate in the revised premium rate schedule is greater than 200 percent of the comparable rate in the initial premium schedule, lifetime projections, as described in §B(2)(c)(i) and (ii) of this regulation, shall be filed for approval by the Commissioner every 5 years following the end of the required period in <cite path="31|14|02|.06|D.">§D of this regulation</cite>.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>For group insurance policies that meet the conditions in <cite path="31|14|02|.06|K.">§K of this regulation</cite>, the projections required by this section shall be provided to the policyholder instead of filing with the Commissioner.</text>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Commissioner's Authority if Actual Experience Does Not Match Projected Experience.</text>
+      <para>
+        <num>(1)</num>
+        <text>If the Commissioner has determined that the actual experience following a rate increase does not adequately match the projected experience and that the current projections under moderately adverse conditions demonstrate that incurred claims will not exceed proportions of premiums specified in <cite path="31|14|02|.06|C.">§C of this regulation</cite>, the Commissioner may require the insurer to implement any of the following:</text>
+        <para>
+          <num>(a)</num>
+          <text>Premium rate schedule adjustments; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Other measures to reduce the difference between the projected and actual experience.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>In determining whether the actual experience adequately matches the projected experience, consideration shall be given to <cite path="31|14|02|.06|B.|(2)|(c)|(vi)">§B(2)(c)(vi) of this regulation</cite>, if applicable.</text>
+      </para>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>Filing Required if Rate Increase Causes Eligibility for Contingent Benefit.</text>
+      <para>
+        <num>(1)</num>
+        <text>If the majority of the policies or certificates to which the increase is applicable are eligible for the contingent benefit upon lapse, the insurer shall file:</text>
+        <para>
+          <num>(a)</num>
+          <text>A plan, subject to Commissioner approval, for improved administration or claims processing designed to eliminate the potential for further deterioration of the policy form requiring further premium rate schedule increases, or both, or to demonstrate that appropriate administration and claims processing have been implemented or are in effect; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The original anticipated lifetime loss ratio, and the premium rate schedule increase that would have been calculated according to <cite path="31|14|02|.06|C.">§C of this regulation</cite> had the greater of the original anticipated lifetime loss ratio or 58 percent been used in the calculations described in §C(2)(a) and (c) of this regulation.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If the insurer fails to file the plan required by <cite path="31|14|02|.06|G.|(1)|(a)">§G(1)(a) of this regulation</cite> or fails to receive approval from the Commissioner of the plan filed under <cite path="31|14|02|.06|G.|(1)|(a)">§G(1)(a) of this regulation</cite>, the Commissioner may impose the condition in <cite path="31|14|02|.06|H.">§H of this regulation</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>Lapse Rates.</text>
+      <para>
+        <num>(1)</num>
+        <text>The Commissioner shall review, for all policies included in the filing, the projected lapse rates and past lapse rates during the 12 months following each increase to determine if significant adverse lapsation has occurred or is anticipated, if a rate increase filing meets the following criteria:</text>
+        <para>
+          <num>(a)</num>
+          <text>The rate increase is not the first rate increase requested for the specific policy form or forms;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The rate increase is not an exceptional increase; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The majority of the policies or certificates to which the increase is applicable are eligible for the contingent benefit upon lapse.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If the Commissioner determines during the review described in <cite path="31|14|02|.06|H.|(1)">§H(1) of this regulation</cite> that significant adverse lapsation has occurred, is anticipated in the filing, or is evidenced in the actual results as presented in the updated projections provided by the insurer following the requested rate increase, the Commissioner may determine that a rate spiral exists.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If the Commissioner determines that a rate spiral exists as described in <cite path="31|14|02|.06|H.|(2)">§H(2) of this regulation</cite>, the Commissioner may require the insurer to offer, without underwriting, to all in force insureds subject to the rate increase the option to replace existing coverage with one or more reasonably comparable products being offered by the insurer or its affiliates.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The offer required by <cite path="31|14|02|.06|H.|(3)">§H(3) of this regulation</cite> shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Be subject to the approval of the Commissioner;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Be based on actuarially sound principles, but not be based on attained age; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Provide that maximum benefits under any new policy accepted by an insured shall be reduced by comparable benefits already paid under the existing policy.</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Maintenance of Experience. The insurer shall maintain the experience of all the replacement insureds separate from the experience of insureds originally issued the policy forms. In the event of a request for a rate increase on the policy form, the rate increase shall be limited to the lesser of:</text>
+        <para>
+          <num>(a)</num>
+          <text>The maximum rate increase determined based on the combined experience; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The maximum rate increase determined based only on the experience of insureds originally issued the form plus 10 percent.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>J.</num>
+      <text>If the Commissioner determines that the insurer has exhibited a persistent practice of filing inadequate initial premium rates for long-term care insurance, the Commissioner may, in addition to the provisions of <cite path="31|14|02|.06|H.">§H of this regulation</cite>, prohibit the insurer from either of the following:</text>
+      <para>
+        <num>(1)</num>
+        <text>Filing and marketing comparable coverage for a period of up to 5 years; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Offering all other similar coverages and limiting marketing of new applications to the products subject to recent premium rate schedule increases.</text>
+      </para>
+    </para>
+    <para>
+      <num>K.</num>
+      <text>Exemption for Incidental Coverage.</text>
+      <para>
+        <num>(1)</num>
+        <text>Sections A—I of this regulation do not apply to policies for which the long-term care benefits provided by the policy are incidental, as defined in <cite path="|31|14|02|.02|B.|(3)">Regulation .02B(3) of this chapter</cite>, if the policy complies with all of the following requirements:</text>
+        <para>
+          <num>(a)</num>
+          <text>The interest credited internally to determine cash value accumulations, including long-term care, if any, are guaranteed not to be less than the minimum guaranteed interest rate for cash value accumulations without long-term care set forth in the policy;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The portion of the policy that provides insurance benefits other than long-term care coverage meets the nonforfeiture requirements as applicable in any of the following:</text>
+          <para>
+            <num>(i)</num>
+            <text>The standard nonforfeiture requirements for life insurance found in <cite doc="Md. Code" path="gin">Insurance Article, Title 16, Subtitle 3, Annotated Code of Maryland</cite>;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The standard nonforfeiture requirements for individual deferred annuities found in <cite doc="Md. Code" path="gin">Insurance Article, Title 16, Subtitle 5, Annotated Code of Maryland</cite>; or</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>The requirements for variable annuities found in <cite path="|31.09.04">COMAR 31.09.04</cite>;</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The policy meets the disclosure requirements of Insurance Article, §§<cite doc="Md. Code" path="gin|18-108">18-108</cite> and <cite doc="Md. Code" path="gin|18-117">18-117</cite>, Annotated Code of Maryland;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>The portion of the policy that provides insurance benefits other than long-term care coverage meets the requirements as applicable in the following:</text>
+          <para>
+            <num>(i)</num>
+            <text>Policy illustrations for life insurance as required by <cite path="|31.09.09">COMAR 31.09.09</cite>;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Disclosure requirements for annuities as required by <cite path="|31.15.04">COMAR 31.15.04</cite>; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Disclosure requirements for variable annuities as required by <cite path="|31.09.04">COMAR 31.09.04</cite>;</text>
+          </para>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>An actuarial memorandum is filed with the Commissioner that includes:</text>
+          <para>
+            <num>(i)</num>
+            <text>A description of the basis on which the long-term care rates were determined;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>A description of the basis for the reserves;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>A summary of the type of policy, benefits, renewability, general marketing method, and limits on ages of issuance;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>A description and a table of each actuarial assumption used;</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>A description and a table of the anticipated policy reserves and additional reserves to be held in each future year for active lives;</text>
+          </para>
+          <para>
+            <num>(vi)</num>
+            <text>The estimated average annual premium per policy and the average issue age;</text>
+          </para>
+          <para>
+            <num>(vii)</num>
+            <text>A statement as to whether underwriting is performed at the time of application; and</text>
+          </para>
+          <para>
+            <num>(viii)</num>
+            <text>A description of the effect of the long-term care policy provision on the required premiums, nonforfeiture values, and reserves on the underlying insurance policy, both for active lives and those in long-term care claim status.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>For the expense assumptions used in <cite path="31|14|02|.06|J.|(1)|(e)|(iv)">§J(1)(e)(iv) of this regulation</cite>, an insurer shall include percent of premium dollars per policy and dollars per unit, if any.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Contents of Statement on Underwriting.</text>
+        <para>
+          <num>(a)</num>
+          <text>The statement required by <cite path="31|14|02|.06|J.|(1)|(e)|(vii)">§J(1)(e)(vii) of this regulation</cite> shall indicate whether underwriting is used.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>If underwriting is used, the statement shall include a description of the type or types of underwriting used, such as medical underwriting or functional assessment underwriting.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>If coverage is under a group policy, the statement shall indicate whether the enrollee or any dependent will be underwritten and when underwriting occurs.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>L.</num>
+      <text>Sections F and H of this regulation do not apply to employer group long-term care insurance if:</text>
+      <para>
+        <num>(1)</num>
+        <text>The policies insure 250 or more individuals and the policyholder has 5,000 or more eligible employees of a single employer; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The policyholder, and not the certificate holders, pays a material portion of the premium, which may not be less than 20 percent of the total premium for the group in the calendar year before the year a rate increase is filed.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="31|14|02|.06-1">
+    <prefix>Regulation</prefix>
+    <num>.06-1</num>
+    <heading>Premium Rate Schedule Increases for Policies Subject to Loss Ratio Limits Related to Original Filings.</heading>
+    <para>
+      <num>A.</num>
+      <text>Applicability.</text>
+      <para>
+        <num>(1)</num>
+        <text>Except as provided in <cite path="31|14|02|.06-1|A.|(2)">§A(2) of this regulation</cite>, this regulation applies to any long-term care policy or certificate issued in Maryland on or after September 1, 2017.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>For certificates issued on or after the effective date of this amended regulation under an employer group long-term care insurance policy as defined in <cite path="|31|14|02|.02|B.|(1)">Regulation .02B(1) of this chapter</cite> if the policy was in force at the time this amended regulation became effective, the provisions of this regulation shall apply on the policy anniversary following March 1, 2018.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Premium Rate Increase Filing Requirements.</text>
+      <para>
+        <num>(1)</num>
+        <text>An insurer shall provide notice of a pending premium rate schedule increase, including an exceptional increase, to the Commissioner at least 30 days before issuing the notice to the policyholders.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The notice to the Commissioner required by <cite path="31|14|02|.06-1|B.|(1)">§B(1) of this regulation</cite> shall include:</text>
+        <para>
+          <num>(a)</num>
+          <text>Information required by <cite path="|31|14|02|.03">Regulation .03 of this chapter</cite>;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Certification by a qualified actuary that:</text>
+          <para>
+            <num>(i)</num>
+            <text>If the requested premium rate schedule increase is implemented and the underlying assumptions, which reflect moderately adverse conditions, are realized, no further premium rate schedule increases are anticipated; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The premium rate filing is in compliance with the provisions of this regulation;</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>An actuarial memorandum justifying the rate schedule change request that includes:</text>
+          <para>
+            <num>(i)</num>
+            <text>Lifetime projections of earned premiums and incurred claims based on the filed premium rate schedule increase;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The method and assumptions used in determining the lifetime projections described in <cite path="31|14|02|.06-1|B.|(2)|(c)|(i)">§B(2)(c)(i) of this regulation</cite>, including reflection of any assumptions that deviate from those used for pricing other forms currently available for sale;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Disclosure of how reserves have been incorporated in this rate increase whenever the rate increase will trigger contingent benefit on lapse;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Disclosure of the analysis performed to determine why a rate adjustment is necessary, which pricing assumptions were not realized and why, and what other actions taken by the insurer have been relied on by the actuary;</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>A statement that policy design, underwriting and claims adjudication practices have been taken into consideration; and</text>
+          </para>
+          <para>
+            <num>(vi)</num>
+            <text>If it is necessary to maintain consistent premium rates for new certificates and certificates receiving a rate increase, the insurer will need to file composite rates reflecting projections of new certificates;</text>
+          </para>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>A statement that renewal premium rate schedules are not greater than new business premium rate schedules except for differences attributable to benefits, unless sufficient justification is provided to the Commissioner; and</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Sufficient information for review and approval of the premium rate schedule increase by the Commissioner.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The lifetime projection and assumptions required to be filed under §B(2)(c)(i) and (ii) of this regulation shall comply with the following requirements:</text>
+        <para>
+          <num>(a)</num>
+          <text>Annual values for the 5 years preceding and the 3 years following the valuation date shall be provided separately;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The projections shall include the development of the lifetime loss ratio, unless the rate increase is an exceptional increase;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The projections shall demonstrate compliance with <cite path="31|14|02|.06-1|C.">§C of this regulation</cite>; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>For exceptional increases:</text>
+          <para>
+            <num>(i)</num>
+            <text>The projected experience shall be limited to the increases in claims expenses attributable to the approved reasons for the exceptional increase; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>If the Commissioner determines as provided in <cite path="|31|14|02|.07|C.">Regulation .07C of this chapter</cite> that offsets may exist, the insurer shall use appropriate net projected experience.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The insurer may request and the Commissioner may approve a premium rate schedule increase less than what is required under this regulation without submission of the certification in <cite path="31|14|02|.06-1|B.|(2)|(b)|(i)">§B(2)(b)(i) of this regulation</cite>, if:</text>
+        <para>
+          <num>(a)</num>
+          <text>The actuarial memorandum discloses the premium rate schedule increase necessary to make the certification required under <cite path="31|14|02|.06-1|B.|(2)|(b)">§B(2)(b) of this regulation</cite>;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The premium rate schedule increase filing satisfies all other requirements of this regulation; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The premium rate schedule is, in the opinion of the Commissioner, in the best interest of policyholders.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>All premium rate schedule increases shall be determined in accordance with the following requirements:</text>
+      <para>
+        <num>(1)</num>
+        <text>Exceptional increases shall provide that 70 percent of the present value of projected additional premiums from the exceptional increase will be returned to policyholders in benefits;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Premium rate schedule increases shall be calculated such that the sum of the lesser of the accumulated value of actual incurred claims, without the inclusion of active life reserves, or the accumulated value of historic expected claims, with the inclusion of active life reserves, plus the present value of the future expected incurred claims, projected without the inclusion of active life reserves, will not be less than the sum of the following:</text>
+        <para>
+          <num>(a)</num>
+          <text>The accumulated value of the initial earned premium times 58 percent;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>85 percent of the accumulated value of prior premium rate schedule increases on an earned basis;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The present value of future projected initial earned premiums times 58 percent; and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>85 percent of the present value of future projected premiums not in <cite path="31|14|02|.06-1|C.|(2)|(c)">§C(2)(c) of this regulation</cite> on an earned basis;</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Expected claims shall be calculated as follows:</text>
+        <para>
+          <num>(a)</num>
+          <text>Original filing assumptions shall be assumed until new assumptions are filed as part of a rate increase;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>New assumptions shall be used for all periods beyond each requested effective date of a rate increase;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>For each calendar year, expected claims shall be based on in-force business at the beginning of the calendar year;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Expected claims shall include margins for moderately adverse experience that are:</text>
+          <para>
+            <num>(i)</num>
+            <text>Amounts included in the claims that were used to determine the lifetime loss ratio consistent with the original filing; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Amounts as modified in any rate increase filing.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>If a policy form has both exceptional and other increases, the values in §C(2)(b) and (d) shall also include 70 percent for exceptional rate increase amounts;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>All present and accumulated values used to determine rate increases, including the lifetime loss ratio consistent with the original filing reflecting margins for moderately adverse experience, shall use the maximum valuation interest rate for contract reserves as specified in <cite path="|31|14|02|.13">Regulation .13 of this chapter</cite>; and</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>The actuary shall disclose as a part of the actuarial memorandum the use of any appropriate averages.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Updated Projections.</text>
+      <para>
+        <num>(1)</num>
+        <text>For each rate increase that is implemented, the insurer shall file for approval by the Commissioner updated projections, as described in §B(2)(c)(i) and (ii) of this regulation, annually for the next 3 years and include a comparison of actual results to projected values.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The Commissioner may extend the period to greater than 3 years if actual results are not consistent with projected values from prior projections.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>For group insurance policies that meet the conditions in <cite path="31|14|02|.06-1|K.">§K of this regulation</cite>, the projections required by this section shall be provided to the policyholder instead of filing with the Commissioner.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Lifetime Projections.</text>
+      <para>
+        <num>(1)</num>
+        <text>If any premium rate in the revised premium rate schedule is greater than 200 percent of the comparable rate in the initial premium schedule, lifetime projections, as described in §B(2)(c)(i) and (ii) of this regulation, shall be filed for approval by the Commissioner every 5 years following the end of the required period in <cite path="31|14|02|.06-1|D.">§D of this regulation</cite>.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>For group insurance policies that meet the conditions in <cite path="31|14|02|.06-1|L.">§L of this regulation</cite>, the projections required by this section shall be provided to the policyholder instead of filing with the Commissioner.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Commissioner’s Authority if Actual Experience Does Not Match Projected Experience.</text>
+      <para>
+        <num>(1)</num>
+        <text>If the Commissioner has determined that the actual experience following a rate increase does not adequately match the projected experience and that the current projections under moderately adverse conditions demonstrate that incurred claims will not exceed proportions of premiums specified in <cite path="31|14|02|.06-1|C.">§C of this regulation</cite>, the Commissioner may require the insurer to implement any of the following:</text>
+        <para>
+          <num>(a)</num>
+          <text>Premium rate schedule adjustments; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Other measures to reduce the difference between the projected and actual experience.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>In determining whether the actual experience adequately matches the projected experience, consideration shall be given to <cite path="31|14|02|.06-1|B.|(2)|(c)|(vi)">§B(2)(c)(vi) of this regulation</cite>, if applicable.</text>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Filing Required if Rate Increase Causes Eligibility for Contingent Benefit.</text>
+      <para>
+        <num>(1)</num>
+        <text>If the majority of the policies or certificates to which the increase is applicable are eligible for the contingent benefit upon lapse, the insurer shall file:</text>
+        <para>
+          <num>(a)</num>
+          <text>A plan, subject to the Commissioner’s approval, for improved administration;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A plan, subject to the Commissioner’s approval, for improved claims processing; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Both plans, if applicable.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A plan filed in accordance with <cite path="31|14|02|.06-1|G.|(1)">§G(1) of this regulation</cite> shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Demonstrate that it is designed to eliminate the potential for further deterioration of the policy form requiring further premium rate schedule increases; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Demonstrate that appropriate administration or claims processing, or both, has been implemented or is in effect.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If the insurer fails to file a plan required by <cite path="31|14|02|.06-1|G.|(1)">§G(1) of this regulation</cite> or fails to receive approval from the Commissioner of the plan filed under <cite path="31|14|02|.06-1|G.|(1)">§G(1) of this regulation</cite>, the Commissioner may impose the requirements in <cite path="31|14|02|.06-1|H.">§H of this regulation</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>Lapse Rates.</text>
+      <para>
+        <num>(1)</num>
+        <text>The Commissioner shall review, for all policies included in the filing, the projected lapse rates and past lapse rates during the 12 months following each increase to determine if significant adverse lapsation has occurred or is anticipated, if a rate increase filing meets the following criteria:</text>
+        <para>
+          <num>(a)</num>
+          <text>The rate increase is not the first rate increase requested for the specific policy form or forms;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The rate increase is not an exceptional increase; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The majority of the policies or certificates to which the increase is applicable are eligible for the contingent benefit upon lapse.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If the Commissioner determines during the review described in <cite path="31|14|02|.06-1|H.|(1)">§H(1) of this regulation</cite> that significant adverse lapsation has occurred, is anticipated in the filing, or is evidenced in the actual results as presented in the updated projections provided by the insurer following the requested rate increase, the Commissioner may determine that a rate spiral exists.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>If the Commissioner determines that a rate spiral exists as described in <cite path="31|14|02|.06-1|H.|(2)">§H(2) of this regulation</cite>, the Commissioner may require the insurer to offer, without underwriting, to all in force insureds subject to the rate increase the option to replace existing coverage with one or more reasonably comparable products being offered by the insurer or its affiliates.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The offer required by <cite path="31|14|02|.06-1|H.|(3)">§H(3) of this regulation</cite> shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Be subject to the approval of the Commissioner;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Be based on actuarially sound principles, but not be based on attained age; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Provide that maximum benefits under any new policy accepted by an insured shall be reduced by comparable benefits already paid under the existing policy.</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Maintenance of Experience. The insurer shall maintain the experience of all the replacement insureds separate from the experience of insureds originally issued the policy forms. In the event of a request for a rate increase on the policy form, the rate increase shall be limited to the lesser of:</text>
+        <para>
+          <num>(a)</num>
+          <text>The maximum rate increase determined based on the combined experience; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The maximum rate increase determined based only on the experience of insureds originally issued the form plus 10 percent.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>If the Commissioner determines that the insurer has exhibited a persistent practice of filing inadequate initial premium rates for long-term care insurance, the Commissioner may, in addition to the provisions of <cite path="31|14|02|.06-1|H.">§H of this regulation</cite>, prohibit the insurer from:</text>
+      <para>
+        <num>(1)</num>
+        <text>Filing and marketing comparable coverage for a period of up to 5 years;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Offering all other similar coverages; or</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Limiting marketing of new applications to the products subject to recent premium rate schedule increases.</text>
+      </para>
+    </para>
+    <para>
+      <num>J.</num>
+      <text>Exemption for Incidental Coverage.</text>
+      <para>
+        <num>(1)</num>
+        <text>Sections A—I of this regulation do not apply to policies for which the long-term care benefits provided by the policy are incidental, as defined in <cite path="|31|14|02|.02|B.|(3)">Regulation .02B(3) of this chapter</cite>, if the policy complies with all of the following requirements:</text>
+        <para>
+          <num>(a)</num>
+          <text>The interest credited internally to determine cash value accumulations, including long-term care, if any, are guaranteed not to be less than the minimum guaranteed interest rate for cash value accumulations without long-term care set forth in the policy;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The portion of the policy that provides insurance benefits other than long-term care coverage meets the nonforfeiture requirements as applicable in any of the following:</text>
+          <para>
+            <num>(i)</num>
+            <text>The standard nonforfeiture requirements for life insurance found in <cite doc="Md. Code" path="gin">Insurance Article, Title 16, Subtitle 3, Annotated Code of Maryland</cite>;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The standard nonforfeiture requirements for individual deferred annuities found in <cite doc="Md. Code" path="gin">Insurance Article, Title 16, Subtitle 5, Annotated Code of Maryland</cite>; or</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>The requirements for variable annuities found in <cite path="|31.09.04">COMAR 31.09.04</cite>;</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The policy meets the disclosure requirements of Insurance Article, §§<cite doc="Md. Code" path="gin|18-108">18-108</cite> and <cite doc="Md. Code" path="gin|18-117">18-117</cite>, Annotated Code of Maryland;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>The portion of the policy that provides insurance benefits other than long-term care coverage meets the requirements as applicable in the following:</text>
+          <para>
+            <num>(i)</num>
+            <text>Policy illustrations for life insurance as required by <cite path="|31.09.09">COMAR 31.09.09</cite>;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Disclosure requirements for annuities as required by <cite path="|31.15.04">COMAR 31.15.04</cite>; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Disclosure requirements for variable annuities as required by <cite path="|31.09.04">COMAR 31.09.04</cite>;</text>
+          </para>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>An actuarial memorandum is filed with the Commissioner that includes:</text>
+          <para>
+            <num>(i)</num>
+            <text>A description of the basis on which the long-term care rates were determined;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>A description of the basis for the reserves;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>A summary of the type of policy, benefits, renewability, general marketing method, and limits on ages of issuance;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>A description and a table of each actuarial assumption used;</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>A description and a table of the anticipated policy reserves and additional reserves to be held in each future year for active lives;</text>
+          </para>
+          <para>
+            <num>(vi)</num>
+            <text>The estimated average annual premium per policy and the average issue age;</text>
+          </para>
+          <para>
+            <num>(vii)</num>
+            <text>A statement as to whether underwriting is performed at the time of application; and</text>
+          </para>
+          <para>
+            <num>(viii)</num>
+            <text>A description of the effect of the long-term care policy provision on the required premiums, nonforfeiture values, and reserves on the underlying insurance policy, both for active lives and those in long-term care claim status.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>For the expense assumptions used in <cite path="31|14|02|.06-1|J.|(1)|(e)|(iv)">§J(1)(e)(iv) of this regulation</cite>, an insurer shall include percent of premium dollars per policy and dollars per unit, if any.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Contents of Statement on Underwriting.</text>
+        <para>
+          <num>(a)</num>
+          <text>The statement required by <cite path="31|14|02|.06-1|J.|(1)|(e)|(vii)">§J(1)(e)(vii) of this regulation</cite> shall indicate whether underwriting is used.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>If underwriting is used, the statement shall include a description of the type or types of underwriting used, such as medical underwriting or functional assessment underwriting.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>If coverage is under a group policy, the statement shall indicate whether the enrollee or any dependent will be underwritten and when underwriting occurs.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>K.</num>
+      <text>Sections F and H of this regulation do not apply to employer group long-term care insurance if:</text>
+      <para>
+        <num>(1)</num>
+        <text>The policies insure 250 or more individuals and the policyholder has 5,000 or more eligible employees of a single employer; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The policyholder, and not the certificate holders, pays a material portion of the premium, which may not be less than 20 percent of the total premium for the group in the calendar year before the year a rate increase is filed.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Exceptional Premium Rate Increases.</heading>
+    <para>
+      <num>A.</num>
+      <text>Except as provided in <cite path="|31|14|02|.06">Regulation .06 of this chapter</cite>, exceptional increases are subject to the same requirements as other premium rate schedule increases.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The Commissioner may request a review by an independent actuary or a professional actuarial body of the basis for a request that an increase be considered an exceptional increase.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The Commissioner, in determining that the necessary basis for an exceptional increase exists, shall also determine any potential offsets to higher claims costs.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Long-Term Care Personal Worksheet.</heading>
+    <text>The disclosure required by <cite path="|31|14|02|.03|J.">Regulation .03J of this chapter</cite> shall read as follows:</text>
+    <text>
+      <strong>Long-Term Care Insurance</strong>
+    </text>
+    <text>
+      <strong>Personal Worksheet</strong>
+    </text>
+    <text>People buy long-term care insurance for many reasons. Some don't want to use their own assets to pay for long-term care. Some buy insurance to make sure they can choose the type of care they get. Others don't want their family to have to pay for care or don't want to go on Medicaid. But long-term care insurance may be expensive, and may not be right for everyone.</text>
+    <text>By state law, the insurance company must fill out part of the information on this worksheet and ask you to fill out the rest to help you and the company decide if you should buy this policy.</text>
+    <text>
+      <strong>Premium Information</strong>
+    </text>
+    <text>Policy Form Numbers<strong> ________________________</strong></text>
+    <text>The premium for the coverage you are considering will be [$_____ per month, or $_____ per year,] [a one-time single premium of $_____.]</text>
+    <text><strong>Type of Policy</strong> (noncancellable/guaranteed renewable):</text>
+    <text>
+      <strong>The Company's Right to Increase Premiums:</strong>
+    </text>
+    <text>[The company cannot raise your rates on this policy.] [The company has a right to increase premiums on this policy form in the future, provided it raises rates for all policies in the same class in this state.] [Insurers shall use appropriate bracketed statement. Rate guarantees shall not be shown on this form.]</text>
+    <text>
+      <strong>Rate Increase History</strong>
+    </text>
+    <text>The company has sold long-term care insurance since [year] and has sold this policy since [year]. [The company has never raised its rates for any long-term care policy it has sold in this state or any other state.] [The company has not raised its rates for this policy form or similar policy forms in this state or any other state in the last 10 years.] [The company has raised its premium rates on this policy form or similar policy forms in the last 10 years. Following is a summary of the rate increases.]</text>
+    <text><strong>Drafting Note:</strong> A company may use the first bracketed sentence above only if it has never increased rates under any prior policy forms in this state or any other state. The issuer shall list each premium increase it has instituted on this or similar policy forms in this state or any other state during the last 10 years. The list shall provide the policy form, the calendar years the form was available for sale, and the calendar year and the amount (percentage) of each increase. The insurer shall provide minimum and maximum percentages if the rate increase is variable by rating characteristics. The insurer may provide, in a fair manner, additional explanatory information as appropriate.</text>
+    <text>
+      <strong>Questions Related to Your Income</strong>
+    </text>
+    <text>How will you pay each year's premium?</text>
+    <text>[ ] From my Income</text>
+    <text>[ ] From my Savings/Investments</text>
+    <text>[ ] My Family will Pay</text>
+    <text>[[ ] Have you considered whether you could afford to keep this policy if the premiums went up, for example, by 20%?]</text>
+    <text><strong>Drafting Note:</strong> The issuer is not required to use the bracketed sentence if the policy is fully paid up or is a noncancellable policy.</text>
+    <text>What is your annual income? (check one)</text>
+    <text>[ ] Under $10,000</text>
+    <text>[ ] $[10-20,000]</text>
+    <text>[ ] $[20-30,000]</text>
+    <text>[ ] $[30-50,000]</text>
+    <text>[ ] Over $50,000</text>
+    <text><strong>Drafting Note:</strong> The issuer may choose the numbers to put in the brackets to fit its suitability standards.</text>
+    <text>How do you expect your income to change over the next 10 years? (check one)</text>
+    <text>[ ] No change</text>
+    <text>[ ] Increase</text>
+    <text>[ ] Decrease</text>
+    <text>If you will be paying premiums with money received only from your own income, a rule of thumb is that you may not be able to afford this policy if the premiums will be more than 7% of your income.</text>
+    <text><strong>Will you buy inflation protection? </strong>(check one) [ ] Yes [ ] No</text>
+    <text>If not, have you considered how you will pay for the difference between future costs and your daily benefit amount?</text>
+    <text>[] From my Income</text>
+    <text>[ ] From my Savings/Investments</text>
+    <text>[ ] My Family will Pay</text>
+    <text>The national average annual cost of care in [insert year] was [insert $ amount], but this figure varies across the country. In 10 years the national average annual cost would be about [insert $ amount] if costs increase 5% annually.</text>
+    <text><strong>Drafting Note:</strong> The projected cost can be based on federal estimates in a current year. In the above statement, the second figure equals 163% of the first figure.</text>
+    <text><strong>What elimination period are you considering?</strong> Number of days ____ Approximate cost $_____ for that period of care.</text>
+    <text><strong>How are you planning to pay for your care during the elimination period? </strong>(check one)</text>
+    <text>[ ] From my Income</text>
+    <text>[ ] From my Savings/Investments</text>
+    <text>[ ] My Family will Pay</text>
+    <text>
+      <strong>Questions Related to Your Savings and Investments</strong>
+    </text>
+    <text>Not counting your home, about how much are all of your assets (your savings and investments) worth? (check one)</text>
+    <text>[ ] Under $20,000</text>
+    <text>[ ] $20,000-$30,000</text>
+    <text>[ ] $30,000-$50,000</text>
+    <text>[ ] Over $50,000</text>
+    <text>How do you expect your assets to change over the next 10 years? (check one)</text>
+    <text>[ ] Stay about the same</text>
+    <text>[ ] Increase</text>
+    <text>[ ] Decrease</text>
+    <text>If you are buying this policy to protect your assets and your assets are less than $30,000, you may wish to consider other options for financing your long-term care.</text>
+    <text>If you are buying this policy to protect your assets and your assets are less than $30,000, you may wish to consider other options for financing your long-term care.</text>
+    <text class="center">
+      <strong>Disclosure Statement</strong>
+    </text>
+    <text>[ ] The answers to the questions above describe my financial situation.</text>
+    <text>
+      <strong>Or</strong>
+    </text>
+    <text>[ ] I choose not to complete this information.</text>
+    <text>(Check one.)</text>
+    <text>[ ] I acknowledge that the carrier and/or its agent (below) has reviewed this form with me including the premium, premium rate increase history, and potential for premium increases in the future. [For direct mail situations, use the following: I acknowledge that I have reviewed this form including the premium, premium rate increase history, and potential for premium increases in the future.] I understand the above disclosures. I understand that the rates for this policy may increase in the future. (This box must be checked).</text>
+    <text>Signed: ______________________________________________________________________________________________</text>
+    <text>(Applicant)	(Date)</text>
+    <text>( [ ] I explained to the applicant the importance of completing this information.</text>
+    <text>Signed: _______________________________________________________________________________________________</text>
+    <text>(Agent)	(Date)</text>
+    <text>Agent's Printed Name: __________________________________________________________________________________ )</text>
+    <text>[In order for us to process your application, please return this signed statement to [name of company], along with your application.]</text>
+    <text>[My agent has advised me that this policy does not seem to be suitable for me. However, I still want the company to consider my application.</text>
+    <text>Signed: ______________________________________________________________________________________________ ]</text>
+    <text>(Applicant)	(Date)</text>
+    <text><strong>Drafting Note:</strong> Choose the appropriate sentences depending on whether this is a direct mail or agent sale.</text>
+    <text>The company may contact you to verify your answers.</text>
+    <text><strong>Drafting Note:</strong> When the Long-Term Care Insurance Personal Worksheet is furnished to employees and their spouses under employer group policies, the text from the heading "Disclosure Statement" to the end of the page may be removed.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Potential Rate Increase Disclosure Form.</heading>
+    <text>The disclosure required by <cite path="|31|14|02|.03|J.">Regulation .03J of this chapter</cite> shall read as follows:</text>
+    <text>
+      <strong>Long-Term Care Insurance</strong>
+    </text>
+    <text>
+      <strong>Potential Rate Increase Disclosure Form</strong>
+    </text>
+    <para>
+      <num>1.</num>
+      <text><strong>[Premium Rate] [Premium Rate Schedules]:</strong> [Premium rate] [Premium rate schedules] that [is] [are] applicable to you and that will be in effect until a request is made and [filed] [approved] for an increase [is] [are] [on the application] [$  ])</text>
+      <text><strong>Drafting Note:</strong> Use "approved" in states requiring prior approval of rates.</text>
+    </para>
+    <para>
+      <num>2.</num>
+      <text>
+        <strong>The [premium] [premium rate schedule] for this policy [will be shown on the schedule page of] [will be attached to] your policy.</strong>
+      </text>
+    </para>
+    <para>
+      <num>3.</num>
+      <text>
+        <strong>Rate Schedule Adjustments:</strong>
+      </text>
+      <text>The company will provide a description of when premium rate or rate schedule adjustments will be effective (e.g., next anniversary date, next billing date, etc.) (fill in the blank):  .</text>
+    </para>
+    <para>
+      <num>4.</num>
+      <text>
+        <strong>Potential Rate Revisions:</strong>
+      </text>
+      <text><strong>This policy is Guaranteed Renewable.</strong> This means that the rates for this product may be increased in the future. Your rates can <strong>NOT</strong> be increased due to your increasing age or declining health, but your rates may go up based on the experience of all policyholders with a policy similar to yours.</text>
+      <text>
+        <strong>If you receive a premium rate or premium rate schedule increase in the future, you will be notified of the new premium amount and you will be able to exercise at least one of the following options:</strong>
+      </text>
+      <text>• Pay the increased premium and continue your policy in force as is.</text>
+      <text>• Reduce your policy benefits to a level such that your premiums will not increase. (Subject to state law minimum standards.)</text>
+      <text>• Exercise your nonforfeiture option if purchased. (This option is available for purchase for an additional premium.)</text>
+      <text>• Exercise your contingent nonforfeiture rights.* (This option may be available if you do not purchase a separate nonforfeiture option.)</text>
+      <text>
+        <strong>* Contingent Nonforfeiture</strong>
+      </text>
+      <text>If the premium rate for your policy goes up in the future and you didn't buy a nonforfeiture option, you may be eligible for contingent nonforfeiture. Here's how to tell if you are eligible:</text>
+      <text>You will keep some long-term care insurance coverage, if:</text>
+      <text>• Your premium after the increase exceeds your original premium by the percentage shown (or more) in the following table; and</text>
+      <text>• You lapse (not pay more premiums) within 120 days of the increase.</text>
+      <text>The amount of coverage (i.e., new lifetime maximum benefit amount) you will keep will equal the total amount of premiums you've paid since your policy was first issued. If you have already received benefits under the policy, so that the remaining maximum benefit amount is less than the total amount of premiums you've paid, the amount of coverage will be that remaining amount.</text>
+      <text>Except for this reduced lifetime maximum benefit amount, all other policy benefits will remain at the levels attained at the time of the lapse and will not increase thereafter.</text>
+      <text>Should you choose this Contingent Nonforfeiture option, your policy, with this reduced maximum benefit amount, will be considered "paid-up" with no further premiums due.</text>
+      <text>
+        <strong>Example:</strong>
+      </text>
+      <text>• You bought the policy at age 65 and paid the $1,000 annual premium for 10 years, so you have paid a total of $10,000 in premium.</text>
+      <text>• In the 11th year, you receive a rate increase of 50%, or $500 for a new annual premium of $1,500, and you decide to lapse the policy (not pay any more premiums).</text>
+      <text>• Your "paid-up" policy benefits are $10,000 (provided you have at least $10,000 of benefits remaining under your policy.)</text>
+      <text class="center">
+        <strong>Contingent Nonforfeiture</strong>
+      </text>
+      <text class="center">
+        <strong>Cumulative Premium Increase over Initial Premium <br/>That Qualifies for Contingent Nonforfeiture</strong>
+      </text>
+      <text class="center">(Percentage increase is cumulative from date of original issue. <br/>It does <strong>NOT</strong> represent a one-time increase.)</text>
+      <text>
+        <strong>
+          <em>Issue Age 	Percent Increase Over Initial Premium</em>
+        </strong>
+      </text>
+      <text>29 and under 	200%</text>
+      <text>30—34 	190%</text>
+      <text>35—39 	170%</text>
+      <text>40—44 	150%</text>
+      <text>45—49 	130%</text>
+      <text>50—54 	110%</text>
+    </para>
+    <aftertext>
+      <strong>
+        <em>Issue Age 	Percent Increase Over Initial Premium</em>
+      </strong>
+    </aftertext>
+    <aftertext>55—59 	90%</aftertext>
+    <aftertext>60 	70%</aftertext>
+    <aftertext>61 	66%</aftertext>
+    <aftertext>62 	62%</aftertext>
+    <aftertext>63 	58%</aftertext>
+    <aftertext>64 	54%</aftertext>
+    <aftertext>65 	50%</aftertext>
+    <aftertext>66 	48%</aftertext>
+    <aftertext>67 	46%</aftertext>
+    <aftertext>68 	44%</aftertext>
+    <aftertext>69 	42%</aftertext>
+    <aftertext>70 	40%</aftertext>
+    <aftertext>71 	38%</aftertext>
+    <aftertext>72 	36%</aftertext>
+    <aftertext>73 	34%</aftertext>
+    <aftertext>74 	32%</aftertext>
+    <aftertext>75 	30%</aftertext>
+    <aftertext>76 	28%</aftertext>
+    <aftertext>77 	26%</aftertext>
+    <aftertext>78 	24%</aftertext>
+    <aftertext>79 	22%</aftertext>
+    <aftertext>80 	20%</aftertext>
+    <aftertext>81 	19%</aftertext>
+    <aftertext>82 	18%</aftertext>
+    <aftertext>83 	17%</aftertext>
+    <aftertext>84 	16%</aftertext>
+    <aftertext>85 	15%</aftertext>
+    <aftertext>86 	14%</aftertext>
+    <aftertext>87 	13%</aftertext>
+    <aftertext>88 	12%</aftertext>
+    <aftertext>89 	11%</aftertext>
+    <aftertext>90 and over 	10%</aftertext>
+    <aftertext>{The following contingent nonforfeiture disclosure need only be included for those limited pay policies to which COMAR 31.14.01.13E(6) and (9) are applicable.} In addition to the contingent nonforfeiture benefits described above, the following reduced "paid-up" contingent nonforfeiture benefit is an option in all policies that have a fixed or limited premium payment period, even if you selected a nonforfeiture benefit when you bought your policy. If both the reduced "paid up" benefit AND the contingent benefit described above are triggered by the same rate increase, you can choose either of the two benefits. You are eligible for the reduced "paid up" contingent nonforfeiture benefit when all three conditions shown below are met:</aftertext>
+    <para>
+      <num>1.</num>
+      <text>The premium you are required to pay after the increase exceeds your original premium by the same percentage or more shown in the chart below;</text>
+      <text>
+        <table class="layout-table">
+          <tbody>
+            <tr>
+              <td colspan="2" data-text-align="center" data-vertical-align="middle">Triggers for a Substantial Premium Increase</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">
+                <em>Issue Age</em>
+              </td>
+              <td data-text-align="center" data-vertical-align="middle">
+                <em>Percent Increase <br/>Over Initial Premium</em>
+              </td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">Under 65</td>
+              <td data-text-align="center" data-vertical-align="middle">50%</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">65—80</td>
+              <td data-text-align="center" data-vertical-align="middle">30%</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">Over 80</td>
+              <td data-text-align="center" data-vertical-align="middle">10%</td>
+            </tr>
+          </tbody>
+        </table>
+      </text>
+    </para>
+    <para>
+      <num>2.</num>
+      <text>You stop paying your premiums within 120 days of when the premium increase took effect; AND</text>
+    </para>
+    <para>
+      <num>3.</num>
+      <text>The ratio of the number of months you already paid premiums is 40% or more than the number of months you originally agreed to pay.</text>
+      <text>If you exercise this option your coverage will be converted to reduced "paid-up" status. That means there will be no additional premiums required. Your benefits will change in the following ways:</text>
+      <para>
+        <num>a.</num>
+        <text>The total lifetime amount of benefits your reduced paid up policy will provide can be determined by multiplying 90% of the lifetime benefit amount at the time the policy becomes paid up by the ratio of the number of months you already paid premiums to the number of months you agreed to pay them.</text>
+      </para>
+      <para>
+        <num>b.</num>
+        <text>The daily benefit amounts you purchased will also be adjusted by the same ratio.</text>
+      </para>
+      <aftertext>If you purchased lifetime benefits, only the daily benefit amounts you purchased will be adjusted by the applicable ratio.</aftertext>
+      <aftertext>
+        <strong>Example:</strong>
+      </aftertext>
+      <aftertext>• You bought the policy at age 65 with an annual premium payable for 10 years.</aftertext>
+      <aftertext>• In the sixth year, you receive a rate increase of 35% and you decide to stop paying premiums.</aftertext>
+      <aftertext>• Because you have already paid 50% of your total premium payments and that is more than the 40% ratio, your "paid-up" policy benefits are .45 (.90 times .50) times the total benefit amount that was in effect when you stopped paying your premiums. If you purchased inflation protection, it will not continue to apply to the benefits in the reduced "paid-up" policy.</aftertext>
+    </para>
+  </section>
+  <section cache:ref-path="31|14|02|.10">
+    <prefix>Regulation</prefix>
+    <num>.10</num>
+    <heading>Reserve Standards.</heading>
+    <para>
+      <num>A.</num>
+      <text>Life Insurance Policies That Accelerate Benefits for Long-Term Care.</text>
+      <para>
+        <num>(1)</num>
+        <text>This section applies to long-term care benefits that are provided through the acceleration of benefits under group or individual life insurance policies or riders to group or individual life insurance policies.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Policy reserves for the benefits for the policies and riders subject to this section shall be determined in accordance with <cite doc="Md. Code" path="gin">Insurance Article, Title 5, Subtitle 3, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Claim reserves for the policies and riders subject to this section shall be established in the case when the policy or rider is in claim status.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Except as permitted in <cite path="31|14|02|.10|A.|(5)">§A(5) of this regulation</cite>, reserves for policies and riders subject to this section shall be based on the multiple decrement model utilizing all relevant decrements except for voluntary termination rates.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>An insurer may determine the reserves based on single decrement approximations, if:</text>
+        <para>
+          <num>(a)</num>
+          <text>The calculation produces essentially similar reserves as the calculation described in <cite path="31|14|02|.10|A.|(4)">§A(4) of this regulation</cite>;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The calculation produces a reserve that is clearly more conservative than the calculation described in <cite path="31|14|02|.10|A.|(4)">§A(4) of this regulation</cite>; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The reserve is immaterial.</text>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>The calculations described in §A(4) and (5):</text>
+        <para>
+          <num>(a)</num>
+          <text>May take into account the reduction in life insurance benefits due to the payment of long-term care benefits; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>May not result in a reserve that is less than the reserve for the life insurance benefit under the policy, without a long-term care benefit.</text>
+        </para>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>In the development and calculation of reserves for policies and riders subject to this section, due regard shall be given to the applicable policy provisions, marketing methods, administrative procedures, and all other considerations which have an impact on projected claim costs, including, but not limited to the following:</text>
+        <para>
+          <num>(a)</num>
+          <text>Definition of insured events;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Covered long-term care facilities;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Existence of home convalescence care coverage;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Definition of facilities;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Existence or absence of barriers to eligibility;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Premium waiver provision;</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>Renewability;</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>Ability to raise premiums;</text>
+        </para>
+        <para>
+          <num>(i)</num>
+          <text>Marketing method;</text>
+        </para>
+        <para>
+          <num>(j)</num>
+          <text>Underwriting procedures;</text>
+        </para>
+        <para>
+          <num>(k)</num>
+          <text>Claims adjustment procedures;</text>
+        </para>
+        <para>
+          <num>(l)</num>
+          <text>Waiting period;</text>
+        </para>
+        <para>
+          <num>(m)</num>
+          <text>Maximum benefit;</text>
+        </para>
+        <para>
+          <num>(n)</num>
+          <text>Availability of eligible facilities;</text>
+        </para>
+        <para>
+          <num>(o)</num>
+          <text>Margins in claim costs;</text>
+        </para>
+        <para>
+          <num>(p)</num>
+          <text>Optional nature of benefit;</text>
+        </para>
+        <para>
+          <num>(q)</num>
+          <text>Delay in eligibility for benefit;</text>
+        </para>
+        <para>
+          <num>(r)</num>
+          <text>Inflation protection provisions; and</text>
+        </para>
+        <para>
+          <num>(s)</num>
+          <text>Guaranteed insurability option.</text>
+        </para>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Any applicable valuation morbidity table used by the insurer shall be certified as appropriate as a statutory valuation table by a member of the American Academy of Actuaries.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>When long-term care benefits are provided other than as described in <cite path="31|14|02|.10|A.">§A of this regulation</cite>, reserves shall be determined in accordance with Regulations <cite path="|31|14|02|.11">.11</cite>—<cite path="|31|14|02|.14">.14</cite> of this chapter.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.11</num>
+    <heading>Claim Reserves.</heading>
+    <para>
+      <num>A.</num>
+      <text>General Claim Reserve Requirements.</text>
+      <para>
+        <num>(1)</num>
+        <text>An insurer shall establish a claim reserve for all incurred but unpaid claims on all long-term care insurance.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An insurer shall establish an appropriate claim expense reserve with respect to the estimated expense of settlement of all incurred but unpaid claims under long-term care insurance.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>An insurer shall test the long-term care claim reserve and claim expense reserve for prior valuation years for adequacy and reasonableness along the lines of claim runoff schedules in accordance with the statutory financial statement including consideration of any residual unpaid liability.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>In establishing claim reserve for long-term care insurance, an insurer shall include reserves for premiums expected to be waived, valuing as a minimum the valuation net premium being waived.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Minimum Standards for Claim Reserves.</text>
+      <para>
+        <num>(1)</num>
+        <text>The maximum interest rate for claim reserves for long-term care insurance is the maximum rate permitted by <cite doc="Md. Code" path="gin">Insurance Article, Title 5, Subtitle 3, Annotated Code of Maryland</cite>, in the valuation of whole life insurance issued on the same date as the claim incurral date.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An insurer's long-term care insurance claim reserve shall be based on the insurer's experience, if the experience is considered credible, or upon other assumptions designed to place a sound value on the liabilities.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Claim Reserve Methods Generally.</text>
+      <para>
+        <num>(1)</num>
+        <text>An insurer may use a generally accepted or reasonable actuarial reserving method or a combination of methods to estimate all claim liabilities for long-term care insurance.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The methods used for estimating liabilities generally may be aggregate methods, or various reserve items may be separately valued.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Approximations based on groupings and averages may also be employed.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Adequacy of the claim reserves, however, shall be determined in the aggregate.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="31|14|02|.12">
+    <prefix>Regulation</prefix>
+    <num>.12</num>
+    <heading>Premium Reserves.</heading>
+    <para>
+      <num>A.</num>
+      <text>General Premium Reserve Requirements.</text>
+      <para>
+        <num>(1)</num>
+        <text>An insurer shall establish an unearned premium reserve for all long-term care insurance with respect to the period of coverage for which premiums, other than premiums paid in advance, have been paid beyond the date of valuation.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If long-term care insurance premiums due and unpaid are carried as an asset, the insurer shall treat the premiums that are due and unpaid as premiums in force, subject to unearned premium reserve determination.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The insurer shall carry the value of unpaid commissions, premium taxes, and the cost of collection associated with due and unpaid premiums as an offsetting liability.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>An insurer may appropriately discount to the valuation date the long-term care gross premiums paid in advance for a period of coverage beginning after the next premium due date that follows the date of valuation.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>An insurer shall hold the amount described in <cite path="31|14|02|.12|A.|(4)">§A(4) of this regulation</cite> as one of the following:</text>
+        <para>
+          <num>(a)</num>
+          <text>A separate liability; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>An addition to the unearned premium reserve which would otherwise be required as a minimum.</text>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>An insurer shall consider long-term care insurance contracts on premium waiver as in-force contracts when calculating the premium reserve. The insurer shall value the premium reserve for the contracts on premium waiver, as a minimum amount, at the unearned modal valuation net premium being waived.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Minimum Standards for Unearned Premium Reserves.</text>
+      <para>
+        <num>(1)</num>
+        <text>Subject to <cite path="31|14|02|.12|B.|(2)">§B(2) of this regulation</cite>, the minimum unearned premium reserve with respect to a long-term care insurance contract is the pro rata gross modal unearned premium that applies to the premium period beyond the valuation date.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The sum of the unearned premium and contract reserves for all long-term care insurance contracts may not be less than the gross modal unearned premium reserve on all long-term care insurance contracts, as of the date of valuation.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The reserve may not be less than the expected claims for the period beyond the valuation date represented by the unearned premium reserve, to the extent not provided for elsewhere.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Premium Reserve Methods Generally.</text>
+      <para>
+        <num>(1)</num>
+        <text>The insurer may employ suitable approximations and estimates, including, but not limited to groupings, averages, and aggregate estimation, in computing long-term care insurance premium reserves.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Approximations or estimates should be tested periodically to determine their continuing adequacy and reliability.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="31|14|02|.13">
+    <prefix>Regulation</prefix>
+    <num>.13</num>
+    <heading>Contract Reserves.</heading>
+    <para>
+      <num>A.</num>
+      <text>General Contract Reserve Requirements.</text>
+      <para>
+        <num>(1)</num>
+        <text>The insurer shall establish a contract reserve in addition to claim reserves and premium reserves for long-term care insurance.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An insurer shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Use methods and procedures for long-term care contract reserves that are consistent with those for claim reserves for a long-term care contract; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>If the insurer uses different methods and procedures for long-term care contract reserves than are used for long-term care claim reserves, make appropriate adjustment when necessary to assure provision for the aggregate liability.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The insurer shall use the same definition of date of incurral when determining contract reserves for long-term care insurance as when determining claim reserves for long-term care insurance.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>When determining contract reserves for long-term care insurance, the insurer shall include recognition of the waiver of premium benefit in addition to other contract benefits provided for, valuing as a minimum the valuation net premium to be waived.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Minimum Standards for Contract Reserves.</text>
+      <para>
+        <num>(1)</num>
+        <text>Basis of Contract Reserves.</text>
+        <para>
+          <num>(a)</num>
+          <text>Valuation net premiums used under each long-term care insurance contract shall have a structure consistent with the gross premium structure at issuance of the contract as this relates to advancing age of insured, contract duration, and the period for which gross premiums have been calculated.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>An insurer shall value long-term care insurance contracts using tables which are:</text>
+          <para>
+            <num>(i)</num>
+            <text>Established for reserve purposes by a qualified actuary; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Acceptable to the Commissioner.</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The morbidity tables used by the insurer shall contain a pattern of incurred claims cost that reflects the underlying morbidity and may not be constructed for the primary purpose of minimizing reserves.</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>The maximum interest rate used in developing long-term care insurance contract reserves is the same maximum rate permitted by <cite doc="Md. Code" path="gin">Insurance Article, Title 5, Subtitle 3, Annotated Code of Maryland</cite>, in the valuation of whole life insurance:</text>
+          <para>
+            <num>(i)</num>
+            <text>Issued on the same date as the long-term care insurance contract; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>With guarantee duration of more than 20 years.</text>
+          </para>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Termination rates used in the computation of contract reserves for long-term care insurance shall be on the basis specified in §B(1)(f), (h), and(i) of this regulation.</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>The termination rates used in the computation of contract reserves for terminations due to mortality shall be on the basis of:</text>
+          <para>
+            <num>(i)</num>
+            <text>For policies or group certificates issued before January 1, 2015, the 1983 Group Annuity Mortality Table, as found in <cite path="|31.05.05">COMAR 31.05.05</cite>, without projection;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>For policies or group certificates issued on or after January 1, 2015, the 1994 Group Annuity Reserving Table, as found in <cite path="|31.05.05">COMAR 31.05.05</cite>, without the projection found in <cite path="|31.05.06">COMAR 31.05.06</cite>; or</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Mortality tables that are adopted by the National Association of Insurance Commissioners (NAIC) if the mortality tables are appropriate for the type of benefits and approved by the Commissioner.</text>
+          </para>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>The insurer shall request approval to use a table described in <cite path="31|14|02|.13|B.|(1)|(f)|(iii)">§B(1)(f)(iii) of this regulation</cite> and shall include in the request for approval the reason that the table specified in §B(1)(f)(i) or (ii) of this regulation is inappropriate.</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>For policies or group certificates issued before January 1, 2015, the termination rates used in the computation of contract reserves for terminations due to other than mortality may not exceed:</text>
+          <para>
+            <num>(i)</num>
+            <text>For policy years one through four, the lesser of 80 percent of the voluntary lapse rate used in the calculation of gross premiums and 8 percent; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>For policy years five and later, the lesser of 100 percent of the voluntary lapse rate used in the calculation of gross premiums and 4 percent.</text>
+          </para>
+        </para>
+        <para>
+          <num>(i)</num>
+          <text>For policies or group certificates issued on or after January 1, 2015, the termination rates used in the computation of contract reserves for terminations due to other than mortality may not exceed:</text>
+          <para>
+            <num>(i)</num>
+            <text>For policy year one, the lesser of 80 percent of the voluntary lapse rate used in the calculation of gross premiums and 6 percent;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>For policy years two through four, the lesser of 80 percent of the voluntary lapse rate used in the calculation of gross premiums and 4 percent; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>For policy years five and later, the lesser of 100 percent of the voluntary lapse rate used in the calculation of gross premiums and 2 percent, except that for employer group long-term care insurance as defined in <cite path="|31|14|02|.02|B.|(1)">Regulation .02B(1) of this chapter</cite>, 3 percent shall be used in place of 2 percent.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Reserve Method.</text>
+        <para>
+          <num>(a)</num>
+          <text>For long-term care insurance, the minimum reserve is the reserve calculated on the 1-year full preliminary term method.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>For return of premium or other deferred cash benefits in long-term care insurance contracts, the minimum reserve is the reserve calculated as follows:</text>
+          <para>
+            <num>(i)</num>
+            <text>On the 1-year preliminary term method if the benefits are provided at any time before the 20th anniversary; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>On the 2-year preliminary term method if the benefits are only provided on or after the 20th anniversary.</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The preliminary term method may be applied only in relation to the date of issue of a contract. Reserve adjustments introduced later, as a result of rate increases, revisions in assumptions, or for other reasons, shall be applied immediately as of the effective date of adoption of the adjusted basis.</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>An example of a revision in assumption described in <cite path="31|14|02|.13|B.|(2)|(c)">§B(2)(c) of this regulation</cite> is projected inflation rates.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Negative Reserves. Negative reserves on any benefit may be offset against positive reserves for other benefits in the same contract, but the total contract reserve with respect to all benefits combined may not be less than zero.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Nonforfeiture Benefits. The contract reserve for long-term care insurance established by an insurer on a policy basis may not be less than the net single premium for the nonforfeiture benefits at the appropriate policy duration, where the net single premium is computed according to the specifications found in §B(1) and (2) of this regulation.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Alternative Valuation Methods and Assumptions Generally. If the contract reserve on all contracts to which an alternative method or basis is applied is not less in the aggregate than the amount determined according to the applicable standards specified in <cite path="31|14|02|.13|B.">§B of this regulation</cite>, an insurer may use, subject to approval by the Commissioner, any reasonable assumptions as to interest rates, termination and mortality rates, and rates of morbidity or other contingency.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Tests for Adequacy and Reasonableness of Contract Reserves. If future gross premiums for an insurer's long-term care insurance reduced by expenses for administration, commissions, and taxes will be insufficient to cover future claims, the insurer shall establish contract reserves for the shortfall in the aggregate.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.14</num>
+    <heading>Reinsurance Effect on Reserves.</heading>
+    <text>Increases to, or credits against reserves carried, arising because of reinsurance assumed or reinsurance ceded, shall be determined in a manner consistent with the minimum reserve standards set forth in Regulations .11, .12, and .13 of this chapter and with all applicable provisions of the reinsurance contracts which affect the insurer's liabilities.</text>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Health-General Article, §19-705; Insurance Article, §§<cite doc="Md. Code" path="gin|2-109">2-109</cite>, <cite doc="Md. Code" path="gin|14-124">14-124</cite>, Title 18, Subtitle 1, and Title 27; Annotated Code of Maryland</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1993-11-08">Effective date: November 8, 1993 (20:22 Md. R. 1707)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1998-09-07" discontinuity="true">Chapter recodified from <cite path="|09.30.89">COMAR 09.30.89</cite> to <cite path="|31.14.02">COMAR 31.14.02</cite> effective September 7, 1998 (25:18 Md. R. 1439)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2002-04-01" discontinuity="true">Chapter revised effective April 1, 2002 (29:6 Md. R. 572)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2014-09-01"><cite path="|31|14|02|.01">Regulation .01</cite> amended effective September 1, 2014 (41:17 Md. R. 972)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2017-02-27"><cite path="|31|14|02|.03">Regulation .03</cite> amended effective February 27, 2017 (44:4 Md. R. 256)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2017-02-27"><cite path="|31|14|02|.04|A.">Regulation .04A</cite> amended effective February 27, 2017 (44:4 Md. R. 256)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2017-02-27"><cite path="|31|14|02|.04|E.">Regulation .04E</cite>—H adopted effective February 27, 2017 (44:4 Md. R. 256)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2017-02-27"><cite path="|31|14|02|.05|A.">Regulation .05A</cite> amended effective February 27, 2017 (44:4 Md. R. 256)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2017-02-27"><cite path="|31|14|02|.06">Regulation .06</cite> amended effective February 27, 2017 (44:4 Md. R. 256)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2017-02-27"><cite path="|31|14|02|.06">Regulation .06</cite>-1 adopted effective February 27, 2017 (44:4 Md. R. 256)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2007-09-10"><cite path="|31|14|02|.09">Regulation .09</cite> amended effective September 10, 2007 (34:18 Md. R. 1581)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2014-09-01"><cite path="|31|14|02|.11|B.">Regulation .11B</cite> amended effective September 1, 2014 (41:17 Md. R. 972)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2014-09-01"><cite path="|31|14|02|.13|B.">Regulation .13B</cite> amended effective September 1, 2014 (41:17 Md. R. 972)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2014-09-01"><cite path="|31|14|02|.14">Regulation .14</cite> amended effective September 1, 2014 (41:17 Md. R. 972)</annotation>
+  </annotations>
+</container>

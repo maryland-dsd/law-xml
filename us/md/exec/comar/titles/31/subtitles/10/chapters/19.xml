@@ -1,0 +1,579 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>19</num>
+  <heading>Independent Review Organizations and Medical Experts</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>Adverse Decision.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Adverse decision" means a utilization review determination by a private review agent, a carrier, or a health care provider acting on behalf of a carrier that:</text>
+          <para>
+            <num>(i)</num>
+            <text>A proposed or delivered health care service that is otherwise covered under the member's contract is not or was not medically necessary, appropriate, or efficient; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>May result in noncoverage of the health care service.</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Adverse decision" does not include a decision concerning a subscriber's status as a member.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>"Affiliate" means a person who directly or indirectly, through one or more intermediaries, controls, is controlled by, or is under common control with another person.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>"Carrier" means:</text>
+        <para>
+          <num>(a)</num>
+          <text>An insurer that offers health insurance other than long-term care insurance or disability insurance;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A nonprofit health service plan;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A health maintenance organization;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>A dental plan organization; or</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Any other person that provides health benefit plans subject to regulation by the State.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>"Complaint" means a protest filed with the Commissioner involving an adverse decision or grievance decision concerning a member.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>"Emergency case" means a case involving an adverse decision for which an expedited review is required under <cite path="31.10.18.05">COMAR 31.10.18.05</cite>.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>"Expert reviewer" means a physician or other appropriate health care provider who contracts with or is retained by an independent review organization to conduct external review of a carrier's adverse decision pursuant to <cite doc="Md. Code" path="gin|15-10">Insurance Article, §15-10</cite>A-05, Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>"Health care provider" means:</text>
+        <para>
+          <num>(a)</num>
+          <text>An individual who is:</text>
+          <para>
+            <num>(i)</num>
+            <text>Licensed under the <cite doc="Md. Code" path="gho">Health Occupations Article, Annotated Code of Maryland</cite>, or holds a nonrestricted license in a state of the United States to provide health care services in the ordinary course of business or practice of a profession, and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>A treating provider of the member; or</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A hospital, as defined in Health-General Article, §19-301, Annotated Code of Maryland.</text>
+        </para>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>"Health care service" means a health or medical care procedure or service rendered by a health care provider including:</text>
+        <para>
+          <num>(a)</num>
+          <text>Testing, diagnosis, or treatment of a human disease or dysfunction;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Dispensing of drugs, medical devices, medical appliances, or medical goods for the treatment of a human disease or dysfunction; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Any other care, service, or treatment of disease or injury, the correction of defects, or the maintenance of the physical and mental well-being of human beings.</text>
+        </para>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>"Independent review organization" means an entity that contracts with the Commissioner to conduct independent review of a carrier's adverse decision pursuant to <cite doc="Md. Code" path="gin|15-10">Insurance Article, §15-10</cite>A-05, Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>"Medical expert" means a physician or other appropriate health care provider who contracts with the Commissioner to conduct external review of a carrier's adverse decision pursuant to <cite doc="Md. Code" path="gin|15-10">Insurance Article, §15-10</cite>A-05, Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>"Medical record" has the meaning stated in Health-General Article, §4-301, Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>Member.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Member" means a person entitled to health care benefits under a policy, plan, or certificate issued or delivered in the State by a carrier.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Member" includes:</text>
+          <para>
+            <num>(i)</num>
+            <text>A subscriber; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Unless preempted by federal law, a Medicare recipient.</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>"Member" does not include a Medicaid recipient.</text>
+        </para>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>“Member’s representative” has the meaning stated in <cite doc="Md. Code" path="gin|15-10">Insurance Article, §15-10</cite>A-01, Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>"Private review agent" has the meaning stated in <cite doc="Md. Code" path="gin|15-10">Insurance Article, §15-10</cite>B-01, Annotated Code of Maryland.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Use of Independent Review Organizations and Medical Experts.</heading>
+    <para>
+      <num>A.</num>
+      <text>In cases considered appropriate by the Commissioner, the Commissioner shall seek advice concerning adverse decisions from an independent review organization or medical expert, as provided in <cite doc="Md. Code" path="gin|15-10">Insurance Article, §15-10</cite>A-05, Annotated Code of Maryland.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>For any independent review organization or medical expert that contracts with the Commissioner, the independent review organization or medical expert shall have a quality assurance mechanism in place that assures the:</text>
+      <para>
+        <num>(1)</num>
+        <text>Timeliness and quality of the reviews;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Qualifications and independence of the expert reviewers and the independent review organization, or the medical expert; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Confidentiality of medical records and review materials, consistent with federal and State laws.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>An independent review organization seeking to contract with the Commissioner shall submit to the Commissioner a copy of the accreditation certificate issued by a nationally recognized private accrediting organization.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>An independent review organization designated by the Commissioner to review an adverse decision shall have the authority and powers as delegated by the Commissioner for the following functions related to conducting an independent review:</text>
+      <para>
+        <num>(1)</num>
+        <text>Obtaining all information relative to the complaint from the carrier, the provider, the member, and the member’s representative;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Assigning the expert reviewer for review of an adverse decision; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Performing conflicts checks relative to the independent review organization and the expert reviewer assigned to review the adverse decision.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>A medical expert designated by the Commissioner to review an adverse decision shall have the authority and powers, as delegated by the Commissioner, for obtaining all information relative to the complaint from the:</text>
+      <para>
+        <num>(1)</num>
+        <text>Carrier;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Provider;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Member; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Member’s representative.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="31|10|19|.03">
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Conflicts of Interest Standards for Independent Review Organizations and Medical Experts.</heading>
+    <para>
+      <num>A.</num>
+      <text>An independent review organization or medical expert may not be an affiliate of a trade association of:</text>
+      <para>
+        <num>(1)</num>
+        <text>Health benefit plans; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Health care providers.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The independent review organization shall provide to the Commissioner the following:</text>
+      <para>
+        <num>(1)</num>
+        <text>The name and biographical information for each director, officer, and management employee of the independent review organization, and a description of any relationship, either direct or indirect, the named individual has that represents ownership of or income from any of the following entities:</text>
+        <para>
+          <num>(a)</num>
+          <text>A health maintenance organization;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>An insurer;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A private review agent;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>A nonprofit health corporation;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>A carrier dental plan organization;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>A health care provider or health care provider group; or</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>Any group acting on behalf of any of the entities described by §B(1)(a)—(f) of this regulation;</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If the independent review organization is a publicly held organization, the names of all stockholders and owners of more than 5 percent of any stock or options of the independent review organization;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The names of all holders of bonds or notes in excess of $100,000;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>A list of any currently outstanding loans or contracts to provide services between the independent review organization and any entity listed in <cite path="31|10|19|.03|B.|(1)">§B(1) of this regulation</cite>;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The names of all affiliates of the independent review organization and the nature and extent of any ownership or control, including:</text>
+        <para>
+          <num>(a)</num>
+          <text>The affiliate's type of business; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A chart or list clearly identifying the relationships between the independent review organization and any affiliates; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>A list of any currently outstanding loans or contracts to provide services between the independent review organization and any affiliates.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The medical expert, or independent review organization on behalf of the expert reviewer, shall provide to the Commissioner the following:</text>
+      <para>
+        <num>(1)</num>
+        <text>The name and biographical information for the medical expert or expert reviewer, and a description of any relationship, either direct or indirect, the medical expert or expert reviewer has which represents ownership of or income from any of the following entities:</text>
+        <para>
+          <num>(a)</num>
+          <text>A health maintenance organization;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>An insurer;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A private review agent;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>A nonprofit health organization;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>A carrier dental plan organization;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>A health care provider or health care provider group; or</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>Any group activity on behalf of any of the entities described by §C(1)(a)—(f) of this regulation;</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A list of any currently outstanding loans or contracts to provide services between the medical expert or expert reviewer and any entity listed in <cite path="31|10|19|.03|B.|(1)">§B(1) of this regulation</cite>;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The names of all affiliates of the medical expert or expert reviewer and the nature and extent of any ownership or control, including:</text>
+        <para>
+          <num>(a)</num>
+          <text>The affiliate's type of business; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A chart or list clearly identifying the relationships between the medical expert or expert reviewer and any of the affiliates; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>A list of any currently outstanding loans or contracts to provide services between the medical expert or expert reviewer and any affiliates.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>An expert reviewer assigned by an independent review organization or a medical expert selected by the Commissioner may not have a material professional, familial, or financial conflict of interest with any of the following:</text>
+      <para>
+        <num>(1)</num>
+        <text>The carrier that is the subject of the complaint;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Any officer, director, or management employee of the carrier that is the subject of the complaint;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The member that is subject to the adverse decision;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The health care provider, the health care provider's medical group, or the independent practice association that rendered or is proposing to render the health care service that is under review;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The health care facility at which the health care service was provided or will be provided; or</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>The developer or manufacturer of the principal drug, device, procedure, or other therapy that is being proposed for the member.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>The independent review organization or medical expert shall report any material changes in the information submitted to the Commissioner not later than the 30th day before the date on which the change takes effect.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Assignment of an Independent Review Organization or Medical Expert.</heading>
+    <para>
+      <num>A.</num>
+      <text>Concurrently with the assignment of a complaint to an independent review organization or a medical expert, the Commissioner shall notify the member, member’s representative, or health care provider acting on behalf of the member, and the carrier of the assignment.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>If the complaint is assigned to an independent review organization, the independent review organization shall screen its expert reviewer for potential material conflicts of interest.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The Commissioner shall have the discretion to determine whether a material conflict of interest exists for the expert reviewer of an independent review organization or the medical experts subject to this regulation and as provided by <cite doc="Md. Code" path="gin|15-10">Insurance Article, §15-10</cite>A-05, Annotated Code of Maryland.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>An expert reviewer or medical expert shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Be an expert in the treatment of the member's specific medical condition;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Be knowledgeable about the recommended health care service or treatment through actual clinical experience as determined by the Commissioner based on the period of time:</text>
+        <para>
+          <num>(a)</num>
+          <text>Actually treating patients with the same or similar specific medical condition, and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>That has elapsed between the clinical experience and the present;</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Hold:</text>
+        <para>
+          <num>(a)</num>
+          <text>A nonrestricted license as a physician or other appropriate health care provider in a state of the United States; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>For physicians, a current certification by a recognized American Medical Specialty Board in the area appropriate to the subject of review;</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Be licensed in the same health care occupation as the health care provider who considers the health care service that is the subject of the carrier's adverse decision to be medically necessary, appropriate, or efficient; and</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Have no history of disciplinary investigations, actions, or sanctions, including loss of staff privileges or participation restrictions that have been taken or are pending by any hospital, governmental agency or unit, or regulatory body, that raises a substantial question as to the expert reviewer's or medical expert's physical, mental or professional competence or moral character as determined by the Commissioner.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>To allow the Commissioner to determine whether an expert reviewer assigned by the independent review organization or a medical expert has a history of disciplinary investigations, actions, or sanctions that raises a substantial question as to the expert reviewer's or medical expert's physical, mental, or professional competence or moral character, the independent review organization or medical expert shall disclose to the Commissioner any:</text>
+      <para>
+        <num>(1)</num>
+        <text>Pending investigation or action against the expert reviewer or medical expert relating to health care of which the expert reviewer or medical expert has notice, and the nature of the action;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Civil or criminal investigation or action against the expert reviewer or medical expert relating to health care, and the nature of the action; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Investigation, conviction, or plea of guilty or nolo contendere with respect to a crime of moral turpitude against the expert reviewer or medical expert, regardless of whether any appeal or other proceeding is pending to have the conviction or plea set aside.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>The information relevant to the consideration by the Commissioner of whether the expert reviewer or medical expert meets the requirements of this regulation will be handled in accordance with <cite doc="Md. Code" path="gsg|10-618">State Government Article, §10-618, Annotated Code of Maryland</cite>.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Independent Review.</heading>
+    <para>
+      <num>A.</num>
+      <text>In conducting a review of an adverse decision, each independent review organization or medical expert shall, after reviewing all relevant medical and contractual information, advise the Commissioner in writing on whether the service was medically necessary.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The advice to the Commissioner shall state in writing the specific factual bases for the decision of the expert reviewer or the medical expert and reference the specific criteria and standards, including interpretive guidelines, on which the expert reviewer's or the medical expert's decision was based.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The Commissioner shall preserve the confidentiality of commercial information and a member's medical records and personal records in accordance with:</text>
+      <para>
+        <num>(1)</num>
+        <text><cite doc="Md. Code" path="gsg|10-611">State Government Article, §10-611 </cite>et seq., Annotated Code of Maryland;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Health-General Article, §4-301, Annotated Code of Maryland; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Any pertinent federal laws.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="31|10|19|.06">
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Payment of Fees.</heading>
+    <para>
+      <num>A.</num>
+      <text>The carrier that is the subject of the complaint is responsible for paying the reasonable expenses for the complaint under review by the independent review organization or medical expert selected by the Commissioner.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The independent review organization or medical expert for each complaint under review shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Present to the carrier:</text>
+        <para>
+          <num>(a)</num>
+          <text>An invoice detailing the expenses incurred by the independent review organization or medical expert related to the complaint under review, and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Any other information required in the event that the contract between the independent review organization or the medical expert and the Commissioner requires a flat fee; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Provide a copy of the invoice for each complaint under review to the Commissioner.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Payment by Carrier.</text>
+      <para>
+        <num>(1)</num>
+        <text>A carrier shall pay the reasonable expenses of an independent review organization or medical expert related to the complaint under review directly within 30 days of receipt of an invoice.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Failure by a carrier to pay an invoice from an independent review organization or medical expert for the complaint under review within 30 days of receipt shall result in the issuance of an order for payment by the Commissioner.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Failure by a carrier to pay in accordance with the order for payment issued by the Commissioner shall constitute a violation of the Insurance Article and the Health-General Article, Annotated Code of Maryland, subject to penalty pursuant to Health-General Article, §19-730, Annotated Code of Maryland, and <cite doc="Md. Code" path="gin|27-305">Insurance Article, §27-305, Annotated Code of Maryland</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>The carrier that is the subject of the complaint may not pay and an independent review organization or medical expert may not accept any compensation for the complaint under review in addition to the payment for reasonable expenses under <cite path="31|10|19|.06|A.">§A of this regulation</cite>.</text>
+    </para>
+  </section>
+  <section cache:ref-path="31|10|19|.07">
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Time for Rendering Final Decisions on Complaints.</heading>
+    <para>
+      <num>A.</num>
+      <text>Except for an emergency case as provided in <cite path="31.10.18.05">COMAR 31.10.18.05</cite> or as provided in <cite path="31|10|19|.07|B.">§B of this regulation</cite>, the Commissioner shall make a final written decision on a complaint within 45 days after a complaint is filed.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The Commissioner may extend the period within which a final written decision is to be made under <cite path="31|10|19|.07|A.">§A of this regulation</cite> for up to an additional 30 working days if the:</text>
+      <para>
+        <num>(1)</num>
+        <text>Commissioner has not yet received the information requested by the Commissioner; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Information requested is necessary for the Commissioner to render a final written decision on the complaint.</text>
+      </para>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Insurance Article, §§<cite doc="Md. Code" path="gin|2-109">2-109</cite>, <cite doc="Md. Code" path="gin|15-10">15-10</cite>A-<cite doc="Md. Code" path="gin|05">05</cite>, and <cite doc="Md. Code" path="gin|15-10">15-10</cite>A-09, Annotated Code of Maryland;</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container">Effective date:</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1999-02-22">Regulations <cite path="|31|10|19|.01">.01</cite>—<cite path="|31|10|19|.07">.07</cite> adopted as an emergency provision effective January 1, 1999 (25:26 Md. R. 1917); adopted permanently effective February 22, 1999 (26:4 Md. R. 274)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2012-04-16"><cite path="|31|10|19|.01|B.">Regulation .01B</cite> amended effective April 16, 2012 (39:7 Md. R. 496)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2012-04-16"><cite path="|31|10|19|.02">Regulation .02</cite> amended effective April 16, 2012 (39:7 Md. R. 496)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2012-04-16"><cite path="|31|10|19|.04|A.">Regulation .04A</cite>, D amended effective April 16, 2012 (39:7 Md. R. 496)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2012-04-16"><cite path="|31|10|19|.06|C.">Regulation .06C</cite> amended effective April 16, 2012 (39:7 Md. R. 496)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2012-04-16"><cite path="|31|10|19|.07">Regulation .07</cite> amended effective April 16, 2012 (39:7 Md. R. 496)</annotation>
+  </annotations>
+</container>

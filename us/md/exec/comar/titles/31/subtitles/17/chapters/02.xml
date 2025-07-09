@@ -1,0 +1,396 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>02</num>
+  <heading>Medically Uninsurable Individual Based on a Medical or Health Condition</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Purpose.</heading>
+    <text>This chapter establishes the criteria for individuals who have certain medical or health conditions to qualify for coverage under the Maryland Health Insurance Plan.</text>
+  </section>
+  <section cache:ref-path="31|17|02|.02">
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>"Carrier" means:</text>
+        <para>
+          <num>(a)</num>
+          <text>An authorized insurer that provides health insurance in the State;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A nonprofit health service plan that is licensed to operate in the State; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A health maintenance organization that is licensed to operate in the State.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>"Medical or health condition" means any of the following:</text>
+        <para>
+          <num>(a)</num>
+          <text>Acquired immunodeficiency syndrome (AIDS);</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Addison's disease;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Amyotrophic lateral sclerosis (ALS) (Lou Gehrig's disease);</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Alzheimer's disease;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Angina pectoris;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Ankylosing Spondylitis;</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>Anorexia;</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>Aplastic anemia;</text>
+        </para>
+        <para>
+          <num>(i)</num>
+          <text>Ascites;</text>
+        </para>
+        <para>
+          <num>(j)</num>
+          <text>Banti's disease;</text>
+        </para>
+        <para>
+          <num>(k)</num>
+          <text>Behavioral health in-patient treatment within the last 12 months;</text>
+        </para>
+        <para>
+          <num>(l)</num>
+          <text>Bipolar disorder;</text>
+        </para>
+        <para>
+          <num>(m)</num>
+          <text>Bulimia;</text>
+        </para>
+        <para>
+          <num>(n)</num>
+          <text>Cancer treated or diagnosed within the last 5 years, except skin cancer;</text>
+        </para>
+        <para>
+          <num>(o)</num>
+          <text>Cardiomyopathy;</text>
+        </para>
+        <para>
+          <num>(p)</num>
+          <text>Chemical dependency;</text>
+        </para>
+        <para>
+          <num>(q)</num>
+          <text>Chronic obstructive pulmonary disease;</text>
+        </para>
+        <para>
+          <num>(r)</num>
+          <text>Cirrhosis of the liver;</text>
+        </para>
+        <para>
+          <num>(s)</num>
+          <text>Coronary artery disease;</text>
+        </para>
+        <para>
+          <num>(t)</num>
+          <text>Coronary heart failure;</text>
+        </para>
+        <para>
+          <num>(u)</num>
+          <text>Coronary insufficiency;</text>
+        </para>
+        <para>
+          <num>(v)</num>
+          <text>Coronary occlusion;</text>
+        </para>
+        <para>
+          <num>(w)</num>
+          <text>Creutzfeldt-Jakob disease;</text>
+        </para>
+        <para>
+          <num>(x)</num>
+          <text>Crohn's disease;</text>
+        </para>
+        <para>
+          <num>(y)</num>
+          <text>Cystic fibrosis;</text>
+        </para>
+        <para>
+          <num>(z)</num>
+          <text>Dementia;</text>
+        </para>
+        <para>
+          <num>(aa)</num>
+          <text>Type I or II diabetes;</text>
+        </para>
+        <para>
+          <num>(bb)</num>
+          <text>Disorders from organic brain damage;</text>
+        </para>
+        <para>
+          <num>(cc)</num>
+          <text>Emphysema;</text>
+        </para>
+        <para>
+          <num>(dd)</num>
+          <text>Esophageal varices;</text>
+        </para>
+        <para>
+          <num>(ee)</num>
+          <text>Friederich's ataxia;</text>
+        </para>
+        <para>
+          <num>(ff)</num>
+          <text>Guillain-Barré syndrome;</text>
+        </para>
+        <para>
+          <num>(gg)</num>
+          <text>Hemochromatosis;</text>
+        </para>
+        <para>
+          <num>(hh)</num>
+          <text>Hemophilia;</text>
+        </para>
+        <para>
+          <num>(ii)</num>
+          <text>Hepatitis B or C;</text>
+        </para>
+        <para>
+          <num>(jj)</num>
+          <text>Hodgkin's disease;</text>
+        </para>
+        <para>
+          <num>(kk)</num>
+          <text>Human immunodeficiency virus (HIV);</text>
+        </para>
+        <para>
+          <num>(ll)</num>
+          <text>Huntington's chorea;</text>
+        </para>
+        <para>
+          <num>(mm)</num>
+          <text>Hydrocephalus;</text>
+        </para>
+        <para>
+          <num>(nn)</num>
+          <text>Kidney disease requiring dialysis;</text>
+        </para>
+        <para>
+          <num>(oo)</num>
+          <text>Leukemia;</text>
+        </para>
+        <para>
+          <num>(pp)</num>
+          <text>Lupus erythematosus disseminate;</text>
+        </para>
+        <para>
+          <num>(qq)</num>
+          <text>Major organ transplant recipient;</text>
+        </para>
+        <para>
+          <num>(rr)</num>
+          <text>Melanoma;</text>
+        </para>
+        <para>
+          <num>(ss)</num>
+          <text>Multiple myeloma;</text>
+        </para>
+        <para>
+          <num>(tt)</num>
+          <text>Multiple or disseminated sclerosis;</text>
+        </para>
+        <para>
+          <num>(uu)</num>
+          <text>Muscular dystrophy;</text>
+        </para>
+        <para>
+          <num>(vv)</num>
+          <text>Myasthenia gravis;</text>
+        </para>
+        <para>
+          <num>(ww)</num>
+          <text>Myotonia;</text>
+        </para>
+        <para>
+          <num>(xx)</num>
+          <text>Non-Hodgkin's lymphoma;</text>
+        </para>
+        <para>
+          <num>(yy)</num>
+          <text>Palsy;</text>
+        </para>
+        <para>
+          <num>(zz)</num>
+          <text>Paraplegia;</text>
+        </para>
+        <para>
+          <num>(aaa)</num>
+          <text>Parkinson's disease;</text>
+        </para>
+        <para>
+          <num>(bbb)</num>
+          <text>Pick's disease;</text>
+        </para>
+        <para>
+          <num>(ccc)</num>
+          <text>Porphyria;</text>
+        </para>
+        <para>
+          <num>(ddd)</num>
+          <text>Pregnancy;</text>
+        </para>
+        <para>
+          <num>(eee)</num>
+          <text>Presence of a pacemaker;</text>
+        </para>
+        <para>
+          <num>(fff)</num>
+          <text>Psychotic disorder;</text>
+        </para>
+        <para>
+          <num>(ggg)</num>
+          <text>Quadriplegia;</text>
+        </para>
+        <para>
+          <num>(hhh)</num>
+          <text>Rheumatoid arthritis;</text>
+        </para>
+        <para>
+          <num>(iii)</num>
+          <text>Scleroderma;</text>
+        </para>
+        <para>
+          <num>(jjj)</num>
+          <text>Sickle cell disease;</text>
+        </para>
+        <para>
+          <num>(kkk)</num>
+          <text>Cerebrovascular accident (stroke);</text>
+        </para>
+        <para>
+          <num>(lll)</num>
+          <text>Syringomyelia;</text>
+        </para>
+        <para>
+          <num>(mmm)</num>
+          <text>Tay-Sachs disease;</text>
+        </para>
+        <para>
+          <num>(nnn)</num>
+          <text>Ulcerative colitis;</text>
+        </para>
+        <para>
+          <num>(ooo)</num>
+          <text>Wernicke-Kosakoff syndrome;</text>
+        </para>
+        <para>
+          <num>(ppp)</num>
+          <text>Wilm's tumor; or</text>
+        </para>
+        <para>
+          <num>(qqq)</num>
+          <text>Wilson's disease.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Medically Uninsurable Individual.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Medically uninsurable individual" means an individual who is a resident of the State and who:</text>
+          <para>
+            <num>(i)</num>
+            <text>Provides evidence that, for health reasons, a carrier has refused to issue substantially similar coverage to the individual;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Provides evidence that, for health reasons, a carrier has refused to issue substantially similar coverage to the individual, except at a rate that exceeds the Plan rate;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Is an eligible individual under <cite doc="Md. Code" path="gin|15-1301">Insurance Article, §15-1301, Annotated Code of Maryland</cite>;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Has a history of or suffers from a medical or health condition as defined in <cite path="31|17|02|.02|B.|(2)">§B(2) of this regulation</cite>; or</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>Is a dependent of an individual who is eligible for coverage under this subsection.</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Medically uninsurable individual" does not include an individual who is eligible for coverage under:</text>
+          <para>
+            <num>(i)</num>
+            <text>The federal Medicare program;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>The Maryland Medical Assistance Program;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>The Maryland Children's Health Program; or</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>An employer-sponsored group health insurance plan that includes benefits comparable to Plan benefits.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>"Plan" means the Maryland Health Insurance Plan.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="31|17|02|.03">
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Proof of a Medical or Health Condition.</heading>
+    <para>
+      <num>A.</num>
+      <text>The Plan shall consider that an individual meets the requirements of <cite path="|31|17|02|.02|B.|(3)|(a)|(iv)">Regulation .02B(3)(a)(iv) of this chapter</cite> if the individual supplies documentation from a licensed physician that states that the individual has a history of or suffers from a medical or health condition.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The documentation required in <cite path="31|17|02|.03|A.">§A of this regulation</cite> shall specifically list one of the medical or health conditions in <cite path="|31|17|02|.02|B.|(2)">Regulation .02B(2) of this chapter</cite>.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>The documentation required in <cite path="31|17|02|.03|A.">§A of this regulation</cite> may be a letter from a licensed physician.</text>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Insurance Article, §§<cite doc="Md. Code" path="gin|14-501">14-501</cite>(h)(<cite doc="Md. Code" path="gin|1">1</cite>)(iv) and <cite doc="Md. Code" path="gin|14-503">14-503</cite>(k), Annotated Code of Maryland</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container">Effective date:</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2003-08-04">Regulations <cite path="|31|17|02|.01">.01</cite>—<cite path="|31|17|02|.03">.03</cite> adopted as an emergency provision effective February 6, 2003 (30:5 Md. R. 365); adopted permanently effective August 4, 2003 (30:15 Md. R. 993)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2008-12-29"><cite path="|31|17|02|.02|B.">Regulation .02B</cite> amended effective January 30, 2006 (33:2 Md. R. 85); May 5, 2008 (35:9 Md. R. 900); December 29, 2008 (35:26 Md. R. 2251)</annotation>
+  </annotations>
+</container>

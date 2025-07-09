@@ -1,0 +1,320 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>01</num>
+  <heading>Allocation and Taxation of Premiums</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Authority and Purpose.</heading>
+    <para>
+      <num>A.</num>
+      <text>Pursuant to the authority contained in  <cite doc="Md. Code" path="gin">Insurance Article, Title 6, Subtitle 1, Annotated Code of Maryland</cite>, the State Insurance Commissioner prescribes by this chapter the methods of allocating the gross direct premium for business transacted by insurers.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The purpose of this chapter is to establish a uniform method for determining how premiums are to be allocated for premium tax purposes, and to make clear what that method is.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Method.</heading>
+    <text>Beginning with the annual statement for the calendar year 1970, to be filed on or before March 1, 1971, each insurer shall allocate its premiums in accordance with the following:</text>
+    <para>
+      <num>A.</num>
+      <text>Property and Casualty.</text>
+      <text>
+        <table>
+          <thead>
+            <tr>
+              <th>Line of Business</th>
+              <th>Jurisdiction Charged</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td data-vertical-align="middle">Fire</td>
+              <td data-vertical-align="middle">Location of risk</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">Extended Coverage</td>
+              <td data-vertical-align="middle">Location of risk</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">Other Allied Lines</td>
+              <td data-vertical-align="middle">Location of risk</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">Homeowners Multiple Peril</td>
+              <td data-vertical-align="middle">Location of risk</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">Commercial Multiple Peril</td>
+              <td data-vertical-align="middle">Location of risk</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">Earthquake</td>
+              <td data-vertical-align="middle">Location of risk</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">Growing Crops</td>
+              <td data-vertical-align="middle">Location of risk</td>
+            </tr>
+            <tr>
+              <td>Wet Marine</td>
+              <td data-vertical-align="middle">Jurisdiction in which contract of insurance is negotiated and placed, except builders' risks to jurisdiction in which risk is located.</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">Inland Marine</td>
+              <td data-vertical-align="middle">Principal address of policy holder</td>
+            </tr>
+            <tr>
+              <td>Group Accident &amp; Health, Including Credit</td>
+              <td data-vertical-align="middle">Groups under 500 employee/member/debtor lives, jurisdiction in which the largest number of lives are located according to the records of the insurer. Groups of 500 or more not all in one jurisdiction, by ratio of lives in each jurisdiction to total lives under policy.</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">Other Accident &amp; Health</td>
+              <td data-vertical-align="middle">Address to which premium notice is sent</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">Workmen's Compensation</td>
+              <td data-vertical-align="middle">Location of insured's operation</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">Liability other than Auto (B.I.)</td>
+              <td data-vertical-align="middle">Location of risk or operation</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">Liability other than Auto (P.D.)</td>
+              <td data-vertical-align="middle">Location of risk or operation</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">Auto Liability (B.I.)</td>
+              <td data-vertical-align="middle">Location of principal garage</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">Auto Liability (P.D.)</td>
+              <td data-vertical-align="middle">Location of principal garage</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">Auto Physical Damage</td>
+              <td data-vertical-align="middle">Location of principal garage</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">Aircraft Physical Damage</td>
+              <td data-vertical-align="middle">Location of principal hangar</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">Fidelity:</td>
+              <td/>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">Bankers Blanket Bond</td>
+              <td data-vertical-align="middle">Location of employer</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">Mercantile Blanket Bond</td>
+              <td data-vertical-align="middle">Location of employer</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">Employees Individual Bonds</td>
+              <td data-vertical-align="middle">Location of employer</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">Employees Schedule Bonds</td>
+              <td data-vertical-align="middle">Location of employer</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">U.S. Government Employee Bonds</td>
+              <td data-vertical-align="middle">Location of employer</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">Public Official Bond</td>
+              <td data-vertical-align="middle">Location of insured</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">Fraud Bonds</td>
+              <td data-vertical-align="middle">Location of insured</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">Forgery Bonds</td>
+              <td data-vertical-align="middle">Location of insured</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">Merchants Protective Bonds</td>
+              <td data-vertical-align="middle">Location of insured</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">Surety:</td>
+              <td/>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">Depository Bonds</td>
+              <td data-vertical-align="middle">Location of principal</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">Judicial Bonds</td>
+              <td data-vertical-align="middle">Location of court</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">Court Bonds</td>
+              <td data-vertical-align="middle">Location of court</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">License Bonds</td>
+              <td data-vertical-align="middle">Location of obligee</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">Construction Bonds</td>
+              <td data-vertical-align="middle">Location of work</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">Supply Bonds</td>
+              <td data-vertical-align="middle">Location of principal</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">Public Official</td>
+              <td data-vertical-align="middle">Location of principal's employment</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">Indemnity &amp; Miscellaneous Bonds</td>
+              <td data-vertical-align="middle">Location of principal</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">Credit Insurance, Indemnity</td>
+              <td data-vertical-align="middle">Principal office of the insured</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">Mortgage Guaranty</td>
+              <td data-vertical-align="middle">Location of mortgaged property</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">Glass</td>
+              <td data-vertical-align="middle">Location of risk</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">Burglary and Theft</td>
+              <td data-vertical-align="middle">Location of risk</td>
+            </tr>
+            <tr>
+              <td data-vertical-align="middle">Boiler and Machinery</td>
+              <td data-vertical-align="middle">Location of risk</td>
+            </tr>
+          </tbody>
+        </table>
+      </text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Life.</text>
+      <text>
+        <table>
+          <thead>
+            <tr>
+              <th>Classification</th>
+              <th>Jurisdiction Charged</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Ordinary Life, Including Credit</td>
+              <td>Address to which the premium notice is sent</td>
+            </tr>
+            <tr>
+              <td>Industrial Life and Monthly Debit Ordinary</td>
+              <td>Location of debit(when debit includes two or more jurisdictions, apply ratio of amount in force in each jurisdiction to total debit)</td>
+            </tr>
+            <tr>
+              <td>Single Premiums</td>
+              <td>Address of insured's residence</td>
+            </tr>
+            <tr>
+              <td>Group Life, Including Credit</td>
+              <td>Groups under 500 employee/member/debtor lives, jurisdiction in which the largest number of lives are located according to the records of the insurer.</td>
+            </tr>
+            <tr>
+              <td/>
+              <td>Groups of 500 or more not all in one jurisdiction, by ratio of lives in each jurisdiction to total lives under policy.</td>
+            </tr>
+          </tbody>
+        </table>
+      </text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Accident and Health.</text>
+      <text>
+        <table>
+          <thead>
+            <tr>
+              <th>Classification</th>
+              <th>Jurisdiction Charged</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td data-vertical-align="middle">Individual, Including Credit</td>
+              <td data-vertical-align="middle">Address to which premium notice is sent</td>
+            </tr>
+            <tr>
+              <td>Industrial and Monthly Debit</td>
+              <td data-vertical-align="middle">Location of debit (when debit includes two or more jurisdictions, apply ratio of amounts in force in each jurisdiction to total debit)</td>
+            </tr>
+            <tr>
+              <td>Group, Including Credit</td>
+              <td data-vertical-align="middle">Groups under 500 employee/member/debtor lives, jurisdiction in which the largest number of lives are located according to the records of the insurer.</td>
+            </tr>
+            <tr>
+              <td/>
+              <td data-vertical-align="middle">Groups of 500 or more not all in one jurisdiction, by ratio of lives in each jurisdiction to total lives under policy.</td>
+            </tr>
+          </tbody>
+        </table>
+      </text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Annuity Allocations. Insofar as annuity considerations are taxable, they shall be allocated by the same method as that adopted for life insurance premiums.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Title Allocations. Title insurance premiums are to be allocated to location of risk.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Federal Areas Allocations. Business done at Army, Navy, or Air Force bases, and other similar federal installations, shall be allocated to the jurisdiction of the insured's residence, as listed on the application.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Waiver By Commissioner.</heading>
+    <text>The method of allocation of gross direct premiums set forth above may be altered or waived in whole or in part by the Commissioner upon application by any insurer and a finding by the Commissioner that the proposed method of allocation justly and fairly determines the portion of the premiums derived from, or reasonably attributable to, the insurer's business in this State.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Taxes on Premiums Received.</heading>
+    <para>
+      <num>A.</num>
+      <text>Authority. This regulation is deemed necessary as an aid to effectuation of <cite doc="Md. Code" path="gin|6-101">Insurance Article, §6-101, Annotated Code of Maryland</cite>.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Applicability. This regulation applies to all domestic insurers.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Taxes on Premiums Received by Domestic Companies Which Are Not Taxed by Another State. In determining the amount of direct premiums taxable in this State, premiums written, procured, or received in this State shall be deemed written on property or risks located or resident in this State, except such premiums as are properly allocated or proportioned and reported as taxable premiums of any other state or states.</text>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Insurance Article, §§<cite doc="Md. Code" path="gin|2-109">2-109</cite> and <cite doc="Md. Code" path="gin|6-102">6-102</cite>—<cite doc="Md. Code" path="gin|6-104">6-104</cite>, Annotated Code of Maryland</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container">Effective date:</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1969-12-01">Regulations <cite path="|31|06|01|.01">.01</cite>—<cite path="|31|06|01|.03">.03</cite> effective December 1, 1969</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1995-10-23"><cite path="|31|06|01|.01|A.">Regulation .01A</cite> amended effective October 23, 1995 (22:21 Md. R. 1615)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1970-08-01"><cite path="|31|06|01|.04">Regulation .04</cite> effective August 1, 1970</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="1998-09-07" discontinuity="true">Chapter recodified from <cite path="|09.30.12">COMAR 09.30.12</cite> to <cite path="|31.06.01">COMAR 31.06.01</cite> effective September 7, 1998 (25:18 Md. R. 1439)</annotation>
+  </annotations>
+</container>

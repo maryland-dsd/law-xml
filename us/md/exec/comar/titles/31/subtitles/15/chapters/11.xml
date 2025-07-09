@@ -1,0 +1,896 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>11</num>
+  <heading>Use of Credit History in Underwriting and Rate Making</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Purpose.</heading>
+    <para>
+      <num>A.</num>
+      <text>Enactment of Legislation on Use of Credit History.</text>
+      <para>
+        <num>(1)</num>
+        <text>During the 2002 Session, the General Assembly enacted House Bill 521 which became Ch. 580, Acts 2002.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>With respect to homeowner's insurance, Ch. 580, Acts of 2002 prohibits an insurer from using credit history to underwrite or rate a risk or require a particular payment plan.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>With respect to private passenger motor vehicle insurance, Ch. 580, Acts of 2002, prohibits an insurer from using credit history to underwrite a risk, increase a renewal premium, or require a particular payment plan and restricts the manner in which an insurer may use credit history to rate a new private passenger motor vehicle policy.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Purpose of Chapter. The purpose of this chapter is to:</text>
+      <para>
+        <num>(1)</num>
+        <text>Implement Ch. 580, Acts of 2002;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Clarify the steps an insurer or insurance producer is required to take to determine if an applicant or insured has credit history after an initial inquiry fails to generate a credit report, credit score, or other credit history;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Codify the best price rule with respect to the use of credit criteria or a credit score in an insurer's rate-making standards; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Require insurers that use credit history for rating purposes, with respect to private passenger motor vehicle insurance, to provide the Insurance Commissioner with the underlying information that the Insurance Commissioner needs to ensure that the insurers use the credit history in accordance with the standards for rating that currently exist in Maryland law.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="31|15|11|.02">
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Scope.</heading>
+    <para>
+      <num>A.</num>
+      <text>In General. This chapter applies to insurers that sell or offer to sell homeowner's insurance or private passenger motor vehicle insurance.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Insurance Transaction Not Initiated by a Consumer.</text>
+      <para>
+        <num>(1)</num>
+        <text>This chapter does not apply to the use of a credit report or a credit score derived from a credit report, by an insurer in an insurance transaction that:</text>
+        <para>
+          <num>(a)</num>
+          <text>Is not initiated by a consumer; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Consists of a firm offer of insurance.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If an insurer refuses to underwrite after a consumer submits an application in response to a firm offer of insurance made in accordance with <cite path="31|15|11|.02|B.|(1)">§B(1) of this regulation</cite>, the refusal to underwrite:</text>
+        <para>
+          <num>(a)</num>
+          <text>Is not part of a transaction that is not initiated by a consumer; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Is subject to this chapter and any provisions of the Annotated Code of Maryland that are applicable to underwriting, including <cite doc="Md. Code" path="gin|27-501">Insurance Article, §27-501, Annotated Code of Maryland</cite>.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Accuracy or Completeness of Information in Credit Report. This chapter does not apply to a dispute regarding the accuracy or completeness of information in a credit report.</text>
+    </para>
+  </section>
+  <section cache:ref-path="31|15|11|.03">
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following items have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>"Affiliated insurer" means an insurer that directly or indirectly, through one or more intermediaries, controls, is controlled by, or is under common control with another insurer.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>"Consumer reporting agency" includes an insurer and any affiliate of an insurer that collects information that:</text>
+        <para>
+          <num>(a)</num>
+          <text>Bears on a consumer's credit worthiness, credit standing, or credit capacity; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Is used or expected to be used wholly or partly to serve as a factor in establishing the consumer's eligibility or pricing for personal lines of property and casualty insurance to be used primarily for personal, family, or household purposes.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>"Control" means the direct or indirect possession of the power to direct, or cause the direction of, the management and policies of an insurer, regardless of whether the power is exercised, by:</text>
+        <para>
+          <num>(a)</num>
+          <text>Ownership of voting securities or of securities convertible into voting securities;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Contract, other than a commercial contract for goods or nonmanagement services; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Any other means.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>"Credit-based discount" means the application of a rate modification factor that is:</text>
+        <para>
+          <num>(a)</num>
+          <text>Based on an applicant's credit history; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Less than 1.0 but greater than or equal to 0.6.</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>"Credit-based surcharge" means the application of a rate modification factor that is:</text>
+        <para>
+          <num>(a)</num>
+          <text>Based on an applicant's credit history; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Greater than 1.0 but less than or equal to 1.4.</text>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>"Credit criterion" means information bearing on a particular aspect of an individual's credit history.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Credit History.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Credit history" means a written, oral, or other communication of any information by a consumer reporting agency that:</text>
+          <para>
+            <num>(i)</num>
+            <text>Bears on a consumer's credit worthiness, credit standing, or credit capacity; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Is used or collected, or expected to be used or collected, wholly or partly to serve as a factor in establishing the consumer's eligibility or pricing for personal lines of property and casualty insurance to be used primarily for personal, family, or household purposes.</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Credit history" includes:</text>
+          <para>
+            <num>(i)</num>
+            <text>A credit criterion;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>A credit report; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>A credit score.</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>"Credit history" does not include:</text>
+          <para>
+            <num>(i)</num>
+            <text>An accident history report as defined in <cite doc="Md. Code" path="gin|27-216">Insurance Article, §27-216(e), Annotated Code of Maryland</cite>;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>An accident history report or record of motor vehicle violations kept by the Motor Vehicle Administration pursuant to <cite doc="Md. Code" path="gtr|16-117">Transportation Article, §16-117, Annotated Code of Maryland</cite>;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>A property loss report or claims history that does not include information that bears on a consumer's credit worthiness, credit standing, or credit capacity; or</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Any report containing information solely as to transactions or experiences between the consumer and the person making the report.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>"Credit report" means credit history obtained from a consumer reporting agency other than an insurer or affiliate of an insurer described in <cite path="31|15|11|.03|B.|(2)">§B(2) of this regulation</cite>.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>"Credit score" means a score that is derived by utilizing data from an individual's credit history in an algorithm, computer program, model, or other process that reduces the data to a number or rating.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>"Firm offer of insurance" has the meaning stated in <cite path="31|15|11|.03|C.">§C of this regulation</cite>.</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>Homeowner's Insurance.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Homeowner's insurance" means insurance for residential property that provides one or more of the following coverages:</text>
+          <para>
+            <num>(i)</num>
+            <text>Fire;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Extended coverage;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Vandalism and malicious mischief;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Burglary;</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>Theft; or</text>
+          </para>
+          <para>
+            <num>(vi)</num>
+            <text>Personal liability.</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Homeowner's insurance" does not include an umbrella policy.</text>
+        </para>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>Motor Vehicle.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Motor vehicle" means a vehicle that is operated or designed for operation on a public road by a power other than animal or muscular power.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Motor vehicle" includes:</text>
+          <para>
+            <num>(i)</num>
+            <text>A motorcycle;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>A motor home; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>A trailer.</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>"Motor vehicle" does not include:</text>
+          <para>
+            <num>(i)</num>
+            <text>A bus as defined by <cite doc="Md. Code" path="gtr|11-105">Transportation Article, §11-105, Annotated Code of Maryland</cite>; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>A taxicab as defined by <cite doc="Md. Code" path="gtr|11-165">Transportation Article, §11-165, Annotated Code of Maryland</cite>.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>"Private passenger motor vehicle" means a motor vehicle that is used primarily for personal, family, or household purposes.</text>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>"Rate" includes:</text>
+        <para>
+          <num>(a)</num>
+          <text>To provide or remove a discount or impose or remove a surcharge;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>To assign an applicant to a tier; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>To place an applicant with an affiliated insurer.</text>
+        </para>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>Residential Property.</text>
+        <para>
+          <num>(a)</num>
+          <text>"Residential property" means property that is used primarily as a residence.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>"Residential property" includes:</text>
+          <para>
+            <num>(i)</num>
+            <text>An apartment unit;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>A condominium unit;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>A mobile home; and</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>A multiunit building if one of the units is occupied by the owner of the building and not more than three units are occupied by tenants.</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>"Residential property" does not include a boat.</text>
+        </para>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>"Tier" means a category within a single insurer into which insureds with similar risk characteristics are placed for purposes of determining a premium rate.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>"Firm offer of insurance" means an offer of insurance to a consumer that:</text>
+      <para>
+        <num>(1)</num>
+        <text>Will be honored if the consumer is determined, based on information in a credit report on the consumer, to meet the specific criteria used to select the consumer for the offer; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>May be further conditioned on one or more of the following:</text>
+        <para>
+          <num>(a)</num>
+          <text>A determination, based on information in the consumer's application for insurance, that the consumer meets specific criteria that:</text>
+          <para>
+            <num>(i)</num>
+            <text>Bear on insurability, and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Were established before selection of the consumer for the offer and for the purpose of determining whether to extend insurance pursuant to the offer;</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Verification:</text>
+          <para>
+            <num>(i)</num>
+            <text>That the consumer continues to meet the specific criteria used to select the consumer for the offer, by using information in a credit report on the consumer, information in the consumer's application for the insurance, or other information bearing on the insurability of the consumer, or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Of the information in the consumer's application for insurance, to determine that the consumer meets the specific criteria bearing on credit worthiness or insurability; or</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Provision by the consumer of any collateral that is a requirement for the extension of the insurance that was:</text>
+          <para>
+            <num>(i)</num>
+            <text>Established before selection of the consumer for the offer of insurance, and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Disclosed to the consumer in the offer of insurance.</text>
+          </para>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Homeowner's Insurance — Prohibition on Use of Credit History.</heading>
+    <text>With respect to homeowner's insurance, an insurer may not:</text>
+    <para>
+      <num>A.</num>
+      <text>Refuse to underwrite, cancel, or refuse to renew a risk based wholly or partly on the credit history of an applicant or insured, including the absence of or inability to determine credit history;</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Rate a risk based wholly or partly on the credit history of an applicant or insured, including the absence of or inability to determine credit history, in any manner, including:</text>
+      <para>
+        <num>(1)</num>
+        <text>Providing or removing a discount or imposing or removing a surcharge;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Assigning the insured or applicant to a tier; or</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Placing an applicant or insured with an affiliated insurer; or</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Require a particular payment plan based wholly or partly on the credit history of an applicant or insured, including the absence of or inability to determine credit history.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Private Passenger Motor Vehicle Insurance — Uses of Credit History.</heading>
+    <para>
+      <num>A.</num>
+      <text>Prohibited Use of Credit History. With respect to private passenger motor vehicle insurance, an insurer may not:</text>
+      <para>
+        <num>(1)</num>
+        <text>Refuse to underwrite, cancel, refuse to renew, or increase the renewal premium based wholly or partly on the credit history of the applicant or insured, including the absence of or inability to determine credit history; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Require a particular payment plan based wholly or partly on the credit history of the applicant or insured, including the absence of or inability to determine credit history.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Permissible Use of Credit History. Subject to Regulations .06, .09, and .10 of this chapter, an insurer may use the credit history of an applicant to rate a new policy of private passenger motor vehicle insurance.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Private Passenger Motor Vehicle Insurance — Credit History Use Disclosure — Premium Quotation.</heading>
+    <para>
+      <num>A.</num>
+      <text>Contents of Disclosure. An insurer that rates a new policy of private passenger motor vehicle insurance based wholly or partly on the credit history of an applicant shall, at the time of application, advise the applicant in writing on the application form that:</text>
+      <para>
+        <num>(1)</num>
+        <text>The insurer uses credit history to rate new policies; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The applicant may request a premium quotation that separately identifies the portion of the premium attributable to the applicant's credit history.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Premium Quotation. On request of an applicant, an insurer shall provide to the applicant in writing a premium quotation that separately identifies the portion of the premium attributable to the applicant's credit history.</text>
+    </para>
+  </section>
+  <section cache:ref-path="31|15|11|.07">
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Private Passenger Motor Vehicle Insurance—Obtaining Credit History.</heading>
+    <para>
+      <num>A.</num>
+      <text>In General. With respect to private passenger motor vehicle insurance, an insurer or an insurance producer of an insurer may not obtain a credit report, credit score, or other credit history for an applicant unless the insurer or insurance producer obtains a credit report, credit score, or other credit history:</text>
+      <para>
+        <num>(1)</num>
+        <text>For each applicant of the insurer; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>In accordance with a written standard for determining when to obtain a credit report, credit score, or other credit history that meets the requirements of <cite path="31|15|11|.07|B.">§B of this regulation</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Written Standard. A written standard for determining when to obtain a credit report, credit score, or other credit history shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Prohibit obtaining a credit report, credit score, or other credit history based wholly or partly on race, color, creed, sex, religion, national origin, place of residency, blindness, or any other physical handicap or disability of an applicant;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Prohibit obtaining a credit report, credit score, or other credit history for any arbitrary, capricious, or unfairly discriminatory reason;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Require the decision to obtain a credit report, credit score, or other credit history to be reasonably related to the insurer's economic and business purposes; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Otherwise comply with <cite doc="Md. Code" path="gin|27-501">Insurance Article, §27-501, Annotated Code of Maryland</cite>.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Filing Information with the Commissioner. At the request of the Commissioner, an insurer shall file with the Commissioner a copy of the insurer's written standard pursuant to <cite doc="Md. Code" path="gin|27-501">Insurance Article, §27-501(h)(2), Annotated Code of Maryland</cite>.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Confidentiality of Information.</text>
+      <para>
+        <num>(1)</num>
+        <text>An insurer that submits a written standard to the Commissioner under <cite path="31|15|11|.07|C.">§C of this regulation</cite> may, under <cite doc="Md. Code" path="gin|27-501">Insurance Article, §27-501(h)(4), Annotated Code of Maryland</cite>, request a finding by the Commissioner that its written standard be considered a trade secret or confidential commercial information under <cite doc="Md. Code" path="ggp|4-335">General Provisions Article, §4-335, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>A written standard that is the subject of a confidentiality request shall be considered confidential pending review by the Commissioner.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>A finding that information submitted to the Commissioner under this chapter is a trade secret or confidential commercial information under <cite doc="Md. Code" path="ggp|4-335">General Provisions Article, §4-335, Annotated Code of Maryland</cite>:</text>
+        <para>
+          <num>(a)</num>
+          <text>Applies only to an application for inspection of a public record under <cite doc="Md. Code" path="ggp">General Provisions Article, Title 4, Annotated Code of Maryland</cite>;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Does not apply to a hearing to determine whether an insurer has violated <cite doc="Md. Code" path="gin|27-501">Insurance Article, §27-501, Annotated Code of Maryland</cite>; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Does not excuse an insurer from providing any information necessary to meet its burden of persuasion at the hearing in accordance with <cite doc="Md. Code" path="gin|27-501">Insurance Article, §27-501(g), Annotated Code of Maryland</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>If the Commissioner finds that a written standard is not a trade secret or confidential commercial information, the insurer that submitted the written standard may:</text>
+        <para>
+          <num>(a)</num>
+          <text>Withdraw the written standard; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Request a hearing on the Commissioner's finding pursuant to <cite doc="Md. Code" path="gin|2-210">Insurance Article, §2-210(a)(2)(ii), Annotated Code of Maryland</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>An insurer may not use a written standard that has been withdrawn.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Private Passenger Motor Vehicle Insurance — Inability to Obtain Credit History.</heading>
+    <para>
+      <num>A.</num>
+      <text>With respect to private passenger motor vehicle insurance, if an initial inquiry by an insurer or insurance producer fails to generate a credit report, credit score, or other credit history, the insurer or insurance producer shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Notify the applicant or insured that the initial inquiry failed to generate a credit report, credit score, or other credit history;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Verify the accuracy of:</text>
+        <para>
+          <num>(a)</num>
+          <text>The name of the applicant or insured, to ensure that the insurer or insurance producer has the full name of the applicant or insured, including any middle initial, and that the name is spelled correctly;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The address of the applicant or insured; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Any other information that the insurer or insurance producer obtained from an applicant or insured in order to obtain a credit report, credit score, or other credit history for the applicant or insured;</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Document in the appropriate file the notice to the applicant or insured and any response from the applicant or insured; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Retain the documentation for at least 3 years after the date that the notice was provided.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>If any of the information that the insurer or insurance producer used in order to obtain a credit report, credit score, or other credit history for an applicant or insured was inaccurate or incomplete, the insurer or insurance producer shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Make a second attempt to obtain a credit report, credit score, or other credit history for the applicant or insured;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Document in the appropriate file the second attempt to obtain a credit report, credit score, or other credit history for the applicant or insured; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Retain the documentation for at least 3 years after the date of the second attempt to obtain a credit report, credit score, or other credit history for the applicant or insured.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Intentional Misrepresentation.</text>
+      <para>
+        <num>(1)</num>
+        <text>An insurer may cancel a policy if an applicant intentionally misrepresented information on an application to prevent the insurer from obtaining a credit report, credit score, or other credit history of the applicant.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>It is prima facie evidence of an intentional misrepresentation if an applicant:</text>
+        <para>
+          <num>(a)</num>
+          <text>Provided inaccurate information on an application; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Verified the accuracy of the information in response to a request from an insurer or insurance producer following an initial inquiry that failed to generate a credit report, credit score, or any other credit history.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="31|15|11|.09">
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Private Passenger Motor Vehicle Insurance — Use of Credit History for Rating.</heading>
+    <para>
+      <num>A.</num>
+      <text>Scope. This regulation applies to an insurer that rates a new policy of private passenger motor vehicle insurance based wholly or partly on the credit history of an applicant.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>In General.</text>
+      <para>
+        <num>(1)</num>
+        <text>If an insurer uses credit criteria or a credit score as part of the insurer's rate-making standards, the credit criteria or credit score shall be established and used in a manner that:</text>
+        <para>
+          <num>(a)</num>
+          <text>Does not result in rates that are excessive, inadequate, or unfairly discriminatory;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Results in application of the most favorable rate modification for which an applicant qualifies;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Results in placement of an applicant in the most favorably priced tier or other classification for which the applicant qualifies;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Results in placement of an applicant in the most favorably priced insurer within a group of affiliated insurers for which the applicant qualifies; and</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Otherwise complies with <cite doc="Md. Code" path="gin|11-306">Insurance Article, §11-306, Annotated Code of Maryland</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If an insurer calculates a premium based wholly or partly on information contained in a credit report, credit score, or other credit history that the insurer knows is inaccurate or incomplete, the resulting rate is deemed to be:</text>
+        <para>
+          <num>(a)</num>
+          <text>Excessive, inadequate, or unfairly discriminatory; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>In violation of this regulation.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Prohibited Factors.</text>
+      <para>
+        <num>(1)</num>
+        <text>An insurer that rates a new policy wholly or partly on the credit history of an applicant may not use the following factors in rating the policy:</text>
+        <para>
+          <num>(a)</num>
+          <text>A factor on the credit history of the applicant that occurred more than 5 years prior to the issuance of the new policy;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The absence of credit history or the inability to determine the applicant's credit history; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The number, age, or other characteristics of credit inquiries about an applicant's credit history.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>With respect to a new policy, the 5-year limit under <cite path="31|15|11|.09|C.|(1)|(a)">§C(1)(a) of this regulation</cite> shall be measured from the date of issuance of the policy, and may not be measured from the date that the insurer checks the credit history of the applicant.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>After the initial rating of a policy, the 5-year limit under <cite path="31|15|11|.09|C.|(1)|(a)">§C(1)(a) of this regulation</cite> shall be measured from the next renewal date of the policy, and may not be measured from the date that the insurer checks the credit history of the insured.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Limitation on Rating Based on Credit History.</text>
+      <para>
+        <num>(1)</num>
+        <text>An insurer that rates a new policy based wholly or partly on the credit history of an applicant may, if actuarially justified, provide a credit-based discount or impose a credit-based surcharge.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If a group of affiliated insurers uses credit history wholly or partly as an eligibility factor for placement of an applicant with a particular affiliated insurer:</text>
+        <para>
+          <num>(a)</num>
+          <text>The refusal of an affiliated insurer to accept an applicant based wholly or partly on credit history may not be considered a refusal to underwrite based wholly or partly on credit history if at least one affiliated insurer within the group accepts the applicant; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The group of affiliated insurers is deemed a single insurer for purposes of measuring whether a credit-based discount or credit-based surcharge is within the 40 percent limitation on rate modifications under <cite doc="Md. Code" path="gin|27-501">Insurance Article, §27-501(e-1)(5), Annotated Code of Maryland</cite>.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Notice of Adverse Action. If an insurer does not give an applicant the best available rate or discount due wholly or partly to information from the credit report of the applicant, the insurer shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Provide to the applicant orally, in writing, or electronically:</text>
+        <para>
+          <num>(a)</num>
+          <text>The name, address, and telephone number of the consumer reporting agency that furnished the credit report to the insurer;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>If the consumer reporting agency compiles and maintains files on consumers on a nationwide basis, a toll-free telephone number established by the consumer reporting agency; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>A statement that the consumer reporting agency did not make the decision to take the adverse action and is unable to provide the applicant the specific reasons why the adverse action was taken; and</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Provide to the applicant an oral, written, or electronic notice of the applicant's right:</text>
+        <para>
+          <num>(a)</num>
+          <text>To obtain, under §1681j of the federal Fair Credit Reporting Act, a free copy of a credit report on the applicant from the consumer reporting agency within 60 days after receipt of the notice; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>To dispute, under §1681i of the federal Fair Credit Reporting Act, with a consumer reporting agency the accuracy or completeness of any information in a credit report furnished by the agency.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="31|15|11|.10">
+    <prefix>Regulation</prefix>
+    <num>.10</num>
+    <heading>Private Passenger Motor Vehicle Insurance — Review of Credit History</heading>
+    <para>
+      <num>A.</num>
+      <text>Review and Disclosure Required. With respect to private passenger motor vehicle insurance, an insurer that rates a new policy based wholly or partly on the credit history of an applicant shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Review the credit history of an insured who was adversely impacted by the use of the insured's credit history at the initial rating of the policy:</text>
+        <para>
+          <num>(a)</num>
+          <text>On request of the insured; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>If not requested earlier by the insured, every 2 years;</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Adjust the premium of an insured whose credit history was reviewed under <cite path="31|15|11|.10|A.|(1)">§A(1) of this regulation</cite> to reflect any improvement in the insured's credit history; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Disclose to the applicant at the time of issuance of a policy that the insurer is required to:</text>
+        <para>
+          <num>(a)</num>
+          <text>Review the credit history of an insured who was adversely impacted by the use of the insured's credit history at the initial rating of the policy:</text>
+          <para>
+            <num>(i)</num>
+            <text>On request of the insured; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>If not requested earlier by the insured, every 2 years; and</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Adjust the premium of an insured whose credit history was reviewed to reflect any improvement in the insured's credit history.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Request for Review. An insured may request a review of the insured's credit history not more than once per term of a policy.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Adjustment of Premium.</text>
+      <para>
+        <num>(1)</num>
+        <text>Except as provided in <cite path="31|15|11|.10|C.|(2)|(a)">§C(2)(a) of this regulation</cite>, any adjustment to a premium required by a review of an insured's credit history shall take effect at the first renewal following the review of the insured's credit history.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If the improvement in the insured's credit history was due to the correction of inaccurate or incomplete information in the insured's credit report, the adjustment as a result of the improvement in the insured's credit history shall be retroactive to the previous renewal.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>An insurer that is required to review an insured's credit history shall review the credit history prior to the expiration of the current term of the policy and in time for any improvement in the insured's credit history to be reflected in the renewal premium for the subsequent term of the policy.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="31|15|11|.11">
+    <prefix>Regulation</prefix>
+    <num>.11</num>
+    <heading>Private Passenger Motor Vehicle Insurance — Inclusion of Information in Rate Filing.</heading>
+    <para>
+      <num>A.</num>
+      <text>In General. With respect to private passenger motor vehicle insurance, an insurer that uses credit history to rate a new policy or another person authorized by the Commissioner to act on behalf of the insurer shall file with the Commissioner as part of the insurer's rate filing under <cite doc="Md. Code" path="gin|11-307">Insurance Article, §11-307, Annotated Code of Maryland</cite>:</text>
+      <para>
+        <num>(1)</num>
+        <text>In the insurer's filed rating manual, the rate-related underwriting rule that:</text>
+        <para>
+          <num>(a)</num>
+          <text>Is included in the definition of supplementary rate information in <cite doc="Md. Code" path="gin|11-101">Insurance Article, §11-101(e), Annotated Code of Maryland</cite>; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Defines the credit criteria or ranges of credit scores used to determine application of the rating factor;</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The underlying information, including statistical validation, that the insurer relied on for determining the credit criteria or ranges of credit scores that will result in:</text>
+        <para>
+          <num>(a)</num>
+          <text>Provision or removal of a discount or imposition or removal of a surcharge;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Placement of an applicant within a particular tier; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Placement of an applicant with an affiliated insurer;</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The rating factor that will be applied to an insured who is placed in a particular tier, placed with a particular affiliated insurer, or provided a particular discount or surcharge;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The underlying information, including statistical validation, that the insurer relied on for determining the rating factor;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>In the use of credit scoring, and at the request of the Commissioner, the algorithm, computer program, model, or other process that is used in determining a credit score; and</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>At the request of the Commissioner, the underlying information, including statistical validation, that was relied on to develop the algorithm, computer program, model, or other process that is used in determining a credit score.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Use of Information Not Filed Prohibited. An insurer may not use any credit criteria or credit score wholly or partly as a basis for rating a policy if:</text>
+      <para>
+        <num>(1)</num>
+        <text>The credit criteria or credit score is directly or indirectly derived from any information that the insurer is required to file with the Commissioner under <cite path="31|15|11|.11|A.">§A of this regulation</cite>; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The insurer fails to file the information with the Commissioner.</text>
+      </para>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Insurance Article, §§<cite doc="Md. Code" path="gin|2-109">2-109</cite>, <cite doc="Md. Code" path="gin|11-101">11-101</cite>, <cite doc="Md. Code" path="gin|11-306">11-306</cite>, <cite doc="Md. Code" path="gin|11-307">11-307</cite>, <cite doc="Md. Code" path="gin|27-212">27-212</cite>(d), <cite doc="Md. Code" path="gin|27-406">27-406</cite>, <cite doc="Md. Code" path="gin|27-501">27-501</cite>, and <cite doc="Md. Code" path="gin|27-605">27-605</cite>, Annotated Code of Maryland</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2000-05-15">Effective date: May 15, 2000 (27:9 Md. R. 861)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2002-10-14">Chapter revised effective October 14, 2002 (29:20 Md. R. 1594)</annotation>
+    <annotation type="History" subtype="Administrative History" dest="container" effective="2016-02-01"><cite path="|31|15|11|.07|D.">Regulation .07D</cite> amended effective February 1, 2016 (43:2 Md. R. 129)</annotation>
+  </annotations>
+</container>
