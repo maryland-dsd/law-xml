@@ -27,10 +27,10 @@
         <tbody>
           <tr>
             <td proof="needed"/>
-            <td data-vertical-align="bottom">Median Household<br/>Income <br/>of the County</td>
-            <td data-text-align="center" data-vertical-align="middle">Income Eligibility<br/>Figure <br/>(80% of the<br/>County Median Income)</td>
-            <td data-vertical-align="bottom">Median Household<br/>Income<br/>of the Region</td>
-            <td data-text-align="center" data-vertical-align="middle">Income Eligibility<br/>Figure<br/>(80% of the Region)</td>
+            <th>Median Household<br/>Income <br/>of the County</th>
+            <th>Income Eligibility<br/>Figure <br/>(80% of the<br/>County Median Income)</th>
+            <th>Median Household<br/>Income<br/>of the Region</th>
+            <th>Income Eligibility<br/>Figure<br/>(80% of the Region)</th>
           </tr>
           <tr>
             <td colspan="5" data-vertical-align="middle">BALTIMORE REGION</td>
@@ -230,10 +230,12 @@
     <text>HUD Family size adjustments</text>
     <text>
       <table class="layout-table">
-        <tbody>
+        <thead>
           <tr>
-            <td colspan="12" data-text-align="center" data-vertical-align="middle">Uncapped FY 2005 Low Income Limits</td>
+            <th colspan="12">Uncapped FY 2005 Low Income Limits</th>
           </tr>
+        </thead>
+        <tbody>
           <tr>
             <td data-vertical-align="middle">FMR AREA</td>
             <td data-vertical-align="middle">State</td>
