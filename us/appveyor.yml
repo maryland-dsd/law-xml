@@ -1,0 +1,84 @@
+build_cloud: tomoll-OptiPlex-Micro-Plus-7020
+image: Ubuntu
+
+# Do not build feature branch with open Pull Requests
+skip_branch_with_pr: true
+
+init:
+  # Select the correct image and container name
+  - sh: |
+      if [[ "${IS_DEVELOPMENT}" == "True" ]]; then
+        IMAGE_NAME="ghcr.io/openlawlibrary/platform/archive-automation-dev";
+        CONTAINER_NAME="oll-archive-automation-dev-${APPVEYOR_PROJECT_SLUG}-${APPVEYOR_BUILD_NUMBER}";
+      else
+        IMAGE_NAME="ghcr.io/openlawlibrary/platform/archive-automation-prod";
+        CONTAINER_NAME="oll-archive-automation-prod-${APPVEYOR_PROJECT_SLUG}-${APPVEYOR_BUILD_NUMBER}";
+      fi
+  # SELECT THE IMAGE TAG
+  - sh: |
+      if [[ -n "${DOCKER_IMG_TAG}" ]]; then
+        IMAGE_TAG="${DOCKER_IMG_TAG}"
+      else
+        IMAGE_TAG="latest"
+      fi
+
+before_build:
+  # Safe-Check the container name is not running.
+  - sh: |
+      if docker inspect -f '{{.State.Status}}' "$CONTAINER_NAME" > /dev/null 2>&1; then
+        if [[ "$(docker inspect -f '{{.State.Status}}' "$CONTAINER_NAME")" == "running" ]]; then
+          echo "> CONTAINER ${CONTAINER_NAME} IS RUNNING!";
+          exit 1;
+        else
+          echo "> CONTAINER ${CONTAINER_NAME} ALREADY EXISTS; REMOVING IT";
+          docker rm $CONTAINER_NAME;
+        fi
+      fi
+  - sh: |
+      docker login --username oll-bot --password $GH_DOCKER_ACCESS_TOKEN ghcr.io
+  # Pull all the image tags, keep "latest" image tag up to date
+  - sh: |
+      docker pull --all-tags $IMAGE_NAME
+  # Dump needed environment variables to 'env.list' file, this file will be used for starting container.
+  - sh: |
+      touch env.list
+      echo "GH_SSH_PRIVATE_KEY" >> env.list
+      echo "TIMESTAMP_KEY" >> env.list
+      echo "SNAPSHOT_KEY" >> env.list
+      echo "APPVEYOR_REPO_NAME" >> env.list
+      echo "APPVEYOR_REPO_COMMIT" >> env.list
+      echo "PIP_INDEX_URL" >> env.list
+      echo "PIP_EXTRA_INDEX_URL" >> env.list
+      echo "PLATFORM_BRANCH" >> env.list
+      echo "FUSE_BRANCH" >> env.list
+      echo "IS_DEVELOPMENT" >> env.list
+      echo "CLIENT_SECRET" >> env.list
+      echo "PREPARE_BUILD_COMMAND" >> env.list
+      echo "IS_PUBLISH" >> env.list
+  # Dump all environment variables that starts with "PIN", this is to dynamically assign yubikey pins.
+  - sh: |
+      for var in $(declare -p | grep "^declare \-" | cut -d' ' -f3-); do
+        if [[ $var =~ ^PIN ]]; then
+          echo "${var}" >> env.list
+        fi
+      done
+
+build_script:
+  - sh: |
+      docker run --rm \
+        --env-file env.list \
+        --device=/dev/ttyUSB0 \
+        --name "${CONTAINER_NAME}" --cap-add SYS_ADMIN --privileged "${IMAGE_NAME}:${IMAGE_TAG}"
+
+on_finish:
+  - sh: |
+      if docker inspect -f '{{.State.Status}}' "$CONTAINER_NAME" > /dev/null 2>&1; then
+        docker rm $CONTAINER_NAME;
+      fi
+
+notifications:
+  - provider: Slack
+    incoming_webhook:
+      # post to the fire channel
+      secure: KUaR+KAqX1jU0LF7kRDKHHGEAoItFzIHSjcreyRvnrRGMiSObCLPipW6KJUwvpl7CEWa8PP2LPzgiQssPcUWLCzoIVY+NvucTI+1NJ0H7GM=
+    on_build_success: false
