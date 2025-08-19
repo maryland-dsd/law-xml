@@ -9,9 +9,36 @@
     <canonical-urls>
       <xml-bulk>https://github.com/maryland-dsd/law-xml</xml-bulk>
       <html-bulk>https://github.com/maryland-dsd/law-html</html-bulk>
+      <xml-cc0-bulk>https://github.com/maryland-dsd/law-xml-cc0</xml-cc0-bulk>
+      <html-cc0-bulk>https://github.com/maryland-dsd/law-html-cc0</html-cc0-bulk>
       <static-assets>https://github.com/maryland-dsd/law-static-assets</static-assets>
       <html/>
     </canonical-urls>
+    <licenses>
+      <license>
+        <rights>
+          <p>This version of the laws and codes on this website is licensed under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a> license with copyright held by the State of Maryland.</p>
+          <p>This version of the laws and codes on this website will be dedicated to the public domain under the <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a> license 180 days after publication.</p>
+        </rights>
+      </license>
+      <license>
+        <license>CC-BY-SA-4.0</license>
+        <url>https://creativecommons.org/licenses/by-sa/4.0/</url>
+        <rights>
+          <p>Copyright State of Maryland</p>
+          <p>This version of the laws and codes on this website is licensed under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a> license.</p>
+          <p>This version of the laws and codes on this website will be dedicated to the public domain 180 days after publication here.</p>
+        </rights>
+      </license>
+      <license>
+        <license>CC0</license>
+        <url>https://creativecommons.org/publicdomain/zero/1.0/</url>
+        <rights>
+          <p>This version of the laws and codes on this website is dedicated to the public domain under the <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a> license.</p>
+        </rights>
+        <days-after-publication>180</days-after-publication>
+      </license>
+    </licenses>
   </meta>
   <xi:include href="./us/md/exec/comar/index.xml"/>
   <collection name="us/md/exec/register">
