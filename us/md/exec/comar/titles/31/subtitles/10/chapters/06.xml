@@ -1754,17 +1754,17 @@
     <para>
       <num>A.</num>
       <text>Loss Ratio Standards.</text>
-    </para>
-    <para>
-      <num>(1)</num>
-      <text>An issuer may not deliver or issue for delivery a Medicare supplement policy form or certificate in this State unless the policy form or certificate can be expected, as estimated for the entire period for which rates are computed to provide coverage, to return to policyholders and certificate holders in the form of aggregate benefits, not including anticipated refunds or credits, provided under the policy form or certificate form:</text>
       <para>
-        <num>(a)</num>
-        <text>At least 75 percent of the aggregate amount of premiums earned in the case of group policies; or</text>
-      </para>
-      <para>
-        <num>(b)</num>
-        <text>At least 65 percent of the aggregate amount of premiums earned in the case of individual policies.</text>
+        <num>(1)</num>
+        <text>An issuer may not deliver or issue for delivery a Medicare supplement policy form or certificate in this State unless the policy form or certificate can be expected, as estimated for the entire period for which rates are computed to provide coverage, to return to policyholders and certificate holders in the form of aggregate benefits, not including anticipated refunds or credits, provided under the policy form or certificate form:</text>
+        <para>
+          <num>(a)</num>
+          <text>At least 75 percent of the aggregate amount of premiums earned in the case of group policies; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>At least 65 percent of the aggregate amount of premiums earned in the case of individual policies.</text>
+        </para>
       </para>
       <para>
         <num>(2)</num>
@@ -2118,7 +2118,7 @@
         <text class="center">{Statements}</text>
       </para>
       <para>
-        <num>(1)</num>
+        <num proof="done">(1)</num>
         <text>You do not need more than one Medicare supplement policy.</text>
       </para>
       <para>
@@ -2146,9 +2146,12 @@
       <aftertext>{Please mark Yes or No below with an "X"}</aftertext>
       <aftertext>To the best of your knowledge,</aftertext>
       <para>
-        <num>(1)</num>
-        <text>(a) Did you turn age 65 in the last 6 months?</text>
-        <text>Yes ____ No ____</text>
+        <num proof="done">(1)</num>
+        <para>
+          <num>(a)</num>
+          <text>Did you turn age 65 in the last 6 months?</text>
+          <text>Yes ____ No ____</text>
+        </para>
         <para>
           <num>(b)</num>
           <text>Did you enroll in Medicare Part B in the last 6 months?</text>
@@ -2178,8 +2181,11 @@
       </para>
       <para>
         <num>(3)</num>
-        <text>(a) If you had coverage from any Medicare plan other than original Medicare within the past 63 days (for example, a Medicare Advantage plan, or a Medicare HMO or PPO), fill in your start and end dates below. If you are still covered under this plan, leave "END" blank.</text>
-        <text>START __/__/__ END __/__/__</text>
+        <para>
+          <num>(a)</num>
+          <text>If you had coverage from any Medicare plan other than original Medicare within the past 63 days (for example, a Medicare Advantage plan, or a Medicare HMO or PPO), fill in your start and end dates below. If you are still covered under this plan, leave "END" blank.</text>
+          <text>START __/__/__ END __/__/__</text>
+        </para>
         <para>
           <num>(b)</num>
           <text>If you are still covered under the Medicare plan, do you intend to replace your current coverage with this new Medicare supplement policy?</text>
@@ -2198,8 +2204,11 @@
       </para>
       <para>
         <num>(4)</num>
-        <text>(a) Do you have another Medicare supplement policy in force?</text>
-        <text>Yes ____ No ____</text>
+        <para>
+          <num>(a)</num>
+          <text>Do you have another Medicare supplement policy in force?</text>
+          <text>Yes ____ No ____</text>
+        </para>
         <para>
           <num>(b)</num>
           <text>If so, with what company, and what plan do you have {optional for Direct Mailers}?</text>
@@ -2265,28 +2274,28 @@
       <text>____ Disenrollment from a Medicare Advantage plan. Please explain reason for disenrollment (optional only for Direct Mailers)</text>
       <text>______________________________________________________</text>
       <text>____ Other (please specify)</text>
-    </para>
-    <para>
-      <num>1.</num>
-      <text>Note: If the issuer of the Medicare supplement policy being applied for does not, or is otherwise prohibited from imposing preexisting condition limitations, please skip to statement 2 below. Health conditions which you may presently have (preexisting conditions) may not be immediately or fully covered under the new policy. This could result in denial or delay of a claim for benefits under the new policy, whereas a similar claim might have been payable under your present policy.</text>
-    </para>
-    <para>
-      <num>2.</num>
-      <text>State law provides your replacement policy or certificate may not contain new preexisting conditions, waiting periods, elimination periods, or probationary periods. The insurer will waive any time periods applicable to preexisting conditions, waiting periods, elimination periods, or probationary periods in the new policy (or coverage) for similar benefits to the extent such time was spent (depleted) under the original policy.</text>
-    </para>
-    <para>
-      <num>3.</num>
-      <text>If you still wish to terminate your present policy and replace it with new coverage, be certain to truthfully and completely answer all questions on the application concerning your medical and health history. Failure to include all material medical information on an application may provide a basis for the company to deny any future claims and to refund your premium as though your policy had never been in force. After the application has been completed and before you sign it, review it carefully to be certain that all information has been properly recorded. (If the policy or certificate is guaranteed issue, this paragraph need not appear.)</text>
-      <text>Do not cancel your present policy until you have received your new policy and are sure that you want to keep it.</text>
-      <text>___________________________________________________________________</text>
-      <text>(Signature of Agent, Broker, or Other Representative)*</text>
-      <text>___________________________________________________________________</text>
-      <text>(Typed Name and Address of Issuer, Agent, or Broker)</text>
-      <text>___________________________________________________________________</text>
-      <text>(Applicant's Signature)</text>
-      <text>______________________</text>
-      <text>(Date)</text>
-      <text>*Signature not required for direct response sales.</text>
+      <para>
+        <num>1.</num>
+        <text>Note: If the issuer of the Medicare supplement policy being applied for does not, or is otherwise prohibited from imposing preexisting condition limitations, please skip to statement 2 below. Health conditions which you may presently have (preexisting conditions) may not be immediately or fully covered under the new policy. This could result in denial or delay of a claim for benefits under the new policy, whereas a similar claim might have been payable under your present policy.</text>
+      </para>
+      <para>
+        <num>2.</num>
+        <text>State law provides your replacement policy or certificate may not contain new preexisting conditions, waiting periods, elimination periods, or probationary periods. The insurer will waive any time periods applicable to preexisting conditions, waiting periods, elimination periods, or probationary periods in the new policy (or coverage) for similar benefits to the extent such time was spent (depleted) under the original policy.</text>
+      </para>
+      <para>
+        <num>3.</num>
+        <text>If you still wish to terminate your present policy and replace it with new coverage, be certain to truthfully and completely answer all questions on the application concerning your medical and health history. Failure to include all material medical information on an application may provide a basis for the company to deny any future claims and to refund your premium as though your policy had never been in force. After the application has been completed and before you sign it, review it carefully to be certain that all information has been properly recorded. (If the policy or certificate is guaranteed issue, this paragraph need not appear.)</text>
+        <text>Do not cancel your present policy until you have received your new policy and are sure that you want to keep it.</text>
+        <text>___________________________________________________________________</text>
+        <text>(Signature of Agent, Broker, or Other Representative)*</text>
+        <text>___________________________________________________________________</text>
+        <text>(Typed Name and Address of Issuer, Agent, or Broker)</text>
+        <text>___________________________________________________________________</text>
+        <text>(Applicant's Signature)</text>
+        <text>______________________</text>
+        <text>(Date)</text>
+        <text>*Signature not required for direct response sales.</text>
+      </para>
     </para>
     <para>
       <num>F.</num>
@@ -3447,290 +3456,290 @@
         <text class="center">
           <strong>This is not Medicare Supplement Insurance</strong>
         </text>
+        <text>This insurance provides limited benefits, if you meet the policy conditions, for hospital or medical expenses that result from accidental injury. It does not pay your Medicare deductibles or coinsurance and is not a substitute for Medicare supplement insurance.</text>
+        <text>
+          <strong>This insurance duplicates Medicare benefits when it pays:</strong>
+        </text>
+        <text>• hospital or medical expenses up to the maximum stated in the policy</text>
+        <text>
+          <strong>Medicare generally pays for most or all of these expenses.</strong>
+        </text>
+        <text>
+          <strong>Medicare pays extensive benefits for medically necessary services regardless of the reason you need them. These include:</strong>
+        </text>
+        <text>• hospitalization</text>
+        <text>• physician services</text>
+        <text>• other approved items and services</text>
+        <text>
+          <table>
+            <thead>
+              <tr>
+                <th>Before You Buy This Insurance</th>
+              </tr>
+            </thead>
+          </table>
+        </text>
+        <text>✓ Check the coverage in all health insurance policies you already have.</text>
+        <text>✓ For more information about Medicare and Medicare supplement insurance, review the Guide to Health Insurance for People with Medicare, available from the insurance company.</text>
+        <text>✓ For help in understanding your health insurance, contact your state insurance department or state senior insurance counseling program.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Specified Limited Services Policies. The following is an original disclosure statement for policies that provide benefits for specified limited services:</text>
+        <text>
+          <table>
+            <thead>
+              <tr>
+                <th>IMPORTANT NOTICE TO PERSONS ON <br/>MEDICARE THIS INSURANCE DUPLICATES <br/>SOME MEDICARE BENEFITS</th>
+              </tr>
+            </thead>
+          </table>
+        </text>
+        <text class="center">
+          <strong>This is not Medicare Supplement Insurance</strong>
+        </text>
+        <text>This insurance provides limited benefits, if you meet the policy conditions, for expenses relating to the specific services listed in the policy. It does not pay your Medicare deductibles or coinsurance and is not a substitute for Medicare supplement insurance.</text>
+        <text><strong>This insurance duplicates Medicare benefits when</strong>:</text>
+        <text>• any of the services covered by the policy are also covered by Medicare</text>
+        <text>
+          <strong>Medicare pays extensive benefits for medically necessary services regardless of the reason you need them. These include:</strong>
+        </text>
+        <text>• hospitalization</text>
+        <text>• physician services</text>
+        <text>• other approved items and services</text>
+        <text>
+          <table>
+            <thead>
+              <tr>
+                <th>Before You Buy This Insurance</th>
+              </tr>
+            </thead>
+          </table>
+        </text>
+        <text>✓ Check the coverage in all health insurance policies you already have.</text>
+        <text>✓ For more information about Medicare and Medicare supplement insurance, review the Guide to Health Insurance for People with Medicare, available from the insurance company.</text>
+        <text>✓ For help in understanding your health insurance, contact your state insurance department or state senior insurance counseling program.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Expense Incurred Specified Disease Policies. The following is an  original disclosure statement for policies that reimburse expenses incurred for specified disease(s) or other specified impairment(s). This includes expense incurred cancer, specified disease and other types of health insurance policies that limit reimbursement to named medical conditions.</text>
+        <text>
+          <table>
+            <thead>
+              <tr>
+                <th>
+                  <p>IMPORTANT NOTICE TO PERSONS ON <br/>MEDICARE THIS INSURANCE DUPLICATES</p>
+                  <p class="text-indent-1">SOME MEDICARE  BENEFITS</p>
+                </th>
+              </tr>
+            </thead>
+          </table>
+        </text>
+        <text class="center">This is not Medicare Supplement Insurance</text>
+        <text>This insurance provides limited benefits, if you meet the policy conditions, for hospital or medical expenses only when you are treated for one of the specific diseases or health conditions listed in the policy. It does not pay your Medicare deductibles or coinsurance and is not a substitute for Medicare supplement insurance.</text>
+        <text>
+          <strong>This insurance duplicates Medicare benefits when it pays:</strong>
+        </text>
+        <text>• hospital or medical expenses up to the maximum stated in the policy</text>
+        <text><strong>Medicare generally pays for most or all of these expenses</strong>.</text>
+        <text>
+          <strong>Medicare pays extensive benefits for medically necessary services regardless of the reason you need them. These include:</strong>
+        </text>
+        <text>• hospitalization</text>
+        <text>• physician services</text>
+        <text>• hospice</text>
+        <text>• other approved items and services</text>
+        <text>
+          <table>
+            <thead>
+              <tr>
+                <th>Before You Buy This Insurance</th>
+              </tr>
+            </thead>
+          </table>
+        </text>
+        <text>✓ Check the coverage in all health insurance policies you already have.</text>
+        <text>✓ For more information about Medicare and Medicare supplement insurance, review the Guide to Health Insurance for People with Medicare, available from the insurance company.</text>
+        <text>✓ For help in understanding your health insurance, contact your state insurance department or state senior insurance counseling program.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Fixed Dollar Specified Disease Policies. The following is an original disclosure statement for policies that pay fixed dollar amounts for specified diseases or other specified impairments. This includes cancer, specified disease, and other health insurance policies that pay a scheduled benefit or specific payment based on diagnosis of the conditions named in the policy.</text>
+        <text>
+          <table>
+            <thead>
+              <tr>
+                <th>IMPORTANT NOTICE TO PERSONS ON MEDICARE  THIS INSURANCE DUPLICATES SOME MEDICARE BENEFITS</th>
+              </tr>
+            </thead>
+          </table>
+        </text>
+        <text class="center">
+          <strong>This is not Medicare Supplement Insurance</strong>
+        </text>
+        <text>This insurance pays a fixed amount, regardless of your expenses, if you meet the policy conditions, for one of the specific diseases or health conditions named in the policy. It does not pay your Medicare deductibles or coinsurance and is not a substitute for Medicare supplement insurance.</text>
+        <text>This insurance duplicates Medicare benefits because Medicare generally pays for most of the expenses for the diagnosis and treatment of the specific conditions or diagnoses named in the policy.</text>
+        <text>
+          <strong>Medicare pays extensive benefits for medically necessary services regardless of the reason you need them. These include:</strong>
+        </text>
+        <text>• hospitalization</text>
+        <text>• physician services</text>
+        <text>• hospice</text>
+        <text>• other approved items and services</text>
+        <text>
+          <table>
+            <thead>
+              <tr>
+                <th>Before You Buy This Insurance</th>
+              </tr>
+            </thead>
+          </table>
+        </text>
+        <text>✓ Check the coverage in all health insurance policies you already have.</text>
+        <text>✓ For more information about Medicare and Medicare supplement insurance, review the Guide to Health Insurance for People with Medicare, available from the insurance company.</text>
+        <text>✓ For help in understanding your health insurance, contact your state insurance department or state senior insurance counseling program.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Policies Providing Both Expense Incurred and Fixed Indemnity Benefits. The following is an Original disclosure statement for policies that provide benefits for both expenses incurred and fixed indemnity basis:</text>
+        <text>
+          <table>
+            <thead>
+              <tr>
+                <th>
+                  <p>IMPORTANT NOTICE TO PERSONS ON</p>
+                  <p class="text-indent-1">MEDICARETHIS INSURANCE DUPLICATES</p>
+                  <p class="text-indent-1">SOME MEDICARE BENEFITS</p>
+                </th>
+              </tr>
+            </thead>
+          </table>
+        </text>
+        <text class="center">
+          <strong>This is not Medicare Supplement Insurance</strong>
+        </text>
+        <text>This insurance pays limited reimbursement for expenses if you meet the conditions listed in the policy. It also pays a fixed amount, regardless of your expenses, if you meet other policy conditions. It does not pay your Medicare deductibles or coinsurance and is not a substitute for Medicare supplement insurance.</text>
+        <text>
+          <strong>This insurance duplicates Medicare benefits when:</strong>
+        </text>
+        <text>• any expenses or services covered by the policy are also covered by Medicare; or</text>
+        <text>• it pays the fixed dollar amount stated in the policy and Medicare covers the same event</text>
+        <text>
+          <strong>Medicare generally pays for most or all of these expenses.</strong>
+        </text>
+        <text><strong>Medicare pays extensive benefits for medically necessary services regardless of the reason you need them. These include</strong>:</text>
+        <text>• hospitalization</text>
+        <text>• physician services</text>
+        <text>• hospice care</text>
+        <text>• other approved items and services</text>
+        <text>
+          <table>
+            <thead>
+              <tr>
+                <th>Before You Buy This Insurance</th>
+              </tr>
+            </thead>
+          </table>
+        </text>
+        <text>✓ Check the coverage in all health insurance policies you already have.</text>
+        <text>✓ For more information about Medicare and Medicare supplement insurance, review the Guide to Health Insurance for People with Medicare, available from the insurance company.</text>
+        <text>✓ For help in understanding your health insurance, contact your state insurance department or state senior insurance counseling program.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Policies Providing Fixed Dollar Benefits. The following is an original disclosure statement for indemnity policies and other policies that pay a fixed dollar amount per day, excluding long-term care policies:</text>
+        <text>
+          <table>
+            <thead>
+              <tr>
+                <th>
+                  <p>IMPORTANT NOTICE TO PERSONS ON</p>
+                  <p class="text-indent-1">MEDICARE THIS INSURANCE DUPLICATES</p>
+                  <p class="text-indent-1">SOME MEDICARE BENEFITS</p>
+                </th>
+              </tr>
+            </thead>
+          </table>
+        </text>
+        <text class="center">
+          <strong>This is not Medicare Supplement Insurance</strong>
+        </text>
+        <text>This insurance pays a fixed dollar amount, regardless of your expenses, for each day you meet the policy conditions. It does not pay your Medicare deductibles or coinsurance and is not a substitute for Medicare supplement insurance.</text>
+        <text>
+          <strong>This insurance duplicates Medicare benefits when:</strong>
+        </text>
+        <text>• any expenses or services covered by the policy are also covered by Medicare</text>
+        <text>
+          <strong>Medicare generally pays for most or all of these expenses.</strong>
+        </text>
+        <text>
+          <strong>Medicare pays extensive benefits for medically necessary services regardless of the reason you need them. These include:</strong>
+        </text>
+        <text>• hospitalization</text>
+        <text>• physician services</text>
+        <text>• hospice</text>
+        <text>• other approved items and services</text>
+        <text>
+          <table>
+            <thead>
+              <tr>
+                <th>Before You Buy This Insurance</th>
+              </tr>
+            </thead>
+          </table>
+        </text>
+        <text>✓ Check the coverage in all health insurance policies you already have.</text>
+        <text>✓ For more information about Medicare and Medicare supplement insurance, review the Guide to Health Insurance for People with Medicare, available from the insurance company.</text>
+        <text>✓ For help in understanding your health insurance, contact your state insurance department or state senior insurance counseling program.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Other Health Insurance Policies. The following is an original disclosure statement for other health insurance policies not specifically identified in the previous statements:</text>
+        <text>
+          <table>
+            <thead>
+              <tr>
+                <th>
+                  <p>IMPORTANT NOTICE TO PERSONS ON</p>
+                  <p class="text-indent-1">MEDICARE THIS INSURANCE DUPLICATES</p>
+                  <p class="text-indent-1">SOME MEDICARE BENEFITS</p>
+                </th>
+              </tr>
+            </thead>
+          </table>
+        </text>
+        <text class="center">
+          <strong>This is not Medicare Supplement Insurance</strong>
+        </text>
+        <text>This insurance provides limited benefits if you meet the conditions listed in the policy. It does not pay your Medicare deductibles or coinsurance and is not a substitute for Medicare supplement insurance.</text>
+        <text>
+          <strong>This insurance duplicates Medicare benefits when it pays:</strong>
+        </text>
+        <text>• the benefits stated in the policy and coverage for the same event is provided by Medicare</text>
+        <text>
+          <strong>Medicare generally pays for most or all of these expenses.</strong>
+        </text>
+        <text>
+          <strong>Medicare pays extensive benefits for medically necessary services regardless of the reason you need them. These include:</strong>
+        </text>
+        <text>• hospitalization</text>
+        <text>• physician services</text>
+        <text>• hospice</text>
+        <text>• other approved items and services</text>
+        <text>
+          <table>
+            <thead>
+              <tr>
+                <th>Before You Buy This Insurance</th>
+              </tr>
+            </thead>
+          </table>
+        </text>
+        <text>✓ Check the coverage in all health insurance policies you already have.</text>
+        <text>✓ For more information about Medicare and Medicare supplement insurance, review the Guide to Health Insurance for People with Medicare, available from the insurance company.</text>
+        <text>✓ For help in understanding your health insurance, contact your state insurance department or state senior insurance counseling program.</text>
       </para>
     </para>
-    <aftertext>This insurance provides limited benefits, if you meet the policy conditions, for hospital or medical expenses that result from accidental injury. It does not pay your Medicare deductibles or coinsurance and is not a substitute for Medicare supplement insurance.</aftertext>
-    <aftertext>
-      <strong>This insurance duplicates Medicare benefits when it pays:</strong>
-    </aftertext>
-    <aftertext>• hospital or medical expenses up to the maximum stated in the policy</aftertext>
-    <aftertext>
-      <strong>Medicare generally pays for most or all of these expenses.</strong>
-    </aftertext>
-    <aftertext>
-      <strong>Medicare pays extensive benefits for medically necessary services regardless of the reason you need them. These include:</strong>
-    </aftertext>
-    <aftertext>• hospitalization</aftertext>
-    <aftertext>• physician services</aftertext>
-    <aftertext>• other approved items and services</aftertext>
-    <aftertext>
-      <table>
-        <thead>
-          <tr>
-            <th>Before You Buy This Insurance</th>
-          </tr>
-        </thead>
-      </table>
-    </aftertext>
-    <aftertext>✓ Check the coverage in all health insurance policies you already have.</aftertext>
-    <aftertext>✓ For more information about Medicare and Medicare supplement insurance, review the Guide to Health Insurance for People with Medicare, available from the insurance company.</aftertext>
-    <aftertext>✓ For help in understanding your health insurance, contact your state insurance department or state senior insurance counseling program.</aftertext>
-    <para>
-      <num>(2)</num>
-      <text>Specified Limited Services Policies. The following is an original disclosure statement for policies that provide benefits for specified limited services:</text>
-      <text>
-        <table>
-          <thead>
-            <tr>
-              <th>IMPORTANT NOTICE TO PERSONS ON <br/>MEDICARE THIS INSURANCE DUPLICATES <br/>SOME MEDICARE BENEFITS</th>
-            </tr>
-          </thead>
-        </table>
-      </text>
-      <text class="center">
-        <strong>This is not Medicare Supplement Insurance</strong>
-      </text>
-    </para>
-    <aftertext>This insurance provides limited benefits, if you meet the policy conditions, for expenses relating to the specific services listed in the policy. It does not pay your Medicare deductibles or coinsurance and is not a substitute for Medicare supplement insurance.</aftertext>
-    <aftertext><strong>This insurance duplicates Medicare benefits when</strong>:</aftertext>
-    <aftertext>• any of the services covered by the policy are also covered by Medicare</aftertext>
-    <aftertext>
-      <strong>Medicare pays extensive benefits for medically necessary services regardless of the reason you need them. These include:</strong>
-    </aftertext>
-    <aftertext>• hospitalization</aftertext>
-    <aftertext>• physician services</aftertext>
-    <aftertext>• other approved items and services</aftertext>
-    <aftertext>
-      <table>
-        <thead>
-          <tr>
-            <th>Before You Buy This Insurance</th>
-          </tr>
-        </thead>
-      </table>
-    </aftertext>
-    <aftertext>✓ Check the coverage in all health insurance policies you already have.</aftertext>
-    <aftertext>✓ For more information about Medicare and Medicare supplement insurance, review the Guide to Health Insurance for People with Medicare, available from the insurance company.</aftertext>
-    <aftertext>✓ For help in understanding your health insurance, contact your state insurance department or state senior insurance counseling program.</aftertext>
-    <para>
-      <num>(3)</num>
-      <text>Expense Incurred Specified Disease Policies. The following is an  original disclosure statement for policies that reimburse expenses incurred for specified disease(s) or other specified impairment(s). This includes expense incurred cancer, specified disease and other types of health insurance policies that limit reimbursement to named medical conditions.</text>
-      <text>
-        <table>
-          <thead>
-            <tr>
-              <th>
-                <p>IMPORTANT NOTICE TO PERSONS ON <br/>MEDICARE THIS INSURANCE DUPLICATES</p>
-                <p class="text-indent-1">SOME MEDICARE  BENEFITS</p>
-              </th>
-            </tr>
-          </thead>
-        </table>
-      </text>
-      <text class="center">This is not Medicare Supplement Insurance</text>
-    </para>
-    <aftertext>This insurance provides limited benefits, if you meet the policy conditions, for hospital or medical expenses only when you are treated for one of the specific diseases or health conditions listed in the policy. It does not pay your Medicare deductibles or coinsurance and is not a substitute for Medicare supplement insurance.</aftertext>
-    <aftertext>
-      <strong>This insurance duplicates Medicare benefits when it pays:</strong>
-    </aftertext>
-    <aftertext>• hospital or medical expenses up to the maximum stated in the policy</aftertext>
-    <aftertext><strong>Medicare generally pays for most or all of these expenses</strong>.</aftertext>
-    <aftertext>
-      <strong>Medicare pays extensive benefits for medically necessary services regardless of the reason you need them. These include:</strong>
-    </aftertext>
-    <aftertext>• hospitalization</aftertext>
-    <aftertext>• physician services</aftertext>
-    <aftertext>• hospice</aftertext>
-    <aftertext>• other approved items and services</aftertext>
-    <aftertext>
-      <table>
-        <thead>
-          <tr>
-            <th>Before You Buy This Insurance</th>
-          </tr>
-        </thead>
-      </table>
-    </aftertext>
-    <aftertext>✓ Check the coverage in all health insurance policies you already have.</aftertext>
-    <aftertext>✓ For more information about Medicare and Medicare supplement insurance, review the Guide to Health Insurance for People with Medicare, available from the insurance company.</aftertext>
-    <aftertext>✓ For help in understanding your health insurance, contact your state insurance department or state senior insurance counseling program.</aftertext>
-    <para>
-      <num>(4)</num>
-      <text>Fixed Dollar Specified Disease Policies. The following is an original disclosure statement for policies that pay fixed dollar amounts for specified diseases or other specified impairments. This includes cancer, specified disease, and other health insurance policies that pay a scheduled benefit or specific payment based on diagnosis of the conditions named in the policy.</text>
-      <text>
-        <table>
-          <thead>
-            <tr>
-              <th>IMPORTANT NOTICE TO PERSONS ON MEDICARE  THIS INSURANCE DUPLICATES SOME MEDICARE BENEFITS</th>
-            </tr>
-          </thead>
-        </table>
-      </text>
-      <text class="center">
-        <strong>This is not Medicare Supplement Insurance</strong>
-      </text>
-    </para>
-    <aftertext>This insurance pays a fixed amount, regardless of your expenses, if you meet the policy conditions, for one of the specific diseases or health conditions named in the policy. It does not pay your Medicare deductibles or coinsurance and is not a substitute for Medicare supplement insurance.</aftertext>
-    <aftertext>This insurance duplicates Medicare benefits because Medicare generally pays for most of the expenses for the diagnosis and treatment of the specific conditions or diagnoses named in the policy.</aftertext>
-    <aftertext>
-      <strong>Medicare pays extensive benefits for medically necessary services regardless of the reason you need them. These include:</strong>
-    </aftertext>
-    <aftertext>• hospitalization</aftertext>
-    <aftertext>• physician services</aftertext>
-    <aftertext>• hospice</aftertext>
-    <aftertext>• other approved items and services</aftertext>
-    <aftertext>
-      <table>
-        <thead>
-          <tr>
-            <th>Before You Buy This Insurance</th>
-          </tr>
-        </thead>
-      </table>
-    </aftertext>
-    <aftertext>✓ Check the coverage in all health insurance policies you already have.</aftertext>
-    <aftertext>✓ For more information about Medicare and Medicare supplement insurance, review the Guide to Health Insurance for People with Medicare, available from the insurance company.</aftertext>
-    <aftertext>✓ For help in understanding your health insurance, contact your state insurance department or state senior insurance counseling program.</aftertext>
-    <para>
-      <num>(5)</num>
-      <text>Policies Providing Both Expense Incurred and Fixed Indemnity Benefits. The following is an Original disclosure statement for policies that provide benefits for both expenses incurred and fixed indemnity basis:</text>
-      <text>
-        <table>
-          <thead>
-            <tr>
-              <th>
-                <p>IMPORTANT NOTICE TO PERSONS ON</p>
-                <p class="text-indent-1">MEDICARETHIS INSURANCE DUPLICATES</p>
-                <p class="text-indent-1">SOME MEDICARE BENEFITS</p>
-              </th>
-            </tr>
-          </thead>
-        </table>
-      </text>
-      <text class="center">
-        <strong>This is not Medicare Supplement Insurance</strong>
-      </text>
-    </para>
-    <aftertext>This insurance pays limited reimbursement for expenses if you meet the conditions listed in the policy. It also pays a fixed amount, regardless of your expenses, if you meet other policy conditions. It does not pay your Medicare deductibles or coinsurance and is not a substitute for Medicare supplement insurance.</aftertext>
-    <aftertext>
-      <strong>This insurance duplicates Medicare benefits when:</strong>
-    </aftertext>
-    <aftertext>• any expenses or services covered by the policy are also covered by Medicare; or</aftertext>
-    <aftertext>• it pays the fixed dollar amount stated in the policy and Medicare covers the same event</aftertext>
-    <aftertext>
-      <strong>Medicare generally pays for most or all of these expenses.</strong>
-    </aftertext>
-    <aftertext><strong>Medicare pays extensive benefits for medically necessary services regardless of the reason you need them. These include</strong>:</aftertext>
-    <aftertext>• hospitalization</aftertext>
-    <aftertext>• physician services</aftertext>
-    <aftertext>• hospice care</aftertext>
-    <aftertext>• other approved items and services</aftertext>
-    <aftertext>
-      <table>
-        <thead>
-          <tr>
-            <th>Before You Buy This Insurance</th>
-          </tr>
-        </thead>
-      </table>
-    </aftertext>
-    <aftertext>✓ Check the coverage in all health insurance policies you already have.</aftertext>
-    <aftertext>✓ For more information about Medicare and Medicare supplement insurance, review the Guide to Health Insurance for People with Medicare, available from the insurance company.</aftertext>
-    <aftertext>✓ For help in understanding your health insurance, contact your state insurance department or state senior insurance counseling program.</aftertext>
-    <para>
-      <num>(6)</num>
-      <text>Policies Providing Fixed Dollar Benefits. The following is an original disclosure statement for indemnity policies and other policies that pay a fixed dollar amount per day, excluding long-term care policies:</text>
-      <text>
-        <table>
-          <thead>
-            <tr>
-              <th>
-                <p>IMPORTANT NOTICE TO PERSONS ON</p>
-                <p class="text-indent-1">MEDICARE THIS INSURANCE DUPLICATES</p>
-                <p class="text-indent-1">SOME MEDICARE BENEFITS</p>
-              </th>
-            </tr>
-          </thead>
-        </table>
-      </text>
-      <text class="center">
-        <strong>This is not Medicare Supplement Insurance</strong>
-      </text>
-    </para>
-    <aftertext>This insurance pays a fixed dollar amount, regardless of your expenses, for each day you meet the policy conditions. It does not pay your Medicare deductibles or coinsurance and is not a substitute for Medicare supplement insurance.</aftertext>
-    <aftertext>
-      <strong>This insurance duplicates Medicare benefits when:</strong>
-    </aftertext>
-    <aftertext>• any expenses or services covered by the policy are also covered by Medicare</aftertext>
-    <aftertext>
-      <strong>Medicare generally pays for most or all of these expenses.</strong>
-    </aftertext>
-    <aftertext>
-      <strong>Medicare pays extensive benefits for medically necessary services regardless of the reason you need them. These include:</strong>
-    </aftertext>
-    <aftertext>• hospitalization</aftertext>
-    <aftertext>• physician services</aftertext>
-    <aftertext>• hospice</aftertext>
-    <aftertext>• other approved items and services</aftertext>
-    <aftertext>
-      <table>
-        <thead>
-          <tr>
-            <th>Before You Buy This Insurance</th>
-          </tr>
-        </thead>
-      </table>
-    </aftertext>
-    <aftertext>✓ Check the coverage in all health insurance policies you already have.</aftertext>
-    <aftertext>✓ For more information about Medicare and Medicare supplement insurance, review the Guide to Health Insurance for People with Medicare, available from the insurance company.</aftertext>
-    <aftertext>✓ For help in understanding your health insurance, contact your state insurance department or state senior insurance counseling program.</aftertext>
-    <para>
-      <num>(7)</num>
-      <text>Other Health Insurance Policies. The following is an original disclosure statement for other health insurance policies not specifically identified in the previous statements:</text>
-      <text>
-        <table>
-          <thead>
-            <tr>
-              <th>
-                <p>IMPORTANT NOTICE TO PERSONS ON</p>
-                <p class="text-indent-1">MEDICARE THIS INSURANCE DUPLICATES</p>
-                <p class="text-indent-1">SOME MEDICARE BENEFITS</p>
-              </th>
-            </tr>
-          </thead>
-        </table>
-      </text>
-      <text class="center">
-        <strong>This is not Medicare Supplement Insurance</strong>
-      </text>
-    </para>
-    <aftertext>This insurance provides limited benefits if you meet the conditions listed in the policy. It does not pay your Medicare deductibles or coinsurance and is not a substitute for Medicare supplement insurance.</aftertext>
-    <aftertext>
-      <strong>This insurance duplicates Medicare benefits when it pays:</strong>
-    </aftertext>
-    <aftertext>• the benefits stated in the policy and coverage for the same event is provided by Medicare</aftertext>
-    <aftertext>
-      <strong>Medicare generally pays for most or all of these expenses.</strong>
-    </aftertext>
-    <aftertext>
-      <strong>Medicare pays extensive benefits for medically necessary services regardless of the reason you need them. These include:</strong>
-    </aftertext>
-    <aftertext>• hospitalization</aftertext>
-    <aftertext>• physician services</aftertext>
-    <aftertext>• hospice</aftertext>
-    <aftertext>• other approved items and services</aftertext>
-    <aftertext>
-      <table>
-        <thead>
-          <tr>
-            <th>Before You Buy This Insurance</th>
-          </tr>
-        </thead>
-      </table>
-    </aftertext>
-    <aftertext>✓ Check the coverage in all health insurance policies you already have.</aftertext>
-    <aftertext>✓ For more information about Medicare and Medicare supplement insurance, review the Guide to Health Insurance for People with Medicare, available from the insurance company.</aftertext>
-    <aftertext>✓ For help in understanding your health insurance, contact your state insurance department or state senior insurance counseling program.</aftertext>
     <para>
       <num>C.</num>
       <text>Alternative Disclosure Statements.</text>
@@ -3751,30 +3760,30 @@
           </table>
         </text>
         <text>Some health care services paid for by Medicare may also trigger the payment of benefits from this policy.</text>
+        <text>This insurance provides limited benefits, if you meet the policy conditions, for hospital or medical expenses that result from accidental injury. It does not pay your Medicare deductibles or coinsurance and is not a substitute for Medicare supplement insurance.</text>
+        <text>
+          <strong>Medicare generally pays for most or all of these expenses.</strong>
+        </text>
+        <text>
+          <strong>Medicare pays extensive benefits for medically necessary services regardless of the reason you need them. These include:</strong>
+        </text>
+        <text>• hospitalization</text>
+        <text>• physician services</text>
+        <text>• other approved items and services</text>
+        <text>This policy must pay benefits without regard to other health benefit coverage to which you may be entitled under Medicare or other insurance.</text>
+        <text>
+          <table>
+            <thead>
+              <tr>
+                <th>Before You Buy This Insurance</th>
+              </tr>
+            </thead>
+          </table>
+        </text>
+        <text>✓ Check the coverage in all health insurance policies you already have.</text>
+        <text>✓ For more information about Medicare and Medicare supplement insurance, review the Guide to Health Insurance for People with Medicare, available from the insurance company.</text>
+        <text>✓ For help in understanding your health insurance, contact your state insurance department or state senior insurance counseling program.</text>
       </para>
-      <aftertext>This insurance provides limited benefits, if you meet the policy conditions, for hospital or medical expenses that result from accidental injury. It does not pay your Medicare deductibles or coinsurance and is not a substitute for Medicare supplement insurance.</aftertext>
-      <aftertext>
-        <strong>Medicare generally pays for most or all of these expenses.</strong>
-      </aftertext>
-      <aftertext>
-        <strong>Medicare pays extensive benefits for medically necessary services regardless of the reason you need them. These include:</strong>
-      </aftertext>
-      <aftertext>• hospitalization</aftertext>
-      <aftertext>• physician services</aftertext>
-      <aftertext>• other approved items and services</aftertext>
-      <aftertext>This policy must pay benefits without regard to other health benefit coverage to which you may be entitled under Medicare or other insurance.</aftertext>
-      <aftertext>
-        <table>
-          <thead>
-            <tr>
-              <th>Before You Buy This Insurance</th>
-            </tr>
-          </thead>
-        </table>
-      </aftertext>
-      <aftertext>✓ Check the coverage in all health insurance policies you already have.</aftertext>
-      <aftertext>✓ For more information about Medicare and Medicare supplement insurance, review the Guide to Health Insurance for People with Medicare, available from the insurance company.</aftertext>
-      <aftertext>✓ For help in understanding your health insurance, contact your state insurance department or state senior insurance counseling program.</aftertext>
       <para>
         <num>(2)</num>
         <text>Specified Limited Services Policies. The following is an alternative disclosure statement for policies that provide benefits for specified limited services:</text>
@@ -3787,28 +3796,28 @@
             </thead>
           </table>
         </text>
+        <text>Some health care services paid for by Medicare may also trigger the payment of benefits under this policy.</text>
+        <text>This insurance provides limited benefits, if you meet the policy conditions, for expenses relating to specific services listed in the policy. It does not pay your Medicare deductibles or coinsurance and is not a substitute for Medicare supplement insurance.</text>
+        <text>
+          <strong>Medicare pays extensive benefits for medically necessary services regardless of the reason you need them. These include:</strong>
+        </text>
+        <text>• hospitalization</text>
+        <text>• physician services</text>
+        <text>• other approved items and services</text>
+        <text>This policy must pay benefits without regard to other health benefit coverage to which you may be entitled under Medicare or other insurance.</text>
+        <text>
+          <table>
+            <thead>
+              <tr>
+                <th>Before You Buy This Insurance</th>
+              </tr>
+            </thead>
+          </table>
+        </text>
+        <text>✓ Check the coverage in all health insurance policies you already have.</text>
+        <text>✓ For more information about Medicare and Medicare supplement insurance, review the Guide to Health Insurance for People with Medicare, available from the insurance company.</text>
+        <text>✓ For help in understanding your health insurance, contact your state insurance department or state senior insurance counseling program.</text>
       </para>
-      <aftertext>Some health care services paid for by Medicare may also trigger the payment of benefits under this policy.</aftertext>
-      <aftertext>This insurance provides limited benefits, if you meet the policy conditions, for expenses relating to specific services listed in the policy. It does not pay your Medicare deductibles or coinsurance and is not a substitute for Medicare supplement insurance.</aftertext>
-      <aftertext>
-        <strong>Medicare pays extensive benefits for medically necessary services regardless of the reason you need them. These include:</strong>
-      </aftertext>
-      <aftertext>• hospitalization</aftertext>
-      <aftertext>• physician services</aftertext>
-      <aftertext>• other approved items and services</aftertext>
-      <aftertext>This policy must pay benefits without regard to other health benefit coverage to which you may be entitled under Medicare or other insurance.</aftertext>
-      <aftertext>
-        <table>
-          <thead>
-            <tr>
-              <th>Before You Buy This Insurance</th>
-            </tr>
-          </thead>
-        </table>
-      </aftertext>
-      <aftertext>✓ Check the coverage in all health insurance policies you already have.</aftertext>
-      <aftertext>✓ For more information about Medicare and Medicare supplement insurance, review the Guide to Health Insurance for People with Medicare, available from the insurance company.</aftertext>
-      <aftertext>✓ For help in understanding your health insurance, contact your state insurance department or state senior insurance counseling program.</aftertext>
       <para>
         <num>(3)</num>
         <text>Expense Incurred Specified Disease Policies. The following is an alternative disclosure statement for policies that reimburse expenses incurred for specified diseases or other specified impairments. This includes expense-incurred cancer, specified disease, and other types of health insurance policies that limit reimbursement to named medical conditions.</text>
@@ -3826,31 +3835,31 @@
           </table>
         </text>
         <text>Some health care services paid for by Medicare may also trigger the payment of benefits from this policy. Medicare generally pays for most or all of these expenses.</text>
+        <text>This insurance provides limited benefits, if you meet the policy conditions, for hospital or medical expenses only when you are treated for one of the specific diseases or health conditions listed in the policy. It does not pay your Medicare deductibles or coinsurance and is not a substitute for Medicare supplement insurance.</text>
+        <text>
+          <strong>Medicare generally pays for most or all of these expenses.</strong>
+        </text>
+        <text>
+          <strong>Medicare pays extensive benefits for medically necessary services regardless of the reason you need them. These include:</strong>
+        </text>
+        <text>• hospitalization</text>
+        <text>• physician services</text>
+        <text>• hospice</text>
+        <text>• other approved items and services</text>
+        <text>This policy must pay benefits without regard to other health benefit coverage to which you may be entitled under Medicare or other insurance.</text>
+        <text>
+          <table>
+            <thead>
+              <tr>
+                <th>Before You Buy This Insurance</th>
+              </tr>
+            </thead>
+          </table>
+        </text>
+        <text>✓ Check the coverage in all health insurance policies you already have.</text>
+        <text>✓ For more information about Medicare and Medicare supplement insurance, review the Guide to Health Insurance for People with Medicare, available from the insurance company.</text>
+        <text>✓ For help in understanding your health insurance, contact your state insurance department or state senior insurance counseling program.</text>
       </para>
-      <aftertext>This insurance provides limited benefits, if you meet the policy conditions, for hospital or medical expenses only when you are treated for one of the specific diseases or health conditions listed in the policy. It does not pay your Medicare deductibles or coinsurance and is not a substitute for Medicare supplement insurance.</aftertext>
-      <aftertext>
-        <strong>Medicare generally pays for most or all of these expenses.</strong>
-      </aftertext>
-      <aftertext>
-        <strong>Medicare pays extensive benefits for medically necessary services regardless of the reason you need them. These include:</strong>
-      </aftertext>
-      <aftertext>• hospitalization</aftertext>
-      <aftertext>• physician services</aftertext>
-      <aftertext>• hospice</aftertext>
-      <aftertext>• other approved items and services</aftertext>
-      <aftertext>This policy must pay benefits without regard to other health benefit coverage to which you may be entitled under Medicare or other insurance.</aftertext>
-      <aftertext>
-        <table>
-          <thead>
-            <tr>
-              <th>Before You Buy This Insurance</th>
-            </tr>
-          </thead>
-        </table>
-      </aftertext>
-      <aftertext>✓ Check the coverage in all health insurance policies you already have.</aftertext>
-      <aftertext>✓ For more information about Medicare and Medicare supplement insurance, review the Guide to Health Insurance for People with Medicare, available from the insurance company.</aftertext>
-      <aftertext>✓ For help in understanding your health insurance, contact your state insurance department or state senior insurance counseling program.</aftertext>
       <para>
         <num>(4)</num>
         <text>Fixed Dollar Specified Disease Policies. The following is an alternative disclosure statement for policies that pay fixed dollar amounts for specified diseases or other specified impairments. This includes cancer, specified disease, and other health insurance policies that pay a scheduled benefit or specific payment based on diagnosis of the conditions named in the policy.</text>
@@ -3868,28 +3877,28 @@
           </table>
         </text>
         <text>Some health care services paid for by Medicare may also trigger the payment of benefits from this policy.</text>
+        <text>This insurance pays a fixed amount, regardless of your expenses, if you meet the policy conditions, for one of the specific diseases or health conditions named in the policy. It does not pay your Medicare deductibles or coinsurance and is not a substitute for Medicare supplement insurance.</text>
+        <text>
+          <strong>Medicare pays extensive benefits for medically necessary services regardless of the reason you need them. These include:</strong>
+        </text>
+        <text>• hospitalization</text>
+        <text>• physician services</text>
+        <text>• hospice</text>
+        <text>• other approved items and services</text>
+        <text>This policy must pay benefits without regard to other health benefit coverage to which you may be entitled under Medicare or other insurance.</text>
+        <text>
+          <table>
+            <thead>
+              <tr>
+                <th>Before You Buy This Insurance</th>
+              </tr>
+            </thead>
+          </table>
+        </text>
+        <text>✓ Check the coverage in all health insurance policies you already have.</text>
+        <text>✓ For more information about Medicare and Medicare supplement insurance, review the Guide to Health Insurance for People with Medicare, available from the insurance company.</text>
+        <text>✓ For help in understanding your health insurance, contact your state insurance department or state senior insurance counseling program.</text>
       </para>
-      <aftertext>This insurance pays a fixed amount, regardless of your expenses, if you meet the policy conditions, for one of the specific diseases or health conditions named in the policy. It does not pay your Medicare deductibles or coinsurance and is not a substitute for Medicare supplement insurance.</aftertext>
-      <aftertext>
-        <strong>Medicare pays extensive benefits for medically necessary services regardless of the reason you need them. These include:</strong>
-      </aftertext>
-      <aftertext>• hospitalization</aftertext>
-      <aftertext>• physician services</aftertext>
-      <aftertext>• hospice</aftertext>
-      <aftertext>• other approved items and services</aftertext>
-      <aftertext>This policy must pay benefits without regard to other health benefit coverage to which you may be entitled under Medicare or other insurance.</aftertext>
-      <aftertext>
-        <table>
-          <thead>
-            <tr>
-              <th>Before You Buy This Insurance</th>
-            </tr>
-          </thead>
-        </table>
-      </aftertext>
-      <aftertext>✓ Check the coverage in all health insurance policies you already have.</aftertext>
-      <aftertext>✓ For more information about Medicare and Medicare supplement insurance, review the Guide to Health Insurance for People with Medicare, available from the insurance company.</aftertext>
-      <aftertext>✓ For help in understanding your health insurance, contact your state insurance department or state senior insurance counseling program.</aftertext>
       <para>
         <num>(5)</num>
         <text>Policies Providing Both Expense Incurred and Fixed Indemnity Benefits. The following is an alternative disclosure statement for policies that provide benefits upon both an expense-incurred and fixed indemnity basis:</text>
@@ -3907,31 +3916,31 @@
           </table>
         </text>
         <text>Some health care services paid for by Medicare may also trigger the payment of benefits from this policy.</text>
+        <text>This insurance pays limited reimbursement for expenses if you meet the conditions listed in the policy. It also pays a fixed amount, regardless of your expenses, if you meet other policy conditions. It does not pay your Medicare deductibles or coinsurance and is not a substitute for Medicare supplement insurance.</text>
+        <text>
+          <strong>Medicare generally pays for most or all of these expenses.</strong>
+        </text>
+        <text>
+          <strong>Medicare pays extensive benefits for medically necessary services regardless of the reason you need them. These include:</strong>
+        </text>
+        <text>• hospitalization</text>
+        <text>• physician services</text>
+        <text>• hospice care</text>
+        <text>• other approved items and services</text>
+        <text>This policy must pay benefits without regard to other health benefit coverage to which you may be entitled under Medicare or other insurance.</text>
+        <text>
+          <table>
+            <thead>
+              <tr>
+                <th>Before You Buy This Insurance</th>
+              </tr>
+            </thead>
+          </table>
+        </text>
+        <text>✓ Check the coverage in all health insurance policies you already have.</text>
+        <text>✓ For more information about Medicare and Medicare supplement insurance, review the Guide to Health Insurance for People with Medicare, available from the insurance company.</text>
+        <text>✓ For help in understanding your health insurance, contact your state insurance department or state senior insurance counseling program.</text>
       </para>
-      <aftertext>This insurance pays limited reimbursement for expenses if you meet the conditions listed in the policy. It also pays a fixed amount, regardless of your expenses, if you meet other policy conditions. It does not pay your Medicare deductibles or coinsurance and is not a substitute for Medicare supplement insurance.</aftertext>
-      <aftertext>
-        <strong>Medicare generally pays for most or all of these expenses.</strong>
-      </aftertext>
-      <aftertext>
-        <strong>Medicare pays extensive benefits for medically necessary services regardless of the reason you need them. These include:</strong>
-      </aftertext>
-      <aftertext>• hospitalization</aftertext>
-      <aftertext>• physician services</aftertext>
-      <aftertext>• hospice care</aftertext>
-      <aftertext>• other approved items and services</aftertext>
-      <aftertext>This policy must pay benefits without regard to other health benefit coverage to which you may be entitled under Medicare or other insurance.</aftertext>
-      <aftertext>
-        <table>
-          <thead>
-            <tr>
-              <th>Before You Buy This Insurance</th>
-            </tr>
-          </thead>
-        </table>
-      </aftertext>
-      <aftertext>✓ Check the coverage in all health insurance policies you already have.</aftertext>
-      <aftertext>✓ For more information about Medicare and Medicare supplement insurance, review the Guide to Health Insurance for People with Medicare, available from the insurance company.</aftertext>
-      <aftertext>✓ For help in understanding your health insurance, contact your state insurance department or state senior insurance counseling program.</aftertext>
       <para>
         <num>(6)</num>
         <text>Policies Providing Only Fixed Dollar Benefits. The following is an alternative disclosure statement for indemnity policies and other policies that pay a fixed dollar amount per day, excluding long-term care policies:</text>
@@ -3948,31 +3957,31 @@
           </table>
         </text>
         <text>Some health care services paid for by Medicare may also trigger the payment of benefits from this policy.</text>
+        <text>This insurance pays a fixed dollar amount, regardless of your expenses, for each day you meet the policy conditions. It does not pay your Medicare deductibles or coinsurance and is not a substitute for Medicare supplement insurance.</text>
+        <text>
+          <strong>Medicare generally pays for most or all of these expenses.</strong>
+        </text>
+        <text>
+          <strong>Medicare pays extensive benefits for medically necessary services regardless of the reason you need them. These include:</strong>
+        </text>
+        <text>• hospitalization</text>
+        <text>• physician services</text>
+        <text>• hospice</text>
+        <text>• other approved items and services</text>
+        <text>This policy must pay benefits without regard to other health benefit coverage to which you may be entitled under Medicare or other insurance.</text>
+        <text>
+          <table>
+            <thead>
+              <tr>
+                <th>Before You Buy This Insurance</th>
+              </tr>
+            </thead>
+          </table>
+        </text>
+        <text>✓ Check the coverage in all health insurance policies you already have.</text>
+        <text>✓ For more information about Medicare and Medicare supplement insurance, review the Guide to Health Insurance for People with Medicare, available from the insurance company.</text>
+        <text>✓ For help in understanding your health insurance, contact your state insurance department or state senior insurance counseling program.</text>
       </para>
-      <aftertext>This insurance pays a fixed dollar amount, regardless of your expenses, for each day you meet the policy conditions. It does not pay your Medicare deductibles or coinsurance and is not a substitute for Medicare supplement insurance.</aftertext>
-      <aftertext>
-        <strong>Medicare generally pays for most or all of these expenses.</strong>
-      </aftertext>
-      <aftertext>
-        <strong>Medicare pays extensive benefits for medically necessary services regardless of the reason you need them. These include:</strong>
-      </aftertext>
-      <aftertext>• hospitalization</aftertext>
-      <aftertext>• physician services</aftertext>
-      <aftertext>• hospice</aftertext>
-      <aftertext>• other approved items and services</aftertext>
-      <aftertext>This policy must pay benefits without regard to other health benefit coverage to which you may be entitled under Medicare or other insurance.</aftertext>
-      <aftertext>
-        <table>
-          <thead>
-            <tr>
-              <th>Before You Buy This Insurance</th>
-            </tr>
-          </thead>
-        </table>
-      </aftertext>
-      <aftertext>✓ Check the coverage in all health insurance policies you already have.</aftertext>
-      <aftertext>✓ For more information about Medicare and Medicare supplement insurance, review the Guide to Health Insurance for People with Medicare, available from the insurance company.</aftertext>
-      <aftertext>✓ For help in understanding your health insurance, contact your state insurance department or state senior insurance counseling program.</aftertext>
       <para>
         <num>(7)</num>
         <text>Other Health Insurance Policies. The following is an alternative disclosure statement for other health insurance policies not specifically identified in the preceding statements:</text>
@@ -3985,28 +3994,28 @@
             </thead>
           </table>
         </text>
+        <text>Some health care services paid for by Medicare may also trigger the payment of benefits from this policy.</text>
+        <text>This insurance provides limited benefits if you meet the conditions listed in the policy. It does not pay your Medicare deductibles or coinsurance and is not a substitute for Medicare supplement insurance.</text>
+        <text>Medicare generally pays for most or all of these expenses.</text>
+        <text>Medicare pays extensive benefits for medically necessary services regardless of the reason you need them. These include:</text>
+        <text>• hospitalization</text>
+        <text>• physician services</text>
+        <text>• hospice</text>
+        <text>• other approved items and services</text>
+        <text>This policy must pay benefits without regard to other health benefit coverage to which you may be entitled under Medicare or other insurance.</text>
+        <text>
+          <table>
+            <thead>
+              <tr>
+                <th>Before You Buy This Insurance</th>
+              </tr>
+            </thead>
+          </table>
+        </text>
+        <text>✓ Check the coverage in all health insurance policies you already have.</text>
+        <text>✓ For more information about Medicare and Medicare supplement insurance, review the Guide to Health Insurance for People with Medicare, available from the insurance company.</text>
+        <text>✓ For help in understanding your health insurance, contact your state insurance department or state senior insurance counseling program.</text>
       </para>
-      <aftertext>Some health care services paid for by Medicare may also trigger the payment of benefits from this policy.</aftertext>
-      <aftertext>This insurance provides limited benefits if you meet the conditions listed in the policy. It does not pay your Medicare deductibles or coinsurance and is not a substitute for Medicare supplement insurance.</aftertext>
-      <aftertext>Medicare generally pays for most or all of these expenses.</aftertext>
-      <aftertext>Medicare pays extensive benefits for medically necessary services regardless of the reason you need them. These include:</aftertext>
-      <aftertext>• hospitalization</aftertext>
-      <aftertext>• physician services</aftertext>
-      <aftertext>• hospice</aftertext>
-      <aftertext>• other approved items and services</aftertext>
-      <aftertext>This policy must pay benefits without regard to other health benefit coverage to which you may be entitled under Medicare or other insurance.</aftertext>
-      <aftertext>
-        <table>
-          <thead>
-            <tr>
-              <th>Before You Buy This Insurance</th>
-            </tr>
-          </thead>
-        </table>
-      </aftertext>
-      <aftertext>✓ Check the coverage in all health insurance policies you already have.</aftertext>
-      <aftertext>✓ For more information about Medicare and Medicare supplement insurance, review the Guide to Health Insurance for People with Medicare, available from the insurance company.</aftertext>
-      <aftertext>✓ For help in understanding your health insurance, contact your state insurance department or state senior insurance counseling program.</aftertext>
     </para>
   </section>
   <section>
@@ -4064,32 +4073,32 @@
           <strong>This is not Medicare Supplement Insurance</strong>
         </text>
       </para>
+      <text>This insurance provides limited benefits, if you meet the policy conditions, for hospital or medical expenses that result from accidental injury. It does not pay your Medicare deductibles or coinsurance and is not a substitute for Medicare Supplement insurance<strong>.</strong></text>
+      <text>
+        <strong>This insurance duplicates Medicare benefits when it pays:</strong>
+      </text>
+      <text>• hospital or medical expenses up to the maximum stated in the policy</text>
+      <text><strong>Medicare generally pays for most or all of these expenses</strong>.</text>
+      <text>
+        <strong>Medicare pays extensive benefits for medically necessary services regardless of the reason you need them. These include:</strong>
+      </text>
+      <text>• hospitalization</text>
+      <text>• physician services</text>
+      <text>• outpatient prescription drugs if you are enrolled in Medicare Part D</text>
+      <text>• other approved items and services</text>
+      <text>
+        <table>
+          <thead>
+            <tr>
+              <th>Before You Buy This Insurance</th>
+            </tr>
+          </thead>
+        </table>
+      </text>
+      <text>✓ Check the coverage in <strong>all</strong> health insurance policies you already have.</text>
+      <text>✓ For more information about Medicare and Medicare Supplement insurance, review the Guide to Health Insurance for People with Medicare, available from the insurance company.</text>
+      <text>✓ For help in understanding your health insurance, contact your state insurance department or state health insurance assistance program {SHIP}.</text>
     </para>
-    <aftertext>This insurance provides limited benefits, if you meet the policy conditions, for hospital or medical expenses that result from accidental injury. It does not pay your Medicare deductibles or coinsurance and is not a substitute for Medicare Supplement insurance<strong>.</strong></aftertext>
-    <aftertext>
-      <strong>This insurance duplicates Medicare benefits when it pays:</strong>
-    </aftertext>
-    <aftertext>• hospital or medical expenses up to the maximum stated in the policy</aftertext>
-    <aftertext><strong>Medicare generally pays for most or all of these expenses</strong>.</aftertext>
-    <aftertext>
-      <strong>Medicare pays extensive benefits for medically necessary services regardless of the reason you need them. These include:</strong>
-    </aftertext>
-    <aftertext>• hospitalization</aftertext>
-    <aftertext>• physician services</aftertext>
-    <aftertext>• outpatient prescription drugs if you are enrolled in Medicare Part D</aftertext>
-    <aftertext>• other approved items and services</aftertext>
-    <aftertext>
-      <table>
-        <thead>
-          <tr>
-            <th>Before You Buy This Insurance</th>
-          </tr>
-        </thead>
-      </table>
-    </aftertext>
-    <aftertext>✓ Check the coverage in <strong>all</strong> health insurance policies you already have.</aftertext>
-    <aftertext>✓ For more information about Medicare and Medicare Supplement insurance, review the Guide to Health Insurance for People with Medicare, available from the insurance company.</aftertext>
-    <aftertext>✓ For help in understanding your health insurance, contact your state insurance department or state health insurance assistance program {SHIP}.</aftertext>
     <para>
       <num>(2)</num>
       <text>Specified Limited Services Policies. The following is an original disclosure statement for policies that provide benefits for specified limited services:</text>
@@ -4109,31 +4118,31 @@
       <text class="center">
         <strong>This is not Medicare Supplement Insurance</strong>
       </text>
+      <text>This insurance provides limited benefits, if you meet the policy conditions, for expenses relating to the specific services listed in the policy. It does not pay your Medicare deductibles or coinsurance and is not a substitute for Medicare Supplement insurance.</text>
+      <text>
+        <strong>This insurance duplicates Medicare benefits when:</strong>
+      </text>
+      <text>• any of the services covered by the policy are also covered by Medicare</text>
+      <text>
+        <strong>Medicare pays extensive benefits for medically necessary services regardless of the reason you need them. These include:</strong>
+      </text>
+      <text>• hospitalization</text>
+      <text>• physician services</text>
+      <text>• outpatient prescription drugs if you are enrolled in Medicare Part D</text>
+      <text>• other approved items and services</text>
+      <text>
+        <table>
+          <thead>
+            <tr>
+              <th>Before You Buy This Insurance</th>
+            </tr>
+          </thead>
+        </table>
+      </text>
+      <text>✓ Check the coverage in <strong>all</strong> health insurance policies you already have.</text>
+      <text>✓ For more information about Medicare and Medicare Supplement insurance, review the Guide to Health Insurance for People with Medicare, available from the insurance company.</text>
+      <text>✓ For help in understanding your health insurance, contact your state insurance department or state health insurance assistance program {SHIP}.</text>
     </para>
-    <aftertext>This insurance provides limited benefits, if you meet the policy conditions, for expenses relating to the specific services listed in the policy. It does not pay your Medicare deductibles or coinsurance and is not a substitute for Medicare Supplement insurance.</aftertext>
-    <aftertext>
-      <strong>This insurance duplicates Medicare benefits when:</strong>
-    </aftertext>
-    <aftertext>• any of the services covered by the policy are also covered by Medicare</aftertext>
-    <aftertext>
-      <strong>Medicare pays extensive benefits for medically necessary services regardless of the reason you need them. These include:</strong>
-    </aftertext>
-    <aftertext>• hospitalization</aftertext>
-    <aftertext>• physician services</aftertext>
-    <aftertext>• outpatient prescription drugs if you are enrolled in Medicare Part D</aftertext>
-    <aftertext>• other approved items and services</aftertext>
-    <aftertext>
-      <table>
-        <thead>
-          <tr>
-            <th>Before You Buy This Insurance</th>
-          </tr>
-        </thead>
-      </table>
-    </aftertext>
-    <aftertext>✓ Check the coverage in <strong>all</strong> health insurance policies you already have.</aftertext>
-    <aftertext>✓ For more information about Medicare and Medicare Supplement insurance, review the Guide to Health Insurance for People with Medicare, available from the insurance company.</aftertext>
-    <aftertext>✓ For help in understanding your health insurance, contact your state insurance department or state health insurance assistance program {SHIP}.</aftertext>
     <para>
       <num>(3)</num>
       <text>Expense Incurred Specified Disease Policies. The following is an original disclosure statement for policies that reimburse expenses incurred for specified diseases or other specified impairments. This includes expense-incurred cancer, specified disease, and other types of health insurance policies that limit reimbursement to named medical conditions.</text>
@@ -4149,33 +4158,33 @@
       <text class="center">
         <strong>This is not Medicare Supplement Insurance</strong>
       </text>
+      <text>This insurance provides limited benefits, if you meet the policy conditions, for hospital or medical expenses only when you are treated for one of the specific diseases or health conditions listed in the policy. It does not pay your Medicare deductibles or coinsurance and is not a substitute for Medicare Supplement insurance.</text>
+      <text>
+        <strong>This insurance duplicates Medicare benefits when it pays:</strong>
+      </text>
+      <text>• hospital or medical expenses up to the maximum stated in the policy</text>
+      <text>
+        <strong>Medicare generally pays for most or all of these expenses.</strong>
+      </text>
+      <text><strong>Medicare pays extensive benefits for medically necessary services regardless of the reason you need them. These include</strong>:</text>
+      <text>• hospitalization</text>
+      <text>• physician services</text>
+      <text>• hospice</text>
+      <text>• outpatient prescription drugs if you are enrolled in Medicare Part D</text>
+      <text>• other approved items and services</text>
+      <text>
+        <table>
+          <thead>
+            <tr>
+              <th>Before You Buy This Insurance</th>
+            </tr>
+          </thead>
+        </table>
+      </text>
+      <text>✓ Check the coverage in <strong>all</strong> health insurance policies you already have.</text>
+      <text>✓ For more information about Medicare and Medicare Supplement insurance, review the Guide to Health Insurance for People with Medicare, available from the insurance company.</text>
+      <text>✓ For help in understanding your health insurance, contact your state insurance department or state health insurance assistance program {SHIP}.</text>
     </para>
-    <aftertext>This insurance provides limited benefits, if you meet the policy conditions, for hospital or medical expenses only when you are treated for one of the specific diseases or health conditions listed in the policy. It does not pay your Medicare deductibles or coinsurance and is not a substitute for Medicare Supplement insurance.</aftertext>
-    <aftertext>
-      <strong>This insurance duplicates Medicare benefits when it pays:</strong>
-    </aftertext>
-    <aftertext>• hospital or medical expenses up to the maximum stated in the policy</aftertext>
-    <aftertext>
-      <strong>Medicare generally pays for most or all of these expenses.</strong>
-    </aftertext>
-    <aftertext><strong>Medicare pays extensive benefits for medically necessary services regardless of the reason you need them. These include</strong>:</aftertext>
-    <aftertext>• hospitalization</aftertext>
-    <aftertext>• physician services</aftertext>
-    <aftertext>• hospice</aftertext>
-    <aftertext>• outpatient prescription drugs if you are enrolled in Medicare Part D</aftertext>
-    <aftertext>• other approved items and services</aftertext>
-    <aftertext>
-      <table>
-        <thead>
-          <tr>
-            <th>Before You Buy This Insurance</th>
-          </tr>
-        </thead>
-      </table>
-    </aftertext>
-    <aftertext>✓ Check the coverage in <strong>all</strong> health insurance policies you already have.</aftertext>
-    <aftertext>✓ For more information about Medicare and Medicare Supplement insurance, review the Guide to Health Insurance for People with Medicare, available from the insurance company.</aftertext>
-    <aftertext>✓ For help in understanding your health insurance, contact your state insurance department or state health insurance assistance program {SHIP}.</aftertext>
     <para>
       <num>(4)</num>
       <text>Fixed Dollar Specified Disease Policies. The following is an original disclosure statement for policies that pay fixed dollar amounts for specified diseases or other specified impairments. This includes cancer, specified disease, and other health insurance policies that pay a scheduled benefit or specific payment based on diagnosis of the conditions named in the policy.</text>
@@ -4191,31 +4200,31 @@
           </thead>
         </table>
       </text>
+      <text>This insurance pays a fixed amount, regardless of your expenses, if you meet the policy conditions, for one of the specific diseases or health conditions named in the policy. It does not pay your Medicare deductibles or coinsurance and is not a substitute for Medicare Supplement insurance.</text>
+      <text>
+        <strong>This insurance duplicates Medicare benefits because Medicare generally pays for most of the expenses for the diagnosis and treatment of the specific conditions or diagnoses named in the policy.</strong>
+      </text>
+      <text>
+        <strong>Medicare pays extensive benefits for medically necessary services regardless of the reason you need them. These include:</strong>
+      </text>
+      <text>• hospitalization</text>
+      <text>• physician services</text>
+      <text>• hospice</text>
+      <text>• outpatient prescription drugs if you are enrolled in Medicare Part D</text>
+      <text>• other approved items and services</text>
+      <text>
+        <table>
+          <thead>
+            <tr>
+              <th>Before You Buy This Insurance</th>
+            </tr>
+          </thead>
+        </table>
+      </text>
+      <text>✓ Check the coverage in <strong>all</strong> health insurance policies you already have.</text>
+      <text>✓ For more information about Medicare and Medicare Supplement insurance, review the Guide to Health Insurance for People with Medicare, available from the insurance company.</text>
+      <text>✓ For help in understanding your health insurance, contact your state insurance department or state health insurance assistance program {SHIP}.</text>
     </para>
-    <aftertext>This insurance pays a fixed amount, regardless of your expenses, if you meet the policy conditions, for one of the specific diseases or health conditions named in the policy. It does not pay your Medicare deductibles or coinsurance and is not a substitute for Medicare Supplement insurance.</aftertext>
-    <aftertext>
-      <strong>This insurance duplicates Medicare benefits because Medicare generally pays for most of the expenses for the diagnosis and treatment of the specific conditions or diagnoses named in the policy.</strong>
-    </aftertext>
-    <aftertext>
-      <strong>Medicare pays extensive benefits for medically necessary services regardless of the reason you need them. These include:</strong>
-    </aftertext>
-    <aftertext>• hospitalization</aftertext>
-    <aftertext>• physician services</aftertext>
-    <aftertext>• hospice</aftertext>
-    <aftertext>• outpatient prescription drugs if you are enrolled in Medicare Part D</aftertext>
-    <aftertext>• other approved items and services</aftertext>
-    <aftertext>
-      <table>
-        <thead>
-          <tr>
-            <th>Before You Buy This Insurance</th>
-          </tr>
-        </thead>
-      </table>
-    </aftertext>
-    <aftertext>✓ Check the coverage in <strong>all</strong> health insurance policies you already have.</aftertext>
-    <aftertext>✓ For more information about Medicare and Medicare Supplement insurance, review the Guide to Health Insurance for People with Medicare, available from the insurance company.</aftertext>
-    <aftertext>✓ For help in understanding your health insurance, contact your state insurance department or state health insurance assistance program {SHIP}.</aftertext>
     <para>
       <num>(5)</num>
       <text>Policies Providing Fixed Dollar Benefits. The following is an original disclosure statement for indemnity policies and other policies that pay a fixed dollar amount per day, excluding long-term care policies:</text>
@@ -4235,33 +4244,33 @@
       <text class="center">
         <strong>This is not Medicare Supplement Insurance</strong>
       </text>
+      <text>This insurance pays a fixed dollar amount, regardless of your expenses, for each day you meet the policy conditions. It does not pay your Medicare deductibles or coinsurance and is not a substitute for Medicare Supplement insurance.</text>
+      <text>
+        <strong>This insurance duplicates Medicare benefits when:</strong>
+      </text>
+      <text>• any expenses or services covered by the policy are also covered by Medicare</text>
+      <text>
+        <strong>Medicare generally pays for most or all of these expenses.</strong>
+      </text>
+      <text><strong>Medicare pays extensive benefits for medically necessary services regardless of the reason you need them. These include</strong>:</text>
+      <text>• hospitalization</text>
+      <text>• physician services</text>
+      <text>• hospice</text>
+      <text>• outpatient prescription drugs if you are enrolled in Medicare Part D</text>
+      <text>• other approved items and services</text>
+      <text>
+        <table>
+          <thead>
+            <tr>
+              <th>Before You Buy This Insurance</th>
+            </tr>
+          </thead>
+        </table>
+      </text>
+      <text>✓ Check the coverage in <strong>all</strong> health insurance policies you already have.</text>
+      <text>✓ For more information about Medicare and Medicare Supplement insurance, review the Guide to Health Insurance for People with Medicare, available from the insurance company.</text>
+      <text>✓ For help in understanding your health insurance, contact your state insurance department or state health insurance assistance program {SHIP}.</text>
     </para>
-    <aftertext>This insurance pays a fixed dollar amount, regardless of your expenses, for each day you meet the policy conditions. It does not pay your Medicare deductibles or coinsurance and is not a substitute for Medicare Supplement insurance.</aftertext>
-    <aftertext>
-      <strong>This insurance duplicates Medicare benefits when:</strong>
-    </aftertext>
-    <aftertext>• any expenses or services covered by the policy are also covered by Medicare</aftertext>
-    <aftertext>
-      <strong>Medicare generally pays for most or all of these expenses.</strong>
-    </aftertext>
-    <aftertext><strong>Medicare pays extensive benefits for medically necessary services regardless of the reason you need them. These include</strong>:</aftertext>
-    <aftertext>• hospitalization</aftertext>
-    <aftertext>• physician services</aftertext>
-    <aftertext>• hospice</aftertext>
-    <aftertext>• outpatient prescription drugs if you are enrolled in Medicare Part D</aftertext>
-    <aftertext>• other approved items and services</aftertext>
-    <aftertext>
-      <table>
-        <thead>
-          <tr>
-            <th>Before You Buy This Insurance</th>
-          </tr>
-        </thead>
-      </table>
-    </aftertext>
-    <aftertext>✓ Check the coverage in <strong>all</strong> health insurance policies you already have.</aftertext>
-    <aftertext>✓ For more information about Medicare and Medicare Supplement insurance, review the Guide to Health Insurance for People with Medicare, available from the insurance company.</aftertext>
-    <aftertext>✓ For help in understanding your health insurance, contact your state insurance department or state health insurance assistance program {SHIP}.</aftertext>
     <para>
       <num>(6)</num>
       <text>Policies Providing Both Expense Incurred and Fixed Indemnity Benefits. The following is an original disclosure statement for policies that provide benefits upon both an expense-incurred and fixed indemnity basis:</text>
@@ -4281,36 +4290,36 @@
       <text class="center">
         <strong>This is not Medicare Supplement Insurance</strong>
       </text>
+      <text>This insurance pays limited reimbursement for expenses if you meet the conditions listed in the policy. It also pays a fixed amount, regardless of your expenses, if you meet other policy conditions. It does not pay your Medicare deductibles or coinsurance and is not a substitute for Medicare Supplement insurance.</text>
+      <text>
+        <strong>This insurance duplicates Medicare benefits when:</strong>
+      </text>
+      <text>• any expenses or services covered by the policy are also covered by Medicare; or</text>
+      <text>• it pays the fixed dollar amount stated in the policy and Medicare covers the same event</text>
+      <text>
+        <strong>Medicare generally pays for most or all of these expenses.</strong>
+      </text>
+      <text>
+        <strong>Medicare pays extensive benefits for medically necessary services regardless of the reason you need them. These include:</strong>
+      </text>
+      <text>• hospitalization</text>
+      <text>• physician services</text>
+      <text>• hospice</text>
+      <text>• outpatient prescription drugs if you are enrolled in Medicare Part D</text>
+      <text>• other approved items and services</text>
+      <text>
+        <table>
+          <thead>
+            <tr>
+              <th>Before You Buy This Insurance</th>
+            </tr>
+          </thead>
+        </table>
+      </text>
+      <text>✓ Check the coverage in <strong>all</strong> health insurance policies you already have.</text>
+      <text>✓ For more information about Medicare and Medicare Supplement insurance, review the Guide to Health Insurance for People with Medicare, available from the insurance company.</text>
+      <text>✓ For help in understanding your health insurance, contact your state insurance department or state health insurance assistance program {SHIP}.</text>
     </para>
-    <aftertext>This insurance pays limited reimbursement for expenses if you meet the conditions listed in the policy. It also pays a fixed amount, regardless of your expenses, if you meet other policy conditions. It does not pay your Medicare deductibles or coinsurance and is not a substitute for Medicare Supplement insurance.</aftertext>
-    <aftertext>
-      <strong>This insurance duplicates Medicare benefits when:</strong>
-    </aftertext>
-    <aftertext>• any expenses or services covered by the policy are also covered by Medicare; or</aftertext>
-    <aftertext>• it pays the fixed dollar amount stated in the policy and Medicare covers the same event</aftertext>
-    <aftertext>
-      <strong>Medicare generally pays for most or all of these expenses.</strong>
-    </aftertext>
-    <aftertext>
-      <strong>Medicare pays extensive benefits for medically necessary services regardless of the reason you need them. These include:</strong>
-    </aftertext>
-    <aftertext>• hospitalization</aftertext>
-    <aftertext>• physician services</aftertext>
-    <aftertext>• hospice</aftertext>
-    <aftertext>• outpatient prescription drugs if you are enrolled in Medicare Part D</aftertext>
-    <aftertext>• other approved items and services</aftertext>
-    <aftertext>
-      <table>
-        <thead>
-          <tr>
-            <th>Before You Buy This Insurance</th>
-          </tr>
-        </thead>
-      </table>
-    </aftertext>
-    <aftertext>✓ Check the coverage in <strong>all</strong> health insurance policies you already have.</aftertext>
-    <aftertext>✓ For more information about Medicare and Medicare Supplement insurance, review the Guide to Health Insurance for People with Medicare, available from the insurance company.</aftertext>
-    <aftertext>✓ For help in understanding your health insurance, contact your state insurance department or state health insurance assistance program {SHIP}.</aftertext>
     <para>
       <num>(7)</num>
       <text>Other Health Insurance Policies. The following is an original disclosure statement for other health insurance policies not specifically identified in the statements set forth in §C(1)-6) of this regulation:</text>
@@ -4330,24 +4339,23 @@
     <text class="center">
       <strong>This is not Medicare Supplement Insurance</strong>
     </text>
-    </para>
-    <aftertext>This insurance provides limited benefits if you meet the conditions listed in the policy. It does not pay your Medicare deductibles or coinsurance and is not a substitute for Medicare Supplement insurance.</aftertext>
-    <aftertext>
+    <text>This insurance provides limited benefits if you meet the conditions listed in the policy. It does not pay your Medicare deductibles or coinsurance and is not a substitute for Medicare Supplement insurance.</text>
+    <text>
       <strong>This insurance duplicates Medicare benefits when it pays:</strong>
-    </aftertext>
-    <aftertext>• the benefits stated in the policy and coverage for the same event is provided by Medicare</aftertext>
-    <aftertext>
+    </text>
+    <text>• the benefits stated in the policy and coverage for the same event is provided by Medicare</text>
+    <text>
       <strong>Medicare generally pays for most or all of these expenses.</strong>
-    </aftertext>
-    <aftertext>
+    </text>
+    <text>
       <strong>Medicare pays extensive benefits for medically necessary services regardless of the reason you need them. These include:</strong>
-    </aftertext>
-    <aftertext>• hospitalization</aftertext>
-    <aftertext>• physician services</aftertext>
-    <aftertext>• hospice</aftertext>
-    <aftertext>• outpatient prescription drugs if you are enrolled in Medicare Part D</aftertext>
-    <aftertext>• other approved items and services</aftertext>
-    <aftertext>
+    </text>
+    <text>• hospitalization</text>
+    <text>• physician services</text>
+    <text>• hospice</text>
+    <text>• outpatient prescription drugs if you are enrolled in Medicare Part D</text>
+    <text>• other approved items and services</text>
+    <text>
       <table>
         <thead>
           <tr>
@@ -4355,10 +4363,11 @@
           </tr>
         </thead>
       </table>
-    </aftertext>
-    <aftertext>✓ Check the coverage in <strong>all</strong> health insurance policies you already have.</aftertext>
-    <aftertext>✓ For more information about Medicare and Medicare Supplement insurance, review the Guide to Health Insurance for People with Medicare, available from the insurance company.</aftertext>
-    <aftertext>✓ For help in understanding your health insurance, contact your state insurance department or state health insurance assistance program {SHIP}.</aftertext>
+    </text>
+    <text>✓ Check the coverage in <strong>all</strong> health insurance policies you already have.</text>
+    <text>✓ For more information about Medicare and Medicare Supplement insurance, review the Guide to Health Insurance for People with Medicare, available from the insurance company.</text>
+    <text>✓ For help in understanding your health insurance, contact your state insurance department or state health insurance assistance program {SHIP}.</text>
+    </para>
     <para>
       <num>D.</num>
       <text>Alternative Disclosure Statements.</text>
@@ -4374,37 +4383,37 @@
             </thead>
           </table>
         </text>
+        <text>
+          <strong>Some health care services paid for by Medicare may also trigger the payment of benefits from this policy.</strong>
+        </text>
+        <text>This insurance provides limited benefits, if you meet the policy conditions, for hospital or medical expenses that result from accidental injury. It does not pay your Medicare deductibles or coinsurance and is not a substitute for Medicare Supplement insurance.</text>
+        <text>
+          <strong>Medicare generally pays for most or all of these expenses.</strong>
+        </text>
+        <text>
+          <strong>Medicare pays extensive benefits for medically necessary services regardless of the reason you need them. These include:</strong>
+        </text>
+        <text>• hospitalization</text>
+        <text>• physician services</text>
+        <text>• hospice</text>
+        <text>• outpatient prescription drugs if you are enrolled in Medicare Part D</text>
+        <text>• other approved items and services</text>
+        <text>
+          <strong>This policy must pay benefits without regard to other health benefit coverage to which you may be entitled under Medicare or other insurance.</strong>
+        </text>
+        <text>
+          <table>
+            <thead>
+              <tr>
+                <th>Before You Buy This Insurance</th>
+              </tr>
+            </thead>
+          </table>
+        </text>
+        <text>✓ Check the coverage in <strong>all</strong> health insurance policies you already have.</text>
+        <text>✓ For more information about Medicare and Medicare Supplement insurance, review the Guide to Health Insurance for People with Medicare, available from the insurance company.</text>
+        <text>✓ For help in understanding your health insurance, contact your state insurance department or state health insurance assistance program {SHIP}.</text>
       </para>
-      <aftertext>
-        <strong>Some health care services paid for by Medicare may also trigger the payment of benefits from this policy.</strong>
-      </aftertext>
-      <aftertext>This insurance provides limited benefits, if you meet the policy conditions, for hospital or medical expenses that result from accidental injury. It does not pay your Medicare deductibles or coinsurance and is not a substitute for Medicare Supplement insurance.</aftertext>
-      <aftertext>
-        <strong>Medicare generally pays for most or all of these expenses.</strong>
-      </aftertext>
-      <aftertext>
-        <strong>Medicare pays extensive benefits for medically necessary services regardless of the reason you need them. These include:</strong>
-      </aftertext>
-      <aftertext>• hospitalization</aftertext>
-      <aftertext>• physician services</aftertext>
-      <aftertext>• hospice</aftertext>
-      <aftertext>• outpatient prescription drugs if you are enrolled in Medicare Part D</aftertext>
-      <aftertext>• other approved items and services</aftertext>
-      <aftertext>
-        <strong>This policy must pay benefits without regard to other health benefit coverage to which you may be entitled under Medicare or other insurance.</strong>
-      </aftertext>
-      <aftertext>
-        <table>
-          <thead>
-            <tr>
-              <th>Before You Buy This Insurance</th>
-            </tr>
-          </thead>
-        </table>
-      </aftertext>
-      <aftertext>✓ Check the coverage in <strong>all</strong> health insurance policies you already have.</aftertext>
-      <aftertext>✓ For more information about Medicare and Medicare Supplement insurance, review the Guide to Health Insurance for People with Medicare, available from the insurance company.</aftertext>
-      <aftertext>✓ For help in understanding your health insurance, contact your state insurance department or state health insurance assistance program {SHIP}.</aftertext>
       <para>
         <num>(2)</num>
         <text>Specified Limited Services Policies. The following is an alternative disclosure statement for policies that provide benefits for specified limited services:</text>
@@ -4420,34 +4429,34 @@
             </thead>
           </table>
         </text>
+        <text>
+          <strong>Some health care services paid for by Medicare may also trigger the payment of benefits under this policy.</strong>
+        </text>
+        <text>This insurance provides limited benefits, if you meet the policy conditions, for expenses relating to the specific services listed in the policy. It does not pay your Medicare deductibles or coinsurance and is not a substitute for Medicare Supplement insurance.</text>
+        <text>
+          <strong>Medicare pays extensive benefits for medically necessary services regardless of the reason you need them. These include:</strong>
+        </text>
+        <text>• hospitalization</text>
+        <text>• physician services</text>
+        <text>• hospice</text>
+        <text>• outpatient prescription drugs if you are enrolled in Medicare Part D</text>
+        <text>• other approved items and services</text>
+        <text>
+          <strong>This policy must pay benefits without regard to other health benefit coverage to which you may be entitled under Medicare or other insurance.</strong>
+        </text>
+        <text>
+          <table>
+            <thead>
+              <tr>
+                <th>Before You Buy This Insurance</th>
+              </tr>
+            </thead>
+          </table>
+        </text>
+        <text>✓ Check the coverage in <strong>all</strong> health insurance policies you already have.</text>
+        <text>✓ For more information about Medicare and Medicare Supplement insurance, review the Guide to Health Insurance for People with Medicare, available from the insurance company.</text>
+        <text>✓ For help in understanding your health insurance, contact your state insurance department or state health insurance assistance program {SHIP}.</text>
       </para>
-      <aftertext>
-        <strong>Some health care services paid for by Medicare may also trigger the payment of benefits under this policy.</strong>
-      </aftertext>
-      <aftertext>This insurance provides limited benefits, if you meet the policy conditions, for expenses relating to the specific services listed in the policy. It does not pay your Medicare deductibles or coinsurance and is not a substitute for Medicare Supplement insurance.</aftertext>
-      <aftertext>
-        <strong>Medicare pays extensive benefits for medically necessary services regardless of the reason you need them. These include:</strong>
-      </aftertext>
-      <aftertext>• hospitalization</aftertext>
-      <aftertext>• physician services</aftertext>
-      <aftertext>• hospice</aftertext>
-      <aftertext>• outpatient prescription drugs if you are enrolled in Medicare Part D</aftertext>
-      <aftertext>• other approved items and services</aftertext>
-      <aftertext>
-        <strong>This policy must pay benefits without regard to other health benefit coverage to which you may be entitled under Medicare or other insurance.</strong>
-      </aftertext>
-      <aftertext>
-        <table>
-          <thead>
-            <tr>
-              <th>Before You Buy This Insurance</th>
-            </tr>
-          </thead>
-        </table>
-      </aftertext>
-      <aftertext>✓ Check the coverage in <strong>all</strong> health insurance policies you already have.</aftertext>
-      <aftertext>✓ For more information about Medicare and Medicare Supplement insurance, review the Guide to Health Insurance for People with Medicare, available from the insurance company.</aftertext>
-      <aftertext>✓ For help in understanding your health insurance, contact your state insurance department or state health insurance assistance program {SHIP}.</aftertext>
       <para>
         <num>(3)</num>
         <text>Expense-Incurred Specified Disease Policies. The following is an alternative disclosure statement for policies that reimburse expenses incurred for specified diseases, or other specified impairments. This includes expense-incurred cancer, specified disease, and other types of health insurance policies that limit reimbursement to named medical conditions.</text>
@@ -4463,37 +4472,37 @@
             </thead>
           </table>
         </text>
+        <text>
+          <strong>Some health care services paid for by Medicare may also trigger the payment of benefits from this policy. Medicare generally pays for most or all of these expenses.</strong>
+        </text>
+        <text>This insurance provides limited benefits, if you meet the policy conditions, for hospital or medical expenses only when you are treated for one of the specific diseases or health conditions listed in the policy. It does not pay your Medicare deductibles or coinsurance and is not a substitute for Medicare Supplement insurance.</text>
+        <text>
+          <strong>Medicare generally pays for most or all of these expenses.</strong>
+        </text>
+        <text>
+          <strong>Medicare pays extensive benefits for medically necessary services regardless of the reason you need them. These include:</strong>
+        </text>
+        <text>• hospitalization</text>
+        <text>• physician services</text>
+        <text>• hospice</text>
+        <text>• outpatient prescription drugs if you are enrolled in Medicare Part D</text>
+        <text>• other approved items and services</text>
+        <text>
+          <strong>This policy must pay benefits without regard to other health benefit coverage to which you may be entitled under Medicare or other insurance.</strong>
+        </text>
+        <text>
+          <table>
+            <thead>
+              <tr>
+                <th>Before You Buy This Insurance</th>
+              </tr>
+            </thead>
+          </table>
+        </text>
+        <text>✓ Check the coverage in <strong>all</strong> health insurance policies you already have.</text>
+        <text>✓ For more information about Medicare and Medicare Supplement insurance, review the Guide to Health Insurance for People with Medicare, available from the insurance company.</text>
+        <text>✓ For help in understanding your health insurance, contact your state insurance department or state health insurance assistance program {SHIP}.</text>
       </para>
-      <aftertext>
-        <strong>Some health care services paid for by Medicare may also trigger the payment of benefits from this policy. Medicare generally pays for most or all of these expenses.</strong>
-      </aftertext>
-      <aftertext>This insurance provides limited benefits, if you meet the policy conditions, for hospital or medical expenses only when you are treated for one of the specific diseases or health conditions listed in the policy. It does not pay your Medicare deductibles or coinsurance and is not a substitute for Medicare Supplement insurance.</aftertext>
-      <aftertext>
-        <strong>Medicare generally pays for most or all of these expenses.</strong>
-      </aftertext>
-      <aftertext>
-        <strong>Medicare pays extensive benefits for medically necessary services regardless of the reason you need them. These include:</strong>
-      </aftertext>
-      <aftertext>• hospitalization</aftertext>
-      <aftertext>• physician services</aftertext>
-      <aftertext>• hospice</aftertext>
-      <aftertext>• outpatient prescription drugs if you are enrolled in Medicare Part D</aftertext>
-      <aftertext>• other approved items and services</aftertext>
-      <aftertext>
-        <strong>This policy must pay benefits without regard to other health benefit coverage to which you may be entitled under Medicare or other insurance.</strong>
-      </aftertext>
-      <aftertext>
-        <table>
-          <thead>
-            <tr>
-              <th>Before You Buy This Insurance</th>
-            </tr>
-          </thead>
-        </table>
-      </aftertext>
-      <aftertext>✓ Check the coverage in <strong>all</strong> health insurance policies you already have.</aftertext>
-      <aftertext>✓ For more information about Medicare and Medicare Supplement insurance, review the Guide to Health Insurance for People with Medicare, available from the insurance company.</aftertext>
-      <aftertext>✓ For help in understanding your health insurance, contact your state insurance department or state health insurance assistance program {SHIP}.</aftertext>
       <para>
         <num>(4)</num>
         <text>Fixed Dollar Specified Disease Policies. The following is an alternative disclosure statement for policies that pay fixed dollar amounts for specified diseases or other specified impairments. This includes cancer, specified disease, and other health insurance policies that pay a scheduled benefit or specific payment based on diagnosis of the conditions named in the policy.</text>
@@ -4506,34 +4515,34 @@
             </thead>
           </table>
         </text>
+        <text>
+          <strong>Some health care services paid for by Medicare may also trigger the payment of benefits from this policy.</strong>
+        </text>
+        <text>This insurance pays a fixed amount, regardless of your expenses, if you meet the policy conditions, for one of the specific diseases or health conditions named in the policy. It does not pay your Medicare deductibles or coinsurance and is not a substitute for Medicare Supplement insurance.</text>
+        <text>
+          <strong>Medicare pays extensive benefits for medically necessary services regardless of the reason you need them. These include:</strong>
+        </text>
+        <text>• hospitalization</text>
+        <text>• physician services</text>
+        <text>• hospice</text>
+        <text>• outpatient prescription drugs if you are enrolled in Medicare Part D</text>
+        <text>• other approved items and services</text>
+        <text>
+          <strong>This policy must pay benefits without regard to other health benefit coverage to which you may be entitled under Medicare or other insurance.</strong>
+        </text>
+        <text>
+          <table>
+            <thead>
+              <tr>
+                <th>Before You Buy This Insurance</th>
+              </tr>
+            </thead>
+          </table>
+        </text>
+        <text>✓ Check the coverage in <strong>all</strong> health insurance policies you already have.</text>
+        <text>✓ For more information about Medicare and Medicare Supplement insurance, review the Guide to Health Insurance for People with Medicare, available from the insurance company.</text>
+        <text>✓ For help in understanding your health insurance, contact your state insurance department or state health insurance assistance program {SHIP}.</text>
       </para>
-      <aftertext>
-        <strong>Some health care services paid for by Medicare may also trigger the payment of benefits from this policy.</strong>
-      </aftertext>
-      <aftertext>This insurance pays a fixed amount, regardless of your expenses, if you meet the policy conditions, for one of the specific diseases or health conditions named in the policy. It does not pay your Medicare deductibles or coinsurance and is not a substitute for Medicare Supplement insurance.</aftertext>
-      <aftertext>
-        <strong>Medicare pays extensive benefits for medically necessary services regardless of the reason you need them. These include:</strong>
-      </aftertext>
-      <aftertext>• hospitalization</aftertext>
-      <aftertext>• physician services</aftertext>
-      <aftertext>• hospice</aftertext>
-      <aftertext>• outpatient prescription drugs if you are enrolled in Medicare Part D</aftertext>
-      <aftertext>• other approved items and services</aftertext>
-      <aftertext>
-        <strong>This policy must pay benefits without regard to other health benefit coverage to which you may be entitled under Medicare or other insurance.</strong>
-      </aftertext>
-      <aftertext>
-        <table>
-          <thead>
-            <tr>
-              <th>Before You Buy This Insurance</th>
-            </tr>
-          </thead>
-        </table>
-      </aftertext>
-      <aftertext>✓ Check the coverage in <strong>all</strong> health insurance policies you already have.</aftertext>
-      <aftertext>✓ For more information about Medicare and Medicare Supplement insurance, review the Guide to Health Insurance for People with Medicare, available from the insurance company.</aftertext>
-      <aftertext>✓ For help in understanding your health insurance, contact your state insurance department or state health insurance assistance program {SHIP}.</aftertext>
       <para>
         <num>(5)</num>
         <text>Policies Providing Only Fixed Dollar Benefits. The following is an alternative disclosure statement for indemnity policies and other policies that pay a fixed dollar amount per day, excluding long-term care policies:</text>
@@ -4546,37 +4555,37 @@
             </thead>
           </table>
         </text>
+        <text>
+          <strong>Some health care services paid for by Medicare may also trigger the payment of benefits from this policy.</strong>
+        </text>
+        <text>This insurance pays a fixed dollar amount, regardless of your expenses, for each day you meet the policy conditions. It does not pay your Medicare deductibles or coinsurance and is not a substitute for Medicare Supplement insurance.</text>
+        <text>
+          <strong>Medicare generally pays for most or all of these expenses.</strong>
+        </text>
+        <text>
+          <strong>Medicare pays extensive benefits for medically necessary services regardless of the reason you need them. These include:</strong>
+        </text>
+        <text>• hospitalization</text>
+        <text>• physician services</text>
+        <text>• hospice</text>
+        <text>• outpatient prescription drugs if you are enrolled in Medicare Part D</text>
+        <text>• other approved items and services</text>
+        <text>
+          <strong>This policy must pay benefits without regard to other health benefit coverage to which you may be entitled under Medicare or other insurance.</strong>
+        </text>
+        <text>
+          <table>
+            <thead>
+              <tr>
+                <th>Before You Buy This Insurance</th>
+              </tr>
+            </thead>
+          </table>
+        </text>
+        <text>✓ Check the coverage in <strong>all</strong> health insurance policies you already have.</text>
+        <text>✓ For more information about Medicare and Medicare Supplement insurance, review the Guide to Health Insurance for People with Medicare, available from the insurance company.</text>
+        <text>✓ For help in understanding your health insurance, contact your state insurance department or state health insurance assistance program {SHIP}.</text>
       </para>
-      <aftertext>
-        <strong>Some health care services paid for by Medicare may also trigger the payment of benefits from this policy.</strong>
-      </aftertext>
-      <aftertext>This insurance pays a fixed dollar amount, regardless of your expenses, for each day you meet the policy conditions. It does not pay your Medicare deductibles or coinsurance and is not a substitute for Medicare Supplement insurance.</aftertext>
-      <aftertext>
-        <strong>Medicare generally pays for most or all of these expenses.</strong>
-      </aftertext>
-      <aftertext>
-        <strong>Medicare pays extensive benefits for medically necessary services regardless of the reason you need them. These include:</strong>
-      </aftertext>
-      <aftertext>• hospitalization</aftertext>
-      <aftertext>• physician services</aftertext>
-      <aftertext>• hospice</aftertext>
-      <aftertext>• outpatient prescription drugs if you are enrolled in Medicare Part D</aftertext>
-      <aftertext>• other approved items and services</aftertext>
-      <aftertext>
-        <strong>This policy must pay benefits without regard to other health benefit coverage to which you may be entitled under Medicare or other insurance.</strong>
-      </aftertext>
-      <aftertext>
-        <table>
-          <thead>
-            <tr>
-              <th>Before You Buy This Insurance</th>
-            </tr>
-          </thead>
-        </table>
-      </aftertext>
-      <aftertext>✓ Check the coverage in <strong>all</strong> health insurance policies you already have.</aftertext>
-      <aftertext>✓ For more information about Medicare and Medicare Supplement insurance, review the Guide to Health Insurance for People with Medicare, available from the insurance company.</aftertext>
-      <aftertext>✓ For help in understanding your health insurance, contact your state insurance department or state health insurance assistance program {SHIP}.</aftertext>
       <para>
         <num>(6)</num>
         <text>Policies Providing Both Expense-Incurred and Fixed Indemnity Benefits. The following is an alternative disclosure statement for policies that provide benefits upon both an expense-incurred and fixed indemnity basis:</text>
@@ -4589,37 +4598,37 @@
             </thead>
           </table>
         </text>
+        <text>
+          <strong>Some health care services paid for by Medicare may also trigger the payment of benefits from this policy.</strong>
+        </text>
+        <text>This insurance pays limited reimbursement for expenses if you meet the conditions listed in the policy. It also pays a fixed amount, regardless of your expenses, if you meet other policy conditions. It does not pay your Medicare deductibles or coinsurance and is not a substitute for Medicare Supplement insurance.</text>
+        <text>
+          <strong>Medicare generally pays for most or all of these expenses.</strong>
+        </text>
+        <text>
+          <strong>Medicare pays extensive benefits for medically necessary services regardless of the reason you need them. These include:</strong>
+        </text>
+        <text>• hospitalization</text>
+        <text>• physician services</text>
+        <text>• hospice</text>
+        <text>• outpatient prescription drugs if you are enrolled in Medicare Part D</text>
+        <text>• other approved items and services</text>
+        <text>
+          <strong>This policy must pay benefits without regard to other health benefit coverage to which you may be entitled under Medicare or other insurance.</strong>
+        </text>
+        <text>
+          <table>
+            <thead>
+              <tr>
+                <th>Before You Buy This Insurance</th>
+              </tr>
+            </thead>
+          </table>
+        </text>
+        <text>✓ Check the coverage in <strong>all</strong> health insurance policies you already have.</text>
+        <text>✓ For more information about Medicare and Medicare Supplement insurance, review the Guide to Health Insurance for People with Medicare, available from the insurance company.</text>
+        <text>✓ For help in understanding your health insurance, contact your state insurance department or state health insurance assistance program {SHIP}.</text>
       </para>
-      <aftertext>
-        <strong>Some health care services paid for by Medicare may also trigger the payment of benefits from this policy.</strong>
-      </aftertext>
-      <aftertext>This insurance pays limited reimbursement for expenses if you meet the conditions listed in the policy. It also pays a fixed amount, regardless of your expenses, if you meet other policy conditions. It does not pay your Medicare deductibles or coinsurance and is not a substitute for Medicare Supplement insurance.</aftertext>
-      <aftertext>
-        <strong>Medicare generally pays for most or all of these expenses.</strong>
-      </aftertext>
-      <aftertext>
-        <strong>Medicare pays extensive benefits for medically necessary services regardless of the reason you need them. These include:</strong>
-      </aftertext>
-      <aftertext>• hospitalization</aftertext>
-      <aftertext>• physician services</aftertext>
-      <aftertext>• hospice</aftertext>
-      <aftertext>• outpatient prescription drugs if you are enrolled in Medicare Part D</aftertext>
-      <aftertext>• other approved items and services</aftertext>
-      <aftertext>
-        <strong>This policy must pay benefits without regard to other health benefit coverage to which you may be entitled under Medicare or other insurance.</strong>
-      </aftertext>
-      <aftertext>
-        <table>
-          <thead>
-            <tr>
-              <th>Before You Buy This Insurance</th>
-            </tr>
-          </thead>
-        </table>
-      </aftertext>
-      <aftertext>✓ Check the coverage in <strong>all</strong> health insurance policies you already have.</aftertext>
-      <aftertext>✓ For more information about Medicare and Medicare Supplement insurance, review the Guide to Health Insurance for People with Medicare, available from the insurance company.</aftertext>
-      <aftertext>✓ For help in understanding your health insurance, contact your state insurance department or state health insurance assistance program {SHIP}.</aftertext>
       <para>
         <num>(7)</num>
         <text>Other Health Insurance Policies. The following is an alternative disclosure statement for other health insurance policies not specifically identified in the statements set forth in §D(1)-(6) of this regulation:</text>
@@ -4635,37 +4644,37 @@
             </thead>
           </table>
         </text>
+        <text>
+          <strong>Some health care services paid for by Medicare may also trigger the payment of benefits from this policy.</strong>
+        </text>
+        <text>This insurance provides limited benefits if you meet the conditions listed in the policy. It does not pay your Medicare deductibles or coinsurance and is not a substitute for Medicare Supplement insurance.</text>
+        <text>
+          <strong>Medicare generally pays for most or all of these expenses.</strong>
+        </text>
+        <text>
+          <strong>Medicare pays extensive benefits for medically necessary services regardless of the reason you need them. These include:</strong>
+        </text>
+        <text>• hospitalization</text>
+        <text>• physician services</text>
+        <text>• hospice</text>
+        <text>• outpatient prescription drugs if you are enrolled in Medicare Part D</text>
+        <text>• other approved items and services</text>
+        <text>
+          <strong>This policy must pay benefits without regard to other health benefit coverage to which you may be entitled under Medicare or other insurance.</strong>
+        </text>
+        <text>
+          <table>
+            <thead>
+              <tr>
+                <th>Before You Buy This Insurance</th>
+              </tr>
+            </thead>
+          </table>
+        </text>
+        <text>✓ Check the coverage in <strong>all</strong> health insurance policies you already have.</text>
+        <text>✓ For more information about Medicare and Medicare Supplement insurance, review the Guide to Health Insurance for People with Medicare, available from the insurance company.</text>
+        <text>✓ For help in understanding your health insurance, contact your state insurance department or state health insurance assistance program {SHIP}.</text>
       </para>
-      <aftertext>
-        <strong>Some health care services paid for by Medicare may also trigger the payment of benefits from this policy.</strong>
-      </aftertext>
-      <aftertext>This insurance provides limited benefits if you meet the conditions listed in the policy. It does not pay your Medicare deductibles or coinsurance and is not a substitute for Medicare Supplement insurance.</aftertext>
-      <aftertext>
-        <strong>Medicare generally pays for most or all of these expenses.</strong>
-      </aftertext>
-      <aftertext>
-        <strong>Medicare pays extensive benefits for medically necessary services regardless of the reason you need them. These include:</strong>
-      </aftertext>
-      <aftertext>• hospitalization</aftertext>
-      <aftertext>• physician services</aftertext>
-      <aftertext>• hospice</aftertext>
-      <aftertext>• outpatient prescription drugs if you are enrolled in Medicare Part D</aftertext>
-      <aftertext>• other approved items and services</aftertext>
-      <aftertext>
-        <strong>This policy must pay benefits without regard to other health benefit coverage to which you may be entitled under Medicare or other insurance.</strong>
-      </aftertext>
-      <aftertext>
-        <table>
-          <thead>
-            <tr>
-              <th>Before You Buy This Insurance</th>
-            </tr>
-          </thead>
-        </table>
-      </aftertext>
-      <aftertext>✓ Check the coverage in <strong>all</strong> health insurance policies you already have.</aftertext>
-      <aftertext>✓ For more information about Medicare and Medicare Supplement insurance, review the Guide to Health Insurance for People with Medicare, available from the insurance company.</aftertext>
-      <aftertext>✓ For help in understanding your health insurance, contact your state insurance department or state health insurance assistance program {SHIP}.</aftertext>
     </para>
   </section>
   <section cache:ref-path="31|10|06|.24">
