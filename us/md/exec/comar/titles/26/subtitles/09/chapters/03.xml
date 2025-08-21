@@ -568,110 +568,110 @@
       <para>
         <num>(2)</num>
         <text>Baseline CH<sub>4</sub> emissions shall be calculated as follows:</text>
-      </para>
-      <aftertext>Eb = (V<sub>m</sub> × M)/2000 × GWP</aftertext>
-      <aftertext>where:</aftertext>
-      <para>
-        <num>(a)</num>
-        <text>Eb = Potential CO<sub>2</sub>e emissions due to calculated CH<sub>4</sub> production under site-specific anaerobic storage and weather conditions (tons);</text>
-      </para>
-      <para>
-        <num>(b)</num>
-        <text>V<sub>m</sub> = Volume of CH<sub>4</sub>, in cubic feet, produced each month from decomposition of volatile solids in a baseline uncontrolled anaerobic storage scenario under site-specific storage and weather conditions for the facility at which the manure or organic food waste is generated;</text>
-      </para>
-      <para>
-        <num>(c)</num>
-        <text>M = Mass of CH<sub>4</sub> per cubic foot (0.04246 pounds/cubic foot default value at one atmosphere and 20°C); and</text>
-      </para>
-      <para>
-        <num>(d)</num>
-        <text>GWP = 28 for the global warming potential of CH<sub>4</sub>.</text>
+        <text>Eb = (V<sub>m</sub> × M)/2000 × GWP</text>
+        <text>where:</text>
+        <para>
+          <num>(a)</num>
+          <text>Eb = Potential CO<sub>2</sub>e emissions due to calculated CH<sub>4</sub> production under site-specific anaerobic storage and weather conditions (tons);</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>V<sub>m</sub> = Volume of CH<sub>4</sub>, in cubic feet, produced each month from decomposition of volatile solids in a baseline uncontrolled anaerobic storage scenario under site-specific storage and weather conditions for the facility at which the manure or organic food waste is generated;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>M = Mass of CH<sub>4</sub> per cubic foot (0.04246 pounds/cubic foot default value at one atmosphere and 20°C); and</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>GWP = 28 for the global warming potential of CH<sub>4</sub>.</text>
+        </para>
       </para>
       <para>
         <num>(3)</num>
         <text>The estimated amount of volatile solids decomposed each month under the uncontrolled anaerobic storage baseline scenario shall be calculated as follows:</text>
-      </para>
-      <aftertext>VS<sub>deg</sub> = VS<sub>avail</sub> × f</aftertext>
-      <aftertext>where:</aftertext>
-      <para>
-        <num>(a)</num>
-        <text>VS = Volatile solids as determined from the equation:</text>
-      </para>
-      <aftertext>VS = M<sub>m</sub> × TS<sub>%</sub> × VS<sub>%</sub></aftertext>
-      <aftertext>where:</aftertext>
-      <para>
-        <num>(i)</num>
-        <text>M<sub>m</sub> = Mass of manure or organic food waste produced per month, in kilograms;</text>
-      </para>
-      <para>
-        <num>(ii)</num>
-        <text>TS<sub>%</sub> = Concentration (percent) of total solids in manure or organic food waste as determined through USGS I-3750 (USGS, Methods for the Determination of Inorganic Substances in Water and Fluvial Sediments, Techniques of Water-Resources Investigations of the United States Geological Survey, Book 5, Chapter A1, Method Number I-3750, "Solids, residue on evaporation at 105 degrees C, total, gravimetric"); and</text>
-      </para>
-      <para>
-        <num>(iii)</num>
-        <text>VS<sub>%</sub> = Concentration (percent) of volatile solids in total solids as determined through EPA 160.4 testing method (U.S. EPA, Methods for the Chemical Analysis of Water and Wastes (MCAWW) (EPA/600/4-79/020), Method Number 160.4, "Volatile Residue by Muffle Furnace,");</text>
-      </para>
-      <para>
-        <num>(b)</num>
-        <text>VS<sub>avail</sub> = Volatile solids available for decomposition in manure or organic food waste storage each month as determined from the equation:</text>
-      </para>
-      <aftertext>VS<sub>avail</sub> = VS<sub>p</sub> + 1/2 VS<sub>in</sub> - VS<sub>out</sub></aftertext>
-      <aftertext>where:</aftertext>
-      <para>
-        <num>(i)</num>
-        <text>VS<sub>p</sub> = Volatile solids present in manure or organic food waste storage at beginning of month (left over from previous month), in kilograms;</text>
-      </para>
-      <para>
-        <num>(ii)</num>
-        <text>VS<sub>in</sub> = Volatile solids added to manure or organic food waste storage during the course of the month, in kilograms; the factor of 1/2 is multiplied by this number to represent the average mass of volatile solids available for decomposition for the entire duration of the month;</text>
-      </para>
-      <para>
-        <num>(iii)</num>
-        <text>VS<sub>out</sub> = Volatile solids removed from the manure or organic food waste storage for land application or export (assumed value based on standard farm practice); and</text>
-      </para>
-      <para>
-        <num>(c)</num>
-        <text>f = van't Hoff-Arrhenius factor for the specific month as determined by the following equation, using a base temperature of 30°C:</text>
-      </para>
-      <aftertext>f = exp{[E(T<sub>2</sub> - T<sub>1</sub>)]/[(GC × T<sub>1</sub> × T<sub>2</sub>)]}</aftertext>
-      <aftertext>where:</aftertext>
-      <para>
-        <num>(i)</num>
-        <text>f = Conversion efficiency of VS to CH<sub>4</sub> per month;</text>
-      </para>
-      <para>
-        <num>(ii)</num>
-        <text>E = Activation energy constant (15,175 calories per mole);</text>
-      </para>
-      <para>
-        <num>(iii)</num>
-        <text>T<sub>2</sub> = average monthly ambient temperature for facility where manure or organic food waste is generated (converted from ° Celsius to ° Kelvin) as determined from the nearest National Weather Service certified weather station (if reported temperature °C &gt;5°C; if reported temperature °C &lt;5°C, then F = 0.104);</text>
-      </para>
-      <para>
-        <num>(iv)</num>
-        <text>T<sub>1</sub> = 303.16 (30°C converted to °K); and</text>
-      </para>
-      <para>
-        <num>(v)</num>
-        <text>GC = ideal gas constant (1.987 calories per mole).</text>
+        <text>VS<sub>deg</sub> = VS<sub>avail</sub> × f</text>
+        <text>where:</text>
+        <para>
+          <num>(a)</num>
+          <text>VS = Volatile solids as determined from the equation:</text>
+          <text>VS = M<sub>m</sub> × TS<sub>%</sub> × VS<sub>%</sub></text>
+          <text>where:</text>
+          <para>
+            <num>(i)</num>
+            <text>M<sub>m</sub> = Mass of manure or organic food waste produced per month, in kilograms;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>TS<sub>%</sub> = Concentration (percent) of total solids in manure or organic food waste as determined through USGS I-3750 (USGS, Methods for the Determination of Inorganic Substances in Water and Fluvial Sediments, Techniques of Water-Resources Investigations of the United States Geological Survey, Book 5, Chapter A1, Method Number I-3750, "Solids, residue on evaporation at 105 degrees C, total, gravimetric"); and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>VS<sub>%</sub> = Concentration (percent) of volatile solids in total solids as determined through EPA 160.4 testing method (U.S. EPA, Methods for the Chemical Analysis of Water and Wastes (MCAWW) (EPA/600/4-79/020), Method Number 160.4, "Volatile Residue by Muffle Furnace,");</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>VS<sub>avail</sub> = Volatile solids available for decomposition in manure or organic food waste storage each month as determined from the equation:</text>
+          <text>VS<sub>avail</sub> = VS<sub>p</sub> + 1/2 VS<sub>in</sub> - VS<sub>out</sub></text>
+          <text>where:</text>
+          <para>
+            <num>(i)</num>
+            <text>VS<sub>p</sub> = Volatile solids present in manure or organic food waste storage at beginning of month (left over from previous month), in kilograms;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>VS<sub>in</sub> = Volatile solids added to manure or organic food waste storage during the course of the month, in kilograms; the factor of 1/2 is multiplied by this number to represent the average mass of volatile solids available for decomposition for the entire duration of the month;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>VS<sub>out</sub> = Volatile solids removed from the manure or organic food waste storage for land application or export (assumed value based on standard farm practice); and</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>f = van't Hoff-Arrhenius factor for the specific month as determined by the following equation, using a base temperature of 30°C:</text>
+          <text>f = exp{[E(T<sub>2</sub> - T<sub>1</sub>)]/[(GC × T<sub>1</sub> × T<sub>2</sub>)]}</text>
+          <text>where:</text>
+          <para>
+            <num>(i)</num>
+            <text>f = Conversion efficiency of VS to CH<sub>4</sub> per month;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>E = Activation energy constant (15,175 calories per mole);</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>T<sub>2</sub> = average monthly ambient temperature for facility where manure or organic food waste is generated (converted from ° Celsius to ° Kelvin) as determined from the nearest National Weather Service certified weather station (if reported temperature °C &gt;5°C; if reported temperature °C &lt;5°C, then F = 0.104);</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>T<sub>1</sub> = 303.16 (30°C converted to °K); and</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>GC = ideal gas constant (1.987 calories per mole).</text>
+          </para>
+        </para>
       </para>
       <para>
         <num>(4)</num>
         <text>The volume of CH<sub>4</sub> produced, in cubic feet, from decomposition of volatile solids shall be calculated as follows:</text>
-      </para>
-      <aftertext>V<sub>m</sub> = (VS<sub>dec</sub> × B<sub>°</sub>) × 35.3147</aftertext>
-      <aftertext>where:</aftertext>
-      <para>
-        <num>(a)</num>
-        <text>V<sub>m</sub> = volume of CH<sub>4</sub>.</text>
-      </para>
-      <para>
-        <num>(b)</num>
-        <text>VS<sub>dec</sub> = volatile solids decomposed.</text>
-      </para>
-      <para>
-        <num>(c)</num>
-        <text>B<sub>°</sub> = Manure or organic food waste type-specific maximum methane generation constant (m<sup>3</sup> CH<sub>4</sub>/kg VS decomposed). For dairy cow manure, B<sub>°</sub> = 0.24 m<sup>3</sup> CH<sub>4</sub>/kg VS decomposed. The methane generation constant for other types of manure shall be those cited at U.S. EPA, Inventory of U.S. Greenhouse Gas Emissions and Sinks: 1990—2010, Annex 3, Table A-180, April 15, 2012, unless the project sponsor proposes an alternate methane generation constant and the alternate is approved by the Department. If the project sponsor proposes to use a methane generation constant other than the ones found in the above-cited reference, the project sponsor shall provide justification and documentation to the Department.</text>
+        <text>V<sub>m</sub> = (VS<sub>dec</sub> × B<sub>°</sub>) × 35.3147</text>
+        <text>where:</text>
+        <para>
+          <num>(a)</num>
+          <text>V<sub>m</sub> = volume of CH<sub>4</sub>.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>VS<sub>dec</sub> = volatile solids decomposed.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>B<sub>°</sub> = Manure or organic food waste type-specific maximum methane generation constant (m<sup>3</sup> CH<sub>4</sub>/kg VS decomposed). For dairy cow manure, B<sub>°</sub> = 0.24 m<sup>3</sup> CH<sub>4</sub>/kg VS decomposed. The methane generation constant for other types of manure shall be those cited at U.S. EPA, Inventory of U.S. Greenhouse Gas Emissions and Sinks: 1990—2010, Annex 3, Table A-180, April 15, 2012, unless the project sponsor proposes an alternate methane generation constant and the alternate is approved by the Department. If the project sponsor proposes to use a methane generation constant other than the ones found in the above-cited reference, the project sponsor shall provide justification and documentation to the Department.</text>
+        </para>
       </para>
     </para>
     <para>
