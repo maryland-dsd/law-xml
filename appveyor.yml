@@ -5,6 +5,9 @@ image: Ubuntu
 skip_branch_with_pr: true
 
 init:
+  # Sign in to access the GitHub Container Registry
+  - sh: |
+      docker login --username oll-bot --password $GH_DOCKER_ACCESS_TOKEN ghcr.io
   # Select the correct image and container name
   - sh: |
       if [[ "${IS_DEVELOPMENT}" == "True" ]]; then
@@ -17,9 +20,11 @@ init:
   # SELECT THE IMAGE TAG
   - sh: |
       if [[ -n "${DOCKER_IMG_TAG}" ]]; then
-        IMAGE_TAG="${DOCKER_IMG_TAG}"
+        IMAGE_TAG="${DOCKER_IMG_TAG}";
       else
-        IMAGE_TAG="latest"
+        IMAGE_TAG="latest";
+        # Pull all the image tags, keep "latest" image tag up to date
+        docker pull --all-tags $IMAGE_NAME;
       fi
 
 before_build:
@@ -34,11 +39,6 @@ before_build:
           docker rm $CONTAINER_NAME;
         fi
       fi
-  - sh: |
-      docker login --username oll-bot --password $GH_DOCKER_ACCESS_TOKEN ghcr.io
-  # Pull all the image tags, keep "latest" image tag up to date
-  - sh: |
-      docker pull --all-tags $IMAGE_NAME
   # Dump needed environment variables to 'env.list' file, this file will be used for starting container.
   - sh: |
       touch env.list
@@ -53,8 +53,9 @@ before_build:
       echo "FUSE_BRANCH" >> env.list
       echo "IS_DEVELOPMENT" >> env.list
       echo "CLIENT_SECRET" >> env.list
-      echo "PREPARE_BUILD_COMMAND" >> env.list
       echo "IS_PUBLISH" >> env.list
+      echo "VOLUME_NUM" >> env.list
+      echo "ISSUE_NUM" >> env.list
   # Dump all environment variables that starts with "PIN", this is to dynamically assign yubikey pins.
   - sh: |
       for var in $(declare -p | grep "^declare \-" | cut -d' ' -f3-); do
