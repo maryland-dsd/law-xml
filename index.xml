@@ -13,25 +13,26 @@
       <html-cc0-bulk>https://github.com/maryland-dsd/law-html-cc0</html-cc0-bulk>
       <static-assets>https://github.com/maryland-dsd/law-static-assets</static-assets>
       <html/>
+      <law-git>https://github.com/maryland-dsd/law.git</law-git>
     </canonical-urls>
     <licenses>
       <license>
         <rights>
-          <p>This version of the laws and codes on this website is licensed under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a> license with copyright held by the State of Maryland.</p>
+          <p>This version of the laws and codes on this website is licensed under the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> license with copyright held by the State of Maryland.</p>
           <p>This version of the laws and codes on this website will be dedicated to the public domain under the <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a> license 180 days after publication.</p>
         </rights>
       </license>
       <license>
-        <license>CC-BY-SA-4.0</license>
-        <url>https://creativecommons.org/licenses/by-sa/4.0/</url>
+        <license>CC-BY-NC-SA-4.0</license>
+        <url>https://creativecommons.org/licenses/by-nc-sa/4.0/</url>
         <rights>
           <p>Copyright State of Maryland</p>
-          <p>This version of the laws and codes on this website is licensed under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a> license.</p>
+          <p>This version of the laws and codes on this website is licensed under the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> license.</p>
           <p>This version of the laws and codes on this website will be dedicated to the public domain 180 days after publication here.</p>
         </rights>
       </license>
       <license>
-        <license>CC0</license>
+        <license>CC0-1.0</license>
         <url>https://creativecommons.org/publicdomain/zero/1.0/</url>
         <rights>
           <p>This version of the laws and codes on this website is dedicated to the public domain under the <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a> license.</p>
@@ -41,7 +42,34 @@
     </licenses>
   </meta>
   <xi:include href="./us/md/exec/comar/index.xml"/>
-  <collection name="us/md/exec/register">
-    <heading>Maryland Register</heading>
-  </collection>
+  <annotations>
+    <annotation>
+      <subheading>Code of Maryland Regulations</subheading>
+      <text>The Code of Maryland Regulations (COMAR) contains all regulations for Maryland State agencies and departments. There is no cost to use COMAR online.</text>
+      <text>COMAR is updated every two weeks.</text>
+      <text>Learn about the <a href="https://dsd.maryland.gov/Pages/COMARHome.aspx">COMAR numbering system</a>.</text>
+    </annotation>
+    <annotation>
+      <subheading>Maryland Register</subheading>
+      <text>Before a regulation is adopted and incorporated into COMAR, it is available in a proposed form in the <a href="https://dsd.maryland.gov/Pages/MDRegister.aspx">Maryland Register</a> for the public to review and provide feedback on. The Register is published every two weeks and includes:</text>
+      <text>
+        <ul>
+          <li>Governor's Executive Orders</li>
+          <li>General Assembly Synopses</li>
+          <li>Judiciary Notices and Opinions</li>
+          <li>Division of State Documents</li>
+          <li>Open Meetings and Compliance Board</li>
+          <li>Changes to Maryland Regulations</li>
+          <li>Regulatory Review and Evaluation</li>
+          <li>Agency Meeting and Hearing Notices</li>
+          <li>Other documents considered to be in the public interest</li>
+        </ul>
+      </text>
+    </annotation>
+    <annotation>
+      <subheading>Order Print and PDF Copies</subheading>
+      <text>The text appearing here was produced from materials provided by the Division of State Documents, Office of the Secretary of State, State of Maryland, and is current as of <build-date/>. The text appearing here is not the official text. While this text has been prepared from data created and maintained by the Division of State Documents, only the printed or electronic version of the text obtained directly from the Division of State Documents is official, valid, and enforceable under Maryland law.</text>
+      <text>COMAR and the Maryland Register are available in print or PDF for purchase in an assembled, easy-to-read format. See <a href="https://dsd.maryland.gov/Pages/Publications-to-Order.aspx">Publications to Order</a> or call our Subscription Office at <a href="tel:410-260-3876">410-260-3876</a> to order by phone.</text>
+    </annotation>
+  </annotations>
 </library>
