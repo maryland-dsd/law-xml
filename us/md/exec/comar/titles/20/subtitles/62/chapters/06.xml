@@ -1,0 +1,291 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>06</num>
+  <heading>Consolidated Billing</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Scope.</heading>
+    <text>This chapter is applicable to electric companies, subscriber organizations, subscription coordinators, and subscribers participating in consolidated billing.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>“Administrative fee” means a fee that is charged by an electric company to a subscriber organization or subscription coordinator that has elected to use consolidated billing.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>“Consolidated billing” has the meaning stated in <cite doc="Md. Code" path="gpu|7-306">Public Utilities Article, §7-306</cite>.2, Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>“Net bill credit” means the remaining credit on a bill rendered by an electric company for electric service to a subscriber that is participating in consolidated billing.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>“Savings rate” means a percentage set by a subscriber organization or subscription coordinator for a subscriber which represents the discount to the subscriber’s energy charges provided by the subscribed energy.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>“Subscription charge” means an amount charged by a subscriber organization or subscription coordinator to a subscriber in exchange for subscribed energy.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Utility Implementation.</heading>
+    <para>
+      <num>A.</num>
+      <text>An electric company subject to this subtitle shall file a tariff with the Commission to implement consolidated billing for the program.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>An electric company shall implement consolidated billing as required by this chapter no later than January 1, 2026.</text>
+    </para>
+  </section>
+  <section cache:ref-path="20|62|06|.04">
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Community Solar Consolidated Billing Requirements.</heading>
+    <para>
+      <num>A.</num>
+      <text>A subscriber organization or subscription coordinator associated with a CSEGS may elect to participate in consolidated billing for the following:</text>
+      <para>
+        <num>(1)</num>
+        <text>One or more accounts subscribed to the CSEGS; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>All the accounts subscribed to the CSEGS.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Savings Rate.</text>
+      <para>
+        <num>(1)</num>
+        <text>Savings Rate Data.</text>
+        <para>
+          <num>(a)</num>
+          <text>A subscriber organization or subscription coordinator shall include in the subscriber list provided for a CSEGS under <cite path="20.62.02.04|A.">COMAR 20.62.02.04A</cite>, a savings rate for each subscriber’s account.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>For savings rate minimum precision, an electric company shall calculate an account’s net bill credit using a savings rate with precision up to .01 percentage points.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>For a non-LMI subscriber that is participating in consolidated billing, a subscriber organization or subscription coordinator shall set a percentage savings rate that is greater than or equal to zero.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>For an LMI subscriber that is participating in consolidated billing, a subscriber organization or subscription coordinator shall set a percentage savings rate that is greater than or equal to 10 percent.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>A subscriber organization or subscription coordinator may set a unique savings rate for each account subscribed to a CSEGS.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Application of the Net Bill Credit.</text>
+      <para>
+        <num>(1)</num>
+        <text>Saving Rate Updates to the Subscriber List.</text>
+        <para>
+          <num>(a)</num>
+          <text>When calculating a net bill credit, an electric company shall use the savings rate information provided by a subscriber organization or subscription coordinator under <cite path="20|62|06|.04|B.">§B of this regulation</cite>.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>An electric company shall apply updated savings rate information no later than the first full billing cycle for the subscriber’s account that occurs after receiving the information.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Calculation of Credits and Charges.</text>
+        <para>
+          <num>(a)</num>
+          <text>An electric company shall calculate the dollar amount of the net bill credit for a subscriber’s account by multiplying the savings rate by the dollar value of the subscription credit during the billing period.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>An electric company shall calculate the dollar amount of the subscription charge by subtracting the net bill credit from the dollar value of the subscription credit during the billing period.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>An electric company shall deduct a subscriber’s net bill credit from the monthly electric energy charges due.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>For a subscriber on budget billing, an electric company shall deduct a subscriber’s net bill credit from the subscriber’s monthly budget bill amount due.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Subscription Billing. For each billing period in which a subscriber is enrolled in consolidated billing, the electric company shall include the following on the subscriber’s bill for electric service:</text>
+        <para>
+          <num>(a)</num>
+          <text>The dollar value of the subscription credit during the billing period;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Amount of any accrued virtual net excess generation in kilowatt-hours applied to or used in the calculation of the subscription credit applied during the billing period;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The savings rate as specified by the subscriber organization or subscription coordinator under <cite path="20|62|06|.04|B.">§B of this regulation</cite>;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>The subscription charge in dollars;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>The net bill credit in dollars applied under <cite path="20|62|06|.04|C.|(3)">§C(3) of this regulation</cite>; and</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Any accrued virtual net excess generation credits in kilowatt-hours which remain banked on the subscriber’s account to be applied in a future billing period.</text>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>An electric company shall, on a subscriber’s electricity bill, label the subscription components in <cite path="20|62|06|.04|C.|(5)">§C(5) of this regulation</cite> as being associated with the subscriber’s community solar subscription.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Remittance of Subscription Charges.</text>
+      <para>
+        <num>(1)</num>
+        <text>Monthly Remittance. For each month that an account is subscribed to the CSEGS, an electric company shall remit to a subscriber organization or subscription coordinator of a CSEGS an amount equal to the subscription charge less the administrative fee.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Annual Excess Generation Payouts. For annual virtual net excess generation payments pursuant to <cite path="20.62.02.07|B.">COMAR 20.62.02.07B</cite>, an electric company shall remit to a subscriber organization or subscription coordinator of a CSEGS an amount equal to the excess generation payment less the savings rate and administrative fee.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Account Closing Excess Generation Payouts. An electric company shall remit to a subscriber organization or subscription coordinator of a CSEGS an amount equal to the excess generation payment less the savings rate and administrative fee.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Cancelled Subscription Excess Generation Payouts. When a cancelled subscription results in a payout of excess generation, an electric company shall remit to a subscriber organization or subscription coordinator of a CSEGS an amount equal to the excess generation payment less the savings rate and administrative fee.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Remittance Deadlines.</text>
+        <para>
+          <num>(a)</num>
+          <text>An electric company shall remit the amount in §§D(1) and (2) of this regulation no later than 60 calendar days from the date on which the electric company determines the most recent energy reading from the CSEGS.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The remittance period in <cite path="20|62|06|.04|D.|(5)|(a)">§D(5)(a) of this regulation</cite> may be extended on a day for day basis until all accounts in a billing cycle are rendered.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>An electric company shall propose tariff language to address the situation where the remittance is not provided within 90 days.</text>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>An electric company shall make a payment required under <cite path="20|62|06|.04|D.|(1)">§D(1) of this regulation</cite> to a subscriber organization or subscription coordinator through:</text>
+        <para>
+          <num>(a)</num>
+          <text>Electronic fund transfer; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Another payment method mutually agreed upon by both the subscriber organization or subscription coordinator and the electric company.</text>
+        </para>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>An electric company shall propose an administrative fee in tariffs filed in accordance with the requirements of <cite doc="Md. Code" path="gpu|7-306">Public Utilities Article, §7-306</cite>.2(g)(2), Annotated Code of Maryland.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Net Credit Billing Reporting.</text>
+      <para>
+        <num>(1)</num>
+        <text>An electric company which provides consolidated billing under this regulation shall provide a subscriber organization or subscription coordinator with a report detailing each subscriber’s net credited amounts.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An electric company shall provide the report described in <cite path="20|62|06|.04|E.|(1)">§E(1) of this regulation</cite> no later than 60 days after the CSEGS meter reading by the electric company.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The reports required by <cite path="20|62|06|.04|E.|(1)">§E(1) of this regulation</cite> shall include the following items for each subscriber’s account:</text>
+        <para>
+          <num>(a)</num>
+          <text>Billing information provided under <cite path="20.62.02.04|G.">COMAR 20.62.02.04G</cite>;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Subscription charge for the billing period;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Administrative fee due;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Net credit amount allocation for the period;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Virtual net excess generation generated in the billing period; and</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Cumulative virtual net excess generation carried forward to the next billing period.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>For a subscriber organization or subscription coordinator that uses consolidated billing, an electric company may combine the report required under <cite path="20|62|06|.04|E.|(1)">§E(1) of this regulation</cite> with the report required by <cite path="20.62.02.04|G.">COMAR 20.62.02.04G</cite>.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Bill Credit Record Retention. An electric company shall retain a record of bill credits applied to each subscriber’s account for a period of 7 years.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>An electric company may provide the administrative fee information described in <cite path="20|62|06|.04|E.|(3)|(c)">§E(3)(c) of this regulation</cite> in aggregate by CSEGS.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Consolidated Billing Error Reporting.</text>
+      <para>
+        <num>(1)</num>
+        <text>An electric company shall report a summary of errors in the reports described in <cite path="20|62|06|.04|E.|(1)">§E(1) of this regulation</cite> for each calendar year.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Reporting Date. An electric company shall file reports as described in <cite path="20|62|06|.04|F.|(1)">§F(1) of this regulation</cite> by April 1 of each year unless otherwise directed by the Commission.</text>
+      </para>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Public Utilities Article, §§<cite doc="Md. Code" path="gpu|2-113">2-113</cite>, <cite doc="Md. Code" path="gpu|2-121">2-121</cite>, <cite doc="Md. Code" path="gpu|7-306">7-306</cite>, <cite doc="Md. Code" path="gpu|7-306">7-306</cite>.1, and 7-306.2, Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="2025-10-27">Effective date: October 27, 2025 (52:21 Md. R. 1026)</annotation>
+  </annotations>
+</container>
