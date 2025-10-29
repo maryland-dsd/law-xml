@@ -10360,15 +10360,17 @@
       <text>A further discussion of the test may be found in Statistical Methods (6th Edition, Section 4.14) by G.W. Snedecor and W.G. Cochran, or Principles and Procedures of Statistics (1st Edition, Section 5.8) by R.G.D. Steel and J.H. Torrie.</text>
       <text>
         <table class="no-border-heading">
+          <thead>
+            <tr>
+              <th colspan="3">Standard t-Tables <br/>0.05 Level of Significance</th>
+            </tr>
+            <tr>
+              <th>Degrees of<br/>Freedom</th>
+              <th>t-values<br/>(one-tail)</th>
+              <th>t-values<br/>(two-tail)</th>
+            </tr>
+          </thead>
           <tbody>
-            <tr>
-              <td colspan="3" data-text-align="center" data-vertical-align="middle">Standard t-Tables <br/>0.05 Level of Significance</td>
-            </tr>
-            <tr>
-              <td data-text-align="center" data-vertical-align="middle">Degrees of<br/>Freedom</td>
-              <td>t-values<br/>(one-tail)</td>
-              <td>t-values<br/>(two-tail)</td>
-            </tr>
             <tr>
               <td data-text-align="center" data-vertical-align="middle">1</td>
               <td>6.314</td>
@@ -10544,11 +10546,13 @@
       <text>In the lists below, the mixing of a Group A material with a Group B material may have the potential consequence as noted:</text>
       <text>
         <table class="layout-table">
-          <tbody>
+          <thead>
             <tr>
-              <td>Group 1-A</td>
-              <td>Group 1-B</td>
+              <th>Group 1-A</th>
+              <th>Group 1-B</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td>Acetylene sludge</td>
               <td>Acid sludge</td>
@@ -10595,11 +10599,13 @@
       <text>Potential consequences: Heat generation; violent reaction.</text>
       <text>
         <table class="layout-table">
-          <tbody>
+          <thead>
             <tr>
-              <td>Group 2-A</td>
-              <td>Group 2-B</td>
+              <th>Group 2-A</th>
+              <th>Group 2-B</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td>Aluminum</td>
               <td>Any waste in Group 1-A or 1-B</td>
@@ -10642,11 +10648,13 @@
       <text>Potential consequences: Fire or explosion; generation of flammable hydrogen gas.</text>
       <text>
         <table class="layout-table">
-          <tbody>
+          <thead>
             <tr>
-              <td>Group 3-A</td>
-              <td>Group 3-B</td>
+              <th>Group 3-A</th>
+              <th>Group 3-B</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td>Alcohols</td>
               <td>Any concentrated waste in Groups 1-A or 1-B</td>
@@ -10681,11 +10689,13 @@
       <text>Potential consequences: Fire, explosion, or heat generation; generation of flammable or toxic gases.</text>
       <text>
         <table class="layout-table">
-          <tbody>
+          <thead>
             <tr>
-              <td>Group 4-A</td>
-              <td>Group 4-B</td>
+              <th>Group 4-A</th>
+              <th>Group 4-B</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td>Alcohols</td>
               <td>Concentrated Group 1-A or 1-B wastes</td>
@@ -10716,11 +10726,13 @@
       <text>Potential consequences: Fire, explosion, or violent reaction.</text>
       <text>
         <table class="layout-table">
-          <tbody>
+          <thead>
             <tr>
-              <td>Group 5-A</td>
-              <td>Group 5-B</td>
+              <th>Group 5-A</th>
+              <th>Group 5-B</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td>Spent cyanide and sulfide solutions</td>
               <td>Group 1-B wastes</td>
@@ -10731,11 +10743,13 @@
       <text>Potential consequences: Generation of toxic hydrogen cyanide or hydrogen sulfide gas.</text>
       <text>
         <table class="layout-table">
-          <tbody>
+          <thead>
             <tr>
-              <td>Group 6-A</td>
-              <td>Group 6-B</td>
+              <th>Group 6-A</th>
+              <th>Group 6-B</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td>Chlorates</td>
               <td>Acetic acid and other organic acids</td>
