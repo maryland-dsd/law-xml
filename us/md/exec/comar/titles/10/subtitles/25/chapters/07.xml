@@ -7,7 +7,22 @@
     <prefix>Regulation</prefix>
     <num>.01</num>
     <heading>Scope.</heading>
-    <text>This chapter provides for the certification of electronic health networks and medical care electronic claims clearinghouses that operate in Maryland. Payors that accept electronic health care transactions originating in Maryland may only accept electronic health care transactions from electronic health networks or medical care electronic claims clearinghouses that obtain certification pursuant to this chapter.</text>
+    <para>
+      <num>A.</num>
+      <text>This chapter provides for the certification of electronic health networks and medical care electronic claims clearinghouses that operate in Maryland. Payors that accept electronic health care transactions originating in Maryland may only accept electronic health care transactions from electronic health networks or medical care electronic claims clearinghouses that obtain certification pursuant to this chapter.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>This chapter applies to:</text>
+      <para>
+        <num>(1)</num>
+        <text>An electronic health network, as defined in <cite path="|10|25|07|.02">Regulation .02 of this chapter</cite>; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The State-designated health information exchange or State-designated HIE as designated by the Maryland Health Care Commission and the Health Services Cost Review Commission pursuant to the statutory authority set forth under Health-General Article, §19-143, Annotated Code of Maryland..</text>
+      </para>
+    </para>
   </section>
   <section>
     <prefix>Regulation</prefix>
@@ -73,7 +88,7 @@
         <text>“Health information” means any information, whether oral or recorded in any form or medium, including electronic health information, that:</text>
         <para>
           <num>(a)</num>
-          <text>Is created or received by a health care provider, health plan, public health authority, employe, life insurer, or health care clearinghouse; and</text>
+          <text>Is created or received by a health care provider, health plan, public health authority, employer, life insurer, or health care clearinghouse; and</text>
         </para>
         <para>
           <num>(b)</num>
@@ -82,6 +97,10 @@
       </para>
       <para>
         <num>(9)</num>
+        <text>“Improvement of patient safety” means actions, strategies, or protocols to prevent health care errors, enhance the quality of care, and ensure a safe health care environment.</text>
+      </para>
+      <para>
+        <num>(10)</num>
         <text>“Legally protected health information” means the health information with a date of service after May 31, 2022, that is subject to restrictions under Health-General Article, §4-302.5, Annotated Code of Maryland, and <cite path="|10.11.08">COMAR 10.11.08</cite>, including:</text>
         <para>
           <num>(a)</num>
@@ -101,7 +120,7 @@
         </para>
       </para>
       <para>
-        <num>(10)</num>
+        <num>(11)</num>
         <text>Medical Care Electronic Claims Clearinghouse.</text>
         <para>
           <num>(a)</num>
@@ -113,15 +132,19 @@
         </para>
       </para>
       <para>
-        <num>(11)</num>
+        <num>(12)</num>
         <text>“MHCC” means the Maryland Health Care Commission.</text>
       </para>
       <para>
-        <num>(12)</num>
+        <num>(13)</num>
         <text>“MHCC-Certified Electronic Health Network” means an entity that has received certification from the Maryland Health Care Commission.</text>
       </para>
       <para>
-        <num>(13)</num>
+        <num>(14)</num>
+        <text>“Mitigation of a public health emergency” means taking actions to lessen the impact of a public health emergency and reduce harm, including implementing preventive measures, managing resources, and coordinating responses to limit disease spread, minimize health risks, and support affected communities effectively.</text>
+      </para>
+      <para>
+        <num>(15)</num>
         <text>“Payor” means an entity that administers or provides reimbursement for health care benefits on an expense-incurred basis, including:</text>
         <para>
           <num>(a)</num>
@@ -145,7 +168,15 @@
         </para>
       </para>
       <para>
-        <num>(14)</num>
+        <num>(16)</num>
+        <text>“State-designated health information exchange” or “State-designated HIE” means a health information exchange designated by the Maryland Health Care Commission and the Health Services Cost Review Commission pursuant to the statutory authority set forth under Health-General Article, §19-143, Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>“State health improvement program” means a State initiative designed to enhance public health through strategic planning, targeted interventions, and collaboration with stakeholders and the federal government, including State efforts in support of the Total Cost of Care model and successor models agreed to by the federal government and the State.</text>
+      </para>
+      <para>
+        <num>(18)</num>
         <text>“Qualified accreditation or certification organization” means a nationally recognized entity that has established privacy and security standards for electronic health networks and accredits or certifies networks that meet those standards.</text>
       </para>
     </para>
@@ -193,7 +224,7 @@
       </para>
     </para>
   </section>
-  <section>
+  <section cache:ref-path="10|25|07|.05">
     <prefix>Regulation</prefix>
     <num>.05</num>
     <heading>Standards for Certification.</heading>
@@ -217,7 +248,19 @@
         </para>
         <para>
           <num>(c)</num>
-          <text>Provide an attestation signed by an officer of the applicant that the applicant restricts disclosure of legally protected health information as required by Health-General Article, §4-302.5, Annotated Code of Maryland;</text>
+          <text>Provide an attestation signed by an officer of the applicant that to the extent required by Health-General Article, §4-302.5, Annotated Code of Maryland, the applicant:</text>
+          <para>
+            <num>(i)</num>
+            <text>Possesses the technological capability to filter and restrict from disclosure legally protected health information;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Is parsing restricted codes and conveying all other information in the health record that is not prohibited by law to exchange; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Possesses the technological capacity to allow a consumer to request and consent to the exchange of legally protected health information to a specific treating provider;</text>
+          </para>
         </para>
         <para>
           <num>(d)</num>
@@ -235,7 +278,7 @@
     </para>
     <para>
       <num>B.</num>
-      <text>The Commission shall issue certification to an applicant that has met all the requirements of §§A and B of this regulation.</text>
+      <text>The Commission shall issue certification to an applicant that has met all the requirements of <cite path="10|25|07|.05|A.">§A of this regulation</cite>.</text>
     </para>
   </section>
   <section cache:ref-path="10|25|07|.06">
@@ -324,6 +367,255 @@
   <section cache:ref-path="10|25|07|.09">
     <prefix>Regulation</prefix>
     <num>.09</num>
+    <heading>Electronic Health Network Transaction Submission.</heading>
+    <para>
+      <num>A.</num>
+      <text>An MHCC-certified EHN shall submit electronic health care transactions information in accordance with this regulation to the State-designated HIE for public health and clinical purposes to facilitate:</text>
+      <para>
+        <num>(1)</num>
+        <text>A State health improvement program;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Mitigation of a public health emergency;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Improvement of patient safety; or</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The participation of the State in the Center for Medicare and Medicaid Innovation’s Achieving Healthcare Efficiency through Accountable Design (AHEAD) model and any successor models.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Transactions to be Submitted.</text>
+      <para>
+        <num>(1)</num>
+        <text>An MHCC-certified EHN shall submit electronic health care transactions information for services delivered in Maryland to the State-designated HIE that consist of the following transactions:</text>
+        <para>
+          <num>(a)</num>
+          <text>Health care claim or equivalent encounter information (837P and 837I); and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Health plan eligibility inquiry and response (270).</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Only the EHN that receives the transaction from or returns the transaction to the originating submitter directly is required to submit the transaction information to the State-designated HIE.</text>
+      </para>
+      <para>
+        <num>C.</num>
+        <text>The Commission may request the submission of other electronic administrative transactions adopted by the Department of Health and Human Services.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>An MHCC-certified EHN may include transactions related to pharmaceuticals covered by medical benefits with its submission under <cite path="10|25|07|.09|B.">§B of this regulation</cite> if excluding that data would be burdensome.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Electronic Health Care Transactions Technical Submission Guidance.</text>
+      <para>
+        <num>(1)</num>
+        <text>In consultation with stakeholders, including Commission staff, the State-designated HIE shall develop an Electronic Health Care Transactions Technical Submission Guidance that:</text>
+        <para>
+          <num>(a)</num>
+          <text>Contains detailed technical requirements for submitting electronic health care transaction information to the State-designated HIE;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Provides an option for MHCC-certified EHNs to submit electronic health care transactions in a flat file; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>To the extent possible, utilizes industry recognized standards.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The State-designated HIE shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Invite all MHCC-certified EHNs and Commission staff to at least one meeting to discuss the initial development of the Electronic Health Care Transactions Technical Submission Guidance;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Invite all MHCC-certified EHNs and Commission staff to at least one meeting prior to making any material updates to the Electronic Health Care Transactions Technical Submission Guidance;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Solicit public comments on a draft copy of the initial Electronic Health Care Transactions Technical Submission Guidance, and any material updates to the guidance, by:</text>
+          <para>
+            <num>(i)</num>
+            <text>Publishing the draft guidance on its website; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Sending the draft guidance to MHCC-certified EHNs and the Commission by e-mail;</text>
+          </para>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Accept comments on the draft Electronic Health Care Transactions Technical Submission Guidance for at least 30 days;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Publish a written response to any significant, substantive issues raised in comments; and</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Consider all stakeholder feedback prior to finalizing the Electronic Health Care Transactions Technical Submission Guidance.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The State-designated HIE shall annually submit to Commission staff a final draft of the Electronic Health Care Transactions Technical Submission Guidance for approval, which shall not be unreasonably denied.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The State-designated HIE and the Commission shall publish the final, approved Electronic Health Care Transactions Technical Submission Guidance on their websites.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>An MHCC-certified EHN shall submit electronic health care transaction information to the State-designated HIE in a manner detailed in the most recent version of the Electronic Health Care Transactions Technical Submission Guidance.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Submission Schedule.</text>
+      <para>
+        <num>(1)</num>
+        <text>No later than the last business day of each month, an MHCC-certified EHN shall submit electronic health care transactions information from the preceding month to the State-designated HIE.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An MHCC-certified EHN shall submit electronic health transaction information at least once per month, but may submit data more often.</text>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>An EHN may not charge a fee to a health care provider, health care payor, or the State-designated HIE for providing the information required under this regulation.</text>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>Exemptions.</text>
+      <para>
+        <num>(1)</num>
+        <text>An MHCC-certified EHN may request a 1-year exemption from certain reporting requirements in this regulation.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An exemption request shall:</text>
+        <para>
+          <num>(a)</num>
+          <text>Be in writing;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Identify each specific requirement of this regulation from which the EHN is requesting an exemption;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Identify the time period of the exemption, if any;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>State the reason for each exemption request; and</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Include information that justifies the exemption request.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Within 45 days after receipt of complete information from an EHN requesting an exemption, the Commission shall take one of the following actions:</text>
+        <para>
+          <num>(a)</num>
+          <text>Grant the exemption by providing written notification; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Deny the exemption request by providing written notification that enumerates the reasons for the denial to the EHN.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>The Commission may not exempt an MHCC-certified EHN from any requirement within this regulation that is otherwise required by federal or other State law.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>The Commission may grant an exemption on the following grounds:</text>
+        <para>
+          <num>(a)</num>
+          <text>The absence of functionality in the infrastructure of the EHN that prevents the EHN from complying with the requirement;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The requirement would hinder the ability of the EHN to comply with other requirements of this chapter or federal or other State laws; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The requirement would cause an undue burden or hardship on the EHN, such that the EHN would no longer be able to provide EHN services in the State.</text>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>For good cause shown, the Commission may renew a 1-year exemption for an additional 1-year period.</text>
+      </para>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>Effective Date.</text>
+      <para>
+        <num>(1)</num>
+        <text>The State-designated HIE shall publish the Electronic Health Care Transactions Technical Submission Guidance within 12 months of the final effective date of this regulation.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An MHCC-certified EHN shall begin submitting electronic health care transaction information based on the most recent version of the Electronic Health Care Transactions Technical Submission Guidance within 18 months following the initial publication of the Electronic Health Care Transactions Technical Submission Guidance.</text>
+      </para>
+    </para>
+    <para>
+      <num>J.</num>
+      <text>Implementation Reporting.</text>
+      <para>
+        <num>(1)</num>
+        <text>Upon request, the State-designated HIE shall submit to the Commission updates on:</text>
+        <para>
+          <num>(a)</num>
+          <text>Its status of developing the Electronic Health Care Transactions Technical Submission Guidance;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Its progress in supporting MHCC-certified EHN implementation of the Electronic Health Care Transactions Technical Submission Guidance; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Any disruptions or technology failures that delay implementation and associated impacts, if any.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An MHCC-certified EHN shall submit to the Commission at least quarterly:</text>
+        <para>
+          <num>(a)</num>
+          <text>An implementation plan and timeline detailing progress the MHCC-certified EHN has made towards submitting electronic health care transaction information to the State-designated HIE; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Any other information requested by the Commission related to the implementation of this regulation.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="10|25|07|.10">
+    <prefix>Regulation</prefix>
+    <num>.10</num>
     <heading>Withdrawal of Certification and Other Penalties.</heading>
     <para>
       <num>A.</num>
@@ -394,7 +686,7 @@
       </para>
       <para>
         <num>(2)</num>
-        <text>If a MHCC-certified EHN submits an implementation plan in accordance with <cite path="10|25|07|.09|B.|(1)">§B(1) of this regulation</cite>, the EHN shall:</text>
+        <text>If a MHCC-certified EHN submits an implementation plan in accordance with <cite path="10|25|07|.10|B.|(1)">§B(1) of this regulation</cite>, the EHN shall:</text>
         <para>
           <num>(a)</num>
           <text>Provide a status report to the Commission by April 1, 2024, detailing the progress the MHCC-certified EHN has made under its implementation plan; and</text>
@@ -424,7 +716,7 @@
   </section>
   <section>
     <prefix>Regulation</prefix>
-    <num>.10</num>
+    <num>.11</num>
     <heading>Notice Prior to Withdrawal.</heading>
     <para>
       <num>A.</num>
@@ -441,7 +733,7 @@
   </section>
   <section>
     <prefix>Regulation</prefix>
-    <num>.11</num>
+    <num>.12</num>
     <heading>Hearing Procedures.</heading>
     <para>
       <num>A.</num>
@@ -529,7 +821,7 @@
     </para>
   </section>
   <annotations>
-    <annotation type="Authority" dest="container">Health-General Article, §§4-302.1, 4-302.5, 19-103(c)(2), (9) and (10), 19-109(a)(1), 19-134, and 19-135(a) and (b), Annotated Code of Maryland</annotation>
+    <annotation type="Authority" dest="container">: Health-General Article, §§4-302.1, 4-302, 4-302.2—.3, 4-302.5, 19-103(c)(2), (9) and (10), 19-109(a)(1) and (8), 19-133(d), 19-134, and <br/>19-135(a) and (b), Annotated Code of Maryland</annotation>
     <annotation type="History" dest="container" effective="1996-07-15">Effective date: July 15, 1996 (23:14 Md. R. 1008)</annotation>
     <annotation type="History" dest="container" effective="2001-07-23"><cite path="|10|25|07|.01">Regulation .01</cite> amended effective July 23, 2001 (28:14 Md. R. 1322)</annotation>
     <annotation type="History" dest="container" effective="2000-04-03"><cite path="|10|25|07|.02">Regulation .02</cite> amended effective April 3, 2000 (27:6 Md. R. 641)</annotation>
@@ -547,5 +839,6 @@
     <annotation type="History" dest="container" effective="2008-12-15"><cite path="|10|25|07|.06|A.">Regulation .06A</cite>, D amended effective December 15, 2008 (35:25 Md. R. 2150)</annotation>
     <annotation type="History" dest="container" effective="2024-05-13"><cite path="|10|25|07|.09">Regulation .09</cite> amended as an emergency provision effective January 11, 2024 (51:3 Md. R. 152); amended permanently effective May 13, 2024 (51:9 Md. R. 440)</annotation>
     <annotation type="History" dest="container" effective="2008-12-15"><cite path="|10|25|07|.09|C.">Regulation .09C</cite> amended effective December 15, 2008 (35:25 Md. R. 2150)</annotation>
+    <annotation type="History" dest="container" effective="2025-11-10" discontinuity="true">Chapter revised effective November 10, 2025 (52:22 Md. R. 1095)</annotation>
   </annotations>
 </container>

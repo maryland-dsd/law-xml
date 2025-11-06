@@ -12,35 +12,47 @@
       <text>Definitions.</text>
       <para>
         <num>(1)</num>
-        <text>"EMSCS" means the Emergency Medical Services Communications System.</text>
+        <text>“7AG60” means the conventional 700MHz National Interoperability channel designated for commercial and non-allied helicopter communications with SYSCOM.</text>
       </para>
       <para>
         <num>(2)</num>
-        <text>"Hospital" means an institution that is required to be licensed as a hospital by the Secretary of Health pursuant to Health-General Article, §19-301, Annotated Code of Maryland, and <cite path="|10.07.01">COMAR 10.07.01</cite>.</text>
+        <text>“7AIRMED” means the conventional 700MHz multicast radio system operated by MIEMSS to provide medical communications with commercial and non-allied helicopters.</text>
       </para>
       <para>
         <num>(3)</num>
-        <text>"MIEMSS" means the Maryland Institute for Emergency Medical Services Systems established pursuant to <cite doc="Md. Code" path="ged|13-503">Education Article, §13-503, Annotated Code of Maryland</cite>.</text>
+        <text>“EMRC” means the Emergency Medical Resource Center operated by MIEMSS for the Emergency Medical Services Communications System.</text>
       </para>
       <para>
         <num>(4)</num>
-        <text>"MULTICOM" means a mobile radio service not open to public correspondence, used to provide communications essential to conduct the activities being performed by or directed from private aircraft.</text>
+        <text>“EMSCS” means the Emergency Medical Services Communications System.</text>
       </para>
       <para>
         <num>(5)</num>
-        <text>"Patient transport" means the helicopter transport of a patient from one hospital to another or to or from a specialty center.</text>
+        <text>“HELIMED1” means the Maryland FiRST statewide radio system talkgroup utilized by Maryland State Police Aviation Command helicopters as a secondary means of medical communications with EMRC.</text>
       </para>
       <para>
         <num>(6)</num>
-        <text>"Specialty center" means a hospital specified by MIEMSS to be a specialty referral center or trauma center participating in the Emergency Medical Services System.</text>
+        <text>“Hospital” means an institution that is required to be licensed as a hospital by the Secretary of Health and Mental Hygiene pursuant to Health-General Article, §19-301, Annotated Code of Maryland, and <cite path="|10.07.01">COMAR 10.07.01</cite>.</text>
       </para>
       <para>
         <num>(7)</num>
-        <text>"SYSCOM" means the Systems Communication Center operated by MIEMSS for the Emergency Medical Services Communications System.</text>
+        <text>“MIEMSS” means the Maryland Institute for Emergency Medical Services Systems established pursuant to <cite doc="Md. Code" path="ged|13-503">Education Article, §13-503, Annotated Code of Maryland</cite>.</text>
       </para>
       <para>
         <num>(8)</num>
-        <text>"UNICOM" means an aeronautical advisory radio station used for advisory and civil defense communications primarily with private aircraft stations.</text>
+        <text>“Patient transport” means the helicopter transport of a patient from one hospital to another or to or from a specialty center.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>“Specialty center” means a hospital specified by MIEMSS to be a specialty referral center or trauma center participating in the Emergency Medical Services System.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>“SYSCOM” means the Systems Communication Center operated by MIEMSS for the Emergency Medical Services Communications System.</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>“SYSCOM-TG” means the Maryland FiRST statewide radio system talkgroup utilized by Maryland State Police Aviation Command helicopters as a secondary means of communications with SYSCOM.</text>
       </para>
     </para>
     <para>
@@ -52,55 +64,34 @@
       </para>
       <para>
         <num>(2)</num>
-        <text>The pilot shall contact SYSCOM directly using law enforcement frequency <cite path="|44.74">44.74</cite> MHz, tone code 110.9 Hz.</text>
+        <text>The pilot shall contact SYSCOM directly using law enforcement frequency <cite path="|44.74">44.74</cite> MHz, tone code 110.9 Hz, SYSCOM-TG, or 7AG60.</text>
       </para>
       <para>
         <num>(3)</num>
-        <text>The aeromedical communication radio stations designated in <cite path="30|07|01|.01|B.|(2)">§B(2) of this regulation</cite> are located in the following locations:</text>
-        <para>
-          <num>(a)</num>
-          <text>SYSCOM, University of Maryland, Baltimore City;</text>
-        </para>
-        <para>
-          <num>(b)</num>
-          <text>Eagle Rock, Garrett County;</text>
-        </para>
-        <para>
-          <num>(c)</num>
-          <text>Sideling Hill, Washington County;</text>
-        </para>
-        <para>
-          <num>(d)</num>
-          <text>Dans Rock, Allegany County;</text>
-        </para>
-        <para>
-          <num>(e)</num>
-          <text>Gambrill Mountain, Frederick County;</text>
-        </para>
-        <para>
-          <num>(f)</num>
-          <text>Stoney Forest, Harford County;</text>
-        </para>
-        <para>
-          <num>(g)</num>
-          <text>Crownsville, Anne Arundel County;</text>
-        </para>
-        <para>
-          <num>(h)</num>
-          <text>Waldorf, Charles County;</text>
-        </para>
-        <para>
-          <num>(i)</num>
-          <text>Denton, Caroline County;</text>
-        </para>
-        <para>
-          <num>(j)</num>
-          <text>Salisbury, Wicomico County;</text>
-        </para>
-        <para>
-          <num>(k)</num>
-          <text>Solomons, Calvert County.</text>
-        </para>
+        <text>The programming information for 7AG60 is:</text>
+        <text>
+          <table>
+            <thead>
+              <tr>
+                <th colspan="4">Mobile/Aircraft Programming 7AG60</th>
+              </tr>
+              <tr>
+                <th>SYSCOM Operations</th>
+                <th>Site Name</th>
+                <th>Aircraft Rx &amp; NAC</th>
+                <th>Aircraft Tx &amp; NAC</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td data-text-align="center">Statewide</td>
+                <td data-text-align="center">All</td>
+                <td data-text-align="center">769.63125 (NAC = F7E)</td>
+                <td data-text-align="center">799.63125 (NAC = 293)</td>
+              </tr>
+            </tbody>
+          </table>
+        </text>
       </para>
       <para>
         <num>(4)</num>
@@ -126,29 +117,90 @@
         <num>(7)</num>
         <text>Within 3 minutes after departure from a hospital, specialty referral center, or the scene of an accident where the patient was picked up for transport or delivered after transport, the pilot shall notify SYSCOM of the helicopter's departure point, route, and estimated time of arrival at its next destination.</text>
       </para>
+      <para>
+        <num>(8)</num>
+        <text>Helicopters which do not have frequency <cite path="|44.74">44.74</cite> MHz, tone code 110.9 Hz, or 7AG60, but have air-to-ground telephone capability shall call SYSCOM at (410) 706-7814 via air-to-ground telephone to provide the data required in §B(4)—(7) of this regulation.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>Helicopter services not having operational communications on any of the radio or air-to-ground telephone services described in this section shall contact its base medical or dispatching operations center to have patient and estimated time of arrival data forward to SYSCOM at (410) 706-7814 via a conventional public switched telephone.</text>
+      </para>
     </para>
     <para>
       <num>C.</num>
       <text>Medical Communications.</text>
       <para>
         <num>(1)</num>
-        <text>The helicopter medic shall contact SYSCOM directly using medical frequency <cite path="|47.66">47.66</cite> MHz, tone code 100.0 Hz, through the radio station locations listed in <cite path="30|07|01|.01|B.|(3)">§B(3) of this regulation</cite>.</text>
+        <text>Upon the helicopter medic’s request for medical communications, SYSCOM shall instruct the helicopter medic to switch to medical frequency <cite path="|47.66">47.66</cite> MHz, tone code 100.0 Hz, HELIMED1, or 7AIRMED.</text>
       </para>
       <para>
         <num>(2)</num>
+        <text>The programming information for 7AIRMED is:</text>
+        <text>
+          <table>
+            <thead>
+              <tr>
+                <th colspan="4">Mobile/Aircraft Programming 7AIRMED</th>
+              </tr>
+              <tr>
+                <th>EMRC Operations</th>
+                <th>Site Name</th>
+                <th>Aircraft Rx &amp; NAC</th>
+                <th>Aircraft Tx &amp; NAC</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td data-text-align="center">Baltimore</td>
+                <td data-text-align="center">Dundalk Marine Terminal</td>
+                <td data-text-align="center">773.61875 (NAC = F7E)</td>
+                <td data-text-align="center">800.13125 (NAC = 293)</td>
+              </tr>
+              <tr>
+                <td data-text-align="center">Hagerstown</td>
+                <td data-text-align="center">Lambs Knoll</td>
+                <td data-text-align="center">769.13125 (NAC = F7E)</td>
+                <td data-text-align="center">800.13125 (NAC = 293)</td>
+              </tr>
+              <tr>
+                <td data-text-align="center">Salisbury</td>
+                <td data-text-align="center">Salisbury SHA</td>
+                <td data-text-align="center">770.63125 (NAC = F7E)</td>
+                <td data-text-align="center">800.13125 (NAC = 293)</td>
+              </tr>
+              <tr>
+                <td data-text-align="center">Western Maryland</td>
+                <td data-text-align="center">Dan’s Rock</td>
+                <td data-text-align="center">774.11875 (NAC = F7E)</td>
+                <td data-text-align="center">800.13125 (NAC = 293)</td>
+              </tr>
+              <tr>
+                <td data-text-align="center">Washington, DC/Metro</td>
+                <td data-text-align="center">Temple Hills</td>
+                <td data-text-align="center">770.13125 (NAC = F7E)</td>
+                <td data-text-align="center">800.13125 (NAC = 293)</td>
+              </tr>
+              <tr>
+                <td data-text-align="center">Southern Maryland</td>
+                <td data-text-align="center">Leonardtown</td>
+                <td data-text-align="center">773.11875 (NAC = F7E)</td>
+                <td data-text-align="center">800.13125 (NAC = 293)</td>
+              </tr>
+            </tbody>
+          </table>
+        </text>
+      </para>
+      <para>
+        <num>(3)</num>
         <text>The medic shall provide the nature of injury or illness and the related information necessary to coordinate the receipt of the patient at the hospital receiving facility.</text>
       </para>
-    </para>
-    <para>
-      <num>D.</num>
-      <text>Alternate Methods of Communication with SYSCOM.</text>
       <para>
-        <num>(1)</num>
-        <text>Helicopters which do not have communications capability on medical frequency <cite path="|47.66">47.66</cite> MHz, tone code 100.0 Hz, but have air-to-ground telephone capability shall call SYSCOM directly via air-to-ground telephone to provide the data required in <cite path="30|07|01|.01|C.|(2)">§C(2) of this regulation</cite>.</text>
+        <num>(4)</num>
+        <text>Helicopters which do not have communications capability on medical frequency <cite path="|47.66">47.66</cite> MHz, tone code 100.0 Hz, or 7AIRMED, but have air-to-ground telephone capability shall call SYSCOM at (410) 706-7814 via air-to-ground telephone to provide the data required in <cite path="30|07|01|.01|C.|(3)">§C(3) of this regulation</cite>.</text>
       </para>
       <para>
-        <num>(2)</num>
-        <text>Helicopter services not having operational communications capabilities on any of the above radio or air-to-ground telephone services shall contact their home base medical or dispatching operations center to have patient and estimated time of arrival data forwarded to SYSCOM via a conventional public switched telephone.</text>
+        <num>(5)</num>
+        <text>Helicopter services not having operational communications capabilities on any of the radio or air-to-ground telephone services described in this section shall contact their home base medical or dispatching operations center to have patient and estimated time of arrival data forwarded to SYSCOM at (410) 706-7814 via a conventional public switched telephone.</text>
       </para>
     </para>
   </section>
@@ -157,6 +209,7 @@
     <annotation type="History" dest="container" effective="1986-03-24">Effective date: March 24, 1986 (13:6 Md. R. 684)</annotation>
     <annotation type="History" dest="container" effective="1991-08-19">Chapter revised as an emergency provision effective May 31, 1991 (18:12 Md. R. 1318); revised permanently effective August 19, 1991 (18:16 Md. R. 1813)</annotation>
     <annotation type="History" dest="container" discontinuity="true">Chapter recodified from <cite path="|14.17.01">COMAR 14.17.01</cite> to <cite path="|30.07.01">COMAR 30.07.01</cite>, August 1997</annotation>
+    <annotation type="History" dest="container" effective="2025-11-10"><cite path="|30|07|01|.01">Regulation .01</cite> amended effective November 10, 2025 (52:22 Md. R. 1096)</annotation>
     <annotation type="History" dest="container" effective="2005-12-19"><cite path="|30|07|01|.01|B.">Regulation .01B</cite> amended effective December 19, 2005 (32:25 Md. R. 1946)</annotation>
   </annotations>
 </container>
