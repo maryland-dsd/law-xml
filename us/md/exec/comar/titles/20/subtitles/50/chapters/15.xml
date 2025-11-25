@@ -1,0 +1,768 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>15</num>
+  <heading>Electric System Planning</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Applicability.</heading>
+    <para>
+      <num>A.</num>
+      <text>This chapter applies to Electric System Plans for the advancement of the State policy goals and legislative intent set forth at Public Utilities Article, §§<cite doc="Md. Code" path="gpu|7-801">7-801</cite>—<cite doc="Md. Code" path="gpu|7-804">7-804</cite>, et seq., Annotated Code of Maryland, and all other relevant State goals and targets in effect during plan development. The objective of the final Electric System Plan is an electric system that advances State policy goals and is built in a manner that enables an electric company to provide safe, reliable, and cost-effective services and otherwise operates for the public good.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>An Electric System Plan shall demonstrate a holistic approach to grid planning by:</text>
+      <para>
+        <num>(1)</num>
+        <text>Considering cost-effective solutions to electric system needs;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Incorporating new cost-effective technologies and analytical tools into planning processes to create a modern distribution system;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Utilizing real-time data to improve forecasting and planning for grid investments; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Addressing issues related to other relevant Commission proceedings.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>This chapter shall not become effective for electric cooperatives and municipal electric companies until January 1, 2028.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Electric company and gas company coordination on Electric System Plans may be performed, but shall not be required, unless required by law or as otherwise directed by the Commission.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Waiver of Regulations. Upon written request, a regulation in this chapter may be waived by the Commission for “good cause shown”.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>“Annual Electric System Plan Update” means the update that electric companies publish annually at the end of the distribution system planning cycle in the years that they do not publish an Electric System Plan and that contains the information in <cite path="|20|50|15|.04|B.">Regulation .04B of this chapter</cite>.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>“Baseline scenario” means an expected future state of a system or situation if no new interventions or policies are implemented beyond those already in place. It serves as a point of comparison to assess the impact of proposed actions or policies.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>“Cost-effective” means having projected benefits that are greater than projected costs while considering other factors as determined by the Commission.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>“Demand response” means changes in electric usage by demand-side resources from their normal consumption patterns in response to changes in the price of electricity over time or to incentive payments designed to induce lower electricity use at times of high wholesale market prices or ensure system reliability.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>“Distributed energy resource (DER)” has the meaning stated in <cite path="20.50.09.02|B.">COMAR 20.50.09.02B</cite>.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>“Distributed generation” means the same definition as Small Generator Facility in <cite path="20.50.09.02|B.">COMAR 20.50.09.02B</cite>.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>“Electric company” has the meaning stated in <cite doc="Md. Code" path="gpu|1-101">Public Utilities Article, §1-101, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>“Energy storage device” has the meaning stated in <cite doc="Md. Code" path="gpu|7-216">Public Utilities Article, §7-216, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>“Electric System Plan” means the plan that electric companies publish pursuant to <cite path="|20|50|15|.04|J.">Regulation .04J of this chapter</cite> that concludes the distribution system planning cycle.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>“Electric vehicle (EV)” has the meaning stated in <cite path="20.50.09.02|B.">COMAR 20.50.09.02B</cite>.</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>“Goal scenario” means a potential future state of a system or situation if policy goals are fully realized and it serves as a point of comparison to assess the progress towards policy goals.</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>“Grid needs” means the need for a specific mitigating action to alleviate an identified system constraint found during the electric system planning process. The specific characteristic of the system constraint and commensurate grid need will inform the solution that will mitigate the issue.</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>“Grid services” means the dispatch and control of one or more DERs to provide service to the electric company’s electric grid pursuant to an electric company tariff, service contract between the electric company and the owner of DERs or providing transmission-level grid services by participating in PJM Interconnection, LLC wholesale markets.</text>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>“Hosting capacity” has the meaning stated in <cite path="20.50.09.02|B.">COMAR 20.50.09.02B</cite>.</text>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>“Locational value assessment” means a process that provides price signals based on the benefits and costs of deploying distributed energy resources in a specific location and over time, considering grid conditions and the potential to defer or avoid traditional electric distribution infrastructure investments.</text>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>“Non-wires solution (NWS)” means a project or other solution that makes use of one or more DERs, technologies, and/or leads to the introduction of new or modification of existing energy management practices, standards, or protocols to address a system constraint or provide other grid services to the electric system.</text>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>“Planning metrics” means quantifiable measurements used to assess performance, track progress, and/or measure success of a process that an electric company electric system plan directly affects.</text>
+      </para>
+      <para>
+        <num>(18)</num>
+        <text>“Preliminary Electric System Plan” means the plan that electric companies file before the annual technical conference that contains the information in <cite path="|20|50|15|.04|F.">Regulation .04F of this chapter</cite>.</text>
+      </para>
+      <para>
+        <num>(19)</num>
+        <text>“Rightsizing” has the meaning stated in <cite path="20.50.09.02|B.">COMAR 20.50.09.02B</cite>.</text>
+      </para>
+      <para>
+        <num>(20)</num>
+        <text>“System constraints” means specific violations caused by physical characteristics of the electric distribution system exceeding electric company planning criteria, the result of which would threaten safe and reliable delivery of power.</text>
+      </para>
+      <para>
+        <num>(21)</num>
+        <text>“Stakeholder” means a person who is granted leave to intervene in an electric system plan proceeding pursuant to <cite doc="Md. Code" path="gpu|3-106">Public Utilities Article, §3-106, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(22)</num>
+        <text>“Traditional wires solution” means a solution to address a system constraint that would be deferred or replaced by a non-wires solution.</text>
+      </para>
+      <para>
+        <num>(23)</num>
+        <text>“Virtual power plant (VPP)” has the meaning stated in <cite doc="Md. Code" path="gpu|7-216">Public Utilities Article, §7-216, Annotated Code of Maryland</cite>.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Electric System Planning Process.</heading>
+    <para>
+      <num>A.</num>
+      <text>An electric system planning process shall align with the following components for each planning cycle and scenario and related requirements specified in this chapter:</text>
+      <para>
+        <num>(1)</num>
+        <text>Considerations feeding into types of projections;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Goals/ objectives;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>DER forecast;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Load forecast;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Hosting capacity assessment;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Grid needs and locational value assessment;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Identify possible solutions to grid needs;</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Screen and evaluate possible solutions;</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>Choose solutions and publish plan;</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>Program and project design; and</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>Assess results.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Considerations Feeding into Types of Projections.</text>
+      <para>
+        <num>(1)</num>
+        <text>Time Horizons for DER and Load Forecasting.</text>
+        <para>
+          <num>(a)</num>
+          <text>DER and load forecasting processes for electric companies other than electric cooperatives and municipal electric companies shall include at least three planning time horizons:</text>
+          <para>
+            <num>(i)</num>
+            <text>1 to 3 years;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>4 to 6 years; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>7 to 10  years.</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>DER and load forecasting processes for electric cooperatives and municipal electric companies shall include at least two planning time horizons:</text>
+          <para>
+            <num>(i)</num>
+            <text>1 to 3 years; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>4 years up to 20 years.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Level of Granularity. The granularity of information in an electric system plan may vary as described in other sections of this regulation.</text>
+        <para>
+          <num>(a)</num>
+          <text>As a near-term objective:</text>
+          <para>
+            <num>(i)</num>
+            <text>Information shall be provided in an Electric System Plan at the substation level; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Feeder-level information shall be provided as part of the planning process for feeders where there are identified system constraints;</text>
+          </para>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>As a longer-term objective, electric companies shall report on progress regarding incorporating more granular electric system and customer information and data into forecasting and planning processes in their electric system plan or annual electric system plan update.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Scenarios/Projections to be Analyzed. An electric system plan shall include a minimum of two scenarios to provide a range of outcomes to inform planning analysis and the determination of the scale and pace of grid needs:</text>
+        <para>
+          <num>(a)</num>
+          <text>A baseline scenario; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A goal scenario.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The Commission may request an electric company to analyze scenarios in addition to a baseline scenario and goal scenario.</text>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Data Sources, Scope, and Access. Electric companies shall provide for data collection and access that:</text>
+        <para>
+          <num>(a)</num>
+          <text>Allows stakeholders the opportunity to provide data inputs at pre-identified time periods defined by the electric company;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Provides collected data in a format that can be easily accessed by stakeholders; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Provides stakeholders transparency into data sources, data and assumptions used to develop electric system plans and annual electric system plan updates.</text>
+        </para>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Already-Approved Resource Retirements and Additions. Electric companies shall consider in their electric system plans whether distribution-level electric system planning can be used to mitigate potential gaps caused by generation retirements.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>PJM Wholesale Markets. Electric companies shall consider DERs and VPPs that participate in the PJM wholesale markets in electric distribution planning as applicable.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Resource Costs and Capabilities. Electric companies contracting decisions to implement electric system plans and annual electric system plan updates shall be left to electric company discretion.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Goals/Objectives. An electric system plan shall promote applicable State policy goals pursuant to Public Utilities Article, §§<cite doc="Md. Code" path="gpu|7-801">7-801</cite>—<cite doc="Md. Code" path="gpu|7-804">7-804</cite>, et seq., Annotated Code of Maryland, and other applicable goals and targets as directed by the Commission.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>DER Forecast. An electric system plan shall account for the following considerations for each electric system planning cycle and scenario.</text>
+      <para>
+        <num>(1)</num>
+        <text>Electric companies shall develop separate forecasts for each relevant DER type, including energy efficiency, demand response, distributed generation, energy storage devices, VPPs and managed EV charging-discharging.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Electric Companies shall develop hourly DER forecasts.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Load Forecast. Load forecasts shall account for the following considerations for each planning cycle and scenario as follows:</text>
+      <para>
+        <num>(1)</num>
+        <text>Electric companies shall incorporate load impacts of current and future transportation and building electrification based on known information and assumptions; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Electric company distribution-level forecasts in aggregate shall be aligned to a reasonable extent with available electric company developed transmission-level forecasts and with PJM-developed system-level forecasts with an explanation provided in electric system plans for any differences and the associated factors, including differences in assumptions.</text>
+      </para>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Hosting Capacity Assessment. An electric system plan shall account for the following considerations for each planning cycle and scenario.</text>
+      <para>
+        <num>(1)</num>
+        <text>Hosting capacity calculations shall be determined using a circuit-specific calculation including installed and forecasted DER interconnections.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>DER forecasting shall be incorporated into reserve hosting capacity determinations and the rightsizing of hosting capacity upgrades.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Electric companies shall establish methodologies for calculating available hosting capacity and, in the annual electric system plan update and electric system plan, discuss planned hosting capacity capability improvements.</text>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Grid Needs and Locational Value Assessment.</text>
+      <para>
+        <num>(1)</num>
+        <text>Grid Needs Assessment.</text>
+        <para>
+          <num>(a)</num>
+          <text>An electric company’s grid needs assessment shall include current and forecast distribution substation and feeder constraints identified as part of each planning cycle, including the timing, magnitude and other relevant characteristics for each identified system constraint.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The annual electric system plan update shall discuss changes to an electric company’s grid needs assessment that may occur between planning cycles.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Electric companies shall cost-effectively pursue industry best practice methods and analytical tools to improve their planning analysis and processes, the choice of which to adopt shall be at the discretion of the electric companies.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Locational Value Assessment.</text>
+        <para>
+          <num>(a)</num>
+          <text>An electric system plan shall provide locational value for each identified electric system constraint.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Locational value shall include the potential deferral or avoided value of a traditional wires solution.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Electric companies shall develop a locational value assessment using the Commission's uniform benefit cost analysis framework.</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Electric companies shall report on the progress towards implementation of locational value assessments at annual technical conferences.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>Identify Possible Solutions to Grid Needs. An electric system plan shall account for the following considerations for each planning cycle and scenario:</text>
+      <para>
+        <num>(1)</num>
+        <text>Near-Term Objective.</text>
+        <para>
+          <num>(a)</num>
+          <text>An electric system plan shall identify solutions for identified grid needs.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Electric companies shall identify non-wires solutions considered to address system constraints.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>For any proposed upgrade projects resulting from Regulations .03H and .03I of this chapter, future hosting capacity constraints that incorporate DER forecasts shall be considered.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>As A Longer-Term Objective.</text>
+        <para>
+          <num>(a)</num>
+          <text>Electric companies shall assess the feasibility of utilizing new cost-effective technologies and methodologies for solutions to grid needs.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Electric companies shall report on the progress towards utilizing new cost-effective technologies and methodologies at annual technical conferences.</text>
+        </para>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Pursuant to <cite doc="Md. Code" path="gpu|7-804">Public Utilities Article, §7-804, Annotated Code of Maryland</cite>, electric companies shall consider investment in, or procurement of cost-effective demand-side methods and technology to improve reliability and efficiency, including VPPs.</text>
+      </para>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>Screen and Evaluate Possible Solutions.</text>
+      <para>
+        <num>(1)</num>
+        <text>An electric company shall screen and evaluate possible solutions for each planning cycle and scenario.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The electric system plan shall include the criteria used to evaluate possible solutions, including cost-effectiveness considerations.</text>
+        <para>
+          <num>(a)</num>
+          <text>Electric companies shall evaluate cost-effectiveness for alternatives considered, if applicable.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Electric companies shall utilize the Commission's Unified Benefit Cost Analysis framework for solutions involving DERs in determining cost-effectiveness.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>J.</num>
+      <text>Choose Solutions and Publish Plan. An electric company shall choose a solution or solutions for each scenario and publish a plan for each planning cycle as described in <cite path="|20|50|15|.04">Regulation .04 of this chapter</cite>.</text>
+      <para>
+        <num>(1)</num>
+        <text>Electric companies shall present their rationale for solution selection in electric system plans, including why alternative solutions were not selected.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Information and data shall be provided in an electric system plan at the substation level.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>When project solutions are proposed in response to system constraints, electric companies shall provide feeder-level information, where applicable.</text>
+      </para>
+    </para>
+    <para>
+      <num>K.</num>
+      <text>Program and Project Design.</text>
+      <para>
+        <num>(1)</num>
+        <text>Program and project design including construction, procurement, and electric company contracting are factors in the electric companies’ mandate to provide safe and reliable service and a consideration in overall cost which shall be estimated in electric system plans.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Program and project design including construction, procurement, and electric company contracting decisions shall be left to electric company discretion in executing an electric system plan although these factors will remain subject to review in rate cases.</text>
+      </para>
+    </para>
+    <para>
+      <num>L.</num>
+      <text>Assess Results. An electric company shall account for the following considerations for each planning cycle:</text>
+      <para>
+        <num>(1)</num>
+        <text>An electric company shall assess the results of their electric system plans to determine lessons learned and changes to future planning assumptions.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Rate case filings shall provide explanations for projects that do not reconcile with electric system plans.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="20|50|15|.04">
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Electric System Plan, Annual Electric System Plan Update and Preliminary Electric System Plan: Development, Reporting, and Stakeholder Engagement Process.</heading>
+    <para>
+      <num>A.</num>
+      <text>Electric System Plan Frequency.</text>
+      <para>
+        <num>(1)</num>
+        <text>Electric companies shall retain flexibility to determine the frequency of their respective electric system plan that best aligns with their internal planning cycles and considerations based upon their unique processes, system characteristics, and customer needs.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>An electric company’s electric system plan publishing frequency shall be at least once every 3 years.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Electric companies shall publish a preliminary electric system plan and the electric system plan on the electric companies’ websites and file these plans with the Commission under the electric system plan docket assigned to each electric company.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>An electric company shall file an annual electric system plan update during the years in which a complete electric system plan is not filed.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>An electric company shall redact all confidential information from the electric system plan published to its website or otherwise submitted on a public basis, however, a full version of the electric system plan, including any confidential information, shall be filed with the Commission in accordance with the Commission’s rules for filing confidential material, unless otherwise restricted from doing so by applicable law.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Annual Electric System Plan Update.</text>
+      <para>
+        <num>(1)</num>
+        <text>Electric companies shall include the following annual electric system plan updates:</text>
+        <para>
+          <num>(a)</num>
+          <text>A narrative describing the existing planning and forecasting processes, current capabilities that exist, and plans for potential future improvements;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Relevant planning criteria utilized to identify system constraints;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Description of any new market or policy conditions that are impacting the planning environment and how they plan to incorporate them into future planning;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Description of any updates to system constraints or constraint solutions that may have changed from the previous year, including, but not limited to, updates on progress regarding projects and programs that have changed from the previous year and rationale for the change;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>A report using a common framework for electric company reporting as directed by the Commission, with information regarding the current status of projects designed to promote State policy goals identified in <cite doc="Md. Code" path="gpu|7-802">Public Utilities Article, §7-802, Annotated Code of Maryland</cite>, including information on planning processes and implementation that promote these goals; and</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Electric system plan targets and planning metrics pursuant to <cite path="|20|50|15|.05">Regulation .05 of this chapter</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Electric companies shall file an annual electric system plan update no less than 75 days prior to the annual technical conference.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>In the year an electric company files a preliminary electric system plan, an annual electric system plan update is not required.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Data Collection: Electric companies shall identify a discrete opportunity to collect stakeholder inputs for consideration in the electric system plan.</text>
+      <para>
+        <num>(1)</num>
+        <text>The electric company shall provide an overview of the already-collected data including data sources.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Electric companies shall provide a method for collecting this data.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Electric companies shall provide a list of the parties they engaged as part of their published electric system plan.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Align Inputs and Assumptions. Electric companies shall develop electric system planning inputs and assumptions or develop forecasts, scenarios, or other electric system planning criteria and identify a discrete opportunity for stakeholders and other persons to provide feedback.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>Run Analyses. Electric companies shall run analyses using data, planning inputs, and assumptions while considering stakeholder and other person feedback from §§C and D of this regulation and provide a preliminary electric system plan in years that an electric system plan is due.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Provide Preliminary Electric System Plan.</text>
+      <para>
+        <num>(1)</num>
+        <text>Electric companies shall include the following in their preliminary electric system plan:</text>
+        <para>
+          <num>(a)</num>
+          <text>Lessons learned and process improvements from the previous electric system plan cycle;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>A narrative describing the existing electric system planning process, current capabilities, and plans for potential future changes including the methodology used to develop aggregate electric distribution-level net load forecasts;</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Descriptions of electric system planning scenarios describing the data used as inputs and assumed adoption rates used for load and DER forecasting;</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>Summary of feedback received in §§C and D of this regulation;</text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Electric company response to feedback received in §§C and D of this regulation;</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>Any change in system constraints since the last electric system plan;</text>
+        </para>
+        <para>
+          <num>(g)</num>
+          <text>The nature, magnitude, and timing of system constraints;</text>
+        </para>
+        <para>
+          <num>(h)</num>
+          <text>System constraint solutions that have not yet been initiated as projects, including:</text>
+          <para>
+            <num>(i)</num>
+            <text>Projected timeline for solution implementation to address system constraints and policy targets over the forecast period; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Implementation interdependencies with current and identified system constraint solutions and other electric company projects;</text>
+          </para>
+        </para>
+        <para>
+          <num>(i)</num>
+          <text>Cost-effectiveness analysis for identified system constraint solutions, if applicable;</text>
+        </para>
+        <para>
+          <num>(j)</num>
+          <text>A description of the final methodology, inputs, and results of the analyses;</text>
+        </para>
+        <para>
+          <num>(k)</num>
+          <text>Locational value for each identified system constraint; and</text>
+        </para>
+        <para>
+          <num>(l)</num>
+          <text>Electric system plan targets and planning metrics pursuant to <cite path="|20|50|15|.05">Regulation .05 of this chapter</cite>.</text>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The preliminary electric system plan shall be published to align with the electric system plan frequency pursuant to <cite path="20|50|15|.04|A.">§A of this regulation</cite>.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>An electric company shall publish on its website and file with the Commission its preliminary electric system plan no less than 75 days prior to the annual technical conference.</text>
+      </para>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Comments Filed By Parties.</text>
+      <para>
+        <num>(1)</num>
+        <text>Comments shall be filed by any stakeholders or other persons no less than 30 days prior to the annual technical conference.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Stakeholders and electric companies shall have the opportunity to obtain discovery.</text>
+      </para>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>Annual Technical Conference. The annual technical conference shall provide a venue for stakeholders and other persons to comment on the assumptions, inputs, and results of the preliminary electric system plan and annual electric system plan update.</text>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>Electric Companies’ Consideration of Feedback.</text>
+      <para>
+        <num>(1)</num>
+        <text>The Commission may provide an order noting the preliminary electric system plan after an annual technical conference which may include direction for the electric companies.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Electric companies shall evaluate any feedback received from the Commission in any order following the annual technical conference.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Electric companies shall evaluate feedback received from stakeholders in §§C, D, G, and H of this regulation.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Within 90 days of the annual technical conference, except as otherwise required by the Commission, electric companies shall publish on their website and file a response to stakeholder and other person  feedback with the Commission, including what stakeholder and other person  proposals will be considered or not considered in the development of the electric system plan and the reasoning for these decisions under the electric system plan docket assigned to each electric company.</text>
+      </para>
+    </para>
+    <para>
+      <num>J.</num>
+      <text>Electric System Plan Publishing. Electric companies shall publish a final electric system plan under the electric system plan docket assigned to each electric company after the consideration of feedback in <cite path="|20|50|15|.04|I.">Regulation .04I of this chapter</cite>.</text>
+    </para>
+  </section>
+  <section cache:ref-path="20|50|15|.05">
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Electric System Planning Metrics.</heading>
+    <para>
+      <num>A.</num>
+      <text>An electric company shall include planning metrics listed in <cite path="20|50|15|.05|C.">§C of this regulation</cite> in its preliminary electric system plan and other planning metrics as determined by the Commission.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>An electric company shall include planning metrics listed in <cite path="20|50|15|.05|C.">§C of this regulation</cite> in its annual electric system plan update and other planning metrics as determined by the Commission.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>An electric company shall include in its preliminary electric system plan, electric system plan, and annual electric system plan update a set of planning metrics that will allow monitoring of progress in at minimum the following plan areas:</text>
+      <para>
+        <num>(1)</num>
+        <text>State goals and targets;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Reliability;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Resilience;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>DER integration, by DER category;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Load and demand management;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Hosting capacity;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>System constraint resolution including:</text>
+        <para>
+          <num>(a)</num>
+          <text>Substation overload conditions defined as overload conditions identified on substations that require remediation; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Feeder overload conditions defined as overload conditions identified on substations that require remediation;</text>
+        </para>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>NWS incorporation; and</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>Stakeholder and other person engagement.</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Legislative Reporting Requirements.</heading>
+    <para>
+      <num>A.</num>
+      <text>Annual Maryland General Assembly Report.</text>
+      <para>
+        <num>(1)</num>
+        <text>On or before November 1 annually, each electric company shall file material updates to project status reported pursuant to <cite path="|20|50|15|.04|B.|(1)|(e)">Regulation .04B(1)(e) of this chapter</cite>.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>On or before December 1 annually, the Commission’s Technical Staff shall submit a report to the Maryland General Assembly regarding the current status of projects designed to promote the State’s policy goals identified in <cite doc="Md. Code" path="gpu|7-802">Public Utilities Article, §7-802, Annotated Code of Maryland</cite>, including information on planning processes and implementation that promote these goals.</text>
+      </para>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Public Utilities Article, §§<cite doc="Md. Code" path="gpu|1-101">1-101</cite>, <cite doc="Md. Code" path="gpu|2-113">2-113</cite>, <cite doc="Md. Code" path="gpu|2-121">2-121</cite>, <cite doc="Md. Code" path="gpu|7-216">7-216</cite>, and <cite doc="Md. Code" path="gpu|7-801">7-801</cite>—<cite doc="Md. Code" path="gpu|7-804">7-804</cite>, Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="2025-11-24">Effective date: November 24, 2025 (52:23 Md. R. 1140)</annotation>
+  </annotations>
+</container>
