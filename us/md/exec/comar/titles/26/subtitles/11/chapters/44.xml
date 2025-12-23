@@ -1,0 +1,594 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>44</num>
+  <heading>Maryland Heating Fuel Provider Reporting Program</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Purpose.</heading>
+    <text>The purpose of this chapter is to establish reporting requirements for heating fuel providers of the amount of heating fuel delivered for final sale or consumption in the State.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Applicability.</heading>
+    <text>This chapter applies to heating fuel providers delivering heating fuel in the State.</text>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>“Biofuel” means a liquid fuel and blending components produced from biomass feedstocks.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>“Biomethane” means a mixture of methane and other gases produced by decomposing matter in an oxygen-free environment with the assistance of microbes.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Commercial Sector.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Commercial sector” means the part of the State’s economy that consists of service-providing facilities and equipment.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Commercial sector” includes:</text>
+          <para>
+            <num>(i)</num>
+            <text>Businesses;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Federal, state, and local government facilities;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Institutional living quarters;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Private and public organizations; and</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>Sewage treatment facilities.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>“Coal” means a combustible rock that includes carbonaceous material and is formed from plant remains that have been compacted, hardened, chemically altered, and metamorphosed by heat and pressure over geologic time.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>“Conservative missing data parameter” means data that are:</text>
+        <para>
+          <num>(a)</num>
+          <text>Substituted for missing data; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Known to result in an amount of reported cubic feet, gallons, or tons for a delivery of a heating fuel under <cite path="|26|11|44|.05">Regulation .05 of this chapter</cite> that is at least as large as the actual amount of the delivery.</text>
+        </para>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>“Deliver” means, regarding a heating fuel, to physically transfer, instruct or otherwise cause to be physically transferred.</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>“Department” means the Maryland Department of the Environment.</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>“Diesel fuel” means a fuel composed of distillates obtained in petroleum refining operations or blends of such distillates with residual oil used in motor vehicles.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>Electric Power Sector.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Electric power sector” means the part of the State’s economy whose primary business is to sell electricity, or electricity and heat, to the public.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Electric power sector” includes:</text>
+          <para>
+            <num>(i)</num>
+            <text>Electric generating stations; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Combined heat and power (CHP) plants.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>“Gallon” means a unit of volume (U.S. gallon) equaling 231 cubic inches.</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>Heating Fuel.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Heating fuel” means any material substance, whether solid, liquid, or gaseous, that can be used to supply heat.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Heating fuel” includes:</text>
+          <para>
+            <num>(i)</num>
+            <text>Biofuel;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Biomethane;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Coal;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Hydrogen;</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>Kerosene;</text>
+          </para>
+          <para>
+            <num>(vi)</num>
+            <text>Natural gas;</text>
+          </para>
+          <para>
+            <num>(vii)</num>
+            <text>No. 1 fuel oil;</text>
+          </para>
+          <para>
+            <num>(viii)</num>
+            <text>No. 2 fuel oil;</text>
+          </para>
+          <para>
+            <num>(ix)</num>
+            <text>No. 4 fuel oil;</text>
+          </para>
+          <para>
+            <num>(x)</num>
+            <text>No. 5 fuel oil;</text>
+          </para>
+          <para>
+            <num>(xi)</num>
+            <text>No. 6 fuel oil;</text>
+          </para>
+          <para>
+            <num>(xii)</num>
+            <text>Other fuel oil; and</text>
+          </para>
+          <para>
+            <num>(xiii)</num>
+            <text>Propane.</text>
+          </para>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>“Heating fuel” does not include:</text>
+          <para>
+            <num>(i)</num>
+            <text>Diesel fuel;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Motor gasoline;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Wood and wood-derived fuels; and</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Solid waste.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>“Heating fuel provider” means a person that delivers heating fuel for final sale or consumption in the State.</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>“Hydrogen fuel” means the use of hydrogen as a fuel source.</text>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>Industrial Sector.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Industrial sector” means the part of the State’s economy that consists of all facilities and equipment used for producing, processing, or assembling goods.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Industrial sector” includes the following types of activity:</text>
+          <para>
+            <num>(i)</num>
+            <text>Agriculture;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Construction;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Forestry;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Manufacturing;</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>Mining; and</text>
+          </para>
+          <para>
+            <num>(vi)</num>
+            <text>Oil and gas extraction.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(15)</num>
+        <text>Keronse.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Kerosene” means a light petroleum distillate that has a maximum distillation temperature of 400 degrees Fahrenheit at the 10-percent recovery point, a final boiling point of 572 degrees Fahrenheit, and a minimum flash point of 100 degrees Fahrenheit.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Kerosene” includes:</text>
+          <para>
+            <num>(i)</num>
+            <text>No. 1-K and No. 2-K, as defined in ASTM D3699-25; and</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Range or stove oil.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(16)</num>
+        <text>“Motor gasoline” means a complex mixture of relatively volatile hydrocarbons with or without small quantities of additives, blended to form a fuel suitable for use in spark-ignition engines and, as defined in ASTM D 4814-25 or Federal Specification VV-G-1690C, is characterized as having a boiling range of 122 to 158 degrees Fahrenheit at the 10 percent recovery point to 365 to 374 degrees Fahrenheit at the 90 percent recovery point.</text>
+      </para>
+      <para>
+        <num>(17)</num>
+        <text>“Natural gas” means a gaseous mixture of hydrocarbon compounds with methane as the primary compound and sufficient energy content and a small enough share of impurities for transport through commercial gas pipelines and sale to end-users.</text>
+      </para>
+      <para>
+        <num>(18)</num>
+        <text>“No. 1 fuel oil” means a light distillate fuel oil that has distillation temperatures of 400 degrees Fahrenheit at the 10-percent recovery point and 550 degrees Fahrenheit at the 90-percent recovery point and meets the specifications in ASTM D396-24.</text>
+      </para>
+      <para>
+        <num>(19)</num>
+        <text>“No. 2 fuel oil” means a distillate fuel oil that has distillation temperatures of 400 degrees Fahrenheit at the 10-percent recovery point and 640 degrees Fahrenheit at the 90-percent recovery point and meets the specifications in ASTM D396-24.</text>
+      </para>
+      <para>
+        <num>(20)</num>
+        <text>“No. 4 fuel oil” means fuel oil made by blending distillate fuel oil and residual fuel oil stocks and meeting the specifications in ASTM D396-24 or Federal Specification VV-F-815C.</text>
+      </para>
+      <para>
+        <num>(21)</num>
+        <text>“No. 5 fuel oil” means heavier oils that remain after the distillate fuel oils and lighter hydrocarbons are distilled away in refinery operations and that meet the specifications in ASTM D396-24, ASTM D975-24a, and Federal Specification VV-F-815C.</text>
+      </para>
+      <para>
+        <num>(22)</num>
+        <text>“No. 6 fuel oil” means the heaviest oils that remain after the distillate fuel oils and lighter hydrocarbons are distilled away in refinery operations and that meet the specifications in ASTM D396-24, ASTM D975-24a, and Federal Specification VV-F-815C.</text>
+      </para>
+      <para>
+        <num>(23)</num>
+        <text>“Other fuel oil” means a blend of fuel oils.</text>
+      </para>
+      <para>
+        <num>(24)</num>
+        <text>“Other energy-consuming sectors” means any consumption of heating fuel that is not associated with the commercial sector, electric power sector, industrial sector, or residential sector.</text>
+      </para>
+      <para>
+        <num>(25)</num>
+        <text>“Person” means any individual, corporation, partnership, association, joint-stock company, business trust, unincorporated organization, firm, company, limited liability company, government agency, or any other legal entity or form of organization.</text>
+      </para>
+      <para>
+        <num>(26)</num>
+        <text>Propane.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Propane” means a straight-chain, paraffinic hydrocarbon, C3H8, extracted from natural gas or refinery gas streams, which is gaseous at standard temperature and pressure, boils at a temperature of -44 degrees Fahrenheit, and meets the specifications in ASTM D1835-22.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Propane” includes HD-5 and HD-10, as defined in ASTM D1835-22.</text>
+        </para>
+      </para>
+      <para>
+        <num>(27)</num>
+        <text>“Residential sector” means the part of the State’s economy that consists of living quarters for private households.</text>
+      </para>
+      <para>
+        <num>(28)</num>
+        <text>“Ton” means a unit of weight equaling 2,000 pounds.</text>
+      </para>
+      <para>
+        <num>(29)</num>
+        <text>Wood and Wood-Derived Fuels.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Wood and wood-derived fuels” means wood and products derived from wood that are used as a fuel.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Wood and wood-derived fuels” include:</text>
+          <para>
+            <num>(i)</num>
+            <text>Round wood (also known as cord wood);</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Limb wood;</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>Wood chips;</text>
+          </para>
+          <para>
+            <num>(iv)</num>
+            <text>Bark;</text>
+          </para>
+          <para>
+            <num>(v)</num>
+            <text>Sawdust;</text>
+          </para>
+          <para>
+            <num>(vi)</num>
+            <text>Forest residues;</text>
+          </para>
+          <para>
+            <num>(vii)</num>
+            <text>Charcoal;</text>
+          </para>
+          <para>
+            <num>(viii)</num>
+            <text>Paper pellets;</text>
+          </para>
+          <para>
+            <num>(ix)</num>
+            <text>Railroad ties;</text>
+          </para>
+          <para>
+            <num>(x)</num>
+            <text>Utility poles;</text>
+          </para>
+          <para>
+            <num>(xi)</num>
+            <text>Black liquor;</text>
+          </para>
+          <para>
+            <num>(xii)</num>
+            <text>Red liquor;</text>
+          </para>
+          <para>
+            <num>(xiii)</num>
+            <text>Sludge wood;</text>
+          </para>
+          <para>
+            <num>(xiv)</num>
+            <text>Spent sulfite liquor;</text>
+          </para>
+          <para>
+            <num>(xv)</num>
+            <text>Densified biomass (which includes wood pellets); and</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(xvi)</num>
+        <text>Other wood-based solids and liquids..</text>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Incorporation by Reference.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following documents are incorporated by reference.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Documents Incorporated.</text>
+      <para>
+        <num>(1)</num>
+        <text>ASTM International, ASTM Designation D396-24, “Standard Specification for Fuel Oils”.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>ASTM International, ASTM Designation D3699-25, “Standard Specification for Kerosene”.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>ASTM International, ASTM Designation D975-24a, “Standard Specification for Diesel Fuel”.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>ASTM International, ASTM Designation D1835-22, “Standard Specification for Liquefied Petroleum (LP) Gases”.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>ASTM International, ASTM Designation D4814-25, “Standard Specification for Automotive Spark-Ignition Engine Fuel”.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Federal Specification VV-F-815C, “Federal Specification: Fuel Oil, Burner”.</text>
+      </para>
+    </para>
+  </section>
+  <section cache:ref-path="26|11|44|.05">
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Fuel Delivery Reports.</heading>
+    <para>
+      <num>A.</num>
+      <text>Beginning April 1, 2027, and annually thereafter, a heating fuel provider shall submit to the Department a fuel delivery report of any heating fuel that the provider delivered for final sale or consumption in the State during the previous calendar year.</text>
+      <para>
+        <num>(1)</num>
+        <text>The annual fuel delivery report required under this section shall contain:</text>
+        <para>
+          <num>(a)</num>
+          <text>The heating fuel provider’s name;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>The year covered by the report; and</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>The following information separated by each county and delineated by month:</text>
+          <para>
+            <num>(i)</num>
+            <text>Subject to subparagraph (iii) of this paragraph, the total amount of cubic feet, gallons, or tons of each heating fuel delivered by type, as specified in Table 1 of <cite path="26|11|44|.05|C.">§C of this regulation</cite>;</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>List the sector (i.e., commercial, electric power, industrial, residential, or other energy-consuming sectors) receiving the heating fuel as specified under <cite path="26|11|44|.05|A.|(1)|(c)|(i)">§A(1)(c)(i) of this regulation</cite>; and</text>
+          </para>
+          <para>
+            <num>(iii)</num>
+            <text>If the total amount or the amount for any delivery of a heating fuel is not specified in the heating fuel provider’s records, invoices, or other documentation, a conservative missing data parameter for the total amount for that product.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>The annual fuel delivery report shall include an attestation by the heating fuel provider that the report contains the required information, which is true and correct to the best available knowledge of the heating fuel provider.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>The annual report to be submitted pursuant to this section shall be submitted to the Department:</text>
+        <para>
+          <num>(a)</num>
+          <text>In an electronic format specified by the Department; and</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>No later than April 1 following the end of the previous year.</text>
+        </para>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Missing Data.</text>
+      <para>
+        <num>(1)</num>
+        <text>If a conservative missing data parameter is submitted pursuant to <cite path="26|11|44|.05|A.|(1)|(c)|(iii)">§A(1)(c)(iii) of this regulation</cite>, the heating fuel provider shall also submit documentation in the required report providing identification of, and explanation for, the data elements selected and utilized to develop the conservative missing data parameter.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>If a heating fuel provider fails to submit a complete fuel delivery report in accordance with <cite path="26|11|44|.05|A.|(1)">§A(1) of this regulation</cite>, the Department may assign, for each heating fuel specified in Table 1 of <cite path="26|11|44|.05|C.">§C of this regulation</cite>, an estimated amount of cubic feet, gallons, or tons at least as large as the amount actually delivered based on information that the Department deems relevant.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Heating Fuels.</text>
+      <text><strong>Table 1. Heating Fuels</strong>.</text>
+      <text>
+        <table>
+          <tbody>
+            <tr>
+              <td class="text-indent-1">Biofuel</td>
+            </tr>
+            <tr>
+              <td class="text-indent-1">Biomethane</td>
+            </tr>
+            <tr>
+              <td class="text-indent-1">Coal</td>
+            </tr>
+            <tr>
+              <td class="text-indent-1">Hydrogen Fuel</td>
+            </tr>
+            <tr>
+              <td class="text-indent-1">Kerosene</td>
+            </tr>
+            <tr>
+              <td class="text-indent-1">Biofuel</td>
+            </tr>
+            <tr>
+              <td class="text-indent-1">Natural Gas</td>
+            </tr>
+            <tr>
+              <td class="text-indent-1">No. 1 Fuel Oil</td>
+            </tr>
+            <tr>
+              <td class="text-indent-1">No. 2 Fuel Oil</td>
+            </tr>
+            <tr>
+              <td class="text-indent-1">No. 4 Fuel Oil</td>
+            </tr>
+            <tr>
+              <td class="text-indent-1">No. 5 Fuel Oil</td>
+            </tr>
+            <tr>
+              <td class="text-indent-1">No. 6 Fuel Oil</td>
+            </tr>
+            <tr>
+              <td class="text-indent-1">Other Fuel Oil</td>
+            </tr>
+            <tr>
+              <td class="text-indent-1">Propane</td>
+            </tr>
+            <tr>
+              <td class="text-indent-1">Other (specify)</td>
+            </tr>
+          </tbody>
+        </table>
+      </text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>Recordkeeping Requirements.</heading>
+    <para>
+      <num>A.</num>
+      <text>A person subject to this chapter shall maintain the following records for at least 5 years:</text>
+      <para>
+        <num>(1)</num>
+        <text>Copies of the annual reports submitted to the Department pursuant to <cite path="|26|11|44|.05">Regulation .05 of this chapter</cite>;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>All material received, reviewed, generated, or used to complete the report; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Any additional information requested by the Department.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A person shall provide, by request of the Department, the records required under this regulation.</text>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Environmental Article, §§1-404(b), 2-101(b), 2-103(b)(1), 2-301(a)(1), §2-1203, 2-1204.2 Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="2025-12-22">Effective date: December 22, 2025 (52:25 Md. R. 1269)</annotation>
+  </annotations>
+</container>
