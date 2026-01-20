@@ -1,0 +1,493 @@
+<?xml version='1.0' encoding='utf-8'?>
+<container xmlns="https://open.law/schemas/library" xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <prefix>Chapter</prefix>
+  <num>07</num>
+  <heading>Body-Worn Cameras</heading>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.01</num>
+    <heading>Purpose.</heading>
+    <para>
+      <num>A.</num>
+      <text>Body-worn cameras (BWC) promote accountability, safety, and transparency by providing an objective and documented record of interactions between correctional and community supervision professionals, and incarcerated individuals, supervised individuals, and members of the public.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>This chapter establishes regulations for correctional officers and community supervision agents, and provides procedures for the training, use, operation, maintenance and storage of BWC recordings.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Prior to implementing a BWC program, a correctional unit shall develop and maintain a written policy consistent with regulations of this chapter.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.02</num>
+    <heading>Definitions.</heading>
+    <para>
+      <num>A.</num>
+      <text>In this chapter, the following terms have the meanings indicated.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Terms Defined.</text>
+      <para>
+        <num>(1)</num>
+        <text>“Activation” means the process a correctional officer or a community supervision agent conducts to begin recording audio and video with a body-worn camera.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>“Body-Worn Camera (BWC)” has the meaning of the body-worn digital recording device stated in <cite doc="Md. Code" path="gcj|10-402">Courts and Judicial Proceedings Article, §10-402, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>“BWC equipment” means cameras, docking stations, system consoles, or any other accessories required for the use of the BWC.</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>“Community contact” means an interaction by a correctional officer or a community supervision agent with an individual to verify compliance with the conditions of release.</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>“Community supervision agent (agent)” means a mandated employee who supervises an individual placed on probation, or released on mandatory supervision, parole, or administrative release.</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Correctional Officer.</text>
+        <para>
+          <num>(a)</num>
+          <text>“Correctional officer” has the meaning stated in <cite doc="Md. Code" path="gcs|8-201">Correctional Services Article, §8-201, Annotated Code of Maryland</cite>.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>“Correctional officer” includes a mandated employee who is:</text>
+          <para>
+            <num>(i)</num>
+            <text>A community supervision agent; or</text>
+          </para>
+          <para>
+            <num>(ii)</num>
+            <text>Under the authority of the Commissioner of Correction, the Commissioner of Pretrial Detention and Services; or a managing official of a local correctional facility.</text>
+          </para>
+        </para>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>“Correctional unit” means a unit of State, county, or municipal government that is responsible under a statute, ordinance, or court order for the:</text>
+        <para>
+          <num>(a)</num>
+          <text>Investigation, care, custody, control, or supervision of an incarcerated individual; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Investigation and supervision of an individual placed on probation, or released on parole, administrative release, or mandatory supervision release.</text>
+        </para>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>“Critical incident” means any event or situation that creates a significant risk of disruption to the security or operations of a correctional unit or a significant risk of harm to the physical or mental health, safety or well-being of an individual.</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>“Evidence management system” is a secure database utilized to store, manage, investigate, and share multiple types of digital data captured from BWCs to establish an evidentiary chain of custody.</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>“Incarcerated individual” has the meaning as defined in <cite doc="Md. Code" path="gcs|1-101">Correctional Services Article, §1-101, Annotated Code of Maryland</cite>.</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>“Maryland Public Information Act (MPIA)” has the meaning stated in General Provisions Article, §§<cite doc="Md. Code" path="ggp|4-101">4-101</cite>― 4-601, Annotated Code of Maryland.</text>
+      </para>
+      <para>
+        <num>(12)</num>
+        <text>“Qualifying event” means a situation or event where a correctional officer or agent is required to activate their body-worn camera to capture audio and video recordings.</text>
+      </para>
+      <para>
+        <num>(13)</num>
+        <text>“Supervised individual” means a person:</text>
+        <para>
+          <num>(a)</num>
+          <text>Sentenced to probation;</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Released on parole or administrative release; or</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Released on mandatory supervision.</text>
+        </para>
+      </para>
+      <para>
+        <num>(14)</num>
+        <text>“Use of force” means the physical or other form of control by mandated employees to:</text>
+        <para>
+          <num>(a)</num>
+          <text>Defend themselves or others; or</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Restrain, subdue, or overcome resistance from or non-compliance of an individual.</text>
+        </para>
+      </para>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.03</num>
+    <heading>Program Oversight and Responsibility.</heading>
+    <para>
+      <num>A.</num>
+      <text>A correctional unit shall ensure supervisory oversight of the BWC program in compliance with these regulations.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A correctional unit shall ensure correctional officers or agents are wearing and using BWC equipment in accordance with agency policy.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A correctional unit shall ensure random reviews of recordings are performed to:</text>
+      <para>
+        <num>(1)</num>
+        <text>Confirm procedures are being followed;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Recognize opportunities for additional training; and</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Identify situations that may require procedural or operational changes.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>A correctional unit may designate an employee responsible for maintaining BWC systems and performing routine maintenance in accordance with the manufacturer’s guidelines.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.04</num>
+    <heading>Training.</heading>
+    <para>
+      <num>A.</num>
+      <text>A correctional unit shall ensure that correctional officers or agents assigned a BWC receive proper training on BWC use and operation pursuant to these regulations, manufacturer’s guidelines and all applicable laws and policies prior to using a BWC.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>BWC training shall include, but is not limited to the following topics:</text>
+      <para>
+        <num>(1)</num>
+        <text>Agency BWC policy;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Proper placement of camera;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>When recording is mandatory, prohibited, and discretionary;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>When recording notification and consent is required;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Secure storage, access, review and confidentiality of recordings;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Retention, dissemination and release of recordings;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Specific protections for reasonable expectation of privacy;</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Interactions with members of the public;</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>Buffering mode; and</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>Equipment operation, care and maintenance.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Video and audio recordings from BWCs used for training purposes shall be separately tagged from recordings of official daily operations as described in <cite path="|12|10|07|.11">Regulation .11 of this chapter</cite>.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.05</num>
+    <heading>Notification of Recordings.</heading>
+    <para>
+      <num>A.</num>
+      <text>A correctional officer working with only incarcerated individuals and other facility staff is not required to notify any individual in their immediate area that BWC equipment is in use.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A correctional officer or agent in the community shall notify supervised individuals and members of the public upon initial community contact that audio and video recordings of communications may be captured by a BWC.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>A correctional officer or agent is not required to provide notification that audio and video recordings of communications may be captured to an individual who becomes party to the communication after the initial notification has been provided.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.06</num>
+    <heading>General Operational Procedures.</heading>
+    <para>
+      <num>A.</num>
+      <text>A correctional unit shall determine which correctional officers or agents are responsible for wearing BWCs.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>In order to wear a BWC, a correctional officer or agent shall be clearly identifiable by:</text>
+      <para>
+        <num>(1)</num>
+        <text>Wearing clothing, a vest, or outer carrier that identifies the wearer as a correctional officer or agent; or</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Prominently displaying an agency issued badge or other official insignia.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Only agency-issued BWC equipment may be used to create recordings pursuant to these regulations.</text>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>Prior to the beginning of a shift, a correctional officer or agent shall perform a function test of the BWC in accordance with the manufacturer’s recommendations and agency policy.</text>
+      <para>
+        <num>(1)</num>
+        <text>A correctional officer or agent shall immediately notify a supervisor if the BWC is not functioning properly.</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>As soon as practicable, a correctional officer or agent shall return the malfunctioning BWC for repair or replacement.</text>
+      </para>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>The BWC shall be activated as soon as practicable during all qualifying events and shall not be deactivated until the completion of the qualifying event.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>A qualifying event is considered complete once all actions required by agency policy have been taken and the incident has ended, or a supervisor has determined the incident to be over.</text>
+    </para>
+    <para>
+      <num>G.</num>
+      <text>Qualifying event activations are required regardless of whether a fixed camera system is present in the area.</text>
+    </para>
+    <para>
+      <num>H.</num>
+      <text>Following the conclusion of a qualifying event as indicated in <cite path="|12|10|07|.07">Regulation .07 of this chapter</cite>, a correctional officer or agent shall:</text>
+      <para>
+        <num>(1)</num>
+        <text>Notify supervision of the activation of the BWC prior to the end of shift; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Complete any required documentation related to the activation in accordance with a correctional unit’s policy.</text>
+      </para>
+    </para>
+    <para>
+      <num>I.</num>
+      <text>At the conclusion of a shift or work assignment, a correctional officer or agent shall upload the BWC recordings into the evidence management system.</text>
+    </para>
+    <para>
+      <num>J.</num>
+      <text>After a BWC recording has been docked and uploaded into the evidence management system, the BWC recording shall be reviewed, tagged, and categorized in accordance with agency policy.</text>
+    </para>
+    <para>
+      <num>K.</num>
+      <text>A correctional officer or agent shall document any deviation from regulations of this chapter or a correctional unit’s BWC policy.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.07</num>
+    <heading>Qualifying Events—Mandatory Recording.</heading>
+    <para>
+      <num>A.</num>
+      <text>A qualifying event requires activation of the BWC as soon as safe and reasonably practicable to do so.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>The following constitute qualifying events:</text>
+      <para>
+        <num>(1)</num>
+        <text>Critical incidents;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Use of force situations;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Interactions with aggressive or agitated individuals; and</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Community contacts conducted by a correctional officer or agent.</text>
+      </para>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>An agency may include other events as qualifying events as long as they are not prohibited under <cite path="|12|10|07|.08">Regulation .08 of this chapter</cite>.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.08</num>
+    <heading>Prohibited Use of BWCs.</heading>
+    <para>
+      <num>A.</num>
+      <text>Except for purposes authorized in <cite path="|12|10|07|.07">Regulation .07 of this chapter</cite>, the BWC shall not be activated anywhere there is a reasonable expectation of privacy, including but not limited to:</text>
+      <para>
+        <num>(1)</num>
+        <text>Toilets and showers while in use;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Strip searches;</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Substance use testing;</text>
+      </para>
+      <para>
+        <num>(4)</num>
+        <text>Attorney-client visits;</text>
+      </para>
+      <para>
+        <num>(5)</num>
+        <text>Interactions with clergy;</text>
+      </para>
+      <para>
+        <num>(6)</num>
+        <text>Confidential communication with or treatment by a medical practitioner regarding physical, mental, and dental health;</text>
+      </para>
+      <para>
+        <num>(7)</num>
+        <text>Courtrooms and court facilities except as permitted by court rules and guidelines of the local Administrative Judge or presiding judge;</text>
+      </para>
+      <para>
+        <num>(8)</num>
+        <text>Administrative investigations or hearings regarding personnel matters;</text>
+      </para>
+      <para>
+        <num>(9)</num>
+        <text>Interviews with confidential informants;</text>
+      </para>
+      <para>
+        <num>(10)</num>
+        <text>Conversations with other employees during non-job related activities, including work breaks; and</text>
+      </para>
+      <para>
+        <num>(11)</num>
+        <text>Discussions, meetings, or other official business outside the presence of an incarcerated individual, a supervised individual, or a member of the public.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>In order to safeguard a correctional officer or agent’s privacy, a correctional officer or agent may place a BWC in sleep mode or completely power off the BWC when using locker rooms or restroom facilities.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.09</num>
+    <heading>Discretionary Use of BWCs.</heading>
+    <para>
+      <num>A.</num>
+      <text>A correctional unit may direct correctional officers and agents to activate BWCs when not otherwise prohibited to record:</text>
+      <para>
+        <num>(1)</num>
+        <text>Witness interviews, pursuant to agency policy on recording witness interviews using a BWC;</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Events or circumstances where a correctional officer or agent reasonably determines that BWC recording is necessary to ensure public safety; or</text>
+      </para>
+      <para>
+        <num>(3)</num>
+        <text>Cell searches, clothed frisk searches of employees, visitors, and incarcerated individuals, and facility searches in accordance with a correctional unit’s policy.</text>
+      </para>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A correctional officer or agent shall receive consent from an individual being recorded if required by law.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Following the conclusion of a discretionary use of the BWC, a correctional officer or agent shall follow the procedures outlined in <cite path="|12|10|07|.06">Regulation .06 of this chapter</cite>.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.10</num>
+    <heading>Access, Storage, and Retention of BWC Video.</heading>
+    <para>
+      <num>A.</num>
+      <text>Recordings or photographs made with agency-issued BWC equipment are subject to the Maryland Public Information Act (MPIA).</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>Pursuant to a correctional unit’s policy, only authorized individuals are permitted to edit, alter, delete, copy, share, or otherwise distribute any BWC recordings.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>Each correctional unit’s written policy shall include standards and procedures that address:</text>
+      <para>
+        <num>(1)</num>
+        <text>Security and access control; and</text>
+      </para>
+      <para>
+        <num>(2)</num>
+        <text>Creation of an audit trail and access logs.</text>
+      </para>
+    </para>
+    <para>
+      <num>D.</num>
+      <text>A BWC recording shall be uploaded and stored in a secured manner consistent with agency policy.</text>
+    </para>
+    <para>
+      <num>E.</num>
+      <text>A BWC recording made under Regulation .07 or .09 of this chapter shall be retained for the later of 3 years or the time required under all applicable laws and agency retention schedules.</text>
+    </para>
+    <para>
+      <num>F.</num>
+      <text>Strict digital security procedures shall be established by a correctional unit for storing BWC recordings to prevent unauthorized access, tampering, or deletion.</text>
+    </para>
+  </section>
+  <section>
+    <prefix>Regulation</prefix>
+    <num>.11</num>
+    <heading>Dissemination and Release of Recordings.</heading>
+    <para>
+      <num>A.</num>
+      <text>BWC recordings and related information subject to the MPIA shall be disseminated in accordance with the MPIA.</text>
+    </para>
+    <para>
+      <num>B.</num>
+      <text>A correctional unit shall consult with counsel as necessary in responding to a MPIA request.</text>
+    </para>
+    <para>
+      <num>C.</num>
+      <text>If a BWC recording is associated with a criminal investigation, the correctional unit shall consult with a criminal investigative unit or prosecuting attorney prior to release.</text>
+    </para>
+  </section>
+  <annotations>
+    <annotation type="Authority" dest="container">Correctional Services Article, §§<cite doc="Md. Code" path="gcs|2-109">2-109</cite> and <cite doc="Md. Code" path="gcs|8-211">8-211</cite>; Courts of Judicial Proceedings Article, §10-402; Annotated Code of Maryland</annotation>
+    <annotation type="History" dest="container" effective="2026-01-05">Effective date: January 5, 2026 (52:26 Md. R. 1310)</annotation>
+  </annotations>
+</container>
