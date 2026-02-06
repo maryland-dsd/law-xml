@@ -11,11 +11,7 @@ init:
   # Select the correct image and container name
   - sh: |
       IMAGE_NAME="ghcr.io/openlawlibrary/platform/archive-automation";
-      if [[ "${IS_DEVELOPMENT}" == "True" ]]; then
-        CONTAINER_NAME="oll-archive-automation-${APPVEYOR_PROJECT_SLUG}-${APPVEYOR_BUILD_NUMBER}";
-      else
-        CONTAINER_NAME="oll-archive-automation-${APPVEYOR_PROJECT_SLUG}-${APPVEYOR_BUILD_NUMBER}";
-      fi
+      CONTAINER_NAME="oll-archive-automation-${APPVEYOR_PROJECT_SLUG}-${APPVEYOR_BUILD_NUMBER}";
   # SELECT THE IMAGE TAG
   - sh: |
       if [[ -n "${DOCKER_IMG_TAG}" ]]; then
@@ -38,18 +34,32 @@ before_build:
           docker rm $CONTAINER_NAME;
         fi
       fi
-  # Dump all environment variables to 'env.list' file, this file will be used for starting container.
+  # Dump all environment variables that are important to 'env.list' file, this file will be used for starting container.
   - sh: |
-      for var in $(declare -p | grep "^declare \-" | cut -d' ' -f3-); do
-        echo $var >> env.list
-      done
+      touch env.list
+      skip_env_vars=("SHELL" "__appveyor_value" "MACHTYPE" "HOSTNAME" "CI_WINDOWS" "SHELLOPTS" "BASH_LINENO" "CI_MACOS" "ENABLENUGETPACKAGERESTORE" "BASH_ALIASES" "BASHOPTS" "DIRSTACK" "EUID" "LOGNAME" "DOTNET_TOOLS_PATH" "__appveyor_pipe_out" "__appveyor_line" "OPTIND" "CI_LINUX" "BASH_VERSION" "SYSTEMD_EXEC_PID" "BASH" "LINES" "HOME" "LANG" "COLUMNS" "OSTYPE" "PIPESTATUS" "INVOCATION_ID" "IMAGE_NAME" "BASH_ARGC" "snap_xdg_path" "DOTNET_BUNDLE_EXTRACT_BASE_DIR" "BASH_ARGV" "mode" "BASH_CMDS" "__appveyor_result" "TERM" "USER" "DOTNET_SYSTEM_GLOBALIZATION_INVARIANT" "__appveyor_key" "SHLVL" "__appveyor_pipe_in" "CI_FREEBSD" "BASH_SOURCE" "IFS" "BASH_REMATCH" "PS4" "JOURNAL_STREAM" "OPTERR" "XDG_DATA_DIRS" "PATH" "CI" "__appveyor_cmd" "BUILT" "GROUPS" "set_builtins" "HOSTTYPE" "UID" "snap_bin_path" "BASHPID" "BASH_ARGV0" "BASH_COMMAND" "BASH_SUBSHELL" "BASH_VERSINFO" "COMP_WORDBREAKS" "EPOCHREALTIME" "EPOCHSECONDS" "FUNCNAME" "HISTCMD" "LINENO" "OLDPWD" "RANDOM" "SECONDS" "SRANDOM" "skip_env_vars")
+      while IFS='=' read -r var_name var_value; do
+        if [[ ${#var_name} -lt 6 ]]; then
+          continue
+        fi
+        skip="False"
+        for skip_var in "${skip_env_vars[@]}"; do
+          if [[ "${var_name}" == "${skip_var}" ]]; then
+            skip="True"
+            break
+          fi
+        done
+        if [[ "${skip}" == "False" ]]; then
+          echo "${var_name}=${var_value}" >> env.list
+        fi
+      done < <(env)
 
 build_script:
   - sh: |
       docker run --rm \
         --env-file env.list \
-        --device=/dev/ttyUSB0 \
-        --name "${CONTAINER_NAME}" --cap-add SYS_ADMIN --privileged "${IMAGE_NAME}:${IMAGE_TAG}"
+        -e GPG_TTY=tty -v /dev/bus/usb:/dev/bus/usb -v /run/pcscd/pcscd.comm:/run/pcscd/pcscd.comm \
+        --name "${CONTAINER_NAME}" --privileged "${IMAGE_NAME}:${IMAGE_TAG}"
 
 on_finish:
   - sh: |
