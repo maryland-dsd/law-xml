@@ -1385,14 +1385,8 @@
       </container>
       <container codify:applicability="2025-11-25" codify:expire="2026-05-24">
         <num>25-138-E</num>
-        <codify:remove history="false" doc="Code of Maryland Regulations" path="26|04|12|.01" warning="false"/>
-        <codify:remove history="false" doc="Code of Maryland Regulations" path="26|04|12|.02" warning="false"/>
-        <codify:remove history="false" doc="Code of Maryland Regulations" path="26|04|12|.03" warning="false"/>
-        <codify:remove history="false" doc="Code of Maryland Regulations" path="26|04|12|.04" warning="false"/>
-        <codify:remove history="false" doc="Code of Maryland Regulations" path="26|04|12|.05" warning="false"/>
-        <codify:remove history="false" doc="Code of Maryland Regulations" path="26|04|12|.06" warning="false"/>
-        <codify:remove history="false" doc="Code of Maryland Regulations" path="26|04|12|.07" warning="false"/>
-        <codify:replace history="false" doc="Code of Maryland Regulations" path="26|04|12|annos">
+        <codify:repeal history="false" doc="Code of Maryland Regulations" path="26|04|12"/>
+        <codify:replace-or-insert history="false" doc="Code of Maryland Regulations" path="26|04|12|annos">
           <annotations>
             <annotation managed="false" type="Authority" dest="container"><cite doc="Md. Code" path="gen|9-217">Environment Article, §9-217</cite>.2, Annotated Code of Maryland</annotation>
             <annotation managed="false" type="History" subtype="Administrative History" dest="container">Effective date:</annotation>
@@ -1400,7 +1394,7 @@
             <annotation managed="false" type="History" subtype="Administrative History" dest="container" effective="2023-08-21">Regulations <cite path="|26|04|12|.01" doc="Code of Maryland Regulations">.01</cite>—<cite path="|26|04|12|.07" doc="Code of Maryland Regulations">.07</cite> adopted effective August 21, 2023 (50:16 Md. R. 728)</annotation>
             <annotation managed="false" type="History" subtype="Administrative History" dest="container" effective="2025-11-25">Regulations <cite path="|26|04|12|.01" doc="Code of Maryland Regulations">.01</cite> — <cite path="|26|04|12|.07" doc="Code of Maryland Regulations">.07</cite> repealed as an emergency provision effective November 25, 2025 (52:26 Md. R. 1306)</annotation>
           </annotations>
-        </codify:replace>
+        </codify:replace-or-insert>
         <codify:insert history="false" doc="Code of Maryland Regulations" path="26">
           <container>
             <prefix>Subtitle</prefix>
